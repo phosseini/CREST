@@ -1,2 +1,1 @@
-# CREST
-A Causal Relations Schema for Text
+# CREST: A Causal RElations Schema for Text
