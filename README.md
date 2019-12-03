@@ -2,7 +2,7 @@
 
 CREST is created to help researchers working on causal/counterfactual relations extraction in natural language to communicate easier with each other. We invite researchers who create new and valuable data resources to contribute to CREST by writing a method to convert their data to this schema.
 
-### Availbale Data Resources
+### Available Data Resources
 List of data resources already converted to CREST format:
 
 
