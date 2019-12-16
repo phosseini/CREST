@@ -15,6 +15,6 @@ List of data resources already converted to CREST format:
 | 5 | Crowdsourcing-StoryLines 1.2 | 1540 | Public |
 | 6 | CaTeRS | 203 | Public |
 | 7 | BECAUSE v2.1 | 633 | Partially Public|
-
+| 8 | Crowdsourcing-StoryLines 1.5 | 104 | Public |
 
 
