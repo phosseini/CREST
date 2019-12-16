@@ -32,6 +32,7 @@ class CausalDataReader:
         self.storyline_code = 5
         self.caters_code = 6
         self.because_code = 7
+        self.storyline_v15_code = 8
 
     def load_snorkel_data(self, n_train=11000, n_sample=210):
         """
@@ -575,6 +576,110 @@ class CausalDataReader:
             print("[datareader-story-line-log] err: " + str(err))
         return pd.DataFrame(data, columns=self.scheme_columns)
 
+    def read_story_lines_v_1_5(self):
+        """
+        reading causal and non-causal samples from EventStoryLines v1.5
+        """
+
+        def get_tagged_sentence(tokens, sentences, markables, relation):
+            """
+            getting arguments text spans and tagged sentence
+            :param tokens: tokens in document
+            :param sentences: sentences in document
+            :param markables: tagged events in document
+            :param relation: causal and non-causal relation info
+            :return:
+            """
+            source_m_id = relation['source']
+            target_m_id = relation['target']
+
+            sentence_text = ""
+            source_text = ""
+            target_text = ""
+            sent_ids = set()
+            for item in markables[source_m_id]:
+                source_text += tokens[item.attrib['t_id']]['text'] + " "
+                sent_ids.add(tokens[item.attrib['t_id']]['s_id'])
+            for item in markables[target_m_id]:
+                target_text += tokens[item.attrib['t_id']]['text'] + " "
+                sent_ids.add(tokens[item.attrib['t_id']]['s_id'])
+            for sen_id in sent_ids:
+                sentence_text += sentences[sen_id]
+
+            arg1 = source_text.replace('\n', ' ').strip()
+            arg2 = target_text.replace('\n', ' ').strip()
+
+            return arg1, arg2, self.get_tagged_sentence(arg1, arg2, sentence_text).strip()
+
+        docs_path = self.dir_path + "EventStoryLine/annotated_data/v1.5"
+
+        # creating a dictionary of all documents
+        data_idx = 1
+        data = []
+        err = 0
+        for folder in os.listdir(docs_path):
+            if not any(sub in folder for sub in [".txt", ".DS_Store"]):
+                for doc in os.listdir(docs_path + "/" + folder):
+                    if ".xml" in doc:
+                        # initialization
+                        doc_sentences = {}
+                        relations_info = {}
+                        markables_info = {}
+                        tokens_info = {}
+
+                        # parse the doc to retrieve info of sentences
+                        tree = ET.parse(docs_path + "/" + folder + "/" + doc)
+                        root = tree.getroot()
+                        current_sentence = ""
+                        current_sentence_id = -1
+
+                        for token in root.findall('token'):
+                            # saving token info
+                            tokens_info[token.attrib['t_id']] = {'text': token.text, 's_id': token.attrib['sentence']}
+
+                            if token.attrib['sentence'] != current_sentence_id and current_sentence_id != -1:
+                                doc_sentences[current_sentence_id] = current_sentence.strip()
+                                current_sentence = ""
+                            current_sentence_id = token.attrib['sentence']
+                            current_sentence += token.text + " "
+                        # saving the last sentence
+                        doc_sentences[current_sentence_id] = current_sentence.strip()
+
+                        # saving relations info
+                        rel_idx = 0
+                        for relation in root.findall("Relations/PLOT_LINK"):
+                            if all(rel_type in relation.attrib for rel_type in ['CAUSES', 'CAUSED_BY']) and relation.attrib['validated'] == "TRUE":
+                                if relation.attrib['CAUSES'] == "TRUE":
+                                    label = 1
+                                    direction = 0
+                                elif relation.attrib['CAUSED_BY'] == "TRUE":
+                                    label = 1
+                                    direction = 1
+                                else:
+                                    label = 0
+                                    direction = 0
+
+                                relations_info[rel_idx] = {'source': relation[0].attrib['m_id'], 'target': relation[1].attrib['m_id'], 'label': label, 'direction': direction}
+                                rel_idx += 1
+
+                        # saving markables info
+                        for markable in root.findall("Markables/"):
+                            markables_info[markable.attrib['m_id']] = markable
+
+                        # storing causal and non-causal info
+                        try:
+                            for k, v in relations_info.items():
+                                e1_tokens, e2_tokens, sentence = get_tagged_sentence(tokens_info, doc_sentences, markables_info, v)
+                                if sentence != "":
+                                    data.append([data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), v['direction'], v['label'], self.storyline_v15_code, "", ""])
+                                    data_idx += 1
+                        except Exception as e:
+                            print(str(e))
+                            err += 1
+        if err > 0:
+            print("[datareader-story-line-v1.5-log] err: " + str(err))
+        return pd.DataFrame(data, columns=self.scheme_columns)
+
     def read_CaTeRS(self):
 
         folders_path = self.dir_path + "caters/caters_evaluation/"
@@ -860,573 +965,6 @@ class CausalDataReader:
                doc_text[e1_end:e2_start] + self.arg2_tag[0] + doc_text[e2_start:e2_end] + self.arg2_tag[1] + \
                doc_text[e2_end:]
 
-    def read_causal_connectives(self):
-        """
-        reading causal connectives other than those from well-known resources
-        :return:
-        """
-        contingency_cause_word = {}
-        contingency_cause_count = {}
-        contingency_cause_type = {}  # 0: explicit, 1: implicit, 2: explicit and implicit
-        contingency_cause_temporal = {}  # 0: not temporal, 1: temporal and causal
-        contingency_cause_flag = {}  # 0: reason, 1: result, 2: reason and result
-
-        contingency_cause_word[0] = "cause"
-        contingency_cause_count[0] = -1
-        contingency_cause_type[0] = 0
-        contingency_cause_temporal[0] = 0
-        contingency_cause_flag[0] = 0
-
-        df = pd.DataFrame(columns=self.connective_columns)
-
-        for key, value in contingency_cause_word.items():
-            df = df.append(pd.DataFrame([[value,
-                                          contingency_cause_count[key],
-                                          contingency_cause_type[key],
-                                          contingency_cause_temporal[key],
-                                          contingency_cause_flag[key]]], columns=self.connective_columns), ignore_index=True)
-
-        return df
-
-    def read_PDTB_causal_connectors(self, n_min=0):
-        """
-        getting a list of all contingency cause/reason, explicit/implicit connectors from Penn Discourse TreeBank (PDTB) 3.0
-        :return:
-        """
-        # TODO: putting information in dictionaries not by hard coding the indexes.
-        # list of causal connectors based on PDTB 3.0
-        # commented numbers above the lines are the frequency of words when they are "implicit" connectors
-        contingency_cause_word = {}
-        contingency_cause_count = {}
-        contingency_cause_type = {}  # 0: explicit, 1: implicit, 2: explicit and implicit
-        contingency_cause_temporal = {}  # 0: not temporal, 1: temporal and causal
-        contingency_cause_flag = {}  # 0: reason, 1: result, 2: reason and result
-
-        # --------------------------------
-        # explicit and implicit connectors
-        # --------------------------------
-        contingency_cause_word[0] = "about"
-        contingency_cause_count[0] = 2
-        contingency_cause_type[0] = 0
-        contingency_cause_temporal[0] = 0
-        contingency_cause_flag[0] = 0
-
-        # 86
-        contingency_cause_word[1] = "accordingly"
-        contingency_cause_count[1] = 91
-        contingency_cause_type[1] = 2
-        contingency_cause_temporal[1] = 0
-        contingency_cause_flag[1] = 1
-
-        contingency_cause_word[2] = "after"
-        contingency_cause_count[2] = 56
-        contingency_cause_type[2] = 0
-        contingency_cause_temporal[2] = 1
-        contingency_cause_flag[2] = 0
-
-        # 337
-        contingency_cause_word[3] = "as"
-        contingency_cause_count[3] = 686
-        contingency_cause_type[3] = 2
-        contingency_cause_temporal[3] = 1
-        contingency_cause_flag[3] = 0  # because it's "result" in only 1 case
-
-        # 761
-        contingency_cause_word[4] = "as a result"
-        contingency_cause_count[4] = 839
-        contingency_cause_type[4] = 2
-        contingency_cause_temporal[4] = 0
-        contingency_cause_flag[4] = 1
-
-        # 2059
-        contingency_cause_word[5] = "because"
-        contingency_cause_count[5] = 2892
-        contingency_cause_type[5] = 2
-        contingency_cause_temporal[5] = 0
-        contingency_cause_flag[5] = 0
-
-        contingency_cause_word[6] = "by"
-        contingency_cause_count[6] = 10
-        contingency_cause_type[6] = 0
-        contingency_cause_temporal[6] = 0
-        contingency_cause_flag[6] = 0
-
-        contingency_cause_word[7] = "by then"
-        contingency_cause_count[7] = 1
-        contingency_cause_type[7] = 0
-        contingency_cause_temporal[7] = 1
-        contingency_cause_flag[7] = 0
-
-        # 213
-        contingency_cause_word[8] = "consequently"
-        contingency_cause_count[8] = 223
-        contingency_cause_type[8] = 2
-        contingency_cause_temporal[8] = 0
-        contingency_cause_flag[8] = 1
-
-        contingency_cause_word[9] = "due to"
-        contingency_cause_count[9] = 1
-        contingency_cause_type[9] = 0
-        contingency_cause_temporal[9] = 0
-        contingency_cause_flag[9] = 0
-
-        # 1
-        contingency_cause_word[10] = "finally"
-        contingency_cause_count[10] = 2
-        contingency_cause_type[10] = 2
-        contingency_cause_temporal[10] = 1
-        contingency_cause_flag[10] = 1
-
-        contingency_cause_word[11] = "for"
-        contingency_cause_count[11] = 35
-        contingency_cause_type[11] = 2
-        contingency_cause_temporal[11] = 0
-        contingency_cause_flag[11] = 0
-
-        contingency_cause_word[12] = "from"
-        contingency_cause_count[12] = 2
-        contingency_cause_type[12] = 0
-        contingency_cause_temporal[12] = 0
-        contingency_cause_flag[12] = 0
-
-        # 16
-        contingency_cause_word[13] = "hence"
-        contingency_cause_count[13] = 21
-        contingency_cause_type[13] = 2
-        contingency_cause_temporal[13] = 0
-        contingency_cause_flag[13] = 1
-
-        # 4
-        contingency_cause_word[14] = "in"
-        contingency_cause_count[14] = 5
-        contingency_cause_type[14] = 2
-        contingency_cause_temporal[14] = 0
-        contingency_cause_flag[14] = 0
-
-        # 4
-        contingency_cause_word[15] = "in the end"
-        contingency_cause_count[15] = 6
-        contingency_cause_type[15] = 2
-        contingency_cause_temporal[15] = 0
-        contingency_cause_flag[15] = 1
-
-        # 4
-        contingency_cause_word[16] = "indeed"
-        contingency_cause_count[16] = 5
-        contingency_cause_type[16] = 2
-        contingency_cause_temporal[16] = 0
-        contingency_cause_flag[16] = 2
-
-        # 2
-        contingency_cause_word[17] = "insofar as"
-        contingency_cause_count[17] = 3
-        contingency_cause_type[17] = 2
-        contingency_cause_temporal[17] = 0
-        contingency_cause_flag[17] = 0
-
-        contingency_cause_word[18] = "not only because of"
-        contingency_cause_count[18] = 1
-        contingency_cause_type[18] = 0
-        contingency_cause_temporal[18] = 0
-        contingency_cause_flag[18] = 0
-
-        contingency_cause_word[19] = "now that"
-        contingency_cause_count[19] = 19
-        contingency_cause_type[19] = 0
-        contingency_cause_temporal[19] = 1
-        contingency_cause_flag[19] = 0
-
-        contingency_cause_word[20] = "on"
-        contingency_cause_count[20] = 1
-        contingency_cause_type[20] = 0
-        contingency_cause_temporal[20] = 0
-        contingency_cause_flag[20] = 0
-
-        contingency_cause_word[21] = "once"
-        contingency_cause_count[21] = 7
-        contingency_cause_type[21] = 0
-        contingency_cause_temporal[21] = 1
-        contingency_cause_flag[21] = 0
-
-        # 206
-        contingency_cause_word[22] = "since"
-        contingency_cause_count[22] = 313
-        contingency_cause_type[22] = 2
-        contingency_cause_temporal[22] = 1
-        contingency_cause_flag[22] = 0
-
-        # 989
-        contingency_cause_word[23] = "so"
-        contingency_cause_count[23] = 1211
-        contingency_cause_type[23] = 2
-        contingency_cause_temporal[23] = 0
-        contingency_cause_flag[23] = 2
-
-        # 2
-        contingency_cause_word[24] = "so that"
-        contingency_cause_count[24] = 12
-        contingency_cause_type[24] = 2
-        contingency_cause_temporal[24] = 0
-        contingency_cause_flag[24] = 1
-
-        # 3
-        contingency_cause_word[25] = "then"
-        contingency_cause_count[25] = 15
-        contingency_cause_type[25] = 2
-        contingency_cause_temporal[25] = 1
-        contingency_cause_flag[25] = 1
-
-        contingency_cause_word[26] = "thereby"
-        contingency_cause_count[26] = 9
-        contingency_cause_type[26] = 0
-        contingency_cause_temporal[26] = 0
-        contingency_cause_flag[26] = 1
-
-        # 326
-        contingency_cause_word[27] = "therefore"
-        contingency_cause_count[27] = 352
-        contingency_cause_type[27] = 2
-        contingency_cause_temporal[27] = 0
-        contingency_cause_flag[27] = 1
-
-        # 388
-        contingency_cause_word[28] = "thus"
-        contingency_cause_count[28] = 499
-        contingency_cause_type[28] = 2
-        contingency_cause_temporal[28] = 0
-        contingency_cause_flag[28] = 1
-
-        # 3
-        contingency_cause_word[29] = "ultimately"
-        contingency_cause_count[29] = 5
-        contingency_cause_type[29] = 2
-        contingency_cause_temporal[29] = 1
-        contingency_cause_flag[29] = 2
-
-        contingency_cause_word[30] = "upon"
-        contingency_cause_count[30] = 3
-        contingency_cause_type[30] = 0
-        contingency_cause_temporal[30] = 1
-        contingency_cause_flag[30] = 0
-
-        contingency_cause_word[31] = "when"
-        contingency_cause_count[31] = 179
-        contingency_cause_type[31] = 0
-        contingency_cause_temporal[31] = 1
-        contingency_cause_flag[31] = 0  # because it's "result" in only 3 cases.
-
-        # 2
-        contingency_cause_word[32] = "with"
-        contingency_cause_count[32] = 111
-        contingency_cause_type[32] = 2
-        contingency_cause_temporal[32] = 0
-        contingency_cause_flag[32] = 0
-
-        contingency_cause_word[33] = "without"
-        contingency_cause_count[33] = 2
-        contingency_cause_type[33] = 0
-        contingency_cause_temporal[33] = 0
-        contingency_cause_flag[33] = 2
-
-        # 2
-        contingency_cause_word[34] = "and"
-        contingency_cause_count[34] = 11
-        contingency_cause_type[34] = 2
-        contingency_cause_temporal[34] = 0
-        contingency_cause_flag[34] = 2
-
-        # 66
-        contingency_cause_word[35] = "because of"
-        contingency_cause_count[35] = 78
-        contingency_cause_type[35] = 2
-        contingency_cause_temporal[35] = 0
-        contingency_cause_flag[35] = 0
-
-        # 46
-        contingency_cause_word[36] = "given"
-        contingency_cause_count[36] = 52
-        contingency_cause_type[36] = 2
-        contingency_cause_temporal[36] = 0
-        contingency_cause_flag[36] = 0
-
-        # --------------------
-        # implicit connectors
-        # --------------------
-
-        contingency_cause_word[37] = "but"
-        contingency_cause_count[37] = 7
-        contingency_cause_type[37] = 1
-        contingency_cause_temporal[37] = 0
-        contingency_cause_flag[37] = 1
-
-        contingency_cause_word[38] = "although"
-        contingency_cause_count[38] = 1
-        contingency_cause_type[38] = 1
-        contingency_cause_temporal[38] = 0
-        contingency_cause_flag[38] = 0
-
-        contingency_cause_word[39] = "as a result of"
-        contingency_cause_count[39] = 100
-        contingency_cause_type[39] = 1
-        contingency_cause_temporal[39] = 0
-        contingency_cause_flag[39] = 0
-
-        contingency_cause_word[40] = "as a result of being"
-        contingency_cause_count[40] = 84
-        contingency_cause_type[40] = 1
-        contingency_cause_temporal[40] = 0
-        contingency_cause_flag[40] = 0
-
-        contingency_cause_word[41] = "as a result of having"
-        contingency_cause_count[41] = 1
-        contingency_cause_type[41] = 1
-        contingency_cause_temporal[41] = 0
-        contingency_cause_flag[41] = 0
-
-        contingency_cause_word[42] = "because it was"
-        contingency_cause_count[42] = 1
-        contingency_cause_type[42] = 1
-        contingency_cause_temporal[42] = 0
-        contingency_cause_flag[42] = 0
-
-        contingency_cause_word[43] = "thus being"
-        contingency_cause_count[43] = 1
-        contingency_cause_type[43] = 1
-        contingency_cause_temporal[43] = 0
-        contingency_cause_flag[43] = 1
-
-        contingency_cause_word[44] = "because of being"
-        contingency_cause_count[44] = 4
-        contingency_cause_type[44] = 1
-        contingency_cause_temporal[44] = 0
-        contingency_cause_flag[44] = 0
-
-        contingency_cause_word[45] = "for example"
-        contingency_cause_count[45] = 1
-        contingency_cause_type[45] = 1
-        contingency_cause_temporal[45] = 0
-        contingency_cause_flag[45] = 0
-
-        contingency_cause_word[46] = "for one thing"
-        contingency_cause_count[46] = 1
-        contingency_cause_type[46] = 1
-        contingency_cause_temporal[46] = 0
-        contingency_cause_flag[46] = 0
-
-        contingency_cause_word[47] = "for the reason that"
-        contingency_cause_count[47] = 1
-        contingency_cause_type[47] = 1
-        contingency_cause_temporal[47] = 0
-        contingency_cause_flag[47] = 0
-
-        contingency_cause_word[48] = "given that"
-        contingency_cause_count[48] = 2
-        contingency_cause_type[48] = 1
-        contingency_cause_temporal[48] = 0
-        contingency_cause_flag[48] = 0
-
-        contingency_cause_word[49] = "however"
-        contingency_cause_count[49] = 1
-        contingency_cause_type[49] = 1
-        contingency_cause_temporal[49] = 0
-        contingency_cause_flag[49] = 0
-
-        # 2
-        contingency_cause_word[50] = "in fact"
-        contingency_cause_count[50] = 5
-        contingency_cause_type[50] = 1
-        contingency_cause_temporal[50] = 0
-        contingency_cause_flag[50] = 0
-
-        # 1
-        contingency_cause_word[51] = "in other words"
-        contingency_cause_count[51] = 2
-        contingency_cause_type[51] = 1
-        contingency_cause_temporal[51] = 0
-        contingency_cause_flag[51] = 2
-
-        # 1
-        contingency_cause_word[52] = "in short"
-        contingency_cause_count[52] = 3
-        contingency_cause_type[52] = 1
-        contingency_cause_temporal[52] = 0
-        contingency_cause_flag[52] = 2
-
-        contingency_cause_word[53] = "inasmuch as"
-        contingency_cause_count[53] = 12
-        contingency_cause_type[53] = 1
-        contingency_cause_temporal[53] = 0
-        contingency_cause_flag[53] = 0
-
-        contingency_cause_word[54] = "it is because"
-        contingency_cause_count[54] = 3
-        contingency_cause_type[54] = 1
-        contingency_cause_temporal[54] = 0
-        contingency_cause_flag[54] = 0
-
-        contingency_cause_word[55] = "on account of being"
-        contingency_cause_count[55] = 1
-        contingency_cause_type[55] = 1
-        contingency_cause_temporal[55] = 0
-        contingency_cause_flag[55] = 0
-
-        # 7
-        contingency_cause_word[56] = "so as"
-        contingency_cause_count[56] = 8
-        contingency_cause_type[56] = 1
-        contingency_cause_temporal[56] = 0
-        contingency_cause_flag[56] = 2
-
-        contingency_cause_word[57] = "specifically"
-        contingency_cause_count[57] = 1
-        contingency_cause_type[57] = 1
-        contingency_cause_temporal[57] = 0
-        contingency_cause_flag[57] = 0
-
-        # 3
-        contingency_cause_word[58] = "that is"
-        contingency_cause_count[58] = 4
-        contingency_cause_type[58] = 1
-        contingency_cause_temporal[58] = 0
-        contingency_cause_flag[58] = 2
-
-        contingency_cause_word[59] = "this is because"
-        contingency_cause_count[59] = 1
-        contingency_cause_type[59] = 1
-        contingency_cause_temporal[59] = 0
-        contingency_cause_flag[59] = 0
-
-        contingency_cause_word[60] = "as a consequence"
-        contingency_cause_count[60] = 2
-        contingency_cause_type[60] = 1
-        contingency_cause_temporal[60] = 0
-        contingency_cause_flag[60] = 1
-
-        contingency_cause_word[61] = "as it turns out"
-        contingency_cause_count[61] = 1
-        contingency_cause_type[61] = 1
-        contingency_cause_temporal[61] = 0
-        contingency_cause_flag[61] = 1
-
-        contingency_cause_word[62] = "to this end"
-        contingency_cause_count[62] = 1
-        contingency_cause_type[62] = 1
-        contingency_cause_temporal[62] = 0
-        contingency_cause_flag[62] = 1
-
-        contingency_cause_word[63] = "as such"
-        contingency_cause_count[63] = 5
-        contingency_cause_type[63] = 1
-        contingency_cause_temporal[63] = 0
-        contingency_cause_flag[63] = 1
-
-        contingency_cause_word[64] = "because of that"
-        contingency_cause_count[64] = 4
-        contingency_cause_type[64] = 1
-        contingency_cause_temporal[64] = 0
-        contingency_cause_flag[64] = 1
-
-        contingency_cause_word[65] = "for that reason"
-        contingency_cause_count[65] = 2
-        contingency_cause_type[65] = 1
-        contingency_cause_temporal[65] = 0
-        contingency_cause_flag[65] = 1
-
-        contingency_cause_word[66] = "furthermore"
-        contingency_cause_count[66] = 1
-        contingency_cause_type[66] = 1
-        contingency_cause_temporal[66] = 0
-        contingency_cause_flag[66] = 1
-
-        contingency_cause_word[67] = "in response"
-        contingency_cause_count[67] = 2
-        contingency_cause_type[67] = 1
-        contingency_cause_temporal[67] = 0
-        contingency_cause_flag[67] = 1
-
-        df = pd.DataFrame(columns=self.connective_columns)
-
-        for key, value in contingency_cause_word.items():
-            if contingency_cause_count[key] > n_min:
-                df = df.append(pd.DataFrame([[value,
-                                              contingency_cause_count[key],
-                                              contingency_cause_type[key],
-                                              contingency_cause_temporal[key],
-                                              contingency_cause_flag[key]]], columns=self.connective_columns), ignore_index=True)
-
-        return df
-
-    def read_wordnet_cause_effect(self):
-        """
-        finding all the synsets involved in a causal relation in wordnet
-        :return:
-        """
-        all_synsets = list(wn.all_synsets())
-        cause_list = []
-        effect_list = []
-        for i in range(len(all_synsets)):
-            if len(all_synsets[i].causes()) > 0:
-                cause_list.extend([lemma.replace('_', ' ') for lemma in all_synsets[i].lemma_names()])
-                for synset in all_synsets[i].causes():
-                    effect_list.extend([lemma.replace('_', ' ') for lemma in synset.lemma_names()])
-        return self._lemmatize_list(cause_list), self._lemmatize_list(effect_list)
-
-    def read_causal_frames_lus(self):
-        """
-        reading lexical units (lus) which evoke causal frames in FrameNet
-        :return: a dictionary of lexical units with a set of POS tags as values for each lexical unit
-        """
-        causal_frames = []
-        cause_fe = ["cause", "reason"]
-        effect_fe = ["effect", "result"]
-        frames = fn.frames()
-        for frame in frames:
-            f_elements = [x.name.lower() for x in frame.FE.values()]
-
-            if any(c in f_elements for c in cause_fe) and any(e in f_elements for e in effect_fe):
-                causal_frames.append(frame)
-
-        units = {}
-        for frame in causal_frames:
-            for unit in frame.lexUnit:
-                u = unit.split('.')
-                if len(u) == 2 and u[1] in ["v", "n"] and not any(c in u[0] for c in ["(", "["]):
-                    if u[1] == "v":
-                        unit_pos = "VERB"
-                    else:
-                        unit_pos = "NOUN"
-                    # lemmatizing the units
-                    unit_doc = self.nlp(u[0])
-                    unit_lemmas = ' '.join([word.lemma_.lower() for word in unit_doc])
-                    if unit_pos not in units:
-                        units[unit_pos] = [unit_lemmas.strip()]
-                    else:
-                        units[unit_pos].append(unit_lemmas.strip())
-        return units
-
-    def read_verbnet_causal_verbs(self):
-        """
-        reading members of verb classes with causal thematic
-        :return:
-        """
-        causal_verbs = []
-        verb_classes = vn.classids()
-
-        causal_semantic_roles = ["cause", "result", "stimulus"]
-
-        for c in verb_classes:
-            # check if the class has a CAUSAL theme
-            verb_class = vn.vnclass(c)
-            class_themes = vn.themroles(verb_class)
-            for theme in class_themes:
-                if any(sr in theme['type'].lower() for sr in causal_semantic_roles):
-                    # adding class members to the list
-                    class_members = vn.pprint_members(verb_class).replace('\n', '').split(' ')[1:]
-                    causal_verbs.extend(class_members)
-                    break
-
-        return self._lemmatize_list(causal_verbs)
-
     def _lemmatize_list(self, words):
         """
         lemmatize words in a list
@@ -1441,6 +979,123 @@ class CausalDataReader:
             if word_lemmas != "":
                 words_lemmas.add(word_lemmas.strip())
         return words_lemmas
+
+    def remove_text_tags(self, text):
+        text = text.replace(self.signal_tag[0], "")
+        text = text.replace(self.signal_tag[1], "")
+        text = text.replace(self.arg1_tag[0], "")
+        text = text.replace(self.arg1_tag[1], "")
+        text = text.replace(self.arg2_tag[0], "")
+        text = text.replace(self.arg2_tag[1], "")
+        return text.strip().lower()
+
+    def get_text_between(self, x, arg1_tag=[], arg2_tag=[]):
+        """
+        this method gets the text between two arguments of a causal relation
+        :param x: the text field of a record with tags in the causal relation data frame
+        :param arg1_tag: by default, the first tag in our causal scheme
+        :param arg2_tag: by default, the second tag in our causal schema
+        :return:
+        """
+
+        def _clean_text(text):
+            # TODO: ideally we should only be removing signal tags.
+            text = text.replace(self.signal_tag[0], "")
+            text = text.replace(self.signal_tag[1], "")
+            text = text.replace(self.arg1_tag[0], "")
+            text = text.replace(self.arg1_tag[1], "")
+            text = text.replace(self.arg2_tag[0], "")
+            text = text.replace(self.arg2_tag[1], "")
+            return text
+
+        if arg1_tag == [] and arg2_tag == []:
+            arg1_tag = self.arg1_tag
+            arg2_tag = self.arg2_tag
+
+        try:
+            # in cases that we have <arg1></arg1> . . . <arg2></arg2>
+            result = re.search(arg1_tag[1] + "(.*)" + arg2_tag[0], x)
+            if result is None:
+                # in cases that we have <arg2></arg2> . . . <arg1></arg1>
+                result = re.search(arg2_tag[1] + "(.*)" + arg1_tag[0], x)
+                if result is None:
+                    return ""
+                else:
+                    return _clean_text(result.group(1))
+            else:
+                return _clean_text(result.group(1))
+        except Exception as e:
+            print("[log-preprocessing-text-between] detail: " + str(e) + ". text: " + str(x))
+
+    def get_text_left(self, x):
+        """
+        this method gets the text of the left side of the first argument in a causal relation
+        :param x: the text field of a record with tags in the causal relation data frame
+        :return:
+        """
+
+        arg1_tag = self.arg1_tag
+        arg2_tag = self.arg2_tag
+
+        # in cases that we have <arg1></arg1> . . . <arg2></arg2>
+        result = re.search(arg1_tag[1] + "(.*)" + arg2_tag[0], x)
+        if result is None:
+            # in cases that we have <arg2></arg2> . . . <arg1></arg1>
+            result = re.search(arg2_tag[1] + "(.*)" + arg1_tag[0], x)
+            if result is not None:
+                result = re.search("(.*)" + arg2_tag[0], x)
+                if result is not None:
+                    return result.group(1)
+        else:
+            result = re.search("(.*)" + arg1_tag[0], x)
+            if result is not None:
+                return result.group(1)
+        return ""
+
+    def get_text_right(self, x):
+        """
+        this method gets the text of the left side of the first argument in a causal relation
+        :param x: the text field of a record with tags in the causal relation data frame
+        :return:
+        """
+
+        arg1_tag = self.arg1_tag
+        arg2_tag = self.arg2_tag
+
+        # in cases that we have <arg1></arg1> . . . <arg2></arg2>
+        result = re.search(arg1_tag[1] + "(.*)" + arg2_tag[0], x)
+        if result is None:
+            # in cases that we have <arg2></arg2> . . . <arg1></arg1>
+            result = re.search(arg2_tag[1] + "(.*)" + arg1_tag[0], x)
+            if result is not None:
+                result = re.search(arg1_tag[1] + "(.*)", x)
+                if result is not None:
+                    return result.group(1)
+        else:
+            result = re.search(arg2_tag[1] + "(.*)", x)
+            if result is not None:
+                return result.group(1)
+        return ""
+
+    def get_tagged_sentence(self, arg1, arg2, sentence):
+        """
+        adding arguments tags to the sentence in the format of <arg1></arg1> . . . <arg2></arg2>
+        :return:
+        """
+        tagged_sen = ""
+        try:
+            # for simplicity, check if there's only one occurrence of each argument in the sentence
+            if sentence.count(arg1) == 1 and sentence.count(arg2) == 1:
+                # making sure <arg1> is always first
+                if sentence.index(arg1) < sentence.index(arg2):
+                    tagged_sen = sentence.replace(arg1, self.arg1_tag[0] + arg1 + self.arg1_tag[1])
+                    tagged_sen = tagged_sen.replace(arg2, self.arg2_tag[0] + arg2 + self.arg2_tag[1])
+                else:
+                    tagged_sen = sentence.replace(arg2, self.arg1_tag[0] + arg2 + self.arg1_tag[1])
+                    tagged_sen = tagged_sen.replace(arg1, self.arg2_tag[0] + arg1 + self.arg2_tag[1])
+        except Exception as e:
+            print("[log-sentence-tagging]: " + str(e))
+        return tagged_sen
 
     @staticmethod
     def _get_between_text(str_1, str_2, orig_text):
@@ -1469,3 +1124,16 @@ class CausalDataReader:
         sentence = ' '.join(s for s in all_sen).strip()
 
         return sentence
+
+    @staticmethod
+    def get_tag_text(tag, text):
+        """
+        get text span of a tag (if there's multiple occurrences, we return the first occurrence)
+        :param tag: a list of opening and closing tags
+        :param text: tagged sentence/text
+        :return:
+        """
+        result = re.findall(tag[0] + "(.*?)" + tag[1], text)
+        if result is not None and len(result) > 0:
+            return result[0].strip()
+        return ""
