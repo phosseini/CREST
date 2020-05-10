@@ -15,10 +15,10 @@ class CausalDataReader:
     def __init__(self):
         self.dir_path = "data/causal/"
         self.train_path = 'data/snorkel/train.csv'
-        self.gold_causal_path = 'data/causal/gold_causal.csv'
+        self.gold_causal_path = '../data/causal/gold_causal.csv'
         # direction = 0 -> (e1, e2), otherwise, (e2, e1)
         # split -> 0: train, 1: dev, test: 2
-        self.scheme_columns = ['id', 'arg1', 'arg2', 'text', 'direction', 'label', 'source', 'ann_file', 'split']
+        self.scheme_columns = ['id', 'span1', 'span2', 'context', 'label', 'source', 'ann_file', 'split']
         self.connective_columns = ['word', 'count', 'type', 'temporal', 'flag']
         self.arg1_tag = ["<@rg1>", "</@rg1>"]
         self.arg2_tag = ["<@rg2>", "</@rg2>"]
@@ -34,65 +34,6 @@ class CausalDataReader:
         self.because_code = 7
         self.storyline_v15_code = 8
 
-    def load_snorkel_data(self, n_train=11000, n_sample=210):
-        """
-        loading train (no label), dev, and test sets
-        :param n_train: number of training samples
-        :param n_sample: number of positive/negative samples.
-        :return:
-        """
-
-        if os.path.isfile(self.train_path):
-            # ========================================
-            # ********** loading train set ***********
-            # ========================================
-            train = pd.read_csv(self.train_path)
-            train = train.reset_index(drop=True)
-            train = train.reindex(np.random.RandomState(seed=42).permutation(train.index))
-            train = train.sample(n=n_train, random_state=123)
-            train = train.reset_index(drop=True)
-
-            # ========================================
-            # ****** creating DEV and TEST sets ******
-            # ========================================
-            # [0] reading all the gold causal samples
-            if os.path.exists(self.gold_causal_path):
-                data = pd.read_csv(self.gold_causal_path)
-            else:
-                data = self.read_all()
-
-            # [1] making sure we have a balanced set of causal and non-causal samples
-            data = data.reset_index(drop=True)
-            neg_data = data.loc[data.label == 0]
-            pos_data = data.loc[data.label == 1]
-
-            # [2] permutation of data
-            neg_data = neg_data.reindex(np.random.RandomState(seed=42).permutation(neg_data.index))
-            pos_data = pos_data.reindex(np.random.RandomState(seed=42).permutation(pos_data.index))
-
-            # [3] getting samples of causal and non-causal
-            neg_data = neg_data.sample(n=n_sample, random_state=42)
-            # [3.1] getting same # of samples from different sources
-            pos_data = pos_data.groupby('source').apply(lambda x: x.sample(n=30, random_state=42))
-
-            # [4] storing all samples in one data frame
-            df = copy.deepcopy(neg_data)
-            df = df.append(pos_data)
-            df = df.reindex(np.random.RandomState(seed=42).permutation(df.index))
-            df = df.reset_index(drop=True)
-
-            # [5] creating final dev and test sets
-            dev = df.groupby('label').apply(lambda x: x.sample(frac=0.5, random_state=42))
-            test = df.drop(dev.index.levels[1])
-
-            dev = copy.deepcopy(dev[self.scheme_columns])
-            test = copy.deepcopy(test[self.scheme_columns])
-
-            return (dev, dev['label']), train, (test, test['label'])
-        else:
-            print("[log-load-snorkel-data] train file does not exist.")
-            raise
-
     def read_all(self):
         data = self.read_semeval_2007_4()
         data = data.append(self.read_semeval_2010_8())
@@ -104,16 +45,6 @@ class CausalDataReader:
         # saving data
         data.to_csv(self.gold_causal_path)
         return data
-
-    def _check_text_format(self, e1_span, e2_span, text):
-        """
-        check if a causal entry has a standard format
-        :param e1_span:
-        :param e2_span:
-        :param text:
-        :return:
-        """
-        return True if e1_span.strip() != "" and e2_span.strip() != "" and self.arg1_tag[0] in text and self.arg2_tag[0] in text else False
 
     def read_semeval_2007_4(self):
         """
@@ -965,21 +896,6 @@ class CausalDataReader:
                doc_text[e1_end:e2_start] + self.arg2_tag[0] + doc_text[e2_start:e2_end] + self.arg2_tag[1] + \
                doc_text[e2_end:]
 
-    def _lemmatize_list(self, words):
-        """
-        lemmatize words in a list
-        :param words:
-        :return:
-        """
-        words_lemmas = set()
-        for word in words:
-            # lemmatizing the words
-            word_doc = self.nlp(word.replace('_', ' '))
-            word_lemmas = ' '.join([w.lemma_.lower() for w in word_doc])
-            if word_lemmas != "":
-                words_lemmas.add(word_lemmas.strip())
-        return words_lemmas
-
     def remove_text_tags(self, text):
         text = text.replace(self.signal_tag[0], "")
         text = text.replace(self.signal_tag[1], "")
@@ -1097,6 +1013,31 @@ class CausalDataReader:
             print("[log-sentence-tagging]: " + str(e))
         return tagged_sen
 
+    def _lemmatize_list(self, words):
+        """
+        lemmatize words in a list
+        :param words:
+        :return:
+        """
+        words_lemmas = set()
+        for word in words:
+            # lemmatizing the words
+            word_doc = self.nlp(word.replace('_', ' '))
+            word_lemmas = ' '.join([w.lemma_.lower() for w in word_doc])
+            if word_lemmas != "":
+                words_lemmas.add(word_lemmas.strip())
+        return words_lemmas
+
+    def _check_text_format(self, e1_span, e2_span, text):
+        """
+        check if a causal entry has a standard format
+        :param e1_span:
+        :param e2_span:
+        :param text:
+        :return:
+        """
+        return True if e1_span.strip() != "" and e2_span.strip() != "" and self.arg1_tag[0] in text and self.arg2_tag[0] in text else False
+
     @staticmethod
     def _get_between_text(str_1, str_2, orig_text):
         result = re.search(str_1 + "(.*)" + str_2, orig_text)
@@ -1126,7 +1067,7 @@ class CausalDataReader:
         return sentence
 
     @staticmethod
-    def get_tag_text(tag, text):
+    def _get_tag_text(tag, text):
         """
         get text span of a tag (if there's multiple occurrences, we return the first occurrence)
         :param tag: a list of opening and closing tags
