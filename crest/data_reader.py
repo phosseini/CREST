@@ -12,13 +12,14 @@ from nltk.corpus import wordnet as wn
 
 
 class CausalDataReader:
-    def __init__(self):
-        self.dir_path = "data/causal/"
-        self.train_path = 'data/snorkel/train.csv'
-        self.gold_causal_path = '../data/causal/gold_causal.csv'
+    def __init__(self, root_path):
+        self.root_path = root_path
+        self.dir_path = self.root_path + "/data/causal/"
+        self.train_path = self.root_path + '/data/snorkel/train.csv'
+        self.gold_causal_path = self.root_path + '/data/causal/gold_causal.csv'
         # direction = 0 -> (e1, e2), otherwise, (e2, e1)
         # split -> 0: train, 1: dev, test: 2
-        self.scheme_columns = ['id', 'span1', 'span2', 'context', 'label', 'source', 'ann_file', 'split']
+        self.scheme_columns = ['id', 'arg1', 'arg2', 'text', 'direction', 'label', 'source', 'ann_file', 'split']
         self.connective_columns = ['word', 'count', 'type', 'temporal', 'flag']
         self.arg1_tag = ["<@rg1>", "</@rg1>"]
         self.arg2_tag = ["<@rg2>", "</@rg2>"]
