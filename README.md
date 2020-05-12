@@ -1,10 +1,9 @@
 # CREST: A Causal Relation Schema for Text
 
-CREST is created to help researchers working on causal/counterfactual relations extraction in natural language to communicate easier with each other. We invite researchers who create new and valuable data resources to contribute to CREST by writing a method to convert their data to this schema.
+CREST is created to help researchers working on causal/counterfactual relations extraction in natural language to communicate easier and leverage all the created data resources around this topic.
 
 ### Available Data Resources
 List of data resources already converted to CREST format:
-
 
 | Id | Data resource  | # of samples | Data availability |
 | -- | ------------- | ------------- | ---------------- |
@@ -16,5 +15,3 @@ List of data resources already converted to CREST format:
 | 6 | CaTeRS | 203 | Public |
 | 7 | BECAUSE v2.1 | 633 | Partially Public|
 | 8 | Crowdsourcing-StoryLines 1.5 | 104 | Public |
-
-
