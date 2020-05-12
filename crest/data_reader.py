@@ -11,19 +11,18 @@ from nltk.corpus import verbnet as vn
 from nltk.corpus import wordnet as wn
 
 
-class CausalDataReader:
-    def __init__(self, root_path):
+class CrestConverter:
+    def __init__(self, root_path=".."):
+        """
+        idx = {'span1': [], 'span2': [], 'signal': []} -> indexes of span1, span2, and signal tokens in context
+        label = 0 -> non-causal, 1: [span1, span2] -> cause-effect, 2: [span1, span2] -> effect-cause
+        split -> 0: train, 1: dev, test: 2
+        :param root_path:
+        """
         self.root_path = root_path
         self.dir_path = self.root_path + "/data/causal/"
-        self.train_path = self.root_path + '/data/snorkel/train.csv'
-        self.gold_causal_path = self.root_path + '/data/causal/gold_causal.csv'
-        # direction = 0 -> (e1, e2), otherwise, (e2, e1)
-        # split -> 0: train, 1: dev, test: 2
-        self.scheme_columns = ['id', 'arg1', 'arg2', 'text', 'direction', 'label', 'source', 'ann_file', 'split']
+        self.scheme_columns = ['id', 'span1', 'span2', 'context', 'idx', 'label', 'source', 'ann_file', 'split']
         self.connective_columns = ['word', 'count', 'type', 'temporal', 'flag']
-        self.arg1_tag = ["<@rg1>", "</@rg1>"]
-        self.arg2_tag = ["<@rg2>", "</@rg2>"]
-        self.signal_tag = ["<S!G>", "</S!G>"]
         # loading spaCy's english model
         self.nlp = spacy.load("en_core_web_sm")
         self.semeval_2007_4_code = 1
@@ -35,69 +34,62 @@ class CausalDataReader:
         self.because_code = 7
         self.storyline_v15_code = 8
 
-    def read_all(self):
-        data = self.read_semeval_2007_4()
-        data = data.append(self.read_semeval_2010_8())
-        data = data.append(self.read_event_causality())
-        data = data.append(self.read_causal_timebank())
-        data = data.append(self.read_story_lines())
-        data = data.append(self.read_CaTeRS())
-        data = data.append(self.read_because())
-        # saving data
-        data.to_csv(self.gold_causal_path)
-        return data
-
     def read_semeval_2007_4(self):
         """
-        reading SemEval 2007 task 4 data - Relation 1 is cause-effect
+        reading SemEval 2007 task 4 data
         :return: pandas data frame of samples
         """
 
         data = []
+        e1_tag = ["<e1>", "</e1>"]
+        e2_tag = ["<e2>", "</e2>"]
 
-        def extract_samples(all_docs, split):
+        def extract_samples(all_lines, split):
             # each sample has three lines of information
-            for idx, val in enumerate(all_docs):
+            for idx, val in enumerate(all_lines):
                 tmp = val.split(" ", 1)
                 if tmp[0].isalnum():
                     sample_id = copy.deepcopy(tmp[0])
                     try:
-                        sentence_text = copy.deepcopy(tmp[1])
-                        text_string = tmp[1].replace("\"", "")
+                        context = copy.deepcopy(tmp[1].replace("\"", ""))
 
-                        # extracting elements (nominals) of causal relation
-                        e1_text = self._get_between_text("<e1>", "</e1>", sentence_text)
-                        e2_text = self._get_between_text("<e2>", "</e2>", sentence_text)
+                        # extracting elements of causal relation
+                        span1 = self._get_between_text(e1_tag[0], e1_tag[1], context)
+                        span2 = self._get_between_text(e2_tag[0], e2_tag[1], context)
 
-                        tmp = all_docs[idx + 1].split(",")
+                        tmp = all_lines[idx + 1].split(",")
                         if not ("true" in tmp[3] or "false" in tmp[3]):
                             tmp_label = tmp[2].replace(" ", "").replace("\"", "").split("=")
                         else:
                             tmp_label = tmp[3].replace(" ", "").replace("\"", "").split("=")
 
-                        # label = 1, it's a causal samples, otherwise, it's not.
+                        # finding label
                         if tmp_label[1] == "true":
-                            label = 1
+                            # if (e1, e2) = (cause, effect), label = 1,
+                            # otherwise, label = 2 meaning (e2, e1) = (cause, effect)
+                            if "e2" in tmp_label[0]:
+                                label = 1
+                            elif "e1" in tmp_label[0]:
+                                label = 2
                         else:
                             label = 0
 
-                        # label_direction = 0 -> (e1, e2), otherwise, (e2, e1), is 1
-                        if "e2" in tmp_label[0]:
-                            label_direction = 0
-                        else:
-                            label_direction = 1
+                        span1_start = context.find(e1_tag[0])
+                        span1_end = context.find(e1_tag[1]) - len(e1_tag[0])
+                        span2_start = context.find(e2_tag[0]) - (len(e1_tag[0]) + len(e1_tag[1]))
+                        span2_end = context.find(e2_tag[1]) - (len(e1_tag[0]) + len(e1_tag[1]) + len(e2_tag[0]))
+
+                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]]}
 
                         # replacing tags with standard tags
-                        text_string = text_string.replace("<e1>", self.arg1_tag[0])
-                        text_string = text_string.replace("</e1>", self.arg1_tag[1])
-                        text_string = text_string.replace("<e2>", self.arg2_tag[0])
-                        text_string = text_string.replace("</e2>", self.arg2_tag[1])
+                        context = context.replace(e1_tag[0], "").replace(e1_tag[1], "").replace(e2_tag[0], "").replace(
+                            e2_tag[1], "")
 
-                        if self._check_text_format(e1_text, e2_text, text_string):
-                            data.append([int(sample_id), e1_text, e2_text, text_string.replace('\n', ' '), label_direction, label,
-                                         self.semeval_2007_4_code, "", split])
+                        data.append(
+                            [int(sample_id), span1, span2, context, idx_val, label, self.semeval_2007_4_code, "",
+                             split])
                     except Exception as e:
-                        print("[datareader-semeval-log] Incorrect formatting! Details: " + str(e))
+                        print("[crest-log] Incorrect formatting for semeval07-task4 record. Details: " + str(e))
 
         # reading files
         with open(self.dir_path + 'SemEval2007_task4/task-4-training/relation-1-train.txt', mode='r',
@@ -107,51 +99,61 @@ class CausalDataReader:
         # this is the test set
         with open(self.dir_path + 'SemEval2007_task4/task-4-scoring/relation-1-score.txt', mode='r',
                   encoding='cp1252') as key:
-            key_content = key.readlines()
+            test_content = key.readlines()
 
         extract_samples(train_content, 0)
-        extract_samples(key_content, 2)
+        extract_samples(test_content, 2)
 
-        # print("Total samples = " + str(len(data)))
         return pd.DataFrame(data, columns=self.scheme_columns)
 
     def read_semeval_2010_8(self):
         """
-        reading SemEval 2010 task 8 data - Relation 1 is cause-effect
+        reading SemEval 2010 task 8 data
         :return: pandas data frame of samples
         """
         data = []
+        e1_tag = ["<e1>", "</e1>"]
+        e2_tag = ["<e2>", "</e2>"]
 
-        def extract_samples(all_docs, split):
+        def extract_samples(all_lines, split):
             # each sample has three lines of information
-            for idx, val in enumerate(all_docs):
+            for idx, val in enumerate(all_lines):
                 tmp = val.split("\t")
                 if tmp[0].isalnum():
+                    sample_id = copy.deepcopy(tmp[0])
                     try:
-                        sentence_text = copy.deepcopy(tmp[1])
-                        text_string = tmp[1].replace("\"", "")
+                        context = copy.deepcopy(tmp[1].replace("\"", ""))
 
-                        # extracting elements (nominals) of causal relation
-                        e1_text = self._get_between_text("<e1>", "</e1>", sentence_text)
-                        e2_text = self._get_between_text("<e2>", "</e2>", sentence_text)
+                        # extracting elements of causal relation
+                        span1 = self._get_between_text(e1_tag[0], e1_tag[1], context)
+                        span2 = self._get_between_text(e2_tag[0], e2_tag[1], context)
 
-                        if "Cause-Effect" in all_docs[idx + 1]:
-                            if "e1,e2" in all_docs[idx + 1]:
-                                label_direction = 0
+                        # finding label
+                        if "Cause-Effect" in all_lines[idx + 1]:
+                            if "e1,e2" in all_lines[idx + 1]:
+                                label = 1
                             else:
-                                label_direction = 1
+                                label = 2
+                        else:
+                            label = 0
 
-                            # replacing tags with standard tags
-                            text_string = text_string.replace("<e1>", self.arg1_tag[0])
-                            text_string = text_string.replace("</e1>", self.arg1_tag[1])
-                            text_string = text_string.replace("<e2>", self.arg2_tag[0])
-                            text_string = text_string.replace("</e2>", self.arg2_tag[1])
+                        span1_start = context.find(e1_tag[0])
+                        span1_end = context.find(e1_tag[1]) - len(e1_tag[0])
+                        span2_start = context.find(e2_tag[0]) - (len(e1_tag[0]) + len(e1_tag[1]))
+                        span2_end = context.find(e2_tag[1]) - (len(e1_tag[0]) + len(e1_tag[1]) + len(e2_tag[0]))
 
-                            if self._check_text_format(e1_text, e2_text, text_string):
-                                data.append([tmp[0], e1_text, e2_text, text_string.replace('\n', ' '), label_direction, 1,
-                                             self.semeval_2010_8_code, "", split])
+                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]]}
+
+                        # replacing tags with standard tags
+                        context = context.replace(e1_tag[0], "").replace(e1_tag[1], "").replace(e2_tag[0], "").replace(
+                            e2_tag[1], "")
+
+                        data.append(
+                            [int(sample_id), span1, span2, context, idx_val, label, self.semeval_2010_8_code, "",
+                             split])
+
                     except Exception as e:
-                        print("[datareader-semeval-log] Incorrect formatting! Details: " + str(e))
+                        print("[crest-log] Incorrect formatting for semeval10-task8 record. Details: " + str(e))
 
         # reading files
         with open(self.dir_path + 'SemEval2010_task8_all_data/SemEval2010_task8_training/TRAIN_FILE.txt', mode='r',
@@ -165,7 +167,6 @@ class CausalDataReader:
         extract_samples(train_content, 0)
         extract_samples(test_content, 2)
 
-        # print("Total samples = " + str(len(data)))
         return pd.DataFrame(data, columns=self.scheme_columns)
 
     def read_event_causality(self):
@@ -270,18 +271,23 @@ class CausalDataReader:
 
                         # TODO: check the label direction
                         if self._check_text_format(p1_token, p2_token, sentence):
-                            data.append([data_idx, p1_token, p2_token, sentence.replace('\n', ' '), 1, 1, self.event_causality_code, "", split])
+                            data.append([data_idx, p1_token, p2_token, sentence.replace('\n', ' '), 1, 1,
+                                         self.event_causality_code, "", split])
                             data_idx += 1
                     else:
                         s_idx = {}
                         label_direction = 0
                         if int(p2[0]) < int(p1[0]):
-                            s_idx[1] = {'sen_index': int(p2[0]), 'token_index': int(p2[1]), 'token_label': self.arg2_tag}
-                            s_idx[2] = {'sen_index': int(p1[0]), 'token_index': int(p1[1]), 'token_label': self.arg1_tag}
+                            s_idx[1] = {'sen_index': int(p2[0]), 'token_index': int(p2[1]),
+                                        'token_label': self.arg2_tag}
+                            s_idx[2] = {'sen_index': int(p1[0]), 'token_index': int(p1[1]),
+                                        'token_label': self.arg1_tag}
                             label_direction = 1
                         else:
-                            s_idx[1] = {'sen_index': int(p1[0]), 'token_index': int(p1[1]), 'token_label': self.arg1_tag}
-                            s_idx[2] = {'sen_index': int(p2[0]), 'token_index': int(p2[1]), 'token_label': self.arg2_tag}
+                            s_idx[1] = {'sen_index': int(p1[0]), 'token_index': int(p1[1]),
+                                        'token_label': self.arg1_tag}
+                            s_idx[2] = {'sen_index': int(p2[0]), 'token_index': int(p2[1]),
+                                        'token_label': self.arg2_tag}
 
                         sentence = ""
 
@@ -292,7 +298,8 @@ class CausalDataReader:
                                 for i in range(len(tokens)):
                                     token = tokens[i].split('/')[0]
                                     if i == int(s_idx[1]['token_index']):
-                                        sentence += s_idx[1]['token_label'][0] + token + s_idx[1]['token_label'][1] + " "
+                                        sentence += s_idx[1]['token_label'][0] + token + s_idx[1]['token_label'][
+                                            1] + " "
                                         p1_token = copy.deepcopy(token)
                                     else:
                                         sentence += token + " "
@@ -300,7 +307,8 @@ class CausalDataReader:
                                 for i in range(len(tokens)):
                                     token = tokens[i].split('/')[0]
                                     if i == int(s_idx[2]['token_index']):
-                                        sentence += s_idx[2]['token_label'][0] + token + s_idx[2]['token_label'][1] + " "
+                                        sentence += s_idx[2]['token_label'][0] + token + s_idx[2]['token_label'][
+                                            1] + " "
                                         p2_token = copy.deepcopy(token)
                                     else:
                                         sentence += token + " "
@@ -309,7 +317,8 @@ class CausalDataReader:
                                 sentence += get_sentence_text(v)
 
                         if self._check_text_format(p1_token, p2_token, sentence):
-                            data.append([data_idx, p1_token, p2_token, sentence.replace('\n', ' '), label_direction, 1, self.event_causality_code, "", split])
+                            data.append([data_idx, p1_token, p2_token, sentence.replace('\n', ' '), label_direction, 1,
+                                         self.event_causality_code, "", split])
                             data_idx += 1
 
         # print("Total samples = " + str(len(data)))
@@ -398,27 +407,28 @@ class CausalDataReader:
                         if token_id == start_anchors[0]:
                             sentence = sentence + self.arg1_tag[0]
                             for l in range(len(start_anchors)):
-                                sentence += tokens[i+l][1] + " "
-                                e1_tokens += tokens[i+l][1] + " "
+                                sentence += tokens[i + l][1] + " "
+                                e1_tokens += tokens[i + l][1] + " "
                             sentence = sentence.strip() + self.arg1_tag[1] + " "
 
                         elif token_id == end_anchors[0]:
                             sentence = sentence + self.arg2_tag[0]
                             for l in range(len(end_anchors)):
-                                sentence += tokens[i+l][1] + " "
-                                e2_tokens += tokens[i+l][1] + " "
+                                sentence += tokens[i + l][1] + " "
+                                e2_tokens += tokens[i + l][1] + " "
                             sentence = sentence.strip() + self.arg2_tag[1] + " "
 
                         elif token_id == signal_anchors[0]:
                             sentence += self.signal_tag[0]
                             for l in range(len(signal_anchors)):
-                                sentence += tokens[i+l][1] + " "
+                                sentence += tokens[i + l][1] + " "
                             sentence = sentence.strip() + self.signal_tag[1] + " "
                         else:
                             sentence += token_text + " "
 
                 if self._check_text_format(e1_tokens, e2_tokens, sentence):
-                    data.append([data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), label_direction, 1, self.causal_timebank_code, file, ""])
+                    data.append([data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), label_direction, 1,
+                                 self.causal_timebank_code, file, ""])
                     data_idx += 1
 
         # print("Total samples = " + str(len(data)))
@@ -498,7 +508,8 @@ class CausalDataReader:
                     sentence = self._add_events_tags(sentence, e1_start, e1_end, e2_start, e2_end)
 
                     if self._check_text_format(e1_tokens, e2_tokens, sentence):
-                        data.append([data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), label_direction, 1, self.storyline_code, "", ""])
+                        data.append([data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), label_direction, 1,
+                                     self.storyline_code, "", ""])
                         data_idx += 1
                 except Exception as e:
                     print(str(e), doc_id, sentence_id)
@@ -580,7 +591,8 @@ class CausalDataReader:
                         # saving relations info
                         rel_idx = 0
                         for relation in root.findall("Relations/PLOT_LINK"):
-                            if all(rel_type in relation.attrib for rel_type in ['CAUSES', 'CAUSED_BY']) and relation.attrib['validated'] == "TRUE":
+                            if all(rel_type in relation.attrib for rel_type in ['CAUSES', 'CAUSED_BY']) and \
+                                    relation.attrib['validated'] == "TRUE":
                                 if relation.attrib['CAUSES'] == "TRUE":
                                     label = 1
                                     direction = 0
@@ -591,7 +603,9 @@ class CausalDataReader:
                                     label = 0
                                     direction = 0
 
-                                relations_info[rel_idx] = {'source': relation[0].attrib['m_id'], 'target': relation[1].attrib['m_id'], 'label': label, 'direction': direction}
+                                relations_info[rel_idx] = {'source': relation[0].attrib['m_id'],
+                                                           'target': relation[1].attrib['m_id'], 'label': label,
+                                                           'direction': direction}
                                 rel_idx += 1
 
                         # saving markables info
@@ -601,9 +615,12 @@ class CausalDataReader:
                         # storing causal and non-causal info
                         try:
                             for k, v in relations_info.items():
-                                e1_tokens, e2_tokens, sentence = get_tagged_sentence(tokens_info, doc_sentences, markables_info, v)
+                                e1_tokens, e2_tokens, sentence = get_tagged_sentence(tokens_info, doc_sentences,
+                                                                                     markables_info, v)
                                 if sentence != "":
-                                    data.append([data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), v['direction'], v['label'], self.storyline_v15_code, "", ""])
+                                    data.append(
+                                        [data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), v['direction'],
+                                         v['label'], self.storyline_v15_code, "", ""])
                                     data_idx += 1
                         except Exception as e:
                             print(str(e))
@@ -690,10 +707,14 @@ class CausalDataReader:
 
                                         # adding new record
                                         if self._check_text_format(e1_tokens, e2_tokens, sentence):
-                                            data.append([data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), 0, 1, self.caters_code, doc, split])
+                                            data.append(
+                                                [data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), 0, 1,
+                                                 self.caters_code, doc, split])
                                             data_idx += 1
                                 except Exception as e:
-                                    print("[datareader-caters-log] Error in processing causal relation info. Details: " + str(e))
+                                    print(
+                                        "[datareader-caters-log] Error in processing causal relation info. Details: " + str(
+                                            e))
                                     err_idx += 1
             return data_idx, err_idx
 
@@ -745,7 +766,7 @@ class CausalDataReader:
                     s_index = i
                     break
 
-            for i in range(len(sentences)-1, -1, -1):
+            for i in range(len(sentences) - 1, -1, -1):
                 if any(tag in sentences[i] for tag in tag_set):
                     e_index = i
                     break
@@ -767,7 +788,7 @@ class CausalDataReader:
             else:
                 e_index = e_index + before_after_window
 
-            doc_cleaned = (" ".join(sentences[s_index:e_index+1])).replace(' >', '>')
+            doc_cleaned = (" ".join(sentences[s_index:e_index + 1])).replace(' >', '>')
 
             return doc_cleaned.replace('< ', '<').replace('</ ', '</').replace('< /', '</').replace(' >', '>')
 
@@ -847,7 +868,8 @@ class CausalDataReader:
                             value = value.replace('\n', '')
 
                             # causal samples
-                            if ("Consequence" in value or "Purpose" in value or "Motivation" in value) and "Effect" in value and "Cause" in value:
+                            if (
+                                    "Consequence" in value or "Purpose" in value or "Motivation" in value) and "Effect" in value and "Cause" in value:
                                 args = value.split(' ')
                                 signal_tag = args[0].split(':')[1]
                                 if "Cause" in args[1]:
@@ -857,10 +879,13 @@ class CausalDataReader:
                                     cause_tag = args[2].split(':')[1]
                                     effect_tag = args[1].split(':')[1]
 
-                                e1_tokens, e2_tokens, doc_text = _process_args(doc_string, cause_tag, effect_tag, signal_tag)
+                                e1_tokens, e2_tokens, doc_text = _process_args(doc_string, cause_tag, effect_tag,
+                                                                               signal_tag)
 
                                 if self._check_text_format(e1_tokens, e2_tokens, _remove_extra_sentences(doc_text)):
-                                    data.append([data_idx, e1_tokens, e2_tokens, _remove_extra_sentences(doc_text).replace('\n', ' '), 0, 1, self.because_code, doc, ""])
+                                    data.append([data_idx, e1_tokens, e2_tokens,
+                                                 _remove_extra_sentences(doc_text).replace('\n', ' '), 0, 1,
+                                                 self.because_code, doc, ""])
                                     data_idx += 1
 
                             # non-causal samples
@@ -869,14 +894,18 @@ class CausalDataReader:
                                 signal_tag = args[0].split(':')[1]
                                 arg0_tag = args[1].split(':')[1]
                                 arg1_tag = args[2].split(':')[1]
-                                e1_tokens, e2_tokens, doc_text = _process_args(doc_string, arg0_tag, arg1_tag, signal_tag)
+                                e1_tokens, e2_tokens, doc_text = _process_args(doc_string, arg0_tag, arg1_tag,
+                                                                               signal_tag)
 
                                 if self._check_text_format(e1_tokens, e2_tokens, _remove_extra_sentences(doc_text)):
-                                    data.append([data_idx, e1_tokens, e2_tokens, _remove_extra_sentences(doc_text).replace('\n', ' '), 0, 0, self.because_code, doc, ""])
+                                    data.append([data_idx, e1_tokens, e2_tokens,
+                                                 _remove_extra_sentences(doc_text).replace('\n', ' '), 0, 0,
+                                                 self.because_code, doc, ""])
                                     data_idx += 1
 
                         except Exception as e:
-                            print("[datareader-because-log] Error in processing causal relation info. Details: " + str(e))
+                            print(
+                                "[datareader-because-log] Error in processing causal relation info. Details: " + str(e))
                             err += 1
         # print("Total samples = " + str(len(data)))
         if err > 0:
@@ -1029,16 +1058,6 @@ class CausalDataReader:
                 words_lemmas.add(word_lemmas.strip())
         return words_lemmas
 
-    def _check_text_format(self, e1_span, e2_span, text):
-        """
-        check if a causal entry has a standard format
-        :param e1_span:
-        :param e2_span:
-        :param text:
-        :return:
-        """
-        return True if e1_span.strip() != "" and e2_span.strip() != "" and self.arg1_tag[0] in text and self.arg2_tag[0] in text else False
-
     @staticmethod
     def _get_between_text(str_1, str_2, orig_text):
         result = re.search(str_1 + "(.*)" + str_2, orig_text)
@@ -1059,9 +1078,15 @@ class CausalDataReader:
         all_sen = [(doc_text[:tags.iloc[0]['start']]).strip()]
         for index, row in tags.iterrows():
             if index != len(tags) - 1:
-                all_sen.append((row['start_tag'] + doc_text[row['start']:row['end']] + row['end_tag'] + doc_text[row['end']:tags.iloc[index+1]['start']]).strip())
+                all_sen.append((row['start_tag'] + doc_text[row['start']:row['end']] + row['end_tag'] + doc_text[
+                                                                                                        row['end']:
+                                                                                                        tags.iloc[
+                                                                                                            index + 1][
+                                                                                                            'start']]).strip())
 
-        all_sen.append((tags.iloc[len(tags)-1]['start_tag'] + doc_text[tags.iloc[len(tags)-1]['start']:tags.iloc[len(tags)-1]['end']] + tags.iloc[len(tags)-1]['end_tag'] + doc_text[tags.iloc[len(tags)-1]['end']:]).strip())
+        all_sen.append((tags.iloc[len(tags) - 1]['start_tag'] + doc_text[tags.iloc[len(tags) - 1]['start']:
+                                                                         tags.iloc[len(tags) - 1]['end']] +
+                        tags.iloc[len(tags) - 1]['end_tag'] + doc_text[tags.iloc[len(tags) - 1]['end']:]).strip())
 
         sentence = ' '.join(s for s in all_sen).strip()
 
@@ -1079,3 +1104,8 @@ class CausalDataReader:
         if result is not None and len(result) > 0:
             return result[0].strip()
         return ""
+
+
+class CrestReader:
+    def __init__(self):
+        print("reader class")
