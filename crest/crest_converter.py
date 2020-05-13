@@ -1,6 +1,7 @@
-import os
-import copy
 import re
+import os
+import sys
+import copy
 import spacy
 import numpy as np
 import pandas as pd
@@ -12,15 +13,15 @@ from nltk.corpus import wordnet as wn
 
 
 class CrestConverter:
-    def __init__(self, root_path=".."):
+    def __init__(self):
         """
         idx = {'span1': [], 'span2': [], 'signal': []} -> indexes of span1, span2, and signal tokens in context
         label = 0 -> non-causal, 1: [span1, span2] -> cause-effect, 2: [span1, span2] -> effect-cause
         split -> 0: train, 1: dev, test: 2
-        :param root_path:
         """
-        self.root_path = root_path
-        self.dir_path = self.root_path + "/data/causal/"
+        root_path = os.path.abspath(os.path.join(os.path.dirname("__file__"), '..'))
+        sys.path.insert(0, root_path)
+        self.dir_path = root_path + "/data/causal/"
         self.scheme_columns = ['id', 'span1', 'span2', 'context', 'idx', 'label', 'source', 'ann_file', 'split']
         self.connective_columns = ['word', 'count', 'type', 'temporal', 'flag']
         # loading spaCy's english model
@@ -34,7 +35,7 @@ class CrestConverter:
         self.because_code = 7
         self.storyline_v15_code = 8
 
-    def read_semeval_2007_4(self):
+    def convert_semeval_2007_4(self):
         """
         reading SemEval 2007 task 4 data
         :return: pandas data frame of samples
@@ -104,9 +105,13 @@ class CrestConverter:
         extract_samples(train_content, 0)
         extract_samples(test_content, 2)
 
-        return pd.DataFrame(data, columns=self.scheme_columns)
+        data = pd.DataFrame(data, columns=self.scheme_columns)
 
-    def read_semeval_2010_8(self):
+        assert self._check_span_indexes(data) == True
+
+        return data
+
+    def convert_semeval_2010_8(self):
         """
         reading SemEval 2010 task 8 data
         :return: pandas data frame of samples
@@ -167,9 +172,13 @@ class CrestConverter:
         extract_samples(train_content, 0)
         extract_samples(test_content, 2)
 
-        return pd.DataFrame(data, columns=self.scheme_columns)
+        data = pd.DataFrame(data, columns=self.scheme_columns)
 
-    def read_event_causality(self):
+        assert self._check_span_indexes(data) == True
+
+        return data
+
+    def convert_event_causality(self):
 
         def get_sentence_text(sentence_string):
             sen = ""
@@ -192,7 +201,7 @@ class CrestConverter:
                     data = "<keys>" + data + "</keys>"
 
                 tree = ET.fromstring(data)
-                # there're two types of tags -> C: causal, R: related
+                # there're two types of tags -> C: causal, R: related (mixed)
                 for child in tree:
                     doc_id = child.attrib['id']
                     doc_tags = []
@@ -214,7 +223,7 @@ class CrestConverter:
         dev_keys_file = data_path + "keys/dev.keys"
         eval_keys_file = data_path + "keys/eval.keys"
 
-        # reading all keys
+        # reading all keys (annotations)
         read_keys([dev_keys_file], 1)
         read_keys([eval_keys_file], 2)
 
@@ -229,16 +238,13 @@ class CrestConverter:
                         root = tree.getroot()
                         doc_id = root.attrib['id']
                         sentences = {}
-                        # TODO: use findall() instead of nested for-if loops
-                        for child in root:
-                            if child.tag == "P":
-                                for cchild in child:
-                                    if cchild.tag == "S3":
-                                        text_id = cchild.attrib['id']
-                                        sentences[text_id] = cchild.text
+
+                        for child in root.findall("./P/S3"):
+                            sen_id = child.attrib['id']
+                            sentences[sen_id] = child.text
                         docs[doc_id] = sentences
                     except Exception as e:
-                        print("[datareader-event-causality-log] error in parsing file. Details: " + str(e))
+                        print("[crest-log] Error in parsing XML file. Details: {}".format(e))
 
         data = []
         data_idx = 1
@@ -250,46 +256,50 @@ class CrestConverter:
                     p1 = value['p1'].split('_')
                     p2 = value['p2'].split('_')
                     split = value['split']
+
+                    # if both spans are in the same sentence
                     if p1[0] == p2[0]:
-                        sentence = ""
-                        p1_token_idx = p1[1]
-                        p2_token_idx = p2[1]
+                        context = ""
+                        token_idx = 0
+
+                        span1_token_idx = p1[1]
+                        span2_token_idx = p2[1]
                         doc_sentences = docs[key]
                         tokens = doc_sentences[p1[0]].split(' ')
+
+                        # finding spans 1 and 2 and building context
                         for i in range(len(tokens)):
                             token = tokens[i].split('/')[0]
-                            # TODO: change it in a way that there's always e1 and then e2 in the documents and
-                            #  direction label will make it clear which one is cause and which one is effect
-                            if i == int(p1_token_idx):
-                                sentence += self.arg1_tag[0] + token + self.arg1_tag[1] + " "
-                                p1_token = copy.deepcopy(token)
-                            elif i == int(p2_token_idx):
-                                sentence += self.arg2_tag[0] + token + self.arg2_tag[1] + " "
-                                p2_token = copy.deepcopy(token)
-                            else:
-                                sentence += token + " "
+                            if i == int(span1_token_idx):
+                                span1 = copy.deepcopy(token)
+                                span1_start = copy.deepcopy(token_idx)
+                                span1_end = span1_start + len(span1)
+                            elif i == int(span2_token_idx):
+                                span2 = copy.deepcopy(token)
+                                span2_start = copy.deepcopy(token_idx)
+                                span2_end = span2_start + len(span2)
+                            context += token + " "
+                            token_idx += len(token) + 1
 
-                        # TODO: check the label direction
-                        if self._check_text_format(p1_token, p2_token, sentence):
-                            data.append([data_idx, p1_token, p2_token, sentence.replace('\n', ' '), 1, 1,
-                                         self.event_causality_code, "", split])
-                            data_idx += 1
+                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]]}
+
+                        data.append([data_idx, span1, span2, context, idx_val, 1, self.event_causality_code, "", split])
+
+                        data_idx += 1
                     else:
+                        # this means both spans are NOT in the same sentence
                         s_idx = {}
-                        label_direction = 0
                         if int(p2[0]) < int(p1[0]):
-                            s_idx[1] = {'sen_index': int(p2[0]), 'token_index': int(p2[1]),
-                                        'token_label': self.arg2_tag}
-                            s_idx[2] = {'sen_index': int(p1[0]), 'token_index': int(p1[1]),
-                                        'token_label': self.arg1_tag}
-                            label_direction = 1
+                            s_idx[1] = {'sen_index': int(p2[0]), 'token_index': int(p2[1])}
+                            s_idx[2] = {'sen_index': int(p1[0]), 'token_index': int(p1[1])}
+                            label = 2
                         else:
-                            s_idx[1] = {'sen_index': int(p1[0]), 'token_index': int(p1[1]),
-                                        'token_label': self.arg1_tag}
-                            s_idx[2] = {'sen_index': int(p2[0]), 'token_index': int(p2[1]),
-                                        'token_label': self.arg2_tag}
+                            s_idx[1] = {'sen_index': int(p1[0]), 'token_index': int(p1[1])}
+                            s_idx[2] = {'sen_index': int(p2[0]), 'token_index': int(p2[1])}
+                            label = 1
 
-                        sentence = ""
+                        context = ""
+                        token_idx = 0
 
                         doc_sentences = docs[key]
                         for k, v in doc_sentences.items():
@@ -297,32 +307,44 @@ class CrestConverter:
                             if int(k) == s_idx[1]['sen_index']:
                                 for i in range(len(tokens)):
                                     token = tokens[i].split('/')[0]
+
+                                    # found spans1
                                     if i == int(s_idx[1]['token_index']):
-                                        sentence += s_idx[1]['token_label'][0] + token + s_idx[1]['token_label'][
-                                            1] + " "
-                                        p1_token = copy.deepcopy(token)
-                                    else:
-                                        sentence += token + " "
+                                        span1 = copy.deepcopy(token)
+                                        span1_start = copy.deepcopy(token_idx)
+                                        span1_end = span1_start + len(span1)
+
+                                    context += token + " "
+                                    token_idx += len(token) + 1
                             elif int(k) == s_idx[2]['sen_index']:
                                 for i in range(len(tokens)):
                                     token = tokens[i].split('/')[0]
+
+                                    # found span2
                                     if i == int(s_idx[2]['token_index']):
-                                        sentence += s_idx[2]['token_label'][0] + token + s_idx[2]['token_label'][
-                                            1] + " "
-                                        p2_token = copy.deepcopy(token)
-                                    else:
-                                        sentence += token + " "
+                                        span2 = copy.deepcopy(token)
+                                        span2_start = copy.deepcopy(token_idx)
+                                        span2_end = span2_start + len(span2)
+
+                                    context += token + " "
+                                    token_idx += len(token) + 1
                                 break
                             elif s_idx[1]['sen_index'] < int(k) < s_idx[2]['sen_index']:
-                                sentence += get_sentence_text(v)
+                                next_sen = get_sentence_text(v)
+                                context += next_sen + " "
+                                token_idx += len(next_sen) + 1
 
-                        if self._check_text_format(p1_token, p2_token, sentence):
-                            data.append([data_idx, p1_token, p2_token, sentence.replace('\n', ' '), label_direction, 1,
-                                         self.event_causality_code, "", split])
-                            data_idx += 1
+                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]]}
 
-        # print("Total samples = " + str(len(data)))
-        return pd.DataFrame(data, columns=self.scheme_columns)
+                        data.append(
+                            [data_idx, span1, span2, context, idx_val, label, self.event_causality_code, "", split])
+                        data_idx += 1
+
+        data = pd.DataFrame(data, columns=self.scheme_columns)
+
+        assert self._check_span_indexes(data) == True
+
+        return data
 
     def read_causal_timebank(self):
         data_path = self.dir_path + "Causal-TimeBank/Causal-TimeBank-CAT"
@@ -1093,6 +1115,20 @@ class CrestConverter:
         return sentence
 
     @staticmethod
+    def _check_span_indexes(data):
+        """
+        checking if span indexes are correctly stored
+        :param data:
+        :return:
+        """
+        for index, row in data.iterrows():
+            span1 = row["context"][row["idx"]["span1"][0][0]:row["idx"]["span1"][0][1]]
+            span2 = row["context"][row["idx"]["span2"][0][0]:row["idx"]["span2"][0][1]]
+            if span1 != row["span1"] or span2 != row["span2"]:
+                return False
+            return True
+
+    @staticmethod
     def _get_tag_text(tag, text):
         """
         get text span of a tag (if there's multiple occurrences, we return the first occurrence)
@@ -1104,8 +1140,3 @@ class CrestConverter:
         if result is not None and len(result) > 0:
             return result[0].strip()
         return ""
-
-
-class CrestReader:
-    def __init__(self):
-        print("reader class")
