@@ -12,7 +12,7 @@ from nltk.corpus import verbnet as vn
 from nltk.corpus import wordnet as wn
 
 
-class CrestConverter:
+class Converter:
     def __init__(self):
         """
         idx = {'span1': [], 'span2': [], 'signal': []} -> indexes of span1, span2, and signal tokens in context
@@ -22,7 +22,8 @@ class CrestConverter:
         root_path = os.path.abspath(os.path.join(os.path.dirname("__file__"), '..'))
         sys.path.insert(0, root_path)
         self.dir_path = root_path + "/data/causal/"
-        self.scheme_columns = ['id', 'span1', 'span2', 'context', 'idx', 'label', 'source', 'ann_file', 'split']
+        self.scheme_columns = ['id', 'span1', 'span2', 'signal', 'context', 'idx', 'label', 'source', 'ann_file',
+                               'split']
         self.connective_columns = ['word', 'count', 'type', 'temporal', 'flag']
         # loading spaCy's english model
         self.nlp = spacy.load("en_core_web_sm")
@@ -40,12 +41,11 @@ class CrestConverter:
         reading SemEval 2007 task 4 data
         :return: pandas data frame of samples
         """
-
-        data = []
         e1_tag = ["<e1>", "</e1>"]
         e2_tag = ["<e2>", "</e2>"]
 
         def extract_samples(all_lines, split):
+            samples = pd.DataFrame(columns=self.scheme_columns)
             # each sample has three lines of information
             for idx, val in enumerate(all_lines):
                 tmp = val.split(" ", 1)
@@ -80,17 +80,21 @@ class CrestConverter:
                         span2_start = context.find(e2_tag[0]) - (len(e1_tag[0]) + len(e1_tag[1]))
                         span2_end = context.find(e2_tag[1]) - (len(e1_tag[0]) + len(e1_tag[1]) + len(e2_tag[0]))
 
-                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]]}
+                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
+                                   "signal": []}
 
                         # replacing tags with standard tags
                         context = context.replace(e1_tag[0], "").replace(e1_tag[1], "").replace(e2_tag[0], "").replace(
                             e2_tag[1], "")
 
-                        data.append(
-                            [int(sample_id), span1, span2, context, idx_val, label, self.semeval_2007_4_code, "",
-                             split])
+                        samples = samples.append(
+                            {"id": int(sample_id), "span1": span1, "span2": span2, "signal": [], "context": context,
+                             "idx": idx_val, "label": label, "source": self.semeval_2007_4_code, "ann_file": "",
+                             "split": split}, ignore_index=True)
+
                     except Exception as e:
-                        print("[crest-log] Incorrect formatting for semeval07-task4 record. Details: " + str(e))
+                        print("[crest-log] semeval07-task4. Detail: {}".format(e))
+            return samples
 
         # reading files
         with open(self.dir_path + 'SemEval2007_task4/task-4-training/relation-1-train.txt', mode='r',
@@ -102,10 +106,10 @@ class CrestConverter:
                   encoding='cp1252') as key:
             test_content = key.readlines()
 
-        extract_samples(train_content, 0)
-        extract_samples(test_content, 2)
+        data = pd.DataFrame(columns=self.scheme_columns)
 
-        data = pd.DataFrame(data, columns=self.scheme_columns)
+        data = data.append(extract_samples(train_content, 0))
+        data = data.append(extract_samples(test_content, 2))
 
         assert self._check_span_indexes(data) == True
 
@@ -116,11 +120,11 @@ class CrestConverter:
         reading SemEval 2010 task 8 data
         :return: pandas data frame of samples
         """
-        data = []
         e1_tag = ["<e1>", "</e1>"]
         e2_tag = ["<e2>", "</e2>"]
 
         def extract_samples(all_lines, split):
+            samples = pd.DataFrame(columns=self.scheme_columns)
             # each sample has three lines of information
             for idx, val in enumerate(all_lines):
                 tmp = val.split("\t")
@@ -147,18 +151,21 @@ class CrestConverter:
                         span2_start = context.find(e2_tag[0]) - (len(e1_tag[0]) + len(e1_tag[1]))
                         span2_end = context.find(e2_tag[1]) - (len(e1_tag[0]) + len(e1_tag[1]) + len(e2_tag[0]))
 
-                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]]}
+                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
+                                   "signal": []}
 
                         # replacing tags with standard tags
                         context = context.replace(e1_tag[0], "").replace(e1_tag[1], "").replace(e2_tag[0], "").replace(
                             e2_tag[1], "")
 
-                        data.append(
-                            [int(sample_id), span1, span2, context, idx_val, label, self.semeval_2010_8_code, "",
-                             split])
+                        samples = samples.append(
+                            {"id": int(sample_id), "span1": span1, "span2": span2, "signal": [], "context": context,
+                             "idx": idx_val, "label": label, "source": self.semeval_2010_8_code, "ann_file": "",
+                             "split": split}, ignore_index=True)
 
                     except Exception as e:
                         print("[crest-log] Incorrect formatting for semeval10-task8 record. Details: " + str(e))
+            return samples
 
         # reading files
         with open(self.dir_path + 'SemEval2010_task8_all_data/SemEval2010_task8_training/TRAIN_FILE.txt', mode='r',
@@ -169,10 +176,10 @@ class CrestConverter:
                   mode='r', encoding='cp1252') as key:
             test_content = key.readlines()
 
-        extract_samples(train_content, 0)
-        extract_samples(test_content, 2)
+        data = pd.DataFrame(columns=self.scheme_columns)
 
-        data = pd.DataFrame(data, columns=self.scheme_columns)
+        data = data.append(extract_samples(train_content, 0))
+        data = data.append(extract_samples(test_content, 2))
 
         assert self._check_span_indexes(data) == True
 
@@ -246,7 +253,7 @@ class CrestConverter:
                     except Exception as e:
                         print("[crest-log] Error in parsing XML file. Details: {}".format(e))
 
-        data = []
+        data = pd.DataFrame(columns=self.scheme_columns)
         data_idx = 1
         # now that we have all the information in dictionaries, we create samples
         for key, values in keys.items():
@@ -281,9 +288,13 @@ class CrestConverter:
                             context += token + " "
                             token_idx += len(token) + 1
 
-                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]]}
+                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
+                                   "signal": []}
 
-                        data.append([data_idx, span1, span2, context, idx_val, 1, self.event_causality_code, "", split])
+                        data = data.append(
+                            {"id": data_idx, "span1": span1, "span2": span2, "signal": [], "context": context,
+                             "idx": idx_val, "label": 1, "source": self.event_causality_code, "ann_file": "",
+                             "split": split}, ignore_index=True)
 
                         data_idx += 1
                     else:
@@ -334,127 +345,133 @@ class CrestConverter:
                                 context += next_sen + " "
                                 token_idx += len(next_sen) + 1
 
-                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]]}
+                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
+                                   "signal": []}
 
-                        data.append(
-                            [data_idx, span1, span2, context, idx_val, label, self.event_causality_code, "", split])
+                        data = data.append(
+                            {"id": data_idx, "span1": span1, "span2": span2, "signal": [], "context": context,
+                             "idx": idx_val, "label": label, "source": self.event_causality_code, "ann_file": "",
+                             "split": split}, ignore_index=True)
+
                         data_idx += 1
-
-        data = pd.DataFrame(data, columns=self.scheme_columns)
 
         assert self._check_span_indexes(data) == True
 
         return data
 
-    def read_causal_timebank(self):
+    def convert_causal_timebank(self):
         data_path = self.dir_path + "Causal-TimeBank/Causal-TimeBank-CAT"
         all_files = os.listdir(data_path)
         # parser = ET.XMLParser(encoding="utf-8")
         data_idx = 1
-        data = []
+        data = pd.DataFrame(columns=self.scheme_columns)
         for file in all_files:
             tokens = []
             try:
                 tree = ET.parse(data_path + "/" + file)
                 root = tree.getroot()
             except Exception as e:
-                print("file: " + str(file))
-                print(str(e))
-                print("---------")
+                print("file: {}, error: {}".format(file, e))
 
             # [0] getting information of events
             events = {}
-            for event in root.findall('Markables/EVENT'):
-                events_ids = []
-                for anchor in event:
-                    events_ids.append(anchor.attrib['id'])
-                events[event.attrib['id']] = events_ids
-
-            for event in root.findall('Markables/TIMEX3'):
-                events_ids = []
-                for anchor in event:
-                    events_ids.append(anchor.attrib['id'])
-                events[event.attrib['id']] = events_ids
-
-            for event in root.findall('Markables/C-SIGNAL'):
-                events_ids = []
-                for anchor in event:
-                    events_ids.append(anchor.attrib['id'])
-                events[event.attrib['id']] = events_ids
+            markables = ['Markables/EVENT', 'Markables/TIMEX3', 'Markables/C-SIGNAL']
+            for markable in markables:
+                for event in root.findall(markable):
+                    events_ids = []
+                    for anchor in event:
+                        events_ids.append(int(anchor.attrib['id']))
+                    events[int(event.attrib['id'])] = events_ids
 
             # [1] getting list of tokens in sentence/doc
             for token in root.findall('token'):
-                tokens.append([token.attrib['id'], token.text, token.attrib['number'], token.attrib['sentence']])
+                tokens.append(
+                    [int(token.attrib['id']), token.text, int(token.attrib['number']), int(token.attrib['sentence'])])
 
             # [2] getting list of causal links
             for link in root.findall('Relations/CLINK'):
-                source_id = link[0].attrib['id']
-                target_id = link[1].attrib['id']
+                s_event_id = int(link[0].attrib['id'])  # source event id
+                t_event_id = int(link[1].attrib['id'])  # target event id
 
                 if 'c-signalID' in link.attrib:
-                    signal_id = link.attrib['c-signalID']
-                    signal_anchors = events[signal_id]
+                    signal_id = int(link.attrib['c-signalID'])
+                else:
+                    signal_id = False
 
                 # finding label direction
-                if source_id > target_id:
-                    label_direction = 1
-                    s_id = target_id
-                    t_id = source_id
+                if s_event_id > t_event_id:
+                    label = 2
+                    s_event_id, t_event_id = t_event_id, s_event_id
                 else:
-                    label_direction = 0
-                    s_id = source_id
-                    t_id = target_id
+                    label = 1
 
-                sentence = ""
-                start_anchors = events[s_id]
-                end_anchors = events[t_id]
-                e1_tokens = ""
-                e2_tokens = ""
+                context = ""
+                span1 = ""
+                span2 = ""
+                signal = ""
+                token_idx = 0
 
                 # finding start and end sentences indexes
                 for i in range(len(tokens)):
-                    if tokens[i][0] == start_anchors[0]:
-                        s_sen_id = tokens[i][3]
-                        break
-                for i in range(len(tokens)):
-                    if tokens[i][0] == end_anchors[0]:
-                        t_sen_id = tokens[i][3]
-                        break
+                    if tokens[i][0] == events[s_event_id][0]:
+                        s_sen_id = int(tokens[i][3])
+                    if tokens[i][0] == events[t_event_id][0]:
+                        t_sen_id = int(tokens[i][3])
 
+                # building the context and finding spans
                 for i in range(len(tokens)):
-                    token_id = tokens[i][0]
+                    token_id = int(tokens[i][0])
                     token_text = tokens[i][1]
-                    token_sen_id = tokens[i][3]
-                    if s_sen_id <= token_sen_id <= t_sen_id:
-                        if token_id == start_anchors[0]:
-                            sentence = sentence + self.arg1_tag[0]
-                            for l in range(len(start_anchors)):
-                                sentence += tokens[i + l][1] + " "
-                                e1_tokens += tokens[i + l][1] + " "
-                            sentence = sentence.strip() + self.arg1_tag[1] + " "
+                    token_sen_id = int(tokens[i][3])
+                    if s_sen_id <= int(token_sen_id) <= t_sen_id:
+                        # span1
+                        if token_id == events[s_event_id][0]:
+                            for l in range(len(events[s_event_id])):
+                                span1 += tokens[i + l][1] + " "
+                            # setting span1 start and end indexes
+                            span1_start = copy.deepcopy(token_idx)
+                            span1_end = span1_start + len(span1) - 1
+                            context += span1
+                            token_idx += len(span1)
 
-                        elif token_id == end_anchors[0]:
-                            sentence = sentence + self.arg2_tag[0]
-                            for l in range(len(end_anchors)):
-                                sentence += tokens[i + l][1] + " "
-                                e2_tokens += tokens[i + l][1] + " "
-                            sentence = sentence.strip() + self.arg2_tag[1] + " "
+                        # span2
+                        elif token_id == events[t_event_id][0]:
+                            for l in range(len(events[t_event_id])):
+                                span2 += tokens[i + l][1] + " "
+                            # setting span2 start and end indexes
+                            span2_start = copy.deepcopy(token_idx)
+                            span2_end = span2_start + len(span2) - 1
+                            context += span2
+                            token_idx += len(span2)
 
-                        elif token_id == signal_anchors[0]:
-                            sentence += self.signal_tag[0]
-                            for l in range(len(signal_anchors)):
-                                sentence += tokens[i + l][1] + " "
-                            sentence = sentence.strip() + self.signal_tag[1] + " "
+                        # signal token
+                        elif signal_id and token_id == events[signal_id][0]:
+                            for l in range(len(events[signal_id])):
+                                signal += tokens[i + l][1] + " "
+                            # setting signal start and end indexes
+                            signal_start = copy.deepcopy(token_idx)
+                            signal_end = signal_start + len(signal) - 1
+                            context += signal
+                            token_idx += len(signal)
                         else:
-                            sentence += token_text + " "
+                            context += token_text + " "
+                            token_idx += len(token_text) + 1
 
-                if self._check_text_format(e1_tokens, e2_tokens, sentence):
-                    data.append([data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), label_direction, 1,
-                                 self.causal_timebank_code, file, ""])
-                    data_idx += 1
+                idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]], "signal": []}
 
-        # print("Total samples = " + str(len(data)))
-        return pd.DataFrame(data, columns=self.scheme_columns)
+                if signal.strip() != "":
+                    idx_val["signal"].append([signal_start, signal_end])
+
+                data = data.append(
+                    {"id": data_idx, "span1": span1.strip(), "span2": span2.strip(), "signal": [signal.strip()],
+                     "context": context, "idx": idx_val, "label": label, "source": self.causal_timebank_code,
+                     "ann_file": "", "split": ""}, ignore_index=True)
+
+                data_idx += 1
+
+        assert self._check_span_indexes(data) == True
+
+        return data
 
     def read_story_lines(self):
 
@@ -1124,7 +1141,13 @@ class CrestConverter:
         for index, row in data.iterrows():
             span1 = row["context"][row["idx"]["span1"][0][0]:row["idx"]["span1"][0][1]]
             span2 = row["context"][row["idx"]["span2"][0][0]:row["idx"]["span2"][0][1]]
-            if span1 != row["span1"] or span2 != row["span2"]:
+            signal = ""
+            if "signal" in row["idx"]:
+                for sig in row["idx"]["signal"]:
+                    signal += row["context"][sig[0]:sig[1]] + " "
+
+            if span1 != row["span1"] or span2 != row["span2"] or (
+                    signal.strip() != "" and signal.strip() != " ".join(row["signal"]).strip()):
                 return False
             return True
 
