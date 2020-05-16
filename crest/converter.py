@@ -475,12 +475,12 @@ class Converter:
 
         return data
 
-    def convert_event_storylines(self):
+    def convert_event_storylines(self, version="1.5"):
         """
-        reading causal and non-causal samples from EventStoryLines v1.5
+        reading causal and non-causal samples from EventStoryLines
         """
 
-        docs_path = self.dir_path + "EventStoryLine/annotated_data/v1.5"
+        docs_path = self.dir_path + "EventStoryLine/annotated_data/v" + version
 
         # creating a dictionary of all documents
         data_idx = 1
@@ -513,7 +513,7 @@ class Converter:
                         # "CAUSES" and "CAUSED_BY" are for marking explicit causal relations
                         for relation in root.findall("Relations/PLOT_LINK"):
                             if "relType" in relation.attrib:
-                                if relation.attrib['relType'] == "RISING_ACTION":
+                                if relation.attrib['relType'] == "PRECONDITION":
                                     label = 1
                                 elif relation.attrib['relType'] == "FALLING_ACTION":
                                     label = 2
