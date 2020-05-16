@@ -7,34 +7,31 @@ import numpy as np
 import pandas as pd
 import xml.etree.ElementTree as ET
 
-from nltk.corpus import framenet as fn
-from nltk.corpus import verbnet as vn
-from nltk.corpus import wordnet as wn
-
 
 class Converter:
+    """
+    idx = {'span1': [], 'span2': [], 'signal': []} -> indexes of span1, span2, and signal tokens in context
+    label = 0 -> non-causal, 1: [span1, span2] -> cause-effect, 2: [span1, span2] -> effect-cause
+    split -> 0: train, 1: dev, test: 2
+    """
+
     def __init__(self):
-        """
-        idx = {'span1': [], 'span2': [], 'signal': []} -> indexes of span1, span2, and signal tokens in context
-        label = 0 -> non-causal, 1: [span1, span2] -> cause-effect, 2: [span1, span2] -> effect-cause
-        split -> 0: train, 1: dev, test: 2
-        """
         root_path = os.path.abspath(os.path.join(os.path.dirname("__file__"), '..'))
         sys.path.insert(0, root_path)
         self.dir_path = root_path + "/data/causal/"
         self.scheme_columns = ['id', 'span1', 'span2', 'signal', 'context', 'idx', 'label', 'source', 'ann_file',
                                'split']
         self.connective_columns = ['word', 'count', 'type', 'temporal', 'flag']
+
         # loading spaCy's english model
         self.nlp = spacy.load("en_core_web_sm")
         self.semeval_2007_4_code = 1
         self.semeval_2010_8_code = 2
         self.event_causality_code = 3
         self.causal_timebank_code = 4
-        self.storyline_code = 5
+        self.event_storyline_code = 5
         self.caters_code = 6
         self.because_code = 7
-        self.storyline_v15_code = 8
 
     def convert_semeval_2007_4(self):
         """
@@ -164,7 +161,7 @@ class Converter:
                              "split": split}, ignore_index=True)
 
                     except Exception as e:
-                        print("[crest-log] Incorrect formatting for semeval10-task8 record. Details: " + str(e))
+                        print("[crest-log] Incorrect formatting for semeval10-task8 record. Detail: " + str(e))
             return samples
 
         # reading files
@@ -419,7 +416,8 @@ class Converter:
                         t_sen_id = int(tokens[i][3])
 
                 # building the context and finding spans
-                for i in range(len(tokens)):
+                i = 0
+                while i < len(tokens):
                     token_id = int(tokens[i][0])
                     token_text = tokens[i][1]
                     token_sen_id = int(tokens[i][3])
@@ -433,6 +431,7 @@ class Converter:
                             span1_end = span1_start + len(span1) - 1
                             context += span1
                             token_idx += len(span1)
+                            i += l
 
                         # span2
                         elif token_id == events[t_event_id][0]:
@@ -443,6 +442,7 @@ class Converter:
                             span2_end = span2_start + len(span2) - 1
                             context += span2
                             token_idx += len(span2)
+                            i += l
 
                         # signal token
                         elif signal_id and token_id == events[signal_id][0]:
@@ -453,9 +453,11 @@ class Converter:
                             signal_end = signal_start + len(signal) - 1
                             context += signal
                             token_idx += len(signal)
+                            i += l
                         else:
                             context += token_text + " "
                             token_idx += len(token_text) + 1
+                    i += 1
 
                 idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]], "signal": []}
 
@@ -473,203 +475,123 @@ class Converter:
 
         return data
 
-    def read_story_lines(self):
-
-        def get_e_info(e_list):
-            """
-            reading the event-event pair info
-            :param e_list: Event-Event Pair column value in ground truth csv file
-            :return:
-            """
-            e = e_list.split('_')
-            if len(e) == 3:
-                e_text = e[0]
-                e_start = e[1]
-                e_end = e[2]
-            else:
-                e_start = e[len(e) - 2]
-                e_end = e[len(e) - 1]
-                e_text = ""
-                for i in range(len(e) - 2):
-                    e_text += e[i] + " "
-                e_text = e_text.strip()
-            return e_text, int(e_start), int(e_end)
-
-        expert_labels_file = self.dir_path + "Crowdsourcing-StoryLines/old/data/ground_truth/main_experiments_ground_truth.csv"
-        documents_path = self.dir_path + "Crowdsourcing-StoryLines/old/EventStoryLine/annotated_data/v1.0"
-        # documents_path = self.dir_path + "Crowdsourcing-StoryLines/EventStoryLine/ECB+_LREC2014/ECB+"
-        ground_truth = pd.read_csv(expert_labels_file)
-        all_files = os.listdir(documents_path)
-
-        # creating a dictionary of all documents
-        docs_info = {}
-        for file in all_files:
-            if ".txt" not in file and ".DS_Store" not in file:
-                docs = os.listdir(documents_path + "/" + file)
-                for doc in docs:
-                    if ".xml" in doc:
-                        # parse the doc to retrieve info of sentences
-                        tree = ET.parse(documents_path + "/" + file + "/" + doc)
-                        root = tree.getroot()
-                        current_sentence = ""
-                        current_sentence_id = -1
-                        docs_info[doc.strip(".xml")] = {}
-                        for token in root.findall('token'):
-                            if token.attrib['sentence'] != current_sentence_id and current_sentence_id != -1:
-                                docs_info[doc.strip(".xml")][current_sentence_id] = current_sentence.strip()
-                                current_sentence = ""
-                            current_sentence_id = token.attrib['sentence']
-                            current_sentence += token.text + " "
-                        # saving the last sentence
-                        docs_info[doc.strip(".xml")][current_sentence_id] = current_sentence.strip()
-        # print("Total documents: " + str(len(docs_info)))
-
-        data_idx = 1
-        data = []
-        err = 0
-        for index, row in ground_truth.iterrows():
-            tmp = row["Document Id"].split('_')
-            if len(tmp) == 3:
-                doc_id = tmp[0] + '_' + tmp[1].strip(".xml")
-                sentence_id = tmp[2]
-                if "-r-" in row["Event-Event Pair"]:
-                    label_direction = 1
-                    ee = row["Event-Event Pair"].split("-r-")
-                else:
-                    label_direction = 0
-                    ee = row["Event-Event Pair"].split("--")
-
-                try:
-                    e1_tokens, e1_start, e1_end = get_e_info(ee[0])
-                    e2_tokens, e2_start, e2_end = get_e_info(ee[1])
-
-                    sentence = docs_info[doc_id][sentence_id]
-                    sentence = self._add_events_tags(sentence, e1_start, e1_end, e2_start, e2_end)
-
-                    if self._check_text_format(e1_tokens, e2_tokens, sentence):
-                        data.append([data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), label_direction, 1,
-                                     self.storyline_code, "", ""])
-                        data_idx += 1
-                except Exception as e:
-                    print(str(e), doc_id, sentence_id)
-                    err += 1
-        # print("Total samples = " + str(len(data)))
-        if err > 0:
-            print("[datareader-story-line-log] err: " + str(err))
-        return pd.DataFrame(data, columns=self.scheme_columns)
-
-    def read_story_lines_v_1_5(self):
+    def convert_event_storylines(self):
         """
         reading causal and non-causal samples from EventStoryLines v1.5
         """
-
-        def get_tagged_sentence(tokens, sentences, markables, relation):
-            """
-            getting arguments text spans and tagged sentence
-            :param tokens: tokens in document
-            :param sentences: sentences in document
-            :param markables: tagged events in document
-            :param relation: causal and non-causal relation info
-            :return:
-            """
-            source_m_id = relation['source']
-            target_m_id = relation['target']
-
-            sentence_text = ""
-            source_text = ""
-            target_text = ""
-            sent_ids = set()
-            for item in markables[source_m_id]:
-                source_text += tokens[item.attrib['t_id']]['text'] + " "
-                sent_ids.add(tokens[item.attrib['t_id']]['s_id'])
-            for item in markables[target_m_id]:
-                target_text += tokens[item.attrib['t_id']]['text'] + " "
-                sent_ids.add(tokens[item.attrib['t_id']]['s_id'])
-            for sen_id in sent_ids:
-                sentence_text += sentences[sen_id]
-
-            arg1 = source_text.replace('\n', ' ').strip()
-            arg2 = target_text.replace('\n', ' ').strip()
-
-            return arg1, arg2, self.get_tagged_sentence(arg1, arg2, sentence_text).strip()
 
         docs_path = self.dir_path + "EventStoryLine/annotated_data/v1.5"
 
         # creating a dictionary of all documents
         data_idx = 1
-        data = []
-        err = 0
+        data = pd.DataFrame(columns=self.scheme_columns)
+
         for folder in os.listdir(docs_path):
-            if not any(sub in folder for sub in [".txt", ".DS_Store"]):
+            if not any(sub in folder for sub in [".txt", ".pdf", ".DS_Store"]):
                 for doc in os.listdir(docs_path + "/" + folder):
                     if ".xml" in doc:
                         # initialization
-                        doc_sentences = {}
-                        relations_info = {}
-                        markables_info = {}
-                        tokens_info = {}
+                        markables = {}
+                        tokens = []
 
                         # parse the doc to retrieve info of sentences
                         tree = ET.parse(docs_path + "/" + folder + "/" + doc)
                         root = tree.getroot()
-                        current_sentence = ""
-                        current_sentence_id = -1
 
+                        # saving tokens info
                         for token in root.findall('token'):
-                            # saving token info
-                            tokens_info[token.attrib['t_id']] = {'text': token.text, 's_id': token.attrib['sentence']}
-
-                            if token.attrib['sentence'] != current_sentence_id and current_sentence_id != -1:
-                                doc_sentences[current_sentence_id] = current_sentence.strip()
-                                current_sentence = ""
-                            current_sentence_id = token.attrib['sentence']
-                            current_sentence += token.text + " "
-                        # saving the last sentence
-                        doc_sentences[current_sentence_id] = current_sentence.strip()
-
-                        # saving relations info
-                        rel_idx = 0
-                        for relation in root.findall("Relations/PLOT_LINK"):
-                            if all(rel_type in relation.attrib for rel_type in ['CAUSES', 'CAUSED_BY']) and \
-                                    relation.attrib['validated'] == "TRUE":
-                                if relation.attrib['CAUSES'] == "TRUE":
-                                    label = 1
-                                    direction = 0
-                                elif relation.attrib['CAUSED_BY'] == "TRUE":
-                                    label = 1
-                                    direction = 1
-                                else:
-                                    label = 0
-                                    direction = 0
-
-                                relations_info[rel_idx] = {'source': relation[0].attrib['m_id'],
-                                                           'target': relation[1].attrib['m_id'], 'label': label,
-                                                           'direction': direction}
-                                rel_idx += 1
+                            tokens.append([int(token.attrib['t_id']), token.text, int(token.attrib['sentence'])])
 
                         # saving markables info
                         for markable in root.findall("Markables/"):
-                            markables_info[markable.attrib['m_id']] = markable
+                            anchor_ids = []
+                            for anchor in markable:
+                                anchor_ids.append(int(anchor.attrib['t_id']))
+                            markables[int(markable.attrib['m_id'])] = anchor_ids
 
-                        # storing causal and non-causal info
-                        try:
-                            for k, v in relations_info.items():
-                                e1_tokens, e2_tokens, sentence = get_tagged_sentence(tokens_info, doc_sentences,
-                                                                                     markables_info, v)
-                                if sentence != "":
-                                    data.append(
-                                        [data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), v['direction'],
-                                         v['label'], self.storyline_v15_code, "", ""])
+                        # saving relations info
+                        # "CAUSES" and "CAUSED_BY" are for marking explicit causal relations
+                        for relation in root.findall("Relations/PLOT_LINK"):
+                            if "relType" in relation.attrib:
+                                if relation.attrib['relType'] == "RISING_ACTION":
+                                    label = 1
+                                elif relation.attrib['relType'] == "FALLING_ACTION":
+                                    label = 2
+                                else:
+                                    label = 0
+
+                                # --------------------------
+                                # building context and spans
+                                source_m_id = int(relation[0].attrib['m_id'])
+                                target_m_id = int(relation[1].attrib['m_id'])
+
+                                context = ""
+                                span1 = ""
+                                span2 = ""
+                                token_idx = 0
+
+                                # finding start and end sentences indexes
+                                for i in range(len(tokens)):
+                                    if tokens[i][0] == markables[source_m_id][0]:
+                                        s_sen_id = int(tokens[i][2])
+                                    if tokens[i][0] == markables[target_m_id][0]:
+                                        t_sen_id = int(tokens[i][2])
+
+                                # building the context and finding spans
+                                i = 0
+                                while i < len(tokens):
+                                    t_id = tokens[i][0]
+                                    token_text = tokens[i][1]
+                                    token_sen_id = int(tokens[i][2])
+                                    if s_sen_id <= int(token_sen_id) <= t_sen_id:
+                                        # span1
+                                        if t_id == markables[source_m_id][0]:
+                                            for l in range(len(markables[source_m_id])):
+                                                span1 += tokens[i + l][1] + " "
+                                            # setting span1 start and end indexes
+                                            span1_start = copy.deepcopy(token_idx)
+                                            span1_end = span1_start + len(span1) - 1
+                                            context += span1
+                                            token_idx += len(span1)
+                                            i += l
+
+                                        # span2
+                                        elif t_id == markables[target_m_id][0]:
+                                            for l in range(len(markables[target_m_id])):
+                                                span2 += tokens[i + l][1] + " "
+                                            # setting span2 start and end indexes
+                                            span2_start = copy.deepcopy(token_idx)
+                                            span2_end = span2_start + len(span2) - 1
+                                            context += span2
+                                            token_idx += len(span2)
+                                            i += l
+                                        else:
+                                            context += token_text + " "
+                                            token_idx += len(token_text) + 1
+                                    i += 1
+                                # --------------------------
+
+                                # storing causal and non-causal info
+                                try:
+                                    idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
+                                               "signal": []}
+
+                                    data = data.append(
+                                        {"id": data_idx, "span1": span1.strip(), "span2": span2.strip(),
+                                         "signal": [""],
+                                         "context": context, "idx": idx_val, "label": label,
+                                         "source": self.event_storyline_code,
+                                         "ann_file": doc, "split": ""}, ignore_index=True)
+
                                     data_idx += 1
-                        except Exception as e:
-                            print(str(e))
-                            err += 1
-        if err > 0:
-            print("[datareader-story-line-v1.5-log] err: " + str(err))
-        return pd.DataFrame(data, columns=self.scheme_columns)
+                                except Exception as e:
+                                    print("[crest-log] EventStoryLine. Detail: {}".format(e))
+
+        assert self._check_span_indexes(data) == True
+
+        return data
 
     def read_CaTeRS(self):
-
         folders_path = self.dir_path + "caters/caters_evaluation/"
         data = []
 
@@ -964,103 +886,6 @@ class Converter:
         return doc_text[:e1_start] + self.arg1_tag[0] + doc_text[e1_start:e1_end] + self.arg1_tag[1] + \
                doc_text[e1_end:e2_start] + self.arg2_tag[0] + doc_text[e2_start:e2_end] + self.arg2_tag[1] + \
                doc_text[e2_end:]
-
-    def remove_text_tags(self, text):
-        text = text.replace(self.signal_tag[0], "")
-        text = text.replace(self.signal_tag[1], "")
-        text = text.replace(self.arg1_tag[0], "")
-        text = text.replace(self.arg1_tag[1], "")
-        text = text.replace(self.arg2_tag[0], "")
-        text = text.replace(self.arg2_tag[1], "")
-        return text.strip().lower()
-
-    def get_text_between(self, x, arg1_tag=[], arg2_tag=[]):
-        """
-        this method gets the text between two arguments of a causal relation
-        :param x: the text field of a record with tags in the causal relation data frame
-        :param arg1_tag: by default, the first tag in our causal scheme
-        :param arg2_tag: by default, the second tag in our causal schema
-        :return:
-        """
-
-        def _clean_text(text):
-            # TODO: ideally we should only be removing signal tags.
-            text = text.replace(self.signal_tag[0], "")
-            text = text.replace(self.signal_tag[1], "")
-            text = text.replace(self.arg1_tag[0], "")
-            text = text.replace(self.arg1_tag[1], "")
-            text = text.replace(self.arg2_tag[0], "")
-            text = text.replace(self.arg2_tag[1], "")
-            return text
-
-        if arg1_tag == [] and arg2_tag == []:
-            arg1_tag = self.arg1_tag
-            arg2_tag = self.arg2_tag
-
-        try:
-            # in cases that we have <arg1></arg1> . . . <arg2></arg2>
-            result = re.search(arg1_tag[1] + "(.*)" + arg2_tag[0], x)
-            if result is None:
-                # in cases that we have <arg2></arg2> . . . <arg1></arg1>
-                result = re.search(arg2_tag[1] + "(.*)" + arg1_tag[0], x)
-                if result is None:
-                    return ""
-                else:
-                    return _clean_text(result.group(1))
-            else:
-                return _clean_text(result.group(1))
-        except Exception as e:
-            print("[log-preprocessing-text-between] detail: " + str(e) + ". text: " + str(x))
-
-    def get_text_left(self, x):
-        """
-        this method gets the text of the left side of the first argument in a causal relation
-        :param x: the text field of a record with tags in the causal relation data frame
-        :return:
-        """
-
-        arg1_tag = self.arg1_tag
-        arg2_tag = self.arg2_tag
-
-        # in cases that we have <arg1></arg1> . . . <arg2></arg2>
-        result = re.search(arg1_tag[1] + "(.*)" + arg2_tag[0], x)
-        if result is None:
-            # in cases that we have <arg2></arg2> . . . <arg1></arg1>
-            result = re.search(arg2_tag[1] + "(.*)" + arg1_tag[0], x)
-            if result is not None:
-                result = re.search("(.*)" + arg2_tag[0], x)
-                if result is not None:
-                    return result.group(1)
-        else:
-            result = re.search("(.*)" + arg1_tag[0], x)
-            if result is not None:
-                return result.group(1)
-        return ""
-
-    def get_text_right(self, x):
-        """
-        this method gets the text of the left side of the first argument in a causal relation
-        :param x: the text field of a record with tags in the causal relation data frame
-        :return:
-        """
-
-        arg1_tag = self.arg1_tag
-        arg2_tag = self.arg2_tag
-
-        # in cases that we have <arg1></arg1> . . . <arg2></arg2>
-        result = re.search(arg1_tag[1] + "(.*)" + arg2_tag[0], x)
-        if result is None:
-            # in cases that we have <arg2></arg2> . . . <arg1></arg1>
-            result = re.search(arg2_tag[1] + "(.*)" + arg1_tag[0], x)
-            if result is not None:
-                result = re.search(arg1_tag[1] + "(.*)", x)
-                if result is not None:
-                    return result.group(1)
-        else:
-            result = re.search(arg2_tag[1] + "(.*)", x)
-            if result is not None:
-                return result.group(1)
-        return ""
 
     def get_tagged_sentence(self, arg1, arg2, sentence):
         """
