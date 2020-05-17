@@ -690,7 +690,7 @@ class Converter:
                             # iterate through causal tags
                             for key, value in tags.items():
                                 try:
-                                    if any(causal_tag in value[0] for causal_tag in causal_tags):
+                                    if key.startswith("R"):
                                         args = value[0].split(' ')
                                         arg1_id = args[1].split(':')[1]
                                         arg2_id = args[2].split(':')[1]
@@ -702,10 +702,15 @@ class Converter:
                                                    "span2": span2[1],
                                                    "signal": []}
 
+                                        if any(causal_tag in value[0] for causal_tag in causal_tags):
+                                            label = 1
+                                        else:
+                                            label = 0
+
                                         samples = samples.append(
                                             {"id": int(data_idx), "span1": span1[0], "span2": span2[0], "signal": [],
                                              "context": context,
-                                             "idx": idx_val, "label": 1, "source": self.caters_code,
+                                             "idx": idx_val, "label": label, "source": self.caters_code,
                                              "ann_file": "",
                                              "split": split}, ignore_index=True)
 
