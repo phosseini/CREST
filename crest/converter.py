@@ -591,58 +591,78 @@ class Converter:
 
         return data
 
-    def read_CaTeRS(self):
+    def convert_CaTeRS(self):
         folders_path = self.dir_path + "caters/caters_evaluation/"
-        data = []
 
-        def _process_args(doc_info, doc_txt, arg_1, arg_2):
+        def _get_context_spans(tags, doc_segments, arg1_id, arg2_id):
 
-            e1_args = (' '.join(doc_info[arg_1].split(' ')[1:]).strip()).split(';')
-            e2_args = (' '.join(doc_info[arg_2].split(' ')[1:]).strip()).split(';')
+            span1_text = tags[arg1_id][1]
+            span2_text = tags[arg2_id][1]
+            span1_tokens = (' '.join(tags[arg1_id][0].split(' ')[1:]).strip()).split(';')
+            span2_tokens = (' '.join(tags[arg2_id][0].split(' ')[1:]).strip()).split(';')
 
-            df_columns = ['start', 'end', 'start_tag', 'end_tag']
+            df_columns = ['start', 'end', 'tag']
             df = pd.DataFrame(columns=df_columns)
 
-            for item in e1_args:
+            for item in span1_tokens:
                 arg = item.split(' ')
                 df = df.append(pd.DataFrame(
-                    [[int(arg[0]), int(arg[1]), self.arg1_tag[0], self.arg1_tag[1]]],
+                    [[int(arg[0]), int(arg[1]), "span1"]],
                     columns=df_columns
                 ), ignore_index=True)
 
-            for item in e2_args:
+            for item in span2_tokens:
                 arg = item.split(' ')
                 df = df.append(pd.DataFrame(
-                    [[int(arg[0]), int(arg[1]), self.arg2_tag[0], self.arg2_tag[1]]],
+                    [[int(arg[0]), int(arg[1]), "span2"]],
                     columns=df_columns
                 ), ignore_index=True)
 
             df = df.sort_values(by=['start'])
-            tagged_sentence = self._add_sentence_tags(doc_txt, df)
 
-            # cutting extra sentences from the tagged_sentence
-            sentences = tagged_sentence.split("***")
-            trimmed_doc = ""
-            for sent in sentences:
-                if self.arg1_tag[0] in sent or self.arg2_tag[0] in sent:
-                    trimmed_doc += sent.strip() + " "
+            i = 0
+            while i < len(doc_segments):
+                segment_idx = doc_segments[i][1]
+                try:
+                    if segment_idx <= df.iloc[0]["start"] and (i + 1 == len(doc_segments) or
+                                                               (i + 1 < len(doc_segments) and df.iloc[0]["start"] <
+                                                                doc_segments[i + 1][1])):
+                        context = doc_segments[i][0]
+                        span1 = ""
+                        span2 = ""
+                        span1_idxs = []
+                        span2_idxs = []
 
-            e1_txt = ""
-            e2_txt = ""
-            for index, row in df.iterrows():
-                if self.arg1_tag[0] == row['start_tag']:
-                    e1_txt += doc_txt[row['start']:row['end']] + " "
-                elif self.arg2_tag[0] == row['start_tag']:
-                    e2_txt += doc_txt[row['start']:row['end']] + " "
+                        df_span1 = df.loc[df["tag"] == "span1"]
+                        for index, value in df_span1.iterrows():
+                            start = value["start"] - segment_idx
+                            end = value["end"] - segment_idx
+                            span1_idxs.append([start, end])
+                            span1 += context[start:end]
 
-            return e1_txt.strip(), e2_txt.strip(), trimmed_doc.strip()
+                        df_span2 = df.loc[df["tag"] == "span2"]
+                        for index, value in df_span2.iterrows():
+                            start = value["start"] - segment_idx
+                            end = value["end"] - segment_idx
+                            span2_idxs.append([start, end])
+                            span2 += context[start:end]
+                        break
 
-        def extract_samples(folders, split, data_idx, err_idx):
+                        assert span1.strip() == span1_text, span2.strip() == span2_text
+                    i += 1
+                except Exception as e:
+                    print("[crest-log] detail: {}".format(e))
+
+            return [span1.strip(), span1_idxs], [span2.strip(), span2_idxs], context
+
+        def extract_samples(folders, split):
+            data_idx = 1
+            samples = pd.DataFrame(columns=self.scheme_columns)
             for folder in folders:
                 docs_path = folders_path + "/" + folder
                 docs = os.listdir(docs_path)
                 for doc in docs:
-                    doc_info = {}
+                    tags = {}
                     if ".ann" in doc:
                         with open(docs_path + "/" + doc, 'r') as f:
                             lines = f.readlines()
@@ -650,44 +670,58 @@ class Converter:
                             # reading all tags information
                             for line in lines:
                                 line_cols = line.split('\t')
-                                doc_info[line_cols[0]] = line_cols[1]
+                                tags[line_cols[0]] = [line_cols[1], line_cols[2].replace('\n', '')]
 
                             # reading the corresponding text file for the .ann file
                             with open(docs_path + "/" + doc.strip(".ann") + ".txt", 'r') as f:
-                                doc_string = f.read()
+                                doc_lines = f.read()
 
+                            separator = "***"
+                            doc_segments = doc_lines.split(separator)
+                            context_segments = []
+                            context_idx = 0
+                            for segment in doc_segments:
+                                context_segments.append([segment, context_idx])
+                                context_idx += len(segment) + len(separator)
+
+                            causal_tags = ["CAUSE_BEFORE", "CAUSE_OVERLAPS", "ENABLE_BEFORE", "ENABLE_OVERLAPS",
+                                           "PREVENT_BEFORE", "PREVENT_OVERLAPS",
+                                           "CAUSE_TO_END_BEFORE", "CAUSE_TO_END_OVERLAPS", "CAUSE_TO_END_DURING"]
                             # iterate through causal tags
-                            for key, value in doc_info.items():
+                            for key, value in tags.items():
                                 try:
-                                    if "CAUSE" in value:
-                                        args = value.split(' ')
-                                        arg1 = args[1].split(':')[1]
-                                        arg2 = args[2].split(':')[1]
+                                    if any(causal_tag in value[0] for causal_tag in causal_tags):
+                                        args = value[0].split(' ')
+                                        arg1_id = args[1].split(':')[1]
+                                        arg2_id = args[2].split(':')[1]
 
-                                        e1_tokens, e2_tokens, sentence = _process_args(doc_info, doc_string, arg1, arg2)
+                                        span1, span2, context = _get_context_spans(tags, context_segments, arg1_id,
+                                                                                   arg2_id)
 
-                                        # adding new record
-                                        if self._check_text_format(e1_tokens, e2_tokens, sentence):
-                                            data.append(
-                                                [data_idx, e1_tokens, e2_tokens, sentence.replace('\n', ' '), 0, 1,
-                                                 self.caters_code, doc, split])
-                                            data_idx += 1
+                                        idx_val = {"span1": span1[1],
+                                                   "span2": span2[1],
+                                                   "signal": []}
+
+                                        samples = samples.append(
+                                            {"id": int(data_idx), "span1": span1[0], "span2": span2[0], "signal": [],
+                                             "context": context,
+                                             "idx": idx_val, "label": 1, "source": self.caters_code,
+                                             "ann_file": "",
+                                             "split": split}, ignore_index=True)
+
+                                        data_idx += 1
+
                                 except Exception as e:
-                                    print(
-                                        "[datareader-caters-log] Error in processing causal relation info. Details: " + str(
-                                            e))
-                                    err_idx += 1
-            return data_idx, err_idx
+                                    print("[crest-log] Error in converting CaTeRS. Detail: {}".format(e))
+            return samples
 
-        data_idx = 1
-        err_idx = 0
-        data_idx, err_idx = extract_samples(["dev"], 1, data_idx, err_idx)
-        data_idx, err_idx = extract_samples(["train"], 0, data_idx, err_idx)
+        data = pd.DataFrame(columns=self.scheme_columns)
+        data = data.append(extract_samples(["dev"], 1))
+        data = data.append(extract_samples(["train"], 0))
 
-        # print("Total samples = " + str(len(data)))
-        if err_idx > 0:
-            print("[datareader-CaTeRS-log] err: " + str(err_idx))
-        return pd.DataFrame(data, columns=self.scheme_columns)
+        assert self._check_span_indexes(data) == True
+
+        return data
 
     def read_because(self):
         """
@@ -873,54 +907,12 @@ class Converter:
             print("[datareader-because-log] # of errors: " + str(err))
         return pd.DataFrame(data, columns=self.scheme_columns)
 
-    def _add_events_tags(self, doc_text, e1_start, e1_end, e2_start, e2_end):
+    def brat2crest(self):
         """
-        adding events tags to the doc string
-        :param doc_text:
-        :param e1_start:
-        :param e1_end:
-        :param e2_start:
-        :param e2_end:
+        converting a brat formatted corpus to crest: cresting the corpus!
         :return:
         """
-        return doc_text[:e1_start] + self.arg1_tag[0] + doc_text[e1_start:e1_end] + self.arg1_tag[1] + \
-               doc_text[e1_end:e2_start] + self.arg2_tag[0] + doc_text[e2_start:e2_end] + self.arg2_tag[1] + \
-               doc_text[e2_end:]
-
-    def get_tagged_sentence(self, arg1, arg2, sentence):
-        """
-        adding arguments tags to the sentence in the format of <arg1></arg1> . . . <arg2></arg2>
-        :return:
-        """
-        tagged_sen = ""
-        try:
-            # for simplicity, check if there's only one occurrence of each argument in the sentence
-            if sentence.count(arg1) == 1 and sentence.count(arg2) == 1:
-                # making sure <arg1> is always first
-                if sentence.index(arg1) < sentence.index(arg2):
-                    tagged_sen = sentence.replace(arg1, self.arg1_tag[0] + arg1 + self.arg1_tag[1])
-                    tagged_sen = tagged_sen.replace(arg2, self.arg2_tag[0] + arg2 + self.arg2_tag[1])
-                else:
-                    tagged_sen = sentence.replace(arg2, self.arg1_tag[0] + arg2 + self.arg1_tag[1])
-                    tagged_sen = tagged_sen.replace(arg1, self.arg2_tag[0] + arg1 + self.arg2_tag[1])
-        except Exception as e:
-            print("[log-sentence-tagging]: " + str(e))
-        return tagged_sen
-
-    def _lemmatize_list(self, words):
-        """
-        lemmatize words in a list
-        :param words:
-        :return:
-        """
-        words_lemmas = set()
-        for word in words:
-            # lemmatizing the words
-            word_doc = self.nlp(word.replace('_', ' '))
-            word_lemmas = ' '.join([w.lemma_.lower() for w in word_doc])
-            if word_lemmas != "":
-                words_lemmas.add(word_lemmas.strip())
-        return words_lemmas
+        print("work in progress!")
 
     @staticmethod
     def _get_between_text(str_1, str_2, orig_text):
@@ -959,7 +951,7 @@ class Converter:
     @staticmethod
     def _check_span_indexes(data):
         """
-        checking if span indexes are correctly stored
+        checking if spans/signal indexes are correctly stored
         :param data:
         :return:
         """
@@ -975,16 +967,3 @@ class Converter:
                     signal.strip() != "" and signal.strip() != " ".join(row["signal"]).strip()):
                 return False
             return True
-
-    @staticmethod
-    def _get_tag_text(tag, text):
-        """
-        get text span of a tag (if there's multiple occurrences, we return the first occurrence)
-        :param tag: a list of opening and closing tags
-        :param text: tagged sentence/text
-        :return:
-        """
-        result = re.findall(tag[0] + "(.*?)" + tag[1], text)
-        if result is not None and len(result) > 0:
-            return result[0].strip()
-        return ""
