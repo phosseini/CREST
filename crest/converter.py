@@ -728,11 +728,14 @@ class Converter:
 
         return data
 
-    def read_because(self):
+    def convert_because(self):
         """
         reading BECAUSE v2.1 Data
         :return:
         """
+
+        global data_idx
+        data_idx = 1
 
         nlp = spacy.load("en_core_web_sm")
 
@@ -746,108 +749,106 @@ class Converter:
             doc = nlp(text)
             sents = list(doc.sents)
             for sen in sents:
-                sentences.append(sen.text)
+                sentences.append([sen.text, sen.start_char])
             return sentences
 
-        def _remove_extra_sentences(doc_text):
-            sentences = _get_doc_sentences(doc_text)
-            tag_set = [self.arg1_tag[0].replace('<', '').replace('</', '').replace('>', ''),
-                       self.arg1_tag[1].replace('<', '').replace('</', '').replace('>', ''),
-                       self.arg2_tag[0].replace('<', '').replace('</', '').replace('>', ''),
-                       self.arg2_tag[1].replace('<', '').replace('</', '').replace('>', ''),
-                       self.signal_tag[0].replace('<', '').replace('</', '').replace('>', ''),
-                       self.signal_tag[1].replace('<', '').replace('</', '').replace('>', '')]
+        def _get_context_spans(doc, arg0_id, arg1_id, signal_id):
+            arg0 = ' '.join(tags[arg0_id].split(' ')[1:]).strip()
+            if arg1_id != "":
+                arg1 = ' '.join(tags[arg1_id].split(' ')[1:]).strip()
+                arg1 = arg1.split(';')
+            signal = ' '.join(tags[signal_id].split(' ')[1:]).strip()
 
-            s_index = -1
-            e_index = -1
+            arg0 = arg0.split(';')
+            signal = signal.split(';')
 
-            for i in range(len(sentences)):
-                if any(tag in sentences[i] for tag in tag_set):
-                    s_index = i
-                    break
-
-            for i in range(len(sentences) - 1, -1, -1):
-                if any(tag in sentences[i] for tag in tag_set):
-                    e_index = i
-                    break
-
-            try:
-                assert s_index != -1 and e_index != -1
-                assert s_index <= e_index
-            except AssertionError as error:
-                print("[datareader-because-log] Details: " + str(error))
-
-            before_after_window = 1
-            if s_index - before_after_window < 0:
-                s_index = s_index - (abs(s_index - before_after_window))
-            else:
-                s_index = s_index - before_after_window
-
-            if (e_index + before_after_window) > len(sentences):
-                e_index = e_index + (abs(len(sentences) - e_index))
-            else:
-                e_index = e_index + before_after_window
-
-            doc_cleaned = (" ".join(sentences[s_index:e_index + 1])).replace(' >', '>')
-
-            return doc_cleaned.replace('< ', '<').replace('</ ', '</').replace('< /', '</').replace(' >', '>')
-
-        def _process_args(doc, cause_tag, effect_tag, signal_tag):
-            e1 = ' '.join(doc_info[cause_tag].split(' ')[1:]).strip()
-            e2 = ' '.join(doc_info[effect_tag].split(' ')[1:]).strip()
-            sig = ' '.join(doc_info[signal_tag].split(' ')[1:]).strip()
-
-            e1_args = e1.split(';')
-            e2_args = e2.split(';')
-            sig_args = sig.split(';')
-
-            df_columns = ['start', 'end', 'start_tag', 'end_tag']
+            df_columns = ['start', 'end', 'tag']
             df = pd.DataFrame(columns=df_columns)
 
-            for arg in e1_args:
+            for arg in arg0:
                 df = df.append(pd.DataFrame(
-                    [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), self.arg1_tag[0], self.arg1_tag[1]]],
+                    [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "span1"]],
                     columns=df_columns
                 ), ignore_index=True)
 
-            for arg in e2_args:
-                df = df.append(pd.DataFrame(
-                    [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), self.arg2_tag[0], self.arg2_tag[1]]],
-                    columns=df_columns
-                ), ignore_index=True)
+            if arg1_id != "":
+                for arg in arg1:
+                    df = df.append(pd.DataFrame(
+                        [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "span2"]],
+                        columns=df_columns
+                    ), ignore_index=True)
 
-            for arg in sig_args:
+            for arg in signal:
                 df = df.append(pd.DataFrame(
-                    [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), self.signal_tag[0], self.signal_tag[1]]],
+                    [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "signal"]],
                     columns=df_columns
                 ), ignore_index=True)
 
             df = df.sort_values('start')
-            tagged_sentence = self._add_sentence_tags(doc, df)
 
-            e1_text = ""
-            e2_text = ""
-            for index, row in df.iterrows():
-                if self.arg1_tag[0] == row['start_tag']:
-                    e1_text += doc[row['start']:row['end']] + " "
-                elif self.arg2_tag[0] == row['start_tag']:
-                    e2_text += doc[row['start']:row['end']] + " "
+            doc_segments = _get_doc_sentences(doc)
 
-            return e1_text.strip(), e2_text.strip(), tagged_sentence.strip()
+            i = 0
+            while i < len(doc_segments):
+                segment_idx = doc_segments[i][1]
+                try:
+                    if segment_idx <= df.iloc[0]["start"] and (i + 1 == len(doc_segments) or
+                                                               (i + 1 < len(doc_segments) and df.iloc[0]["start"] <
+                                                                doc_segments[i + 1][1])):
+                        context = doc_segments[i][0]
+                        span1 = ""
+                        span2 = ""
+                        signal = ""
+                        span1_idxs = []
+                        span2_idxs = []
+                        signal_idxs = []
+
+                        df_span1 = df.loc[df["tag"] == "span1"]
+                        for index, value in df_span1.iterrows():
+                            start = value["start"] - segment_idx
+                            end = value["end"] - segment_idx
+                            span1_idxs.append([start, end])
+                            span1 += context[start:end]
+
+                        df_span2 = df.loc[df["tag"] == "span2"]
+                        for index, value in df_span2.iterrows():
+                            start = value["start"] - segment_idx
+                            end = value["end"] - segment_idx
+                            span2_idxs.append([start, end])
+                            span2 += context[start:end]
+
+                        df_signal = df.loc[df["tag"] == "signal"]
+                        for index, value in df_signal.iterrows():
+                            start = value["start"] - segment_idx
+                            end = value["end"] - segment_idx
+                            signal_idxs.append([start, end])
+                            signal += context[start:end]
+                        break
+
+                        span1_text = tags[arg0_id][1]
+                        if arg1_id != "":
+                            span2_text = tags[arg1_id][1]
+                        signal_text = tags[signal_id][1]
+
+                        assert span1.strip() == span1_text, span2.strip() == span2_text
+                        assert signal.strip() == signal_text
+                    i += 1
+                except Exception as e:
+                    print("[crest-log] detail: {}".format(e))
+
+            return [span1.strip(), span1_idxs], [span2.strip(), span2_idxs], [signal, signal_idxs], context
 
         # for NYT and PTB LDC subscription is needed to get access to the raw text.
         folders = ["CongressionalHearings", "MASC"]
         folders_path = self.dir_path + "BECAUSE-2.1/"
 
-        data_idx = 1
-        data = []
-        err = 0
+        data = pd.DataFrame(columns=self.scheme_columns)
 
         for folder in folders:
             docs_path = folders_path + folder
             docs = os.listdir(docs_path)
             for doc in docs:
-                doc_info = {}
+                tags = {}
                 if ".ann" in doc:
                     with open(docs_path + "/" + doc, 'r') as f:
                         lines = f.readlines()
@@ -855,66 +856,79 @@ class Converter:
                         # reading all tags information from .ann file
                         for line in lines:
                             line_cols = line.split('\t')
-                            doc_info[line_cols[0]] = line_cols[1]
+                            tags[line_cols[0]] = line_cols[1]
 
                     # reading the corresponding text file for the .ann file
                     with open(docs_path + "/" + doc.strip(".ann") + ".txt", 'r') as f:
                         doc_string = f.read()
 
                     # now, reading causal relations info
-                    for key, value in doc_info.items():
+                    for key, value in tags.items():
                         try:
                             # check if the relation has all the arguments
                             value = value.replace('\n', '')
 
                             # causal samples
-                            if (
-                                    "Consequence" in value or "Purpose" in value or "Motivation" in value) and "Effect" in value and "Cause" in value:
+                            causal_tags = ["Consequence", "Purpose", "Motivation", "NonCausal"]
+                            arg_tags = ["Effect", "Cause", "Arg0", "Arg1"]
+
+                            if key.startswith("E") and any(causal_tag in value for causal_tag in causal_tags) and any(
+                                    arg_tag in value for arg_tag in arg_tags):
                                 args = value.split(' ')
                                 signal_tag = args[0].split(':')[1]
-                                if "Cause" in args[1]:
-                                    cause_tag = args[1].split(':')[1]
-                                    effect_tag = args[2].split(':')[1]
+
+                                # check if both arguments are available
+                                if len(args) > 2:
+                                    arg0_id = args[1].split(':')[1]
+                                    arg1_id = args[2].split(':')[1]
                                 else:
-                                    cause_tag = args[2].split(':')[1]
-                                    effect_tag = args[1].split(':')[1]
+                                    arg0_id = args[1].split(':')[1]
+                                    arg1_id = ""
 
-                                e1_tokens, e2_tokens, doc_text = _process_args(doc_string, cause_tag, effect_tag,
-                                                                               signal_tag)
+                                span1, span2, signal, context = _get_context_spans(doc_string, arg0_id, arg1_id,
+                                                                                   signal_tag)
 
-                                if self._check_text_format(e1_tokens, e2_tokens, _remove_extra_sentences(doc_text)):
-                                    data.append([data_idx, e1_tokens, e2_tokens,
-                                                 _remove_extra_sentences(doc_text).replace('\n', ' '), 0, 1,
-                                                 self.because_code, doc, ""])
-                                    data_idx += 1
+                                # specifying the label
+                                if "NonCausal" in value:
+                                    label = 0
+                                else:
+                                    if args[1].split(':')[0] == "Cause":
+                                        label = 1
+                                    else:
+                                        label = 2
 
-                            # non-causal samples
-                            elif ("NonCausal" in value) and "Arg0" in value and "Arg1" in value:
-                                args = value.split(' ')
-                                signal_tag = args[0].split(':')[1]
-                                arg0_tag = args[1].split(':')[1]
-                                arg1_tag = args[2].split(':')[1]
-                                e1_tokens, e2_tokens, doc_text = _process_args(doc_string, arg0_tag, arg1_tag,
-                                                                               signal_tag)
+                                idx_val = {"span1": span1[1],
+                                           "span2": span2[1],
+                                           "signal": signal[1]}
 
-                                if self._check_text_format(e1_tokens, e2_tokens, _remove_extra_sentences(doc_text)):
-                                    data.append([data_idx, e1_tokens, e2_tokens,
-                                                 _remove_extra_sentences(doc_text).replace('\n', ' '), 0, 0,
-                                                 self.because_code, doc, ""])
-                                    data_idx += 1
+                                data = data.append(
+                                    {"id": int(data_idx), "span1": span1[0], "span2": span2[0], "signal": signal[0],
+                                     "context": context,
+                                     "idx": idx_val, "label": label, "source": self.because_code,
+                                     "ann_file": doc,
+                                     "split": ""}, ignore_index=True)
+
+                                data_idx += 1
 
                         except Exception as e:
-                            print(
-                                "[datareader-because-log] Error in processing causal relation info. Details: " + str(e))
-                            err += 1
-        # print("Total samples = " + str(len(data)))
-        if err > 0:
-            print("[datareader-because-log] # of errors: " + str(err))
-        return pd.DataFrame(data, columns=self.scheme_columns)
+                            print("[crest-log] {}".format(e))
 
-    def brat2crest(self):
+        assert self._check_span_indexes(data) == True
+
+        return data
+
+    @staticmethod
+    def brat2crest():
         """
         converting a brat formatted corpus to crest: cresting the corpus!
+        :return:
+        """
+        print("work in progress!")
+
+    @staticmethod
+    def crest2brat():
+        """
+        converting a crest formatted corpus to brat
         :return:
         """
         print("work in progress!")
@@ -961,14 +975,19 @@ class Converter:
         :return:
         """
         for index, row in data.iterrows():
-            span1 = row["context"][row["idx"]["span1"][0][0]:row["idx"]["span1"][0][1]]
-            span2 = row["context"][row["idx"]["span2"][0][0]:row["idx"]["span2"][0][1]]
+            span1 = ""
+            span2 = ""
             signal = ""
-            if "signal" in row["idx"]:
-                for sig in row["idx"]["signal"]:
-                    signal += row["context"][sig[0]:sig[1]] + " "
 
-            if span1 != row["span1"] or span2 != row["span2"] or (
-                    signal.strip() != "" and signal.strip() != " ".join(row["signal"]).strip()):
+            for arg in row["idx"]["span1"]:
+                span1 += row["context"][arg[0]:arg[1]] + " "
+
+            for arg in row["idx"]["span2"]:
+                span2 += row["context"][arg[0]:arg[1]] + " "
+
+            for sig in row["idx"]["signal"]:
+                signal += row["context"][sig[0]:sig[1]] + " "
+
+            if span1.strip() != row["span1"] or span2.strip() != row["span2"] or signal.strip() != row["signal"]:
                 return False
             return True
