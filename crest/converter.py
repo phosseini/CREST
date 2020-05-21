@@ -39,6 +39,7 @@ class Converter:
         self.event_storyline_code = 5
         self.caters_code = 6
         self.because_code = 7
+        self.copa_code = 8
 
     def convert_semeval_2007_4(self):
         """
@@ -915,6 +916,62 @@ class Converter:
 
         return data
 
+    def convert_copa(self):
+        """
+        converting Choice of Plausible Alternatives (COPA)
+        :return:
+        """
+        folder_path = self.dir_path + "COPA-resources/datasets/"
+        files = ["dev", "test"]
+
+        data = pd.DataFrame(columns=self.scheme_columns)
+
+        for file in files:
+            try:
+                parser = ET.XMLParser(encoding="utf-8")
+                tree = ET.parse(folder_path + "copa-" + file + ".xml", parser=parser)
+                root = tree.getroot()
+
+                for item in root.findall("./item"):
+                    spans = {0: item[0].text, 1: item[1].text, 2: item[2].text}
+                    original_id = item.attrib['id']
+                    if item.attrib["asks-for"] == "cause":
+                        span1 = spans[0]
+                        span2 = spans[int(item.attrib["most-plausible-alternative"])]
+                    elif item.attrib["asks-for"] == "effect":
+                        span1 = spans[int(item.attrib["most-plausible-alternative"])]
+                        span2 = spans[0]
+
+                    context = span1 + " " + span2
+                    span1_start = 0
+                    span1_end = len(span1) - 1
+                    span2_start = span1_end + 2
+                    span2_end = span2_start + len(span2) - 1
+
+                    label = 1
+
+                    if file == "dev":
+                        split = 1
+                    elif file == "test":
+                        split = 2
+
+                    idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
+                               "signal": []}
+
+                    data = data.append(
+                        {"original_id": int(original_id), "span1": [span1.strip('.')], "span2": [span2.strip('.')],
+                         "signal": [],
+                         "context": context,
+                         "idx": idx_val, "label": label, "source": self.copa_code, "ann_file": "copa-" + file + ".xml",
+                         "split": split}, ignore_index=True)
+
+            except Exception as e:
+                print("[crest-log] COPA. Detail: {}".format(e))
+
+        assert self._check_span_indexes(data) == True
+
+        return data
+
     @staticmethod
     def brat2crest():
         """
@@ -993,3 +1050,5 @@ class Converter:
                 print("signal -> {}:{}".format(signal, (" ".join(row["signal"])).strip()))
                 return False
         return True
+
+# Converter().convert_copa()
