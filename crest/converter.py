@@ -3,7 +3,7 @@ import os
 import sys
 import copy
 import spacy
-import numpy as np
+import logging
 import pandas as pd
 import xml.etree.ElementTree as ET
 
@@ -32,14 +32,41 @@ class Converter:
 
         # loading spaCy's english model (we use spaCy's sentence splitter for long context)
         self.nlp = spacy.load("en_core_web_sm")
-        self.semeval_2007_4_code = 1
-        self.semeval_2010_8_code = 2
-        self.event_causality_code = 3
-        self.causal_timebank_code = 4
-        self.event_storyline_code = 5
-        self.caters_code = 6
-        self.because_code = 7
-        self.copa_code = 8
+
+        self.namexid = {"semeval_2007_4": 1,
+                        "semeval_2010_8": 2,
+                        "event_causality": 3,
+                        "causal_timebank": 4,
+                        "event_storylines": 5,
+                        "caters": 6,
+                        "because": 7,
+                        "copa": 8
+                        }
+
+        self.idxmethod = {self.namexid["semeval_2007_4"]: self.convert_semeval_2007_4,
+                          self.namexid["semeval_2010_8"]: self.convert_semeval_2010_8,
+                          self.namexid["event_causality"]: self.convert_event_causality,
+                          self.namexid["causal_timebank"]: self.convert_causal_timebank,
+                          self.namexid["event_storylines"]: self.convert_event_storylines,
+                          self.namexid["caters"]: self.convert_caters,
+                          self.namexid["because"]: self.convert_because,
+                          self.namexid["copa"]: self.convert_copa}
+
+    def convert2crest(self, dataset_ids=[], save_file=False):
+        """
+        converting a dataset to CREST
+        :param dataset_ids: list of integer ids of datasets
+        :param save_file: True if want saving result dataframe into xml, False, otherwise
+        :return:
+        """
+        data = pd.DataFrame(columns=self.scheme_columns)
+        for key, value in self.idxmethod.items():
+            if key in dataset_ids:
+                data = data.append(value()).reset_index(drop=True)
+        if save_file:
+            data.to_excel(self.dir_path + "crest.xlsx")
+
+        return data
 
     def convert_semeval_2007_4(self):
         """
@@ -95,7 +122,7 @@ class Converter:
                         samples = samples.append(
                             {"original_id": int(original_id), "span1": [span1], "span2": [span2], "signal": [],
                              "context": context,
-                             "idx": idx_val, "label": label, "source": self.semeval_2007_4_code, "ann_file": "",
+                             "idx": idx_val, "label": label, "source": self.namexid["semeval_2007_4"], "ann_file": "",
                              "split": split}, ignore_index=True)
 
                     except Exception as e:
@@ -118,6 +145,8 @@ class Converter:
         data = data.append(extract_samples(test_content, 2))
 
         assert self._check_span_indexes(data) == True
+
+        logging.info("[crest] semeval_2007_4 is converted.")
 
         return data
 
@@ -167,7 +196,7 @@ class Converter:
                         samples = samples.append(
                             {"original_id": int(original_id), "span1": [span1], "span2": [span2], "signal": [],
                              "context": context,
-                             "idx": idx_val, "label": label, "source": self.semeval_2010_8_code, "ann_file": "",
+                             "idx": idx_val, "label": label, "source": self.namexid["semeval_2010_8"], "ann_file": "",
                              "split": split}, ignore_index=True)
 
                     except Exception as e:
@@ -189,6 +218,8 @@ class Converter:
         data = data.append(extract_samples(test_content, 2))
 
         assert self._check_span_indexes(data) == True
+
+        logging.info("[crest] semeval_2010_8 is converted.")
 
         return data
 
@@ -304,7 +335,7 @@ class Converter:
                         data = data.append(
                             {"original_id": original_id, "span1": [span1], "span2": [span2], "signal": [],
                              "context": context,
-                             "idx": idx_val, "label": 1, "source": self.event_causality_code, "ann_file": key,
+                             "idx": idx_val, "label": 1, "source": self.namexid["event_causality"], "ann_file": key,
                              "split": split}, ignore_index=True)
                     else:
                         # this means both spans are NOT in the same sentence
@@ -360,10 +391,12 @@ class Converter:
                         data = data.append(
                             {"original_id": original_id, "span1": [span1], "span2": [span2], "signal": [],
                              "context": context,
-                             "idx": idx_val, "label": label, "source": self.event_causality_code, "ann_file": key,
+                             "idx": idx_val, "label": label, "source": self.namexid["event_causality"], "ann_file": key,
                              "split": split}, ignore_index=True)
 
         assert self._check_span_indexes(data) == True
+
+        logging.info("[crest] event_causality is converted.")
 
         return data
 
@@ -478,10 +511,12 @@ class Converter:
                 data = data.append(
                     {"original_id": original_id, "span1": [span1.strip()], "span2": [span2.strip()],
                      "signal": [signal.strip()],
-                     "context": context, "idx": idx_val, "label": label, "source": self.causal_timebank_code,
+                     "context": context, "idx": idx_val, "label": label, "source": self.namexid["causal_timebank"],
                      "ann_file": file, "split": ""}, ignore_index=True)
 
         assert self._check_span_indexes(data) == True
+
+        logging.info("[crest] causal_timebank is converted.")
 
         return data
 
@@ -590,7 +625,7 @@ class Converter:
                                         {"original_id": original_id, "span1": [span1.strip()], "span2": [span2.strip()],
                                          "signal": [],
                                          "context": context, "idx": idx_val, "label": label,
-                                         "source": self.event_storyline_code,
+                                         "source": self.namexid["event_storylines"],
                                          "ann_file": doc, "split": ""}, ignore_index=True)
 
                                 except Exception as e:
@@ -598,9 +633,11 @@ class Converter:
 
         assert self._check_span_indexes(data) == True
 
+        logging.info("[crest] event_storylines is converted.")
+
         return data
 
-    def convert_CaTeRS(self):
+    def convert_caters(self):
         folders_path = self.dir_path + "caters/caters_evaluation/"
 
         def _get_context_spans(tags, doc_segments, arg1_id, arg2_id):
@@ -714,7 +751,7 @@ class Converter:
                                             {"original_id": original_id, "span1": span1[0], "span2": span2[0],
                                              "signal": [],
                                              "context": context,
-                                             "idx": idx_val, "label": label, "source": self.caters_code,
+                                             "idx": idx_val, "label": label, "source": self.namexid["caters"],
                                              "ann_file": doc,
                                              "split": split}, ignore_index=True)
 
@@ -727,6 +764,8 @@ class Converter:
         data = data.append(extract_samples(["train"], 0))
 
         assert self._check_span_indexes(data) == True
+
+        logging.info("[crest] caters is converted.")
 
         return data
 
@@ -905,7 +944,7 @@ class Converter:
                                     {"original_id": original_id, "span1": span1[0], "span2": span2[0],
                                      "signal": signal[0],
                                      "context": context,
-                                     "idx": idx_val, "label": label, "source": self.because_code,
+                                     "idx": idx_val, "label": label, "source": self.namexid["because"],
                                      "ann_file": doc,
                                      "split": ""}, ignore_index=True)
 
@@ -913,6 +952,8 @@ class Converter:
                             print("[crest-log] {}".format(e))
 
         assert self._check_span_indexes(data) == True
+
+        logging.info("[crest] because is converted.")
 
         return data
 
@@ -962,13 +1003,16 @@ class Converter:
                         {"original_id": int(original_id), "span1": [span1.strip('.')], "span2": [span2.strip('.')],
                          "signal": [],
                          "context": context,
-                         "idx": idx_val, "label": label, "source": self.copa_code, "ann_file": "copa-" + file + ".xml",
+                         "idx": idx_val, "label": label, "source": self.namexid["copa"],
+                         "ann_file": "copa-" + file + ".xml",
                          "split": split}, ignore_index=True)
 
             except Exception as e:
                 print("[crest-log] COPA. Detail: {}".format(e))
 
         assert self._check_span_indexes(data) == True
+
+        logging.info("[crest] copa is converted.")
 
         return data
 
@@ -992,35 +1036,6 @@ class Converter:
     def _get_between_text(str_1, str_2, orig_text):
         result = re.search(str_1 + "(.*)" + str_2, orig_text)
         return result.group(1)
-
-    @staticmethod
-    def _add_sentence_tags(doc_text, tags):
-        """
-        getting a data frame of tags and a document string, this method adds tags to the document text.
-        :param doc_text:
-        :param tags:
-        :return:
-        """
-
-        # reset data frame's indexes since they may have changed after sorting
-        tags = tags.reset_index(drop=True)
-
-        all_sen = [(doc_text[:tags.iloc[0]['start']]).strip()]
-        for index, row in tags.iterrows():
-            if index != len(tags) - 1:
-                all_sen.append((row['start_tag'] + doc_text[row['start']:row['end']] + row['end_tag'] + doc_text[
-                                                                                                        row['end']:
-                                                                                                        tags.iloc[
-                                                                                                            index + 1][
-                                                                                                            'start']]).strip())
-
-        all_sen.append((tags.iloc[len(tags) - 1]['start_tag'] + doc_text[tags.iloc[len(tags) - 1]['start']:
-                                                                         tags.iloc[len(tags) - 1]['end']] +
-                        tags.iloc[len(tags) - 1]['end_tag'] + doc_text[tags.iloc[len(tags) - 1]['end']:]).strip())
-
-        sentence = ' '.join(s for s in all_sen).strip()
-
-        return sentence
 
     @staticmethod
     def _check_span_indexes(data):
@@ -1050,5 +1065,3 @@ class Converter:
                 print("signal -> {}:{}".format(signal, (" ".join(row["signal"])).strip()))
                 return False
         return True
-
-# Converter().convert_copa()
