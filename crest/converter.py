@@ -60,13 +60,16 @@ class Converter:
         :return:
         """
         data = pd.DataFrame(columns=self.scheme_columns)
+        total_mis = 0
         for key, value in self.idxmethod.items():
             if key in dataset_ids:
-                data = data.append(value()).reset_index(drop=True)
+                df, mis = value()
+                data = data.append(df).reset_index(drop=True)
+                total_mis += mis
         if save_file:
             data.to_excel(self.dir_path + "crest.xlsx")
 
-        return data
+        return data, total_mis
 
     def convert_semeval_2007_4(self):
         """
