@@ -75,6 +75,8 @@ class Converter:
         """
         e1_tag = ["<e1>", "</e1>"]
         e2_tag = ["<e2>", "</e2>"]
+        global mismatch
+        mismatch = 0
 
         def extract_samples(all_lines, split):
             samples = pd.DataFrame(columns=self.scheme_columns)
@@ -119,11 +121,16 @@ class Converter:
                         context = context.replace(e1_tag[0], "").replace(e1_tag[1], "").replace(e2_tag[0], "").replace(
                             e2_tag[1], "")
 
-                        samples = samples.append(
-                            {"original_id": int(original_id), "span1": [span1], "span2": [span2], "signal": [],
-                             "context": context,
-                             "idx": idx_val, "label": label, "source": self.namexid["semeval_2007_4"], "ann_file": "",
-                             "split": split}, ignore_index=True)
+                        new_row = {"original_id": int(original_id), "span1": [span1], "span2": [span2], "signal": [],
+                                   "context": context.strip('\n'),
+                                   "idx": idx_val, "label": label, "source": self.namexid["semeval_2007_4"],
+                                   "ann_file": "",
+                                   "split": split}
+
+                        if self._check_span_indexes(new_row):
+                            samples = samples.append(new_row, ignore_index=True)
+                        else:
+                            mismatch += 1
 
                     except Exception as e:
                         print("[crest-log] semeval07-task4. Detail: {}".format(e))
@@ -144,11 +151,9 @@ class Converter:
         data = data.append(extract_samples(train_content, 0))
         data = data.append(extract_samples(test_content, 2))
 
-        assert self._check_span_indexes(data) == True
-
         logging.info("[crest] semeval_2007_4 is converted.")
 
-        return data
+        return data, mismatch
 
     def convert_semeval_2010_8(self):
         """
@@ -157,6 +162,8 @@ class Converter:
         """
         e1_tag = ["<e1>", "</e1>"]
         e2_tag = ["<e2>", "</e2>"]
+        global mismatch
+        mismatch = 0
 
         def extract_samples(all_lines, split):
             samples = pd.DataFrame(columns=self.scheme_columns)
@@ -193,11 +200,16 @@ class Converter:
                         context = context.replace(e1_tag[0], "").replace(e1_tag[1], "").replace(e2_tag[0], "").replace(
                             e2_tag[1], "")
 
-                        samples = samples.append(
-                            {"original_id": int(original_id), "span1": [span1], "span2": [span2], "signal": [],
-                             "context": context,
-                             "idx": idx_val, "label": label, "source": self.namexid["semeval_2010_8"], "ann_file": "",
-                             "split": split}, ignore_index=True)
+                        new_row = {"original_id": int(original_id), "span1": [span1], "span2": [span2], "signal": [],
+                                   "context": context.strip('\n'),
+                                   "idx": idx_val, "label": label, "source": self.namexid["semeval_2010_8"],
+                                   "ann_file": "",
+                                   "split": split}
+
+                        if self._check_span_indexes(new_row):
+                            samples = samples.append(new_row, ignore_index=True)
+                        else:
+                            mismatch += 1
 
                     except Exception as e:
                         print("[crest-log] Incorrect formatting for semeval10-task8 record. Detail: " + str(e))
@@ -217,11 +229,9 @@ class Converter:
         data = data.append(extract_samples(train_content, 0))
         data = data.append(extract_samples(test_content, 2))
 
-        assert self._check_span_indexes(data) == True
-
         logging.info("[crest] semeval_2010_8 is converted.")
 
-        return data
+        return data, mismatch
 
     def convert_event_causality(self):
 
@@ -295,6 +305,8 @@ class Converter:
 
         data = pd.DataFrame(columns=self.scheme_columns)
 
+        mismatch = 0
+
         # now that we have all the information in dictionaries, we create samples
         for key, values in keys.items():
             if key in docs:
@@ -332,11 +344,16 @@ class Converter:
                         idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
                                    "signal": []}
 
-                        data = data.append(
-                            {"original_id": original_id, "span1": [span1], "span2": [span2], "signal": [],
-                             "context": context,
-                             "idx": idx_val, "label": 1, "source": self.namexid["event_causality"], "ann_file": key,
-                             "split": split}, ignore_index=True)
+                        new_row = {"original_id": original_id, "span1": [span1], "span2": [span2], "signal": [],
+                                   "context": context.strip('\n'),
+                                   "idx": idx_val, "label": 1, "source": self.namexid["event_causality"],
+                                   "ann_file": key,
+                                   "split": split}
+
+                        if self._check_span_indexes(new_row):
+                            data = data.append(new_row, ignore_index=True)
+                        else:
+                            mismatch += 1
                     else:
                         # this means both spans are NOT in the same sentence
                         s_idx = {}
@@ -388,19 +405,23 @@ class Converter:
                         idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
                                    "signal": []}
 
-                        data = data.append(
-                            {"original_id": original_id, "span1": [span1], "span2": [span2], "signal": [],
-                             "context": context,
-                             "idx": idx_val, "label": label, "source": self.namexid["event_causality"], "ann_file": key,
-                             "split": split}, ignore_index=True)
+                        new_row = {"original_id": original_id, "span1": [span1], "span2": [span2], "signal": [],
+                                   "context": context.strip('\n'),
+                                   "idx": idx_val, "label": label, "source": self.namexid["event_causality"],
+                                   "ann_file": key,
+                                   "split": split}
 
-        assert self._check_span_indexes(data) == True
+                        if self._check_span_indexes(new_row):
+                            data = data.append(new_row, ignore_index=True)
+                        else:
+                            mismatch += 1
 
         logging.info("[crest] event_causality is converted.")
 
-        return data
+        return data, mismatch
 
     def convert_causal_timebank(self):
+        mismatch = 0
         data_path = self.dir_path + "Causal-TimeBank/Causal-TimeBank-CAT"
         all_files = os.listdir(data_path)
         # parser = ET.XMLParser(encoding="utf-8")
@@ -508,23 +529,26 @@ class Converter:
                 if signal.strip() != "":
                     idx_val["signal"].append([signal_start, signal_end])
 
-                data = data.append(
-                    {"original_id": original_id, "span1": [span1.strip()], "span2": [span2.strip()],
-                     "signal": [signal.strip()],
-                     "context": context, "idx": idx_val, "label": label, "source": self.namexid["causal_timebank"],
-                     "ann_file": file, "split": ""}, ignore_index=True)
+                new_row = {"original_id": original_id, "span1": [span1.strip()], "span2": [span2.strip()],
+                           "signal": [signal.strip()],
+                           "context": context.strip('\n'), "idx": idx_val, "label": label,
+                           "source": self.namexid["causal_timebank"],
+                           "ann_file": file, "split": ""}
 
-        assert self._check_span_indexes(data) == True
+                if self._check_span_indexes(new_row):
+                    data = data.append(new_row, ignore_index=True)
+                else:
+                    mismatch += 1
 
         logging.info("[crest] causal_timebank is converted.")
 
-        return data
+        return data, mismatch
 
     def convert_event_storylines(self, version="1.5"):
         """
         converting causal and non-causal samples from EventStoryLines
         """
-
+        mismatch = 0
         docs_path = self.dir_path + "EventStoryLine/annotated_data/v" + version
 
         # creating a dictionary of all documents
@@ -621,24 +645,30 @@ class Converter:
                                     idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
                                                "signal": []}
 
-                                    data = data.append(
-                                        {"original_id": original_id, "span1": [span1.strip()], "span2": [span2.strip()],
-                                         "signal": [],
-                                         "context": context, "idx": idx_val, "label": label,
-                                         "source": self.namexid["event_storylines"],
-                                         "ann_file": doc, "split": ""}, ignore_index=True)
+                                    new_row = {"original_id": original_id, "span1": [span1.strip()],
+                                               "span2": [span2.strip()],
+                                               "signal": [],
+                                               "context": context.strip('\n'), "idx": idx_val, "label": label,
+                                               "source": self.namexid["event_storylines"],
+                                               "ann_file": doc, "split": ""}
+
+                                    if self._check_span_indexes(new_row):
+                                        data = data.append(new_row, ignore_index=True)
+                                    else:
+                                        mismatch += 1
 
                                 except Exception as e:
                                     print("[crest-log] EventStoryLine. Detail: {}".format(e))
 
-        assert self._check_span_indexes(data) == True
-
         logging.info("[crest] event_storylines is converted.")
 
-        return data
+        return data, mismatch
 
     def convert_caters(self):
         folders_path = self.dir_path + "caters/caters_evaluation/"
+
+        global mismatch
+        mismatch = 0
 
         def _get_context_spans(tags, doc_segments, arg1_id, arg2_id):
 
@@ -747,13 +777,17 @@ class Converter:
                                         else:
                                             label = 0
 
-                                        samples = samples.append(
-                                            {"original_id": original_id, "span1": span1[0], "span2": span2[0],
-                                             "signal": [],
-                                             "context": context,
-                                             "idx": idx_val, "label": label, "source": self.namexid["caters"],
-                                             "ann_file": doc,
-                                             "split": split}, ignore_index=True)
+                                        new_row = {"original_id": original_id, "span1": span1[0], "span2": span2[0],
+                                                   "signal": [],
+                                                   "context": context.strip('\n'),
+                                                   "idx": idx_val, "label": label, "source": self.namexid["caters"],
+                                                   "ann_file": doc,
+                                                   "split": split}
+
+                                        if self._check_span_indexes(new_row):
+                                            samples = samples.append(new_row, ignore_index=True)
+                                        else:
+                                            mismatch += 1
 
                                 except Exception as e:
                                     print("[crest-log] Error in converting CaTeRS. Detail: {}".format(e))
@@ -763,11 +797,9 @@ class Converter:
         data = data.append(extract_samples(["dev"], 1))
         data = data.append(extract_samples(["train"], 0))
 
-        assert self._check_span_indexes(data) == True
-
         logging.info("[crest] caters is converted.")
 
-        return data
+        return data, mismatch
 
     def convert_because(self):
         """
@@ -777,104 +809,7 @@ class Converter:
 
         nlp = spacy.load("en_core_web_sm")
 
-        def _get_doc_sentences(text):
-            """
-            splitting a document into its sentences
-            :param text: input documents (can be of any length from one sentence to multiple paragraphs)
-            :return:
-            """
-            sentences = []
-            doc = nlp(text)
-            sents = list(doc.sents)
-            for sen in sents:
-                sentences.append([sen.text, sen.start_char])
-            return sentences
-
-        def _get_context_spans(doc, arg0_id, arg1_id, signal_id):
-            arg0 = ' '.join(tags[arg0_id].split(' ')[1:]).strip()
-            if arg1_id != "":
-                arg1 = ' '.join(tags[arg1_id].split(' ')[1:]).strip()
-                arg1 = arg1.split(';')
-            signal = ' '.join(tags[signal_id].split(' ')[1:]).strip()
-
-            arg0 = arg0.split(';')
-            signal = signal.split(';')
-
-            df_columns = ['start', 'end', 'tag']
-            df = pd.DataFrame(columns=df_columns)
-
-            for arg in arg0:
-                df = df.append(pd.DataFrame(
-                    [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "span1"]],
-                    columns=df_columns
-                ), ignore_index=True)
-
-            if arg1_id != "":
-                for arg in arg1:
-                    df = df.append(pd.DataFrame(
-                        [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "span2"]],
-                        columns=df_columns
-                    ), ignore_index=True)
-
-            for arg in signal:
-                df = df.append(pd.DataFrame(
-                    [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "signal"]],
-                    columns=df_columns
-                ), ignore_index=True)
-
-            df = df.sort_values('start')
-
-            doc_segments = _get_doc_sentences(doc)
-
-            i = 0
-            while i < len(doc_segments):
-                segment_idx = doc_segments[i][1]
-                try:
-                    if segment_idx <= df.iloc[0]["start"] and (i + 1 == len(doc_segments) or
-                                                               (i + 1 < len(doc_segments) and df.iloc[0]["start"] <
-                                                                doc_segments[i + 1][1])):
-                        context = doc_segments[i][0]
-                        span1 = []
-                        span2 = []
-                        signal = []
-                        span1_idxs = []
-                        span2_idxs = []
-                        signal_idxs = []
-
-                        df_span1 = df.loc[df["tag"] == "span1"]
-                        for index, value in df_span1.iterrows():
-                            start = value["start"] - segment_idx
-                            end = value["end"] - segment_idx
-                            span1_idxs.append([start, end])
-                            span1.append(context[start:end])
-
-                        df_span2 = df.loc[df["tag"] == "span2"]
-                        for index, value in df_span2.iterrows():
-                            start = value["start"] - segment_idx
-                            end = value["end"] - segment_idx
-                            span2_idxs.append([start, end])
-                            span2.append(context[start:end])
-
-                        df_signal = df.loc[df["tag"] == "signal"]
-                        for index, value in df_signal.iterrows():
-                            start = value["start"] - segment_idx
-                            end = value["end"] - segment_idx
-                            signal_idxs.append([start, end])
-                            signal.append(context[start:end])
-                        break
-
-                        span1_text = tags[arg0_id][1]
-                        if arg1_id != "":
-                            span2_text = tags[arg1_id][1]
-                        signal_text = tags[signal_id][1]
-
-                        assert (" ".join(span1)).strip() == span1_text, (" ".join(span2)).strip() == span2_text
-                        assert (" ".join(signal)).strip() == signal_text
-                    i += 1
-                except Exception as e:
-                    print("[crest-log] detail: {}".format(e))
-
-            return [span1, span1_idxs], [span2, span2_idxs], [signal, signal_idxs], context
+        mismatch = 0
 
         # for NYT and PTB LDC subscription is needed to get access to the raw text.
         folders = ["CongressionalHearings", "MASC"]
@@ -894,7 +829,9 @@ class Converter:
                         # reading all tags information from .ann file
                         for line in lines:
                             line_cols = line.split('\t')
-                            tags[line_cols[0]] = line_cols[1]
+                            tags[line_cols[0]] = [line_cols[1], ""]
+                            if len(line_cols) == 3:
+                                tags[line_cols[0]][1] = line_cols[2].strip()
 
                     # reading the corresponding text file for the .ann file
                     with open(docs_path + "/" + doc.strip(".ann") + ".txt", 'r') as f:
@@ -904,31 +841,98 @@ class Converter:
                     for key, value in tags.items():
                         try:
                             original_id = key
-                            # check if the relation has all the arguments
-                            value = value.replace('\n', '')
 
                             # causal samples
                             causal_tags = ["Consequence", "Purpose", "Motivation", "NonCausal"]
                             arg_tags = ["Effect", "Cause", "Arg0", "Arg1"]
 
-                            if key.startswith("E") and any(causal_tag in value for causal_tag in causal_tags) and any(
-                                    arg_tag in value for arg_tag in arg_tags):
-                                args = value.split(' ')
-                                signal_tag = args[0].split(':')[1]
+                            if key.startswith("E") and any(
+                                    causal_tag in value[0] for causal_tag in causal_tags) and any(
+                                arg_tag in value[0] for arg_tag in arg_tags):
+                                args = value[0].split(' ')
+                                signal_id = args[0].split(':')[1].replace('\n', '')
 
                                 # check if both arguments are available
                                 if len(args) > 2:
-                                    arg0_id = args[1].split(':')[1]
-                                    arg1_id = args[2].split(':')[1]
+                                    arg0_id = args[1].split(':')[1].replace('\n', '')
+                                    arg1_id = args[2].split(':')[1].replace('\n', '')
                                 else:
-                                    arg0_id = args[1].split(':')[1]
+                                    arg0_id = args[1].split(':')[1].replace('\n', '')
                                     arg1_id = ""
 
-                                span1, span2, signal, context = _get_context_spans(doc_string, arg0_id, arg1_id,
-                                                                                   signal_tag)
+                                # ============================================
+                                # extracting text spans and context
+
+                                df_columns = ['start', 'end', 'tag']
+                                df = pd.DataFrame(columns=df_columns)
+
+                                arg0 = (' '.join(tags[arg0_id][0].split(' ')[1:]).strip()).split(';')
+
+                                if arg1_id != "":
+                                    arg1 = (' '.join(tags[arg1_id][0].split(' ')[1:]).strip()).split(';')
+                                    for arg in arg1:
+                                        df = df.append(pd.DataFrame(
+                                            [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "span2"]],
+                                            columns=df_columns
+                                        ), ignore_index=True)
+
+                                signal = (' '.join(tags[signal_id][0].split(' ')[1:]).strip()).split(';')
+
+                                for arg in arg0:
+                                    df = df.append(pd.DataFrame(
+                                        [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "span1"]],
+                                        columns=df_columns
+                                    ), ignore_index=True)
+
+                                for arg in signal:
+                                    df = df.append(pd.DataFrame(
+                                        [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "signal"]],
+                                        columns=df_columns
+                                    ), ignore_index=True)
+
+                                df = df.sort_values('start')
+
+                                doc_segments = []
+                                for sen in list(nlp(doc_string).sents):
+                                    doc_segments.append([sen.text_with_ws, sen.start_char])
+
+                                context = ""
+                                token_idx = 0
+
+                                global_start = df.iloc[0]["start"]
+                                global_end = df.iloc[len(df) - 1]["end"]
+
+                                # building context
+                                i = 0
+                                while i < len(doc_segments):
+                                    segment_idx = doc_segments[i][1]
+                                    if segment_idx <= global_start and (i + 1 == len(doc_segments) or
+                                                                        (i + 1 < len(doc_segments) and global_start <
+                                                                         doc_segments[i + 1][1])):
+                                        token_idx = copy.deepcopy(segment_idx)
+                                        while (i + 1 == len(doc_segments)) or (
+                                                i + 1 < len(doc_segments) and global_end > doc_segments[i][1]):
+                                            context += doc_segments[i][0]
+                                            i += 1
+                                        break
+                                    i += 1
+
+                                spans = {"span1": [], "span2": [], "signal": [], "span1_idxs": [], "span2_idxs": [],
+                                         "signal_idxs": []}
+
+                                for index, row in df.iterrows():
+                                    spans[row["tag"]].append(doc_string[row["start"]:row["end"]])
+                                    start = row["start"] - token_idx
+                                    end = row["end"] - token_idx
+                                    spans[row["tag"] + "_idxs"].append([start, end])
+
+                                span1 = [spans["span1"], spans["span1_idxs"]]
+                                span2 = [spans["span2"], spans["span2_idxs"]]
+                                signal = [spans["signal"], spans["signal_idxs"]]
+                                # ============================================
 
                                 # specifying the label
-                                if "NonCausal" in value:
+                                if "NonCausal" in value[0]:
                                     label = 0
                                 else:
                                     if args[1].split(':')[0] == "Cause":
@@ -940,22 +944,24 @@ class Converter:
                                            "span2": span2[1],
                                            "signal": signal[1]}
 
-                                data = data.append(
-                                    {"original_id": original_id, "span1": span1[0], "span2": span2[0],
-                                     "signal": signal[0],
-                                     "context": context,
-                                     "idx": idx_val, "label": label, "source": self.namexid["because"],
-                                     "ann_file": doc,
-                                     "split": ""}, ignore_index=True)
+                                row = {"original_id": original_id, "span1": span1[0], "span2": span2[0],
+                                       "signal": signal[0],
+                                       "context": context,
+                                       "idx": idx_val, "label": label, "source": self.namexid["because"],
+                                       "ann_file": doc,
+                                       "split": ""}
+
+                                if self._check_span_indexes(row):
+                                    data = data.append(row, ignore_index=True)
+                                else:
+                                    mismatch += 1
 
                         except Exception as e:
                             print("[crest-log] {}".format(e))
 
-        assert self._check_span_indexes(data) == True
-
         logging.info("[crest] because is converted.")
 
-        return data
+        return data, mismatch
 
     def convert_copa(self):
         """
@@ -964,7 +970,7 @@ class Converter:
         """
         folder_path = self.dir_path + "COPA-resources/datasets/"
         files = ["dev", "test"]
-
+        mismatch = 0
         data = pd.DataFrame(columns=self.scheme_columns)
 
         for file in files:
@@ -999,22 +1005,25 @@ class Converter:
                     idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
                                "signal": []}
 
-                    data = data.append(
-                        {"original_id": int(original_id), "span1": [span1.strip('.')], "span2": [span2.strip('.')],
-                         "signal": [],
-                         "context": context,
-                         "idx": idx_val, "label": label, "source": self.namexid["copa"],
-                         "ann_file": "copa-" + file + ".xml",
-                         "split": split}, ignore_index=True)
+                    new_row = {"original_id": int(original_id), "span1": [span1.strip('.')],
+                               "span2": [span2.strip('.')],
+                               "signal": [],
+                               "context": context.strip('\n'),
+                               "idx": idx_val, "label": label, "source": self.namexid["copa"],
+                               "ann_file": "copa-" + file + ".xml",
+                               "split": split}
+
+                    if self._check_span_indexes(new_row):
+                        data = data.append(new_row, ignore_index=True)
+                    else:
+                        mismatch += 1
 
             except Exception as e:
                 print("[crest-log] COPA. Detail: {}".format(e))
 
-        assert self._check_span_indexes(data) == True
-
         logging.info("[crest] copa is converted.")
 
-        return data
+        return data, mismatch
 
     @staticmethod
     def brat2crest():
@@ -1038,17 +1047,17 @@ class Converter:
         return result.group(1)
 
     @staticmethod
-    def _check_span_indexes(data):
+    def _check_span_indexes(row):
         """
         checking if spans/signal indexes are correctly stored
-        :param data:
+        :param row:
         :return:
         """
-        for index, row in data.iterrows():
-            span1 = ""
-            span2 = ""
-            signal = ""
 
+        span1 = ""
+        span2 = ""
+        signal = ""
+        try:
             for arg in row["idx"]["span1"]:
                 span1 += row["context"][arg[0]:arg[1]] + " "
 
@@ -1058,10 +1067,19 @@ class Converter:
             for sig in row["idx"]["signal"]:
                 signal += row["context"][sig[0]:sig[1]] + " "
 
-            if span1.strip() != (" ".join(row["span1"])).strip() or span2.strip() != (
-                    " ".join(row["span2"])).strip() or signal.strip() != (" ".join(row["signal"])).strip():
-                print("span1 -> {}:{}".format(span1, (" ".join(row["span1"])).strip()))
-                print("span2 -> {}:{}".format(span2, (" ".join(row["span2"])).strip()))
-                print("signal -> {}:{}".format(signal, (" ".join(row["signal"])).strip()))
+            FLAGS = {'s1': False, 's2': False, 'sig': False}
+            if span1.strip() != (" ".join(row["span1"])).strip():
+                print("span1: [{}]\n[{}]".format(span1, (" ".join(row["span1"])).strip()))
+                FLAGS["s1"] = True
+            if span2.strip() != (" ".join(row["span2"])).strip():
+                print("span2: [{}]\n[{}]".format(span2, (" ".join(row["span2"])).strip()))
+                FLAGS["s2"] = True
+            if signal.strip() != (" ".join(row["signal"])).strip():
+                print("signal: [{}]\n[{}]".format(signal, (" ".join(row["signal"])).strip()))
+                FLAGS["sig"] = True
+            if any(a for a in FLAGS.values()):
+                print("context: [{}] \n========".format(row["context"]))
                 return False
+        except Exception:
+            return False
         return True
