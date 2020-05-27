@@ -668,7 +668,7 @@ class Converter:
         return data, mismatch
 
     def convert_caters(self):
-        folders_path = self.dir_path + "caters/caters_evaluation/"
+        folders_path = self.dir_path + "caters/"
 
         global mismatch
         mismatch = 0
@@ -797,8 +797,9 @@ class Converter:
             return samples
 
         data = pd.DataFrame(columns=self.scheme_columns)
-        data = data.append(extract_samples(["dev"], 1))
-        data = data.append(extract_samples(["train"], 0))
+        data = data.append(extract_samples(["caters_test/test"], 2))
+        data = data.append(extract_samples(["caters_evaluation/dev"], 1))
+        data = data.append(extract_samples(["caters_evaluation/train"], 0))
 
         logging.info("[crest] caters is converted.")
 
