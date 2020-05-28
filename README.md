@@ -12,6 +12,6 @@ List of data resources already converted to CREST format:
 | 3 | EventCausality | 485 | 485 | - | Public |
 | 4 | Causal-TimeBank | 318 | 318 | - | Not Public|
 | 5 | EventStoryLine v1.5 | 2608 | 2608 | - | Public |
-| 6 | CaTeRS | 2342 | 229 | 2113 | Public |
+| 6 | CaTeRS | 2502 | 308 | 2194 | Public |
 | 7 | BECauSE v2.1 | 729 | 554 | 175 | Partially Public|
 | 8 | Choice of Plausible Alternatives (COPA) | 1000 | 1000 | - | Public |
