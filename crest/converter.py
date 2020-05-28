@@ -611,6 +611,10 @@ class Converter:
 
                                 # building the context and finding spans
                                 i = 0
+
+                                if t_sen_id < s_sen_id:
+                                    s_sen_id, t_sen_id = t_sen_id, s_sen_id
+
                                 while i < len(tokens):
                                     t_id = tokens[i][0]
                                     token_text = tokens[i][1]
@@ -1071,7 +1075,7 @@ class Converter:
             for sig in row["idx"]["signal"]:
                 signal += row["context"][sig[0]:sig[1]] + " "
 
-            FLAGS = {'s1': False, 's2': False, 'sig': False}
+            FLAGS = {'s1': False, 's2': False, 'sig': False, 'context': False}
             if span1.strip() != (" ".join(row["span1"])).strip():
                 print("span1: [{}]\n[{}]".format(span1, (" ".join(row["span1"])).strip()))
                 FLAGS["s1"] = True
@@ -1081,6 +1085,8 @@ class Converter:
             if signal.strip() != (" ".join(row["signal"])).strip():
                 print("signal: [{}]\n[{}]".format(signal, (" ".join(row["signal"])).strip()))
                 FLAGS["sig"] = True
+            if str(row["context"]) == "nan":
+                FLAGS["context"] = True
             if any(a for a in FLAGS.values()):
                 print("context: [{}] \n========".format(row["context"]))
                 return False
