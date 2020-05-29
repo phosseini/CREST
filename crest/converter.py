@@ -990,41 +990,49 @@ class Converter:
                 for item in root.findall("./item"):
                     spans = {0: item[0].text, 1: item[1].text, 2: item[2].text}
                     original_id = item.attrib['id']
+
+                    if int(item.attrib["most-plausible-alternative"]) == 1:
+                        span_neg = spans[2]
+                    else:
+                        span_neg = spans[1]
+
+                    span1 = spans[0]
+                    span2 = spans[int(item.attrib["most-plausible-alternative"])]
+
                     if item.attrib["asks-for"] == "cause":
-                        span1 = spans[0]
-                        span2 = spans[int(item.attrib["most-plausible-alternative"])]
+                        label = 2
                     elif item.attrib["asks-for"] == "effect":
-                        span1 = spans[int(item.attrib["most-plausible-alternative"])]
-                        span2 = spans[0]
+                        label = 1
 
-                    context = span1 + " " + span2
-                    span1_start = 0
-                    span1_end = len(span1) - 1
-                    span2_start = span1_end + 2
-                    span2_end = span2_start + len(span2) - 1
-
-                    label = 1
+                    pairs = [[span1, span2, label], [span1, span_neg, 0]]
 
                     if file == "dev":
                         split = 1
                     elif file == "test":
                         split = 2
 
-                    idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
-                               "signal": []}
+                    for pair in pairs:
+                        context = pair[0] + " " + pair[1]
+                        span1_start = 0
+                        span1_end = len(pair[0]) - 1
+                        span2_start = span1_end + 2
+                        span2_end = span2_start + len(pair[1]) - 1
 
-                    new_row = {"original_id": int(original_id), "span1": [span1.strip('.')],
-                               "span2": [span2.strip('.')],
-                               "signal": [],
-                               "context": context.strip('\n'),
-                               "idx": idx_val, "label": label, "source": self.namexid["copa"],
-                               "ann_file": "copa-" + file + ".xml",
-                               "split": split}
+                        idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
+                                   "signal": []}
 
-                    if self._check_span_indexes(new_row):
-                        data = data.append(new_row, ignore_index=True)
-                    else:
-                        mismatch += 1
+                        new_row = {"original_id": int(original_id), "span1": [pair[0].strip('.')],
+                                   "span2": [pair[1].strip('.')],
+                                   "signal": [],
+                                   "context": context.strip('\n'),
+                                   "idx": idx_val, "label": pair[2], "source": self.namexid["copa"],
+                                   "ann_file": "copa-" + file + ".xml",
+                                   "split": split}
+
+                        if self._check_span_indexes(new_row):
+                            data = data.append(new_row, ignore_index=True)
+                        else:
+                            mismatch += 1
 
             except Exception as e:
                 print("[crest-log] COPA. Detail: {}".format(e))
