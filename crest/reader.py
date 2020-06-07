@@ -1,3 +1,7 @@
+import ast
+import pandas as pd
+
+
 class Reader:
     def __init__(self):
         pass
@@ -9,8 +13,18 @@ class Reader:
         :param row: a crest formatted row
         :return: a list containing [left, between, right] text spans
         """
-        span1_idx = row["idx"]["span1"]
-        span2_idx = row["idx"]["span2"]
+        if isinstance(row, pd.Series):
+            if isinstance(row['idx'], str):
+                row['idx'] = ast.literal_eval(row['idx'])
+            span1_idx = row["idx"]["span1"]
+            span2_idx = row["idx"]["span2"]
+            if isinstance(span1_idx, str):
+                span1_idx = ast.literal_eval(span1_idx)
+            if isinstance(span2_idx, str):
+                span2_idx = ast.literal_eval(span2_idx)
+        else:
+            print(type(row))
+            raise Exception("input row should be a pandas data frame")
 
         text_between = False
         text_right = False
