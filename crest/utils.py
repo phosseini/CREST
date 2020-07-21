@@ -6,21 +6,18 @@ import pandas as pd
 from os import path
 
 
-def crest2tacred(input_path, save_json=False):
+def crest2tacred(df, output_file_name, split=[], save_json=False):
     """
     converting CREST-formatted data to TACRED (https://nlp.stanford.edu/projects/tacred/)
-    :param input_path: path to the CREST-formatted excel file
+    :param df: pandas data frame of the CREST-formatted excel file
+    :param output_file_name: name of output file without extension
     :param save_json: binary value, True, if want to save result in a JSON file, False, otherwise
+    :param split: split of the data, value is a list of numbers such as 0: train, 1: dev, test: 2. will return all data by default
     :return: list of dictionaries
     """
-
-    # checking the input file path
-    if not path.isfile(input_path):
-        print("file {} does not exist".format(input_path))
-        raise FileNotFoundError
-
-    # reading CREST data
-    df = pd.read_excel(input_path, index_col=[0])
+    if not type(df) == pd.core.frame.DataFrame:
+        print("first parameter should be a pandas data frame")
+        raise TypeError
 
     records = []
     for index, row in df.iterrows():
@@ -55,7 +52,10 @@ def crest2tacred(input_path, save_json=False):
                 record['id'] = str(row['original_id']) + str(row['source'])
                 record['token'] = tokens
                 record['relation'] = label
-                records.append(record)
+                features = ['id', 'token', 'span1_start', 'span1_end', 'span2_start', 'span2_end', 'relation']
+                # check if record has all the required fields
+                if all(feature in record for feature in features) and (len(split) == 0 or int(row['split']) in split):
+                    records.append(record)
         except Exception as e:
             print("error in converting the record. id: {}-{}. detail: {}".format(row['original_id'], row['source'],
                                                                                  str(e)))
@@ -63,7 +63,7 @@ def crest2tacred(input_path, save_json=False):
 
     # saving records into a JSON file
     if save_json and len(records) > 0:
-        with open('../data/causal/crest_tacred.json', 'w') as fout:
+        with open('../data/causal/{}.json'.format(str(output_file_name)), 'w') as fout:
             json.dump(records, fout)
 
     return records
