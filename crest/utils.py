@@ -3,16 +3,15 @@ import json
 
 import pandas as pd
 
-from os import path
 
-
-def crest2tacred(df, output_file_name, split=[], save_json=False):
+def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
     """
     converting CREST-formatted data to TACRED (https://nlp.stanford.edu/projects/tacred/)
     :param df: pandas data frame of the CREST-formatted excel file
     :param output_file_name: name of output file without extension
     :param save_json: binary value, True, if want to save result in a JSON file, False, otherwise
     :param split: split of the data, value is a list of numbers such as 0: train, 1: dev, test: 2. will return all data by default
+    :param source: source of the data, a list of integer numbers
     :return: list of dictionaries
     """
     if not type(df) == pd.core.frame.DataFrame:
@@ -54,7 +53,9 @@ def crest2tacred(df, output_file_name, split=[], save_json=False):
                 record['relation'] = label
                 features = ['id', 'token', 'span1_start', 'span1_end', 'span2_start', 'span2_end', 'relation']
                 # check if record has all the required fields
-                if all(feature in record for feature in features) and (len(split) == 0 or int(row['split']) in split):
+                if all(feature in record for feature in features) and (
+                        len(split) == 0 or int(row['split']) in split) and (
+                        len(source) == 0 or int(row['source']) in source):
                     records.append(record)
         except Exception as e:
             print("error in converting the record. id: {}-{}. detail: {}".format(row['original_id'], row['source'],
