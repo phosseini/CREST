@@ -49,11 +49,11 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
                     record['span2_type'] = 'O'
                 else:
                     if int(row['label']) == 1:
-                        record['span1_type'] = 'CAUSE'
-                        record['span2_type'] = 'EFFECT'
+                        record['span1_type'] = 'S-CAUSE'
+                        record['span2_type'] = 'S-EFFECT'
                     elif int(row['label']) == 2:
-                        record['span1_type'] = 'EFFECT'
-                        record['span2_type'] = 'CAUSE'
+                        record['span1_type'] = 'S-EFFECT'
+                        record['span2_type'] = 'S-CAUSE'
                     label = 1
 
                 record['id'] = str(row['original_id']) + str(row['source'])
