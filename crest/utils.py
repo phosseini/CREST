@@ -21,7 +21,7 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
     records = []
     for index, row in df.iterrows():
         try:
-            idx = ast.literal_eval(row['idx'])
+            idx = ast.literal_eval(str(row['idx']))
             # making sure spans are made of consecutive tokens
             if len(idx['span1']) == 1 and len(idx['span2']) == 1:
                 record = {}
@@ -34,11 +34,11 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
                 for i in range(len(tokens)):
                     if token_idx == span1_start:
                         record['span1_start'] = i
-                        span1_tokens = ast.literal_eval(row['span1'])[0].split(' ')
+                        span1_tokens = ast.literal_eval(str(row['span1']))[0].split(' ')
                         record['span1_end'] = i + len(span1_tokens) - 1
                     elif token_idx == span2_start:
                         record['span2_start'] = i
-                        span2_tokens = ast.literal_eval(row['span2'])[0].split(' ')
+                        span2_tokens = ast.literal_eval(str(row['span2']))[0].split(' ')
                         record['span2_end'] = i + len(span2_tokens) - 1
                     token_idx += len(tokens[i]) + 1
 
