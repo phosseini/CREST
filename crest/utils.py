@@ -76,3 +76,32 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
             json.dump(records, fout)
 
     return records
+
+
+def filter_by_span_length(df, min_len=2, max_len=2):
+    """
+    getting a subset of relations based on the number of tokens in spans
+    :param df: a CREST-formatted data
+    :param min_len: minimum total number of tokens in spans of a relation
+    :param max_len: maximum total number of tokens in spans of a relation
+    :return:
+    """
+    if min_len > max_len:
+        raise Exception('minimum length cannot be larger than maximum length')
+
+    res = pd.DataFrame(columns=list(df))
+
+    for index, row in df.iterrows():
+        span1 = ' '.join(ast.literal_eval(row['span1']))
+        span2 = ' '.join(ast.literal_eval(row['span2']))
+
+        len_span = 0
+
+        if span1.strip() != "" and span2.strip() != "":
+            len_span += len(span1.strip().split(' '))
+            len_span += len(span2.strip().split(' '))
+
+        if min_len < len_span <= max_len:
+            res = res.append(row)
+
+    return res.reset_index()
