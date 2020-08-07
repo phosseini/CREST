@@ -19,6 +19,7 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
         raise TypeError
 
     records = []
+    records_df = []
     for index, row in df.iterrows():
         try:
             idx = ast.literal_eval(str(row['idx']))
@@ -65,6 +66,7 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
                         len(split) == 0 or int(row['split']) in split) and (
                         len(source) == 0 or int(row['source']) in source):
                     records.append(record)
+                    records_df.append(row)
         except Exception as e:
             print("error in converting the record. id: {}-{}. detail: {}".format(row['original_id'], row['source'],
                                                                                  str(e)))
@@ -75,7 +77,7 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
         with open('../data/causal/splits/{}.json'.format(str(output_file_name)), 'w') as fout:
             json.dump(records, fout)
 
-    return records
+    return records, records_df
 
 
 def filter_by_span_length(df, min_len=2, max_len=2):
