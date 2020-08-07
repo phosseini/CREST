@@ -1,0 +1,10 @@
+Edits in caters:
+
+In batch_3.ann
+
+Chasing the line:
+T2	Event 13 16;7 10	kid was
+
+to
+
+T2	Event 7 10;13 16	was kid
