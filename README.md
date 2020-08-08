@@ -13,7 +13,7 @@ We convert CREST-formatted data to popular formats and annotation schemes, mainl
 ### Available Data Resources
 List of data resources already converted to CREST format:
 
-| Id | Data resource  | # of samples | # of causal | # of non-causal | Data availability |
+| Id | Data resource  | samples | causal | non-causal | availability |
 | -- | -------------- | :----------: | :---------: | :-------------: | ----------------- |
 | 1 | SemEval 2007 task 4 | 220 | 114 | 106 | Public |
 | 2 | SemEval 2010 task 8 | 10,717 | 1,331 | 9,386 | Public |
