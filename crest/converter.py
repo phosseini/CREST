@@ -25,7 +25,7 @@ class Converter:
     def __init__(self):
         root_path = os.path.abspath(os.path.join(os.path.dirname("__file__"), '..'))
         sys.path.insert(0, root_path)
-        self.dir_path = root_path + "/data/causal/"
+        self.dir_path = root_path + "/data/"
         self.scheme_columns = ['original_id', 'span1', 'span2', 'signal', 'context', 'idx', 'label', 'source',
                                'ann_file',
                                'split']
@@ -1040,22 +1040,6 @@ class Converter:
         logging.info("[crest] copa is converted.")
 
         return data, mismatch
-
-    @staticmethod
-    def brat2crest():
-        """
-        converting a brat formatted corpus to crest: cresting the corpus!
-        :return:
-        """
-        print("work in progress!")
-
-    @staticmethod
-    def crest2brat():
-        """
-        converting a crest formatted corpus to brat
-        :return:
-        """
-        print("work in progress!")
 
     @staticmethod
     def _get_between_text(str_1, str_2, orig_text):

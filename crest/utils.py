@@ -1,6 +1,6 @@
+import os
 import ast
 import json
-
 import pandas as pd
 
 
@@ -78,6 +78,112 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
             json.dump(records, fout)
 
     return records, records_df
+
+
+def brat2crest():
+    """
+    converting a brat formatted corpus to crest: cresting the corpus!
+    :return:
+    """
+    print("work in progress!")
+
+
+def crest2brat(df, output_dir):
+    """
+    converting a CREST-formatted data frame to BRAT
+    :param df: a CREST-formatted data
+    :param output_dir: folder were files will be saved
+    :return:
+    """
+    if not type(df) == pd.core.frame.DataFrame:
+        print("first parameter should be a pandas data frame")
+        raise TypeError
+
+    # first, check if the 'source' directory exist
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
+
+    for index, row in df.iterrows():
+        ann_file = ""
+        t_idx = 1
+        args_count = 0
+        idx = ast.literal_eval(str(row['idx']))
+        span1 = idx['span1']
+        span2 = idx['span2']
+        signal = idx['signal']
+
+        span1_string = ' '.join(ast.literal_eval(str(row['span1'])))
+        span2_string = ' '.join(ast.literal_eval(str(row['span2'])))
+        signal_string = ' '.join(ast.literal_eval(str(row['signal'])))
+
+        if len(span1) > 0:
+            span_type = 'Span'
+            if row['label'] == 1:
+                span_type = 'Cause'
+            elif row['label'] == 2:
+                span_type = 'Effect'
+            ann_file += "T{}\t{} ".format(t_idx, span_type)
+            spans1 = []
+            for span in span1:
+                spans1.append("{} {}".format(span[0], span[1]))
+            ann_file += ('; '.join(spans1)).strip()
+            ann_file += "\t{}\n".format(span1_string)
+            arg0 = "T{}".format(t_idx)
+            t_idx += 1
+            args_count += 1
+
+        if len(span2) > 0:
+            span_type = 'Span'
+            if row['label'] == 1:
+                span_type = 'Effect'
+            elif row['label'] == 2:
+                span_type = 'Cause'
+            ann_file += "T{}\t{} ".format(t_idx, span_type)
+            spans2 = []
+            for span in span2:
+                spans2.append("{} {}".format(span[0], span[1]))
+            ann_file += ('; '.join(spans2)).strip()
+            ann_file += "\t{}\n".format(span2_string)
+            arg0 = "T{}".format(t_idx)
+            t_idx += 1
+            args_count += 1
+
+        if len(signal) > 0:
+            ann_file += "T{}\tSignal ".format(t_idx)
+            signals = []
+            for span in signals:
+                signals.append("{} {}".format(span[0], span[1]))
+            ann_file += ('; '.join(signals)).strip()
+            ann_file += "\t{}\n".format(signal_string)
+            t_idx += 1
+
+        if row['label'] in [1, 2]:
+            if args_count == 1:
+                if row['label'] == 1:
+                    ann_file += "R1\tCausal Arg1:{}\n".format(arg0)
+                elif row['label'] == 2:
+                    ann_file += "R1\tCausal Arg2:{}\n".format(arg0)
+            elif args_count == 2:
+                if row['label'] == 1:
+                    ann_file += "R1\tCausal Arg1:T1 Arg2:T2\n"
+                elif row['label'] == 2:
+                    ann_file += "R1\tCausal Arg1:T2 Arg2:T1\n"
+        else:
+            if args_count == 1:
+                ann_file += "R1\tNonCausal Arg1:{}\n".format(arg0)
+            else:
+                ann_file += "R1\tNonCausal Arg1:T1 Arg2:T2\n"
+
+        ann_file = ann_file.strip('\n')
+
+        # writing .ann and .txt files
+        file_name = "{}_{}_{}".format(str(row['source']), str(row['label']), str(row['original_id']))
+        if str(row['ann_file']) != "":
+            file_name += str(row['ann_file'])
+        with open('{}/{}.ann'.format(output_dir, file_name), 'w') as file:
+            file.write(ann_file)
+        with open('{}/{}.txt'.format(output_dir, file_name), 'w') as file:
+            file.write(row['context'])
 
 
 def filter_by_span_length(df, min_len=2, max_len=2):
