@@ -126,7 +126,7 @@ def crest2brat(df, output_dir):
             spans1 = []
             for span in span1:
                 spans1.append("{} {}".format(span[0], span[1]))
-            ann_file += ('; '.join(spans1)).strip()
+            ann_file += (';'.join(spans1)).strip()
             ann_file += "\t{}\n".format(span1_string)
             arg0 = "T{}".format(t_idx)
             t_idx += 1
@@ -142,7 +142,7 @@ def crest2brat(df, output_dir):
             spans2 = []
             for span in span2:
                 spans2.append("{} {}".format(span[0], span[1]))
-            ann_file += ('; '.join(spans2)).strip()
+            ann_file += (';'.join(spans2)).strip()
             ann_file += "\t{}\n".format(span2_string)
             arg0 = "T{}".format(t_idx)
             t_idx += 1
@@ -153,7 +153,7 @@ def crest2brat(df, output_dir):
             signals = []
             for span in signals:
                 signals.append("{} {}".format(span[0], span[1]))
-            ann_file += ('; '.join(signals)).strip()
+            ann_file += (';'.join(signals)).strip()
             ann_file += "\t{}\n".format(signal_string)
             t_idx += 1
 
@@ -179,7 +179,7 @@ def crest2brat(df, output_dir):
         # writing .ann and .txt files
         file_name = "{}_{}_{}".format(str(row['source']), str(row['label']), str(row['original_id']))
         if str(row['ann_file']) != "":
-            file_name += str(row['ann_file'])
+            file_name += '_' + str(row['ann_file']).replace('.ann', '').replace('.', '')
         with open('{}/{}.ann'.format(output_dir, file_name), 'w') as file:
             file.write(ann_file)
         with open('{}/{}.txt'.format(output_dir, file_name), 'w') as file:
