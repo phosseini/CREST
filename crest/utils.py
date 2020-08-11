@@ -151,7 +151,7 @@ def crest2brat(df, output_dir):
         if len(signal) > 0:
             ann_file += "T{}\tSignal ".format(t_idx)
             signals = []
-            for span in signals:
+            for span in signal:
                 signals.append("{} {}".format(span[0], span[1]))
             ann_file += (';'.join(signals)).strip()
             ann_file += "\t{}\n".format(signal_string)
