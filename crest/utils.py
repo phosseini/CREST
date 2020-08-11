@@ -74,7 +74,7 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
 
     # saving records into a JSON file
     if save_json and len(records) > 0:
-        with open('../data/causal/splits/{}.json'.format(str(output_file_name)), 'w') as fout:
+        with open(str(output_file_name), 'w') as fout:
             json.dump(records, fout)
 
     return records, records_df
