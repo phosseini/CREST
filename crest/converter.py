@@ -15,7 +15,8 @@ class Converter:
     with start:end indexes 2:5 and 10:13, respectively, span1's value in 'idx' will be [[2, 5],[10, 13]]. Lists are
     sorted based on the start indexes of tokens. Same applies for span2 and signal.
     -------------------------------------------------------------------------------
-    label = (0 = non-causal), (1 = [span1, span2] -> cause-effect), (2 = [span1, span2] -> effect-cause)
+    label => 0: non-causal, 1: causal)
+    direction => 0: span1 => span2, 1: span2 => span1 (direction is important no matter if a relation is causal)
     -------------------------------------------------------------------------------
     split -> 0: train, 1: dev, test: 2. This is the split/part that a relation belongs to in the original dataset.
     For example, if split value for a relation is 1, it means that in the original dataset, the relation is used in the
@@ -26,9 +27,8 @@ class Converter:
         root_path = os.path.abspath(os.path.join(os.path.dirname("__file__"), '..'))
         sys.path.insert(0, root_path)
         self.dir_path = root_path + "/data/"
-        self.scheme_columns = ['original_id', 'span1', 'span2', 'signal', 'context', 'idx', 'label', 'source',
-                               'ann_file',
-                               'split']
+        self.scheme_columns = ['original_id', 'span1', 'span2', 'signal', 'context', 'idx', 'label', 'direction',
+                               'source', 'ann_file', 'split']
 
         # loading spaCy's english model (we use spaCy's sentence splitter for long context)
         self.nlp = spacy.load("en_core_web_sm")
@@ -98,19 +98,23 @@ class Converter:
                         tmp = all_lines[idx + 1].split(",")
                         if not ("true" in tmp[3] or "false" in tmp[3]):
                             tmp_label = tmp[2].replace(" ", "").replace("\"", "").split("=")
+                            relation_type = tmp[1]
                         else:
                             tmp_label = tmp[3].replace(" ", "").replace("\"", "").split("=")
+                            relation_type = tmp[2]
 
                         # finding label
-                        if tmp_label[1] == "true":
-                            # if (e1, e2) = (cause, effect), label = 1,
-                            # otherwise, label = 2 meaning (e2, e1) = (cause, effect)
-                            if "e2" in tmp_label[0]:
-                                label = 1
-                            elif "e1" in tmp_label[0]:
-                                label = 2
+                        if "Cause-Effect" in relation_type and tmp_label[1] == "true":
+                            label = 1
                         else:
                             label = 0
+
+                        # finding direction
+                        # if 0: e1 => e2, if 1: e2 => e1
+                        if "e2" in tmp_label[0]:
+                            direction = 0
+                        elif "e1" in tmp_label[0]:
+                            direction = 1
 
                         span1_start = context.find(e1_tag[0])
                         span1_end = context.find(e1_tag[1]) - len(e1_tag[0])
@@ -126,7 +130,8 @@ class Converter:
 
                         new_row = {"original_id": int(original_id), "span1": [span1], "span2": [span2], "signal": [],
                                    "context": context.strip('\n'),
-                                   "idx": idx_val, "label": label, "source": self.namexid["semeval_2007_4"],
+                                   "idx": idx_val, "label": label, "direction": direction,
+                                   "source": self.namexid["semeval_2007_4"],
                                    "ann_file": "",
                                    "split": split}
 
@@ -139,20 +144,26 @@ class Converter:
                         print("[crest-log] semeval07-task4. Detail: {}".format(e))
             return samples
 
-        # reading files
-        with open(self.dir_path + 'SemEval2007_task4/task-4-training/relation-1-train.txt', mode='r',
-                  encoding='cp1252') as train:
-            train_content = train.readlines()
-
-        # this is the test set
-        with open(self.dir_path + 'SemEval2007_task4/task-4-scoring/relation-1-score.txt', mode='r',
-                  encoding='cp1252') as key:
-            test_content = key.readlines()
-
         data = pd.DataFrame(columns=self.scheme_columns)
 
-        data = data.append(extract_samples(train_content, 0))
-        data = data.append(extract_samples(test_content, 2))
+        relation_ids = [1, 2, 3, 4, 5, 6, 7]
+
+        for relation_id in relation_ids:
+            # reading files
+            with open(
+                    self.dir_path + 'SemEval2007_task4/task-4-training/relation-{}-train.txt'.format(str(relation_id)),
+                    mode='r',
+                    encoding='cp1252') as train:
+                train_content = train.readlines()
+
+            # this is the test set
+            with open(self.dir_path + 'SemEval2007_task4/task-4-scoring/relation-{}-score.txt'.format(str(relation_id)),
+                      mode='r',
+                      encoding='cp1252') as key:
+                test_content = key.readlines()
+
+            data = data.append(extract_samples(train_content, 0))
+            data = data.append(extract_samples(test_content, 2))
 
         logging.info("[crest] semeval_2007_4 is converted.")
 
@@ -184,12 +195,17 @@ class Converter:
 
                         # finding label
                         if "Cause-Effect" in all_lines[idx + 1]:
-                            if "e1,e2" in all_lines[idx + 1]:
-                                label = 1
-                            else:
-                                label = 2
+                            label = 1
                         else:
                             label = 0
+
+                        # finding direction
+                        if "e1,e2" in all_lines[idx + 1]:
+                            direction = 0
+                        elif "e2,e1" in all_lines[idx + 1]:
+                            direction = 1
+                        else:
+                            direction = ""
 
                         span1_start = context.find(e1_tag[0])
                         span1_end = context.find(e1_tag[1]) - len(e1_tag[0])
@@ -200,14 +216,15 @@ class Converter:
                                    "signal": []}
 
                         # replacing tags with standard tags
-                        context = context.replace(e1_tag[0], "").replace(e1_tag[1], "").replace(e2_tag[0], "").replace(
+                        context = context.replace(e1_tag[0], "").replace(e1_tag[1], "").replace(e2_tag[0],
+                                                                                                "").replace(
                             e2_tag[1], "")
 
-                        new_row = {"original_id": int(original_id), "span1": [span1], "span2": [span2], "signal": [],
-                                   "context": context.strip('\n'),
-                                   "idx": idx_val, "label": label, "source": self.namexid["semeval_2010_8"],
-                                   "ann_file": "",
-                                   "split": split}
+                        new_row = {"original_id": int(original_id), "span1": [span1], "span2": [span2],
+                                   "signal": [],
+                                   "context": context.strip('\n'), "idx": idx_val, "label": label,
+                                   "direction": direction,
+                                   "source": self.namexid["semeval_2010_8"], "ann_file": "", "split": split}
 
                         if self._check_span_indexes(new_row):
                             samples = samples.append(new_row, ignore_index=True)
