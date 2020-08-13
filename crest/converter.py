@@ -500,8 +500,6 @@ class Converter:
 
                 if s_sen_id > t_sen_id:
                     s_sen_id, t_sen_id = t_sen_id, s_sen_id
-                    s_event_id, t_event_id = t_event_id, s_event_id
-                    direction = 1
 
                 # building the context and finding spans
                 i = 0
@@ -573,6 +571,7 @@ class Converter:
         """
         mismatch = 0
         docs_path = self.dir_path + "EventStoryLine/annotated_data/v" + version
+        # docs_path = '/Users/phosseini/PycharmProjects/CREST/data/' + "EventStoryLine/annotated_data/v" + version
 
         # creating a dictionary of all documents
         data = pd.DataFrame(columns=self.scheme_columns)
@@ -603,19 +602,21 @@ class Converter:
                         # saving relations info
                         # "CAUSES" and "CAUSED_BY" are for marking explicit causal relations
                         for relation in root.findall("Relations/PLOT_LINK"):
+                            label = 0
+                            direction = 0
                             if "relType" in relation.attrib:
                                 if relation.attrib['relType'] == "PRECONDITION":
                                     label = 1
                                 elif relation.attrib['relType'] == "FALLING_ACTION":
-                                    label = 2
-                                else:
-                                    label = 0
+                                    label = 1
+                                    direction = 1
 
                                 # --------------------------
                                 # building context and spans
                                 original_id = relation.attrib["r_id"]
-                                source_m_id = int(relation[0].attrib['m_id'])
-                                target_m_id = int(relation[1].attrib['m_id'])
+                                source_target = {relation[0].tag: relation[0], relation[1].tag: relation[1]}
+                                source_m_id = int(source_target['source'].attrib['m_id'])
+                                target_m_id = int(source_target['target'].attrib['m_id'])
 
                                 context = ""
                                 span1 = ""
@@ -676,6 +677,7 @@ class Converter:
                                                "span2": [span2.strip()],
                                                "signal": [],
                                                "context": context.strip('\n'), "idx": idx_val, "label": label,
+                                               "direction": direction,
                                                "source": self.namexid["event_storylines"],
                                                "ann_file": doc, "split": ""}
 
@@ -799,6 +801,7 @@ class Converter:
                                                    "span2": span2[1],
                                                    "signal": []}
 
+                                        direction = 0
                                         if any(causal_tag in value[0] for causal_tag in causal_tags):
                                             label = 1
                                         else:
@@ -807,7 +810,8 @@ class Converter:
                                         new_row = {"original_id": original_id, "span1": span1[0], "span2": span2[0],
                                                    "signal": [],
                                                    "context": context.strip('\n'),
-                                                   "idx": idx_val, "label": label, "source": self.namexid["caters"],
+                                                   "idx": idx_val, "label": label, "direction": direction,
+                                                   "source": self.namexid["caters"],
                                                    "ann_file": doc,
                                                    "split": split}
 
@@ -880,10 +884,17 @@ class Converter:
                                 args = value[0].split(' ')
                                 signal_id = args[0].split(':')[1].replace('\n', '')
 
+                                direction = 0
+
                                 # check if both arguments are available
                                 if len(args) > 2:
                                     arg0_id = args[1].split(':')[1].replace('\n', '')
                                     arg1_id = args[2].split(':')[1].replace('\n', '')
+
+                                    if 'Arg0:' in args[1] or 'Cause' in args[1]:
+                                        direction = 0
+                                    elif 'Arg1:' in args[1] or 'Effect' in args[1]:
+                                        direction = 1
                                 else:
                                     arg0_id = args[1].split(':')[1].replace('\n', '')
                                     arg1_id = ""
@@ -963,10 +974,7 @@ class Converter:
                                 if "NonCausal" in value[0]:
                                     label = 0
                                 else:
-                                    if args[1].split(':')[0] == "Cause":
-                                        label = 1
-                                    else:
-                                        label = 2
+                                    label = 1
 
                                 idx_val = {"span1": span1[1],
                                            "span2": span2[1],
@@ -975,7 +983,8 @@ class Converter:
                                 row = {"original_id": original_id, "span1": span1[0], "span2": span2[0],
                                        "signal": signal[0],
                                        "context": context,
-                                       "idx": idx_val, "label": label, "source": self.namexid["because"],
+                                       "idx": idx_val, "label": label, "direction": direction,
+                                       "source": self.namexid["because"],
                                        "ann_file": doc,
                                        "split": ""}
 
