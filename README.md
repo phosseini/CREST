@@ -14,12 +14,12 @@ We convert CREST-formatted data to popular formats and annotation schemes, mainl
 List of data resources already converted to CREST format:
 
 | Id | Data resource  | Samples | Causal | Non-causal | Availability |
-| -- | -------------- | :----------: | :---------: | :-------------: | ----------------- |
+| -- | -------------- | :----------: | :---------: | :-----------: | ------------ |
 | 1 | SemEval 2007 task 4 | 1,529 | 114 | 1,415 | Public |
-| 2 | SemEval 2010 task 8 | 10,717 | 1,331 | 9,386 | Public |
-| 3 | EventCausality | 485 | 485 | - | Public |
-| 4 | Causal-TimeBank | 318 | 318 | - | Not Public|
-| 5 | EventStoryLine v1.5 | 2608 | 2608 | - | Public |
-| 6 | CaTeRS | 2502 | 308 | 2194 | Public |
-| 7 | BECauSE v2.1 | 729 | 554 | 175 | Partially Public|
+| 2 | SemEval 2010 task 8 | 10,717 | 1,331 | 9,386 | Public | 
+| 3 | [EventCausality]((https://cogcomp.seas.upenn.edu/page/resource_view/27)) | 485 | 485 | - | Public |
+| 4 | [Causal-TimeBank](https://hlt-nlp.fbk.eu/technologies/causal-timebank) | 318 | 318 | - | Not Public| 
+| 5 | [EventStoryLine v1.5](https://github.com/tommasoc80/EventStoryLine) | 2608 | 2608 | - | Public | 
+| 6 | [CaTeRS](https://www.cs.rochester.edu/nlp/rocstories/CaTeRS/) | 2502 | 308 | 2194 | Public | 
+| 7 | [BECauSE v2.1](https://github.com/duncanka/BECAUSE) | 729 | 554 | 175 | Partially Public| 
 | 8 | Choice of Plausible Alternatives (COPA) | 2000 | 1000 | 1000 | Public |
