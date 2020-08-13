@@ -111,16 +111,18 @@ def crest2brat(df, output_dir):
         span1 = idx['span1']
         span2 = idx['span2']
         signal = idx['signal']
+        label = int(row['label'])
+        direction = int(row['direction'])
 
         span1_string = ' '.join(ast.literal_eval(str(row['span1'])))
         span2_string = ' '.join(ast.literal_eval(str(row['span2'])))
         signal_string = ' '.join(ast.literal_eval(str(row['signal'])))
 
         if len(span1) > 0:
-            span_type = 'Span'
-            if row['label'] == 1:
+            span_type = 'Span1'
+            if label == 1 and direction == 0:
                 span_type = 'Cause'
-            elif row['label'] == 2:
+            elif label == 1 and direction == 1:
                 span_type = 'Effect'
             ann_file += "T{}\t{} ".format(t_idx, span_type)
             spans1 = []
@@ -128,15 +130,14 @@ def crest2brat(df, output_dir):
                 spans1.append("{} {}".format(span[0], span[1]))
             ann_file += (';'.join(spans1)).strip()
             ann_file += "\t{}\n".format(span1_string)
-            arg0 = "T{}".format(t_idx)
             t_idx += 1
             args_count += 1
 
         if len(span2) > 0:
-            span_type = 'Span'
-            if row['label'] == 1:
+            span_type = 'Span2'
+            if label == 1 and direction == 0:
                 span_type = 'Effect'
-            elif row['label'] == 2:
+            elif label == 1 and direction == 1:
                 span_type = 'Cause'
             ann_file += "T{}\t{} ".format(t_idx, span_type)
             spans2 = []
@@ -144,7 +145,6 @@ def crest2brat(df, output_dir):
                 spans2.append("{} {}".format(span[0], span[1]))
             ann_file += (';'.join(spans2)).strip()
             ann_file += "\t{}\n".format(span2_string)
-            arg0 = "T{}".format(t_idx)
             t_idx += 1
             args_count += 1
 
@@ -157,27 +157,23 @@ def crest2brat(df, output_dir):
             ann_file += "\t{}\n".format(signal_string)
             t_idx += 1
 
-        if row['label'] in [1, 2]:
-            if args_count == 1:
-                if row['label'] == 1:
-                    ann_file += "R1\tCausal Arg1:{}\n".format(arg0)
-                elif row['label'] == 2:
-                    ann_file += "R1\tCausal Arg2:{}\n".format(arg0)
-            elif args_count == 2:
-                if row['label'] == 1:
+        if label == 1:
+            if args_count == 2:
+                if direction == 0:
                     ann_file += "R1\tCausal Arg1:T1 Arg2:T2\n"
-                elif row['label'] == 2:
+                elif direction == 1:
                     ann_file += "R1\tCausal Arg1:T2 Arg2:T1\n"
-        else:
-            if args_count == 1:
-                ann_file += "R1\tNonCausal Arg1:{}\n".format(arg0)
-            else:
-                ann_file += "R1\tNonCausal Arg1:T1 Arg2:T2\n"
+        elif label == 0:
+            if args_count == 2:
+                if direction == 0:
+                    ann_file += "R1\tNonCausal Arg1:T1 Arg2:T2\n"
+                elif direction == 1:
+                    ann_file += "R1\tNonCausal Arg1:T2 Arg2:T1\n"
 
         ann_file = ann_file.strip('\n')
 
         # writing .ann and .txt files
-        file_name = "{}_{}_{}".format(str(row['source']), str(row['label']), str(row['original_id']))
+        file_name = "{}_{}_{}_{}".format(str(row['source']), str(label), str(direction), str(row['original_id']))
         if str(row['ann_file']) != "":
             file_name += '_' + str(row['ann_file']).replace('.ann', '').replace('.', '')
         with open('{}/{}.ann'.format(output_dir, file_name), 'w') as file:

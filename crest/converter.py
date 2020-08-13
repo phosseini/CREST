@@ -16,7 +16,7 @@ class Converter:
     sorted based on the start indexes of tokens. Same applies for span2 and signal.
     -------------------------------------------------------------------------------
     label => 0: non-causal, 1: causal)
-    direction => 0: span1 => span2, 1: span2 => span1 (direction is important no matter if a relation is causal)
+    direction => 0: span1 => span2, 1: span2 => span1, -1: not-specified (direction is important no matter if a relation is causal)
     -------------------------------------------------------------------------------
     split -> 0: train, 1: dev, test: 2. This is the split/part that a relation belongs to in the original dataset.
     For example, if split value for a relation is 1, it means that in the original dataset, the relation is used in the
@@ -205,7 +205,7 @@ class Converter:
                         elif "e2,e1" in all_lines[idx + 1]:
                             direction = 1
                         else:
-                            direction = ""
+                            direction = -1
 
                         span1_start = context.find(e1_tag[0])
                         span1_end = context.find(e1_tag[1]) - len(e1_tag[0])
@@ -288,7 +288,8 @@ class Converter:
                                 tag_var = tag.split("\t")
                             else:
                                 tag_var = tag.split(" ")
-                            orig_id = tag.replace('\t', ' ').replace(' ', '_')
+                            orig_id = tag.replace('\t', ' ').replace(' ', '_') + str(doc_id)
+                            # the first combo is always CAUSE and the second combo is EFFECT
                             doc_tags.append({'p1': tag_var[1], 'p2': tag_var[2], 'split': split,
                                              'original_id': orig_id})
                     keys[doc_id] = doc_tags
@@ -366,7 +367,8 @@ class Converter:
 
                         new_row = {"original_id": original_id, "span1": [span1], "span2": [span2], "signal": [],
                                    "context": context.strip('\n'),
-                                   "idx": idx_val, "label": 1, "source": self.namexid["event_causality"],
+                                   "idx": idx_val, "label": 1, "direction": 0,
+                                   "source": self.namexid["event_causality"],
                                    "ann_file": key,
                                    "split": split}
 
@@ -380,11 +382,11 @@ class Converter:
                         if int(p2[0]) < int(p1[0]):
                             s_idx[1] = {'sen_index': int(p2[0]), 'token_index': int(p2[1])}
                             s_idx[2] = {'sen_index': int(p1[0]), 'token_index': int(p1[1])}
-                            label = 2
+                            direction = 1
                         else:
                             s_idx[1] = {'sen_index': int(p1[0]), 'token_index': int(p1[1])}
                             s_idx[2] = {'sen_index': int(p2[0]), 'token_index': int(p2[1])}
-                            label = 1
+                            direction = 0
 
                         context = ""
                         token_idx = 0
@@ -427,7 +429,8 @@ class Converter:
 
                         new_row = {"original_id": original_id, "span1": [span1], "span2": [span2], "signal": [],
                                    "context": context.strip('\n'),
-                                   "idx": idx_val, "label": label, "source": self.namexid["event_causality"],
+                                   "idx": idx_val, "label": 1, "direction": direction,
+                                   "source": self.namexid["event_causality"],
                                    "ann_file": key,
                                    "split": split}
 
@@ -472,25 +475,20 @@ class Converter:
             # [2] getting list of causal links
             for link in root.findall('Relations/CLINK'):
                 original_id = link.attrib['id']
-                s_event_id = int(link[0].attrib['id'])  # source event id
-                t_event_id = int(link[1].attrib['id'])  # target event id
+                s_t = {link[0].tag: link[0], link[1].tag: link[1]}
+                s_event_id = int(s_t['source'].attrib['id'])  # source event id
+                t_event_id = int(s_t['target'].attrib['id'])  # target event id
 
                 if 'c-signalID' in link.attrib:
                     signal_id = int(link.attrib['c-signalID'])
                 else:
                     signal_id = False
 
-                # finding label direction
-                if s_event_id > t_event_id:
-                    label = 2
-                    s_event_id, t_event_id = t_event_id, s_event_id
-                else:
-                    label = 1
-
                 context = ""
                 span1 = ""
                 span2 = ""
                 signal = ""
+                direction = 0
                 token_idx = 0
 
                 # finding start and end sentences indexes
@@ -499,6 +497,11 @@ class Converter:
                         s_sen_id = int(tokens[i][3])
                     if tokens[i][0] == events[t_event_id][0]:
                         t_sen_id = int(tokens[i][3])
+
+                if s_sen_id > t_sen_id:
+                    s_sen_id, t_sen_id = t_sen_id, s_sen_id
+                    s_event_id, t_event_id = t_event_id, s_event_id
+                    direction = 1
 
                 # building the context and finding spans
                 i = 0
@@ -551,7 +554,7 @@ class Converter:
 
                 new_row = {"original_id": original_id, "span1": [span1.strip()], "span2": [span2.strip()],
                            "signal": [signal.strip()],
-                           "context": context.strip('\n'), "idx": idx_val, "label": label,
+                           "context": context.strip('\n'), "idx": idx_val, "label": 1, "direction": direction,
                            "source": self.namexid["causal_timebank"],
                            "ann_file": file, "split": ""}
 
