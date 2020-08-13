@@ -214,3 +214,36 @@ def filter_by_span_length(df, min_len=2, max_len=2):
             res = res.append(row)
 
     return res.reset_index()
+
+
+def min_avg_max(df):
+    """
+    finding min, avg., and max length of samples in a CREST-formatted data frame
+    :param df:
+    :return:
+    """
+    if not type(df) == pd.core.frame.DataFrame:
+        print("first parameter should be a pandas data frame")
+        raise TypeError
+
+    len_max = 0
+    len_min = 1000000000  # good for now, but maybe replace it with sys.maxsize later
+    context_max = ""
+    context_min = ""
+    len_total = 0
+    for index, row in df.iterrows():
+        len_total += len(row.context.split(' '))
+        if len(str(row.context).split(' ')) > len_max:
+            len_max = len(str(row.context).split(' '))
+            context_max = str(row.context)
+        if len(str(row.context).split(' ')) < len_min:
+            len_min = len(str(row.context).split(' '))
+            context_min = str(row.context)
+
+    print("Avg. length: {}".format(len_total / len(df)))
+    print("+++++++++++++++")
+    print("min length: {}".format(str(len_min)))
+    print("min context: {}".format(context_min))
+    print("+++++++++++++++")
+    print("max length: {}".format(str(len_max)))
+    print("max context: {}".format(context_max))

@@ -444,6 +444,9 @@ class Converter:
         return data, mismatch
 
     def convert_causal_timebank(self):
+        """
+        converting samples from Causal-TimeBank
+        """
         mismatch = 0
         data_path = self.dir_path + "Causal-TimeBank/Causal-TimeBank-CAT"
         all_files = os.listdir(data_path)
@@ -571,7 +574,6 @@ class Converter:
         """
         mismatch = 0
         docs_path = self.dir_path + "EventStoryLine/annotated_data/v" + version
-        # docs_path = '/Users/phosseini/PycharmProjects/CREST/data/' + "EventStoryLine/annotated_data/v" + version
 
         # creating a dictionary of all documents
         data = pd.DataFrame(columns=self.scheme_columns)
