@@ -23,3 +23,12 @@ List of data resources already converted to CREST format:
 | 6 | CaTeRS | 2502 | 308 | 2194 | Public |
 | 7 | BECauSE v2.1 | 729 | 554 | 175 | Partially Public|
 | 8 | Choice of Plausible Alternatives (COPA) | 2000 | 1000 | 1000 | Public |
+
+### Link to data resources:
+| Id | Link |
+| -- | -------------- |
+| 3 | [https://cogcomp.seas.upenn.edu/page/resource_view/27](https://cogcomp.seas.upenn.edu/page/resource_view/27)
+| 4 | [https://hlt-nlp.fbk.eu/technologies/causal-timebank](https://hlt-nlp.fbk.eu/technologies/causal-timebank) |
+| 5 | [https://github.com/tommasoc80/EventStoryLine](https://github.com/tommasoc80/EventStoryLine) |
+| 6 | [https://www.cs.rochester.edu/nlp/rocstories/CaTeRS/](https://www.cs.rochester.edu/nlp/rocstories/CaTeRS/) |
+| 7 | [https://github.com/duncanka/BECAUSE](https://github.com/duncanka/BECAUSE) | 
