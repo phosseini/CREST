@@ -43,21 +43,26 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
                         record['span2_end'] = i + len(span2_tokens) - 1
                     token_idx += len(tokens[i]) + 1
 
-                # getting the label and span type
-                if int(row['label']) == 0:
-                    label = 0
-                    record['span1_type'] = 'O'
-                    record['span2_type'] = 'O'
-                else:
-                    if int(row['label']) == 1:
-                        record['span1_type'] = 'S-CAUSE'
-                        record['span2_type'] = 'S-EFFECT'
-                    elif int(row['label']) == 2:
-                        record['span1_type'] = 'S-EFFECT'
-                        record['span2_type'] = 'S-CAUSE'
-                    label = 1
+                label = int(row['label'])
+                direction = int(row['direction'])
 
-                record['id'] = str(row['original_id']) + str(row['source'])
+                # getting the label and span type
+                if label == 0:
+                    if direction == 0:
+                        record['span1_type'] = 'SPAN1'
+                        record['span2_type'] = 'SPAN2'
+                    if direction == 1:
+                        record['span1_type'] = 'SPAN2'
+                        record['span2_type'] = 'SPAN1'
+                elif label == 1:
+                    if direction == 0:
+                        record['span1_type'] = 'CAUSE'
+                        record['span2_type'] = 'EFFECT'
+                    elif direction == 1:
+                        record['span1_type'] = 'EFFECT'
+                        record['span2_type'] = 'CAUSE'
+
+                record['id'] = "{}-{}-{}".format(str(index), str(row['original_id']), str(row['source']))
                 record['token'] = tokens
                 record['relation'] = label
                 features = ['id', 'token', 'span1_start', 'span1_end', 'span2_start', 'span2_end', 'relation']
