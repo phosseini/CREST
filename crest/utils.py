@@ -48,14 +48,14 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
 
                 # getting the label and span type
                 if label == 0:
-                    if direction == 0:
+                    if direction == 0 or direction == -1:
                         record['span1_type'] = 'SPAN1'
                         record['span2_type'] = 'SPAN2'
                     if direction == 1:
                         record['span1_type'] = 'SPAN2'
                         record['span2_type'] = 'SPAN1'
                 elif label == 1:
-                    if direction == 0:
+                    if direction == 0 or direction == -1:
                         record['span1_type'] = 'CAUSE'
                         record['span2_type'] = 'EFFECT'
                     elif direction == 1:
