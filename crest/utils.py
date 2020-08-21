@@ -239,3 +239,20 @@ def min_avg_max(df):
     print("+++++++++++++++")
     print("max length: {}".format(str(len_max)))
     print("max context: {}".format(context_max))
+
+
+def split_statistics(df):
+    a = df.loc[df['split'] == 0]
+    b = df.loc[df['split'] == 1]
+    c = df.loc[df['split'] == 2]
+
+    splits = {'train': a, 'dev': b, 'test': c}
+
+    print('train: {}, dev: {}, test: {}'.format(set(list(a['source'])), set(list(b['source'])), set(list(c['source']))))
+    print('train: {}, dev: {}, test: {}'.format(len(a), len(b), len(c)))
+
+    for key, value in splits.items():
+        print(key)
+        print("+: {}".format(len(value.loc[value['label'] == 1])))
+        print("-: {}".format(len(value.loc[value['label'] == 0])))
+        print('+++++++++++')
