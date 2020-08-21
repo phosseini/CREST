@@ -242,6 +242,11 @@ def min_avg_max(df):
 
 
 def split_statistics(df):
+    """
+    printing the statistics of a dataframe in terms of number of +/- samples in each split
+    :param df:
+    :return:
+    """
     a = df.loc[df['split'] == 0]
     b = df.loc[df['split'] == 1]
     c = df.loc[df['split'] == 2]
@@ -256,3 +261,25 @@ def split_statistics(df):
         print("+: {}".format(len(value.loc[value['label'] == 1])))
         print("-: {}".format(len(value.loc[value['label'] == 0])))
         print('+++++++++++')
+
+
+def create_balanced_set(df):
+    """
+    creating a balanced dataframe of positive and negative samples
+    :param df:
+    :return:
+    """
+    n_pos = len(df[df['label'] == 1])
+    n_neg = len(df[df['label'] == 0])
+
+    _n = min([n_pos, n_neg])
+
+    df_pos = df.loc[df['label'] == 1].sample(n=_n, random_state=42)
+    df_neg = df.loc[df['label'] == 0].sample(n=_n, random_state=42)
+
+    df = pd.concat([df_pos, df_neg])
+
+    # shuffling samples
+    df = df.sample(frac=1, random_state=42)
+
+    return df
