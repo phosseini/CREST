@@ -37,7 +37,7 @@ class Converter:
                         "semeval_2010_8": 2,
                         "event_causality": 3,
                         "causal_timebank": 4,
-                        "event_storylines": 5,
+                        "eventstorylines": 5,
                         "caters": 6,
                         "because": 7,
                         "copa": 8
@@ -47,7 +47,7 @@ class Converter:
                           self.namexid["semeval_2010_8"]: self.convert_semeval_2010_8,
                           self.namexid["event_causality"]: self.convert_event_causality,
                           self.namexid["causal_timebank"]: self.convert_causal_timebank,
-                          self.namexid["event_storylines"]: self.convert_event_storylines,
+                          self.namexid["eventstorylines"]: self.convert_eventstorylines_v2,
                           self.namexid["caters"]: self.convert_caters,
                           self.namexid["because"]: self.convert_because,
                           self.namexid["copa"]: self.convert_copa}
@@ -568,7 +568,7 @@ class Converter:
 
         return data, mismatch
 
-    def convert_event_storylines(self, version="1.5"):
+    def convert_eventstorylines_v1(self, version="1.5"):
         """
         converting causal and non-causal samples from EventStoryLines
         """
@@ -690,6 +690,155 @@ class Converter:
 
                                 except Exception as e:
                                     print("[crest-log] EventStoryLine. Detail: {}".format(e))
+
+        logging.info("[crest] event_storylines is converted.")
+
+        return data, mismatch
+
+    def convert_eventstorylines_v2(self, version="1.5"):
+        """
+        converting causal and non-causal samples from EventStoryLines based on evaluation_format file
+        """
+
+        splits = {'full_corpus/v{}/event_mentions_extended'.format(version): 0,
+                  'test_corpus/v{}/event_mentions_extended'.format(version): 2}
+
+        # splits = {'test/v{}/event_mentions_extended'.format(version): 2}
+
+        annotations = pd.DataFrame(columns=['file', 'source', 'target', 'label', 'split'])
+
+        # creating a dictionary of all documents
+        data = pd.DataFrame(columns=self.scheme_columns)
+
+        global_id = 0
+
+        # ----------------------------------
+        # first, reading all the annotations
+        for key, value in splits.items():
+            docs_path = self.dir_path + "EventStoryLine/evaluation_format/{}".format(key)
+
+            for folder in os.listdir(docs_path):
+                if not any(sub in folder for sub in [".txt", ".pdf", ".DS_Store"]):
+                    for doc in os.listdir('{}/{}'.format(docs_path, folder)):
+                        if ".tab" in doc:
+                            with open('{}/{}/{}'.format(docs_path, folder, doc), 'r') as file:
+                                lines = file.readlines()
+                            for line in lines:
+                                line = line.split('\t')
+                                annotations = annotations.append(
+                                    {'file': '{}.{}'.format(doc.split('.')[0], 'xml'), 'source': line[0],
+                                     'target': line[1],
+                                     'label': line[2].replace('\n', ''), 'split': value}, ignore_index=True)
+
+        # ----------------------------------
+        mismatch = 0
+        docs_path = self.dir_path + "EventStoryLine/ECB+_LREC2014/ECB+"
+
+        # creating a dictionary of all documents
+        data = pd.DataFrame(columns=self.scheme_columns)
+
+        for folder in os.listdir(docs_path):
+            if not any(sub in folder for sub in [".txt", ".pdf", ".DS_Store"]):
+                for doc in os.listdir(docs_path + "/" + folder):
+                    if ".xml" in doc:
+                        # parse the doc to retrieve info of sentences
+                        tree = ET.parse(docs_path + "/" + folder + "/" + doc)
+                        root = tree.getroot()
+
+                        tokens = []
+
+                        # saving tokens info
+                        for token in root.findall('token'):
+                            tokens.append([int(token.attrib['t_id']), token.text, int(token.attrib['sentence'])])
+
+                        for index, row in annotations.loc[annotations['file'] == doc].iterrows():
+                            label = -1
+                            direction = -1
+                            if str(row['label']) == "PRECONDITION":
+                                label = 1
+                                direction = 0
+                            elif str(row['label']) == "FALLING_ACTION":
+                                label = 1
+                                direction = 1
+
+                            source_t_ids = []
+                            target_t_ids = []
+                            for item in row['source'].split('_'):
+                                source_t_ids.append(int(item))
+                            for item in row['target'].split('_'):
+                                target_t_ids.append(int(item))
+
+                            context = ""
+                            span1 = ""
+                            span2 = ""
+                            token_idx = 0
+
+                            # finding start and end sentences indexes
+                            for i in range(len(tokens)):
+                                if tokens[i][0] == source_t_ids[0]:
+                                    s_sen_id = int(tokens[i][2])
+                                if tokens[i][0] == target_t_ids[-1]:
+                                    t_sen_id = int(tokens[i][2])
+
+                            # building the context and finding spans
+                            i = 0
+
+                            if t_sen_id < s_sen_id:
+                                s_sen_id, t_sen_id = t_sen_id, s_sen_id
+
+                            while i < len(tokens):
+                                t_id = tokens[i][0]
+                                token_text = tokens[i][1]
+                                token_sen_id = int(tokens[i][2])
+                                if s_sen_id <= int(token_sen_id) <= t_sen_id:
+                                    # span1
+                                    if t_id == source_t_ids[0]:
+                                        for l in range(len(source_t_ids)):
+                                            span1 += tokens[i + l][1] + " "
+                                        # setting span1 start and end indexes
+                                        span1_start = copy.deepcopy(token_idx)
+                                        span1_end = span1_start + len(span1) - 1
+                                        context += span1
+                                        token_idx += len(span1)
+                                        i += l
+                                    # span2
+                                    elif t_id == target_t_ids[0]:
+                                        for l in range(len(target_t_ids)):
+                                            span2 += tokens[i + l][1] + " "
+                                        # setting span2 start and end indexes
+                                        span2_start = copy.deepcopy(token_idx)
+                                        span2_end = span2_start + len(span2) - 1
+                                        context += span2
+                                        token_idx += len(span2)
+                                        i += l
+                                    else:
+                                        context += token_text + " "
+                                        token_idx += len(token_text) + 1
+                                i += 1
+
+                            # storing causal and non-causal info
+                            try:
+                                idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
+                                           "signal": []}
+
+                                new_row = {
+                                    "original_id": '{}-{}-{}'.format(doc, self.namexid["eventstorylines"], global_id),
+                                    "span1": [span1.strip()],
+                                    "span2": [span2.strip()],
+                                    "signal": [],
+                                    "context": context.strip('\n'), "idx": idx_val, "label": label,
+                                    "direction": direction,
+                                    "source": self.namexid["eventstorylines"],
+                                    "ann_file": doc, "split": int(row['split'])}
+                                global_id += 1
+
+                                if self._check_span_indexes(new_row):
+                                    data = data.append(new_row, ignore_index=True)
+                                else:
+                                    mismatch += 1
+
+                            except Exception as e:
+                                print("[crest-log] EventStoryLine. Detail: {}".format(e))
 
         logging.info("[crest] event_storylines is converted.")
 

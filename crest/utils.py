@@ -19,6 +19,7 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
         raise TypeError
 
     records = []
+    excluded = []
     records_df = []
     for index, row in df.iterrows():
         try:
@@ -64,6 +65,10 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
                         len(source) == 0 or int(row['source']) in source):
                     records.append(record)
                     records_df.append(row)
+                else:
+                    excluded.append(row)
+            else:
+                excluded.append(row)
         except Exception as e:
             print("error in converting the record. id: {}-{}. detail: {}".format(row['original_id'], row['source'],
                                                                                  str(e)))
@@ -74,7 +79,7 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
         with open(str(output_file_name), 'w') as fout:
             json.dump(records, fout)
 
-    return records, records_df
+    return records, records_df, excluded
 
 
 def brat2crest():
@@ -283,3 +288,30 @@ def create_balanced_set(df):
     df = df.sample(frac=1, random_state=42)
 
     return df
+
+
+def resolve_context_overlap(df1, df2, mode=2):
+    """
+    removing overlapped context from df1
+    :param df1:
+    :param df2:
+    :param mode: 1: resolve full overlaps, 2: resolve partial overlaps
+    :return:
+    """
+
+    new_df1 = pd.DataFrame(columns=list(df1))
+
+    df2_context = []
+    for index, row in df2.iterrows():
+        df2_context.append(str(row['context']).lower().strip())
+
+    if mode == 1:
+        for index, row in df1.iterrows():
+            if str(row['context']).lower().strip() not in set(df2_context):
+                new_df1 = new_df1.append(row)
+    elif mode == 2:
+        for index, row in df1.iterrows():
+            curr_context = str(row['context']).lower().strip()
+            if not any(curr_context in x for x in df2_context):
+                new_df1 = new_df1.append(row)
+    return new_df1
