@@ -29,6 +29,13 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
                 record = {}
                 span1_start = idx['span1'][0][0]
                 span2_start = idx['span2'][0][0]
+
+                span1_info = str(row['span1'])
+                span2_info = str(row['span2'])
+
+                label = int(row['label'])
+                direction = int(row['direction'])
+
                 tokens = row['context'].split(' ')
 
                 # creating list of tokens in context and finding spans' start and end indices
@@ -36,26 +43,21 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
                 for i in range(len(tokens)):
                     if token_idx == span1_start:
                         record['span1_start'] = i
-                        span1_tokens = ast.literal_eval(str(row['span1']))[0].split(' ')
+                        span1_tokens = ast.literal_eval(span1_info)[0].split(' ')
                         record['span1_end'] = i + len(span1_tokens) - 1
                     elif token_idx == span2_start:
                         record['span2_start'] = i
-                        span2_tokens = ast.literal_eval(str(row['span2']))[0].split(' ')
+                        span2_tokens = ast.literal_eval(span2_info)[0].split(' ')
                         record['span2_end'] = i + len(span2_tokens) - 1
                     token_idx += len(tokens[i]) + 1
 
-                label = int(row['label'])
-                direction = int(row['direction'])
-
                 # getting the label and span type
                 if direction == 0 or direction == -1:
-                    record['span1_type'] = 'SPAN1'
-                    record['span2_type'] = 'SPAN2'
-                if direction == 1:
-                    record['span1_type'] = 'SPAN2'
-                    record['span2_type'] = 'SPAN1'
+                    record['direction'] = 'RIGHT'
+                elif direction == 1:
+                    record['direction'] = 'LEFT'
 
-                record['id'] = "{}-{}-{}".format(str(index), str(row['original_id']), str(row['source']))
+                record['id'] = str(row['global_id'])
                 record['token'] = tokens
                 record['relation'] = label
                 features = ['id', 'token', 'span1_start', 'span1_end', 'span2_start', 'span2_end', 'relation']
@@ -70,8 +72,7 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
             else:
                 excluded.append(row)
         except Exception as e:
-            print("error in converting the record. id: {}-{}. detail: {}".format(row['original_id'], row['source'],
-                                                                                 str(e)))
+            print("error in converting the record. global id: {}. detail: {}".format(row['global_id'], str(e)))
             pass
 
     # saving records into a JSON file
@@ -176,8 +177,8 @@ def crest2brat(df, output_dir):
 
         # writing .ann and .txt files
         file_name = "{}_{}_{}_{}".format(str(row['source']), str(label), str(direction), str(row['original_id']))
-        if str(row['ann_file']) != "":
-            file_name += '_' + str(row['ann_file']).replace('.ann', '').replace('.', '')
+        # if str(row['ann_file']) != "":
+        #    file_name += '_' + str(row['ann_file']).replace('.ann', '').replace('.', '')
         with open('{}/{}.ann'.format(output_dir, file_name), 'w') as file:
             file.write(ann_file)
         with open('{}/{}.txt'.format(output_dir, file_name), 'w') as file:
