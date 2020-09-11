@@ -4,11 +4,12 @@ import json
 import pandas as pd
 
 
-def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
+def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save_json=False):
     """
     converting CREST-formatted data to TACRED (https://nlp.stanford.edu/projects/tacred/)
     :param df: pandas data frame of the CREST-formatted excel file
     :param output_file_name: name of output file without extension
+    :param no_order: True if we want to remove spans order, False, otherwise
     :param save_json: binary value, True, if want to save result in a JSON file, False, otherwise
     :param split: split of the data, value is a list of numbers such as 0: train, 1: dev, test: 2. will return all data by default
     :param source: source of the data, a list of integer numbers
@@ -33,6 +34,11 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
                 span1_info = str(row['span1'])
                 span2_info = str(row['span2'])
 
+                if no_order:
+                    if span2_start < span1_start:
+                        span1_start, span2_start = span2_start, span1_start
+                        span1_info, span2_info = span2_info, span1_info
+
                 label = int(row['label'])
                 direction = int(row['direction'])
 
@@ -54,8 +60,12 @@ def crest2tacred(df, output_file_name, split=[], source=[], save_json=False):
                 # getting the label and span type
                 if direction == 0 or direction == -1:
                     record['direction'] = 'RIGHT'
+                    record['span1_type'] = 'SPAN1'
+                    record['span2_type'] = 'SPAN2'
                 elif direction == 1:
                     record['direction'] = 'LEFT'
+                    record['span1_type'] = 'SPAN2'
+                    record['span2_type'] = 'SPAN1'
 
                 record['id'] = str(row['global_id'])
                 record['token'] = tokens
@@ -176,7 +186,7 @@ def crest2brat(df, output_dir):
         ann_file = ann_file.strip('\n')
 
         # writing .ann and .txt files
-        file_name = "{}_{}_{}_{}".format(str(row['source']), str(label), str(direction), str(row['original_id']))
+        file_name = "{}_{}_{}_{}".format(str(row['source']), str(label), str(direction), str(row['global_id']))
         # if str(row['ann_file']) != "":
         #    file_name += '_' + str(row['ann_file']).replace('.ann', '').replace('.', '')
         with open('{}/{}.ann'.format(output_dir, file_name), 'w') as file:
