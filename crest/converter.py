@@ -47,7 +47,7 @@ class Converter:
                           self.namexid["semeval_2010_8"]: self.convert_semeval_2010_8,
                           self.namexid["event_causality"]: self.convert_event_causality,
                           self.namexid["causal_timebank"]: self.convert_causal_timebank,
-                          self.namexid["eventstorylines"]: self.convert_eventstorylines_v2,
+                          self.namexid["eventstorylines"]: self.convert_eventstorylines_v1,
                           self.namexid["caters"]: self.convert_caters,
                           self.namexid["because"]: self.convert_because,
                           self.namexid["copa"]: self.convert_copa}
@@ -680,7 +680,7 @@ class Converter:
                                                "signal": [],
                                                "context": context.strip('\n'), "idx": idx_val, "label": label,
                                                "direction": direction,
-                                               "source": self.namexid["event_storylines"],
+                                               "source": self.namexid["eventstorylines"],
                                                "ann_file": doc, "split": ""}
 
                                     if self._check_span_indexes(new_row):
@@ -691,7 +691,7 @@ class Converter:
                                 except Exception as e:
                                     print("[crest-log] EventStoryLine. Detail: {}".format(e))
 
-        logging.info("[crest] event_storylines is converted.")
+        logging.info("[crest] eventstorylines is converted.")
 
         return data, mismatch
 
@@ -817,7 +817,7 @@ class Converter:
                            "signal": []}
 
                 new_row = {
-                    "original_id": '{}-{}-{}'.format(doc, self.namexid["eventstorylines"], global_id),
+                    "original_id": '{}-{}'.format(doc, global_id),
                     "span1": [span1.strip()],
                     "span2": [span2.strip()],
                     "signal": [],
@@ -835,7 +835,7 @@ class Converter:
             except Exception as e:
                 print("[crest-log] EventStoryLine. Detail: {}".format(e))
 
-        logging.info("[crest] event_storylines is converted.")
+        logging.info("[crest] eventstorylines is converted.")
 
         return data, mismatch
 
@@ -1175,11 +1175,12 @@ class Converter:
                     span2 = spans[int(item.attrib["most-plausible-alternative"])]
 
                     if item.attrib["asks-for"] == "cause":
-                        label = 2
+                        direction = 1
                     elif item.attrib["asks-for"] == "effect":
-                        label = 1
+                        direction = 0
 
-                    pairs = [[span1, span2, label], [span1, span_neg, 0]]
+                    # final samples
+                    pairs = [[span1, span2, 1, direction], [span1, span_neg, 0, direction]]
 
                     if file == "dev":
                         split = 1
@@ -1200,7 +1201,8 @@ class Converter:
                                    "span2": [pair[1].strip('.')],
                                    "signal": [],
                                    "context": context.strip('\n'),
-                                   "idx": idx_val, "label": pair[2], "source": self.namexid["copa"],
+                                   "idx": idx_val, "label": pair[2], "direction": direction,
+                                   "source": self.namexid["copa"],
                                    "ann_file": "copa-" + file + ".xml",
                                    "split": split}
 
