@@ -279,21 +279,38 @@ def split_statistics(df):
         print('+++++++++++')
 
 
-def create_balanced_set(df):
+def balance_direction(df, labels=[0, 1]):
+    _n_dir = min([len(df[df['direction'] == labels[1]]), len(df[df['direction'] == labels[0]])])
+
+    df_neg = df.loc[df['direction'] == labels[0]].sample(n=_n_dir, random_state=42)
+    df_pos = df.loc[df['direction'] == labels[1]].sample(n=_n_dir, random_state=42)
+
+    df = pd.concat([df_neg, df_pos])
+
+    return df.sample(frac=1, random_state=42)
+
+
+def balance_split(df, bin_labels=[0, 1], balance_dir=False):
     """
     creating a balanced dataframe of positive and negative samples
     :param df:
+    :param balance_dir: if True, also balance the direction
+    :param bin_labels: list of two binary labels
     :return:
     """
-    n_pos = len(df[df['label'] == 1])
-    n_neg = len(df[df['label'] == 0])
+
+    n_pos = len(df[df['label'] == bin_labels[1]])
+    n_neg = len(df[df['label'] == bin_labels[0]])
 
     _n = min([n_pos, n_neg])
 
-    df_pos = df.loc[df['label'] == 1].sample(n=_n, random_state=42)
-    df_neg = df.loc[df['label'] == 0].sample(n=_n, random_state=42)
+    df_pos = df.loc[df['label'] == bin_labels[1]].sample(n=_n, random_state=42)
+    df_neg = df.loc[df['label'] == bin_labels[0]].sample(n=_n, random_state=42)
 
-    df = pd.concat([df_pos, df_neg])
+    if balance_dir:
+        df = pd.concat([balance_direction(df_pos), balance_direction(df_neg)])
+    else:
+        df = pd.concat([df_pos, df_neg])
 
     # shuffling samples
     df = df.sample(frac=1, random_state=42)
