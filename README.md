@@ -8,7 +8,7 @@ We convert CREST-formatted data to popular formats and annotation schemes, mainl
            <p align="center">
            <img src='data/crest_brat_example.png' width='700' height='150' style="vertical-align:middle;margin:100px 50px">
            </p>
-* `TACRED`: [TACRED](https://nlp.stanford.edu/projects/tacred/) is a large-scale relation extraction dataset. We convert samples from CREST to TACRED since TACRED-formatted data can be easily used as input to many transformers-based language models. These models include but not limited to [BERT](https://github.com/google-research/bert) and [SpanBERT](https://github.com/facebookresearch/SpanBERT) that we have already fine-tuned them for classifying causal and non-causal relation classification.
+* `TACRED`: [TACRED](https://nlp.stanford.edu/projects/tacred/) is a large-scale relation extraction dataset. We convert samples from CREST to TACRED since TACRED-formatted data can be easily used as input to many transformers-based language models.
 
 ### Available Data Resources
 List of data resources already converted to CREST format:
