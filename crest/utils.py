@@ -290,14 +290,18 @@ def balance_direction(df, labels=[0, 1]):
     return df.sample(frac=1, random_state=42)
 
 
-def balance_split(df, bin_labels=[0, 1], balance_dir=False):
+def balance_split(df, bin_labels=[0, 1], balance_dir=False, dir_first=False):
     """
     creating a balanced dataframe of positive and negative samples
     :param df:
     :param balance_dir: if True, also balance the direction
+    :param dir_first: if True, balance the direction first
     :param bin_labels: list of two binary labels
     :return:
     """
+
+    if dir_first:
+        df = balance_direction(df)
 
     n_pos = len(df[df['label'] == bin_labels[1]])
     n_neg = len(df[df['label'] == bin_labels[0]])
