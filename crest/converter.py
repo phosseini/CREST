@@ -15,8 +15,8 @@ class Converter:
     with start:end indexes 2:5 and 10:13, respectively, span1's value in 'idx' will be [[2, 5],[10, 13]]. Lists are
     sorted based on the start indexes of tokens. Same applies for span2 and signal.
     -------------------------------------------------------------------------------
-    label => 0: non-causal, 1: causal)
-    direction => 0: span1 => span2, 1: span2 => span1, -1: not-specified (direction is important no matter if a relation is causal)
+    label => 0: non-causal, 1: causal
+    direction => 0: span1 => span2, 1: span2 => span1, -1: not-specified
     -------------------------------------------------------------------------------
     split -> 0: train, 1: dev, test: 2. This is the split/part that a relation belongs to in the original dataset.
     For example, if split value for a relation is 1, it means that in the original dataset, the relation is used in the
@@ -40,7 +40,8 @@ class Converter:
                         "eventstorylines": 5,
                         "caters": 6,
                         "because": 7,
-                        "copa": 8
+                        "copa": 8,
+                        "pdtb3": 9,
                         }
 
         self.idxmethod = {self.namexid["semeval_2007_4"]: self.convert_semeval_2007_4,
@@ -50,7 +51,9 @@ class Converter:
                           self.namexid["eventstorylines"]: self.convert_eventstorylines_v1,
                           self.namexid["caters"]: self.convert_caters,
                           self.namexid["because"]: self.convert_because,
-                          self.namexid["copa"]: self.convert_copa}
+                          self.namexid["copa"]: self.convert_copa,
+                          self.namexid["pdtb3"]: self.convert_pdtb3
+                          }
 
     def convert2crest(self, dataset_ids=[], save_file=False):
         """
@@ -1215,6 +1218,109 @@ class Converter:
                 print("[crest-log] COPA. Detail: {}".format(e))
 
         logging.info("[crest] copa is converted.")
+
+        return data, mismatch
+
+    def convert_pdtb3(self):
+        mismatch = 0
+
+        # reading pdtb3 into dataframe
+        df = pd.read_excel(self.dir_path + 'pdtb3.xlsx')
+
+        nlp = spacy.load("en_core_web_sm")
+
+        classes = ['Contingency.Cause.Result', 'Contingency.Cause.Reason']
+
+        data = pd.DataFrame(columns=self.scheme_columns)
+
+        for idx, row in df.iterrows():
+            if isinstance(row['SClass1A'], str):
+                try:
+                    if row['SClass1A'] in classes and ';' not in row['Arg1SpanList'] and ';' not in row['Arg2SpanList']:
+                        arg1 = row['Arg1SpanList'].split('..')
+                        arg2 = row['Arg2SpanList'].split('..')
+                        arg1_s, arg1_e = int(arg1[0]), int(arg1[1])
+                        arg2_s, arg2_e = int(arg2[0]), int(arg2[1])
+                        full_text = row['FullRawText']
+
+                        arg1_text = full_text[arg1_s:arg1_e]
+                        arg2_text = full_text[arg2_s:arg2_e]
+
+                        # ============================================
+                        # specifying the direction
+                        if row['SClass1A'] == 'Contingency.Cause.Result':
+                            if arg1_e < arg2_s:
+                                direction = 0
+                            else:
+                                direction = 1
+                        else:
+                            if arg1_e < arg2_s:
+                                direction = 1
+                            else:
+                                direction = 0
+
+                        # ============================================
+                        # extracting text spans and context
+
+                        df_columns = ['start', 'end', 'text']
+                        df_args = pd.DataFrame(columns=df_columns)
+
+                        df_args = df_args.append(pd.DataFrame([[arg1_s, arg1_e, arg1_text]], columns=df_columns),
+                                                 ignore_index=True)
+                        df_args = df_args.append(pd.DataFrame([[arg2_s, arg2_e, arg2_text]], columns=df_columns),
+                                                 ignore_index=True)
+
+                        df_args = df_args.sort_values('start')
+
+                        doc_segments = []
+                        for sen in list(nlp(full_text).sents):
+                            doc_segments.append([sen.text_with_ws, sen.start_char])
+
+                        context = ""
+                        token_idx = 0
+
+                        global_start = df_args.iloc[0]["start"]
+                        global_end = df_args.iloc[1]["end"]
+
+                        # building context
+                        i = 0
+                        while i < len(doc_segments):
+                            segment_idx = doc_segments[i][1]
+                            if segment_idx <= global_start and (i + 1 == len(doc_segments) or (
+                                    i + 1 < len(doc_segments) and global_start < doc_segments[i + 1][1])):
+                                token_idx = copy.deepcopy(segment_idx)
+                                while (i + 1 == len(doc_segments)) or (
+                                        i + 1 < len(doc_segments) and global_end > doc_segments[i][1]):
+                                    context += doc_segments[i][0]
+                                    i += 1
+                                break
+                            i += 1
+
+                        # ===========================================
+                        # saving relations information
+                        idx_val = {
+                            "span1": [[df_args.iloc[0]['start'] - token_idx, df_args.iloc[0]['end'] - token_idx]],
+                            "span2": [[df_args.iloc[1]['start'] - token_idx, df_args.iloc[1]['end'] - token_idx]],
+                            "signal": []}
+
+                        new_row = {"original_id": int(row['RelationId']),
+                                   "span1": [df_args.iloc[0]['text']],
+                                   "span2": [df_args.iloc[1]['text']],
+                                   "signal": [],
+                                   "context": context.strip('\n'),
+                                   "idx": idx_val, "label": 1, "direction": direction,
+                                   "source": self.namexid["pdtb3"],
+                                   "ann_file": "",
+                                   "split": 0}
+
+                        if self._check_span_indexes(new_row):
+                            data = data.append(new_row, ignore_index=True)
+                        else:
+                            mismatch += 1
+                except Exception as e:
+                    print("[crest-log] PDTB3. Detail: {}".format(e))
+
+        logging.info("[crest] PDTB3 is converted.")
 
         return data, mismatch
 
