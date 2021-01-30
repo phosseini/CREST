@@ -2,7 +2,23 @@
 
 CREST is created to help researchers who work on causal/counterfactual relation extraction/classification, commonsense reasoning, and reading comprehension in natural language to communicate easier and leverage the scattered data resources around this topic. CREST is a user-friendly machine-readable format stored as pandas [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html).
 
-### `CREST` convertion
+### `CREST` format
+Each relation in a CREST-formatted DataFrame has the following fields/values:
+* **`original_id`**: the id of a relation in the original dataset, if such an id exists.
+* **`span1`**: a list of strings of the first span/argument of the relation.
+* **`span2`**: a list of strings of the second span/argument of the relation
+* **`signal`**: a list of strings of signals/markers of the relation in context, if any.
+* **`context`**: a text string of the context in which the relation appears.
+* **`idx`**: a dictionary in form of `{'span1': [], 'span2': [], 'signal': []}` to store indexes of span1, span2, and signal in context. Each value in the idx dictionary is a list of lists of start and end indexes of spans and the signal. For example, if span1 has multi tokens in context with `start:end` indexes 2:5 and 10:13, respectively, span1's value in `idx` will be `[[2, 5], [10, 13]]`. Lists are sorted based on the start indexes of tokens.
+* **`label`**: label of the relation, `0: non-causal`, `1: causal`
+* **`direction`**: direction between span1 and span2. `0: span1 => span2`, `1: span1 <= span2`, `-1: not-specified`
+* **`source`**: id of the source dataset (`ids` are listed in a table below)
+* **`split`**: `0: train`, `1: dev`, `test: 2`. This is the split to which the relation belongs in the original dataset. If there no split specified for a relation in the original dataset, we assign the relation to the `train` split by default.
+
+**Note:** The reason we save a list of strings instead of a single string for span1, span2, and signal is that these text spans may contain multiple non-consecutive sub-spans in context.
+
+
+### `CREST` conversion
 We provide helper methods to convert CREST-formatted data to popular formats and annotation schemes, mainly formats that are used across relation extraction/classification tasks. In the following, there is a list of formats for which we have already developed CREST converter methods:
 * `brat`: we have provided helper methods to convert CREST-formatted data frames to brat (brat to CREST converters will be added soon). [brat](https://brat.nlplab.org/) is a popular web-based annotation tool that has been used for a variety of relation extraction NLP tasks. We use brat for two main reasons: 1) better visualization of causal and non-causal relations and their arguments, and 2) modifying relations annotations if needed and adding new annotations to provided context. In the following, there is a sample of a converted version of CREST-formatted relation to brat (example is taken from CaTeRS dataset):
            <p align="center">
