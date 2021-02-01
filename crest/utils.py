@@ -58,11 +58,11 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
                     if token_idx == span1_start:
                         record['span1_start'] = i
                         span1_tokens = WordPunctTokenizer().tokenize(ast.literal_eval(span1_info)[0])
-                        record['span1_end'] = i + len(span1_tokens) - 1
+                        record['span1_end'] = i + len(span1_tokens)
                     elif token_idx == span2_start:
                         record['span2_start'] = i
                         span2_tokens = WordPunctTokenizer().tokenize(ast.literal_eval(span2_info)[0])
-                        record['span2_end'] = i + len(span2_tokens) - 1
+                        record['span2_end'] = i + len(span2_tokens)
 
                     token_idx += len(tokens[i])
 
@@ -87,7 +87,10 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
                 # check if record has all the required fields
                 if all(feature in record for feature in features) and (
                         len(split) == 0 or int(row['split']) in split) and (
-                        len(source) == 0 or int(row['source']) in source):
+                        len(source) == 0 or int(row['source']) in source) and record['span1_end'] < len(tokens) and \
+                        record['span2_end'] < len(tokens) and ' '.join(
+                    tokens[record['span1_start']:record['span1_end']]) == ' '.join(span1_tokens) \
+                        and ' '.join(tokens[record['span2_start']:record['span2_end']]) == ' '.join(span2_tokens):
                     records.append(record)
                     records_df.append(row)
                 else:
