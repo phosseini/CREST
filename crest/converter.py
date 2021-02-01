@@ -138,7 +138,9 @@ class Converter:
                                    "ann_file": "",
                                    "split": split}
 
-                        if self._check_span_indexes(new_row):
+                        # span1_end < span2_start is to make sure e1 always appears first
+                        # in context and direction is correct
+                        if self._check_span_indexes(new_row) and span1_end < span2_start:
                             samples = samples.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
@@ -229,7 +231,7 @@ class Converter:
                                    "direction": direction,
                                    "source": self.namexid["semeval_2010_8"], "ann_file": "", "split": split}
 
-                        if self._check_span_indexes(new_row):
+                        if self._check_span_indexes(new_row) and span1_end < span2_start:
                             samples = samples.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
