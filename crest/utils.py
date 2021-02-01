@@ -1,6 +1,7 @@
 import os
 import ast
 import json
+from nltk.tokenize import WordPunctTokenizer
 import pandas as pd
 
 
@@ -42,20 +43,32 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
                 label = int(row['label'])
                 direction = int(row['direction'])
 
-                tokens = row['context'].split(' ')
+                space_indices = []
+                special_chars = [' ', '\n', '\r', '\t']
+                for i in range(len(row['context'])):
+                    if row['context'][i] in special_chars:
+                        space_indices.append(i)
+
+                tokens = WordPunctTokenizer().tokenize(row['context'])
 
                 # creating list of tokens in context and finding spans' start and end indices
                 token_idx = 0
+
                 for i in range(len(tokens)):
                     if token_idx == span1_start:
                         record['span1_start'] = i
-                        span1_tokens = ast.literal_eval(span1_info)[0].split(' ')
+                        span1_tokens = WordPunctTokenizer().tokenize(ast.literal_eval(span1_info)[0])
                         record['span1_end'] = i + len(span1_tokens) - 1
                     elif token_idx == span2_start:
                         record['span2_start'] = i
-                        span2_tokens = ast.literal_eval(span2_info)[0].split(' ')
+                        span2_tokens = WordPunctTokenizer().tokenize(ast.literal_eval(span2_info)[0])
                         record['span2_end'] = i + len(span2_tokens) - 1
-                    token_idx += len(tokens[i]) + 1
+
+                    token_idx += len(tokens[i])
+
+                    # TODO: need to handle cases where there are multiple consecutive space/newline characters
+                    if token_idx in space_indices:
+                        token_idx += 1
 
                 # getting the label and span type
                 if direction == 0 or direction == -1:
