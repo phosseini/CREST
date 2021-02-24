@@ -17,6 +17,7 @@ class Converter:
     -------------------------------------------------------------------------------
     label => 0: non-causal, 1: causal
     direction => 0: span1 => span2, 1: span2 => span1, -1: not-specified
+    NOTE: span1 always precedes span2 in context
     -------------------------------------------------------------------------------
     split -> 0: train, 1: dev, test: 2. This is the split/part that a relation belongs to in the original dataset.
     For example, if split value for a relation is 1, it means that in the original dataset, the relation is used in the
@@ -674,6 +675,13 @@ class Converter:
                                             token_idx += len(token_text) + 1
                                     i += 1
                                 # --------------------------
+
+                                # making sure span1 precedes span2 in context
+                                if span2_start < span1_start:
+                                    span1_start, span2_start = span2_start, span1_start
+                                    span1_end, span2_end = span2_end, span1_end
+                                    span1, span2 = span2, span1
+                                    direction = 0 if direction == 1 else 1
 
                                 # storing causal and non-causal info
                                 try:

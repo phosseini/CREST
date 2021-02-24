@@ -5,6 +5,56 @@ from nltk.tokenize import WordPunctTokenizer
 import pandas as pd
 
 
+class DataColumns:
+    """
+    a class for saving/handling different dataframe column names
+    """
+
+    def __init__(self):
+        return
+
+    def get_pdtb3_cols(self):
+        cols = [
+            'RelationType',
+            'ConnSpanList',
+            'ConnSrc',
+            'ConnType',
+            'ConnPol',
+            'ConnDet',
+            'ConnFeatSpanList',
+            'Conn1',
+            'SClass1A',
+            'SClass1B',
+            'Conn2',
+            'SClass2A',
+            'SClass2B',
+            'Sup1SpanList',
+            'Arg1SpanList',
+            'Arg1Src',
+            'Arg1Type',
+            'Arg1Pol',
+            'Arg1Det',
+            'Arg1FeatSpanList',
+            'Arg2SpanList',
+            'Arg2Src',
+            'Arg2Type',
+            'Arg2Pol',
+            'Arg2Det',
+            'Arg2FeatSpanList',
+            'Sup2SpanList',
+            'AdjuReason',
+            'AdjuDisagr',
+            'PBRole',
+            'PBVerb',
+            'Offset',
+            'Provenance',
+            'Link',
+            'FullRawText',
+            'RelationId'
+        ]
+        return cols
+
+
 def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save_json=False):
     """
     converting CREST-formatted data to TACRED (https://nlp.stanford.edu/projects/tacred/)
