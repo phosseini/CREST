@@ -39,7 +39,7 @@ List of data resources already converted to CREST format:
 | 6 | [CaTeRS](https://www.cs.rochester.edu/nlp/rocstories/CaTeRS/) | 2,502 | 308 | 2,194 | Public | 
 | 7 | [BECauSE v2.1](https://github.com/duncanka/BECAUSE) | 729 | 554 | 175 | Partially Public| 
 | 8 | [Choice of Plausible Alternatives (COPA)](https://www.cs.york.ac.uk/semeval-2012/task7/index.php%3Fid=data.html) | 2,000 | 1,000 | 1,000 | Public |
-| 9 | [The Penn Discourse Treebank (PDTB) 3.0](https://catalog.ldc.upenn.edu/LDC2019T05) | 7,754 | 7,754 | - | Not Public |
+| 9 | [The Penn Discourse Treebank (PDTB) 3.0](https://catalog.ldc.upenn.edu/LDC2019T05) | 7,991 | 7,991 | - | Not Public |
 
 ### How you can contribute:
 * Are there any related datasets you don’t see in the list? Let us know or feel free to submit a `Pull Request (PR)`, we actively check the PRs and appreciate it :relaxed:
