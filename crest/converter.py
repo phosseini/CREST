@@ -1235,11 +1235,15 @@ class Converter:
         mismatch = 0
 
         # reading pdtb3 into dataframe
+        self.dir_path = '/Users/phosseini/PycharmProjects/CREST/data/'
         df = pd.read_excel(self.dir_path + 'pdtb3.xlsx')
 
         nlp = spacy.load("en_core_web_sm")
 
-        classes = ['Contingency.Cause.Result', 'Contingency.Cause.Reason']
+        # causal tags in PDTB3
+        classes = ['Contingency.Cause.Result', 'Contingency.Cause.Reason',
+                   'Contingency.Cause+Belief.Reason+Belief', 'Contingency.Cause+Belief.Result+Belief',
+                   'Contingency.Cause+SpeechAct.Reason+SpeechAct', 'Contingency.Cause+SpeechAct.Result+SpeechAct']
 
         data = pd.DataFrame(columns=self.scheme_columns)
 
@@ -1258,16 +1262,10 @@ class Converter:
 
                         # ============================================
                         # specifying the direction
-                        if row['SClass1A'] == 'Contingency.Cause.Result':
-                            if arg1_e < arg2_s:
-                                direction = 0
-                            else:
-                                direction = 1
+                        if 'Result' in row['SClass1A']:
+                            direction = 0 if arg1_e < arg2_s else 1
                         else:
-                            if arg1_e < arg2_s:
-                                direction = 1
-                            else:
-                                direction = 0
+                            direction = 1 if arg1_e < arg2_s else 0
 
                         # ============================================
                         # extracting text spans and context
@@ -1282,32 +1280,38 @@ class Converter:
 
                         df_args = df_args.sort_values('start')
 
-                        doc_segments = []
+                        # updating direction if needed, since we sort the start indexes
+                        if arg1_s != df_args.iloc[0].start:
+                            direction = 0 if direction == 1 else 1
+
+                        sents = []
                         for sen in list(nlp(full_text).sents):
-                            doc_segments.append([sen.text_with_ws, sen.start_char])
+                            sents.append([sen.text_with_ws, sen.start_char])
+
+                        assert ''.join([t[0] for t in sents]) == full_text
 
                         context = ""
                         token_idx = 0
+                        start_sent_idx = df_args.iloc[0]["start"]
+                        end_sent_idx = df_args.iloc[1]["end"]
 
-                        global_start = df_args.iloc[0]["start"]
-                        global_end = df_args.iloc[1]["end"]
-
-                        # building context
+                        # cutting unnecessary sentences from context which also
                         i = 0
-                        while i < len(doc_segments):
-                            segment_idx = doc_segments[i][1]
-                            if segment_idx <= global_start and (i + 1 == len(doc_segments) or (
-                                    i + 1 < len(doc_segments) and global_start < doc_segments[i + 1][1])):
-                                token_idx = copy.deepcopy(segment_idx)
-                                while (i + 1 == len(doc_segments)) or (
-                                        i + 1 < len(doc_segments) and global_end > doc_segments[i][1]):
-                                    context += doc_segments[i][0]
+                        while i < len(sents):
+                            start_idx = sents[i][1]
+                            if start_idx <= start_sent_idx and (i == len(sents) - 1 or (
+                                    i < len(sents) - 1 and start_sent_idx < sents[i + 1][1])):
+                                token_idx = copy.deepcopy(start_idx)
+                                while (i == len(sents) - 1) or (
+                                        i < len(sents) - 1 and sents[i][1] < end_sent_idx):
+                                    context += sents[i][0]
                                     i += 1
                                 break
                             i += 1
 
+                        assert context in full_text
                         # ===========================================
-                        # saving relations information
+                        # saving relations information based on new context indexes
                         idx_val = {
                             "span1": [[df_args.iloc[0]['start'] - token_idx, df_args.iloc[0]['end'] - token_idx]],
                             "span2": [[df_args.iloc[1]['start'] - token_idx, df_args.iloc[1]['end'] - token_idx]],
@@ -1317,7 +1321,7 @@ class Converter:
                                    "span1": [df_args.iloc[0]['text']],
                                    "span2": [df_args.iloc[1]['text']],
                                    "signal": [],
-                                   "context": context.strip('\n'),
+                                   "context": context,
                                    "idx": idx_val, "label": 1, "direction": direction,
                                    "source": self.namexid["pdtb3"],
                                    "ann_file": "",
@@ -1330,7 +1334,7 @@ class Converter:
                 except Exception as e:
                     print("[crest-log] PDTB3. Detail: {}".format(e))
 
-        logging.info("[crest] PDTB3 is converted.")
+        # logging.info("[crest] PDTB3 is converted.")
 
         return data, mismatch
 
@@ -1340,7 +1344,7 @@ class Converter:
         return result.group(1)
 
     @staticmethod
-    def _check_span_indexes(row):
+    def _check_span_indexes(row, print_mismatch=False):
         """
         checking if spans/signal indexes are correctly stored
         :param row:
@@ -1362,19 +1366,26 @@ class Converter:
 
             FLAGS = {'s1': False, 's2': False, 'sig': False, 'context': False}
             if span1.strip() != (" ".join(row["span1"])).strip():
-                print("span1: [{}]\n[{}]".format(span1, (" ".join(row["span1"])).strip()))
+                if print_mismatch:
+                    print("span1: [{}]\n[{}]".format(span1, (" ".join(row["span1"])).strip()))
                 FLAGS["s1"] = True
             if span2.strip() != (" ".join(row["span2"])).strip():
-                print("span2: [{}]\n[{}]".format(span2, (" ".join(row["span2"])).strip()))
+                if print_mismatch:
+                    print("span2: [{}]\n[{}]".format(span2, (" ".join(row["span2"])).strip()))
                 FLAGS["s2"] = True
             if signal.strip() != (" ".join(row["signal"])).strip():
-                print("signal: [{}]\n[{}]".format(signal, (" ".join(row["signal"])).strip()))
+                if print_mismatch:
+                    print("signal: [{}]\n[{}]".format(signal, (" ".join(row["signal"])).strip()))
                 FLAGS["sig"] = True
             if str(row["context"]) == "nan":
                 FLAGS["context"] = True
             if any(a for a in FLAGS.values()):
-                print("context: [{}] \n========".format(row["context"]))
+                if print_mismatch:
+                    print("context: [{}] \n========".format(row["context"]))
                 return False
         except Exception:
             return False
         return True
+
+
+Converter().convert_pdtb3()
