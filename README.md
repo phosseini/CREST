@@ -47,3 +47,13 @@ List of data resources already converted to CREST format:
 
 ### How to cite CREST if you found it useful?
 For now, you can cite this GitHub repository.
+```bibtex
+@misc{CREST
+  author = {Pedram Hosseini},
+  title = {CREST},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/phosseini/CREST}}
+}
+```
