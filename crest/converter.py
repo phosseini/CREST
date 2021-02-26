@@ -1235,7 +1235,6 @@ class Converter:
         mismatch = 0
 
         # reading pdtb3 into dataframe
-        self.dir_path = '/Users/phosseini/PycharmProjects/CREST/data/'
         df = pd.read_excel(self.dir_path + 'pdtb3.xlsx')
 
         nlp = spacy.load("en_core_web_sm")
@@ -1386,6 +1385,3 @@ class Converter:
         except Exception:
             return False
         return True
-
-
-Converter().convert_pdtb3()
