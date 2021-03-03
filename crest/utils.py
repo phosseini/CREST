@@ -300,26 +300,28 @@ def min_avg_max(df):
         print("first parameter should be a pandas data frame")
         raise TypeError
 
-    len_max = 0
-    len_min = 1000000000  # good for now, but maybe replace it with sys.maxsize later
+    max_dict = {'len_max': 0, 'original_id': -1}
+    min_dict = {'len_min': 1000000000, 'original_id': -1}  # good for now, but maybe replace it with sys.maxsize later
     context_max = ""
     context_min = ""
     len_total = 0
     for index, row in df.iterrows():
         len_total += len(row.context.split(' '))
-        if len(str(row.context).split(' ')) > len_max:
-            len_max = len(str(row.context).split(' '))
+        if len(str(row.context).split(' ')) > max_dict['len_max']:
+            max_dict['len_max'] = len(str(row.context).split(' '))
+            max_dict['original_id'] = row.original_id
             context_max = str(row.context)
-        if len(str(row.context).split(' ')) < len_min:
-            len_min = len(str(row.context).split(' '))
+        if len(str(row.context).split(' ')) < min_dict['len_min']:
+            min_dict['len_min'] = len(str(row.context).split(' '))
+            min_dict['original_id'] = row.original_id
             context_min = str(row.context)
 
     print("Avg. length: {}".format(len_total / len(df)))
     print("+++++++++++++++")
-    print("min length: {}".format(str(len_min)))
+    print("min length/id: {}".format(str(min_dict)))
     print("min context: {}".format(context_min))
     print("+++++++++++++++")
-    print("max length: {}".format(str(len_max)))
+    print("max length/id: {}".format(str(max_dict)))
     print("max context: {}".format(context_max))
 
 
