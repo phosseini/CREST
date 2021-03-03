@@ -70,6 +70,14 @@ class Converter:
                 df, mis = value()
                 data = data.append(df).reset_index(drop=True)
                 total_mis += mis
+
+        # adding global_id to data
+        ids = []
+        for i in range(len(data)):
+            ids.append(i + 1)
+        df_col = pd.DataFrame({'global_id': ids})
+        data = pd.concat([df_col, data], axis=1)
+
         if save_file:
             data.to_excel(self.dir_path + "crest.xlsx")
 
@@ -1309,18 +1317,27 @@ class Converter:
                             i += 1
 
                         assert context in full_text
+
+                        # removing leading spaces
+                        len_context_pre = len(context)
+                        context = context.lstrip()
+                        len_context_post = len(context)
+                        diff = len_context_pre - len_context_post
+
                         # ===========================================
                         # saving relations information based on new context indexes
                         idx_val = {
-                            "span1": [[df_args.iloc[0]['start'] - token_idx, df_args.iloc[0]['end'] - token_idx]],
-                            "span2": [[df_args.iloc[1]['start'] - token_idx, df_args.iloc[1]['end'] - token_idx]],
+                            "span1": [[df_args.iloc[0]['start'] - token_idx - diff,
+                                       df_args.iloc[0]['end'] - token_idx - diff]],
+                            "span2": [[df_args.iloc[1]['start'] - token_idx - diff,
+                                       df_args.iloc[1]['end'] - token_idx - diff]],
                             "signal": []}
 
                         new_row = {"original_id": int(row['RelationId']),
                                    "span1": [df_args.iloc[0]['text']],
                                    "span2": [df_args.iloc[1]['text']],
                                    "signal": [],
-                                   "context": context,
+                                   "context": context.strip(),
                                    "idx": idx_val, "label": 1, "direction": direction,
                                    "source": self.namexid["pdtb3"],
                                    "ann_file": "",
