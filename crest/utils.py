@@ -1,6 +1,8 @@
 import os
 import ast
 import json
+import copy
+import spacy
 from nltk.tokenize import WordPunctTokenizer
 import pandas as pd
 
@@ -66,6 +68,8 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
     :param source: source of the data, a list of integer numbers
     :return: list of dictionaries
     """
+    nlp = spacy.load("en_core_web_sm")
+
     if not type(df) == pd.core.frame.DataFrame:
         print("first parameter should be a pandas data frame")
         raise TypeError
@@ -81,6 +85,8 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
                 record = {}
                 span1_start = idx['span1'][0][0]
                 span2_start = idx['span2'][0][0]
+                span1_end = idx['span1'][0][1]
+                span2_end = idx['span2'][0][1]
 
                 span1_info = str(row['span1'])
                 span2_info = str(row['span2'])
@@ -88,37 +94,40 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
                 if no_order:
                     if span2_start < span1_start:
                         span1_start, span2_start = span2_start, span1_start
+                        span1_end, span2_end = span2_end, span1_end
                         span1_info, span2_info = span2_info, span1_info
 
                 label = int(row['label'])
                 direction = int(row['direction'])
 
-                space_indices = []
-                special_chars = [' ', '\n', '\r', '\t']
-                for i in range(len(row['context'])):
-                    if row['context'][i] in special_chars:
-                        space_indices.append(i)
-
-                tokens = WordPunctTokenizer().tokenize(row['context'])
-
                 # creating list of tokens in context and finding spans' start and end indices
                 token_idx = 0
+                doc = nlp(row['context'])
+                tokens = [token.text_with_ws for token in doc]
 
                 for i in range(len(tokens)):
                     if token_idx == span1_start:
                         record['span1_start'] = i
-                        span1_tokens = WordPunctTokenizer().tokenize(ast.literal_eval(span1_info)[0])
-                        record['span1_end'] = i + len(span1_tokens)
+                        span1_tokens = []
+                        j = copy.deepcopy(i)
+                        t_index = copy.deepcopy(token_idx)
+                        while t_index < span1_end:
+                            span1_tokens.append(tokens[j])
+                            t_index += len(tokens[j])
+                            j += 1
+                        record['span1_end'] = j
                     elif token_idx == span2_start:
                         record['span2_start'] = i
-                        span2_tokens = WordPunctTokenizer().tokenize(ast.literal_eval(span2_info)[0])
-                        record['span2_end'] = i + len(span2_tokens)
+                        span2_tokens = []
+                        j = copy.deepcopy(i)
+                        t_index = copy.deepcopy(token_idx)
+                        while t_index < span2_end:
+                            span2_tokens.append(tokens[j])
+                            t_index += len(tokens[j])
+                            j += 1
+                        record['span2_end'] = j
 
                     token_idx += len(tokens[i])
-
-                    # TODO: need to handle cases where there are multiple consecutive space/newline characters
-                    if token_idx in space_indices:
-                        token_idx += 1
 
                 # getting the label and span type
                 if direction == 0 or direction == -1:
@@ -134,13 +143,13 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
                 record['token'] = tokens
                 record['relation'] = label
                 features = ['id', 'token', 'span1_start', 'span1_end', 'span2_start', 'span2_end', 'relation']
+
                 # check if record has all the required fields
                 if all(feature in record for feature in features) and (
                         len(split) == 0 or int(row['split']) in split) and (
-                        len(source) == 0 or int(row['source']) in source) and record['span1_end'] < len(tokens) and \
-                        record['span2_end'] < len(tokens) and ' '.join(
-                    tokens[record['span1_start']:record['span1_end']]) == ' '.join(span1_tokens) \
-                        and ' '.join(tokens[record['span2_start']:record['span2_end']]) == ' '.join(span2_tokens):
+                        len(source) == 0 or int(row['source']) in source) and ''.join(
+                    tokens[record['span1_start']:record['span1_end']]) == ''.join(span1_tokens) and ''.join(
+                    tokens[record['span2_start']:record['span2_end']]) == ''.join(span2_tokens):
                     records.append(record)
                     records_df.append(row)
                 else:
@@ -358,26 +367,26 @@ def balance_direction(df, labels=[0, 1]):
     return df.sample(frac=1, random_state=42)
 
 
-def balance_split(df, bin_labels=[0, 1], balance_dir=False, dir_first=False):
+def balance_split(df, classes=[0, 1], balance_dir=False, dir_first=False):
     """
     creating a balanced dataframe of positive and negative samples
     :param df:
     :param balance_dir: if True, also balance the direction
     :param dir_first: if True, balance the direction first
-    :param bin_labels: list of two binary labels
+    :param classes: list of two binary labels
     :return:
     """
 
     if dir_first:
         df = balance_direction(df)
 
-    n_pos = len(df[df['label'] == bin_labels[1]])
-    n_neg = len(df[df['label'] == bin_labels[0]])
+    n_pos = len(df[df['label'] == classes[1]])
+    n_neg = len(df[df['label'] == classes[0]])
 
     _n = min([n_pos, n_neg])
 
-    df_pos = df.loc[df['label'] == bin_labels[1]].sample(n=_n, random_state=42)
-    df_neg = df.loc[df['label'] == bin_labels[0]].sample(n=_n, random_state=42)
+    df_pos = df.loc[df['label'] == classes[1]].sample(n=_n, random_state=42)
+    df_neg = df.loc[df['label'] == classes[0]].sample(n=_n, random_state=42)
 
     if balance_dir:
         df = pd.concat([balance_direction(df_pos), balance_direction(df_neg)])
@@ -388,6 +397,51 @@ def balance_split(df, bin_labels=[0, 1], balance_dir=False, dir_first=False):
     df = df.sample(frac=1, random_state=42)
 
     return df
+
+
+def create_binary_splits(df, frac_val, classes=[0, 1], resolve_overlap=True):
+    """
+    creating two splits of a data frame (train/test or train/dev)
+    :param df:
+    :param frac_val:
+    :param classes:
+    :param resolve_overlap:
+    :return:
+    """
+    # getting number of samples in each class
+    n_neg = len(df[df['label'] == classes[0]])
+    n_pos = len(df[df['label'] == classes[1]])
+
+    print("# of samples: positive: {}, negative: {}".format(n_pos, n_neg))
+
+    args = {'frac_val': frac_val, 'n_neg': n_neg, 'n_pos': n_pos}
+
+    # creating splits
+    df_neg = df.loc[df['label'] == classes[0]].sample(n=args['n_neg'], random_state=42)
+    neg_train = df_neg.apply(lambda x: x.sample(frac=args['frac_val'], random_state=42))
+    neg_test = df_neg.drop(neg_train.index)
+
+    df_pos = df.loc[df['label'] == classes[1]].sample(n=args['n_pos'], random_state=42)
+    pos_train = df_pos.apply(lambda x: x.sample(frac=args['frac_val'], random_state=42))
+    pos_test = df_pos.drop(pos_train.index)
+
+    # concatenating classes' samples
+    train_df = pd.concat([neg_train, pos_train])
+    test_df = pd.concat([neg_test, pos_test])
+
+    # shuffling samples
+    train_df = train_df.sample(frac=1, random_state=42)
+    test_df = test_df.sample(frac=1, random_state=42)
+
+    # removing the overlaps
+    if resolve_overlap:
+        train_df = resolve_context_overlap(train_df, test_df, mode=2)
+
+    # making each split balanced, if needed
+    # train_df = balance_split(train_df)
+    # test_df = balance_split(test_df)
+
+    return train_df, test_df
 
 
 def resolve_context_overlap(df1, df2, mode=2):
