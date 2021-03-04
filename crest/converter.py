@@ -1333,9 +1333,16 @@ class Converter:
                                        df_args.iloc[1]['end'] - token_idx - diff]],
                             "signal": []}
 
+                        s1_text, s1_s, s1_e = self._normalize_span(df_args.iloc[0]['text'], idx_val['span1'][0][0],
+                                                                   idx_val['span1'][0][1])
+                        s2_text, s2_s, s2_e = self._normalize_span(df_args.iloc[1]['text'], idx_val['span2'][0][0],
+                                                                   idx_val['span2'][0][1])
+                        idx_val['span1'] = [[s1_s, s1_e]]
+                        idx_val['span2'] = [[s2_s, s2_e]]
+
                         new_row = {"original_id": int(row['RelationId']),
-                                   "span1": [df_args.iloc[0]['text']],
-                                   "span2": [df_args.iloc[1]['text']],
+                                   "span1": [s1_text],
+                                   "span2": [s2_text],
                                    "signal": [],
                                    "context": context.strip(),
                                    "idx": idx_val, "label": 1, "direction": direction,
@@ -1402,3 +1409,17 @@ class Converter:
         except Exception:
             return False
         return True
+
+    @staticmethod
+    def _normalize_span(text, start, end):
+        len_1 = len(text)
+        text = text.lstrip()
+        len_2 = len(text)
+        start = start + (len_1 - len_2)
+
+        len_1 = len(text)
+        text = text.rstrip()
+        len_2 = len(text)
+        end = end - (len_1 - len_2)
+
+        return text, start, end
