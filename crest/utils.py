@@ -68,6 +68,15 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
     :param source: source of the data, a list of integer numbers
     :return: list of dictionaries
     """
+
+    def get_token_indices(i_idx, t_idx, span_end_idx, all_tokens):
+        span_tokens = []
+        while t_idx < span_end_idx:
+            span_tokens.append(all_tokens[i_idx])
+            t_idx += len(all_tokens[i_idx])
+            i_idx += 1
+        return span_tokens, i_idx
+
     nlp = spacy.load("en_core_web_sm")
 
     if not type(df) == pd.core.frame.DataFrame:
@@ -75,7 +84,8 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
         raise TypeError
 
     records = []
-    excluded = []
+    excluded_rows = []
+    excluded_records = []
     records_df = []
     for index, row in df.iterrows():
         try:
@@ -84,18 +94,15 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
             if len(idx['span1']) == 1 and len(idx['span2']) == 1:
                 record = {}
                 span1_start = idx['span1'][0][0]
-                span2_start = idx['span2'][0][0]
                 span1_end = idx['span1'][0][1]
-                span2_end = idx['span2'][0][1]
 
-                span1_info = str(row['span1'])
-                span2_info = str(row['span2'])
+                span2_start = idx['span2'][0][0]
+                span2_end = idx['span2'][0][1]
 
                 if no_order:
                     if span2_start < span1_start:
                         span1_start, span2_start = span2_start, span1_start
                         span1_end, span2_end = span2_end, span1_end
-                        span1_info, span2_info = span2_info, span1_info
 
                 label = int(row['label'])
                 direction = int(row['direction'])
@@ -108,24 +115,10 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
                 for i in range(len(tokens)):
                     if token_idx == span1_start:
                         record['span1_start'] = i
-                        span1_tokens = []
-                        j = copy.deepcopy(i)
-                        t_index = copy.deepcopy(token_idx)
-                        while t_index < span1_end:
-                            span1_tokens.append(tokens[j])
-                            t_index += len(tokens[j])
-                            j += 1
-                        record['span1_end'] = j
+                        span1_tokens, record['span1_end'] = get_token_indices(i, token_idx, span1_end, tokens)
                     elif token_idx == span2_start:
                         record['span2_start'] = i
-                        span2_tokens = []
-                        j = copy.deepcopy(i)
-                        t_index = copy.deepcopy(token_idx)
-                        while t_index < span2_end:
-                            span2_tokens.append(tokens[j])
-                            t_index += len(tokens[j])
-                            j += 1
-                        record['span2_end'] = j
+                        span2_tokens, record['span2_end'] = get_token_indices(i, token_idx, span2_end, tokens)
 
                     token_idx += len(tokens[i])
 
@@ -147,15 +140,16 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
                 # check if record has all the required fields
                 if all(feature in record for feature in features) and (
                         len(split) == 0 or int(row['split']) in split) and (
-                        len(source) == 0 or int(row['source']) in source) and ''.join(
+                        len(source) == 0 or int(row['source']) in source) and record['span1_end'] <= record[
+                    'span2_start'] and record['span2_end'] < len(tokens) and ''.join(
                     tokens[record['span1_start']:record['span1_end']]) == ''.join(span1_tokens) and ''.join(
                     tokens[record['span2_start']:record['span2_end']]) == ''.join(span2_tokens):
                     records.append(record)
                     records_df.append(row)
                 else:
-                    excluded.append(row)
+                    excluded_records.append([record, row])
             else:
-                excluded.append(row)
+                excluded_rows.append(row)
         except Exception as e:
             print("error in converting the record. global id: {}. detail: {}".format(row['global_id'], str(e)))
             pass
@@ -165,7 +159,7 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
         with open(str(output_file_name), 'w') as fout:
             json.dump(records, fout)
 
-    return records, records_df, excluded
+    return records, records_df, excluded_records, excluded_rows
 
 
 def brat2crest():
