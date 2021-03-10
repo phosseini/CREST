@@ -1302,6 +1302,12 @@ class Converter:
                         start_sent_idx = df_args.iloc[0]["start"]
                         end_sent_idx = df_args.iloc[1]["end"]
 
+                        # adding more context by considering 1 extra sentence before and after
+                        if start_sent_idx >= 1:
+                            start_sent_idx -= 1
+                        if end_sent_idx < len(sents) - 1:
+                            end_sent_idx += 1
+
                         # cutting unnecessary sentences from context which also
                         i = 0
                         while i < len(sents):
@@ -1415,11 +1421,11 @@ class Converter:
         len_1 = len(text)
         text = text.lstrip()
         len_2 = len(text)
-        start = start + (len_1 - len_2)
+        start = start + abs(len_1 - len_2)
 
         len_1 = len(text)
         text = text.rstrip()
         len_2 = len(text)
-        end = end - (len_1 - len_2)
+        end = end - abs(len_1 - len_2)
 
         return text, start, end
