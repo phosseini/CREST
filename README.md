@@ -45,7 +45,7 @@ List of data resources already converted to CREST format:
 * Are there any related datasets you don’t see in the list? Let us know or feel free to submit a `Pull Request (PR)`, we actively check the PRs and appreciate it :relaxed:
 * Is there a well-known or widely-used machine-readable format you think can be added? We can add the helper methods for conversion or we appreciate PRs.
 
-### How to cite CREST if you found it useful?
+### How to cite CREST?
 For now, please cite our [arXiv paper](https://arxiv.org/abs/2103.13606):
 ```bibtex
 @article{hosseini2021predicting,
