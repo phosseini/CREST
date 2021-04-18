@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 class Converter:
     """
     idx = {'span1': [], 'span2': [], 'signal': []} -> indexes of span1, span2, and signal tokens/spans in context
-    each value in the idx dictionary is a list of lists of indexes. For example, if span1 has multi tokens in context
+    each value in the idx dictionary is a list of lists of indexes. For example, if span1 has multiple tokens in context
     with start:end indexes 2:5 and 10:13, respectively, span1's value in 'idx' will be [[2, 5],[10, 13]]. Lists are
     sorted based on the start indexes of tokens. Same applies for span2 and signal.
     -------------------------------------------------------------------------------
@@ -43,6 +43,7 @@ class Converter:
                         "because": 7,
                         "copa": 8,
                         "pdtb3": 9,
+                        "biocause": 10
                         }
 
         self.idxmethod = {self.namexid["semeval_2007_4"]: self.convert_semeval_2007_4,
@@ -53,8 +54,19 @@ class Converter:
                           self.namexid["caters"]: self.convert_caters,
                           self.namexid["because"]: self.convert_because,
                           self.namexid["copa"]: self.convert_copa,
-                          self.namexid["pdtb3"]: self.convert_pdtb3
+                          self.namexid["pdtb3"]: self.convert_pdtb3,
+                          self.namexid["biocause"]: self.convert_biocause
                           }
+
+        # causal tags in PDTB3
+        self.pdtb3_causal_classes = ['Contingency.Cause.Result', 'Contingency.Cause.Reason',
+                                     'Contingency.Cause+Belief.Reason+Belief', 'Contingency.Cause+Belief.Result+Belief',
+                                     'Contingency.Cause+SpeechAct.Reason+SpeechAct',
+                                     'Contingency.Cause+SpeechAct.Result+SpeechAct']
+
+        # temporal tags in PDTB3
+        self.pdtb3_temporal_classes = ['Temporal.Asynchronous.Precedence', 'Temporal.Asynchronous.Succession',
+                                       'Temporal.Synchronous']
 
     def convert2crest(self, dataset_ids=[], save_file=False):
         """
@@ -937,7 +949,7 @@ class Converter:
                                 tags[line_cols[0]] = [line_cols[1], line_cols[2].replace('\n', '')]
 
                             # reading the corresponding text file for the .ann file
-                            with open(docs_path + "/" + doc.strip(".ann") + ".txt", 'r') as f:
+                            with open(docs_path + "/" + doc[:-4] + ".txt", 'r') as f:
                                 doc_lines = f.read()
 
                             separator = "***"
@@ -1033,7 +1045,7 @@ class Converter:
                                 tags[line_cols[0]][1] = line_cols[2].strip()
 
                     # reading the corresponding text file for the .ann file
-                    with open(docs_path + "/" + doc.strip(".ann") + ".txt", 'r') as f:
+                    with open(docs_path + "/" + doc[:-4] + ".txt", 'r') as f:
                         doc_string = f.read()
 
                     # now, reading causal relations info
@@ -1239,7 +1251,7 @@ class Converter:
 
         return data, mismatch
 
-    def convert_pdtb3(self):
+    def convert_pdtb3(self, tag_class='causal'):
         mismatch = 0
 
         # reading pdtb3 into dataframe
@@ -1247,17 +1259,18 @@ class Converter:
 
         nlp = spacy.load("en_core_web_sm")
 
-        # causal tags in PDTB3
-        classes = ['Contingency.Cause.Result', 'Contingency.Cause.Reason',
-                   'Contingency.Cause+Belief.Reason+Belief', 'Contingency.Cause+Belief.Result+Belief',
-                   'Contingency.Cause+SpeechAct.Reason+SpeechAct', 'Contingency.Cause+SpeechAct.Result+SpeechAct']
-
         data = pd.DataFrame(columns=self.scheme_columns)
+
+        if tag_class == 'causal':
+            relation_tags = self.pdtb3_causal_classes
+        elif tag_class == 'temporal':
+            relation_tags = self.pdtb3_temporal_classes
 
         for idx, row in df.iterrows():
             if isinstance(row['SClass1A'], str):
                 try:
-                    if row['SClass1A'] in classes and ';' not in row['Arg1SpanList'] and ';' not in row['Arg2SpanList']:
+                    if row['SClass1A'] in relation_tags and ';' not in row['Arg1SpanList'] and ';' not in row[
+                        'Arg2SpanList']:
                         arg1 = row['Arg1SpanList'].split('..')
                         arg2 = row['Arg2SpanList'].split('..')
                         arg1_s, arg1_e = int(arg1[0]), int(arg1[1])
@@ -1364,6 +1377,118 @@ class Converter:
                     print("[crest-log] PDTB3. Detail: {}".format(e))
 
         # logging.info("[crest] PDTB3 is converted.")
+
+        return data, mismatch
+
+    def convert_biocause(self):
+        folders_path = self.dir_path + "biocause/"
+
+        global mismatch
+        mismatch = 0
+
+        def _get_context_spans(tags, doc_context, rel_direction, arg1_id, arg2_id):
+            df_columns = ['start', 'end', 'tag', 'text']
+
+            df = pd.DataFrame(columns=df_columns)
+
+            spans_tokens = {"span1": tags[arg1_id][0].split(' ')[1:],
+                            "span2": tags[arg2_id][0].split(' ')[1:]}
+
+            spans_text = {"span1": tags[arg1_id][1], "span2": tags[arg2_id][1]}
+
+            for k, v in spans_tokens.items():
+                df = df.append(pd.DataFrame(
+                    [[int(v[0]), int(v[1]), k, spans_text[k]]],
+                    columns=df_columns
+                ), ignore_index=True)
+
+            span_idx = df.iloc[0]['start']
+
+            df = df.sort_values(by=['start'])
+
+            # checking if the spans order is changed. If yes, change the direction accordingly
+            if span_idx != df.iloc[0]['start']:
+                rel_direction = 1 if rel_direction == 0 else 0
+                spans_text['span1'], spans_text['span2'] = spans_text['span2'], spans_text['span1']
+
+            span1_text = doc_context[df.iloc[0]['start']:df.iloc[0]['end']]
+            span2_text = doc_context[df.iloc[1]['start']:df.iloc[1]['end']]
+
+            assert span1_text == spans_text['span1']
+            assert span2_text == spans_text['span2']
+
+            return [[span1_text], [[df.iloc[0]['start'], df.iloc[0]['end']]]], [[span2_text], [
+                [df.iloc[1]['start'], df.iloc[1]['end']]]], rel_direction
+
+        def extract_samples(folders, split):
+            samples = pd.DataFrame(columns=self.scheme_columns)
+            for folder in folders:
+                docs_path = folders_path + "/" + folder
+                docs = os.listdir(docs_path)
+                for doc in docs:
+                    tags = {}
+                    if ".ann" in doc:
+                        with open(docs_path + "/" + doc, 'r') as f:
+                            lines = f.readlines()
+
+                            # reading all tags information
+                            for line in lines:
+                                line_cols = line.split('\t')
+                                if line_cols[0].startswith('E'):
+                                    tags[line_cols[0]] = [tag.replace('\n', '') for tag in line_cols[1].split(' ')]
+                                elif line_cols[0].startswith('T'):
+                                    tags[line_cols[0]] = [tag.replace('\n', '') for tag in line_cols[1:]]
+
+                            # reading the corresponding text file for the .ann file
+                            with open(docs_path + "/" + doc[:-4] + ".txt", 'r') as f:
+                                context = f.read()
+
+                            # iterate through causal tags
+                            for key, value in tags.items():
+                                try:
+                                    if value[0].startswith("Causality:") and len(value) == 3:
+                                        arg_signal = tags[value[0].split(':')[1]]
+                                        arg1 = value[1].split(':')
+                                        arg2 = value[2].split(':')
+
+                                        # initialize direction value
+                                        direction = 0 if arg1[0] in ['Cause', 'Evidence'] else 1
+
+                                        span1, span2, direction = _get_context_spans(tags, context, direction, arg1[1],
+                                                                                     arg2[1])
+
+                                        idx_val = {"span1": span1[1],
+                                                   "span2": span2[1],
+                                                   "signal": [
+                                                       [int(arg_signal[0].split(' ')[1]),
+                                                        int(arg_signal[0].split(' ')[2])]]}
+
+                                        signal_text = arg_signal[1] if len(arg_signal) == 2 else context[
+                                                                                                 idx_val['signal'][0][
+                                                                                                     0]:
+                                                                                                 idx_val['signal'][0][
+                                                                                                     1]]
+                                        new_row = {"original_id": '', "span1": span1[0], "span2": span2[0],
+                                                   "signal": [signal_text],
+                                                   "context": context.strip('\n'),
+                                                   "idx": idx_val, "label": 1, "direction": direction,
+                                                   "source": self.namexid["biocause"],
+                                                   "ann_file": doc,
+                                                   "split": split}
+
+                                        if self._check_span_indexes(new_row):
+                                            samples = samples.append(new_row, ignore_index=True)
+                                        else:
+                                            mismatch += 1
+
+                                except Exception as e:
+                                    print("[crest-log] Error in converting BioCause. Detail: {}".format(e))
+            return samples
+
+        data = pd.DataFrame(columns=self.scheme_columns)
+        data = data.append(extract_samples(["BioCause_corpus"], 0))
+
+        logging.info("[biocause] caters is converted.")
 
         return data, mismatch
 
