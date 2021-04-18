@@ -45,15 +45,13 @@ List of data resources already converted to CREST format:
 * Are there any related datasets you don’t see in the list? Let us know or feel free to submit a `Pull Request (PR)`, we actively check the PRs and appreciate it :relaxed:
 * Is there a well-known or widely-used machine-readable format you think can be added? We can add the helper methods for conversion or we appreciate PRs.
 
-### How to cite CREST if you found it useful?
-For now, you can cite this GitHub repository.
+### How to cite CREST?
+For now, please cite our [arXiv paper](https://arxiv.org/abs/2103.13606):
 ```bibtex
-@misc{CREST
-  author = {Pedram Hosseini},
-  title = {CREST},
-  year = {2021},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/phosseini/CREST}}
+@article{hosseini2021predicting,
+  title={Predicting Directionality in Causal Relations in Text},
+  author={Hosseini, Pedram and Broniatowski, David A and Diab, Mona},
+  journal={arXiv preprint arXiv:2103.13606},
+  year={2021}
 }
 ```
