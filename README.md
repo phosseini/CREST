@@ -9,11 +9,11 @@ Each relation in a CREST-formatted DataFrame has the following fields/values:
 * **`span2`**: a list of strings of the second span/argument of the relation
 * **`signal`**: a list of strings of signals/markers of the relation in context, if any.
 * **`context`**: a text string of the context in which the relation appears.
-* **`idx`**: a dictionary in form of `{'span1': [], 'span2': [], 'signal': []}` to store indexes of span1, span2, and signal in context. Each value in the idx dictionary is a list of lists of start and end indexes of spans and the signal. For example, if span1 has multi tokens in context with `start:end` indexes 2:5 and 10:13, respectively, span1's value in `idx` will be `[[2, 5], [10, 13]]`. Lists are sorted based on the start indexes of tokens.
+* **`idx`**: a dictionary in the form of `{'span1': [], 'span2': [], 'signal': []}` to store indexes of span1, span2, and signal in context. Each value in the idx dictionary is a list of lists of start and end indexes of spans and the signal. For example, if span1 has multi tokens in context with `start:end` indexes 2:5 and 10:13, respectively, span1's value in `idx` will be `[[2, 5], [10, 13]]`. Lists are sorted based on the start indexes of tokens.
 * **`label`**: label of the relation, `0: non-causal`, `1: causal`
 * **`direction`**: direction between span1 and span2. `0: span1 => span2`, `1: span1 <= span2`, `-1: not-specified`
 * **`source`**: id of the source dataset (`ids` are listed in a table below)
-* **`split`**: `0: train`, `1: dev`, `test: 2`. This is the split to which the relation belongs in the original dataset. If there no split specified for a relation in the original dataset, we assign the relation to the `train` split by default.
+* **`split`**: `0: train`, `1: dev`, `test: 2`. This is the split to which the relation belongs in the original dataset. If there is no split specified for a relation in the original dataset, we assign the relation to the `train` split by default.
 
 **Note:** The reason we save a list of strings instead of a single string for span1, span2, and signal is that these text spans may contain multiple non-consecutive sub-spans in context.
 
