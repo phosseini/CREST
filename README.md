@@ -34,7 +34,7 @@ List of data resources already converted to CREST format:
 | 1 | [SemEval 2007 task 4](https://www.aclweb.org/anthology/S07-1003/) | 1,529 | 114 | 1,415 | Public |
 | 2 | [SemEval 2010 task 8](https://www.aclweb.org/anthology/S10-1006/) | 10,717 | 1,331 | 9,386 | Public | 
 | 3 | [EventCausality](https://cogcomp.seas.upenn.edu/page/resource_view/27) | 485 | 485 | - | Public |
-| 4 | [Causal-TimeBank](https://hlt-nlp.fbk.eu/technologies/causal-timebank) | 318 | 318 | - | Not Public | 
+| 4 | [Causal-TimeBank](https://hlt-nlp.fbk.eu/technologies/causal-timebank) | 318 | 318 | - | Public | 
 | 5 | [EventStoryLine v1.5](https://github.com/tommasoc80/EventStoryLine) | 2,608 | 2,608 | - | Public | 
 | 6 | [CaTeRS](https://www.cs.rochester.edu/nlp/rocstories/CaTeRS/) | 2,502 | 308 | 2,194 | Public | 
 | 7 | [BECauSE v2.1](https://github.com/duncanka/BECAUSE) | 729 | 554 | 175 | Partially Public| 
