@@ -5,6 +5,7 @@ import copy
 import spacy
 from nltk.tokenize import WordPunctTokenizer
 import pandas as pd
+import xml.etree.ElementTree as ET
 
 
 class DataColumns:
@@ -255,7 +256,7 @@ def crest2brat(df, output_dir):
         ann_file = ann_file.strip('\n')
 
         # writing .ann and .txt files
-        file_name = "{}_{}_{}_{}".format(str(row['source']), str(label), str(direction), str(row['global_id']))
+        file_name = "{}_{}_{}_{}".format(str(row['source']), str(label), str(direction), str(row['original_id']))
         # if str(row['ann_file']) != "":
         #    file_name += '_' + str(row['ann_file']).replace('.ann', '').replace('.', '')
         with open('{}/{}.ann'.format(output_dir, file_name), 'w') as file:
@@ -463,3 +464,37 @@ def resolve_context_overlap(df1, df2, mode=2):
             if not any(curr_context in x for x in df2_context):
                 new_df1 = new_df1.append(row)
     return new_df1
+
+
+def copa2bert(folder_path, split='dev'):
+    """
+    converting Choice of Plausible Alternatives (COPA) to BERT's next sentence prediction format
+    :param folder_path: path to the COPA folder that contains all .xml files
+    :param split: one of the following values: ['dev', 'test']
+    :return:
+    """
+
+    data = []
+
+    try:
+        parser = ET.XMLParser(encoding="utf-8")
+        tree = ET.parse(folder_path + "copa-{}.xml".format(split), parser=parser)
+        root = tree.getroot()
+
+        for item in root.findall("./item"):
+            spans = {0: item[0].text, 1: item[1].text, 2: item[2].text}
+
+            span1 = spans[0]
+            span2 = spans[int(item.attrib["most-plausible-alternative"])]
+
+            if item.attrib["asks-for"] == "cause":
+                sample = '[CLS] {} [SEP] {} [SEP]'.format(span2, span1)
+            elif item.attrib["asks-for"] == "effect":
+                sample = '[CLS] {} [SEP] {} [SEP]'.format(span1, span2)
+
+            data.append(sample)
+
+    except Exception as e:
+        print("[crest-log] COPA. Detail: {}".format(e))
+
+    return data
