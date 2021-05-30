@@ -491,11 +491,11 @@ def copa2bert(folder_path, split='dev'):
             span2_incorrect = spans[2] if answer == 1 else spans[1]
 
             if item.attrib["asks-for"] == "cause":
-                data.append({'sequence': '[CLS] {} [SEP] {} [SEP]'.format(span2_correct, span1_premise), 'label': 1})
-                data.append({'sequence': '[CLS] {} [SEP] {} [SEP]'.format(span2_incorrect, span1_premise), 'label': 0})
+                data.append({'text': '[CLS] {} [SEP] {} [SEP]'.format(span2_correct, span1_premise), 'label': 1})
+                data.append({'text': '[CLS] {} [SEP] {} [SEP]'.format(span2_incorrect, span1_premise), 'label': 0})
             elif item.attrib["asks-for"] == "effect":
-                data.append({'sequence': '[CLS] {} [SEP] {} [SEP]'.format(span1_premise, span2_correct), 'label': 1})
-                data.append({'sequence': '[CLS] {} [SEP] {} [SEP]'.format(span1_premise, span2_incorrect), 'label': 0})
+                data.append({'text': '[CLS] {} [SEP] {} [SEP]'.format(span1_premise, span2_correct), 'label': 1})
+                data.append({'text': '[CLS] {} [SEP] {} [SEP]'.format(span1_premise, span2_incorrect), 'label': 0})
 
     except Exception as e:
         print("[crest-log] COPA. Detail: {}".format(e))
