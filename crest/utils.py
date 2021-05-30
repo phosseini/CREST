@@ -484,15 +484,18 @@ def copa2bert(folder_path, split='dev'):
         for item in root.findall("./item"):
             spans = {0: item[0].text, 1: item[1].text, 2: item[2].text}
 
-            span1 = spans[0]
-            span2 = spans[int(item.attrib["most-plausible-alternative"])]
+            span1_premise = spans[0]
+            answer = int(item.attrib["most-plausible-alternative"])
+            span2_correct = spans[answer]
+
+            span2_incorrect = spans[2] if answer == 1 else spans[1]
 
             if item.attrib["asks-for"] == "cause":
-                sample = '[CLS] {} [SEP] {} [SEP]'.format(span2, span1)
+                data.append({'sequence': '[CLS] {} [SEP] {} [SEP]'.format(span2_correct, span1_premise), 'label': 1})
+                data.append({'sequence': '[CLS] {} [SEP] {} [SEP]'.format(span2_incorrect, span1_premise), 'label': 0})
             elif item.attrib["asks-for"] == "effect":
-                sample = '[CLS] {} [SEP] {} [SEP]'.format(span1, span2)
-
-            data.append(sample)
+                data.append({'sequence': '[CLS] {} [SEP] {} [SEP]'.format(span1_premise, span2_correct), 'label': 1})
+                data.append({'sequence': '[CLS] {} [SEP] {} [SEP]'.format(span1_premise, span2_incorrect), 'label': 0})
 
     except Exception as e:
         print("[crest-log] COPA. Detail: {}".format(e))
