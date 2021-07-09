@@ -474,7 +474,14 @@ def copa2bert(folder_path, split='dev'):
     :return:
     """
 
+    # in data_cause_effect, we assume the first and second arguments are cause and effect, respectively.
+    # and of course, there always can be wrong cause and effect, but the order does not change
     data = []
+    data_cause_effect = []
+    data_multi_choice = []
+
+    def create_record(r_id, premise, hypothesis, label):
+        return {'id': r_id, 'sent1': premise, 'sent2': hypothesis, 'label': label}
 
     try:
         parser = ET.XMLParser(encoding="utf-8")
@@ -491,13 +498,27 @@ def copa2bert(folder_path, split='dev'):
             span2_incorrect = spans[2] if answer == 1 else spans[1]
 
             if item.attrib["asks-for"] == "cause":
-                data.append({'sent_1': span2_correct, 'sent_2': span1_premise, 'label': 1})
-                data.append({'sent_1': span2_incorrect, 'sent_2': span1_premise, 'label': 0})
+                data_cause_effect.append(create_record('id-{}-1'.format(str(item.attrib["id"])), span2_correct, span1_premise, 1))
+                data_cause_effect.append(create_record('id-{}-2'.format(str(item.attrib["id"])), span2_incorrect, span1_premise, 0))
             elif item.attrib["asks-for"] == "effect":
-                data.append({'sent_1': span1_premise, 'sent_2': span2_correct, 'label': 1})
-                data.append({'sent_1': span1_premise, 'sent_2': span2_incorrect, 'label': 0})
+                data_cause_effect.append(create_record('id-{}-1'.format(str(item.attrib["id"])), span1_premise, span2_correct, 1))
+                data_cause_effect.append(create_record('id-{}-2'.format(str(item.attrib["id"])), span1_premise, span2_incorrect, 0))
+
+            # for data, we ignore the order meaning the first argument could be either cause or effect
+            data.append(create_record('id-{}-1'.format(str(item.attrib["id"])), span1_premise, span2_correct, 1))
+            data.append(create_record('id-{}-2'.format(str(item.attrib["id"])), span1_premise, span2_incorrect, 0))
+
+            # data for multi-choice format
+            label = int(item.attrib["most-plausible-alternative"])
+
+            data_multi_choice.append({'id': 'id-{}-1'.format(str(item.attrib["id"])),
+                                      'premise': spans[0],
+                                      'question': 'What is the {}?'.format(item.attrib["asks-for"]),
+                                      'choice0': spans[1],
+                                      'choice1': spans[2],
+                                      'label': label - 1})
 
     except Exception as e:
-        print("[crest-log] COPA. Detail: {}".format(e))
+        print("[crest-log] copa2bert. Detail: {}".format(e))
 
-    return data
+    return data, data_cause_effect, data_multi_choice
