@@ -1179,20 +1179,32 @@ class Converter:
 
         return data, mismatch
 
-    def convert_copa(self):
+    def convert_copa(self, dataset_code=1):
         """
-        converting Choice of Plausible Alternatives (COPA)
+        converting Choice of Plausible Alternatives (COPA) and its variations
+        :param dataset_code: an integer to specify the variation of COPA. Supported values:
+        dataset_code: 1 -> original COPA dataset by Melissa Roemmele, et al. - 2011
+        dataset_code: 2 -> BCOPA-CE dataset by Mingyue Han, et al. 2021
         :return:
         """
-        folder_path = self.dir_path + "COPA-resources/datasets/"
-        files = ["dev", "test"]
+
+        split_code = {"dev": 1, "test": 2}
+
+        folder_path = self.dir_path + "COPA/datasets/"
+
+        if dataset_code == 1:
+            files = {"dev": "copa-dev.xml", "test": "copa-test.xml"}
+        elif dataset_code == 2:
+            files = {"test": "BCOPA-CE.xml"}
+
         mismatch = 0
+
         data = pd.DataFrame(columns=self.scheme_columns)
 
-        for file in files:
+        for split_name, file_path in files.items():
             try:
                 parser = ET.XMLParser(encoding="utf-8")
-                tree = ET.parse(folder_path + "copa-" + file + ".xml", parser=parser)
+                tree = ET.parse(folder_path + file_path, parser=parser)
                 root = tree.getroot()
 
                 for item in root.findall("./item"):
@@ -1215,13 +1227,8 @@ class Converter:
                     # final samples
                     pairs = [[span1, span2, 1, direction], [span1, span_neg, 0, direction]]
 
-                    if file == "dev":
-                        split = 1
-                    elif file == "test":
-                        split = 2
-
                     for pair in pairs:
-                        context = pair[0] + " " + pair[1]
+                        context = pair[0].strip() + " " + pair[1].strip()
                         span1_start = 0
                         span1_end = len(pair[0]) - 1
                         span2_start = span1_end + 2
@@ -1236,13 +1243,14 @@ class Converter:
                                    "context": context.strip('\n'),
                                    "idx": idx_val, "label": pair[2], "direction": direction,
                                    "source": self.namexid["copa"],
-                                   "ann_file": "copa-" + file + ".xml",
-                                   "split": split}
+                                   "ann_file": file_path,
+                                   "split": split_code[split_name]}
 
                         if self._check_span_indexes(new_row):
                             data = data.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
+                            print(new_row)
 
             except Exception as e:
                 print("[crest-log] COPA. Detail: {}".format(e))

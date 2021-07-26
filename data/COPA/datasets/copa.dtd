@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT copa-corpus (item+)>
+<!ATTLIST copa-corpus 
+          version CDATA #REQUIRED>
+
+<!ELEMENT item (p,a1,a2)>
+<!ATTLIST item
+	        id CDATA #REQUIRED
+	        asks-for (cause|effect) #REQUIRED
+	        most-plausible-alternative (1|2) #REQUIRED>
+
+<!ELEMENT  p  (#PCDATA)>
+<!ELEMENT  a1 (#PCDATA)>
+<!ELEMENT  a2 (#PCDATA)>
