@@ -466,12 +466,21 @@ def resolve_context_overlap(df1, df2, mode=2):
     return new_df1
 
 
-def copa2bert(folder_path, split='dev'):
+def copa2bert(folder_path, file_name='copa-all.xml'):
     """
-    converting Choice of Plausible Alternatives (COPA) to BERT's next sentence prediction format
+    converting Choice of Plausible Alternatives (COPA)-formatted data to BERT's sequence classification and multiple choice format
     :param folder_path: path to the COPA folder that contains all .xml files
-    :param split: one of the following values: ['dev', 'test']
+    :param file_name: full name of the file we want to convert the samples from
+    Current list of the files:
+    - copa-all.xml: all samples (dev+test) from COPA
+    - copa-dev.xml: only dev samples from COPA
+    - copa-test.xml: only test samples from COPA
+    - BCOPA-CE.xml: all samples (1000) of BCOPA-CE (this data is only for TEST, neither train nor dev)
     :return:
+    - data: in data, "cause" is NOT necessarily always the first argument
+    - data_cause_effect: here, "cause" IS always the first argument. (order: cause-effect)
+    - data_multi_choice: for each instance, we have two records: one with premise and the correct hypothesis and
+    the other one with premise and the incorrect hypothesis.
     """
 
     # in data_cause_effect, we assume the first and second arguments are cause and effect, respectively.
@@ -485,7 +494,7 @@ def copa2bert(folder_path, split='dev'):
 
     try:
         parser = ET.XMLParser(encoding="utf-8")
-        tree = ET.parse(folder_path + "copa-{}.xml".format(split), parser=parser)
+        tree = ET.parse(folder_path + file_name, parser=parser)
         root = tree.getroot()
 
         for item in root.findall("./item"):
@@ -498,11 +507,15 @@ def copa2bert(folder_path, split='dev'):
             span2_incorrect = spans[2] if answer == 1 else spans[1]
 
             if item.attrib["asks-for"] == "cause":
-                data_cause_effect.append(create_record('id-{}-1'.format(str(item.attrib["id"])), span2_correct, span1_premise, 1))
-                data_cause_effect.append(create_record('id-{}-2'.format(str(item.attrib["id"])), span2_incorrect, span1_premise, 0))
+                data_cause_effect.append(
+                    create_record('id-{}-1'.format(str(item.attrib["id"])), span2_correct, span1_premise, 1))
+                data_cause_effect.append(
+                    create_record('id-{}-2'.format(str(item.attrib["id"])), span2_incorrect, span1_premise, 0))
             elif item.attrib["asks-for"] == "effect":
-                data_cause_effect.append(create_record('id-{}-1'.format(str(item.attrib["id"])), span1_premise, span2_correct, 1))
-                data_cause_effect.append(create_record('id-{}-2'.format(str(item.attrib["id"])), span1_premise, span2_incorrect, 0))
+                data_cause_effect.append(
+                    create_record('id-{}-1'.format(str(item.attrib["id"])), span1_premise, span2_correct, 1))
+                data_cause_effect.append(
+                    create_record('id-{}-2'.format(str(item.attrib["id"])), span1_premise, span2_incorrect, 0))
 
             # for data, we ignore the order meaning the first argument could be either cause or effect
             data.append(create_record('id-{}-1'.format(str(item.attrib["id"])), span1_premise, span2_correct, 1))
