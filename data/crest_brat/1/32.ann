@@ -1,0 +1,3 @@
+T1	Effect 22 28	nausea
+T2	Cause 40 59	abnormal sensations
+R1	Causal Arg1:T2 Arg2:T1

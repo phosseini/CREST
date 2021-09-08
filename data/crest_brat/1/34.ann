@@ -1,0 +1,3 @@
+T1	Effect 81 85	fire
+T2	Cause 99 116	flammable liquids
+R1	Causal Arg1:T2 Arg2:T1

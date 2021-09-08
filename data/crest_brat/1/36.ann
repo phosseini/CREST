@@ -1,0 +1,3 @@
+T1	Span1 0 6	Ginkgo
+T2	Span2 20 41	increased circulation
+R1	NonCausal Arg1:T1 Arg2:T2

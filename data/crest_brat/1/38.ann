@@ -1,0 +1,3 @@
+T1	Span1 44 56	observations
+T2	Span2 62 73	earthquakes
+R1	NonCausal Arg1:T2 Arg2:T1

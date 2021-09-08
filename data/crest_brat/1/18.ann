@@ -1,0 +1,3 @@
+T1	Span1 83 91	wrinkles
+T2	Span2 97 105	garments
+R1	NonCausal Arg1:T2 Arg2:T1

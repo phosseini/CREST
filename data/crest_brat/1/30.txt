@@ -1,0 +1,1 @@
+Complementing the data from PARK, GeoFEST will model the evolution of stress and strain in a detailed simulation of the crust and mantle, potentially helping researchers predict the deformation from an earthquake or a series of quakes.

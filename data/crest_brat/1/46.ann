@@ -1,0 +1,3 @@
+T1	Span1 0 7	Driving
+T2	Span2 13 30	sleep deprivation
+R1	NonCausal Arg1:T2 Arg2:T1

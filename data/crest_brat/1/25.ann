@@ -1,0 +1,3 @@
+T1	Effect 26 37	controversy
+T2	Cause 43 61	stem cell research
+R1	Causal Arg1:T2 Arg2:T1

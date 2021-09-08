@@ -1,0 +1,3 @@
+T1	Span1 64 74	activation
+T2	Span2 78 84	summer
+R1	NonCausal Arg1:T2 Arg2:T1

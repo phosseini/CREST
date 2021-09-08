@@ -1,0 +1,3 @@
+T1	Span1 65 72	anxiety
+T2	Span2 80 84	exam
+R1	NonCausal Arg1:T2 Arg2:T1

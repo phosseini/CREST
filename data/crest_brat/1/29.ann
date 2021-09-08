@@ -1,0 +1,3 @@
+T1	Effect 14 35	anti-social behaviour
+T2	Cause 41 60	alcohol consumption
+R1	Causal Arg1:T2 Arg2:T1

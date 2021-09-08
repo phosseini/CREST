@@ -1,0 +1,3 @@
+T1	Span1 75 86	fulfillment
+T2	Span2 92 111	warehouse inventory
+R1	NonCausal Arg1:T2 Arg2:T1

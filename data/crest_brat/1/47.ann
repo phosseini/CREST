@@ -1,0 +1,3 @@
+T1	Effect 7 12	death
+T2	Cause 18 28	inhalation
+R1	Causal Arg1:T2 Arg2:T1

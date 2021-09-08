@@ -1,0 +1,3 @@
+T1	Span1 67 73	lather
+T2	Span2 79 83	soap
+R1	NonCausal Arg1:T2 Arg2:T1

@@ -1,0 +1,3 @@
+T1	Cause 0 4	Zinc
+T2	Effect 22 28	growth
+R1	Causal Arg1:T1 Arg2:T2

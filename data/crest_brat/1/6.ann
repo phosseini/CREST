@@ -1,0 +1,3 @@
+T1	Effect 134 141	outrage
+T2	Cause 147 165	rampant corruption
+R1	Causal Arg1:T2 Arg2:T1

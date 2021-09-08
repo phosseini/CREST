@@ -1,0 +1,1 @@
+As long as a surviving multiplexed copy of the controlfile exists, recovery from loss of a controlfile is simple.

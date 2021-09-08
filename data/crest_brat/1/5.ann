@@ -1,0 +1,3 @@
+T1	Span1 19 26	segment
+T2	Span2 53 62	anecdotes
+R1	NonCausal Arg1:T2 Arg2:T1

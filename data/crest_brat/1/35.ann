@@ -1,0 +1,3 @@
+T1	Effect 8 11	joy
+T2	Cause 32 51	spiritual awareness
+R1	Causal Arg1:T2 Arg2:T1

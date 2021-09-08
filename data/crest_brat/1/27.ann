@@ -1,0 +1,3 @@
+T1	Effect 29 42	stress relief
+T2	Cause 51 58	massage
+R1	Causal Arg1:T2 Arg2:T1

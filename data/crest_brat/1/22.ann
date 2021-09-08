@@ -1,0 +1,3 @@
+T1	Span1 88 98	extinction
+T2	Span2 108 113	woods
+R1	NonCausal Arg1:T2 Arg2:T1

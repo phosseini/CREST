@@ -1,0 +1,3 @@
+T1	Span1 12 25	flu infection
+T2	Span2 38 43	fever
+R1	NonCausal Arg1:T2 Arg2:T1

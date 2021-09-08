@@ -1,0 +1,3 @@
+T1	Span1 66 77	frustration
+T2	Span2 84 114	yesterday's exhilarating rides
+R1	NonCausal Arg1:T2 Arg2:T1

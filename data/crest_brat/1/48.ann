@@ -1,0 +1,3 @@
+T1	Span1 50 60	abstinence
+T2	Span2 66 74	laughter
+R1	NonCausal Arg1:T2 Arg2:T1

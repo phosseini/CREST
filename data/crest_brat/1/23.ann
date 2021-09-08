@@ -1,0 +1,3 @@
+T1	Effect 19 35	revenue increase
+T2	Cause 45 53	tax cuts
+R1	Causal Arg1:T2 Arg2:T1

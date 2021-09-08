@@ -1,0 +1,3 @@
+T1	Effect 25 35	accusation
+T2	Cause 43 52	ignorance
+R1	Causal Arg1:T2 Arg2:T1

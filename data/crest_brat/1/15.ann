@@ -1,0 +1,3 @@
+T1	Effect 129 138	shrinkage
+T2	Cause 145 152	cooling
+R1	Causal Arg1:T2 Arg2:T1

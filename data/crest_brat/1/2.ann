@@ -1,0 +1,3 @@
+T1	Span1 0 19	Habitat degradation
+T2	Span2 32 47	stream channels
+R1	NonCausal Arg1:T2 Arg2:T1

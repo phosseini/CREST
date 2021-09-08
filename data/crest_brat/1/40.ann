@@ -1,0 +1,3 @@
+T1	Span1 32 49	economic progress
+T2	Span2 61 73	urban places
+R1	NonCausal Arg1:T2 Arg2:T1

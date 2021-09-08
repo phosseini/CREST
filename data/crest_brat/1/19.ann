@@ -1,0 +1,3 @@
+T1	Span1 67 75	recovery
+T2	Span2 81 85	loss
+R1	NonCausal Arg1:T2 Arg2:T1
