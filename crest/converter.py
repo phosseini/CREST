@@ -1,7 +1,9 @@
 import re
 import os
+import ast
 import sys
 import copy
+import json
 import spacy
 import logging
 import pandas as pd
@@ -83,12 +85,10 @@ class Converter:
                 data = data.append(df).reset_index(drop=True)
                 total_mis += mis
 
-        # adding global_id to data
-        ids = []
-        for i in range(len(data)):
-            ids.append(i + 1)
-        df_col = pd.DataFrame({'global_id': ids})
-        data = pd.concat([df_col, data], axis=1)
+        # adding global id to the data frame
+        global_ids = [i for i in range(1, len(data) + 1)]
+        data.insert(0, 'global_id', global_ids)
+        data.reset_index()
 
         if save_file:
             data.to_excel(self.dir_path + "crest.xlsx")
@@ -161,7 +161,7 @@ class Converter:
 
                         # span1_end < span2_start is to make sure e1 always appears first
                         # in context and direction is correct
-                        if self._check_span_indexes(new_row) and span1_end < span2_start:
+                        if self.check_span_indexes(new_row) and span1_end < span2_start:
                             samples = samples.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
@@ -192,6 +192,11 @@ class Converter:
             data = data.append(extract_samples(test_content, 2))
 
         logging.info("[crest] semeval_2007_4 is converted.")
+
+        # adding global id to the data frame
+        global_ids = [i for i in range(1, len(data) + 1)]
+        data.insert(0, 'global_id', global_ids)
+        data.reset_index()
 
         return data, mismatch
 
@@ -252,7 +257,7 @@ class Converter:
                                    "direction": direction,
                                    "source": self.namexid["semeval_2010_8"], "ann_file": "", "split": split}
 
-                        if self._check_span_indexes(new_row) and span1_end < span2_start:
+                        if self.check_span_indexes(new_row) and span1_end < span2_start:
                             samples = samples.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
@@ -276,6 +281,11 @@ class Converter:
         data = data.append(extract_samples(test_content, 2))
 
         logging.info("[crest] semeval_2010_8 is converted.")
+
+        # adding global id to the data frame
+        global_ids = [i for i in range(1, len(data) + 1)]
+        data.insert(0, 'global_id', global_ids)
+        data.reset_index()
 
         return data, mismatch
 
@@ -398,7 +408,7 @@ class Converter:
                                    "ann_file": key,
                                    "split": split}
 
-                        if self._check_span_indexes(new_row):
+                        if self.check_span_indexes(new_row):
                             data = data.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
@@ -460,12 +470,17 @@ class Converter:
                                    "ann_file": key,
                                    "split": split}
 
-                        if self._check_span_indexes(new_row):
+                        if self.check_span_indexes(new_row):
                             data = data.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
 
         logging.info("[crest] event_causality is converted.")
+
+        # adding global id to the data frame
+        global_ids = [i for i in range(1, len(data) + 1)]
+        data.insert(0, 'global_id', global_ids)
+        data.reset_index()
 
         return data, mismatch
 
@@ -585,12 +600,17 @@ class Converter:
                            "source": self.namexid["causal_timebank"],
                            "ann_file": file, "split": ""}
 
-                if self._check_span_indexes(new_row):
+                if self.check_span_indexes(new_row):
                     data = data.append(new_row, ignore_index=True)
                 else:
                     mismatch += 1
 
         logging.info("[crest] causal_timebank is converted.")
+
+        # adding global id to the data frame
+        global_ids = [i for i in range(1, len(data) + 1)]
+        data.insert(0, 'global_id', global_ids)
+        data.reset_index()
 
         return data, mismatch
 
@@ -716,7 +736,7 @@ class Converter:
                                                "source": self.namexid["eventstorylines"],
                                                "ann_file": doc, "split": ""}
 
-                                    if self._check_span_indexes(new_row):
+                                    if self.check_span_indexes(new_row):
                                         data = data.append(new_row, ignore_index=True)
                                     else:
                                         mismatch += 1
@@ -725,6 +745,11 @@ class Converter:
                                     print("[crest-log] EventStoryLine. Detail: {}".format(e))
 
         logging.info("[crest] eventstorylines is converted.")
+
+        # adding global id to the data frame
+        global_ids = [i for i in range(1, len(data) + 1)]
+        data.insert(0, 'global_id', global_ids)
+        data.reset_index()
 
         return data, mismatch
 
@@ -740,8 +765,6 @@ class Converter:
 
         # creating a dictionary of all documents
         data = pd.DataFrame(columns=self.scheme_columns)
-
-        global_id = 0
 
         # ----------------------------------
         # reading all the annotations
@@ -850,7 +873,7 @@ class Converter:
                            "signal": []}
 
                 new_row = {
-                    "original_id": '{}-{}'.format(doc, global_id),
+                    "original_id": '{}'.format(doc),
                     "span1": [span1.strip()],
                     "span2": [span2.strip()],
                     "signal": [],
@@ -858,9 +881,8 @@ class Converter:
                     "direction": direction,
                     "source": self.namexid["eventstorylines"],
                     "ann_file": doc, "split": int(row['split'])}
-                global_id += 1
 
-                if self._check_span_indexes(new_row) and label in [0, 1]:
+                if self.check_span_indexes(new_row) and label in [0, 1]:
                     data = data.append(new_row, ignore_index=True)
                 else:
                     mismatch += 1
@@ -869,6 +891,11 @@ class Converter:
                 print("[crest-log] EventStoryLine. Detail: {}".format(e))
 
         logging.info("[crest] eventstorylines is converted.")
+
+        # adding global id to the data frame
+        global_ids = [i for i in range(1, len(data) + 1)]
+        data.insert(0, 'global_id', global_ids)
+        data.reset_index()
 
         return data, mismatch
 
@@ -994,7 +1021,7 @@ class Converter:
                                                    "ann_file": doc,
                                                    "split": split}
 
-                                        if self._check_span_indexes(new_row):
+                                        if self.check_span_indexes(new_row):
                                             samples = samples.append(new_row, ignore_index=True)
                                         else:
                                             mismatch += 1
@@ -1009,6 +1036,11 @@ class Converter:
         data = data.append(extract_samples(["caters_evaluation/train"], 0))
 
         logging.info("[crest] caters is converted.")
+
+        # adding global id to the data frame
+        global_ids = [i for i in range(1, len(data) + 1)]
+        data.insert(0, 'global_id', global_ids)
+        data.reset_index()
 
         return data, mismatch
 
@@ -1167,7 +1199,7 @@ class Converter:
                                        "ann_file": doc,
                                        "split": ""}
 
-                                if self._check_span_indexes(row):
+                                if self.check_span_indexes(row):
                                     data = data.append(row, ignore_index=True)
                                 else:
                                     mismatch += 1
@@ -1176,6 +1208,11 @@ class Converter:
                             print("[crest-log] {}".format(e))
 
         logging.info("[crest] because is converted.")
+
+        # adding global id to the data frame
+        global_ids = [i for i in range(1, len(data) + 1)]
+        data.insert(0, 'global_id', global_ids)
+        data.reset_index()
 
         return data, mismatch
 
@@ -1246,7 +1283,7 @@ class Converter:
                                    "ann_file": file_path,
                                    "split": split_code[split_name]}
 
-                        if self._check_span_indexes(new_row):
+                        if self.check_span_indexes(new_row):
                             data = data.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
@@ -1256,6 +1293,11 @@ class Converter:
                 print("[crest-log] COPA. Detail: {}".format(e))
 
         logging.info("[crest] copa is converted.")
+
+        # adding global id to the data frame
+        global_ids = [i for i in range(1, len(data) + 1)]
+        data.insert(0, 'global_id', global_ids)
+        data.reset_index()
 
         return data, mismatch
 
@@ -1377,14 +1419,19 @@ class Converter:
                                    "ann_file": "",
                                    "split": 0}
 
-                        if self._check_span_indexes(new_row):
+                        if self.check_span_indexes(new_row):
                             data = data.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
                 except Exception as e:
                     print("[crest-log] PDTB3. Detail: {}".format(e))
 
-        # logging.info("[crest] PDTB3 is converted.")
+        logging.info("[crest] PDTB3 is converted.")
+
+        # adding global id to the data frame
+        global_ids = [i for i in range(1, len(data) + 1)]
+        data.insert(0, 'global_id', global_ids)
+        data.reset_index()
 
         return data, mismatch
 
@@ -1484,7 +1531,7 @@ class Converter:
                                                    "ann_file": doc,
                                                    "split": split}
 
-                                        if self._check_span_indexes(new_row):
+                                        if self.check_span_indexes(new_row):
                                             samples = samples.append(new_row, ignore_index=True)
                                         else:
                                             mismatch += 1
@@ -1498,6 +1545,11 @@ class Converter:
 
         logging.info("[biocause] caters is converted.")
 
+        # adding global id to the data frame
+        global_ids = [i for i in range(1, len(data) + 1)]
+        data.insert(0, 'global_id', global_ids)
+        data.reset_index()
+
         return data, mismatch
 
     @staticmethod
@@ -1506,16 +1558,18 @@ class Converter:
         return result.group(1)
 
     @staticmethod
-    def _check_span_indexes(row, print_mismatch=False):
+    def check_span_indexes(row, print_mismatch=False):
         """
         checking if spans/signal indexes are correctly stored
         :param row:
+        :param print_mismatch:
         :return:
         """
 
         span1 = ""
         span2 = ""
         signal = ""
+
         try:
             for arg in row["idx"]["span1"]:
                 span1 += row["context"][arg[0]:arg[1]] + " "
@@ -1526,26 +1580,26 @@ class Converter:
             for sig in row["idx"]["signal"]:
                 signal += row["context"][sig[0]:sig[1]] + " "
 
-            FLAGS = {'s1': False, 's2': False, 'sig': False, 'context': False}
+            flags = {'s1': False, 's2': False, 'sig': False, 'context': False}
             if span1.strip() != (" ".join(row["span1"])).strip():
                 if print_mismatch:
                     print("span1: [{}]\n[{}]".format(span1, (" ".join(row["span1"])).strip()))
-                FLAGS["s1"] = True
+                flags["s1"] = True
             if span2.strip() != (" ".join(row["span2"])).strip():
                 if print_mismatch:
                     print("span2: [{}]\n[{}]".format(span2, (" ".join(row["span2"])).strip()))
-                FLAGS["s2"] = True
+                flags["s2"] = True
             if signal.strip() != (" ".join(row["signal"])).strip():
                 if print_mismatch:
                     print("signal: [{}]\n[{}]".format(signal, (" ".join(row["signal"])).strip()))
-                FLAGS["sig"] = True
+                flags["sig"] = True
             if str(row["context"]) == "nan":
-                FLAGS["context"] = True
-            if any(a for a in FLAGS.values()):
+                flags["context"] = True
+            if any(a for a in flags.values()):
                 if print_mismatch:
                     print("context: [{}] \n========".format(row["context"]))
                 return False
-        except Exception:
+        except Exception as e:
             return False
         return True
 
@@ -1562,3 +1616,266 @@ class Converter:
         end = end - abs(len_1 - len_2)
 
         return text, start, end
+
+
+def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save_json=False):
+    """
+    converting CREST-formatted data to TACRED (https://nlp.stanford.edu/projects/tacred/)
+    :param df: pandas data frame of the CREST-formatted excel file
+    :param output_file_name: name of output file without extension
+    :param no_order: True if we want to remove spans order, False, otherwise
+    :param save_json: binary value, True, if want to save result in a JSON file, False, otherwise
+    :param split: split of the data, value is a list of numbers such as 0: train, 1: dev, test: 2. will return all data by default
+    :param source: source of the data, a list of integer numbers
+    :return: list of dictionaries
+    """
+
+    def get_token_indices(i_idx, t_idx, span_end_idx, all_tokens):
+        span_tokens = []
+        while t_idx < span_end_idx:
+            span_tokens.append(all_tokens[i_idx])
+            t_idx += len(all_tokens[i_idx])
+            i_idx += 1
+        return span_tokens, i_idx
+
+    nlp = spacy.load("en_core_web_sm")
+
+    if not type(df) == pd.core.frame.DataFrame:
+        print("first parameter should be a pandas data frame")
+        raise TypeError
+
+    records = []
+    excluded_rows = []
+    excluded_records = []
+    records_df = []
+    for index, row in df.iterrows():
+        try:
+            idx = ast.literal_eval(str(row['idx']))
+            # making sure spans are made of consecutive tokens
+            if len(idx['span1']) == 1 and len(idx['span2']) == 1:
+                record = {}
+                span1_start = idx['span1'][0][0]
+                span1_end = idx['span1'][0][1]
+
+                span2_start = idx['span2'][0][0]
+                span2_end = idx['span2'][0][1]
+
+                if no_order:
+                    if span2_start < span1_start:
+                        span1_start, span2_start = span2_start, span1_start
+                        span1_end, span2_end = span2_end, span1_end
+
+                label = int(row['label'])
+                direction = int(row['direction'])
+
+                # creating list of tokens in context and finding spans' start and end indices
+                token_idx = 0
+                doc = nlp(row['context'])
+                tokens = [token.text_with_ws for token in doc]
+
+                for i in range(len(tokens)):
+                    if token_idx == span1_start:
+                        record['span1_start'] = i
+                        span1_tokens, record['span1_end'] = get_token_indices(i, token_idx, span1_end, tokens)
+                    elif token_idx == span2_start:
+                        record['span2_start'] = i
+                        span2_tokens, record['span2_end'] = get_token_indices(i, token_idx, span2_end, tokens)
+
+                    token_idx += len(tokens[i])
+
+                # getting the label and span type
+                if direction == 0 or direction == -1:
+                    record['direction'] = 'RIGHT'
+                    record['span1_type'] = 'SPAN1'
+                    record['span2_type'] = 'SPAN2'
+                elif direction == 1:
+                    record['direction'] = 'LEFT'
+                    record['span1_type'] = 'SPAN2'
+                    record['span2_type'] = 'SPAN1'
+
+                record['id'] = str(row['global_id'])
+                record['token'] = tokens
+                record['relation'] = label
+                features = ['id', 'token', 'span1_start', 'span1_end', 'span2_start', 'span2_end', 'relation']
+
+                # check if record has all the required fields
+                if all(feature in record for feature in features) and (
+                        len(split) == 0 or int(row['split']) in split) and (
+                        len(source) == 0 or int(row['source']) in source) and record['span1_end'] <= record[
+                    'span2_start'] and record['span2_end'] < len(tokens) and ''.join(
+                    tokens[record['span1_start']:record['span1_end']]) == ''.join(span1_tokens) and ''.join(
+                    tokens[record['span2_start']:record['span2_end']]) == ''.join(span2_tokens):
+                    records.append(record)
+                    records_df.append(row)
+                else:
+                    excluded_records.append([record, row])
+            else:
+                excluded_rows.append(row)
+        except Exception as e:
+            print("error in converting the record. global id: {}. detail: {}".format(row['global_id'], str(e)))
+            pass
+
+    # saving records into a JSON file
+    if save_json and len(records) > 0:
+        with open(str(output_file_name), 'w') as fout:
+            json.dump(records, fout)
+
+    return records, records_df, excluded_records, excluded_rows
+
+
+def brat2crest(input_dir, crest_file_path):
+    """
+    converting a brat formatted corpus to crest: cresting the corpus!
+    :return:
+    """
+
+    # first, we need to load the CREST data we converted to BRAT
+    df = pd.read_excel(crest_file_path)
+
+    files = os.listdir(input_dir)
+    files = [file for file in files if ".ann" in file]
+
+    for file in files:
+        global_id = int(file.split('.')[0])
+        tags = {}
+        with open(input_dir + "/" + file, 'r') as f:
+            lines = f.readlines()
+
+        # reading all tags information
+        for line in lines:
+            line_cols = line.split('\t')
+            tags[line_cols[0]] = [line_cols[1].replace('\n', '')]
+
+        # reading context
+        context = df.loc[df['global_id'] == global_id].iloc[0]['context']
+
+        # iterate through causal tags
+        for key, value in tags.items():
+            try:
+                if key.startswith("R"):
+                    args = value[0].split(' ')
+                    arg1_id = args[1].split(':')[1]
+                    arg2_id = args[2].split(':')[1]
+
+                    arg1_start = int(tags[arg1_id][0].split(' ')[1])
+                    arg1_end = int(tags[arg1_id][0].split(' ')[2])
+                    arg2_start = int(tags[arg2_id][0].split(' ')[1])
+                    arg2_end = int(tags[arg2_id][0].split(' ')[2])
+
+                    span1 = context[arg1_start:arg1_end]
+                    span2 = context[arg2_start:arg2_end]
+
+                    idx_val = {"span1": [[arg1_start, arg1_end]],
+                               "span2": [[arg2_start, arg2_end]],
+                               "signal": []}
+
+                    row = {"span1": [span1], "span2": [span2], "signal": [],
+                           "idx": {"span1": [[arg1_start, arg1_end]], "span2": [[arg2_start, arg2_end]],
+                                   "signal": []}, "context": context}
+
+                    # checking if new indexes are correct and align
+                    if Converter().check_span_indexes(row):
+                        # saving new information to CREST data frame
+                        row_index = df.loc[df['global_id'] == global_id].index
+                        df.at[row_index, 'span1'] = [span1]
+                        df.at[row_index, 'span2'] = [span2]
+                        df.at[row_index, 'idx'] = str(idx_val)
+
+            except Exception as e:
+                print("[crest-log] Error in converting brat to crest. Detail: {}".format(e))
+
+    # saving the updated df
+    df.to_excel(crest_file_path)
+
+
+def crest2brat(df, output_dir):
+    """
+    converting a CREST-formatted data frame to BRAT
+    :param df: a CREST-formatted data
+    :param output_dir: folder were files will be saved
+    :return:
+    """
+    if not type(df) == pd.core.frame.DataFrame:
+        print("first parameter should be a pandas data frame")
+        raise TypeError
+
+    # first, check if the 'source' directory exists
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
+
+    for index, row in df.iterrows():
+        ann_file = ""
+        t_idx = 1
+        args_count = 0
+        idx = ast.literal_eval(str(row['idx']))
+        span1 = idx['span1']
+        span2 = idx['span2']
+        signal = idx['signal']
+        label = int(row['label'])
+        direction = int(row['direction'])
+
+        span1_string = ' '.join(ast.literal_eval(str(row['span1'])))
+        span2_string = ' '.join(ast.literal_eval(str(row['span2'])))
+        signal_string = ' '.join(ast.literal_eval(str(row['signal'])))
+
+        if len(span1) > 0:
+            span_type = 'Span1'
+            if label == 1 and direction == 0:
+                span_type = 'Cause'
+            elif label == 1 and direction == 1:
+                span_type = 'Effect'
+            ann_file += "T{}\t{} ".format(t_idx, span_type)
+            spans1 = []
+            for span in span1:
+                spans1.append("{} {}".format(span[0], span[1]))
+            ann_file += (';'.join(spans1)).strip()
+            ann_file += "\t{}\n".format(span1_string)
+            t_idx += 1
+            args_count += 1
+
+        if len(span2) > 0:
+            span_type = 'Span2'
+            if label == 1 and direction == 0:
+                span_type = 'Effect'
+            elif label == 1 and direction == 1:
+                span_type = 'Cause'
+            ann_file += "T{}\t{} ".format(t_idx, span_type)
+            spans2 = []
+            for span in span2:
+                spans2.append("{} {}".format(span[0], span[1]))
+            ann_file += (';'.join(spans2)).strip()
+            ann_file += "\t{}\n".format(span2_string)
+            t_idx += 1
+            args_count += 1
+
+        if len(signal) > 0:
+            ann_file += "T{}\tSignal ".format(t_idx)
+            signals = []
+            for span in signal:
+                signals.append("{} {}".format(span[0], span[1]))
+            ann_file += (';'.join(signals)).strip()
+            ann_file += "\t{}\n".format(signal_string)
+            t_idx += 1
+
+        if label == 1:
+            if args_count == 2:
+                if direction == 0:
+                    ann_file += "R1\tCausal Arg1:T1 Arg2:T2\n"
+                elif direction == 1:
+                    ann_file += "R1\tCausal Arg1:T2 Arg2:T1\n"
+        elif label == 0:
+            if args_count == 2:
+                if direction == 0:
+                    ann_file += "R1\tNonCausal Arg1:T1 Arg2:T2\n"
+                elif direction == 1:
+                    ann_file += "R1\tNonCausal Arg1:T2 Arg2:T1\n"
+
+        ann_file = ann_file.strip('\n')
+
+        # writing .ann and .txt files
+        file_name = "{}".format(str(row['global_id']))
+
+        with open('{}/{}.ann'.format(output_dir, file_name), 'w') as file:
+            file.write(ann_file)
+        with open('{}/{}.txt'.format(output_dir, file_name), 'w') as file:
+            file.write(row['context'])
