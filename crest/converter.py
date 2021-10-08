@@ -177,13 +177,13 @@ class Converter:
         for relation_id in relation_ids:
             # reading files
             with open(
-                    self.dir_path + 'SemEval2007_task4/task-4-training/relation-{}-train.txt'.format(str(relation_id)),
+                    self.dir_path + 'semeval_2007_4/task-4-training/relation-{}-train.txt'.format(str(relation_id)),
                     mode='r',
                     encoding='cp1252') as train:
                 train_content = train.readlines()
 
             # this is the test set
-            with open(self.dir_path + 'SemEval2007_task4/task-4-scoring/relation-{}-score.txt'.format(str(relation_id)),
+            with open(self.dir_path + 'semeval_2007_4/task-4-scoring/relation-{}-score.txt'.format(str(relation_id)),
                       mode='r',
                       encoding='cp1252') as key:
                 test_content = key.readlines()
@@ -267,11 +267,11 @@ class Converter:
             return samples
 
         # reading files
-        with open(self.dir_path + 'SemEval2010_task8_all_data/SemEval2010_task8_training/TRAIN_FILE.txt', mode='r',
+        with open(self.dir_path + 'semeval_2010_8/SemEval2010_task8_training/TRAIN_FILE.txt', mode='r',
                   encoding='cp1252') as train:
             train_content = train.readlines()
 
-        with open(self.dir_path + 'SemEval2010_task8_all_data/SemEval2010_task8_testing_keys/TEST_FILE_FULL.txt',
+        with open(self.dir_path + 'semeval_2010_8/SemEval2010_task8_testing_keys/TEST_FILE_FULL.txt',
                   mode='r', encoding='cp1252') as key:
             test_content = key.readlines()
 
@@ -332,7 +332,7 @@ class Converter:
 
         folders = ['dev', 'eval']
         excluded_files = ['.DS_Store']
-        data_path = self.dir_path + "EventCausalityData/"
+        data_path = self.dir_path + "event_causality/"
 
         dev_keys_file = data_path + "keys/dev.keys"
         eval_keys_file = data_path + "keys/eval.keys"
@@ -489,7 +489,7 @@ class Converter:
         converting samples from Causal-TimeBank
         """
         mismatch = 0
-        data_path = self.dir_path + "Causal-TimeBank/Causal-TimeBank-CAT"
+        data_path = self.dir_path + "causal_timebank/Causal-TimeBank-CAT"
         all_files = os.listdir(data_path)
         # parser = ET.XMLParser(encoding="utf-8")
         data = pd.DataFrame(columns=self.scheme_columns)
@@ -619,7 +619,7 @@ class Converter:
         converting causal and non-causal samples from EventStoryLines
         """
         mismatch = 0
-        docs_path = self.dir_path + "EventStoryLine/annotated_data/v" + version
+        docs_path = self.dir_path + "eventstorylines/annotated_data/v" + version
 
         # creating a dictionary of all documents
         data = pd.DataFrame(columns=self.scheme_columns)
@@ -1056,7 +1056,7 @@ class Converter:
 
         # for NYT and PTB LDC subscription is needed to get access to the raw text.
         folders = ["CongressionalHearings", "MASC"]
-        folders_path = self.dir_path + "BECAUSE-2.1/"
+        folders_path = self.dir_path + "because/"
 
         data = pd.DataFrame(columns=self.scheme_columns)
 
@@ -1227,7 +1227,7 @@ class Converter:
 
         split_code = {"dev": 1, "test": 2}
 
-        folder_path = self.dir_path + "COPA/datasets/"
+        folder_path = self.dir_path + "copa/datasets/"
 
         if dataset_code == 1:
             files = {"dev": "copa-dev.xml", "test": "copa-test.xml"}
