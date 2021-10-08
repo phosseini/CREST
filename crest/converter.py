@@ -85,9 +85,9 @@ class Converter:
                 data = data.append(df).reset_index(drop=True)
                 total_mis += mis
 
-        # adding global id to the data frame
+        # updating global id to the data frame
         global_ids = [i for i in range(1, len(data) + 1)]
-        data.insert(0, 'global_id', global_ids)
+        data['global_id'] = global_ids
         data.reset_index()
 
         if save_file:
