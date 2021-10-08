@@ -1,0 +1,172 @@
+*	Equiv T56 T57
+T74	Process 28 37	infection
+T75	Gene_expression 1315 1324	expressed
+T76	Gene_expression 1465 1475	expression
+T77	Positive_regulation 1542 1549	induced
+T78	Positive_regulation 1827 1838	upregulated
+T79	Positive_regulation 2185 2196	upregulated
+T80	Positive_regulation 2408 2419	upregulated
+T81	Gene_expression 2656 2666	expression
+T82	Positive_regulation 2939 2950	upregulated
+T83	Positive_regulation 3192 3203	upregulated
+T84	Process 3512 3521	infection
+T85	Positive_regulation 3741 3748	induced
+T86	Negative_regulation 3913 3919	defect
+T87	Process 3928 3937	infection
+E1	Process:T74 
+E2	Gene_expression:T75 Theme:T8
+E3	Gene_expression:T76 Theme:T14
+E4	Gene_expression:T76 Theme:T15
+E5	Gene_expression:T76 Theme:T16
+E6	Gene_expression:T76 Theme:T10
+E7	Gene_expression:T76 Theme:T11
+E8	Gene_expression:T76 Theme:T12
+E9	Gene_expression:T76 Theme:T13
+E10	Positive_regulation:T77 Theme:T13
+E11	Positive_regulation:T77 Theme:T14
+E12	Positive_regulation:T77 Theme:T16
+E13	Positive_regulation:T77 Theme:T15
+E14	Positive_regulation:T77 Theme:T10
+E15	Positive_regulation:T77 Theme:T11
+E16	Positive_regulation:T77 Theme:T12
+E17	Positive_regulation:T78 Theme:T20
+E18	Positive_regulation:T78 Theme:T22
+E19	Positive_regulation:T79 Theme:T29
+E20	Positive_regulation:T79 Theme:T30
+E21	Positive_regulation:T80 Theme:T35
+E22	Positive_regulation:T80 Theme:T36
+E23	Positive_regulation:T80 Theme:T37
+E24	Gene_expression:T81 Theme:T46
+E25	Gene_expression:T81 Theme:T47
+E26	Gene_expression:T81 Theme:T48
+E27	Gene_expression:T81 Theme:T49
+E28	Gene_expression:T81 Theme:T50
+E29	Gene_expression:T81 Theme:T51
+E30	Gene_expression:T81 Theme:T52
+E31	Positive_regulation:T82 Theme:T46
+E32	Positive_regulation:T82 Theme:T47
+E33	Positive_regulation:T82 Theme:T48
+E34	Positive_regulation:T82 Theme:T49
+E35	Positive_regulation:T82 Theme:T50
+E36	Positive_regulation:T82 Theme:T51
+E37	Positive_regulation:T82 Theme:T52
+E38	Positive_regulation:T83 Theme:T55
+E39	Positive_regulation:T83 Theme:T56
+E40	Positive_regulation:T83 Theme:T58
+E41	Positive_regulation:T83 Theme:T59
+E42	Process:T84 
+E43	Positive_regulation:T85 Theme:T63
+E44	Positive_regulation:T85 Theme:T64
+E45	Positive_regulation:T85 Theme:T65
+E46	Positive_regulation:T85 Theme:T66
+E47	Negative_regulation:T86 Theme:E48
+M1	Negation E47
+E48	Process:T87 Participant:T70
+T1	Organism 0 9	Y. pestis
+T2	Organism 67 71	flea
+T3	Organism 97 101	flea
+T4	Organism 146 155	Y. pestis
+T5	Organism 225 229	flea
+T6	Organism 404 420	Escherichia coli
+T7	Organism 1150 1159	Y. pestis
+T8	Protein 1280 1283	ymt
+T9	Organism 1338 1342	flea
+T10	Protein 1406 1410	hmsH
+T11	Protein 1410 1411	F
+T12	Protein 1411 1412	R
+T13	Protein 1412 1413	S
+T14	Protein 1415 1419	hmsT
+T15	Protein 1421 1425	hmsP
+T16	Protein 1431 1435	gmhA
+T17	Organism 1483 1487	flea
+T18	Organism 1629 1633	flea
+T19	Organism 1639 1648	Y. pestis
+T20	Protein 1716 1720	yidE
+T21	Organism 1763 1770	E. coli
+T22	Protein 1781 1785	cpxP
+T23	Protein 1803 1807	cpxP
+T24	Protein 1807 1808	A
+T25	Protein 1808 1809	R
+T26	Organism 1937 1946	Y. pestis
+T27	Organism 1958 1963	fleas
+T28	Organism 2034 2041	E. coli
+T29	Protein 2105 2109	yidE
+T30	Protein 2114 2118	cpxP
+T31	Organism 2126 2135	Y. pestis
+T32	Organism 2204 2208	flea
+T33	Organism 2214 2223	Y. pestis
+T34	Organism 2236 2258	Pseudomonas aeruginosa
+T35	Protein 2259 2264	cupA1
+T36	Protein 2269 2274	cupA3
+T37	Protein 2323 2327	yapL
+T38	Organism 2376 2383	E. coli
+T39	Protein 2384 2388	tibA
+T40	Organism 2427 2431	flea
+T41	Protein 2448 2452	cupA
+T42	Protein 2472 2476	tibA
+T43	Organism 2542 2555	P. aeruginosa
+T44	Organism 2560 2567	E. coli
+T45	Organism 2633 2637	flea
+T46	Protein 2677 2681	rpoE
+T47	Protein 2731 2737	sigmaE
+T48	Protein 2791 2795	rseA
+T49	Protein 2800 2804	rseB
+T50	Protein 2807 2811	cpxP
+T51	Protein 2817 2821	pspA
+T52	Protein 2826 2830	pspG
+T53	Organism 2961 2968	E. coli
+T54	Protein 3130 3134	yidE
+T55	Protein 3136 3140	cpxP
+T56	Protein 3142 3146	tibA
+T57	Protein 3148 3152	yapL
+T58	Protein 3155 3168	cupA fimbriae
+T59	Protein 3174 3180	pspABC
+T60	Organism 3211 3215	flea
+T61	Organism 3331 3340	Y. pestis
+T62	Organism 3507 3511	flea
+T63	Protein 3698 3702	gabT
+T64	Protein 3702 3706	potD
+T65	Protein 3706 3707	B
+T66	Protein 3707 3708	C
+T67	Organism 3762 3766	flea
+T68	Chemical 3782 3792	polyamines
+T69	Organism 3811 3820	Y. pestis
+T70	Organism 3880 3898	Y. pestis Deltapot
+T71	Organism 3923 3927	flea
+T72	Organism 3992 4001	Y. pestis
+T73	Chemical 4024 4034	polyamines
+T88	Span 73 283	Because blockage of the flea vector is essentially a biofilm phenomenon, Y. pestis genes whose expression patterns are significantly upregulated in the flea and flowcell biofilms relative to planktonic cultures
+T89	Causality 295 314	might indicate that
+E49	Causality:T89 Effect:T90 Evidence:T88
+T90	Span 315 344	they are transmission factors
+T91	Span 1276 1515	The ymt gene was among the most highly expressed genes in the flea (Table S3), but neither it nor the known transmission factors (hmsHFRS, hmsT, hmsP, and gmhA) showed significantly higher expression in the flea than in vitro at 21degreesC
+T93	Causality 1517 1532	indicating that
+E51	Causality:T93 Effect:T94 Evidence:T91
+T94	Span 1533 1637	they are induced primarily by low temperature, and not by environmental factors specific to the flea gut
+T92	Causality 2593 2605	Evidence for
+E50	Causality:T92 Effect:T95 Evidence:T96
+T95	Span 2606 2646	induction of an ESR in the flea included
+T96	Span 2647 2681	the high expression levels of rpoE
+T97	Span 2683 2811	the gene for the alternate transcription factor sigmaE (as well as the anti-sigmaE negative regulator genes rseA and rseB), cpxP
+T98	Span 2813 2884	and pspA and pspG, components of the phage-shock protein (Psp) response
+E52	Causality:T92 Effect:T95 Evidence:T97
+E53	Causality:T92 Effect:T95 Evidence:T98
+T99	Span 2905 2977	These genes were also found to be upregulated in mature E. coli biofilms
+T100	Causality 2984 2999	suggesting that
+E54	Causality:T100 Effect:T101 Evidence:T99
+T101	Span 3000 3104	the three prominent ESR systems are important for integrating signals required for survival in a biofilm
+T102	Span 3114 3215	homologs of the yidE, cpxP, tibA (yapL), cupA fimbriae, and pspABC genes were upregulated in the flea
+T103	Causality 3220 3235	have been shown
+E55	Causality:T103 Evidence:T104 Effect:T102
+T104	Span 3236 3289	to be involved in biofilm formation in other bacteria
+T105	Causality 3552 3581	These genes may contribute to
+E56	Causality:T105 Effect:T106 Evidence:T102
+T106	Span 3582 3654	biofilm formation, but are not individually essential for this phenotype
+T107	Span 3656 3838	Although genes in the polyamine transport gabTpotDBC locus are among the most highly induced genes in the flea (Table S1) and polyamines are essential for Y. pestis biofilm formation
+T108	Causality 3845 3877	we have previously reported that
+E57	Causality:T108 Effect:T109 Evidence:T107
+T109	Span 3878 3949	a Y. pestis Deltapot mutant has no defect in flea infection or blockage
+T110	Span 3656 3949	Although genes in the polyamine transport gabTpotDBC locus are among the most highly induced genes in the flea (Table S1) and polyamines are essential for Y. pestis biofilm formation [30], we have previously reported that a Y. pestis Deltapot mutant has no defect in flea infection or blockage
+T111	Causality 3956 3977	This is likely due to
+E58	Causality:T111 Evidence:T112 Effect:T110
+T112	Span 3978 4042	the fact that Y. pestis is able to synthesize polyamines de novo

@@ -1,0 +1,72 @@
+T48	Process 473 481	virulent
+T49	Process 2728 2734	infect
+T50	Process 2967 2977	infections
+T51	Process 3076 3084	attended
+T52	Process 3109 3119	infections
+T53	Process 3643 3652	virulence
+T54	Gene_expression 4578 4585	produce
+T55	Process 5674 5683	infection
+T56	Process 5872 5881	virulence
+E1	Process:T48 
+E2	Process:T49 Participant:T30
+E3	Process:T50 
+E4	Process:T51 
+E5	Process:T52 Participant:T36
+E6	Process:T53 
+E7	Gene_expression:T54 Theme:T43
+E8	Gene_expression:T54 Theme:T44
+E9	Process:T55 
+E10	Process:T56 
+T1	Organism 358 382	Photorhabdus luminescens
+T2	Organism 387 410	Yersinia enterocolitica
+T3	Organism 523 526	men
+T4	Organism 528 545	Y. enterocolitica
+T5	Organism 573 578	human
+T6	Organism 666 680	P. luminescens
+T7	Organism 703 711	Yersinia
+T8	Organism 770 779	Y. pestis
+T9	Organism 833 838	human
+T10	Organism 913 916	rat
+T11	Organism 924 941	Y. enterocolitica
+T12	Organism 1073 1094	Y. pseudotuberculosis
+T13	Organism 1347 1360	Y. pestis KIM
+T14	Organism 1366 1387	Y. pseudotuberculosis
+T15	Organism 1397 1414	Y. enterocolitica
+T16	Organism 1420 1441	Y. pseudotuberculosis
+T17	Organism 1458 1467	Y. pestis
+T18	Organism 1664 1673	Y. pestis
+T19	Organism 1702 1723	Y. pseudotuberculosis
+T20	Organism 1784 1801	Y. enterocolitica
+T21	Organism 1806 1827	Y. pseudotuberculosis
+T22	Organism 1877 1886	Y. pestis
+T23	Organism 1904 1925	Y. pseudotuberculosis
+T24	Organism 1985 2002	Y. enterocolitica
+T25	Organism 2007 2028	Y. pseudotuberculosis
+T26	Organism 2043 2056	Manduca sexta
+T27	Organism 2241 2262	Y. pseudotuberculosis
+T28	Organism 2267 2284	Y. enterocolitica
+T29	Organism 2387 2404	Y. enterocolitica
+T30	Organism 2567 2591	Photorhabdus luminescens
+T31	Organism 2693 2718	heterorhabditid nematodes
+T32	Organism 2791 2803	Photorhabdus
+T33	Organism 2813 2827	P. asymbiotica
+T34	Organism 2853 2858	human
+T35	Organism 2890 2895	human
+T36	Organism 3090 3102	Photorhabdus
+T37	Organism 3103 3108	human
+T38	Organism 3159 3173	P. luminescens
+T39	Organism 3330 3359	Heterorhabditis bacteriophora
+T40	Organism 3778 3792	P. luminescens
+T41	Organism 4045 4059	P. luminescens
+T42	Organism 4387 4399	Photorhabdus
+T43	Protein 4663 4667	CipA
+T44	Protein 4672 4676	CipB
+T45	Organism 5143 5157	P. luminescens
+T46	Organism 5383 5397	P. luminescens
+T47	Organism 5402 5419	Y. enterocolitica
+T57	Span 1420 1510	Y. pseudotuberculosis, in contrast to Y. pestis, has been shown to be orally toxic to flea
+T58	Span 1516 1568	This toxicity revealed to be independent of tc genes
+T59	Causality 1570 1585	suggesting that
+E11	Causality:T59 Effect:T60 Evidence:T58
+T60	Span 1586 1772	loss of one or more insect gut toxins is a critical step in the change of the Y. pestis lifestyle compared with the Y. pseudotuberculosis and thus in evolution of flea-borne transmission
+E12	Causality:T59 Effect:T60 Evidence:T57

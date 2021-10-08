@@ -1,0 +1,1128 @@
+T1	Argument 358 383	we will maximize our time
+T2	Argument 321 353	We will probably have some votes
+T3	Motivation 355 357	so
+E1	Motivation:T3 Effect:T1 Cause:T2
+A1	Degree E1 Facilitate
+T4	Argument 1457 1490	Members want to get a new context
+T5	Argument 1499 1671	the experience regarding Bear Stearns is clearly the context in which much of this hearing is and much of what we will be talking about is what happens if that should occur
+T6	Motivation 1491 1498	because
+E2	Motivation:T6 Effect:T4 Cause:T5
+A2	Degree E2 Facilitate
+T8	Motivation 1706 1711	Given
+E4	Motivation:T8 Cause:T11 Effect:T9
+T9	Argument 1783 1838	we are going to hold pretty firmly to the 5-minute rule
+T11	Argument 1712 1734	the importance of this
+T12	Consequence 3318 3328	because of
+E5	Consequence:T12 Effect:T14 Cause:T13
+A3	Degree E5 Facilitate
+T13	Argument 3329 3356	an inadequacy of regulation
+T14	Argument 3230 3308	we are in one of the most serious economic troubles that we have seen recently
+T15	Argument 5313 5334	Something that simple
+T16	Argument 5342 5350	problems
+T17	Argument 5368 5370	it
+R1	Coref Arg1:T17 Arg2:T15
+T18	Consequence 5375 5381	caused
+E6	Consequence:T18 Cause:T17 Effect:T19
+A4	Degree E6 Facilitate
+T19	Argument 5382 5390	problems
+T20	Consequence 5335 5341	causes
+E7	Consequence:T20 Cause:T15 Effect:T16
+A5	Degree E7 Facilitate
+T21	Argument 5517 5548	what we now have is a contagion
+T22	Argument 5558 5686	people who bought loans in various forms that they shouldn't have bought are now resistant to buying things that they should buy
+T23	Consequence 5550 5557	because
+E8	Consequence:T23 Cause:T22 Effect:T21
+A6	Degree E8 Facilitate
+T27	Argument 5692 5696	That
+T28	Argument 5704 5926	I believe regulation properly done, regulation of risk that is too unconstrained today, because the various risk management techniques that were supposed to replace the lender-borrower relationship have not been successful
+T29	Motivation 5700 5703	why
+E10	Motivation:T29 Cause:T27 Effect:T28
+A8	Degree E10 Facilitate
+A10	Degree E4 Facilitate
+T30	Argument 6090 6129	a market sensitive regulatory authority
+T31	Argument 6148 6168	some of the problems
+T32	Consequence 6139 6147	prevents
+E11	Consequence:T32 Effect:T31 Cause:T30
+A11	Degree E11 Inhibit
+T33	Argument 6090 6187	a market sensitive regulatory authority not only prevents some of the problems, but is pro-market
+T34	Argument 6197 6273	we have investors now who are unwilling to invest even in things they should
+T35	Consequence 6189 6196	because
+E12	Consequence:T35 Cause:T34 Effect:T33
+A12	Degree E12 Facilitate
+T37	Argument 6647 6756	provide a better statutory framework for the increase in regulation that I believe people agree should happen
+T38	Purpose 6644 6646	to
+E13	Purpose:T38 Cause:T37 Effect:T36
+T39	Argument 7834 7836;7844 7869	we have a successful outcome
+T40	Argument 7757 7808	a collaborative effort that includes these agencies
+T41	Consequence 7824 7833;7837 7843	needed if are to
+E14	Consequence:T41 Cause:T40 Effect:T39
+A13	Degree E14 Facilitate
+A14	Degree E13 Facilitate
+T42	Argument 9389 9489	strengthen the safety and soundness of our institutions and discourage unsound practices and conduct
+T43	Argument 9337 9385	we must establish a modern, regulatory structure
+T44	Purpose 9386 9388	to
+E15	Purpose:T44 Cause:T42 Effect:T43
+A15	Degree E15 Facilitate
+T45	Argument 9547 9580	that institutions will never fail
+T46	Argument 9500 9517	these regulations
+T47	Consequence 9540 9546	ensure
+E16	Consequence:T47 Effect:T45 Cause:T46
+A16	Degree E16 Facilitate
+T49	Argument 9619 9662	that taxpayers are not left holding the bag
+T48	Argument 9604 9606	we
+T50	Consequence 9612 9618	ensure
+E17	Consequence:T50 Effect:T49 Cause:T48
+A18	Degree E17 Facilitate
+T54	Argument 9678 9761	the fast action of the Federal Reserve in cooperation with the SEC and the Treasury
+T55	Argument 9763 9809	we dodged a bullet when Bear Stearns collapsed
+T56	Consequence 9668 9677	Thanks to
+E19	Consequence:T56 Cause:T54 Effect:T55
+A21	Degree E19 Facilitate
+T57	Argument 9862 10017	I look forward to hearing from today's witnesses about what we can do to provide for an orderly resolution in the event a large financial institution fails
+T59	Motivation 9845 9848;9854 9860	For reason
+E20	Motivation:T59 Effect:T57 Cause:T58
+A22	Degree E20 Facilitate
+T60	Argument 10106 10123	market discipline
+T61	Argument 10023 10068	The regulatory regime we establish and follow
+T62	Consequence 10099 10105	ensure
+E21	Consequence:T62 Effect:T60 Cause:T61
+A23	Degree E21 Facilitate
+T63	Argument 2317 2424	it seems clear to me that it is the Financial Institutions Subcommittee that is the developing subcommittee
+T64	Argument 2428 2455	that is how we will proceed
+T65	Motivation 2425 2427	so
+E22	Motivation:T65 Effect:T64 Cause:T63
+A24	Degree E22 Facilitate
+T24	Argument 5800 5926	the various risk management techniques that were supposed to replace the lender-borrower relationship have not been successful
+R2	Coref Arg1:T27 Arg2:T24
+#2	AnnotatorNotes T28	probably meant to say "believe in"?
+T25	Motivation 5792 5799	because
+E9	Motivation:T25 Cause:T24 Effect:T347
+A7	Degree E9 Facilitate
+T26	Argument 6090 6273	a market sensitive regulatory authority not only prevents some of the problems, but is pro-market, because we have investors now who are unwilling to invest even in things they should
+T66	Argument 6075 6088	properly done
+T67	Consequence 6072 6074	If
+E23	Consequence:T67 Cause:T66 Effect:T26
+A25	Degree E23 Facilitate
+T68	Purpose 8117 8128	in order to
+E24	Purpose:T68 Cause:T69 Effect:T231
+A26	Degree E24 Facilitate
+T69	Argument 8129 8328	avoid a cascading effect from Bear Stearns's collapse that could have spread throughout the financial system with what I believe would have been decidedly negative implications for the larger economy
+T71	Argument 10223 10277	preserve market discipline and discourage moral hazard
+T72	Purpose 10220 10222	To
+E25	Purpose:T72 Effect:T73 Cause:T71
+A27	Degree E25 Facilitate
+T73	Argument 10279 10364	we must see to it that no firm should be considered too big or interconnected to fail
+T74	Argument 10369 10398	protect against systemic risk
+T75	Argument 10400 10527	we must ensure that when a firm fails, it does not bring down the entire financial system with it, i.e., an orderly liquidation
+T76	Purpose 10366 10368	To
+E26	Purpose:T76 Effect:T75 Cause:T74
+A28	Degree E26 Facilitate
+T77	Purpose 10533 10535	to
+E27	Purpose:T77 Effect:T79 Cause:T78
+A29	Degree E27 Facilitate
+T78	Argument 10536 10556	protect the taxpayer
+T79	Argument 10558 10701	we have to make sure that the cost of that failure is borne by the firm's shareholders and creditors, and not passed on to the taxpaying public
+T80	Argument 10400 10402	we
+T81	Argument 10415 10527	that when a firm fails, it does not bring down the entire financial system with it, i.e., an orderly liquidation
+T82	Consequence 10408 10414	ensure
+E28	Consequence:T82 Cause:T80 Effect:T81
+A30	Degree E28 Facilitate
+T83	Argument 11698 11711	future crises
+T84	Consequence 11669 11676	prevent
+E29	Consequence:T84 Effect:T83 Cause:T52
+A31	Degree E29 Inhibit
+T86	Consequence 12139 12143	make
+E30	Consequence:T86 Effect:T87 Cause:T88 Means:T567
+A32	Degree E30 Facilitate
+T87	Argument 12144 12154;12155 12169	regulation more efficient
+T88	Argument 12120 12129	This bill
+T89	Argument 12231 12286	consolidation and cooperation among regulatory agencies
+T90	Consequence 12221 12230	promoting
+E31	Consequence:T90 Cause:T88 Effect:T89
+A33	Degree E31 Facilitate
+T91	Argument 12523 12598	a Federal repository to collect and analyze information on insurance issues
+T92	Argument 12600 12652	we cannot fully understand and control systemic risk
+T93	Consequence 12515 12522	Without
+E32	Consequence:T93 Cause:T91 Effect:T92
+A35	Degree E32 Inhibit
+T94	Argument 12654 12732	The Roundtable proposal would also expand the authority of the Federal Reserve
+T95	Argument 12741 12844	investment banks who borrow from the Fed's discount window in various facilities do not get a free pass
+T96	Purpose 12733 12735	so
+E33	Purpose:T96 Cause:T95 Effect:T94
+A36	Degree E33 Facilitate
+T97	Argument 13518 13546	prevent a financial meltdown
+T98	Argument 13427 13500	the Federal Reserve's move to bail out Bear Stearns in March of this year
+T100	Consequence 13505 13517	necessary to
+E34	Consequence:T100 Cause:T98 Effect:T97
+A37	Degree E34 Facilitate
+T102	Argument 13758 13778;13784 13805	such dire situations arising in the future
+T103	Consequence 13750 13757;13779 13783	prevent from
+E36	Consequence:T103 Effect:T102 Cause:T479
+A39	Degree E36 Inhibit
+T85	Argument 11652 11711	determine how to prevent or at least mitigate future crises
+T105	Argument 11607 11648	we must simultaneously look to the future
+T106	Purpose 11649 11651	to
+E37	Purpose:T106 Cause:T85 Effect:T105
+A40	Degree E37 Facilitate
+T109	Argument 15358 15360;15361 15428	us weather the storm that our markets and our economy are experiencing
+T110	Argument 15324 15346	Your steady leadership
+T111	Consequence 15350 15357	helping
+E38	Consequence:T111 Cause:T110 Effect:T109
+A41	Degree E38 Facilitate
+T112	Argument 15623 15676	keep hundreds of thousands of families in their homes
+T113	Argument 15603 15608	which
+T114	Argument 15580 15601	the HOPE NOW Alliance
+R3	Coref Arg1:T113 Arg2:T114
+T115	Consequence 15613 15619	helped
+E39	Consequence:T115 Effect:T112 Cause:T113
+A42	Degree E39 Facilitate
+T116	Argument 15752 15833	preserve confidence and bring stability to our financial markets and institutions
+T117	Consequence 15747 15751	help
+E40	Consequence:T117 Cause:T118 Effect:T116
+A43	Degree E40 Facilitate
+T118	Argument 15705 15734	the Federal Reserve's actions
+T119	Argument 15835 15874	Infusing liquidity into the marketplace
+T120	Argument 15889 15906;15912 15930	the credit crunch seizing the system
+T121	Consequence 15879 15888;15907 15911	prevented from
+E41	Consequence:T121 Cause:T119 Effect:T120
+A44	Degree E41 Inhibit
+T122	Argument 16035 16039	that
+T123	Argument 16022 16034	the lynchpin
+T124	Argument 15949 15988	the sale of Bear Stearns to J.P. Morgan
+R5	Coref Arg1:T122 Arg2:T123
+T125	Argument 16050 16163	a run-on-the-bank type crises which could have spread throughout our financial system and caused irreparable harm
+T126	Consequence 16040 16049	prevented
+E42	Consequence:T126 Cause:T122 Effect:T125
+A45	Degree E42 Inhibit
+T127	Argument 16080 16085	which
+T128	Argument 16050 16079	a run-on-the-bank type crises
+R6	Coref Arg1:T127 Arg2:T128
+T129	Argument 16147 16163	irreparable harm
+T130	Consequence 16140 16146	caused
+E43	Consequence:T130 Cause:T127 Effect:T129
+A46	Degree E43 Facilitate
+T131	Argument 16346 16408	future, similar bailouts that can put taxpayer dollars at risk
+T132	Argument 16300 16334	what can the Federal Government do
+T133	Consequence 16338 16345	prevent
+E44	Consequence:T133 Effect:T131 Cause:T391 Means:T572
+A47	Degree E44 Inhibit
+T134	Argument 16617 16637	another Bear Stearns
+T137	Consequence 16609 16616	prevent
+E45	Consequence:T137 Cause:T135 Effect:T134
+A48	Degree E45 Inhibit
+T135	Argument 16537 16541	that
+T136	Argument 17788 17855	I think, Mr. Paulson, that you have about 125 years on Mr. Bernanke
+T138	Argument 17860 17882	we will begin with you
+T139	Motivation 17857 17859	so
+E46	Motivation:T139 Effect:T138 Cause:T136
+A49	Degree E46 Facilitate
+T140	Argument 19652 19797	we have been working together to ensure the stability of the financial system, because it is in the interest of the American people that we do so
+T141	Argument 19739 19797	it is in the interest of the American people that we do so
+T142	Motivation 19731 19738	because
+E47	Motivation:T142 Cause:T141 Effect:T486
+A50	Degree E47 Facilitate
+T143	Consequence 19899 19903	made
+E48	Consequence:T143 Cause:T144 Effect:T145
+A51	Degree E48 Facilitate
+T144	Argument 19916 20002	the leadership and support provided by this committee and by other leaders in Congress
+T145	Argument 19857 19895;19904 19912	our seamless cooperation to achieve it possible
+T146	Argument 20211 20216	which
+T147	Argument 20187 20209	strong capital markets
+T148	Consequence 20230 20236;20249 20251	enable to
+E49	Consequence:T148 Cause:T146 Effect:T149
+A52	Degree E49 Facilitate
+T149	Argument 20237 20248;20252 20268	our economy continue to grow
+T150	Argument 21257 21344	it is organized by a regulatory objective rather than by financial institution category
+T151	Argument 21346 21415	it can more easily respond and adapt to the ever-changing marketplace
+T152	Consequence 21249 21256	because
+E50	Consequence:T152 Cause:T150 Effect:T151
+A53	Degree E50 Facilitate
+T153	Argument 22409 22428	our competitiveness
+T154	Argument 22366 22390	our regulatory structure
+T155	Consequence 22400 22408	inhibits
+E51	Consequence:T155 Cause:T154 Effect:T153
+A54	Degree E51 Inhibit
+T159	Argument 22766 22821	these systems should be overseen by the Federal Reserve
+T160	Argument 22834 22873	guarantee the integrity of this vital--
+T161	Purpose 22822 22833	in order to
+E53	Purpose:T161 Effect:T159 Cause:T160
+A56	Degree E53 Facilitate
+T162	Argument 23277 23314	We have enough time to listen to this
+T163	Argument 23319 23346	please don't be constrained
+T164	Motivation 23316 23318	so
+E54	Motivation:T164 Cause:T162 Effect:T163
+A57	Degree E54 Facilitate
+T166	Argument 24522 24531	intervene
+T165	Argument 24532 24580	to mitigate systemic risk in advance of a crisis
+T167	Purpose 24532 24534	to
+E55	Purpose:T167 Cause:T165 Effect:T166
+A58	Degree E55 Facilitate
+T177	Argument 24944 25016	regulation alone cannot eliminate all future bouts of market instability
+T178	Argument 24838 24855;24916 24934	Market discipline must be reinforced
+T179	Motivation 24936 24943	because
+E59	Motivation:T179 Effect:T178 Cause:T177
+A62	Degree E59 Facilitate
+T180	Argument 25057 25076;25082 25171	market participants not expect that lending from the Fed or any other government support is readily available
+T181	Argument 25022 25039;25043 25055	market discipline be effective
+T182	Consequence 25018 25021;25040 25042;25077 25081	For to must
+E60	Consequence:T182 Cause:T180 Effect:T181
+A63	Degree E60 Facilitate
+T183	Argument 25470 25487;25491 25517	market discipline effectively constrain risk
+T184	Argument 25519 25541;25547 25565	financial institutions be allowed to fail
+T185	Consequence 25466 25469;25488 25490;25542 25546	For to must
+E61	Consequence:T185 Cause:T184 Effect:T183
+A64	Degree E61 Facilitate
+T186	Argument 25612 25635	regulatory intervention
+T187	Argument 25647 25656	a failure
+T188	Consequence 25639 25646	prevent
+E62	Consequence:T188 Effect:T187 Cause:T186
+A65	Degree E62 Inhibit
+T189	Argument 23036 23071	this is too important for you to be
+T190	Argument 23076 23121	please, both of you can ignore the red lights
+T191	Motivation 23073 23075	so
+E63	Motivation:T191 Cause:T189 Effect:T190
+A66	Degree E63 Facilitate
+T192	Argument 5211 5245	a lender not lending to a borrower
+T193	Argument 5253 5311	the lender is sure that the borrower will be able to repay
+T194	Motivation 5246 5252	unless
+E64	Motivation:T194 Cause:T193 Effect:T192
+A68	Degree E64 Inhibit
+T195	Argument 11942 11987	keep pace as these market transactions evolve
+T196	Argument 11876 11938	we must develop innovative, regulatory and oversight responses
+T197	Purpose 11939 11941	to
+E65	Purpose:T197 Effect:T196 Cause:T195
+A67	Degree E65 Facilitate
+T198	Consequence 13175 13179	make
+E66	Consequence:T198 Effect:T199
+A69	Degree E66 Facilitate
+T199	Argument 13180 13200;13201 13231	the financial system more resilient and more stable
+T201	Argument 21424 21435	implemented
+T202	Argument 21437 21557	these recommendations eliminate regulatory competition that creates inefficiencies and can engender a race to the bottom
+T203	Consequence 21421 21423	If
+E67	Consequence:T203 Cause:T201 Effect:T202
+A70	Degree E67 Facilitate
+T58	Argument 9849 9860	that reason
+T209	Argument 26101 26110	they fail
+T210	Argument 26079 26096;26112 26138	some institutions can have a systemic impact
+T211	Consequence 26098 26100	if
+E70	Consequence:T211 Cause:T209 Effect:T210
+A19	Degree E70 Facilitate
+T212	Argument 26355 26362	do this
+T213	Argument 26364 26366;26380 26461	we give our regulators additional emergency authority to limit temporary disruptions
+T214	Consequence 26352 26354;26372 26379	To need to
+E71	Consequence:T214 Cause:T213 Effect:T212
+A72	Degree E71 Facilitate
+T215	Argument 26508 26535	reinforce market discipline
+T216	Argument 26537 26625	the trigger for invoking such authority should be very high, such as a bankruptcy filing
+T217	Purpose 26505 26507	to
+E72	Purpose:T217 Effect:T216 Cause:T215
+A73	Degree E72 Facilitate
+T218	Argument 26780 26799	sufficient criteria
+T219	Argument 26811 26831	cost to the taxpayer
+T222	Consequence 26803 26810	prevent
+E74	Consequence:T222 Effect:T219 Cause:T218
+A75	Degree E74 Inhibit
+#9	AnnotatorNotes E10	Should "X is why Y: because Z" be a single construction?
+T36	Argument 6624 6643	what should be done
+T223	Consequence 8129 8134	avoid
+E75	Consequence:T223 Effect:T224 Cause:T560 Means:T561
+A76	Degree E75 Inhibit
+T224	Argument 8135 8328	a cascading effect from Bear Stearns's collapse that could have spread throughout the financial system with what I believe would have been decidedly negative implications for the larger economy
+T225	Consequence 13518 13525	prevent
+E76	Consequence:T225 Effect:T226
+T226	Argument 13526 13546	a financial meltdown
+A77	Degree E76 Inhibit
+R7	Coref Arg1:T146 Arg2:T147
+T229	Motivation 1740 1745	given
+E77	Motivation:T229 Cause:T230 Effect:T9
+A78	Degree E77 Facilitate
+T230	Argument 1746 1781	the interest of members in speaking
+T231	Argument 8087 8116	the Federal Reserve intervene
+T51	Consequence 19685 19691	ensure
+E18	Consequence:T51 Effect:T53 Cause:T7
+A20	Degree E18 Facilitate
+T53	Argument 19692 19729	the stability of the financial system
+T234	Motivation 6825 6828	for
+E79	Motivation:T234 Effect:T235 Cause:T236
+A80	Degree E79 Facilitate
+T235	Argument 6804 6824	I thank the chairman
+T236	Argument 6829 6929	holding this hearing on systemic risk and the appropriate regulatory responses to managing that risk
+T70	Consequence 10569 10578	make sure
+E80	Consequence:T70 Cause:T237 Effect:T107
+A81	Degree E80 Facilitate
+T107	Argument 10579 10701	that the cost of that failure is borne by the firm's shareholders and creditors, and not passed on to the taxpaying public
+T237	Argument 10558 10560	we
+T7	Argument 19652 19654	we
+T168	Consequence 8546 8553	created
+E56	Consequence:T168 Cause:T169 Effect:T170
+A34	Degree E56 Facilitate
+T169	Argument 8557 8580	the run on Bear Stearns
+T170	Argument 8525 8545	the immediate crisis
+T171	Purpose 9932 9934	to
+E57	Purpose:T171 Cause:T172 Effect:T173
+A59	Degree E57 Facilitate
+T172	Argument 9935 9968	provide for an orderly resolution
+T173	Argument 9917 9931	what we can do
+T240	Motivation 15174 15177	for
+E81	Motivation:T240 Effect:T242 Cause:T241
+A60	Degree E81 Facilitate
+T241	Argument 15178 15206	his leadership on this issue
+T242	Argument 15148 15173	thank Congressman Garrett
+T243	Consequence 15936 15948	facilitating
+E82	Consequence:T243 Effect:T124
+A82	Degree E82 Facilitate
+T244	Consequence 21497 21504	creates
+E83	Consequence:T244 Effect:T245 Cause:T246
+A83	Degree E83 Facilitate
+T245	Argument 21505 21519	inefficiencies
+T246	Argument 21492 21496	that
+T247	Argument 21469 21491	regulatory competition
+R8	Coref Arg1:T246 Arg2:T247
+T248	Consequence 21528 21536	engender
+E84	Consequence:T248 Effect:T249 Cause:T246
+A84	Degree E84 Facilitate
+T249	Argument 21537 21557	a race to the bottom
+T10	Argument 24096 24145	avert events that pose unacceptable systemic risk
+T227	Argument 24085 24092	step in
+T228	Purpose 24093 24095	to
+E3	Purpose:T228 Cause:T10 Effect:T227
+A9	Degree E3 Facilitate
+T266	Motivation 24232 24241	Therefore
+E90	Motivation:T266 Effect:T265
+A90	Degree E90 Facilitate
+T265	Argument 24243 24580	we should consider how to most appropriately give the Federal Reserve the authority to access necessary information from complex financial institutions, whether it is a commercial bank, an investment bank, a hedge fund, or another type of financial institution, and the tools to intervene to mitigate systemic risk in advance of a crisis
+T174	Argument 25745 25766	Steps are being taken
+T175	Argument 25770 25799	improve market infrastructure
+T176	Purpose 25767 25769	to
+E58	Purpose:T176 Cause:T175 Effect:T174
+A61	Degree E58 Facilitate
+T267	Consequence 26261 26268	ensures
+E91	Consequence:T267 Cause:T270 Effect:T268
+T268	Argument 26269 26350	the financial system can withstand the failure of a large, complex financial firm
+T269	Argument 26235 26255	a resolution process
+T270	Argument 26256 26260	that
+R9	Coref Arg1:T270 Arg2:T269
+T220	Argument 27322 27374	discuss financial regulation and financial stability
+T221	Purpose 27319 27321	to
+E73	Purpose:T221 Cause:T220 Effect:T258
+A74	Degree E73 Facilitate
+T258	Argument 27305 27318	be here today
+T259	Motivation 28889 28892;28936 28938	led to
+E88	Motivation:T259 Effect:T260 Cause:T264
+A88	Degree E88 Facilitate
+T260	Argument 28893 28935;28939 29128	the Basel Committee on Banking Supervision consider higher capital charges for such items as certain complex structured credit products, assets and banks trading books, and liquidity guarantees provided to off-balance sheet vehicles
+T264	Argument 28870 28883	recent events
+T271	Argument 29300 29353	strong risk measurement and risk management practices
+T272	Argument 29354 29358	that
+R10	Coref Arg1:T272 Arg2:T271
+T273	Consequence 29359 29364;29374 29376	allow to
+E92	Consequence:T273 Effect:T274 Cause:T272
+A91	Degree E92 Facilitate
+T274	Argument 29365 29373;29377 29428	managers assess the risk that they face on a firm-wide basis
+T275	Argument 29696 29763	the orderly liquidation of a systemically important securities firm
+T276	Consequence 29683 29695	facilitating
+E93	Consequence:T276 Effect:T275
+A92	Degree E93 Facilitate
+T277	Consequence 30060 30064	help
+E94	Consequence:T277 Cause:T278 Effect:T279
+A93	Degree E94 Facilitate
+T278	Argument 29833 29852	the Federal Reserve
+T279	Argument 30065 30172	ensure that those firms have the financial strength needed to withstand conditions of extreme market stress
+T280	Consequence 30065 30071	ensure
+E95	Consequence:T280 Cause:T278 Effect:T281
+A94	Degree E95 Facilitate
+T281	Argument 30072 30172	that those firms have the financial strength needed to withstand conditions of extreme market stress
+T282	Purpose 30178 30180	To
+E96	Purpose:T282 Cause:T283 Effect:T284
+A95	Degree E96 Facilitate
+T283	Argument 30181 30225	formalize our effective working relationship
+T284	Argument 30227 30308	the SEC and the Federal Reserve this week agreed to a memorandum of understanding
+T285	Consequence 30513 30522	needed to
+E97	Consequence:T285 Cause:T287 Effect:T286
+A96	Degree E97 Facilitate
+T286	Argument 30494 30505	legislation
+T287	Argument 30523 30630	provide a more robust framework for prudential supervision of investment banks and other securities dealers
+T288	Consequence 31257 31263	induce
+E98	Consequence:T288 Cause:T290 Effect:T289
+A97	Degree E98 Facilitate
+T289	Argument 31264 31344	a migration of risk-taking activities to less-regulated or offshore institutions
+T290	Argument 31096 31135	reforms in the oversight of these firms
+T291	Consequence 32361 32365	make
+E99	Consequence:T291 Effect:T293 Cause:T292
+A98	Degree E99 Facilitate
+T292	Argument 32342 32344	we
+T293	Argument 32366 32386;32387 32425	the financial system better able to withstand future shocks
+T294	Argument 32687 32721	key payment and settlement systems
+T295	Argument 32632 32677	the stability of the broader financial system
+T296	Consequence 32678 32686;32722 32724	requires to
+E100	Consequence:T296 Cause:T294 Effect:T295
+T297	Argument 33329 33473	the Congress should consider granting the Federal Reserve explicit oversight authority for systemically important payment and settlement systems
+T298	Argument 33256 33327	robust payment and settlement systems are vital for financial stability
+T299	Motivation 33248 33255	Because
+E101	Motivation:T299 Cause:T298 Effect:T297
+A100	Degree E101 Facilitate
+T200	Argument 24728 24751	inform future decisions
+T204	Argument 24586 24652	The MOU recently finalized between the SEC and the Federal Reserve
+T205	Consequence 24723 24727	help
+E68	Consequence:T205 Effect:T200 Cause:T204
+A17	Degree E68 Facilitate
+T300	Argument 34077 34151	the resolution of a failing securities firm might have fiscal implications
+T301	Argument 34153 34301	it would be appropriate for the Treasury to take a leading role in any such process, in consultation with the firm's regulator and other authorities
+T302	Consequence 34069 34076	Because
+E102	Consequence:T302 Cause:T300 Effect:T301
+A101	Degree E102 Facilitate
+T303	Purpose 34697 34699	to
+E103	Purpose:T303 Effect:T305 Cause:T304
+A102	Degree E103 Facilitate
+T304	Argument 34700 34746	facilitate an orderly liquidation of that firm
+T305	Argument 34676 34696	set up a bridge bank
+T250	Consequence 34700 34710	facilitate
+E85	Consequence:T250 Effect:T251 Cause:T338
+A85	Degree E85 Facilitate
+T251	Argument 34711 34746	an orderly liquidation of that firm
+T252	Argument 35651 35682	Let me begin with the Secretary
+T261	Argument 35692 35860	I was pleased to note in your statement that you understand that the regulator at OFHEO, of Fannie Mae and Freddie Mac, believe that they are now adequately capitalized
+T262	Motivation 35684 35691	because
+E89	Motivation:T262 Cause:T261 Effect:T252
+A89	Degree E89 Facilitate
+T263	Argument 37134 37170	the Federal Reserve needs more power
+T306	Argument 37125 37132	do that
+T307	Purpose 37113 37124	in order to
+E104	Purpose:T307 Cause:T306 Effect:T263
+T308	Purpose 40636 40638	so
+E105	Purpose:T308 Effect:T310 Cause:T309
+A103	Degree E105 Facilitate
+T309	Argument 40644 40752	early next year, one of the first items on the congressional agenda will be the legislation you talked about
+T310	Argument 40472 40486;40600 40634	are we able to begin working immediately together
+T311	Argument 36415 36515	unconstrained risk-taking in a group of financial institutions outside the commercial banking system
+T312	Argument 36350 36398	threats to the systemic stability of the economy
+T313	Argument 36400 36404	that
+R11	Coref Arg1:T313 Arg2:T312
+T314	Consequence 36405 36414	come from
+E106	Consequence:T314 Cause:T311 Effect:T313
+A104	Degree E106 Facilitate
+T315	Consequence 40098 40102;40115 40119	come from
+E107	Consequence:T315 Effect:T316 Cause:T318
+A105	Degree E107 Facilitate
+T316	Argument 40087 40091	that
+T317	Argument 40074 40086	the problems
+R12	Coref Arg1:T316 Arg2:T317
+T318	Argument 40120 40162	someone too big or too unconnected to fail
+T319	Argument 40501 40528	the cooperation we have had
+T320	Argument 40472 40493	are we able to get by
+T321	Consequence 40495 40500	given
+E108	Consequence:T321 Cause:T319 Effect:T320
+A106	Degree E108 Facilitate
+T322	Consequence 40530 40535	given
+E109	Consequence:T322 Effect:T320 Cause:T323
+A107	Degree E109 Facilitate
+T323	Argument 40536 40594	the kind of support we try to give you as much as possible
+A86	Degree E91 Facilitate
+T253	Motivation 15565 15568	for
+E86	Motivation:T253 Effect:T254 Cause:T255
+A87	Degree E86 Facilitate
+T254	Argument 15476 15564	specifically thank you and your staff, as well as the public and private sector partners
+T255	Argument 15569 15676	organizing the HOPE NOW Alliance, which has helped to keep hundreds of thousands of families in their homes
+T256	Consequence 32958 32964	ensure
+E87	Consequence:T256 Cause:T257 Effect:T332
+A111	Degree E87 Facilitate
+T257	Argument 32840 32949	a patchwork of authorities, largely derived from our role as a banking supervisor as well as on moral suasion
+T333	Motivation 33775 33786	in light of
+E113	Motivation:T333 Cause:T334 Effect:T335
+A112	Degree E113 Facilitate
+T334	Argument 33787 33811	the Bear Stearns episode
+T335	Argument 33813 34063	the Congress may wish to consider whether new tools are needed for ensuring an orderly liquidation of a systemically important securities firm that is on the verge of bankruptcy together with a more formal process for deciding when to use those tools
+T336	Argument 33889 33990	an orderly liquidation of a systemically important securities firm that is on the verge of bankruptcy
+T337	Consequence 33880 33888	ensuring
+E114	Consequence:T337 Effect:T336
+A113	Degree E114 Facilitate
+T341	Argument 35029 35143	securities firms differ significantly from commercial banks in their financing, business models, and in other ways
+T342	Argument 35148 35209	the fiducial rules are not directly applicable to these firms
+T343	Consequence 35145 35147	so
+E116	Consequence:T343 Cause:T341 Effect:T342
+A115	Degree E116 Facilitate
+A116	Degree E104 Facilitate
+T352	Argument 25519 25541;25561 25565	financial institutions fail
+T353	Consequence 25550 25560	allowed to
+E120	Consequence:T353 Effect:T352
+A120	Degree E120 Facilitate
+T354	Consequence 8768 8771;8798 8800	too to
+E121	Consequence:T354 Effect:T355 Cause:T356
+A121	Degree E121 Inhibit
+T355	Argument 8801 8805	fail
+T356	Argument 8768 8775	too big
+T357	Consequence 8779 8782;8798 8800	too to
+E122	Consequence:T357 Effect:T355 Cause:T358
+A122	Degree E122 Inhibit
+T358	Argument 8779 8797	too interconnected
+T359	Consequence 40128 40131;40155 40157	too to
+E123	Consequence:T359 Effect:T361 Cause:T360
+A123	Degree E123 Inhibit
+T360	Argument 40128 40135	too big
+T361	Argument 40158 40162	fail
+T362	Argument 40139 40154	too unconnected
+T363	Consequence 40139 40142;40155 40157	too to
+E124	Consequence:T363 Effect:T361 Cause:T362
+A124	Degree E124 Inhibit
+T364	Argument 8837 8844	too big
+T365	Argument 8848 8852	fail
+T366	Consequence 8837 8840;8845 8847	too to
+E125	Consequence:T366 Effect:T365 Cause:T364
+A125	Degree E125 Inhibit
+T367	Consequence 10331 10334;10357 10359	too to
+E126	Consequence:T367 Effect:T368 Cause:T369
+A126	Degree E126 Inhibit
+T368	Argument 10360 10364	fail
+T369	Argument 10331 10356	too big or interconnected
+T370	Consequence 23044 23047;23058 23061;23066 23068	too for to
+E127	Consequence:T370 Cause:T372 Effect:T371
+A127	Degree E127 Inhibit
+T371	Argument 23011 23030;23062 23065;23069 23071	constrained by them you be
+T372	Argument 23044 23057	too important
+T373	Consequence 25694 25697;25713 25715	too to
+E128	Consequence:T373 Effect:T374 Cause:T375
+A128	Degree E128 Inhibit
+T374	Argument 25716 25720	fail
+T375	Argument 25694 25712	too interconnected
+T376	Consequence 25724 25727;25732 25734	too to
+E129	Consequence:T376 Effect:T378 Cause:T377
+A129	Degree E129 Inhibit
+T377	Argument 25724 25731	too big
+T378	Argument 25735 25739	fail
+T379	Motivation 33631 33634;33650 33652	too to
+E130	Motivation:T379 Effect:T380 Cause:T381
+A130	Degree E130 Inhibit
+T380	Argument 33653 33754	think about steps that might be taken to reduce the incidence and severity of future financial crises
+T381	Argument 33631 33639	too soon
+T382	Purpose 33691 33693	to
+E131	Purpose:T382 Cause:T384 Effect:T383
+A131	Degree E131 Facilitate
+T383	Argument 33671 33690	that might be taken
+T384	Argument 33694 33754	reduce the incidence and severity of future financial crises
+T385	Argument 32480 32487	too big
+T386	Argument 32491 32495	fail
+T387	Consequence 32480 32483;32488 32490	too to
+E132	Consequence:T387 Effect:T386 Cause:T385
+A132	Degree E132 Inhibit
+T388	Motivation 6460 6463	for
+E133	Motivation:T388 Cause:T389 Effect:T390
+A133	Degree E133 Facilitate
+T389	Argument 6464 6546	having done a good job in the current legal context of dealing with these problems
+T390	Argument 6408 6459	I congratulate the officials of this Administration
+T156	Argument 30127 30172	withstand conditions of extreme market stress
+T157	Argument 30094 30116	the financial strength
+T158	Consequence 30117 30126	needed to
+E52	Consequence:T158 Effect:T156 Cause:T157
+A55	Degree E52 Facilitate
+T394	Consequence 23285 23291;23297 23299	enough to
+E135	Consequence:T394 Effect:T396 Cause:T395
+A135	Degree E135 Facilitate
+T395	Argument 23285 23296	enough time
+T396	Argument 23300 23314	listen to this
+T391	Argument 16309 16331	the Federal Government
+T392	Argument 16338 16408	prevent future, similar bailouts that can put taxpayer dollars at risk
+T397	Purpose 16335 16337	to
+E134	Purpose:T397 Effect:T132 Cause:T392
+A134	Degree E134 Facilitate
+T398	Consequence 26780 26790;26800 26802	sufficient to
+E136	Consequence:T398 Cause:T218 Effect:T399
+A136	Degree E136 Facilitate
+T399	Argument 26803 26863	prevent cost to the taxpayer to the greatest extent possible
+T344	Purpose 42611 42613	to
+E117	Purpose:T344 Cause:T345 Effect:T346
+A117	Degree E117 Facilitate
+T345	Argument 42614 42632	make one statement
+T346	Argument 42588 42605	break my own rule
+T400	Consequence 32953 32957	help
+E137	Consequence:T400 Effect:T401 Cause:T257
+A137	Degree E137 Facilitate
+T401	Argument 32958 33099	ensure that the various payment and settlement systems have the necessary procedures and controls in place to manage the risks that they face
+T402	NonCausal 34770 34778	requires
+E138	NonCausal:T402 Effect:T403 Cause:T404
+T403	Argument 34779 35011	that failing banks be resolved in a way that imposes the least cost to the government, except when the authorities through a well-defined procedure determine that following the least cost route would entail significant systemic risk
+T404	Argument 34748 34764	The fiducial law
+T347	Argument 5759 5790	that is too unconstrained today
+T349	Consequence 32678 32686;32759 32761	requires to
+E118	Consequence:T349 Cause:T350 Effect:T295
+T350	Argument 32687 32721;32725 32754;32762 32798	key payment and settlement systems operate smoothly under stress effectively manage counterparty risk
+T338	Argument 34603 34611	the FDIC
+T239	Consequence 36223 36228	means
+E115	Consequence:T239 Cause:T340 Effect:T339
+A114	Degree E115 Facilitate
+T339	Argument 36229 36255	more regulation everywhere
+T340	Argument 36220 36222	it
+T405	Motivation 42224 42226	So
+E119	Motivation:T405 Effect:T406
+A119	Degree E119 Facilitate
+T406	Argument 42227 42311	my hope would be that the Congress would begin soon to think hard about these issues
+T351	Motivation 38589 38591	in
+E139	Motivation:T351 Cause:T408 Effect:T409
+A139	Degree E139 Facilitate
+T408	Argument 38465 38588	we should be moving to empower the Federal Reserve to have regulatory authority over a wide range of financial institutions
+T409	Argument 38592 38603;38612 38831	recognition of the fact that they have a systemic impact and that the current situation puts the Fed in an untenable position of being given a set of expectations to respond when it doesn't have the full panoply of tools to respond
+#1	AnnotatorNotes E12	Ambiguous: could be discourse
+T233	Argument 420 477	Chairman Bernanke will be before this committee next week
+T326	Motivation 478 481	for
+E111	Motivation:T326 Cause:T327 Effect:T233
+A110	Degree E111 Facilitate
+T327	Argument 482 525	the Humphrey-Hawkins hearing on the economy
+T328	Argument 1009 1052	talk about the economy and Humphrey-Hawkins
+T329	Argument 943 1005	We will have the Chairman before us for 3 more hours next week
+T330	Purpose 1006 1008	to
+E112	Purpose:T330 Cause:T328 Effect:T329
+A140	Degree E112 Facilitate
+T412	Argument 1638 1650	what happens
+T413	Consequence 1651 1653	if
+E141	Consequence:T413 Cause:T414 Effect:T412
+A142	Degree E141 Facilitate
+A143	Hypothetical E141
+T414	Argument 1654 1671	that should occur
+T415	Consequence 1937 1942	after
+E142	Consequence:T415 Cause:T416 Effect:T417
+A144	Degree E142 Facilitate
+A145	Temporal E142
+T416	Argument 1943 1969	the 5 minutes have expired
+T417	Argument 1912 1936	no question can be asked
+T418	NonCausal 2089 2094	after
+E143	NonCausal:T418 Cause:T419 Effect:T420
+A148	Temporal E143
+T419	Argument 2095 2108	the 5 minutes
+T420	Argument 2068 2088	asking any questions
+T421	Argument 2130 2140	that apply
+T422	Consequence 2141 2145	when
+E144	Consequence:T422 Effect:T421 Cause:T423
+A149	Degree E144 Facilitate
+A150	Context E144
+A151	Temporal E144
+T423	Argument 2146 2189	we have cabinet and cabinet-level officials
+T424	NonCausal 2568 2572	When
+E145	NonCausal:T424 Arg0:T425 Arg1:T426
+A152	Temporal E145
+T425	Argument 2573 2629	I was about to become chairman of this committee in 2006
+T426	Argument 2631 2722	I was told by a wide range of people that our agenda should be that of further deregulating
+T427	NonCausal 4360 4364	when
+E146	NonCausal:T427 Arg0:T429 Arg1:T428
+A153	Temporal E146
+T429	Argument 4365 4382	I became chairman
+T428	Argument 4340 4359	this committee took
+T430	Argument 4884 4924	that has brought a great deal of benefit
+T431	NonCausal 4925 4931	during
+E147	NonCausal:T431 Arg0:T432 Arg1:T430
+A154	Temporal E147
+T432	Argument 4932 4952	the last few decades
+T433	NonCausal 3068 3073	Where
+E148	NonCausal:T433 Arg0:T434 Arg1:T435
+A155	Context E148
+T434	Argument 3074 3187	there was a strong argument as recently as November of 2006 that we had been over-regulating the financial system
+T435	Argument 3189 3356	I believe the evidence is now clear that we are in one of the most serious economic troubles that we have seen recently, in part because of an inadequacy of regulation
+T436	Argument 5433 5437	made
+T437	NonCausal 5438 5445	without
+E149	NonCausal:T437 Arg1:T436 Arg0:T438
+A156	Context E149
+T438	Argument 5446 5510	sufficient attention to whether or not the loans could be repaid
+A157	Hypothetical E23
+T439	Consequence 6381 6383	So
+E150	Consequence:T439 Effect:T440
+A158	Degree E150 Facilitate
+T440	Argument 6384 6391;6548 6756	our job is to look at what happened, to look at what is now going on, and to decide what should be done to provide a better statutory framework for the increase in regulation that I believe people agree should happen
+T441	NonCausal 6981 6983	at
+E151	NonCausal:T441 Arg0:T442 Arg1:T443
+A159	Temporal E151
+T442	Argument 6984 7007	some time in the future
+T443	Argument 6941 6954;7008 7061	there will be maybe a new regulatory structure which will take time
+A160	Hypothetical E14
+A161	Extremity-sufficiency E122
+A162	Extremity-sufficiency E121
+A163	Creation-termination E56
+A164	Extremity-sufficiency E125
+T393	Motivation 9449 9459	discourage
+E152	Motivation:T393 Effect:T444 Cause:T604 Means:T564
+A165	Degree E152 Inhibit
+T444	Argument 9460 9489	unsound practices and conduct
+T445	Motivation 9586 9588	if
+E153	Motivation:T445 Cause:T446 Effect:T447
+A166	Degree E153 Facilitate
+A167	Hypothetical E153
+T446	Argument 9589 9602	one does fail
+T447	Argument 9604 9662	we must ensure that taxpayers are not left holding the bag
+T448	NonCausal 9782 9786	when
+E154	NonCausal:T448 Arg0:T449 Arg1:T450
+A168	Temporal E154
+T449	Argument 9787 9809	Bear Stearns collapsed
+T450	Argument 9763 9781	we dodged a bullet
+T451	Consequence 10254 10264	discourage
+E155	Consequence:T451 Effect:T452 Cause:T565 Means:T605
+A169	Degree E155 Inhibit
+T452	Argument 10265 10277	moral hazard
+A170	Extremity-sufficiency E126
+T453	NonCausal 10420 10424	when
+E156	NonCausal:T453 Arg0:T454 Arg1:T455
+A171	Temporal E156
+T454	Argument 10425 10437	a firm fails
+T455	Argument 10439 10527	it does not bring down the entire financial system with it, i.e., an orderly liquidation
+T456	Motivation 10722 10724	of
+E157	Motivation:T456 Cause:T457 Effect:T458
+T457	Argument 10725 10734	necessity
+T458	Argument 10735 10803	we have to plan for how to handle the failure of a major institution
+A172	Degree E157 Facilitate
+T459	NonCausal 11341 11343	at
+E158	NonCausal:T459 Arg0:T460 Arg1:T461
+A173	Temporal E158
+T460	Argument 11344 11363	a critical juncture
+T461	Argument 11322 11340	this hearing comes
+T462	NonCausal 11365 11367	As
+E159	NonCausal:T462 Arg0:T463 Arg1:T464
+A174	Temporal E159
+T463	Argument 11368 11519	the economy reels from a widespread, far-reaching financial crisis that continues to wreak havoc on everything from the housing market to student loans
+T464	Argument 11607 11711	we must simultaneously look to the future to determine how to prevent or at least mitigate future crises
+T465	NonCausal 11521 11526	while
+E160	NonCausal:T465 Arg0:T466 Arg1:T464
+T466	Argument 11527 11605	we remain focused on many current economic difficulties average Americans face
+A175	Temporal E160
+T238	NonCausal 11952 11954	as
+E161	NonCausal:T238 Arg0:T467 Arg1:T468
+A176	Temporal E161
+T467	Argument 11955 11987	these market transactions evolve
+T468	Argument 11942 11951	keep pace
+T469	Consequence 12879 12886	without
+E162	Consequence:T469 Cause:T470 Effect:T471
+A177	Degree E162 Inhibit
+T470	Argument 12887 12897	conditions
+T471	Argument 12850 12878	No one else can borrow money
+T472	NonCausal 13125 13130	since
+E163	NonCausal:T472 Arg0:T473 Arg1:T474
+A178	Temporal E163
+T473	Argument 13131 13137	August
+T474	Argument 13103 13124	the financial turmoil
+T104	NonCausal 14343 14347	Then
+E164	NonCausal:T104 Effect:T475
+T475	Argument 14348 14429	congressional action in the form of increased oversight in authority is warranted
+T476	Motivation 14901 14904	for
+E165	Motivation:T476 Cause:T477 Effect:T478
+A180	Degree E165 Facilitate
+T477	Argument 14905 14945	holding today's hearing on systemic risk
+T478	Argument 14891 14900	thank you
+T479	Argument 13723 13725	we
+A181	Hypothetical E67
+A182	Creation-termination E83
+T483	Argument 16517 16536	specific indicators
+R4	Coref Arg1:T135 Arg2:T483
+T487	Consequence 17180 17186	create
+E167	Consequence:T487 Cause:T489 Effect:T488
+A184	Degree E167 Facilitate
+A185	Creation-termination E167
+T488	Argument 17187 17367	a simpler, stronger, regulatory system that preserves the resilience of our economy, protects taxpayers, and maintains the position of our financial system as the envy of the world
+T489	Argument 17140 17142	we
+T490	NonCausal 18222 18227	since
+E168	NonCausal:T490 Arg0:T491 Arg1:T492
+A186	Temporal E168
+T491	Argument 18228 18239	last August
+T492	Argument 18169 18221	our financial markets have been experiencing turmoil
+T493	Consequence 18241 18243;18249 18253;18270 18272	It take to
+E169	Consequence:T493 Cause:T494 Effect:T495
+A187	Degree E169 Facilitate
+T494	Argument 18254 18269	additional time
+T495	Argument 18273 18302	work through these challenges
+T496	Consequence 18898 18902	made
+E170	Consequence:T496 Cause:T498 Effect:T497
+A188	Degree E170 Facilitate
+T497	Argument 18903 18908;18909 18945	clear that they are adequately capitalized
+T498	Argument 18878 18893	Their regulator
+T500	NonCausal 19588 19593	while
+E171	NonCausal:T500 Arg0:T501 Arg1:T140
+A189	Temporal E171
+T501	Argument 19594 19650	respecting our different authorities or responsibilities
+T502	Purpose 19682 19684	to
+E172	Purpose:T502 Cause:T503 Effect:T504
+A190	Degree E172 Facilitate
+T503	Argument 19685 19729	ensure the stability of the financial system
+T504	Argument 19652 19681	we have been working together
+T505	NonCausal 20544 20546	as
+E173	NonCausal:T505 Arg0:T506 Arg1:T507
+A191	Temporal E173
+T506	Argument 20547 20660	we continue our primary focus on confronting current challenges and maintaining stable, orderly financial markets
+T507	Argument 20500 20537	discussing these ideas with you today
+T508	NonCausal 21900 21908	creating
+E174	NonCausal:T508 Effect:T509
+T509	Argument 21909 21976	a new Federal level commission, the Mortgage Origination Commission
+A194	Creation-termination E174
+T513	NonCausal 22453 22461	creation
+E176	NonCausal:T513 Arg1:T514
+A192	Creation-termination E176
+T514	Argument 22465 22571	an optional Federal charter for insurance companies similar to the current dual charter system for banking
+T515	NonCausal 22668 22676	creation
+E177	NonCausal:T515 Arg1:T516
+A195	Creation-termination E177
+T516	Argument 22680 22755	a Federal charter for systemically important payment and settlement systems
+T517	Consequence 22834 22843	guarantee
+E178	Consequence:T517 Effect:T518
+A196	Degree E178 Facilitate
+T518	Argument 22844 22873	the integrity of this vital--
+T521	NonCausal 23369 23373	When
+E179	NonCausal:T521 Arg0:T522 Arg1:T523
+A197	Temporal E179
+T522	Argument 23374 23399	we released the Blueprint
+T523	Argument 23401 23485	I said that we were laying out a long-term vision that would not be implemented soon
+T524	NonCausal 23487 23492	Since
+E180	NonCausal:T524 Arg0:T525 Arg1:T526
+A198	Temporal E180
+T525	Argument 23493 23497	then
+T526	Argument 23499 23778	the Bear Stearns episode and market turmoil more generally have placed in stark relief the outdated nature of our regulatory system and has convinced me that we must move much more quickly to update our regulatory structure and improve both market oversight and market discipline
+T530	Motivation 25812 25817	where
+E182	Motivation:T530 Cause:T531 Effect:T532
+A200	Degree E182 Facilitate
+A201	Context E182
+T531	Argument 25818 25860	our financial firms are highly intertwined
+T532	Argument 25745 25799	Steps are being taken to improve market infrastructure
+A202	Hypothetical E70
+T533	NonCausal 31762 31767	since
+E183	NonCausal:T533 Arg0:T534 Arg1:T535
+A203	Temporal E183
+T534	Argument 31768 31782	September 2005
+T535	Argument 31784 31998	the Federal Reserve Bank of New York has been leading a major joint initiative by both the public and private sectors to improve arrangements for clearing and settling credit default swaps and other OTC derivatives
+T332	Argument 32965 33099	that the various payment and settlement systems have the necessary procedures and controls in place to manage the risks that they face
+T536	Consequence 33554 33561;33583 33585	helping to
+E184	Consequence:T536 Effect:T537
+A204	Degree E184 Facilitate
+T537	Argument 33562 33582;33586 33619	the financial system return to more normal functioning
+T540	NonCausal 36959 36965	create
+E186	NonCausal:T540 Arg0:T542 Arg1:T541
+A206	Creation-termination E186
+T541	Argument 36966 36987	a brand new regulator
+T542	Argument 36955 36958	you
+T543	NonCausal 37310 37316	before
+E187	NonCausal:T543 Arg0:T544 Arg1:T545
+T544	Argument 37317 37326	that time
+T545	Argument 37301 37304;37327 37381	act to diminish the need for that and to oppose conditions
+T546	NonCausal 38774 38778	when
+E188	NonCausal:T546 Arg0:T547 Arg1:T548
+T547	Argument 38779 38831	it doesn't have the full panoply of tools to respond
+T548	Argument 38766 38773	respond
+T549	Argument 40330 40343	can we get by
+T550	NonCausal 40344 40349	until
+E189	NonCausal:T550 Arg0:T551 Arg1:T549
+A208	Temporal E189
+T551	Argument 40350 40369	the end of the year
+T325	NonCausal 26226 26234	creating
+E110	NonCausal:T325 Arg1:T552
+T552	Argument 26235 26350	a resolution process that ensures the financial system can withstand the failure of a large, complex financial firm
+A108	Creation-termination E110
+A38	Extremity-sufficiency E127
+A209	Extremity-sufficiency E135
+A210	Obligation-permission E120
+A211	Extremity-sufficiency E129
+A212	Extremity-sufficiency E128
+A213	Extremity-sufficiency E136
+A215	Extremity-sufficiency E132
+A216	Extremity-sufficiency E130
+A217	Context E32
+T99	Consequence 10839 10845	create
+E35	Consequence:T99 Arg0:T108 Arg1:T101
+T101	Argument 10846 10893	a system focused not on failure, but on success
+T108	Argument 10836 10838	we
+A218	Degree E35 Facilitate
+A219	Creation-termination E35
+T407	NonCausal 21762 21769	created
+E190	NonCausal:T407 Arg0:T519 Arg1:T480
+T480	Argument 21770 21820	the President's Working Group on Financial Markets
+T519	Argument 21756 21761	which
+T553	Argument 21736 21755	the Executive Order
+R13	Coref Arg1:T519 Arg2:T553
+A220	Creation-termination E190
+T556	Argument 21900 22188	creating a new Federal level commission, the Mortgage Origination Commission, to establish minimum standards for among other things personal conduct and disciplinary history, minimum educational requirements, testing criteria and procedures, and appropriate licensing revocation standards
+A224	Obligation-permission E138
+A225	Temporal E187
+T559	Note 1193 1200	because
+#14	AnnotatorNotes T559	Discourse: "I'm saying this because..."
+T567	Argument 12170 12286	by closing gaps in our regulatory structure and by promoting consolidation and cooperation among regulatory agencies
+T600	Note 135 137	so
+#55	AnnotatorNotes T600	Discourse
+T331	NonCausal 1979 1984;1997 1999	allow to
+E140	NonCausal:T331 Arg0:T411 Arg1:T410
+T410	Argument 1985 1996;2000 2008	the answers conclude
+T411	Argument 1971 1973	We
+T557	Note 7334 7342	requires
+#6	AnnotatorNotes T557	Demands
+T560	Argument 8087 8106	the Federal Reserve
+T561	Argument 8107 8116	intervene
+T562	Consequence 8147 8153	effect
+E192	Consequence:T562 Cause:T563
+A141	Degree E192 Facilitate
+T563	Argument 8159 8182	Bear Stearns's collapse
+T601	Consequence 8293 8305	implications
+E193	Consequence:T601 Cause:T602
+A146	Degree E193 Facilitate
+T602	Argument 8183 8237	that could have spread throughout the financial system
+#17	AnnotatorNotes E193	"With" is the possession word in this instance.
+T603	Note 8154 8158	from
+#18	AnnotatorNotes T603	Interesting use: "effect from." Strange way to express possession.
+T604	Argument 9337 9339	we
+T564	Argument 9345 9385	establish a modern, regulatory structure
+T565	Argument 10279 10281	we
+T605	Argument 10287 10364	see to it that no firm should be considered too big or interconnected to fail
+T606	Argument 11112 11135	Thank you, Mr. Chairman
+T607	Argument 11141 11161	holding this hearing
+T608	Motivation 11137 11140	for
+E194	Motivation:T608 Cause:T607 Effect:T606
+A147	Degree E194 Facilitate
+A226	Obligation-permission E140
+T566	NonCausal 12965 12975	allowed to
+E195	NonCausal:T566 Arg1:T568
+A227	Obligation-permission E195
+T568	Argument 12942 12961;12976 12981	the investment bank do so
+T569	Argument 14303 14341	it is true that speculators bear blame
+T570	Argument 14191 14297	To the extent that we can glean further insight from our panelists today, that would be of tremendous help
+T571	Consequence 14299 14302	for
+E196	Consequence:T571 Cause:T569 Effect:T570
+A228	Degree E196 Facilitate
+A179	Temporal E164
+T572	Argument 16300 16304;16332 16334	what do
+T482	Note 16658 16665	without
+#4	AnnotatorNotes T482	Not "in the absence of."
+T484	Argument 19217 19228	the turmoil
+T485	Consequence 19207 19213	causes
+E166	Consequence:T485 Effect:T484
+A183	Degree E166 Facilitate
+T486	Argument 19652 19729	we have been working together to ensure the stability of the financial system
+T499	Motivation 20870 20881	reasons why
+E197	Motivation:T499 Effect:T573
+A229	Degree E197 Facilitate
+T573	Argument 20882 20893	we regulate
+A230	Creation-termination E84
+T574	Argument 21469 21557	regulatory competition that creates inefficiencies and can engender a race to the bottom
+T554	NonCausal 21826 21831	while
+E191	NonCausal:T554 Arg0:T555 Arg1:T556
+A221	Temporal E191
+T555	Argument 21832 21898	retaining State level regulation of mortgage origination practices
+T510	Note 21978 21980	to
+#8	AnnotatorNotes T510	Purpose of existence of the commission
+T577	Argument 24509 24518	the tools
+T578	Argument 24522 24580	intervene to mitigate systemic risk in advance of a crisis
+T579	Consequence 24519 24521	to
+E199	Consequence:T579 Cause:T577 Effect:T578
+A232	Degree E199 Facilitate
+T580	Consequence 24864 24875	critical to
+E200	Consequence:T580 Effect:T609 Cause:T610
+A233	Degree E200 Facilitate
+T609	Argument 24876 24910	the health of our financial system
+T610	Argument 24838 24855	Market discipline
+T611	Argument 24944 24960	regulation alone
+T612	Consequence 24968 24977	eliminate
+E201	Consequence:T612 Cause:T611 Effect:T613
+A234	Degree E201 Inhibit
+A235	Creation-termination E201
+T613	Argument 24978 25016	all future bouts of market instability
+#10	AnnotatorNotes E199	Needed to
+T324	Argument 26711 26715	that
+T511	Argument 26688 26710	an extraordinary event
+T512	Argument 26725 26766	the engagement of the Treasury Department
+R14	Coref Arg1:T324 Arg2:T511
+T527	Consequence 26716 26724	requires
+E175	Consequence:T527 Cause:T324 Effect:T512
+A193	Degree E175 Facilitate
+A199	Obligation-permission E175
+#11	AnnotatorNotes E175	Mandates. You could read this, though, as primarily saying that the involvement enables the event.
+T528	Argument 26951 26960	thank you
+T529	Argument 26965 26980	your leadership
+T558	Motivation 26961 26964	for
+E181	Motivation:T558 Cause:T529 Effect:T528
+A236	Degree E181 Facilitate
+T576	Argument 27380 27424	The financial turmoil that began last summer
+T581	Argument 27437 27504	the ability of the financial system to perform its normal functions
+T582	Consequence 27429 27436	impeded
+E202	Consequence:T582 Effect:T581 Cause:T576
+A237	Degree E202 Inhibit
+T583	Note 27764 27776	implications
+#12	AnnotatorNotes T583	Inferences to be drawn, not effects
+T584	NonCausal 29769 29774	Since
+E203	NonCausal:T584 Arg1:T586 Arg0:T585
+A214	Temporal E203
+T585	Argument 29775 29831	the near collapse of the Bear Stearns companies in March
+T586	Argument 29833 30172	the Federal Reserve has been working closely with the Securities and Exchange Commission, which is the functional supervisor of each of the primary dealers and the consolidated supervisor of the four large investment banks, to help ensure that those firms have the financial strength needed to withstand conditions of extreme market stress
+T587	Purpose 30403 30407;30412 30424	with objective of
+E204	Purpose:T587 Cause:T588 Effect:T589
+A239	Degree E204 Facilitate
+T588	Argument 30425 30459	addressing the near-term situation
+T589	Argument 30310 30401	Cooperation between the Fed and SEC is taking place within the existing statutory framework
+T590	Argument 30817 30862	Strong holding company oversight is essential
+T614	Consequence 30868 30872	thus
+E205	Consequence:T614 Cause:T590 Effect:T615
+A240	Degree E205 Facilitate
+T615	Argument 30873 31072	in my view the Congress should consider requiring consolidated supervision of those firms and providing the regulator the authority to set standards for capital liquidity holdings and risk management
+T591	Argument 30884 30896	the Congress
+T616	NonCausal 30913 30922	requiring
+E206	NonCausal:T616 Arg0:T591 Arg1:T617
+A241	Obligation-permission E206
+T617	Argument 30923 30962	consolidated supervision of those firms
+T592	Argument 32585 32610	a government intervention
+T618	Argument 32544 32571	systemic stability concerns
+T619	Motivation 32578 32584	prompt
+E207	Motivation:T619 Effect:T592 Cause:T618
+A242	Degree E207 Facilitate
+#3	AnnotatorNotes E100	Difficult, but seems to be primarily saying that these are prerequisites for stability, not that stability mandates these things
+A99	Degree E100 Facilitate
+A118	Degree E118 Facilitate
+T620	Consequence 33022 33031;33065 33067	necessary to
+E208	Consequence:T620 Effect:T622 Cause:T621
+A222	Degree E208 Facilitate
+T621	Argument 33018 33055	the necessary procedures and controls
+T622	Argument 33068 33099	manage the risks that they face
+T593	Consequence 33298 33307	vital for
+E209	Consequence:T593 Effect:T623 Cause:T624
+A223	Degree E209 Facilitate
+T623	Argument 33308 33327	financial stability
+T624	Argument 33256 33293	robust payment and settlement systems
+T206	Note 33869 33879	needed for
+#13	AnnotatorNotes T206	This actually appears to be a non-projective sentence: "new tools for...together with a formal process...are needed."
+T207	Note 34380 34387	require
+#16	AnnotatorNotes T207	have need of
+T538	Note 36022 36028	before
+#7	AnnotatorNotes T538	Doesn't relate two arguments
+T539	Consequence 37492 37495	let
+E69	Consequence:T539 Effect:T594
+A71	Degree E69 Facilitate
+A138	Obligation-permission E69
+T594	Argument 37496 37498;37499 37606	me say, you know, there was a time when the notion of requiring hedge funds to register was very controversial
+T348	NonCausal 37550 37559;37572 37574	requiring to
+E185	NonCausal:T348 Arg1:T595
+A205	Obligation-permission E185
+T595	Argument 37560 37571;37575 37583	hedge funds register
+A207	Context E188
+T520	Argument 40932 40945	think through
+T596	Argument 40924 40928	time
+T597	NonCausal 40919 40923;40929 40931	take to
+E210	NonCausal:T597 Arg0:T596 Arg1:T520
+A243	Temporal E210
+T625	NonCausal 41078 41082;41093 41095	take to
+E211	NonCausal:T625 Arg1:T627 Arg0:T626
+A244	Temporal E211
+T626	Argument 41083 41092	some time
+T627	Argument 41096 41104	consider
+T628	NonCausal 41078 41082;41109 41111	take to
+E212	NonCausal:T628 Arg1:T629 Arg0:T626
+A245	Temporal E212
+T629	Argument 41112 41139	get the legislation through
+T630	Argument 41199 41204	which
+T631	Argument 41183 41198	a complex issue
+R15	Coref Arg1:T630 Arg2:T631
+T632	Argument 41215 41219	time
+T633	NonCausal 41210 41214	take
+E213	NonCausal:T633 Arg0:T632 Arg1:T630
+A246	Temporal E213
+T634	Argument 41375 41455	in terms of priorities, that should be even the higher priority in terms of time
+T635	Consequence 41372 41374	so
+E214	Consequence:T635 Effect:T634
+A247	Degree E214 Facilitate
+T636	Argument 41461 41465	that
+T637	Argument 41476 41485	some time
+T638	NonCausal 41471 41475	take
+E215	NonCausal:T638 Arg1:T637 Arg0:T636
+A248	Temporal E215
+T598	Note 42634 42641	because
+#5	AnnotatorNotes T598	Odd discourse usage
+T52	Argument 11607 11609	we
+T208	NonCausal 21459 21468	eliminate
+E78	NonCausal:T208 Arg0:T232 Arg1:T574
+A79	Creation-termination E78
+T232	Argument 21437 21458	these recommendations
+#15	AnnotatorNotes E25	Although this and the next few have a "to __ we must __" structure, they don't appear to be saying that the second clause enables the first; they appear to be saying that we should do the second with the goal of the first.

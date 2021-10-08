@@ -1,0 +1,93 @@
+T1	Argument 196 246	Mayor Michael R. Bloomberg travels to Albany today
+T2	Argument 250 286	testify before the State Legislature
+T3	Purpose 247 249	to
+E1	Purpose:T3 Cause:T2 Effect:T1
+A1	Degree E1 Facilitate
+T4	Argument 813 829	that were issued
+T5	Argument 833 886	bail out the city from the fiscal crisis of the 1970s
+T6	Purpose 830 832	to
+E2	Purpose:T6 Cause:T5 Effect:T4
+A2	Degree E2 Facilitate
+T7	Consequence 2664 2674	because of
+E3	Consequence:T7 Cause:T8 Effect:T9
+A3	Degree E3 Facilitate
+T8	Argument 2675 2705	how state aid is accounted for
+T9	Argument 2707 2775	the $327.9 million reduction might feel more like a $650 million hit
+T10	Consequence 6152 6159;6195 6199	prevent from
+E4	Consequence:T10 Effect:T12 Cause:T11
+A4	Degree E4 Inhibit
+T11	Argument 6135 6145	One change
+T12	Argument 6160 6194;6200 6240	employees who have won jury awards also collecting full disability pensions
+T13	Argument 2937 3025	Mr. Spitzer's AIM proposal takes effect for the state fiscal year that starts on April 1
+T14	Argument 3027 3123	New York City would lose its aid not only for its next fiscal year, but also for the current one
+T15	Consequence 2934 2936	If
+E5	Consequence:T15 Cause:T13 Effect:T14
+A5	Degree E5 Facilitate
+T16	NonCausal 191 195	when
+E6	NonCausal:T16 Arg1:T17 Arg0:T18
+A6	Temporal E6
+T17	Argument 142 190	that will most likely be a major point of debate
+T18	Argument 196 286	Mayor Michael R. Bloomberg travels to Albany today to testify before the State Legislature
+T19	Argument 1112 1120;1131 1143	The city was excluded
+T20	Argument 1151 1210	three overall increases in the program over the past decade
+T21	NonCausal 1144 1150	during
+E7	NonCausal:T21 Arg1:T19 Arg0:T20
+A7	Temporal E7
+T22	NonCausal 1190 1194	over
+E8	NonCausal:T22 Arg0:T23 Arg1:T24
+A8	Temporal E8
+T23	Argument 1195 1210	the past decade
+T24	Argument 1151 1189	three overall increases in the program
+A9	Hypothetical E5
+T28	Argument 4197 4244	they could not comment on the governor's budget
+T29	Argument 4251 4375	after the mayor testifies today at a joint hearing of the Senate Finance Committee and the Assembly Ways and Means Committee
+T30	Consequence 4245 4250	until
+E10	Consequence:T30 Effect:T28 Cause:T29
+A12	Degree E10 Inhibit
+A13	Temporal E10
+T36	Argument 5218 5250	eliminating the unrestricted aid
+T37	Argument 5187 5211	increasing education aid
+T38	NonCausal 5212 5217	while
+E13	NonCausal:T38 Arg0:T36 Arg1:T37
+A16	Temporal E13
+T39	Argument 5765 5770	which
+T40	Argument 5750 5763	the Wicks Law
+T41	Consequence 5771 5779;5795 5797	requires to
+E14	Consequence:T41 Cause:T39 Effect:T42
+A17	Degree E14 Facilitate
+A18	Obligation-permission E14
+T42	Argument 5780 5794;5798 5845	municipalities use four separate contractors for such projects
+R1	Coref Arg1:T39 Arg2:T40	
+T43	Consequence 7030 7032;7044 7048;7059 7062;7072 7074	It take for to
+E15	Consequence:T43 Effect:T46 Cause:T44
+A19	Degree E15 Facilitate
+T44	Argument 7049 7058	some time
+T46	Argument 7063 7071;7075 7147	the city work out just how well it will fare under the governor's budget proposal
+T45	Consequence 6911 6913	as
+E16	Consequence:T45 Cause:T47 Effect:T48
+A20	Degree E16 Facilitate
+T47	Argument 6914 6994	the city continues to analyze the reams of budget documents coming out of Albany
+A22	Temporal E16
+T48	Argument 6996 7025	that view could be challenged
+T52	Argument 5832 5845	such projects
+T53	Argument 5798 5827	use four separate contractors
+T54	Purpose 5828 5831	for
+E18	Purpose:T54 Cause:T52 Effect:T53
+A24	Degree E18 Facilitate
+T25	Note 4251 4256	after
+#1	AnnotatorNotes T25	Sets off what's effectively a temporal NP
+T26	Consequence 6532 6547	attributable to
+E9	Consequence:T26 Cause:T27 Effect:T31
+A10	Degree E9 Facilitate
+T27	Argument 6548 6577	the increase in education aid
+T31	Argument 6513 6531	almost all of that
+T32	Consequence 2021 2027	effect
+E11	Consequence:T32 Cause:T33
+A11	Degree E11 Facilitate
+T33	Argument 2031 2071	the loss of $327.9 million in annual aid
+T34	Argument 1359 1361	it
+T35	Argument 1296 1323	the city's share of the aid
+R2	Coref Arg1:T34 Arg2:T35	
+T49	NonCausal 1349 1358	eliminate
+E12	NonCausal:T49 Arg1:T34
+A14	Creation-termination E12

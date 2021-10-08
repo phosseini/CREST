@@ -1,0 +1,12 @@
+Construction of DeltasalKR 
+To test the role of SalK/SalR in the pathogenesis of SS2, we constructed a homologous suicide plasmid, pUC::salKR with a SpcR cassette (Fig. 3A), and electrotransformed the competent cells of 05ZYH33.
+Positive transformants were first screened on THB agar plates under the selective pressure of spectinomycin.
+Colony PCR-based assays were performed to detect whether salKR was still present in the genome or not.
+One candidate mutant in which salKR failed to be amplified was obtained.
+To check this suspected mutant, Southern hybridization analyses were employed using probes of SpcR gene, an internal fragment of salKR, and pUC18, respectively.
+In wild type strain 05ZYH33, the internal fragment of salKR probe hybridized with a single 4.0 kb Cla I fragment (Fig. 3C, lane 1), whereas the SpcR and pUC18 probes did not hybridized with the genomic DNA (Fig. 3B and 3D, lane 1).
+In the suspected mutant, a 3.6 kb restriction fragment hybridized with the SpcR probe (Fig. 3B, lane 2), while no hybridization signal was detected when the internal fragment of salKR and pUC18 served as the probes (Fig. 3C and 3D, lane 2).
+In a single cross-over mutant which was set as the reference, both the SpcR and pUC18 probe hybridized with a 6.1 kb Cla I restriction fragment (Fig. 3B and 3D, lane 3), and the salKR probe hybridized with a 4.0 kb fragment (Fig. 3C, lane 3), indicating that this strain had pUC::salKR integrated into its chromosome by a single cross-over event at the 3'-flanking region of the salKR genes (Fig. 3A, III).
+Additionally, the allelic replacement of the wild-type salKR genes by the SpcR cassette in the suspected mutant was also confirmed by multiple-PCR analysis and sequencing with primers specific to genomic regions lying out the homologous left and right arms (Fig. 3A and 3E).
+All these results demonstrate that an isogenic knockout mutant of salKR (namely DeltasalKR) was successfully constructed.
+RT-PCR experiments later also showed that neither salK nor salR could be transcribed in DeltasalKR (data not shown), which further confirmed that salKR had been deleted from the bacterial chromosome.

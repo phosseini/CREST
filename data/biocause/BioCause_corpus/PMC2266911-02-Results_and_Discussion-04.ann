@@ -1,0 +1,52 @@
+T23	Process 654 663	virulence
+T24	Positive_regulation 849 856	induced
+T25	Regulation 903 909	affect
+T26	Process 914 923	virulence
+T27	Process 1714 1723	virulence
+T28	Process 2063 2072	virulence
+T29	Process 2516 2525	virulence
+E1	Process:T23 
+E2	Positive_regulation:T24 Theme:T5
+E3	Positive_regulation:T24 Theme:T6
+E4	Positive_regulation:T24 Theme:T7
+E5	Regulation:T25 Theme:E8 Cause:E2
+E6	Regulation:T25 Theme:E8 Cause:E3
+E7	Regulation:T25 Theme:E8 Cause:E4
+E8	Process:T26 Participant:T8
+E9	Process:T27 
+E10	Process:T28 Participant:T21
+E11	Process:T29 
+T1	Organism 123 131	Yersinia
+T2	Organism 263 269	humans
+T3	Organism 478 491	Yersinia spp.
+T4	Organism 593 607	P. luminescens
+T5	Protein 886 889	inv
+T6	Protein 891 894	yst
+T7	Protein 898 902	yplA
+T8	Organism 938 955	Y. enterocolitica
+T9	Organism 959 963	mice
+T10	Organism 1103 1120	Y. enterocolitica
+T11	Organism 1340 1352	Burkholderia
+T12	Organism 1354 1365	Pseudomonas
+T13	Organism 1367 1375	Serratia
+T14	Organism 1380 1387	Erwinia
+T15	Organism 1608 1625	Y. enterocolitica
+T16	Organism 1780 1792	flhDC mutant
+T17	Protein 1780 1784	flhD
+T18	Protein 1784 1785	C
+T19	Organism 1796 1813	Y. enterocolitica
+T20	Organism 1975 1989	X. nematophila
+T21	Organism 2076 2090	X. nematophila
+T22	Organism 2197 2214	Y. enterocolitica
+T30	Span 825 963	Moreover, several genes induced at lower temperature such as inv, yst or yplA affect the virulence properties of Y. enterocolitica in mice
+T31	Causality 1040 1053	suggests that
+E12	Causality:T31 Effect:T32 Evidence:T30
+T32	Span 1054 1230	they also play a role during the insect stage of Y. enterocolitica, or that they have evolved from bacteria-insect interaction and then adapted to pathogenicity towards mammals
+T33	Span 1916 2035	Recently, it was shown that the flagellar master-operon of X. nematophila regulates the expression of a novel hemolysin
+T34	Causality 2036 2053	which is required
+E13	Causality:T34 Effect:T35 Evidence:T33
+T35	Span 2054 2106	for full virulence of X. nematophila against insects
+T36	Span 1916 2106	Recently, it was shown that the flagellar master-operon of X. nematophila regulates the expression of a novel hemolysin which is required for full virulence of X. nematophila against insects
+T37	Causality 2114 2141	We therefore speculate that
+E14	Causality:T37 Effect:T38 Evidence:T36
+T38	Span 2142 2291	motility essentially contributes to the control of the Y. enterocolitica switch between two pathogenicity phases towards mammalians and invertebrates

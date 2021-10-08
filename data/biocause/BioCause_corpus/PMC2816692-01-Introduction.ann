@@ -1,0 +1,73 @@
+*	Equiv T29 T28 T30
+*	Equiv T36 T35
+*	Equiv T38 T37
+T40	Process 749 758	infection
+T41	Binding 2197 2202	binds
+T42	Process 2246 2255	virulence
+T43	Binding 2994 2999	binds
+T44	Regulation 4707 4716	regulated
+T45	Binding 5224 5231	binding
+E1	Process:T40 
+E2	Binding:T41 Theme1:T7 Theme2:T9
+E3	Process:T42 Participant:T10
+E4	Binding:T43 Theme1:T14 Theme2:T15
+E5	Binding:T43 Theme1:T14 Theme2:T16
+E6	Regulation:T44 Theme:T28 Cause:T27
+E7	Binding:T45 Theme1:T33 Theme2:T34
+T1	Organism 56 60	host
+T2	Organism 151 155	host
+T3	Organism 191 195	host
+T4	Organism 532 536	host
+T5	Chemical 1088 1096	carboxyl
+T6	Chemical 1339 1344	amino
+T7	Protein 2149 2153	CesA
+T8	Organism 2184 2191	E. coli
+T9	Protein 2207 2211	EspA
+T10	Organism 2269 2288	Salmonella enterica
+T11	Organism 2463 2467	host
+T12	Protein 2955 2959	SseF
+T13	Protein 2960 2964	SscB
+T14	Protein 2984 2988	SseA
+T15	Protein 3022 3026	SseD
+T16	Protein 3031 3035	SseB
+T17	Protein 3178 3182	InvB
+T18	Protein 3189 3193	SicP
+T19	Protein 3203 3207	SigE
+T20	Protein 4287 4291	SsrA
+T21	Protein 4310 4314	SsrB
+T22	Regulon-operon 4454 4466	SsrB regulon
+T23	Protein 4454 4458	SsrB
+T24	Protein 4547 4551	SseL
+T25	Protein 4601 4605	srfN
+T26	Organism 4628 4638	Salmonella
+T27	Protein 4702 4706	SsrB
+T28	Protein 4723 4730	STM2138
+T29	Protein 4746 4750	srcA
+T30	Protein 4752 4778	SsrB-regulated chaperone A
+T31	Protein 4943 4947	SrcA
+T32	Protein 5034 5038	SrcA
+T33	Protein 5172 5176	SrcA
+T34	Protein 5252 5256	SsaN
+T35	Protein 5324 5328	SseL
+T36	Protein 5330 5337	STM2287
+T37	Protein 5343 5348	PipB2
+T38	Protein 5350 5357	STM2780
+T39	Organism 5547 5557	Salmonella
+T46	Span 1993 2024	Secondary structure predictions
+T47	Causality 2025 2032	suggest
+E8	Causality:T47 Effect:T48 Evidence:T46
+T48	Span 2033 2228	class III chaperones adopt an extended alpha helical structure, which was confirmed by the crystal structure of the CesA chaperone in enteropathogenic E. coli that binds the EspA filament protein
+T49	Span 4651 4779	Using a reverse genetics approach we identified an SsrB-regulated gene (STM2138) that we named srcA (SsrB-regulated chaperone A)
+T50	Causality 4781 4781	
+E9	Causality:T50 Evidence:T51 Effect:T49
+T51	Span 4781 4906	whose gene product satisfied several a priori predictions relating to the physical properties associated with T3SS chaperones
+T52	Span 4908 5019	We solved the crystal structure of SrcA and performed additional biochemical, proteomic and in vivo experiments
+T53	Causality 5020 5033	that revealed
+E10	Causality:T53 Effect:T54 Evidence:T52
+T54	Span 5034 5119	SrcA to be a class I chaperone required for bacterial fitness in the host environment
+T55	Span 4651 4906	Using a reverse genetics approach we identified an SsrB-regulated gene (STM2138) that we named srcA (SsrB-regulated chaperone A), whose gene product satisfied several a priori predictions relating to the physical properties associated with T3SS chaperones
+T56	Span 4908 5119	We solved the crystal structure of SrcA and performed additional biochemical, proteomic and in vivo experiments that revealed SrcA to be a class I chaperone required for bacterial fitness in the host environment
+T57	Causality 5419 5436	These data reveal
+E11	Causality:T57 Effect:T58 Evidence:T56
+T58	Span 5437 5557	structural and biochemical insight into a T3SS secretion chaperone required for intracellular pathogenesis of Salmonella
+E12	Causality:T57 Effect:T58 Evidence:T55

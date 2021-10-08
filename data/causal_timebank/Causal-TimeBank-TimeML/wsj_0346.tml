@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0346</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-01</TIMEX3></DCT>
+<TEXT>
+ Cilcorp Inc., Peoria, Ill., <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="I_ACTION">agreed</EVENT> to <EVENT eid="e3" class="OCCURRENCE">acquire</EVENT> the environmental consulting and analytical service businesses of Hunter Environmental Services Inc. of Southport, Conn.
+ The utility holding company <EVENT eid="e4" class="REPORTING">said</EVENT> Hunter will <EVENT eid="e5" class="OCCURRENCE">receive</EVENT> 390,000 shares of a new series of Cilcorp convertible preferred stock with a face value of $ 39 million for the businesses.
+ Cilcorp will also <EVENT eid="e6" class="I_ACTION">assume</EVENT> $ 22 million of Hunter's existing debt.
+ As part of the agreement, Cilcorp <EVENT eid="e7" class="REPORTING">said</EVENT> it will <EVENT eid="e8" class="OCCURRENCE">pay</EVENT> Hunter $ 4 million <C-SIGNAL cid="c9">in exchange for</C-SIGNAL> <EVENT eid="e10" class="OCCURRENCE">agreements</EVENT> not to compete.
+ Cilcorp <EVENT eid="e11" class="REPORTING">said</EVENT> the businesses to be <EVENT eid="e12" class="OCCURRENCE">acquired</EVENT> <EVENT eid="e13" class="OCCURRENCE">had</EVENT> revenue of $ 76 million for <TIMEX3 tid="t14" type="DURATION" value="P1Y" functionInDocument="NONE">the year</TIMEX3> ended <TIMEX3 tid="t15" type="DATE" value="1989-03-31" anchorTimeID="t0" functionInDocument="NONE">March 31</TIMEX3>.
+ Separately, Cilcorp <EVENT eid="e16" class="REPORTING">said</EVENT> it <EVENT eid="e17" class="I_STATE">plans</EVENT> to <EVENT eid="e18" class="OCCURRENCE">purchase</EVENT> as many as 1.4 million shares, or 10 % of its common stock outstanding from time to time on the open market and through privately negotiated transactions.
+ The company, which <TIMEX3 tid="t19" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">currently</TIMEX3> <EVENT eid="e20" class="OCCURRENCE">has</EVENT> 13.5 million common shares outstanding, <EVENT eid="e21" class="REPORTING">said</EVENT> it <EVENT eid="e22" class="OCCURRENCE">has</EVENT> no specific plans for the shares.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="IDENTITY" eventInstanceID="ei3" relatedToEventInstance="ei12"/>
+<TLINK lid="l3" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToEventInstance="ei1"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t0"/>
+<TLINK lid="l6" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei1"/>
+<TLINK lid="l7" relType="ENDED_BY" timeID="t14" relatedToTime="t15"/>
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToTime="t0"/>
+<TLINK lid="l9" relType="INCLUDES" timeID="t19" relatedToTime="t0"/>
+<TLINK lid="l10" relType="SIMULTANEOUS" timeID="t19" relatedToEventInstance="ei20"/>
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei21" relatedToTime="t0"/>
+<CLINK lid="l5" c-signalID="c9" eventInstanceID="ei10" relatedToEventInstance="ei8"/>
+</TimeML>

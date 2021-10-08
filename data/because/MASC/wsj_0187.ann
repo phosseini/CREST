@@ -1,0 +1,16 @@
+T1	Motivation 536 540	Once
+E1	Motivation:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 541 567	its ownership is finalized
+T3	Argument 569 687	the new company will open talks with state-appointed receivers to buy or lease Waertsilae Marine's shipyard facilities
+T4	Purpose 142 144	to
+E2	Purpose:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+T5	Argument 123 141	form a new company
+T6	Argument 145 205	complete most of the troubled shipyard's backlog of 15 ships
+A3	Temporal E1
+T7	Consequence 789 794	avert
+E3	Consequence:T7 Cause:T8 Effect:T9
+A4	Degree E3 Inhibit
+T8	Argument 737 773	a swift transition to new management
+T9	Argument 795 866	an exodus of skilled workers from Waertsilae Marine's two big shipyards

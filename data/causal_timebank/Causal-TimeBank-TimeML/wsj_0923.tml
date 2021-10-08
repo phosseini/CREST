@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0923</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-26</TIMEX3></DCT>
+<TEXT>
+ Kyle Technology Corp. <EVENT eid="e1" class="REPORTING">said</EVENT> a Seattle investor has <EVENT eid="e2" class="OCCURRENCE">signed</EVENT> a letter of intent to <EVENT eid="e3" class="OCCURRENCE">buy</EVENT> the company for about $ 3.1 million, or $ 1.20 a share.
+ The investor, Donald A. Wright, <EVENT eid="e4" class="I_STATE">plans</EVENT> to <EVENT eid="e5" class="OCCURRENCE">run</EVENT> the company, <EVENT eid="e6" class="REPORTING">said</EVENT> a spokesman for Kyle.
+ The <EVENT eid="e7" class="OCCURRENCE">transaction</EVENT> has been <EVENT eid="e8" class="I_ACTION">approved</EVENT> by Kyle's board, but <EVENT eid="e9" class="I_STATE">requires</EVENT> the approval of the company's shareholders.
+ Kyle manufactures electronic components.
+</TEXT>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei1"/>
+<TLINK lid="l3" relType="INCLUDES" eventInstanceID="ei4" relatedToTime="t0"/>
+<TLINK lid="l4" relType="IDENTITY" eventInstanceID="ei6" relatedToEventInstance="ei1"/>
+<TLINK lid="l5" relType="INCLUDES" eventInstanceID="ei7" relatedToEventInstance="ei3"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei8" relatedToTime="t0"/>
+<TLINK lid="l7" relType="INCLUDES" eventInstanceID="ei9" relatedToTime="t0"/>
+</TimeML>

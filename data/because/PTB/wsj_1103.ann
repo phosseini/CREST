@@ -1,0 +1,62 @@
+T1	Consequence 159 166	because
+E1	Consequence:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 0 148	Boston Co., the upper-crust financial services concern that was rocked by a management scandal late last year, has had a sharp drop in profitability
+T3	Argument 167 210	a high-risk bet on interest rates backfired
+T4	NonCausal 737 742	after
+E2	NonCausal:T4 Arg0:T5 Arg1:T6
+A2	Temporal E2
+T5	Argument 743 788	barely breaking even for the first six months
+T6	Argument 672 735	the unit had profit of around $17 million for the third quarter
+T7	Consequence 1438 1442	when
+E3	Consequence:T7 Cause:T8 Effect:T9
+A3	Degree E3 Facilitate
+A4	Temporal E3
+T8	Argument 1443 1524	rates moved unfavorably -- beginning late last year and continuing into this year
+T9	Argument 1530 1542	it cost them
+T10	Consequence 1765 1767	As
+E4	Consequence:T10 Cause:T11 Effect:T12
+A5	Degree E4 Facilitate
+A6	Correlation E4
+T11	Argument 1768 1822	some securities mature and the proceeds are reinvested
+T12	Argument 1824 1850	the problems ought to ease
+T17	Motivation 2290 2296;2308 2310	forced to
+E6	Motivation:T17 Effect:T19 Cause:T18
+A9	Degree E6 Facilitate
+T18	Argument 2240 2289	An accounting controversy at the end of last year
+T19	Argument 2297 2307;2311 2369	Boston Co. admit it had overstated pretax profits by some $44 million
+T21	Motivation 2393 2399	led to
+E7	Motivation:T21 Cause:T22 Effect:T23
+A10	Degree E7 Facilitate
+T22	Argument 2371 2392	The resulting scandal
+T23	Argument 2400 2462	the firing of James N. von Germeten as Boston Co. 's president
+T24	Motivation 2393 2396;2467 2469	led to
+E8	Motivation:T24 Cause:T22 Effect:T25
+A11	Degree E8 Facilitate
+T25	Argument 2470 2541	the resignations of the company's chief financial officer and treasurer
+T26	Purpose 2631 2633;2637 2646	in effort to
+E9	Purpose:T26 Effect:T27 Cause:T28
+A12	Degree E9 Facilitate
+T27	Argument 2574 2629	improperly deferring expenses and booking revenue early
+T28	Argument 2647 2714	dress up results -- and perhaps bolster performance-related bonuses
+T29	Consequence 2743 2753;2770 2772	attributed to
+E10	Consequence:T29 Effect:T30 Cause:T31
+A13	Degree E10 Facilitate
+T30	Argument 2754 2769	the controversy
+T31	Argument 2773 2805	judgmental errors by accountants
+T32	Consequence 2927 2931;2940 2944	stem from
+E11	Consequence:T32 Effect:T33 Cause:T34
+A14	Degree E11 Facilitate
+A15	Creation-termination E11
+T33	Argument 2886 2926	the problems in the securities portfolio
+T34	Argument 2945 2970	positions taken last year
+A16	Temporal E4
+T35	NonCausal 2266 2268	at
+E12	NonCausal:T35 Arg1:T36 Arg0:T38
+A17	Temporal E12
+T36	Argument 2240 2265	An accounting controversy
+T38	Argument 2269 2289	the end of last year
+T16	Consequence 2375 2384	resulting
+E13	Consequence:T16 Effect:T20
+A18	Degree E13 Facilitate
+T20	Argument 2371 2374;2385 2392	The scandal

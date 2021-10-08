@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0650</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-30</TIMEX3></DCT>
+<TEXT>
+ Sun Microsystems Inc., a computer maker, <EVENT eid="e1" class="REPORTING">announced</EVENT> the effectiveness of its registration statement for $ 125 million of 6 3/8 % convertible subordinated debentures <EVENT eid="e2" class="STATE">due</EVENT> <TIMEX3 tid="t3" type="DATE" value="1999-10-15" functionInDocument="NONE">Oct. 15, 1999</TIMEX3>.
+ The company <EVENT eid="e4" class="REPORTING">said</EVENT> the debentures are being <EVENT eid="e5" class="OCCURRENCE">issued</EVENT> at an issue price of $ 849 for each $ 1,000 principal amount and are <EVENT eid="e6" class="STATE">convertible</EVENT> at any time prior to <EVENT eid="e7" class="STATE">maturity</EVENT> at a conversion price of $ 25 a share.
+ The debentures are available through Goldman, Sachs amp Co.
+</TEXT>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="ENDED_BY" eventInstanceID="ei2" relatedToTime="t3"/>
+<TLINK lid="l3" relType="IDENTITY" eventInstanceID="ei4" relatedToEventInstance="ei1"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei7"/>
+</TimeML>

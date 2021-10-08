@@ -1,0 +1,24 @@
+Introduction 
+Porphyromonas gingivalis is a gram-negative bacterium, which is considered to be a major periodontal pathogen (Socransky & Haffajee, 2005).
+It is also a pathogen that may be involved in coronary heart disease and preterm births (Boggess et al., 2005; Brodala et al., 2005; Chou et al., 2005).
+The ability of P. gingivalis to initiate a periodontal infection is mainly dependent on the expression of fimbriae (Malek et al., 1994).
+Two distinct fimbriae are found on the surface of the organism (Dickinson et al., 1988; Hamada et al., 1996).
+The long (major) filamentous structure is comprised of a FimA subunit protein encoded by the fimA gene.
+The short (minor) fimbriae are made up of a 67 kDa protein (Mfa1).
+Both fimbriae appear to be involved in bacterial pathogenicity (Amano et al., 2004).
+The function of the FimA protein and regulation of fimA expression have been extensively studied.
+The FimA protein is required for P. gingivalis colonization on salivary coated surfaces, and the early colonization of dental plaque (Malek et al., 1994; Levesque et al., 2003; Maeda et al., 2004).
+A P. gingivalis fimA mutant shows impaired invasion capability of epithelial cells compared with wild-type strain, suggesting the involvement of FimA in the bacterial interaction with surface receptor(s) on gingival cells (Weinberg et al., 1997).
+Earlier studies by the authors showed that FimA expression was modulated by environmental cues, including temperature and hemin concentration, and by the presence of Streptococcus cristatus, an early colonizer of dental plaque (Xie et al., 1997, 2000b).
+FimR, a response regulator of the fimS/fimR two-component system was identified, and FimA expression was found to be dramatically reduced in fimR mutants (Hayashi et al., 2000).
+Investigation of the mechanism of regulation of fimA by FimR indicates that FimR does not bind directly to the fimA promoter, but rather binds to the promoter region of the first gene (pg2130) in the fimA cluster, suggesting that PG2130 is the FimR target gene, which in turn regulates expression of other genes in the fimA cluster, including the fimA gene (Nishikawa et al., 2004).
+The short fimbriae (Mfa1) also contribute to P. gingivalis colonization.
+Coadhesion and biofilm development between P. gingivalis and Streptococcus gordonii require the interaction of Mfa1 with streptococcal protein SspB (Park et al., 2005).
+The authors have recently reported that the short fimbriae are required for P. gingivalis cell-cell aggregation, an essential step in microcolony formation (Lin et al., 2006).
+A mutant with a deficiency in minor fimbriae binds to a saliva-coated surface but does not form microcolonies as the wild-type strain does.
+Mfa1 expression appears to fluctuate under various growth conditions (Masuda et al., 2006).
+In a nutrient-limited medium, expression of FimA and Mfa1 are inhibited in P. gingivalis, whereas such differences are not found in gingipain expression.
+A recent study has shown that expression of mfa1 is repressed in the presence of some common oral plaque bacteria such as S. gordonii, Streptococcus sanguinis and Streptococcus mitis (Park et al., 2006).
+However, very little is known about regulatory mechanisms of mfa1 expression.
+In this study, it is demonstrated that FimR is a positive regulator of Mfa1 expression.
+Evidence is provided that unlike FimR-dependent fimA expression, FimR regulates mfa1 expression by directly binding to the promoter region of mfa1.

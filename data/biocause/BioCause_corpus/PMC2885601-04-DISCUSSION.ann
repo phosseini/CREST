@@ -1,0 +1,188 @@
+T1	Protein 43 48	SeMac
+T2	Protein 54 76	cysteine endopeptidase
+T3	Organism 107 112	horse
+T4	Protein 113 116	IgG
+T5	Organism 164 171	S. equi
+T6	Organism 175 180	horse
+T7	Protein 210 215	SeMac
+T8	Organism 255 260	human
+T9	Protein 261 264	IgG
+T10	Protein 365 370	SeMac
+T11	Organism 383 386	GAS
+T12	Protein 390 393	Mac
+T13	Protein 401 406	SeMac
+T14	Protein 412 434	cysteine endopeptidase
+T15	Protein 450 455	SeMac
+T16	Organism 460 463	GAS
+T17	Protein 464 467	Mac
+T18	Organism 487 492	human
+T19	Protein 493 496	IgG
+T20	Organism 539 544	horse
+T21	Protein 545 548	IgG
+T22	Protein 648 651	Mac
+T23	Organism 793 798	horse
+T24	Protein 799 802	IgG
+T25	Organism 829 834	horse
+T26	Protein 835 839	IgG1
+T27	Organism 876 881	horse
+T28	Protein 882 886	IgG4
+T29	Protein 1020 1025	SeMac
+T30	Organism 1030 1033	GAS
+T31	Protein 1034 1037	Mac
+T32	Organism 1056 1061	horse
+T33	Protein 1062 1066	IgG3
+T34	Protein 1092 1097	SeMac
+T35	Organism 1120 1125	horse
+T36	Protein 1126 1129	IgG
+T37	Organism 1166 1171	horse
+T38	Protein 1172 1175	IgG
+T39	Protein 1213 1218	SeMac
+T40	Organism 1268 1275	S. equi
+T41	Protein 1277 1282	SeMac
+T42	Organism 1287 1290	GAS
+T43	Protein 1294 1297	Mac
+T44	Protein 1393 1398	SeMac
+T45	Organism 1410 1415	human
+T46	Protein 1416 1419	IgG
+T47	Organism 1458 1461	GAS
+T48	Organism 1465 1470	human
+T49	Organism 1523 1528	horse
+T50	Protein 1529 1532	IgG
+T51	Organism 1580 1587	S. equi
+T52	Organism 1591 1596	horse
+T53	Protein 1666 1671	SeMac
+T54	Protein 1735 1740	SeMac
+T55	Organism 1756 1759	GAS
+T56	Protein 1763 1766	Mac
+T57	Organism 1810 1813	GAS
+T58	Organism 1817 1822	human
+T59	Protein 1867 1871	IdeE
+T60	Protein 1872 1877	SeMac
+T61	Organism 1924 1930	equine
+T62	Organism 1940 1947	S. equi
+T63	Protein 2113 2118	SeMac
+T64	Organism 2153 2156	GAS
+T65	Protein 2157 2160	Mac
+T66	Protein 2174 2177	mac
+T67	Two-component-system 2236 2241	CovRS
+T68	Protein 2236 2240	CovR
+T69	Protein 2240 2241	S
+T70	Organism 2373 2380	S. equi
+T71	Protein 2446 2451	semac
+T72	Protein 2456 2459	mac
+T73	Organism 2576 2583	S. equi
+T74	Organism 2591 2594	GAS
+T75	Protein 2625 2630	semac
+T76	Protein 2635 2638	mac
+T77	Organism 2646 2653	S. equi
+T78	Organism 2659 2664	horse
+T79	Protein 2689 2694	SeMac
+T80	Organism 2734 2741	S. equi
+T81	Organism 2745 2750	horse
+T82	Protein 2771 2776	SeMac
+T83	Organism 2824 2829	horse
+T84	Organism 2847 2854	S. equi
+T85	Protein 2875 2880	SeMac
+T86	Positive_regulation 228 235	cleaves
+T87	Protein_catabolism 228 235	cleaves
+T88	Positive_regulation 480 486	cleave
+T89	Protein_catabolism 480 486	cleave
+T90	Positive_regulation 510 516	cleave
+T91	Protein_catabolism 510 516	cleave
+T92	Protein_catabolism 819 828	Cleavable
+T93	Protein_catabolism 862 875	non-cleavable
+T94	Positive_regulation 1004 1016	cleavability
+T95	Positive_regulation 1079 1088	cleavable
+T96	Protein_catabolism 1079 1088	cleavable
+T97	Protein_catabolism 1151 1158	cleaved
+T98	Positive_regulation 1202 1209	cleaved
+T99	Protein_catabolism 1202 1209	cleaved
+T100	Positive_regulation 1403 1409	cleave
+T101	Protein_catabolism 1403 1409	cleave
+T102	Gene_expression 2126 2134	produced
+T103	Regulation 2186 2196	controlled
+T104	Process 2290 2299	virulence
+T105	Regulation 2470 2479	regulated
+E1	Protein_catabolism:T87 Theme:T9
+E2	Positive_regulation:T86 Theme:E1 Cause:T7
+E3	Protein_catabolism:T89 Theme:T19
+E4	Positive_regulation:T88 Theme:E3 Cause:T15
+E5	Positive_regulation:T88 Theme:E3 Cause:T17
+E6	Protein_catabolism:T91 Theme:T21
+E7	Positive_regulation:T90 Theme:E6 Cause:T15
+M1	Negation E7
+E8	Positive_regulation:T90 Theme:E6 Cause:T17
+M2	Negation E8
+E9	Protein_catabolism:T92 Theme:T26
+E10	Protein_catabolism:T93 Theme:T28
+E11	Positive_regulation:T94 Theme:E9 Cause:T29
+E12	Positive_regulation:T94 Theme:E9 Cause:T31
+E13	Positive_regulation:T94 Theme:E10 Cause:T29
+M3	Negation E13
+E14	Positive_regulation:T94 Theme:E10 Cause:T31
+M4	Negation E14
+E15	Protein_catabolism:T96 Theme:T33
+M5	Speculation E15
+E16	Positive_regulation:T95 Theme:E15 Cause:T34
+M6	Speculation E16
+E17	Protein_catabolism:T97 Theme:T36
+M7	Negation E17
+M8	Speculation E17
+E18	Protein_catabolism:T99 Theme:T38
+E19	Positive_regulation:T98 Theme:E18 Cause:T39
+M9	Negation E19
+E20	Protein_catabolism:T101 Theme:T46
+E21	Positive_regulation:T100 Theme:E20 Cause:T44
+E22	Gene_expression:T102 Theme:T63
+M10	Negation E22
+E23	Gene_expression:T102 Theme:T65
+E24	Regulation:T103 Theme:T66 Cause:T67
+E25	Process:T104 
+E26	Regulation:T105 Theme:T71
+E27	Regulation:T105 Theme:T72
+T106	Span 266 370	The residues of Cys102 and His272 are essential and Asp294 important for the enzymatic activity of SeMac
+T107	Causality 372 376	Thus
+E28	Causality:T107 Effect:T108 Evidence:T106
+T108	Span 378 434	like GAS M1 Mac [7,8], SeMac is a cysteine endopeptidase
+T109	Span 819 917	Cleavable horse IgG1 has PELLGG, while the non-cleavable horse IgG4 has PECLSVG in the same region
+T110	Causality 919 934	suggesting that
+E29	Causality:T110 Effect:T111 Evidence:T109
+T111	Span 935 1037	the amino acid sequences of the lower hinge region are important for cleavability by SeMac and GAS Mac
+T112	Causality 1039 1054	If this is true
+E30	Causality:T112 Effect:T113 Evidence:T114
+T113	Span 1056 1158	horse IgG3 may be also cleavable by SeMac, while the other five horse IgG subgroups may not be cleaved
+T114	Span 819 1037	Cleavable horse IgG1 has PELLGG, while the non-cleavable horse IgG4 has PECLSVG in the same region, suggesting that the amino acid sequences of the lower hinge region are important for cleavability by SeMac and GAS Mac
+T115	Span 1160 1218	These horse IgG antibodies that cannot be cleaved by SeMac
+T116	Causality 1219 1223	thus
+E31	Causality:T116 Effect:T117 Evidence:T115
+T117	Span 1224 1275	still can mediate the opsonophagocytosis of S. equi
+T118	Span 1393 1601	SeMac can cleave human IgG and inhibit the opsonophagocytosis of GAS by human PMNs, but it has limited enzymatic activity against horse IgG and is unable to inhibit opsonophagocytosis of S. equi by horse PMNs
+T119	Causality 1603 1607	Thus
+E32	Causality:T119 Effect:T120 Evidence:T118
+T120	Span 1609 1717	there is a correlation between the enzymatic activity of SeMac and its ability to inhibit opsonophagocytosis
+T121	Causality 1719 1734	suggesting that
+E33	Causality:T121 Effect:T122 Evidence:T120
+T122	Span 1735 1827	SeMac functions like GAS M1 Mac in the inhibition of opsonophagocytosis of GAS by human PMNs
+T123	Span 1954 2030	Our results suggest that the inhibition of the bactericidal activity of PMNs
+T124	Causality 2031 2041	may not be
+E34	Causality:T124 Effect:T125 Evidence:T123
+T125	Span 2042 2111	mediated by opsonophagocytosis or may be insignificant in whole blood
+T126	Span 2113 2163	SeMac is not produced in vitro, whereas GAS Mac is
+T127	Span 2170 2340	The mac gene is controlled by the two-component regulatory system CovRS [5], which also controls the expression of many virulence factors including the hyaluronic capsule
+T128	Causality 2410 2441	These observations suggest that
+E35	Causality:T128 Effect:T129 Evidence:T127
+T129	Span 2442 2503	the semac and mac genes are regulated by different mechanisms
+E36	Causality:T128 Effect:T129 Evidence:T126
+T130	Span 2410 2503	These observations suggest that the semac and mac genes are regulated by different mechanisms
+T131	Causality 2505 2536	This suggestion is supported by
+E37	Causality:T131 Effect:T130 Evidence:T132
+T132	Span 2537 2644	only 29% DNA sequence identity between S. equi and M1 GAS in the upstream region of the semac and mac genes
+T133	Span 2675 2755	The fact that SeMac does not inhibit opsonophagocytosis of S. equi by horse PMNs
+T134	Causality 2756 2770	indicates that
+E38	Causality:T134 Effect:T135 Evidence:T133
+T135	Span 2771 2854	SeMac is not involved in the evasion of the acquired horse immunity against S. equi
+T136	Span 2675 2854	The fact that SeMac does not inhibit opsonophagocytosis of S. equi by horse PMNs indicates that SeMac is not involved in the evasion of the acquired horse immunity against S. equi
+T137	Causality 2856 2874	This suggests that
+E39	Causality:T137 Effect:T138 Evidence:T136
+T138	Span 2875 2907	SeMac has other unknown function
+#1	AnnotatorNotes E34	not sure

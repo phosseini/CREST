@@ -1,0 +1,151 @@
+T1	Purpose 250 253	for
+E1	Purpose:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 254 259	votes
+T3	Argument 240 249	pandering
+T4	Motivation 1916 1919	for
+E2	Motivation:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+T5	Argument 1920 1939	their own interests
+T6	Argument 1888 1915	they wouldn't play politics
+T7	Motivation 1940 1942	if
+E3	Motivation:T7 Effect:T8 Cause:T9
+A3	Degree E3 Facilitate
+A4	Hypothetical E3
+T8	Argument 1888 1939	they wouldn't play politics for their own interests
+T9	Argument 1943 2015	the cost of their ambition was to make this problem even harder to solve
+T10	Consequence 1977 1981	make
+E4	Consequence:T10 Cause:T11 Means:T12 Effect:T13
+A5	Degree E4 Facilitate
+T11	Argument 1888 1892	they
+T12	Argument 1902 1939	play politics for their own interests
+T13	Argument 1982 1994;1995 2015	this problem even harder to solve
+T14	Motivation 2036 2038	so
+E5	Motivation:T14 Cause:T15 Effect:T16
+A6	Degree E5 Facilitate
+A7	Extremity-sufficiency E5
+T15	Argument 2036 2044	so badly
+T16	Argument 2050 2107	you would intentionally make our country's problems worse
+T17	Consequence 2074 2078	make
+E6	Consequence:T17 Effect:T18 Cause:T19
+A8	Degree E6 Facilitate
+T18	Argument 2079 2101;2102 2107	our country's problems worse
+T19	Argument 2050 2053	you
+T20	Purpose 2229 2232	for
+E7	Purpose:T20 Cause:T21 Effect:T22
+A9	Degree E7 Facilitate
+T21	Argument 2233 2252	votes on this issue
+T22	Argument 2219 2228	Pandering
+T23	NonCausal 2254 2259	while
+E8	NonCausal:T23 Arg0:T24 Arg1:T25
+A10	Temporal E8
+T24	Argument 2260 2295	offering no solution to the problem
+T25	Argument 2219 2252	Pandering for votes on this issue
+T26	Motivation 2807 2814	because
+E9	Motivation:T26 Effect:T27 Cause:T28
+A11	Degree E9 Facilitate
+T27	Argument 2764 2806	I think the McCain campaign is lashing out
+T28	Argument 2815 2885	they are feeling the political pressure and they don't know what to do
+T29	NonCausal 3034 3042	creating
+E10	NonCausal:T29 Arg1:T30
+A12	Creation-termination E10
+T30	Argument 3043 3069	a temporary worker program
+T31	Consequence 3296 3304;3310 3312	allowing to
+E11	Consequence:T31 Cause:T32 Effect:T33
+A13	Degree E11 Facilitate
+A14	Obligation-permission E11
+T32	Argument 3221 3223	it
+T33	Argument 3305 3309;3313 3344	them apply for temporary ``Z visas''
+T34	Consequence 3296 3304;3349 3351	allowing to
+E12	Consequence:T34 Cause:T32 Effect:T35
+A15	Degree E12 Facilitate
+A16	Obligation-permission E12
+T35	Argument 3305 3309;3352 3469	them push for more permanent status by paying fines and having the heads of households return to their countries of origin
+T37	NonCausal 3810 3818	creating
+E13	NonCausal:T37 Arg1:T38
+A17	Creation-termination E13
+T38	Argument 3819 3866	a way for illegal immigrants to become citizens
+T39	Motivation 3898 3905	because
+E14	Motivation:T39 Effect:T40 Cause:T41
+A18	Degree E14 Facilitate
+T40	Argument 3868 3897	he cannot support the measure
+T41	Argument 3906 4000	it does not set as its primary goal registering and tracking the people already here illegally
+T45	NonCausal 4427 4432	since
+E16	NonCausal:T45 Arg0:T46 Arg1:T47
+A21	Temporal E16
+T46	Argument 4433 4477	he stepped down as governor of Massachusetts
+T47	Argument 4282 4423	Mr. Romney has changed his position on a number of crucial issues -- including going from being a supporter of abortion rights to an opponent
+T48	NonCausal 4488 4493	after
+E17	NonCausal:T48 Arg1:T49 Arg0:T50
+A22	Temporal E17
+T49	Argument 4547 4650	Mr. Romney became the first of the leading Republican candidates for president to condemn it as amnesty
+T50	Argument 4494 4545	the Senate announced its bipartisan compromise plan
+T51	Consequence 4802 4808	making
+E18	Consequence:T51 Cause:T52 Effect:T53
+A23	Degree E18 Facilitate
+A24	Obligation-permission E18
+T52	Argument 4770 4792	the current compromise
+T53	Argument 4809 4827;4828 4874	illegal immigrants pay hefty fines and wait years for citizenship
+T54	Consequence 4896 4903	because
+E19	Consequence:T54 Effect:T55 Cause:T56
+A25	Degree E19 Facilitate
+T55	Argument 4770 4895	the current compromise, despite making illegal immigrants pay hefty fines and wait years for citizenship, was not good enough
+T56	Argument 4904 4976	workers could apply for visas that would allow them to stay indefinitely
+T57	Consequence 4945 4950;4956 4958	allow to
+E20	Consequence:T57 Cause:T58 Effect:T60
+A26	Degree E20 Facilitate
+A27	Obligation-permission E20
+T58	Argument 4934 4938	that
+T59	Argument 4928 4933	visas
+R1	Coref Arg1:T58 Arg2:T59	
+T60	Argument 4951 4955;4959 4976	them stay indefinitely
+T61	Motivation 4981 4983	If
+E21	Motivation:T61 Cause:T62 Effect:T63
+A28	Degree E21 Facilitate
+A29	Hypothetical E21
+T62	Argument 4984 5013	that is not a form of amnesty
+T63	Argument 5015 5035	I don't know what is
+T64	NonCausal 5114 5119	While
+E22	NonCausal:T64 Arg0:T65 Arg1:T66
+A30	Temporal E22
+T65	Argument 5120 5146	visiting Florida last week
+T66	Argument 5148 5260	he was asked to clarify his stance, and said he was ``not really trying to define what is technically amnesty.''
+T67	NonCausal 5371 5379	creation
+E23	NonCausal:T67 Arg1:T68
+A31	Creation-termination E23
+T68	Argument 5383 5413	tamper-proof employee ID cards
+T69	NonCausal 5450 5454	when
+E24	NonCausal:T69 Arg1:T70 Arg0:T71
+A32	Temporal E24
+T70	Argument 5436 5449	what he means
+T71	Argument 5455 5516	he says there should be no ``special'' pathway to citizenship
+T72	Motivation 5833 5840	because
+E25	Motivation:T72 Effect:T73 Cause:T74
+A33	Degree E25 Facilitate
+T73	Argument 5677 5831	he objects to the provision in the bill that calls for ``Z visas,'' which illegal immigrants would have to apply for as a first step in becoming a citizen
+T74	Argument 5841 5974	he said that the visas could be endlessly renewed and there would be no incentive for people to take the next step toward citizenship
+T75	NonCausal 5977 5979	At
+E26	NonCausal:T75 Arg0:T76 Arg1:T77
+A34	Temporal E26
+T76	Argument 5980 5993	the same time
+T77	Argument 5995 6222	Mr. Romney says it is essential that all the people here illegally be registered, without explaining what kind of system he has in mind that would both encourage people to come forward and penalize them for being here illegally
+T78	Argument 6131 6135	that
+T79	Motivation 6147 6156;6164 6166	encourage to
+E27	Motivation:T79 Cause:T78 Effect:T81
+A35	Degree E27 Facilitate
+T80	Argument 6096 6115	what kind of system
+R2	Coref Arg1:T78 Arg2:T80	
+T81	Argument 6157 6163;6167 6179	people come forward
+T82	Motivation 6198 6201	for
+E28	Motivation:T82 Effect:T83 Cause:T84
+A36	Degree E28 Facilitate
+T83	Argument 6131 6141;6184 6197	that would penalize them
+T84	Argument 6202 6222	being here illegally
+T85	Note 6316 6321	where
+#3	AnnotatorNotes T85	Could be context, but you have to kind of stretch the sentence to make that work
+T86	Consequence 7428 7432	make
+E29	Consequence:T86 Cause:T87 Effect:T88
+A37	Degree E29 Facilitate
+T87	Argument 7338 7348	Mr. McCain
+T88	Argument 7433 7435;7436 7441;7452 7501	it clear that he was not going to back away from the issue
+#1	AnnotatorNotes T12	Debatable

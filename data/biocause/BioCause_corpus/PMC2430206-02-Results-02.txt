@@ -1,0 +1,6 @@
+Deletion of graRS leads to attenuated virulence in a mouse infection model 
+To investigate the impact of reduced resistance of the graRS mutant to neutrophil and CAMP-mediated killing on the ability of the bacteria to cause infections in vivo, we compared the virulence of WT and mutant bacteria in a mouse challenge model.
+Therefore female BALB/c mice (12 to 15 weeks old) were infected with S. aureus WT or graRS mutant bacteria.
+72 h after infection numbers of CFU/kidney were determined.
+Significantly less bacteria were detected in the kidneys of animals, which had been infected with the graRS mutant than those infected with the WT bacteria.
+(Fig. 3) This finding is in coincidence with the increased susceptibility to clearance by CAMPs and neutrophils, corroborating the central importance of these host factors in innate defense.

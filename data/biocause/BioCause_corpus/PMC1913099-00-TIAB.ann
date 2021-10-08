@@ -1,0 +1,6 @@
+T1	Organism 440 460	group A streptococci
+T2	Organism 1671 1683	streptococci
+T3	Process 261 270	infection
+T4	Process 511 520	infection
+E1	Process:T3 
+E2	Process:T4 

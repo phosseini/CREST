@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_1073</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-25" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-25</TIMEX3></DCT>
+<TEXT>
+ Advanced Medical Technologies Inc. <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE">purchased</EVENT> 93 % of a unit of Henley Group Inc.
+ Advanced Medical <EVENT eid="e3" class="OCCURRENCE">paid</EVENT> $ 106 million in cash for its share in a unit of Henley's Fisher Scientific subsidiary.
+ The unit makes intravenous pumps used by hospitals and <EVENT eid="e4" class="OCCURRENCE">had</EVENT> more than $ 110 million in <EVENT eid="e5" class="OCCURRENCE">sales</EVENT> <TIMEX3 tid="t6" type="DATE" value="1988" anchorTimeID="t0" functionInDocument="NONE">last year</TIMEX3>, according to Advanced Medical.
+</TEXT>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0"/>
+<TLINK lid="l4" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToEventInstance="ei5"/>
+<TLINK lid="l5" relType="DURING" eventInstanceID="ei5" relatedToTime="t6"/>
+</TimeML>

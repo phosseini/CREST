@@ -1,0 +1,107 @@
+T1	NonCausal 45 49	when
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 50 122	he zipped through this small, relentlessly pro-American nation on Sunday
+T3	Argument 124 167	President Bush was treated like a rock star
+T4	Motivation 210 212	in
+E2	Motivation:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+T5	Argument 213 222	his honor
+T6	Argument 170 209	Military cannons boomed a 21-gun salute
+T7	Consequence 410 412	so
+E3	Consequence:T7 Cause:T8 Effect:T9
+A3	Degree E3 Facilitate
+A4	Extremity-sufficiency E3
+T8	Argument 410 419	so freely
+T9	Argument 425 580	Mr. Bush looked a tad sheepish when Prime Minister Sali Berisha proclaimed him ``the greatest and most distinguished guest we have ever had in all times.''
+T10	Consequence 456 460	when
+E4	Consequence:T10 Effect:T11 Cause:T12
+A5	Degree E4 Facilitate
+A6	Temporal E4
+T11	Argument 425 455	Mr. Bush looked a tad sheepish
+T12	Argument 461 580	Prime Minister Sali Berisha proclaimed him ``the greatest and most distinguished guest we have ever had in all times.''
+T16	NonCausal 1011 1013	At
+E6	NonCausal:T16 Arg0:T17 Arg1:T18
+A8	Temporal E6
+T17	Argument 1014 1058	some point in time, sooner rather than later
+T18	Argument 1060 1126	you've got to say, 'Enough is enough -- Kosovo is independent,' ''
+T19	Purpose 1391 1393	to
+E7	Purpose:T19 Cause:T20 Effect:T21
+A9	Degree E7 Facilitate
+T20	Argument 1394 1408	join the crowd
+T21	Argument 1350 1390	some Kosovo residents traveled to Tirana
+T22	NonCausal 1736 1740	when
+E8	NonCausal:T22 Arg0:T23 Arg1:T24
+A10	Temporal E8
+T23	Argument 1741 1774	asked when that deadline might be
+T24	Argument 1708 1735	Mr. Bush tried to backtrack
+T25	NonCausal 1848 1854	during
+E9	NonCausal:T25 Arg0:T26 Arg1:T27
+A11	Temporal E9
+T26	Argument 1855 1941	a press appearance with Mr. Berisha in the courtyard of a government ministry building
+T27	Argument 1776 1846	``First of all, I don't think I called for a deadline,'' Mr. Bush said
+T28	NonCausal 2256 2261	after
+E10	NonCausal:T28 Arg0:T29 Arg1:T30
+A12	Temporal E10
+T29	Argument 2262 2309	Rome, where protests against him turned violent
+T30	Argument 2120 2255	The visit to Albania, the fifth stop on Mr. Bush's eight-day, six-country swing through Europe, was a welcome respite for the president
+T40	Purpose 3410 3412	to
+E14	Purpose:T40 Effect:T41 Cause:T42
+A18	Degree E14 Facilitate
+T41	Argument 3376 3409	who drove seven hours from Kosovo
+T42	Argument 3413 3425	see Mr. Bush
+T46	Motivation 3617 3624	because
+E16	Motivation:T46 Cause:T47 Effect:T48
+A20	Degree E16 Facilitate
+T47	Argument 3625 3652	democracy begins in America
+T48	Argument 3521 3551	I think these are crazy people
+T49	NonCausal 3813 3818	after
+E17	NonCausal:T49 Arg0:T50 Arg1:T51
+A21	Temporal E17
+T50	Argument 3819 3830	World War I
+T51	Argument 3751 3812	who saved the country from being split up among its neighbors
+T52	Motivation 4022 4026	when
+E18	Motivation:T52 Cause:T53 Effect:T54
+A22	Degree E18 Facilitate
+A23	Temporal E18
+T53	Argument 4027 4142	the president jumped out of his limousine during a stop near the prime minister's villa in the town of Fusche Kruje
+T54	Argument 4144 4249	the crowd, chanting ``BOOSH-Y! BOOSH-Y!'' went wild, turning a presidential visit into a virtual mosh pit
+T55	NonCausal 4069 4075	during
+E19	NonCausal:T55 Arg0:T56 Arg1:T57
+A24	Temporal E19
+T56	Argument 4076 4142	a stop near the prime minister's villa in the town of Fusche Kruje
+T57	Argument 4027 4068	the president jumped out of his limousine
+T58	NonCausal 4425 4427	as
+E20	NonCausal:T58 Arg0:T59 Arg1:T60
+A25	Temporal E20
+T59	Argument 4428 4463	Secret Service agents encircled him
+T60	Argument 4392 4423	Men jostled to get close to him
+T61	NonCausal 4465 4467	As
+E21	NonCausal:T61 Arg0:T62 Arg1:T63
+A26	Temporal E21
+T62	Argument 4468 4553	he stood on the running board of his limousine, waving before ducking back in the car
+T63	Argument 4555 4612	a second limousine pulled up to protect him from the rear
+T64	Purpose 4584 4586	to
+E22	Purpose:T64 Cause:T65 Effect:T66
+A27	Degree E22 Facilitate
+T65	Argument 4587 4612	protect him from the rear
+T66	Argument 4555 4583	a second limousine pulled up
+T67	NonCausal 4523 4529	before
+E23	NonCausal:T67 Arg1:T68 Arg0:T69
+A28	Temporal E23
+T68	Argument 4530 4553	ducking back in the car
+T69	Argument 4516 4522	waving
+T70	Motivation 4937 4940	why
+E24	Motivation:T70 Effect:T71
+A29	Degree E24 Facilitate
+T71	Argument 4941 4981	not to take a speech in front of us here
+T72	Motivation 4983 4986	Why
+E25	Motivation:T72 Effect:T73
+A30	Degree E25 Facilitate
+T73	Argument 4987 4990	not
+T13	Note 693 697	made
+#1	AnnotatorNotes T13	Inference
+T14	Note 2268 2273	where
+#2	AnnotatorNotes T14	Relative pronoun
+T15	Note 4404 4406	to
+#3	AnnotatorNotes T15	Not answering the question of why they jostled

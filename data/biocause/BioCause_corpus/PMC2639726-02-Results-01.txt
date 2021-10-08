@@ -1,0 +1,28 @@
+Results 
+Salmonella regulators required for systemic mouse infection Typhimurium encodes a surfeit of regulators (more than 330 based on annotation cited in NCBI) presumably because it can survive and replicate in many different environments, cause infection in diverse hosts, and can use multiple carbon sources and terminal electron acceptors.
+We focused on 83 regulators presumed to play roles in virulence, based on published data including negative selection experiments [13], [21]-[23].
+We constructed non-polar in-frame deletions in which each regulator gene was replaced with a "scar" sequence using bacteriophage lambda-mediated recombination [24],[25].
+The list of 83 regulator genes is provided in Supporting Information (Table S1).
+For the two-component regulator ssrA/ssrB we constructed in-frame deletions missing ssrA, ssrB or both; for the other two two-component regulators, phoP/phoQ and ompR/envZ, both the signal sensor and response regulator were deleted.
+As an initial screen two 4-6 weeks-old BALB/c mice were infected intraperitoneally (i.p.) with 200 colony forming units (CFU) of each deleted strain (about 100x the LD50).
+Mutations that resulted in either no deaths, one death, or delayed death of infected mice were retested with groups of 5 mice at the same dose (Figure 1A).
+Based on this preliminary screen we chose the regulators spvR, fruR, himD, phoP/phoQ, ssrA/ssrB, slyA, hnr, rpoE, smpB, csrA, rpoS, crp, ompR/envZ, and hfq for further investigation (see Figure 1 and Table 1 for references and descriptions; a complete list of virulence phenotypes is provided in Table S1).
+It is possible that additional regulators would be identified if a larger group of mice were used in the initial screen.
+The LD50 for each of the mutants was computed as shown in Figure 1B.
+Compared to the parental strain (ATCC14028), which has an LD50 of 1-2 cfu, all of the derivatives were attenuated for virulence.
+The 14 deletion strains lacking regulators reported in this study were selected from i.p. BALB/c mice infection to eliminate other regulators required only for gastrointestinal infection or persistence but most of these strains were avirulent in another strain of mice (129X1/SvJ) and by other route (intragastric) of infection (see Table S1).
+Therefore the regulators investigated in this study might be considered the most central regulators for virulence.
+In the other virulence assays, the 83 derivatives were tested for virulence by intragastric (i.g.) BALB/c infection and by a more sensitive competitive index (CI) experiment.
+In the competitive index experiment all mutants were co-administered to 129X1/SvJ mice and the number of each surviving mutant bacteria was determined 7 days after i.p. inoculation.
+BALB/c mice are missing natural resistance-associated macrophage protein (Nramp1) and thus succumb to Typhimurium infection within a week when mice are infected i.p. with less than 10 bacteria of the strain employed here (14028).
+Unlike BALB/c, 129X1/SvJ mice have a functional copy of Nramp1 and the bacteria persist for several weeks without killing the mouse [13],[26].
+The CI test identified 30 (out of 83) regulator mutants that were attenuated in comparison to the wild type control (see Table S1).
+The 14 derivatives chosen for this study were among those showing the poorest survival by comparison to the parent in this competitive index experiment.
+The 14 regulators identified were diverse and included alternative sigma factors (rpoS and rpoE), two-component regulators (ompR/envZ, phoP/phoQ, and ssrA/ssrB), a response regulator for which the signal sensor is unknown (hnr or mviA), post-transcriptional regulators (csrA, hfq and smpB), a bending protein essential for some types of recombination (ihf) and an assortment of other DNA binding proteins (fruR, spvR, crp, and slyA).
+Transcription profiling was carried out for isogenic deletion mutants in each of these 14 genes under four different conditions and analyzed to infer a regulatory hierarchy during systemic infection.
+Salmonella transcription profiles for the following regulators have already been reported: rpoE [27]; phoP/phoQ [28]; ssrA/ssrB [29]; csrA [30]; slyA [31]; ihf [32]; hfq [33].
+Our results closely match these published results.
+The large degree of attenuation we observed for an spvR mutation following i.p. infection was surprising, as most studies had limited its effect to the i.g. route of infection.
+To validate this result we complemented the spvR mutation in trans and found complete complementation in mouse virulence (Figure S1).
+The differences between our results and others are most likely related to the different strains of Salmonella used in the studies [34].
+For the other mutations we have mobilized the mutation into a new genetic background by P22 transduction to ensure that there is no secondary mutation that influences the results [35].

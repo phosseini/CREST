@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0006</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-02</TIMEX3></DCT>
+<TEXT>
+ Pacific First Financial Corp. <EVENT eid="e1" class="REPORTING">said</EVENT> shareholders <EVENT eid="e2" class="OCCURRENCE">approved</EVENT> its <EVENT eid="e3" class="OCCURRENCE">acquisition</EVENT> by Royal Trustco Ltd. of Toronto for $ 27 a share, or $ 212 million.
+ The thrift holding company <EVENT eid="e4" class="REPORTING">said</EVENT> it <EVENT eid="e5" class="I_STATE">expects</EVENT> to <EVENT eid="e6" class="OCCURRENCE">obtain</EVENT> regulatory <EVENT eid="e7" class="OCCURRENCE">approval</EVENT> and <EVENT eid="e8" class="ASPECTUAL">complete</EVENT> the <EVENT eid="e9" class="OCCURRENCE">transaction</EVENT> by <TIMEX3 tid="t10" type="DATE" value="1989-12-31" anchorTimeID="t0" functionInDocument="NONE">year-end</TIMEX3>.
+</TEXT>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei1"/>
+<TLINK lid="l3" relType="AFTER" eventInstanceID="ei2" relatedToEventInstance="ei3"/>
+<TLINK lid="l4" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToEventInstance="ei1"/>
+<TLINK lid="l5" relType="ENDS" eventInstanceID="ei8" relatedToEventInstance="ei9"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei8" relatedToTime="t10"/>
+</TimeML>

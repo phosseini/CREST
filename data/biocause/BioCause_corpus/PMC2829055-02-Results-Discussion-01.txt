@@ -1,0 +1,16 @@
+Results/Discussion 
+Transcriptional profile of Y. pestis in the flea Little is known about the environmental conditions in the flea digestive tract, how Y. pestis adapts to them, or the physiological state of the bacteria at transmission when they exit the flea and enter the mammal.
+Adult fleas are obligate blood feeders and take frequent blood meals, consisting primarily of protein and lipid with relatively little carbohydrate.
+Flea proteases, lipases, and other digestive enzymes begin to process the blood meal in the midgut immediately after feeding, yielding amino acids and peptides, glycerol, fatty acids, and simple carbohydrates [12].
+This provides the "medium" for Y. pestis growth, but these and other factors such as pH, oxygen tension, osmolarity, and flea antibacterial immune components are poorly defined.
+During the first week after being ingested in an infectious blood meal, Y. pestis grows rapidly in the flea midgut to form large bacterial aggregates.
+Bacterial load peaks at about 106 cells per flea as the Y. pestis biofilm accumulates in the proventriculus to cause blockage, and then plateaus [2],[3].
+In this study, we determined the Y. pestis gene expression profile in infective, blocked fleas, in which the proventriculus was occluded with a mature bacterial biofilm.
+Y. pestis KIM6+, which lacks the 70-kb virulence plasmid that is not required for flea infection or blockage [3] was used for this analysis.
+Blockage occurred between 1.5 and 3.5 weeks after the initial infectious blood meal, during which time the fleas fed on uninfected mice twice weekly.
+The Y. pestis in vivo biofilm transcriptome was compared to the transcriptomes of in vitro biofilm and planktonic cultures grown at 21degreesC, the same temperature at which the fleas were maintained.
+Expression of 55% of Y. pestis ORFs was detected in the flea samples; and 74 to 79% in the in vitro biofilm, exponential phase planktonic and stationary phase planktonic cultures.
+Principal component analysis to visualize overall clustering of the microarray data showed that the transcriptional profiles were reproducible and discrete for the in vitro and in vivo conditions (Fig. 1A).
+Profiles of the exponential and stationary phase planktonic cultures clustered most closely, whereas the profiles from in vitro and in vivo biofilm growth were more distinct from each other and from the planktonic culture profiles.
+There were 214 Y. pestis genes whose expression was significantly upregulated and 56 genes downregulated in the flea compared to all in vitro growth conditions (Fig. 1B; Tables S1 and S2).
+Quantitative RT-PCR analysis of a subset of Y. pestis genes differentially expressed in the flea was confirmatory of the microarray results (Fig. S2).

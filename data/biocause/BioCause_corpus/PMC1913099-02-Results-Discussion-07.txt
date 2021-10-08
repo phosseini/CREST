@@ -1,0 +1,28 @@
+Neighbor Clustering 
+Our initial analysis revealed the differential expression of a wide range of functionally diverse genes and provided insight into the adaptive response of streptococci to host cell contact.
+However, despite a rigorous statistical approach, this analysis, like many previous microarray studies, identified the differential expression of a large number of unknown genes (n = 21) and a number of incomplete biological pathways (e.g., F0F1 ATPase [41] and folate biosynthesis [40]) by failing to detect the differential expression of a number of known gene pathway members (Table 1).
+To overcome these limitations and to extract more functional information from the array dataset (including more complete biological pathways), we developed the neighbor clustering algorithms to combine the physical position of genes on the streptococcal chromosome with gene expression data.
+Neighbor clustering was designed to identify expanded groupings of potentially related genes from our array data by incorporating two reliable predictors of genes that share common function or regulation, namely physical proximity and similar expression profiles [5,6].
+We implemented this approach by developing an algorithm with dynamic windowing (GenomeCrawler) that sequentially stepped through the microarray data and identified clusters of adjacent genes exhibiting similar fold changes in expression.
+Because the genome contains many possible clusters, we restricted the algorithm's search space to identify only spatially related clusters.
+GenomeCrawler applied a separate permutation algorithm, using the sum of each gene's t-statistics to calculate adjusted P values (PK) for each cluster, which corresponded to the probability of assembling a cluster by chance.
+Significance was assigned to clusters with PK < 0.05, and the resulting groupings are listed in Table 3.
+Because individual genes could be members of many different significant clusters, GenomeCrawler then applied a distinct permutation algorithm to calculate the probability (PC) that a gene was clustered coincidentally.
+Calculation of PC values relies on Bayes' Theorem, in which the probability of a gene's log2-fold change (PF value) is combined with the cluster probability itself (PK value).
+We stress that PC reflects the significance of a gene based on its cluster context rather than a recapitulation of PF.
+This ensures a strong dependency between PF and PC, preventing a gene with a relatively low log2-fold change from being scored as significant simply because it is clustered with a gene with a highly significant PF value.
+Finally, GenomeCrawler calculated the overall significance of differentially expressed genes (PE values) by integrating differential expression probabilities (PF) and cluster context probabilities (PC).
+We developed a plotting application (GenomeSpyer) that represents the chromosome as a linear molecule to visualize GenomeCrawler output, with genes displayed on the x-axis and their log2-fold change magnitudes on the y-axis.
+Applications and all datasets are available for download at http://www.rockefeller.edu/vaf/streparray.php.
+We visually inspected the resulting clusters and disqualified those that violated our neighbor cluster definition (see Methods for details).
+All output prior to cluster disqualifications is included for comparison (see Table S4).
+Of the 309 qualifying clusters (Table S5), 197 (63.8%) were composed entirely of known, functionally defined genes; however, 26 (13%) of these were incorrectly assembled, as they contained known genes that are functionally unrelated.
+Because we did not incorporate functional annotations of genes into the algorithms (i.e., to keep the analysis "blind"), we anticipated the possibility that some groupings could be assembled incorrectly despite the statistical framework for assigning clusters.
+Of the remaining 283 (91.6%) groupings, a number of differently sized clusters contained the same gene (Table S5).
+We report such clusters first by highest significance (lowest PK value), then by largest number of genes.
+Thus, if clusters containing a particular gene were of equal significance, we report the cluster with the most gene members.
+This method identified 47 significant clusters containing 173 differentially expressed genes (listed in Table 3 and visualized in Figures 2 and S2-S4), a considerably larger group than could have been compiled using only the initial 79 significant genes.
+A total of 56 of the original 79 significant genes became components of significant clusters, whereas 23 remained unclustered.
+We subdivided all clusters into three qualitative types based on the functional annotation of gene members.
+We present examples of Type I and II clusters: Type I clusters (n = 25) contained only functionally defined and functionally related genes (as reported in published studies), such as biological pathways components (Figures 2B and S2); Type II clusters (n = 20) included both known and unknown genes (Figures 2C and S3).
+Type III clusters (n = 2) were composed entirely of unknown genes (Figures 2D and S4), and are not discussed in detail.

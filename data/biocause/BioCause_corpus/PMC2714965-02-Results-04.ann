@@ -1,0 +1,44 @@
+*	Equiv T2 T3
+*	Equiv T4 T5
+*	Equiv T6 T7
+T40	Process 1192 1202	attenuated
+E1	Process:T40 
+T1	Organism 32 42	TB mutants
+T2	Protein 157 162	cheB2
+T3	Protein 164 170	PA0173
+T4	Protein 173 177	motB
+T5	Protein 179 185	PA4953
+T6	Protein 191 196	pilY1
+T7	Protein 198 204	PA4554
+T8	Organism 285 298	P. aeruginosa
+T9	Organism 574 579	human
+T10	Organism 627 634	TB4953s
+T11	Protein 636 640	motB
+T12	Organism 656 663	TB0173s
+T13	Protein 665 670	cheB2
+T14	Organism 829 831	TB
+T15	Organism 884 891	TB2588s
+T16	Protein 893 897	araC
+T17	Protein 904 910	PA2588
+T18	Organism 922 929	TB4380s
+T19	Protein 931 935	colS
+T20	Protein 942 948	PA4380
+T21	Organism 960 967	TB3080s
+T22	Protein 983 989	PA3080
+T23	Organism 1000 1007	TB2769s
+T24	Protein 1023 1029	PA2769
+T25	Organism 1043 1050	TB5479s
+T26	Protein 1052 1056	gltP
+T27	Protein 1063 1069	PA5479
+T28	Organism 1121 1134	P. aeruginosa
+T29	Organism 1295 1302	TB0173s
+T30	Protein 1304 1309	cheB2
+T31	Organism 1338 1345	TB4953s
+T32	Protein 1347 1351	motB
+T33	Organism 1464 1471	TB0260s
+T34	Protein 1487 1493	PA0260
+T35	Organism 1499 1506	TB5479s
+T36	Protein 1508 1512	gltP
+T37	Organism 1598 1605	TB2588s
+T38	Protein 1607 1611	araC
+T39	Organism 1622 1629	TB3080s

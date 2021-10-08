@@ -1,0 +1,25 @@
+T1	Protein 4 8	hilE
+T2	Protein 37 40	Mlc
+T3	Protein 96 100	hilE
+T4	Organism 188 194	SL1344
+T5	Protein 337 340	Mlc
+T6	Organism 869 879	Salmonella
+T7	Organism 986 993	E. coli
+T8	Protein 1008 1012	hilE
+T9	Protein 1103 1106	mlc
+T10	Protein 1157 1162	hilE5
+T11	Protein 1197 1201	hilE
+T12	Protein 1334 1338	hilE
+T13	Protein 1422 1426	hilE
+T14	Protein 1514 1517	mlc
+T15	Protein 1571 1574	Mlc
+T16	Protein 1651 1654	mlc
+T17	Protein 1694 1698	hilE
+T18	Organism 1702 1708	SR1304
+T19	Entity 9 20	P3 promoter
+T20	Negative_regulation 24 33	repressed
+T21	Gene_expression 1641 1650	expresses
+T22	Transcription 1669 1690	transcriptional level
+E1	Negative_regulation:T20 Theme:T1 Site:T19 Cause:T2
+E2	Gene_expression:T21 Theme:T16
+E3	Transcription:T22 Theme:T17

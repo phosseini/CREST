@@ -1,0 +1,50 @@
+T1	Organism 9 37	S. equi vicK Deletion Mutant
+T2	Protein 17 21	vicK
+T3	Organism 42 49	S. equi
+T4	Two-component-system 50 55	vicRK
+T5	Protein 50 54	vicR
+T6	Protein 54 55	K
+T7	Organism 89 96	S. equi
+T8	Organism 165 176	S. pyogenes
+T9	Two-component-system 177 182	vicRK
+T10	Protein 177 181	vicR
+T11	Protein 181 182	K
+T12	Organism 240 260	vicK-deletion mutant
+T13	Protein 240 244	vicK
+T14	Protein 302 305	aad
+T15	Protein 310 313	cmR
+T16	Chemical 334 347	spectinomycin
+T17	Chemical 352 367	chloramphenicol
+T18	Protein 450 454	vicK
+T19	Protein 555 558	aad
+T20	Protein 618 622	vicK
+T21	Protein 684 688	vicK
+T22	Organism 783 790	S. equi
+T23	Chemical 838 851	spectinomycin
+T24	Chemical 856 871	chloramphenicol
+T25	Protein 960 964	vicK
+T26	Protein 992 995	aad
+T27	Protein 1015 1019	vicK
+T28	Chemical 1061 1074	spectinomycin
+T29	Chemical 1092 1105	spectinomycin
+T30	Chemical 1148 1163	chloramphenicol
+T31	Protein 1185 1189	vicK
+T32	Chemical 1210 1223	spectinomycin
+T33	Chemical 1238 1253	chloramphenicol
+T34	Protein 1519 1523	vicK
+T35	Process 820 829	resistant
+T36	Process 1042 1052	resistance
+T37	Process 1134 1144	resistance
+T38	Process 1224 1233	resistant
+E1	Process:T35 
+E2	Process:T36 
+E3	Process:T37 
+E4	Process:T38 
+T39	Span 624 797	Single crossover between one flanking fragment in pGRV-DeltavicK and the homologous region in the genome would lead to the insertion of the whole plasmid into S. equi genome
+T40	Causality 799 811	resulting in
+E5	Causality:T40 Effect:T41 Evidence:T39
+T41	Span 812 871	strains resistant to both spectinomycin and chloramphenicol
+T42	Span 873 1000	Double crossoverat both of the flanking fragments would lead to the replacement of the vicK internal fragment with the aad gene
+T43	Causality 1002 1014	resulting in
+E6	Causality:T43 Effect:T44 Evidence:T42
+T44	Span 1015 1074	vicK deletion strains with resistance only to spectinomycin

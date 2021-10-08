@@ -1,0 +1,78 @@
+T1	NonCausal 231 235	When
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 236 293	the nuclear deal was first announced almost two years ago
+T3	Argument 295 385	it was seen as symbolic of a new strategic partnership between India and the United States
+T4	Consequence 450 452	as
+E2	Consequence:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+A3	Temporal E2
+T5	Argument 391 449	negotiations over the details have made only slow progress
+T6	Argument 453 528	both countries have shied away from making politically delicate concessions
+T7	Purpose 723 725;729 739	in attempt to
+E3	Purpose:T7 Effect:T8 Cause:T9
+A4	Degree E3 Facilitate
+T8	Argument 531 614;653 722	R. Nicholas Burns, the United States under secretary of state for political affairs went directly into meetings with Foreign Secretary Shiv Shankar Menon
+T9	Argument 740 914	broker a compromise before an expected meeting between President Bush and Prime Minister Manmohan Singh on the sidelines of the Group of 8 summit meeting in Germany next week
+T10	NonCausal 760 766	before
+E4	NonCausal:T10 Arg0:T11 Arg1:T12
+A5	Temporal E4
+T11	Argument 740 759	broker a compromise
+T12	Argument 767 914	an expected meeting between President Bush and Prime Minister Manmohan Singh on the sidelines of the Group of 8 summit meeting in Germany next week
+T13	Consequence 917 921	Once
+E5	Consequence:T13 Cause:T14 Effect:T15
+A6	Degree E5 Facilitate
+A7	Temporal E5
+T14	Argument 922 931	finalized
+T15	Argument 933 1063	the deal would overturn 30 years of American sanctions on the sale of civilian nuclear technology -- fuel and reactors -- to India
+T16	NonCausal 1205 1211	Before
+E6	NonCausal:T16 Arg1:T17 Arg0:T18
+A8	Temporal E6
+T17	Argument 1212 1221	the talks
+T18	Argument 1223 1297	American officials said they were optimistic that solutions could be found
+T19	Consequence 1698 1705;1742 1744	require to
+E7	Consequence:T19 Cause:T20 Effect:T21
+A9	Degree E7 Facilitate
+T20	Argument 1706 1741	hard work and difficult compromises
+T21	Argument 1745 1761	reach completion
+T22	NonCausal 2078 2084	before
+E8	NonCausal:T22 Arg0:T23 Arg1:T24
+A10	Temporal E8
+T23	Argument 2056 2077	push the deal through
+T24	Argument 2085 2125	the Bush administration draws to a close
+T26	Consequence 2314 2321	meaning
+E9	Consequence:T26 Cause:T27 Effect:T28
+A11	Degree E9 Facilitate
+T27	Argument 2216 2312	a voluntary moratorium on testing nuclear weapons be converted into a legally binding commitment
+T28	Argument 2327 2429	the United States could withdraw nuclear fuel supplies if India decided to test another nuclear weapon
+T29	Motivation 2382 2384	if
+E10	Motivation:T29 Cause:T30 Effect:T31
+A12	Degree E10 Facilitate
+A13	Hypothetical E10
+T30	Argument 2385 2429	India decided to test another nuclear weapon
+T31	Argument 2327 2381	the United States could withdraw nuclear fuel supplies
+#2	AnnotatorNotes E9	Is this the sense we're after?
+T32	Motivation 2505 2518	contingent on
+E11	Motivation:T32 Effect:T33 Cause:T34
+A14	Degree E11 Facilitate
+T33	Argument 2432 2489	India's unilateral commitment not to test nuclear weapons
+T34	Argument 2519 2549	existing conditions continuing
+T35	Motivation 2672 2674;2726 2730	If then
+E12	Motivation:T35 Cause:T36 Effect:T37
+A15	Degree E12 Facilitate
+A16	Hypothetical E12
+T36	Argument 2677 2724	China, Pakistan or another country were to test
+T37	Argument 2731 2790	clearly India cannot be expected to continue its moratorium
+T41	Note 2199 2210	requirement
+#6	AnnotatorNotes T41	Demand, rather than a nominalized verb referring to the act of requiring.
+T44	NonCausal 133 137	amid
+E13	NonCausal:T44 Arg0:T45 Arg1:T46
+A17	Context E13
+T45	Argument 138 228	disagreement over India's right to continue testing nuclear weapons and process spent fuel
+T46	Argument 0 132	Talks intended to restart stalled negotiations on a landmark nuclear pact between India and the United States began here on Thursday
+T38	Consequence 1987 1990;2025 2028	the the
+E14	Consequence:T38 Cause:T39 Effect:T47
+A18	Degree E14 Facilitate
+A19	Correlation E14
+T39	Argument 1991 2023	longer the negotiations continue
+T47	Argument 2029 2125	less time there will be to push the deal through before the Bush administration draws to a close

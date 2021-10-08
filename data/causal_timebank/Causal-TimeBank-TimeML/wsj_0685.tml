@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0685</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-30</TIMEX3></DCT>
+<TEXT>
+ CNW Corp. <EVENT eid="e1" class="REPORTING">said</EVENT> the final step in the <EVENT eid="e2" class="OCCURRENCE">acquisition</EVENT> of the company has been <EVENT eid="e3" class="ASPECTUAL">completed</EVENT> with the <EVENT eid="e4" class="OCCURRENCE">merger</EVENT> of CNW with a subsidiary of Chicago amp North Western Holdings Corp.
+ As <EVENT eid="e5" class="REPORTING">reported</EVENT>, CNW <EVENT eid="e6" class="I_ACTION">agreed</EVENT> to be <EVENT eid="e7" class="OCCURRENCE">acquired</EVENT> by a group of investors led by Blackstone Capital Partners Limited Partnership for $ 50 a share, or about $ 950 million.
+</TEXT>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToEventInstance="ei1"/>
+<TLINK lid="l2" relType="INCLUDES" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei5" relatedToTime="t0"/>
+<TLINK lid="l4" relType="IDENTITY" eventInstanceID="ei7" relatedToEventInstance="ei2"/>
+</TimeML>

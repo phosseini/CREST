@@ -1,0 +1,5 @@
+The effect of RpoE on virulence genes is downstream of ssrB expression 
+The variable effects of rpoE deletion on SsrB-regulated effectors suggested that RpoE might direct transcription downstream of ssrB expression.
+To test this, we replaced the ssrB gene in DeltarpoE and wild type cells with an ssrB::FLAG allele [19] and examined the levels of SsrB protein in the strains by western blot.
+There was no change in the levels of SsrB-FLAG between wild type and DeltarpoE cells (Figure 3), indicating that the effects of RpoE on the four classes of virulence gene promoters examined here was not mediated through changes to SsrB protein levels.
+Together these data establish a role for RpoE in the fine-tuning of virulence gene expression in S. Typhimurium.

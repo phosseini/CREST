@@ -1,0 +1,24 @@
+T15	Process 396 405	infection
+T16	Process 435 444	infection
+T17	Process 560 569	infection
+T18	Process 879 888	infection
+T19	Process 932 941	infection
+E1	Process:T15 
+E2	Process:T16 
+E3	Process:T17 
+E4	Process:T18 
+E5	Process:T19 
+T1	Protein 0 4	SrcA
+T2	Protein 21 26	PipB2
+T3	Organism 69 79	Salmonella
+T4	Protein 127 131	SrcA
+T5	Protein 147 152	PipB2
+T6	Protein 201 205	srcA
+T7	Organism 222 232	DeltapipB2
+T8	Protein 243 248	PipB2
+T9	Organism 291 301	Salmonella
+T10	Protein 692 697	pipB2
+T11	Organism 701 712	srcA mutant
+T12	Protein 701 705	srcA
+T13	Organism 978 988	DeltapipB2
+T14	Organism 998 1007	DeltasrcA

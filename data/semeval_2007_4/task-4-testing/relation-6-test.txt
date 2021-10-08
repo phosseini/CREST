@@ -1,0 +1,216 @@
+141 "Pretty much every "classic five pocket design" boasted a <e1>coin</e1> <e2>pocket</e2> in the front right scoop pocket."
+WordNet(e1) = "coin%1:21:02::", WordNet(e2) = "pocket%1:06:00::", Part-Whole(e1, e2) = "?", Query = "* a * * in"
+
+142 "The Women's Chorus of Dallas is one of the nation's finest <e1>women</e1>'s <e2>choruses</e2>."
+WordNet(e1) = "woman%1:18:00::", WordNet(e2) = "chorus%1:14:00::", Part-Whole(e1, e2) = "?", Query = "*'s *"
+
+143 "Everything is possible and my <e1>life</e1> is enriched with <e2>joy</e2>."
+WordNet(e1) = "life%1:09:00::", WordNet(e2) = "joy%1:12:00::", Part-Whole(e2, e1) = "?", Query = "* enriched with *"
+
+144 "Wide and luminous one-roomed flat gained in an ancient <e1>house</e1> in <e2>stone</e2> in typical Tuscan style, ideal for braces or small families."
+WordNet(e1) = "house%1:06:01::", WordNet(e2) = "stone%1:06:00::", Part-Whole(e2, e1) = "?", Query = "* in *"
+
+145 "Schools collected about US$5 million to build a sustainable textbook fund by charging a rental fee to parents equivalent to 1/7 of the <e1>book</e1>'s <e2>price</e2>."
+WordNet(e1) = "book%1:06:00::", WordNet(e2) = "price%1:07:00::", Part-Whole(e2, e1) = "?", Query = "*'s *"
+
+146 "Today, the coast guard discovered a <e1>boat</e1> full of <e2>migrants</e2>."
+WordNet(e1) = "boat%1:06:00::", WordNet(e2) = "migrant%1:18:00::", Part-Whole(e2, e1) = "?", Query = "* full or *"
+
+147 "You know the <e1>year</e1> of <e2>emigration</e2> from Norway, but not what ship."
+WordNet(e1) = "year%1:28:01::", WordNet(e2) = "emigration%1:04:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+148 "I've heard the <e1>stock</e1> <e2>market</e2> is making a recovery but isn't it a bit early to put my money."
+WordNet(e1) = "stock%1:21:02::", WordNet(e2) = "market%1:14:01::", Part-Whole(e1, e2) = "?", Query = "the * * is"
+
+149 "Several recent media reports have included speculations about the <e1>significance</e1> of <e2>mutations</e2> in H5N1 avian influenza viruses."
+WordNet(e1) = "significance%1:07:00::", WordNet(e2) = "mutation%1:11:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+150 "All Uplanders have a two-tone color scheme with faux metal accents that dramatically brightens the <e1>cabin</e1>'s <e2>atmosphere</e2>."
+WordNet(e1) = "?", WordNet(e2) = "atmosphere%1:07:00::", Part-Whole(e2, e1) = "?", Query = "*'s *"
+
+151 "According to the Top 100 Journals Reporting Macromolecular Structures, it ranks sixth in published <e1>quantity</e1> of <e2>entries</e2> in the Protein Data Bank."
+WordNet(e1) = "quantity%1:03:00::", WordNet(e2) = "entry%1:10:01::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+152 "However, in the <e1>car</e1>'s <e2>handbook</e2>, it is stated that the side airbags would only deploy when the car receives a side hit," Wu said."
+WordNet(e1) = "car%1:06:00::", WordNet(e2) = "handbook%1:10:00::", Part-Whole(e1, e2) = "?", Query = "*'s *"
+
+153 "Larger <e1>species</e1> never present in <e2>major amount</e2> become less abundant."
+WordNet(e1) = "species%1:14:00::", WordNet(e2) = "amount%1:07:00::", Part-Whole(e1, e2) = "?", Query = "* * present in *"
+
+154 "The <e1>database</e1> contains <e2>annotated references</e2> to non-journal material and to journal articles."
+WordNet(e1) = "database%1:10:00::", WordNet(e2) = "reference%1:10:03::", Part-Whole(e2, e1) = "?", Query = "* contains *"
+
+155 "Our villa was extremely clean, the only flaw being some stains on one side of the <e1>sofa</e1> <e2>cushions</e2>."
+WordNet(e1) = "sofa%1:06:00::", WordNet(e2) = "cushion%1:06:00::", Part-Whole(e2, e1) = "?", Query = "the * *"
+
+156 "Each <e1>entry</e1> is enriched with <e2>synonyms</e2>, explanations, and etymological information."
+WordNet(e1) = "entry%1:10:01::", WordNet(e2) = "synonym%1:10:00::", Part-Whole(e2, e1) = "?", Query = "* enriched with *"
+
+157 "And I spent Thanksgiving in a <e1>church</e1> packed to the <e2>limit</e2>, with many of the congregation having to stand."
+WordNet(e1) = "church%1:06:00::", WordNet(e2) = "limit%1:23:00::", Part-Whole(e2, e1) = "?", Query = "* packed to the *"
+
+158 "Arizona police found 214 <e1>pounds</e1> of <e2>marijuana</e2> in trunk of 62-year-old woman."
+WordNet(e1) = "pound%1:23:09::", WordNet(e2) = "marijuana%1:06:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+159 "The Clean Water Act requires that the <e1>surface</e1> <e2>waters</e2> of each state be classified according to designated uses."
+WordNet(e1) = "surface%1:06:00::", WordNet(e2) = "water%1:17:00::", Part-Whole(e1, e2) = "?", Query = "the surface *"
+
+160 "Experimental vaccine blocks <e1>transmission</e1> of <e2>malaria</e2> in mice study."
+WordNet(e1) = "transmission%1:11:00::", WordNet(e2) = "malaria%1:26:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+161 "Iraqi forces kill <e1>hundreds</e1> of <e2>gunmen</e2> in Najaf."
+WordNet(e1) = "hundred%1:23:00::", WordNet(e2) = "gunman%1:18:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+162 "Blinds all closed for privacy, his black army boots scuffing the dirt coated <e1>linoleum</e1> <e2>floor</e2>."
+WordNet(e1) = "linoleum%1:27:00::", WordNet(e2) = "floor%1:06:00::", Part-Whole(e1, e2) = "?", Query = "* floor"
+
+163 "The sliding doors provide 360 degree visibility for the <e1>room</e1>'s <e2>occupants</e2>."
+WordNet(e1) = "room%1:06:00::", WordNet(e2) = "occupant%1:18:00::", Part-Whole(e2, e1) = "?", Query = "*'s *"
+
+164 "The <e1>mountain</e1> <e2>gorillas</e2> are the rarest of all and are on the verge of extinction."
+WordNet(e1) = "mountain%1:17:00::", WordNet(e2) = "gorilla%1:05:00::", Part-Whole(e1, e2) = "?", Query = "the * * are"
+
+165 "Then he planted his apple seeds in neat rows and built a <e1>brush</e1> <e2>fence</e2> around the area."
+WordNet(e1) = "brush%1:14:00::", WordNet(e2) = "fence%1:06:00::", Part-Whole(e1, e2) = "?", Query = "* fence"
+
+166 "Official site with information for prospective and current students includes <e1>details</e1> of <e2>courses</e2>, events, and research."
+WordNet(e1) = "detail%1:09:00::", WordNet(e2) = "course%1:04:01::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+167 "A supper of <e1>chocolate</e1> <e2>bars</e2> and soup followed and at 6pm we resigned ourselves to another night of headaches and zero sleep."
+WordNet(e1) = "chocolate%1:13:00::", WordNet(e2) = "bar%1:06:06::", Part-Whole(e1, e2) = "?", Query = "chocolate *"
+
+168 "The two special <e1>folds</e1> of the <e2>dura</e2> in the brain are called the falx and the tentorium."
+WordNet(e1) = "fold%1:08:00::", WordNet(e2) = "dura%1:08:00::", Part-Whole(e1, e2) = "?", Query = "* of the *"
+
+169 "This page is a <e1>directory</e1> of <e2>libraries</e2> in Italy."
+WordNet(e1) = "directory%1:10:00::", WordNet(e2) = "library%1:14:00::", Part-Whole(e2, e1) = "?", Query = "* of *"
+
+170 "The <e1>submission</e1> <e2>deadline</e2> is February, 2, 2007."
+WordNet(e1) = "submission%1:10:00::", WordNet(e2) = "deadline%1:28:00::", Part-Whole(e1, e2) = "?", Query = "the * * is"
+
+171 "This course will provide you with a broad and useful <e1>understanding</e1> of <e2>surfaces</e2> and components."
+WordNet(e1) = "understanding%1:09:01::", WordNet(e2) = "surface%1:06:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+172 "The <e1>goal</e1> of <e2>accreditation</e2> is to ensure that education provided by institutions of higher education."
+WordNet(e1) = "goal%1:09:00::", WordNet(e2) = "accreditation%1:04:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+173 "Our Belle de Provence soaps are 100% pure vegetable <e1>soaps</e1> enriched with <e2>shea butter</e2> and sweet almond oil."
+WordNet(e1) = "soap%1:06:00::", WordNet(e2) = "butter%1:13:00::", Part-Whole(e2, e1) = "?", Query = "* enriched with *"
+
+174 "<e1>Beta-carotene</e1> is found in <e2>carrots</e2>, yellow vegetables and dark green vegetables and is converted to vitamin A in the body."
+WordNet(e1) = "beta-carotene%1:27:00::", WordNet(e2) = "carrot%1:13:00::", Part-Whole(e1, e2) = "?", Query = "* is found in *"
+
+175 "Honors & Awards Faculty awards and national <e1>rankings</e1> of <e2>programs</e2> included Nobel Prize winners."
+WordNet(e1) = "ranking%1:26:00::", WordNet(e2) = "program%1:10:05::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+176 "But the <e1>role</e1> of <e2>pheromones</e2> in the human realm remains controversial."
+WordNet(e1) = "role%1:07:00::" , WordNet(e2) = "pheromone%1:27:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+177 "At a public generalist university <e1>fields</e1> of <e2>study</e2> offered include mathematics, sciences, humanities, medicine, law, and Christian theology."
+WordNet(e1) = "field%1:09:00::", WordNet(e2) = "study%1:09:02::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+178 "This includes <e1>details</e1> of <e2>facilities</e2>, research, staff, and conferences."
+WordNet(e1) = "detail%1:24:00::", WordNet(e2) = "facility%1:04:01::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+179 "<e1>Pasta</e1> is fortified with <e2>folic acid</e2> (the synthetic form of naturally occurring folate), due to Food and Drug Administration (FDA) regulations that require enriched grain products to contain this essential vitamin."
+WordNet(e1) = "pasta%1:13:00::", WordNet(e2) = "folic_acid%1:27:00::", Part-Whole(e2, e1) = "?", Query = "* is fortified with *"
+
+180 "Even if we are entirely despised in the <e1>eyes</e1> of <e2>men</e2>, let us rejoice that we are honoured in the sight of God."
+WordNet(e1) = "eyes%1:09:00::", WordNet(e2) = "man%1:18:04::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+181 "A special design of tank bottom plate and <e1>sea</e1> <e2>bottom</e2> mud guns makes mud flow out from sand cleaning door automatically so that operators needn't go down."
+WordNet(e1) = "sea%1:17:00::", WordNet(e2) = "bottom%1:15:01::", Part-Whole(e1, e2) = "?", Query = "sea * *"
+
+182 "We have in recent months witnessed what I can only describe as <e1>assassinations</e1> of <e2>humanitarians</e2> from across the spectrum."
+WordNet(e1) = "assassination%1:04:00::", WordNet(e2) = "humanitarian%1:18:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+183 "The historical <e1>method</e1> comprises <e2>techniques</e2> and guidelines by which historians use primary sources and other evidence to research and then to write history."
+WordNet(e1) = "method%1:09:00::", WordNet(e2) = "technique%1:09:00::", Part-Whole(e2, e1) = "?", Query = "* comprises *"
+
+184 "And he will show a shark <e1>sandwich</e1> made with <e2>mustard</e2>, vegan mozzarella-style cheese, and Smart Deli Bologna on a whole wheat bun."
+WordNet(e1) = "sandwich%1:13:00::", WordNet(e2) = "mustard%1:13:00::", Part-Whole(e2, e1) = "?", Query = "* made with *"
+
+185 "One splendid sunshiny day, about an hour after noon, Irene, who was playing on the <e1>lawn</e1> in the <e2>garden</e2>, heard the distant blast of a bugle."
+WordNet(e1) = "lawn%1:15:00::", WordNet(e2) = "garden%1:06:01::", Part-Whole(e1, e2) = "?", Query = "* in the *"
+
+186 "This year health care providers and local health departments have ample <e1>supplies</e1> of <e2>vaccine</e2>."
+WordNet(e1) = "supply%1:22:00::", WordNet(e2) = "vaccine%1:06:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+187 "Gathering her courage, she walked to the open front door, the <e1>padding</e1> of her <e2>sandaled feet</e2> along the rough wooden planks."
+WordNet(e1) = "padding%1:06:00::", WordNet(e2) = "foot%1:08:01::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+188 "The specification includes the <e1>ordering</e1> of <e2>messages</e2> from one node."
+WordNet(e1) = "ordering%1:14:00::", WordNet(e2) = "message%1:10:01::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+189 "None of the <e1>trademark</e1> <e2>holders</e2> are affiliated with Kaplan or this website."
+WordNet(e1) = "trademark%1:10:00::", WordNet(e2) = "holder%1:18:00::", Part-Whole(e1, e2) = "?", Query = "the * * are"
+
+190 "The story these measurement techniques are all telling is that the <e1>ice</e1> <e2>sheets</e2> are shrinking more than they were 10 years ago," said Abdalati."
+WordNet(e1) = "ice%1:27:00::", WordNet(e2) = "sheet%1:17:00::", Part-Whole(e1, e2) = "?", Query = "the * * are"
+
+191 "This is the <e1>government</e1>'s <e2>effort</e2> to encourage more employers to open up childcare centres at the respective ministries and government departments."
+WordNet(e1) = "government%1:14:00::", WordNet(e2) = "effort%1:04:00::", Part-Whole(e1, e2) = "?", Query = "*'s *"
+
+192 "This example of a uniform rod previews some common features about the process of finding the <e1>center</e1> of <e2>mass</e2> of the continuous body."
+WordNet(e1) = "center%1:15:00::", WordNet(e2) = "mass%1:07:00::", Part-Whole(e1, e2) = "?", Query = "the * of *"
+
+193 "It is monetary <e1>reinforcement</e1> of <e2>abstinence</e2> from cocaine among mentally ill patients with cocaine dependence."
+WordNet(e1) = "reinforcement%1:04:00::", WordNet(e2) = "abstinence%1:07:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+194 "The <e1>hat</e1> <e2>wearers</e2> are allowed."
+WordNet(e1) = "hat%1:06:00::", WordNet(e2) = "wearer%1:18:00::", Part-Whole(e1, e2) = "?", Query = "the * * are"
+
+195 "<e1>People</e1> with <e2>red hair</e2> are supposed to get mad very easily, but Allie never did, and he had very red hair."
+WordNet(e1) = "people%1:14:00::", WordNet(e2) = "hair%1:08:00::", Part-Whole(e2, e1) = "?", Query = "* with *"
+
+196 "There was another sign below that showing a <e1>man</e1>'s <e2>head</e2> in silhouette, painted a bright yellow."
+WordNet(e1) = "man%1:18:00::", WordNet(e2) = "head%1:08:00::", Part-Whole(e2, e1) = "?", Query = "*'s *"
+
+197 "And the point was that since there is no Libertopia, there's no steady <e1>string</e1> of <e2>atrocities</e2> from it to provoke people."
+WordNet(e1) = "string%1:14:00::", WordNet(e2) = "atrocity%1:04:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+198 "Our organic <e1>breads</e1> use <e2>organic ingredients</e2> (the other 5% is the yeast and salt, of which only "all-natural" is available)."
+WordNet(e1) = "bread%1:13:00::", WordNet(e2) = "ingredient%1:13:00::", Part-Whole(e2, e1) = "?", Query = "* use * ingredients"
+
+199 "These are just a few thoughts from a <e1>soldier</e1>'s <e2>mom</e2> in a time of war with all the talk of increasing troop levels."
+WordNet(e1) = "soldier%1:18:00::", WordNet(e2) = "mom%1:18:00::", Part-Whole(e2, e1) = "?", Query = "*'s *"
+
+200 "The <e1>cottontail</e1> <e2>rabbits</e2> are 16 lagomorph species in the genus Sylvilagus, found in the Americas."
+WordNet(e1) = "cottontail%1:05:00::", WordNet(e2) = "rabbit%1:05:00::", Part-Whole(e1, e2) = "?", Query = "the * * are"
+
+201 "Mithraism reached its <e1>height</e1> of <e2>popularity</e2> in the third century."
+WordNet(e1) = "height%1:26:00::", WordNet(e2) = "popularity%1:07:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+202 "Ensure that you don't lose a <e1>drop</e1> of <e2>juice</e2> by nestling your shellfish in salt."
+WordNet(e1) = "drop%1:23:00::", WordNet(e2) = "juice%1:13:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+203 "How many have had to sit on both <e1>sides</e1> of the <e2>table</e2>?"
+WordNet(e1) = "side%1:06:00::" , WordNet(e2) = "table%1:06:01::", Part-Whole(e1, e2) = "?", Query = "* of the *"
+
+204 "As Rachel Mosteller wrote earlier today, the <e1>abundance</e1> of <e2>toys</e2> can take over your home in the blink of an eye."
+WordNet(e1) = "abundance%1:07:00::", WordNet(e2) = "toy%1:06:00::", Part-Whole(e1, e2) = "?", Query = "abundance of *"
+
+205 "The Cellar features a unique <e1>selection</e1> of <e2>wines</e2> from around the world."
+WordNet(e1) = "selection%1:14:00::", WordNet(e2) = "wine%1:13:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+206 "Fishes are more prone to predation from groups of predators because multiple predators can surround a <e1>school</e1> of <e2>fish</e2> and prevent fishes from escaping."
+WordNet(e1) = "school%1:14:01::", WordNet(e2) = "fish%1:05:00::", Part-Whole(e2, e1) = "?", Query = "* of *"
+
+207 "Standoff sensing performed in real time by exploiting the spectral <e1>properties</e1> of <e2>aerosols</e2>."
+WordNet(e1) = "property%1:07:00::", WordNet(e2) = "aerosol%1:19:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+208 "The <e1>mystery</e1> of <e2>poisoning</e2> in Antarctic deepens as suicide is ruled out."
+WordNet(e1) = "mystery%1:09:00::", WordNet(e2) = "poisoning%1:04:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+
+209 "The <e1>box</e1> of <e2>matches</e2> looked nice, but it took the winner more than two hours to paint the matches and glue them together into a tiny box."
+WordNet(e1) = "box%1:06:00::", WordNet(e2) = "match%1:06:02::", Part-Whole(e2, e1) = "?", Query = "* of *"
+
+210 "Bruto, the Diefenbachers' black and white American pit bull terrier, confronted the deputy as he stepped through the <e1>door</e1> into the <e2>house</e2>."
+WordNet(e1) = "door%1:06:01::", WordNet(e2) = "house%1:06:00::", Part-Whole(e1, e2) = "?", Query = "stepped through the * into the *"
+
+211 "She inserted the <e1>key</e1> into the <e2>lock</e2> and then stood back as the doorway opened and a light went all over rouge."
+WordNet(e1) = "key%1:06:00::", WordNet(e2) = "lock%1:06:00::", Part-Whole(e1, e2) = "?", Query = "inserted the * into the *"
+
+212 "A single <e1>scrap</e1> of <e2>paper</e2> in a bag for glass and tins means this young man now has a criminal record which will blight his entire life."
+WordNet(e1) = "scrap%1:06:00::", WordNet(e2) = "paper%1:27:00::", Part-Whole(e1, e2) = "?", Query = "* of *"
+

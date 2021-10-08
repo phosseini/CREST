@@ -1,0 +1,125 @@
+T4	Purpose 730 732	to
+E2	Purpose:T4 Cause:T5 Effect:T6
+A3	Degree E2 Facilitate
+T5	Argument 733 843	iron out particular issues -- say, how to limit tropical deforestation or clean up heavily emitting industries
+T6	Argument 665 729	working with relatively small groups of countries and industries
+T7	Consequence 862 866	make
+E3	Consequence:T7 Cause:T8 Effect:T9
+A4	Degree E3 Facilitate
+T8	Argument 845 855	Such talks
+T9	Argument 867 869;870 978	it easier to find consensus in the formal rounds of United Nations treaty negotiations among nearly 200 nations
+T10	Consequence 1030 1032	if
+E4	Consequence:T10 Effect:T11 Cause:T12
+A5	Degree E4 Facilitate
+A6	Hypothetical E4
+T11	Argument 1010 1024	that will work
+T12	Argument 1033 1178	Mr. Bush sticks to his administration's pledge to have its efforts feed into United Nations climate discussions, which resume in Bali in December
+T13	Consequence 1253 1261	assuring
+E5	Consequence:T13 Effect:T14 Means:T15
+A7	Degree E5 Facilitate
+T14	Argument 1262 1276	accountability
+T15	Argument 1194 1233	the formalized process of treaty making
+T16	Consequence 1406 1409;1448 1450	too to
+E6	Consequence:T16 Cause:T17 Effect:T18
+A8	Degree E6 Inhibit
+A9	Extremity-sufficiency E6
+T17	Argument 1406 1414	too iffy
+T18	Argument 1451 1615	justify more than mild steps to blunt growth in greenhouse gas emissions, which come mainly from using coal and oil, the fossil fuels that underpin modern economies
+T19	Consequence 1439 1442;1448 1450	too to
+E7	Consequence:T19 Cause:T20 Effect:T18
+A10	Degree E7 Inhibit
+A11	Extremity-sufficiency E7
+T20	Argument 1439 1447	too high
+T21	Consequence 1531 1535;1543 1547	come from
+E8	Consequence:T21 Effect:T22 Cause:T24
+A12	Degree E8 Facilitate
+T22	Argument 1525 1530	which
+T23	Argument 1499 1523	greenhouse gas emissions
+R1	Coref Arg1:T22 Arg2:T23	
+T24	Argument 1548 1615	using coal and oil, the fossil fuels that underpin modern economies
+T25	Consequence 1970 1974	help
+E9	Consequence:T25 Effect:T26 Cause:T27
+A14	Degree E9 Facilitate
+T26	Argument 1975 1995	end policy deadlocks
+T27	Argument 1940 1963	the president's project
+T28	Consequence 2143 2148	avoid
+E10	Consequence:T28 Effect:T32 Means:T30
+A15	Degree E10 Inhibit
+T29	Purpose 2140 2142	to
+E11	Purpose:T29 Cause:T31 Effect:T30
+A16	Degree E11 Facilitate
+T30	Argument 2122 2139	cutting emissions
+T31	Argument 2143 2177	avoid ''dangerous'' climate change
+T32	Argument 2149 2177	''dangerous'' climate change
+T36	Consequence 2258 2268	leading to
+E12	Consequence:T36 Cause:T37 Effect:T38
+A17	Degree E12 Facilitate
+T37	Argument 2229 2256	Emissions rose relentlessly
+T38	Argument 2269 2443	fresh talks culminating in the Kyoto Protocol, negotiated in Japan in 1997 and enacted in 2005, which has binding limits on emissions for three dozen industrialized countries
+T39	Purpose 2558 2561	for
+E13	Purpose:T39 Cause:T40 Effect:T41
+A18	Degree E13 Facilitate
+T40	Argument 2562 2570	approval
+T41	Argument 2479 2497;2539 2557	The Kyoto pact was sent to the Senate
+T42	NonCausal 2699 2704	after
+E14	NonCausal:T42 Arg0:T43 Arg1:T44
+A19	Temporal E14
+T43	Argument 2705 2719	the Kyoto pact
+T44	Argument 2720 2815	each subsequent step in the treaty process would bring stricter and broader limits on emissions
+T45	Motivation 2851 2858	because
+E15	Motivation:T45 Effect:T46 Cause:T47
+A20	Degree E15 Facilitate
+T46	Argument 2820 2850	Much of the world is skeptical
+T47	Argument 2859 2925	the Bush administration has such a poor track record on this topic
+T48	Consequence 3019 3021	If
+E16	Consequence:T48 Cause:T49 Effect:T50
+A21	Degree E16 Facilitate
+A22	Hypothetical E16
+T49	Argument 3022 3110	the initiative leads to more serious efforts by the U.S. and by key developing countries
+T50	Argument 3112 3214	it will in fact breathe life into the whole enterprise aimed at protecting the planet, including Kyoto
+T51	Motivation 3037 3045	leads to
+E17	Motivation:T51 Cause:T52 Effect:T53
+A23	Degree E17 Facilitate
+T52	Argument 3022 3036	the initiative
+T53	Argument 3046 3110	more serious efforts by the U.S. and by key developing countries
+T54	Consequence 3333 3348	responsible for
+E18	Consequence:T54 Effect:T55
+A24	Degree E18 Facilitate
+T55	Argument 3349 3424	85 percent of the emissions of carbon dioxide and other heat-trapping gases
+T56	Argument 4117 4127	the period
+T57	NonCausal 4128 4133	after
+E19	NonCausal:T57 Arg0:T58 Arg1:T56
+A25	Temporal E19
+T58	Argument 4134 4138	2012
+T59	Consequence 4870 4875	given
+E20	Consequence:T59 Effect:T60 Cause:T61
+A26	Degree E20 Facilitate
+T60	Argument 4829 4869	both approaches would probably be needed
+T61	Argument 4876 5029	the wide range of conflicting interests, emissions sources, economic circumstances and energy choices in countries contributing to the greenhouse buildup
+T62	Motivation 5404 5406	if
+E21	Motivation:T62 Effect:T63 Cause:T64
+A27	Degree E21 Facilitate
+A28	Hypothetical E21
+T63	Argument 5266 5389	Ban Ki-moon -- who plans his own push on climate action within the United Nations this fall -- endorsed Mr. Bush's proposal
+T64	Argument 5407 5461	it is tied into talks aimed at invigorating the treaty
+T65	Consequence 5952 5957	avoid
+E22	Consequence:T65 Effect:T66
+A29	Degree E22 Inhibit
+T66	Argument 5958 5982	dangerous climate change
+T67	Consequence 6212 6219;6230 6232	have to to
+E23	Consequence:T67 Effect:T68 Cause:T69
+A30	Degree E23 Facilitate
+T68	Argument 6233 6255	overcome strong doubts
+T69	Argument 6198 6206;6220 6229	Mr. Bush work hard
+T70	Consequence 6367 6374;6410 6412	have to to
+E24	Consequence:T70 Cause:T71 Effect:T72
+A31	Degree E24 Facilitate
+T71	Argument 6352 6360;6375 6409	Mr. Bush show concrete progress in the fall
+T72	Argument 6413 6501	overcome ''a legacy of stalling, back-pedaling and undermining of international talks.''
+T73	Purpose 6532 6534	to
+E25	Purpose:T73 Cause:T74 Effect:T75
+A32	Degree E25 Facilitate
+T74	Argument 6535 6565	say what you've done yesterday
+T75	Argument 6505 6531	Give us a press conference
+T82	Note 3314 3332	up to 15 countries
+#9	AnnotatorNotes T82	Relative clause

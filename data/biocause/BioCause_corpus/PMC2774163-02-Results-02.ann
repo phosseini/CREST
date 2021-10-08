@@ -1,0 +1,135 @@
+T1	Protein 741 745	RpoD
+T2	Protein 960 966	PA2096
+T3	Protein 1168 1172	GacS
+T4	Protein 1177 1183	PA4197
+T5	Protein 1185 1189	BfiS
+T6	Protein 1265 1271	PA2096
+T7	Protein 1276 1282	PA4101
+T8	Protein 1284 1288	BfmR
+T9	Protein 1361 1367	PA4102
+T10	Protein 1369 1373	BfmS
+T11	Protein 1398 1404	PA4101
+T12	Protein 1447 1453	PA4101
+T13	Protein 1730 1736	PA5511
+T14	Protein 1738 1742	MifR
+T15	Protein 1861 1867	PA5511
+T16	Protein 1980 1986	PA5511
+T17	Protein 2051 2057	PA5512
+T18	Protein 2085 2091	PA4196
+T19	Protein 2353 2359	PA4197
+T20	Protein 2361 2367	PA4101
+T21	Protein 2372 2376	GacS
+T22	Protein 2727 2731	GacS
+T23	Protein 2733 2739	PA4101
+T24	Protein 2745 2751	PA4197
+T25	Protein 2872 2878	PA4197
+T26	Protein 2880 2886	PA4101
+T27	Protein 2891 2895	GacS
+T28	Organism 2912 2930	DeltaPA4197 mutant
+T29	Protein 2917 2923	PA4197
+T30	Protein 2998 3002	GacS
+T31	Protein 3007 3013	PA4197
+T32	Organism 3030 3048	DeltaPA4101 mutant
+T33	Protein 3035 3041	PA4101
+T34	Protein 3075 3081	PA4101
+T35	Protein 3122 3126	GacS
+T36	Protein 3131 3137	PA4197
+T37	Organism 3139 3148	DeltagacS
+T38	Protein 3144 3148	gacS
+T39	Protein 3236 3242	PA4197
+T40	Protein 3268 3274	PA4101
+T41	Protein 3312 3318	PA5511
+T42	Protein 3717 3723	PA4101
+T43	Protein 3778 3784	PA4197
+T44	Protein 3789 3795	PA5511
+T45	Protein 3888 3892	retS
+T46	Protein 3897 3901	ladS
+*	Equiv T4 T5
+*	Equiv T7 T8
+*	Equiv T9 T10
+*	Equiv T13 T14
+T47	Phosphorylation 565 579	phosphorylated
+T48	Phosphorylation 1004 1018	phosphorylated
+T49	Phosphorylation 1208 1222	phosphorylated
+T50	Phosphorylation 1422 1436	phosphorylated
+T51	Phosphorylation 1454 1469	phosphorylation
+T52	Phosphorylation 1748 1762	phosphorylated
+T53	Localization 1828 1837	detection
+T54	Phosphorylation 1842 1857	phosphorylation
+T55	Phosphorylation 2386 2400	phosphorylated
+T56	Phosphorylation 2469 2477	modified
+T57	Phosphorylation 2853 2868	phosphorylation
+T58	Phosphorylation 2974 2989	phosphorylation
+T59	Phosphorylation 3082 3097	phosphorylation
+T60	Regulation 3108 3118	downstream
+T61	Phosphorylation 3249 3263	phosphorylated
+T62	Phosphorylation 3275 3290	phosphorylation
+T63	Localization 3327 3335	detected
+T64	Gene_expression 3724 3734	expression
+T65	Gene_expression 3816 3825	expressed
+T66	Gene_expression 3927 3936	expressed
+E1	Phosphorylation:T47 Theme:T1
+E2	Phosphorylation:T48 Theme:T2
+M1	Negation E2
+E3	Phosphorylation:T49 Theme:T3
+E4	Phosphorylation:T49 Theme:T4
+E5	Phosphorylation:T49 Theme:T6
+E6	Phosphorylation:T49 Theme:T7
+E7	Phosphorylation:T50 Theme:T9
+E8	Phosphorylation:T51 Theme:T12
+E9	Phosphorylation:T52 Theme:T13
+E10	Localization:T53 Theme:T15
+E11	Phosphorylation:T54 Theme:T15
+E12	Phosphorylation:T55 Theme:T19
+E13	Phosphorylation:T55 Theme:T20
+E14	Phosphorylation:T55 Theme:T21
+E15	Phosphorylation:T56 Theme:T19
+E16	Phosphorylation:T56 Theme:T20
+E17	Phosphorylation:T56 Theme:T21
+E18	Phosphorylation:T57 Theme:T25
+E19	Phosphorylation:T57 Theme:T26
+E20	Phosphorylation:T57 Theme:T27
+E21	Phosphorylation:T58 Theme:T30
+E22	Phosphorylation:T58 Theme:T31
+E23	Phosphorylation:T59 Theme:T34
+E24	Regulation:T60 Theme:E23 Cause:T35
+M2	Speculation E24
+E25	Regulation:T60 Theme:E23 Cause:T36
+M3	Speculation E25
+E26	Phosphorylation:T61 Theme:T39
+E27	Phosphorylation:T62 Theme:T40
+M4	Negation E27
+E28	Localization:T63 Theme:T41
+E29	Gene_expression:T64 Theme:T42
+E30	Gene_expression:T65 Theme:T43
+E31	Gene_expression:T65 Theme:T44
+E32	Gene_expression:T66 Theme:T45
+E33	Gene_expression:T66 Theme:T46
+T67	Span 375 507	Proteins that were confirmed to be phosphorylated by immunoblot analysis were identified using a mass spectrometric approach as well
+T68	Causality 509 516	We thus
+E34	Causality:T68 Effect:T69 Evidence:T67
+T69	Span 517 790	identified 48 proteins that were differentially phosphorylated at one or more biofilm developmental stage including elongation factors, ribosomal proteins, several enzymes including reductases and GMP synthase, sigma factor RpoD (Suppl. Table S1) and 11 regulatory proteins
+T70	Span 2015 2121	Neither the cognate sensory protein PA5512 nor the response regulator PA4196 were identified in this study
+T71	Causality 2123 2141	This may be due to
+E35	Causality:T71 Evidence:T72 Effect:T70
+T72	Span 2142 2348	detection limitation (low protein concentrations, poor protein solubility, poor ionization) and/or limitation in the number of phosphorylated proteins identified (see Suppl. Tables S1 and S2 for comparison)
+T73	Span 2705 2836	We therefore analyzed GacS, PA4101, and PA4197 mutant biofilm phosphorylation patterns for the presence/absence of these regulators
+T74	Causality 2838 2849	No evidence
+E36	Causality:T74 Effect:T75 Evidence:T73
+T75	Span 2850 2963	of phosphorylation of PA4197, PA4101, or GacS was detected in DeltaPA4197 mutant biofilm phosphorylation patterns
+T76	Span 2974 3057	phosphorylation of both GacS and PA4197 was detected in DeltaPA4101 mutant biofilms
+T77	Causality 3059 3074	indicating that
+E37	Causality:T77 Effect:T78 Evidence:T76
+T78	Span 3075 3137	PA4101 phosphorylation may occur downstream of GacS and PA4197
+T79	Span 2974 3137	phosphorylation of both GacS and PA4197 was detected in DeltaPA4101 mutant biofilms, indicating that PA4101 phosphorylation may occur downstream of GacS and PA4197
+T80	Span 3139 3298	DeltagacS biofilm phosphorylation patterns showed an intermediate phosphorylation phenotype with PA4197 being phosphorylated but PA4101 phosphorylation lacking
+T81	Span 3312 3374	PA5511 was not detected in any of the mutant biofilms analyzed
+T82	Causality 3393 3418	The findings suggest that
+E38	Causality:T82 Effect:T83 Evidence:T81
+T83	Span 3419 3548	phosphorylation of regulatory proteins occurs in a sequential (but probably indirect) manner over the course of biofilm formation
+E39	Causality:T82 Effect:T83 Evidence:T80
+E40	Causality:T82 Effect:T83 Evidence:T79
+T84	Span 3888 3936	retS and ladS were also constitutively expressed
+T85	Causality 3937 3952	indicating that
+E41	Causality:T85 Effect:T86 Evidence:T84
+T86	Span 3953 4017	posttranslational modifications are essential for their activity

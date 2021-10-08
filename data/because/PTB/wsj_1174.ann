@@ -1,0 +1,58 @@
+T1	NonCausal 0 2	If
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Hypothetical E1
+T2	Argument 3 58	bluebloods won't pay high prices for racehorses anymore
+T3	Argument 60 68	who will
+T4	NonCausal 931 937	before
+E2	NonCausal:T4 Arg1:T5 Arg0:T6
+A2	Temporal E2
+T5	Argument 938 980	the market plummeted 190 points on Oct. 13
+T6	Argument 901 930	he sold all his stocks a week
+T7	Purpose 1008 1010	to
+E3	Purpose:T7 Effect:T8 Cause:T9
+A3	Degree E3 Facilitate
+T8	Argument 986 1007	he is using the money
+T9	Argument 1011 1040	help buy a 45-acre horse farm
+T10	Motivation 1084 1086	if
+E4	Motivation:T10 Cause:T11 Effect:T12
+A4	Hypothetical E4
+T11	Argument 1087 1104	that's your horse
+T12	Argument 1057 1083	how exciting that would be
+T13	Consequence 1011 1015	help
+E5	Consequence:T13 Cause:T14 Effect:T16
+A5	Degree E5 Facilitate
+T14	Argument 998 1007	the money
+T16	Argument 1016 1040	buy a 45-acre horse farm
+T20	NonCausal 2009 2014	Since
+E7	NonCausal:T20 Arg0:T21 Arg1:T22
+A7	Temporal E7
+T21	Argument 2015 2019	then
+T22	Argument 2021 2079	prices have slumped, to an average of $395,374 this summer
+T23	NonCausal 2206 2211	while
+E8	NonCausal:T23 Arg0:T24 Arg1:T25
+A8	Temporal E8
+T24	Argument 2212 2259	they move outside their traditional tony circle
+T25	Argument 2261 2326	racehorse owners still try to capitalize on the elan of the sport
+T29	NonCausal 2113 2117	with
+E10	NonCausal:T29 Arg0:T30 Arg1:T31
+A10	Context E10
+T30	Argument 2118 2199	most selling for much less -- as little as $100 for some pedestrian thoroughbreds
+T31	Argument 2085 2111	that's for the best horses
+T35	Consequence 3480 3485	after
+E12	Consequence:T35 Cause:T36 Effect:T37
+A12	Degree E12 Facilitate
+A13	Temporal E12
+T36	Argument 3486 3537	they received advice from industry ``consultants.''
+T37	Argument 3415 3468	Some badly managed partnerships have burned investors
+T38	Motivation 3538 3540	So
+E13	Motivation:T38 Effect:T39
+A14	Degree E13 Facilitate
+T39	Argument 3541 3681	owners have developed a ``code of ethics,'' outlining rules for consultants and agents, and disclosure of fees and any conflicts of interest
+T40	Consequence 4148 4153	means
+E14	Consequence:T40 Cause:T41 Effect:T42
+A15	Degree E14 Facilitate
+T41	Argument 4143 4147	that
+T42	Argument 4154 4184	paying the horse's maintenance
+T19	Note 3108 3113	while
+#3	AnnotatorNotes T19	Doesn't seem to be temporal.
+A6	Degree E4 Facilitate

@@ -1,0 +1,25 @@
+T1	Organism 30 43	P. aeruginosa
+T2	Organism 120 122	TB
+T3	Organism 139 159	TB0173s cheB2 mutant
+T4	Protein 147 152	cheB2
+T5	Organism 161 165	mice
+T6	Organism 292 296	mice
+T7	Organism 317 319	TB
+T8	Organism 355 366	TB0173sp2B2
+T9	Organism 533 553	TB0173s cheB2 mutant
+T10	Protein 541 546	cheB2
+T11	Process 44 53	Infection
+T12	Process 89 98	virulence
+T13	Process 205 214	challenge
+T14	Process 283 291	infected
+E1	Process:T11 Participant:T1
+E2	Process:T12 Participant:T2
+E3	Process:T12 Participant:T3
+E4	Process:T13 Participant:T2
+E5	Process:T13 Participant:T3
+E6	Process:T14 Participant:T7
+E7	Process:T14 Participant:T8
+T15	Span 516 557	In contrast, the TB0173s cheB2 mutant had
+T16	Causality 558 564	caused
+E8	Causality:T16 Cause:T15 Effect:T17
+T17	Span 565 640	markedly reduced inflammation and very little PMN infiltration (Figure 5B).

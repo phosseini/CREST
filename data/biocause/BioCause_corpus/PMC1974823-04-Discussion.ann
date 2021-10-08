@@ -1,0 +1,205 @@
+T1	Organism 200 217	P. gingivalis W83
+T2	Organism 349 362	P. gingivalis
+T3	Two-component-system 414 423	FimS/FimR
+T4	Protein 414 418	FimS
+T5	Protein 419 423	FimR
+T6	Protein 445 449	fimA
+T7	Protein 486 500	minor fimbriae
+T8	Protein 502 506	mfa1
+T9	Organism 513 524	fimR mutant
+T10	Protein 513 517	fimR
+T11	Protein 596 600	mfa1
+T12	Organism 604 617	P. gingivalis
+T13	Organism 646 657	fimR mutant
+T14	Protein 646 650	fimR
+T15	Two-component-system 677 686	FimS/FimR
+T16	Protein 677 681	FimS
+T17	Protein 682 686	FimR
+T18	Protein 726 730	mfa1
+T19	Two-component-system 834 843	FimS/FimR
+T20	Protein 834 838	FimS
+T21	Protein 839 843	FimR
+T22	Protein 970 974	fimA
+T23	Protein 989 993	FimR
+T24	Protein 1051 1055	FimR
+T25	Protein 1105 1109	fimA
+T26	Protein 1173 1177	FimR
+T27	Protein 1223 1227	mfa1
+T28	Protein 1262 1266	FimR
+T29	Protein 1284 1288	mfa1
+T30	Protein 1375 1379	fimA
+T31	Protein 1399 1403	fimA
+T32	Protein 1453 1457	fimA
+T33	Organism 1472 1485	P. gingivalis
+T34	Protein 1552 1556	fimA
+T35	Protein 1571 1575	FimR
+T36	Protein 1691 1695	mfa1
+T37	Protein 2093 2098	rFimR
+T38	Chemical 2116 2132	acetyl phosphate
+T39	Organism 2210 2223	P. gingivalis
+T40	Protein 2224 2228	FimR
+T41	Organism 2334 2354	Streptococcus mutans
+T42	Protein 2399 2403	CovR
+T43	Protein 2491 2495	FimR
+T44	Protein 2702 2706	mfa1
+T45	Protein 2989 2993	mfa1
+T46	Protein 3138 3142	FimR
+T47	Protein 3270 3274	mfa1
+T48	Two-component-system 3298 3307	FimS/FimR
+T49	Protein 3298 3302	FimS
+T50	Protein 3303 3307	FimR
+T51	Organism 3399 3406	E. coli
+T52	Chemical 3463 3470	acetate
+T53	Protein 3559 3564	acsP1
+T54	Protein 3582 3587	acsP2
+T55	Organism 3723 3736	P. gingivalis
+T56	Protein 3737 3741	fimA
+T57	Protein 3847 3851	FimR
+T58	Protein 3940 3944	FimR
+T59	Protein 3995 3999	mfa1
+T60	Organism 4066 4077	S. gordonii
+T61	Organism 4079 4091	S. sanguinis
+T62	Organism 4096 4104	S. mitis
+T63	Protein 4163 4167	mfa1
+T64	Protein 4217 4221	mfa1
+T65	Organism 4348 4361	P. gingivalis
+T66	Organism 4773 4786	P. gingivalis
+T67	Two-component-system 5121 5130	FimS/FimR
+T68	Protein 5121 5125	FimS
+T69	Protein 5126 5130	FimR
+T70	Protein 5146 5160	major fimbriae
+T71	Protein 5162 5166	FimA
+T72	Organism 5192 5203	fimR mutant
+T73	Protein 5192 5196	fimR
+T74	Protein 5209 5223	minor fimbriae
+T75	Protein 5308 5312	FimR
+T76	Organism 5359 5372	P. gingivalis
+*	Equiv T7 T8
+*	Equiv T70 T71
+T77	Regulation 402 406	role
+T78	Gene_expression 427 437	expression
+T79	Gene_expression 472 482	Expression
+T80	Transcription 567 582	transcriptional
+T81	Positive_regulation 699 717	positive regulator
+T82	Regulation 956 966	regulation
+T83	Gene_expression 975 985	expression
+T84	Regulation 1007 1017	regulation
+T85	Binding 1036 1047	interaction
+T86	Entity 1064 1079	promoter region
+T87	Binding 1178 1183	binds
+T88	Entity 1200 1215	promoter region
+T89	Positive_regulation 1270 1280	activation
+T90	Gene_expression 1289 1299	expression
+T91	Transcription 1347 1371	transcriptional activity
+T92	Negative_regulation 1384 1391	reduced
+T93	Regulation 1442 1449	control
+T94	Gene_expression 1458 1468	expression
+T95	Regulation 1541 1548	control
+T96	Gene_expression 1557 1567	expression
+T97	Gene_expression 1673 1683	expression
+T98	Binding 2068 2075	binding
+T99	Regulation 2198 2206	involved
+T100	Positive_regulation 2229 2239	activation
+T101	Phosphorylation 2380 2395	Phosphorylation
+T102	Regulation 2441 2447	effect
+T103	Binding 2459 2466	binding
+T104	Positive_regulation 2504 2513	activated
+T105	Phosphorylation 2517 2532	phosphorylation
+T106	Transcription 2968 2981	transcription
+T107	Gene_expression 3275 3285	expression
+T108	Binding 3945 3950	binds
+T109	Entity 3963 3987	upstream promoter region
+T110	Entity 4030 4049	downstream promoter
+T111	Negative_regulation 4053 4062	inhibited
+T112	Regulation 4149 4159	regulation
+T113	Gene_expression 4168 4178	expression
+T114	Entity 4204 4213	promoters
+T115	Regulation 4226 4235	regulated
+T116	Gene_expression 5132 5142	Expression
+T117	Gene_expression 5224 5234	production
+T118	Negative_regulation 5253 5262	inhibited
+T119	Negative_regulation 5345 5355	inhibition
+E1	Regulation:T77 Theme:E2 Cause:T3
+E2	Gene_expression:T78 Theme:T6
+E3	Gene_expression:T79 Theme:T7
+M1	Speculation E3
+E4	Transcription:T80 Theme:T11
+E5	Positive_regulation:T81 Theme:T18 Cause:T15
+E6	Regulation:T82 Theme:E7 Cause:T23
+E7	Gene_expression:T83 Theme:T22
+E8	Regulation:T84 Theme:E7 Cause:E9
+E9	Binding:T85 Theme1:T24 Theme2:T25 Site2:T86
+E10	Binding:T87 Theme1:T26 Theme2:T27 Site2:T88
+E11	Positive_regulation:T89 Theme:E12 Cause:T28
+E12	Gene_expression:T90 Theme:T29
+E13	Transcription:T91 Theme:T30
+E14	Negative_regulation:T92 Theme:E13
+E15	Regulation:T93 Theme:E16
+E16	Gene_expression:T94 Theme:T32
+E17	Regulation:T95 Theme:E18 Cause:T35
+E18	Gene_expression:T96 Theme:T34
+E19	Gene_expression:T97 Theme:T36
+E20	Binding:T98 Theme:T37
+E21	Regulation:T99 Theme:E22
+E22	Positive_regulation:T100 Theme:T40
+E23	Phosphorylation:T101 Theme:T42
+E24	Regulation:T102 Theme:E25 Cause:E23
+M2	Negation E24
+E25	Binding:T103 Theme:T42
+E26	Positive_regulation:T104 Theme:T43 Cause:E27
+M3	Negation E26
+E27	Phosphorylation:T105 Theme:T43
+E28	Transcription:T106 Theme:T45
+E29	Gene_expression:T107 Theme:T47
+E30	Binding:T108 Theme1:T58 Theme2:T59 Site2:T109
+E31	Negative_regulation:T111 Theme:T59 Site:T110
+E32	Regulation:T112 Theme:E33
+E33	Gene_expression:T113 Theme:T63
+E34	Regulation:T115 Theme:T64 Site:T114
+E35	Gene_expression:T116 Theme:T70
+E36	Gene_expression:T117 Theme:T74
+E37	Negative_regulation:T118 Theme:E36
+E38	Negative_regulation:T119 Theme:T75
+M4	Speculation E38
+T120	Span 547 657	A comparison of the transcriptional level of the mfa1 in P. gingivalis wild-type strain and in the fimR mutant
+T121	Causality 658 672	indicates that
+E39	Causality:T121 Evidence:T120 Effect:T122
+T122	Span 673 804	the FimS/FimR system is a positive regulator for the mfa1 gene, although the system controls two fimbrial genes at different levels
+T123	Span 1144 1232	Here it is demonstrated that FimR binds directly to the promoter region of the mfa1 gene
+T124	Causality 1234 1244	suggesting
+E40	Causality:T124 Evidence:T123 Effect:T125
+T125	Span 1245 1299	a direct role of FimR in activation of mfa1 expression
+T126	Span 1301 1410	It has also been reported previously that the transcriptional activity of fimA was reduced in the fimA mutant
+T127	Causality 1412 1422	indicating
+E41	Causality:T127 Evidence:T126 Effect:T128
+T128	Span 1423 1485	multiple levels of control of fimA expression in P. gingivalis
+T129	Span 1301 1485	It has also been reported previously that the transcriptional activity of fimA was reduced in the fimA mutant, indicating multiple levels of control of fimA expression in P. gingivalis
+T130	Causality 1507 1523	This may explain
+E42	Causality:T130 Effect:T131 Evidence:T129
+T131	Span 1524 1575	the much tighter control of fimA expression by FimR
+T132	Span 2019 2142	However, no apparent difference was found in DNA-binding affinity between rFimRs with or without acetyl phosphate treatment
+T133	Causality 2144 2169	Observation suggests that
+E43	Causality:T133 Evidence:T132 Effect:T134
+T134	Span 2170 2239	different mechanisms may be involved in P. gingivalis FimR activation
+T135	Span 2477 2532	The fact that FimR was not activated by phosphorylation
+T136	Causality 2533 2551	may also be due to
+E44	Causality:T136 Effect:T135 Evidence:T137
+T137	Span 2552 2641	the short lifetime of the phosphorylated state, which has been observed in other bacteria
+T138	Span 2664 2842	The transcriptional start site of the mfa1 gene located at 434 bp upstream of the putative start codon was detected, which is also 390 bp upstream of the site previously reported
+T139	Span 2864 2934	The transcriptional site revealed here is confirmed by RT-PCR analysis
+T140	Causality 2936 2967	Data of this study suggest that
+E45	Causality:T140 Effect:T141 Evidence:T138
+T141	Span 2968 3119	transcription of the mfa1 gene originated at a distal upstream transcriptional start site and read through the promoter region suggested by Park et al.
+E46	Causality:T140 Effect:T141 Evidence:T139
+T142	Span 3128 3196	Moreover, FimR appears to act on the promoter region identified here
+T143	Causality 3198 3213	suggesting that
+E47	Causality:T143 Evidence:T142 Effect:T144
+T144	Span 3214 3314	this promoter may make significant contributions toward mfa1 expression through the FimS/FimR system
+T145	Span 3918 4104	The observations that FimR binds only to the upstream promoter region of the mfa1 gene and that activity of the downstream promoter is inhibited by S. gordonii, S. sanguinis and S. mitis
+T146	Causality 4125 4130	imply
+E48	Causality:T146 Effect:T147 Evidence:T145
+T147	Span 4131 4178	the complexity of regulation of mfa1 expression
+T148	Span 5132 5275	Expression of major fimbriae (FimA) is extremely low in the fimR mutant, and minor fimbriae production in this mutant is inhibited by least 50%
+T149	Causality 5277 5286	Therefore
+E49	Causality:T149 Evidence:T148 Effect:T150
+T150	Span 5288 5385	it is proposed that FimR can be an attractive target for inhibition of P. gingivalis colonization

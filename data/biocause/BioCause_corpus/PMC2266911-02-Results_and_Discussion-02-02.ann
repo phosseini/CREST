@@ -1,0 +1,74 @@
+*	Equiv T4 T5
+*	Equiv T10 T11
+*	Equiv T23 T24
+T53	Process 138 147	infection
+T54	Binding 371 379	interact
+T55	Gene_expression 965 974	expressed
+T56	Gene_expression 1187 1195	produces
+T57	Process 1436 1445	virulence
+T58	Regulation 2000 2010	contribute
+T59	Process 2018 2027	infection
+E1	Process:T53 
+E2	Binding:T54 Theme:T1
+E3	Binding:T54 Theme:T2
+E4	Gene_expression:T55 Theme:T23
+E5	Gene_expression:T56 Theme:T31
+E6	Process:T57 
+E7	Regulation:T58 Theme:E8
+E8	Process:T59 
+T1	Organism 329 343	P. luminescens
+T2	Organism 348 365	Y. enterocolitica
+T3	Organism 487 504	Y. enterocolitica
+T4	Protein 566 569	Ail
+T5	Protein 571 577	YE1820
+T6	Organism 606 620	P. luminescens
+T7	Protein 641 648	plu2481
+T8	Protein 650 657	plu2480
+T9	Protein 663 670	plu1967
+T10	Protein 676 680	InvA
+T11	Protein 682 688	YE2564
+T12	Protein 714 721	Plu2057
+T13	Organism 748 765	Y. enterocolitica
+T14	Organism 787 801	P. luminescens
+T15	Protein 806 810	ysaV
+T16	Protein 812 818	ye3546
+T17	Protein 819 826	plu3761
+T18	Protein 832 836	invF
+T19	Protein 838 844	ye3549
+T20	Protein 845 852	plu3775
+T21	Organism 855 872	Y. enterocolitica
+T22	Organism 894 908	P. luminescens
+T23	Protein 913 919	ye1873
+T24	Protein 941 945	YadA
+T25	Protein 1012 1016	invE
+T26	Protein 1018 1022	ysaH
+T27	Protein 1024 1030	ye3550
+T28	Protein 1036 1042	ye3555
+T29	Organism 1172 1186	P. luminescens
+T30	Organism 1268 1285	Y. enterocolitica
+T31	Protein 1294 1301	Plu2096
+T32	Protein 1322 1328	lectin
+T33	Protein 1329 1333	PA-I
+T34	Protein 1335 1342	Plu1561
+T35	Chemical 1369 1373	Ca2+
+T36	Protein 1415 1422	Plu2433
+T37	Organism 1489 1507	Erwinia carotovora
+T38	Protein 1509 1512	EvF
+T39	Organism 1555 1570	D. melanogaster
+T40	Protein 1617 1624	Plu2064
+T41	Organism 1629 1643	P. luminescens
+T42	Protein 1711 1712	V
+T43	Protein 1714 1717	VII
+T44	Protein 1719 1721	IX
+T45	Protein 1726 1727	X
+T46	Organism 1749 1766	Y. enterocolitica
+T47	Organism 1783 1788	human
+T48	Organism 1815 1829	P. luminescens
+T49	Protein 1864 1870	ye2664
+T50	Protein 1871 1875	2668
+T51	Protein 1880 1886	ye2692
+T52	Protein 1887 1891	2700
+T60	Span 1160 1624	n contrast, P. luminescens produces several factors involved in host cell interaction without homologues in Y. enterocolitica, namely Plu2096 which is similar to lectin PA-I, Plu1561 with strong homology to a Ca2+ dependent adhesion molecule, the adhesin Plu2433 similar to a virulence factor of the Gram-negative plant pathogen Erwinia carotovora, EvF, which is involved in colonisation of the D. melanogaster gut epithelium [80], and the putative invasin Plu2064
+T61	Causality 1928 1932	Thus
+E9	Causality:T61 Effect:T62 Evidence:T60
+T62	Span 1934 2192	invasin and adhesin homologues similar in the two pathogens might contribute to the infection of insect or mammalian hosts, but candidates for insect- and mammalian-specific colonization factors have also been revealed by the genome comparison performed here

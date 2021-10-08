@@ -1,0 +1,15 @@
+Evolution of pathogenicity 
+It has been suggested that bacteria-invertebrate interactions do not only play a role in the transmission of human pathogens but have also shaped their evolution [79].
+We identified several common loci representing ancestral clusters of genes important in Y. enterocolitica and P. luminescens pathogenesis that might have evolved during the association of bacteria with invertebrates, the so-called "pre-vertebrate" pathosphere [121] and then been adapted to more recent pathologies in mammalians.
+Examples are yersiniabactin, quorum sensing-like regulators, or the urease operon.
+The complexity of this evolutionary concept is also demonstrated by the fact that the immune systems both of invertebrates and vertebrates are based on phagocytic cells that are attacked by hemolysins, T3SS effector proteins, and many other toxins described above.
+Thus, it can not be excluded that these virulence factors are able to act on both immune systems [121].
+The fact that P. asymbiotica has been found to be pathogenic against humans [14] strengthens this hypothesis.
+Thus, P. asymbiotica might be an evolutionary link that is evolving from an insect to a mammal-pathogen.
+Another example that might enlighten the evolution of bacterial pathogenicity is the plasticity zone (PZ) of Y. enterocolitica, a 199 kb key locus for high pathogenicity that includes YAPIYe, secretion systems, hydrogenase loci essential for gut colonization of S. typhimurium and H. pylori [122], and iron acquisition systems.
+A second flagellar cluster, Flag-2, is also located within the PZ of Y. enterocolitica biotypes 2-5 [120].
+It is assumed that the PZ has not been acquired by a single event of gene transfer, but through a series of independent insertions [23].
+A comparison of the PZ sequence with the genome of P. luminescens is depicted in Fig. 5.
+A region highly similar to YAPIYe is the genome island plu0958-1166 carrying a hemolysin, hypothetical genes, the toxin/antitoxin system CcdA/CcdB, and the type IV pilus.
+Only few other genes or operons of the PZ are also present in P. luminescens, namely a chitinase, two iron acquisition systems, and three ysa genes, thus confirming the idea of a patchwork of horizontally acquired genes within the PZ [23].
+However, given the extensive transfer of virulence factors between bacteria, the history of pathogen evolution still requires further investigation.

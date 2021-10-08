@@ -1,0 +1,24 @@
+T1	Consequence 0 4	When
+E1	Consequence:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+A2	Temporal E1
+T2	Argument 5 72	we try to picture Microsoft's new ``interactive virtual concierge''
+T3	Argument 73 145	what comes to mind is Sonny -- the robot-hero of the movie ``I, Robot.''
+T4	NonCausal 299 304	since
+E2	NonCausal:T4 Arg0:T5 Arg1:T6
+A4	Temporal E2
+T5	Argument 305 309	9/11
+T6	Argument 233 298	the stairway up the Statue of Liberty has been closed to visitors
+T10	Consequence 1126 1130	make
+E4	Consequence:T10 Effect:T11 Cause:T7
+A6	Degree E4 Facilitate
+T11	Argument 1131 1135;1136 1207	this the first coffee table able to tell you to get a coaster for that drink
+T7	Argument 1114 1119	which
+T8	Argument 1042 1062;1077 1112	Surface will be able to recognize objects placed upon it
+R1	Coref Arg1:T7 Arg2:T8	
+T9	Consequence 1795 1799	when
+E3	Consequence:T9 Cause:T12 Effect:T13
+A5	Degree E3 Facilitate
+A7	Temporal E3
+T12	Argument 1800 1826	Surface becomes widespread
+T13	Argument 1827 1932	will it be clear what the keyboard and the mouse are really for: to keep your fingerprints off the screen

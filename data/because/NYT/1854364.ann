@@ -1,0 +1,86 @@
+T1	Consequence 332 335;342 344	too to
+E1	Consequence:T1 Cause:T2 Effect:T3
+A1	Degree E1 Inhibit
+A2	Extremity-sufficiency E1
+T2	Argument 332 341	too early
+T3	Argument 345 424	say whether the security effort in Baghdad would achieve lasting security gains
+T4	NonCausal 477 482	until
+E2	NonCausal:T4 Arg0:T5 Arg1:T6
+A3	Temporal E2
+T5	Argument 483 486	now
+T6	Argument 463 476	officials had
+T7	Consequence 554 558	when
+E3	Consequence:T7 Effect:T8 Cause:T9
+A4	Degree E3 Facilitate
+A5	Temporal E3
+T8	Argument 491 553	security conditions in other parts of the country had worsened
+T9	Argument 559 626	American and Iraqi forces shifted in large numbers into the capital
+T10	NonCausal 701 707	during
+E4	NonCausal:T10 Arg0:T11 Arg1:T12
+A6	Temporal E4
+T11	Argument 708 729	this reporting period
+T12	Argument 631 700	The aggregate level of violence in Iraq remained relatively unchanged
+T13	Motivation 1049 1059	because of
+E5	Motivation:T13 Effect:T14 Cause:T15
+A7	Degree E5 Facilitate
+T14	Argument 989 1047	Attacks have also increased in Basra Province in the south
+T15	Argument 1060 1170	fighting between rival Shiite militants, some of whom fled Baghdad because of the security crackdown, it added
+T16	Motivation 1127 1137	because of
+E6	Motivation:T16 Effect:T17 Cause:T18
+A8	Degree E6 Facilitate
+T17	Argument 1101 1126	some of whom fled Baghdad
+T18	Argument 1138 1160	the security crackdown
+T19	NonCausal 1403 1408	since
+E7	NonCausal:T19 Arg1:T20 Arg0:T21
+A9	Temporal E7
+T20	Argument 1345 1402	The average number of attacks has exceeded 1,000 per week
+T21	Argument 1409 1435	the beginning of this year
+T22	NonCausal 1473 1478	since
+E8	NonCausal:T22 Arg1:T23 Arg0:T24
+A10	Temporal E8
+T23	Argument 1455 1472	the highest level
+T24	Argument 1479 1508	the American invasion in 2003
+T25	Motivation 1834 1837	for
+E9	Motivation:T25 Effect:T26 Cause:T27
+A11	Degree E9 Facilitate
+T26	Argument 1792 1833	The report also criticized Iraq's leaders
+T27	Argument 1838 2107	failing to take advantage of the additional security in Baghdad to reach agreements on draft laws, like measures apportioning oil revenue and setting a timetable for new provincial elections, that the United States says are vital to improve prospects for reconciliation
+T28	Purpose 1902 1904	to
+E10	Purpose:T28 Effect:T29 Cause:T30
+A12	Degree E10 Facilitate
+T29	Argument 1849 1901	take advantage of the additional security in Baghdad
+T30	Argument 1905 2107	reach agreements on draft laws, like measures apportioning oil revenue and setting a timetable for new provincial elections, that the United States says are vital to improve prospects for reconciliation
+T31	Consequence 2062 2070	vital to
+E11	Consequence:T31 Cause:T32 Effect:T33
+A13	Degree E11 Facilitate
+T32	Argument 2030 2034	that
+T33	Argument 2071 2107	improve prospects for reconciliation
+T34	Argument 1925 1935	draft laws
+R1	Coref Arg1:T32 Arg2:T34	
+T35	Consequence 2454 2467	attributed to
+E12	Consequence:T35 Effect:T36 Cause:T37
+A14	Degree E12 Facilitate
+T36	Argument 2426 2446	Much of the increase
+T37	Argument 2468 2610	suicide attacks, often involving vehicles packed with explosives, which went up to 58 in March from 26 in January and increased again in April
+T38	NonCausal 2908 2913	since
+E13	NonCausal:T38 Arg0:T39 Arg1:T40
+A15	Temporal E13
+T39	Argument 2914 2927	the war began
+T40	Argument 2820 2907	The 230 American deaths in April and May was the highest total for any two-month period
+T41	Consequence 2963 2969	caused
+E14	Consequence:T41 Effect:T42 Cause:T43
+A16	Degree E14 Facilitate
+T42	Argument 2933 2957	80 percent of the deaths
+T43	Argument 2973 2993	makeshift explosives
+T44	Consequence 4029 4036;4065 4067	have to to
+E15	Consequence:T44 Effect:T45 Cause:T46
+A17	Degree E15 Facilitate
+T45	Argument 4068 4107	meet requirements for forces in Baghdad
+T46	Argument 3997 4022;4037 4064	the Iraqi security forces be expanded again next year
+T47	NonCausal 4287 4291	When
+E16	NonCausal:T47 Arg0:T48 Arg1:T49
+A18	Temporal E16
+T48	Argument 4292 4361	American officials announced the new Baghdad security plan in January
+T49	Argument 4363 4569	they said Prime Minister Nuri Kamal al-Maliki had pledged that his largely Shiite government would not interfere in the security crackdown by limiting where troops could go and which units would be involved
+T50	Note 3217 3223	blames
+#1	AnnotatorNotes T50	Associating guilt. See constructicon.

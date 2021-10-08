@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>PRI19980213.2000.0313</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-02-13" temporalFunction="false" functionInDocument="CREATION_TIME">1998-02-13</TIMEX3></DCT>
+<TEXT>
+ Officials in California are <EVENT eid="e1" class="I_ACTION">warning</EVENT> residents that oncoming <EVENT eid="e2" class="OCCURRENCE">rains</EVENT> will <EVENT eid="e3" class="OCCURRENCE">cause</EVENT> dangerous and unpredictable <EVENT eid="e4" class="OCCURRENCE">landslides</EVENT>.
+ From member station KQED, Auncil Martinez <EVENT eid="e5" class="REPORTING">reports</EVENT>.
+ Experts <EVENT eid="e6" class="REPORTING">say</EVENT> the ground is so <EVENT eid="e7" class="STATE">saturated</EVENT> it can not <EVENT eid="e8" class="OCCURRENCE">absorb</EVENT> any more water.
+ So that <EVENT eid="e9" class="I_STATE">means</EVENT> soil will <EVENT eid="e10" class="OCCURRENCE">fall</EVENT> off in chunks and <EVENT eid="e11" class="OCCURRENCE">destroy</EVENT> anything in its path.
+ In Los Angeles that lesson was brought home <TIMEX3 tid="t12" type="DATE" value="1998-02-13" anchorTimeID="t0" functionInDocument="NONE">today</TIMEX3> when tons of earth <EVENT eid="e13" class="OCCURRENCE">cascaded</EVENT> down a hillside, <EVENT eid="e14" class="OCCURRENCE">ripping</EVENT> two houses from their foundations.
+ No one was <EVENT eid="e15" class="OCCURRENCE">hurt</EVENT>, but firefighters <EVENT eid="e16" class="I_ACTION">ordered</EVENT> the <EVENT eid="e17" class="OCCURRENCE">evacuation</EVENT> of nearby homes and <EVENT eid="e18" class="REPORTING">said</EVENT> they 'll <EVENT eid="e19" class="OCCURRENCE">monitor</EVENT> the shifting ground.
+ In the northern California town of Rio Nido, officials <EVENT eid="e20" class="REPORTING">say</EVENT> a football field sized slab of hillside could still <EVENT eid="e21" class="OCCURRENCE">break</EVENT> loose at any time and <EVENT eid="e22" class="OCCURRENCE">destroy</EVENT> an entire neighborhood.
+ And in San Francisco, a mansion overlooking the Pacific Ocean and the Golden Gate Bridge is <EVENT eid="e23" class="OCCURRENCE">slipping</EVENT> toward the sea.
+ Forecasters <EVENT eid="e24" class="REPORTING">say</EVENT> the picture will <EVENT eid="e25" class="ASPECTUAL">get</EVENT> worse <C-SIGNAL cid="c26">because</C-SIGNAL> more <EVENT eid="e27" class="STATE">rains</EVENT> are on the way.
+ For NPR news, I 'm Auncil Martinez <EVENT eid="e28" class="REPORTING">reporting</EVENT>.
+</TEXT>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="NONE" aspect="NONE" polarity="POS" modality="could" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="NONE" aspect="NONE" polarity="POS" modality="could" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PAST" aspect="NONE" polarity="NEG" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="INCLUDES" timeID="t0" relatedToEventInstance="ei13"/>
+<TLINK lid="l2" relType="INCLUDES" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei2"/>
+<TLINK lid="l4" relType="IDENTITY" eventInstanceID="ei2" relatedToEventInstance="ei3"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t0"/>
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t0"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei8"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToEventInstance="ei6"/>
+<TLINK lid="l11" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToEventInstance="ei11"/>
+<TLINK lid="l12" relType="INCLUDES" timeID="t12" relatedToEventInstance="ei13"/>
+<TLINK lid="l13" relType="INCLUDES" eventInstanceID="ei13" relatedToEventInstance="ei14"/>
+<TLINK lid="l14" relType="AFTER" eventInstanceID="ei15" relatedToEventInstance="ei13"/>
+<TLINK lid="l15" relType="IAFTER" eventInstanceID="ei16" relatedToEventInstance="ei13"/>
+<TLINK lid="l16" relType="SIMULTANEOUS" eventInstanceID="ei16" relatedToEventInstance="ei18"/>
+<TLINK lid="l17" relType="IS_INCLUDED" eventInstanceID="ei20" relatedToTime="t0"/>
+<TLINK lid="l18" relType="INCLUDES" eventInstanceID="ei23" relatedToTime="t0"/>
+<TLINK lid="l19" relType="IS_INCLUDED" eventInstanceID="ei24" relatedToTime="t0"/>
+<TLINK lid="l20" relType="AFTER" eventInstanceID="ei27" relatedToEventInstance="ei24"/>
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei27" relatedToEventInstance="ei25"/>
+<TLINK lid="l23" relType="IDENTITY" eventInstanceID="ei28" relatedToEventInstance="ei5"/>
+<CLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+<CLINK lid="l22" eventInstanceID="ei27" relatedToEventInstance="ei25"/>
+</TimeML>

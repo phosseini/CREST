@@ -1,0 +1,56 @@
+T7	Argument 760 799;804 813	that a quarter of Iraqi children may be suffering
+T8	Argument 819 839	chronic malnutrition
+T9	Consequence 814 818	from
+E3	Consequence:T9 Effect:T7 Cause:T8
+A5	Degree E3 Facilitate
+T10	Motivation 985 987	If
+E4	Motivation:T10 Cause:T11 Effect:T12
+A7	Degree E4 Facilitate
+A8	Hypothetical E4
+T11	Argument 992 1042	supplies are not reaching the people who need them
+T12	Argument 1055 1064;1069 1136;1141 1212;1217 1238	he wanted to find out whether the United Nations or relief agencies needed to handle things differently, or whether "Iraq needs to get out of the way and let us do the job
+T14	Consequence 1265 1271;1284 1287	blames for
+E6	Consequence:T14 Cause:T15 Effect:T16
+A11	Degree E6 Facilitate
+T15	Argument 1272 1283	the embargo
+T16	Argument 1288 1312;1317 1347	the malnutrition, infant mortality and other hardships.
+T20	Consequence 1382 1387	until
+E8	Consequence:T20 Cause:T22 Effect:T21
+A14	Degree E8 Inhibit
+A15	Temporal E8
+T21	Argument 1351 1381	The sanctions cannot be lifted
+T22	Argument 1388 1421;1426 1497;1502 1506	U.N. inspectors certify that Iraq has eliminated its weapons of mass destruction and the means to produce them
+T1	Consequence 1221 1224	let
+E1	Consequence:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 1180 1184	Iraq
+T3	Argument 1225 1227;1228 1238	us do the job
+T13	Argument 154 192;197 206	he is expected to look into the plight of Iraqis
+T17	Argument 213 252	nearly 10 years of U.N. trade sanctions
+T18	NonCausal 207 212	after
+E5	NonCausal:T18 Arg0:T17 Arg1:T13
+A3	Temporal E5
+T19	Argument 291 325;330 334	very few U.S. congressmen to visit Iraq
+T23	Argument 341 370	the 1991 Gulf War over Kuwait
+T24	NonCausal 335 340	since
+E7	NonCausal:T24 Arg1:T19 Arg0:T23
+A4	Temporal E7
+#1	AnnotatorNotes T19	Odd construction; hard to tell where the argument should be
+T25	Argument 511 533;538 543;577 607;612 657	he told The Associated Press that he hopes to "separate the humanitarian work from the political issues."
+T26	NonCausal 544 550	before
+E9	NonCausal:T26 Arg1:T27 Arg0:T25
+A6	Temporal E9
+T27	Argument 551 576	leaving the United States
+T28	NonCausal 662 668	During
+E10	NonCausal:T28 Arg0:T29 Arg1:T30
+A9	Temporal E10
+T29	Argument 669 690	his four days in Iraq
+T30	Argument 702 726;731 799;804 839	he wanted to investigate reports from relief agencies that a quarter of Iraqi children may be suffering from chronic malnutrition
+T31	Note 692 701	Hall said
+#2	AnnotatorNotes T31	Matrix clause
+A10	Obligation-permission E1
+T4	Argument 1699 1723;1728 1734	a representative for New Mexico
+T5	Argument 1632 1653;1658 1692	Energy Secretary Bill Richardson went to Baghdad in 1995
+T6	NonCausal 1693 1698	while
+E2	NonCausal:T6 Arg0:T4 Arg1:T5
+A2	Temporal E2

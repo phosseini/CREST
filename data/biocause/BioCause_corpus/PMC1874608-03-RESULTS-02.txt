@@ -1,0 +1,7 @@
+The expression levels of hilA, invF and hilD, but not of hilC, are decreased in the mlc mutant 
+To identify the target gene in SPI1 that is regulated by Mlc, the expression patterns of the SPI1-regulatory genes, which include hilA, invF, hilC and hilD, were examined by primer extension analysis of total RNA from SL1344 and SR1304 grown statically to the exponential phase.
+The transcriptional start sites of these genes have been reported previously (12,16,35,36).
+SR1304 exhibited a >10-fold reduction in hilA and HilA-dependent invF (invFA) expression, and about a 3-fold reduction in hilD and HilC/D-dependent invF (invFD) expression, compared to SL1344.
+However, hilC expression was unchanged (Figure 2A).
+We also observed reduced expression of the prgH and sigD genes, which are known to be regulated by HilA and InvF (10,11,29,35), in SR1304 (Figure 2B).
+The expression levels of hilA and invF were previously shown to be affected by both HilC and HilD (8,9,16) but since hilC levels are unaffected by the mlc mutation (Figure 2A) we speculated that Mlc was regulating hilA and invF expression indirectly probably by modulating the expression of hilD or the higher regulator of hilD.

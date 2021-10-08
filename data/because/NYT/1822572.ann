@@ -1,0 +1,141 @@
+T1	Purpose 466 468	to
+E1	Purpose:T1 Cause:T3 Effect:T2
+A1	Degree E1 Facilitate
+T2	Argument 442 465	he was leaving his post
+T3	Argument 469 626	become chairman of a new one-million-member national health care union being established within his local's parent, the Service Employees International Union
+T4	Consequence 671 675	help
+E2	Consequence:T4 Effect:T6 Cause:T5
+A2	Degree E2 Facilitate
+T5	Argument 644 664	the new organization
+T6	Argument 676 824	unionize more health care workers and make the service employees a more potent political force, especially in the push for universal health coverage
+T7	Motivation 991 998	because
+E3	Motivation:T7 Cause:T9 Effect:T8
+A3	Degree E3 Facilitate
+T8	Argument 965 990	he was not leaving sooner
+T9	Argument 999 1121	he wanted to protect his members and the state's hospitals from the cuts that Mr. Spitzer was expected to propose tomorrow
+T10	Argument 1124 1230	Mr. Rivera, 56, often tangled -- most times successfully -- with Govs. Mario M. Cuomo and George E. Pataki
+T11	Argument 1234 1256	fight health care cuts
+T12	Purpose 1231 1233	to
+E4	Purpose:T12 Cause:T11 Effect:T10
+A4	Degree E4 Facilitate
+T13	Motivation 1653 1660	because
+E5	Motivation:T13 Cause:T14 Effect:T15
+A5	Degree E5 Facilitate
+T14	Argument 1661 1719	we are the ones who give health care to patients every day
+T15	Argument 1626 1652	identifying us as villains
+T19	Purpose 4383 4385	to
+E7	Purpose:T19 Effect:T21 Cause:T20
+A7	Degree E7 Facilitate
+T20	Argument 4386 4446	fight against cuts and fight for broader and better coverage
+T21	Argument 4331 4382	form alliances with hospitals and health executives
+T22	Purpose 4589 4591	to
+E8	Purpose:T22 Cause:T23 Effect:T24
+A8	Degree E8 Facilitate
+T23	Argument 4592 4644	provide health insurance to more low-income children
+T24	Argument 4554 4588	the creation of Family Health Plus
+T25	Argument 5077 5111	prevent the factions from fighting
+T26	Argument 5052 5073	the police intervened
+T27	Purpose 5074 5076	to
+E9	Purpose:T27 Effect:T26 Cause:T25
+A9	Degree E9 Facilitate
+T28	Consequence 5077 5084;5098 5102	prevent from
+E10	Consequence:T28 Effect:T29 Cause:T30 Means:T59
+A10	Degree E10 Inhibit
+T29	Argument 5085 5097;5103 5111	the factions fighting
+T30	Argument 5052 5062	the police
+T31	Motivation 5302 5310;5315 5317	allowing to
+E11	Motivation:T31 Cause:T32 Effect:T33
+A11	Degree E11 Facilitate
+T32	Argument 5265 5300	the state budget is completed early
+T33	Argument 5311 5314;5318 5342	him step down before June 15
+T34	Consequence 5262 5264	If
+E12	Consequence:T34 Cause:T36 Effect:T35
+A12	Degree E12 Facilitate
+T35	Argument 5344 5418	Mr. Rivera will be succeeded by George Gresham, 1199's secretary-treasurer
+T36	Argument 5265 5342	the state budget is completed early, allowing him to step down before June 15
+T37	Motivation 6885 6892	because
+E13	Motivation:T37 Cause:T38 Effect:T39
+A13	Degree E13 Facilitate
+T38	Argument 6893 6972	we believe that checks and balances are important at this very difficult moment
+T39	Argument 6808 6881	it was important to back the Republicans, who narrowly control the Senate
+T40	Consequence 714 718	make
+E14	Consequence:T40 Effect:T41 Cause:T5
+A14	Degree E14 Facilitate
+T41	Argument 719 740;741 770	the service employees a more potent political force
+T42	Argument 4462 4521	1199 often joined the Greater New York Hospital Association
+T43	Argument 4525 4644	push for major changes, like the creation of Family Health Plus to provide health insurance to more low-income children
+T44	Purpose 4522 4524	to
+E15	Purpose:T44 Cause:T43 Effect:T42
+A15	Degree E15 Facilitate
+T48	Argument 2085 2115	his landslide election victory
+T49	Argument 2009 2078	whose union has largely refrained from taking on Mr. Spitzer directly
+T50	NonCausal 2079 2084	since
+E17	NonCausal:T50 Arg0:T48 Arg1:T49
+A17	Temporal E17
+T51	Argument 2260 2333	1199 undertook a campaign in 1996 against cutbacks proposed by Mr. Pataki
+T52	Argument 2335 2376	the governor's popularity ratings plunged
+T53	Consequence 2255 2259	When
+E18	Consequence:T53 Cause:T51 Effect:T52
+A18	Degree E18 Facilitate
+A19	Temporal E18
+T54	Argument 2647 2677	he unveils his budget tomorrow
+T55	Argument 2566 2641	he would seek billions of dollars in Medicaid and other health care savings
+T56	NonCausal 2642 2646	when
+E19	NonCausal:T56 Arg0:T54 Arg1:T55
+A20	Temporal E19
+T60	NonCausal 3725 3731	create
+E21	NonCausal:T60 Arg1:T62 Arg0:T61
+T61	Argument 3692 3724	the service employees' new union
+A22	Creation-termination E21
+T62	Argument 3732 3861	a political action committee that would have a budget of $40 million every two years, making it one of the nation's largest PAC's
+T16	Note 3818 3824	making
+#1	AnnotatorNotes T16	Inference
+T18	NonCausal 5328 5334	before
+E6	NonCausal:T18 Arg0:T64 Arg1:T63
+A6	Temporal E6
+A23	Hypothetical E12
+T63	Argument 5335 5342	June 15
+T64	Argument 5318 5327	step down
+T65	Consequence 6678 6686	blocking
+E22	Consequence:T65 Effect:T66 Cause:T67
+A24	Degree E22 Inhibit
+T66	Argument 6687 6703	health care cuts
+T67	Argument 6629 6632	who
+T68	Argument 6584 6627	Joseph L. Bruno, the Senate majority leader
+R1	Coref Arg1:T67 Arg2:T68	
+T69	Argument 1262 1312	now he sees a major fight looming with Mr. Spitzer
+T70	Motivation 1313 1318	after
+E23	Motivation:T70 Cause:T71 Effect:T69
+A25	Degree E23 Facilitate
+A26	Temporal E23
+T71	Argument 1319 1519	the new governor warned last Friday that health care spending must reflect the patients' needs and not politics and entrenched interests -- a statement that Mr. Rivera interpreted as an attack on 1199
+#3	AnnotatorNotes E5	Could be interpreted as saying patients aren't served by this because we care for them.
+T72	NonCausal 4892 4896	When
+E24	NonCausal:T72 Arg0:T73 Arg1:T74
+A28	Temporal E24
+T73	Argument 4897 4992	Mr. Rivera, a former union organizer in his native Puerto Rico, became 1199's president in 1989
+T74	Argument 4994 5040	it had 78,000 members and was bitterly divided
+T75	Consequence 5173 5179	having
+E25	Consequence:T75 Cause:T76 Effect:T77
+A29	Degree E25 Facilitate
+T76	Argument 5180 5259	unionized tens of thousands of workers and merged with more than a dozen locals
+T77	Argument 5113 5171	Now, 1199 is solidly united and nearly four times as large
+#4	AnnotatorNotes E11	NOT obligation/permission
+T79	Note 6127 6129	If
+#6	AnnotatorNotes T79	Pure discourse
+T45	Note 931 935	when
+#7	AnnotatorNotes T45	Relative pronoun
+T46	Argument 3987 4015	a new Congress and president
+T47	Motivation 3982 3986	with
+E16	Motivation:T47 Cause:T46 Effect:T80
+A16	Degree E16 Facilitate
+A30	Context E16
+T80	Argument 3925 3970;4017 4063	I believe we can obtain in the next two years universal health coverage in the United States
+T17	NonCausal 4558 4566	creation
+E20	NonCausal:T17 Arg1:T57
+A21	Creation-termination E20
+T57	Argument 4570 4588	Family Health Plus
+T58	Note 123 130	without
+#5	AnnotatorNotes T58	Not "in the absence of"
+T59	Argument 5063 5073	intervened
+A27	Context E25

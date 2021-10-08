@@ -1,0 +1,173 @@
+T1	NonCausal 60 65	After
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 66 85	years of hesitation
+T3	Argument 87 148	economic and political reform was embraced at the end of 1986
+T4	NonCausal 130 132	at
+E2	NonCausal:T4 Arg0:T5 Arg1:T6
+A2	Temporal E2
+T5	Argument 133 148	the end of 1986
+T6	Argument 87 129	economic and political reform was embraced
+T7	Motivation 540 544	made
+E3	Motivation:T7 Cause:T8 Effect:T9
+A3	Degree E3 Facilitate
+T8	Argument 519 539	His business success
+T9	Argument 545 548;549 586	him an official target in pre-reform days
+T10	Motivation 750 753	For
+E4	Motivation:T10 Cause:T11 Effect:T12
+A4	Degree E4 Facilitate
+T11	Argument 754 766	his troubles
+T12	Argument 768 821	Mr. Chan was jailed three times between 1960 and 1974
+T13	Motivation 1050 1054	when
+E5	Motivation:T13 Effect:T14 Cause:T15
+A5	Degree E5 Facilitate
+A6	Temporal E5
+T14	Argument 1019 1049	Things were supposed to change
+T15	Argument 1055 1095	Vietnam's economic reforms gathered pace
+T16	Consequence 1122 1127	After
+E6	Consequence:T16 Cause:T17 Effect:T18
+A7	Temporal E6
+T17	Argument 1128 1150	years of experimenting
+T18	Argument 1152 1235	Mr. Chan produced a heavy-duty bicycle tire that outlasted its state-produced rival
+A8	Degree E6 Facilitate
+T19	Purpose 1755 1757	to
+E7	Purpose:T19 Effect:T20 Cause:T21
+A9	Degree E7 Facilitate
+T20	Argument 1729 1754	He was further questioned
+T21	Argument 1758 1817	determine if he was ``a real working man or an exploiter.''
+T22	Consequence 1835 1839	When
+E8	Consequence:T22 Cause:T23 Effect:T24
+A10	Degree E8 Facilitate
+A11	Temporal E8
+T23	Argument 1840 1873	I showed it was from my own brain
+T24	Argument 1875 1904	they lost for the second time
+T25	NonCausal 2147 2153	before
+E9	NonCausal:T25 Arg1:T26 Arg0:T27
+A12	Temporal E9
+T26	Argument 2154 2193	the house and contents were confiscated
+T27	Argument 2105 2146	His family was given three hours to leave
+T31	NonCausal 2302 2307	After
+E11	NonCausal:T31 Arg0:T32 Arg1:T33
+A14	Temporal E11
+T32	Argument 2308 2329	six months on the run
+T33	Argument 2331 2390	Mr. Chan learned the order for his arrest had been canceled
+T34	Consequence 2753 2757	when
+E12	Consequence:T34 Cause:T35 Effect:T36
+A15	Degree E12 Facilitate
+A16	Temporal E12
+T35	Argument 2758 2803	his story was published in a weekly newspaper
+T36	Argument 2671 2749	Mr. Chan achieved a breakthrough in 1987 -- and became a minor celebrity again
+T39	Argument 2832 2898	the sixth congress formally endorsed family-run private enterprise
+T40	Motivation 2826 2831	after
+E14	Motivation:T40 Cause:T39 Effect:T41
+A18	Degree E14 Facilitate
+A19	Temporal E14
+T41	Argument 2900 2952	district authorities allowed Mr. Chan to resume work
+T42	Consequence 2921 2928;2938 2940	allowed to
+E15	Consequence:T42 Cause:T43 Effect:T44
+A20	Degree E15 Facilitate
+A21	Obligation-permission E15
+T43	Argument 2900 2920	district authorities
+T44	Argument 2929 2937;2941 2952	Mr. Chan resume work
+T46	Purpose 3101 3103	to
+E16	Purpose:T46 Cause:T47 Effect:T48
+A22	Degree E16 Facilitate
+T47	Argument 3104 3128	commend his achievements
+T48	Argument 3063 3100	National leaders stopped by his stand
+T49	NonCausal 3914 3918	When
+E17	NonCausal:T49 Arg0:T50 Arg1:T51
+A23	Temporal E17
+T50	Argument 3919 3975	district authorities allowed him to resume manufacturing
+T51	Argument 3977 4015	they released only one of his machines
+T52	Consequence 3940 3947;3952 3954	allowed to
+E18	Consequence:T52 Cause:T53 Effect:T54
+A24	Degree E18 Facilitate
+A25	Obligation-permission E18
+T53	Argument 3919 3939	district authorities
+T54	Argument 3948 3951;3955 3975	him resume manufacturing
+T55	NonCausal 4308 4312	when
+E19	NonCausal:T55 Arg0:T56 Arg1:T57
+A26	Temporal E19
+T56	Argument 4313 4417	the Vietnamese Writers Association was looking for a new editor to reform its weekly newspaper, Van Nghe
+T57	Argument 4271 4307	Nguyen Ngoc seemed an obvious choice
+T58	NonCausal 4421 4426	After
+E20	NonCausal:T58 Arg0:T59 Arg1:T60
+A27	Temporal E20
+T59	Argument 4427 4445	the sixth congress
+T60	Argument 4447 4547	journalists seized the opportunity provided by the liberalization to probe previously taboo subjects
+T61	Consequence 4677 4684	because
+E21	Consequence:T61 Effect:T62 Cause:T63
+A28	Degree E21 Facilitate
+T62	Argument 4606 4676	He had lost his official position in the association in he early 1980s
+T63	Argument 4685 4740	he questioned the intrusion of politics into literature
+T64	Consequence 4876 4878	as
+E22	Consequence:T64 Effect:T65 Cause:T66
+A29	Degree E22 Facilitate
+A30	Temporal E22
+A31	Correlation E22
+T65	Argument 4857 4875	Circulation soared
+T66	Argument 4879 4971	the weekly went way beyond standard literary themes to cover Vietnamese society and its ills
+T70	Consequence 5550 5557	blocked
+E24	Consequence:T70 Cause:T71 Effect:T72
+T71	Argument 5542 5545	who
+T72	Argument 5558 5599	his entry into their official association
+T73	Argument 5534 5541	writers
+R1	Coref Arg1:T71 Arg2:T73	
+T74	NonCausal 5782 5787	After
+E25	NonCausal:T74 Arg0:T75 Arg1:T76
+A34	Temporal E25
+T75	Argument 5788 5816	months of internal rumblings
+T76	Argument 5818 5850	Mr. Ngoc was fired last December
+T77	Motivation 5866 5875	triggered
+E26	Motivation:T77 Cause:T78 Effect:T79
+A36	Degree E26 Facilitate
+A37	Creation-termination E26
+T78	Argument 5852 5865	His dismissal
+T79	Argument 5876 5924	a furor among intellectuals that continues today
+T80	Motivation 6145 6148;6157 6159	too to
+E27	Motivation:T80 Cause:T81 Effect:T82
+A38	Degree E27 Inhibit
+A39	Extremity-sufficiency E27
+T81	Argument 6145 6156	too painful
+T82	Argument 6160 6164	bear
+T83	Consequence 6580 6586	helped
+E28	Consequence:T83 Effect:T84 Cause:T85
+A40	Degree E28 Facilitate
+T84	Argument 6587 6625	persuade Hanoi to take the reform path
+T85	Argument 6497 6578	Her success, which included alleviating an urban food shortage in the early 1980s
+T86	NonCausal 6822 6827	after
+E29	NonCausal:T86 Arg0:T87 Arg1:T88
+A41	Temporal E29
+T87	Argument 6828 6835	the war
+T88	Argument 6675 6821	A lifelong revolutionary with little education who fought both the French and the U.S.-backed Saigon regime, she switched effortlessly to commerce
+T89	NonCausal 6894 6896	As
+E30	NonCausal:T89 Arg0:T90 Arg1:T91
+A42	Temporal E30
+T90	Argument 6897 6922	she rode over regulations
+T91	Argument 6924 7050	only her friendship with party leaders, including Nguyen Van Linh, then Ho Chi Minh City party secretary, kept her out of jail
+T93	Purpose 7292 7294	to
+E31	Purpose:T93 Cause:T94 Effect:T95
+A43	Degree E31 Facilitate
+T94	Argument 7295 7341	see an example of ``the new way of thinking.''
+T95	Argument 7231 7291	The authorities have steered foreign reporters to her office
+T96	Note 8131 8133	to
+#3	AnnotatorNotes T96	Purpose of existence
+T100	Consequence 8818 8824	create
+E33	Consequence:T100 Cause:T101 Effect:T102
+A46	Degree E33 Facilitate
+A47	Creation-termination E33
+T101	Argument 8795 8812	Vietnam's reforms
+T102	Argument 8825 8848	rivals on her home turf
+T103	Consequence 8937 8941	with
+E34	Consequence:T103 Cause:T104 Effect:T105
+A48	Context E34
+A49	Degree E34 Facilitate
+T104	Argument 8942 8973	Vietnam's poor-quality products
+T105	Argument 8974 9017	we can't compete with neighboring countries
+T114	Consequence 7054 7063	Following
+E35	Consequence:T114 Cause:T115 Effect:T116
+A50	Degree E35 Facilitate
+A51	Temporal E35
+T115	Argument 7064 7142	Mr. Linh's appointment as secretary-general of the party at the sixth congress
+T116	Argument 7144 7229	Mrs. Thi has become the darling of ``doi moi'', the Vietnamese version of perestroika
+A13	Degree E24 Inhibit

@@ -1,0 +1,6 @@
+Recombinant SeMac and In Vitro and In Vivo Expression of SeMac 
+To characterize SeMac, the fragment of S. equi mac gene encoding mature SeMac was cloned, and recombinant SeMac was purified to >95% purity as assessed by SDS-PAGE (Fig. 3A).
+To assess the in vitro production of SeMac, culture supernatant of the 10 S. equi strains was prepared by the method of Lei et al. [16], resolved by SDS-PAGE, and probed by Western immunoblot with anti-SeMac mouse antisera.
+No SeMac was detected in all the samples (data not shown), suggesting that SeMac is not produced in vitro.
+To test whether SeMac is produced in vivo during S. equi infection, the presence of SeMac-specific antibody was assessed by Western immunoblot analysis with convalescent sera from 3 horses suffered from strangles and mice with experimental S. equi infection.
+All the convalescent sera tested had SeMac-specific antibody (Fig. 3B), indicating that SeMac is produced in vivo during infection.

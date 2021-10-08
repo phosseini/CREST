@@ -1,0 +1,13 @@
+Tricarboxylate utilization 
+The TctE/TctD system is the only TCS of P. luminescens without homologue in Y. enterocolitica (see section "Two-component signal transduction", Fig. 2).
+It controls the expression of the tctCBA operon encoding the tricarboxylic acid transport system TctCBA [107].
+The transporter is supposed to facilitate uptake of citrate, fluorocitrate, isocitrate and cis-acconitate for aerobic utilization [108,109].
+The Na+ dependent citrate symporter CitS of S. enterica, which the Y. enterocolitica protein YE2507 is homologous to, is induced by the CitA/CitB system for fermentation of citrate under anoxic conditions [110], indicating a general difference of citrate utilization in P. luminescens and Y. enterocolitica.
+While Y. enterocolitica explores citrate for anaerobic metabolism, it is most likely that the specific uptake of citrate and other tricarboxylic acids by TctCBA is used by P. luminescens upon entering the insect host where enough citrate is available.
+The specific up-regulation of the tricarboxylic acid cycle (TCA) enzymes within a host has also been described for other microorganisms.
+For example, sucA encoding a subunit of alpha-ketoglutarate synthase and acnA encoding the aconitase have been found to be induced in V. cholerae during host infection [111,112], and a complete TCA cycle is also required for S. typhimurium virulence [113].
+We also observed induction of sucA in P. luminescens in the insect host Galleria mellonella (R. Heermann, unpublished data).
+This finding underlines the hypothesis that the citric cycle enzymes used under aerobic conditions are up-regulated as a specific adaptation of the metabolic activity in the nutrient rich insect host.
+To guarantee an optimal amount of tricarboxylic acids within the cell, TctE might specifically sense the presence of tricarboxylic acids and/or signals of the host.
+Y. enterocolitica and Y. pestis, in contrast exhibit upregulation of all TCA genes upon temperature shift from 26degreesC to 37degreesC [114,115].
+Therefore, it is obvious that Y. enterocolitica and P. luminescens use different sensing and utilization strategies for tricarboxylates.

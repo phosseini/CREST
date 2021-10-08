@@ -1,0 +1,146 @@
+T1	Consequence 244 252	thwarted
+E1	Consequence:T1 Effect:T2 Cause:T3
+A1	Degree E1 Inhibit
+T2	Argument 253 277	political reconciliation
+T3	Argument 212 216	that
+T4	Argument 172 211	the persistent car and suicide bombings
+R1	Coref Arg1:T3 Arg2:T4	
+T5	Purpose 463 465	to
+E2	Purpose:T5 Cause:T6 Effect:T7
+A2	Degree E2 Facilitate
+T6	Argument 466 507	tamp down violence throughout the country
+T7	Argument 408 462	attacking several insurgent strongholds simultaneously
+#1	AnnotatorNotes E2	Maybe purpose of existence of "strategy," rather than purpose of "attacking?"
+T8	Motivation 545 547	as
+E3	Motivation:T8 Cause:T9 Effect:T10
+A3	Degree E3 Facilitate
+A4	Temporal E3
+T9	Argument 548 618	fresh infusions of American troops focused on Baghdad in recent months
+T10	Argument 620 665	insurgents moved their bases outside the city
+T11	Consequence 892 894	as
+E4	Consequence:T11 Effect:T12 Cause:T13
+A5	Degree E4 Facilitate
+A6	Temporal E4
+T12	Argument 832 891	Diyala has emerged as a center of the Sunni Arab insurgency
+T13	Argument 895 1011	Al Qaeda in Mesopotamia and other groups have made it their deadliest base of operations, supplanting Anbar Province
+T14	Motivation 1039 1044	after
+E5	Motivation:T14 Effect:T15 Cause:T16
+A7	Degree E5 Facilitate
+A8	Temporal E5
+T15	Argument 1013 1038	Violence in Anbar dropped
+T16	Argument 1045 1123	Sunni Arab tribes joined forces with the Americans to drive out Qaeda fighters
+T17	Purpose 1096 1098	to
+E6	Purpose:T17 Cause:T18 Effect:T19
+A9	Degree E6 Facilitate
+T18	Argument 1099 1123	drive out Qaeda fighters
+T19	Argument 1045 1095	Sunni Arab tribes joined forces with the Americans
+T20	Motivation 1312 1317	since
+E7	Motivation:T20 Cause:T21 Effect:T22
+A10	Degree E7 Facilitate
+A11	Temporal E7
+T21	Argument 1318 1340	the security crackdown
+T22	Argument 1215 1242;1342 1349	who have flocked there from Baghdad
+T23	Motivation 2181 2186	after
+E8	Motivation:T23 Effect:T24 Cause:T25
+A12	Degree E8 Facilitate
+A13	Temporal E8
+T24	Argument 2139 2180	who shifted to the western part of Baquba
+T25	Argument 2187 2281	an American battalion began operating in the eastern section of the capital several months ago
+T26	Motivation 2431 2433	in
+E9	Motivation:T26 Cause:T27 Effect:T28
+A14	Degree E9 Facilitate
+T27	Argument 2434 2461	anticipation of the assault
+T28	Argument 2386 2430	they may have moved to other parts of Diyala
+T29	Purpose 3016 3018	to
+E10	Purpose:T29 Cause:T30 Effect:T31
+A15	Degree E10 Facilitate
+T30	Argument 3019 3040	cut off escape routes
+T31	Argument 2979 3015	Helicopters took part in the assault
+T32	NonCausal 3329 3334	after
+E11	NonCausal:T32 Arg0:T33 Arg1:T34
+A16	Temporal E11
+T33	Argument 3335 3374	it has been captured by American troops
+T34	Argument 3288 3328	securing the western section of the city
+T35	Consequence 3608 3617	enough to
+E12	Consequence:T35 Cause:T36 Effect:T37
+A17	Degree E12 Facilitate
+A18	Extremity-sufficiency E12
+T36	Argument 3599 3614	powerful enough
+T37	Argument 3618 3655	destroy or disable an armored vehicle
+T38	Consequence 3849 3854	cause
+E13	Consequence:T38 Effect:T39 Cause:T40 Means:T41
+A19	Degree E13 Facilitate
+T39	Argument 3855 3865	casualties
+T40	Argument 3822 3827	three
+T41	Argument 3828 3836	exploded
+T45	Motivation 5026 5029	Why
+E15	Motivation:T45 Effect:T46
+A21	Degree E15 Facilitate
+T46	Argument 5030 5060	didn't you do this in the past
+T47	NonCausal 5113 5115	as
+E16	NonCausal:T47 Arg0:T48 Arg1:T49
+A22	Temporal E16
+T48	Argument 5116 5188	he pulled together the hands of a police captain and a brigade commander
+T49	Argument 5024 5111	``Why didn't you do this in the past?'' said a man in who gave his name as Abu Muhammad
+T50	Consequence 5202 5204	If
+E17	Consequence:T50 Cause:T51 Effect:T52
+A23	Degree E17 Facilitate
+A24	Hypothetical E17
+T51	Argument 5205 5222	you work together
+T52	Argument 5223 5295	you can secure Iraq, and the occupation will have no choice but to leave
+T53	Consequence 5301 5303	if
+E18	Consequence:T53 Cause:T54 Effect:T55
+A25	Degree E18 Facilitate
+A26	Hypothetical E18
+T54	Argument 5304 5320	you stay divided
+T55	Argument 5321 5368	Al Qaeda will stay and the occupation will stay
+T56	Consequence 5417 5423	led to
+E19	Consequence:T56 Cause:T57 Effect:T58
+A27	Degree E19 Facilitate
+T57	Argument 5395 5416	the assault on Baquba
+T58	Argument 5424 5482	the deaths of at least four insurgents by Monday afternoon
+T59	Motivation 6517 6524	because
+E20	Motivation:T59 Effect:T60 Cause:T61
+A28	Degree E20 Facilitate
+T60	Argument 6377 6515	American troops have intensified their focus on finding and dismantling places where those weapons are built, like the towns raided Monday
+T61	Argument 6525 6579	the weapons were especially hard to stop at the border
+T62	Consequence 6602 6609	because
+E21	Consequence:T62 Effect:T63 Cause:T64
+A29	Degree E21 Facilitate
+T63	Argument 6583 6601	It's hard to catch
+T64	Argument 6610 6663	they are shipped as components, not completed weapons
+T65	Argument 6847 6906	the largest clash with Mr. Sadr's loosely affiliated gunmen
+T66	NonCausal 6907 6912	since
+E22	NonCausal:T66 Arg0:T67 Arg1:T65
+A30	Temporal E22
+T67	Argument 6913 6968	the start of the new American security plan in February
+T68	NonCausal 7719 7721	as
+E23	NonCausal:T68 Arg1:T69 Arg0:T70
+A31	Temporal E23
+T69	Argument 7638 7717	Baghdad authorities found 33 unidentified bodies, many showing signs of torture
+T70	Argument 7722 7842	mortar shells, shootings and bombs across the capital killed at least nine people, including a national police commander
+T71	Consequence 8063 8067	when
+E24	Consequence:T71 Effect:T72 Cause:T73
+A32	Degree E24 Facilitate
+A33	Temporal E24
+T72	Argument 8028 8062	one soldier was killed late Sunday
+T73	Argument 8068 8160	an improvised explosive device exploded near a foot patrol in a southern part of the capital
+T75	Motivation 8534 8538	when
+E25	Motivation:T75 Effect:T76 Cause:T77
+A34	Degree E25 Facilitate
+A35	Temporal E25
+T76	Argument 8517 8533	that was imposed
+T77	Argument 8539 8560	the shrine was bombed
+T42	Argument 8468 8473	which
+T43	Argument 8455 8466	the assault
+R2	Coref Arg1:T42 Arg2:T43	
+T44	NonCausal 8474 8478;8487 8492	came after
+E14	NonCausal:T44 Arg1:T74 Arg0:T42
+A20	Temporal E14
+T74	Argument 8493 8560	the lifting of a curfew that was imposed when the shrine was bombed
+T78	Argument 6070 6074	They
+T79	Consequence 6080 6087	sparked
+E26	Consequence:T79 Cause:T80 Effect:T78
+A36	Degree E26 Facilitate
+T80	Argument 6091 6301	raids on what American officials described as a secret network involved in transporting ``lethal aid'' from Iran to Iraq, particularly deadly roadside bombs known as explosively formed penetrators, or E.F.P.'s.
+A37	Creation-termination E26

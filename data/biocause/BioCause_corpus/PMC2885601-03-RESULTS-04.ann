@@ -1,0 +1,56 @@
+T37	Positive_regulation 1018 1025	cleaves
+T38	Protein_catabolism 1018 1025	cleaves
+E1	Protein_catabolism:T38 Theme:T29
+E2	Positive_regulation:T37 Theme:E1 Cause:T27
+T1	Protein 0 5	SeMac
+T2	Organism 45 52	S. equi
+T3	Organism 56 61	Horse
+T4	Protein 140 145	SeMac
+T5	Organism 177 184	S. equi
+T6	Organism 188 193	horse
+T7	Organism 250 257	S. equi
+T8	Organism 267 272	horse
+T9	Protein 322 327	SeMac
+T10	Organism 348 353	horse
+T11	Organism 398 405	S. equi
+T12	Organism 490 497	S. equi
+T13	Organism 562 569	S. equi
+T14	Protein 616 621	SeMac
+T15	Organism 672 679	S. equi
+T16	Protein 707 712	SeMac
+T17	Organism 752 759	S. equi
+T18	Organism 763 768	horse
+T19	Protein 792 797	SeMac
+T20	Organism 809 816	S. equi
+T21	Organism 839 844	horse
+T22	Organism 904 909	horse
+T23	Protein 910 913	IgG
+T24	Protein 932 937	SeMac
+T25	Organism 975 978	GAS
+T26	Organism 982 987	human
+T27	Protein 1000 1005	SeMac
+T28	Organism 1026 1031	human
+T29	Protein 1032 1035	IgG
+T30	Organism 1098 1101	GAS
+T31	Organism 1106 1111	human
+T32	Protein 1119 1124	SeMac
+T33	Organism 1167 1170	GAS
+T34	Organism 1174 1179	human
+T35	Protein 1223 1240	IgG endopeptidase
+T36	Protein 1253 1258	SeMac
+T39	Span 595 679	But the inclusion of SeMac in the assay did not affect opsonophagocytosis of S. equi
+T40	Causality 691 706	suggesting that
+E3	Causality:T40 Effect:T41 Evidence:T39
+T41	Span 707 773	SeMac does not inhibit opsonophagocytosis of S. equi by horse PMNs
+T42	Span 775 849	The inability of SeMac to inhibit S. equi opsonophagocytosis by horse PMNs
+T43	Causality 850 863	may be due to
+E4	Causality:T43 Evidence:T44 Effect:T42
+T44	Span 864 913	its inability to cleave the majority of horse IgG
+T45	Causality 915 930	If this is true
+E5	Causality:T45 Effect:T46 Evidence:T47
+T46	Span 932 1035	SeMac should inhibit opsonophagocytosis of GAS by human PMNs, since SeMac efficiently cleaves human IgG
+T47	Span 775 913	The inability of SeMac to inhibit S. equi opsonophagocytosis by horse PMNs may be due to its inability to cleave the majority of horse IgG
+T48	Span 1119 1184	SeMac indeed inhibits the opsonophagocytosis of GAS by human PMNs
+T49	Causality 1196 1222	These results suggest that
+E6	Causality:T49 Effect:T50 Evidence:T48
+T50	Span 1223 1301	IgG endopeptidase activity of SeMac is critical for inhibition of phagocytosis

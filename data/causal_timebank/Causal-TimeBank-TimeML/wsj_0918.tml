@@ -1,0 +1,172 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0918</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-26</TIMEX3></DCT>
+<TEXT>
+ Du Pont Co. <EVENT eid="e1" class="REPORTING">reported</EVENT> that <TIMEX3 tid="t2" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> profit <EVENT eid="e3" class="OCCURRENCE">grew</EVENT> a robust 19 % from <TIMEX3 tid="t4" type="DATE" value="1988-Q3" anchorTimeID="t2" functionInDocument="NONE">a year ago</TIMEX3> on the strength of the company's <EVENT eid="e5" class="OCCURRENCE">operations</EVENT> in various chemicals and fibers, and in petroleum.
+ Du Pont also <EVENT eid="e6" class="OCCURRENCE">raised</EVENT> its quarterly dividend to $ 1.20 a share from $ 1.05, a <EVENT eid="e7" class="OCCURRENCE">change</EVENT> that will <EVENT eid="e8" class="OCCURRENCE">increase</EVENT> the annualized payout to shareholders by some $ 140 million.
+ Du Pont, unlike companies <EVENT eid="e9" class="STATE">hurt</EVENT> badly <C-SIGNAL cid="c10">by</C-SIGNAL> sharp price <EVENT eid="e11" class="OCCURRENCE">declines</EVENT> for basic chemicals and plastics, is <EVENT eid="e12" class="OCCURRENCE">benefiting</EVENT> from its broad range of businesses.
+ The profit gain was <EVENT eid="e13" class="OCCURRENCE">made</EVENT> despite a <EVENT eid="e14" class="OCCURRENCE">weakening</EVENT> in the housing market, for which the company is a supplier, and a <EVENT eid="e15" class="OCCURRENCE">strengthening</EVENT> in the dollar, which <EVENT eid="e16" class="OCCURRENCE">lowers</EVENT> the value of overseas earnings when they are translated into dollars.
+ The Wilmington, Del., company <EVENT eid="e17" class="REPORTING">reported</EVENT> net of $ 547 million, or $ 2.36 a share, which was in line with Wall Street <EVENT eid="e18" class="I_STATE">estimates</EVENT>.
+ In <TIMEX3 tid="t19" type="DATE" value="1988-Q3" anchorTimeID="t2" functionInDocument="NONE">the year-earlier period</TIMEX3>, the company <EVENT eid="e20" class="OCCURRENCE">earned</EVENT> $ 461 million, or $ 1.91 a share.
+ Sales in <TIMEX3 tid="t21" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">the latest quarter</TIMEX3> were $ 8.59 billion, up 9.4 % from $ 7.85 billion.
+ The dividend <EVENT eid="e22" class="OCCURRENCE">increase</EVENT> was Du Pont's second <TIMEX3 tid="t23" type="DATE" value="1989" anchorTimeID="t0" functionInDocument="NONE">this year</TIMEX3>, an <EVENT eid="e24" class="REPORTING">affirmation</EVENT> of statements by top executives that they <EVENT eid="e25" class="I_STATE">intend</EVENT> to <EVENT eid="e26" class="OCCURRENCE">increase</EVENT> rewards to shareholders.
+ " We haven't <EVENT eid="e27" class="OCCURRENCE">benefited</EVENT> the shareholder as much as we <EVENT eid="e28" class="I_STATE">need</EVENT> to, " <EVENT eid="e29" class="REPORTING">said</EVENT> Edgar Woolard Jr., Du Pont's chairman and chief executive officer, in an <EVENT eid="e30" class="OCCURRENCE">interview</EVENT> <TIMEX3 tid="t31" type="DURATION" value="PXM" functionInDocument="NONE">several months</TIMEX3> before he <EVENT eid="e32" class="ASPECTUAL">entered</EVENT> his <TIMEX3 tid="t33" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">current</TIMEX3> position in <TIMEX3 tid="t34" type="DATE" value="1989-04" anchorTimeID="t0" functionInDocument="NONE">April</TIMEX3>.
+ The largest beneficiary will be Seagram Co., which owns about 23 % of Du Pont.
+ A spokesman for Seagram, the Montreal wine and spirits concern controlled by the Bronfman family, <EVENT eid="e35" class="REPORTING">said</EVENT> the company will <EVENT eid="e36" class="REPORTING">post</EVENT> additional pretax <EVENT eid="e37" class="OCCURRENCE">profit</EVENT> of about $ 33 million <TIMEX3 tid="t38" type="SET" value="P1Y" functionInDocument="NONE">a year</TIMEX3> <C-SIGNAL cid="c39">because of</C-SIGNAL> the additional Du Pont dividends.
+ Du Pont also <EVENT eid="e40" class="REPORTING">announced</EVENT> <EVENT eid="e41" class="I_STATE">plans</EVENT> for a 3-for-1 stock <EVENT eid="e42" class="OCCURRENCE">split</EVENT>, although the initial higher dividend will be <EVENT eid="e43" class="OCCURRENCE">paid</EVENT> on pre-split shares.
+ Du Pont's stock <EVENT eid="e44" class="OCCURRENCE">rose</EVENT> $ 2.50 a share to <EVENT eid="e45" class="OCCURRENCE">close</EVENT> at $ 117.375 in New York Stock Exchange composite trading <TIMEX3 tid="t46" type="DATE" value="1989-10-25" anchorTimeID="t0" functionInDocument="NONE">yesterday</TIMEX3>.
+ Seagram <EVENT eid="e47" class="OCCURRENCE">closed</EVENT> at $ 84.75, up 12.5 cents a share in Big Board trading.
+ <EVENT eid="e48" class="STATE">Leading</EVENT> the gains for Du Pont in <TIMEX3 tid="t49" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">the latest quarter</TIMEX3> was its industrial products segment, where profit <EVENT eid="e50" class="OCCURRENCE">soared</EVENT> to $ 155 million from $ 99 million <TIMEX3 tid="t51" type="DATE" value="1988-Q3" anchorTimeID="t49" functionInDocument="NONE">a year earlier</TIMEX3>.
+ The company <EVENT eid="e52" class="OCCURRENCE">benefited</EVENT> from continued strong <EVENT eid="e53" class="OCCURRENCE">demand</EVENT> and higher selling prices for titanium dioxide, a white pigment used in paints, paper and plastics.
+ James Fallon, a New Providence, N.J., marketing consultant to the chemicals industry, <EVENT eid="e54" class="REPORTING">says</EVENT> Du Pont still <EVENT eid="e55" class="STATE">holds</EVENT> an edge in making the pigment <C-SIGNAL cid="c56">because</C-SIGNAL> the company <EVENT eid="e57" class="STATE">was</EVENT> " first in with the technology " to lower costs.
+ He <EVENT eid="e58" class="REPORTING">said</EVENT> Du Pont <EVENT eid="e59" class="STATE">holds</EVENT> about 23 % of the world-wide market, the largest single share, at a time when growing uses for the pigment have kept it in tight supply, although others are now adding low-cost production capacity.
+ Profit <EVENT eid="e60" class="OCCURRENCE">climbed</EVENT> to $ 98 million from $ 71 million in the petroleum segment, <C-SIGNAL cid="c61">as</C-SIGNAL> Du Pont's Conoco Inc. oil company was <EVENT eid="e62" class="I_STATE">helped</EVENT> by crude oil prices higher than <TIMEX3 tid="t63" type="DATE" value="1988-Q3" anchorTimeID="t49" functionInDocument="NONE">a year ago</TIMEX3> and by higher natural gas prices and volume.
+ In the diversifed businesses segment, which includes herbicides, profit <EVENT eid="e64" class="OCCURRENCE">grew</EVENT> to $ 64 million from $ 27 million.
+ A spokesman <EVENT eid="e65" class="REPORTING">said</EVENT> herbicide <EVENT eid="e66" class="OCCURRENCE">use</EVENT> in some areas of the U.S. was <EVENT eid="e67" class="I_ACTION">delayed</EVENT> <TIMEX3 tid="t68" type="DATE" value="1989" anchorTimeID="t0" functionInDocument="NONE">earlier in the year</TIMEX3> <C-SIGNAL cid="c69">by</C-SIGNAL> heavy <EVENT eid="e70" class="OCCURRENCE">rains</EVENT>, <C-SIGNAL cid="c71">thus</C-SIGNAL> <EVENT eid="e72" class="OCCURRENCE">increasing</EVENT> sales in <TIMEX3 tid="t73" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">the third quarter</TIMEX3>.
+ In the fibers segment, profit <EVENT eid="e74" class="OCCURRENCE">rose</EVENT> to $ 180 million from $ 155 million, a gain Du Pont <EVENT eid="e75" class="I_ACTION">attributed</EVENT> to higher <EVENT eid="e76" class="OCCURRENCE">demand</EVENT> in the U.S. for most textile products.
+ Two segments <EVENT eid="e77" class="REPORTING">posted</EVENT> lower <EVENT eid="e78" class="STATE">earnings</EVENT> for <TIMEX3 tid="t79" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">the quarter</TIMEX3>.
+ Profit from coal <EVENT eid="e80" class="OCCURRENCE">fell</EVENT> to $ 41 million from $ 58 million, partly <C-SIGNAL cid="c81">because of</C-SIGNAL> a miners ' <EVENT eid="e82" class="OCCURRENCE">strike</EVENT>.
+ And profit from polymers <EVENT eid="e83" class="OCCURRENCE">dropped</EVENT> to $ 107 million from $ 122 million amid what Du Pont called lower demand and selling prices in certain packaging and industrial markets.
+ For <TIMEX3 tid="t84" type="DURATION" value="P9M" functionInDocument="NONE">the nine months</TIMEX3>, Du Pont <EVENT eid="e85" class="OCCURRENCE">earned</EVENT> $ 2 billion, or $ 8.46 a share, up 18 % from $ 1.69 billion, or $ 7.03 a share, <TIMEX3 tid="t86" type="DATE" value="1988-Q3" anchorTimeID="t79" functionInDocument="NONE">a year earlier</TIMEX3>.
+ Sales <EVENT eid="e87" class="OCCURRENCE">increased</EVENT> 10 % to $ 26.54 billion from $ 24.05 billion.
+ The increased dividend will be <EVENT eid="e88" class="OCCURRENCE">paid</EVENT> <TIMEX3 tid="t89" type="DATE" value="1989-12-14" anchorTimeID="t0" functionInDocument="NONE">Dec. 14</TIMEX3> to holders of record <TIMEX3 tid="t90" type="DATE" value="1989-11-15" anchorTimeID="t0" functionInDocument="NONE">Nov. 15</TIMEX3>.
+ The stock <EVENT eid="e91" class="OCCURRENCE">split</EVENT>, which is subject to holder <EVENT eid="e92" class="I_ACTION">approval</EVENT>, would be <EVENT eid="e93" class="OCCURRENCE">paid</EVENT> on a still unspecified date in <TIMEX3 tid="t94" type="DATE" value="1990-01" anchorTimeID="t0" functionInDocument="NONE">January</TIMEX3> to holders of record <TIMEX3 tid="t95" type="DATE" value="1989-12-21" anchorTimeID="t0" functionInDocument="NONE">Dec. 21</TIMEX3>.
+</TEXT>
+<MAKEINSTANCE eventID="e54" eiid="ei54" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e42" eiid="ei42" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e48" eiid="ei48" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e60" eiid="ei60" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e62" eiid="ei62" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e64" eiid="ei64" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e53" eiid="ei53" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e66" eiid="ei66" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e67" eiid="ei67" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e82" eiid="ei82" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e83" eiid="ei83" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e80" eiid="ei80" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e87" eiid="ei87" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e85" eiid="ei85" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e47" eiid="ei47" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e44" eiid="ei44" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e45" eiid="ei45" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e40" eiid="ei40" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e41" eiid="ei41" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e78" eiid="ei78" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e65" eiid="ei65" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e76" eiid="ei76" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e75" eiid="ei75" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e74" eiid="ei74" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e72" eiid="ei72" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e70" eiid="ei70" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e91" eiid="ei91" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e59" eiid="ei59" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e93" eiid="ei93" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e92" eiid="ei92" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e58" eiid="ei58" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e77" eiid="ei77" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e55" eiid="ei55" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e57" eiid="ei57" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e37" eiid="ei37" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e52" eiid="ei52" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e88" eiid="ei88" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e50" eiid="ei50" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="IS_INCLUDED" timeID="t0" relatedToEventInstance="ei55"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l3" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei40"/>
+<TLINK lid="l4" relType="DURING" eventInstanceID="ei3" relatedToTime="t2"/>
+<TLINK lid="l5" relType="BEGUN_BY" eventInstanceID="ei3" relatedToTime="t4"/>
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei5"/>
+<TLINK lid="l7" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToEventInstance="ei3"/>
+<TLINK lid="l8" relType="IDENTITY" eventInstanceID="ei7" relatedToEventInstance="ei6"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei8"/>
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei9" relatedToEventInstance="ei11"/>
+<TLINK lid="l11" relType="SIMULTANEOUS" eventInstanceID="ei9" relatedToEventInstance="ei12"/>
+<TLINK lid="l13" relType="INCLUDES" eventInstanceID="ei12" relatedToEventInstance="ei3"/>
+<TLINK lid="l14" relType="INCLUDES" eventInstanceID="ei12" relatedToEventInstance="ei6"/>
+<TLINK lid="l15" relType="SIMULTANEOUS" eventInstanceID="ei14" relatedToEventInstance="ei13"/>
+<TLINK lid="l16" relType="SIMULTANEOUS" eventInstanceID="ei14" relatedToEventInstance="ei15"/>
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei15" relatedToEventInstance="ei16"/>
+<TLINK lid="l18" relType="IS_INCLUDED" eventInstanceID="ei17" relatedToTime="t0"/>
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei18" relatedToEventInstance="ei17"/>
+<TLINK lid="l20" relType="DURING" eventInstanceID="ei20" relatedToTime="t19"/>
+<TLINK lid="l21" relType="INCLUDES" timeID="t23" relatedToEventInstance="ei22"/>
+<TLINK lid="l22" relType="SIMULTANEOUS" eventInstanceID="ei24" relatedToEventInstance="ei22"/>
+<TLINK lid="l23" relType="IS_INCLUDED" eventInstanceID="ei28" relatedToTime="t0"/>
+<TLINK lid="l24" relType="INCLUDES" eventInstanceID="ei30" relatedToEventInstance="ei29"/>
+<TLINK lid="l25" relType="BEGINS" eventInstanceID="ei30" relatedToTime="t31"/>
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei30" relatedToEventInstance="ei32"/>
+<TLINK lid="l27" relType="ENDS" eventInstanceID="ei32" relatedToTime="t31"/>
+<TLINK lid="l28" relType="IS_INCLUDED" eventInstanceID="ei32" relatedToTime="t34"/>
+<TLINK lid="l29" relType="BEFORE" eventInstanceID="ei35" relatedToTime="t0"/>
+<TLINK lid="l30" relType="AFTER" eventInstanceID="ei36" relatedToTime="t0"/>
+<TLINK lid="l31" relType="AFTER" eventInstanceID="ei43" relatedToTime="t0"/>
+<TLINK lid="l32" relType="ENDED_BY" eventInstanceID="ei44" relatedToEventInstance="ei45"/>
+<TLINK lid="l33" relType="IS_INCLUDED" eventInstanceID="ei44" relatedToTime="t46"/>
+<TLINK lid="l34" relType="IS_INCLUDED" eventInstanceID="ei45" relatedToTime="t46"/>
+<TLINK lid="l35" relType="IS_INCLUDED" eventInstanceID="ei47" relatedToTime="t46"/>
+<TLINK lid="l36" relType="DURING" eventInstanceID="ei48" relatedToTime="t49"/>
+<TLINK lid="l37" relType="DURING" eventInstanceID="ei50" relatedToTime="t49"/>
+<TLINK lid="l38" relType="INCLUDES" eventInstanceID="ei52" relatedToEventInstance="ei50"/>
+<TLINK lid="l39" relType="AFTER" eventInstanceID="ei52" relatedToEventInstance="ei53"/>
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei54" relatedToTime="t0"/>
+<TLINK lid="l42" relType="IDENTITY" eventInstanceID="ei58" relatedToEventInstance="ei54"/>
+<TLINK lid="l43" relType="SIMULTANEOUS" eventInstanceID="ei60" relatedToEventInstance="ei50"/>
+<TLINK lid="l44" relType="AFTER" eventInstanceID="ei60" relatedToEventInstance="ei62"/>
+<TLINK lid="l46" relType="SIMULTANEOUS" eventInstanceID="ei64" relatedToEventInstance="ei60"/>
+<TLINK lid="l47" relType="BEFORE" eventInstanceID="ei65" relatedToTime="t0"/>
+<TLINK lid="l48" relType="IS_INCLUDED" eventInstanceID="ei67" relatedToTime="t68"/>
+<TLINK lid="l49" relType="BEFORE" eventInstanceID="ei67" relatedToEventInstance="ei72"/>
+<TLINK lid="l51" relType="BEFORE" eventInstanceID="ei70" relatedToEventInstance="ei67"/>
+<TLINK lid="l53" relType="DURING" eventInstanceID="ei72" relatedToTime="t73"/>
+<TLINK lid="l54" relType="SIMULTANEOUS" eventInstanceID="ei74" relatedToEventInstance="ei64"/>
+<TLINK lid="l55" relType="AFTER" eventInstanceID="ei75" relatedToEventInstance="ei74"/>
+<TLINK lid="l56" relType="BEFORE" eventInstanceID="ei76" relatedToEventInstance="ei74"/>
+<TLINK lid="l57" relType="IS_INCLUDED" eventInstanceID="ei77" relatedToTime="t79"/>
+<TLINK lid="l58" relType="ENDS" eventInstanceID="ei78" relatedToTime="t79"/>
+<TLINK lid="l59" relType="DURING" eventInstanceID="ei80" relatedToTime="t79"/>
+<TLINK lid="l60" relType="AFTER" eventInstanceID="ei80" relatedToEventInstance="ei82"/>
+<TLINK lid="l62" relType="DURING" eventInstanceID="ei83" relatedToTime="t79"/>
+<TLINK lid="l63" relType="SIMULTANEOUS" eventInstanceID="ei83" relatedToEventInstance="ei80"/>
+<TLINK lid="l64" relType="IDENTITY" timeID="t84" relatedToTime="t73"/>
+<TLINK lid="l65" relType="DURING" eventInstanceID="ei85" relatedToTime="t84"/>
+<TLINK lid="l66" relType="ENDS" eventInstanceID="ei85" relatedToTime="t86"/>
+<TLINK lid="l67" relType="SIMULTANEOUS" eventInstanceID="ei87" relatedToEventInstance="ei85"/>
+<TLINK lid="l68" relType="AFTER" eventInstanceID="ei88" relatedToTime="t0"/>
+<TLINK lid="l69" relType="IS_INCLUDED" eventInstanceID="ei88" relatedToTime="t89"/>
+<TLINK lid="l70" relType="IS_INCLUDED" eventInstanceID="ei93" relatedToTime="t94"/>
+<CLINK lid="l12" c-signalID="c10" eventInstanceID="ei11" relatedToEventInstance="ei9"/>
+<CLINK lid="l41" c-signalID="c56" eventInstanceID="ei57" relatedToEventInstance="ei55"/>
+<CLINK lid="l45" c-signalID="c61" eventInstanceID="ei62" relatedToEventInstance="ei60"/>
+<CLINK lid="l50" c-signalID="c71" eventInstanceID="ei67" relatedToEventInstance="ei72"/>
+<CLINK lid="l52" c-signalID="c69" eventInstanceID="ei70" relatedToEventInstance="ei67"/>
+<CLINK lid="l61" c-signalID="c81" eventInstanceID="ei82" relatedToEventInstance="ei80"/>
+</TimeML>

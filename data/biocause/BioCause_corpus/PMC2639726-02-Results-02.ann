@@ -1,0 +1,69 @@
+T1	Organism 15 25	Salmonella
+T2	Organism 102 107	mouse
+T3	Organism 151 161	Salmonella
+T4	Organism 283 288	mouse
+T5	Organism 394 404	Salmonella
+T6	Organism 507 517	Salmonella
+T7	Organism 740 750	Salmonella
+T8	Organism 784 788	mice
+T9	Organism 1032 1037	mouse
+T10	Organism 1145 1150	mouse
+T11	Organism 1224 1230	BALB/c
+T12	Protein 1738 1742	rpoE
+T13	Protein 2428 2432	spvR
+T14	Organism 2436 2442	murine
+T15	Two-component-system 2564 2573	ssrA/ssrB
+T16	Protein 2564 2568	ssrA
+T17	Protein 2569 2573	ssrB
+T18	Protein 2578 2582	slyA
+T19	Protein 2799 2803	himD
+T20	Protein 2805 2809	rpoE
+T21	Protein 2811 2814	crp
+T22	Protein 2819 2822	hfq
+T23	Organism 3113 3118	mouse
+T24	Process 108 117	virulence
+T25	Negative_regulation 242 252	attenuated
+T26	Process 257 266	virulence
+T27	Process 289 298	infection
+T28	Process 771 780	infection
+T29	Process 1038 1047	virulence
+T30	Process 1193 1203	attenuated
+T31	Process 1331 1340	infection
+T32	Process 1720 1729	infection
+T33	Process 1925 1934	infection
+T34	Process 3036 3045	infection
+T35	Process 3096 3105	avirulent
+E1	Process:T24 Participant:T1
+E2	Negative_regulation:T25 Theme:E3
+E3	Process:T26 Participant:T3
+E4	Process:T27 Participant:T3
+E5	Process:T28 Participant:T7
+E6	Process:T29 
+E7	Process:T30 
+E8	Process:T31 
+E9	Process:T32 
+E10	Process:T33 
+E11	Process:T34 
+E12	Process:T35 
+M1	Negation E12
+T36	Span 119 298	Previous work demonstrated that Salmonella mutants that were unable to survive within elicited peritoneal macrophages were attenuated for virulence during systemic mouse infection
+T37	Causality 305 312	In fact
+E13	Causality:T37 Effect:T38 Evidence:T36
+T38	Span 314 490	fluorescence-activated cell sorting analysis of infected blood and spleen using Salmonella that expresses green fluorescent protein does not identify any extracellular bacteria
+T39	Span 507 649	Salmonella is within blood monocytes and in other WBC in the spleen including neutrophils, dendritic cells, and B and T cells in these reports
+T40	Causality 658 677	It is possible that
+E14	Causality:T40 Evidence:T41 Effect:T39
+T41	Span 678 818	growth in cells types other than macrophages is necessary for Salmonella to cause a systemic infection in mice following i.p. administration
+T42	Causality 820 824	Thus
+E15	Causality:T42 Effect:T43 Evidence:T41
+T43	Span 826 929	some of the regulatory mutations described here may affect growth in cells types other than macrophages
+E16	Causality:T42 Effect:T43 Evidence:T39
+T44	Span 1636 1749	Even at the shortest time few intracellular bacteria were recovered from macrophage infection with an rpoE mutant
+T45	Causality 1751 1766	suggesting that
+E17	Causality:T45 Effect:T46 Evidence:T44
+T46	Span 1767 1907	this strain is very sensitive to microbicidal factors released by macrophages on contact with bacteria or doesn't get internalized very well
+T47	Causality 2943 2979	These results also demonstrated that
+E18	Causality:T47 Effect:T48 Evidence:T49
+T48	Span 2980 3179	growth in macrophages per se does not duplicate in vivo infection and that some regulator mutants that were totally avirulent in the mouse showed no differences in growth in these primary macrophages
+T49	Span 2786 2930	Mutations of himD, rpoE, crp, or hfq drastically reduce the number of viable bacteria that can be recovered from macrophages even at short times
+#1	AnnotatorNotes E13	not sure

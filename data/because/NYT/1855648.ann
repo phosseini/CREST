@@ -1,0 +1,273 @@
+T1	Consequence 108 115;116 118	allowed to
+E1	Consequence:T1 Effect:T2
+A1	Degree E1 Facilitate
+A2	Obligation-permission E1
+T2	Argument 119 157;90 93	live in the outside world for 20 years who
+T3	Motivation 196 208	by reason of
+E2	Motivation:T3 Cause:T4 Effect:T5
+A3	Degree E2 Facilitate
+T4	Argument 209 217	insanity
+T5	Argument 175 195	not guilty of murder
+T6	Consequence 496 498	if
+E3	Consequence:T6 Cause:T7 Effect:T8
+A4	Degree E3 Facilitate
+T7	Argument 499 522	you are declared insane
+A5	Hypothetical E3
+T8	Argument 523 564	you should not be allowed to vote, period
+T9	Consequence 888 891;910 912	too to
+E4	Consequence:T9 Cause:T10 Effect:T11
+A6	Degree E4 Inhibit
+T10	Argument 888 909	too mentally impaired
+T11	Argument 913 917	vote
+T12	Motivation 950 953;964 971	for reasons
+E5	Motivation:T12 Effect:T13 Cause:T14
+A7	Degree E5 Facilitate
+T13	Argument 919 949	The issue is drawing attention
+T14	Argument 973 1232	increasing efforts by the mentally ill and their advocates to secure voting rights, and mounting concern by psychiatrists and others who work with the elderly about the rights and risks of voting by people with conditions like Alzheimer's disease and dementia
+T18	Consequence 1415 1429	prevented from
+E7	Consequence:T18 Effect:T19 Cause:T20
+A9	Degree E7 Facilitate
+T19	Argument 1430 1436	voting
+T20	Argument 1307 1387	a group of psychiatrists, lawyers and others led by the American Bar Association
+T21	Motivation 1442 1444	if
+E8	Motivation:T21 Effect:T22 Cause:T23
+A11	Degree E8 Facilitate
+T22	Argument 1405 1436	people be prevented from voting
+A12	Hypothetical E8
+T23	Argument 1445 1548	they cannot indicate, with or without help, ``a specific desire to participate in the voting process.''
+T24	Consequence 541 551	allowed to
+E9	Consequence:T24 Effect:T25
+A13	Degree E9 Facilitate
+A14	Obligation-permission E9
+T25	Argument 523 526;552 556	you vote
+T26	Motivation 1694 1698	with
+E10	Motivation:T26 Cause:T27 Effect:T28
+A15	Degree E10 Facilitate
+A16	Context E10
+T27	Argument 1699 1783	research showing that many people with dementia or other impairments vote or want to
+T28	Argument 1785 1861	there is also a desire to ensure they are not pressured to vote certain ways
+T29	Consequence 1811 1817	ensure
+E11	Consequence:T29 Effect:T30
+A17	Degree E11 Facilitate
+T30	Argument 1818 1861	they are not pressured to vote certain ways
+T31	Purpose 2061 2063	to
+E12	Purpose:T31 Effect:T32 Cause:T33
+A18	Degree E12 Facilitate
+T32	Argument 2031 2060	take advantage of their votes
+T33	Argument 2064 2081	swing an election
+T35	Argument 2191 2221	advocates for the mentally ill
+T36	Argument 2258 2260;2261 2327	it easier for people under guardianship for mental incapacity to vote
+T37	Motivation 2298 2301	for
+E14	Motivation:T37 Effect:T38 Cause:T39
+A20	Degree E14 Facilitate
+T38	Argument 2279 2297	under guardianship
+T39	Argument 2302 2319	mental incapacity
+T43	Consequence 2574 2576	so
+E16	Consequence:T43 Cause:T44 Effect:T45
+A22	Degree E16 Facilitate
+A23	Extremity-sufficiency E16
+A24	Extremity-sufficiency E4
+T44	Argument 2574 2582	so vague
+T45	Argument 2583 2615	it could be unfairly restrictive
+T46	Consequence 2630 2635;2643 2645	allow to
+E17	Consequence:T46 Cause:T47 Effect:T48
+A25	Degree E17 Facilitate
+T47	Argument 2617 2621	They
+T48	Argument 2636 2642;2646 2711	people vote if they can supply information for a voter registration form
+T49	Motivation 2651 2653	if
+E18	Motivation:T49 Effect:T50 Cause:T51
+A26	Degree E18 Facilitate
+A27	Hypothetical E18
+T50	Argument 2617 2650	They want to allow people to vote
+T51	Argument 2654 2711	they can supply information for a voter registration form
+T52	Consequence 2839 2846	because
+E19	Consequence:T52 Effect:T53 Cause:T54
+A28	Degree E19 Facilitate
+T53	Argument 2762 2838	a constitutional provision, twice affirmed by referendum, was discriminatory
+T54	Argument 2847 2911	it barred voting by people under guardianship for mental illness
+T55	Motivation 2893 2896	for
+E20	Motivation:T55 Effect:T56 Cause:T57
+A29	Degree E20 Facilitate
+T56	Argument 2874 2892	under guardianship
+T57	Argument 2897 2911	mental illness
+T58	Motivation 3196 3203	because
+E21	Motivation:T58 Cause:T59 Effect:T60
+A30	Degree E21 Facilitate
+T59	Argument 3204 3281	her victory resulted from absentee ballots cast by the nursing home residents
+T60	Argument 3102 3195	a nursing home employee who won a 2004 election to a county Democratic committee stepped down
+T61	Consequence 3216 3229	resulted from
+E22	Consequence:T61 Effect:T62 Cause:T63
+A31	Degree E22 Facilitate
+T62	Argument 3204 3215	her victory
+T63	Argument 3230 3281	absentee ballots cast by the nursing home residents
+T64	Consequence 3699 3706	prevent
+E23	Consequence:T64 Cause:T65 Effect:T69
+A32	Degree E23 Inhibit
+T65	Argument 3688 3698	Another 18
+T66	Argument 3717 3785	there is a specific determination that people lack voting competence
+T67	Motivation 3714 3716	if
+E24	Motivation:T67 Effect:T68 Cause:T66
+A34	Degree E24 Facilitate
+A35	Hypothetical E24
+T68	Argument 3688 3713	Another 18 prevent voting
+T70	Argument 3835 3852	institutionalized
+T71	Motivation 3853 3858	after
+E25	Motivation:T71 Cause:T72 Effect:T70
+A36	Degree E25 Facilitate
+A37	Temporal E25
+T72	Argument 3859 3922	he claimed Satan had ordered him to kill two boys, ages 6 and 9
+T73	Motivation 4056 4058	If
+E26	Motivation:T73 Cause:T74 Effect:T75
+A38	Degree E26 Facilitate
+A39	Hypothetical E26
+T74	Argument 4059 4100	the men had been convicted and imprisoned
+T75	Argument 4102 4130	they would be unable to vote
+T76	Consequence 4155 4160;4175 4177	allow to
+E27	Consequence:T76 Cause:T77 Effect:T78
+A40	Degree E27 Facilitate
+A41	Obligation-permission E27
+T77	Argument 4137 4154	Maine and Vermont
+T78	Argument 4161 4174;4178 4182	jailed felons vote
+T79	Consequence 4624 4626	If
+E28	Consequence:T79 Cause:T80 Effect:T81
+A42	Degree E28 Facilitate
+T80	Argument 4627 4651	you're criminally insane
+A43	Hypothetical E28
+T81	Argument 4686 4721	you still shouldn't be able to vote
+T82	Motivation 4803 4810	because
+E29	Motivation:T82 Cause:T83 Effect:T84
+A44	Degree E29 Facilitate
+T83	Argument 4811 4848	the House election had been  so close
+T84	Argument 4850 4942	the American Civil Liberties Union intervened, saying more notice was required for a hearing
+T85	Consequence 4920 4932	required for
+E30	Consequence:T85 Effect:T86 Cause:T87
+A45	Degree E30 Facilitate
+T86	Argument 4933 4942	a hearing
+T87	Argument 4904 4915	more notice
+T88	Motivation 5427 5439	by reason of
+E31	Motivation:T88 Cause:T89 Effect:T90
+A46	Degree E31 Facilitate
+T89	Argument 5440 5448	insanity
+T90	Argument 5416 5426	not guilty
+T91	Consequence 5520 5532	required for
+E32	Consequence:T91 Effect:T92 Cause:T93
+A47	Degree E32 Facilitate
+T92	Argument 5533 5542	the crime
+T93	Argument 5500 5519	the specific intent
+A48	Obligation-permission E30
+T94	Motivation 6380 6390	because of
+E33	Motivation:T94 Cause:T95 Effect:T96
+A49	Degree E33 Facilitate
+T95	Argument 6391 6405	mental illness
+T96	Argument 6356 6379	under full guardianship
+T97	Consequence 6469 6474	allow
+E34	Consequence:T97 Cause:T98 Effect:T99
+A50	Degree E34 Facilitate
+A51	Obligation-permission E34
+T98	Argument 6462 6468	judges
+T99	Argument 6475 6501	voting in individual cases
+T100	Consequence 6457 6461	lets
+E35	Consequence:T100 Cause:T101 Effect:T102
+A52	Degree E35 Facilitate
+A53	Obligation-permission E35
+T101	Argument 6449 6456	the law
+T102	Argument 6462 6468;6469 6501	judges allow voting in individual cases
+T103	Consequence 6655 6669	prevented from
+E36	Consequence:T103 Effect:T104
+A54	Degree E36 Inhibit
+A55	Obligation-permission E36
+T104	Argument 6643 6645;6670 6676	he voting
+T105	Motivation 6677 6684	because
+E37	Motivation:T105 Cause:T106 Effect:T107
+A56	Degree E37 Facilitate
+T106	Argument 6685 6710	he was under guardianship
+T107	Argument 6643 6676	he had been prevented from voting
+T111	Motivation 6865 6875	because of
+E39	Motivation:T111 Effect:T112 Cause:T113
+A58	Degree E39 Facilitate
+T112	Argument 6846 6864	under guardianship
+T113	Argument 6876 6930	bipolar disorder, Asperger's syndrome and brain injury
+T114	Motivation 6972 6976	when
+E40	Motivation:T114 Cause:T115 Effect:T116
+A59	Degree E40 Facilitate
+A60	Temporal E40
+T115	Argument 6977 7004	he turned 18 last September
+T116	Argument 6833 6971	Peters, Mo., under guardianship because of bipolar disorder, Asperger's syndrome and brain injury, registered to vote and researched races
+T120	Consequence 7146 7153	because
+E42	Consequence:T120 Cause:T121 Effect:T122
+A62	Degree E42 Facilitate
+T121	Argument 7154 7197	he had been declared mentally incapacitated
+T122	Argument 7128 7145	he could not vote
+T123	Note 7401 7403	as
+#1	AnnotatorNotes T123	Having-a-role relationship
+T124	Consequence 7587 7595;7603 7605	allowing to
+E43	Consequence:T124 Cause:T125 Effect:T126
+A63	Degree E43 Facilitate
+A64	Obligation-permission E43
+T125	Argument 7561 7585	The 2001 ruling in Maine
+T126	Argument 7606 7610	vote
+T127	Consequence 7645 7651	effect
+E44	Consequence:T127 Cause:T128
+A65	Degree E44 Facilitate
+T128	Argument 7655 7661	voting
+T129	Motivation 7611 7613	if
+E45	Motivation:T129 Effect:T130 Cause:T131
+A66	Degree E45 Facilitate
+T130	Argument 7587 7610	allowing people to vote
+A67	Hypothetical E45
+T131	Argument 7614 7685	they understood the nature and effect of voting and could make a choice
+T132	NonCausal 7811 7819;7829 7831	requires to
+E46	NonCausal:T132 Arg1:T134 Arg0:T176
+A68	Obligation-permission E46
+T133	Argument 7793 7805	any standard
+T134	Argument 7820 7828;7832 7877	a person have a grasp of what the process is all about
+T135	Motivation 8281 8285	when
+E47	Motivation:T135 Cause:T136 Effect:T137
+T136	Argument 8286 8300	you go to vote
+T137	Argument 8268 8280	asked of you
+A71	Degree E47 Facilitate
+T138	Consequence 8419 8422	Why
+E48	Consequence:T138 Effect:T139
+A72	Degree E48 Facilitate
+T139	Argument 8423 8542	should your next-door neighbor be given a greater barrier to voting than you just because they have a medical diagnosis
+T140	Motivation 8505 8512	because
+E49	Motivation:T140 Effect:T141 Cause:T142
+A73	Degree E49 Facilitate
+T141	Argument 8423 8499	should your next-door neighbor be given a greater barrier to voting than you
+T142	Argument 8513 8542	they have a medical diagnosis
+T146	NonCausal 8675 8682;8700 8702	require to
+E51	NonCausal:T146 Arg0:T147 Arg1:T148
+A76	Obligation-permission E51
+T147	Argument 8666 8668	We
+T148	Argument 8683 8699;8703 8768	local registrars determine if they think the person understands the voting process
+T169	Motivation 1651 1657;1668 1670	compel to
+E52	Motivation:T169 Cause:T170 Effect:T171
+A77	Degree E52 Facilitate
+T170	Argument 1646 1650	that
+T171	Argument 1658 1667;1671 1687	officials clarify old laws
+T172	Argument 1631 1645	specific cases
+R1	Coref Arg1:T170 Arg2:T172
+A78	Obligation-permission E52
+A79	Obligation-permission E17
+T173	Motivation 5925 5929	when
+E53	Motivation:T173 Cause:T174 Effect:T175
+A80	Degree E53 Facilitate
+T174	Argument 5930 5938	possible
+T175	Argument 5894 5924	the hospital encouraged voting
+T176	Argument 7806 7810	that
+R2	Coref Arg1:T176 Arg2:T133
+T34	Consequence 2253 2257	make
+E13	Consequence:T34 Cause:T35 Effect:T36
+A19	Degree E13 Facilitate
+T40	NonCausal 2433 2443;2474 2476	forbidding to
+E15	NonCausal:T40 Arg0:T41 Arg1:T42
+A21	Obligation-permission E15
+T41	Argument 2424 2432	language
+T42	Argument 2444 2473;2477 2481	an ``idiot or insane person'' vote
+T69	Argument 3707 3713	voting
+A69	Context E53
+A70	Temporal E47
+A8	Obligation-permission E7
+#2	AnnotatorNotes E7	Obligation/permission is debatable – clearly the intent here, but not conventionalized to mean this.
+A10	Obligation-permission E23
+A33	Obligation-permission E32

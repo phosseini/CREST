@@ -1,0 +1,320 @@
+T1	Organism 40 55	M. tuberculosis
+T2	Organism 109 126	tubercle bacillus
+T3	Organism 217 232	M. tuberculosis
+T4	Chemical 271 283	nitric oxide
+T5	Chemical 285 287	NO
+T6	Organism 363 370	bacilli
+T7	Two-component-system 508 517	DosR-DosS
+T8	Protein 508 512	DosR
+T9	Protein 513 517	DosS
+T10	Protein 620 624	DosS
+T11	Protein 691 695	DosT
+T12	Protein 766 770	DosR
+T13	Chemical 790 792	O2
+T14	Chemical 794 796	NO
+T15	Chemical 802 804	CO
+T16	Protein 1019 1023	dosR
+T17	Organism 1043 1058	M. tuberculosis
+T18	Organism 1377 1392	M. tuberculosis
+T19	Organism 1433 1448	M. tuberculosis
+T20	Organism 1516 1531	M. tuberculosis
+T21	Protein 1536 1542	rv2623
+T22	Organism 1623 1630	bacilli
+T23	Protein 1718 1724	rv2623
+T24	Organism 1768 1785	tubercle bacillus
+T25	Organism 1805 1810	human
+T26	Organism 1815 1820	mouse
+T27	Organism 1870 1874	mice
+T28	Organism 1891 1906	M. tuberculosis
+T29	Protein 1979 1985	rv2623
+T30	Protein 2049 2055	Rv2623
+T31	Protein 2137 2143	Rv2623
+T32	Protein 2208 2212	DosR
+T33	Protein 2303 2309	Rv2623
+T34	Chemical 2320 2326	oxygen
+T35	Protein 2415 2421	rv2623
+T36	Protein 2496 2502	Rv2623
+T37	Organism 2526 2541	M. tuberculosis
+T38	Organism 2944 2959	M. tuberculosis
+T39	Protein 3117 3121	DosR
+T40	Protein 3200 3204	DosR
+T41	Organism 3260 3275	M. tuberculosis
+T42	Organism 3363 3378	M. tuberculosis
+T43	Protein 3398 3402	DosR
+T44	Protein 3526 3542	alpha-crystallin
+T45	Organism 3554 3569	M. tuberculosis
+T46	Protein 3570 3574	hspX
+T47	Protein 3576 3579	acr
+T48	Organism 3643 3655	BALB/c mouse
+T49	Organism 3709 3731	rv2623 knockout mutant
+T50	Protein 3709 3715	rv2623
+T51	Organism 3744 3766	M. tuberculosis Erdman
+T52	Protein 4016 4022	Rv2623
+T53	Protein 4127 4133	Rv2623
+T54	Organism 4229 4244	M. tuberculosis
+T55	Protein 4249 4255	Rv2623
+T56	Protein 4418 4422	HspX
+T57	Protein 4525 4529	LacZ
+T58	Chemical 4985 4988	ATP
+T59	Chemical 5180 5183	ATP
+T60	Protein 5192 5196	UspA
+T61	Organism 5206 5219	H. influenzae
+T62	Chemical 5242 5245	ATP
+T63	Protein 5259 5265	MJ0577
+T64	Organism 5267 5280	M. jannaschii
+T65	Chemical 5391 5394	ATP
+T66	Chemical 5475 5478	ATP
+T67	Chemical 5636 5639	ATP
+T68	Chemical 5811 5814	ATP
+T69	Chemical 5851 5854	ATP
+T70	Protein 5863 5867	UspA
+T71	Chemical 6009 6012	ATP
+T72	Protein 6107 6113	Rv2623
+T73	Chemical 6147 6150	ATP
+T74	Chemical 6190 6193	ATP
+T75	Organism 6318 6333	M. tuberculosis
+T76	Protein 6334 6340	Rv2623
+T77	Organism 6383 6390	E. coli
+T78	Protein 6406 6412	Rv2623
+T79	Chemical 6444 6447	ATP
+T80	Chemical 6452 6455	ADP
+T81	Protein 6495 6501	Rv2623
+T82	Chemical 6582 6585	ATP
+T83	Chemical 6826 6829	ATP
+T84	Protein 6932 6938	Rv2623
+T85	Protein 7113 7119	Rv2623
+T86	Chemical 7138 7141	ATP
+T87	Organism 7230 7245	M. tuberculosis
+T88	Protein 7250 7256	Rv2623
+T89	Organism 7361 7372	Deltarv2623
+T90	Protein 7366 7372	rv2623
+T91	Organism 7534 7549	M. tuberculosis
+T92	Protein 7550 7556	Rv2623
+T93	Organism 7695 7711	tubercle bacilli
+T94	Protein 7839 7845	Rv2623
+T95	Organism 7926 7931	human
+T96	Protein 8055 8061	Rv2623
+T97	Chemical 8087 8090	ATP
+T98	Chemical 8165 8168	ATP
+T99	Protein 8191 8197	Rv2623
+T100	Organism 8288 8301	M. jannaschii
+T101	Protein 8303 8309	MJ0577
+T102	Chemical 8338 8341	ATP
+T103	Chemical 8516 8519	GTP
+T104	Organism 8634 8641	E. coli
+T105	Protein 8652 8658	Rv2623
+T106	Chemical 8676 8679	ADP
+T107	Chemical 8691 8694	ATP
+T108	Protein 8754 8760	MJ0577
+T109	Chemical 8776 8779	ATP
+T110	Organism 8825 8840	M. tuberculosis
+T111	Protein 8841 8847	Rv2623
+T112	Chemical 8969 8972	ATP
+T113	Chemical 8994 8997	ATP
+T114	Chemical 9125 9128	ATP
+T115	Protein 9153 9159	Rv2623
+T116	Protein 9213 9217	DosR
+T117	Protein 9262 9266	DosR
+T118	Organism 9433 9448	M. tuberculosis
+T119	Chemical 9686 9689	ATP
+T120	Chemical 9734 9737	ATP
+T121	Protein 9741 9747	Rv2623
+T122	Organism 9757 9772	M. tuberculosis
+*	Equiv T4 T5
+*	Equiv T46 T47
+T123	Regulation 757 765	regulate
+T124	Regulation 809 817	modulate
+T125	Binding 856 867	interaction
+T126	Process 1311 1320	virulence
+T127	Positive_regulation 1580 1587	induced
+T128	Positive_regulation 1746 1758	up-regulated
+T129	Process 1907 1916	infection
+T130	Positive_regulation 1966 1975	induction
+T131	Gene_expression 2056 2066	expression
+T132	Regulation 2070 2079	regulated
+T133	Positive_regulation 2290 2299	induction
+T134	Negative_regulation 3122 3132	deficiency
+T135	Regulation 3142 3152	associated
+T136	Process 3160 3174	hypervirulence
+T137	Negative_regulation 3205 3215	deficiency
+T138	Regulation 3250 3256	effect
+T139	Process 3276 3285	virulence
+T140	Process 3379 3388	virulence
+T141	Process 3623 3637	hypervirulence
+T142	Process 3735 3743	virulent
+T143	Process 3807 3816	infection
+T144	Process 3831 3844	hypervirulent
+T145	Gene_expression 4109 4123	overexpression
+T146	Process 4367 4376	infection
+T147	Gene_expression 4400 4414	overexpression
+T148	Gene_expression 4530 4544	overexpressing
+T149	Binding 4980 4984	bind
+T150	Binding 5184 5191	binding
+T151	Binding 5246 5253	binding
+T152	Binding 5855 5862	binding
+T153	Binding 6013 6020	binding
+T154	Binding 6194 6201	binding
+E1	Regulation:T123 Theme:T12 Cause:T10
+E2	Regulation:T123 Theme:T12 Cause:T11
+E3	Regulation:T124 Theme:T11 Cause:E12
+E4	Regulation:T124 Theme:T10 Cause:E10
+E5	Regulation:T124 Theme:T10 Cause:E11
+E6	Regulation:T124 Theme:T11 Cause:E13
+E7	Regulation:T124 Theme:T11 Cause:E14
+E8	Regulation:T124 Theme:T10 Cause:E9
+E9	Binding:T125 Theme1:T10 Theme2:T13
+E10	Binding:T125 Theme1:T10 Theme2:T14
+E11	Binding:T125 Theme1:T10 Theme2:T15
+E12	Binding:T125 Theme1:T11 Theme2:T13
+E13	Binding:T125 Theme1:T11 Theme2:T14
+E14	Binding:T125 Theme1:T11 Theme2:T15
+E15	Process:T126 Participant:T18
+E16	Positive_regulation:T127 Theme:T21
+E17	Positive_regulation:T128 Theme:T23
+E18	Process:T129 Participant:T28
+E19	Positive_regulation:T130 Theme:T29
+E20	Gene_expression:T131 Theme:T30
+E21	Regulation:T132 Theme:E20
+E22	Positive_regulation:T133 Theme:T33
+E23	Negative_regulation:T134 Theme:T39
+E24	Regulation:T135 Theme:E25 Cause:E23
+E25	Process:T136 
+E26	Negative_regulation:T137 Theme:T40
+E27	Regulation:T138 Theme:E28 Cause:E26
+M1	Negation E27
+E28	Process:T139 Participant:T41
+E29	Process:T140 Participant:T42
+E30	Process:T141 
+E31	Process:T142 Participant:T51
+E32	Process:T143 Participant:T51
+E33	Process:T144 
+E34	Gene_expression:T145 Theme:T53
+E35	Process:T146 Participant:T54
+E36	Gene_expression:T147 Theme:T56
+E37	Gene_expression:T148 Theme:T57
+E38	Binding:T149 Theme:T58
+M2	Negation E38
+E39	Binding:T150 Theme:T59
+M3	Negation E39
+E40	Binding:T151 Theme1:T62 Theme2:T63
+E41	Binding:T152 Theme:T69
+M4	Negation E41
+E42	Binding:T153 Theme:T71
+E43	Binding:T154 Theme1:T74 Theme2:T72
+M5	Speculation E43
+T155	Span 548 851	Indeed, it has been shown that both the cognate sensor histidine kinase DosS (a member of the dormancy regulon) as well as an "orphan" kinase, DosT, functioning as redox and hypoxia sensors, respectively; can regulate DosR activity, and that O2, NO, and CO can modulate the activity of these two kinases
+T156	Causality 852 855	via
+E44	Causality:T156 Evidence:T157 Effect:T155
+T157	Span 856 896	interaction with a haem prosthetic group
+T158	Span 923 1058	The biological significance of the dormancy regulon has been underscored by in vitro studies of dosR mutants of BCG and M. tuberculosis
+T159	Causality 1060 1078	which demonstrated
+E45	Causality:T159 Effect:T160 Evidence:T158
+T160	Span 1079 1161	the requirement of this transcription factor for survival under hypoxic conditions
+T161	Span 1181 1245	upregulation of the expression of certain dormancy regulon genes
+T162	Causality 1246 1266	have been implicated
+E46	Causality:T162 Effect:T163 Evidence:T161
+T163	Span 1267 1392	in tuberculosis transmission as well as the virulence of the epidemiologically important W-Beijing lineage of M. tuberculosis
+T164	Span 1702 1916	More important, rv2623 was also shown to be up-regulated when the tubercle bacillus is internalized by human and mouse macrophages [10],[38] as well as in the lungs of mice with persistent M. tuberculosis infection
+T165	Causality 1923 1961	These latter observations suggest that
+E47	Causality:T165 Effect:T166 Evidence:T164
+T166	Span 1962 2015	the induction of rv2623 may have biological relevance
+T167	Span 2102 2338	Recent transcriptional analysis of Rv2623, while confirming the essentiality of the two 18 bp palindromic DosR-binding motifs that are present in the promoter region of this gene [38] for induction of Rv2623 under low oxygen conditions,
+T168	Causality 2339 2356	also demonstrated
+E48	Causality:T168 Effect:T169 Evidence:T167
+T169	Span 2357 2444	the presence of additional regulatory elements within the rv2623 5'-untranslated region
+T170	Span 2102 2444	Recent transcriptional analysis of Rv2623, while confirming the essentiality of the two 18 bp palindromic DosR-binding motifs that are present in the promoter region of this gene [38] for induction of Rv2623 under low oxygen conditions, also demonstrated the presence of additional regulatory elements within the rv2623 5'-untranslated region
+T171	Causality 2451 2477	These results suggest that
+E49	Causality:T171 Effect:T172 Evidence:T170
+T172	Span 2478 2520	the regulation of Rv2623 is likely complex
+T173	Span 2522 2610	The M. tuberculosis dormancy response features a dramatic decrease in metabolic activity
+T174	Causality 2612 2624	resulting in
+E50	Causality:T174 Effect:T175 Evidence:T173
+T175	Span 2625 2666	a rapid decrease in bacterial replication
+T176	Span 2522 2666	The M. tuberculosis dormancy response features a dramatic decrease in metabolic activity, resulting in a rapid decrease in bacterial replication
+T177	Causality 2673 2703	Therefore, it is possible that
+E51	Causality:T177 Effect:T178 Evidence:T176
+T178	Span 2704 2853	deficiency in certain members of the dormancy regulon could result in inability of the tubercle bacillus to enter a latent state in the infected host
+T179	Causality 2855 2865	leading to
+E52	Causality:T179 Effect:T180 Evidence:T178
+T180	Span 2866 2885	unrestrained growth
+T181	Causality 2886 2894	and thus
+E53	Causality:T181 Evidence:T180 Effect:T182
+T182	Span 2896 2910	hypervirulence
+T183	Span 3490 3580	Insufficiency of the chaperone-like alpha-crystallin encoded by M. tuberculosis hspX (acr)
+T184	Causality 3581 3622	has also been shown to be associated with
+E54	Causality:T184 Effect:T185 Evidence:T183
+T185	Span 3623 3677	hypervirulence in a BALB/c mouse model of tuberculosis
+T186	Span 3684 3875	In the present study, an rv2623 knockout mutant of virulent M. tuberculosis Erdman fails to establish a chronic persistent infection, displaying a hypervirulent phenotype in susceptible hosts
+T187	Causality 3818 3828	displaying
+# E55	Causality:T187
+T188	Causality 3877 3891	as assessed by
+E56	Causality:T188 Evidence:T189 Effect:T186
+T189	Span 3892 3944	lung bacterial burden, histopathology, and mortality
+T190	Span 3946 3984	Results of the complementation studies
+T191	Causality 3985 3998	indicate that
+E57	Causality:T191 Effect:T192 Evidence:T190
+T192	Span 3999 4031	the phenotype is Rv2623-specific
+T193	Span 4033 4133	This growth-regulating phenomenon is echoed by the observation that ectopic overexpression of Rv2623
+T194	Causality 4134 4144	results in
+E58	Causality:T194 Effect:T195 Evidence:T193
+T195	Span 4145 4180	attenuation of mycobacterial growth
+T196	Span 4378 4553	Intriguingly, ectopic overexpression of HspX by the same means employed by our study also resulted in an attenuated growth phenotype compared with LacZ-overexpressing controls
+T197	Causality 4560 4575	suggesting that
+E59	Causality:T197 Effect:T198 Evidence:T196
+T198	Span 4576 4683	these two tightly co-regulated "stress" proteins might have similar growth-regulatory roles during dormancy
+T199	Span 4685 4724	Bioinformatic and experimental evidence
+T200	Causality 4725 4737	suggest that
+E60	Causality:T200 Effect:T201 Evidence:T199
+T201	Span 4738 4857	nucleotide-binding capacity represents a discriminating biochemical feature that facilitates USP protein classification
+T202	Span 5094 5294	A structural comparison between the prototypic members of the two subclasses, the non-ATP-binding UspA homolog (H. influenzae, PDB ID 1JMV) and the ATP-binding USP, MJ0577 (M. jannaschii, PDB ID 1MJH)
+T203	Causality 5295 5308	revealed that
+E61	Causality:T203 Effect:T204 Evidence:T202
+T204	Span 5309 5504	while both proteins exhibit a similar fold, conserved glycine residues within the ATP-binding loop of the latter are substituted with bulky amino acids that preclude ATP recognition in the former
+T205	Span 6861 7046	given that the attenuated growth phenotype caused by overexpression of Rv2623 could be abrogated by mutations that interfere with the binding of this protein to its nucleotide substrate
+T206	Causality 7048 7065	it is likely that
+E62	Causality:T206 Effect:T207 Evidence:T205
+T207	Span 7066 7160	the mycobacterial growth-regulatory faculty of Rv2623 is mediated by an ATP-dependent function
+T208	Span 7174 7305	the results of the present study have revealed that the M. tuberculosis USP Rv2623 has the ability to regulate mycobacterial growth
+T209	Causality 7307 7320	as evident by
+E63	Causality:T209 Effect:T210 Evidence:T208
+T210	Span 7321 7526	the in vivo hypervirulence phenotype of Deltarv2623, which fails to establish a persistent infection in susceptible hosts, as well as the growth attenuation observed in mycobacteria overexpressing this USP
+T211	Span 7175 7526	he results of the present study have revealed that the M. tuberculosis USP Rv2623 has the ability to regulate mycobacterial growth, as evident by the in vivo hypervirulence phenotype of Deltarv2623, which fails to establish a persistent infection in susceptible hosts, as well as the growth attenuation observed in mycobacteria overexpressing this USP
+T212	Causality 7528 7532	Thus
+E64	Causality:T212 Effect:T213 Evidence:T211
+T213	Span 7534 7630	M. tuberculosis Rv2623 may serve the function of promoting mycobacterial transition into latency
+T214	Span 7632 7731	The latent state allows persistence in infected individuals of tubercle bacilli that can reactivate
+T215	Causality 7732 7740	to cause
+E65	Causality:T215 Effect:T216 Evidence:T214
+T216	Span 7741 7824	active disease and to disseminate when the immune status of the host is compromised
+T217	Span 7632 7824	The latent state allows persistence in infected individuals of tubercle bacilli that can reactivate to cause active disease and to disseminate when the immune status of the host is compromised
+T218	Causality 7826 7837	As a result
+E66	Causality:T218 Effect:T219 Evidence:T217
+T219	Span 7839 7985	Rv2623 may contribute significantly to the propagation of the tubercle bacillus in the human host and the difficulties in eradicating tuberculosis
+T220	Span 8004 8038	results of the mutagenesis studies
+T221	Causality 8039 8054	have shown that
+E67	Causality:T221 Effect:T222 Evidence:T220
+T222	Span 8055 8109	Rv2623 regulates growth through ATP-dependent function
+T223	Causality 8232 8257	It has been proposed that
+E68	Causality:T223 Evidence:T224 Effect:T225
+T224	Span 8258 8437	a nucleotide-binding USP from M. jannaschii, MJ0577, whose ability to hydrolyze ATP is dependent on interaction with factor(s) present in the cell extract of this hyperthermophile
+T225	Span 8444 8508	functions as a molecular switch much like the Ras protein family
+T226	Span 8620 8694	The fact that E. coli-expressed Rv2623 co-purifies with ADP as well as ATP
+T227	Causality 8695 8724	suggests the possibility that
+E69	Causality:T227 Effect:T228 Evidence:T226
+T228	Span 8725 8790	this mycobacterial USP, like MJ0577, is capable of ATP hydrolysis
+T229	Causality 8792 8824	It is therefore conceivable that
+E70	Causality:T229 Effect:T230 Evidence:T231
+T230	Span 8825 8951	M. tuberculosis Rv2623, as a component of the yet-to-be defined dormancy signaling pathway(s), functions as a molecular switch
+T231	Span 8952 9073	by virtue of its ATP-binding and putative ATP-hydrolyzing properties, to mediate the establishment of tuberculous latency
+T232	Span 9410 9578	the demonstration that M. tuberculosis redox and hypoxia sensors can interact with multiple ligands that differentially modulate the activity of these important kinases
+T233	Span 9184 9244	Recent identification of the DosR-dependent dormancy regulon
+T234	Span 9258 9399	the DosR-independent enduring hypoxic response, which involves over 200 mycobacterial genes, including those known to regulate bacteriostasis
+T235	Causality 9605 9612	predict
+E71	Causality:T235 Effect:T236 Evidence:T233
+T236	Span 9613 9665	a complex regulatory network for tuberculous latency
+E72	Causality:T235 Effect:T236 Evidence:T234
+E73	Causality:T235 Effect:T236 Evidence:T232
+T237	Span 9667 9800	Elucidation of how ATP-binding and, potentially, the hydrolysis of ATP by Rv2623 regulate M. tuberculosis dormancy-signaling pathways
+T238	Causality 9801 9823	will likely illuminate
+E74	Causality:T238 Effect:T239 Evidence:T237
+T239	Span 9824 9893	the mechanisms by which the tubercle bacillus establishes persistence

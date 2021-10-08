@@ -1,0 +1,222 @@
+141 "Put <e1>wine</e1> in the <e2>refrigerator</e2> the night before so it gets thoroughly chilled."
+WordNet(e1) = "wine%1:07:00::", WordNet(e2) = "refrigerator%1:06:00::", Content-Container(e1, e2) = "?", Query = "put wine in the"
+
+142 "A high voltage coupling capacitor should be added at the input as well as a small <e1>hole</e1> in the <e2>metal box</e2> in order to provide screwdriver adjustment to the gain control potentiometer."
+WordNet(e1) = "hole%1:06:00::", WordNet(e2) = "box%1:06:00::", Content-Container(e1, e2) = "?", Query = "in the metal box"
+
+143 "I retain all exams and therefore, all <e1>exams</e1> will be collected at the end of the debriefing period and kept in my <e2>office</e2>."
+WordNet(e1) = "exam%1:10:00::", WordNet(e2) = "office%1:06:00::", Content-Container(e1, e2) = "?", Query = "kept in my office"
+
+144 "Ribozymes, also known as catalytic RNA and molecular scissors, are molecules that can break down <e1>nucleic acid</e1> inside a <e2>cell</e2>, thus they can be used to cut out bad genetic information and splice in good material."
+WordNet(e1) = "nucleic_acid%1:27:00::", WordNet(e2) = "cell%1:03:00::", Content-Container(e1, e2) = "?", Query = "acid inside a"
+
+145 "Place a <e1>clock</e1> inside a <e2>gravity sphere</e2> to see time dilation."
+WordNet(e1) = "clock%1:06:00::", WordNet(e2) = "sphere%1:15:01::", Content-Container(e1, e2) = "?", Query = "a clock inside a"
+
+146 "Doyal said the <e1>bulldozer</e1> is kept in the <e2>area</e2> and is suspected of being used to create makeshift paths across the river."
+WordNet(e1) = "bulldozer%1:06:00::", WordNet(e2) = "area%1:15:01::", Content-Container(e1, e2) = "?", Query = "the * is kept in the"
+
+147 "The contents of the <e1>binder</e1> included <e2>handouts</e2> on lectures, lab. exercises, assignments, as well as production information of use to the participants."
+WordNet(e1) = "binder%1:06:01::", WordNet(e2) = "handout%1:10:00::", Content-Container(e2, e1) = "?", Query = "contents of the * included"
+
+148 "Reportedly the <e1>mood</e1> inside the <e2>car</e2> was very quiet as the couple continued home and went to bed."
+WordNet(e1) = "mood%1:12:00::", WordNet(e2) = "car%1:06:00::", Content-Container(e1, e2) = "?", Query = "the * inside the car"
+
+149 "For example, instead of walking on a leash, rabbits and <e1>cats</e1> must show that they can be carried in a <e2>basket</e2> or in the handler's arms."
+WordNet(e1) = "cat%1:05:00::", WordNet(e2) = "basket%1:06:00::", Content-Container(e1, e2) = "?", Query = "carried in a"
+
+150 "First, the contents of the <e1>proposal</e1> included a detailed <e2>cost analysis</e2>, accurate marketing analysis and a preliminary project execution plan."
+WordNet(e1) = "proposal%1:10:00::", WordNet(e2) = "cost_analysis%1:04:00::", Content-Container(e2, e1) = "?", Query = "contents of the * included"
+
+151 "Auto EQ is a powerful sound tuning feature which uses a microphone to monitor and analyse the <e1>acoustics</e1> inside the <e2>car</e2>."
+WordNet(e1) = "acoustics%1:09:00::", WordNet(e2) = "car%1:06:00::", Content-Container(e1, e2) = "?", Query = "the * inside the car"
+
+152 "This was the signal for dozens of others to do the same and the <e1>noise</e1> inside the <e2>car</e2> was quite something."
+WordNet(e1) = "noise%1:11:00::", WordNet(e2) = "car%1:06:00::", Content-Container(e1, e2) = "?", Query = "the * inside the car"
+
+153 "<e1>Dancing</e1> to The Muppets in my <e2>kitchen</e2> is something that I do frequently."
+WordNet(e1) = "dancing%1:04:00::", WordNet(e2) = "kitchen%1:06:00::", Content-Container(e1, e2) = "?", Query = "the * in my kitchen"
+
+154 "The <e1>implant</e1> contains <e2>nanoparticles</e2> that can be designed to test for different substances, including metabolites such as glucose and oxygen that are associated with tumor growth."
+WordNet(e1) = "implant%1:06:00::", WordNet(e2) = "particle%1:17:00::", Content-Container(e2, e1) = "?", Query = "the * contains"
+
+155 "Bottle aging, which is anaerobic (oxygen-free), is one of the reasons that people put <e1>wine</e1> in a <e2>cellar</e2> and let it age."
+WordNet(e1) = "wine%1:07:00::", WordNet(e2) = "cellar%1:06:01::", Content-Container(e1, e2) = "?", Query = "put wine in a"
+
+156 "The <e1>envelope</e1> contained the most important intelligence <e2>discovery</e2> of the war."
+WordNet(e1) = "envelope%1:06:01::", WordNet(e2) = "discovery%1:10:00::", Content-Container(e2, e1) = "?", Query = "the * contained the"
+
+157 "Your <e1>medicines</e1> will be kept secure in the <e2>metal box</e2> at the back of your bed space."
+WordNet(e1) = "medicine%1:06:00::", WordNet(e2) = "box%1:06:00::", Content-Container(e1, e2) = "?", Query = "in the metal box"
+
+158 "Japanese commuters look at a <e1>clock</e1> inside a Tokyo <e2>train station</e2>."
+WordNet(e1) = "clock%1:06:00::", WordNet(e2) = "train_station%1:06:00::", Content-Container(e1, e2) = "?", Query = "a clock inside a"
+
+159 "It could also make the drive more comfortable by intelligently seeking out what the <e1>passengers</e1> inside the <e2>car</e2> would prefer in terms of temperature, music, lighting etc."
+WordNet(e1) = "passenger%1:18:00::", WordNet(e2) = "car%1:06:00::", Content-Container(e1, e2) = "?", Query = "the * inside the car"
+
+160 "The <e1>box</e1> holds our <e2>pool equipment</e2> perfectly."
+WordNet(e1) = "box%1:06:00::", WordNet(e2) = "equipment%1:06:00::", Content-Container(e2, e1) = "?", Query = "the box holds"
+
+161 "The contents of the <e1>package</e1> included one opened individual <e2>candy bar wrapper</e2>, four unopened candy bar wrappers, one cardboard tray insert, and two cash register receipts."
+WordNet(e1) = "package%1:06:00::", WordNet(e2) = "wrapper%1:06:02::", Content-Container(e2, e1) = "?", Query = "contents of the * included"
+
+162 "The <e1>worms</e1> are kept in a <e2>box</e2> with bedding made from such materials as straw, grass clippings, or shredded paper."
+WordNet(e1) = "worm%1:05:00::", WordNet(e2) = "box%1:06:00::", Content-Container(e1, e2) = "?", Query = "kept in a box"
+
+163 "Once you put <e1>wine</e1> in a <e2>bottle</e2>, you literally create a time capsule of flavor and fragrance."
+WordNet(e1) = "wine%1:13:00::", WordNet(e2) = "bottle%1:06:00::", Content-Container(e1, e2) = "?", Query = "put wine in a"
+
+164 "The older child took the <e1>firearm</e1> from a <e2>closet</e2> and was handling it when he fired and struck Eric, who was in the same room, investigators concluded."
+WordNet(e1) = "firearm%1:06:00::", WordNet(e2) = "closet%1:06:03::", Content-Container(e1, e2) = "?", Query = "took the * from a"
+
+165 "That's all <e1>paper</e1> stored in a <e2>binder</e2> by the door of the room."
+WordNet(e1) = "paper%1:27:00::", WordNet(e2) = "binder%1:06:01::", Content-Container(e1, e2) = "?", Query = "paper stored in a"
+
+166 "The <e1>kitchen</e1> holds little <e2>clues</e2> about how we tried to reinvent the past."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "clue%1:10:01::", Content-Container(e2, e1) = "?", Query = "the kitchen holds"
+
+167 "The <e1>kitchen</e1> contained a <e2>well</e2> at the northern end and a well and two holding areas for live fish on the southern end."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "well%1:06:02::", Content-Container(e2, e1) = "?", Query = "the kitchen contained"
+
+168 "One in four Americans keep <e1>coins</e1> in a <e2>jar</e2>."
+WordNet(e1) = "coin%1:21:02::", WordNet(e2) = "jar%1:06:00::", Content-Container(e1, e2) = "?", Query = "keep coins in a"
+
+169 "A lineup is when the police literally put the <e1>defendant</e1> in a <e2>line</e2> with other people to see if the victim or witness can identify anyone in the line as having participated in a crime."
+WordNet(e1) = "defendant%1:18:00::", WordNet(e2) = "line%1:14:03::", Content-Container(e1, e2) = "?", Query = "put the * in a"
+
+170 "If you currently have <e1>batteries</e1> stored in a <e2>refrigerator</e2>, be sure to allow them to warm up to room temperature before using them in your device."
+WordNet(e1) = "battery%1:06:00::", WordNet(e2) = "refrigerator%1:06:00::", Content-Container(e1, e2) = "?", Query = "batteries stored in"
+
+171 "The <e1>box</e1> contained 126 <e2>recipes</e2>, mostly written in pen in neatly rounded script."
+WordNet(e1) = "box%1:06:00::", WordNet(e2) = "recipe%1:10:00::", Content-Container(e2, e1) = "?", Query = "the box contained"
+
+172 "The <e1>ghosts</e1> in my <e2>house</e2> are mischievous, like little children."
+WordNet(e1) = "ghost%1:09:00::", WordNet(e2) = "house%1:06:00::", Content-Container(e1, e2) = "?", Query = "the * in my house"
+
+173 "The <e1>kitchen</e1> holds many <e2>opportunities</e2> for teaching kids as well as having fun."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "opportunity%1:26:00::", Content-Container(e2, e1) = "?", Query = "the kitchen holds"
+
+174 "The <e1>box</e1> contained an entire <e2>legacy</e2> of her life and the lives of those she had known and loved."
+WordNet(e1) = "box%1:06:00::", WordNet(e2) = "legacy%1:21:00::", Content-Container(e2, e1) = "?", Query = "the box contained"
+
+175 "The <e1>list</e1> contained <e2>books</e2> of various genres and reading and interest levels."
+WordNet(e1) = "list%1:10:00::", WordNet(e2) = "book%1:10:00::", Content-Container(e2, e1) = "?", Query = "the * contained books"
+
+176 "The <e1>box</e1> holds the <e2>answer</e2> to how you got trapped."
+WordNet(e1) = "box%1:06:00::", WordNet(e2) = "answer%1:10:02::", Content-Container(e2, e1) = "?", Query = "the box holds"
+
+177 "The contents of the <e1>envelope</e1> were a sheet of foreign <e2>note-paper</e2>, and a folded enclosure."
+WordNet(e1) = "envelope%1:06:01::", WordNet(e2) = "notepaper%1:10:00::", Content-Container(e2, e1) = "?", Query = "contents of the * were a"
+
+178 "Francis Hauksbee proves that sound needs air to travel, by experiments with a <e1>clock</e1> inside a <e2>vacuum</e2>."
+WordNet(e1) = "clock%1:06:00::", WordNet(e2) = "vacuum%1:26:00::", Content-Container(e1, e2) = "?", Query = "a clock inside a"
+
+179 "The <e1>recommendations</e1> contained the following <e2>key points</e2> and highlights."
+WordNet(e1) = "recommendation%1:10:00::", WordNet(e2) = "point%1:10:03::", Content-Container(e2, e1) = "?", Query = "the * contained the"
+
+180 "The remaining contents of the <e1>package</e1> included four ounces of <e2>plastique</e2> filled with tiny metallic slivers."
+WordNet(e1) = "package%1:06:00::", WordNet(e2) = "plastique%1:06:00::", Content-Container(e2, e1) = "?", Query = "contents of the * included"
+
+181 "To ensure adequate nutrition, your doctor may recommend taking a <e1>multivitamin</e1> that contains <e2>vitamins</e2> D, E, K, and beta-carotene."
+WordNet(e1) = "multivitamin%1:13:00::", WordNet(e2) = "vitamin%1:27:00::", Content-Container(e2, e1) = "?", Query = "a * that contains"
+
+182 "I found some <e1>candy</e1> in my <e2>underwear</e2>."
+WordNet(e1) = "candy%1:13:00::", WordNet(e2) = "underwear%1:06:00::", Content-Container(e1, e2) = "?", Query = "candy in my"
+
+183 "On windy days I can feel drafts coming from the <e1>baseboards</e1> in my <e2>house</e2>."
+WordNet(e1) = "baseboard%1:06:00::", WordNet(e2) = "house%1:06:00::", Content-Container(e1, e2) = "?", Query = "the * in my house"
+
+184 "The <e1>temperature</e1> inside the <e2>car</e2> was 79 degrees, according to the thermometer I put on the dashboard."
+WordNet(e1) = "temperature%1:07:00::", WordNet(e2) = "car%1:06:00::", Content-Container(e1, e2) = "?", Query = "the * inside the car"
+
+185 "As the officer shone his flashlight on the lock he was working on, he spotted a <e1>marijuana pipe</e1> laying on the floor inside the <e2>car</e2>."
+WordNet(e1) = "pipe%1:06:01::", WordNet(e2) = "car%1:06:00::", Content-Container(e1, e2) = "?", Query = "the * inside the car"
+
+186 "Some people put <e1>tea</e1> in a <e2>thermos</e2> to take to work, but I have not tried that."
+WordNet(e1) = "tea%1:13:00::", WordNet(e2) = "thermos%1:06:00::", Content-Container(e1, e2) = "?", Query = "put tea in a"
+
+187 "Located inside the <e1>cave</e1> was an old, broken-down army field <e2>telephone</e2>."
+WordNet(e1) = "cave%1:17:00::", WordNet(e2) = "telephone%1:06:00::", Content-Container(e2, e1) = "?", Query = "located inside the cave"
+
+188 "The goal of the study was to determine the percentage of adult Americans who keep <e1>money</e1> in a regular <e2>savings account</e2>."
+WordNet(e1) = "money%1:21:00::", WordNet(e2) = "savings_account%1:21:00::", Content-Container(e1, e2) = "?", Query = "keep money in a"
+
+189 "Paul Powell wasn't the only public figure in Illinois to keep <e1>money</e1> in a <e2>shoe box</e2>."
+WordNet(e1) = "money%1:21:01::", WordNet(e2) = "box%1:25:00::", Content-Container(e1, e2) = "?", Query = "keep money in a"
+
+190 "As the servants put the <e1>inflatable corgis</e1> in a <e2>bag</e2> for the Balmoral jumble sale, the Queen will be settling down this morning for a nice cup of tea and a quiet rest during The Archers, known to be one of her radio favourites."
+WordNet(e1) = "corgi%1:05:00::", WordNet(e2) = "bag%1:06:00::", Content-Container(e1, e2) = "?", Query = "the * in a bag"
+
+191 "Bevan opens a case on the other side of the room and pulls out a <e1>flask</e1> that contains <e2>ale</e2> of the best sort."
+WordNet(e1) = "flask%1:06:00::", WordNet(e2) = "ale%1:13:00::", Content-Container(e2, e1) = "?", Query = "a flask that contains"
+
+192 "Among the contents of the <e1>bag</e1> were a <e2>diamond ring</e2> worth $2000 and a watch worth $500."
+WordNet(e1) = "bag%1:06:00::", WordNet(e2) = "ring%1:06:00::", Content-Container(e2, e1) = "?", Query = "contents of the * were a"
+
+193 "A <e1>house</e1> that contains a minimum of three <e2>bedrooms</e2> and a maximum of seven bedrooms to include the proprietor's bedroom is considered to be a "B&B" (a Town or Country Home or a Farmhouse)."
+WordNet(e1) = "house%1:06:01::", WordNet(e2) = "bedroom%1:06:00::", Content-Container(e2, e1) = "?", Query = "a house that contains a"
+
+194 "We had a spirited chat about gravy with roast goose; never put <e1>wine</e1> in a <e2>gravy</e2> to go with a British roast, we both agreed."
+WordNet(e1) = "wine%1:07:00::", WordNet(e2) = "gravy%1:13:01::", Content-Container(e1, e2) = "?", Query = "put wine in a"
+
+195 "Forcing our state to change administrative rules that would keep <e1>money</e1> in a <e2>project</e2> instead of bleeding it off is a goal the all tax payers should support."
+WordNet(e1) = "money%1:21:00::", WordNet(e2) = "project%1:09:00::", Content-Container(e1, e2) = "?", Query = "keep money in a"
+
+196 "On the courtyard there is a <e1>room</e1> that contains a <e2>billiard table</e2>, a big cinema screen with a Sony DVC/CD Player with over 300 titles and several sofas."
+WordNet(e1) = "room%1:06:00::", WordNet(e2) = "billiard_table%1:06:00::", Content-Container(e2, e1) = "?", Query = "room that contains"
+
+197 "Put <e1>wine</e1> in a small <e2>pot</e2>, and when it begins to boil, then put in grated Lebkuchen and grated Semmel."
+WordNet(e1) = "wine%1:07:00::", WordNet(e2) = "pot%1:06:00::", Content-Container(e1, e2) = "?", Query = "put wine in a"
+
+198 "Television cooking shows and more advertising have helped put <e1>wine</e1> in the <e2>limelight</e2>, he says."
+WordNet(e1) = "wine%1:07:00::", WordNet(e2) = "limelight%1:26:00::", Content-Container(e1, e2) = "?", Query = "put wine in the"
+
+199 "The other contents of the <e1>suitcase</e1> included some <e2>gym shoes</e2>, dirty sweat socks, Limburger cheese, scented oils, and a severely poop stained Armani suit."
+WordNet(e1) = "suitcase%1:06:00::", WordNet(e2) = "gym_shoe%1:06:00::", Content-Container(e2, e1) = "?", Query = "contents of the * included"
+
+200 "Usually, stomach <e1>acid</e1> is kept in the <e2>stomach</e2> by a valve at the bottom of the esophagus called the lower esophageal sphincter."
+WordNet(e1) = "acid%1:27:00::", WordNet(e2) = "stomach%1:08:01::", Content-Container(e1, e2) = "?", Query = "acid is kept in"
+
+201 "Sometime an undercover agent will actually propose an action, either to deflect efforts away from some graver threat, or to put the <e1>plotters</e1> in a <e2>position</e2> where they can be caught red-handed."
+WordNet(e1) = "plotter%1:18:00::", WordNet(e2) = "position%1:26:02::", Content-Container(e1, e2) = "?", Query = "put the * in a"
+
+202 "When the equipment cannot be kept upright, the <e1>battery</e1> must be removed and carried in a strong, rigid <e2>packaging</e2>, which must be leak-tight and impervious to battery fluid."
+WordNet(e1) = "battery%1:06:00::", WordNet(e2) = "packaging%1:06:00::", Content-Container(e1, e2) = "?", Query = "carried in a"
+
+203 "There remained nothing more to be done but to enclose our <e1>heads</e1> in the <e2>metal box</e2>."
+WordNet(e1) = "head%1:08:00::", WordNet(e2) = "box%1:06:00::", Content-Container(e1, e2) = "?", Query = "in the metal box"
+
+204 "I have absolutely no idea why this <e1>newspaper</e1> was being kept in a <e2>box</e2>."
+WordNet(e1) = "newspaper%1:06:00::", WordNet(e2) = "box%1:06:00::", Content-Container(e1, e2) = "?", Query = "kept in a box"
+
+205 "For example, the <e1>jelly</e1> inside a <e2>doughnut</e2> can be scalding while the pastry is only warm."
+WordNet(e1) = "jelly%1:13:00::", WordNet(e2) = "doughnut%1:13:00::", Content-Container(e1, e2) = "?", Query = "jelly inside a"
+
+206 "The <e1>driver</e1> was trapped inside the <e2>car</e2>, which landed upside down, and died while emergency crews were preparing to transport him to a local hospital, the CHP reports."
+WordNet(e1) = "driver%1:18:00::", WordNet(e2) = "car%1:06:00::", Content-Container(e1, e2) = "?", Query = "the * inside the car"
+
+207 "The acoustic test is where we put the <e1>spacecraft</e1> in a <e2>sound chamber</e2> and blast it with over 140 decibels of noise for at least a full minute to simulate what it is going to experience during the launch."
+WordNet(e1) = "spacecraft%1:06:00::", WordNet(e2) = "chamber%1:06:00::", Content-Container(e1, e2) = "?", Query = "put the * in a"
+
+208 "The reaction <e1>mixture</e1> is kept in the <e2>dark</e2> at room temperature for 1 1/2 hours."
+WordNet(e1) = "mixture%1:27:00::", WordNet(e2) = "dark%1:15:00::", Content-Container(e1, e2) = "?", Query = "the * is kept in the"
+
+209 "Do not use generators, charcoal or gas grills, propane camping stoves or heaters, or any <e1>gas-powered tools</e1> inside the <e2>house</e2> or garage."
+WordNet(e1) = "tool%1:04:00::", WordNet(e2) = "house%1:06:01::", Content-Container(e1, e2) = "?", Query = "inside the house"
+
+210 "In addition, the contents of the bear's <e1>stomach</e1> included <e2>apple mash</e2>, corn and blueberries - which is not a typical bear diet in November."
+WordNet(e1) = "stomach%1:08:00::", WordNet(e2) = "mash%1:13:00::", Content-Container(e2, e1) = "?", Query = "contents of the * included"
+
+211 "In my Vancouver home there is small portion of our <e1>kitchen</e1> that contains my <e2>desk</e2>."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "desk%1:06:00::", Content-Container(e2, e1) = "?", Query = "kitchen that contains"
+
+212 "The <e1>sound system</e1> is contained in a <e2>suitcase</e2> and controlled from within the steering wheel."
+WordNet(e1) = "sound_system%1:06:00::", WordNet(e2) = "suitcase%1:06:00::", Content-Container(e1, e2) = "?", Query = "contained in a suitcase"
+
+213 "They put <e1>wine</e1> in the exact <e2>context</e2> it needs to be kept in - not so bloody serious."
+WordNet(e1) = "wine%1:13:00::", WordNet(e2) = "context%1:26:00::", Content-Container(e1, e2) = "?", Query = "put wine in the"
+
+214 "The <e1>shroud</e1> is kept in the <e2>cathedral</e2> of St. John the Baptist in Turin, Italy."
+WordNet(e1) = "shroud%1:06:00::", WordNet(e2) = "cathedral%1:06:01::", Content-Container(e1, e2) = "?", Query = "the * is kept in the"
+

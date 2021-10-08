@@ -1,0 +1,202 @@
+*	Equiv T2 T3
+*	Equiv T43 T44
+*	Equiv T63 T64
+*	Equiv T65 T66
+T114	Positive_regulation 86 95	essential
+T115	Process 100 109	virulence
+T116	Process 354 363	virulence
+T117	Process 425 434	infection
+T118	Process 740 749	virulence
+T119	Regulation 750 760	associated
+T120	Process 1765 1774	virulence
+T121	Process 2020 2029	virulence
+T122	Process 2546 2555	virulence
+T123	Process 2695 2704	virulence
+T124	Process 2991 3000	virulence
+T125	Process 3502 3511	virulence
+T126	Binding 4778 4786	interact
+T127	Process 5683 5692	infection
+T128	Regulation 5896 5904	involved
+T129	Process 5912 5921	infection
+T130	Process 6035 6044	infection
+E1	Positive_regulation:T114 Theme:E2 Cause:T2
+E2	Process:T115 Participant:T1
+E3	Process:T116 
+E4	Process:T117 Participant:T6
+E5	Process:T118 
+E6	Regulation:T119 Theme:E5 Cause:T10
+E7	Process:T120 Participant:T32
+E8	Process:T121 Participant:T33
+E9	Process:T122 
+E10	Process:T123 Participant:T39
+E11	Process:T123 Participant:T40
+E12	Process:T124 Participant:T41
+E13	Process:T124 Participant:T42
+E14	Process:T125 
+E15	Binding:T126 Theme:T85
+E16	Process:T127 
+E17	Regulation:T128 Theme:E19 Cause:T110
+E18	Regulation:T128 Theme:E19 Cause:T111
+E19	Process:T129 Participant:T112
+E20	Process:T130 Participant:T113
+T1	Organism 29 46	Y. enterocolitica
+T2	Regulon-operon 162 165	ysa
+T3	Regulon-operon 174 185	YE3533-3561
+T4	Protein 174 180	YE3533
+T5	Protein 181 185	3561
+T6	Organism 200 214	P. luminescens
+T7	Organism 294 311	Y. enterocolitica
+T8	Organism 463 472	Y. pestis
+T9	Organism 678 699	Y. pseudotuberculosis
+T10	Protein 775 779	YplA
+T11	Organism 819 836	Y. enterocolitica
+T12	Organism 857 871	P. luminescens
+T13	Organism 877 891	P. luminescens
+T14	Organism 959 976	Y. enterocolitica
+T15	Protein 987 991	LopT
+T16	Organism 1012 1026	P. luminescens
+T17	Organism 1046 1063	Y. enterocolitica
+T18	Organism 1179 1196	Y. enterocolitica
+T19	Chemical 1201 1208	calcium
+T20	Protein 1225 1229	lcrH
+T21	Protein 1231 1235	lcrV
+T22	Protein 1241 1245	lrcD
+T23	Organism 1250 1264	P. luminescens
+T24	Protein 1266 1273	plu3757
+T25	Protein 1275 1282	plu3758
+T26	Protein 1284 1288	sctV
+T27	Organism 1344 1361	Y. enterocolitica
+T28	Organism 1399 1413	P. luminescens
+T29	Organism 1442 1447	human
+T30	Organism 1473 1486	P. luminesens
+T31	Organism 1491 1508	Y. enterocolitica
+T32	Organism 1832 1847	Vibrio cholerae
+T33	Organism 1933 1950	Y. enterocolitica
+T34	Protein 1973 1977	Yts1
+T35	Organism 2033 2037	mice
+T36	Protein 2079 2083	Yts1
+T37	Organism 2095 2109	P. luminescens
+T38	Organism 2235 2252	Y. enterocolitica
+T39	Organism 2708 2723	Vibrio cholerae
+T40	Organism 2744 2766	Pseudomonas aeruginosa
+T41	Organism 2865 2879	P. luminescens
+T42	Organism 2891 2908	Y. enterocolitica
+T43	Protein 3251 3266	phospholipase A
+T44	Protein 3268 3272	YplA
+T45	Protein 3301 3305	YplB
+T46	Organism 3310 3327	Y. enterocolitica
+T47	Protein 3329 3335	YE1005
+T48	Protein 3336 3342	YE1006
+T49	Organism 3370 3384	P. luminescens
+T50	Protein 3386 3393	Plu3370
+T51	Protein 3394 3401	Plu3369
+T52	Protein 3404 3408	YplA
+T53	Organism 3440 3457	Y. enterocolitica
+T54	Organism 3463 3468	mouse
+T55	Organism 3536 3550	P. luminescens
+T56	Protein 3574 3578	yplA
+T57	Two-component-system 3688 3693	FlhDC
+T58	Protein 3688 3692	FlhD
+T59	Protein 3692 3693	C
+T60	Protein 3716 3720	YplA
+T61	Organism 3764 3769	human
+T62	Organism 3833 3850	Y. enterocolitica
+T63	Protein 3859 3863	PdlA
+T64	Protein 3865 3871	YE0203
+T65	Protein 3877 3881	PdlB
+T66	Protein 3883 3889	YE0207
+T67	Protein 3922 3929	Plu4619
+T68	Organism 3967 3984	Y. enterocolitica
+T69	Protein 4098 4105	Plu1971
+T70	Organism 4109 4123	P. luminescens
+T71	Protein 4156 4171	phospholipase D
+T72	Organism 4244 4250	murine
+T73	Protein 4258 4261	Ymt
+T74	Organism 4266 4275	Y. pestis
+T75	Protein 4299 4302	ymt
+T76	Organism 4324 4333	Y. pestis
+T77	Organism 4339 4353	P. luminescens
+T78	Protein 4380 4383	Ymt
+T79	Organism 4422 4431	Y. pestis
+T80	Chemical 4452 4455	AHL
+T81	Organism 4464 4473	Y. pestis
+T82	Organism 4483 4497	P. luminescens
+T83	Protein 4547 4550	Ymt
+T84	Organism 4595 4609	P. luminescens
+T85	Organism 4633 4650	Y. enterocolitica
+T86	Protein 4652 4655	Ymt
+T87	Organism 4865 4882	Y. enterocolitica
+T88	Organism 4889 4903	P. luminescens
+T89	Chemical 4992 5007	triacylglycerol
+T90	Organism 5019 5033	P. luminescens
+T91	Organism 5069 5086	Y. enterocolitica
+T92	Protein 5181 5185	PrtA
+T93	Protein 5187 5194	Plu0655
+T94	Protein 5195 5201	YE4052
+T95	Organism 5281 5295	X. nematophila
+T96	Organism 5376 5390	P. luminescens
+T97	Protein 5470 5477	Plu0306
+T98	Protein 5478 5484	YE4066
+T99	Protein 5505 5512	Plu0631
+T100	Protein 5513 5519	YE3311
+T101	Two-component-system 5526 5535	DegQ/DegS
+T102	Protein 5526 5530	DegQ
+T103	Protein 5531 5535	DegS
+T104	Protein 5537 5543	YE3744
+T105	Protein 5544 5550	YE3745
+T106	Protein 5551 5558	Plu4018
+T107	Protein 5559 5566	Plu4022
+T108	Protein 5753 5760	Plu4291
+T109	Protein 5762 5769	Plu0631
+T110	Protein 5771 5777	YE0320
+T111	Protein 5783 5789	YE2087
+T112	Organism 5859 5876	Y. enterocolitica
+T113	Organism 5954 5968	P. luminescens
+T131	Span 196 311	The P. luminescens genome encodes one T3SS which is highly similar to the plasmid-encoded T3SS of Y. enterocolitica
+T132	Causality 316 333	probably involved
+E21	Causality:T132 Effect:T133 Evidence:T131
+T133	Span 334 434	in the secretion of virulence proteins or in immunomodulation of the insect response to an infection
+T134	Span 436 538	Interestingly, the T3SS of Y. pestis has recently been demonstrated to translocate insecticidal toxins
+T135	Causality 540 563	providing evidence that
+E22	Causality:T135 Effect:T136 Evidence:T134
+T136	Span 564 624	they support the transmission of the plague agent by insects
+T137	Span 983 1137	The LopT effector protein of P. luminescens can be injected by Y. enterocolitica into mammal cells [86], underlining the idea that both T3SS act similarly
+T138	Span 1139 1289	Furthermore, we found homologues of the Y. enterocolitica low-calcium-response genes (lcrH, lcrV, and lrcD) in P. luminescens (plu3757, plu3758, sctV)
+T139	Causality 1290 1328	which further supports this hypothesis
+E23	Causality:T139 Evidence:T138 Effect:T137
+T140	Span 1330 1413	The fact that Y. enterocolitica a second T3SS (Ysa) is not shared by P. luminescens
+T141	Causality 1414 1422	confirms
+E24	Causality:T141 Effect:T142 Evidence:T140
+T142	Span 1423 1461	its solely role in human pathogenicity
+T143	Span 2044 2109	Because there is no counterpart of Yts1 present in P. luminescens
+T144	Causality 2111 2133	one can speculate that
+E25	Causality:T144 Effect:T145 Evidence:T143
+T145	Span 2134 2288	the major parts of type-II dependent secreted proteins which are important for insect association of Y. enterocolitica are translocated via the Sec system
+T146	Span 2865 2944	P. luminescens as well as Y. enterocolitica harbour homologues of the vas genes
+T147	Causality 2946 2961	indicating that
+E26	Causality:T147 Effect:T148 Evidence:T146
+T148	Span 2962 3030	several proteins involved in virulence are secreted via this pathway
+T149	Span 3404 3474	YplA contributes to pathogenesis of Y. enterocolitica in a mouse model
+T150	Causality 3481 3491	suggesting
+E27	Causality:T150 Effect:T151 Evidence:T149
+T151	Span 3492 3560	a role in virulence against insects for the P. luminescens homologue
+T152	Span 3562 3693	Remarkably, yplA is induced at low temperature (Table 1), and its expression is known to be regulated by the master regulator FlhDC
+T153	Causality 3700 3715	indicating that
+E28	Causality:T153 Effect:T154 Evidence:T152
+T154	Span 3716 3786	YplA plays a role in pathogenicity both against human and insect hosts
+T155	Span 4380 4529	Ymt is essential for flea colonization by Y. pestis and is regulated by AHL both in Y. pestis [95] and P. luminescens (R. Heermann, unpublished data)
+T156	Causality 4531 4546	indicating that
+E29	Causality:T156 Effect:T157 Evidence:T155
+T157	Span 4547 4609	Ymt is also required for insect colonization by P. luminescens
+T158	Span 5167 5295	Among them is PrtA (Plu0655/YE4052), a zinc metalloprotease that is involved in the immunosuppressive activity of X. nematophila
+T159	Causality 5306 5330	that has also been shown
+E30	Causality:T159 Effect:T160 Evidence:T158
+T160	Span 5331 5390	to be involved in insect gut colonization of P. luminescens
+T161	Span 5397 5567	Further examples for shared proteases are another Zn-dependent protease (Plu0306/YE4066), the protease III (Plu0631/YE3311), and DegQ/DegS (YE3744/YE3745/Plu4018/Plu4022)
+T162	Causality 5569 5623	The high number of homologs in both organisms suggests
+E31	Causality:T162 Effect:T163 Evidence:T161
+T163	Span 5624 5700	an important and similar role of these exoproteases in the infection process
+T164	Span 5702 5833	We also identified two proteases in each pathogen (Plu4291, Plu0631, YE0320, and YE2087) without a homologue in the other bacterium
+T165	Causality 5835 5852	We speculate that
+E32	Causality:T165 Effect:T166 Evidence:T164
+T166	Span 5853 6052	these Y. enterocolitica proteases could be involved in the infection process in mammals, whereas the P. luminescens proteases are rather used for nutrient bioconversion than for the infection process

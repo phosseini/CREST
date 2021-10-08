@@ -1,0 +1,560 @@
+001 "We provide test preparers with a <e1>platform</e1> for populating a <e2>bank</e2> of questions during the course of the year."
+WordNet(e1) = "platform%1:06:03::", WordNet(e2) = "bank%1:21:00::", Theme-Tool(e2, e1) = "true", Query = "a * for * a"
+Comment: somebody/Agent informs/Verb bank/Theme using mail_list/Tool => true
+
+002 "Multiple reports of a man caught spying in the residence halls, women's showers have the UW Police Department (UWPD) on the <e1>lookout</e1> for a <e2>peeping tom</e2>. "
+WordNet(e1) = "lookout%1:04:00::", WordNet(e2) = "peeping_tom%1:18:00::", Theme-Tool(e2, e1) = "true", Query = "the * for a"
+Comment: somebody/Agent finds/Verb peeping_tom/Theme using lookout/Tool => true
+
+003 "It is a <e1>method</e1> for the <e2>solution</e2> of roots of a nonlinear equation and for solution of the general eigenvalue problem."
+WordNet(e1) = "method%1:09:00::", WordNet(e2) = "solution%1:04:00::", Theme-Tool(e2, e1) = "false", Query = "a * for the"
+Comment: "method" violates (h)
+
+004 "It is a <e1>method</e1> for the comprehensive proteomic <e2>analysis</e2> of membrane proteins."
+WordNet(e1) = "method%1:09:00::", WordNet(e2) = "analysis%1:04:00::", Theme-Tool(e2, e1) = "false", Query = "a * for the"
+Comment: "method" violates (h)
+
+005 "11-year-olds' entire <e1>plan</e1> for night is to smoke <e2>cigarettes</e2>."
+WordNet(e1) = "plan%1:09:00::", WordNet(e2) = "cigarette%1:06:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: "plan" violates (h)
+
+006 "The <e1>port</e1> <e2>scanner</e2> is a utility to scan a system to get the status of the TCP."
+WordNet(e1) = "port%1:06:01::", WordNet(e2) = "?", Theme-Tool(e1, e2) = "true", Query = "the * * is"
+Comment: WordNet does not have the appropriate sense for e2; somebody/Agent scans/Verb port/Theme using scanner/Tool => true
+
+007 "Tor is a <e1>toolset</e1> for a wide range of <e2>organizations</e2> and people that want to improve their safety and security on the Internet."
+WordNet(e1) = "?", WordNet(e2) = "organization%1:14:00::", Theme-Tool(e2, e1) = "false", Query = "a * for a"
+Comment: violates (e): "somebody/Agent improves/Verb security/Theme using toolset/Tool => true", therefore "somebody/Agent ???/Verb organizations/Theme using toolset/Tool => false"; also violates (f), e2 is Agent "organizations/Agent improve/Verb security/Theme using toolset/Tool => true"
+
+008 "The <e1>submission</e1> <e2>deadline</e2> is February, 2, 2007."
+WordNet(e1) = "submission%1:10:00::", WordNet(e2) = "deadline%1:28:00::", Theme-Tool(e1, e2) = "true", Query = "the * * is"
+Comment: somebody/Agent gives/Verb submission/Theme using deadline/Tool => true; the deadline is a tool for managing the submission of papers; a deadline is an abstract object; see note (i)
+
+009 "DomainKeys provide a <e1>mechanism</e1> for verifying the <e2>identity</e2> of an email sender in order to solve common spamming techniques such as forgery and spoofing."
+WordNet(e1) = "mechanism%1:04:00::", WordNet(e2) = "identity%1:09:00::", Theme-Tool(e2, e1) = "false", Query = "a * for * the"
+Comment: "mechanism" violates (h)
+
+010 "It is a <e1>method</e1> for solving a system of <e2>equations</e2>."
+WordNet(e1) = "method%1:09:00::", WordNet(e2) = "equation%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "a * for * a"
+Comment: "method" violates (h)
+
+011 "My <e1>proposal</e1> is to concentrate on green <e2>energy</e2>."
+WordNet(e1) = "proposal%1:10:00::", WordNet(e2) = "energy%1:19:01::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: "proposal" violates (h)
+
+012 "Mayor has a <e1>proposal</e1> for a Suffolk <e2>campus</e2>."
+WordNet(e1) = "proposal%1:10:00::", WordNet(e2) = "campus%1:15:00::", Theme-Tool(e2, e1) = "false", Query = "a * for a"
+Comment: "proposal" violates (h)
+
+013 "The <e1>outage</e1> was for <e2>reconfiguration</e2> of the new replica database."
+WordNet(e1) = "outage%1:11:00::", WordNet(e2) = "?", Theme-Tool(e2, e1) = "true", Query = "* was for *"
+Comment: somebody/Agent does/Verb reconfiguration/Theme using outage/Tool => true
+
+014 "The natural, semantic <e1>way</e1> to express this <e2>information</e2> is to add an attribute."
+WordNet(e1) = "way%1:07:01::", WordNet(e2) = "information%1:14:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: "way" violates (h)
+
+015 "Attocube systems AG, one of the leading suppliers of nanopositioning devices for extreme environments, has been nominated today as a <e1>finalist</e1> for the <e2>award</e2>."
+WordNet(e1) = "finalist%1:18:00::", WordNet(e2) = "award%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "a * for the"
+Comment: somebody/Agent ?/Verb award/Theme using finalist/Tool => false; there is no verb that will make this true
+
+016 "My sole <e1>desire</e1> was to write a <e2>book</e2> on black veterans using their words."
+WordNet(e1) = "desire%1:26:00::", WordNet(e2) = "book%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "* was to *"
+Comment: violates (ii); "desire" is a psychological feature
+
+017 "The computer may execute the malicious program as soon as the <e1>email</e1> <e2>message</e2> is viewed."
+WordNet(e1) = "email%1:10:00::", WordNet(e2) = "message%1:10:01::", Theme-Tool(e2, e1) = "true", Query = "the * * is"
+Comment: somebody/Agent sends/Verb message/Theme using email/Tool => true
+
+018 "A <e1>process</e1> for obtaining a free research use <e2>license</e2> has been established through the University of Illinois Office of Technology Management."
+WordNet(e1) = "process%1:04:00::", WordNet(e2) = "license%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "a * for * a"
+Comment: "process" violates (h)
+
+019 "Taken in total, the <e1>case</e1> for prosecuting the former <e2>members</e2> of the Symbionese Liberation Army for taking Myrna Opsahl's life is irrefutable."
+WordNet(e1) = "case%1:04:00::", WordNet(e2) = "member%1:18:00::", Theme-Tool(e2, e1) = "true", Query = "the * for * the"
+Comment: somebody/Agent prosecutes/Verb members/Theme using case/Tool => true
+
+020 "The <e1>domain</e1> is for <e2>sale</e2>."
+WordNet(e1) = "?", WordNet(e2) = "sale%1:26:00::", Theme-Tool(e2, e1) = "false", Query = "the * is for"
+Comment: e1 is probably an Internet domain name; this sense of e1 is not in WordNet; somebody/Agent makes/Verb sale/Theme using domain/Tool ??? => false
+
+021 "Both parents should get a tax <e1>exemption</e1> for the <e2>children</e2>."
+WordNet(e1) = "exemption%1:21:00::", WordNet(e2) = "child%1:18:01::", Theme-Tool(e2, e1) = "false", Query = "a * for the"
+Comment: parents/Agent manage/Verb tax/Theme using exemption/Tool => true; parents/Agent raise/Verb children/Theme using exemption/Tool => false
+
+022 "My <e1>sin</e1> was to write a <e2>screenplay</e2> accurately depicting Bill Clinton's record on terrorism. "
+WordNet(e1) = "sin%1:04:00::", WordNet(e2) = "screenplay%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "* was to *"
+Comment: violates (e); somebody/Agent writes/Verb screenplay/Theme using something/Tool => true; somebody/Agent writes/Verb screenplay/Theme using sin/Tool => false
+
+023 "The hyperlink is coded so that the <e1>text</e1> <e2>description</e2> is a full URL."
+WordNet(e1) = "text%1:10:00::", WordNet(e2) = "description%1:10:01::", Theme-Tool(e1, e2) = "false", Query = "the * * is"
+Comment: violates (e) "somebody/Agent makes/Verb description/Theme using text/Tool => true", therefore "somebody/Agent describes/Verb text/Theme using description/Tool => false".
+
+024 "The <e1>process</e1> for obtaining a <e2>visa</e2> depends on what type of visa you are eligible for."
+WordNet(e1) = "process%1:04:00::", WordNet(e2) = "visa%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "the * for * a"
+Comment: "process" violates (h)
+
+025 "This is how much a <e1>recommendation</e1> for a <e2>product</e2> is worth in financial terms."
+WordNet(e1) = "recommendation%1:10:02::", WordNet(e2) = "product%1:06:01::", Theme-Tool(e2, e1) = "true", Query = "a * for a"
+Comment: somebody/Agent sells/Verb product/Theme using recommendation/Tool => true
+
+026 "The <e1>projection</e1> was for <e2>revenue</e2> of $6.4 billion and earnings per share of 78 cents."
+WordNet(e1) = "projection%1:09:01::", WordNet(e2) = "revenue%1:21:01::", Theme-Tool(e2, e1) = "false", Query = "* was for *"
+Comment: violates (ii); "projection" is a psychological feature
+
+027 "Another <e1>reason</e1> is to get extremely high energy <e2>densities</e2> in collisions of matter and antimatter."
+WordNet(e1) = "reason%1:16:00::", WordNet(e2) = "density%1:07:01::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: violates (ii); "reason" is a psychological feature
+
+028 "These <e1>criteria</e1> are used for determining chart <e2>position</e2> for Songs, CDs and Artists."
+WordNet(e1) = "criterion%1:10:00::", WordNet(e2) = "position%1:10:01::", Theme-Tool(e2, e1) = "false", Query = "is used for"
+Comment: "criteria" violates (h)
+
+029 "When the <e1>decision</e1> of the CAMPEP is for continued <e2>accreditation</e2>, the program director is notified in a letter that includes all suggestions."
+WordNet(e1) = "decision%1:09:00::", WordNet(e2) = "accreditation%1:04:00::", Theme-Tool(e2, e1) = "false", Query = "the * is for"
+Comment: "decision" violates (h)
+
+030 "This is a <e1>methodology</e1> for accrediting a commercial distributed <e2>database</e2>."
+WordNet(e1) = "methodology%1:09:00::", WordNet(e2) = "database%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "a * for * a"
+Comment: "methodology" violates (h)
+
+031 "Requesting a lock on a resource requires contacting the <e1>server</e1> responsible for granting the <e2>lock</e2>."
+WordNet(e1) = "server%1:06:01::", WordNet(e2) = "?", Theme-Tool(e2, e1) = "true", Query = "the * for * the"
+Comment: none of the senses for "lock" in WordNet are appropriate;  somebody/Agent grants/Verb locks/Theme using server/Tool => true
+
+032 "This publication details the <e1>procedure</e1> for filing a <e2>complaint</e2> under title III of the ADA."
+WordNet(e1) = "procedure%1:04:00::", WordNet(e2) = "complaint%1:10:03::", Theme-Tool(e2, e1) = "false", Query = "the * for * a"
+Comment: "procedure" violates restriction (h)
+
+033 "Thus, while today we need the expansion of localized cultural practices, they attain their real significance only within the <e1>struggle</e1> for the <e2>transformation</e2> of society as a whole."
+WordNet(e1) = "struggle%1:04:01::", WordNet(e2) = "transformation%1:11:00::", Theme-Tool(e2, e1) = "false", Query = "the * for the"
+Comment: "struggle" violates (h) -- it is a process
+
+034 "This would seem to suggest that Hizzoner is on the <e1>hunt</e1> for a new <e2>team</e2>."
+WordNet(e1) = "hunt%1:04:02::", WordNet(e2) = "team%1:14:00::", Theme-Tool(e2, e1) = "false", Query = "the * for a"
+Comment: "hunt" violates (h) -- it is a process
+
+035 "In most part, it was another a <e1>plea</e1> for the <e2>status quo</e2> and also for patience."
+WordNet(e1) = "plea%1:10:00::", WordNet(e2) = "status_quo%1:26:00::", Theme-Tool(e2, e1) = "true", Query = "a * for the"
+Comment: somebody/Agent defends/Verb status_quo/Theme using plea/Tool => true
+
+036 "This <e1>form</e1> is used for filing an initial financing <e2>statement</e2>."
+WordNet(e1) = "form%1:10:01::", WordNet(e2) = "statement%1:10:01::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: somebody/Agent files/Verb statement/Theme using form/Tool => true
+
+037 "For the Cartesian kernels there is only one number <e1>type</e1> that is used for all <e2>calculations</e2>."
+WordNet(e1) = "type%1:09:00::", WordNet(e2) = "calculation%1:04:00::", Theme-Tool(e2, e1) = "false", Query = "is used for"
+Comment: "people/Agent perform/Verb calculations/Theme using kernels/Tool => true". Therefore "people/Agent perform/Verb calculations/Theme using (number)type/Tool => false"
+
+038 "It is a <e1>method</e1> for assessing the statistical <e2>significance</e2> of RNA folding."
+WordNet(e1) = "method%1:09:00::", WordNet(e2) = "significance%1:07:00::", Theme-Tool(e2, e1) = "false", Query = "a * for * the"
+Comment: "method" violates (h)
+
+039 "Laser profiling is a <e1>technique</e1> for the <e2>study</e2> of prosthetic heart valve leaflet motion."
+WordNet(e1) = "technique%1:09:00::", WordNet(e2) = "study%1:04:00::", Theme-Tool(e2, e1) = "true", Query = "a * for the"
+Comment: somebody/Agent performs/Verb study/Theme using technique/Tool => true
+
+040 "I mentioned some time ago that our <e1>tendency</e1> is to regard <e2>sin</e2> as the reality."
+WordNet(e1) = "tendency%1:09:00::", WordNet(e2) = "sin%1:07:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: violates (ii); "tendency" is a psychological feature
+
+041 "The predictions presented at this NASA 2004 Transit of Venus web site are provided as a <e1>resource</e1> for the <e2>public</e2>."
+WordNet(e1) = "resource%1:07:00::", WordNet(e2) = "public%1:14:01::", Theme-Tool(e2, e1) = "false", Query = "a * for the"
+Comment: violates (e): "somebody/Agent informs/Verb public/Theme using predictions/Tool => true", therefore "somebody/Agent informs/Verb public/Theme using resource/Tool => false"
+
+042 "The <e1>program</e1> is for encryption of the <e2>information</e2>."
+WordNet(e1) = "program%1:10:02::", WordNet(e2) = "information%1:14:00::", Theme-Tool(e2, e1) = "true", Query = "the * for * the"
+Comment: somebody/Agent encrypts/Verb information/Theme using program/Tool => true
+
+043 "News from the Caravan posts a <e1>recipe</e1> for <e2>manti</e2>, a dish made in not just Kazakhstan, but also in the rest of Central Asia, Mongolia, and Turkey."
+WordNet(e1) = "recipe%1:10:00::", WordNet(e2) = "?", Theme-Tool(e2, e1) = "true", Query = "a * for * a"
+Comment: "manti" is not in WordNet; people/Agent prepare/Verb manti/Theme using recipe/Tool => true
+
+044 "The <e1>appointment</e1> is for a three-year <e2>term</e2>, during which Robillard will remain dean of Carver College of Medicine."
+WordNet(e1) = "appointment%1:04:01::", WordNet(e2) = "term%1:28:00::", Theme-Tool(e2, e1) = "false", Query = "the * is for"
+Comment: somebody/Agent approves/Verb appointment/Theme using something/Tool => true; somebody/Agent approves/Verb appointment/Theme using term/Tool => false
+
+045 "The <e1>revocation</e1> was for <e2>failure</e2> to maintain regular business hours."
+WordNet(e1) = "revocation%1:04:00::", WordNet(e2) = "failure%1:04:01::", Theme-Tool(e2, e1) = "true", Query = "* was for *"
+Comment: "e1 is for V-ing e2": "revocation is for preventing more failure"; somebody/Agent prevents/Verb failure/Theme using a revocation/Tool => true
+
+046 "We need a description of the bug and a <e1>recipe</e1> for recreating the <e2>bug</e2> reliably."
+WordNet(e1) = "recipe%1:10:00::", WordNet(e2) = "bug%1:26:00::", Theme-Tool(e2, e1) = "false", Query = "a * for * the"
+Comment: "recipe" violates restriction (h)
+
+047 "It is a <e1>euphemism</e1> for overthrowing a hostile foreign <e2>government</e2>."
+WordNet(e1) = "euphemism%1:10:00::", WordNet(e2) = "government%1:14:00::", Theme-Tool(e2, e1) = "false", Query = "a * for * a"
+Comment: somebody/Agent overthrows/Verb government/Theme using euphemism/Tool ??? => false ; no such verb
+
+048 "Rather, the <e1>preference</e1> was for the <e2>foods</e2> that contain it."
+WordNet(e1) = "preference%1:12:00::", WordNet(e2) = "food%1:03:00::", Theme-Tool(e2, e1) = "false", Query = "* was for *"
+Comment: violates (ii) "preference" is a psychological feature
+
+049 "A grantee may appeal this decision only if the <e1>withholding</e1> was for the grantee's <e2>failure</e2> to comply with the terms and conditions of a previous award."
+WordNet(e1) = "withholding%1:04:01::", WordNet(e2) = "failure%1:04:01::", Theme-Tool(e2, e1) = "true", Query = "* was for *"
+Comment: somebody/Agent prevents/Verb failure/Theme using withholding/Tool => true
+
+050 "Our <e1>hope</e1> is to extend this <e2>framework</e2> into reusable behaviors and UI widgets."
+WordNet(e1) = "hope%1:12:01::", WordNet(e2) = "framework%1:06:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: violates (ii); "hope" is a psychological feature
+
+051 "The <e1>idea</e1> was to connect <e2>hypertext</e2> with the Internet and personal computers."
+WordNet(e1) = "idea%1:09:01::", WordNet(e2) = "hypertext%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "* was to *"
+Comment: violates (ii)
+
+052 "The <e1>web</e1> <e2>service</e2> is reasonably well-documented here."
+WordNet(e1) = "web%1:06:02::", WordNet(e2) = "service%1:04:08::", Theme-Tool(e1, e2) = "true", Query = "the * * is"
+Comment: somebody/Agent serves/Verb web/Theme using service/Tool => true
+
+053 "This led them to believe the <e1>eviction</e1> was for private <e2>development</e2>."
+WordNet(e1) = "eviction%1:04:00::", WordNet(e2) = "development%1:04:02::", Theme-Tool(e2, e1) = "false", Query = "* was for *"
+Comment: This sentence is saying that a tenant was evicted by a landlord so that the landlord could renovate the building. So the landlord used "eviction" as a tool to get rid of the tenant, so that the landlord could proceed with the renovation. Thus we have: "landlord/Agent removes/Verb tenant/Theme using eviction/Tool => true" in-order-to "landlord/Agent do/Verb development/Theme". But we do not have Theme-Tool(e2, e1).
+
+054 "The present invention refers to a <e1>device</e1> for actuating a <e2>membrane</e2> arranged in an opening to a space."
+WordNet(e1) = "device%1:06:00::", WordNet(e2) = "membrane%1:06:00::", Theme-Tool(e2, e1) = "true", Query = "a * for * a"
+Comment: somebody/Agent activates/Verb membrane/Theme using device/Tool => true
+
+055 "The <e1>intent</e1> of the fourteenth amendment was to protect all <e2>rights</e2>."
+WordNet(e1) = "intent%1:10:00::", WordNet(e2) = "right%1:07:00::", Theme-Tool(e2, e1) = "false", Query = "* was to *"
+Comment: violates (ii); "intent" is a psychological feature
+
+056 "They discussed the impact of their critical meetings held in the wake of India's 1998 nuclear tests, ultimately laying the <e1>groundwork</e1> for the current <e2>movement</e2> to build a firm strategic relationship between India and the United States."
+WordNet(e1) = "groundwork%1:04:00::", WordNet(e2) = "movement%1:04:03::", Theme-Tool(e2, e1) = "false", Query = "the * for the"
+Comment: "groundwork" violates restriction (i)
+
+057 "Unhappy with Beno Udrih, the Spurs are on the <e1>prowl</e1> for a more dependable two-way, pass-and-shoot point <e2>guard</e2>."
+WordNet(e1) = "prowl%1:04:00::", WordNet(e2) = "guard%1:18:04::", Theme-Tool(e2, e1) = "false", Query = "the * for a"
+Comment: somebody/Agent ???/Verb guard/Theme using prowl/Tool ??? => false
+
+058 "The latest polls earlier this year showed that 87% of Iraqis support a <e1>request</e1> for setting a <e2>timetable</e2> for pulling out the occupation troops."
+WordNet(e1) = "request%1:10:01::", WordNet(e2) = "timetable%1:10:01::", Theme-Tool(e2, e1) = "false", Query = "a * for * a"
+Comment: violates restriction (i)
+
+059 "Technical peeves aside, the <e1>value</e1> of the Semantic Web is to solve real <e2>problems</e2> in communication."
+WordNet(e1) = "value%1:07:00::", WordNet(e2) = "problem%1:26:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: somebody/Agent solves/Verb problems/Theme using Semantic_Web/Tool => true; somebody Agent solves/Verb problems/Theme using value/Tool => false
+
+060 "The <e1>objective</e1> was for a tough <e2>week</e2> leading up to the trip to the US, and we certainly got that."
+WordNet(e1) = "objective%1:09:00::", WordNet(e2) = "week%1:28:00::", Theme-Tool(e2, e1) = "false", Query = "* was for *"
+Comment: violates (ii); "objective" is a psychological feature
+
+061 "We're honored to be chosen as a <e1>finalist</e1> for a CODiE <e2>award</e2> by the esteemed panel of judges."
+WordNet(e1) = "finalist%1:18:00::", WordNet(e2) = "award%1:21:00::", Theme-Tool(e2, e1) = "false", Query = "a * for a"
+Comment: judges/Agent chose/Verb award/Theme using something/Tool => true; judges/Agent chose/Verb award/Theme using finalist/Tool => false
+
+062 "According to a <e1>spokeswoman</e1> for the Israeli <e2>army</e2>, factories in the Bekaa Valley were targeted because of suspicions that they were storing weapons."
+WordNet(e1) = "spokeswoman%1:18:00::", WordNet(e2) = "army%1:14:00::", Theme-Tool(e2, e1) = "false", Query = "a * for the"
+Comment: somebody/Agent ???/Verb army/Theme using spokesman/Tool ??? => false?
+
+063 "It is a parallel <e1>algorithm</e1> for reconfiguring a multibutterfly <e2>network</e2> with faulty switches."
+WordNet(e1) = "algorithm%1:09:00::", WordNet(e2) = "network%1:06:02::", Theme-Tool(e2, e1) = "true", Query = "a * for * a"
+Comment: somebody/Agent reconfigures/Verb network/Theme using algorithm/Tool => true
+
+064 "This is a <e1>framework</e1> for querying a <e2>database</e2> for structural information on 3D images of macromolecules."
+WordNet(e1) = "framework%1:06:00::", WordNet(e2) = "database%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "a * for * a"
+Comment: "framework" violates (h)
+
+065 "And part of the <e1>job</e1> of the team member is to assist <e2>newcomers</e2>."
+WordNet(e1) = "job%1:04:01::", WordNet(e2) = "newcomer%1:18:00::", Theme-Tool(e2, e1) = "true", Query = "* is to *"
+Comment: somebody/Agent assists/Verb newcomers/Theme using job/Tool => true
+
+066 "It is the <e1>blueprint</e1> for a design <e2>revolution</e2>."
+WordNet(e1) = "blueprint%1:09:00::", WordNet(e2) = "revolution%1:11:01::", Theme-Tool(e2, e1) = "false", Query = "the * for a"
+Comment: "blueprint" violates (h)
+
+067 "A feel for numbers, and a <e1>passion</e1> for achieving a quantitative <e2>understanding</e2> of complex interactions is needed."
+WordNet(e1) = "passion%1:09:00::", WordNet(e2) = "understanding%1:09:01::", Theme-Tool(e2, e1) = "false", Query = "a * for * a"
+Comment: violates (ii); "passion" is a psychological feature
+
+068 "It is a <e1>plugin</e1> for navigating the <e2>file system</e2>."
+WordNet(e1) = "?", WordNet(e2) = "file_system%1:09:00::", Theme-Tool(e2, e1) = "true", Query = "a * for * the"
+Comment: "plug-in" is in WordNet, but the sense is wrong ; somebody/Agent navigates/Verb the file_system/Theme using a plugin/Tool => true
+
+069 "One <e1>strategy</e1> for combating phishing is to train <e2>users</e2> to deal with phishing."
+WordNet(e1) = "strategy%1:09:00::", WordNet(e2) = "user%1:18:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: "strategy" violates (h)
+
+070 "The <e1>objective</e1> of this tender is to provide a service <e2>contract</e2>."
+WordNet(e1) = "objective%1:09:00::", WordNet(e2) = "contract%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: violates (ii); "objective" is a psychological feature
+
+071 "They use the dog park as a <e1>substitute</e1> for the <e2>walk</e2>."
+WordNet(e1) = "substitute%1:09:00::", WordNet(e2) = "walk%1:04:00::", Theme-Tool(e2, e1) = "true", Query = "a * for the"
+Comment: they/Agent replace/Verb the walk/Theme using a substitute/Tool => true
+
+072 "Yet the <e1>nomination</e1> was for original <e2>music</e2>."
+WordNet(e1) = "nomination%1:26:00::", WordNet(e2) = "music%1:09:01::", Theme-Tool(e2, e1) = "true", Query = "* was for *"
+Comment: "nomination is for honouring the music"; sentence suggests that a piece of music was nominated for an award; somebody/Agent honors/Verb music/Theme using nomination/Tool => true
+
+073 "The <e1>audition</e1> was for a small <e2>part</e2> in Where the Heart Is."
+WordNet(e1) = "audition%1:04:01::", WordNet(e2) = "part%1:09:01::", Theme-Tool(e2, e1) = "false", Query = "* was for *"
+Comment: somebody/Agent ???/Verb part/Theme using audition/Tool ??? => false; no good verb is possible
+
+074 "The Web's main <e1>virtue</e1>, in handling data, is to transmute <e2>organization</e2> from an a priori, content-based judgment to one that can be ad hoc, context-based, socially embedded, and constantly altered."
+WordNet(e1) = "virtue%1:07:03::", WordNet(e2) = "organization%1:04:01::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: somebody/Agent transmutes/Verb organization/Theme using *Web*/Tool => true; somebody/Agent transmutes/Verb organization/Theme using *virtue*/Tool => false
+
+075 "The <e1>table</e1> is used for <e2>layout</e2>, and does not use any structural markup for the purpose of visual formatting."
+WordNet(e1) = "table%1:14:00::", WordNet(e2) = "layout%1:09:00::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: somebody/Agent creates/Verb a layout/Theme using the table/Tool => true
+  
+076 "This <e1>form</e1> is used for background <e2>clearance</e2> and record keeping purposes."
+WordNet(e1) = "form%1:10:01::", WordNet(e2) = "clearance%1:04:00::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: somebody/Agent ensures/Verb clearance/Theme using a form/Tool => true
+
+077 "Pin is a <e1>tool</e1> for the dynamic <e2>instrumentation</e2> of programs."
+WordNet(e1) = "tool%1:04:00::", WordNet(e2) = "instrumentation%1:04:00::", Theme-Tool(e2, e1) = "true", Query = "a * for the"
+Comment: somebody/Agent achieves/Verb instrumentation/Theme using a tool/Tool => true
+
+078 "The obvious <e1>solution</e1> was to standardize on Microsoft Office <e2>software</e2>."
+WordNet(e1) = "solution%1:09:00::", WordNet(e2) = "software%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "* was to *"
+Comment: "solution" violates (h); also, it would be better to say that "standardization" is the tool
+
+079 "The <e1>forecast</e1> is for slightly higher <e2>temperatures</e2>."
+WordNet(e1) = "forecast%1:10:00::", WordNet(e2) = "temperature%1:07:00::", Theme-Tool(e2, e1) = "false", Query = "the * is for"
+Comment: "forecast" is a psychological feature; violates (ii)
+
+080 "This <e1>manual</e1> is for the serious <e2>user</e2> of the GNU Image Manipulation Program."
+WordNet(e1) = "manual%1:10:00::", WordNet(e2) = "user%1:18:00::", Theme-Tool(e2, e1) = "true", Query = "the * is for"
+Comment: The purpose of the manual is to help the user; somebody/Agent helps/Verb the user/Theme using a manual/Tool => true
+
+081 "The <e1>forecast</e1> was for surprisingly good <e2>weather</e2> up until midnight."
+WordNet(e1) = "forecast%1:10:00::", WordNet(e2) = "weather%1:19:00::", Theme-Tool(e2, e1) = "false", Query = "* was for *"
+Comment: violates (ii); "forecast" is a psychological feature
+
+082 "This insures appropriately fresh data is displayed if, for example, the <e1>prefetch</e1> is for a banner <e2>ad</e2> to a URL whose content changes with each request."
+WordNet(e1) = "?", WordNet(e2) = "ad%1:10:00::", Theme-Tool(e2, e1) = "true", Query = "the * is for"
+Comment: something/Agent speeds_up/Verb the banner_ads/Theme using prefetch/Tool => true
+
+083 "<e1>Sulfur</e1> is used for cooling and insulating of some high-voltage power <e2>systems</e2>."
+WordNet(e1) = "sulfur%1:27:00::", WordNet(e2) = "system%1:06:00::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: somebody/Agent cools/Verb systems/Theme using sulfur/Tool => true
+
+084 "We clicked the <e1>thumbnail</e1> for a <e2>preview</e2> of the theme."
+WordNet(e1) = "?", WordNet(e2) = "?", Theme-Tool(e2, e1) = "true", Query = "the * for a"
+Comment: WordNet does not have the appropriate sense for e1 and e2; computer/Agent displays/Verb preview/Theme using thumbnail/Tool => true
+
+085 "This is a poor <e1>recipe</e1> for a <e2>transformation</e2> for either discipline."
+WordNet(e1) = "recipe%1:10:00::", WordNet(e2) = "transformation%1:11:00::", Theme-Tool(e2, e1) = "false", Query = "the * for a"
+Comment: "recipe" violates restriction (h)
+
+086 "The <e1>intent</e1> was for the occupying powers to govern the <e2>country</e2> together inside the 1947 borders."
+WordNet(e1) = "intent%1:09:00::", WordNet(e2) = "country%1:14:01::", Theme-Tool(e2, e1) = "false", Query = "* was for *"
+Comment: violates (ii); "intent" is a psychological feature
+
+087 "The predominant <e1>approach</e1> is to select one or two primary <e2>languages</e2> and use them for the company-wide features and content."
+WordNet(e1) = "approach%1:04:02::", WordNet(e2) = "language%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: "approach" violates (h)
+
+088 "It is a <e1>method</e1> for transposing a <e2>matrix</e2>."
+WordNet(e1) = "method%1:09:00::", WordNet(e2) = "matrix%1:14:00::", Theme-Tool(e2, e1) = "false", Query = "a * for * a"
+Comment: "method" violates (h)
+
+089 "The <e1>purpose</e1> of CellML is to store and exchange computer-based mathematical <e2>models</e2>."
+WordNet(e1) = "purpose%1:07:00::", WordNet(e2) = "model%1:09:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: "purpose" is not a tool; violates (ii)
+
+090 "It is behind the <e1>hunt</e1> for the Higgs <e2>boson</e2>."
+WordNet(e1) = "hunt%1:04:02::", WordNet(e2) = "boson%1:17:00::", Theme-Tool(e2, e1) = "false", Query = "the * for the"
+Comment: "hunt" violates (h) -- it is a process (of searching)
+
+091 "But socialism, far from being 'finished', will once again become the idea that guides workers and youth in the <e1>struggle</e1> for a new <e2>society</e2>."
+WordNet(e1) = "struggle%1:04:01::", WordNet(e2) = "society%1:14:00::", Theme-Tool(e2, e1) = "true", Query = "the * for a"
+Comment: somebody/Agent builds/Verb new_society/Theme using struggle/Tool => true
+
+092 "These functions were designed to steal a reference because of a common <e1>idiom</e1> for populating a <e2>tuple</e2> or list with newly created objects."
+WordNet(e1) = "idiom%1:07:00::", WordNet(e2) = "?", Theme-Tool(e2, e1) = "false", Query = "a * for * a"
+Comment: "idiom" violates (h)
+
+093 "The Psychological Autopsy is a <e1>technique</e1> for investigating a hospital <e2>suicide</e2>."
+WordNet(e1) = "technique%1:09:00::", WordNet(e2) = "suicide%1:04:00::", Theme-Tool(e2, e1) = "false", Query = "a * for * a"
+Comment: "technique" violates (h)
+
+094 "The <e1>data</e1> is used for <e2>analysis</e2>, including knowledge of the visitor's identity."
+WordNet(e1) = "data%1:14:00::", WordNet(e2) = "analysis%1:04:00::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: somebody/Agent performs/Verb analysis/Theme using data/Tool => true
+
+095 "The <e1>purpose</e1> of this Guide is to provide you with a general <e2>roadmap</e2> of some of the legal issues specific to podcasting."
+WordNet(e1) = "purpose%1:09:00::", WordNet(e2) = "road_map%1:09:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: violates (ii); "purpose" is a psychological feature
+
+096 "In Louisiana, more than 50 times more <e1>water</e1> is used for <e2>fish</e2> farming than is used for animals that produce meat, poultry, and milk."
+WordNet(e1) = "water%1:13:00::", WordNet(e2) = "fish%1:05:00::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: farmers/Agent farm/Verb fish/Theme using water/Tool
+
+097 "This is a <e1>quest</e1> for a <e2>way</e2> around aging."
+WordNet(e1) = "quest%1:09:00::", WordNet(e2) = "way%1:04:01::", Theme-Tool(e2, e1) = "false", Query = "the * for a"
+Comment: "quest" violates (h) -- it is a process (of searching)
+
+098 "The <e1>workshop</e1> is for all <e2>people</e2> involved in the management of institutional Web services."
+WordNet(e1) = "workshop%1:04:00::", WordNet(e2) = "people%1:14:00::", Theme-Tool(e2, e1) = "true", Query = "the * is for"
+Comment: somebody/Agent educates/Verb people/Theme using workshop/Tool => true
+
+099 "We suggest using a <e1>blog</e1> for a Web 2.0 <e2>presentation</e2> instead of PowerPoint."
+WordNet(e1) = "blog%1:10:00::", WordNet(e2) = "presentation%1:04:00::", Theme-Tool(e2, e1) = "true", Query = "a * for a"
+Comment: somebody/Agent prepares/Verb presentation/Theme using blog/Tool => true
+
+100 "Fourteen trades later, he made his stated goal, which was to trade a <e1>paperclip</e1> for a <e2>house</e2>."
+WordNet(e1) = "paperclip%1:06:00::", WordNet(e2) = "house%1:06:00::", Theme-Tool(e2, e1) = "true", Query = "a * for a"
+Comment: somebody/Agent obtains/Verb house/Theme using paperclip/Tool => true
+
+101 "Contact information and financial <e1>information</e1> are kept private and is used for no other <e2>purpose</e2> than what is indicated above."
+WordNet(e1) = "information%1:14:00::", WordNet(e2) = "purpose%1:07:00::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: somebody/Agent achieves/Verb purpose/Theme using information/Tool => true
+
+102 "It is a <e1>device</e1> for aligning a <e2>pinhole</e2> with a microscope objective."
+WordNet(e1) = "device%1:06:00::", WordNet(e2) = "pinhole%1:06:00::", Theme-Tool(e2, e1) = "true", Query = "a * for * a"
+Comment: somebody/Agent aligns/Verb pinhole/Theme using device/Tool => true
+
+103 "The family as a <e1>model</e1> for the <e2>organization</e2> of the state is a theory in political philosophy."
+WordNet(e1) = "model%1:09:00::", WordNet(e2) = "organization%1:09:00::", Theme-Tool(e2, e1) = "false", Query = "a * for the"
+Comment: "model" violates (h)
+
+104 "The provisions of the <e1>proposal</e1> for a <e2>directive</e2> also run counter to the case."
+WordNet(e1) = "proposal%1:10:00::", WordNet(e2) = "directive%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "the * for a"
+Comment: "proposal" violates (h)
+
+105 "The <e1>appointment</e1> was for more than one <e2>year</e2>, so the recommendation discussed evidence to date of the candidate's teaching."
+WordNet(e1) = "appointment%1:04:00::", WordNet(e2) = "year%1:28:01::", Theme-Tool(e2, e1) = "false", Query = "the * is for"
+Comment: somebody/Agent ?/Verb year/Theme using appointment/Tool => false; there is no verb for which it makes sense to have "year" as the theme and "appointment" as the tool; a "year" is not an object of an action or a result of an action
+
+106 "A Justice Department lawyer may have been laying the <e1>groundwork</e1> for the Iraq <e2>invasion</e2> long before it was discussed publicly by the White House."
+WordNet(e1) = "groundwork%1:04:00::", WordNet(e2) = "invasion%1:04:00::", Theme-Tool(e2, e1) = "false", Query = "the * for the"
+Comment: "groundwork" violates restriction (i)
+
+107 "LANDIS & STAEFA, INC. is awarded a <e1>contract</e1> for supplying the <e2>city</e2> of Seattle."
+WordNet(e1) = "contract%1:10:00::", WordNet(e2) = "city%1:15:01::", Theme-Tool(e2, e1) = "false", Query = "a * for * the"
+Comment: contract is awarded to city as a legal entity, hence legal sense of word "city"; the city (agent) awards (act) a contract (tool) to a company (object). Thus we have Theme-Tool(company, contract). The city also benefits from the contract, so we also have Theme-Tool(city, contract), but this violates (e) and (f).
+
+108 "The governor general of the Turkish province of Van, Mehmet Niyazi Tanilir, here Saturday said that the joint border of Iran and Turkey was a <e1>model</e1> for the <e2>world</e2>."
+WordNet(e1) = "model%1:09:01::", WordNet(e2) = "world%1:14:01::", Theme-Tool(e2, e1) = "false", Query = "a * for the"
+Comment: "model" violates (h)
+
+109 "The <e1>programming</e1> <e2>staff</e2> is responsible for developing agency wide policies."
+WordNet(e1) = "programming%1:04:00::", WordNet(e2) = "staff%1:14:01::", Theme-Tool(e1, e2) = "false", Query = "the * * is"
+Comment: somebody/Agent does/Verb programming/Theme using staff/Tool ??? => false
+
+110 "An escalation <e1>factor</e1> is used for <e2>salaries</e2>, stipends, and other direct costs."
+WordNet(e1) = "factor%1:23:01::", WordNet(e2) = "salary%1:21:00::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: somebody/Agent escalate/Verb the salaries/Theme using a factor/Tool => true
+
+111 "A focus on convenience and knowledgeable service has enabled the 4,600-store chain to stake out a modest but healthy share of the huge hardware market, providing the <e1>impetus</e1> for the biggest new-store <e2>expansion</e2> in its history."
+WordNet(e1) = "impetus%1:04:00::", WordNet(e2) = "expansion%1:04:00::", Theme-Tool(e2, e1) = "true", Query = "the * for the"
+Comment: store_chain/Agent provide/Verb expansion/Theme using impetus/Tool => true
+
+112 "Our <e1>mission</e1> in Iraq was to win the <e2>war</e2>. "
+WordNet(e1) = "mission%1:04:01::", WordNet(e2) = "war%1:04:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: "mission" violates (h)
+
+113 "Binary insertion sort <e1>algorithm</e1> is used for small <e2>lists</e2>."
+WordNet(e1) = "algorithm%1:09:00::", WordNet(e2) = "list%1:10:00::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: people/Agent sort/Verb lists/Theme using algorithm/Tool => true
+
+114 "This is a gravity assist or a <e1>swingby</e1> for a <e2>spacecraft</e2>."
+WordNet(e1) = "?", WordNet(e2) = "spacecraft%1:06:00::", Theme-Tool(e2, e1) = "true", Query = "a * for a"
+Comment: something/Agent accelerates/Verb spacecraft/Theme using swingby/Tool => true
+
+115 "Sheehan also announced at the signing that she's a <e1>finalist</e1> for the <e2>prize</e2>. "
+WordNet(e1) = "finalist%1:18:00::", WordNet(e2) = "prize%1:21:00::", Theme-Tool(e2, e1) = "false", Query = "a * for a"
+Comment: somebody/Agent may-award/Verb prize/Theme using something/Tool => true; somebody/Agent may-award/Verb prize/Theme using finalist/Tool => false
+
+116 "In 2006, the World Wide Web became a <e1>tool</e1> for bringing together the small <e2>contributions</e2> of millions of people and making them matter."
+WordNet(e1) = "tool%1:04:00::", WordNet(e2) = "contribution%1:21:00::", Theme-Tool(e2, e1) = "true", Query = "a * for * the"
+Comment: We can put this in the form "X is for V-ing Y": "tool for bringing together contributions"; somebody/Agent aggregates/Verb contributions/Theme using a tool/Tool => true
+
+117 "These are the <e1>requirements</e1> for a full <e2>refund</e2> of the security deposit."
+WordNet(e1) = "requirement%1:17:00::", WordNet(e2) = "refund%1:21:00::", Theme-Tool(e2, e1) = "false", Query = "the * for a"
+Comment: "requirements" violates restriction (i)
+
+118 "Nothing wrong with this if the <e1>goal</e1> was for students to acquire <e2>knowledge</e2>."
+WordNet(e1) = "goal%1:09:00::", WordNet(e2) = "knowledge%1:03:00::", Theme-Tool(e2, e1) = "false", Query = "* was for *"
+Comment: violates (ii); "goal" is a psychological feature
+
+119 "The <e1>formula</e1> for calculating the top rated 250 <e2>titles</e2> gives a true Bayesian estimate."
+WordNet(e1) = "formula%1:10:00::", WordNet(e2) = "title%1:10:00::", Theme-Tool(e2, e1) = "true", Query = "the * for * the"
+Comment: somebody/Agent rates/Verb titles/Theme using formula/Tool => true
+
+120 "Terrorists' <e1>aim</e1> is to influence presidential <e2>vote</e2>."
+WordNet(e1) = "aim%1:09:00::", WordNet(e2) = "vote%1:04:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: violates (ii); "aim" is a psychological feature
+
+121 "The entry into force of Protocol 14 to the Convention is a <e1>prerequisite</e1> for the <e2>reforms</e2> proposed by the Group of Wise Persons."
+WordNet(e1) = "prerequisite%1:09:00::", WordNet(e2) = "reform%1:04:01::", Theme-Tool(e2, e1) = "false", Query = "a * for the"
+Comment: "prerequisite" violates restriction (i)
+
+122 "This <e1>parser</e1> is used for parsing <e2>lists</e2> of comma or space separated SVG lengths."
+WordNet(e1) = "parser%1:10:00::", WordNet(e2) = "list%1:10:00::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: somebody/Agent parses/Verb lists/Theme using parser/Tool => true
+
+123 "Many tons of <e1>paper</e1> are used for printing <e2>tickets</e2>."
+WordNet(e1) = "paper%1:27:00::", WordNet(e2) = "ticket%1:10:01::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: somebody/Agent prints/Verb tickets/Theme using paper/Tool => true
+
+124 "U.S. policy decisions over the past several years, have helped to lay the <e1>groundwork</e1> for the latest round of <e2>talks</e2>, she said."
+WordNet(e1) = "groundwork%1:04:00::", WordNet(e2) = "talks%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "the * for the"
+Comment: "groundwork" violates restriction (i)
+
+125 "It is a <e1>tool</e1> for visualizing the <e2>topology</e2> of three-dimensional vector fields."
+WordNet(e1) = "tool%1:04:00::", WordNet(e2) = "topology%1:09:00::", Theme-Tool(e2, e1) = "true", Query = "a * for * the"
+Comment: somebody/Agent visualizes/Verb topology/Theme using tool/Tool => true
+
+126 "This public key <e1>algorithm</e1> is used for encrypting <e2>emails</e2>."
+WordNet(e1) = "algorithm%1:09:00::", WordNet(e2) = "email%1:10:00::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: somebody/Agent encrypts/Verb emails/Theme using algorithm/Tool => true
+
+127 "The first three arguments will set the environment variable object_is_image if the <e1>request</e1> was for an image <e2>file</e2>."
+WordNet(e1) = "request%1:10:01::", WordNet(e2) = "file%1:10:00::", Theme-Tool(e2, e1) = "true", Query = "* was for *"
+Comment: somebody/Agent requests/Verb file/Theme using request/Tool => true
+
+128 "The <e1>election</e1> for the two Legislative Yuan <e2>posts</e2> is scheduled for February 1."
+WordNet(e1) = "election%1:04:01::", WordNet(e2) = "post%1:04:00::", Theme-Tool(e2, e1) = "true", Query = "the * for the"
+Comment: people/Agent fill/Verb posts/Theme using election/Tool => true
+
+129 "The largest <e1>cutback</e1> was for <e2>projects</e2> in the Canadian region."
+WordNet(e1) = "cutback%1:04:00::", WordNet(e2) = "project%1:04:00::", Theme-Tool(e2, e1) = "true", Query = "* was for *"
+Comment: somebody/Agent reduces/Verb projects/Theme using cutback/Tool => true
+
+130 "This <e1>information</e1> is used for tracking down <e2>errors</e2> and also to identify people who misuse the commentary area."
+WordNet(e1) = "information%1:14:00::", WordNet(e2) = "error%1:11:00::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: people/Agent track/Verb errors/Theme using information/Tool => true
+
+131 "I've heard the <e1>stock</e1> <e2>market</e2> is making a recovery but it's a bit early to invest my money."
+WordNet(e1) = "stock%1:21:00::", WordNet(e2) = "market%1:14:01::", Theme-Tool(e1, e2) = "true", Query = "the * * is"
+Comment: somebody/Agent trades/Verb stock/Theme using market/Tool => true
+
+132 "The Office serves as the <e1>secretariat</e1> for the General Assembly's only <e2>committee</e2> dealing exclusively with international cooperation in the peaceful uses of space."
+WordNet(e1) = "secretariat%1:14:00::", WordNet(e2) = "committee%1:14:00::", Theme-Tool(e2, e1) = "false", Query = "the * for the"
+Comment: violates (f), e2 is Agent: "Office/Agent serves/Verb committee/Theme" and "Office serves as the secretariat", therefore "secretariat/Agent serves/Verb committee/Theme", i.e. e2 is Agent
+
+133 "We want to assist the Iraqi government in establishing the <e1>foundations</e1> for a sound <e2>economy</e2> with the capacity to deliver essential services."
+WordNet(e1) = "foundation%1:24:00::", WordNet(e2) = "economy%1:14:00::", Theme-Tool(e2, e1) = "false", Query = "the * for a"
+Comment: "foundations" violates restriction (i)
+
+134 "The judge held that the circuit court did not err, in light of the fact that the <e1>conviction</e1> was for felony <e2>murder</e2>, and given the weight of eyewitness testimony."
+WordNet(e1) = "conviction%1:04:00::", WordNet(e2) = "murder%1:04:00::", Theme-Tool(e2, e1) = "true", Query = "* was for *"
+Comment: this can be put in the form "e1 is for V-ing e2": conviction is for punishing murder; somebody/Agent punishes/Verb murder/Theme using conviction/Tool => true
+
+135 "The Federation is the <e1>voice</e1> for the <e2>humanities</e2> and social science researchers."
+WordNet(e1) = "voice%1:18:00::", WordNet(e2) = "humanities%1:09:00::", Theme-Tool(e2, e1) = "true", Query = "the * for the"
+Comment: somebody/Agent protects/Verb the humanities/Theme using a voice/Tool => true
+
+136 "The committee was instructed to come up with a document that can actually serve as a <e1>basis</e1> for a <e2>treaty</e2>."
+WordNet(e1) = "basis%1:09:00::", WordNet(e2) = "treaty%1:10:00::", Theme-Tool(e2, e1) = "false", Query = "the * for a"
+Comment: "basis" violates restriction (i)
+
+137 "This angle <e1>convention</e1> is used for self-rotation <e2>functions</e2>."
+WordNet(e1) = "convention%1:09:00::", WordNet(e2) = "function%1:24:00::", Theme-Tool(e2, e1) = "true", Query = "is used for"
+Comment: "angle convention" probably means radians versus degrees; somebody/Agent calculates/Verb functions/Theme using convention/Tool => true
+
+138 "The <e1>award</e1> was for his outstanding <e2>contribution</e2> to enterprise."
+WordNet(e1) = "award%1:10:00::", WordNet(e2) = "contribution%1:04:02::", Theme-Tool(e2, e1) = "true", Query = "* was for *"
+Comment: someone/Agent honors/Verb contribution/Theme using award/Tool => true
+
+139 "The <e1>funeral</e1> was for Hakim Taniwal, a tribal elder and provincial <e2>governor</e2> who was killed in a suicide attack outside his office on Sunday."
+WordNet(e1) = "funeral%1:11:00::", WordNet(e2) = "governor%1:18:00::", Theme-Tool(e2, e1) = "true", Query = "* was for *"
+Comment: people/Agent mourn/Verb the governor/Theme using funeral/Tool => true
+
+140 "The <e1>mission</e1> of the SETI Institute is to explore, understand and explain the origin, nature and prevalence of <e2>life</e2> in the universe."
+WordNet(e1) = "mission%1:04:00::", WordNet(e2) = "life%1:19:00::", Theme-Tool(e2, e1) = "false", Query = "* is to *"
+Comment: "mission" violates (h)
+

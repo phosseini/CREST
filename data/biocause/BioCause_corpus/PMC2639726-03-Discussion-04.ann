@@ -1,0 +1,10 @@
+T1	Organism 557 567	Salmonella
+T2	Organism 725 735	Salmonella
+T3	Organism 1036 1046	Salmonella
+T4	Process 155 164	virulence
+E1	Process:T4 
+T5	Span 394 598	In this study, cluster analysis was used to identify genes that show similar expression profiles under a variety of environmental conditions and from the isogenic Salmonella regulatory mutants we describe
+T6	Causality 883 887	Thus
+E2	Causality:T6 Effect:T7 Cause:T5
+T7	Span 888 1046	application of the CLR algorithm identified a very interesting group of genes that are co-regulated with SPI-2 and were horizontally transferred to Salmonella
+T8	Span 1761 1866	

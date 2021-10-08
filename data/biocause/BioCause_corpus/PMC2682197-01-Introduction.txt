@@ -1,0 +1,19 @@
+Introduction 
+Mycobacterium tuberculosis, one of the most successful human pathogens, infects one-third of the world's population, causing nearly two million deaths per year [1].
+Epidemiological data estimate that, in the immunocompetent host, only approximately10% of M. tuberculosis infection progress to active pulmonary disease.
+The remaining 90% of the infected individuals are asymptomatic, and are generally believed to harbor latent bacilli that can reactivate to cause tuberculous diseases, sometimes decades after the initial infection.
+Recrudescence of latent bacilli contributes significantly to the incidence of adult tuberculosis [2], yet the physiological state of latent bacilli and the signals that promote dormancy in the host remain incompletely defined.
+Understanding the dynamic interaction between host and pathogen during the establishment of persistent M. tuberculosis infection will guide the design of novel treatment for the latently infected population.
+An intracellular pathogen, M. tuberculosis must possess a finely tuned signaling network to sense and transduce complex environmental signals, ensuring survival of the bacilli within host cells.
+Nitric oxide (NO) produced by infected macrophages and relative hypoxia are signals likely to be encountered within tuberculous lesions that are believed, based on in vitro studies, to promote latency by prompting the M. tuberculosis dormancy response.
+Exposure to these stimuli results in the induction of approximately50 M. tuberculosis genes, designated the dormancy regulon, via the two-component regulatory system DosR-DosS (see Table S1 for accession numbers) [3],[4],[5].
+Among this set of genes is rv2623, one of eight M. tuberculosis genes annotated as containing the universal stress protein (USP) domain [6],[7].
+Members of this ancient and conserved family of proteins are found in all forms of life and can be induced by a variety of environmental stresses [8],[9].
+However, the roles of USP proteins in microbial pathogenesis are incompletely understood.
+Interestingly, rv2623 is one of the most strongly induced transcripts of the dormancy regulon [3],[4],[5].
+Increased expression of rv2623 was also observed following phagocytosis by macrophages [10] and in the lungs of chronically infected mice [11], supporting a functional role during persistent M. tuberculosis infection.
+The present study reveals that:
+i) deletion of rv2623 confers hypervirulence on the tubercle bacillus in animal models, suggesting that expression of Rv2623 may be conducive to the establishment of persistence in vivo;
+ii) overexpression of Rv2623 results in growth retardation of recipient strains in vitro, further supporting a growth-regulatory role;
+iii) Rv2623 binds ATP;
+and finally, through mutagenesis study guided by crystallographic analysis of Rv2623 (the first such study for a tandem-domain USP), we show that iv) the growth-regulating attribute of this M. tuberculosis USP is linked to its ATP-binding capacity.

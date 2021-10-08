@@ -1,0 +1,9 @@
+Results/Discussion 
+Adherence-Mediated Differential Expression We developed spotted oligonucleotide arrays of the S. pyogenes SF370 (an M1 serotype) genome [14] and compared the transcriptomes of streptococci that adhere to Detroit 562 human pharyngeal cells to non-adherent ("associated") streptococci within the same experiment.
+Adherence assays were performed as described [15] with modifications to minimize eukaryotic cell disruption.
+We replicated experiments independently and used dye-swaps to incorporate biological and technical variation [16,17].
+Following filtering and normalization [18,19], we analyzed data from four biological replicates [16] with robust summary statistics [20], Bayesian statistics [21,22], and permutation algorithms [19] to identify genes differentially expressed with significance during pharyngeal cell adherence.
+This analysis identified 79 genes (4% of the genome) exhibiting statistically significant fold changes in expression (PF value < 0.05) during adherence from 1,769 open reading frames represented on the array (Table 1).
+We refer to such genes as "differentially expressed." We present the entire dataset from all experiments as Table S1.
+Genes demonstrating upregulation (n = 45) and downregulation (n = 34) included virulence factors, prophage-encoded transcripts, metabolic genes, and transcriptional regulators (Table 2).
+Undefined or hypothetical genes comprised 27% of differentially expressed genes (n = 21; 11 chromosomally encoded genes, ten phage-encoded genes).

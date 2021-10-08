@@ -1,0 +1,55 @@
+T1	Organism 45 72	M. tuberculosis Deltarv2623
+T2	Protein 66 72	rv2623
+T3	Organism 327 338	Deltarv2623
+T4	Protein 332 338	rv2623
+T5	Organism 342 353	guinea pigs
+T6	Organism 370 374	mice
+T7	Protein 393 399	Rv2623
+T8	Organism 409 424	M. tuberculosis
+T9	Organism 482 505	Rv2623-deficient mutant
+T10	Protein 482 488	Rv2623
+T11	Organism 575 586	Deltarv2623
+T12	Protein 580 586	rv2623
+T13	Organism 684 699	M. tuberculosis
+T14	Chemical 744 760	superoxide anion
+T15	Chemical 762 765	O2-
+T16	Chemical 796 807	mitomycin C
+T17	Chemical 875 888	streptonigrin
+T18	Chemical 950 954	iron
+T19	Chemical 1048 1052	iron
+T20	Organism 1190 1197	E. coli
+T21	Chemical 1224 1228	iron
+T22	Organism 1347 1353	Erdman
+T23	Organism 1467 1482	M. tuberculosis
+T24	Protein 1483 1489	Rv2623
+T25	Organism 1629 1640	Deltarv2623
+T26	Protein 1634 1640	rv2623
+*	Equiv T14 T15
+T27	Process 309 323	hypervirulence
+T28	Process 700 709	infection
+T29	Positive_regulation 1493 1502	essential
+T30	Process 1507 1517	resistance
+T31	Process 1601 1615	hypervirulence
+E1	Process:T27 Participant:T3
+E2	Process:T28 Participant:T13
+E3	Positive_regulation:T29 Theme:E4 Cause:T24
+E4	Process:T30 
+E5	Process:T31 Participant:T25
+T32	Span 390 450	if Rv2623 provides M. tuberculosis protection against stress
+T33	Causality 452 477	it might be expected that
+E6	Causality:T33 Evidence:T32 Effect:T34
+T34	Span 478 533	the Rv2623-deficient mutant would be attenuated in vivo
+T35	Span 83 288	Although the functions of universal stress proteins have yet to be completely defined, there is evidence that many USPs play differential roles in protecting microbes against various environmental stresses
+T36	Causality 294 303	Therefore
+E7	Causality:T36 Effect:T37 Evidence:T35
+T37	Span 305 388	the hypervirulence of Deltarv2623 in guinea pigs and susceptible mice is intriguing
+T38	Span 864 1088	The use of streptonigrin, an antibiotic whose toxicity correlates with levels of free iron, was based on the observation that the intracellular environment of macrophages can induce a iron-scavenging response in mycobacteria
+T39	Causality 1095 1102	perhaps
+E8	Causality:T39 Effect:T38 Evidence:T41
+T40	Span 1103 1177	as a means of maintaining adequate levels of this important growth factor,
+T41	Span 1182 1235	that an E. coli USP was shown to regulate iron uptake
+E9	Causality:T39 Effect:T38 Evidence:T40
+T42	Span 1241 1395	The results showed that the mutant strain was no more susceptible to growth inhibition than was wild type Erdman under all of the stress conditions tested
+T43	Causality 1409 1446	These results support the notion that
+E10	Causality:T43 Effect:T44 Evidence:T42
+T44	Span 1447 1640	it is unlikely that M. tuberculosis Rv2623 is essential for resistance to stresses encountered in the host, which is consistent with the observed in vivo hypervirulence phenotype of Deltarv2623

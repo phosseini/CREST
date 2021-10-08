@@ -1,0 +1,176 @@
+T93	Process 59 68	infection
+T94	Process 249 258	infection
+T95	Process 400 409	virulence
+T96	Process 1033 1041	infected
+T97	Process 1225 1233	infected
+T98	Process 1565 1574	virulence
+T99	Negative_regulation 1905 1915	attenuated
+T100	Process 1920 1929	virulence
+T101	Process 2033 2042	infection
+T102	Process 2108 2117	infection
+T103	Process 2164 2173	avirulent
+T104	Process 2249 2258	infection
+T105	Process 2379 2388	virulence
+T106	Process 2403 2412	virulence
+T107	Process 2456 2465	virulence
+T108	Process 2496 2505	infection
+T109	Process 2779 2789	resistance
+T110	Process 2861 2870	infection
+T111	Process 2899 2907	infected
+T112	Process 3186 3196	attenuated
+T113	Process 4028 4037	infection
+T114	Transcription 4050 4063	transcription
+T115	Process 4286 4297	attenuation
+T116	Process 4346 4355	infection
+T117	Process 4432 4441	infection
+T118	Process 4554 4563	virulence
+E1	Process:T93 Participant:T1
+E2	Process:T94 Participant:T3
+E3	Process:T95 
+E4	Process:T96 
+E5	Process:T97 
+E6	Process:T98 
+E7	Negative_regulation:T99 Theme:E8
+E8	Process:T100 Participant:T41
+E9	Process:T101 
+E10	Process:T102 
+E11	Process:T103 
+M1	Negation E11
+E12	Process:T104 
+E13	Process:T105 
+E14	Process:T106 
+E15	Process:T107 
+E16	Process:T108 
+E17	Process:T109 
+E18	Process:T110 Participant:T49
+E19	Process:T111 
+E20	Process:T112 
+E21	Process:T113 
+E22	Transcription:T114 Theme:T77
+E23	Transcription:T114 Theme:T79
+E24	Transcription:T114 Theme:T80
+E25	Transcription:T114 Theme:T84
+E26	Transcription:T114 Theme:T85
+E27	Transcription:T114 Theme:T86
+E28	Transcription:T114 Theme:T87
+E29	Transcription:T114 Theme:T82
+E30	Transcription:T114 Theme:T83
+E31	Process:T115 
+E32	Process:T116 
+E33	Process:T117 
+E34	Process:T118 
+T1	Organism 9 19	Salmonella
+T2	Organism 53 58	mouse
+T3	Organism 69 80	Typhimurium
+T4	Chemical 298 304	carbon
+T5	Organism 608 628	bacteriophage lambda
+T6	Two-component-system 776 785	ssrA/ssrB
+T7	Protein 776 780	ssrA
+T8	Protein 781 785	ssrB
+T9	Protein 828 832	ssrA
+T10	Protein 834 838	ssrB
+T11	Two-component-system 892 901	phoP/phoQ
+T12	Protein 892 896	phoP
+T13	Protein 897 901	phoQ
+T14	Two-component-system 906 915	ompR/envZ
+T15	Protein 906 910	ompR
+T16	Protein 911 915	envZ
+T17	Organism 1016 1027	BALB/c mice
+T18	Organism 1234 1238	mice
+T19	Organism 1270 1274	mice
+T20	Protein 1362 1366	spvR
+T21	Protein 1368 1372	fruR
+T22	Protein 1374 1378	himD
+T23	Two-component-system 1380 1389	phoP/phoQ
+T24	Protein 1380 1384	phoP
+T25	Protein 1385 1389	phoQ
+T26	Two-component-system 1391 1400	ssrA/ssrB
+T27	Protein 1391 1395	ssrA
+T28	Protein 1396 1400	ssrB
+T29	Protein 1402 1406	slyA
+T30	Protein 1408 1411	hnr
+T31	Protein 1413 1417	rpoE
+T32	Protein 1419 1423	smpB
+T33	Protein 1425 1429	csrA
+T34	Protein 1431 1435	rpoS
+T35	Protein 1437 1440	crp
+T36	Two-component-system 1442 1451	ompR/envZ
+T37	Protein 1442 1446	ompR
+T38	Protein 1447 1451	envZ
+T39	Protein 1457 1460	hfq
+T40	Organism 1695 1699	mice
+T41	Organism 1835 1844	ATCC14028
+T42	Organism 2021 2032	BALB/c mice
+T43	Organism 2195 2199	mice
+T44	Organism 2201 2210	129X1/SvJ
+T45	Organism 2489 2495	BALB/c
+T46	Organism 2637 2651	129X1/SvJ mice
+T47	Organism 2747 2758	BALB/c mice
+T48	Protein 2821 2827	Nramp1
+T49	Organism 2849 2860	Typhimurium
+T50	Organism 2890 2894	mice
+T51	Organism 2984 2990	BALB/c
+T52	Organism 2992 3006	129X1/SvJ mice
+T53	Protein 3033 3039	Nramp1
+T54	Organism 3103 3108	mouse
+T55	Protein 3487 3491	rpoS
+T56	Protein 3496 3500	rpoE
+T57	Two-component-system 3529 3538	ompR/envZ
+T58	Protein 3529 3533	ompR
+T59	Protein 3534 3538	envZ
+T60	Two-component-system 3540 3549	phoP/phoQ
+T61	Protein 3540 3544	phoP
+T62	Protein 3545 3549	phoQ
+T63	Two-component-system 3555 3564	ssrA/ssrB
+T64	Protein 3555 3559	ssrA
+T65	Protein 3560 3564	ssrB
+T66	Protein 3628 3631	hnr
+T67	Protein 3635 3639	mviA
+T68	Protein 3675 3679	csrA
+T69	Protein 3681 3684	hfq
+T70	Protein 3689 3693	smpB
+T71	Protein 3757 3760	ihf
+T72	Protein 3811 3815	fruR
+T73	Protein 3817 3821	spvR
+T74	Protein 3823 3826	crp
+T75	Protein 3832 3836	slyA
+T76	Organism 4039 4049	Salmonella
+T77	Protein 4130 4134	rpoE
+T78	Two-component-system 4141 4150	phoP/phoQ
+T79	Protein 4141 4145	phoP
+T80	Protein 4146 4150	phoQ
+T81	Two-component-system 4157 4166	ssrA/ssrB
+T82	Protein 4157 4161	ssrA
+T83	Protein 4162 4166	ssrB
+T84	Protein 4173 4177	csrA
+T85	Protein 4184 4188	slyA
+T86	Protein 4195 4198	ihf
+T87	Protein 4205 4208	hfq
+T88	Protein 4317 4321	spvR
+T89	Protein 4487 4491	spvR
+T90	Organism 4548 4553	mouse
+T91	Organism 4676 4686	Salmonella
+T92	Protein 4801 4804	P22
+T119	Span 9 162	Salmonella regulators required for systemic mouse infection Typhimurium encodes a surfeit of regulators (more than 330 based on annotation cited in NCBI)
+T120	Causality 163 181	presumably because
+E35	Causality:T120 Evidence:T119 Effect:T121
+T121	Span 182 241	it can survive and replicate in many different environments
+T122	Causality 243 248	cause
+E36	Causality:T122 Effect:T123 Evidence:T119
+T123	Span 249 275	infection in diverse hosts
+T124	Span 281 344	can use multiple carbon sources and terminal electron acceptors
+E37	Causality:T120 Evidence:T119 Effect:T124
+T125	Span 1931 2019	The 14 deletion strains lacking regulators reported in this study were selected from i.p
+T126	Span 2021 2258	BALB/c mice infection to eliminate other regulators required only for gastrointestinal infection or persistence but most of these strains were avirulent in another strain of mice (129X1/SvJ) and by other route (intragastric) of infection
+T127	Causality 2275 2284	Therefore
+E38	Causality:T127 Effect:T128 Evidence:T126
+T128	Span 2285 2388	the regulators investigated in this study might be considered the most central regulators for virulence
+E39	Causality:T127 Effect:T128 Evidence:T125
+T129	Span 2747 2828	BALB/c mice are missing natural resistance-associated macrophage protein (Nramp1)
+T130	Causality 2829 2837	and thus
+E40	Causality:T130 Effect:T131 Evidence:T129
+T131	Span 2838 2967	succumb to Typhimurium infection within a week when mice are infected i.p. with less than 10 bacteria of the strain employed here
+T132	Span 4266 4441	The large degree of attenuation we observed for an spvR mutation following i.p. infection was surprising, as most studies had limited its effect to the i.g. route of infection
+T133	Causality 4443 4466	To validate this result
+E41	Causality:T133 Evidence:T134 Effect:T132
+T134	Span 4467 4563	we complemented the spvR mutation in trans and found complete complementation in mouse virulence

@@ -1,0 +1,7 @@
+Ex Vivo Virulence Studies 
+Changes in the regulatory potential of a pathogen are often accompanied by altered virulence.
+In a first attempt to determine the virulence of the complemented H37Ra knock-in strains relative to wild-type H37Ra and H37Rv, bone marrow-derived murine macrophages (BMM) were infected with the different strains at a multiplicity of infection (MOI) of 1:1 and 10:1 bacteria per cell.
+As depicted in Figure 1, macrophages were able to control ex vivo growth of H37Ra, but failed to control growth of H37Rv, confirming results from Freeman and colleagues [20].
+When H37Ra knock-ins were tested, important differences in their ex vivo growth characteristics were found.
+Whereas H37Ra::fadE5 (Figure 1) and H37Ra::rpsL (unpublished data) showed very little or no growth over the 7-d period, the H37Ra::phoP mutant grew more vigorously, with a 7.5-fold increase in colony-forming units (CFU) over the 7-d period.
+From these experiments we concluded that complementation of H37Ra with the phoP wild-type copy partially restored its virulence, but not to the extent of the fully virulent H37Rv strain.

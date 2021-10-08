@@ -1,0 +1,119 @@
+T1	Regulon-operon 44 57	PA3552-PA3559
+T2	Protein 44 50	PA3552
+T3	Protein 51 57	PA3559
+T4	Chemical 58 61	CAP
+T5	Organism 107 120	P. aeruginosa
+T6	Two-component-system 126 131	PhoPQ
+T7	Protein 126 130	PhoP
+T8	Protein 130 131	Q
+T9	Two-component-system 136 141	PmrAB
+T10	Protein 136 140	PmrA
+T11	Protein 140 141	B
+T12	Chemical 165 174	magnesium
+T13	Protein 216 222	PA3552
+T14	Regulon-operon 261 274	PA3552-PA3559
+T15	Protein 261 267	PA3552
+T16	Protein 268 274	PA3559
+T17	Chemical 302 306	Mg2+
+T18	Chemical 396 399	LPS
+T19	Chemical 468 475	lipid A
+T20	Chemical 514 518	CAPs
+T21	Chemical 595 599	Mg2+
+T22	Protein 687 690	lux
+T23	Protein 719 725	PA3553
+T24	Chemical 747 750	CAP
+T25	Protein 804 810	PA3553
+T26	Protein 812 815	lux
+T27	Chemical 965 968	CAP
+T28	Chemical 1121 1125	Mg2+
+T29	Protein 1193 1199	PA3553
+T30	Protein 1336 1342	PA3553
+T31	Protein 1344 1347	lux
+T32	Organism 1405 1418	P. aeruginosa
+T33	Organism 1446 1459	P. aeruginosa
+T34	Organism 1526 1539	P. aeruginosa
+T35	Organism 1598 1604	salmon
+T36	Chemical 1666 1675	magnesium
+T37	Protein 1835 1841	PA3553
+T38	Protein 1965 1971	PA3553
+T39	Protein 2033 2039	PA3553
+T40	Protein 2164 2170	PA3553
+T41	Chemical 2210 2214	Mg2+
+T42	Protein 2372 2378	PA3553
+T43	Positive_regulation 18 25	induces
+T44	Gene_expression 26 36	expression
+T45	Process 62 72	resistance
+T46	Regulation 142 152	controlled
+T47	Positive_regulation 199 208	induction
+T48	Regulation 279 291	co-regulated
+T49	Process 536 546	resistance
+T50	Gene_expression 633 643	expression
+T51	Process 751 761	resistance
+T52	Gene_expression 816 826	expression
+T53	Positive_regulation 840 847	induced
+T54	Process 969 979	resistance
+T55	Negative_regulation 1165 1174	repressed
+T56	Gene_expression 1179 1189	expression
+T57	Positive_regulation 1315 1324	induction
+T58	Positive_regulation 1822 1831	induction
+T59	Gene_expression 1842 1852	expression
+T60	Positive_regulation 1958 1964	induce
+T61	Gene_expression 1972 1987	gene expression
+T62	Positive_regulation 2026 2032	induce
+T63	Gene_expression 2040 2055	gene expression
+T64	Negative_regulation 2141 2150	abolished
+T65	Positive_regulation 2151 2160	induction
+T66	Negative_regulation 2362 2371	abolished
+T67	Gene_expression 2379 2394	gene expression
+E1	Positive_regulation:T43 Theme:E2
+E2	Gene_expression:T44 Theme:T1
+E3	Process:T45 
+E4	Regulation:T46 Theme:E6 Cause:T6
+E5	Regulation:T46 Theme:E6 Cause:T9
+E6	Positive_regulation:T47 Theme:T13
+E7	Regulation:T48 Theme:T14
+E8	Process:T49 
+E9	Gene_expression:T50 Theme:T22
+E10	Gene_expression:T50 Theme:T23
+E11	Process:T51 
+E12	Gene_expression:T52 Theme:T25
+E13	Gene_expression:T52 Theme:T26
+E14	Positive_regulation:T53 Theme:E12
+E15	Positive_regulation:T53 Theme:E13
+E16	Process:T54 
+E17	Negative_regulation:T55 Theme:E18 Cause:T28
+E18	Gene_expression:T56 Theme:T29
+E19	Positive_regulation:T57 Theme:T30
+E20	Positive_regulation:T57 Theme:T31
+E21	Positive_regulation:T58 Theme:E22
+E22	Gene_expression:T59 Theme:T37
+E23	Positive_regulation:T60 Theme:E24
+E24	Gene_expression:T61 Theme:T38
+E25	Positive_regulation:T62 Theme:E26
+E26	Gene_expression:T63 Theme:T39
+E27	Negative_regulation:T64 Theme:E28
+E28	Positive_regulation:T65 Theme:T40
+E29	Negative_regulation:T66 Theme:E30
+E30	Gene_expression:T67 Theme:T42
+T68	Span 374 518	These genes encode an LPS modification pathway required for the addition of aminoarabinose to lipid A, which reduces the OM permeability to CAPs
+T69	Causality 520 524	thus
+E31	Causality:T69 Effect:T70 Evidence:T68
+T70	Span 525 546	conferring resistance
+T71	Causality 1616 1620	Thus
+E32	Causality:T71 Effect:T75 Evidence:T76
+T72	Span 1102 1294	Addition of excess Mg2+ (5 mM) to the growth medium completely repressed the expression of PA3553 in cultures supplemented with DNA, except at the highest DNA concentration tested (0.5% (w/v))
+T73	Causality 1723 1738	indicating that
+E33	Causality:T73 Evidence:T75 Effect:T74
+T74	Span 1739 1805	chelation is a general property of this negatively charged polymer
+T75	Span 1622 1721	the ability of extracellular DNA to chelate magnesium is independent of origin and molecular weight
+T76	Span 948 1091	Induction of the CAP resistance operon was dose-dependent with increasing DNA concentrations up to 0.5% (w/v) DNA, at which growth is inhibited
+E34	Causality:T71 Effect:T75 Evidence:T72
+T77	Span 2057 2170	However the addition of DNAse buffer to cells in our buffer control experiment also abolished induction of PA3553
+T78	Causality 2172 2186	This is due to
+E35	Causality:T78 Effect:T79 Evidence:T77
+T79	Span 2187 2285	the addition of excess Mg2+ ions as part of the DNAse buffer, which is required for DNAse activity
+T80	Span 2172 2285	This is due to the addition of excess Mg2+ ions as part of the DNAse buffer, which is required for DNAse activity
+T81	Causality 2287 2291	Thus
+E36	Causality:T81 Effect:T82 Evidence:T77
+T82	Span 2293 2394	it is impossible to determine conclusively if DNAse treatment of DNA abolished PA3553 gene expression
+E37	Causality:T81 Effect:T82 Evidence:T80

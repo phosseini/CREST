@@ -1,0 +1,33 @@
+Discussion 
+During systemic mouse infection, Salmonella processes multiple environmental cues via more than 14 regulators
+We performed virulence assays on 83 regulators previously identified as required for Salmonella enteriditis virulence by one or more negative selection experiments in various hosts including calves, chickens, and mice [13], [21]-[23].
+The mutant strains devoid of 83 regulators were tested in three mouse virulence assays to identify a subset of 14 that were most highly attenuated in a systemic mouse infection model.
+These 14 regulators are very diverse including alternative sigma factors (rpoS and rpoE), two-component regulators (ompR/envZ, phoP/phoQ, and ssrA/ssrB), post-transcriptional regulators (csrA, hfq and smpB), a bending protein (ihf) and an assortment of other DNA binding proteins (fruR, spvR, crp, slyA, and hnr; see Table 1 for references).
+Salmonella follows a short course of infection after intraperitoneal infection, as we have used here, passing through the lymph nodes in the peritoneal cavity to the blood stream and then colonizing and replicating within the spleen and liver.
+During this entire trip the bacteria are located within cells either neutrophiles or monocytes although at lower numbers in B and T cells and dendritic cells of every subclass [16],[37],[38],[65],[66].
+Because the bacteria are exclusively intracellular we tested the hypothesis that replication in macrophages could be a surrogate for systemic mouse infection.
+Mutations that were attenuated for growth in primary macrophages were also attenuated in the mouse but the converse was not always true.
+Next, we used expression profiling to define the regulatory pathways.
+Transcriptional profiles from intracellular bacteria at different times after infection are likely to match most closely the environments encountered by Salmonella during infection.
+However, isolation of RNA from intracellular bacteria was not used because we wished to test a spectrum of regulatory mutants several of which simply did not survive within cells long enough to allow RNA preparation.
+RNA was therefore prepared using four laboratory growth conditions two of which partially mimic the intracellular environment (acidic minimal media).
+We compared the transcriptional profiles we observed using laboratory growth conditions that mimic intracellular conditions, to those that have been performed during intracellular replication within J774 macrophage like cells.
+We computed the z-score for each Salmonella gene from our data and from the data provided by Eriksson et al. [67] thus providing a value that can be compared across different experiments.
+To compare the two sets of data we subtracted the z-scores computed from our data for AMM1 from that computed from expression profiles of intracellular Salmonella.
+As the expression pattern changes with time after infection we computed the difference for each time as well as an average for all three-time points reported (4, 8, and 12 hours after infection).
+There were 102 genes where the difference in z-score was 2 or greater, and 54 genes of 102 were annotated as putative, hypothetical, or conserved hypothetical.
+Four of the 5 most strongly differentially induced genes include magnesium transporters (mgtB and mgtC), an acid shock protein (STM1485), and a high affinity phosphate transporter (pstS) suggesting that the acidic minimal media we used may not be low enough in magnesium, phosphate, or may not be sufficiently acidic.
+Many genes are transcribed inside cells but may be only weakly transcribed or not at all transcribed in acidic minimal media.
+Examples of such genes include sifA and the operon STM3117-3120.
+This operon encodes some of the most abundantly expressed proteins by intracellular Salmonella.
+This result is striking, given that STM3117-3120 are not transcribed under a variety of in vitro conditions including AMM1 and 2 and the many conditions corresponding to the transcriptional profiles reported for microarrays archived in GEO ([68], J. McDermott and L Shi, Unpubl. Obs.).
+The nature of the inducing signal(s) that results in expression of these genes during intracellular growth is not known.
+The regulatory network controlling expression of the genes necessary for systemic infection is complex.
+In our transcriptional network each pink node represents a regulator (Figure 6 B) and lines represent positive or negative transcriptional interactions (positive in red and negative in blue).
+In E. coli most regulation has been shown to follow one of three motifs: feedforward in which a regulator controls a second regulator, single input in which a regulator uniquely controls a set of downstream genes, and so called dense overlapping regulons in which there are multiple regulatory inputs to a single operon [69].
+A feedforward loop can act as an electronic "AND-gate" preventing expression except when two or more signals are sensed as we see for slyA (upstream) and ssrB (downstream); fruR (upstream) and crp (downstream).
+Many of these predicted relationships have been demonstrated already but some are new and merit further investigation.
+The single input motif is found in systems of genes that form a protein complex such as both of the type III secretion systems in Salmonella.
+For SPI-2 ssrB plays this role and for SPI-1 hilA is the central regulator.
+The multiple promoters located within SPI-2 presumably respond to differences in ssrB/slyA activation, perhaps establishing part of the temporal order of expression following phagocytosis of Salmonella.
+There are other regulators required for systemic infection in BALB/c mice, including those whose absence reduces viability without a compensating mutation (hns; [70]), those that require deletion of two unlinked genes for inactivation (ppGpp; reviewed in [71] and ydgT/hha [48]), or those that were simply missed in the screens (STM0410; [72]); these regulators will be included in subsequent analyses.

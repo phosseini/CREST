@@ -1,0 +1,56 @@
+T1	Protein 14 18	bfiS
+T2	Protein 20 24	bfmR
+T3	Protein 30 34	mifR
+T4	Protein 193 197	BfiS
+T5	Protein 199 205	PA4197
+T6	Protein 208 212	BfmR
+T7	Protein 214 220	PA4101
+T8	Protein 226 230	MifR
+T9	Protein 232 238	PA5511
+T10	Organism 291 304	P. aeruginosa
+T11	Chemical 825 834	arabinose
+T12	Chemical 853 862	arabinose
+T13	Organism 1069 1082	P. aeruginosa
+T14	Protein 1155 1159	bfiS
+T15	Protein 1161 1165	bfmR
+T16	Protein 1171 1175	mifR
+T17	Chemical 1194 1203	arabinose
+T18	Organism 1295 1304	DeltabfiS
+T19	Protein 1300 1304	bfiS
+T20	Organism 1309 1325	DeltabfmR mutant
+T21	Protein 1314 1318	bfmR
+T22	Chemical 1397 1406	arabinose
+T23	Chemical 1634 1643	arabinose
+T24	Organism 2004 2017	P. aeruginosa
+*	Equiv T4 T5
+*	Equiv T6 T7
+*	Equiv T8 T9
+T25	Gene_expression 0 10	Expression
+T26	Negative_regulation 499 511	inactivation
+T27	Negative_regulation 1147 1151	Loss
+T28	Gene_expression 1176 1186	expression
+E1	Gene_expression:T25 Theme:T1
+E2	Gene_expression:T25 Theme:T2
+E3	Gene_expression:T25 Theme:T3
+E4	Negative_regulation:T26 Theme:T4
+E5	Negative_regulation:T26 Theme:T6
+E6	Negative_regulation:T26 Theme:T8
+E7	Negative_regulation:T27 Theme:E10
+E8	Negative_regulation:T27 Theme:E11
+E9	Negative_regulation:T27 Theme:E12
+E10	Gene_expression:T28 Theme:T14
+E11	Gene_expression:T28 Theme:T15
+E12	Gene_expression:T28 Theme:T16
+T29	Span 0 159	Expression of bfiS, bfmR, and mifR is required for maintenance of normal biofilm architecture while loss of expression results in biofilm architecture collapse
+T30	Causality 161 192	Our observations indicated that
+E13	Causality:T30 Effect:T31 Evidence:T29
+T31	Span 193 322	BfiS (PA4197), BfmR (PA4101) and MifR (PA5511) are essential in the stage-specific development of P. aeruginosa biofilm formation
+T32	Span 1147 1289	Loss of bfiS, bfmR, and mifR expression due to arabinose removal resulted in the collapse of the mutant biofilm architecture within three days
+T34	Span 1429 1599	he collapse was apparent by significant reduction (P<0.05) of biofilm variables including biofilm biomass and thickness, which further decreased upon continued incubation
+T35	Causality 1886 1915	These findings indicated that
+E14	Causality:T35 Effect:T36 Evidence:T33
+T33	Span 1619 1775	Post 144 hr of arabinose removal, the biofilm architecture of the complemented mutants was similar to mutant biofilms lacking the respective regulatory gene
+T36	Span 1916 2079	the three novel regulators are not only essential for the stage-specific progression of P. aeruginosa biofilms but also in the maintenance of the biofilm structure
+E15	Causality:T35 Effect:T36 Evidence:T34
+E16	Causality:T35 Effect:T36 Evidence:T32
+T37	Span 2813 3006	

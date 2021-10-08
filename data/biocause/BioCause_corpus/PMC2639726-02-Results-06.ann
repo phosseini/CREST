@@ -1,0 +1,29 @@
+T8	Process 137 146	infection
+T9	Process 1735 1744	virulence
+E1	Process:T8 
+E2	Process:T9 
+T1	Protein 750 754	ssrB
+T2	Protein 1571 1575	slyA
+T3	Protein 1580 1584	ssrB
+T4	Protein 1669 1673	slyA
+T5	Two-component-system 1678 1687	ssrA/ssrB
+T6	Protein 1678 1682	ssrA
+T7	Protein 1683 1687	ssrB
+T10	Span 51 146	The fact that all of the 14 regulators in this study have biological functions during infection
+T11	Causality 147 155	suggests
+E3	Causality:T11 Effect:T12 Evidence:T10
+T12	Span 156 199	they could be part of a coordinated network
+T13	Span 1063 1120	We visualized the resulting relationships using Cytoscape
+T14	Span 1127 1233	Nodes indicate regulators or SPI-2 and red and blue arrows indicate activation and repression respectively
+T15	Causality 1127 1127	
+E4	Causality:T15 Effect:T14 Evidence:T13
+T16	Span 1251 1355	In the computed network multiple regulators act both directly and indirectly to control SPI-2 expression
+T17	Causality 1638 1663	The network suggests that
+E5	Causality:T17 Effect:T18 Evidence:T16
+T18	Span 1664 1819	both slyA and ssrA/ssrB could coordinate regulation of SPI-2 and other virulence factors by integrating signals from multiple regulators as was tested next
+T19	Span 1483 1617	all regulatory effects on SPI-2 have been removed except for those mediated directly by slyA and ssrB based on additional genetic data
+E6	Causality:T17 Effect:T18 Evidence:T19
+T20	Span 2190 2296	The consensus network combining all data reported in this study includes the network computed from qRT-PCR
+T21	Causality 2321 2329	suggests
+E7	Causality:T21 Evidence:T20 Effect:T22
+T22	Span 2330 2380	a predictive regulatory cascade that merits a test

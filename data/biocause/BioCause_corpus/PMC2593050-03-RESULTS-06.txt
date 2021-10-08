@@ -1,0 +1,7 @@
+Intranasal DeltavicK Infection Induces SeM-Specific Mucosal IgA and Systemic IgG 
+To examine the humoral immune responses in the intranasal DeltavicK infection, nasal wash and serum samples were collected from the 8 mice infected intranasally with DeltavicK and 3 surviving mice infected with the wild-type S. equi 30 days after infection.
+Half of the nasal wash samples from the mice infected with DeltavicK had similar levels of SeM38-260-IgA reactivity with those from the mice infected with the wild-type strains.
+Similarly, these 4 mice with higher IgA levels also had higher levels of SeM-specific systemic IgG (Fig. 5B).
+Western blotting analysis was used to confirm the presence of SeM-specific IgG.
+The wild-type sera and 5 of the 8 DeltavicK samples had strong immunoreactions with SeM38-260 in Western blotting analysis (Fig. 5C).
+Thus, the DeltavicK mutant has the ability to induce mucosal and systemic immune responses, though there was host variation in these responses caused by DeltavicK infection.

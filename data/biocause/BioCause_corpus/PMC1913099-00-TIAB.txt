@@ -1,0 +1,8 @@
+Novel Algorithms Reveal Streptococcal Transcriptomes and Clues about Undefined Genes 
+Bacteria-host interactions are dynamic processes, and understanding transcriptional responses that directly or indirectly regulate the expression of genes involved in initial infection stages would illuminate the molecular events that result in host colonization.
+We used oligonucleotide microarrays to monitor (in vitro) differential gene expression in group A streptococci during pharyngeal cell adherence, the first overt infection stage.
+We present neighbor clustering, a new computational method for further analyzing bacterial microarray data that combines two informative characteristics of bacterial genes that share common function or regulation: (1) similar gene expression profiles (i.e., co-expression); and (2) physical proximity of genes on the chromosome.
+This method identifies statistically significant clusters of co-expressed gene neighbors that potentially share common function or regulation by coupling statistically analyzed gene expression profiles with the chromosomal position of genes.
+We applied this method to our own data and to those of others, and we show that it identified a greater number of differentially expressed genes, facilitating the reconstruction of more multimeric proteins and complete metabolic pathways than would have been possible without its application.
+We assessed the biological significance of two identified genes by assaying deletion mutants for adherence in vitro and show that neighbor clustering indeed provides biologically relevant data.
+Neighbor clustering provides a more comprehensive view of the molecular responses of streptococci during pharyngeal cell adherence.

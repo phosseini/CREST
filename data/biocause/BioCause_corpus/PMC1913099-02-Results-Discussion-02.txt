@@ -1,0 +1,6 @@
+Verification by Quantitative Real-Time PCR 
+We conducted TaqMan (qRT-PCR) analysis [23] of 11 differentially expressed genes to validate selected microarray hybridization results (see Table S2 for genes and primer-probe sequences).
+Five genes chosen for validation demonstrated statistically significant fold changes in expression by microarray analysis (PF value < 0.05; two upregulated, three downregulated).
+The remaining six genes (four upregulated, two downregulated) did not have significant PF values, but were statistically significant as members of particular neighbor clusters in subsequent analyses (PE < 0.05) as detailed in later sections).
+We averaged the data to generate a value for each gene, creating a set of 11 paired values from quantitative real-time (qRT)-PCR and microarray analyses (Table S3).
+Results of standard linear regression analysis demonstrated a strong positive correlation (r = 0.9) between data obtained using the different techniques (see Figure S1).

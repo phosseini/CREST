@@ -1,0 +1,54 @@
+T25	Negative_regulation 13 22	represses
+T26	Binding 31 38	binding
+T27	Entity 46 57	P3 promoter
+T28	Negative_regulation 148 157	represses
+T29	Entity 167 178	P3 promoter
+T30	Binding 898 905	binding
+T31	Entity 925 936	P3 promoter
+T32	Regulation 1550 1558	regulate
+T33	Entity 1577 1588	P3 promoter
+T34	Binding 1592 1599	binding
+T35	Entity 1607 1615	promoter
+E1	Negative_regulation:T25 Theme:T2 Cause:E2
+E2	Binding:T26 Theme1:T1 Theme2:T2 Site2:T27
+E3	Negative_regulation:T28 Theme:T5 Site:T29 Cause:T4
+M1	Speculation E3
+E4	Binding:T30 Theme1:T14 Theme2:T15 Site2:T31
+E5	Regulation:T32 Theme:T24 Site:T33 Cause:E6
+E6	Binding:T34 Theme1:T23 Theme2:T24 Site2:T35
+T1	Protein 0 3	Mlc
+T2	Protein 23 27	hilE
+T3	Protein 114 117	Mlc
+T4	Protein 135 138	Mlc
+T5	Protein 162 166	hilE
+T6	Protein 184 187	Mlc
+T7	Organism 217 224	E. coli
+T8	Chemical 261 265	Ni2+
+T9	Protein 320 323	Mlc
+T10	Organism 411 421	Salmonella
+T11	Protein 464 467	Mlc
+T12	Protein 516 520	hilE
+T13	Protein 586 589	Mlc
+T14	Protein 909 912	Mlc
+T15	Protein 920 924	hilE
+T16	Protein 971 974	Mlc
+T17	Protein 1045 1048	Mlc
+T18	Protein 1054 1057	Mlc
+T19	Protein 1101 1104	Mlc
+T20	Protein 1147 1150	Mlc
+T21	Protein 1204 1208	hilE
+T22	Protein 1341 1344	Mlc
+T23	Protein 1542 1545	Mlc
+T24	Protein 1572 1576	hilE
+T39	Span 767 846	The addition of cold probe released the labeled probe from the retarded complex
+T40	Causality 873 888	which indicates
+E8	Causality:T40 Evidence:T39 Effect:T41
+T41	Span 889 940	specific binding of Mlc to the hilE P3 promoter DNA
+T42	Span 942 1048	The precise locations of the Mlc-binding sites were determined by DNase I footprinting with His-tagged Mlc
+T43	Span 1050 1228	Two Mlc-binding sites, one at position -10 to +12 (Mlc 1) and the other at position -86 to -108 (Mlc 2) with respect to the transcriptional start site of hilE P3, were identified
+T44	Span 1242 1484	Inspection of the DNA sequences at these sites showed high-level homology with the known consensus Mlc-binding sequence, which has the conserved TT-9bp-AA motif and an AT-rich region at positions +/-7 to +/-11, showing imperfect dyad symmetry
+T45	Causality 1503 1541	These results clearly demonstrate that
+E9	Causality:T45 Effect:T46 Evidence:T42
+T46	Span 1542 1615	Mlc can regulate directly the hilE P3 promoter by binding to the promoter
+E10	Causality:T45 Effect:T46 Evidence:T43
+E11	Causality:T45 Effect:T46 Evidence:T44

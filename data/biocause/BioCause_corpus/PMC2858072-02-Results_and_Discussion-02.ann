@@ -1,0 +1,274 @@
+*	Equiv T3 T4
+*	Equiv T5 T6
+*	Equiv T7 T8
+*	Equiv T9 T10
+*	Equiv T11 T12
+*	Equiv T13 T14
+*	Equiv T15 T16
+*	Equiv T17 T18
+*	Equiv T19 T20
+*	Equiv T21 T22
+*	Equiv T27 T29
+*	Equiv T31 T33
+*	Equiv T34 T36
+*	Equiv T47 T49
+*	Equiv T50 T51
+*	Equiv T79 T80
+*	Equiv T83 T84
+*	Equiv T85 T86
+*	Equiv T113 T114
+*	Equiv T122 T123
+T152	Gene_expression 185 194	expressed
+T153	Positive_regulation 651 663	up-regulated
+T154	Regulation 1449 1457	affected
+T155	Negative_regulation 1540 1554	down-regulated
+T156	Negative_regulation 1595 1615	negatively regulated
+T157	Negative_regulation 2370 2384	down regulated
+T158	Positive_regulation 2483 2495	up regulated
+T159	Regulation 2597 2605	affected
+T160	Negative_regulation 3708 3722	down-regulated
+T161	Gene_expression 3872 3881	expressed
+T162	Positive_regulation 3886 3898	up-regulated
+T163	Gene_expression 4344 4353	expressed
+T164	Binding 4704 4712	interact
+T165	Regulation 4816 4823	control
+T166	Transcription 4824 4837	transcription
+T167	Regulation 5172 5179	control
+E1	Gene_expression:T152 Theme:T3
+E2	Gene_expression:T152 Theme:T21
+E3	Gene_expression:T152 Theme:T23
+E4	Gene_expression:T152 Theme:T24
+E5	Gene_expression:T152 Theme:T5
+E6	Gene_expression:T152 Theme:T7
+E7	Gene_expression:T152 Theme:T9
+E8	Gene_expression:T152 Theme:T11
+E9	Gene_expression:T152 Theme:T13
+E10	Gene_expression:T152 Theme:T15
+E11	Gene_expression:T152 Theme:T17
+E12	Gene_expression:T152 Theme:T19
+E13	Positive_regulation:T153 Theme:T27
+E14	Positive_regulation:T153 Theme:T31
+E15	Positive_regulation:T153 Theme:T34
+E16	Positive_regulation:T153 Theme:T38
+E17	Positive_regulation:T153 Theme:T40
+E18	Positive_regulation:T153 Theme:T42
+E19	Positive_regulation:T153 Theme:T43
+E20	Positive_regulation:T153 Theme:T45
+E21	Positive_regulation:T153 Theme:T47
+E22	Positive_regulation:T153 Theme:T50
+E23	Regulation:T154 Theme:T53
+E24	Negative_regulation:T155 Theme:T56
+E25	Negative_regulation:T155 Theme:T57
+E26	Negative_regulation:T155 Theme:T58
+E27	Negative_regulation:T155 Theme:T59
+E28	Negative_regulation:T155 Theme:T60
+E29	Negative_regulation:T156 Theme:T53
+E30	Negative_regulation:T157 Theme:T79
+E31	Positive_regulation:T158 Theme:T83
+E32	Positive_regulation:T158 Theme:T85
+E33	Regulation:T159 Theme:T87
+E34	Regulation:T159 Theme:T88
+E35	Negative_regulation:T160 Theme:T113
+E36	Gene_expression:T161 Theme:T122
+E37	Positive_regulation:T162 Theme:T122
+E38	Gene_expression:T163 Theme:T131
+E39	Binding:T164 Theme:T136
+E40	Regulation:T165 Theme:E41 Cause:T137
+E41	Transcription:T166 Theme:T138
+E42	Regulation:T167 Theme:T141 Cause:T142
+T1	Chemical 14 20	carbon
+T2	Chemical 25 33	nitrogen
+T3	Protein 256 260	matE
+T4	Protein 262 271	BAB1_0340
+T5	Protein 273 277	dctM
+T6	Protein 279 288	BAB1_0372
+T7	Protein 290 294	fhuD
+T8	Protein 296 305	BAB1_1366
+T9	Protein 307 311	yadH
+T10	Protein 313 322	BAB1_1368
+T11	Protein 324 328	oppA
+T12	Protein 330 339	BAB1_1601
+T13	Protein 341 345	oppC
+T14	Protein 347 356	BAB2_1051
+T15	Protein 358 362	oppD
+T16	Protein 364 373	BAB2_0817
+T17	Protein 375 379	potC
+T18	Protein 381 391	BAB1_ 1624
+T19	Protein 393 397	ssuB
+T20	Protein 399 408	BAB2_0917
+T21	Protein 410 414	ugpC
+T22	Protein 416 425	BAB2_1143
+T23	Protein 427 436	BAB2_0794
+T24	Protein 438 447	BAB2_1139
+T25	Organism 671 682	bvrR mutant
+T26	Protein 671 675	bvrR
+T27	Protein 736 740	pckA
+T28	Chemical 742 761	phosphoenolpyruvate
+T29	Protein 777 786	BAB1_2091
+T30	Chemical 826 834	pyruvate
+T31	Protein 847 851	fumB
+T32	Chemical 853 861	fumarate
+T33	Protein 873 882	BAB1_0977
+T34	Protein 884 888	lpdA
+T35	Chemical 890 906	dihydrolipoamide
+T36	Protein 922 931	BAB2_0712
+T37	Chemical 933 941	pyruvate
+T38	Protein 957 966	BAB2_0032
+T39	Chemical 968 978	acetyl-CoA
+T40	Protein 998 1007	BAB2_0443
+T41	Chemical 1066 1074	aldehyde
+T42	Protein 1091 1100	BAB2_1130
+T43	Protein 1102 1111	BAB2_1114
+T44	Chemical 1113 1138	hydroxymethylglutaryl-CoA
+T45	Protein 1146 1155	BAB1_0017
+T46	Chemical 1183 1191	benzoate
+T47	Protein 1205 1209	pcaC
+T48	Chemical 1211 1231	carboxymuconolactone
+T49	Protein 1247 1256	BAB2_0597
+T50	Protein 1258 1262	pcaI
+T51	Protein 1288 1297	BAB2_0604
+T52	Organism 1354 1362	Brucella
+T53	Regulon-operon 1424 1438	BAB1_0236-0248
+T54	Protein 1424 1433	BAB1_0236
+T55	Protein 1434 1438	0248
+T56	Protein 1489 1493	malK
+T57	Protein 1495 1499	malG
+T58	Protein 1501 1505	malF
+T59	Protein 1507 1511	malE
+T60	Protein 1519 1523	iclR
+T61	Organism 1623 1634	bvrR mutant
+T62	Protein 1623 1627	bvrR
+T63	Two-component-system 1688 1697	BvrR/BvrS
+T64	Protein 1688 1692	BvrR
+T65	Protein 1693 1697	BvrS
+T66	Two-component-system 1828 1837	BvrR/BvrS
+T67	Protein 1828 1832	BvrR
+T68	Protein 1833 1837	BvrS
+T69	Organism 1898 1906	Brucella
+T70	Two-component-system 2025 2034	BvrR/BvrS
+T71	Protein 2025 2029	BvrR
+T72	Protein 2030 2034	BvrS
+T73	Organism 2066 2077	bvrR mutant
+T74	Protein 2066 2070	bvrR
+T75	Organism 2174 2185	bvrR mutant
+T76	Protein 2174 2178	bvrR
+T77	Organism 2275 2286	bvrR mutant
+T78	Protein 2275 2279	bvrR
+T79	Protein 2349 2353	nirK
+T80	Protein 2355 2364	BAB2_0943
+T81	Chemical 2393 2405	nitric oxide
+T82	Chemical 2410 2423	nitrous oxide
+T83	Protein 2443 2448	nor C
+T84	Protein 2450 2459	BAB2_0955
+T85	Protein 2461 2465	nosZ
+T86	Protein 2467 2476	BAB2_0928
+T87	Protein 2546 2555	BAB2_0863
+T88	Protein 2576 2585	BAB1_0383
+T89	Organism 2613 2621	Brucella
+T90	Chemical 2737 2743	oxygen
+T91	Chemical 2772 2779	nitrate
+T92	Organism 2781 2789	Brucella
+T93	Chemical 2846 2858	nitric oxide
+T94	Chemical 2860 2862	NO
+T95	Organism 3024 3028	mice
+T96	Two-component-system 3124 3133	BvrR/BvrS
+T97	Protein 3124 3128	BvrR
+T98	Protein 3129 3133	BvrS
+T99	Protein 3183 3187	norC
+T100	Protein 3217 3221	nirK
+T101	Protein 3226 3230	nosZ
+T102	Two-component-system 3324 3333	BvrR/BvrS
+T103	Protein 3324 3328	BvrR
+T104	Protein 3329 3333	BvrS
+T105	Chemical 3394 3402	nitrogen
+T106	Chemical 3417 3419	NO
+T107	Chemical 3487 3493	carbon
+T108	Chemical 3498 3506	nitrogen
+T109	Two-component-system 3522 3531	BvrR/BvrS
+T110	Protein 3522 3526	BvrR
+T111	Protein 3527 3531	BvrS
+T112	Organism 3535 3543	Brucella
+T113	Protein 3585 3590	hpr-K
+T114	Protein 3592 3601	BAB1_2094
+T115	Organism 3620 3628	Brucella
+T116	Protein 3661 3670	BAB1_2097
+T117	Protein 3671 3675	2094
+T118	Two-component-system 3693 3702	bvrR/bvrS
+T119	Protein 3693 3697	bvrR
+T120	Protein 3698 3702	bvrS
+T121	Chemical 3745 3764	phosphoenolpyruvate
+T122	Protein 3785 3789	pckA
+T123	Protein 3791 3800	BAB1_2091
+T124	Protein 3851 3855	bvrR
+T125	Two-component-system 3961 3970	bvrR/bvrS
+T126	Protein 3961 3965	bvrR
+T127	Protein 3966 3970	bvrS
+T128	Protein 4136 4139	HPr
+T129	Chemical 4176 4183	mannose
+T130	Protein 4197 4200	HPr
+T131	Protein 4324 4328	pckA
+T132	Chemical 4440 4452	oxaloacetate
+T133	Chemical 4461 4480	phosphoenolpyruvate
+T134	Protein 4533 4536	HPr
+T135	Organism 4681 4689	Brucella
+T136	Protein 4722 4726	BvrS
+T137	Protein 4805 4809	BvrR
+T138	Protein 4845 4849	pckA
+T139	Protein 5020 5024	bvrR
+T140	Organism 5122 5136	A. tumefaciens
+T141	Protein 5141 5145	pckA
+T142	Two-component-system 5183 5192	ChvG/ChvI
+T143	Protein 5183 5187	ChvG
+T144	Protein 5188 5192	ChvI
+T145	Organism 5223 5234	S. meliloti
+T146	Protein 5235 5239	exoS
+T147	Protein 5244 5248	chvI
+T148	Chemical 5316 5322	carbon
+T149	Chemical 5352 5358	carbon
+T150	Chemical 5363 5371	nitrogen
+T151	Organism 5553 5561	Brucella
+T168	Span 1459 1554	Ten of these genes, including malK, malG, malF, malE and an iclR regulator, were down-regulated
+T169	Causality 1555 1570	suggesting that
+E43	Causality:T169 Effect:T170 Evidence:T168
+T170	Span 1571 1634	the complete operon was negatively regulated in the bvrR mutant
+T171	Span 196 560	These included twelve genes encoding ABC transport systems (matE, BAB1_0340; dctM, BAB1_0372; fhuD, BAB1_1366; yadH, BAB1_1368; oppA, BAB1_1601; oppC, BAB2_1051; oppD, BAB2_0817; potC, BAB1_ 1624; ssuB, BAB2_0917; ugpC, BAB2_1143; BAB2_0794; BAB2_1139), ten genes related with carbohydrate, amino or fatty acids metabolism and five related with nitrogen metabolism
+T172	Span 562 682	Interestingly, all genes related with carbohydrate, amino or fatty acids metabolism were up-regulated in the bvrR mutant
+T173	Span 684 1298	These included the first enzyme in gluconeogenesis (pckA, phosphoenolpyruvate carboxykinase, BAB1_2091), four genes involved in TCA cycle and pyruvate metabolism (fumB, fumarate hydratase, BAB1_0977; lpdA, dihydrolipoamide dehydrogenase, BAB2_0712; pyruvate dehydrogenase, BAB2_0032; acetyl-CoA acetyltransferase, BAB2_0443), three genes involved in amino or fatty acid metabolism (aldehyde dehydrogenases, BAB2_1130, BAB2_1114; hydroxymethylglutaryl-CoA lyase, BAB1_0017), and two genes involve in benzoate degradation (pcaC, carboxymuconolactone decarboxylase, BAB2_0597; pcaI, coenzyme A transferase, BAB2_0604)
+T174	Causality 1787 1823	our microarray results suggests that
+E44	Causality:T174 Effect:T175 Evidence:T176
+T175	Span 1824 2003	the BvrR/BvrS system controls elements directly involved in adjusting the Brucella metabolism to the nutrient shift expected to occur during the transit to the intracellular niche
+T176	Span 1459 1634	Ten of these genes, including malK, malG, malF, malE and an iclR regulator, were down-regulated suggesting that the complete operon was negatively regulated in the bvrR mutant
+E45	Causality:T174 Effect:T175 Evidence:T173
+E46	Causality:T174 Effect:T175 Evidence:T171
+T177	Span 2613 2662	Brucella is an intracellular facultative pathogen
+T178	Causality 2607 2612	Since
+E47	Causality:T178 Effect:T179 Evidence:T177
+T179	Span 2664 2779	the bacteria could use these denitrification reactions to grow under low-oxygen condition by respiration of nitrate
+T180	Span 2781 2937	Brucella may also take advantage of denitrification to cope with nitric oxide (NO) production in the macrophage during the innate response against infection
+T181	Causality 2939 2946	In fact
+E48	Causality:T181 Evidence:T182 Effect:T180
+T182	Span 2948 3028	some of these denitrification genes have been related with the virulence in mice
+T183	Span 2320 2495	The nitrite reductase gene ( nirK, BAB2_0943) was down regulated and the nitric oxide and nitrous oxide reductases genes ( nor C, BAB2_0955; nosZ, BAB2_0928) were up regulated
+T184	Span 2498 2605	On the other hand, two deaminases (glutaminase, BAB2_0863; guanine deaminase, BAB1_0383) were also affected
+T185	Causality 3434 3465	These results also demonstrated
+E49	Causality:T185 Effect:T186 Evidence:T183
+T186	Span 3466 3543	a connection between carbon and nitrogen metabolism and BvrR/BvrS in Brucella
+E50	Causality:T185 Effect:T186 Evidence:T184
+T187	Causality 3252 3307	Taken together all these data support the proposal that
+E51	Causality:T187 Effect:T188 Evidence:T180
+T188	Span 3308 3432	one role of the BvrR/BvrS system could be neutralize the production of toxic reactive nitrogen molecules, as NO, by the host
+T189	Span 4678 4793	in Brucella the PTS could interact with the BvrS sensor kinase, which in turn phosphorylates the response regulator
+T190	Causality 4795 4799	Then
+E52	Causality:T190 Effect:T191 Evidence:T189
+T191	Span 4801 4936	the BvrR could control transcription of the pckA gene, which encodes an essential control enzyme of the gluconeogenesis and Krebs cycle
+T192	Causality 4938 4988	This hypothesis could explain the observation that
+E53	Causality:T192 Effect:T193 Evidence:T191
+T193	Span 4989 5056	mutants in the regulatory gene bvrR were inhibited in minimal media
+E54	Causality:T192 Effect:T193 Evidence:T189
+T194	Causality 5070 5118	According to this, it has been demonstrated that
+E55	Causality:T194 Evidence:T193 Effect:T195
+T195	Span 5119 5330	in A. tumefaciens the pckA genes is indeed under the control of ChvG/ChvI [16] and that null mutants in S. meliloti exoS and chvI have pleiotropic growth defects and were unable to grow on several carbon sources
+T196	Span 5337 5461	A link between carbon and nitrogen metabolism, PTS and two-component regulatory systems have been proposed for some bacteria
+T197	Causality 5472 5516	our microarray results strongly suggest that
+E56	Causality:T197 Evidence:T198 Effect:T196
+T198	Span 5517 5561	same relationship could be made for Brucella

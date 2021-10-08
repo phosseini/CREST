@@ -1,0 +1,29 @@
+T1	Motivation 23 28	after
+E1	Motivation:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 0 21;116 178	Chase Manhattan Corp. has exercised its option to purchase the 50-story office tower
+T3	Argument 29 114	trying unsuccessfully to sell its interest in its lower Manhattan operations building
+T4	Motivation 624 629	after
+E2	Motivation:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+A3	Temporal E2
+A4	Temporal E1
+T5	Argument 630 684	the bank's new back office center is completed in 1993
+T6	Argument 576 623	most of whom will be moved to downtown Brooklyn
+T7	Motivation 976 981	after
+E3	Motivation:T7 Cause:T8 Effect:T9
+A5	Degree E3 Facilitate
+A6	Temporal E3
+T8	Argument 982 1017	the October 1987 stock market crash
+T9	Argument 894 966	Chase tried to sell its interest, along with the Atlas estate's interest
+T10	Motivation 1110 1115	after
+E4	Motivation:T10 Cause:T11 Effect:T12
+A7	Degree E4 Facilitate
+A8	Temporal E4
+T11	Argument 1116 1147	bids fell short of expectations
+T12	Argument 1070 1109	the bank decided to exercise its option
+T15	Purpose 1968 1970	to
+E5	Purpose:T15 Cause:T16 Effect:T17
+A9	Degree E5 Facilitate
+T16	Argument 1971 2004	remove asbestos from the premises
+T17	Argument 1917 1967	Chase will have to spend approximately $50 million

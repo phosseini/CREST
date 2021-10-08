@@ -1,0 +1,5 @@
+Phage-Encoded Genes 
+SF370 contains one inducible prophage (370.1) and three defective prophages (370.2, 370.3, and 370.4) that produce no infectious phage [39].
+We identified 11 differentially expressed phage 370.2 genes, suggesting that this defective phage is not transcriptionally silent (Table 1).
+The speH gene (spy1008) was induced, and the remaining genes, hypothetically involved in replication and regulation [39], were downregulated.
+The speH gene encodes a mitogenic exotoxin [38] reportedly induced during polymorphonuclear leukocyte phagocytosis [8] but not implicated previously in adherence.

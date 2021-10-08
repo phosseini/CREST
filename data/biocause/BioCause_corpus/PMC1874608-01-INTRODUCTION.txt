@@ -1,0 +1,26 @@
+INTRODUCTION 
+Salmonella enterica serovar Typhimurium is a facultative intracellular pathogen that initiates disease, which is normally limited to gastroenteritis in humans.
+However, this bacterium causes systemic disease in mice and has been used as an animal model of typhoid fever.
+Since Salmonella is acquired usually by oral ingestion of contaminated materials, a key step in the infection process is passage across the intestinal epithelium by invasion of M cells in Peyer's patches (1).
+Many of the genes required for intestinal penetration and invasion of host cells are carried on the 40-kb region at centisome 63, which is called Salmonella pathogenicity island 1 (SPI1) (2).
+SPI1 contains at least 37 genes, which encode various components of the type III secretion systems (T3SSs), its regulators and its secreted effectors (3).
+The effector proteins mediate actin cytoskeleton rearrangement, in the form of large membrane ruffles, which engulf the bacteria into the host cell (4,5).
+The expression of SPI1 is controlled in response to a specific combination of environmental signals, including pH, oxygen tension, medium osmolarity, bile, Mg2+ concentration, short-chain fatty acids (SCFAS), and growth stage of the bacteria (3,6).
+Although many factors and a complex mechanism related to environmental stimuli are involved in the modulation of SPI1 genes, they are thought to converge on the activation of several transcriptional regulators encoded within SPI1, such as HilA, HilC, HilD and InvF (7-9).
+HilA plays a crucial role in the expression of genes that encode the SPI1-T3SS apparatus, the prg and inv/spa operons, by binding upstream of prgH and invF (10).
+The expression of invF leads to the induction of several effector genes encoded both within SPI1 (sic/sip operon) and outside SPI1 (sigD/sopB and sopE), with SicA as a co-factor (11).
+HilC and HilD, which are members of the AraC/XylS family, have been postulated to act as a derepressor of hilA expression by counteracting the action of negative regulatory elements at the hilA promoter (12,13).
+However, it has been shown that HilD provides an essential activating function for hilA in the absence of negative regulators (14).
+HilC and HilD also directly activate the alternative promoter of the invF operon, which is independent of HilA (15,16).
+Similar to HilC and HilD, RtsA activates the expression of SPI1 genes by binding upstream of the master regulatory gene, hilA, to induce its expression (9,17).
+Recently, Baxter and Jones (18) have shown that HilE is an important Salmonella-specific regulator of hilA expression.
+A null mutation in hilE causes an increase in hilA expression and invasion.
+Using two-hybrid analysis, it has been shown that HilE interacts with HilD, which suggests that HilE represses hilA expression by inhibiting the activity of HilD through a protein-protein interaction (19,20).
+Several other genes have been identified that exert positive or negative effects on these direct regulators of SPI1 in response to the changes in environmental conditions.
+These genes include those that encode several two-component regulatory systems (PhoP/Q, PhoBR, OmpR/EnvZ and SirA/BarA), post-transcriptional systems (CsrAB, RNase E, PNPase and Lon), nucleoid proteins (HU, FIS, H-NS and Hha), signaling molecules (ppGpp and NpnN), and other regulatory proteins (FliZ, FadD and CpxA) (6,7,19,21,22).
+The phosphoenolpyruvate: sugar phosphotransferase system (PTS) is the major sugar transport system in many Gram-positive and Gram-negative bacterial species.
+In the animal model, attenuation of virulence has been noted for Salmonella strains that carry mutations in the pts, crr, cya or crp genes, which encode the general energy-coupling enzymes of the PTS, enzyme IIAGlc of the PTS, adenylate cyclase and cyclic AMP receptor protein, respectively (23,24).
+Mlc is a global regulator of carbohydrate metabolism and controls several genes involved in sugar utilization (25-27).
+Therefore, it seemed possible that Mlc also affects the virulence of Salmonella.
+In the present study, a Salmonella Typhimurium mlc mutant was constructed to investigate the contribution of Mlc to the virulence phenotype.
+We have found that Mlc activates SPI1 gene expression by repressing hilE expression.

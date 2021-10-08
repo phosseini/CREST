@@ -1,0 +1,15 @@
+Mlc modulates the expression of SPI1 genes by repressing hilE 
+Subsequently, we studied whether hilE expression was affected by Mlc.
+Baxter et al. (20) have found that HilE plays an important regulatory role in the expression of the Salmonella-invasive phenotype by affecting hilA transcription through direct interaction with HilD.
+To study the effect of Mlc on hilE expression, we measured the expression of hilE-lacZY on the low-copy plasmid pMAB69, which contains the hilE promoter region from -886 to +121, relative to the translation start site.
+When these cells were grown in static cultures to exponential phase, SL1344-pMAB69 expressed 28.9 +/- 3.5 Miller units of beta-galactosidase, whereas SR1304-pMAB69 expressed 49.5 +/- 5.3 Miller units of beta-galactosidase; the level of hilE expression in the mlc mutant was almost 1.8-fold higher than that in the wild-type strain.
+The hilE mRNA level measured by real-time PCR also revealed that hilE expression was increased in SR1304 by about 2-fold (Figure 3A).
+These results suggest that Mlc can act as a negative regulator of hilE.
+The role of HilE in the regulation of SPI1 gene expression by Mlc was further studied by comparing the invasive abilities of the hilE and hilE/mlc mutant strains of Salmonella.
+Invasiveness for HEp-2 cells was reduced to 39.1% of the wild-type level by mlc mutation, whereas it was increased by 1.57-fold by hilE mutation (Figure 3B).
+However, the hilE/mlc double mutant showed an almost similar invasion ability to that of the hilE mutant (Figure 3B), which suggests that the effect of the mlc mutation on the invasive phenotype is mainly dependent upon HilE function.
+The requirement of hilE for Mlc function was reflected in the levels of hilD transcription.
+While hilD expression was reduced in the mlc mutant, it was slightly higher than the wild-type level in both the hilE and hilE/mlc mutant strains (Figure 3C).
+Additionally, the over-expression of HilD from the plasmid pJB3 containing hilD gene under the control of a lac promoter caused the induction of hilA by approximately2-fold and invF by approximately6-fold irrespective of hilE or mlc mutation when real-time PCR was used to compare the expression levels (data not shown).
+Since HilD activates the transcription of hilA (14), which in turn can activate HilA-dependent invFA expression (10), and directly activates HilC/D-dependent invFD expression (16), these results establish that the mlc mutation exerts a negative effect on SPI1 gene expression, mainly by increasing the level of hilE expression.
+The low level of hilD expression in the mlc mutant can be explained by the fact that the increased level of HilE in the mlc mutant can repress the activity of HilD, which is known to act as an activator of its own expression (9,36).

@@ -1,0 +1,10 @@
+Mlc directly represses hilE by binding to the P3 promoter 
+A gel mobility shift assay was performed with purified Mlc, to test whether Mlc directly represses the hilE P3 promoter.
+The Mlc-His6 protein was produced in E. coli and purified to >90% homogeneity by Ni2+ affinity chromatography.
+The activity of the purified Mlc-His6 protein was verified with the control gel mobility shift experiment employing the Salmonella ptsG DNA fragment that contains the known Mlc-binding site (data not shown).
+When the labeled hilE promoter DNA was incubated with 2-fold dilutions of the purified Mlc-His6 protein (100-800nM) in the presence of the non-specific DNA competitor poly dI-dC, the concentration-dependent formation of protein-DNA complexes was observed (Figure 5A).
+The addition of cold probe released the labeled probe from the retarded complex (Figure 5A, right panel), which indicates specific binding of Mlc to the hilE P3 promoter DNA.
+The precise locations of the Mlc-binding sites were determined by DNase I footprinting with His-tagged Mlc.
+Two Mlc-binding sites, one at position -10 to +12 (Mlc 1) and the other at position -86 to -108 (Mlc 2) with respect to the transcriptional start site of hilE P3, were identified (Figure 5B).
+Inspection of the DNA sequences at these sites showed high-level homology with the known consensus Mlc-binding sequence, which has the conserved TT-9bp-AA motif and an AT-rich region at positions +/-7 to +/-11, showing imperfect dyad symmetry (38) (Figure 5C).
+These results clearly demonstrate that Mlc can regulate directly the hilE P3 promoter by binding to the promoter.

@@ -1,0 +1,212 @@
+T1	NonCausal 456 460	over
+E1	NonCausal:T1 Arg1:T2 Arg0:T81
+A1	Temporal E1
+T2	Argument 425 440	that has arisen
+T10	Consequence 1471 1478	Because
+E4	Consequence:T10 Cause:T11 Effect:T12
+A4	Degree E4 Facilitate
+T11	Argument 1479 1510	these banks are too big to fail
+T12	Argument 1512 1650	they have lower funding costs, they are able to attract more capital, they make more money over the cycle, and they continue to get larger
+T13	NonCausal 1603 1607	over
+E5	NonCausal:T13 Arg1:T14 Arg0:T123
+A5	Temporal E5
+T14	Argument 1582 1602	they make more money
+T15	Consequence 1495 1498;1503 1505	too to
+E6	Consequence:T15 Cause:T16 Effect:T17
+A6	Degree E6 Inhibit
+T16	Argument 1495 1502	too big
+T17	Argument 1506 1510	fail
+T18	NonCausal 1710 1712	If
+E7	NonCausal:T18 Arg0:T19 Arg1:T20
+A7	Hypothetical E7
+T19	Argument 1713 1753	you look at the European situation today
+T20	Argument 1768 1863	it is much worse than what we have in this country with regard to the size of the largest banks
+T21	Consequence 2053 2055	If
+E8	Consequence:T21 Cause:T22 Effect:T23
+A8	Degree E8 Facilitate
+A9	Hypothetical E8
+T22	Argument 2056 2165	we allow our biggest banks to continue to build on these unfair market advantages and the lower funding costs
+T23	Argument 2167 2201	we will head in the same direction
+T24	Motivation 2368 2375	because
+E9	Motivation:T24 Effect:T25 Cause:T26
+A10	Degree E9 Facilitate
+T25	Argument 2207 2366	I think I would suggest to you that you consider imposing a size cap on banks relative not to total normal assets or liabilities, which is the Volcker proposal
+T26	Argument 2376 2400	that is not bubble-proof
+T27	Consequence 2402 2404	If
+E10	Consequence:T27 Cause:T28 Effect:T29
+A11	Degree E10 Facilitate
+A12	Hypothetical E10
+T28	Argument 2405 2508	you have a massive increase in house prices, real estate prices, such as happened in Japan in the 1980s
+T29	Argument 2510 2580	you will have a big increase in the normal size of bank balance sheets
+T30	Consequence 2586 2590	when
+E11	Consequence:T30 Cause:T31 Effect:T32
+A13	Degree E11 Facilitate
+A14	Temporal E11
+T31	Argument 2591 2608	the bubble bursts
+T32	Argument 2610 2645	you are going to have a big problem
+T33	Consequence 3250 3252	if
+E12	Consequence:T33 Cause:T34 Effect:T35
+A16	Degree E12 Facilitate
+A17	Hypothetical E12
+T34	Argument 3253 3351	you were to impose a size cap of, say, 3 or 5 percent of GDP, no bank can be larger than that size
+T35	Argument 3353 3445	that would return our biggest banks roughly to the position that they had in the early 1990s
+T36	NonCausal 3646 3651	since
+E13	NonCausal:T36 Arg0:T37 Arg1:T38
+A18	Temporal E13
+T37	Argument 3652 3667	the early 1990s
+T38	Argument 3669 3758	we have developed a lot more system risk focused on the existence of these very big banks
+T39	Consequence 3764 3766	So
+E14	Consequence:T39 Effect:T40
+A19	Degree E14 Facilitate
+T40	Argument 3790 4034	the essence of this crisis was lending, but it was lending that at the heart of it was based on the idea you could make nonrecourse loans to people who can walk away from their homes when the house value falls, leaving the bank with huge losses
+T42	Argument 3938 3972	who can walk away from their homes
+T43	Motivation 3973 3977	when
+E15	Motivation:T43 Effect:T42 Cause:T44
+A20	Temporal E15
+T44	Argument 3978 3999	the house value falls
+T3	Motivation 4078 4081	Why
+E16	Motivation:T3 Effect:T45
+A21	Degree E16 Facilitate
+T45	Argument 4082 4140	did they think that this would survive as a business model
+T46	NonCausal 4260 4264	when
+E17	NonCausal:T46 Arg0:T47 Arg1:T48
+T47	Argument 4265 4286	they are under duress
+T48	Argument 4223 4259	the support they expected to receive
+T49	Motivation 4292 4294	So
+E18	Motivation:T49 Effect:T50
+A24	Degree E18 Facilitate
+T50	Argument 4310 4358	I think the Volcker principles are exactly right
+T51	Argument 4540 4602	the community banks are disadvantaged by the current situation
+T52	Consequence 4604 4611	because
+E19	Consequence:T52 Effect:T51 Cause:T53
+A25	Degree E19 Facilitate
+T53	Argument 4612 4714	they have to pay a lot more money--they pay higher interest for funds, their cost of capital is higher
+T54	Consequence 4759 4765	unless
+E20	Consequence:T54 Cause:T55 Effect:T56
+A26	Degree E20 Inhibit
+T55	Argument 4766 4796	you put an effective cap on it
+T56	Argument 4732 4758	This dynamic will continue
+T57	Purpose 5254 5256	to
+E21	Purpose:T57 Effect:T58 Cause:T59
+A27	Degree E21 Facilitate
+T58	Argument 5237 5253	I really am here
+T59	Argument 5257 5317	voice support for Mr. Volcker's suggestion, the Volcker Rule
+T61	NonCausal 5715 5717	if
+E22	NonCausal:T61 Arg0:T62 Arg1:T63
+A28	Hypothetical E22
+T62	Argument 5718 5940	we were take a blank piece of paper and we were to say to ourselves, how can we design a financial system that would both serve the public and also be relatively safe and relatively unlikely to have a repeat of what we had
+T63	Argument 5942 6013	you would start out certainly with capital, which needs to be augmented
+T64	Purpose 6288 6296	so as to
+E23	Purpose:T64 Effect:T65 Cause:T66
+A29	Degree E23 Facilitate
+T65	Argument 6154 6287	you would also look to maybe compartmentalize the industry, not deny any function to the industry in general, but compartmentalize it
+T66	Argument 6297 6321	limit economic spillover
+T67	Consequence 6405 6415	because of
+E24	Consequence:T67 Cause:T68
+A30	Degree E24 Facilitate
+T68	Argument 6416 6606	the impact that it has on the culture and the makeup of the various firms, dealing with the capital markets, proprietary trading, proprietary investing, hedge fund market, so forth and so on
+T70	Argument 6676 6694	that have to exist
+T71	Purpose 6695 6698;6714 6721	for purpose
+E25	Purpose:T71 Effect:T70 Cause:T60
+A31	Degree E25 Facilitate
+T72	NonCausal 6903 6905	if
+E26	NonCausal:T72 Arg0:T73 Arg1:T74
+A32	Hypothetical E26
+T73	Argument 6906 6937	I were asked to design a system
+T74	Argument 6939 7064	I would not allow these kind of cultures and activities to be a part of large depository and traditional lending institutions
+T75	Motivation 7273 7280	because
+E27	Motivation:T75 Effect:T76 Cause:T77
+A33	Degree E27 Facilitate
+T76	Argument 7263 7272	I do this
+T77	Argument 7281 7366	I think the culture from the capital markets that rubs off has to do with risk taking
+T82	Motivation 7518 7520	So
+E29	Motivation:T82 Effect:T83
+A35	Degree E29 Facilitate
+T83	Argument 7521 7844	I believe as a part of a comprehensive reform that Mr. Volcker's idea with regard to separation of some of these functions makes a lot of sense, not because I am concerned about the economics, but because I am concerned of the nature of the impact that these various activities have on the players and the financial markets
+T84	Motivation 7670 7677	because
+E30	Motivation:T84 Effect:T85 Cause:T86
+A36	Degree E30 Facilitate
+T85	Argument 7521 7664	I believe as a part of a comprehensive reform that Mr. Volcker's idea with regard to separation of some of these functions makes a lot of sense
+T86	Argument 7678 7712	I am concerned about the economics
+T87	Motivation 7718 7725	because
+E31	Motivation:T87 Effect:T85 Cause:T88
+A37	Degree E31 Facilitate
+T88	Argument 7726 7844	I am concerned of the nature of the impact that these various activities have on the players and the financial markets
+T89	Motivation 8379 8381	so
+E32	Motivation:T89 Effect:T90
+A38	Degree E32 Facilitate
+T90	Argument 8382 8437	this is where I believe we must be concerned about size
+T94	Motivation 8584 8586	as
+E34	Motivation:T94 Effect:T95 Cause:T96
+A39	Correlation E34
+T95	Argument 8565 8583	increasing capital
+T96	Argument 8587 8618	intra-industry activity goes up
+T98	Argument 9031 9075	the issue of size, I think, is also relevant
+T99	Motivation 9081 9083	so
+E36	Motivation:T99 Cause:T98 Effect:T100
+A41	Degree E36 Facilitate
+T100	Argument 9084 9361	I think the two keys to Mr. Volcker's suggestion, that of segregation of function within the industry and particularly the protection of the large deposit-taking institutions and the idea of being concerned about size, have merit and deserve the consideration of this Committee
+T107	NonCausal 9384 9386	if
+E39	NonCausal:T107 Arg0:T108 Arg1:T109
+T108	Argument 9387 9394	I could
+T109	Argument 9367 9382	A final comment
+T110	Consequence 9422 9429	reasons
+E40	Consequence:T110 Effect:T111 Cause:T112
+A43	Degree E40 Facilitate
+T111	Argument 9435 9503	JPMorgan Chase did better than many others during this recent crisis
+T112	Argument 9507 9599	they did not have embedded in that institution a real money market activity, a trading house
+T4	Note 1311 1313	So
+#1	AnnotatorNotes T4	Discourse
+A2	Extremity-sufficiency E6
+T5	Consequence 2059 2064;2083 2085	allow to
+E2	Consequence:T5 Cause:T7 Effect:T6
+A3	Degree E2 Facilitate
+A44	Obligation-permission E2
+T6	Argument 2065 2082;2086 2165	our biggest banks continue to build on these unfair market advantages and the lower funding costs
+T7	Argument 2056 2058	we
+A15	Degree E15 Facilitate
+T8	Motivation 5534 5541	because
+E3	Motivation:T8 Effect:T9 Cause:T41
+A45	Degree E3 Facilitate
+T9	Argument 5517 5533	I don't say this
+T41	Argument 5542 5637	I think the absence of that rule was central to the difficulties that we have just come through
+T60	Argument 6699 6721	the particular purpose
+T132	Consequence 6951 6956;6995 6997	allow to
+E41	Consequence:T132 Cause:T133 Effect:T134
+A46	Degree E41 Facilitate
+A47	Obligation-permission E41
+T133	Argument 6939 6940	I
+T134	Argument 6957 6994;6998 7064	these kind of cultures and activities be a part of large depository and traditional lending institutions
+T135	Consequence 8150 8153;8158 8160	too to
+E42	Consequence:T135 Cause:T136 Effect:T137
+A49	Degree E42 Inhibit
+A50	Extremity-sufficiency E42
+T136	Argument 8150 8157	too big
+T137	Argument 8161 8165	fail
+T138	Consequence 8249 8252;8257 8259	too to
+E43	Consequence:T138 Cause:T139 Effect:T140
+A51	Degree E43 Inhibit
+A52	Extremity-sufficiency E43
+T139	Argument 8249 8256	too big
+T140	Argument 8260 8264	fail
+A53	Degree E34 Facilitate
+A55	Hypothetical E39
+T141	NonCausal 9478 9484	during
+E44	NonCausal:T141 Arg0:T142 Arg1:T92
+A56	Temporal E44
+T142	Argument 9485 9503	this recent crisis
+T78	Motivation 5059 5062	for
+E28	Motivation:T78 Effect:T79 Cause:T80
+A22	Degree E28 Facilitate
+T79	Argument 5039 5058	thank you very much
+T80	Argument 5063 5080	your kind welcome
+T81	Argument 461 479	the past few years
+T123	Argument 1608 1617	the cycle
+A23	Temporal E17
+#4	AnnotatorNotes E3	Doesn't seem to be discourse. The negation makes it weird, but he's saying "It's not the case that <I say this> because <I think...>".
+T91	Note 355 357	to
+#2	AnnotatorNotes T91	Not Purpose. More like "edit the document to include clearer guidelines."
+#3	AnnotatorNotes E24	Messed-up sentence...no effect?
+T69	Note 9028 9030	So
+#5	AnnotatorNotes T69	Discourse (summarizing)
+T92	Argument 9435 9477	JPMorgan Chase did better than many others

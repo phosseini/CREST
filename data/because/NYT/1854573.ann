@@ -1,0 +1,65 @@
+T1	Motivation 290 296;343 347	Unless then
+E1	Motivation:T1 Cause:T2 Effect:T3
+A1	Degree E1 Inhibit
+T2	Argument 297 341	we can impede radicalization and recruitment
+T3	Argument 348 419	we are condemned to a strategy of stepping on cockroaches one at a time
+T4	NonCausal 838 842	when
+E2	NonCausal:T4 Arg0:T5 Arg1:T6
+T5	Argument 843 863	compared with Europe
+#2	AnnotatorNotes E2	Maybe Context instead of Temporal?
+T6	Argument 814 825	it is small
+T7	Consequence 865 872	because
+E3	Consequence:T7 Effect:T8 Cause:T9
+A3	Degree E3 Facilitate
+T8	Argument 814 863	it is small, especially when compared with Europe
+T9	Argument 873 911	assimilation works so much better here
+T10	Purpose 1114 1116	to
+E4	Purpose:T10 Effect:T11 Cause:T12
+A4	Degree E4 Facilitate
+T11	Argument 1100 1113	who use Islam
+T12	Argument 1117 1198	convince the young that suicide bombings are the righteous path to a better world
+T13	Purpose 1450 1452	to
+E5	Purpose:T13 Effect:T14 Cause:T15
+A5	Degree E5 Facilitate
+T14	Argument 1400 1449	Terrorist organizations, for example, use the Web
+T15	Argument 1453 1508	glorify the people who carry out attacks as serving God
+T16	Purpose 1683 1685	to
+E6	Purpose:T16 Effect:T17 Cause:T18
+A6	Degree E6 Facilitate
+T17	Argument 1557 1682	use video from gruesome attacks like the slaughter of Russian schoolchildren or the bombing of a wedding at a Jordanian hotel
+T18	Argument 1686 1739	underscore that terrorists are cold-blooded murderers
+T19	Consequence 2156 2160	make
+E7	Consequence:T19 Cause:T20 Effect:T21
+A7	Degree E7 Facilitate
+T20	Argument 2135 2151	the Internet age
+T21	Argument 2161 2193;2194 2199	moving from intent to capability rapid
+T22	Consequence 2201 2203	So
+E8	Consequence:T22 Effect:T23
+A8	Degree E8 Facilitate
+T23	Argument 2204 2258	the goal is to block the path and undermine the desire
+T24	Consequence 2219 2224	block
+E9	Consequence:T24 Effect:T25
+A9	Degree E9 Inhibit
+T25	Argument 2225 2233	the path
+T26	Motivation 2551 2555	into
+E10	Motivation:T26 Effect:T27 Cause:T28
+A10	Degree E10 Facilitate
+T27	Argument 2556 2568	a death cult
+T28	Argument 2483 2550	people who are becoming Muslims are manipulated by radical fanatics
+#3	AnnotatorNotes E10	Effect is really "joining a death cult"
+T29	Consequence 2899 2909	preventing
+E11	Consequence:T29 Effect:T30 Cause:T31
+A11	Degree E11 Inhibit
+T30	Argument 2910 2929	such radicalization
+T31	Argument 2843 2851	Congress
+T32	Purpose 3322 3324	to
+E12	Purpose:T32 Cause:T33 Effect:T34
+A12	Degree E12 Facilitate
+T33	Argument 3325 3337	win recruits
+T34	Argument 3288 3321	what Al Qaeda and other groups do
+T35	Consequence 304 310	impede
+E13	Consequence:T35 Cause:T37 Effect:T36
+A13	Degree E13 Inhibit
+T36	Argument 311 341	radicalization and recruitment
+T37	Argument 297 299	we
+A2	Context E2

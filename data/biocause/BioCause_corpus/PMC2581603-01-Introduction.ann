@@ -1,0 +1,171 @@
+T1	Organism 14 36	Pseudomonas aeruginosa
+T2	Organism 253 261	patients
+T3	Organism 302 315	P. aeruginosa
+T4	Organism 690 703	P. aeruginosa
+T5	Organism 864 877	P. aeruginosa
+T6	Organism 1062 1075	P. aeruginosa
+T7	Organism 1114 1122	patients
+T8	Chemical 1264 1290	alginate exopolysaccharide
+T9	Chemical 1292 1295	EPS
+T10	Chemical 1307 1315	Alginate
+T11	Organism 1375 1386	Pseudomonas
+T12	Organism 1490 1498	patients
+T13	Organism 1536 1549	P. aeruginosa
+T14	Chemical 1578 1586	alginate
+T15	Organism 1739 1752	P. aeruginosa
+T16	Organism 1787 1795	patients
+T17	Chemical 2454 2466	beta-lactams
+T18	Chemical 2471 2486	aminoglycosides
+T19	Chemical 2693 2696	EPS
+T20	Organism 3695 3703	patients
+T21	Organism 3882 3895	P. aeruginosa
+T22	Organism 3897 3906	S. aureus
+T23	Organism 3908 3915	E. coli
+T24	Organism 3920 3931	V. fischeri
+T25	Protein 4446 4450	GacA
+T26	Protein 4611 4615	LadS
+T27	Protein 4620 4624	RetS
+T28	Protein 4652 4656	GacA
+T29	Protein 4735 4739	algR
+T30	Organism 4904 4917	P. aeruginosa
+T31	Protein 5031 5035	SadA
+T32	Protein 5035 5036	R
+T33	Protein 5036 5037	S
+T34	Protein 5101 5105	PvrR
+T35	Organism 5208 5221	P. aeruginosa
+T36	Chemical 5412 5443	cationic antimicrobial peptides
+T37	Chemical 5445 5449	CAPs
+T38	Chemical 5526 5530	CAPs
+T39	Chemical 5699 5703	CAPs
+T40	Organism 5836 5842	humans
+T41	Organism 6030 6043	P. aeruginosa
+T42	Chemical 6059 6063	CAPs
+T43	Two-component-system 6084 6089	PhoPQ
+T44	Protein 6084 6088	PhoP
+T45	Protein 6088 6089	Q
+T46	Two-component-system 6094 6099	PmrAB
+T47	Protein 6094 6098	PmrA
+T48	Protein 6098 6099	B
+T49	Chemical 6172 6176	Mg2+
+T50	Chemical 6217 6226	magnesium
+T51	Protein 6228 6232	PhoP
+T52	Protein 6237 6241	PmrA
+T53	Chemical 6270 6273	CAP
+T54	Regulon-operon 6292 6305	PA3552-PA3559
+T55	Protein 6292 6298	PA3552
+T56	Protein 6299 6305	PA3559
+T57	Regulon-operon 6307 6321	arnBCADTEF-ugd
+T58	Protein 6307 6311	arnB
+T59	Protein 6311 6312	C
+T60	Protein 6312 6313	A
+T61	Protein 6313 6314	D
+T62	Protein 6314 6315	T
+T63	Protein 6315 6316	E
+T64	Protein 6316 6317	F
+T65	Protein 6318 6321	ugd
+T66	Chemical 6382 6385	LPS
+T67	Chemical 6454 6461	lipid A
+T68	Chemical 6500 6504	CAPs
+T69	Two-component-system 6515 6520	PhoPQ
+T70	Protein 6515 6519	PhoP
+T71	Protein 6519 6520	Q
+T72	Two-component-system 6525 6530	PmrAB
+T73	Protein 6525 6529	PmrA
+T74	Protein 6529 6530	B
+T75	Chemical 6641 6645	CAPs
+T76	Chemical 6665 6669	Mg2+
+T77	Regulon-operon 6706 6719	PA3552-PA3559
+T78	Protein 6706 6712	PA3552
+T79	Protein 6713 6719	PA3559
+T80	Organism 7012 7025	P. aeruginosa
+T81	Chemical 7092 7110	exopolysaccharides
+T82	Organism 7903 7916	P. aeruginosa
+T83	Organism 8015 8028	P. aeruginosa
+T84	Organism 8132 8158	Staphylococcus epidermidis
+*	Equiv T36 T37
+*	Equiv T54 T57
+T85	Process 108 118	infections
+T86	Process 164 174	infections
+T87	Process 447 456	infection
+T88	Process 624 634	resistance
+T89	Process 749 757	tolerant
+T90	Positive_regulation 946 955	increased
+T91	Process 956 966	resistance
+T92	Process 1481 1489	infected
+T93	Process 1845 1855	resistance
+T94	Process 1901 1911	resistance
+T95	Process 2066 2076	resistance
+T96	Process 2203 2213	resistance
+T97	Process 3016 3026	resistance
+T98	Process 3201 3211	resistance
+T99	Process 3433 3443	infections
+T100	Process 3522 3532	resistance
+T101	Process 3622 3632	resistance
+T102	Process 3727 3737	infections
+T103	Process 4419 4428	virulence
+T104	Regulation 4635 4648	work upstream
+T105	Process 5181 5190	resistant
+T106	Process 5311 5320	infection
+T107	Process 6045 6055	resistance
+T108	Positive_regulation 6067 6076	inducible
+T109	Positive_regulation 6124 6133	activated
+T110	Binding 6242 6246	bind
+T111	Process 6274 6284	resistance
+T112	Positive_regulation 6327 6333	induce
+T113	Gene_expression 6338 6348	expression
+T114	Process 6627 6637	resistance
+T115	Gene_expression 6751 6760	expressed
+T116	Process 6972 6982	resistance
+T117	Process 8290 8300	resistance
+T118	Process 8440 8450	resistance
+E1	Process:T85 Participant:T1
+E2	Process:T86 
+E3	Process:T87 
+E4	Process:T88 
+E5	Process:T89 
+E6	Positive_regulation:T90 Theme:E7
+E7	Process:T91 
+E8	Process:T92 
+E9	Process:T93 
+E10	Process:T94 
+E11	Process:T95 
+E12	Process:T96 
+E13	Process:T97 
+E14	Process:T98 
+E15	Process:T99 
+E16	Process:T100 
+E17	Process:T101 
+E18	Process:T102 
+E19	Process:T103 
+E20	Regulation:T104 Theme:T28 Cause:T26
+E21	Regulation:T104 Theme:T28 Cause:T27
+E22	Process:T105 Participant:T35
+E23	Process:T106 
+E24	Process:T107 Participant:T41
+E25	Positive_regulation:T108 Theme:E24 Cause:T43
+E26	Positive_regulation:T108 Theme:E24 Cause:T46
+E27	Positive_regulation:T109 Theme:T43
+E28	Positive_regulation:T109 Theme:T46
+E29	Binding:T110 Theme1:T51 Theme2:T54
+E30	Binding:T110 Theme1:T52 Theme2:T54
+E31	Process:T111 
+E32	Positive_regulation:T112 Theme:E34 Cause:T51
+E33	Positive_regulation:T112 Theme:E34 Cause:T52
+E34	Gene_expression:T113 Theme:T54
+E35	Process:T114 
+E36	Gene_expression:T115 Theme:T77
+E37	Process:T116 
+E38	Process:T117 
+E39	Process:T118 
+T119	Span 1510 1709	The direct observation of P. aeruginosa microcolonies encased in an alginate matrix in microscopy studies of CF bronchial samples [17], along with a large body of additional in vitro and in vivo data
+T120	Causality 1725 1738	suggests that
+E40	Causality:T120 Effect:T121 Evidence:T119
+T121	Span 1739 1795	P. aeruginosa forms biofilms in the lungs of CF patients
+T122	Span 2215 2275	Cells in a biofilm may be protected from antibiotic exposure
+T123	Causality 2276 2282	due to
+E41	Causality:T123 Effect:T122 Evidence:T124
+T124	Span 2283 2351	the restricted penetration of antibiotics through the biofilm matrix
+T125	Span 5654 5752	The broad-spectrum antimicrobial activity of CAPs against Gram-negative and Gram-positive bacteria
+T126	Causality 5753 5765	accounts for
+E42	Causality:T126 Effect:T127 Evidence:T125
+T127	Span 5766 5863	their role as an essential component of the innate immune response of humans, animals and insects

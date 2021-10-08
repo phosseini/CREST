@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0171</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-02</TIMEX3></DCT>
+<TEXT>
+ Valley Federal Savings amp Loan Association <EVENT eid="e1" class="OCCURRENCE">took</EVENT> an $ 89.9 million <EVENT eid="e2" class="OCCURRENCE">charge</EVENT> as it <EVENT eid="e3" class="REPORTING">reported</EVENT> a <TIMEX3 tid="t4" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> <EVENT eid="e5" class="OCCURRENCE">loss</EVENT> of $ 70.7 million, or $ 12.09 a share.
+ The Van Nuys, Calif., thrift <EVENT eid="e6" class="OCCURRENCE">had</EVENT> net income of $ 132,000, or three cents a share, <TIMEX3 tid="t7" type="DATE" value="1988-Q3" anchorTimeID="t4" functionInDocument="NONE">a year ago</TIMEX3>.
+ The bulk of the pretax charge is a $ 62 million write-off of capitalized servicing at the mobile home financing subsidiary, which the company <EVENT eid="e8" class="REPORTING">said</EVENT> had been a big <EVENT eid="e9" class="OCCURRENCE">drain</EVENT> on earnings.
+ The company <EVENT eid="e10" class="REPORTING">said</EVENT> the one-time <EVENT eid="e11" class="OCCURRENCE">provision</EVENT> would substantially <EVENT eid="e12" class="OCCURRENCE">eliminate</EVENT> all <TIMEX3 tid="t13" type="DATE" value="FUTURE_REF" anchorTimeID="t0" functionInDocument="NONE">future</TIMEX3> <EVENT eid="e14" class="OCCURRENCE">losses</EVENT> at the unit.
+ Valley Federal also <EVENT eid="e15" class="OCCURRENCE">added</EVENT> $ 18 million to realestate loan reserves and <EVENT eid="e16" class="OCCURRENCE">eliminated</EVENT> $ 9.9 million of good will.
+ The thrift <EVENT eid="e17" class="REPORTING">said</EVENT> that " after these <EVENT eid="e18" class="OCCURRENCE">charges</EVENT> and <EVENT eid="e19" class="I_ACTION">assuming</EVENT> no dramatic <EVENT eid="e20" class="OCCURRENCE">fluctuation</EVENT> in interest rates, the association <EVENT eid="e21" class="I_STATE">expects</EVENT> to <EVENT eid="e22" class="OCCURRENCE">achieve</EVENT> near record <EVENT eid="e23" class="OCCURRENCE">earnings</EVENT> in <TIMEX3 tid="t24" type="DATE" value="1990" functionInDocument="NONE">1990</TIMEX3>. "
+ Valley Federal is <TIMEX3 tid="t25" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">currently</TIMEX3> being <EVENT eid="e26" class="OCCURRENCE">examined</EVENT> by regulators.
+ New loans <EVENT eid="e27" class="ASPECTUAL">continue</EVENT> to <EVENT eid="e28" class="OCCURRENCE">slow</EVENT>;
+ they were $ 6.6 million in <TIMEX3 tid="t29" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">the quarter</TIMEX3> compared with $ 361.8 million <TIMEX3 tid="t30" type="DATE" value="1988-Q3" anchorTimeID="t29" functionInDocument="NONE">a year ago</TIMEX3>.
+ The thrift <EVENT eid="e31" class="STATE">has</EVENT> assets of $ 3.2 billion.
+</TEXT>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="IDENTITY" eventInstanceID="ei1" relatedToEventInstance="ei2"/>
+<TLINK lid="l2" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei3"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0"/>
+<TLINK lid="l4" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei5"/>
+<TLINK lid="l5" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToTime="t7"/>
+<TLINK lid="l6" relType="BEFORE" timeID="t7" relatedToTime="t0"/>
+<TLINK lid="l7" relType="AFTER" eventInstanceID="ei10" relatedToTime="t0"/>
+<TLINK lid="l8" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToEventInstance="ei8"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei12" relatedToTime="t13"/>
+<TLINK lid="l10" relType="AFTER" timeID="t13" relatedToTime="t0"/>
+<TLINK lid="l11" relType="INCLUDES" timeID="t13" relatedToEventInstance="ei14"/>
+<TLINK lid="l12" relType="SIMULTANEOUS" eventInstanceID="ei15" relatedToEventInstance="ei1"/>
+<TLINK lid="l13" relType="SIMULTANEOUS" eventInstanceID="ei16" relatedToEventInstance="ei15"/>
+<TLINK lid="l14" relType="AFTER" eventInstanceID="ei17" relatedToTime="t0"/>
+<TLINK lid="l15" relType="AFTER" eventInstanceID="ei21" relatedToEventInstance="ei18"/>
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToTime="t24"/>
+<TLINK lid="l17" relType="INCLUDES" timeID="t25" relatedToTime="t0"/>
+<TLINK lid="l18" relType="INCLUDES" timeID="t25" relatedToEventInstance="ei26"/>
+<TLINK lid="l19" relType="INCLUDES" timeID="t25" relatedToEventInstance="ei27"/>
+<TLINK lid="l20" relType="DURING" eventInstanceID="ei28" relatedToEventInstance="ei27"/>
+<TLINK lid="l21" relType="IDENTITY" timeID="t29" relatedToTime="t4"/>
+<TLINK lid="l22" relType="IDENTITY" timeID="t30" relatedToTime="t7"/>
+<TLINK lid="l23" relType="IS_INCLUDED" eventInstanceID="ei31" relatedToTime="t0"/>
+</TimeML>

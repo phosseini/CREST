@@ -1,0 +1,11 @@
+Transcriptome Analysis of the Brucella abortus BvrR/BvrS Two-Component Regulatory System 
+Background The two-component BvrR/BvrS system is essential for Brucella abortus virulence.
+It was shown previously that its dysfunction alters the expression of some major outer membrane proteins and the pattern of lipid A acylation.
+To determine the genes regulated by BvrR/BvrS, we performed a whole-genome microarray analysis using B. abortus RNA obtained from wild type and bvrR mutant cells grown in the same conditions.
+Methodology/Principal Findings A total of 127 differentially expressed genes were found: 83 were over expressed and 44 were less expressed in the bvrR mutant.
+Two operons, the phosphotransferase system and the maltose transport system, were down-regulated.
+Several genes involved in cell envelope or outer membrane biogenesis were differentially expressed: genes for outer membrane proteins (omp25a, omp25d), lipoproteins, LPS and fatty acid biosynthesis, stress response proteins, chaperones, flagellar genes, and twelve genes encoding ABC transport systems.
+Ten genes related with carbon metabolism (pckA and fumB among others) were up-regulated in the bvrR mutant, and denitrification genes (nirK, norC and nosZ) were also regulated.
+Notably, seven transcriptional regulators were affected, including VjbR, ExoR and OmpR that were less expressed in the bvrR mutant.
+Finally, the expression of eleven genes which have been previously related with Brucella virulence was also altered.
+Conclusions/Significance All these data corroborate the impact of BvrR/BvrS on cell envelope modulation, confirm that this system controls the carbon and nitrogen metabolism, and suggest a cross-talk among some regulators to adjust the Brucella physiology to the shift expected to occur during the transit from the extracellular to the intracellular niche.

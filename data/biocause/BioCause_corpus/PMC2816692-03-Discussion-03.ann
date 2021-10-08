@@ -1,0 +1,80 @@
+T1	Protein 38 42	SrcA
+T2	Protein 91 95	srcA
+T3	Protein 131 136	pipB2
+T4	Protein 141 145	sseL
+T5	Organism 177 196	Salmonella enterica
+T6	Organism 274 284	S. bongori
+T7	Protein 340 344	srcA
+T8	Two-component-system 403 412	SsrA-SsrB
+T9	Protein 403 407	SsrA
+T10	Protein 408 412	SsrB
+T11	Protein 485 489	SsrB
+T12	Protein 525 529	srcA
+T13	Protein 542 546	SsrB
+T14	Protein 566 570	sseL
+T15	Protein 585 590	pipB2
+T16	Organism 855 865	Salmonella
+T17	Organism 873 877	host
+T18	Protein 887 891	srcA
+T19	Protein 1089 1093	srcA
+T20	Protein 1126 1133	STM2137
+T21	Protein 1334 1341	STM2137
+T22	Protein 1357 1362	SseK2
+T23	Protein 1387 1392	SseK1
+T24	Protein 1443 1448	SseK2
+T25	Two-component-system 1474 1483	SsrA-SsrB
+T26	Protein 1474 1478	SsrA
+T27	Protein 1479 1483	SsrB
+T28	Protein 1521 1526	SseK1
+T29	Protein 1653 1658	SseK2
+T30	Protein 1700 1704	SrcA
+T31	Protein 1739 1743	SrcA
+T32	Protein 1760 1765	SseK2
+T33	Protein 1795 1799	SrcA
+T34	Protein 1941 1945	InvB
+T35	Protein 1950 1954	SicP
+T36	Organism 1956 1966	Salmonella
+T37	Protein 1975 1979	CesT
+T38	Organism 1998 2005	E. coli
+T39	Organism 2049 2057	Shigella
+T40	Protein 2268 2272	srcA
+*	Equiv T22 T21
+T41	Gene_expression 326 336	expression
+T42	Regulation 348 359	coordinated
+T43	Binding 474 481	binding
+T44	Entity 497 512	promoter region
+T45	Regulation 547 557	regulation
+T46	Localization 1406 1418	translocated
+T47	Regulation 1457 1466	regulated
+T48	Localization 1534 1546	translocated
+T49	Entity 1575 1585	host cells
+T50	Localization 1659 1668	secretion
+T51	Binding 1683 1694	interaction
+T52	Localization 1780 1793	translocation
+T53	Process 2066 2075	virulence
+E1	Gene_expression:T41 Theme:T7
+E2	Regulation:T42 Theme:E1 Cause:T8
+E3	Binding:T43 Theme1:T11 Theme2:T12 Site2:T44
+E4	Regulation:T45 Theme:T14 Cause:T13
+E5	Regulation:T45 Theme:T15 Cause:T13
+E6	Localization:T46 Theme:T21
+E7	Regulation:T47 Theme:T24 Cause:T25
+E8	Localization:T48 Theme:T24 ToLoc:T49
+E9	Localization:T50 Theme:T29
+M1	Negation E9
+E10	Binding:T51 Theme1:T29 Theme2:T30
+M2	Negation E10
+E11	Localization:T52 Theme:T32
+E12	Process:T53 
+T54	Span 463 590	The direct binding of SsrB to the promoter region upstream of srcA, along with SsrB-regulation of both sseL [19],[20] and pipB2
+T55	Causality 596 612	is indicative of
+E13	Causality:T55 Effect:T56 Evidence:T54
+T56	Span 613 768	multiple cis-regulatory mutation events that have allowed for functional coordination of the distributed secretion apparatus, chaperone and effector cargos
+T57	Causality 1005 1011	Due to
+E14	Causality:T57 Evidence:T58 Effect:T59
+T58	Span 1012 1070	low G+C base content compared to the genome average of 52%
+T59	Span 1072 1317	it's likely that srcA (32% G+C) and an adjacent gene, STM2137 (37% G+C), were acquired as a foreign islet that was retained in organisms containing the SPI-2 T3SS due to the selective advantage afforded by the new protein interactions so created
+T60	Span 1928 2153	For example, InvB and SicP (Salmonella SPI-1), CesT (enteropathogenic E. coli locus of enterocyte effacement) and Spa15 (Shigella mxi/spa virulence plasmid region) chaperones are all encoded within the T3SS structural operons
+T61	Causality 2155 2163	implying
+E15	Causality:T61 Effect:T62 Evidence:T60
+T62	Span 2164 2234	they have co-evolved as a single genetic entity from a common ancestor

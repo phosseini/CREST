@@ -1,0 +1,36 @@
+T1	Protein 23 27	speH
+T2	Protein 53 57	speH
+T3	Protein 109 113	SpeH
+T4	Protein 246 250	speH
+T5	Protein 394 398	SpeH
+T6	Organism 484 489	SF370
+T7	Organism 491 505	SF370DeltaspeH
+T8	Protein 501 505	speH
+T9	Organism 614 619	human
+T10	Organism 712 717	SF370
+T11	Protein 767 771	SpeH
+T12	Protein 871 875	speH
+T13	Positive_regulation 29 38	Increased
+T14	Gene_expression 39 49	expression
+T15	Process 192 201	infection
+T16	Positive_regulation 230 242	upregulation
+T17	Positive_regulation 851 863	upregulation
+T18	Process 979 988	infection
+E1	Positive_regulation:T13 Theme:E2
+E2	Gene_expression:T14 Theme:T2
+E3	Process:T15 
+E4	Positive_regulation:T16 Theme:T4
+E5	Positive_regulation:T17 Theme:T12
+E6	Process:T18 
+T19	Span 29 90	Increased expression of speH during pharyngeal cell adherence
+T20	Causality 91 104	suggests that
+E7	Causality:T20 Evidence:T19 Effect:T21
+T21	Span 105 209	the SpeH exotoxin is either necessary for adherence, or is a component of a downstream infection process
+T22	Span 638 737	We observed no significant difference in adherence between the wild-type (SF370) and mutant strains
+T23	Causality 751 766	indicating that
+E8	Causality:T23 Evidence:T22 Effect:T24
+T24	Span 767 834	SpeH is not involved directly in attachment to the pharyngeal cell.
+T25	Span 835 897	The significant upregulation of the speH gene during adherence
+T26	Causality 898 911	suggests that
+E9	Causality:T26 Evidence:T25 Effect:T27
+T27	Span 912 988	the gene product may function instead during a subsequent stage of infection

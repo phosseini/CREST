@@ -1,0 +1,54 @@
+T27	Process 214 222	virulent
+T28	Process 582 591	infection
+T29	Process 791 801	infections
+T30	Process 836 845	infection
+T31	Process 1118 1127	infection
+T32	Process 1356 1367	attenuation
+E1	Process:T27 Participant:T8
+E2	Process:T28 
+E3	Process:T29 Participant:T17
+E4	Process:T30 
+E5	Process:T31 
+E6	Process:T32 Participant:T24
+T1	Protein 0 4	SrcA
+T2	Organism 20 30	Salmonella
+T3	Organism 52 56	host
+T4	Protein 63 67	SsrB
+T5	Organism 136 146	Salmonella
+T6	Organism 152 156	host
+T7	Protein 192 196	srcA
+T8	Organism 234 253	Salmonella enterica
+T9	Organism 327 337	S. bongori
+T10	Protein 402 406	srcA
+T11	Protein 491 495	SrcA
+T12	Organism 577 581	host
+T13	Protein 614 618	SrcA
+T14	Organism 634 644	Salmonella
+T15	Organism 658 662	host
+T16	Protein 696 700	srcA
+T17	Organism 713 727	S. Typhimurium
+T18	Organism 805 809	mice
+T19	Protein 1046 1050	srcA
+T20	Protein 1151 1155	srcA
+T21	Organism 1195 1206	srcA mutant
+T22	Protein 1195 1199	srcA
+T23	Protein 1224 1228	srcA
+T24	Organism 1375 1386	srcA mutant
+T25	Protein 1375 1379	srcA
+T26	Protein 1480 1484	SrcA
+T33	Span 158 356	In comparative genomics analyses, srcA was found in all virulent strains of Salmonella enterica containing SPI-2, but was absent from the cold-blooded animal commensal, S. bongori, which lacks SPI-2
+T34	Causality 369 383	This suggested
+E7	Causality:T34 Effect:T35 Evidence:T33
+T35	Span 384 465	a co-evolution of srcA with the SPI-2 T3SS and a possible functional relationship
+T36	Span 474 536	we reasoned that SrcA should contribute to animal colonization
+T37	Causality 537 544	because
+E8	Causality:T37 Evidence:T38 Effect:T36
+T38	Span 545 591	the SPI-2 T3SS is essential for host infection
+T39	Span 816 1012	After three days of infection the geometric mean competitive index (CI) for the mutant was 0.20 (95%CI 0.13-0.29) and 0.18 (95%CI 0.06-0.5) in the spleen and liver respectively (P<0.0001; Fig. 1D)
+T40	Causality 1013 1028	indicating that
+E9	Causality:T40 Effect:T41 Evidence:T39
+T41	Span 1029 1127	bacteria lacking srcA were significantly out competed by wild type cells during systemic infection
+T42	Span 1343 1446	The level of attenuation of the srcA mutant was generally higher than most single effector gene mutants
+T43	Causality 1453 1479	which suggested to us that
+E10	Causality:T43 Effect:T44 Evidence:T42
+T44	Span 1480 1544	SrcA contributes to an important aspect of T3SS function in vivo

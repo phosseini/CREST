@@ -1,0 +1,96 @@
+T1	Motivation 229 235	before
+E1	Motivation:T1 Effect:T2 Cause:T3
+A1	Degree E1 Inhibit
+A2	Temporal E1
+T2	Argument 236 248	I kill again
+T3	Argument 221 228	Stop me
+T5	Motivation 430 435	after
+E2	Motivation:T5 Cause:T6 Effect:T7
+A3	Temporal E2
+T6	Argument 436 504	he'd joined the Finance Committee's early-morning pork-barrel revels
+T7	Argument 349 429	Arkansas Democrat David Pryor spilled his guts on the Senate floor the other day
+T8	NonCausal 716 718	as
+E3	NonCausal:T8 Arg0:T9 Arg1:T10
+A4	Temporal E3
+T9	Argument 719 754	I was walking back to get in my car
+T10	Argument 756 974	I heard many, many people . . . opening champagne bottles and celebrating individual victories that some of us had accomplished in getting our little deal in the tax bill and winking at this person for slipping this in
+T11	Motivation 954 957	for
+E4	Motivation:T11 Cause:T12 Effect:T13
+A5	Degree E4 Facilitate
+T12	Argument 958 974	slipping this in
+T13	Argument 931 953	winking at this person
+T14	NonCausal 989 991	As
+E5	NonCausal:T14 Arg0:T15 Arg1:T16
+A6	Temporal E5
+T15	Argument 992 1010	I was driving home
+T16	Argument 1012 1049	I did not feel very good about myself
+T20	Note 1107 1109	as
+#2	AnnotatorNotes T20	"even as"
+T21	Argument 1129 1164	he and his confreres need restraint
+T22	Consequence 1165 1169	lest
+E7	Consequence:T22 Effect:T21 Cause:T23
+A9	Degree E7 Facilitate
+T23	Argument 1170 1185	they kill again
+T24	Consequence 1402 1409	because
+E8	Consequence:T24 Effect:T25 Cause:T26
+A10	Degree E8 Facilitate
+T25	Argument 1317 1401	The Coats bill, which already has 32 Senate co-sponsors, isn't a pure line-item veto
+T26	Argument 1410 1447	it would apply only to spending bills
+T27	Consequence 1723 1727	when
+E9	Consequence:T27 Cause:T29 Effect:T28
+A11	Degree E9 Facilitate
+A12	Temporal E9
+T28	Argument 1616 1714	a President would have a chance twice each year to return a package of ``rescissions'' to the Hill
+T29	Argument 1728 1750	he proposes his budget
+T30	Consequence 1761 1766	after
+E10	Consequence:T30 Cause:T31 Effect:T28
+A13	Degree E10 Facilitate
+A14	Temporal E10
+T31	Argument 1767 1784	Congress disposes
+T32	Consequence 1925 1929;1960 1962	need to
+E11	Consequence:T32 Effect:T33 Cause:T34
+A15	Degree E11 Facilitate
+T33	Argument 1963 1980	override any veto
+T34	Argument 1930 1959	the usual two-thirds majority
+T35	Consequence 2093 2099	Before
+E12	Consequence:T35 Effect:T37 Cause:T36
+A16	Temporal E12
+T36	Argument 2100 2104	1974
+T37	Argument 2106 2187	a President could ``impound,'' or refuse to spend, funds appropriated by Congress
+T38	Consequence 2435 2441	unless
+E13	Consequence:T38 Effect:T39 Cause:T40
+A17	Degree E13 Inhibit
+T39	Argument 2415 2434	they're meaningless
+T40	Argument 2442 2495	Congress has a guilty conscience and changes its mind
+T44	Consequence 2763 2766	let
+E15	Consequence:T44 Cause:T45 Effect:T46
+A20	Degree E15 Facilitate
+A21	Obligation-permission E15
+T45	Argument 2732 2756	Senator Coats's proposal
+T46	Argument 2767 2793;2794 2839	the proposed spending cuts take place automatically unless Congress acts
+T47	Consequence 2819 2825	unless
+E16	Consequence:T47 Effect:T48 Cause:T49
+A22	Degree E16 Inhibit
+T48	Argument 2767 2818	the proposed spending cuts take place automatically
+T49	Argument 2826 2839	Congress acts
+T50	Motivation 3007 3009	if
+E17	Motivation:T50 Cause:T51 Effect:T52
+A23	Degree E17 Facilitate
+A24	Hypothetical E17
+T51	Argument 3010 3031	they really get crazy
+T52	Argument 2932 3006	the police (in the form of a President) would be there with a straitjacket
+T53	NonCausal 3147 3153	before
+E18	NonCausal:T53 Arg1:T54 Arg0:T55
+A25	Temporal E18
+T54	Argument 3154 3174	the end of the month
+T55	Argument 3070 3146	offer his proposal as an amendment to a bill to raise the federal debt limit
+T56	Motivation 3365 3367	if
+E19	Motivation:T56 Cause:T57 Effect:T58
+A26	Degree E19 Facilitate
+A27	Hypothetical E19
+T57	Argument 3368 3433	he and his colleagues are serious about kicking their compulsions
+T58	Argument 3435 3450	they'll sign up
+A28	Degree E2 Facilitate
+#1	AnnotatorNotes E7	Weird: doesn't capture negation
+A7	Degree E12 Inhibit
+#3	AnnotatorNotes E12	Metonymic for the bill

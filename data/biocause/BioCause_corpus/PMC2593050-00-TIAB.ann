@@ -1,0 +1,85 @@
+T36	Regulation 45 54	Important
+T37	Process 58 67	Virulence
+T38	Regulation 141 151	importance
+T39	Process 200 209	virulence
+T40	Process 342 351	infection
+T41	Negative_regulation 431 441	attenuated
+T42	Process 445 454	virulence
+T43	Process 491 501	infections
+T44	Process 600 606	resist
+T45	Process 723 732	infection
+T46	Negative_regulation 733 741	protects
+T47	Process 755 766	reinfection
+T48	Process 821 830	infection
+T49	Positive_regulation 831 838	induces
+T50	Gene_expression 839 849	production
+T51	Regulation 929 938	important
+T52	Process 961 970	virulence
+E1	Regulation:T36 Theme:E2 Cause:T1
+E2	Process:T37 Participant:T4
+E3	Regulation:T38 Theme:E4 Cause:T5
+M1	Speculation E3
+E4	Process:T39 Participant:T9
+E5	Process:T40 
+E6	Negative_regulation:T41 Theme:E7
+E7	Process:T42 Participant:T13
+E8	Process:T43 Participant:T13
+E9	Process:T44 Participant:T18
+E10	Process:T45 Participant:T20
+E11	Negative_regulation:T46 Theme:E12 Cause:E10
+E12	Process:T47 Participant:T23
+E13	Process:T48 Participant:T24
+E14	Positive_regulation:T49 Theme:E16 Cause:E13
+E15	Positive_regulation:T49 Theme:E17 Cause:E13
+E16	Gene_expression:T50 Theme:T27
+E17	Gene_expression:T50 Theme:T28
+E18	Regulation:T51 Theme:E19 Cause:T29
+E19	Process:T52 Participant:T32
+T1	Two-component-system 36 41	VicRK
+T2	Protein 36 40	VicR
+T3	Protein 40 41	K
+T4	Organism 71 105	Streptococcus equi Subspecies equi
+T5	Two-component-system 191 196	VicRK
+T6	Protein 191 195	VicR
+T7	Protein 195 196	K
+T8	Organism 217 222	horse
+T9	Organism 232 266	Streptococcus equi subspecies equi
+T10	Protein 290 294	vicK
+T11	Organism 336 341	mouse
+T12	Protein 364 368	vicK
+T13	Organism 411 427	DeltavicK mutant
+T14	Protein 416 420	vicK
+T15	Organism 505 509	mice
+T16	Organism 511 520	DeltavicK
+T17	Protein 516 520	vicK
+T18	Organism 589 596	S. equi
+T19	Protein 677 681	vicK
+T20	Organism 713 722	DeltavicK
+T21	Protein 718 722	vicK
+T22	Organism 742 746	mice
+T23	Organism 784 791	S. equi
+T24	Organism 811 820	DeltavicK
+T25	Protein 816 820	vicK
+T26	Protein 858 861	SeM
+T27	Protein 870 873	IgA
+T28	Protein 887 890	IgG
+T29	Two-component-system 920 925	VicRK
+T30	Protein 920 924	VicR
+T31	Protein 924 925	K
+T32	Organism 942 949	S. equi
+T33	Organism 988 997	DeltavicK
+T34	Protein 993 997	vicK
+T35	Organism 1042 1049	S. equi
+T53	Span 511 655	DeltavicK grows less slowly than the parent strain but retains the ability of S. equi to resist to phagocytosis by polymorphoneuclear leukocytes
+T54	Causality 657 672	suggesting that
+E20	Causality:T54 Effect:T55 Evidence:T53
+T55	Span 673 711	the vicK deletion causes growth defect
+T56	Causality 975 987	suggest that
+E21	Causality:T56 Effect:T57 Evidence:T58
+T57	Span 988 1057	DeltavicK has the potential to be developed as a live S. equi vaccine
+T58	Span 800 890	Intranasal DeltavicK infection induces production of anti-SeM mucosal IgA and systemic IgG
+T59	Causality 892 919	These results indicate that
+E22	Causality:T59 Effect:T60 Evidence:T58
+T60	Span 920 970	VicRK is important to S. equi growth and virulence
+T61	Span 713 798	DeltavicK infection protects mice against reinfection with a wild-type S. equi strain
+E23	Causality:T59 Effect:T60 Evidence:T61

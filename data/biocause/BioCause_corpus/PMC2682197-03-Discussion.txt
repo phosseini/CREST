@@ -1,0 +1,50 @@
+Discussion 
+Despite the significance of M. tuberculosis latency in pathogenesis, the mechanisms by which the tubercle bacillus establishes and maintains the latent state remain incompletely defined.
+Identification of M. tuberculosis genes that are induced by hypoxia and nitric oxide (NO) in vitro provides a framework for understanding the physiology of dormant bacilli [3],[4],[5].
+These genes, referred to as the dormancy regulon, are transcriptionally regulated by the mycobacterial two-component system DosR-DosS under hypoxic conditions [4].
+Indeed, it has been shown that both the cognate sensor histidine kinase DosS (a member of the dormancy regulon) as well as an "orphan" kinase, DosT, functioning as redox and hypoxia sensors, respectively; can regulate DosR activity, and that O2, NO, and CO can modulate the activity of these two kinases via interaction with a haem prosthetic group [28],[29],[30],[31],[32].
+The biological significance of the dormancy regulon has been underscored by in vitro studies of dosR mutants of BCG and M. tuberculosis, which demonstrated the requirement of this transcription factor for survival under hypoxic conditions [3],[33].
+Further, upregulation of the expression of certain dormancy regulon genes have been implicated in tuberculosis transmission as well as the virulence of the epidemiologically important W-Beijing lineage of M. tuberculosis [34],[35].
+There are eight genes in the M. tuberculosis genome annotated to encode USP family proteins [7].
+We studied the M. tuberculosis USP rv2623 because it is one of the most highly induced genes in the dormancy regulon when bacilli are subjected to hypoxia and nitrosative stress [3],[4],[5],[36],[37].
+More important, rv2623 was also shown to be up-regulated when the tubercle bacillus is internalized by human and mouse macrophages [10],[38] as well as in the lungs of mice with persistent M. tuberculosis infection [11].
+These latter observations suggest that the induction of rv2623 may have biological relevance.
+The precise mechanisms by which Rv2623 expression is regulated remain to be defined.
+Recent transcriptional analysis of Rv2623, while confirming the essentiality of the two 18 bp palindromic DosR-binding motifs that are present in the promoter region of this gene [38] for induction of Rv2623 under low oxygen conditions, also demonstrated the presence of additional regulatory elements within the rv2623 5'-untranslated region [18].
+These results suggest that the regulation of Rv2623 is likely complex.
+The M. tuberculosis dormancy response features a dramatic decrease in metabolic activity, resulting in a rapid decrease in bacterial replication [39].
+Therefore, it is possible that deficiency in certain members of the dormancy regulon could result in inability of the tubercle bacillus to enter a latent state in the infected host, leading to unrestrained growth and thus, hypervirulence.
+Indeed, specific members of the M. tuberculosis dormancy regulon whose insufficiency results in a hypervirulence phenotype have been reported [40],[41].
+In certain experimental tuberculosis animal models, DosR deficiency has been associated with a hypervirulence phenotype [41].
+However, DosR deficiency has also been reported to have no effect on M. tuberculosis virulence or to lead to an attenuated phenotype [42],[43].
+The discrepancies regarding M. tuberculosis virulence in these DosR studies are unclear, but could be due to differences in experimental systems employed.
+Insufficiency of the chaperone-like alpha-crystallin encoded by M. tuberculosis hspX (acr) has also been shown to be associated with hypervirulence in a BALB/c mouse model of tuberculosis [40].
+In the present study, an rv2623 knockout mutant of virulent M. tuberculosis Erdman fails to establish a chronic persistent infection, displaying a hypervirulent phenotype in susceptible hosts, as assessed by lung bacterial burden, histopathology, and mortality.
+Results of the complementation studies indicate that the phenotype is Rv2623-specific.
+This growth-regulating phenomenon is echoed by the observation that ectopic overexpression of Rv2623 results in attenuation of mycobacterial growth.
+Together, these data strongly suggest that the M. tuberculosis USP Rv2623 has the ability to regulate growth in vitro and in vivo, and is required for the establishment of a persistent infection.
+Intriguingly, ectopic overexpression of HspX by the same means employed by our study also resulted in an attenuated growth phenotype compared with LacZ-overexpressing controls [44], suggesting that these two tightly co-regulated "stress" proteins might have similar growth-regulatory roles during dormancy.
+Bioinformatic and experimental evidence suggest that nucleotide-binding capacity represents a discriminating biochemical feature that facilitates USP protein classification.
+Putative functional differences between USPs are implied by their assignment to two subclasses: one whose members do not bind ATP and another whose constituents bind and hydrolyze adenine nucleotide substrates [8],[26],[27],[45],[46].
+A structural comparison between the prototypic members of the two subclasses, the non-ATP-binding UspA homolog (H. influenzae, PDB ID 1JMV) and the ATP-binding USP, MJ0577 (M. jannaschii, PDB ID 1MJH) revealed that while both proteins exhibit a similar fold, conserved glycine residues within the ATP-binding loop of the latter are substituted with bulky amino acids that preclude ATP recognition in the former [26],[27].
+The unique nucleotide-binding pocket of this protein family is structurally distinct from those commonly encountered in ATP-binding proteins [26],[47],[48].
+Specific roles for USP family proteins are just beginning to be characterized, and early functional classifications have been informed by ATP-binding capacity [9].
+While the non-ATP-binding UspA homologs appear to play diverse roles in promoting survival under a variety of environmental insults [15],[49],[50],[51], the function(s) of ATP-binding type USPs remain unclear [9].
+Based on in silico analyses, Florczyk et al. classified Rv2623 as belonging to a novel class of ATPases [52], although formal evidence for ATP binding by this protein has not been reported.
+This study has provided substantial biochemical and structural evidence that M. tuberculosis Rv2623 is a bona fide nucleotide-binding USP:
+i) E. coli-expressed His6-Rv2623 co-purifies with tightly bound ATP and ADP;
+ii) analysis of the 2.9 A -resolution Rv2623 crystal structure, the first molecular model of a tandem-type USP, reveals four ATP-bound nucleotide-binding pockets;
+and iii) point mutations (D15E, G117A) within the conserved L1 (D15E) and beta4 (G117A) regions of the structure, which were predicted to disrupt nucleotide-binding, yielded mutant proteins with attenuated ATP-binding capacity.
+Furthermore, given that the attenuated growth phenotype caused by overexpression of Rv2623 could be abrogated by mutations that interfere with the binding of this protein to its nucleotide substrate, it is likely that the mycobacterial growth-regulatory faculty of Rv2623 is mediated by an ATP-dependent function.
+In summary, the results of the present study have revealed that the M. tuberculosis USP Rv2623 has the ability to regulate mycobacterial growth, as evident by the in vivo hypervirulence phenotype of Deltarv2623, which fails to establish a persistent infection in susceptible hosts, as well as the growth attenuation observed in mycobacteria overexpressing this USP.
+Thus, M. tuberculosis Rv2623 may serve the function of promoting mycobacterial transition into latency.
+The latent state allows persistence in infected individuals of tubercle bacilli that can reactivate to cause active disease and to disseminate when the immune status of the host is compromised.
+As a result, Rv2623 may contribute significantly to the propagation of the tubercle bacillus in the human host and the difficulties in eradicating tuberculosis.
+Mechanistically, results of the mutagenesis studies have shown that Rv2623 regulates growth through ATP-dependent function.
+Clearly, much remains to be learned regarding how the ATP-dependent function of Rv2623 contributes to growth regulation.
+It has been proposed that a nucleotide-binding USP from M. jannaschii, MJ0577, whose ability to hydrolyze ATP is dependent on interaction with factor(s) present in the cell extract of this hyperthermophile [26], functions as a molecular switch much like the Ras protein family, whose GTP hydrolysis ability is modulated by interaction with a number of regulatory proteins [53],[54],[55].
+The fact that E. coli-expressed Rv2623 co-purifies with ADP as well as ATP suggests the possibility that this mycobacterial USP, like MJ0577, is capable of ATP hydrolysis.
+It is therefore conceivable that M. tuberculosis Rv2623, as a component of the yet-to-be defined dormancy signaling pathway(s), functions as a molecular switch by virtue of its ATP-binding and putative ATP-hydrolyzing properties, to mediate the establishment of tuberculous latency.
+Experiments designed to investigate the potential ATP-hydrolyzing activity of Rv2623 are currently underway.
+Recent identification of the DosR-dependent dormancy regulon [3],[4],[5]; the DosR-independent enduring hypoxic response, which involves over 200 mycobacterial genes, including those known to regulate bacteriostasis [42]; and the demonstration that M. tuberculosis redox and hypoxia sensors can interact with multiple ligands that differentially modulate the activity of these important kinases [28],[29],[30],[31],[32], predict a complex regulatory network for tuberculous latency.
+Elucidation of how ATP-binding and, potentially, the hydrolysis of ATP by Rv2623 regulate M. tuberculosis dormancy-signaling pathways will likely illuminate the mechanisms by which the tubercle bacillus establishes persistence.

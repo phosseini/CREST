@@ -1,0 +1,15 @@
+Regulation by PAS_4/LuxR-like receptors 
+In P. luminescens, the amount of luxR-like genes is overrepresented with 39 copies in the genome.
+35 of these potential LuxR-like receptors exhibit PAS_4 signal binding domains instead of an AHL-binding domain, and two have a signalling domain with a yet unidentified motif (Fig. 3).
+Most of the genes are located in two large gene clusters (plu0918-0925 and plu2001-2019).
+Interestingly, eleven of those LuxR-like receptors are present in Y. enterocolitica of which five are located in a cluster (ye0035-0039).
+Nine of these have a so-called PAS_4 signal binding domains of yet unknown function.
+It is interesting to note that there is only one bacterium else, the insect colonizing S. glossinidius, whose genome also carries a series of unclustered genes coding for PAS_4/LuxR-like receptors, indicating that this kind of receptors plays a role during insect infection.
+PAS-domains have been suspected to act as insect juvenile hormone (JH) receptors in the fruit fly Drosophila melanogaster [43,44].
+The methoprene-tolerant gene (met, also called Resistance to Juvenile Hormone Rst1JH) of D. melanogaster encodes a helix-loop-helix transcriptional regulator combined with a PAS_3 domain [45].
+Met has been shown to bind JH at physiological concentrations and is therefore suspected to act as a JH receptor [46,47].
+Therefore, the potential PAS_4/LuxR-like receptors of P. luminescens, Y. enterocolitica, and S. glossinidius might sense JH or other eukaryotic hormones of the insect to adapt their gene expression to the insect host.
+The high number of 35 highly homologous receptor proteins in P. luminescens might be the reason for the wide insect host spectrum this pathogen is capable to infect.
+Although Y. enterocolitica protein extracts confer toxicity against M. sexta larvae [7], its host spectrum still remains to be defined.
+The difference in the number of the uncommon LuxR-like receptors (35 in P. luminescens, nine in Y. enterocolitica) gives rise to speculations that the insect host spectrum is constricted for Y. enterocolitica compared with P. luminescens.
+This hypothesis is underlined by the fact that not more than five PAS_4/LuxR-like receptors are present in S. glossinidius for which only one insect host has been reported.

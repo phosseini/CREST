@@ -1,0 +1,212 @@
+T1	Organism 33 46	P. aeruginosa
+T2	Organism 115 123	patients
+T3	Organism 140 153	P. aeruginosa
+T4	Organism 401 409	patients
+T5	Organism 839 852	P. aeruginosa
+T6	Chemical 881 884	LPS
+T7	Chemical 938 947	Magnesium
+T8	Chemical 1028 1032	CAPs
+T9	Organism 1036 1049	P. aeruginosa
+T10	Two-component-system 1090 1095	PhoPQ
+T11	Protein 1090 1094	PhoP
+T12	Protein 1094 1095	Q
+T13	Organism 1106 1128	Salmonella typhimurium
+T14	Chemical 1154 1163	magnesium
+T15	Protein 1177 1181	phoP
+T16	Chemical 1306 1310	Mg2+
+T17	Two-component-system 1446 1451	PhoPQ
+T18	Protein 1446 1450	PhoP
+T19	Protein 1450 1451	Q
+T20	Two-component-system 1537 1542	PhoPQ
+T21	Protein 1537 1541	PhoP
+T22	Protein 1541 1542	Q
+T23	Chemical 1564 1573	magnesium
+T24	Organism 1736 1749	P. aeruginosa
+T25	Chemical 1889 1893	Mg2+
+T26	Chemical 1971 1986	aminoglycosides
+T27	Organism 1990 2003	P. aeruginosa
+T28	Two-component-system 2034 2039	PhoPQ
+T29	Protein 2034 2038	PhoP
+T30	Protein 2038 2039	Q
+T31	Chemical 2050 2053	LPS
+T32	Organism 2101 2113	PhoQ mutants
+T33	Protein 2101 2105	PhoQ
+T34	Protein 2144 2148	phoP
+T35	Chemical 2245 2260	aminoglycosides
+T36	Organism 2270 2284	S. typhimurium
+T37	Two-component-system 2286 2291	PhoPQ
+T38	Protein 2286 2290	PhoP
+T39	Protein 2290 2291	Q
+T40	Chemical 2311 2314	LPS
+T41	Chemical 2428 2438	gentamicin
+T42	Chemical 2477 2491	aminoglycoside
+T43	Organism 2506 2519	P. aeruginosa
+T44	Chemical 2580 2583	LPS
+T45	Regulon-operon 2604 2617	PA3552-PA3559
+T46	Protein 2604 2610	PA3552
+T47	Protein 2611 2617	PA3559
+T48	Chemical 2693 2708	aminoglycosides
+T49	Chemical 2775 2778	LPS
+T50	Organism 2847 2860	P. aeruginosa
+T51	Two-component-system 2861 2866	PmrAB
+T52	Protein 2861 2865	PmrA
+T53	Protein 2865 2866	B
+T54	Organism 2880 2887	E. coli
+T55	Two-component-system 2888 2893	PmrAB
+T56	Protein 2888 2892	PmrA
+T57	Protein 2892 2893	B
+T58	Two-component-system 2903 2908	BasRS
+T59	Protein 2903 2907	BasR
+T60	Protein 2907 2908	S
+T61	Organism 3026 3039	P. aeruginosa
+T62	Chemical 3209 3212	CAP
+T63	Regulon-operon 3267 3280	PA3552-PA3559
+T64	Protein 3267 3273	PA3552
+T65	Protein 3274 3280	PA3559
+T66	Organism 3329 3342	P. aeruginosa
+T67	Chemical 3592 3595	LPS
+T68	Regulon-operon 3616 3629	PA3552-PA3559
+T69	Protein 3616 3622	PA3552
+T70	Protein 3623 3629	PA3559
+T71	Chemical 4405 4409	Mn2+
+T72	Chemical 4414 4418	Zn2+
+T73	Organism 4512 4533	Staphylococcus aureus
+T74	Chemical 5016 5022	oxygen
+T75	Chemical 5434 5438	Mg2+
+T76	Organism 5560 5568	patients
+T77	Protein 5886 5892	PA3553
+T78	Two-component-system 5936 5941	PhoPQ
+T79	Protein 5936 5940	PhoP
+T80	Protein 5940 5941	Q
+T81	Two-component-system 5946 5951	PmrAB
+T82	Protein 5946 5950	PmrA
+T83	Protein 5950 5951	B
+T84	Regulon-operon 6076 6089	PA3552-PA3559
+T85	Protein 6076 6082	PA3552
+T86	Protein 6083 6089	PA3559
+T87	Organism 6125 6138	P. aeruginosa
+T88	Chemical 6156 6159	LPS
+T89	Chemical 6209 6216	lipid A
+T90	Organism 6231 6244	P. aeruginosa
+T91	Chemical 6314 6326	EPS alginate
+T92	Chemical 6349 6357	alginate
+T93	Regulon-operon 6423 6436	PA3552-PA3559
+T94	Protein 6423 6429	PA3552
+T95	Protein 6430 6436	PA3559
+T96	Protein 6467 6473	PA3553
+T97	Chemical 6524 6532	alginate
+T98	Organism 6606 6614	patients
+T99	Two-component-system 6885 6890	PhoPQ
+T100	Protein 6885 6889	PhoP
+T101	Protein 6889 6890	Q
+T102	Two-component-system 6891 6896	PmrAB
+T103	Protein 6891 6895	PmrA
+T104	Protein 6895 6896	B
+T105	Two-component-system 7471 7476	PhoPQ
+T106	Protein 7471 7475	PhoP
+T107	Protein 7475 7476	Q
+T108	Two-component-system 7477 7482	PmrAB
+T109	Protein 7477 7481	PmrA
+T110	Protein 7481 7482	B
+T111	Chemical 7507 7510	LPS
+T112	Process 12 22	Infections
+T113	Process 392 400	infected
+T114	Process 462 472	resistance
+T115	Process 519 529	resistance
+T116	Process 692 702	resistance
+T117	Process 908 918	resistance
+T118	Positive_regulation 1006 1013	induces
+T119	Process 1014 1024	resistance
+T120	Positive_regulation 1132 1141	activated
+T121	Positive_regulation 1452 1462	activation
+T122	Regulation 1552 1560	responds
+T123	Positive_regulation 1949 1956	induced
+T124	Process 1957 1967	resistance
+T125	Gene_expression 2136 2143	express
+T126	Process 2172 2181	resistant
+T127	Process 2232 2241	resistant
+T128	Process 2492 2502	resistance
+T129	Process 2539 2549	resistance
+T130	Positive_regulation 2563 2572	dependent
+T131	Binding 2725 2729	bind
+T132	Gene_expression 3253 3262	expresses
+T133	Positive_regulation 3575 3584	induction
+T134	Positive_regulation 5879 5885	induce
+T135	Gene_expression 5893 5908	gene expression
+T136	Positive_regulation 6050 6056	induce
+T137	Gene_expression 6061 6071	expression
+T138	Positive_regulation 6396 6404	inducing
+T139	Gene_expression 6405 6415	expression
+T140	Positive_regulation 6454 6463	induction
+T141	Gene_expression 6474 6489	gene expression
+T142	Process 6921 6931	resistance
+T143	Positive_regulation 7185 7192	induces
+T144	Process 7193 7203	resistance
+T145	Process 7539 7549	resistance
+E1	Process:T112 Participant:T1
+E2	Process:T113 Participant:T3
+E3	Process:T114 
+E4	Process:T115 
+E5	Process:T116 
+E6	Process:T117 Participant:T5
+E7	Positive_regulation:T118 Theme:E8
+E8	Process:T119 Participant:T9
+E9	Positive_regulation:T120 Theme:T10
+E10	Positive_regulation:T121 Theme:T17
+E11	Regulation:T122 Theme:T20 Cause:T23
+E12	Positive_regulation:T123 Theme:E13
+E13	Process:T124 Participant:T27
+E14	Gene_expression:T125 Theme:T34
+E15	Process:T126 
+E16	Process:T127 
+E17	Process:T128 
+E18	Process:T129 
+E19	Positive_regulation:T130 Theme:E18 Cause:T45
+E20	Binding:T131 Theme1:T48 Theme2:T49
+E21	Gene_expression:T132 Theme:T63
+E22	Positive_regulation:T133 Theme:T68
+E23	Positive_regulation:T134 Theme:E24
+E24	Gene_expression:T135 Theme:T77
+E25	Positive_regulation:T136 Theme:E26
+E26	Gene_expression:T137 Theme:T84
+E27	Positive_regulation:T138 Theme:E28 Cause:T92
+E28	Gene_expression:T139 Theme:T93
+E29	Positive_regulation:T140 Theme:E30
+M1	Negation E29
+E30	Gene_expression:T141 Theme:T96
+E31	Process:T142 
+E32	Positive_regulation:T143 Theme:E33
+E33	Process:T144 
+E34	Process:T145 
+T146	Span 864 936	the induction of LPS modification genes and resistance to antimicrobials
+T147	Causality 853 863	leading to
+E35	Causality:T147 Evidence:T148 Effect:T146
+T148	Span 622 852	We have identified a novel mechanism of biofilm-associated antibiotic resistance in which the presence of DNA in the extracellular matrix of biofilms creates a localized cation-limited environment that is detected by P. aeruginosa
+T149	Span 938 1000	Magnesium limitation has long been known as an in vitro signal
+T150	Causality 1001 1005	that
+E36	Causality:T150 Effect:T151 Evidence:T149
+T151	Span 1006 1049	induces resistance to CAPs in P. aeruginosa
+T152	Span 1056 1265	As an intracellular pathogen, the PhoPQ system of Salmonella typhimurium is activated by limiting magnesium in vitro and phoP-regulated genes are also induced after invasion of macrophages and epithelial cells
+T153	Causality 1272 1305	These observations suggested that
+E37	Causality:T153 Effect:T154 Evidence:T152
+T154	Span 1306 1462	Mg2+ is limiting within host cells, but it was recently shown that vacuole acidification and low pH is the crucial environmental trigger of PhoPQ activation
+T155	Span 3010 3160	In pure culture P. aeruginosa biofilms, genomic DNA localizes throughout the biofilm surface monolayer and surrounds the mushroom-shaped microcolonies
+T156	Causality 3167 3186	This coincides with
+E38	Causality:T156 Effect:T157 Evidence:T155
+T157	Span 3187 3351	the localization of a CAP-tolerant subpopulation of bacteria that expresses the PA3552-PA3559 operon along the surface of mushroom-structured P. aeruginosa biofilms
+T158	Span 4567 4653	Staining of peg-adhered biofilms indicated that DNA was present throughout the biofilm
+T159	Causality 4665 4703	This data supports the hypothesis that
+E39	Causality:T159 Effect:T160 Evidence:T158
+T160	Span 4704 4908	the release of genomic DNA by lysed cells following exposure to inhibitory concentrations of extracellular DNA may result in a continual release of DNA by dying cells and a DNA gradient within the biofilm
+T161	Span 4910 5061	Our observation that DNA imposes a cation gradient in biofilm is also consistent with previous reports of oxygen and nutrient gradients within biofilms
+T162	Causality 5063 5078	which result in
+E40	Causality:T162 Effect:T163 Evidence:T161
+T163	Span 5079 5143	diverse physiological cellular states within a biofilm community
+T164	Span 5969 6096	it appears that there are multiple environmental signals in the CF lung that can induce the expression the PA3552-PA3559 operon
+T165	Causality 6098 6115	which may explain
+E41	Causality:T165 Effect:T166 Evidence:T164
+T166	Span 6116 6216	why many P. aeruginosa CF isolates show LPS modifications such as aminoarabinose addition to lipid A
+T167	Span 6223 6326	As many P. aeruginosa strains isolated from the CF lung overproduce the negatively charged EPS alginate
+T168	Causality 6328 6361	we hypothesized that alginate may
+E42	Causality:T168 Effect:T169 Evidence:T167
+T169	Span 6362 6443	also be a relevant in vivo signal inducing expression of the PA3552-PA3559 operon

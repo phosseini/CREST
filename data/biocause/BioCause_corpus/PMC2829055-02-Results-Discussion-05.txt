@@ -1,0 +1,19 @@
+Induction of a phagocytosis-resistant phenotype in the flea 
+Soon after transmission, Y. pestis would be expected to encounter rapidly-responding phagocytic cells in the dermis.
+To assess the overall effect of the flea-specific phenotype on this encounter, we compared the interaction of Y. pestis recovered from infected fleas and from in vitro cultures with murine bone marrow macrophages.
+Bacteria from fleas showed significantly lower levels of phagocytosis (Fig. 4A).
+We have previously reported analogous findings using human polymorphonuclear leukocytes (PMNs) [7].
+The yit and yip genes in a Y. pestis locus (y0181-0191) that encode predicted insecticidal-like toxins of the toxin complex (Tc) family and three linked phage-related genes were upregulated 4- to 50-fold in the flea midgut (Tables 1 and S1).
+We previously reported that the genes for these Tc-like proteins are highly expressed in fleas, but that their products are nontoxic to fleas [49].
+yitR, a LysR-type regulator that activates the Tc-like yit genes [50], was upregulated >10-fold in the flea, but its expression was not detected in the rat bubo (Table 1).
+The specific induction in the flea of yitR and genes in the adjacent Tc-like yit and yip loci suggests that they are involved in adaptation to and colonization of the flea.
+However, deletion of yitR or yitA-yipB (y0183-y0191) does not affect the ability of Y. pestis KIM6+ to infect or block fleas (data not shown).
+These observations, and the fact that the Yersinia Tc proteins have toxicity to certain eukaryotic cell lines in vitro [50],[51], prompted us to investigate a possible post-transmission antiphagocytic role for these proteins in the mammalian host.
+To determine if the insecticidal-like toxins were involved in resistance to phagocytosis, we repeated the macrophage experiments with a Y. pestis DeltayitR mutant, which as expected showed greatly reduced expression of the yit and yip genes in vitro and in the flea (Fig. 4B).
+Loss of yitR significantly reduced the increased resistance to phagocytosis of Y. pestis isolated from infected fleas (Fig. 4C).
+Since the yit and yip genes are not required for Y. pestis to produce a transmissible infection in fleas, it was possible to compare the virulence of wild-type and DeltayitR Y. pestis following transmission by fleabite.
+The incidence rate and time to disease onset were identical for both Y. pestis strains, demonstrating that expression of yit and yip is not essential for flea-borne transmission or disease (data not shown).
+On average, the mice challenged with Y. pestis DeltayitR-infected fleas, both those that developed disease and those that did not, received a higher cumulative number of bites from blocked fleas than the mice challenged with Y. pestis-infected fleas, but this difference was not statistically significant (Fig. 5).
+However, it was not possible to detect any relatively minor difference in LD50 because the number of bacteria transmitted by a blocked flea varies widely [1],[52].
+Even a small decrease in LD50 provided by the Yit-Yip proteins would be significant at the ecological level in the maintenance of plague transmission cycles, because the transmission efficiency of blocked fleas is very low- often only a few or no bacterial cells are transmitted in an individual fleabite [52].
+Because phoP is required by Y. pestis to produce a transmissible infection in fleas (unpublished data), it was not possible to similarly assess the effect on disease transmission of phoP induction in the flea.

@@ -1,0 +1,28 @@
+*	Equiv T2 T3
+T8	Negative_regulation 48 58	Attenuated
+T9	Process 62 71	Virulence
+T10	Process 150 158	virulent
+T11	Negative_regulation 463 473	attenuated
+T12	Process 474 483	virulence
+T13	Process 555 564	virulence
+T14	Process 857 866	virulence
+T15	Negative_regulation 867 878	attenuation
+T16	Process 1261 1271	attenuated
+T17	Process 1476 1485	virulence
+E1	Negative_regulation:T8 Theme:E2
+E2	Process:T9 
+E3	Process:T10 Participant:T2
+E4	Negative_regulation:T11 Theme:E5
+E5	Process:T12 
+E6	Process:T13 
+E7	Process:T14 
+E8	Negative_regulation:T15 Theme:E7
+E9	Process:T16 
+E10	Process:T17 Participant:T7
+T1	Organism 14 16	TB
+T2	Organism 159 183	P. aeruginosa CF isolate
+T3	Organism 185 187	TB
+T4	Organism 321 323	TB
+T5	Organism 673 683	C. elegans
+T6	Organism 898 900	TB
+T7	Organism 1498 1500	TB

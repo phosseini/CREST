@@ -1,0 +1,141 @@
+T1	Protein 26 31	SeMac
+T2	Organism 40 45	Horse
+T3	Protein 46 50	IgG1
+T4	Organism 55 60	Human
+T5	Protein 61 64	IgG
+T6	Organism 66 69	GAS
+T7	Protein 70 73	Mac
+T8	Organism 104 109	human
+T9	Protein 110 113	IgG
+T10	Organism 268 271	GAS
+T11	Protein 272 275	Mac
+T12	Protein 284 289	SeMac
+T13	Protein 389 394	SeMac
+T14	Protein 438 441	IgG
+T15	Protein 474 479	SeMac
+T16	Protein 582 596	SeMacCys102Ser
+T17	Protein 598 612	SeMacHis272Ala
+T18	Protein 617 631	SeMacAsp294Ala
+T19	Protein 633 638	SeMac
+T20	Organism 661 668	E. coli
+T21	Protein 685 702	IgG endopeptidase
+T22	Organism 718 723	human
+T23	Protein 724 727	IgG
+T24	Protein 739 744	SeMac
+T25	Organism 772 777	human
+T26	Protein 778 781	IgG
+T27	Protein 789 803	SeMacCys102Ser
+T28	Protein 808 822	SeMacHis272Ala
+T29	Protein 843 860	IgG endopeptidase
+T30	Protein 875 889	SeMacAsp294Ala
+T31	Protein 996 1001	SeMac
+T32	Protein 1007 1029	cysteine endopeptidase
+T33	Organism 1101 1106	human
+T34	Protein 1107 1110	IgG
+T35	Protein 1133 1138	SeMac
+T36	Organism 1143 1146	GAS
+T37	Protein 1147 1150	Mac
+T38	Organism 1191 1196	horse
+T39	Protein 1197 1200	IgG
+T40	Organism 1230 1235	human
+T41	Protein 1236 1239	IgG
+T42	Organism 1278 1283	horse
+T43	Protein 1284 1287	IgG
+T44	Protein 1345 1350	SeMac
+T45	Organism 1354 1357	GAS
+T46	Protein 1358 1361	Mac
+T47	Organism 1393 1398	horse
+T48	Protein 1399 1402	IgG
+T49	Organism 1440 1445	horse
+T50	Protein 1446 1450	IgG1
+T51	Protein 1468 1472	IgG1
+T52	Protein 1477 1481	IgG4
+T53	Protein 1500 1505	SeMac
+T54	Organism 1509 1512	GAS
+T55	Protein 1513 1516	Mac
+T56	Protein 1518 1523	SeMac
+T57	Organism 1527 1530	GAS
+T58	Protein 1531 1534	Mac
+T59	Protein 1566 1570	IgG1
+T60	Protein 1571 1575	IgG4
+T61	Protein 1593 1597	IgG4
+T62	Protein 1614 1617	Mac
+T63	Protein 1638 1642	IgG1
+T64	Protein 1651 1655	IgG4
+T65	Protein 1710 1713	IgG
+T66	Protein 1739 1744	SeMac
+T67	Protein 1763 1766	IgG
+T68	Positive_regulation 78 84	cleave
+T69	Protein_catabolism 78 84	cleave
+T70	Gene_expression 648 657	expressed
+T71	Positive_regulation 745 752	cleaved
+T72	Protein_catabolism 745 752	cleaved
+T73	Positive_regulation 1094 1100	cleave
+T74	Protein_catabolism 1094 1100	cleave
+T75	Positive_regulation 1184 1190	cleave
+T76	Protein_catabolism 1184 1190	cleave
+T77	Positive_regulation 1222 1229	cleaved
+T78	Protein_catabolism 1222 1229	cleaved
+T79	Positive_regulation 1292 1299	cleaved
+T80	Protein_catabolism 1292 1299	cleaved
+T81	Positive_regulation 1369 1375	digest
+T82	Protein_catabolism 1369 1375	digest
+T83	Positive_regulation 1535 1542	cleaved
+T84	Protein_catabolism 1535 1542	cleaved
+T85	Positive_regulation 1631 1637	cleave
+T86	Protein_catabolism 1631 1637	cleave
+T87	Positive_regulation 1745 1752	cleaves
+T88	Protein_catabolism 1745 1752	cleaves
+E1	Protein_catabolism:T69 Theme:T9
+E2	Positive_regulation:T68 Theme:E1 Cause:T7
+E3	Gene_expression:T70 Theme:T16
+E4	Gene_expression:T70 Theme:T17
+E5	Gene_expression:T70 Theme:T18
+E6	Protein_catabolism:T72 Theme:T26
+E7	Positive_regulation:T71 Theme:E6 Cause:T24
+E8	Protein_catabolism:T74 Theme:T34
+E9	Positive_regulation:T73 Theme:E8 Cause:T31
+E10	Protein_catabolism:T76 Theme:T39
+E11	Positive_regulation:T75 Theme:E10 Cause:T35
+M1	Speculation E11
+E12	Positive_regulation:T75 Theme:E10 Cause:T37
+M2	Speculation E12
+E13	Protein_catabolism:T78 Theme:T41
+E14	Positive_regulation:T77 Theme:E13 Cause:T35
+E15	Positive_regulation:T77 Theme:E13 Cause:T37
+E16	Protein_catabolism:T80 Theme:T43
+E17	Positive_regulation:T79 Theme:E16 Cause:T35
+E18	Positive_regulation:T79 Theme:E16 Cause:T37
+E19	Protein_catabolism:T82 Theme:T48
+E20	Positive_regulation:T81 Theme:E19 Cause:T44
+E21	Positive_regulation:T81 Theme:E19 Cause:T46
+E22	Protein_catabolism:T84 Theme:T59
+E23	Protein_catabolism:T84 Theme:T60
+E24	Protein_catabolism:T84 Theme:T61
+E25	Positive_regulation:T83 Theme:E22 Cause:T56
+E26	Positive_regulation:T83 Theme:E22 Cause:T58
+E27	Positive_regulation:T83 Theme:E23 Cause:T56
+E28	Positive_regulation:T83 Theme:E23 Cause:T58
+E29	Positive_regulation:T83 Theme:E24 Cause:T56
+M3	Negation E29
+E30	Positive_regulation:T83 Theme:E24 Cause:T58
+M4	Negation E30
+E31	Protein_catabolism:T86 Theme:T63
+E32	Positive_regulation:T85 Theme:E31 Cause:T62
+E33	Protein_catabolism:T86 Theme:T64
+E34	Positive_regulation:T85 Theme:E33 Cause:T62
+M5	Negation E34
+E35	Protein_catabolism:T88 Theme:T67
+E36	Positive_regulation:T87 Theme:E35 Cause:T66
+T89	Span 729 958	Wild-type SeMac cleaved the heavy chain of human IgG, while SeMacCys102Ser and SeMacHis272Ala completely lost the IgG endopeptidase activity, and SeMacAsp294Ala had dramatically lower enzymatic activity than the wild-type protein
+T90	Causality 970 995	The results indicate that
+E37	Causality:T90 Effect:T91 Evidence:T89
+T91	Span 996 1110	SeMac is a cysteine endopeptidase, which uses Cys102, His272 and Asp294 as its catalytic triad to cleave human IgG
+T92	Span 1202 1317	While both proteins cleaved human IgG efficiently, only a small fraction of horse IgG was cleaved by either protein
+T93	Causality 1329 1344	suggesting that
+E38	Causality:T93 Effect:T94 Evidence:T92
+T94	Span 1345 1402	SeMac or GAS Mac cannot digest all subgroups of horse IgG
+T95	Span 1518 1597	SeMac or GAS Mac cleaved a small portion of the IgG1/IgG4 mixture, but not IgG4
+T96	Causality 1599 1608	Therefore
+E39	Causality:T96 Effect:T97 Evidence:T95
+T97	Span 1610 1655	the Mac proteins can cleave IgG1 but not IgG4

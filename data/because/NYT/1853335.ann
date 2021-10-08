@@ -1,0 +1,159 @@
+T1	NonCausal 16 21	after
+E1	NonCausal:T1 Arg1:T2 Arg0:T3
+A1	Temporal E1
+T2	Argument 86 313	the Bush administration has sharply changed course by repeatedly defending the company both in the United States and abroad against accusations of anticompetitive conduct, including the recent rejection of a complaint by Google
+T3	Argument 22 84	the government began its landmark effort to break up Microsoft
+T4	Consequence 636 641;648 650	allow to
+E2	Consequence:T4 Cause:T5 Effect:T7
+A2	Degree E2 Facilitate
+T5	Argument 631 635	that
+T6	Argument 583 630	Internet search and Web-based software programs
+R1	Coref Arg1:T5 Arg2:T6	
+T7	Argument 642 647;651 720	users bypass products made by Microsoft, the world's largest software maker
+T8	Motivation 1079 1089	discourage
+E3	Motivation:T8 Effect:T9 Cause:T11
+A3	Degree E3 Inhibit
+T9	Argument 1090 1132	the use of Google's desktop search program
+T11	Argument 1040 1074	its latest operating system, Vista
+T12	NonCausal 1470 1475	after
+E4	NonCausal:T12 Arg1:T13 Arg0:T14
+A4	Temporal E4
+T13	Argument 1504 1575	he removed himself from the case because of conflict of interest issues
+T14	Argument 1476 1502	arriving at the department
+T15	Motivation 1537 1547	because of
+E5	Motivation:T15 Effect:T16 Cause:T17
+A5	Degree E5 Facilitate
+T16	Argument 1504 1536	he removed himself from the case
+T17	Argument 1548 1575	conflict of interest issues
+T18	Motivation 2913 2917	With
+E6	Motivation:T18 Cause:T19 Effect:T20
+A6	Context E6
+A7	Degree E6 Facilitate
+T19	Argument 2918 2947	the change in administrations
+T20	Argument 2948 3070	there has been a sharp falling away from the concerns about how Microsoft and other large companies use their market power
+T21	Motivation 3691 3705	in response to
+E7	Motivation:T21 Effect:T22 Cause:T23
+A8	Degree E7 Facilitate
+T22	Argument 3648 3690	it had already made modifications to Vista
+T23	Argument 3706 3751	concerns raised by Google and other companies
+T27	Consequence 4024 4030	before
+E9	Consequence:T27 Effect:T28 Cause:T29
+A10	Degree E9 Facilitate
+A11	Temporal E9
+T28	Argument 4031 4046	it went on sale
+T29	Argument 3866 4023	an independent technical committee that works for the Justice Department and the states had spent years examining Vista for possible anticompetitive problems
+T31	Motivation 4143 4157	in response to
+E10	Motivation:T31 Effect:T32 Cause:T33
+A12	Degree E10 Facilitate
+T32	Argument 4121 4142	make changes to Vista
+T33	Argument 4158 4176	Google's complaint
+T35	Motivation 4988 4995	because
+E11	Motivation:T35 Effect:T36 Cause:T37
+A13	Degree E11 Facilitate
+T36	Argument 4897 4987	consumers who try to use its search tool for computer hard drives on Vista were frustrated
+T37	Argument 4996 5066	Vista has a competing desktop search program that cannot be turned off
+T38	Consequence 5068 5072	When
+E12	Consequence:T38 Cause:T39 Effect:T40
+A14	Degree E12 Facilitate
+A15	Temporal E12
+T39	Argument 5073 5146	the Google and Vista search programs are run simultaneously on a computer
+T40	Argument 5148 5210	their indexing programs slow the operating system considerably
+T41	Motivation 5230 5232;5235 5241	As result
+E13	Motivation:T41 Effect:T42
+A16	Degree E13 Facilitate
+T42	Argument 5243 5408	Google said that Vista violated Microsoft's 2002 antitrust settlement, which prohibits Microsoft from designing operating systems that limit the choices of consumers
+T43	NonCausal 5320 5329;5340 5344	prohibits from
+E14	NonCausal:T43 Arg0:T44 Arg1:T46
+A17	Obligation-permission E14
+T44	Argument 5314 5319	which
+T45	Argument 5275 5312	Microsoft's 2002 antitrust settlement
+R2	Coref Arg1:T44 Arg2:T45	
+T46	Argument 5330 5339;5345 5408	Microsoft designing operating systems that limit the choices of consumers
+T47	Argument 5501 5506	Vista
+T50	Consequence 5510 5516;5523 5525	enable to
+E16	Consequence:T50 Effect:T51 Cause:T47
+A19	Degree E16 Facilitate
+T51	Argument 5517 5522;5526 5570	users turn off its built-in desktop search program
+T53	Purpose 5571 5573	so
+E17	Purpose:T53 Effect:T54 Cause:T55
+A20	Degree E17 Facilitate
+T54	Argument 5492 5570	redesign Vista to enable users to turn off its built-in desktop search program
+T55	Argument 5579 5619	competing programs could function better
+T56	NonCausal 5760 5766	Before
+E18	NonCausal:T56 Arg1:T57 Arg0:T58
+A21	Temporal E18
+T57	Argument 5767 5807	he joined the Justice Department in 2004
+T58	Argument 5809 5894	Mr. Barnett had been vice chairman of the antitrust department at Covington & Burling
+T59	NonCausal 6084 6092;6117 6119	requires to
+E19	NonCausal:T59 Arg0:T60 Arg1:T61
+A22	Obligation-permission E19
+T60	Argument 6073 6083	the decree
+T61	Argument 6093 6116;6120 6140	complaints by companies be kept confidential
+T62	Consequence 6263 6270;6294 6298	prevent from
+E20	Consequence:T62 Cause:T63 Effect:T64
+A23	Degree E20 Inhibit
+T63	Argument 6237 6255	the consent decree
+T64	Argument 6284 6293;6299 6363	Microsoft certain exclusionary behavior that was anticompetitive in nature
+T65	NonCausal 6275 6283;6294 6298	prohibit from
+E21	NonCausal:T65 Arg0:T63 Arg1:T64
+A24	Obligation-permission E21
+T66	Consequence 6492 6499;6510 6514	prevent from
+E22	Consequence:T66 Cause:T67 Effect:T68
+A25	Degree E22 Inhibit
+T67	Argument 6481 6483	We
+T68	Argument 6500 6509;6515 6558	Microsoft doing those things that exclude competitors
+T69	Consequence 6701 6708;6743 6747	prevent from
+E23	Consequence:T69 Cause:T70 Effect:T71
+A26	Degree E23 Inhibit
+T70	Argument 6680 6682	We
+T71	Argument 6709 6741;6748 6830	any company, including Microsoft innovating and improving its products in a way that will be a benefit to consumers
+T72	NonCausal 7502 7507	since
+E24	NonCausal:T72 Arg0:T73 Arg1:T74
+A27	Temporal E24
+T73	Argument 7508 7518	its outset
+T74	Argument 7468 7501	who has been involved in the case
+T75	Consequence 7941 7950	needed to
+E25	Consequence:T75 Cause:T76 Effect:T77
+A28	Degree E25 Facilitate
+T76	Argument 7929 7937	evidence
+T77	Argument 7951 8028	defend itself in an investigation there into possible anticompetitive conduct
+T78	Motivation 8523 8528	after
+E26	Motivation:T78 Effect:T79 Cause:T80
+A29	Degree E26 Facilitate
+A30	Temporal E26
+T79	Argument 8448 8522	the Justice Department sharply criticized the Korean Fair Trade Commission
+T80	Argument 8529 8606	that agency ordered major changes in Microsoft's marketing practices in Korea
+T81	Motivation 8680 8683	for
+E27	Motivation:T81 Effect:T82 Cause:T83
+A31	Degree E27 Facilitate
+T82	Argument 8622 8679	the Justice Department criticized the European Commission
+T83	Argument 8684 8770	punishing Microsoft for including its video and audio player with its operating system
+T84	Motivation 8791 8800;8859 8861	attribute to
+E28	Motivation:T84 Effect:T85 Cause:T86
+A32	Degree E28 Facilitate
+T85	Argument 8801 8858	the Bush administration's different approach to Microsoft
+T86	Argument 8862 8944	a confluence of political forces as well as significant changes in the marketplace
+T87	Purpose 9383 9385	to
+E29	Purpose:T87 Cause:T88 Effect:T89
+A33	Degree E29 Facilitate
+T88	Argument 9386 9412	regulate business activity
+T89	Argument 9358 9382	antitrust should be used
+T90	Argument 4178 4287	Microsoft lawyers and engineers had been working closely with both state and federal officials in recent days
+T91	Motivation 4288 4290	in
+E30	Motivation:T91 Cause:T92 Effect:T90
+A34	Degree E30 Facilitate
+T92	Argument 4291 4317	search of an accommodation
+T96	Note 3986 3989	for
+#8	AnnotatorNotes T96	Verb argument
+T93	Note 5507 5509	to
+#1	AnnotatorNotes T93	Could be Purpose, but seems similar to "designed to," i.e., "redesigned such that."
+T95	NonCausal 1238 1243	until
+E31	NonCausal:T95 Arg0:T98 Arg1:T99
+A35	Temporal E31
+T98	Argument 1244 1248	2004
+T99	Argument 1170 1237;1249 1354	The official, Thomas O. Barnett, an assistant attorney general, had been a top antitrust partner at the law firm that has represented Microsoft in several antitrust disputes
+T10	NonCausal 4101 4107;4118 4120	oblige to
+E32	NonCausal:T10 Arg0:T94 Arg1:T101
+A36	Obligation-permission E32
+T94	Argument 4074 4092	the consent decree
+T101	Argument 4108 4117;4121 4176	Microsoft make changes to Vista in response to Google's complaint

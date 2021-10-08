@@ -1,0 +1,16 @@
+Introduction 
+Streptococcus pyogenes (group A streptococcus; GAS) is one of the most common human pathogens.
+It causes a wide variety of infections ranging from uncomplicated pharyngitis and skin infections to severe and even life-threatening manifestations, such as necrotizing fasciitis (NF) and streptococcal toxic shock-like syndrome (STSS) [1], [2], with high mortality rates ranging from 20% to 60% [3].
+Several streptococcal virulence factors, including streptolysin, and M protein, have been reported to be involved in these diseases, by genetic studies or animal-passaged models [1], [2], [4]-[6].
+However, which of factors are involved in pathogenesis mediated by clinically isolated severe invasive GAS remains obscure.
+The strains of emm1 genotype, among more than 100 emm genes encoding the serotype-determinant M protein, are the predominant cause of severe GAS infections in Japan [7].
+Recently, GAS with diverse emm genotypes, especially, emm49-genotype, have been isolated from patients of severe invasive GAS infections since 2000; however, these genotypes were not isolated before 1999 in Japan [8].
+Therefore, emm49 GAS isolated from invasive infections seems to acquire the novel or altered virulence factors by mutations, genomic additions, or deletions.
+Epidemiological and pathological findings, including sporadic incidents of severe invasive GAS infections [9], high frequency of severe invasive infections in immunocompromised host [9], and aggregation of bacteria and a paucity of polymorphnuclear neutrophils (PMN) in foci of invasive GAS infection [10] suggest that host defense factors play an important role in the onset of invasive infections.
+These findings led us to postulate that invasive GAS infections hampered host innate immune defense, especially on PMN, providing the front-line defense against GAS infection by quick recruitment to infection site and clearance of bacteria following phagocytosis [11], [12].
+So far, using animal-passaged GAS mutants, gene-manipulated GAS, many virulence-associated molecules are pointed out to play some roles in the bacterial evasion from phagocytic ingestion by neutrophils [13].
+However, restricted availability of clinical isolates with the same serotypes fail to elucidate direct relationship between definitive genetic changes in clinically isolated severe invasive GAS and the lack of PMN at the site of bacterial growth.
+In the present study, we aimed to explore the crucial factors in the pathogenesis of severe invasive GAS infections in the context of PMN-GAS relationship, using a panel of emm49 clinical isolates from patients with or without severe invasive infection, and their gene-manipulated mutants.
+We now show a direct and previously unrecognized link between functional loss of a factor CsrS of two-component sensor/regulator system (CsrS/CsrR: also known as CovS/CovR) and escape from killing by PMN via inducing necrosis to them and digesting IL-8, a PMN-attracting chemokine.
+We further determined CsrS mutations in the severe invasive GAS was essential to control the expression of various virulence genes and contributed to the in vivo virulence and disease-specific pathophysiology in a mouse model.
+These data may participate in prediction of GAS potential for future invasive infection as well as risk assessment of patients by measuring PMN function.

@@ -1,0 +1,19 @@
+Link between Mutation in phoP and Secretion of ESAT-6 
+As PhoP fulfills important regulatory functions in M. tuberculosis [21,22], it was of primary interest to identify and study potential effector molecules whose involvement in host pathogen interaction were influenced by the point mutation in phoP of H37Ra.
+Since secreted proteins of the ESX-1 system of M. tuberculosis constitute a major interface between the bacterium and its host [23], we analyzed the different strains for their potential to induce T cell responses against ESAT-6 and its binding partner, the 10-kD culture filtrate protein CFP-10.
+Groups of C57BL/6 mice were subcutaneously inoculated with H37Rv, H37Ra, or one of three recombinant H37Ra strains complemented with phoP, fadE5, or rpsL, respectively.
+Two weeks after vaccination we assessed the interferon-gamma (IFN-gamma) production of splenocytes mounted against ESX-1 antigens or controls.
+As anticipated, all tested strains induced IFN-gamma production in response to purified protein derivative (PPD) but not to a control peptide (Mal-E), indicating successful vaccination (Figure 3).
+Most importantly, the various strains differed extensively in their potential to induce antigen specific T cell responses towards ESAT-6 and CFP-10.
+As shown in Figure 3, splenocytes from mice that were inoculated with H37Rv produced high amounts of IFN-gamma upon stimulation with ESAT-6 or CFP-10, whereas the responses of H37Ra, H37Ra::fadE5, and H37Ra::rpsL infected mice were extremely weak.
+In contrast, splenocytes from H37Ra::phoP inoculated mice showed very strong IFN-gamma production in response to incubation with ESAT-6 and CFP-10.
+Exactly the same trend was observed when a highly sensitive T cell hybridoma assay was used to investigate ESAT-6 secretion.
+This test is based on the presentation of the immunodominant epitope contained in the first 20 amino acids of ESAT-6 by H37Ra, recombinant H37Ra, or H37Rv infected bone marrow-derived dendritic cells (BM-DC) to an ESAT-6-specific T cell hybridoma (NB11), restricted by I-Ab.
+Figure 4A shows that infection of BM-DC with H37Ra or H37Ra::rpsL induced no stimulation of the hybridoma as judged by IL-2 production, while H37Ra::phoP or H37Rv triggered high amounts of IL-2 production in this very sensitive and specific test.
+All strains behaved comparably towards the Ag85A:241-260 control, emphasizing the specificity of the observed phenomenon for ESAT-6 (Figure 4B).
+To further evaluate the involvement of phoP and the ESX-1 system in immunogenicity, C57BL/6 mice were vaccinated with additional strains.
+Firstly, we constructed a partially diploid H37Ra knock-in strain carrying cosmid RD1-ppe68-ko that, in BCG yields the greatest amounts of ESAT-6 expression and secretion [24].
+However, in H37Ra the presence of this cosmid could not increase the weak ESAT-6 and CFP-10 T cell responses (Figure 3B) in the splenocyte IFN-gamma assay.
+Secondly, we also tested the previously described M. tuberculosis MT103 phoP knock-out (ko) strain SO2 [14,25] in this assay and found that this strain induced a potent PPD response as previously reported [25].
+However, in comparison to the corresponding MT103 wild-type strain, the SO2 strain showed a strongly reduced ESAT-6 and CFP-10 specific T cell response, corresponding to a similar low level as the H37Ra strain (Figure 3B).
+Altogether, our data obtained from multiple replicate experiments indicate that a direct link exists between a fully functional PhoP and the ability to generate T cell responses against ESAT-6 and CFP-10.

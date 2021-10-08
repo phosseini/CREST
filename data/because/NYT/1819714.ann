@@ -1,0 +1,122 @@
+T4	Consequence 753 765	guaranteeing
+E2	Consequence:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+T5	Argument 766 847	that every student who is qualified to go to college will be able to afford to go
+T6	Argument 715 724	the House
+T7	Consequence 1674 1681	because
+E3	Consequence:T7 Cause:T11 Effect:T10
+A3	Degree E3 Facilitate
+T8	Consequence 2054 2060	making
+E4	Consequence:T8 Effect:T16
+A4	Degree E4 Facilitate
+T10	Argument 1620 1672	the measure did nothing to improve access to college
+T11	Argument 1682 1739	it only helped ease the burden of repayment for graduates
+T12	Consequence 1690 1696	helped
+E5	Consequence:T12 Effect:T13 Cause:T14
+A5	Degree E5 Facilitate
+T13	Argument 1697 1739	ease the burden of repayment for graduates
+T14	Argument 1682 1684	it
+T15	Argument 1620 1631	the measure
+R1	Coref Arg1:T14 Arg2:T15	
+T16	Argument 2061 2077;2078 2088	higher education affordable
+T17	Consequence 2946 2950	help
+E6	Consequence:T17 Cause:T19 Effect:T18
+A6	Degree E6 Facilitate
+T18	Argument 2951 3001	increase access and affordability for all students
+T19	Argument 2939 2941	we
+T20	Motivation 3363 3366	for
+E7	Motivation:T20 Cause:T22 Effect:T21
+A7	Degree E7 Facilitate
+T21	Argument 3340 3362	attacking an incumbent
+T22	Argument 3367 3416	siding with bank lenders over middle-class voters
+T23	Purpose 4554 4556	To
+E8	Purpose:T23 Cause:T24 Effect:T25
+A8	Degree E8 Facilitate
+T24	Argument 4557 4581	make the bill affordable
+T25	Argument 4583 4734	the full benefit of the loan's promise of 3.4 percent interest rates applies only to loans made after July 1, 2012, and expires by the end of that year
+T26	Purpose 5068 5070	to
+E9	Purpose:T26 Cause:T27 Effect:T28
+A9	Degree E9 Facilitate
+T27	Argument 5071 5107	fund changes to student aid programs
+T28	Argument 5036 5067	that can be drawn on repeatedly
+T29	Note 1644 1646	to
+#2	AnnotatorNotes T29	Tricky, but probably not "with the goal of"
+T9	Argument 2223 2235	override one
+T30	Argument 2207 2219	the strength
+T31	Consequence 2220 2222	to
+E10	Consequence:T31 Effect:T9 Cause:T30
+A10	Degree E10 Facilitate
+#1	AnnotatorNotes E10	Needed to
+T32	Consequence 4280 4284	make
+E11	Consequence:T32 Cause:T34 Effect:T33
+A11	Degree E11 Facilitate
+T33	Argument 4285 4300;4301 4370	repayment terms easier for graduates, whose expected lifetime earnings top $1 million
+T34	Argument 4251 4268	the House measure
+#3	AnnotatorNotes E11	Not "make easier" in the sense that the terms are enabled; "easier" here means "more comfortable."
+T35	NonCausal 250 254	with
+E12	NonCausal:T35 Arg0:T36 Arg1:T37
+A12	Context E12
+T36	Argument 255 302	124 Republicans joining Democrats to support it
+T37	Argument 236 248	by 356 to 71
+T38	Motivation 945 948	why
+E13	Motivation:T38 Effect:T39
+A13	Degree E13 Facilitate
+T39	Argument 949 985	his party's leaders opposed the bill
+T40	Argument 1077 1093	casting his vote
+T41	Argument 988 1069	``I just think that we need more of our kids going to school,'' Mr. Bartlett said
+T42	NonCausal 1071 1076	after
+E14	NonCausal:T42 Arg0:T40 Arg1:T41
+A14	Temporal E14
+T43	NonCausal 1151 1161	as long as
+E15	NonCausal:T43 Arg0:T44 Arg1:T45
+A15	Hypothetical E15
+T44	Argument 1162 1189	we're taking people's money
+T45	Argument 1191 1230	we should put it back where it's needed
+T46	Argument 1288 1307	the next five years
+T47	Argument 1248 1282	which will halve the interest rate
+T48	NonCausal 1283 1287	over
+E16	NonCausal:T48 Arg0:T46 Arg1:T47
+A16	Temporal E16
+T49	Argument 3024 3204	tuition increases at public and private institutions routinely outpace inflation, putting college out of reach for many students, and increasing the debt they carry upon graduation
+T50	Argument 3006 3020	The bill comes
+T51	Motivation 3021 3023	as
+E17	Motivation:T51 Arg0:T49 Arg1:T50
+A17	Temporal E17
+T52	Argument 3648 3674	the life of a 15-year loan
+T53	Argument 3540 3642	the bill would save the average student who starts college next year about $2,300 in interest payments
+T54	NonCausal 3643 3647	over
+E18	NonCausal:T54 Arg0:T52 Arg1:T53
+A18	Temporal E18
+T55	Argument 4534 4539	taken
+T56	NonCausal 4540 4545	after
+E19	NonCausal:T56 Arg0:T57 Arg1:T55
+A19	Temporal E19
+T57	Argument 4546 4552	July 1
+T58	Argument 4501 4511	five years
+T59	Argument 4373 4495	The bill cuts the interest rate on subsidized Stafford loans to 3.4 percent from the current rate of 6.8 percent in stages
+T60	NonCausal 4496 4500	over
+E20	NonCausal:T60 Arg0:T58 Arg1:T59
+A20	Temporal E20
+T62	NonCausal 4679 4684	after
+E21	NonCausal:T62 Arg1:T64 Arg0:T63
+A21	Temporal E21
+T63	Argument 4685 4697	July 1, 2012
+T64	Argument 4674 4678	made
+T65	Argument 1589 1597	the vote
+T66	Argument 1548 1575	issued on Wednesday morning
+T67	NonCausal 1582 1588	before
+E22	NonCausal:T67 Arg1:T65 Arg0:T66
+A22	Temporal E22
+T1	Note 289 291	to
+#5	AnnotatorNotes T1	Not "in the hopes of"
+#6	AnnotatorNotes T55	Relative clause
+T2	Argument 2554 2582	further Congressional action
+T3	Argument 2464 2544	it would take full effect only five years from now, and then for only six months
+T61	Consequence 2546 2553	barring
+E1	Consequence:T61 Cause:T2 Effect:T3
+A1	Degree E1 Inhibit
+A23	Degree E17 Facilitate
+T68	Consequence 4557 4561	make
+E23	Consequence:T68 Effect:T69
+A24	Degree E23 Facilitate
+T69	Argument 4562 4570;4571 4581	the bill affordable

@@ -1,0 +1,12 @@
+Expression Microarray Analysis of the Mutant Strain DeltasalKR 
+To gain further insights into the network/circuit mediated by SalK/SalR, whole-genome DNA microarray was applied to reveal the differential transcription profiles between DeltasalKR and WT [13], [19].
+For identifying genes whose expression was significantly different, the threshold for the expression ratio between the mutant and wild type strain was set at 2.
+In total, the absence of SalK/SalR led to decreased expression of 26 genes spread throughout the genome (i.e. 1.2% of the 2194 tested).
+These down-regulated genes can be roughly categorized into the 3 groups, which can be found in Table 2.
+Genes involved in substance transport and metabolism In the DeltasalKR mutant, transcripts of several ABC-transporters are less abundant.
+As learned, ABC-transporters and permeases are usually involved in controlling influx and efflux of small molecules through metabolic pathways in response to environmental changes in bacteria [27].
+Multidrug resistance [28], [29] and pathogenicity [10] can also be attributed to ABC-transporters.
+It is widely accepted that over-expression of ABC-type multidrug transporters can efficiently evade the pressure of drugs and enhance the invasion ability of pathogens [28]-[30].
+Furthermore, orotidine-5-phosphate decarboxylase (05SSU1009), a newly identified pathogenesis-related protein in Vibrio vulnificus [31], was also found to be repressed greatly in DeltasalKR.
+Daigle et al. [32] has shown that mutation of phosphotransferase system (PST) in extraintestinal pathogenic E. coli (ExPEC) can cause the loss of its colonization ability in extraintestinal organs, and bacteria are cleared rapidly from the bloodstream.
+Similarly, we observed that pst (05SSU0451) is down-regulated in DeltasalKR whose survival in the bloodstream is drastically affected (Fig. 6).

@@ -1,0 +1,559 @@
+001 "Besides, the ink <e1>cartridge</e1> contained in the <e2>cartridge container</e2> is not working properly."
+WordNet(e1) = "cartridge%1:06:03::", WordNet(e2) = "container%1:06:00::", Part-Whole(e1, e2) = "false", Query = "* contained in the *"
+Comment: content...
+
+002 "Details of <e1>today</e1>'s <e2>bills</e2> can be found on the Order of Business page."
+WordNet(e1) = "today%1:28:01::", WordNet(e2) = "bill%1:10:01::", Part-Whole(e2, e1) = "false", Query = "*'s *"
+Comment: time? "bill" is very ambiguous here.
+
+003 "After all the <e1>color</e1> <e2>spots</e2> on the filter paper have dried, go back and repeat the process with the toothpicks to get more color on each spot."
+WordNet(e1) = "color%1:27:00::", WordNet(e2) = "spots%1:07:01::", Part-Whole(e1, e2) = "false", Query = "the * spots"
+Comment: The color is a property of the material that is spilled in the spot.
+
+004 "The letters are not painted on <e1>top</e1> of the <e2>stone</e2>, but actually engraved into the granite stone."
+WordNet(e1) = "top%1:15:00::", WordNet(e2) = "stone%1:17:00::", Part-Whole(e1, e2) = "true", Query = "top of the *"
+Comment: Place-Area
+
+005 "Typically, an unglazed <e1>clay</e1> <e2>pot</e2> is submerged for 15 to 30 minutes to absorb water."
+WordNet(e1) = "clay%1:27:00::", WordNet(e2) = "pot%1:06:00::", Part-Whole(e1, e2) = "true", Query = "* pot"
+Comment: Stuff-Object
+
+006 "By capillary action, a thin line of blood will spread along the <e1>edge</e1> of the <e2>spreader</e2>."
+WordNet(e1) = "edge%1:15:00::", WordNet(e2) = "spreader%1:06:01::", Part-Whole(e1, e2) = "true", Query = "* of the *"
+Comment: Place-Area
+
+007 "The <e1>hair</e1> <e2>sticks</e2> are elegantly carved bone hand painted in a wispy, abstract design of peach, rose pink and mauve under layers of protective clear enamel."
+WordNet(e1) = "hair%1:08:00::", WordNet(e2) = "stick%1:06:00::", Part-Whole(e1, e2) = "false", Query = "the * * are"
+Comment: purpose (I do not like the made-of interpretation)
+
+008 "However, an attacker could have easily added some marks to the paper and completely changed the <e1>meaning</e1> of the <e2>message</e2>."
+WordNet(e1) = "meaning%1:10:00::", WordNet(e2) = "message%1:10:01::", Part-Whole(e1, e2) = "false", Query = "* of the *"
+Comment: content
+
+009 "He brought the broken <e1>door</e1> inside the <e2>house</e2>, put it on the floor in the middle of the room and checked carefully the stains near the knob."
+WordNet(e1) = "door%1:06:00::", WordNet(e2) = "house%1:06:00::", Part-Whole(e1, e2) = "false", Query = "* inside the *"
+Comment: not entailed.
+
+010 "He brought the broken door inside the house, put it on the floor in the <e1>middle</e1> of the <e2>room</e2> and checked carefully the stains near the knob."
+WordNet(e1) = "middle%1:15:00::", WordNet(e2) = "room%1:06:00::", Part-Whole(e1, e2) = "true", Query = "middle of the *"
+Comment: Place-Area
+
+011 "And of course the original development that enabled the Protestant Reformation, precursor of the cultural <e1>split</e1> of <e2>science</e2> from other human endeavors."
+WordNet(e1) = "split%1:04:00::", WordNet(e2) = "science%1:09:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: no idea what it is, but certainly not part-whole
+
+012 "They mirror to a large extent, but not entirely, those <e1>provisions</e1> contained in the European <e2>convention</e2> on human rights."
+WordNet(e1) = "provision%1:10:00::", WordNet(e2) = "convention%1:10:00::", Part-Whole(e1, e2) = "true", Query = "* contained in the *"
+Comment: Member-Collection
+
+013 "The Cleveland Cavaliers envision an arena full of cheering fans with no <e1>tickets</e1> in their <e2>pockets</e2>."
+WordNet(e1) = "ticket%1:10:01::", WordNet(e2) = "pocket%1:06:00::", Part-Whole(e1, e2) = "false", Query = "* in *"
+Comment: location; "their pockets" -> "pockets"
+
+014 "The <e1>granite</e1> <e2>benches</e2> are former windowsills from the Hearst Memorial Mining Building."
+WordNet(e1) = "granite%1:27:00::", WordNet(e2) = "bench%1:06:00::", Part-Whole(e1, e2) = "true", Query = "the * * are"
+Comment: Stuff-Object
+
+015 "Finding a <e1>piece</e1> of <e2>cake</e2> during Christmas holidays in Vienna is not quite a piece of cake."
+WordNet(e1) = "piece%1:13:00::", WordNet(e2) = "cake%1:13:00::", Part-Whole(e1, e2) = "true", Query = "piece of *"
+Comment: Portion-Mass
+
+016 "Each <e1>child</e1> received a new <e2>book</e2> of his or her own."
+WordNet(e1) = "child%1:18:00::", WordNet(e2) = "book%1:06:00::", Part-Whole(e2, e1) = "false", Query = "* received a *"
+Comment: child owns book
+
+017 "Then he planted his <e1>apple</e1> <e2>seeds</e2> in neat rows and built a brush fence around the area."
+WordNet(e1) = "apple%1:13:00::", WordNet(e2) = "seed%1:20:02::", Part-Whole(e2, e1) = "false", Query = "his * seeds"
+Comment: this entails the absence of seeds in apples -- the relations is source
+
+018 "Mathematical <e1>talent</e1> is a combination of <e2>ingenuity</e2>, insight, creativity, the willingness to experiment, and persistence."
+WordNet(e1) = "talent%1:09:00::", WordNet(e2) = "ingenuity%1:09:01::", Part-Whole(e2, e1) = "true", Query = "* is a combination of *"
+Comment: Member-Collection (entailment works here)
+
+019 "And the whale was short in front of the big <e1>crowd</e1> of <e2>tourists</e2>."
+WordNet(e1) = "crowd%1:14:00::", WordNet(e2) = "tourist%1:18:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: if we swapped e1 and e2, this would be a positive example.
+
+020 "For heart health, <e1>margarine</e1> is low in <e2>saturated fat</e2>."
+WordNet(e1) = "margarine%1:13:00::", WordNet(e2) = "fat%1:27:00::", Part-Whole(e2, e1) = "true", Query = "* is low in *"
+Comment: Stuff-Object; "saturated fat" -> "fat"
+
+021 "Temporal and spatial isotopic variations in the database are also useful for distinguishing the <e1>types</e1> of <e2>methane</e2> in subsurface natural gas exploration."
+WordNet(e1) = "type%1:09:00::", WordNet(e2) = "methane%1:27:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: this suggests subdivision, but I don't see part-whole here
+
+022 "The <e1>case studies</e1> never present in <e2>manuals</e2> allow the concepts to come alive and stimulate us to understand how we can apply them to our own supply chain."
+WordNet(e1) = "case_study%1:04:00::", WordNet(e2) = "manual%1:10:00::", Part-Whole(e1, e2) = "false", Query = "* * present in *"
+Comment: content ("case_study%1:10:00::" seems equally good)
+
+023 "You can see it in every leaf that trembles, in every <e1>grain</e1> of <e2>sand</e2>."
+WordNet(e1) = "grain%1:17:00::", WordNet(e2) = "sand%1:27:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: quantity = measure
+
+024 "These vocabularies can be mixed in individual RDF documents or data stores, allowing <e1>aggregation</e1> of <e2>descriptions</e2> from all available terminologies."
+WordNet(e1) = "aggregation%1:04:00::", WordNet(e2) = "description%1:10:01::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: swap e1 and e2 to get "true"
+
+025 "This shows Wikipedia's <e1>almanac</e1> of <e2>events</e2> for the current year."
+WordNet(e1) = "almanac%1:10:00::", WordNet(e2) = "event%1:03:00::", Part-Whole(e2, e1) = "true", Query = "* of *"
+Comment: Member-Collection.
+
+026 "He caught her <e1>arm</e1> just above the <e2>wrist</e2>."
+WordNet(e1) = "arm%1:08:00::", WordNet(e2) = "wrist%1:08:00::", Part-Whole(e2, e1) = "true", Query = "* just above the *"
+Comment: Component-Integral object
+
+027 "There was another sign below that showing a man's <e1>head</e1> in <e2>silhouette</e2>, painted a bright yellow."
+WordNet(e1) = "head%1:08:00::", WordNet(e2) = "silhouette%1:06:00::", Part-Whole(e1, e2) = "false", Query = "* in *"
+Comment: the actual man's head is not part of the painted silhouette.
+
+028 "This reservoir is thought to be the heat source for the Geysers geothermal field (on the southwest <e1>side</e1> of the <e2>volcanic field</e2>)."
+WordNet(e1) = "side%1:06:00::", WordNet(e2) = "field%1:15:05::", Part-Whole(e1, e2) = "true", Query = "* of the *"
+Comment: Place-Area; "volcanic field" -> "field"
+
+029 "EuroTB is the <e1>surveillance</e1> of <e2>tuberculosis</e2> in Europe."
+WordNet(e1) = "surveillance%1:04:01::", WordNet(e2) = "tuberculosis%1:26:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: object
+
+030 "An FBI <e1>informant</e1> infiltrated the <e2>group</e2>, the sources say, neutralizing the threat."
+WordNet(e1) = "informant%1:18:01::", WordNet(e2) = "group%1:03:00::", Part-Whole(e1, e2) = "true", Query = "* infiltrated the *"
+Comment: Member-Collection; both senses of informant are equally inappropriate.
+
+031 "The research described in this thesis focuses on the analysis of extraterrestrial <e1>organic compounds</e1> present in <e2>carbonaceous meteorites</e2>."
+WordNet(e1) = "organic_compound%1:27:00::", WordNet(e2) = "meteorite%1:17:00::", Part-Whole(e1, e2) = "true", Query = "* * present in *"
+Comment: Stuff-Object; "carbonaceous meteorites" -> "meteorites"
+
+032 "Many people think that <e1>foods</e1> with <e2>sugar alcohols</e2> are "free foods"."
+WordNet(e1) = "food%1:13:00::", WordNet(e2) = "alcohol%1:27:00::", Part-Whole(e2, e1) = "true", Query = "* with *"
+Comment: Stuff-Object; "sugar alcohols" -> "alcohols"
+
+033 "Does the black spot on your <e1>labrador</e1>'s <e2>tongue</e2> mean he's really a Chow mix?"
+WordNet(e1) = "?", WordNet(e2) = "tongue%1:08:00::", Part-Whole(e2, e1) = "true", Query = "*'s *"
+Comment: Component-Integral object; but no dog sense in WordNet
+
+034 "In the Millennium Declaration, the member <e1>states</e1> of the <e2>organization</e2> therefore, pledged to expand and strengthen the protection of civilians."
+WordNet(e1) = "state%1:14:00::", WordNet(e2) = "organization%1:14:01::", Part-Whole(e1, e2) = "true", Query = "* of the *"
+Comment: Member-Collection
+
+035 "DOE's program is to improve current methods for producing <e1>hydrogen</e1> from <e2>coal</e2>."
+WordNet(e1) = "hydrogen%1:27:00::", WordNet(e2) = "coal%1:27:00::", Part-Whole(e1, e2) = "false", Query = "* from *"
+Comment: source (production!). hydrogen is extracted from coal, so it goes through a transformation process; also, it is no longer there
+
+036 "Practically the whole car was empty, because it was pretty late and all, but she sat down next to me, instead of an empty seat, because she had this big bag with her and I was sitting in the <e1>front</e1> <e2>seat</e2>."
+WordNet(e1) = "front%1:15:00::", WordNet(e2) = "seat%1:15:01::", Part-Whole(e1, e2) = "false", Query = "the front *"
+Comment: position
+
+037 "If you have any questions concerning the <e1>information</e1> in the <e2>Guidelines</e2>, contact the secretary."
+WordNet(e1) = "information%1:14:00::", WordNet(e2) = "guideline%1:09:01::", Part-Whole(e1, e2) = "true", Query = "* in the *"
+Comment: Component-Integral object.
+
+038 "Gingko biloba <e1>leaves</e1> don't contain that <e2>compound</e2>, although rich in other flavonoids, ."
+WordNet(e1) = "leaf%1:20:00::", WordNet(e2) = "compound%1:27:00::", Part-Whole(e2, e1) = "false", Query = "* * contain *"
+Comment: not entailed
+
+039 "This means that only the <e1>copyright</e1> <e2>holders</e2> are empowered to act against violations."
+WordNet(e1) = "copyright%1:10:00::", WordNet(e2) = "holder%1:18:00::", Part-Whole(e1, e2) = "false", Query = "the * * are"
+Comment: ownership
+
+040 "The weights rested on the hard <e1>surface</e1> of the <e2>walkways</e2> ."
+WordNet(e1) = "surface%1:06:00::", WordNet(e2) = "walkway%1:06:00::", Part-Whole(e1, e2) = "true", Query = "* of *"
+Comment: Place-Area
+
+041 "Did you know that the new "Natural" Dorito <e1>chips</e1> contain <e2>yeast extract</e2>?"
+WordNet(e1) = "chip%1:13:00::", WordNet(e2) = "extract%1:27:00::", Part-Whole(e2, e1) = "true", Query = "* contain *"
+Comment: Stuff-Object; "yeast extract" -> "extract"
+
+042 "We drove down to Fort Myers in a <e1>jeep</e1> packed to the <e2>ceiling</e2> with equipment and no air conditioning."
+WordNet(e1) = "jeep%1:06:00::", WordNet(e2) = "ceiling%1:06:00::", Part-Whole(e2, e1) = "true", Query = "* packed to the *"
+Comment: Component-Integral object.
+
+043 "We removed extra <e1>underscores</e1> present in <e2>sysdef files</e2>."
+WordNet(e1) = "underscore%1:10:00::", WordNet(e2) = "file%1:10:00::", Part-Whole(e1, e2) = "false", Query = "* * present in *"
+Comment: location; the underscores are part of the *contents* of the file, not of the file itself; "sysdef files" -> "files"
+
+044 "<e1>Cancer</e1> is found in <e2>lymph node areas</e2> on both sides of the diaphragm and in one area of a nearby organ or tissue other than the lymph nodes."
+WordNet(e1) = "cancer%1:26:00::", WordNet(e2) = "area%1:08:00::", Part-Whole(e1, e2) = "false", Query = "* is found in *"
+Comment: location
+
+045 "The Museum exhibits major <e1>collections</e1> of <e2>antiquities</e2> from Egypt."
+WordNet(e1) = "collection%1:14:00::", WordNet(e2) = "antiquity%1:06:00::", Part-Whole(e2, e1) = "true", Query = "* of *"
+Comment: Member-Collection
+
+046 "An easy way to eat cake; our rich <e1>cream cheese</e1> full of <e2>raisins</e2>, apples and cinnamon."
+WordNet(e1) = "cream_cheese%1:13:00::", WordNet(e2) = "raisin%1:13:00::", Part-Whole(e2, e1) = "true", Query = "* full of *"
+Comment: Stuff-Object
+
+047 "<e1>Colors</e1> not high in <e2>contrast</e2> can be used instead."
+WordNet(e1) = "color%1:27:00::", WordNet(e2) = "contrast%1:09:00::", Part-Whole(e2, e1) = "false", Query = "* * high in *"
+Comment: negative context -- no entailment
+
+048 "But Canadian intelligence agents had seen little in their two years of surveillance to indicate that the "<e1>bunch</e1> of <e2>guys</e2>" in Montreal posed a serious danger."
+WordNet(e1) = "bunch%1:14:01::", WordNet(e2) = "guy%1:18:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: measure;
+
+049 "Graffiti protection coatings are painted on <e1>top</e1> of the natural or painted <e2>surfaces</e2> to form a protective shield."
+WordNet(e1) = "top%1:15:00::", WordNet(e2) = "surface%1:06:00::", Part-Whole(e1, e2) = "true", Query = "top of the *"
+Comment: Place-Area
+
+050 "One potential problem which comes to mind upon seeing the two-inch <e1>carpet</e1> of <e2>dust</e2> covering lower Manhattan is, of course, exposure to asbestos."
+WordNet(e1) = "carpet%1:17:00::", WordNet(e2) = "dust%1:27:00::", Part-Whole(e2, e1) = "true", Query = "* of *"
+Comment: Stuff-Object; n1 for "carpet" is iffy
+
+051 "Small design <e1>changes</e1> including <e2>use</e2> of less dense tobacco, less porous paper, a smaller diameter, filter tip, and no added citrates to the paper are key elements here."
+WordNet(e1) = "change%1:19:00::", WordNet(e2) = "use%1:04:00::", Part-Whole(e1, e2) = "false", Query = "* including *"
+Comment: nothing obvious comes to mind (it is not hypernymy or synonymy)
+
+052 "Although our <e1>product</e1> is <e2>SUGAR</e2> FREE, it can be used as ingredient in baking (e.g. cookies) and will behave about the same as regular chocolate candy."
+WordNet(e1) = "product%1:06:00::", WordNet(e2) = "sugar%1:27:00::", Part-Whole(e2, e1) = "false", Query = "* is * free"
+Comment: "FREE" is the deciding context
+
+053 "The <e1>sand</e1> <e2>trap</e2> is the most difficult shot on the golf course for most novice golf players."
+WordNet(e1) = "sand%1:27:00::", WordNet(e2) = "trap%1:06:00::", Part-Whole(e1, e2) = "true", Query = "the * *"
+Comment: Stuff-Object. The trap is inside the sand, and vice versa. Also, here "sand trap", as a whole, is a non-compositional term from the golf terminology.
+
+054 "This example of a uniform rod previews some common features about the process of finding the center of <e1>mass</e1> of the continuous <e2>body</e2>."
+WordNet(e1) = "mass%1:07:00::", WordNet(e2) = "body%1:17:00::", Part-Whole(e1, e2) = "false", Query = "mass of the *"
+Comment: this is about a body and its _center of the mass_
+
+055 "Sadly I couldn't find any spectacular <e1>videos</e1> of <e2>superfluids</e2> in action."
+WordNet(e1) = "video%1:06:00::", WordNet(e2) = "?", Part-Whole(e1, e2) = "false", Query = "* of *"
+
+056 "Elisabetta Valtz Fino writes interestingly on the <e1>contents</e1> of <e2>gallery</e2> XVI of the Museum, home to finds from the Seleucid period, named after Seleucus."
+WordNet(e1) = "content%1:14:00::", WordNet(e2) = "gallery%1:06:04::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: definitely Content-Container
+
+057 "EBSA protects the <e1>integrity</e1> of <e2>pensions</e2>, health plans, and other employee benefits for more than 150 million people."
+WordNet(e1) = "integrity%1:07:00::", WordNet(e2) = "pension%1:21:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: Quality.
+
+058 "And so hunts have begun using <e1>packs</e1> of <e2>hounds</e2> in combination with birds of prey."
+WordNet(e1) = "pack%1:14:00::", WordNet(e2) = "hound%1:05:00::", Part-Whole(e1, e2) = "true", Query = "* of *"
+Comment: Member-Collection
+
+059 "They're always leaving their goddam bags out in the <e1>middle</e1> of the <e2>aisle</e2>."
+WordNet(e1) = "middle%1:15:00::", WordNet(e2) = "aisle%1:06:00::", Part-Whole(e1, e2) = "true", Query = "middle of the *"
+Comment: Place-Area
+
+060 "That was a special comment on the <e1>president</e1>'s <e2>address</e2>."
+WordNet(e1) = "president%1:18:02::", WordNet(e2) = "address%1:10:00::", Part-Whole(e2, e1) = "false", Query = "*'s *"
+Comment: ownership (abstract); "president" is ambiguous here; other WN senses are possible.
+
+061 "I would say that those <e1>regions</e1> are rich in <e2>fruit species</e2>."
+WordNet(e1) = "region%1:15:00::", WordNet(e2) = "species%1:14:00::", Part-Whole(e2, e1) = "false", Query = "* are rich in *"
+Comment: location; note the plural-only "species"; "fruit species" -> "species"
+
+062 "<e1>Linoleum</e1> is a combination of <e2>linseed oil</e2>, cork powder, wood powder, organic pigments, and limestone, applied over a jute backing."
+WordNet(e1) = "linoleum%1:27:00::", WordNet(e2) = "linseed_oil%1:27:00::", Part-Whole(e2, e1) = "true", Query = "* is a combination of *"
+Comment: Stuff-Object
+
+063 "<e1>Lutein</e1> is found in <e2>sweet corn</e2>, kale and broccoli, as well as spinach."
+WordNet(e1) = "lutein%1:27:00::", WordNet(e2) = "sweet_corn%1:20:00::", Part-Whole(e1, e2) = "true", Query = "* is found in *"
+Comment: Stuff-Object
+
+064 "The incoming <e1>chairman</e1> of the <e2>committee</e2> is promising an array of oversight investigations that could provoke sharp disagreement with Republicans and the White House."
+WordNet(e1) = "chairman%1:18:01::", WordNet(e2) = "committee%1:14:00::", Part-Whole(e1, e2) = "true", Query = "* of the *"
+Comment: Member-Collection
+
+065 "This looks like a <e1>piece</e1> of a <e2>contractual tablet</e2>."
+WordNet(e1) = "piece%1:06:00::", WordNet(e2) = "tablet%1:27:00::", Part-Whole(e1, e2) = "true", Query = "piece of a *"
+Comment: Portion-Mass (but it's a generous interpretation). "contractual tablet" -> "tablet";
+
+066 "This study investigated the <e1>effectiveness</e1> of <e2>magnesium</e2> in reducing sodium toxicity in water."
+WordNet(e1) = "effectiveness%1:07:01::", WordNet(e2) = "magnesium%1:27:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: property
+
+067 "The accident was not the only one that has raised strong doubts about <e1>air bags</e1> in <e2>BMW sedans</e2>"."
+WordNet(e1) = "air_bag%1:06:00::", WordNet(e2) = "sedan%1:06:00::", Part-Whole(e1, e2) = "true", Query = "* in *"
+Comment: Component-Integral object; "BMW sedans" -> "sedans"
+
+068 "<e1>Germanium</e1> is found in <e2>germanite</e2>, argyrodite, and some zinc ores."
+WordNet(e1) = "germanium%1:27:00::", WordNet(e2) = "germanite%1:27:00::", Part-Whole(e1, e2) = "true", Query = "* is found in *"
+Comment: Stuff-Object
+
+069 "Will I get the same <e1>amount</e1> of <e2>aid</e2> for all four years?"
+WordNet(e1) = "amount%1:21:00::", WordNet(e2) = "aid%1:21:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: Measure.
+
+070 "The only part left from the <e1>default design</e1> was the <e2>top blue border line</e2> of the title frame."
+WordNet(e1) = "design%1:09:02::", WordNet(e2) = "line%1:25:01::", Part-Whole(e2, e1) = "true", Query = "* part left from the * was the *"
+Comment: Component-Integral object (but it's a generous interpretation); "default design" -> "design"  (I left  the challenging multi-word entities; they are neat)
+
+071 "At The Walker Law Firm, our Orange County, California <e1>corporation</e1> <e2>attorneys</e2> offer a full range of sophisticated and specialized services."
+WordNet(e1) = "corporation%1:14:00::", WordNet(e2) = "attorney%1:18:00::", Part-Whole(e1, e2) = "true", Query = "corporation *"
+Comment: Member-Collection
+
+072 "The <e1>rest</e1> of the <e2>story</e2> is that the tobacco control movement appears to be plagued by a severe financial conflict of interest problem."
+WordNet(e1) = "rest%1:24:00::", WordNet(e2) = "story%1:10:03::", Part-Whole(e1, e2) = "false", Query = "* of the *"
+Comment: measure?
+
+073 "The university is the largest <e1>institution</e1> of <e2>research</e2> and education in Denmark with about 35.000 students and 7000 employees."
+WordNet(e1) = "institution%1:14:00::", WordNet(e2) = "research%1:04:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: purpose
+
+074 "An amazing thing about this paper is that Professor Gulan added an <e1>end note</e1> to the <e2>paper</e2> explaining that it was randomly generated by SCIgen."
+WordNet(e1) = "note%1:10:00::", WordNet(e2) = "paper%1:10:02::", Part-Whole(e1, e2) = "true", Query = "added * to *"
+Comment: Component-Integral; "end note" -> "note"
+
+075 "Why are the <e1>cell</e1> <e2>phones</e2> developing this much fast among the people?"
+WordNet(e1) = "cell%1:06:04::", WordNet(e2) = "phone%1:06:00::", Part-Whole(e1, e2) = "false", Query = "the * * are"
+Comment: instrument
+
+076 "Foreign <e1>hackers</e1> infiltrated the <e2>computer network</e2> several times in the last two months."
+WordNet(e1) = "hacker%1:18:03::", WordNet(e2) = "computer_network%1:06:00::", Part-Whole(e1, e2) = "false", Query = "* infiltrated the *"
+Comment: (I) hackers are users of networks? networks are a theme of hacking? (II) the sense of hackers can be also "n3"; and "n1" is the sense for the term "computer network".
+
+077 "The Hargrett Rare Book and Manuscript Library at the University of Georgia maintains a <e1>collection</e1> of more than 800 <e2>historic maps</e2> spanning nearly 500 years."
+WordNet(e1) = "collection%1:14:00::", WordNet(e2) = "map%1:06:00::", Part-Whole(e2, e1) = "true", Query = "* of *"
+Comment: (a) Member-Collection; (b) "historic maps" -> "maps"
+
+078 "A light <e1>cheese</e1> full of rustic <e2>flavors</e2>, it wakes up and soothes the senses with its unique flavor that is also warm and mild."
+WordNet(e1) = "cheese%1:13:00::", WordNet(e2) = "flavor%1:09:00::", Part-Whole(e2, e1) = "false", Query = "* full of *"
+Comment: property
+
+079 "Anti-aging <e1>foods</e1> are rich in <e2>antioxidants</e2>."
+WordNet(e1) = "food%1:03:00::", WordNet(e2) = "antioxidant%1:27:00::", Part-Whole(e2, e1) = "true", Query = "* are rich in *"
+Comment: Stuff-Object
+
+080 "That means that <e1>concentrations</e1> are not low in <e2>winter</e2> and not so high in summer."
+WordNet(e1) = "concentration%1:07:02::", WordNet(e2) = "winter%1:28:00::", Part-Whole(e2, e1) = "false", Query = "* are * low in *"
+Comment: time
+
+081 "Researchers at Akishima Laboratories have developed similar devices in the past that used waves to draw pictures on the <e1>surface</e1> of <e2>water</e2>."
+WordNet(e1) = "surface%1:15:00::", WordNet(e2) = "water%1:17:00::", Part-Whole(e1, e2) = "true", Query = "* of *"
+Comment: Place-Area
+
+082 "RBC accounts for all three <e1>types</e1> of <e2>invariances</e2>."
+WordNet(e1) = "type%1:09:00::", WordNet(e2) = "invariance%1:07:01::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: (I) this suggests subdivision, but I don't see part-whole here (II) Here the sense of invariances is determined by the abbreviation RBC
+
+083 "These images were acquired by MSSS cameras and include <e1>thousands</e1> of <e2>pictures</e2> from Mars Global Surveyor."
+WordNet(e1) = "thousand%1:23:00::", WordNet(e2) = "picture%1:06:02::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: Measure
+
+084 "Has anyone insulated a stone foundation, <e1>dirt</e1> <e2>floor</e2> basement?"
+WordNet(e1) = "dirt%1:27:01::", WordNet(e2) = "floor%1:06:00::", Part-Whole(e1, e2) = "true", Query = "* floor"
+Comment: Stuff-Object (but not a clear case)
+
+085 "The <e1>box</e1> includes <e2>care instructions</e2>, and the bouquet is ready to be arranged in the accompanying vase."
+WordNet(e1) = "box%1:06:00::", WordNet(e2) = "instructions%1:10:00::", Part-Whole(e2, e1) = "false", Query = "* includes *"
+Comment: contents; note plural in WordNet; "care instructions" -> "instructions"
+
+086 "I was only thirteen, and they were going to have me psychoanalyzed and all, because I broke all the <e1>windows</e1> in the <e2>garage</e2>."
+WordNet(e1) = "window%1:06:05::", WordNet(e2) = "garage%1:06:00::", Part-Whole(e1, e2) = "true", Query = "* window in the *"
+Comment: Component-Integral object.
+
+087 "By capillary action, a thin <e1>line</e1> of <e2>blood</e2> will spread along the edge of the spreader."
+WordNet(e1) = "line%1:15:00::", WordNet(e2) = "blood%1:08:00::", Part-Whole(e1, e2) = "true", Query = "* of *"
+Comment: Portion-Mass
+
+088 "The bran and the <e1>germ</e1> are nutrient-rich parts of the <e2>grain</e2> and thus whole grain products are far healthier than products made with white flour."
+WordNet(e1) = "germ%1:08:00::", WordNet(e2) = "grain%1:20:00::", Part-Whole(e1, e2) = "true", Query = "* are * parts of *"
+Comment: Component-Integral object
+
+089 "Languages can benefit <e1>people</e1> from all <e2>walks</e2> of life."
+WordNet(e1) = "people%1:14:00::", WordNet(e2) = "walk%1:04:04::", Part-Whole(e1, e2) = "false", Query = "* from *"
+Comment: "walks of life" is in WordNet! if we ignore that, the relation is location
+
+090 "Then something caught the man's <e1>eye</e1> just above the <e2>clouds</e2>."
+WordNet(e1) = "eye%1:09:01::", WordNet(e2) = "cloud%1:17:00::", Part-Whole(e2, e1) = "false", Query = "* just above the *"
+Comment: eye = attention -- not part-whole; the syntactic distance is too large?
+
+091 "He pushed a chunk of <e1>marble</e1> across the <e2>table</e2> towards her."
+WordNet(e1) = "marble%1:27:00::", WordNet(e2) = "table%1:06:01::", Part-Whole(e1, e2) = "false", Query = "* across the *"
+Comment: not entailed -- it's location
+
+092 "The <e1>place</e1> of <e2>women</e2> in today's Church will be explored at the conference."
+WordNet(e1) = "place%1:26:00::", WordNet(e2) = "woman%1:14:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: abstract location?
+
+093 "If you follow the instructions you should be able to remove the <e1>virus</e1> from <e2>infected documents</e2>."
+WordNet(e1) = "virus%1:10:00::", WordNet(e2) = "document%1:10:01::", Part-Whole(e1, e2) = "true", Query = "* from *"
+Comment: Component-Integral object; "infected documents" -> "documents".
+
+094 "<e1>Regulation</e1> of <e2>food</e2> in the United States dates from early colonial times."
+WordNet(e1) = "regulation%1:04:01::", WordNet(e2) = "food%1:13:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: theme
+
+095 "Starting with DirectWIRE 3.0, you can connect <e1>multiple wires</e1> into a <e2>single input</e2>."
+WordNet(e1) = "wire%1:06:00::", WordNet(e2) = "input%1:10:00::", Part-Whole(e1, e2) = "false", Query = "connect * into a *"
+Comment: wires are _placed_ at input.
+
+096 "The <e1>mountains</e1> of the <e2>peninsula</e2> can receive substantial rains and periodically, large amounts of water are washed down the river beds."
+WordNet(e1) = "mountain%1:17:00::", WordNet(e2) = "peninsula%1:17:00::", Part-Whole(e1, e2) = "true", Query = "* of the *"
+Comment: Place-Area
+
+097 "Within the last decade, <e1>biology</e1> joined the <e2>club</e2>, following the traditions for providing a solid foundation of scientific investigation."
+WordNet(e1) = "biology%1:09:00::", WordNet(e2) = "club%1:14:00::", Part-Whole(e1, e2) = "true", Query = "* joined the *"
+Comment: Member-Collection
+
+098 "Interestingly, the <e1>gastritis</e1> is not found in <e2>wild cheetahs</e2>."
+WordNet(e1) = "gastritis%1:26:00::", WordNet(e2) = "cheetah%1:05:00::", Part-Whole(e1, e2) = "false", Query = "* is * found in *"
+Comment: state or condition -- not part; "wild cheetahs" -> "cheetahs"
+
+099 "National organization devoted to defending the <e1>teaching</e1> of <e2>evolution</e2> in public schools, and keeping creationism out."
+WordNet(e1) = "teaching%1:04:01::", WordNet(e2) = "evolution%1:22:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: theme?
+
+100 "And she added a <e1>question mark</e1> to complete the <e2>paragraph</e2>."
+WordNet(e1) = "question_mark%1:10:00::", WordNet(e2) = "paragraph%1:10:00::", Part-Whole(e1, e2) = "true", Query = "added a * * to complete the *"
+Comment: Component-Integral object
+
+101 "This is in part due to the vast <e1>number</e1> of <e2>contexts</e2> in which the solutions are needed and that the central standards group is too small to capture solutions."
+WordNet(e1) = "number%1:07:00::", WordNet(e2) = "context%1:26:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: measure
+
+102 "The letters are not painted on top of the stone, but actually engraved into the <e1>granite</e1> <e2>stone</e2>."
+WordNet(e1) = "granite%1:27:00::", WordNet(e2) = "stone%1:17:00::", Part-Whole(e1, e2) = "true", Query = "the * stone"
+Comment: Stuff-Object
+
+103 "Beware of the <e1>danger</e1> in <e2>running waters</e2>."
+WordNet(e1) = "danger%1:26:00::" , WordNet(e2) = "water%1:17:00::", Part-Whole(e1, e2) = "false", Query = "* in *"
+Comment: property (dangerous); "running waters" -> "waters"
+
+104 "When the first transplant took place at St. Paul's in 1986, the vast majority of <e1>patients</e1> received a new <e2>kidney</e2> from a deceased donor."
+WordNet(e1) = "patient%1:18:00::", WordNet(e2) = "kidney%1:08:00::", Part-Whole(e2, e1) = "true", Query = "* received a *"
+Comment: Component-Integral object
+
+105 "In addition to the preparation of the road condition report, the <e1>police</e1> <e2>dispatchers</e2> are responsible for several other critical functions."
+WordNet(e1) = "police%1:14:00::" , WordNet(e2) = "dispatcher%1:18:01::", Part-Whole(e1, e2) = "false", Query = "the * * are"
+Comment: type; Need to swap e1 and e2, otherwise it would be a negative example;
+
+106 "The lab added Hypo-allergenic plant <e1>fiber</e1> to complete the <e2>capsule volume requirement</e2>."
+WordNet(e1) = "fiber%1:13:00::", WordNet(e2) = "requirement%1:09:01::", Part-Whole(e1, e2) = "false", Query = "added * * to complete the *"
+Comment: part of capsule, maybe, not requirement; "capsule volume requirement" -> "requirement"
+
+107 "Original <e1>works</e1> of <e2>authorship</e2> were fixed in a tangible medium of expression."
+WordNet(e1) = "works%1:06:00::", WordNet(e2) = "authorship%1:04:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: not clear what it is, but authorship cannot be part of a work; property?
+
+108 "Points attached with caps are simply slid snugly over the <e1>end</e1> of the <e2>shaft</e2>."
+WordNet(e1) = "end%1:15:00::", WordNet(e2) = "shaft%1:06:04::", Part-Whole(e1, e2) = "true", Query = "* of the *"
+Comment: Place-Area.
+
+109 "So what I did, I wrote about my brother Allie's <e1>baseball</e1> <e2>mitt</e2>."
+WordNet(e1) = "baseball%1:04:00::", WordNet(e2) = "mitt%1:06:00::", Part-Whole(e1, e2) = "false", Query = "*'s baseball *"
+Comment: purpose; and "baseball mitt" is in WordNet.
+
+110 "In contrast with tofu, which is made with soymilk, this <e1>dish</e1> is made with <e2>whole soybeans</e2>, making it a good source of fiber."
+WordNet(e1) = "dish%1:13:00::", WordNet(e2) = "soybean%1:13:00::", Part-Whole(e2, e1) = "true", Query = "* made with *"
+Comment: Stuff-Object; "soybean" is way overdone in WordNet -- all senses blur; "whole soybeans" -> "soybeans"
+
+111 "These are the <e1>realities</e1> of <e2>racism</e2> in Britain."
+WordNet(e1) = "reality%1:26:02::", WordNet(e2) = "racism%1:09:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: property
+
+112 "People who work in mines may be exposed to radon and, in some parts of the country, <e1>radon</e1> is found in <e2>houses</e2>."
+WordNet(e1) = "radon%1:27:00::", WordNet(e2) = "house%1:06:00::", Part-Whole(e1, e2) = "false", Query = "* is found in *"
+Comment: location
+
+113 "The <e1>women</e1>'s <e2>chorus</e2> of Dallas is one of the nation's finest women's choruses."
+WordNet(e1) = "woman%1:18:00::", WordNet(e2) = "chorus%1:14:00::", Part-Whole(e1, e2) = "true", Query = "*'s *"
+Comment: Member-Collection (but iffy)
+
+114 "Gates varied in width because there are 25 different <e1>widths</e1> of <e2>walkways</e2> in Central Park."
+WordNet(e1) = "width%1:07:00::", WordNet(e2) = "walkway%1:06:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: measure
+
+115 "Rattles also wear out or break off, so it is unusual to find an adult <e1>snake</e1> with 10 <e2>rattles</e2>."
+WordNet(e1) = "snake%1:05:00::", WordNet(e2) = "rattle%1:05:00::", Part-Whole(e2, e1) = "true", Query = "* with *"
+Comment: Component-Integral object
+
+116 "<e1>Tyramine</e1> is found in <e2>aged, fermented and spoiled food products</e2>."
+WordNet(e1) = "tyramine%1:27:00::", WordNet(e2) = "food_product%1:13:00::", Part-Whole(e1, e2) = "true", Query = "* is found in *"
+Comment: Stuff-Object; WordNet has "food product"; "aged, fermented and spoiled food products" -> "food products"
+
+117 "Beautifully packaged in faux <e1>velvet</e1> <e2>tray</e2> and boxed for giving, as complete remembrance of this important milestone."
+WordNet(e1) = "velvet%1:06:00::", WordNet(e2) = "tray%1:06:00::", Part-Whole(e1, e2) = "true", Query = "velvet *"
+Comment: Stuff-Object
+
+118 "The Cleveland Cavaliers envision an <e1>arena</e1> full of cheering <e2>fans</e2> with no tickets in their pockets."
+WordNet(e1) = "arena%1:06:01::", WordNet(e2) = "fan%1:18:01::", Part-Whole(e2, e1) = "false", Query = "* full of *"
+Comment: location; "cheering fans" -> "fans"
+
+119 "Due to the large <e1>mass</e1> of the <e2>books</e2>, the force of the hammer is sufficiently resisted (inertia)."
+WordNet(e1) = "mass%1:23:00::", WordNet(e2) = "book%1:06:00::", Part-Whole(e1, e2) = "false", Query = "mass of the *"
+Comment: measure
+
+120 "The <e1>bunny</e1> <e2>rabbits</e2> are coming."
+WordNet(e1) = "bunny%1:05:00::", WordNet(e2) = "rabbit%1:05:00::", Part-Whole(e1, e2) = "false", Query = "the * * are"
+Comment: type; WordNet has a separate entry "bunny rabbit"
+
+121 "And now let's look at the other <e1>side</e1> of the <e2>story</e2>."
+WordNet(e1) = "side%1:10:00::", WordNet(e2) = "story%1:10:03::", Part-Whole(e1, e2) = "false", Query = "* of the *"
+Comment: not sure what, but not part-whole definitely
+
+122 "I'll tell you what <e1>kind</e1> of <e2>red hair</e2> he had."
+WordNet(e1) = "kind%1:09:00::", WordNet(e2) = "hair%1:08:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: again, there is something like subdivision, but not quite part-whole; "red hair" -> "hair"
+
+123 "The <e1>door</e1> does not open inside the <e2>house</e2>, but outside, towards the person who wants to get in."
+WordNet(e1) = "door%1:06:00::", WordNet(e2) = "house%1:06:00::", Part-Whole(e1, e2) = "true", Query = "door * open * inside the *"
+Comment: Component-Integral object
+
+124 "Nor is a criminal filled with demons you can exorcise by thrashing them like a <e1>carpet</e1> full of <e2>dust</e2>."
+WordNet(e1) = "carpet%1:06:00::", WordNet(e2) = "dust%1:27:00::", Part-Whole(e2, e1) = "false", Query = "* full of *"
+Comment: location
+
+125 "<e1>Words</e1> not present in <e2>dictionaries</e2> are almost always found in unrestricted texts."
+WordNet(e1) = "word%1:10:00::", WordNet(e2) = "dictionary%1:10:00::", Part-Whole(e1, e2) = "false", Query = "* * present in *"
+Comment: no entailment
+
+126 "Economists blame increased U.S. <e1>production</e1> of <e2>ethanol</e2> from corn as an alternative to oil."
+WordNet(e1) = "production%1:04:02::" , WordNet(e2) = "ethanol%1:27:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: ethanol is the object of production (economic activity) 
+
+127 "<e1>Tumors</e1> growing in these <e2>fibrinogen-deficient mice</e2> did not attract the CREKA peptide."
+WordNet(e1) = "tumor%1:26:00::", WordNet(e2) = "mouse%1:05:00::", Part-Whole(e1, e2) = "true", Query = "* growing in *"
+Comment: "fibrinogen-deficient mice" -> "mice"
+
+128 "The Group's influence was so widespread by the end of 1931 that they no longer found it necessary to continue as a <e1>group</e1> of <e2>painters</e2>."
+WordNet(e1) = "group%1:03:00::", WordNet(e2) = "painter%1:18:00::", Part-Whole(e2, e1) = "true", Query = "* of *"
+Comment: Member-Collection, but a bit too generic
+
+129 "First, the <e1>gift</e1> <e2>cards</e2> are on the thin side and are glossy."
+WordNet(e1) = "gift%1:21:00::", WordNet(e2) = "card%1:10:00::", Part-Whole(e1, e2) = "false", Query = "the * * are"
+Comment: purpose
+
+130 "Ban Ki-moon calls for probe into <e1>murder</e1> of <e2>peacekeeper</e2> in southern Sudan."
+WordNet(e1) = "murder%1:04:00::", WordNet(e2) = "peacekeeper%1:18:01::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: someone is an object of murder
+
+131 "Let's say <e1>women</e1> in the <e2>tribe</e2> who have the longest necks are the most desirable."
+WordNet(e1) = "woman%1:18:00::", WordNet(e2) = "tribe%1:14:00::", Part-Whole(e1, e2) = "true", Query = "* in the *"
+Comment: Member-Collection
+
+132 "Is there anything like <e1>peanut butter</e1> but not high in <e2>calories</e2>?"
+WordNet(e1) = "peanut_butter%1:13:00::", WordNet(e2) = "calorie%1:23:02::", Part-Whole(e2, e1) = "false", Query = "* * high in *"
+Comment: Measure
+
+133 "Besides the ash texture, it is also important that shape of the burning <e1>end</e1> of the <e2>cigar</e2> is exposed after the ash has fallen off."
+WordNet(e1) = "end%1:15:00::", WordNet(e2) = "cigar%1:06:00::", Part-Whole(e1, e2) = "true", Query = "* of the *"
+Comment: Place-Area.
+
+134 "For example, this obviously holds in the case of the <e1>marble</e1> <e2>slab</e2> of the table and local variation of temperature."
+WordNet(e1) = "marble%1:27:00::", WordNet(e2) = "slab%1:06:00::", Part-Whole(e1, e2) = "true", Query = "the * * of the table*"
+Comment: Stuff-Object
+
+135 "An aqueous triethylamine (0.1 mol/l) <e1>solution</e1> was added to the <e2>acid precipitate</e2> until pH 6 was reached."
+WordNet(e1) = "solution%1:27:00::", WordNet(e2) = "precipitate%1:27:00::", Part-Whole(e1, e2) = "true", Query = "* was added to the *"
+Comment: Stuff-Object (assuming the adding has occurred); "acid precipitate" -> "precipitate"
+
+136 "Prince Edward Island submitted a design with a <e1>garland</e1> of <e2>roses</e2> and shamrock."
+WordNet(e1) = "garland%1:06:00::", WordNet(e2) = "rose%1:20:00::", Part-Whole(e1, e2) = "true", Query = "* of *"
+Comment: Member-Collection
+
+137 "As viewed by a worshiper seated among the congregation, there are two speaker's stands on either <e1>side</e1> of the <e2>front</e2> of the church."
+WordNet(e1) = "side%1:06:00::" , WordNet(e2) = "front%1:06:00::", Part-Whole(e1, e2) = "true", Query = "side of the *"
+Comment: Place-Area, very context-dependent
+
+138 "This new <e1>edition</e1> of the <e2>journal</e2> contains forty new entries ranging from such diverse topics."
+WordNet(e1) = "edition%1:10:00::", WordNet(e2) = "journal%1:10:00::", Part-Whole(e1, e2) = "false", Query = "* of the *"
+Comment: property? measure?
+
+139 "The mountains of the peninsula can receive substantial rains and periodically, large <e1>amounts</e1> of <e2>water</e2> are washed down the river beds."
+WordNet(e1) = "amount%1:03:00::", WordNet(e2) = "water%1:13:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: quantity
+
+140 "This is a new tool to enhance <e1>role</e1> of <e2>pharmacists</e2> in health care."
+WordNet(e1) = "role%1:04:01::", WordNet(e2) = "pharmacist%1:18:00::", Part-Whole(e1, e2) = "false", Query = "* of *"
+Comment: nothing reasonable comes to mind
+

@@ -1,0 +1,77 @@
+*	Equiv T2 T3
+*	Equiv T9 T10
+T30	Process 99 108	Virulence
+T31	Process 393 403	infections
+T32	Process 606 616	infections
+T33	Process 658 668	infections
+T34	Process 978 988	infections
+T35	Gene_expression 1137 1147	production
+T36	Positive_regulation 1292 1301	increased
+T37	Gene_expression 1302 1312	production
+T38	Process 1589 1598	infection
+T39	Process 1682 1691	infection
+T40	Process 1839 1847	infected
+T41	Process 1981 1990	infection
+E1	Process:T30 
+E2	Process:T31 Participant:T4
+E3	Process:T32 Participant:T5
+E4	Process:T33 
+E5	Process:T34 Participant:T7
+E6	Gene_expression:T35 Theme:T9
+E7	Positive_regulation:T36 Theme:E8
+E8	Gene_expression:T37 Theme:T12
+E9	Process:T38 Participant:T16
+E10	Process:T39 Participant:T20
+E11	Process:T40 Participant:T22
+E12	Process:T41 Participant:T29
+T1	Organism 31 61	Invasive Group A streptococcus
+T2	Organism 148 169	Group A streptococcus
+T3	Organism 171 174	GAS
+T4	Organism 380 392	invasive GAS
+T5	Organism 593 605	invasive GAS
+T6	Organism 774 786	invasive GAS
+T7	Organism 896 899	GAS
+T8	Organism 1018 1023	human
+T9	Protein 1172 1186	streptolysin O
+T10	Protein 1188 1191	SLO
+T11	Protein 1246 1259	interleukin-8
+T12	Protein 1334 1338	ScpC
+T13	Protein 1430 1434	csrS
+T14	Protein 1451 1456	emm49
+T15	Organism 1464 1476	invasive GAS
+T16	Organism 1491 1503	csrS mutants
+T17	Protein 1491 1495	csrS
+T18	Organism 1525 1537	invasive GAS
+T19	Organism 1663 1668	human
+T20	Organism 1669 1681	invasive GAS
+T21	Organism 1698 1703	mouse
+T22	Organism 1720 1723	GAS
+T23	Protein 1742 1745	SLO
+T24	Protein 1749 1753	ScpC
+T25	Organism 1791 1823	csrS-mutated parent invasive GAS
+T26	Protein 1791 1795	csrS
+T27	Organism 1848 1852	mice
+T28	Organism 1898 1901	GAS
+T29	Organism 1968 1980	invasive GAS
+T42	Span 0 61	Incompetence of Neutrophils to Invasive Group A streptococcus
+T43	Causality 62 78	Is Attributed to
+E13	Causality:T43 Effect:T42 Evidence:T44
+T44	Span 79 146	Induction of Plural Virulence Factors by Dysfunction of a Regulator
+T45	Span 358 464	The characteristic of invasive GAS infections has been thought to attribute to genetic changes in bacteria
+T46	Causality 466 502	however, no clear evidence has shown
+E14	Causality:T46 Evidence:T47 Effect:T45
+T47	Span 503 616	due to lack of an intriguingly study using serotype-matched isolates from clinical severe invasive GAS infections
+T48	Span 846 1091	Herein we report that a panel of serotype-matched GAS, which were clinically isolated from severe invasive but not from non-invaive infections, could abrogate functions of human polymorphnuclear neutrophils (PMN) in at least two independent ways
+T49	Causality 1093 1099	due to
+E15	Causality:T49 Evidence:T50 Effect:T48
+T50	Span 1100 1192	inducing necrosis to PMN by enhanced production of a pore-forming toxin streptolysin O (SLO)
+T51	Causality 1197 1203	due to
+E16	Causality:T51 Evidence:T52 Effect:T48
+T52	Span 1205 1338	mpairment of PMN migration via digesting interleukin-8, a PMN attracting chemokine, by increased production of a serine protease ScpC
+T53	Span 1487 1709	The csrS mutants from clinical severe invasive GAS isolates exhibited high mortality and disseminated infection with paucity of neutrophils, a characteristic pathology seen in human invasive GAS infection, in a mouse model
+T54	Span 1711 1852	However, GAS which lack either SLO or ScpC exhibit much less mortality than the csrS-mutated parent invasive GAS isolate to the infected mice
+T55	Causality 1854 1880	These results suggest that
+E17	Causality:T55 Effect:T56 Evidence:T54
+T56	Span 1881 1990	the abilities of GAS to abrogate PMN functions can determine the onset and severity of invasive GAS infection
+E18	Causality:T55 Effect:T56 Evidence:T53
+#1	AnnotatorNotes E14	not sure

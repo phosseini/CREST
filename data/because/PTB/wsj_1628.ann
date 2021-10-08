@@ -1,0 +1,87 @@
+T1	Note 301 303	to
+#1	AnnotatorNotes T1	"Working to" (acts like a phrasal verb)
+T2	Consequence 890 895;921 923	needs to
+E1	Consequence:T2 Cause:T3 Effect:T4
+A1	Degree E1 Facilitate
+T3	Argument 896 920	the support of Democrats
+T4	Argument 924 981	pass the tax cut through the Democratic-controlled Senate
+T5	Consequence 1102 1107	makes
+E2	Consequence:T5 Cause:T6 Effect:T7
+A2	Degree E2 Facilitate
+T6	Argument 1069 1101	Having only a Republican measure
+T7	Argument 1108 1116;1117 1123	the task harder
+T8	Consequence 1374 1380;1390 1392	enough to
+E3	Consequence:T8 Cause:T9 Effect:T10
+A3	Degree E3 Facilitate
+A4	Extremity-sufficiency E3
+T9	Argument 1374 1389	enough senators
+T10	Argument 1393 1461	overcome any procedural hurdle the Democratic leadership might erect
+T11	NonCausal 1831 1835	when
+E4	NonCausal:T11 Arg1:T12 Arg0:T13
+A5	Temporal E4
+T12	Argument 1820 1829	last week
+T13	Argument 1836 1924	the Senate passed a deficit-reduction bill that didn't contain a capital-gains provision
+T14	Consequence 1936 1940	made
+E5	Consequence:T14 Cause:T15 Effect:T16
+A6	Degree E5 Facilitate
+T15	Argument 1926 1935	That vote
+T16	Argument 1941 1943;1944 2068	it unlikely that a capital-gains tax cut would be included in the final bill, now being drafted by House and Senate negotiators
+T17	Purpose 2372 2374	To
+E6	Purpose:T17 Cause:T18 Effect:T19
+A7	Degree E6 Facilitate
+T18	Argument 2375 2413	help lay the groundwork for that fight
+T19	Argument 2415 2581	President Bush plans early next week to meet at the White House with some 20 Democratic senators who favor cutting the capital-gains tax or are undecided on the issue
+T20	Purpose 2769 2771	to
+E7	Purpose:T20 Cause:T21 Effect:T49
+A8	Degree E7 Facilitate
+T21	Argument 2772 2782	improve it
+T23	Motivation 2783 2787	when
+E8	Motivation:T23 Cause:T24 Effect:T25
+A9	Degree E8 Facilitate
+A10	Temporal E8
+T24	Argument 2788 2815	the bill comes to the floor
+T25	Argument 2727 2768	I may want to offer additional amendments
+T22	Consequence 2923 2928;2941 2943	allow to
+E9	Consequence:T22 Cause:T26 Effect:T27
+A11	Degree E9 Facilitate
+A12	Obligation-permission E9
+T26	Argument 2885 2902	The Packwood plan
+T27	Argument 2929 2940;2944 3039	individuals exclude from income 5% of the gain from the sale of a capital asset held for more than one year
+T28	NonCausal 3157 3162	after
+E10	NonCausal:T28 Arg0:T29 Arg1:T30
+A13	Temporal E10
+T29	Argument 3163 3174	seven years
+T30	Argument 3129 3156	it reached a maximum of 35%
+T31	Consequence 3123 3128	until
+E11	Consequence:T31 Effect:T32 Cause:T33
+A14	Degree E11 Inhibit
+A15	Temporal E11
+T32	Argument 3041 3121	The exclusion would rise five percentage points for each year the asset was held
+T33	Argument 3129 3174	it reached a maximum of 35% after seven years
+T34	NonCausal 3217 3222	after
+E12	NonCausal:T34 Arg0:T35 Arg1:T36
+A16	Temporal E12
+T35	Argument 3223 3229	Oct. 1
+T36	Argument 3212 3216	sold
+T37	NonCausal 3659 3665	create
+E13	NonCausal:T37 Arg0:T38 Arg1:T40
+A17	Creation-termination E13
+T38	Argument 3648 3652	that
+T39	Argument 3594 3646	a proposal, designed by Sen. William Roth (R., Del.)
+R1	Coref Arg1:T38 Arg2:T39	
+T40	Argument 3666 3717	new tax benefits for individual retirement accounts
+T41	NonCausal 3739 3745	create
+E14	NonCausal:T41 Arg0:T42 Arg1:T43
+A18	Creation-termination E14
+T42	Argument 3719 3732	The Roth plan
+T43	Argument 3746 3924	a new, non-deductible IRA from which money could be withdrawn tax-free not only for retirement, but also for the purchase of a first home, education expenses and medical expenses
+T44	Purpose 3826 3829	for
+E15	Purpose:T44 Cause:T45 Effect:T46
+A19	Degree E15 Facilitate
+T45	Argument 3830 3840	retirement
+T46	Argument 3783 3816	money could be withdrawn tax-free
+T47	Purpose 3851 3854	for
+E16	Purpose:T47 Cause:T48 Effect:T46
+A20	Degree E16 Facilitate
+T48	Argument 3855 3924	the purchase of a first home, education expenses and medical expenses
+T49	Argument 2741 2768	offer additional amendments

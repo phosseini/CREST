@@ -1,0 +1,32 @@
+T1	Regulon-operon 53 65	spy1725-1719
+T2	Protein 53 60	spy1725
+T3	Protein 61 65	1719
+T4	Protein 175 182	spy1724
+T5	Protein 184 191	spy1722
+T6	Protein 193 200	spy1721
+T7	Protein 206 213	spy1719
+T8	Regulon-operon 286 295	nusA-infB
+T9	Protein 286 290	nusA
+T10	Protein 291 295	infB
+T11	Organism 327 344	Bacillus subtilis
+T12	Organism 349 365	Escherichia coli
+T13	Protein 388 395	spy1725
+T14	Protein 400 407	spy1723
+T15	Protein 605 612	spy1725
+T16	Protein 695 701	SP14.3
+T17	Organism 715 728	S. pneumoniae
+T18	Protein 813 819	SP14.3
+T19	Protein 860 867	spy1723
+T20	Protein 917 921	YlxR
+T21	Organism 933 946	S. pneumoniae
+T22	Protein 1163 1169	domain
+T23	Negative_regulation 149 163	downregulation
+E1	Negative_regulation:T23 Theme:T1
+T24	Causality 1017 1044	These results indicate that
+E2	Causality:T24 Effect:T25 Evidence:T26
+T25	Span 1045 1152	both genes likely encode RNA-binding proteins, in agreement with their functionally defined cluster members
+T26	Span 856 1010	The spy1723 gene product has similar domain structure to the YlxR protein of S. pneumoniae, an RNA-binding protein implicated in transcription termination
+T27	Span 775 854	Based on structural characterization, SP14.3 is a predicted RNA-binding protein
+T28	Span 577 773	BlastP analysis aligned the spy1725 gene product, which has homologs in all sequenced streptococcal genomes, with the SP14.3 protein from S. pneumoniae [52] (80% sequence similarity; 67% identity)
+E3	Causality:T24 Effect:T25 Evidence:T27
+E4	Causality:T24 Effect:T25 Evidence:T28

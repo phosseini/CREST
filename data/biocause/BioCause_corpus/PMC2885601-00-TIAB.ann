@@ -1,0 +1,75 @@
+T1	Protein 0 17	IgG Endopeptidase
+T2	Protein 18 23	SeMac
+T3	Organism 63 97	Streptococcus equi Subspecies equi
+T4	Organism 101 106	Horse
+T5	Protein 150 153	Mac
+T6	Organism 170 191	group A Streptococcus
+T7	Organism 193 196	GAS
+T8	Protein 229 232	GAS
+T9	Organism 236 241	human
+T10	Organism 336 341	human
+T11	Protein 342 358	immunoglobulin G
+T12	Protein 360 363	IgG
+T13	Organism 444 449	horse
+T14	Organism 459 493	Streptococcus equi subspecies equi
+T15	Protein 518 521	Mac
+T16	Protein 523 528	SeMac
+T17	Protein 531 536	SeMac
+T18	Protein 576 581	SeMac
+T19	Protein 586 603	IgG endopeptidase
+T20	Organism 648 655	S. equi
+T21	Organism 659 664	horse
+T22	Protein 707 712	SeMac
+T23	Organism 734 750	Escherichia coli
+T24	Organism 780 784	Mice
+T25	Organism 803 810	S. equi
+T26	Organism 825 831	horses
+T27	Organism 857 864	S. equi
+T28	Protein 882 887	SeMac
+T29	Protein 905 910	SeMac
+T30	Protein 949 954	SeMac
+T31	Organism 990 995	human
+T32	Protein 996 999	IgG
+T33	Protein 1066 1070	IgG1
+T34	Organism 1080 1085	horse
+T35	Protein 1086 1089	IgG
+T36	Protein 1177 1182	SeMac
+T37	Protein 1253 1258	SeMac
+T38	Organism 1298 1305	S. equi
+T39	Organism 1309 1314	horse
+T40	Organism 1346 1349	GAS
+T41	Organism 1353 1358	human
+T42	Protein 1371 1376	SeMac
+T43	Protein 1382 1404	cysteine endopeptidase
+T44	Organism 1437 1442	horse
+T45	Protein 1443 1446	IgG
+*	Equiv T6 T7
+*	Equiv T11 T12
+T46	Localization 141 149	secreted
+T47	Gene_expression 494 502	produces
+T48	Gene_expression 717 730	overexpressed
+T49	Process 811 820	infection
+T50	Gene_expression 914 922	produced
+T51	Process 938 947	infection
+T52	Positive_regulation 1027 1034	cleaves
+T53	Protein_catabolism 1027 1034	cleaves
+E1	Localization:T46 Theme:T5
+E2	Gene_expression:T47 Theme:T16
+E3	Gene_expression:T48 Theme:T22
+E4	Process:T49 Participant:T25
+E5	Gene_expression:T50 Theme:T29
+E6	Process:T51 
+E7	Protein_catabolism:T53 Theme:T33
+E8	Positive_regulation:T52 Theme:E7 Cause:T30
+T54	Span 780 887	Mice with experimental S. equi infection and horses with strangles caused by S. equi seroconverted to SeMac
+T55	Causality 889 904	indicating that
+E9	Causality:T55 Effect:T56 Evidence:T54
+T56	Span 905 947	SeMac is produced in vivo during infection
+T57	Span 1010 1051	the protein just cleaves a small fraction
+T58	Causality 1053 1065	which may be
+E10	Causality:T58 Effect:T59 Evidence:T57
+T59	Span 1066 1089	IgG1 only, of horse IgG
+T60	Span 1010 1089	the protein just cleaves a small fraction, which may be IgG1 only, of horse IgG
+T61	Causality 1365 1369	Thus
+E11	Causality:T61 Effect:T62 Evidence:T60
+T62	Span 1371 1475	SeMac is a cysteine endopeptidase with a limited activity against horse IgG and must have other function

@@ -1,0 +1,148 @@
+*	Equiv T17 T18
+T74	Localization 34 43	Secretion
+T75	Binding 549 556	binding
+T76	Gene_expression 851 861	production
+T77	Positive_regulation 956 963	induced
+T78	Gene_expression 974 984	production
+T79	Gene_expression 1343 1351	produced
+T80	Positive_regulation 1383 1394	stimulation
+T81	Process 1480 1488	infected
+T82	Gene_expression 1602 1612	production
+T83	Localization 1777 1786	secretion
+T84	Process 1943 1951	infected
+T85	Process 2084 2093	infection
+T86	Gene_expression 2187 2197	production
+T87	Positive_regulation 2226 2235	triggered
+T88	Gene_expression 2257 2267	production
+T89	Gene_expression 2739 2749	expression
+T90	Localization 2754 2763	secretion
+E1	Localization:T74 Theme:T2
+E2	Binding:T75 Theme1:T8 Theme2:T9
+E3	Gene_expression:T76 Theme:T17
+E4	Positive_regulation:T77 Theme:E5
+E5	Gene_expression:T78 Theme:T19
+E6	Gene_expression:T79 Theme:T24
+E7	Positive_regulation:T80 Theme:E6 Cause:T25
+E8	Positive_regulation:T80 Theme:E6 Cause:T26
+E9	Process:T81 Participant:T28
+E10	Process:T81 Participant:T30
+E11	Process:T81 Participant:T27
+E12	Gene_expression:T82 Theme:T36
+E13	Localization:T83 Theme:T39
+E14	Process:T84 Participant:T43
+E15	Process:T84 Participant:T42
+E16	Process:T85 Participant:T46
+E17	Process:T85 Participant:T45
+E18	Gene_expression:T86 Theme:T48
+E19	Positive_regulation:T87 Theme:E21 Cause:T49
+E20	Positive_regulation:T87 Theme:E21 Cause:T51
+E21	Gene_expression:T88 Theme:T52
+E22	Gene_expression:T89 Theme:T59
+E23	Localization:T90 Theme:T59
+T1	Protein 25 29	phoP
+T2	Protein 47 53	ESAT-6
+T3	Protein 58 62	PhoP
+T4	Organism 106 121	M. tuberculosis
+T5	Protein 297 301	phoP
+T6	Organism 305 310	H37Ra
+T7	Organism 359 374	M. tuberculosis
+T8	Protein 534 540	ESAT-6
+T9	Protein 601 607	CFP-10
+T10	Organism 619 631	C57BL/6 mice
+T11	Organism 668 673	H37Rv
+T12	Organism 675 680	H37Ra
+T13	Organism 710 715	H37Ra
+T14	Protein 742 746	phoP
+T15	Protein 748 753	fadE5
+T16	Protein 758 762	rpsL
+T17	Protein 822 838	interferon-gamma
+T18	Protein 840 849	IFN-gamma
+T19	Protein 964 973	IFN-gamma
+T20	Protein 1248 1254	ESAT-6
+T21	Protein 1259 1265	CFP-10
+T22	Organism 1306 1310	mice
+T23	Organism 1337 1342	H37Rv
+T24	Protein 1368 1377	IFN-gamma
+T25	Protein 1400 1406	ESAT-6
+T26	Protein 1410 1416	CFP-10
+T27	Organism 1443 1448	H37Ra
+T28	Organism 1450 1462	H37Ra::fadE5
+T29	Protein 1457 1462	fadE5
+T30	Organism 1468 1479	H37Ra::rpsL
+T31	Protein 1475 1479	rpsL
+T32	Organism 1489 1493	mice
+T33	Organism 1545 1556	H37Ra::phoP
+T34	Protein 1552 1556	phoP
+T35	Organism 1568 1572	mice
+T36	Protein 1592 1601	IFN-gamma
+T37	Protein 1644 1650	ESAT-6
+T38	Protein 1655 1661	CFP-10
+T39	Protein 1770 1776	ESAT-6
+T40	Protein 1898 1904	ESAT-6
+T41	Organism 1908 1913	H37Ra
+T42	Organism 1927 1932	H37Ra
+T43	Organism 1937 1942	H37Rv
+T44	Organism 2002 2008	ESAT-6
+T45	Organism 2108 2113	H37Ra
+T46	Organism 2117 2128	H37Ra::rpsL
+T47	Protein 2124 2128	rpsL
+T48	Protein 2182 2186	IL-2
+T49	Organism 2205 2216	H37Ra::phoP
+T50	Protein 2212 2216	phoP
+T51	Organism 2220 2225	H37Rv
+T52	Protein 2252 2256	IL-2
+T53	Protein 2435 2441	ESAT-6
+T54	Protein 2494 2498	phoP
+T55	Organism 2539 2551	C57BL/6 mice
+T56	Organism 2637 2642	H37Ra
+T57	Protein 2679 2684	ppe68
+T58	Organism 2697 2700	BCG
+T59	Protein 2732 2738	ESAT-6
+T60	Organism 2782 2787	H37Ra
+T61	Protein 2844 2850	ESAT-6
+T62	Protein 2855 2861	CFP-10
+T63	Protein 2909 2918	IFN-gamma
+T64	Organism 2976 3028	M. tuberculosis MT103 phoP knock-out (ko) strain SO2
+T65	Protein 2998 3002	phoP
+T66	Organism 3181 3186	MT103
+T67	Organism 3209 3212	SO2
+T68	Protein 3246 3252	ESAT-6
+T69	Protein 3257 3263	CFP-10
+T70	Organism 3334 3339	H37Ra
+T71	Protein 3488 3492	PhoP
+T72	Protein 3546 3552	ESAT-6
+T73	Protein 3557 3563	CFP-10
+T91	Span 1000 1105	purified protein derivative (PPD) but not to a control peptide (Mal-E), indicating successful vaccination
+T92	Causality 985 999	in response to
+E24	Causality:T92 Evidence:T91 Effect:T93
+T93	Span 937 984	all tested strains induced IFN-gamma production
+T94	Span 1118 1265	Most importantly, the various strains differed extensively in their potential to induce antigen specific T cell responses towards ESAT-6 and CFP-10
+T95	Span 1289 1377	splenocytes from mice that were inoculated with H37Rv produced high amounts of IFN-gamma
+T96	Span 1378 1416	upon stimulation with ESAT-6 or CFP-10
+T97	Causality 1378 1378	
+E25	Causality:T97 Effect:T95 Evidence:T96
+T98	Causality 1426 1426	
+E26	Causality:T98 Effect:T99 Evidence:T96
+T99	Span 1426 1513	the responses of H37Ra, H37Ra::fadE5, and H37Ra::rpsL infected mice were extremely weak
+T100	Causality 1613 1627	in response to
+E28	Causality:T100 Effect:T101 Evidence:T102
+T101	Span 1528 1612	splenocytes from H37Ra::phoP inoculated mice showed very strong IFN-gamma production
+T102	Span 1628 1661	incubation with ESAT-6 and CFP-10
+T104	Span 2063 2168	Figure 4A shows that infection of BM-DC with H37Ra or H37Ra::rpsL induced no stimulation of the hybridoma
+T103	Causality 2169 2181	as judged by
+E29	Causality:T103 Effect:T105 Evidence:T104
+T105	Span 2182 2197	IL-2 production
+T106	Span 2205 2308	H37Ra::phoP or H37Rv triggered high amounts of IL-2 production in this very sensitive and specific test
+T107	Causality 2205 2205	
+E30	Causality:T107 Effect:T106 Evidence:T104
+T108	Span 2593 2763	Firstly, we constructed a partially diploid H37Ra knock-in strain carrying cosmid RD1-ppe68-ko that, in BCG yields the greatest amounts of ESAT-6 expression and secretion
+T109	Causality 2770 2777	However
+E31	Causality:T109 Evidence:T108 Effect:T110
+T110	Span 2779 2924	in H37Ra the presence of this cosmid could not increase the weak ESAT-6 and CFP-10 T cell responses (Figure 3B) in the splenocyte IFN-gamma assay
+T111	Causality 3426 3439	indicate that
+E32	Causality:T111 Effect:T112 Evidence:T106
+T112	Span 3440 3563	a direct link exists between a fully functional PhoP and the ability to generate T cell responses against ESAT-6 and CFP-10
+T113	Span 1528 1661	splenocytes from H37Ra::phoP inoculated mice showed very strong IFN-gamma production in response to incubation with ESAT-6 and CFP-10
+E33	Causality:T111 Effect:T112 Evidence:T113
+E27	Causality:T92 Evidence:T91 Effect:T94
+#1	AnnotatorNotes E31	not sure

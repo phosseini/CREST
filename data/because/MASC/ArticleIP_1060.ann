@@ -1,0 +1,174 @@
+T4	Argument 552 555;556 600	Roe vs. Wade , the 1973 case legalizing abortion
+T5	Consequence 602 606	made
+E2	Consequence:T5 Effect:T6 Cause:T4
+A2	Degree E2 Facilitate
+T6	Argument 607 622;623 625;626 649	fetal viability an important legal concept
+T7	Argument 681 698;699 768	states cannot put the interests of a fetus ahead of the interests of the pregnant woman
+T8	Argument 775 778;779 797	the fetus is "viable."
+T9	Consequence 769 774	until
+E3	Consequence:T9 Cause:T8 Effect:T7
+A3	Degree E3 Inhibit
+T10	Argument 1203 1215;1216 1232	the point of viability varies
+T11	Consequence 1195 1202	Because
+E4	Consequence:T11 Cause:T10 Effect:T12
+A4	Degree E4 Facilitate
+T12	Argument 1251 1295;1296 1321	it could only be determined case by case and by the woman's own doctor
+T13	Argument 1368 1374;1375 1403	states could not outlaw an abortion
+T14	Argument 1407 1446	the woman's life or health was at stake
+T15	Consequence 1404 1406	if
+E5	Consequence:T15 Cause:T14 Effect:T13
+A5	Degree E5 Facilitate
+T16	Note 1700 1708	allowing
+#1	AnnotatorNotes T16	"Give" sense of "allow"
+T17	Argument 2084 2101;2102 2112	the middle of the 22 nd week
+T18	Argument 2032 2034;2035 2076	no baby has ever been successfully delivered
+T19	NonCausal 2077 2083	before
+E6	NonCausal:T19 Arg1:T17 Arg0:T18
+T20	Argument 2246 2262	developed enough
+T21	Argument 2266 2272	inhale
+T22	Consequence 2256 2265	enough to
+E7	Consequence:T22 Effect:T21 Cause:T20
+A6	Degree E7 Facilitate
+A7	Temporal E6
+T23	Consequence 2286 2296	depends on
+E8	Consequence:T23 Cause:T25 Effect:T24
+A8	Degree E8 Facilitate
+T24	Argument 2274 2285	Circulation
+T25	Argument 2297 2346	the use of ventilators and injections of hormones
+T26	Argument 2660 2702	before then the lungs are not fully formed
+T27	Argument 2573 2639;2640 2650	Neonatologists predict that no baby will ever be viable before the 22 nd week
+T28	Motivation 2652 2659	because
+E9	Motivation:T28 Cause:T26 Effect:T27
+A9	Degree E9 Facilitate
+T29	NonCausal 2629 2635	before
+E10	NonCausal:T29 Arg1:T31 Arg0:T30
+A10	Temporal E10
+T30	Argument 2601 2628	no baby will ever be viable
+T31	Argument 2636 2639;2640 2650	the 22 nd week
+T32	NonCausal 2660 2666	before
+E11	NonCausal:T32 Arg1:T33 Arg0:T34
+T33	Argument 2667 2671	then
+R1	Coref Arg1:T33 Arg2:T31	
+T34	Argument 2672 2702	the lungs are not fully formed
+T36	Consequence 2904 2911;2925 2927	require to
+E12	Consequence:T36 Cause:T37 Effect:T38
+A11	Degree E12 Facilitate
+T37	Argument 2912 2924	a ventilator
+T38	Argument 2928 2935	breathe
+T35	Argument 2992 3006	the 30 th week
+T39	Argument 3007 3076	do the risks of long-term brain damage begin to substantially subside
+T40	NonCausal 2986 2991	after
+E13	NonCausal:T40 Arg0:T35 Arg1:T39
+A12	Temporal E13
+T41	Argument 3086 3123	premature babies depend on technology
+T42	Argument 3125 3160;3161 3179	survival rates vary based on access to that technology
+T43	Consequence 3078 3085	Because
+E14	Consequence:T43 Cause:T41 Effect:T42
+A13	Degree E14 Facilitate
+T44	Note 3103 3112	depend on
+#2	AnnotatorNotes T44	Literal sense of "depend"
+T45	Argument 3431 3440	Sonograms
+T46	Argument 3447 3454;3458 3492;3493 3531	doctors estimate the fetus's weight, which correlates with the lungs' development
+T47	Consequence 3441 3446;3455 3457	allow to
+E15	Consequence:T47 Cause:T45 Effect:T46
+A14	Degree E15 Facilitate
+T48	Consequence 3441 3446;3537 3539	allow to
+E16	Consequence:T48 Cause:T45 Effect:T49
+A15	Degree E16 Facilitate
+T49	Argument 3447 3454;3540 3567;3568 3632;3633 3692	doctors look for signs--such as the development of functioning eyelids and creases in the skin--that coincide with the onset of a functioning respiratory system
+T50	Argument 3778 3811	important Supreme Court decisions
+T51	Argument 3818 3822	1973
+T52	NonCausal 3812 3817	since
+E17	NonCausal:T52 Arg0:T51 Arg1:T50
+A16	Temporal E17
+T53	Argument 3994 3999	which
+T54	Argument 3967 3985	the Casey decision
+R2	Coref Arg1:T53 Arg2:T54	
+T55	Consequence 4000 4004	made
+E18	Consequence:T55 Effect:T56 Cause:T53
+A17	Degree E18 Facilitate
+T56	Argument 4005 4014;4015 4024;4025 4034	viability even more important
+T57	Argument 4056 4066	state laws
+T58	Argument 4081 4103;4107 4178;4179 4187	a woman and her doctor perform tests to prove that a fetus is not viable before she obtains an abortion
+T59	Consequence 4073 4080;4104 4106	require to
+E19	Consequence:T59 Cause:T57 Effect:T58
+A18	Degree E19 Facilitate
+T60	Argument 4107 4120	perform tests
+T61	Purpose 4121 4123	to
+E20	Purpose:T61 Effect:T60 Cause:T62
+A19	Degree E20 Facilitate
+T62	Argument 4124 4178;4179 4187	prove that a fetus is not viable before she obtains an abortion
+T63	Consequence 4157 4163	before
+E21	Consequence:T63 Cause:T64 Effect:T65
+A20	Degree E21 Facilitate
+A21	Temporal E21
+T64	Argument 4107 4156	perform tests to prove that a fetus is not viable
+T65	Argument 4164 4178;4179 4187	she obtains an abortion
+T66	Consequence 4276 4281;4290 4292	allow to
+E22	Consequence:T66 Effect:T67 Cause:T68
+A22	Degree E22 Facilitate
+T67	Argument 4282 4289;4293 4337	doctors decide for themselves if the fetus is viable
+T68	Argument 4271 4275	Some
+A23	Extremity-sufficiency E7
+T1	Argument 2484 2498	lack of oxygen
+T2	Consequence 2500 2504	from
+E1	Consequence:T2 Effect:T1 Cause:T3
+A1	Degree E1 Facilitate
+T3	Argument 2505 2529	poor initial respiration
+T69	Consequence 2551 2555	from
+E23	Consequence:T69 Cause:T70 Effect:T71
+A24	Degree E23 Facilitate
+T70	Argument 2556 2570	the ventilator
+T71	Argument 2534 2549	too much oxygen
+T72	Note 2881 2885	when
+#3	AnnotatorNotes T72	Relative pronoun
+A25	Obligation-permission E19
+A26	Obligation-permission E22
+T73	Argument 4339 4343	Some
+T74	Consequence 4344 4351;4360 4362	require to
+E24	Consequence:T74 Effect:T75 Cause:T73
+A27	Degree E24 Facilitate
+A28	Obligation-permission E24
+T75	Argument 4352 4359;4363 4407	doctors perform tests to prove a fetus is pre-viable
+T76	Argument 4363 4376	perform tests
+T77	Argument 4380 4407	prove a fetus is pre-viable
+T78	Purpose 4377 4379	to
+E25	Purpose:T78 Cause:T77 Effect:T76
+A29	Degree E25 Facilitate
+T79	Consequence 4412 4419;4437 4439	require to
+E26	Consequence:T79 Cause:T73 Effect:T80
+A30	Degree E26 Facilitate
+T80	Argument 4420 4436;4440 4460	multiple doctors certify the findings
+T81	Motivation 4586 4588	in
+E27	Motivation:T81 Effect:T83 Cause:T82
+A31	Degree E27 Facilitate
+T82	Argument 4589 4649	the belief that this procedure is used mainly post-viability
+T83	Argument 4462 4515;4516 4583	Eleven states have banned the procedure called intact dilation and extraction (IDE)--also known as partial-birth abortion
+T84	Argument 5019 5059	the ban on IDEs is inconsistent with Roe
+T85	Consequence 5062 5069	because
+E28	Consequence:T85 Cause:T86 Effect:T84
+A32	Degree E28 Facilitate
+T86	Argument 5070 5123	the procedure can be used to abort pre-viable fetuses
+T87	NonCausal 5229 5235	create
+E29	NonCausal:T87 Arg0:T89 Arg1:T88
+A33	Creation-termination E29
+T88	Argument 5236 5280	the pre-viability/post-viability distinction
+T89	Argument 5198 5215	the Supreme Court
+T90	Consequence 5301 5304	Why
+E30	Consequence:T90 Effect:T91
+A34	Degree E30 Facilitate
+T91	Argument 5316 5393;5394 5466;5467 5543;5544 5552	does the fact that a fetus can survive outside the womb with the help of vast medical technology change either of the interests at war in the abortion debate: the fetus's own claim to "human-ness" and a woman's right to control her body
+T92	Argument 5873 5932	Less than one percent of all abortions performed take place
+T93	Argument 5939 5942;5943 5953	the 21 st week
+T94	NonCausal 5933 5938	after
+E31	NonCausal:T94 Arg0:T93 Arg1:T92
+A35	Temporal E31
+T95	Argument 6006 6009;6010 6020	the 25 th week
+T96	Argument 5964 5999	only 1,070 abortions were performed
+T97	NonCausal 6000 6005	after
+E32	NonCausal:T97 Arg0:T95 Arg1:T96
+A36	Temporal E32
+A37	Obligation-permission E26
+A38	Temporal E3
+A39	Hypothetical E5
+A40	Temporal E11

@@ -1,0 +1,60 @@
+*	Equiv T5 T6 T7
+T40	Positive_regulation 58 67	Essential
+T41	Process 77 86	Virulence
+T42	Process 221 231	infectious
+T43	Process 921 930	infection
+T44	Positive_regulation 1531 1540	requisite
+T45	Process 1554 1563	virulence
+E1	Positive_regulation:T40 Theme:E2 Cause:T1
+E2	Process:T41 Participant:T4
+E3	Process:T42 Participant:T5
+E4	Process:T43 Participant:T18
+E5	Positive_regulation:T44 Theme:E6 Cause:T36
+E6	Process:T45 Participant:T39
+T1	Two-component-system 0 9	SalK/SalR
+T2	Protein 0 4	SalK
+T3	Protein 5 9	SalR
+T4	Organism 106 135	Streptococcus suis Serotype 2
+T5	Organism 148 177	Streptococcus suis serotype 2
+T6	Organism 179 188	S. suis 2
+T7	Organism 190 193	SS2
+T8	Organism 293 298	human
+T9	Organism 299 302	SS2
+T10	Organism 622 625	SS2
+T11	Two-component-system 798 807	SalK/SalR
+T12	Protein 798 802	SalK
+T13	Protein 803 807	SalR
+T14	Organism 829 853	Streptococcus salivarius
+T15	Two-component-system 867 872	salKR
+T16	Protein 867 871	salK
+T17	Protein 871 872	R
+T18	Organism 901 904	SS2
+T19	Organism 934 941	piglets
+T20	Two-component-system 973 978	salKR
+T21	Protein 973 977	salK
+T22	Protein 977 978	R
+T23	Organism 988 1014	isogenic mutant DeltasalKR
+T24	Two-component-system 1009 1014	salKR
+T25	Protein 1009 1013	salK
+T26	Protein 1013 1014	R
+T27	Organism 1092 1109	DeltasalKR mutant
+T28	Two-component-system 1097 1102	salKR
+T29	Protein 1097 1101	salK
+T30	Protein 1101 1102	R
+T31	Organism 1155 1162	piglets
+T32	Organism 1446 1463	DeltasalKR mutant
+T33	Two-component-system 1451 1456	salKR
+T34	Protein 1451 1455	salK
+T35	Protein 1455 1456	R
+T36	Two-component-system 1518 1527	SalK/SalR
+T37	Protein 1518 1522	SalK
+T38	Protein 1523 1527	SalR
+T39	Organism 1612 1615	SS2
+T49	Span 148 238	Streptococcus suis serotype 2 (S. suis 2, SS2) has evolved into a highly infectious entity
+T50	Causality 246 252	caused
+E8	Causality:T50 Evidence:T49 Effect:T51
+T51	Span 253 373	the two recent large-scale outbreaks of human SS2 epidemic in China, and is characterized by a toxic shock-like syndrome
+T55	Span 1490 1615	These findings suggest that SalK/SalR is requisite for the full virulence of ethnic Chinese isolates of highly pathogenic SS2
+T56	Causality 1617 1621	thus
+E10	Causality:T56 Effect:T55 Evidence:T57
+T57	Span 1622 1710	providing experimental evidence for the validity of this bioinformatically predicted PAI

@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0325</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-01</TIMEX3></DCT>
+<TEXT>
+ Coast Savings Financial Inc. <EVENT eid="e1" class="REPORTING">reported</EVENT> a <TIMEX3 tid="t2" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> <EVENT eid="e3" class="STATE">loss</EVENT>, <EVENT eid="e4" class="REPORTING">citing</EVENT> a previously announced capital restructuring program.
+ The Los Angeles thrift holding company <EVENT eid="e5" class="REPORTING">said</EVENT> it <EVENT eid="e6" class="STATE">had</EVENT> a loss of $ 92.2 million, or $ 6.98 a share, for <TIMEX3 tid="t7" type="DATE" value="1989-Q3" anchorTimeID="t2" functionInDocument="NONE">the quarter</TIMEX3> ended <TIMEX3 tid="t8" type="DATE" value="1989-09-30" anchorTimeID="t0" functionInDocument="NONE">Sept. 30</TIMEX3>.
+ Coast <EVENT eid="e9" class="OCCURRENCE">earned</EVENT> $ 10.2 million, or 67 cents a share, in <TIMEX3 tid="t10" type="DATE" value="1988-Q3" anchorTimeID="t2" functionInDocument="NONE">the year-ago quarter</TIMEX3>.
+ The <TIMEX3 tid="t11" type="DATE" value="1988-Q3" anchorTimeID="t10" functionInDocument="NONE">year-ago</TIMEX3> <EVENT eid="e12" class="STATE">results</EVENT> have been <EVENT eid="e13" class="OCCURRENCE">restated</EVENT> to <EVENT eid="e14" class="I_STATE">comply</EVENT> with government regulations.
+ The restructuring program is <EVENT eid="e15" class="I_STATE">designed</EVENT> to <EVENT eid="e16" class="I_ACTION">increase</EVENT> the company's tangible capital ratio.
+ It includes <EVENT eid="e17" class="OCCURRENCE">removing</EVENT> $ 242 million in good will from the books, <EVENT eid="e18" class="OCCURRENCE">issuing</EVENT> $ 150 million in preferred stock and <EVENT eid="e19" class="ASPECTUAL">commencing</EVENT> an exchange <EVENT eid="e20" class="OCCURRENCE">offer</EVENT> for $ 52 million in convertible bonds.
+ During <TIMEX3 tid="t21" type="DATE" value="1989-Q3" anchorTimeID="t2" functionInDocument="NONE">the third quarter</TIMEX3>, the company <EVENT eid="e22" class="OCCURRENCE">charged</EVENT> about $ 46 million against earnings in reducing goodwill, <EVENT eid="e23" class="OCCURRENCE">added</EVENT> $ 20 million to its general loan loss reserves and <EVENT eid="e24" class="I_ACTION">established</EVENT> a $ 30 million reserve for its high-yield bond portfolio.
+ The company <EVENT eid="e25" class="REPORTING">said</EVENT> its junk-bond portfolio after these <EVENT eid="e26" class="OCCURRENCE">moves</EVENT> had been <EVENT eid="e27" class="OCCURRENCE">reduced</EVENT> to less than 1 % of assets.
+</TEXT>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei4"/>
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToTime="t2"/>
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToEventInstance="ei1"/>
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t7"/>
+<TLINK lid="l5" relType="ENDED_BY" eventInstanceID="ei6" relatedToTime="t8"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei6"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t10"/>
+<TLINK lid="l8" relType="INCLUDES" timeID="t11" relatedToEventInstance="ei12"/>
+<TLINK lid="l9" relType="INCLUDES" eventInstanceID="ei12" relatedToEventInstance="ei9"/>
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei13" relatedToEventInstance="ei12"/>
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToTime="t21"/>
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei23" relatedToTime="t21"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei24" relatedToTime="t21"/>
+<TLINK lid="l14" relType="SIMULTANEOUS" eventInstanceID="ei25" relatedToEventInstance="ei5"/>
+<TLINK lid="l15" relType="AFTER" eventInstanceID="ei27" relatedToEventInstance="ei26"/>
+</TimeML>

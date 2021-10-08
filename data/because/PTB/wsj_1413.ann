@@ -1,0 +1,37 @@
+T1	Consequence 329 337;342 344	allowing to
+E1	Consequence:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 338 341;345 415	him ease the pain that the Gramm-Rudman budget law was intended to inflict
+T3	Argument 166 327	raise to $6 billion from $3 billion the amount of money Defense Secretary Dick Cheney may shift among the Pentagon's individual programs, projects and activities
+T4	Consequence 419 421	If
+E2	Consequence:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+A3	Hypothetical E2
+T5	Argument 422 474	the request is approved by both the House and Senate
+T6	Argument 476 584	Mr. Cheney would need only permission from the White House Office of Management and Budget to move the money
+T7	Consequence 493 497;567 569	need to
+E3	Consequence:T7 Cause:T8 Effect:T9
+A4	Degree E3 Facilitate
+T8	Argument 503 566	permission from the White House Office of Management and Budget
+T9	Argument 570 584	move the money
+T10	Consequence 723 729	making
+E4	Consequence:T10 Effect:T11 Cause:T12
+A5	Degree E4 Facilitate
+T11	Argument 730 738;739 799	the cuts less onerous for defense than they are for domestic programs
+T12	Argument 702 704	It
+T13	Purpose 1142 1144	to
+E5	Purpose:T13 Cause:T14 Effect:T15
+A6	Degree E5 Facilitate
+T14	Argument 1145 1210	give the department ``maximum flexibility'' to deal with the cuts
+T15	Argument 1121 1141	the request was made
+T16	Purpose 1343 1345	to
+E6	Purpose:T16 Effect:T17 Cause:T18
+A7	Degree E6 Facilitate
+T17	Argument 1225 1341	Budget Director Richard Darman structured the $16.1 billion spending reduction, half of which must come from defense
+T18	Argument 1346 1464	``impose a little bit more discipline'' by applying cuts to each individual program, project or activity in the budget
+T19	Motivation 1723 1727	once
+E7	Motivation:T19 Cause:T20 Effect:T21
+A8	Degree E7 Facilitate
+A9	Temporal E7
+T20	Argument 1728 1786	a pending deficit-cutting measure has been signed into law
+T21	Argument 1698 1722	try to restore the funds

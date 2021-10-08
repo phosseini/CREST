@@ -1,0 +1,43 @@
+T25	Process 1225 1234	infection
+T26	Process 1691 1700	infection
+T27	Regulation 1839 1845	action
+T28	Process 1860 1869	virulence
+E1	Process:T25 Participant:T15
+E2	Process:T25 Participant:T16
+E3	Process:T26 Participant:T20
+E4	Process:T26 Participant:T21
+E5	Regulation:T27 Theme:E6 Cause:T22
+E6	Process:T28 Participant:T23
+T1	Protein 25 28	mlc
+T2	Organism 42 52	Salmonella
+T3	Organism 275 289	S. Typhimurium
+T4	Organism 321 331	mlc mutant
+T5	Protein 321 324	mlc
+T6	Organism 333 339	SR1304
+T7	Organism 360 365	HEp-2
+T8	Organism 393 399	SL1344
+T9	Organism 506 516	Salmonella
+T10	Organism 628 634	SR1304
+T11	Organism 715 721	SL1344
+T12	Organism 741 755	S. Typhimurium
+T13	Organism 912 922	mlc mutant
+T14	Protein 912 915	mlc
+T15	Organism 1128 1134	SL1344
+T16	Organism 1174 1180	SR1304
+T17	Protein 1264 1267	mlc
+T18	Protein 1383 1386	mlc
+T19	Organism 1567 1572	mouse
+T20	Organism 1744 1750	SL1344
+T21	Organism 1755 1761	SR1304
+T22	Protein 1835 1838	Mlc
+T23	Organism 1849 1859	Salmonella
+T24	Organism 1940 1950	Salmonella
+T29	Causality 1236 1259	which demonstrates that
+E7	Causality:T29 Evidence:T30 Effect:T31
+T30	Fact 1128 1234	SL1344 killed 42% of the macrophages, whereas SR1304 killed only 16% of the macrophages 4h after infection
+T31	Fact 1260 1348	the mlc gene plays an important role in the expression of genes involved in cytotoxicity
+T32	Causality 1803 1815	suggest that
+E8	Causality:T32 Evidence:T34 Effect:T33
+T33	Span 1816 1877	the main target of Mlc action in Salmonella virulence is SPI1
+T34	Span 1617 1761	When the number of intracellular bacteria were measured at 2 and 18h post-infection, the degree of replication was similar for SL1344 and SR1304
+#1	AnnotatorNotes E7	Make example!

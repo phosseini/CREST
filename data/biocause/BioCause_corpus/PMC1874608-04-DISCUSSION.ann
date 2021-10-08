@@ -1,0 +1,390 @@
+T163	Binding 451 456	binds
+T164	Entity 475 483	upstream
+T165	Positive_regulation 506 510	acts
+T166	Positive_regulation 544 553	activates
+T167	Transcription 558 571	transcription
+T168	Negative_regulation 838 848	repression
+T169	Regulation 856 863	affects
+T170	Gene_expression 883 893	expression
+T171	Negative_regulation 926 934	decrease
+T172	Gene_expression 943 953	expression
+T173	Negative_regulation 1029 1037	decrease
+T174	Transcription 1056 1069	transcription
+T175	Negative_regulation 1136 1152	moderate effects
+T176	Gene_expression 1161 1171	production
+T177	Positive_regulation 1176 1185	amplified
+T178	Gene_expression 1509 1519	expression
+T179	Negative_regulation 1567 1574	reduced
+T180	Gene_expression 1705 1720	over-expression
+T181	Positive_regulation 1767 1776	promoting
+T182	Gene_expression 1806 1816	expression
+T183	Negative_regulation 1876 1880	loss
+T184	Regulation 2063 2073	regulation
+T185	Regulation 2174 2183	regulates
+T186	Gene_expression 2189 2199	expression
+T187	Binding 2203 2210	binding
+T188	Entity 2223 2234	P3 promoter
+T189	Regulation 3073 3081	involved
+T190	Regulation 3097 3107	regulation
+T191	Entity 3202 3221	190-270-bp upstream
+T192	Positive_regulation 3246 3254	required
+T193	Positive_regulation 3263 3273	activation
+T194	Gene_expression 3285 3295	expression
+T195	Regulation 3573 3581	involved
+T196	Gene_expression 3590 3600	expression
+T197	Positive_regulation 3622 3628	induce
+T198	Negative_regulation 4030 4039	decreased
+T199	Gene_expression 4045 4055	expression
+T200	Regulation 4141 4147	effect
+T201	Gene_expression 4156 4166	expression
+T202	Gene_expression 4238 4248	expression
+T203	Positive_regulation 4252 4261	activated
+T204	Negative_regulation 4281 4294	sequestration
+T205	Phosphorylation 4298 4314	unphosphorylated
+T206	Positive_regulation 4373 4383	activation
+T207	Negative_regulation 4408 4418	repression
+T208	Negative_regulation 4670 4674	mask
+T209	Regulation 4679 4685	effect
+T210	Gene_expression 4707 4717	expression
+T211	Regulation 4730 4736	effect
+T212	Gene_expression 4763 4773	expression
+T213	Gene_expression 4831 4841	expression
+T214	Positive_regulation 4851 4860	increased
+T215	Regulation 4992 5002	regulation
+T216	Gene_expression 5020 5030	expression
+T217	Positive_regulation 5155 5164	increased
+T218	Gene_expression 5170 5180	expression
+T219	Gene_expression 5228 5238	expression
+T220	Positive_regulation 5261 5270	increased
+T221	Positive_regulation 5645 5654	increased
+T222	Gene_expression 5663 5673	expression
+T223	Negative_regulation 5689 5699	repression
+T224	Phosphorylation 5758 5772	phosphorylates
+T225	Positive_regulation 5758 5772	phosphorylates
+T226	Phosphorylation 5824 5838	phosphorylated
+T227	Binding 5849 5854	binds
+T228	Positive_regulation 5859 5868	activates
+T229	Entity 5873 5882	promoters
+T230	Positive_regulation 5974 5982	activate
+T231	Regulation 6089 6095	affect
+T232	Gene_expression 6101 6111	expression
+T233	Positive_regulation 6161 6169	elevated
+T234	Gene_expression 6175 6185	expression
+T235	Gene_expression 6305 6315	expression
+T236	Negative_regulation 6373 6382	decreased
+T237	Negative_regulation 6420 6437	repressive effect
+T238	Regulation 6862 6870	modulate
+T239	Process 6875 6884	virulence
+E1	Binding:T163 Theme1:T7 Theme2:T8 Site2:T164
+E2	Binding:T163 Theme1:T7 Theme2:T9 Site2:T164
+E3	Positive_regulation:T165 Theme:T8 Cause:T7
+E4	Positive_regulation:T165 Theme:T9 Cause:T7
+E5	Positive_regulation:T166 Theme:E6 Cause:T12
+E6	Transcription:T167 Theme:T13
+E7	Negative_regulation:T168 Theme:T18
+E8	Regulation:T169 Theme:E10 Cause:E7
+E9	Regulation:T169 Theme:E11 Cause:E7
+E10	Gene_expression:T170 Theme:T19
+E11	Gene_expression:T170 Theme:T20
+E12	Negative_regulation:T171 Theme:E13
+E13	Gene_expression:T172 Theme:T21
+E14	Negative_regulation:T173 Theme:E16
+E15	Negative_regulation:T173 Theme:E17
+E16	Transcription:T174 Theme:T23
+E17	Transcription:T174 Theme:T24
+E18	Negative_regulation:T175 Theme:E19
+E19	Gene_expression:T176 Theme:T27
+E20	Positive_regulation:T177 Theme:E18
+E21	Gene_expression:T178 Theme:T32
+E22	Negative_regulation:T179 Theme:E21
+M1	Negation E22
+E23	Gene_expression:T180 Theme:T37
+E24	Positive_regulation:T181 Theme:E26
+E25	Positive_regulation:T181 Theme:E27
+E26	Gene_expression:T182 Theme:T39
+E27	Gene_expression:T182 Theme:T40
+E28	Negative_regulation:T183 Theme:T42
+E29	Regulation:T184 Theme:T44
+E30	Regulation:T184 Theme:T45
+E31	Regulation:T185 Theme:E32 Cause:E33
+E32	Gene_expression:T186 Theme:T49
+E33	Binding:T187 Theme1:T48 Theme2:T50 Site2:T188
+E34	Regulation:T189 Theme:E35
+E35	Regulation:T190 Theme:T66
+E36	Positive_regulation:T192 Theme:E37 Cause:T67 CSite:T191
+E37	Positive_regulation:T193 Theme:E38 Cause:T69
+E38	Gene_expression:T194 Theme:T68
+E39	Regulation:T195 Theme:E40
+E40	Gene_expression:T196 Theme:T72
+E41	Positive_regulation:T197 Theme:T75 Cause:T73
+E42	Positive_regulation:T197 Theme:T75 Cause:T74
+E43	Positive_regulation:T197 Theme:E41
+E44	Positive_regulation:T197 Theme:E42
+E45	Negative_regulation:T198 Theme:E46 Cause:T82
+E46	Gene_expression:T199 Theme:T83
+E47	Regulation:T200 Theme:E48
+E48	Gene_expression:T201 Theme:T87
+E49	Gene_expression:T202 Theme:T88
+E50	Positive_regulation:T203 Theme:E49 Cause:E51
+E51	Negative_regulation:T204 Theme:T89 Cause:E52
+E52	Phosphorylation:T205 Theme:T90
+M2	Negation E52
+E53	Positive_regulation:T206 Theme:T92
+E54	Negative_regulation:T207 Theme:T93
+E55	Negative_regulation:T208 Theme:E56
+M3	Speculation E55
+E56	Regulation:T209 Theme:E57
+E57	Gene_expression:T210 Theme:T97
+E58	Regulation:T211 Theme:E59
+E59	Gene_expression:T212 Theme:T98
+E60	Gene_expression:T213 Theme:T99
+E61	Positive_regulation:T214 Theme:E60
+E62	Regulation:T215 Theme:E64
+E63	Regulation:T215 Theme:E65
+E64	Gene_expression:T216 Theme:T102
+E65	Gene_expression:T216 Theme:T103
+E66	Positive_regulation:T217 Theme:E67
+E67	Gene_expression:T218 Theme:T107
+E68	Gene_expression:T219 Theme:T108
+E69	Positive_regulation:T220 Theme:E68
+E70	Positive_regulation:T221 Theme:E71 Cause:T113
+E71	Gene_expression:T222 Theme:T116
+E72	Negative_regulation:T223 Theme:T117 Cause:T113
+E73	Phosphorylation:T224 Theme:T119
+E74	Positive_regulation:T225 Theme:E73 Cause:T118
+E75	Phosphorylation:T226 Theme:T121
+E76	Binding:T227 Theme1:T121 Theme2:T122 Site2:T229
+E77	Positive_regulation:T228 Theme:T122 Site:T229 Cause:T121
+E78	Positive_regulation:T230 Theme:T124
+E79	Regulation:T231 Theme:E80
+E80	Gene_expression:T232 Theme:T130
+E81	Positive_regulation:T233 Theme:E82
+E82	Gene_expression:T234 Theme:T131
+E83	Gene_expression:T235 Theme:T134
+E84	Negative_regulation:T236 Theme:E83
+E85	Negative_regulation:T237 Theme:T139 Cause:T137
+E86	Negative_regulation:T237 Theme:T140 Cause:T137
+E87	Negative_regulation:T237 Theme:T141 Cause:T137
+E88	Regulation:T238 Theme:E89
+E89	Process:T239 Participant:T144
+T1	Organism 28 49	Salmonella mlc mutant
+T2	Protein 39 42	mlc
+T3	Protein 118 121	mlc
+T4	Protein 370 374	HilD
+T5	Protein 376 380	HilA
+T6	Protein 385 389	InvF
+T7	Protein 446 450	HilD
+T8	Protein 487 491	hilA
+T9	Regulon-operon 496 501	invFD
+T10	Protein 496 500	invF
+T11	Protein 500 501	D
+T12	Protein 539 543	HilA
+T13	Regulon-operon 575 580	invFA
+T14	Protein 575 579	invF
+T15	Protein 579 580	A
+T16	Protein 720 724	InvF
+T17	Protein 805 808	mlc
+T18	Protein 833 837	hilD
+T19	Protein 869 873	hilA
+T20	Protein 878 882	invF
+T21	Protein 938 942	hilD
+T22	Protein 968 971	mlc
+T23	Protein 1041 1045	hilA
+T24	Regulon-operon 1050 1055	invFA
+T25	Protein 1050 1054	invF
+T26	Protein 1054 1055	A
+T27	Protein 1156 1160	HilD
+T28	Organism 1204 1225	Salmonella mlc mutant
+T29	Protein 1215 1218	mlc
+T30	Organism 1360 1370	mlc mutant
+T31	Protein 1360 1363	mlc
+T32	Protein 1523 1527	hilC
+T33	Protein 1547 1551	hilA
+T34	Organism 1582 1592	mlc mutant
+T35	Protein 1582 1585	mlc
+T36	Protein 1610 1614	hilC
+T37	Protein 1724 1728	hilC
+T38	Protein 1744 1748	hilD
+T39	Protein 1792 1796	hilA
+T40	Protein 1801 1805	invF
+T41	Protein 1838 1842	HilC
+T42	Protein 1896 1900	HilD
+T43	Protein 1999 2003	hilC
+T44	Protein 2049 2053	hilA
+T45	Regulon-operon 2057 2062	invFA
+T46	Protein 2057 2061	invF
+T47	Protein 2061 2062	A
+T48	Protein 2161 2164	Mlc
+T49	Protein 2184 2188	hilE
+T50	Protein 2218 2222	hilE
+T51	Protein 2255 2258	Mlc
+T52	Protein 2276 2280	hilE
+T53	Protein 2411 2414	Mlc
+T54	Protein 2456 2459	Mlc
+T55	Protein 2546 2549	Mlc
+T56	Protein 2608 2612	hilE
+T57	Protein 2671 2675	hilE
+T58	Two-component-system 2873 2879	HilC/D
+T59	Protein 2873 2877	HilC
+T60	Protein 2878 2879	D
+T61	Regulon-operon 2924 2929	invFD
+T62	Protein 2924 2928	invF
+T63	Protein 2928 2929	D
+T64	Protein 2964 2968	invF
+T65	Protein 3009 3013	hilA
+T66	Protein 3111 3115	hilA
+T67	Protein 3229 3233	hilE
+T68	Protein 3277 3281	hilE
+T69	Two-component-system 3299 3304	FimYZ
+T70	Protein 3299 3303	FimY
+T71	Protein 3303 3304	Z
+T72	Protein 3585 3589	hilE
+T73	Chemical 3602 3609	Glucose
+T74	Chemical 3614 3621	mannose
+T75	Protein 3633 3636	Mlc
+T76	Protein 3671 3679	EIICBGlc
+T77	Protein 3703 3706	Mlc
+T78	Chemical 3766 3773	glucose
+T79	Organism 3846 3856	Salmonella
+T80	Chemical 3881 3888	glucose
+T81	Organism 3959 3973	S. Typhimurium
+T82	Chemical 3984 3991	glucose
+T83	Protein 4040 4044	hilA
+T84	Chemical 4093 4100	glucose
+T85	Chemical 4108 4115	lactose
+T86	Chemical 4120 4129	arabinose
+T87	Protein 4151 4155	hilA
+T88	Protein 4233 4237	hilE
+T89	Protein 4277 4280	Mlc
+T90	Protein 4315 4323	EIICBGlc
+T91	Chemical 4343 4350	glucose
+T92	Protein 4387 4391	hilE
+T93	Protein 4422 4426	hilD
+T94	Chemical 4446 4453	glucose
+T95	Chemical 4457 4464	mannose
+T96	Protein 4498 4501	Mlc
+T97	Protein 4702 4706	hilE
+T98	Protein 4758 4762	hilA
+T99	Protein 4826 4830	hilE
+T100	Chemical 4880 4889	arabinose
+T101	Chemical 4953 4962	arabinose
+T102	Protein 5006 5010	hilE
+T103	Protein 5015 5019	hilD
+T104	Organism 5038 5048	mlc mutant
+T105	Protein 5038 5041	mlc
+T106	Chemical 5145 5153	glycerol
+T107	Protein 5165 5169	hilD
+T108	Protein 5223 5227	hilE
+T109	Organism 5246 5256	mlc mutant
+T110	Protein 5246 5249	mlc
+T111	Protein 5417 5421	hilE
+T112	Organism 5546 5556	Salmonella
+T113	Two-component-system 5626 5635	PhoR-PhoB
+T114	Protein 5626 5630	PhoR
+T115	Protein 5631 5635	PhoB
+T116	Protein 5655 5659	hilE
+T117	Protein 5703 5707	hilA
+T118	Protein 5739 5743	PhoR
+T119	Protein 5773 5777	PhoB
+T120	Chemical 5797 5799	Pi
+T121	Protein 5839 5843	PhoB
+T122	Regulon-operon 5890 5893	Pho
+T123	Protein 5935 5939	PhoR
+T124	Regulon-operon 5987 5990	Pho
+T125	Protein 6003 6007	CreC
+T126	Protein 6020 6024	PhoR
+T127	Two-component-system 6073 6079	PhoB/R
+T128	Protein 6073 6077	PhoB
+T129	Protein 6078 6079	R
+T130	Protein 6096 6100	hilE
+T131	Protein 6170 6174	hilE
+T132	Organism 6226 6236	mlc mutant
+T133	Protein 6226 6229	mlc
+T134	Protein 6319 6323	sirA
+T135	Protein 6359 6363	BarA
+T136	Chemical 6407 6414	glucose
+T137	Chemical 6441 6448	glucose
+T138	Regulon-operon 6501 6505	SirA
+T139	Protein 6523 6527	csrB
+T140	Protein 6529 6533	csrC
+T141	Protein 6538 6542	hilA
+T142	Organism 6617 6627	Salmonella
+T143	Chemical 6656 6663	glucose
+T144	Organism 6730 6740	Salmonella
+T145	Organism 6929 6943	S. Typhimurium
+T146	Chemical 6973 6980	acetate
+T147	Chemical 6982 6992	propionate
+T148	Chemical 6997 7005	butyrate
+T149	Organism 7112 7122	Salmonella
+T150	Chemical 7135 7142	glucose
+T151	Organism 7252 7262	Salmonella
+T152	Protein 7271 7274	Mlc
+T153	Organism 7418 7432	S. Typhimurium
+T154	Chemical 7561 7568	glucose
+T155	Chemical 7708 7715	glucose
+T156	Protein 7803 7806	Mlc
+T157	Two-component-system 7830 7839	PhoR-PhoB
+T158	Protein 7830 7834	PhoR
+T159	Protein 7835 7839	PhoB
+T160	Protein 7847 7851	SirA
+T161	Chemical 7899 7906	glucose
+T162	Organism 8114 8124	Salmonella
+T240	Span 539 724	HilA activates the transcription of invFA and SPI1-T3SS apparatus genes required for the secretion of effector proteins, whereas the expression of effector proteins is regulated by InvF
+T241	Causality 734 770	This regulatory cascade implies that
+E90	Causality:T241 Evidence:T240 Effect:T242
+T242	Span 771 893	the reduced invasive phenotype of mlc mutant is the result of hilD repression, which affects both hilA and invF expression
+T243	Causality 954 963	caused by
+E91	Causality:T243 Effect:T245 Cause:T244
+T244	Fact 964 980	the mlc mutation
+T245	Fact 913 953	The 2-3-fold decrease in hilD expression
+T246	Span 913 994	The 2-3-fold decrease in hilD expression caused by the mlc mutation is sufficient
+T247	Causality 995 1009	to account for
+E92	Causality:T247 Evidence:T246 Effect:T248
+T248	Span 1010 1069	the nearly 10-fold decrease in hilA and invFA transcription
+T249	Span 1292 1466	the extent of the reduction in invasiveness and cytotoxicity of the mlc mutant was not as great as we had expected, considering the observed reduction in SPI1 gene expression
+T250	Causality 1498 1504	due to
+E93	Causality:T250 Effect:T249 Evidence:T251
+T251	Span 1505 1592	the expression of hilC, a de-repressor of hilA, which was not reduced in the mlc mutant
+T252	Causality 1759 1766	thereby
+E94	Causality:T252 Cause:T253 Effect:T254
+T253	Fact 1701 1757	the over-expression of hilC suppressed the hilD mutation
+T254	Fact 1767 1816	promoting high levels of hilA and invF expression
+T255	Span 1606 1816	The hilC mutation had little effect on SPI1 gene expression or the invasive phenotype, whereas the over-expression of hilC suppressed the hilD mutation, thereby promoting high levels of hilA and invF expression
+T256	Causality 1818 1837	which suggests that
+E95	Causality:T256 Effect:T257 Evidence:T255
+T257	Span 1838 1927	HilC can partially compensate for the loss of function of HilD and the invasive phenotype
+T258	Fact 2161 2199	Mlc directly regulates hilE expression
+T259	Fact 2200 2234	by binding to the hilE P3 promoter
+T260	Causality 2200 2200	
+E96	Causality:T260 Effect:T258 Cause:T259
+T261	Span 2994 3048	The UTR of the hilA gene is also up to 350nt in length
+T262	Causality 3054 3072	is suggested to be
+E97	Causality:T262 Evidence:T261 Effect:T263
+T263	Span 3073 3152	involved in the complex regulation of hilA in response to environmental signals
+T264	Fact 3602 3644	Glucose and mannose induce the Mlc regulon
+T265	Fact 3650 3679	by dephosphorylating EIICBGlc
+T266	Causality 3650 3650	
+E98	Causality:T266 Cause:T265 Effect:T264
+T267	Span 4233 4261	hilE expression is activated
+T268	Causality 4198 4232	this study support the notion that
+E99	Causality:T268 Evidence:T269 Effect:T267
+T269	Span 4262 4350	as a result of Mlc sequestration by unphosphorylated EIICBGlc in the presence of glucose
+T270	Span 4639 4717	the nutrient-rich LB broth may mask the effect of the sugar on hilE expression
+T271	Causality 4718 4725	because
+E100	Causality:T271 Effect:T270 Evidence:T272
+T272	Span 4726 4806	the effect of sugar addition on hilA expression was more distinct in DLB than LB
+T273	Span 4826 4889	hilE expression was also increased in the presence of arabinose
+T274	Causality 4891 4905	which suggests
+E101	Causality:T274 Evidence:T273 Effect:T275
+T275	Span 4906 4962	an additional regulatory mechanism mediated by arabinose
+T276	Fact 6301 6382	the expression of sirA, which is a response regulator for BarA (49), is decreased
+T277	Fact 6383 6414	in the presence of 50mM glucose
+T278	Causality 6383 6383	
+E102	Causality:T278 Cause:T277 Effect:T276
+T279	Span 5941 6032	many carbon sources are known to activate the Pho regulon via CreC, which is a PhoR homolog
+T280	Causality 6039 6043	Thus
+E103	Causality:T280 Evidence:T279 Effect:T281
+T281	Span 6045 6111	carbon metabolism sensed by PhoB/R may also affect hilE expression
+T282	Causality 6122 6156	this may be one of the reasons for
+E104	Causality:T282 Evidence:T281 Effect:T283
+T283	Span 6157 6236	the elevated hilE expression in the presence of carbohydrates in the mlc mutant

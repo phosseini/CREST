@@ -1,0 +1,12 @@
+PMN were killed by streptolysin O (SLO) from severe invasive GAS 
+PMN death was induced shortly after encounter with severe invasive GAS, and PMN were not in apoptotic death because of low frequency of cells positive for annexin V (data not shown), which was seen in the case of cytolysin-dependent cell injury [15].
+GAS produce two cytolysins that may contribute to pathogenesis.
+Streptolysin S (SLS) is an oxygen-stable beta-hemolysin and Streptolysin O (SLO) is a pore-forming cholesterol-binding toxin [16].
+Therefore, to know the mechanism underlying GAS-mediated killing of PMN, we investigated whether SLO produced by invasive GAS affect survival of PMN in an in vitro migration assay system.
+Figure 3A shows that PMN killing by invasive GAS was blocked by anti-SLO Ab in culture medium within lower wells of a transwell system (p=0.018 compared with control Ig), at similar extent by adding free cholesterol in the medium (data not shown).
+Furthermore, an SLO deficient mutant from a STSS isolate NIH230 (NIH230slo) lost the killing activity for PMN (Figure 3A), thereby, strongly suggesting that SLO is a key element for PMN killing mediated by invasive GAS.
+Contrarily, SLS-deficient mutant from NIH230 strain (NIH230sagA) killed PMN, as efficiently as did parent strain, indicating that SLS is dispensable for killing of PMN mediated by invasive GAS.
+SLO and SLS double mutant GAS from NIH230 strain (NIH230slosagA) displayed the killing activity indistinguishable from that of NIH230slo, confirming the primarily role of SLO for GAS-mediated PMN killing.
+As shown in Figure 3B, incubation of PMN with supernatant from co-culture of IL-8 and invasive or non-invasive GAS did not affect PMN viability, suggesting that severe invasive GAS causes PMN killing following encounter with bacteria in a contact-dependent manner.
+To confirm that SLO activity is increased in invasive GAS strain, we measured SLO hemolytic activity of GAS strains used in this study.
+As shown in Figure 3C, SLO activity of severe invasive isolate NIH230 is increased as twice as that of non-invasive strain 1566 (p=0.017).

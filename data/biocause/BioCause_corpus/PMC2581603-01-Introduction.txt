@@ -1,0 +1,47 @@
+Introduction 
+Pseudomonas aeruginosa is an opportunistic pathogen capable of causing both acute and chronic infections.
+It is the third-leading cause of nosocomial infections and is the predominant pathogen associated with morbidity and mortality of CF patients [1],[2].
+The biofilm-forming ability of P. aeruginosa, and indeed other bacteria, is thought to contribute to their ability to thrive in hostile host environments and result in chronic infection [3],[4].
+Biofilms are multicellular surface-associated microbial communities encased in an extracellular matrix which display a characteristic structure and increased resistance to antimicrobial compounds and environmental stresses.
+P. aeruginosa biofilms are up to 1000-fold more antibiotic tolerant than planktonic cells, to single and combination antibiotics [5]-[7].
+As acute CF exacerbations caused by P. aeruginosa are often treated with combination antibiotic therapy [8]-[10], the increased resistance of biofilms to combination antibiotics is of direct clinical relevance.
+Eighty five percent of P. aeruginosa strains isolated from the lungs of CF patients with advanced stages of disease have a distinctive mucoid colony morphology [11].
+This mucoid phenotype is a result of overproduction of the alginate exopolysaccharide (EPS) [1],[12].
+Alginate production has been shown to inhibit phagocytic killing of Pseudomonas, to protect from antibiotic exposure [13],[14], and is associated with poor prognosis for the infected patients [15],[16].
+The direct observation of P. aeruginosa microcolonies encased in an alginate matrix in microscopy studies of CF bronchial samples [17], along with a large body of additional in vitro and in vivo data [7], [18]-[21] suggests that P. aeruginosa forms biofilms in the lungs of CF patients.
+The mechanisms of biofilm-associated antibiotic resistance are distinct from the well studied intrinsic resistance mechanisms such as drug efflux, drug inactivation, membrane permeability and target site alterations.
+Although the basis of biofilm-associated antibiotic resistance is not fully understood, it is likely that multiple mechanisms operate simultaneously in biofilms to contribute to antibiotic resistance.
+Cells in a biofilm may be protected from antibiotic exposure due to the restricted penetration of antibiotics through the biofilm matrix [19].
+However, while the biofilm matrix may limit diffusion initially for certain antibiotics such as beta-lactams and aminoglycosides [14],[22], the penetration of fluoroquinolones occurs immediately and without delay [23]-[25].
+The rate of diffusion through the matrix is presumably dependent on binding of the antibiotic molecules to the EPS matrix.
+Once the matrix becomes saturated, diffusion and antimicrobial activity of the drug will resume [26].
+It is the general consensus that reduced diffusion through the biofilm matrix only provides a short-term protective effect and does not play a significant role during long-term antibiotic exposure [26].
+Other resistance mechanisms include the presence of subpopulations of multidrug tolerant persister cells [27]-[29], drug indifference of slow-growing, nutrient-limited cells [30], and unique resistance mechanisms specifically associated with biofilms [31],[32].
+Despite the fact that biofilms are recognized as the predominant mode of bacterial growth in nature and are responsible for the majority of refractory bacterial infections [19], little is known regarding the mechanisms of biofilm-specific antibiotic resistance.
+Furthering our understanding of the mechanisms underlying biofilm-associated antibiotic resistance will significantly improve the treatment options available to patients with chronic bacterial infections.
+Signal transduction systems have been documented to be involved in the regulation of biofilm formation in multiple bacterial species including P. aeruginosa, S. aureus, E. coli and V. fischeri [33]-[38].
+These two component systems (TCS) are comprised of an membrane-anchored histidine kinase sensor and a cytoplasmic response regulator.
+After detecting specific environmental signals, a signal transduction cascade is initiated that results in phosphorylation of the response regulator, which activates or represses the necessary target genes.
+A number of regulatory systems that influence biofilm formation have been described.
+These include, but are not limited to, the global virulence factor regulator GacA, mutation of which results in a 10-fold decrease in biofilm formation and failure to form microcolony structures [33].
+Additionally, the hybrid sensor kinases, LadS and RetS appear to work upstream of GacA to possibly control the switch to a biofilm lifestyle [34],[35].
+Mutations in algR, a response regulator protein required for synthesis of alginate, which is a major component of the matrix of biofilms in the cystic fibrosis lung [1] results in a P. aeruginosa strain that has decreased type IV pili-dependent motility and biofilm formation [39].
+The three-component system SadARS which regulates the formation of mature microcolonies [40] and PvrR, a response regulator involved in the switch from planktonic to antibiotic-resistant biofilm cells in P. aeruginosa are additional examples of regulators of biofilm formation [41].
+During the course of an infection, one of the first lines of defense encountered by colonizing bacteria is the production of cationic antimicrobial peptides (CAPs) by a variety of host cells including neutrophils, platelets and epithelia.
+CAPs are short, amphipathic peptides that bind to and disrupt both the outer and cytoplasmic membranes resulting in cell death.
+The broad-spectrum antimicrobial activity of CAPs against Gram-negative and Gram-positive bacteria accounts for their role as an essential component of the innate immune response of humans, animals and insects.
+Cationic peptides, which have antimicrobial and immunomodulatory activities, are being developed as a promising new class of therapeutically relevant drugs [42].
+In P. aeruginosa, resistance to CAPs is inducible by the PhoPQ and PmrAB TCSs, both of which are activated independently in response to limiting Mg2+ [43]-[46].
+Under conditions of limiting magnesium, PhoP and PmrA bind to the promoter of the CAP resistance operon PA3552-PA3559 (arnBCADTEF-ugd) and induce its expression [45]-[47].
+These genes encode an LPS modification pathway required for the addition of aminoarabinose to lipid A, which reduces the OM permeability to CAPs [48].
+The PhoPQ and PmrAB regulatory systems are well studied in planktonic cultures and have been shown to induce modest resistance to CAPs (8-fold) under low Mg2+ conditions [45].
+However, while the PA3552-PA3559 operon has been reported to be expressed in biofilms cultivated in flowcells, and is required for survival in response to colistin treatment [49], little else is known regarding these systems and the role they may play in biofilm-associated antibiotic resistance.
+The extracellular matrix of P. aeruginosa biofilms includes extracellular DNA [50],[51], multiple bacterial exopolysaccharides and host proteins [4],[52].
+Extracellular DNA, which is a matrix component of both Gram-positive and Gram-negative bacterial biofilms [51],[53], functions to maintain the 3D biofilm architecture by acting as a cell-cell interconnecting compound [50].
+Genomic DNA has been shown to localize to the biofilm surface, surrounding the mushroom-shaped microcolonies [51].
+DNA in the biofilm matrix is likely released by dead bacteria or immune cells.
+It has been reported that prophage-mediated cell death is an important mechanism in the differentiation and dispersal of biofilms [54],[55].
+Additional sources of DNA in biofilms may include the quorum sensing regulated release of DNA [51] and/or DNA contained within outer membrane vesicles (OMV) that bleb and are released from the OM of living P. aeruginosa cells [56],[57].
+Furthermore, while a specific mechanism of DNA release has not been reported for P. aeruginosa it is possible that such a method may exist, similar to the autolysin-mediated DNA release observed in Staphylococcus epidermidis biofilms [53].
+In this study we sought to examine if the presence of DNA in biofilms may contribute to biofilm-specific antibiotic resistance.
+Here we identify a novel cation chelating property of DNA, which has several important consequences for biofilm physiology and antibiotic resistance in biofilms.

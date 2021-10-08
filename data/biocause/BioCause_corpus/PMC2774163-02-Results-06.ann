@@ -1,0 +1,79 @@
+*	Equiv T1 T2
+*	Equiv T3 T4
+*	Equiv T5 T6
+T50	Negative_regulation 321 333	inactivation
+T51	Phosphorylation 1899 1914	phosphorylation
+T52	Phosphorylation 1916 1930	phosphorylated
+T53	Negative_regulation 4264 4276	Inactivation
+E1	Negative_regulation:T50 Theme:T5
+E2	Phosphorylation:T51 Theme:T23
+M1	Negation E2
+E3	Phosphorylation:T52 Theme:T23
+E4	Negative_regulation:T53 Theme:T47
+T1	Protein 169 173	BfiS
+T2	Protein 175 181	PA4197
+T3	Protein 187 191	BfmR
+T4	Protein 193 199	PA4101
+T5	Protein 337 341	MifR
+T6	Protein 343 349	PA5511
+T7	Organism 781 790	DeltabfiS
+T8	Protein 786 790	bfiS
+T9	Organism 792 801	DeltabfmR
+T10	Protein 797 801	bfmR
+T11	Organism 807 816	DeltamifR
+T12	Protein 812 816	mifR
+T13	Organism 860 873	P. aeruginosa
+T14	Organism 1152 1161	DeltabfiS
+T15	Protein 1157 1161	bfiS
+T16	Organism 1256 1265	DeltabfmR
+T17	Protein 1261 1265	bfmR
+T18	Organism 1422 1435	P. aeruginosa
+T19	Organism 1724 1733	DeltabfiS
+T20	Protein 1729 1733	bfiS
+T21	Organism 1738 1747	DeltabfmR
+T22	Protein 1743 1747	bfmR
+T23	Protein 1894 1898	MifR
+T24	Organism 2003 2012	DeltabfiS
+T25	Protein 2008 2012	bfiS
+T26	Organism 2396 2405	DeltabfmR
+T27	Protein 2401 2405	bfmR
+T28	Organism 2550 2559	DeltamifR
+T29	Protein 2555 2559	mifR
+T30	Organism 2716 2725	DeltamifR
+T31	Protein 2721 2725	mifR
+T32	Organism 3144 3153	DeltabfiS
+T33	Protein 3149 3153	bfiS
+T34	Organism 3155 3164	DeltabfmR
+T35	Protein 3160 3164	bfmR
+T36	Organism 3170 3179	DeltamifR
+T37	Protein 3175 3179	mifR
+T38	Organism 3211 3224	P. aeruginosa
+T39	Organism 3517 3526	DeltabfiS
+T40	Protein 3522 3526	bfiS
+T41	Organism 3702 3711	DeltabfmR
+T42	Protein 3707 3711	bfmR
+T43	Organism 3835 3844	DeltamifR
+T44	Protein 3840 3844	mifR
+T45	Organism 4117 4126	DeltabfiS
+T46	Protein 4122 4126	bfiS
+T47	Protein 4280 4284	MifR
+T48	Organism 4419 4428	DeltabfmR
+T49	Protein 4424 4428	bfmR
+T54	Span 169 228	BfiS (PA4197) and BfmR (PA4101) mutant biofilm architecture
+T55	Causality 229 257	appeared to be the result of
+E5	Causality:T55 Effect:T54 Evidence:T56
+T56	Span 258 313	arrested biofilm formation following initial attachment
+T57	Span 2353 2414	Similarly, the phosphorylation patterns of DeltabfmR biofilms
+T58	Causality 2415 2424	indicated
+E6	Causality:T58 Effect:T59 Evidence:T57
+T59	Span 2425 2493	the presence of 24- and 72-hr stage-specific phosphorylated proteins
+T60	Causality 4090 4116	our findings indicate that
+E7	Causality:T60 Effect:T61 Evidence:T65
+T61	Span 4117 4262	DeltabfiS biofilms are arrested in the transition from reversible to the irreversible attachment stage (8 hr to 24-hr-old biofilms, respectively)
+T62	Span 2507 2691	The phosphorylation patterns of 144-hr-old DeltamifR biofilms were 62% different relative to planktonic cells, but only shared 58% similarity with mature, 144-hr-old wild type biofilms
+T63	Span 2703 2868	Furthermore, DeltamifR biofilms exhibited 8 out of 27 maturation-1 specific protein phosphorylation events, and only 16 out of 37 maturation-2 phosphorylation events
+T64	Span 3517 3634	DeltabfiS biofilms were more similar to 24-hr-old wild type biofilms than to wild type biofilms at more mature stages
+T65	Span 3689 3972	In contrast, DeltabfmR biofilms were most similar to protein patterns obtained from 72-hr-old wild type biofilms (85% similarity), while those of DeltamifR biofilms were similar to both 72- and 144-hr-old biofilms sharing 76 and 82% similarity, respectively, to both protein patterns
+E8	Causality:T60 Effect:T61 Evidence:T64
+E9	Causality:T60 Effect:T61 Evidence:T63
+E10	Causality:T60 Effect:T61 Evidence:T62

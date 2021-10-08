@@ -1,0 +1,11 @@
+Allelic Replacement of spy0129 
+We created a spy0129 deletion mutant in strain SF370 (SF370Deltaspy0129) to determine if genes contained within the spy0127-0130 cluster were directly involved in adherence to pharyngeal cells.
+We posited that a deletion in the spy0129 sortase gene may have the greatest overall effect on the production and processing of the gene products of this cluster, since both the spy0128 and spy0130 gene products do not localize to the cell-wall surface in the absence of the sortase enzyme [36].
+Allelic replacement created two putative deletion mutants; however, RT-PCR analysis (Figure 4A) revealed that only one such clone (SF370Deltaspy0129.2) was a true knock-out for the spy0129 gene and useful for further study.
+Because the gene cluster is also an operon, expression of the downstream gene spy0130, encoding the protein F homolog/pilus protein, was also eliminated in this mutant (Figure 4A).
+In vitro pharyngeal cell adherence assays revealed that the SF370Deltaspy0129.2 mutant was approximately 66% less adherent than the parental control strain, SF370 (Figure 4B; p = 0.03 as determined by the Student's t-test).
+These results suggest that either the spy0130 gene product is involved directly in adherence, or that due to the elimination of the sortase, the pili, which may function in their entirety as adhesins, were not assembled on the surface of the mutant.
+Because the spy0129 gene product is not expected to be found on the streptococcal surface (i.e., it lacks a cell-wall anchoring motif), it is not likely to be involved directly in adherence.
+We are working to produce an in-frame deletion of spy0128 and a spy0130 single knock-out mutant to delineate the contribution of each individual clustered gene product to adherence.
+These results show that neighbor clustering is able to identify biologically relevant gene clusters.
+This attribute may be particularly important for datasets in which the relationship between clustered genes is not obvious, and may facilitate the organization of larger datasets into more manageable packages.

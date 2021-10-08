@@ -1,0 +1,47 @@
+T1	Organism 38 62	Mutant Strain DeltasalKR
+T2	Two-component-system 57 62	salKR
+T3	Protein 57 61	salK
+T4	Protein 61 62	R
+T5	Two-component-system 126 135	SalK/SalR
+T6	Protein 126 130	SalK
+T7	Protein 131 135	SalR
+T8	Organism 235 245	DeltasalKR
+T9	Two-component-system 240 245	salKR
+T10	Protein 240 244	salK
+T11	Protein 244 245	R
+T12	Two-component-system 451 460	SalK/SalR
+T13	Protein 451 455	SalK
+T14	Protein 456 460	SalR
+T15	Organism 726 736	DeltasalKR
+T16	Two-component-system 731 736	salKR
+T17	Protein 731 735	salK
+T18	Protein 735 736	R
+T19	Chemical 1293 1314	orotidine-5-phosphate
+T20	Protein 1330 1339	05SSU1009
+T21	Organism 1393 1410	Vibrio vulnificus
+T22	Organism 1459 1469	DeltasalKR
+T23	Two-component-system 1464 1469	salKR
+T24	Protein 1464 1468	salK
+T25	Protein 1468 1469	R
+T26	Organism 1552 1586	extraintestinal pathogenic E. coli
+T27	Organism 1588 1593	ExPEC
+T28	Protein 1752 1755	pst
+T29	Protein 1757 1766	05SSU0451
+T30	Organism 1789 1799	DeltasalKR
+T31	Two-component-system 1794 1799	salKR
+T32	Protein 1794 1798	salK
+T33	Protein 1798 1799	R
+*	Equiv T26 T27
+*	Equiv T28 T29
+T34	Negative_regulation 1438 1447	repressed
+T35	Negative_regulation 1771 1785	down-regulated
+E1	Negative_regulation:T34 Theme:T20
+E2	Negative_regulation:T35 Theme:T28
+T39	Span 1505 1594	mutation of phosphotransferase system (PST) in extraintestinal pathogenic E. coli (ExPEC)
+T40	Causality 1595 1604	can cause
+E4	Causality:T40 Evidence:T39 Effect:T41
+T41	Span 1605 1722	the loss of its colonization ability in extraintestinal organs, and bacteria are cleared rapidly from the bloodstream
+T36	Span 436 460	the absence of SalK/SalR
+T37	Causality 461 467	led to
+E3	Causality:T37 Cause:T36 Effect:T38
+T38	Span 468 560	decreased expression of 26 genes spread throughout the genome (i.e. 1.2% of the 2194 tested)

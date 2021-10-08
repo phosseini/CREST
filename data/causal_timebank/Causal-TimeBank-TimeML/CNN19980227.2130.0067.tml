@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>CNN19980227.2130.0067</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-02-27" temporalFunction="false" functionInDocument="CREATION_TIME">1998-02-27</TIMEX3></DCT>
+<TEXT>
+ Live from Atalanta, good evening Lynne Russell, CNN headline news.
+ New evidence is <EVENT eid="e1" class="I_STATE">suggesting</EVENT> that a series of <EVENT eid="e2" class="OCCURRENCE">bombings</EVENT> in Atalanta and <TIMEX3 tid="t3" type="DATE" value="1998-01" anchorTimeID="t0" functionInDocument="NONE">last month</TIMEX3>'s <EVENT eid="e4" class="OCCURRENCE">explosion</EVENT> at an Alabama women's clinic might be <EVENT eid="e5" class="STATE">related</EVENT>.
+ Pierre Thomas has the latest.
+ Atlanta <TIMEX3 tid="t6" type="DATE" value="1996" functionInDocument="NONE">nineteen ninety-six</TIMEX3>.
+ A bomb blast <EVENT eid="e7" class="OCCURRENCE">shocks</EVENT> the Olympic games.
+ One person is <EVENT eid="e8" class="OCCURRENCE">killed</EVENT>.
+ <TIMEX3 tid="t9" type="DATE" value="1997-01" functionInDocument="NONE">January nineteen ninety-seven</TIMEX3>.
+ Atlanta again.
+ This time a <EVENT eid="e10" class="OCCURRENCE">bomb</EVENT> at an abortion clinic.
+ More people are <EVENT eid="e11" class="OCCURRENCE">hurt</EVENT>.
+ And just <TIMEX3 tid="t12" type="DATE" value="1998-01" anchorTimeID="t0" functionInDocument="NONE">last month</TIMEX3>, an off duty policeman is <EVENT eid="e13" class="OCCURRENCE">killed</EVENT> when a bomb <EVENT eid="e14" class="OCCURRENCE">explodes</EVENT> at another abortion clinic.
+ Location, Birmingham, Alabama.
+ This man, Eric Rudolph has already been <EVENT eid="e15" class="OCCURRENCE">charged</EVENT> in the Birmingham <EVENT eid="e16" class="OCCURRENCE">bombing</EVENT>.
+ <TIMEX3 tid="t17" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">Now</TIMEX3> officials are <EVENT eid="e18" class="I_ACTION">investigating</EVENT> whether, Rudolph, who remains at large, is <EVENT eid="e19" class="STATE">linked</EVENT> to all three <EVENT eid="e20" class="OCCURRENCE">attacks</EVENT>.
+ The reason, authorities have <EVENT eid="e21" class="OCCURRENCE">discovered</EVENT> tantalizing new evidence.
+ Steel plates <EVENT eid="e22" class="OCCURRENCE">recovered</EVENT> at the Olympic park bombing <EVENT eid="e23" class="I_STATE">appear</EVENT> to <EVENT eid="e24" class="OCCURRENCE">match</EVENT> those <EVENT eid="e25" class="OCCURRENCE">found</EVENT> at the abortion clinic <EVENT eid="e26" class="OCCURRENCE">bombing</EVENT> in Atlanta.
+ Those plates may have <EVENT eid="e27" class="OCCURRENCE">come</EVENT> from a machine shop in north Carolina, where a friend of Rudolph <EVENT eid="e28" class="OCCURRENCE">worked</EVENT>.
+ And nails <EVENT eid="e29" class="OCCURRENCE">found</EVENT> in the Atlanta abortion clinic <EVENT eid="e30" class="OCCURRENCE">bombing</EVENT> are identical to those <EVENT eid="e31" class="OCCURRENCE">discovered</EVENT> at Rudolph's storage shed in north Carolina.
+ A senior law enforcement source <EVENT eid="e32" class="REPORTING">tells</EVENT> CNN, there is a lot of circumstantial evidence and it would be extraordinary to <EVENT eid="e33" class="STATE">have</EVENT> all these bits and pieces and there not be a connection.
+ And law enforcement sources <EVENT eid="e34" class="REPORTING">say</EVENT> they can't <EVENT eid="e35" class="OCCURRENCE">ignore</EVENT> letters penned under the name army of god.
+ Army of god is a secret organization that hates abortion providers, homosexuals and the US government.
+ Army of god letters <EVENT eid="e36" class="I_ACTION">claim</EVENT> responsibility for the Atlanta abortion clinic <EVENT eid="e37" class="OCCURRENCE">bombing</EVENT>, a <TIMEX3 tid="t38" type="DATE" value="1997" functionInDocument="NONE">nineteen ninety-seven</TIMEX3> <EVENT eid="e39" class="OCCURRENCE">attack</EVENT> on a gay lounge and the Birmingham <EVENT eid="e40" class="OCCURRENCE">assault</EVENT>.
+ An intense <EVENT eid="e41" class="OCCURRENCE">manhunt</EVENT> conducted by the FBI and the bureau of alcohol, tobacco and firearms <EVENT eid="e42" class="ASPECTUAL">continues</EVENT> for Rudolph in the wilderness of western north Carolina.
+ And <TIMEX3 tid="t43" type="DATE" value="1998-WXX" anchorTimeID="t0" functionInDocument="NONE">this week</TIMEX3>, FBI director Louie Freeh <EVENT eid="e44" class="OCCURRENCE">assigned</EVENT> more agents to the <EVENT eid="e45" class="OCCURRENCE">search</EVENT>.
+ Freeh also <EVENT eid="e46" class="I_ACTION">ordered</EVENT> the <EVENT eid="e47" class="OCCURRENCE">investigation</EVENT> consolidate information under the Atlanta task force, another indication officials <EVENT eid="e48" class="I_STATE">suspect</EVENT> a link between all the <EVENT eid="e49" class="OCCURRENCE">bombings</EVENT>.
+ Privately, authorities <EVENT eid="e50" class="REPORTING">say</EVENT> Rudolph has <EVENT eid="e51" class="OCCURRENCE">become</EVENT> a focus of their <EVENT eid="e52" class="OCCURRENCE">investigation</EVENT>.
+ Publicly, they are <EVENT eid="e53" class="I_STATE">unwilling</EVENT> to <EVENT eid="e54" class="OCCURRENCE">make</EVENT> any sweeping <EVENT eid="e55" class="OCCURRENCE">assertion</EVENT>.
+ <C-SIGNAL cid="c56">The reason</C-SIGNAL>, they <EVENT eid="e57" class="OCCURRENCE">remember</EVENT> Richard Jewell.
+ pierre thomas, CNN, Washington.
+</TEXT>
+<MAKEINSTANCE eventID="e54" eiid="ei54" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e42" eiid="ei42" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e48" eiid="ei48" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e50" eiid="ei50" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e49" eiid="ei49" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e52" eiid="ei52" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e53" eiid="ei53" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="NONE" aspect="PERFECTIVE" polarity="POS" modality="may" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e46" eiid="ei46" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e47" eiid="ei47" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e44" eiid="ei44" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e45" eiid="ei45" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e40" eiid="ei40" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e41" eiid="ei41" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" modality="might" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e51" eiid="ei51" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e39" eiid="ei39" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PRESENT" aspect="NONE" polarity="POS" modality="none" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e37" eiid="ei37" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="NONE" aspect="NONE" polarity="NEG" modality="can" pos="VERB"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e55" eiid="ei55" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e57" eiid="ei57" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="INCLUDES" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+<TLINK lid="l3" relType="INCLUDES" timeID="t3" relatedToEventInstance="ei4"/>
+<TLINK lid="l4" relType="IDENTITY" eventInstanceID="ei4" relatedToEventInstance="ei14"/>
+<TLINK lid="l5" relType="INCLUDES" timeID="t9" relatedToEventInstance="ei10"/>
+<TLINK lid="l6" relType="IBEFORE" eventInstanceID="ei10" relatedToEventInstance="ei11"/>
+<TLINK lid="l7" relType="INCLUDES" timeID="t12" relatedToEventInstance="ei14"/>
+<TLINK lid="l8" relType="IAFTER" eventInstanceID="ei13" relatedToEventInstance="ei14"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei15" relatedToTime="t0"/>
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei15" relatedToEventInstance="ei16"/>
+<TLINK lid="l11" relType="IDENTITY" eventInstanceID="ei16" relatedToEventInstance="ei14"/>
+<TLINK lid="l12" relType="INCLUDES" timeID="t17" relatedToEventInstance="ei18"/>
+<TLINK lid="l13" relType="AFTER" eventInstanceID="ei18" relatedToEventInstance="ei21"/>
+<TLINK lid="l14" relType="IDENTITY" eventInstanceID="ei20" relatedToEventInstance="ei2"/>
+<TLINK lid="l15" relType="INCLUDES" eventInstanceID="ei20" relatedToEventInstance="ei10"/>
+<TLINK lid="l16" relType="INCLUDES" eventInstanceID="ei20" relatedToEventInstance="ei14"/>
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei22" relatedToEventInstance="ei10"/>
+<TLINK lid="l18" relType="IS_INCLUDED" eventInstanceID="ei23" relatedToTime="t0"/>
+<TLINK lid="l19" relType="AFTER" eventInstanceID="ei25" relatedToEventInstance="ei10"/>
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei25" relatedToEventInstance="ei16"/>
+<TLINK lid="l21" relType="AFTER" eventInstanceID="ei25" relatedToEventInstance="ei22"/>
+<TLINK lid="l22" relType="AFTER" eventInstanceID="ei25" relatedToEventInstance="ei26"/>
+<TLINK lid="l23" relType="IDENTITY" eventInstanceID="ei26" relatedToEventInstance="ei10"/>
+<TLINK lid="l24" relType="BEFORE" eventInstanceID="ei28" relatedToTime="t0"/>
+<TLINK lid="l25" relType="INCLUDES" eventInstanceID="ei28" relatedToEventInstance="ei27"/>
+<TLINK lid="l26" relType="AFTER" eventInstanceID="ei29" relatedToEventInstance="ei30"/>
+<TLINK lid="l27" relType="IDENTITY" eventInstanceID="ei30" relatedToEventInstance="ei26"/>
+<TLINK lid="l28" relType="AFTER" eventInstanceID="ei31" relatedToEventInstance="ei29"/>
+<TLINK lid="l29" relType="IS_INCLUDED" eventInstanceID="ei32" relatedToTime="t0"/>
+<TLINK lid="l30" relType="IDENTITY" eventInstanceID="ei34" relatedToEventInstance="ei32"/>
+<TLINK lid="l31" relType="IS_INCLUDED" eventInstanceID="ei36" relatedToTime="t0"/>
+<TLINK lid="l32" relType="INCLUDES" timeID="t38" relatedToEventInstance="ei39"/>
+<TLINK lid="l33" relType="INCLUDES" eventInstanceID="ei42" relatedToTime="t0"/>
+<TLINK lid="l34" relType="INCLUDES" timeID="t43" relatedToEventInstance="ei44"/>
+<TLINK lid="l35" relType="INCLUDES" timeID="t43" relatedToEventInstance="ei46"/>
+<TLINK lid="l36" relType="BEFORE" eventInstanceID="ei44" relatedToEventInstance="ei45"/>
+<TLINK lid="l37" relType="IDENTITY" eventInstanceID="ei45" relatedToEventInstance="ei41"/>
+<TLINK lid="l38" relType="BEFORE" eventInstanceID="ei46" relatedToEventInstance="ei48"/>
+<TLINK lid="l39" relType="IDENTITY" eventInstanceID="ei49" relatedToEventInstance="ei2"/>
+<TLINK lid="l40" relType="INCLUDES" eventInstanceID="ei50" relatedToTime="t0"/>
+<TLINK lid="l41" relType="INCLUDES" eventInstanceID="ei52" relatedToEventInstance="ei51"/>
+<TLINK lid="l42" relType="SIMULTANEOUS" eventInstanceID="ei53" relatedToEventInstance="ei50"/>
+<TLINK lid="l43" relType="IDENTITY" eventInstanceID="ei54" relatedToEventInstance="ei55"/>
+<TLINK lid="l44" relType="BEFORE" eventInstanceID="ei57" relatedToEventInstance="ei53"/>
+<CLINK lid="l45" eventInstanceID="ei57" relatedToEventInstance="ei53"/>
+</TimeML>

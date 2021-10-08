@@ -1,0 +1,95 @@
+T1	NonCausal 226 228	as
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 229 286	he drove to Al-Sabah, the daily newspaper where he worked
+T3	Argument 116 225	The editor, Falieh Mijthab, 48, was kidnapped three days ago by armed men in a Shiite neighborhood of Baghdad
+T4	Consequence 505 510;549 552	blame for
+E2	Consequence:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+T5	Argument 511 548	the bad security situation in Baghdad
+T6	Argument 553 564	his murder,
+T7	Purpose 663 665	to
+E3	Purpose:T7 Effect:T8 Cause:T9
+A3	Degree E3 Facilitate
+T8	Argument 636 662	who use religion as a tool
+T9	Argument 666 685	justify their deeds
+T10	Motivation 783 794	resulted in
+E4	Motivation:T10 Effect:T11 Cause:T12
+A4	Degree E4 Facilitate
+T11	Argument 795 812	his assassination
+T12	Argument 721 771	Mr. Mijthab's work on behalf of Hussein government
+T13	Motivation 1388 1393	since
+E5	Motivation:T13 Effect:T14 Cause:T15
+A5	Degree E5 Facilitate
+A6	Temporal E5
+T14	Argument 1373 1387	killed in Iraq
+T15	Argument 1394 1417	the war started in 2003
+T16	Motivation 1701 1706	since
+E6	Motivation:T16 Effect:T17 Cause:T18
+A7	Degree E6 Facilitate
+A8	Temporal E6
+T17	Argument 1644 1700	the presence of thousands more American and Iraqi troops
+T18	Argument 1707 1761	the beginning of the Baghdad security plan in February
+T19	Motivation 2014 2022	now that
+E7	Motivation:T19 Cause:T20 Effect:T21
+A9	Degree E7 Facilitate
+T20	Argument 2023 2105	the full complement of American soldiers involved in the security plan had arrived
+T21	Argument 2107 2184	troops were moving into areas that they had been unable to patrol in the past
+T22	NonCausal 3194 3198	over
+E8	NonCausal:T22 Arg0:T23 Arg1:T24
+A10	Temporal E8
+T23	Argument 3199 3218	the past four years
+T24	Argument 3161 3193	conditions had steadily worsened
+T25	Consequence 3460 3472	consequences
+E9	Consequence:T25 Cause:T26
+A11	Degree E9 Facilitate
+T26	Argument 3476 3515	a quick withdrawal by the United States
+T27	NonCausal 3624 3628	when
+E10	NonCausal:T27 Arg1:T28 Arg0:T29
+T28	Argument 3629 3688	he and General Petraeus made a mandated report in September
+T29	Argument 3553 3623	He said he would underscore that point to Congress and the White House
+T33	Note 4121 4136	responsible for
+#1	AnnotatorNotes T33	Attributing an action to an actor, not blaming an actor for a state of affairs; see constructicon.
+T34	NonCausal 4700 4714	forbidden from
+E12	NonCausal:T34 Arg1:T35 Arg0:T36
+A13	Obligation-permission E12
+T35	Argument 4686 4696;4715 4777	the P.K.K. staging attacks from Iraqi territory or using Iraq as a refuge
+T36	Argument 4645 4677	the government's official policy
+T37	Consequence 4976 4985	therefore
+E13	Consequence:T37 Effect:T38 Cause:T39
+A14	Degree E13 Facilitate
+T38	Argument 4986 5035	they are responsible for the group coming to Iraq
+T39	Argument 4854 4970	The P.K.K. five or six years ago asked the Turkish government to grant them unconditional amnesty but Turkey refused
+T40	Argument 5176 5263	the P.K.K. had political freedom in Turkey and could work without encountering violence
+T41	Motivation 5173 5175	If
+E14	Motivation:T41 Cause:T40 Effect:T42
+A15	Degree E14 Facilitate
+A16	Hypothetical E14
+T42	Argument 5265 5291	they wouldn't come to Iraq
+T43	NonCausal 5507 5511	over
+E15	NonCausal:T43 Arg0:T44 Arg1:T45
+A17	Temporal E15
+T44	Argument 5512 5523	the weekend
+T45	Argument 5478 5506	three American soldiers died
+T46	Consequence 5599 5609	because of
+E16	Consequence:T46 Effect:T47 Cause:T48
+A18	Degree E16 Facilitate
+T47	Argument 5559 5598	One died in Kirkuk Province on Saturday
+T48	Argument 5610 5639	injuries from a roadside bomb
+T49	Consequence 5696 5700	from
+E17	Consequence:T49 Effect:T50 Cause:T51
+A19	Degree E17 Facilitate
+T50	Argument 5641 5689	The other two were killed on Saturday in Baghdad
+T51	Argument 5701 5732	injuries caused by an explosion
+T52	Consequence 5710 5716	caused
+E18	Consequence:T52 Effect:T53 Cause:T54
+A20	Degree E18 Facilitate
+T53	Argument 5701 5709	injuries
+T54	Argument 5720 5732	an explosion
+A21	Temporal E10
+T55	Consequence 624 629	blame
+E19	Consequence:T55 Cause:T56
+A22	Degree E19 Facilitate
+T56	Argument 630 685	those who use religion as a tool to justify their deeds
+T30	Note 3889 3901	depending on
+#2	AnnotatorNotes T30	Depending as a question, not a necessity

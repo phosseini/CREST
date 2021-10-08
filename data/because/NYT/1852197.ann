@@ -1,0 +1,223 @@
+T1	NonCausal 13 18	after
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 19 126	the start of the Baghdad security plan that has added thousands of American and Iraqi troops to the capital
+T3	Argument 128 238	they control fewer than one-third of the city's neighborhoods, far short of the initial goal for the operation
+T7	Consequence 1619 1626	because
+E3	Consequence:T7 Effect:T8 Cause:T9
+A3	Degree E3 Facilitate
+T8	Argument 1578 1604	that has not been possible
+T9	Argument 1627 1839	Iraqi police and army units, which were expected to handle basic security tasks, like manning checkpoints and conducting patrols, have not provided all the forces promised, and in some cases have performed poorly
+T10	Motivation 1850 1857;1878 1880	forcing to
+E4	Motivation:T10 Cause:T11 Effect:T12
+A4	Degree E4 Facilitate
+T11	Argument 1842 1846	That
+T12	Argument 1858 1877;1881 1951	American commanders conduct operations to remove insurgents from some areas multiple times
+T13	Motivation 2043 2047	when
+E5	Motivation:T13 Cause:T14 Effect:T15
+A5	Degree E5 Facilitate
+A6	Temporal E5
+T14	Argument 2048 2139	fighters, who fled or laid low when the American troops arrived, resumed sectarian killings
+T15	Argument 1953 2042	The heavily Shiite security forces have also repeatedly failed to intervene in some areas
+T16	Consequence 2144 2149	Until
+E6	Consequence:T16 Cause:T17 Effect:T18
+A7	Degree E6 Inhibit
+A8	Temporal E6
+T17	Argument 2150 2280	you have the ability to have a presence on the street by people who are seen as honest and who are not letting things come back in
+T18	Argument 2344 2422	you can't shift into another area and expect that place to stay the way it was
+T19	NonCausal 2427 2431	When
+E7	NonCausal:T19 Arg0:T20 Arg1:T21
+A9	Temporal E7
+T20	Argument 2432 2489	planners devised the Baghdad security plan late last year
+T21	Argument 2491 2569;2620 2729	they had assumed most Baghdad neighborhoods would be under control around July so the emphasis could shift into restoring services and rebuilding the neighborhoods as the summer progressed
+T22	NonCausal 2705 2707	as
+E8	NonCausal:T22 Arg0:T23 Arg1:T24
+A10	Temporal E8
+T23	Argument 2708 2729	the summer progressed
+T24	Argument 2623 2704	the emphasis could shift into restoring services and rebuilding the neighborhoods
+T25	Argument 2508 2569	most Baghdad neighborhoods would be under control around July
+T26	Consequence 2620 2622	so
+E9	Consequence:T26 Cause:T25 Effect:T27
+A11	Degree E9 Facilitate
+T27	Argument 2623 2729	the emphasis could shift into restoring services and rebuilding the neighborhoods as the summer progressed
+T31	Consequence 3357 3368;3432 3439	in order to have to
+E11	Consequence:T31 Cause:T32 Effect:T33
+A13	Degree E11 Facilitate
+T32	Argument 3369 3388	meet that timetable
+T33	Argument 3400 3425;3440 3493	the Iraqi Security Forces make strides in coming months at maintaining security
+T34	Consequence 3557 3563	key to
+E12	Consequence:T34 Cause:T35 Effect:T36
+A14	Degree E12 Facilitate
+T35	Argument 3508 3547	the I.S.F., and specifically the police
+T36	Argument 3564 3579	holding an area
+T37	NonCausal 3605 3611	within
+E13	NonCausal:T37 Arg1:T38
+A15	Temporal E13
+T38	Argument 3594 3604;3633 3688	We have to move them more toward holding the areas we have cleared
+T39	NonCausal 3882 3888	before
+E14	NonCausal:T39 Arg1:T40 Arg0:T41
+A16	Temporal E14
+T40	Argument 3889 3902	the operation
+T41	Argument 3875 3881	21,000
+T42	Purpose 4298 4300	to
+E15	Purpose:T42 Cause:T43 Effect:T44
+A17	Degree E15 Facilitate
+T43	Argument 4301 4354	deal with a sharp rise in violence in Diyala Province
+T44	Argument 4228 4296	American commanders have also had to send troops outside the capital
+T45	Purpose 4359 4361	to
+E16	Purpose:T45 Effect:T44 Cause:T46
+A18	Degree E16 Facilitate
+T46	Argument 4362 4421	search for American soldiers kidnapped south of the capital
+T47	Motivation 4709 4715	incite
+E17	Motivation:T47 Cause:T48 Effect:T49
+A19	Degree E17 Facilitate
+T48	Argument 4663 4702	Sending large number of troops in there
+T49	Argument 4716 4814	heavy violence and opposition from Prime Minister Nuri Kamal al-Maliki's largely Shiite government
+T50	NonCausal 5034 5039	since
+E18	NonCausal:T50 Arg0:T51 Arg1:T52
+A20	Temporal E18
+T51	Argument 5040 5045	March
+T52	Argument 4950 5033;5046 5076	the First Battalion, Fourth Brigade of the First Infantry Division has been working to carry out the security push
+T53	Consequence 5079 5083	When
+E19	Consequence:T53 Cause:T54 Effect:T55
+A21	Degree E19 Facilitate
+A22	Temporal E19
+T54	Argument 5084 5144	the battalion, commanded by Lt. Col. Patrick Frank, moved in
+T55	Argument 5146 5207	it was replacing a lone American Army company of 125 soldiers
+T56	NonCausal 5798 5804	Before
+E20	NonCausal:T56 Arg1:T57 Arg0:T58
+A23	Temporal E20
+T57	Argument 5805 5821	the new strategy
+T58	Argument 5823 5838	there were none
+T59	NonCausal 6064 6069	since
+E21	NonCausal:T59 Arg0:T60 Arg1:T61
+A24	Temporal E21
+T60	Argument 6026 6054	the first months of the year
+T61	Argument 5981 5989;6060 6063;6070 6078	Violence has worsened
+T62	Motivation 6694 6698	when
+E22	Motivation:T62 Cause:T63 Effect:T64
+A25	Degree E22 Facilitate
+A26	Temporal E22
+T63	Argument 6699 6723	they entered Sunni areas
+T64	Argument 6655 6693	Gunmen regularly attacked trash trucks
+T65	Motivation 6828 6830	if
+E23	Motivation:T65 Cause:T66 Effect:T67
+A27	Degree E23 Facilitate
+A28	Hypothetical E23
+T66	Argument 6831 6877	their occupants fail to heed warnings to leave
+T67	Argument 6778 6827	Sunni homes are also the targets of arson attacks
+T68	Consequence 6724 6729	until
+E24	Consequence:T68 Effect:T70 Cause:T69
+A29	Temporal E24
+T69	Argument 6730 6776	the American military began providing security
+T70	Argument 6655 6723	Gunmen regularly attacked trash trucks when they entered Sunni areas
+T71	Motivation 7136 7143	because
+E25	Motivation:T71 Effect:T72 Cause:T73
+A30	Degree E25 Facilitate
+T72	Argument 7058 7135	The sectarian violence was especially disheartening to some American officers
+T73	Argument 7144 7287	it occurred in May, the same month that they were undertaking the centerpiece of the Baghdad security plan -- a neighborhood clearing operation
+T74	Motivation 7491 7496	since
+E26	Motivation:T74 Cause:T75 Effect:T76
+A31	Degree E26 Facilitate
+A32	Temporal E26
+T75	Argument 7497 7557	the Stryker unit has moved on to a different area of Baghdad
+T76	Argument 7561 7683	there's been a reinfiltration'' by Shiite fighters and intimidation squads, who had left the area when the operation began
+T77	Motivation 7659 7663	when
+E27	Motivation:T77 Cause:T78 Effect:T79
+A33	Degree E27 Facilitate
+A34	Temporal E27
+T78	Argument 7664 7683	the operation began
+T79	Argument 7637 7658	who had left the area
+T80	NonCausal 8448 8453	since
+E28	NonCausal:T80 Arg0:T81 Arg1:T82
+A35	Temporal E28
+T81	Argument 8454 8459	March
+T82	Argument 8319 8447	The local commander of the Iraqi national police, a force run by the Shiite-run Interior Ministry, has been replaced three times
+T83	NonCausal 9028 9033	since
+E29	NonCausal:T83 Arg0:T84 Arg1:T85
+A36	Temporal E29
+T84	Argument 9034 9039	March
+T85	Argument 8968 9027	Ten soldiers under Colonel Frank's command have been killed
+T86	Motivation 9193 9197	When
+E30	Motivation:T86 Cause:T87 Effect:T88
+A37	Degree E30 Facilitate
+A38	Temporal E30
+T87	Argument 9198 9367	Colonel Frank went to the Ameel police station recently accompanied by a reporter and asked for help in capturing a local Shiite sheik believed to be behind the bombings
+T88	Argument 9369 9427	the police official he was meeting with spoke in a whisper
+T89	NonCausal 9811 9816	after
+E31	NonCausal:T89 Arg0:T90 Arg1:T91
+A39	Temporal E31
+T90	Argument 9817 9831	another attack
+T91	Argument 9788 9810	the video was examined
+T92	NonCausal 9783 9787	When
+E32	NonCausal:T92 Arg0:T93 Arg1:T94
+A41	Temporal E32
+T93	Argument 9788 9831	the video was examined after another attack
+T94	Argument 9833 9952	it showed two Iraqi policemen talking with companions, who were heard off-camera, apparently laying an explosive device
+T95	NonCausal 9962 9967	after
+E33	NonCausal:T95 Arg0:T96 Arg1:T97
+A40	Temporal E33
+T96	Argument 9968 10004	the policemen were seen driving away
+T97	Argument 10006 10087	the camera showed a powerful bomb detonating as an American Humvee came into view
+T98	Motivation 10051 10053	as
+E34	Motivation:T98 Cause:T99 Effect:T100
+A42	Degree E34 Facilitate
+A43	Temporal E34
+T99	Argument 10054 10087	an American Humvee came into view
+T100	Argument 10024 10050	a powerful bomb detonating
+T101	Consequence 10149 10155	caused
+E35	Consequence:T101 Effect:T102 Cause:T103
+A44	Degree E35 Facilitate
+T102	Argument 10156 10169	no casualties
+T103	Argument 10115 10120	which
+T104	Argument 10103 10113	the attack
+R1	Coref Arg1:T103 Arg2:T104	
+T105	Motivation 10221 10226	After
+E36	Motivation:T105 Cause:T106 Effect:T107
+A45	Degree E36 Facilitate
+A46	Temporal E36
+T106	Argument 10227 10286	police commanders were confronted with the video in mid-May
+T107	Argument 10288 10320	six Iraqi officers were arrested
+T109	Motivation 10668 10674;10741 10751	reason is because
+E37	Motivation:T109 Effect:T110 Cause:T111
+A47	Degree E37 Facilitate
+T110	Argument 10675 10692	there is distrust
+T111	Argument 10752 10856	I have a video of six Iraqi officers placing a bomb against my soldiers, and they came from your station
+T112	NonCausal 11022 11028	before
+E38	NonCausal:T112 Arg1:T113 Arg0:T114
+A48	Temporal E38
+T113	Argument 11029 11129	ending the conversation by flipping open his cellphone and making a call while the meeting continued
+T114	Argument 10962 11021	Not all of the six officers were from his station, he added
+T115	NonCausal 11102 11107	while
+E39	NonCausal:T115 Arg0:T116 Arg1:T117
+A49	Temporal E39
+T116	Argument 11108 11129	the meeting continued
+T117	Argument 11029 11101	ending the conversation by flipping open his cellphone and making a call
+T118	Consequence 11154 11162	hampered
+E40	Consequence:T118 Cause:T119 Effect:T120
+A50	Degree E40 Inhibit
+T119	Argument 11132 11149	The same distrust
+T120	Argument 11163 11191	relations throughout Baghdad
+T121	NonCausal 11192 11197	since
+E41	NonCausal:T121 Arg0:T122 Arg1:T123
+A51	Temporal E41
+T122	Argument 11198 11216	the strategy began
+T123	Argument 11132 11191	The same distrust has hampered relations throughout Baghdad
+T128	Note 5213 5222	even with
+#10	AnnotatorNotes T128	Not Context: "even with" is a concessive construction
+A52	Correlation E8
+A12	Degree E24 Inhibit
+T28	Consequence 9528 9530	by
+E10	Consequence:T28 Cause:T29 Effect:T30
+A53	Degree E10 Facilitate
+T29	Argument 9531 9547	meeting with you
+T30	Argument 9508 9522	I am in danger
+T4	NonCausal 3280 3282;3289 3293;3305 3307	it take to
+E2	NonCausal:T4 Arg1:T6 Arg0:T5
+A2	Temporal E2
+T5	Argument 3294 3304	until fall
+T6	Argument 3308 3350	establish security across much of the city
+T108	Note 3294 3299	until
+#1	AnnotatorNotes T108	Temporal NP
+T124	Note 4258 4264	had to
+#2	AnnotatorNotes T124	Could treat as enablement relationships, but the point seems to be the Purpose relationship.

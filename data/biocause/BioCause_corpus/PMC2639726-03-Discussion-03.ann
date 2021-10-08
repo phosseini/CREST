@@ -1,0 +1,123 @@
+T44	Binding 185 192	binding
+T45	Entity 221 236	promoter region
+T46	Binding 272 277	binds
+T47	Binding 409 414	binds
+T48	Entity 451 459	promoter
+T49	Binding 733 740	binding
+T50	Process 1038 1047	virulence
+T51	Negative_regulation 1296 1306	counteract
+T52	Negative_regulation 1350 1359	competing
+T53	Binding 1364 1371	binding
+T54	Negative_regulation 2219 2229	counteract
+T55	Negative_regulation 2235 2244	silencing
+T56	Gene_expression 2329 2344	over-expression
+T57	Negative_regulation 2392 2402	counteract
+T58	Binding 2403 2410	binding
+T59	Entity 2484 2505	A+T rich SPI-2 region
+T60	Gene_expression 2636 2651	over-expression
+E1	Binding:T44 Theme1:T6 Theme2:T7 Site2:T45
+E2	Binding:T46 Theme:T8
+E3	Binding:T47 Theme1:T9 Theme2:T10 Site2:T48
+E4	Binding:T49 Theme:T11
+E5	Binding:T49 Theme:T12
+E6	Binding:T49 Theme:T13
+E7	Binding:T49 Theme:T14
+E8	Process:T50 
+E9	Negative_regulation:T51 Theme:T23 Cause:E15
+E10	Negative_regulation:T51 Theme:T24 Cause:E16
+E11	Negative_regulation:T51 Theme:T25 Cause:E17
+E12	Negative_regulation:T51 Theme:T23 Cause:E18
+E13	Negative_regulation:T51 Theme:T24 Cause:E19
+E14	Negative_regulation:T51 Theme:T25 Cause:E20
+E15	Negative_regulation:T52 Theme:E25 Cause:E21
+E16	Negative_regulation:T52 Theme:E22 Cause:E21
+E17	Negative_regulation:T52 Theme:E23 Cause:E21
+E18	Negative_regulation:T52 Theme:E25 Cause:E24
+E19	Negative_regulation:T52 Theme:E22 Cause:E24
+E20	Negative_regulation:T52 Theme:E23 Cause:E24
+E21	Binding:T53 Theme:T21
+E22	Binding:T53 Theme:T24
+E23	Binding:T53 Theme:T25
+E24	Binding:T53 Theme:T22
+E25	Binding:T53 Theme:T23
+E26	Negative_regulation:T54 Theme:E28 Cause:T31
+E27	Negative_regulation:T54 Theme:E28 Cause:T32
+E28	Negative_regulation:T55 Theme:T34 Cause:T33
+E29	Gene_expression:T56 Theme:T35
+E30	Gene_expression:T56 Theme:T36
+E31	Negative_regulation:T57 Theme:E37 Cause:T37
+E32	Negative_regulation:T57 Theme:E38 Cause:T37
+E33	Negative_regulation:T57 Theme:E39 Cause:T37
+E34	Negative_regulation:T57 Theme:E37 Cause:T38
+E35	Negative_regulation:T57 Theme:E38 Cause:T38
+E36	Negative_regulation:T57 Theme:E39 Cause:T38
+E37	Binding:T58 Theme:T39 Site:T59
+E38	Binding:T58 Theme:T40 Site:T59
+E39	Binding:T58 Theme:T41 Site:T59
+E40	Gene_expression:T60 Theme:T42
+E41	Gene_expression:T60 Theme:T43
+T1	Protein 0 4	SlyA
+T2	Two-component-system 9 18	SsrA/SsrB
+T3	Protein 9 13	SsrA
+T4	Protein 14 18	SsrB
+T5	Protein 93 97	SlyA
+T6	Protein 204 208	SlyA
+T7	Protein 216 220	ssrA
+T8	Protein 267 271	SlyA
+T9	Protein 404 408	SsrB
+T10	Protein 427 431	ssrA
+T11	Protein 683 687	H-NS
+T12	Protein 689 693	StpA
+T13	Protein 695 698	Hha
+T14	Protein 704 708	YdgT
+T15	Protein 1058 1062	slyA
+T16	Protein 1085 1089	rovA
+T17	Protein 1099 1103	toxT
+T18	Protein 1149 1153	H-NS
+T19	Protein 1217 1221	SsrB
+T20	Protein 1226 1230	SlyA
+T21	Protein 1282 1286	SlyA
+T22	Protein 1291 1295	SsrB
+T23	Protein 1333 1337	H-NS
+T24	Protein 1338 1342	YdgT
+T25	Protein 1343 1346	Hha
+T26	Protein 1553 1557	SsrB
+T27	Protein 1708 1712	SsrB
+T28	Protein 1791 1795	slyA
+T29	Protein 1881 1885	SlyA
+T30	Protein 2024 2028	SlyA
+T31	Protein 2205 2209	SlyA
+T32	Protein 2214 2218	PhoP
+T33	Protein 2230 2234	H-NS
+T34	Protein 2248 2252	pagC
+T35	Protein 2348 2352	ssrB
+T36	Protein 2356 2360	slyA
+T37	Protein 2378 2382	SlyA
+T38	Protein 2387 2391	SsrB
+T39	Protein 2458 2462	H-NS
+T40	Protein 2467 2471	YdgD
+T41	Protein 2472 2475	Hha
+T42	Protein 2622 2626	ssrB
+T43	Protein 2631 2635	slyA
+T61	Span 1197 1230	SPI-2 regulation by SsrB and SlyA
+T62	Causality 1231 1247	may be explained
+E42	Causality:T62 Evidence:T61 Effect:T63
+T63	Span 1248 1475	in a similar mechanism where both SlyA and SsrB counteract the silencing activity of H-NS/YdgT/Hha by competing for binding to the same target sequences or by altering the structure of the DNA to promote transcription for SPI-2
+T64	Span 1519 1624	found that there was no consensus SsrB binding site or distance relative to the transcription start sites
+T65	Causality 1629 1658	Walthers (ibid) proposes that
+E43	Causality:T65 Evidence:T66 Effect:T64
+T66	Span 1659 1722	different promoters may be activated by distinct SsrB mechanism
+T67	Causality 1725 1760	Our results support this conclusion
+E44	Causality:T67 Evidence:T66 Effect:T68
+T68	Span 1761 1835	and extend the observation to slyA at least for specific SPI-2 transcripts
+T69	Span 1837 1990	A proposed mechanism for activation is that SlyA competes with a repressor for binding to the promoter and subsequently facilitates RNA polymerase access
+T70	Causality 1997 2023	This model is supported by
+E45	Causality:T70 Evidence:T71 Effect:T69
+T71	Span 2024 2101	SlyA binding sites that are located downstream of transcriptional start sites
+T72	Causality 2175 2203	In agreement with this model
+E46	Causality:T72 Evidence:T73 Effect:T69
+T73	Span 2205 2252	SlyA and PhoP counteract H-NS silencing at pagC
+T74	Span 2270 2360	one explanation for the transcription we observe following over-expression of ssrB or slyA
+T75	Causality 2264 2268	Thus
+E47	Causality:T75 Evidence:T76 Effect:T74
+T76	Span 2361 2505	may be that both SlyA and SsrB counteract binding of small nucleoid-like proteins including both H-NS and YdgD/Hha in this A+T rich SPI-2 region

@@ -1,0 +1,98 @@
+T1	Motivation 283 289	Before
+E1	Motivation:T1 Cause:T2 Effect:T3
+A1	Degree E1 Inhibit
+A2	Temporal E1
+T2	Argument 290 302	the Iraq war
+T3	Argument 304 376	the United States might have welcomed such a vigorous call for democracy
+T4	Motivation 382 386	with
+E2	Motivation:T4 Cause:T5 Effect:T6
+A3	Context E2
+A4	Degree E2 Facilitate
+T5	Argument 387 404	the war faltering
+T6	Argument 406 573	Bush administration officials, and some Democratic presidential candidates as well, are reacting with caution, fearing that democracy could be a recipe for instability
+T7	NonCausal 1193 1195	as
+E3	NonCausal:T7 Arg0:T8 Arg1:T9
+A5	Temporal E3
+T8	Argument 1196 1248	they are beginning to believe democracy might return
+T9	Argument 1265 1301	the United States is abandoning them
+T10	Purpose 2483 2485	to
+E4	Purpose:T10 Cause:T11 Effect:T12
+A6	Degree E4 Facilitate
+T11	Argument 2486 2512	prevent extremism's spread
+T12	Argument 2432 2467	use political and economic programs
+T13	Consequence 2486 2493	prevent
+E5	Consequence:T13 Effect:T14
+A7	Degree E5 Inhibit
+T14	Argument 2494 2512	extremism's spread
+T15	Consequence 2722 2724	So
+E6	Consequence:T15 Effect:T16
+A8	Degree E6 Facilitate
+T16	Argument 2738 2931	Pakistan has little chance of becoming so unstable that hard-line Islamists will gain power or seize control of one of the country's nuclear weapons -- the worst nightmare for Western officials
+T17	Consequence 2777 2779	so
+E7	Consequence:T17 Cause:T18 Effect:T19
+A9	Degree E7 Facilitate
+A10	Extremity-sufficiency E7
+T18	Argument 2777 2788	so unstable
+T19	Argument 2794 2886	hard-line Islamists will gain power or seize control of one of the country's nuclear weapons
+T20	NonCausal 4103 4109	During
+E8	NonCausal:T20 Arg0:T21 Arg1:T22
+A11	Temporal E8
+T21	Argument 4110 4162	the last attempt at Pakistani democracy in the 1990s
+T22	Argument 4164 4288	Ms. Bhutto and her civilian rival, Nawaz Sharif, engaged in winner-take-all tactics that undermined each other's governments
+T23	NonCausal 4616 4621	while
+E9	NonCausal:T23 Arg0:T24 Arg1:T25
+A12	Temporal E9
+T24	Argument 4622 4707	securing its role in national defense, as has taken place in Turkey and Latin America
+T25	Argument 4560 4614	that gradually reduced the military's role in politics
+T26	Consequence 4773 4776;4782 4785;4812 4814	Too for to
+E10	Consequence:T26 Cause:T27 Effect:T28
+A13	Degree E10 Inhibit
+A14	Extremity-sufficiency E10
+T27	Argument 4773 4781	Too late
+T28	Argument 4786 4811;4815 4865	civil society in Pakistan withstand growing pressures from radical Islamists
+T29	Consequence 4871 4874;4880 4883;4893 4895	too for to
+E11	Consequence:T29 Cause:T30 Effect:T31
+A15	Degree E11 Inhibit
+A16	Extremity-sufficiency E11
+T30	Argument 4871 4879	too late
+T31	Argument 4884 4892;4896 4964	the army come up with a strategy that would lead to its successful withdrawal
+T32	Consequence 4931 4938	lead to
+E12	Consequence:T32 Cause:T33 Effect:T34
+A17	Degree E12 Facilitate
+T33	Argument 4920 4924	that
+T34	Argument 4939 4964	its successful withdrawal
+T35	NonCausal 4969 4973	Over
+E13	NonCausal:T35 Arg0:T36 Arg1:T37
+A18	Temporal E13
+T36	Argument 4974 4987	the last year
+T37	Argument 4989 5119	some members of Congress and experts inside and outside the government have called for a review of American policy toward Pakistan
+T39	Consequence 5719 5724	Given
+E14	Consequence:T39 Cause:T40 Effect:T41
+A19	Degree E14 Facilitate
+T40	Argument 5725 5763	the power of radical Islam in Pakistan
+T41	Argument 5778 5855	there's absolutely no way to know what kind of government will take his place
+T42	Consequence 5939 5948	needed to
+E15	Consequence:T42 Cause:T43 Effect:T44
+A20	Degree E15 Facilitate
+T43	Argument 5902 5934	sophisticated American diplomacy
+T44	Argument 5949 6024	broker an agreement that gradually shifted power from the army to civilians
+T45	Consequence 6165 6174	avoidance
+E16	Consequence:T45 Effect:T46 Cause:T47
+A21	Degree E16 Inhibit
+T46	Argument 6178 6188	a solution
+T47	Argument 6161 6164	its
+T48	Argument 6115 6124	a problem
+R1	Coref Arg1:T47 Arg2:T48	
+T49	Consequence 3391 3394;3424 3427	The the
+E17	Consequence:T49 Cause:T50 Effect:T51
+A22	Degree E17 Facilitate
+A23	Correlation E17
+T50	Argument 3395 3422	longer the military governs
+T51	Argument 3428 3446	weaker they become
+T52	Argument 4909 4919	a strategy
+R2	Coref Arg1:T33 Arg2:T52	
+T53	Motivation 5153 5167	conditioned on
+E18	Motivation:T53 Effect:T54 Cause:T55
+A24	Degree E18 Facilitate
+T54	Argument 5130 5142	American aid
+T55	Argument 5168 5277	improved performance in the war on terror and an increase in Pakistan's spending on development and education

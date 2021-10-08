@@ -1,0 +1,6 @@
+SrcA is required for PipB2-dependent centrifugal displacement of the Salmonella-containing vacuole 
+To further show a role for SrcA in chaperoning PipB2, we set up experiments to test whether deleting srcA would phenocopy DeltapipB2 cells for PipB2-dependent centrifugal displacement of the Salmonella containing vacuole (SCV) in epithelial cells, an event linked to cell-to-cell transfer during infection in vitro [29].
+At 10 h after infection the majority of SCVs were situated near the nucleus in accordance with previous work (Fig. 6A) [29].
+By 24 h after infection SCVs containing wild type bacteria were displaced centrifugally towards the cell periphery whereas SCVs containing either pipB2 or srcA mutant bacteria remained juxtaposed to the nucleus (Fig. 6A).
+The average distance from the nucleus of LAMP1+ SCVs containing wild type bacteria was 2.19 microm at 10h post infection and increased to 7.86 microm by 24 h after infection.
+Conversely, SCVs containing either DeltapipB2 cells or DeltasrcA cells were 1.38 microm and 2.09 microm at 10h but lacked centrifugal displacement at 24 h (2.23 microm and 2.85 microm, respectively) (Fig. 6B).

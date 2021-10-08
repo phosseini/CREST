@@ -1,0 +1,50 @@
+*	Equiv T13 T14
+T23	Process 57 66	virulence
+T24	Process 245 254	virulence
+T25	Process 403 412	avirulent
+T26	Process 1014 1023	virulence
+T27	Process 1107 1116	virulence
+T28	Process 1282 1291	virulence
+T29	Process 1341 1350	infection
+E1	Process:T23 Participant:T3
+E2	Process:T24 Participant:T4
+E3	Process:T25
+M1	Negation E3
+E4	Process:T26 Participant:T20
+E5	Process:T27
+E6	Process:T28
+E7	Process:T29
+T1	Protein 0 4	RpoE
+T2	Protein 42 46	SsrB
+T3	Organism 78 117	Salmonella enterica serovar Typhimurium
+T4	Organism 146 165	Salmonella enterica
+T5	Two-component-system 296 301	SsrAB
+T6	Protein 296 300	SsrA
+T7	Protein 300 301	B
+T8	Organism 335 374	S. enterica serovar Typhimurium mutants
+T9	Two-component-system 387 392	ssrAB
+T10	Protein 387 391	ssrA
+T11	Protein 391 392	B
+T12	Organism 416 420	mice
+T13	Protein 548 554	sigmaE
+T14	Protein 556 560	rpoE
+T15	Two-component-system 661 666	SsrAB
+T16	Protein 661 665	SsrA
+T17	Protein 665 666	B
+T18	Protein 728 732	RpoE
+T19	Protein 790 794	SsrB
+T20	Organism 824 834	Salmonella
+T21	Protein 1146 1150	ssrB
+T22	Protein 1155 1159	rpoE
+T30	Fact 130 210	The survival of Salmonella enterica within the intracellular host niche requires
+T31	Fact 211 333	highly co-ordinated expression of virulence effectors predominantly regulated by the SsrAB two-component regulatory system
+T32	Causality 211 211
+E8	Causality:T32 Effect:T30 Evidence:T31
+T33	Causality 617 628	pointing to
+E9	Causality:T33 Evidence:T34 Effect:T35
+T34	Fact 485 615	Mutants lacking the gene encoding the alternative sigma factor sigmaE (rpoE) are also highly attenuated for intracellular survival
+T35	Fact 629 684	a potential connection with the SsrAB regulatory system
+T37	Span 694 1040	In this study we demonstrate that RpoE is involved in fine-tuning the expression of a subset of SsrB-regulated genes found in the Salmonella pathogenicity island-2 (SPI-2) genetic locus that encodes a horizontally acquired type III secretion system, and unlinked genes integrated into this regulon that are required for virulence in host animals.
+T38	Span 1072 1350	a potential connection between the virulence phenotype of strains lacking ssrB and rpoE, and highlight new transcriptional regulation that might be essential for appropriate temporal and spatial control of the virulence-associated type III secretion system during host infection
+T36	Causality 1052 1071	These data point to
+E10	Causality:T36 Effect:T38 Evidence:T37

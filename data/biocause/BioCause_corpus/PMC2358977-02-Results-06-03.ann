@@ -1,0 +1,57 @@
+T41	Negative_regulation 113 122	repressed
+T42	Process 488 497	virulence
+T43	Negative_regulation 498 502	loss
+T44	Process 973 982	virulence
+E1	Negative_regulation:T41 Theme:T1
+E2	Negative_regulation:T41 Theme:T2
+E3	Process:T42 Participant:T7
+E4	Negative_regulation:T43 Theme:E3
+E5	Process:T44 
+T1	Protein 79 88	05SSU0677
+T2	Protein 93 102	05SSU1912
+T3	Organism 126 136	DeltasalKR
+T4	Two-component-system 131 136	salKR
+T5	Protein 131 135	salK
+T6	Protein 135 136	R
+T7	Organism 446 456	DeltasalKR
+T8	Two-component-system 451 456	salKR
+T9	Protein 451 455	salK
+T10	Protein 455 456	R
+T11	Organism 625 635	DeltasalKR
+T12	Two-component-system 630 635	salKR
+T13	Protein 630 634	salK
+T14	Protein 634 635	R
+T15	Organism 820 830	DeltasalKR
+T16	Two-component-system 825 830	salKR
+T17	Protein 825 829	salK
+T18	Protein 829 830	R
+T19	Organism 846 877	complemented strain CDeltasalKR
+T20	Two-component-system 872 877	salKR
+T21	Protein 872 876	salK
+T22	Protein 876 877	R
+T23	Organism 949 959	DeltasalKR
+T24	Two-component-system 954 959	salKR
+T25	Protein 954 958	salK
+T26	Protein 958 959	R
+T27	Two-component-system 1066 1071	salKR
+T28	Protein 1066 1070	salK
+T29	Protein 1070 1071	R
+T30	Protein 1079 1088	05SSU0945
+T31	Protein 1093 1102	05SSU0942
+T32	Organism 1155 1162	05ZYH33
+T33	Organism 1290 1300	DeltasalKR
+T34	Two-component-system 1295 1300	salKR
+T35	Protein 1295 1299	salK
+T36	Protein 1299 1300	R
+T37	Organism 1734 1744	DeltasalKR
+T38	Two-component-system 1739 1744	salKR
+T39	Protein 1739 1743	salK
+T40	Protein 1743 1744	R
+T45	Span 386 456	numerous proteins of unknown function are also depressed in DeltasalKR
+T46	Span 484 553	the virulence loss of the mutant via some thus-far-unknown mechanisms
+T47	Causality 458 483	which may in part lead to
+E6	Causality:T47 Evidence:T45 Effect:T46
+T48	Span 1179 1430	As shown in Table S1, the quantitative results of RT-PCR were highly compatible to the microarray data, in the DeltasalKR mutant, 41 out of 42 selected genes (97.6%) were confirmed to have similar transcript levels using these two different techniques
+T49	Causality 1432 1436	thus
+E7	Causality:T49 Effect:T48 Evidence:T50
+T50	Span 1437 1484	independently confirming the microarray results

@@ -1,0 +1,120 @@
+*	Equiv T3 T2 T4
+*	Equiv T5 T6
+*	Equiv T8 T7 T9
+*	Equiv T10 T11
+*	Equiv T21 T20
+T37	Process 0 9	Virulence
+T38	Process 72 81	infection
+T39	Process 249 258	virulence
+T40	Negative_regulation 367 380	downregulated
+T41	Positive_regulation 500 511	upregulated
+T42	Gene_expression 542 552	expression
+T43	Process 610 619	virulence
+T44	Process 667 676	infection
+T45	Transcription 1033 1044	transcribed
+T46	Negative_regulation 1233 1245	downregulate
+T47	Gene_expression 1246 1256	production
+T48	Process 1455 1464	infection
+T49	Gene_expression 1568 1578	production
+T50	Negative_regulation 1618 1627	decreases
+T51	Process 1712 1721	infection
+T52	Gene_expression 1744 1754	expression
+T53	Negative_regulation 1854 1863	decreased
+T54	Gene_expression 1869 1879	production
+T55	Positive_regulation 2187 2199	upregulation
+T56	Negative_regulation 2540 2554	downregulation
+T57	Positive_regulation 2742 2753	upregulated
+T58	Gene_expression 2819 2829	production
+T59	Process 2980 2989	virulence
+E1	Process:T37 
+E2	Process:T38 Participant:T1
+E3	Process:T39 
+E4	Negative_regulation:T40 Theme:T2
+E5	Negative_regulation:T40 Theme:T5
+E6	Positive_regulation:T41 Theme:T7
+E7	Positive_regulation:T41 Theme:T10
+E8	Gene_expression:T42 Theme:T12
+E9	Gene_expression:T42 Theme:T13
+E10	Process:T43 
+E11	Process:T44 
+E12	Transcription:T45 Theme:T17
+E13	Negative_regulation:T46 Theme:E14
+E14	Gene_expression:T47 Theme:T17
+E15	Process:T48 
+E16	Gene_expression:T49 Theme:T23
+E17	Negative_regulation:T50 Theme:E16
+E18	Process:T51 
+E19	Gene_expression:T52 Theme:T26
+E20	Negative_regulation:T53 Theme:E21
+E21	Gene_expression:T54 Theme:T27
+E22	Positive_regulation:T55 Theme:T31
+E23	Negative_regulation:T56 Theme:T34
+E24	Positive_regulation:T57 Theme:T35
+E25	Gene_expression:T58 Theme:T36
+E26	Process:T59 
+T1	Organism 19 31	Streptococci
+T2	Protein 298 312	streptolysin O
+T3	Protein 314 317	slo
+T4	Protein 321 328	spy0167
+T5	Protein 338 342	SpeB
+T6	Protein 353 360	spy2039
+T7	Protein 403 423	pyrogenic exotoxin H
+T8	Protein 425 429	speH
+T9	Protein 433 440	spy1008
+T10	Protein 448 484	putative fibronectin-binding protein
+T11	Protein 486 493	spy0130
+T12	Protein 556 563	spy2039
+T13	Protein 568 575	spy0130
+T14	Protein 697 711	Streptolysin O
+T15	Organism 740 745	human
+T16	Organism 946 958	streptococci
+T17	Protein 1025 1028	slo
+T18	Organism 1124 1136	streptococci
+T19	Organism 1220 1232	streptococci
+T20	Protein 1367 1371	SpeB
+T21	Protein 1384 1391	spy2039
+T22	Protein 1414 1431	cysteine protease
+T23	Protein 1563 1567	SpeB
+T24	Organism 1651 1656	human
+T25	Organism 1706 1711	mouse
+T26	Protein 1739 1743	SpeB
+T27	Protein 1864 1868	SpeB
+T28	Protein 1953 1957	SpeB
+T29	Organism 2017 2038	streptococcal strains
+T30	Protein 2124 2153	fibronectin-binding protein F
+T31	Protein 2212 2219	spy0130
+T32	Organism 2326 2331	SF370
+T33	Protein 2384 2393	protein F
+T34	Protein 2535 2539	SpeB
+T35	Protein 2723 2727	speH
+T36	Protein 2814 2818	SpeB
+T60	Span 697 789	Streptolysin O is a cytotoxin that damages human tissue and increases host cell cytotoxicity
+T61	Span 798 958	The resulting cellular damage, particularly to polymorphonuclear leukocytes [26], decreases internalization and subsequent intracellular killing of streptococci
+T62	Causality 798 798	
+E27	Causality:T62 Evidence:T60 Effect:T61
+T63	Causality 1011 1024	we infer that
+E28	Causality:T63 Evidence:T64 Effect:T65
+T64	Span 965 1009	Based on its downregulation during adherence
+T65	Span 1025 1168	slo was transcribed during pre-adherence associations, perhaps, as previously reported, to protect streptococci from phagocytic killing in vivo
+T66	Causality 1198 1219	our data suggest that
+E29	Causality:T66 Evidence:T67 Effect:T68
+T67	Span 1175 1196	However, once adhered
+T68	Span 1220 1365	streptococci downregulate production of this cytotoxin, presumably to prevent further host tissue destruction that could interfere with adherence
+T69	Span 1734 1835	When SpeB expression is limited, several streptococcal proteins necessary for adherence remain intact
+T70	Causality 1848 1852	thus
+E30	Causality:T70 Evidence:T69 Effect:T71
+T71	Span 1854 1939	decreased SpeB production (as indicated here) may promote pharyngeal cell attachment.
+T72	Span 1940 2088	Furthermore, SpeB abolishes internalization (following adherence) of certain streptococcal strains by epithelial cells (including Detroit 562 cells)
+T73	Span 2090 2153	a process mediated in part by the fibronectin-binding protein F
+T74	Causality 2090 2090	
+E31	Causality:T74 Effect:T72 Evidence:T73
+T75	Span 2163 2331	We observed significant upregulation of the gene spy0130, encoding a protein recently found to be associated with the production of surface-exposed pili on strain SF370
+T76	Span 2338 2393	The protein shares 60% sequence similarity to protein F
+T77	Causality 2395 2410	suggesting that
+E32	Causality:T77 Effect:T78 Evidence:T75
+T78	Span 2411 2505	it may coordinate a similar internalization mechanism or may be involved directly in adherence
+E33	Causality:T77 Effect:T78 Evidence:T76
+T79	Span 2755 2859	Taken together, our results agree with previous reports on SpeB production during host cell interactions
+T80	Causality 2861 2876	suggesting that
+E34	Causality:T80 Evidence:T79 Effect:T81
+T81	Span 2877 3107	decreased expression may promote streptococcal adherence (by preventing proteolytic degradation of key virulence factors or adhesins), enhance internalization (perhaps through a fibronectin-mediated pathway), and increase survival

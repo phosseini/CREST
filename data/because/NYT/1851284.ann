@@ -1,0 +1,60 @@
+T7	Motivation 320 322	So
+E2	Motivation:T7 Effect:T8
+A2	Degree E2 Facilitate
+T8	Argument 323 625	yesterday Mr. Bush stepped before the microphones in Washington to announce that he would help convene a series of meetings beginning this fall of the worlds' 15 biggest emitters of greenhouse gases (the United States is No. 1) to develop a long-term ``global strategy'' for dealing with climate change
+T9	Purpose 387 389	to
+E3	Purpose:T9 Effect:T10 Cause:T11
+A3	Degree E3 Facilitate
+T10	Argument 333 386	Mr. Bush stepped before the microphones in Washington
+T11	Argument 390 625	announce that he would help convene a series of meetings beginning this fall of the worlds' 15 biggest emitters of greenhouse gases (the United States is No. 1) to develop a long-term ``global strategy'' for dealing with climate change
+T12	Consequence 413 417	help
+E4	Consequence:T12 Cause:T13 Effect:T14
+A4	Degree E4 Facilitate
+T13	Argument 404 406	he
+T14	Argument 418 625	convene a series of meetings beginning this fall of the worlds' 15 biggest emitters of greenhouse gases (the United States is No. 1) to develop a long-term ``global strategy'' for dealing with climate change
+T21	Argument 833 912	Mr. Bush's history of denial and obstructionism when it comes to climate change
+T22	Motivation 827 832	Given
+E7	Motivation:T22 Cause:T21 Effect:T23
+A7	Degree E7 Facilitate
+T23	Argument 914 979	there are good reasons to be cynical about this sudden enthusiasm
+T24	Consequence 1405 1417	necessary to
+E8	Consequence:T24 Effect:T26 Cause:T25
+A8	Degree E8 Facilitate
+T25	Argument 1309 1341	Cuts of up to 80 percent by 2050
+T26	Argument 1418 1464	avert the worst consequences of climate change
+T27	Consequence 1418 1423	avert
+E9	Consequence:T27 Effect:T28
+A9	Degree E9 Inhibit
+T28	Argument 1424 1464	the worst consequences of climate change
+T33	Motivation 2094 2104	as long as
+E11	Motivation:T33 Cause:T35 Effect:T34
+A12	Degree E11 Facilitate
+T34	Argument 2062 2093	allowing increases in emissions
+T35	Argument 2105 2152	they did not exceed the rate of economic growth
+A13	Hypothetical E11
+T37	Consequence 2513 2535	necessary condition of
+E12	Consequence:T37 Cause:T38 Effect:T39
+A15	Degree E12 Facilitate
+T38	Argument 2483 2487	that
+T39	Argument 2536 2558	technological progress
+T50	Argument 333 341	Mr. Bush
+R1	Coref Arg1:T13 Arg2:T50	
+T51	Consequence 2062 2070	allowing
+E13	Consequence:T51 Effect:T52 Cause:T53
+A16	Degree E13 Facilitate
+T52	Argument 2071 2093	increases in emissions
+T53	Argument 1958 1960	He
+A17	Obligation-permission E13
+T54	Argument 2457 2482	the regulatory restraints
+R2	Coref Arg1:T38 Arg2:T54	
+T3	Motivation 929 939	reasons to
+E1	Motivation:T3 Effect:T15
+A1	Degree E1 Facilitate
+T4	NonCausal 881 885	when
+E5	NonCausal:T4 Arg0:T5 Arg1:T6
+A5	Context E5
+T5	Argument 886 912	it comes to climate change
+T6	Argument 833 880	Mr. Bush's history of denial and obstructionism
+T15	Argument 940 1065	be cynical about this sudden enthusiasm, coming as it does on the eve of the meeting of the Group of 8 industrialized nations
+T1	Note 1799 1803	over
+#1	AnnotatorNotes T1	Clearly causal, but Topic, which we decided not to cover

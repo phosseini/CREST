@@ -1,0 +1,10 @@
+Phenotypic Analysis of Selected TB mutants 
+Several of the clones recovered were mutated in genes putatively associated with adherence and motility, such as cheB2 (PA0173), motB (PA4953) and pilY1 (PA4554).
+It has been shown that adherence is an essential first step in the process of P. aeruginosa colonization, allowing the bacteria to persist, expand in numbers and develop a biofilm or establish intimate contact with host cells [45],[46].
+We wished to determine if our selected mutants showed a reduction in their capacity to adhere to a biological surface such as the human epithelial cell line 16HBE14o-.
+In addition to TB4953s (motB, p<0.0001) and TB0173s (cheB2, p<0.001), that presented strongly reduced adherence, five other clones were significantly affected in their adherence to cells when compared to the parental TB isolate (Figure S1 and Table 1).
+These mutants were TB2588s (araC-like, PA2588, p<0.001), TB4380s (colS-like, PA4380, p<0.001), TB3080s (hypothetical, PA3080, p<0.01), TB2769s (hypothetical, PA2769, p<0.05) and TB5479s (gltP-like, PA5479, p<0.05).
+Motility is also an important factor for P. aeruginosa colonization and spread.
+We evaluated each of the twelve attenuated mutants for both swarming and swimming motility (data not shown, Table 1 and Figure 2).
+The TB0173s (cheB2) (Figure 2 and Table 1) and TB4953s (motB) (Table 1) mutants showed a reduction in swimming and swarming motility, respectively.
+Furthermore, the mutants TB0260s (hypothetical, PA0260) and TB5479s (gltP-like) had a significant reduction in swimming motility (Table 1) whereas the mutants TB2588s (araC-like) and TB3080s (hypothetical) had a significant reduction in swarming motility (Table 1).

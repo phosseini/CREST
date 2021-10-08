@@ -1,0 +1,8 @@
+Results 
+Extracellular DNA has antimicrobial activity To study the role of the matrix component DNA on biofilm formation and biofilm-associated antibiotic resistance, we first examined the influence of extracellular DNA on P. aeruginosa growth in rich and defined media, LB and BM2, respectively.
+Addition of 0.5% (w/v) (5 mg/ml) or greater extracellular DNA to LB or 1% (w/v) or greater DNA to BM2 media inhibited growth of P. aeruginosa (Fig 1A and 1B).
+The kinetics of killing by extracellular DNA was determined by measuring the loss of luminescence from a chromosomally-tagged luminescent P. aeruginosa strain, PAO1::p16Slux.
+DNA-mediated killing was fast, within minutes, as measured by the rapid loss of luminescence upon exposure to 1.25% (w/v) DNA, or greater (Fig 1C).
+Killing was dose-dependent, with faster killing observed as the DNA concentration increased (Fig 1C).
+The rapid decrease in luminescence corresponded with a loss of bacterial viability, as determined by plating (Fig 1D).
+One percent (w/v) extracellular DNA in LB also inhibited the growth of Escherichia coli, Staphylococcus aureus and Burkholderia cenocepacia (data not shown), suggesting that the antimicrobial activity of DNA is not unique to P. aeruginosa.

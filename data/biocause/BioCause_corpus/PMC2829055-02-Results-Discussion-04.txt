@@ -1,0 +1,20 @@
+Differential gene expression during the Y. pestis life cycle 
+With this study, the in vivo transcriptome of Y. pestis in blocked fleas and in the rat bubo [11] have now both been characterized.
+A comparison of normalized gene expression levels from the two data sets provides insight into the biology of the flea-mammal life cycle.
+About 15% of Y. pestis genes showed significantly higher relative expression levels or expression only in the flea than in the bubo; 24% were more highly expressed in the bubo than in the flea; and 61% were not differentially expressed in the two hosts (Fig. 3).
+Several virulence factors were differentially regulated in the two hosts, but others were not (Table 1).
+In addition to the known temperature-induced virulence factors, iron acquisition systems, including the ybt and yfe operons that are required for virulence; and oxidative and nitrosative stress response genes, including the hmp virulence factor, are highly upregulated in the rat bubo, but not the flea.
+The analysis also reinforces the model that Y. pestis produces a hexaacylated lipid A in the flea, and that the change to the less immunostimulatory tetraacylated form occurs only after transmission [32].
+Other virulence and transmission factors were not differentially regulated, including the hms genes; and the Y. pestis plasminogen activator (pla), critical for dissemination from extravascular tissue at the fleabite site [33], and ymt were highly expressed in both hosts (Table S3 and [11]).
+The Y. pestis outer surface protein gene yadB, recently shown to be required for dissemination and bubonic plague pathogenesis from a subcutaneous inoculation site [34], was significantly upregulated in both the flea and the bubo compared to in vitro conditions (Tables 1, S1).
+Expression of genes in the pH 6 antigen locus (psaEFABC), responsible for the synthesis and transport of the PsaA fimbriae that enhance resistance to phagocytosis by macrophages [35],[36], were higher in the bubo than the flea, although the usher protein gene psaC was upregulated in the flea compared to in vitro growth (Tables 1, S1).
+The psa locus is regulated by RovA [36].
+Consistent with these findings, rovA expression was downregulated in the flea; whereas expression of rovM, a negative regulator of rovA [37], was upregulated.
+The transcriptional regulator gene phoP of the PhoPQ two-component regulatory system and the PhoP-regulated mgtC gene were expressed at levels >2-fold higher in fleas than in any other condition (Tables 1, S1, S3).
+PhoP and MgtC are established virulence factors known to be important for survival of Y. pestis and other gram-negative bacteria in macrophages and for resistance to cationic antimicrobial peptides (CAMPs) of the mammalian innate immune response [38],[39],[40].
+The PhoPQ system is induced in low Mg2+ or low pH environments, or by exposure to CAMPs [41],[42],[43].
+The Mg2+ concentration and pH of the flea digestive tract have not been defined, so the inducing stimulus is unknown, but CAMPs are induced and secreted into the gut by blood feeding insects when they take a blood meal containing bacteria [44],[45].
+X. cheopis fleas encode homologs of the insect CAMPs cecropin and defensin, and mount an inducible antibacterial response to infection (unpublished data).
+Thus, the PhoPQ regulatory system may be induced by the flea's immune system in response to Y. pestis in the midgut.
+Despite the upregulation of phoP in the flea, with the notable exception of mgtC there was little correlation between predicted PhoP-regulated genes in vitro and genes upregulated in the flea [39],[46],[47].
+Differential regulation of members of the PhoP regulon may occur depending on the inducing stimulus, however [48].

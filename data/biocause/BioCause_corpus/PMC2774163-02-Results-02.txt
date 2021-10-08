@@ -1,0 +1,25 @@
+Identification of regulatory proteins involved in sensing environmental signals associated with planktonic and biofilm growth 
+The quantitative mass spectrometric approach by LC-MS/MS allowed for the simultaneous determination of peptide amino acid sequences by collision-induced dissociation (CID) in the MS/MS mode.
+Examples of two CID spectra are shown in Suppl. Fig. S2.
+Proteins that were confirmed to be phosphorylated by immunoblot analysis were identified using a mass spectrometric approach as well.
+We thus identified 48 proteins that were differentially phosphorylated at one or more biofilm developmental stage including elongation factors, ribosomal proteins, several enzymes including reductases and GMP synthase, sigma factor RpoD (Suppl. Table S1) and 11 regulatory proteins (Table 1).
+The majority of regulatory proteins found to be uniquely phosphorylated during planktonic growth were transcriptional regulators, while with the exception of PA2096, all regulatory proteins found to be phosphorylated during surface attached growth were identified as belonging to two-component systems (TCS) (Table 1).
+Of those, the sensor/response regulator hybrid GacS and PA4197 (BfiS) were found to be phosphorylated as soon as 8 hr following attachment, and PA2096 and PA4101 (BfmR) following 24 hr of surface-associated growth (Table 1).
+Interestingly, PA4102 (BfmS), the cognate sensor of PA4101, was found to be phosphorylated following PA4101 phosphorylation after 72 hr of biofilm growth (Table 1).
+The reason for the difference in the timing of phosphorylation between sensor and response regulator is unclear.
+It is possible that this due to the different detection methods used.
+The probable TCS regulatory protein PA5511 (MifR) was phosphorylated following 72 hr of surface-associated growth.
+The stage-specific detection and phosphorylation of PA5511 as determined by LC-MS/MS analysis in conjunction with cICAT as well as the CID spectra of a tryptic peptide of PA5511 is shown in Suppl. Fig. S2.
+Neither the cognate sensory protein PA5512 nor the response regulator PA4196 were identified in this study.
+This may be due to detection limitation (low protein concentrations, poor protein solubility, poor ionization) and/or limitation in the number of phosphorylated proteins identified (see Suppl. Tables S1 and S2 for comparison).
+As PA4197, PA4101 and GacS were all phosphorylated by 24 hr of biofilm growth, we asked whether the three proteins are modified simultaneously or in a sequential manner.
+We reasoned that if protein phosphorylation occurs in sequence, inactivation of one of the proteins would potentially prevent phosphorylation of the other proteins of the phosphorelay.
+We therefore analyzed GacS, PA4101, and PA4197 mutant biofilm phosphorylation patterns for the presence/absence of these regulators.
+No evidence of phosphorylation of PA4197, PA4101, or GacS was detected in DeltaPA4197 mutant biofilm phosphorylation patterns.
+However, phosphorylation of both GacS and PA4197 was detected in DeltaPA4101 mutant biofilms, indicating that PA4101 phosphorylation may occur downstream of GacS and PA4197.
+DeltagacS biofilm phosphorylation patterns showed an intermediate phosphorylation phenotype with PA4197 being phosphorylated but PA4101 phosphorylation lacking (not shown).
+PA5511 was not detected in any of the mutant biofilms analyzed (Suppl. Fig. S3).
+The findings suggest that phosphorylation of regulatory proteins occurs in a sequential (but probably indirect) manner over the course of biofilm formation.
+To determine whether phosphorylation coincided with de novo gene expression or reflected biofilm-specific patterns of posttranslational modification, RT-PCR was used.
+PA4101 expression was detected to be biofilm-specific, while PA4197 and PA5511 were constitutively expressed regardless of the mode of growth (Suppl. Fig. S4).
+Similarly, retS and ladS were also constitutively expressed indicating that posttranslational modifications are essential for their activity.

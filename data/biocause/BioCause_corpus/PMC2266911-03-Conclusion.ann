@@ -1,0 +1,33 @@
+T1	Organism 30 47	Y. enterocolitica
+T2	Organism 52 66	P. luminescens
+T3	Organism 237 254	Y. enterocolitica
+T4	Organism 362 376	P. luminescens
+T5	Organism 978 992	P. luminescens
+T6	Organism 997 1012	X. nematophilus
+T7	Organism 1071 1088	Y. enterocolitica
+T8	Organism 1093 1107	P. luminescens
+T9	Protein 1166 1170	AI-2
+T10	Protein 1172 1177	PAS-4
+T11	Protein 1178 1182	LuxR
+T12	Chemical 1350 1358	c-di-GMP
+T13	Organism 1608 1613	human
+T14	Organism 1735 1749	P. luminescens
+T15	Organism 2035 2052	Y. enterocolitica
+T16	Organism 2064 2078	P. luminescens
+T17	Organism 2304 2321	Y. enterocolitica
+T18	Organism 2336 2344	M. sexta
+T19	Organism 2449 2466	Y. enterocolitica
+T20	Organism 2558 2575	Y. enterocolitica
+T21	Organism 2588 2597	Y. pestis
+T22	Organism 2760 2777	Y. enterocolitica
+T23	Organism 2782 2796	P. luminescens
+T24	Process 2627 2633	infect
+E1	Process:T24 Participant:T20
+T25	Causality 2525 2557	This data strongly suggests that
+E2	Causality:T25 Effect:T26 Evidence:T29
+T26	Span 2558 2745	Y. enterocolitica, similar to Y. pestis, has developed a strategy to infect and proliferate in insects, and use these organisms rather as transmission vectors than as pure nutrient source
+T27	Span 2247 2491	n contrast, only highly concentrated protein extracts of Y. enterocolitica are toxic for M. sexta [7], and a low insect larvae mortality has been observed following injection of approximately 3.5 x 106 Y. enterocolitica cells into the hemolymph
+T28	Span 2054 2238	Moreover, P. luminescens is pathogenic to a variety of insect larvae, and a dose of <5 colony-forming units directly injected into the blood system is sufficient to kill within 48-72 h
+T29	Span 1045 1435	Dissecting the genomes of Y. enterocolitica and P. luminescens for putative key regulators, we identified factor groups (AI-2, PAS-4/LuxR like receptors) possibly involved in pathogen-insect association only, those with members contributing to either insect or mammalian pathogenicity (QS, TKS, Usp), and c-di-GMP signalling probably not involved in regulation of activities against insects
+E3	Causality:T25 Effect:T26 Evidence:T28
+E4	Causality:T25 Effect:T26 Evidence:T27

@@ -1,0 +1,187 @@
+T1	Motivation 62 72	because of
+E1	Motivation:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 47 49	it
+T3	Argument 73 247	the three-year federal investigation into tax shelter fraud that resulted in the indictment of four current and former partners of the accounting firm Ernst & Young this week
+T4	Consequence 138 149	resulted in
+E2	Consequence:T4 Cause:T5 Effect:T7
+A2	Degree E2 Facilitate
+T5	Argument 133 137	that
+T6	Argument 73 132	the three-year federal investigation into tax shelter fraud
+R1	Coref Arg1:T5 Arg2:T6	
+T7	Argument 150 247	the indictment of four current and former partners of the accounting firm Ernst & Young this week
+T8	NonCausal 371 376	after
+E3	NonCausal:T8 Arg0:T9 Arg1:T10
+A3	Temporal E3
+T9	Argument 377 401	years of failed attempts
+T10	Argument 250 370	Efforts to raise the legal hurdle that determines whether a shelter is legitimate are again gaining traction in Congress
+T11	Consequence 781 785;884 895	must in order to
+E4	Consequence:T11 Cause:T12 Effect:T13
+A4	Degree E4 Facilitate
+T12	Argument 767 780;786 882	a transaction have genuine economic substance, as well as a legitimate business purpose other than tax savings
+T13	Argument 896 925	reap a legitimate tax benefit
+T14	Argument 947 1109	a tax shelter does fancy footwork to follow, or appear to follow, the letter of the tax code but violates its spirit by existing mainly to generate tax deductions
+T15	Motivation 1111 1115;944 946	then if
+E5	Motivation:T15 Cause:T14 Effect:T16
+A5	Degree E5 Facilitate
+A6	Hypothetical E5
+T16	Argument 1116 1180	it is a sham shelter in the eyes of the Internal Revenue Service
+T17	Purpose 981 983	to
+T19	Argument 947 980	a tax shelter does fancy footwork
+E7	Purpose:T17 Cause:T20 Effect:T19
+A8	Degree E7 Facilitate
+T20	Argument 984 1039	follow, or appear to follow, the letter of the tax code
+T21	Argument 1067 1075	existing
+T22	Purpose 1083 1085	to
+E8	Purpose:T22 Cause:T23 Effect:T21
+A9	Degree E8 Facilitate
+T23	Argument 1086 1109	generate tax deductions
+T24	NonCausal 1086 1094	generate
+E9	NonCausal:T24 Arg1:T25 Arg0:T26
+A11	Creation-termination E9
+T25	Argument 1095 1109	tax deductions
+T26	Argument 947 960	a tax shelter
+T27	Consequence 1356 1360	make
+E10	Consequence:T27 Effect:T28 Cause:T29
+A10	Degree E10 Facilitate
+T28	Argument 1361 1363;1364 1473	it easier to crack down on abusive shelters and raise billions of dollars, through proposals for stiff penalties
+T29	Argument 1222 1349	making the doctrine into a law, rather than keeping it a common sense principle and leaving its interpretation up to the courts
+T30	NonCausal 1788 1792	over
+E11	NonCausal:T30 Arg0:T31 Arg1:T32
+A12	Temporal E11
+T31	Argument 1793 1802	the years
+T32	Argument 1759 1787	that the doctrine has played
+T33	Consequence 1716 1723	creates
+E12	Consequence:T33 Cause:T34 Effect:T35
+A13	Degree E12 Facilitate
+A14	Creation-termination E12
+T34	Argument 1694 1715	Codifying it into law
+T35	Argument 1724 1802	rigidity that defeats the function that the doctrine has played over the years
+T36	Motivation 1891 1896;1900 1902	cause to
+E13	Motivation:T36 Cause:T37 Effect:T38
+A15	Degree E13 Facilitate
+T37	Argument 1876 1885	Codifying
+T38	Argument 1897 1899;1903 1963	us look to the words and letters, rather than underlying spirit
+T39	Motivation 2018 2022	once
+E14	Motivation:T39 Cause:T40 Effect:T41
+A16	Degree E14 Facilitate
+A17	Temporal E14
+T40	Argument 2023 2054	there's a rigid statement of it
+T41	Argument 2056 2130	people will seek to get around it, and there will be an 'it' to get around
+T42	Consequence 2864 2870;2875 2877	enough to
+E15	Consequence:T42 Cause:T43 Effect:T44
+A18	Degree E15 Facilitate
+A19	Extremity-sufficiency E15
+T43	Argument 2856 2870	nuanced enough
+T44	Argument 2871 2874;2878 2900	not be a blanket provision
+T45	NonCausal 3428 3436	creating
+E16	NonCausal:T45 Arg1:T46 Arg0:T47
+A20	Creation-termination E16
+T46	Argument 3437 3473	tax shelters for wealthy individuals
+T47	Argument 3351 3392	the accounting firms, law firms and banks
+T48	Purpose 3554 3556	to
+E17	Purpose:T48 Cause:T49 Effect:T50
+A21	Degree E17 Facilitate
+T49	Argument 3557 3578	bolster their profits
+T50	Argument 3508 3553	which increasingly rely on smart tax planning
+T51	Motivation 3744 3751	because
+E18	Motivation:T51 Effect:T52 Cause:T53
+A22	Degree E18 Facilitate
+T52	Argument 3598 3743	a number of companies, including Coltec Industries, United Parcel Service and Black & Decker, have had their tax shelters ruled invalid by courts
+T53	Argument 3752 3801	they did not meet the economic substance doctrine
+T57	Consequence 3951 3956	after
+E20	Consequence:T57 Effect:T58 Cause:T59
+A24	Degree E20 Facilitate
+A25	Temporal E20
+T58	Argument 3849 3949	H. J. Heinz lost its bid for a $42.6 million tax refund in the United States Court of Federal Claims
+T59	Argument 3957 4065	the judge in the case ruled that the tax shelter used by the company to generate the claimed loss was a sham
+T60	Purpose 4026 4028	to
+E21	Purpose:T60 Cause:T62 Effect:T61
+A26	Degree E21 Facilitate
+T61	Argument 4006 4025	used by the company
+T62	Argument 4029 4054	generate the claimed loss
+T63	NonCausal 4029 4037	generate
+E22	NonCausal:T63 Arg1:T64 Arg0:T65
+A27	Creation-termination E22
+T64	Argument 4038 4054	the claimed loss
+T65	Argument 4014 4025	the company
+T66	NonCausal 4251 4257	create
+E23	NonCausal:T66 Arg1:T67 Arg0:T54
+A28	Creation-termination E23
+T67	Argument 4258 4293	artificial losses with tax benefits
+T68	Consequence 4299 4303	thus
+E24	Consequence:T68 Cause:T69 Effect:T70
+A29	Degree E24 Facilitate
+T69	Argument 4223 4293	the shifts were intended to create artificial losses with tax benefits
+T70	Argument 4223 4233;4304 4329	the shifts lacked economic substance
+T71	Note 4528 4535	purpose
+#2	AnnotatorNotes T71	There's a purpose here, but it's expressed in the non-conventionalized interaction between several elements.
+T72	NonCausal 4562 4571	producing
+E25	NonCausal:T72 Arg1:T73 Arg0:T74
+A30	Creation-termination E25
+T73	Argument 4572 4645	capital losses that could be carried back to wipe out prior capital gains
+T74	Argument 4478 4519	the acquisition by HCC of the Heinz stock
+T75	Purpose 4614 4616	to
+E26	Purpose:T75 Cause:T76 Effect:T77
+A31	Degree E26 Facilitate
+T76	Argument 4617 4645	wipe out prior capital gains
+T77	Argument 4587 4613	that could be carried back
+T78	Motivation 5189 5193	when
+E27	Motivation:T78 Cause:T79 Effect:T80
+A32	Degree E27 Facilitate
+A33	Temporal E27
+T79	Argument 5194 5238	defining whether a transaction is legitimate
+T80	Argument 5143 5188	impose definitions of ``profit'' and ``risk''
+T81	Motivation 5674 5677;5688 5695	for reasons
+E28	Motivation:T81 Cause:T82 Effect:T83
+A34	Degree E28 Facilitate
+T82	Argument 5678 5695	antitrust reasons
+T83	Argument 5653 5673	conducting a spinoff
+T84	Consequence 5770 5772	if
+E29	Consequence:T84 Cause:T85 Effect:T86
+A35	Degree E29 Facilitate
+A36	Hypothetical E29
+T85	Argument 5773 5852	the economic substance doctrine were turned into a law with profit requirements
+T86	Argument 5573 5769	such legitimate and common transactions as liquidating a controlled subsidiary, conducting a spinoff for antitrust reasons, and stock repurchases through surplus funds could be deemed illegitimate
+T87	Consequence 6166 6173	because
+E30	Consequence:T87 Effect:T88 Cause:T89
+A37	Degree E30 Facilitate
+T88	Argument 6098 6151	Pressure to make economic substance a law is building
+T89	Argument 6174 6285	a Joint Committee on Taxation has estimated that doing so could raise nearly $17 billion a year in unpaid taxes
+T90	Motivation 6329 6335;6350 6352	compel to
+E31	Motivation:T90 Cause:T91 Effect:T93
+A38	Degree E31 Facilitate
+T91	Argument 6320 6324	that
+T92	Argument 6292 6319	new ``pay as you go'' rules
+R2	Coref Arg1:T91 Arg2:T92	
+T93	Argument 6336 6345;6346 6349;6353 6420	lawmakers not increase the federal deficit with any new spending or tax proposals
+T94	Argument 6292 6420	new ``pay as you go'' rules that now compel lawmakers not to increase the federal deficit with any new spending or tax proposals
+T95	Motivation 6287 6291	With
+E32	Motivation:T95 Cause:T94 Effect:T96
+A39	Context E32
+A40	Degree E32 Facilitate
+T96	Argument 6422 6531	lawmakers are looking for any money sources that can be directed to unrelated bills in education, for example
+T97	Consequence 7374 7376	So
+E33	Consequence:T97 Effect:T98
+A41	Degree E33 Facilitate
+T98	Argument 7377 7525	the government's fight against abusive tax shelters may be influenced by factors not directly, or only, related to a desire to curb abusive shelters
+T99	Motivation 7737 7744	because
+E34	Motivation:T99 Effect:T100 Cause:T101
+A42	Degree E34 Facilitate
+T100	Argument 7685 7736	Congress will enact economic substance codification
+T101	Argument 7745 7793	a large revenue estimate has been attached to it
+T102	Purpose 8309 8311	to
+E35	Purpose:T102 Effect:T103 Cause:T104
+A43	Degree E35 Facilitate
+T103	Argument 8273 8308	U.P.S. engaged in sham transactions
+T104	Argument 8312 8375	avoid hundreds of millions of dollars in corporate income taxes
+T105	Consequence 8312 8317	avoid
+E36	Consequence:T105 Effect:T106 Cause:T107 Means:T108
+A44	Degree E36 Inhibit
+T106	Argument 8318 8375	hundreds of millions of dollars in corporate income taxes
+T107	Argument 8273 8279	U.P.S.
+T108	Argument 8280 8308	engaged in sham transactions
+#3	AnnotatorNotes E27	Close to temporal enablement, but seems like a more substantive relationship
+T18	Note 3844 3848	when
+#4	AnnotatorNotes T18	Relative pronoun
+T54	Argument 4223 4233	the shifts

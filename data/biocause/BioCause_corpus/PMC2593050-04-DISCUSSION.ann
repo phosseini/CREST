@@ -1,0 +1,135 @@
+T1	Protein 12 16	VicK
+T2	Organism 33 44	B. subtilis
+T3	Organism 53 62	S. aureus
+T4	Organism 78 91	S. pneumoniae
+T5	Organism 97 106	S. mutans
+T6	Organism 116 127	S. pyogenes
+T7	Protein 161 165	vicK
+T8	Organism 174 181	S. equi
+T9	Protein 189 193	VicK
+T10	Organism 214 221	S. equi
+T11	Organism 236 252	DeltavicK mutant
+T12	Protein 241 245	vicK
+T13	Organism 288 293	mouse
+T14	Organism 332 339	S. equi
+T15	Two-component-system 368 373	VicRK
+T16	Protein 368 372	VicR
+T17	Protein 372 373	K
+T18	Two-component-system 464 469	VicRK
+T19	Protein 464 468	VicR
+T20	Protein 468 469	K
+T21	Organism 511 535	S. equi DeltavicK mutant
+T22	Protein 524 528	vicK
+T23	Protein 625 629	vicK
+T24	Organism 729 736	S. equi
+T25	Organism 754 759	mouse
+T26	Organism 863 879	DeltavicK mutant
+T27	Protein 868 872	vicK
+T28	Two-component-system 946 951	VicRK
+T29	Protein 946 950	VicR
+T30	Protein 950 951	K
+T31	Organism 987 994	S. equi
+T32	Two-component-system 1093 1098	vicRK
+T33	Protein 1093 1097	vicR
+T34	Protein 1097 1098	K
+T35	Organism 1229 1253	S. equi DeltavicK mutant
+T36	Protein 1242 1246	vicK
+T37	Organism 1282 1310	S. pyogenes DeltavicK mutant
+T38	Protein 1299 1303	vicK
+T39	Two-component-system 1391 1396	vicRK
+T40	Protein 1391 1395	vicR
+T41	Protein 1395 1396	K
+T42	Organism 1445 1461	DeltavicK mutant
+T43	Protein 1450 1454	vicK
+T44	Organism 1569 1574	mouse
+T45	Organism 1603 1612	DeltavicK
+T46	Protein 1608 1612	vicK
+T47	Organism 1634 1638	mice
+T48	Organism 1683 1690	S. equi
+T49	Organism 1713 1717	mice
+T50	Organism 1734 1743	DeltavicK
+T51	Protein 1739 1743	vicK
+T52	Protein 1770 1773	IgA
+T53	Protein 1787 1790	IgG
+T54	Protein 1822 1825	SeM
+T55	Organism 1844 1853	DeltavicK
+T56	Protein 1849 1853	vicK
+T57	Organism 1903 1919	DeltavicK mutant
+T58	Protein 1908 1912	vicK
+T59	Organism 1961 1968	S. equi
+T60	Organism 2011 2017	horses
+T61	Organism 2024 2031	S. equi
+T62	Organism 2058 2062	mice
+T63	Negative_regulation 256 266	attenuated
+T64	Process 270 279	virulence
+T65	Process 340 350	infections
+T66	Regulation 377 386	important
+T67	Process 390 399	virulence
+T68	Regulation 450 460	importance
+T69	Process 473 482	virulence
+T70	Negative_regulation 714 725	attenuation
+T71	Process 737 746	virulence
+T72	Process 760 769	infection
+T73	Process 892 901	resistant
+T74	Negative_regulation 1538 1548	attenuated
+T75	Process 1552 1561	virulence
+T76	Process 1575 1584	infection
+T77	Process 1658 1667	infection
+T78	Process 1744 1753	infection
+T79	Gene_expression 1754 1761	produce
+T80	Process 2051 2057	infect
+E1	Negative_regulation:T63 Theme:E2
+E2	Process:T64 Participant:T11
+E3	Process:T65 Participant:T14
+E4	Regulation:T66 Theme:E5 Cause:T15
+E5	Process:T67 
+E6	Regulation:T68 Theme:E7 Cause:T18
+E7	Process:T69 
+E8	Negative_regulation:T70 Theme:E9
+E9	Process:T71 Participant:T24
+E10	Process:T72 
+E11	Process:T73 Participant:T26
+E12	Negative_regulation:T74 Theme:E13
+E13	Process:T75 Participant:T42
+E14	Process:T76 
+E15	Process:T77 Participant:T48
+E16	Process:T78 Participant:T50
+E17	Gene_expression:T79 Theme:T52
+E18	Gene_expression:T79 Theme:T53
+E19	Process:T80 Participant:T61
+M1	Negation E19
+T81	Span 133 181	We successfully deleted the vicK gene of S. equi
+T82	Causality 183 187	Thus
+E20	Causality:T82 Effect:T83 Evidence:T81
+T83	Span 189 221	VicK is not essential in S. equi
+T84	Span 223 350	However, the DeltavicK mutant is attenuated in virulence in both mouse models of subcutaneous and intranasal S. equi infections
+T85	Causality 352 367	indicating that
+E21	Causality:T85 Effect:T86 Evidence:T84
+T86	Span 368 399	VicRK is important to virulence
+T87	Span 223 399	However, the DeltavicK mutant is attenuated in virulence in both mouse models of subcutaneous and intranasal S. equi infections, indicating that VicRK is important to virulence
+T88	Causality 401 445	The results provide the further evidence for
+E22	Causality:T88 Effect:T89 Evidence:T87
+T89	Span 446 509	the importance of VicRK to virulence of Gram-positive pathogens
+T90	Span 511 603	S. equi DeltavicK mutant does not grow as well as the wild-type strain in both THY and blood
+T91	Causality 605 620	suggesting that
+E23	Causality:T91 Effect:T92 Evidence:T90
+T92	Span 621 776	the vicK deletion causes defect in growth, a plausible reason that likely contributes to the attenuation of S. equi virulence in the mouse infection models
+T93	Span 511 776	S. equi DeltavicK mutant does not grow as well as the wild-type strain in both THY and blood, suggesting that the vicK deletion causes defect in growth, a plausible reason that likely contributes to the attenuation of S. equi virulence in the mouse infection models
+T94	Causality 778 839	This suggestion is further supported by the observations that
+E24	Causality:T94 Evidence:T95 Effect:T93
+T95	Span 840 925	both the wild-type and DeltavicK mutant strains are resistant to phagocytosis by PMNs
+T96	Span 946 1017	VicRK is not required for the evasion of S. equi to the innate immunity
+T97	Causality 927 945	which suggest that
+E25	Causality:T97 Effect:T96 Evidence:T95
+T98	Span 1207 1310	The phenotypes of the S. equi DeltavicK mutant are similar to those of the S. pyogenes DeltavicK mutant
+T99	Causality 1316 1331	suggesting that
+E26	Causality:T99 Effect:T100 Evidence:T98
+T100	Span 1332 1439	the growth defect phenotype may be a common feature of the vicRK mutants of various Gram-positive pathogens
+T101	Span 1441 1523	The DeltavicK mutant appears to possess the properties of a potential live vaccine
+T102	Causality 1525 1525	
+E27	Causality:T102 Effect:T101 Evidence:T103
+T103	Span 1532 1591	it is attenuated in virulence in the mouse infection models
+T104	Span 1603 1690	DeltavicK inoculation protects mice against subsequent infection with wild-type S. equi
+E28	Causality:T102 Effect:T101 Evidence:T104
+T105	Span 1701 1825	most of the mice with intranasal DeltavicK infection produce mucosal IgA and systemic IgG specific to protective antigen SeM
+E29	Causality:T102 Effect:T101 Evidence:T105

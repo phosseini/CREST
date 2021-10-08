@@ -1,0 +1,20 @@
+Background 
+Salmonella enterica are enteric pathogens that acquired a type III secretion system (T3SS) through horizontal gene transfer of a genomic island termed Salmonella Pathogenicity Island 2 (SPI-2) [1,2].
+The SPI-2-encoded T3SS and its translocated effectors modify the intracellular host niche for Salmonella replication [3-5].
+SPI-2 also has genes, ssrA and ssrB, which code for SsrAB, a two-component regulatory system needed for expression of the T3SS [6,7].
+SsrB regulates the expression of SPI-2 encoded substrate effectors including ssaB, as well as several integrated virulence effectors such as sseL [8] and srfN [9] that are encoded elsewhere on the chromosome but that have integrated into the SsrB regulon.
+Mutants lacking ssrAB are unable to survive within macrophages and are avirulent in mice [1].
+Alternative sigma factors coordinate gene expression in response to environmental cues sensed by the bacterium.
+Sigma factors have a specific recognition motif at the -35 and -10 positions and function to concentrate RNA polymerase at a subset of promoters [10].
+One alternative sigma factor, RpoE (sigmaE) responds to envelope stress at the cell surface.
+Release of sigmaE from its inner membrane anchored anti-sigma factor, RseA, leads to induction of genes required to maintain cell envelope integrity [11].
+SsrB-regulated translocated effectors protect S. Typhimurium against host cell defences such as oxidative stress and antimicrobial peptides that perturb bacterial membrane integrity and provide a stimulus for sigmaE release [4,12-15].
+Although proficient at cellular invasion, rpoE or ssrB mutants are highly attenuated for intracellular survival in both cultured cells and animal hosts [16].
+In addition, the expression of rpoE and ssrB is up-regulated within macrophages [17].
+Links between RpoE and virulence gene expression is evident in other bacterial systems as well.
+Deletion of rseA in Yersinia pseudotuberculosis causes elevated virulence effector synthesis and secretion [18], establishing links between alternative sigma factors and virulence-specific regulators.
+Taken together, a connection between sigmaE and SsrB is suggested from the available literature, however the role of sigmaE in activating SsrB-regulated genes has not been studied.
+We tested the hypothesis that RpoE is involved in expression of genes that use the SsrB response regulator for activation.
+By testing six promoters representing four classes of SsrB-regulated promoters ((i) two type III secretion structural operons in SPI-2, (ii) the effector operon in SPI-2, (iii) two effector genes unlinked with SPI-2, and (iv) an integrated virulence gene unlinked with SPI-2) we demonstrate that RpoE elicits an effect on a subset of SsrB-regulated genes.
+This effect was bidirectional depending on the promoter and was downstream of ssrB expression itself, since deletion of rpoE had no effect on SsrB levels in the mutant cells.
+These data help unite the virulence phenotypes of strains lacking SsrB and RpoE, and highlight new transcriptional regulation that might be essential for appropriate temporal and spatial control of the virulence-associated type III secretion system during host infection.

@@ -1,0 +1,26 @@
+Y. pestis metabolic adaptation to the flea gut environment 
+Of the 214 genes upregulated in the flea gut compared to all in vitro conditions, 78 are metabolic genes, 60 of which are involved in uptake and catabolism of amino acids and carbohydrates (Table S1).
+In particular, genes involved in transport and catabolism of the L-glutamate group of amino acids (Gln, His, Arg, and Pro) were specifically upregulated in the flea (Fig. 2).
+The degradation of these amino acids gives rise to L-glutamate and the TCA cycle intermediates succinate, formate, and alpha-ketoglutarate.
+The gabD and gabT genes involved in the production of succinate from gamma-aminobutyrate (GABA), another member of the L-glutamate group, were also highly induced in the flea.
+The gabD gene functions to produce succinate from both GABA and hydroxyphenylacetate (HPA), an aromatic degradation product of Tyr and Phe; and the HPA transport (hpaX) and catabolism (hpaCBIFHDE) genes of Y. pestis were also highly upregulated in the flea gut (Table S1, Fig. 2).
+As Y. pestis does not have homologs of genes required to produce GABA or HPA, these metabolites may be taken up from the flea digestive tract.
+Alternatively, the gabD and gabT gene products might act in the reverse direction to synthesize GABA, which has osmoprotective properties [13].
+The central role of the L-glutamate family of amino acids may also confer this advantage in the flea gut, because Glu and Pro are osmoprotectants.
+Interestingly, both glutamate and GABA are important neurotransmitters at the neuromuscular junction of insects, and the concentration of glutamate is very low in insect hemolymph, suggesting that it is converted to glutamine before it is absorbed [14].
+Insect midgut epithelium is typified by multiple amino acid transporters with specific substrates and rapid absorption kinetics, but different amino acids enter the hemocoel at different rates and amounts [14],[15].
+Thus, Y. pestis metabolism in the flea may reflect the available pool of amino acids in the midgut.
+In contrast to the amino acids, hexoses do not appear to be an important energy source during infection of the flea.
+Only the genes encoding for chitobiose phosphotransferase (PTS) uptake and utilization systems (chbBC; chbF), and for a PTS system of unknown specificity (frwBCD) were significantly upregulated in the flea [16],[17].
+Chitobiose could be present in the flea gut due to turnover of the chitin layer on the proventricular spines.
+Expression of the glucose PTS system was only slightly increased relative to LB cultures, and other PTS systems were downregulated (Table S2).
+Glycolytic pathways were not upregulated in the flea; instead, available hexoses and the gluconeogenesis pathway may be used to synthesize polysaccharide components required for cell growth.
+Upregulation of the actP and acs genes in the flea, which direct the uptake of acetate and its conversion to acetyl-CoA, also suggests that insufficient acetyl-CoA is produced by glycolysis to potentiate the TCA cycle.
+The switch from acetate secretion to acetate uptake is typical of growth in a glucose-limited, amino acid rich environment [18].
+In contrast to hexose uptake systems, Y. pestis genes that encode permeases for the pentoses ribose, xylose, and arabinose were induced in the flea gut.
+Acquisition of pentoses from the environment may be important because Y. pestis does not possess glucose 6-phosphate dehydrogenase activity, the first step of the pentose phosphate pathway [19].
+Although the flea gut contains lipid derived from the blood meal, Y. pestis does not appear to use it as a major energy source.
+None of the fatty acid uptake or catabolism genes were upregulated in the flea compared to growth in LB.
+However, genes for glycerol and glycerol-3-phosphate uptake and utilization were upregulated, suggesting that flea digestion products derived from blood glycerolipids may be used by Y. pestis.
+In summary, Y. pestis appears to use amino acids, particularly the L-glutamate family, as primary carbon, nitrogen, and energy sources in the flea.
+Amino acid carbon is presumably funneled into the TCA cycle, the genes for which are highly expressed in the flea (Table S3).

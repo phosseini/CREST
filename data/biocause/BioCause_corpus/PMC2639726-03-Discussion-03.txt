@@ -1,0 +1,15 @@
+SlyA and SsrA/SsrB together activate transcription of the SPI-2 encoded secretion apparatus 
+SlyA is a DNA-binding protein with high affinity for inverted repeat sequences [79] and the binding ability of SlyA to the ssrA promoter region was previously reported [62].
+SlyA binds to a specific palindromic sequence, but also to other binding sites that do not fit a consensus sequence [79],[80].
+Similarly SsrB binds upstream of ssrA in a region of the promoter typical of response regulators but has no obvious recognition site and binds within the operons that encode structural components of the type III secretion system [52],[81].
+Four nucleoid-like proteins in enteric bacteria, H-NS, StpA, Hha, and YdgT have a predilection for binding to A+T rich sequences and repress transcription of SPI-2 genes (rev. in [14]).
+These proteins have a degenerate recognition sequence and the ability to polymerize along and bridge adjacent stretches of DNA repressing transcription apparently by occlusion of RNA polymerase.
+It has been shown that virulence regulator slyA, and close homologues rovA [82] and toxT [83] act to relieve the repression caused by H-NS at specific promoters [48],[70],[84],[85].
+SPI-2 regulation by SsrB and SlyA may be explained in a similar mechanism where both SlyA and SsrB counteract the silencing activity of H-NS/YdgT/Hha by competing for binding to the same target sequences or by altering the structure of the DNA to promote transcription for SPI-2.
+Walthers et al. [52] and Feng et al. [81] found that there was no consensus SsrB binding site or distance relative to the transcription start sites and Walthers (ibid) proposes that different promoters may be activated by distinct SsrB mechanisms.
+Our results support this conclusion and extend the observation to slyA at least for specific SPI-2 transcripts.
+A proposed mechanism for activation is that SlyA competes with a repressor for binding to the promoter and subsequently facilitates RNA polymerase access [80].
+This model is supported by SlyA binding sites that are located downstream of transcriptional start sites [31],[86], which is unusual for a traditional transcriptional activator.
+In agreement with this model, SlyA and PhoP counteract H-NS silencing at pagC [85],[87].
+Thus, one explanation for the transcription we observe following over-expression of ssrB or slyA may be that both SlyA and SsrB counteract binding of small nucleoid-like proteins including both H-NS and YdgD/Hha in this A+T rich SPI-2 region [70].
+This possibility may be reflected in the differences in expression of the five operons within SPI-2 following ssrB and slyA over-expression.

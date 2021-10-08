@@ -1,0 +1,28 @@
+Universal stress proteins 
+Universal stress proteins (Usp) are small soluble proteins found in bacteria, archaea and plants.
+The production of these proteins is induced upon global stress conditions such as nutrient starvation, heat stress, osmotic stress, oxidative stress, or the presence of toxic compounds.
+The protein family is divided into the UspA subfamily and the UspFG subfamily.
+The functional mechanism of these Usp proteins is not known [48].
+Because P. luminescens and Y. enterocolitica are exposed to those stresses upon infecting and colonizing the insect host, we compared their set of Usp proteins (Table 2).
+Both genomes share an UspA-like (Plu0121 and YE4050) and an UspE-like (Plu2178 and YE2076) homologue.
+In E. coli, the sequence motif of Usp proteins is not highly conserved: UspA and UspC show a sequence identity of 37% and a homology of 57%, for example.
+In contrast, the UspA and the UspE homologues of P. luminescens and Y. enterocolitica are nearly similar, indicating that an identical stress response is regulated by these proteins.
+Homologues of these proteins are also present in P. aeruginosa, namely PA4352 and PA3309, a tandem-type Usp protein and a UspA-like protein, respectively.
+They are essential for survival under anaerobic growth and therefore biofilm formation, a situation cells are exposed to when colonizing the cystic fibrosis lung in hosts [49,50].
+The Usp homologues of P. luminescens and Y. enterocolitica might also be important during infection of the insect host.
+In P. luminescens, expression of UspA has been shown to be under control of the AstS/AstR TCS, which is important for the correct timing of phase variant switching [28].
+It is discussed that the AstS/AstR-system prevents or delays phenotypic variation by protecting the cell from stress [18].
+Because Y. enterocolitica produces the corresponding TCS BvgS/BvgR, but is not known to switch to another phenotypic variant, the possible role of UspA in global regulation still remains to be elucidated.
+Phenotypic variation and thus the switch between mutualism and pathogenicity in P. luminescens is proposed to be regulated by a Ner-like and a HexA-like regulator that repress primary variant specific genes in the stage of the secondary variant [17].
+Therefore, UspA might have a global importance in P. luminescens notifying stress and transmitting signals for HexA [18].
+In Y. enterocolitica, the transcriptional repressor RovM (YE1343) is similar to HexA of P. luminescens (61% identity and 75% homology), and has only recently been shown to control cell invasion, virulence and motility in Y. pseudotuberculosis, Y. pestis and Y. enterocolitica [51-53].
+This fact suggests a similar UspA-dependent regulatory mechanism used by the two bacteria compared here.
+P. luminescens, but not Y. enterocolitica, produces two members of the UspFG family, the UspG homologues Plu2030 and Plu2032 (Tab. 2), indicating a global stress response induced by those Usp proteins that is different in both organisms.
+It is known that UspG of E. coli interacts with the chaperonin GroEL [54], which promotes the correct folding of many cytosolic proteins [55].
+A GroEL homologue is present in P. luminescens (Plu4134) which the P. luminescens UspG homologues might interact with.
+In contrast to P. luminescens, Y. enterocolitica encodes another member of the UspA subfamily, the UspC homologue YE2583 (Tab. 2), which is not present in P. luminescens.
+Therefore, an UspC mediated stress response is not assumed to play a major role in insect pathogenicity.
+Summarizing, the set of the shared and different Usp proteins reveals a partially similar and a partially different (fine)-regulation of the global stress response modules in P. luminescens and Y. enterocolitica.
+This pattern corresponds to the overlapping life cycles of both pathogens (Fig. 1).
+The UspA and the UspE homologues are predicted here to be relevant for insect infection, whereas UspC is assumed be more important for Y. enterocolitica in other environments/hosts.
+The two UspG homologues might constitute a set of Usp proteins that play a specific role in P. luminescens infection or in symbiosis with the nematode host.

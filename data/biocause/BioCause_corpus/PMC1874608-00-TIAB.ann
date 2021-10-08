@@ -1,0 +1,87 @@
+T1	Protein 0 3	Mlc
+T2	Organism 18 28	Salmonella
+T3	Protein 72 76	hilE
+T4	Protein 110 113	Mlc
+T5	Organism 210 260	Salmonella enterica serovar Typhimurium mlc mutant
+T6	Protein 250 253	mlc
+T7	Protein 382 386	hilD
+T8	Protein 388 392	hilA
+T9	Protein 397 401	invF
+T10	Organism 437 447	Salmonella
+T11	Protein 503 506	Mlc
+T12	Protein 510 514	hilD
+T13	Organism 574 585	hilE mutant
+T14	Protein 574 578	hilE
+T15	Protein 591 595	hilE
+T16	Organism 628 638	mlc mutant
+T17	Protein 628 631	mlc
+T18	Protein 660 663	Mlc
+T19	Protein 750 754	HilE
+T20	Protein 849 853	HilD
+T21	Protein 896 900	hilE
+T22	Protein 923 926	Mlc
+T23	Protein 1002 1005	Mlc
+T24	Protein 1076 1079	Mlc
+T25	Protein 1090 1094	hilE
+T26	Protein 1154 1158	hilE
+T27	Protein 1211 1215	hilD
+T28	Protein 1244 1247	Mlc
+T29	Chemical 1282 1289	glucose
+T30	Chemical 1294 1301	mannose
+T31	Organism 1332 1342	mlc mutant
+T32	Protein 1332 1335	mlc
+T33	Protein 1384 1387	Mlc
+T34	Protein 1503 1507	hilE
+T35	Organism 1522 1532	Salmonella
+T36	Negative_regulation 77 87	repression
+T37	Negative_regulation 353 360	reduced
+T38	Gene_expression 361 371	expression
+T39	Regulation 492 499	effects
+T40	Gene_expression 515 525	expression
+T41	Gene_expression 596 606	expression
+T42	Positive_regulation 611 620	increased
+T43	Negative_regulation 723 731	reducing
+T44	Gene_expression 736 746	expression
+T45	Binding 832 843	interaction
+T46	Entity 883 892	promoters
+T47	Regulation 910 919	modulated
+T48	Entity 975 977	P3
+T49	Negative_regulation 989 998	repressed
+T50	Negative_regulation 1080 1089	repressed
+T51	Entity 1159 1177	P3 promoter region
+T52	Negative_regulation 1192 1207	down-regulation
+T53	Process 1451 1460	virulence
+T54	Regulation 1495 1502	control
+T55	Gene_expression 1508 1518	expression
+E1	Negative_regulation:T36 Theme:T3 Cause:T1
+E2	Negative_regulation:T37 Theme:E5
+E3	Negative_regulation:T37 Theme:E6
+E4	Negative_regulation:T37 Theme:E7
+E5	Gene_expression:T38 Theme:T7
+E6	Gene_expression:T38 Theme:T8
+E7	Gene_expression:T38 Theme:T9
+E8	Regulation:T39 Theme:E9 Cause:T11
+E9	Gene_expression:T40 Theme:T12
+E10	Gene_expression:T41 Theme:T15
+E11	Positive_regulation:T42 Theme:E10
+E12	Negative_regulation:T43 Theme:E13 Cause:T18
+E13	Gene_expression:T44 Theme:T19
+E14	Binding:T45 Theme:T20
+E15	Regulation:T47 Theme:T21 Site:T46 Cause:T22
+M1	Negation E15
+E16	Negative_regulation:T49 Theme:T21 Site:T48 Cause:T23
+E17	Negative_regulation:T50 Theme:T25 Site:T51 Cause:T24
+E18	Negative_regulation:T52 Theme:T27
+E19	Process:T53 
+E20	Regulation:T54 Theme:E21 Cause:T33
+E21	Gene_expression:T55 Theme:T34
+T56	Span 488 585	the effects of Mlc on hilD expression and bacterial invasiveness were not seen in the hilE mutant
+T57	Span 591 638	hilE expression was increased in the mlc mutant
+T58	Causality 640 659	which suggests that
+E22	Causality:T58 Evidence:T56 Effect:T59
+T59	Span 660 853	Mlc exerts positive effects on the expression of SPI1 genes by reducing the expression of HilE, which is known to down-regulate the expression of SPI1 genes through direct interaction with HilD
+T60	Fact 1076 1113	Mlc repressed hilE in a direct manner
+T61	Fact 1114 1177	by binding to two distinct sites in the hilE P3 promoter region
+T62	Causality 1114 1114	
+E23	Causality:T62 Effect:T60 Cause:T61
+E24	Causality:T58 Effect:T59 Evidence:T57

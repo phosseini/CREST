@@ -1,0 +1,12 @@
+Mycobacterium tuberculosis Universal Stress Protein Rv2623 Regulates Bacillary Growth by ATP-Binding: Requirement for Establishing Chronic Persistent Infection 
+Tuberculous latency and reactivation play a significant role in the pathogenesis of tuberculosis, yet the mechanisms that regulate these processes remain unclear.
+The Mycobacterium tuberculosis universal stress protein (USP) homolog, rv2623, is among the most highly induced genes when the tubercle bacillus is subjected to hypoxia and nitrosative stress, conditions thought to promote latency.
+Induction of rv2623 also occurs when M. tuberculosis encounters conditions associated with growth arrest, such as the intracellular milieu of macrophages and in the lungs of mice with chronic tuberculosis.
+Therefore, we tested the hypothesis that Rv2623 regulates tuberculosis latency.
+We observed that an Rv2623-deficient mutant fails to establish chronic tuberculous infection in guinea pigs and mice, exhibiting a hypervirulence phenotype associated with increased bacterial burden and mortality.
+Consistent with this in vivo growth-regulatory role, constitutive overexpression of rv2623 attenuates mycobacterial growth in vitro.
+Biochemical analysis of purified Rv2623 suggested that this mycobacterial USP binds ATP, and the 2.9-A-resolution crystal structure revealed that Rv2623 engages ATP in a novel nucleotide-binding pocket.
+Structure-guided mutagenesis yielded Rv2623 mutants with reduced ATP-binding capacity.
+Analysis of mycobacteria overexpressing these mutants revealed that the in vitro growth-inhibitory property of Rv2623 correlates with its ability to bind ATP.
+Together, the results indicate that i) M. tuberculosis Rv2623 regulates mycobacterial growth in vitro and in vivo, and ii) Rv2623 is required for the entry of the tubercle bacillus into the chronic phase of infection in the host; in addition, iii) Rv2623 binds ATP; and iv) the growth-regulatory attribute of this USP is dependent on its ATP-binding activity.
+We propose that Rv2623 may function as an ATP-dependent signaling intermediate in a pathway that promotes persistent infection.

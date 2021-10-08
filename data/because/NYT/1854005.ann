@@ -1,0 +1,55 @@
+T1	NonCausal 383 385	as
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A2	Temporal E1
+T2	Argument 386 474	Mrs. Clinton and her rivals for the nomination are aggressively courting Hispanic voters
+T3	Argument 296 382	Mr. Menendez's endorsement, which the aides said was to be announced on Tuesday, comes
+T4	Consequence 591 598	because
+E2	Consequence:T4 Effect:T5 Cause:T6
+A1	Degree E2 Facilitate
+T5	Argument 477 590	Those voters are likely to play a more important role in nominating a candidate in the next presidential election
+T6	Argument 599 721	several states with large Hispanic populations, including New Jersey, have moved their primaries or caucuses to early 2008
+T7	NonCausal 980 984	when
+E3	NonCausal:T7 Arg1:T8 Arg0:T9
+A3	Temporal E3
+T8	Argument 961 978	several weeks ago
+T9	Argument 985 1098	she received the endorsement of another prominent Hispanic official, Mayor Antonio R. Villaraigosa of Los Angeles
+T10	Purpose 1479 1481;1494 1503	in effort to
+E4	Purpose:T10 Cause:T11 Effect:T12
+A4	Degree E4 Facilitate
+T11	Argument 1504 1519	win his support
+T12	Argument 1370 1478	Mrs. Clinton's main rival, Senator Barack Obama of Illinois, had reached out to Mr. Menendez in recent weeks
+T13	Consequence 1652 1656	help
+E5	Consequence:T13 Effect:T14 Cause:T15
+A5	Degree E5 Facilitate
+T14	Argument 1657 1669;1670 1784	Mrs. Clinton solidify her standing in New Jersey, where Gov. Jon S. Corzine has already announced his support for her candidacy
+T15	Argument 1569 1645	The endorsement by Mr. Menendez, a Cuban-American raised in Union City, N.J.
+T16	Consequence 1870 1872;1875 1884	as result of
+E6	Consequence:T16 Effect:T17 Cause:T18
+A6	Degree E6 Facilitate
+T17	Argument 1787 1860	Mr. Menendez has developed a close working relationship with Mrs. Clinton
+T18	Argument 1885 1986	their efforts to secure recovery aid for New York and New Jersey after the Sept. 11 terrorist attacks
+T19	Motivation 1950 1955	after
+E7	Motivation:T19 Cause:T20 Effect:T21
+A7	Degree E7 Facilitate
+A8	Temporal E7
+T20	Argument 1956 1986	the Sept. 11 terrorist attacks
+T21	Argument 1902 1949	secure recovery aid for New York and New Jersey
+T22	Purpose 2028 2030	to
+E8	Purpose:T22 Cause:T23 Effect:T24
+A9	Degree E8 Facilitate
+T23	Argument 2031 2182	eliminate a provision in an immigration bill that would have made it harder for legal immigrants in the United States to bring over spouses or children
+T24	Argument 2004 2027	the two worked together
+T25	Consequence 2092 2096	made
+E9	Consequence:T25 Cause:T26 Effect:T27
+A10	Degree E9 Facilitate
+T26	Argument 2076 2080	that
+T27	Argument 2097 2099;2100 2182	it harder for legal immigrants in the United States to bring over spouses or children
+T28	Argument 2041 2075	a provision in an immigration bill
+R1	Coref Arg1:T26 Arg2:T28	
+T29	Note 2310 2314	help
+#1	AnnotatorNotes T29	Assist
+T30	Argument 2041 2182	a provision in an immigration bill that would have made it harder for legal immigrants in the United States to bring over spouses or children
+T31	Argument 2004 2011	the two
+T32	NonCausal 2031 2040	eliminate
+E10	NonCausal:T32 Arg1:T30 Arg0:T31
+A11	Creation-termination E10

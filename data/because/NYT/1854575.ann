@@ -1,0 +1,97 @@
+T1	Consequence 112 114;90 96	to forces
+E1	Consequence:T1 Cause:T2 Effect:T4
+A1	Degree E1 Facilitate
+A2	Obligation-permission E1
+T2	Argument 85 89	that
+T3	Argument 74 84	a 1921 law
+R1	Coref Arg1:T2 Arg2:T3	
+T4	Argument 115 165;97 111	hire multiple contractors on public works projects municipalities
+T5	NonCausal 185 190	where
+E2	NonCausal:T5 Arg1:T6 Arg0:T7
+A3	Context E2
+T6	Argument 167 184	finding consensus
+T7	Argument 191 223	two previous governors could not
+T8	NonCausal 355 359	with
+E3	NonCausal:T8 Arg0:T9 Arg1:T10
+A4	Context E3
+T9	Argument 360 398	a week left in the legislative session
+T10	Argument 230 354	the governor and the lawmakers -- particularly in the Republican-led Senate -- remained sharply divided on many other issues
+T11	NonCausal 592 598	during
+E4	NonCausal:T11 Arg0:T12 Arg1:T13
+T12	Argument 599 627	a public meeting on Thursday
+T13	Argument 475 591	''Philosophically, we're just in a different world,'' the Senate majority leader, Joseph L. Bruno, told the governor
+T14	NonCausal 839 847;916 918	required to
+E5	NonCausal:T14 Arg0:T15 Arg1:T16
+A6	Obligation-permission E5
+T15	Argument 827 834	The law
+T16	Argument 848 914;919 1095	cities and towns, on construction projects worth more than $50,000 hire separate contractors for general construction, plumbing, electrical and heating and ventilation work instead of one general contractor to hire and supervise subcontractors
+T17	Consequence 1133 1143	discourage
+E6	Consequence:T17 Cause:T18 Effect:T19 Means:T20
+A7	Degree E6 Inhibit
+T18	Argument 1098 1105	The law
+T19	Argument 1144 1154	corruption
+T20	Argument 1158 1220	distributing contracts on public projects to several companies
+T21	Motivation 1268 1271	for
+E7	Motivation:T21 Cause:T22 Effect:T23
+A8	Degree E7 Facilitate
+T22	Argument 1272 1288	driving up costs
+T23	Argument 1226 1267	it has been bemoaned by local governments
+T24	Consequence 1344 1348	mean
+E8	Consequence:T24 Cause:T25 Effect:T26
+A9	Degree E8 Facilitate
+T25	Argument 1325 1337	repealing it
+T26	Argument 1349 1359	fewer jobs
+T27	Motivation 1772 1775	why
+E9	Motivation:T27 Effect:T28 Cause:T29
+A10	Degree E9 Facilitate
+T28	Argument 1776 1810	we wanted to negotiate a good bill
+T29	Argument 1765 1769	that
+T30	Argument 1700 1759	We trust all the players that are involved this time around
+R2	Coref Arg1:T29 Arg2:T30	
+T31	Consequence 2240 2247;2257 2259	allowed to
+E10	Consequence:T31 Cause:T32 Effect:T33
+A11	Degree E10 Facilitate
+T32	Argument 2208 2239	Mr. Spitzer's arrival in Albany
+T33	Argument 2248 2256;2260 2270	the bill go through
+#1	AnnotatorNotes E10	Make possible, not grant permission
+T34	Consequence 2479 2484;2518 2520	allow to
+E11	Consequence:T34 Cause:T35 Effect:T36
+A12	Degree E11 Facilitate
+A13	Obligation-permission E11
+T35	Argument 2444 2473	The agreement announced today
+T36	Argument 2485 2517;2521 2564	over 70 percent of city projects move forward without the Wicks restrictions
+T37	Consequence 2742 2752	because of
+E12	Consequence:T37 Effect:T38 Cause:T39
+A14	Degree E12 Facilitate
+T38	Argument 2697 2741	it is virtually assured of passage next week
+T39	Argument 2753 2791	the support of the legislative leaders
+T41	NonCausal 2852 2858	during
+E13	NonCausal:T41 Arg1:T42 Arg0:T43
+A15	Temporal E13
+T42	Argument 2800 2851	the Wicks Law agreement was the most prominent news
+T43	Argument 2859 2928	the public meeting between the governor and top lawmakers on Thursday
+T44	Motivation 2951 2955	when
+E14	Motivation:T44 Effect:T45 Cause:T46
+A16	Degree E14 Facilitate
+A17	Temporal E14
+T45	Argument 2930 2950	emotions ran highest
+T46	Argument 2956 3032	Mr. Bruno offered a spirited critique of Mr. Spitzer's campaign finance plan
+T47	Consequence 3360 3363	for
+E15	Consequence:T47 Effect:T48 Cause:T49
+A18	Degree E15 Facilitate
+T48	Argument 3331 3359	the governor was a hypocrite
+T49	Argument 3364 3455	offering his top fund-raisers access to him if they ''bundled'' donations from other donors
+T50	Motivation 3408 3410	if
+E16	Motivation:T50 Cause:T51 Effect:T52
+A19	Degree E16 Facilitate
+A20	Hypothetical E16
+T51	Argument 3411 3455	they ''bundled'' donations from other donors
+T52	Argument 3364 3407	offering his top fund-raisers access to him
+T53	Motivation 3593 3596	for
+E17	Motivation:T53 Effect:T54 Cause:T55
+A21	Degree E17 Facilitate
+T54	Argument 3575 3592	you reward people
+T55	Argument 3597 3623	bundling a million dollars
+T56	Note 2713 2723	assured of
+#3	AnnotatorNotes T56	Adjective phrase, like "certain to"; nobody's assured the legislation. "Assured of" also seemingly can only mean "gave assurance to X of Y."
+A5	Temporal E4

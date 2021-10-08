@@ -1,0 +1,58 @@
+T1	Purpose 153 155	to
+E1	Purpose:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 98 152	The British firm has begun court proceedings in London
+T3	Argument 156 284	prevent the use of the name ``Deloitte'' by Deloitte, Haskins & Sells and Touche Ross & Co. in England and the rest of the world
+T4	Consequence 156 163	prevent
+E2	Consequence:T4 Effect:T5
+T5	Argument 164 284	the use of the name ``Deloitte'' by Deloitte, Haskins & Sells and Touche Ross & Co. in England and the rest of the world
+T6	NonCausal 607 612	since
+E3	NonCausal:T6 Arg0:T7 Arg1:T8
+A3	Temporal E3
+T7	Argument 613 617	1845
+T8	Argument 559 606	the British firm has used the name ``Deloitte''
+T9	Consequence 687 692	until
+E4	Consequence:T9 Effect:T10 Cause:T11
+A4	Temporal E4
+T10	Argument 632 686	Deloitte, Haskins & Sells was known as Haskins & Sells
+T11	Argument 693 759	1978, when it added the ``Deloitte'' name of its British affiliate
+A5	Degree E4 Inhibit
+T12	NonCausal 699 703	when
+E5	NonCausal:T12 Arg1:T13 Arg0:T14
+A6	Temporal E5
+T13	Argument 693 697	1978
+T14	Argument 704 759	it added the ``Deloitte'' name of its British affiliate
+T15	Motivation 1722 1725	for
+E6	Motivation:T15 Cause:T16 Effect:T33
+A7	Degree E6 Facilitate
+T16	Argument 1726 1764	keeping major auditing work in England
+T17	Argument 1676 1764	get even with the merged Deloitte-Touche firm for keeping major auditing work in England
+T18	Purpose 1673 1675	to
+E7	Purpose:T18 Effect:T19 Cause:T17
+A8	Degree E7 Facilitate
+T19	Argument 1624 1672	the Deloitte firm in the U.K. is filing the suit
+T20	Consequence 2015 2019	mean
+E8	Consequence:T20 Cause:T21 Effect:T22
+A9	Degree E8 Facilitate
+T21	Argument 2004 2008	this
+T22	Argument 2025 2100	the British Deloitte would lose revenue for its audit of GM's Vauxhill unit
+T23	Consequence 2200 2204	make
+E9	Consequence:T23 Cause:T24 Effect:T25
+A10	Degree E9 Facilitate
+T24	Argument 2104 2194	The defection of Deloitte's affiliates in Britain and the Netherlands to Coopers & Lybrand
+T25	Argument 2205 2212;2213 2292	Coopers one of the biggest accounting firms in Europe, rivaling KPMG Peat Marwick there
+T26	Purpose 2363 2366	for
+E10	Purpose:T26 Cause:T27 Effect:T28
+A11	Degree E10 Facilitate
+T27	Argument 2367 2375	a merger
+T28	Argument 2303 2362	Coopers hasn't been courted by other major accounting firms
+T30	Motivation 2661 2663	if
+E11	Motivation:T30 Effect:T31 Cause:T32
+A12	Degree E11 Facilitate
+A13	Hypothetical E11
+T31	Argument 2627 2660	that Coopers would use in England
+T32	Argument 2664 2711	Deloitte UK won its litigation to keep its name
+A2	Degree E2 Inhibit
+T33	Argument 1676 1721	get even with the merged Deloitte-Touche firm
+T29	Note 2402 2406	from
+#1	AnnotatorNotes T29	You can't just "benefit" and then explain why.

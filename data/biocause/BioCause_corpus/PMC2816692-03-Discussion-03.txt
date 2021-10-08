@@ -1,0 +1,15 @@
+Genetic and functional integration of SrcA with type III secretion 
+The genes encoding the srcA chaperone and the effector cargos (pipB2 and sseL) are found in all serotypes of Salmonella enterica that contain the SPI-2-encoded T3SS.
+Conversely, these genes are absent from S. bongori, which lacks the SPI-2-encoded T3SS.
+The expression of srcA is coordinated with T3SS transcriptional activity via the SsrA-SsrB two-component regulatory system encoded in SPI-2.
+The direct binding of SsrB to the promoter region upstream of srcA, along with SsrB-regulation of both sseL [19],[20] and pipB2 [32] is indicative of multiple cis-regulatory mutation events that have allowed for functional coordination of the distributed secretion apparatus, chaperone and effector cargos.
+We recently described this type of regulatory evolution for pathogenic adaptation of Salmonella to its host [21] and srcA is consistent with regulatory evolution of chaperone-effector gene pairs that are not co-transcribed in operons.
+Due to low G+C base content compared to the genome average of 52%, it's likely that srcA (32% G+C) and an adjacent gene, STM2137 (37% G+C), were acquired as a foreign islet that was retained in organisms containing the SPI-2 T3SS due to the selective advantage afforded by the new protein interactions so created.
+Interestingly, STM2137 (also known as SseK2) is a likely paralog of SseK1, an effector translocated by the SPI-2 T3SS [33].
+SseK2 is also regulated by the SsrA-SsrB two-component system but compared to SseK1, it is translocated in much less abundance into host cells [33].
+Using the methods described here, we were not able to detect SseK2 secretion or a physical interaction with SrcA, however it remains possible that SrcA also chaperones SseK2 for low-level translocation.
+SrcA is unique among other multi-effector chaperones most closely related to it in that it is unlinked from the T3SS genomic island.
+For example, InvB and SicP (Salmonella SPI-1), CesT (enteropathogenic E. coli locus of enterocyte effacement) and Spa15 (Shigella mxi/spa virulence plasmid region) chaperones are all encoded within the T3SS structural operons, implying they have co-evolved as a single genetic entity from a common ancestor.
+Given its genetic neighborhood, srcA appears to be a genetic acquisition separate from SPI-2 that functionally links some effectors to the T3SS apparatus via the ATPase.
+The role of horizontal gene transfer and regulatory evolution in allowing for uncoupling of chaperones, effectors and the T3SS has many possible implications for T3SS function, including plasticity in chaperone-effector interaction networks, expansion of effector repertoires, and alterations to the kinetics and hierarchical delivery of effectors to a host cell.
+These events may improve host adaptability or even expand the host range of bacteria that acquire and integrate new functional secretion chaperones.

@@ -1,0 +1,14 @@
+Quorum sensing-like gene regulation 
+Regulation by AHL-LuxR-like receptors Virulence, bioluminescence, mutualism, antibiotic production and biofilm formation are often regulated by LuxI/LuxR quorum sensing systems in Gram-negative bacteria.
+They produce membrane diffusible signalling molecules, acyl homoserine lactones (AHLs), which are sensed by the receptor/regulator LuxR when exceeding a threshold concentration.
+These AHLs are produced by an autoinductor synthase named LuxI.
+Upon autoinductor-binding, the receptor LuxR binds to the promoter/operator regions of the target genes or operons, resulting in the regulation of gene expression in response to the cell number [33].
+Y. enterocolitica possesses a typical quorum sensing pair of homologues, YenI/YenR (YE1600/YE1599), and it has recently been shown that swimming and swarming motility is regulated by 3-oxo-C6-AHL and C6-AHL, which are synthesized by YenI [34].
+In Y. pestis, the production of YspI and YspR, the homologues of YenI and YenR, is induced at 26degreesC (Table 1).
+Moreover, we identified a second AHL-LuxR regulator, YE1026, which lacks a separate AHL synthase (Fig. 3).
+It is not known if this receptor also binds the AHLs produced by YenI.
+In the genome of P. luminescens, two genes encoding putative AHL-LuxR-like receptors, plu0320 and plu4562, but no luxI genes are present (Fig. 3).
+This suggests that P. luminescens does not produce its own AHL signalling molecule, but might be able to sense those produced by other bacteria and therefore to detect mixed microbial communities as demonstrated for Salmonella enterica and Escherichia coli [35-37].
+A similar function in Y. enterocolitica might be provided by YE1026.
+It is interesting to note that Sodalis glossinidius strain morsitans, an endosymbiont of the tse tse fly Glossina morsitans morsitans [38], also has two pontential AHL-LuxR receptors, SG1740 and SG0285, but no luxI homologue (Fig. 3).
+Instead of producing AHLs to regulate quorum dependent genes, a common strategy of insect-colonizing bacteria might be the detection of AHLs as a signal for the presence of other bacteria such as those colonizing the insect intestinal tract or living in soil.

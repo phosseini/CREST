@@ -1,0 +1,47 @@
+T1	Consequence 127 136	result in
+E1	Consequence:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 95 114	a cost-cutting move
+T3	Argument 137 160	a fourth-quarter charge
+T4	Motivation 233 238	until
+E2	Motivation:T4 Cause:T5 Effect:T6
+A2	Degree E2 Inhibit
+T5	Argument 239 324	they determine which employees, and how many, will participate in the retirement plan
+T6	Argument 187 232	they couldn't estimate the size of the charge
+A3	Temporal E2
+T7	Consequence 400 414	resulting from
+E3	Consequence:T7 Effect:T8 Cause:T9
+A4	Degree E3 Facilitate
+T8	Argument 378 399	the long-term savings
+T9	Argument 415 440	the plan's implementation
+T10	Motivation 960 967	because
+E4	Motivation:T10 Cause:T12 Effect:T11
+A5	Degree E4 Facilitate
+T11	Argument 879 958	some analysts questioned how much of an impact the retirement package will have
+T12	Argument 968 1005	few jobs will end up being eliminated
+T13	Motivation 1304 1306;1309 1315	As result
+E5	Motivation:T13 Effect:T14
+A6	Degree E5 Facilitate
+T14	Argument 1317 1402	Upjohn will likely trim only about 275 to 350 of its more than 21,000 jobs world-wide
+T15	Motivation 1614 1621	spurred
+E6	Motivation:T15 Effect:T16 Cause:T17
+A7	Degree E6 Facilitate
+T16	Argument 1581 1609	the early retirement package
+T17	Argument 1625 1683	shareholder pressure or a potential bidder for the company
+T22	Purpose 1266 1269	for
+E7	Purpose:T22 Effect:T23 Cause:T24
+A8	Degree E7 Facilitate
+T23	Argument 1256 1265	who leave
+T24	Argument 1270 1286	early retirement
+T25	Consequence 1816 1824	ward off
+E8	Consequence:T25 Cause:T26 Effect:T27
+A9	Degree E8 Inhibit
+T26	Argument 1749 1760	The company
+T27	Argument 1825 1841	unwanted suitors
+T28	Purpose 1813 1815	to
+E9	Purpose:T28 Effect:T29 Cause:T30
+A10	Degree E9 Facilitate
+T29	Argument 1749 1812	The company earlier this year adopted a shareholder-rights plan
+T30	Argument 1816 1841	ward off unwanted suitors
+#1	AnnotatorNotes E6	Motivation because this is really saying offering the package was spurred.
+#2	AnnotatorNotes E8	Questionable

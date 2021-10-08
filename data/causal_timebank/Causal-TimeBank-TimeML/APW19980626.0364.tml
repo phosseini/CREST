@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>APW19980626.0364</DOCID>
+<DCT><TIMEX3 tid="t0" type="TIME" value="1998-06-26T07:07:00" temporalFunction="false" functionInDocument="CREATION_TIME">1998-06-26T07:07:00</TIMEX3></DCT>
+<TEXT>
+ BONN, Germany ( AP ) _ A phony address listed on disclosure forms for a French donor will <EVENT eid="e1" class="STATE">cost</EVENT> the far-right German People's Union about 549,000 marks ( dlrs 305,000 ), parliament <EVENT eid="e2" class="REPORTING">said</EVENT> <TIMEX3 tid="t3" type="DATE" value="1998-06-26" anchorTimeID="t0" functionInDocument="NONE">Friday</TIMEX3>.
+ Parliamentary president Rita Suessmuth <EVENT eid="e4" class="REPORTING">said</EVENT> the People's Union correctly <EVENT eid="e5" class="OCCURRENCE">listed</EVENT> Jacques de Mathan as having <EVENT eid="e6" class="OCCURRENCE">donated</EVENT> about 274,500 marks in <TIMEX3 tid="t7" type="DATE" value="1995" functionInDocument="NONE">1995</TIMEX3>, but <EVENT eid="e8" class="OCCURRENCE">gave</EVENT> a false address for him.
+ German law <EVENT eid="e9" class="I_STATE">requires</EVENT> parties to <EVENT eid="e10" class="OCCURRENCE">publish</EVENT> the name and address of anyone who <EVENT eid="e11" class="OCCURRENCE">donates</EVENT> more than 20,000 marks ( dlrs 11,000 ).
+ The anti-foreigner party <EVENT eid="e12" class="REPORTING">said</EVENT> it <EVENT eid="e13" class="I_STATE">wanted</EVENT> to <EVENT eid="e14" class="OCCURRENCE">protect</EVENT> the donor from possible <EVENT eid="e15" class="OCCURRENCE">attacks</EVENT>.
+ Suessmuth <EVENT eid="e16" class="REPORTING">said</EVENT>, however, that the law does not <EVENT eid="e17" class="I_STATE">allow</EVENT> for <EVENT eid="e18" class="OCCURRENCE">providing</EVENT> a false address for any reason.
+ The fine is twice the donation, as provided for under German party financing laws.
+ Party spokesman Bernd Droese <EVENT eid="e19" class="REPORTING">said</EVENT> the People's Union would <EVENT eid="e20" class="OCCURRENCE">challenge</EVENT> the fine in court.
+ The extremist party <TIMEX3 tid="t21" type="DATE" value="PAST_REF" anchorTimeID="t0" functionInDocument="NONE">recently</TIMEX3> <EVENT eid="e22" class="OCCURRENCE">took</EVENT> a surprising 13 percent of the vote in <EVENT eid="e23" class="OCCURRENCE">elections</EVENT> in a depressed eastern German state, and <EVENT eid="e24" class="I_STATE">hopes</EVENT> to <EVENT eid="e25" class="I_STATE">win</EVENT> its first seats in the federal parliament <TIMEX3 tid="t26" type="DATE" value="1998-09" anchorTimeID="t0" functionInDocument="NONE">this September</TIMEX3>.
+ UR ( pfg-xx )
+</TEXT>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToTime="t3"/>
+<TLINK lid="l2" relType="IDENTITY" eventInstanceID="ei4" relatedToEventInstance="ei2"/>
+<TLINK lid="l3" relType="AFTER" eventInstanceID="ei5" relatedToEventInstance="ei6"/>
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t7"/>
+<TLINK lid="l5" relType="INCLUDES" eventInstanceID="ei9" relatedToTime="t0"/>
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei10" relatedToEventInstance="ei11"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei12" relatedToTime="t0"/>
+<TLINK lid="l8" relType="IDENTITY" eventInstanceID="ei16" relatedToEventInstance="ei4"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei19" relatedToTime="t0"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToTime="t21"/>
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToEventInstance="ei23"/>
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei23" relatedToTime="t21"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei24" relatedToTime="t0"/>
+<TLINK lid="l14" relType="IS_INCLUDED" eventInstanceID="ei25" relatedToTime="t26"/>
+</TimeML>

@@ -1,0 +1,76 @@
+T1	NonCausal 222 227	Since
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 228 260;261 287	he took the head coaching job at bottom-dwelling Vanderbilt
+T3	Argument 289 324;325 385	the question Bobby Johnson is asked most often is not, "Why will things be different under you?"
+T4	Consequence 956 958	if
+E2	Consequence:T4 Arg1:T5 Arg0:T6
+A2	Hypothetical E2
+T5	Argument 893 955	Johnson will be signing plenty of autographs with his own name
+T6	Argument 959 988	he reaches his goal this year
+T7	NonCausal 1108 1113	After
+E3	NonCausal:T7 Arg0:T8 Arg1:T9
+A3	Temporal E3
+T8	Argument 1114 1148	Vanderbilt opens with Georgia Tech
+T9	Argument 1150 1153;1154 1221;1222 1252	the Commodores will play host to Furman, which is Johnson's former team and a Division I-AA powerhouse
+T10	NonCausal 1331 1335	when
+E4	NonCausal:T10 Arg0:T11 Arg1:T12
+A4	Temporal E4
+T11	Argument 1336 1358	we scheduled that game
+T12	Argument 1360 1385;1386 1394	I was feeling pretty good about it
+T13	Motivation 1605 1615	every time
+E5	Motivation:T13 Effect:T14 Cause:T15
+A5	Degree E5 Facilitate
+T14	Argument 1546 1597;1598 1604	Auburn football players are reminded of last year's losses
+T15	Argument 1616 1644	they go into the weight room
+T16	Purpose 2024 2026	to
+E6	Purpose:T16 Cause:T19 Effect:T20
+A7	Degree E6 Facilitate
+T17	Motivation 1294 1297	Let
+E7	Motivation:T17 Effect:T18
+A8	Degree E7 Facilitate
+A9	Obligation-permission E7
+T18	Argument 1298 1300;1301 1320;1321 1385;1386 1394	me just say that three years ago when we scheduled that game, I was feeling pretty good about it
+T19	Argument 2027 2048	play well this season
+T20	Argument 2050 2076;2077 2079	we have to let last season go
+T21	Consequence 2374 2382	Now that
+E8	Consequence:T21 Cause:T22 Effect:T23
+A10	Degree E8 Facilitate
+A11	Temporal E8
+T22	Argument 2383 2413;2414 2434	Eli has put on about 15 pounds and weighs about 220
+T23	Argument 2436 2466	his size is closer to Peyton's
+T24	Motivation 2938 2942	when
+E9	Motivation:T24 Cause:T25 Effect:T26
+A12	Degree E9 Facilitate
+A13	Temporal E9
+T25	Argument 2943 2951;2952 2977	you have billboards and a campaign
+T26	Argument 2916 2937	It gets a little fake
+T27	Consequence 3267 3273	allows
+E10	Consequence:T27 Cause:T28 Effect:T29
+A14	Degree E10 Facilitate
+T28	Argument 3205 3245;3246 3266	A change in the rules and a fluke in the calendar this season
+T29	Argument 3274 3308;3309 3314	colleges to play 12 regular-season games
+T30	Motivation 3702 3706	with
+E11	Motivation:T30 Effect:T31 Cause:T32
+A16	Degree E11 Facilitate
+T31	Argument 3676 3701	it wasn't going to happen
+T32	Argument 3707 3725	the 11-game format
+T33	Consequence 3853 3855	If
+E12	Consequence:T33 Cause:T34 Effect:T35
+A17	Degree E12 Facilitate
+A18	Hypothetical E12
+T34	Argument 3856 3886	you look down the road too far
+T35	Argument 3888 3918;3919 3928	you get your feet cut out from under you
+T39	NonCausal 3416 3421	after
+E14	NonCausal:T39 Arg0:T41 Arg1:T40
+A20	Temporal E14
+T40	Argument 3399 3415	Miami on Sept. 7
+T41	Argument 3422 3440;3441 3464	the Gators open up with Alabama-Birmingham
+A6	Correlation E5
+T42	Consequence 345 348	Why
+E15	Consequence:T42 Effect:T43
+A15	Degree E15 Facilitate
+T43	Argument 349 383	will things be different under you
+A21	Degree E2 Facilitate
+A19	Obligation-permission E10
+A22	Context E11

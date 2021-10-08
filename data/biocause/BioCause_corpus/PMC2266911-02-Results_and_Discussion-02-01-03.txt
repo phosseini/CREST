@@ -1,0 +1,23 @@
+Repeats-in-toxin (RTX) and other toxins 
+RTX proteins constitute another family of toxins that may contribute to the insecticidal activity of the two pathogens.
+A putative RTX-family toxin transporter is common to both pathogens (YE1998-2000, Plu0634/Plu0635).
+The P. luminescens genome comprises a gene cluster encoding RTX proteins, namely plu1330-1369.
+Further RTX toxins are encoded by plu3217, plu3324 (both RTX A-family), plu4117 (own family), and plu3668 (RTX cytotoxin), none of which is present in Y. enterocolitica.
+This pathogen produces only one RTX protein (YE1322) for which a truncated homologue is found in P. luminescens (Plu3209).
+Other examples of toxins common for both bacterial species compared here are homologues of XaxAB, an apoptotic AB toxin of X. nematophila [68], and proteins encoded by the macrophage toxin (mt)-like genes Plu2288 and Plu0359 with high similarity to YE2685.
+cnf encoding the cytonecrosis factor-like toxin is present in Y. enterocolitica (YE2091) and P. luminescens ssp. akhurstii strain W14, but not in P. luminescens ssp. laumondii strain TT01 (Fig. 4).
+P. luminescens produces a series of proteins similar to toxins that have been identified in other bacteria, but are absent in Y. enterocolitica.
+Examples identified are Txp40, a 40 kD insecticidal toxin [69], the nematicidal toxin (Xnp2) first described in X. bovienii (accession number AJ296651.1), galA (plu0840) similar to the enterotoxin Ast of Aeromonas hydrophila which is involved in carbohydrate transport and metabolism [70], and two dermonecrotizing toxin-(dnt-) like factors (plu2400 and plu2420).
+In addition, neither the crystal proteins encoded by cipA and cipB in P. luminescens nor a Bt-like toxin (plu1537) could be found in Y. enterocolitica.
+A cytonecrosis factor (CNF)-like protein, Pnf, was identified in P. luminescens ssp. akhurstii strain W14, but not in P. luminescens ssp. laumondii strain TT01.
+In P. luminescens, the two paralogs plu4092 and plu4436 encode juvenile hormone esterases (JHE) for which insect toxicity has already been demonstrated [24].
+Additionally, neither the locus mcf that confers insecticidal activity of P. luminescens towards M. sexta [71] by inducing apoptosis [72], nor the homologous gene locus mcf2 (plu3128) [73] are present in the genome of Y. enterocolitica.
+Most of these toxins probably contribute to the higher insect toxicity of P. luminescens against the tobacco hornworm in comparison with Y. enterocolitica.
+No homologues of the Y. pestis gene coding for enhancin (YPO0339) could be found for which a role in flea colonization was predicted [74].
+We also identified several virulence genes and operons that are present in Y. enterocolitica, but not in P. luminescens, suggesting that they have been acquired by horizontal gene transfer from other bacteria and do not play a role in bacteria-insect association.
+Examples are SopB, a host cell invasion factor translocated via the type-III secretion system that is present in the emerging human pathogen P. asymbiotica, but not in the insect pathogen P. luminescens [14], a putative effector protein (YE2447) with proteolytic activity, and a homologue of SrfA which is negatively regulated by PhoP in S. typhimurium [75].
+The SrfA homologue has been demonstrated to be up-regulated by environmental temperature [67].
+Other virulence factors absent in P. luminescens are the opg cluster (YE1604-1606) and ProP (YE3594), both involved in osmoprotection [76], cellulose biosynthesis (YE4072-4078) associated with protection from chemical and mechanical stress [60], the methionine-salvage pathway (YE3228-3235) also involved in AHL production [23], the putative ADP-ribosyltransferase toxin encoded by ytxAB (ye2124/ye2123) [77], and the Yersinia heat-stable toxin Yst [78] which is stronger expressed at 28degreesC than at 37degreesC (Table 1).
+Summarizing, the large variety of diverse toxins present in P. luminescens, but absent in Y. enterocolitica, might contribute to the higher toxicity towards insects of P. luminescens in comparison to Y. enterocolitica.
+Toxins only present in Y. enterocolitica are assumed to play a major role in its pathogenicity towards mammalians, and some of them might have been acquired by horizontal gene transfer.
+Examples of those factors are shown in Fig. 5.

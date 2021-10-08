@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>VOA19980331.1700.1533</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-03-31" temporalFunction="false" functionInDocument="CREATION_TIME">1998-03-31</TIMEX3></DCT>
+<TEXT>
+ The US government recently <EVENT eid="e1" class="REPORTING">announced</EVENT> new regulations <EVENT eid="e2" class="I_STATE">designed</EVENT> to <EVENT eid="e3" class="OCCURRENCE">change</EVENT> the way transplant organs are made available to sick patients.
+ Under the new guidelines, donor organs will be made available to the sickest people first, wherever they live in the country.
+ Currently, transplant organs are rationed through a regional system of distribution.
+ The private group that <EVENT eid="e4" class="OCCURRENCE">runs</EVENT> the current system, United Network for Organ Sharing, or UNOS, objects to the new regulations.
+ UNOS <EVENT eid="e5" class="REPORTING">says</EVENT> the regulations <EVENT eid="e6" class="OCCURRENCE">put</EVENT> the federal government in charge of <EVENT eid="e7" class="OCCURRENCE">deciding</EVENT> who <EVENT eid="e8" class="OCCURRENCE">gets</EVENT> transplants and that many hospital transplant centers would be <EVENT eid="e9" class="OCCURRENCE">forced</EVENT> to <EVENT eid="e10" class="OCCURRENCE">close</EVENT>.
+ Health and Human Services Secretary Do - Donna Shalala <EVENT eid="e11" class="REPORTING">says</EVENT> patients who <EVENT eid="e12" class="I_STATE">need</EVENT> an organ transplant should not have to <EVENT eid="e13" class="OCCURRENCE">take</EVENT> a chance that an organ will <EVENT eid="e14" class="OCCURRENCE">become</EVENT> available in their local area, nor should patients have to <EVENT eid="e15" class="OCCURRENCE">travel</EVENT> to transplant centers far from their homes to <EVENT eid="e16" class="OCCURRENCE">improve</EVENT> their chances of <EVENT eid="e17" class="OCCURRENCE">getting</EVENT> an organ.
+ UNOS spokeswoman Donna Henry Wright <EVENT eid="e18" class="REPORTING">says</EVENT> the new policy would not necessarily be more <EVENT eid="e19" class="STATE">fair</EVENT> or <EVENT eid="e20" class="STATE">effective</EVENT> <C-SIGNAL cid="c21">because</C-SIGNAL> allowances are already <EVENT eid="e22" class="OCCURRENCE">made</EVENT> for the most needy patients.
+ The sickest patients are already <EVENT eid="e23" class="OCCURRENCE">treated</EVENT> first.
+ There are not huge waiting uh disparit - waiting time disparities amongst the very uh sickest patients.
+ It's between <TIMEX3 tid="t24" type="DURATION" value="P2D" functionInDocument="NONE">two</TIMEX3> to <TIMEX3 tid="t25" type="DURATION" value="P6D" functionInDocument="NONE">six days</TIMEX3> for every one uh of the sickest patients across the country.
+ um So it's a - it's a fallacy that they 're <EVENT eid="e26" class="OCCURRENCE">doing</EVENT> this <C-SIGNAL cid="c27">because</C-SIGNAL> um the sickest patients aren't being <EVENT eid="e28" class="OCCURRENCE">served</EVENT>.
+ Doctor James Burdick, the Professor of Transplant Surgery at Johns Hopkins University Hospital in Baltimore, Maryland, and former President of UNOS, <EVENT eid="e29" class="REPORTING">said</EVENT> the current system has <EVENT eid="e30" class="OCCURRENCE">evolved</EVENT> over <TIMEX3 tid="t31" type="DURATION" value="PXY" functionInDocument="NONE">several years</TIMEX3> and it <EVENT eid="e32" class="OCCURRENCE">works</EVENT> well.
+ You may, in <TIMEX3 tid="t33" type="DATE" value="FUTURE_REF" anchorTimeID="t0" functionInDocument="NONE">a year or two</TIMEX3>, <EVENT eid="e34" class="OCCURRENCE">save</EVENT> a few more lives if you do sickest first.
+ But the number of patients <EVENT eid="e35" class="OCCURRENCE">waiting</EVENT> then <EVENT eid="e36" class="I_ACTION">begins</EVENT> to <EVENT eid="e37" class="OCCURRENCE">increase</EVENT>, um and, in fact, um over <TIMEX3 tid="t38" type="DURATION" value="PXY" functionInDocument="NONE">the years</TIMEX3> many more patients who are about to die of liver tra - uh without a liver transplant would <EVENT eid="e39" class="OCCURRENCE">accumulate</EVENT>.
+ If you <EVENT eid="e40" class="OCCURRENCE">do</EVENT> the uh alternative extreme, you don't <EVENT eid="e41" class="OCCURRENCE">save</EVENT> as many lives in <TIMEX3 tid="t42" type="DURATION" value="PXY" functionInDocument="NONE">the early years</TIMEX3>, by a small fraction.
+ Our system <EVENT eid="e43" class="STATE">is</EVENT> balanced, it's right in the middle.
+ And, therefore, it <EVENT eid="e44" class="STATE">works</EVENT> very well.
+ Nationwide, there are about ten thousand patients <EVENT eid="e45" class="OCCURRENCE">waiting</EVENT> for liver transplants <TIMEX3 tid="t46" type="SET" value="P1Y" functionInDocument="NONE">each year</TIMEX3> and only four thousand organs <EVENT eid="e47" class="OCCURRENCE">become</EVENT> available for <EVENT eid="e48" class="OCCURRENCE">transplants</EVENT>.
+ Secretary Shalala <EVENT eid="e49" class="REPORTING">says</EVENT> UNOS <TIMEX3 tid="t50" type="DATE" value="1997-10" anchorTimeID="t0" functionInDocument="NONE">five months ago</TIMEX3>, or <EVENT eid="e51" class="OCCURRENCE">gave</EVENT> them <TIMEX3 tid="t52" type="DURATION" value="P5M" functionInDocument="NONE">five months</TIMEX3> to <EVENT eid="e53" class="OCCURRENCE">develop</EVENT> a new <EVENT eid="e54" class="I_STATE">plan</EVENT> to <EVENT eid="e55" class="OCCURRENCE">distribute</EVENT> livers which are in the shortest supply.
+ This is VOA Today.
+</TEXT>
+<MAKEINSTANCE eventID="e54" eiid="ei54" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e51" eiid="ei51" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e48" eiid="ei48" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e49" eiid="ei49" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e53" eiid="ei53" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="NONE" aspect="NONE" polarity="NEG" modality="would" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e47" eiid="ei47" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e44" eiid="ei44" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e45" eiid="ei45" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e40" eiid="ei40" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e41" eiid="ei41" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e39" eiid="ei39" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="NEG" modality="should have to" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="NEG" modality="should have to" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="NONE" aspect="NONE" polarity="NEG" modality="would" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e37" eiid="ei37" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e55" eiid="ei55" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="DURING" eventInstanceID="ei2" relatedToEventInstance="ei1"/>
+<TLINK lid="l3" relType="DURING" eventInstanceID="ei4" relatedToTime="t0"/>
+<TLINK lid="l4" relType="DURING" eventInstanceID="ei5" relatedToTime="t0"/>
+<TLINK lid="l5" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei6"/>
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei9" relatedToEventInstance="ei3"/>
+<TLINK lid="l7" relType="DURING" eventInstanceID="ei12" relatedToEventInstance="ei11"/>
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei16" relatedToEventInstance="ei15"/>
+<TLINK lid="l9" relType="AFTER" eventInstanceID="ei17" relatedToEventInstance="ei15"/>
+<TLINK lid="l10" relType="DURING" eventInstanceID="ei18" relatedToTime="t0"/>
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei19" relatedToEventInstance="ei22"/>
+<TLINK lid="l12" relType="AFTER" eventInstanceID="ei20" relatedToEventInstance="ei22"/>
+<TLINK lid="l13" relType="DURING" eventInstanceID="ei22" relatedToTime="t0"/>
+<TLINK lid="l16" relType="DURING" eventInstanceID="ei23" relatedToTime="t0"/>
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei28" relatedToEventInstance="ei26"/>
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei29" relatedToTime="t0"/>
+<TLINK lid="l20" relType="INCLUDES" timeID="t31" relatedToEventInstance="ei30"/>
+<TLINK lid="l21" relType="DURING" eventInstanceID="ei32" relatedToTime="t0"/>
+<TLINK lid="l22" relType="INCLUDES" eventInstanceID="ei34" relatedToTime="t33"/>
+<TLINK lid="l23" relType="AFTER" eventInstanceID="ei37" relatedToEventInstance="ei36"/>
+<TLINK lid="l24" relType="IS_INCLUDED" eventInstanceID="ei39" relatedToTime="t38"/>
+<TLINK lid="l25" relType="AFTER" eventInstanceID="ei41" relatedToEventInstance="ei40"/>
+<TLINK lid="l26" relType="INCLUDES" timeID="t42" relatedToEventInstance="ei41"/>
+<TLINK lid="l27" relType="DURING" eventInstanceID="ei43" relatedToTime="t0"/>
+<TLINK lid="l28" relType="DURING" eventInstanceID="ei44" relatedToTime="t0"/>
+<TLINK lid="l29" relType="INCLUDES" timeID="t46" relatedToEventInstance="ei45"/>
+<TLINK lid="l30" relType="AFTER" eventInstanceID="ei47" relatedToEventInstance="ei45"/>
+<TLINK lid="l31" relType="AFTER" eventInstanceID="ei48" relatedToEventInstance="ei47"/>
+<TLINK lid="l32" relType="INCLUDES" timeID="t50" relatedToEventInstance="ei49"/>
+<TLINK lid="l33" relType="AFTER" eventInstanceID="ei53" relatedToEventInstance="ei51"/>
+<TLINK lid="l34" relType="AFTER" eventInstanceID="ei54" relatedToEventInstance="ei53"/>
+<TLINK lid="l35" relType="AFTER" eventInstanceID="ei55" relatedToEventInstance="ei54"/>
+<CLINK lid="l14" c-signalID="c21" eventInstanceID="ei22" relatedToEventInstance="ei19"/>
+<CLINK lid="l15" c-signalID="c21" eventInstanceID="ei22" relatedToEventInstance="ei20"/>
+<CLINK lid="l18" c-signalID="c27" eventInstanceID="ei28" relatedToEventInstance="ei26"/>
+</TimeML>

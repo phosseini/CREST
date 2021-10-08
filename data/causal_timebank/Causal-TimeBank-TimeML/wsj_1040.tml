@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_1040</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-26</TIMEX3></DCT>
+<TEXT>
+ ONEIDA Ltd. <EVENT eid="e1" class="OCCURRENCE">declared</EVENT> a 10 % stock dividend, payable <TIMEX3 tid="t2" type="DATE" value="1989-12-15" anchorTimeID="t0" functionInDocument="NONE">Dec. 15</TIMEX3> to stock of record <TIMEX3 tid="t3" type="DATE" value="1989-11-17" anchorTimeID="t0" functionInDocument="NONE">Nov. 17</TIMEX3>.
+ The Oneida, N.Y., maker of consumer, food-service and industrial products also <EVENT eid="e4" class="OCCURRENCE">declared</EVENT> a quarterly cash dividend of 12 cents a share, with the same payable and record dates.
+ The cash dividend <EVENT eid="e5" class="OCCURRENCE">paid</EVENT> on the common stock also will <EVENT eid="e6" class="OCCURRENCE">apply</EVENT> to the new shares, the company <EVENT eid="e7" class="REPORTING">said</EVENT>.
+ The move <EVENT eid="e8" class="OCCURRENCE">rewards</EVENT> shareholders <C-SIGNAL cid="c9">and</C-SIGNAL> should <EVENT eid="e10" class="OCCURRENCE">improve</EVENT> the stock's liquidity, Oneida <EVENT eid="e11" class="REPORTING">said</EVENT>.
+ The company <EVENT eid="e12" class="OCCURRENCE">has</EVENT> about 8.8 million shares outstanding.
+ In New York Stock Exchange composite trading <TIMEX3 tid="t13" type="DATE" value="1989-10-25" anchorTimeID="t0" functionInDocument="NONE">yesterday</TIMEX3>, Oneida's shares <EVENT eid="e14" class="OCCURRENCE">closed</EVENT> at $ 18.375 a share, unchanged.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" modality="should" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0"/>
+<TLINK lid="l3" relType="SIMULTANEOUS" eventInstanceID="ei5" relatedToEventInstance="ei6"/>
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToTime="t0"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t0"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei12" relatedToTime="t0"/>
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t13"/>
+<CLINK lid="l5" eventInstanceID="ei8" relatedToEventInstance="ei10"/>
+</TimeML>

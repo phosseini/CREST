@@ -1,0 +1,38 @@
+Background 
+Pathogenicity as well as symbiosis plays a key role in the interaction of bacteria with their hosts including invertebrates.
+Despite the relevance of this relationship for the evolution of bacterial pathogenicity, few studies have addressed this subject at the genomic level.
+We therefore decided to perform a comparative study of the genomes of Photorhabdus luminescens and Yersinia enterocolitica.
+The former bacterium is a representative of pathogens highly virulent towards insects, but apathogenic against men.
+Y. enterocolitica, an example of a primarily human pathogen, also confers toxicity to insects, but is less toxic towards these hosts than P. luminescens.
+Members of the genus Yersinia are primarily considered as mammalian pathogens.
+However, Y. pestis, a blood-borne pathogen and the etiological agent of human plague, has long been known to be transmitted by insects, specifically by rat fleas.
+Y. enterocolitica strains have been isolated from flies that are assumed to play an important role in food contamination by this pathogen [1-3], and Y. pseudotuberculosis strains were recovered from fly larvae isolated in the wild [4].
+More recent data strongly support the idea that yersiniae are capable to interact with insects.
+Loci encoding the insecticidal toxin complexes (Tc) have been identified in the genomes of Y. pestis KIM [5], Y. pseudotuberculosis [6], and Y. enterocolitica [7].
+Y. pseudotuberculosis, in contrast to Y. pestis, has been shown to be orally toxic to flea [8].
+This toxicity revealed to be independent of tc genes, suggesting that loss of one or more insect gut toxins is a critical step in the change of the Y. pestis lifestyle compared with the Y. pseudotuberculosis and thus in evolution of flea-borne transmission [8].
+While Y. enterocolitica and Y. pseudotuberculosis have diverged within the last 200 million years, Y. pestis has emerged from Y. pseudotuberculosis only 1,500-20,000 years ago [9].
+Bacterial lysates both of Y. enterocolitica and Y. pseudotuberculosis are toxic for Manduca sexta neonates, and significant levels of natively or heterologously expressed toxins were observed in both species at 15degreesC, but not at mammalian body temperature [7,10].
+Furthermore, Y. pseudotuberculosis and Y. enterocolitica have been demonstrated to adhere to and invade cultivated insect cells [10].
+Thus, the interaction of Y. enterocolitica with insects is an important link in the ecological range of bacteria-host interactions extending from entomopathogenic to humanpathogenic bacteria.
+In contrast, Photorhabdus luminescens is predominantly an insect pathogenic enterobacterium which maintains a mutualistic interaction with heterorhabditid nematodes, and can infect a wide range of insects [11,12].
+Interestingly, another Photorhabdus species, P. asymbiotica, has been described as a human pathogen.
+It was isolated from human clinical specimens where the cells caused locally invasive soft tissue infections [13,14].
+It is assumed that these strains are associated with spiders, because spider bites where attended with Photorhabdus human infections [15].
+However, bacteria of the species P. luminescens are exclusively known to be associated with nematodes and insects.
+Generally, the bacteria colonise the gut of the infective juvenile stage of the nematode Heterorhabditis bacteriophora.
+Upon entering an insect host, the nematodes release the bacteria by regurgiation directly into the insect hemocoel, the open circulatory system of the insect.
+Once inside the hemocoel, the bacteria replicate rapidly and establish a lethal septemica in the host by the production of virulence factors such as the insecticidal toxin complexes that kill the insect within 48 hours.
+Bioconversion of the insect's body by P. luminescens produces a rich food source for the bacteria as well as for the nematodes.
+Nematode reproduction is supported by the bacteria, probably by providing essential nutrients that are required for efficient nematode proliferation [16].
+Further properties of P. luminescens are the production of many antimicrobial substances to defend the insect cadaver from bacterial competitors, and glowing due to bacterial luciferase production.
+When the insect cadaver is depleted, the nematodes and bacteria reassociate and emerge from the carcass in search of a new insect host (Fig. 1, right circle)[17,18].
+Photorhabdus species exist in two forms, designated as primary and secondary phenotypic colony variants, which differ in morphological and physiological traits.
+Primary variants are found to produce extracellular protease, extracellular lipase, intracellular protein crystals CipA and CipB, antibiotics, and are bioluminescent.
+Secondary variants lack protease, lipase and antibiotic activity, and bioluminescence is strongly decreased.
+They also differ in colony morphology, pigmentation, dye adsorption, metabolism, and the ability to support growth and reproduction of the nematodes.
+It is assumed that primary variants correspond to the nematode-associated form, and secondary variants to the insect-associated form of the bacteria [19,20].
+Therefore, P. luminescens serves as an ideal model to study the switch from a symbiotic state with nematodes to one in which the bacterium is pathogenic to insects [21,22].
+In the following comparative genome analysis, we examined the extent to which P. luminescens and Y. enterocolitica share factors that are probably attributed to insect association.
+We identified genes and the corresponding proteins involved in signalling, regulation, pathogenicity, as well as in metabolism, and suggest their possible function during colonization and infection of non-mammals.
+The results obtained not only improve our understanding of the biology of both pathogens, but also reveal some implications on the evolution of invertebrate and vertebrate virulence factors.

@@ -1,0 +1,8 @@
+Severe invasive GAS rapidly induce necrosis to human PMN 
+In an acute bacterial infection, PMN were quickly recruited at the site of infectious foci according to the gradient of chemoattractants.
+Therefore, we examined whether GAS clinically isolated from severe invasive infections could affect the migration ability of PMN in response to chemokines.
+As a model of local infection of the initial phase, we utilized a transwell system and added IL-8 and GAS in culture medium within the lower wells.
+PMN were applied in the upper wells and subsequently incubated for 90 min.
+As shown in Figure 2A and 2B, a substantial number of PMN, consisted largely of viable cells, was detected in the lower wells consisted of IL-8 and non-invasive GAS, as a control.
+Contrarily, number of PMN was significantly low in the presence of severe invasive GAS (p=0.016) compared to that of control culture.
+Flow cytometry analysis suggested that although PMN was detected in the lower well consisted of IL-8 and severe invasive GAS, but most of them were dead as defined by propidium iodine staining (p=0.016) (Figure 2A and 2C) demonstrating that severe invasive GAS affected survival of PMN and its migration activity in a transwell system.

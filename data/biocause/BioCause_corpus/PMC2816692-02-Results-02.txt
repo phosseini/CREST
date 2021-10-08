@@ -1,0 +1,10 @@
+SrcA contributes to Salmonella fitness in an animal host 
+Most SsrB-regulated gene products contribute to the intracellular survival of Salmonella in a host.
+In comparative genomics analyses, srcA was found in all virulent strains of Salmonella enterica containing SPI-2, but was absent from the cold-blooded animal commensal, S. bongori, which lacks SPI-2 (Table S1).
+This suggested a co-evolution of srcA with the SPI-2 T3SS and a possible functional relationship.
+If so, we reasoned that SrcA should contribute to animal colonization because the SPI-2 T3SS is essential for host infection.
+To determine whether SrcA contributes to Salmonella fitness in a host, we created an unmarked in-frame srcA deletion in S.
+Typhimurium and competed this strain against wild type cells in mixed oral infections of mice [25].
+After three days of infection the geometric mean competitive index (CI) for the mutant was 0.20 (95%CI 0.13-0.29) and 0.18 (95%CI 0.06-0.5) in the spleen and liver respectively (P<0.0001; Fig. 1D) indicating that bacteria lacking srcA were significantly out competed by wild type cells during systemic infection.
+To verify the role of srcA on this phenotype, we complemented the srcA mutant with a wild type srcA gene under the control of its endogenous promoter, which restored in vivo fitness to that of wild type (Fig. 1D).
+The level of attenuation of the srcA mutant was generally higher than most single effector gene mutants [26], which suggested to us that SrcA contributes to an important aspect of T3SS function in vivo.

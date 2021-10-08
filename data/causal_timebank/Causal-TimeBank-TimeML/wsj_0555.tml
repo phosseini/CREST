@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0555</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-30</TIMEX3></DCT>
+<TEXT>
+ Waxman Industries Inc. <EVENT eid="e1" class="REPORTING">said</EVENT> holders of $ 6,542,000 face amount of its 6 1/4 % convertible subordinated debentures, <EVENT eid="e2" class="STATE">due</EVENT> <TIMEX3 tid="t3" type="DATE" value="2007-03-15" functionInDocument="NONE">March 15, 2007</TIMEX3>, have <EVENT eid="e4" class="I_ACTION">elected</EVENT> to <EVENT eid="e5" class="OCCURRENCE">convert</EVENT> the debt into about 683,000 common shares.
+ The conversion price is $ 9.58 a share.
+ The company <EVENT eid="e6" class="REPORTING">said</EVENT> the holders <EVENT eid="e7" class="STATE">represent</EVENT> 52 % of the face amount of the debentures.
+ Waxman sells a variety of hardware products for the home repair market.
+</TEXT>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="ENDED_BY" eventInstanceID="ei2" relatedToTime="t3"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei4" relatedToEventInstance="ei1"/>
+<TLINK lid="l4" relType="IDENTITY" eventInstanceID="ei6" relatedToEventInstance="ei1"/>
+</TimeML>

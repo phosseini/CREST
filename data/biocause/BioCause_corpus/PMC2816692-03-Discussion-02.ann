@@ -1,0 +1,25 @@
+T1	Protein 70 74	SrcA
+T2	Protein 79 83	SsaN
+T3	Organism 399 406	E. coli
+T4	Organism 436 446	Salmonella
+T5	Protein 728 732	SsaN
+T6	Protein 767 771	SrcA
+T7	Chemical 869 877	carboxyl
+T8	Organism 946 953	E. coli
+T9	Protein 954 958	EscN
+T10	Binding 50 61	interaction
+T11	Positive_regulation 700 706	induce
+T12	Entity 711 724	ATPase domain
+T13	Binding 736 747	oligomerize
+E1	Binding:T10 Theme1:T1 Theme2:T2
+E2	Positive_regulation:T11 Theme:E3
+E3	Binding:T13 Theme:T5 Site:T12
+T14	Span 46 259	The interaction between SrcA and SsaN supports an emerging paradigm whereby secretion chaperones bring effector cargo to the T3SS through physical interaction with the hexameric ATPase at the base of the apparatus
+T15	Causality 266 287	This was demonstrated
+E4	Causality:T15 Evidence:T16 Effect:T14
+T16	Span 288 446	for chaperone-ATPase components in the flagellar type III system [17] and in non-flagellar type III systems in E. coli [27] and the SPI-1 system in Salmonella
+T17	Span 453 669	Our work shows the first chaperone-ATPase interaction for a T3SS functioning from within an intracellular vacuolar compartment and supports this interaction as a more generalize feature of type III secretion function
+T18	Span 672 958	n our experiments, we could induce the ATPase domain of SsaN to oligomerize in the presence of SrcA, but not in its absence, which was intriguing because the purified enzyme lacked a domain at the carboxyl terminus thought to be involved in oligomer stability, at least for E. coli EscN
+T19	Causality 965 988	These data suggest that
+E5	Causality:T19 Effect:T20 Evidence:T18
+T20	Span 989 1134	type III chaperones might have an as yet undefined role in assembly of the ATPase homohexamer that gives rise to efficient effector translocation

@@ -1,0 +1,311 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0585</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-30</TIMEX3></DCT>
+<TEXT>
+ Market makers in Nasdaq over-the-counter stocks are <EVENT eid="e1" class="OCCURRENCE">adding</EVENT> their voices to the swelling chorus of complaints about program trading.
+ Their motivation, however, has a strong practical aspect: Program trading is hazardous to their paychecks.
+ The most controversial form of program trading, stock-index <EVENT eid="e2" class="STATE">arbitrage</EVENT>, is " <EVENT eid="e3" class="OCCURRENCE">making</EVENT> it <EVENT eid="e4" class="STATE">tough</EVENT> for traders to make money, " <EVENT eid="e5" class="REPORTING">declares</EVENT> Robert Antolini, head of OTC trading at Donaldson, Lufkin amp Jenrette.
+ Stock-index <EVENT eid="e6" class="OCCURRENCE">arbitrage</EVENT> -- the computer-guided buying and selling of stocks with offsetting trades in stock-index futures to profit from fleeting price discrepancies -- <EVENT eid="e7" class="I_STATE">affects</EVENT> the OTC market directly through the 31 stocks included in Standard amp Poor's 500-stock index.
+ The SampP 500 is often used in arbitrage strategies.
+ The portion of OTC volume attributable to program trading isn't known, as it is on the New York Stock Exchange, where it <EVENT eid="e8" class="OCCURRENCE">amounted</EVENT> to more than 13 % in <TIMEX3 tid="t9" type="DATE" value="1989-09" anchorTimeID="t0" functionInDocument="NONE">September</TIMEX3>.
+ <EVENT eid="e10" class="I_STATE">Estimates</EVENT> from traders put it at less than 5 % of Nasdaq's average daily volume of roughly 133 million shares.
+ Other market-maker gripes: Program <EVENT eid="e11" class="OCCURRENCE">trading</EVENT> also <EVENT eid="e12" class="OCCURRENCE">causes</EVENT> the Nasdaq Composite Index to <EVENT eid="e13" class="OCCURRENCE">lose</EVENT> ground against other segments of the stock market.
+ <C-SIGNAL cid="c14">Because of</C-SIGNAL> program <EVENT eid="e15" class="OCCURRENCE">trading</EVENT> it is more <EVENT eid="e16" class="I_STATE">difficult</EVENT> to <EVENT eid="e17" class="OCCURRENCE">trade</EVENT> many OTC stocks without sharp price <EVENT eid="e18" class="OCCURRENCE">moves</EVENT>, a condition known as illiquidity.
+ Moreover, the price <EVENT eid="e19" class="STATE">volatility</EVENT> that is <EVENT eid="e20" class="OCCURRENCE">amplified</EVENT> <C-SIGNAL cid="c21">by</C-SIGNAL> program <EVENT eid="e22" class="OCCURRENCE">trading</EVENT> is <EVENT eid="e23" class="I_ACTION">undercutting</EVENT> <EVENT eid="e24" class="I_ACTION">efforts</EVENT> to <EVENT eid="e25" class="OCCURRENCE">woo</EVENT> individual investors back to an OTC market that sorely <EVENT eid="e26" class="OCCURRENCE">misses</EVENT> them.
+ Some of these <EVENT eid="e27" class="STATE">problems</EVENT> are neither new nor unique to the OTC market.
+ But the big, often tumultuous <EVENT eid="e28" class="OCCURRENCE">slide</EVENT> in stock prices <TIMEX3 tid="t29" type="DATE" value="1989-10" anchorTimeID="t0" functionInDocument="NONE">this month</TIMEX3> has <EVENT eid="e30" class="I_STATE">turned</EVENT> some of those who have been <EVENT eid="e31" class="OCCURRENCE">profiting</EVENT> from the practice against it.
+ Peter DaPuzzo, head of retail equity trading at Shearson Lehman Hutton, <EVENT eid="e32" class="REPORTING">acknowledges</EVENT> that he wasn't <EVENT eid="e33" class="STATE">troubled</EVENT> by program <EVENT eid="e34" class="OCCURRENCE">trading</EVENT> when it <EVENT eid="e35" class="ASPECTUAL">began</EVENT> in the pre-crash bull market <C-SIGNAL cid="c36">because</C-SIGNAL> it <EVENT eid="e37" class="OCCURRENCE">added</EVENT> liquidity and people were <EVENT eid="e38" class="I_STATE">pleased</EVENT> to <EVENT eid="e39" class="PERCEPTION">see</EVENT> stock prices <EVENT eid="e40" class="OCCURRENCE">rising</EVENT>.
+ " We weren't as concerned until they <EVENT eid="e41" class="OCCURRENCE">became</EVENT> sell programs, " <EVENT eid="e42" class="REPORTING">says</EVENT> Mr. DaPuzzo, who <TIMEX3 tid="t43" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">now</TIMEX3> <EVENT eid="e44" class="I_STATE">thinks</EVENT> it <EVENT eid="e45" class="OCCURRENCE">adds</EVENT> unnecessary volatility.
+ Shearson Lehman, however, executes program trades for clients.
+ Merrill Lynch, Goldman Sachs and Kidder Peabody, in addition to Shearson, do program-trade OTC stocks.
+ Shearson, Merrill Lynch and Goldman Sachs say they do so only for customers, however.
+ Kidder Peabody does program trading for its own as well as clients ' accounts.
+ Of course, there were sell <EVENT eid="e46" class="STATE">programs</EVENT> in <TIMEX3 tid="t47" type="DATE" value="PAST_REF" anchorTimeID="t0" functionInDocument="NONE">past years</TIMEX3>, too, but they <EVENT eid="e48" class="I_STATE">seem</EVENT> to <EVENT eid="e49" class="OCCURRENCE">hurt</EVENT> market makers more painfully <TIMEX3 tid="t50" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">these days</TIMEX3>.
+ That's largely <C-SIGNAL cid="c51">because of</C-SIGNAL> defensive <EVENT eid="e52" class="OCCURRENCE">measures</EVENT> they <EVENT eid="e53" class="OCCURRENCE">adopted</EVENT> after the <TIMEX3 tid="t54" type="DATE" value="1987" functionInDocument="NONE">1987</TIMEX3> <EVENT eid="e55" class="OCCURRENCE">crash</EVENT>, when individual investors <EVENT eid="e56" class="OCCURRENCE">fled</EVENT> the market and trading activity <EVENT eid="e57" class="OCCURRENCE">dwindled</EVENT>.
+ Market makers, to <EVENT eid="e58" class="OCCURRENCE">cut</EVENT> costs, <EVENT eid="e59" class="OCCURRENCE">slashed</EVENT> inventories of stocks they keep on hand to sell investors when other holders aren't selling.
+ And to <EVENT eid="e60" class="I_ACTION">protect</EVENT> their reduced capital investment from <EVENT eid="e61" class="OCCURRENCE">eroding</EVENT> further, market makers <EVENT eid="e62" class="STATE">became</EVENT> quicker to <EVENT eid="e63" class="OCCURRENCE">lower</EVENT> price quotes when sell programs are <EVENT eid="e64" class="STATE">in</EVENT> progress.
+ On days when prices are tumbling, they must be <EVENT eid="e65" class="I_STATE">willing</EVENT> to <EVENT eid="e66" class="OCCURRENCE">buy</EVENT> shares from sellers when no one else will.
+ In such an environment, market makers can <EVENT eid="e67" class="OCCURRENCE">suffer</EVENT> huge <EVENT eid="e68" class="OCCURRENCE">losses</EVENT> both on trades made that day at steadily dropping prices and in the value of their inventories of shares.
+ " It <EVENT eid="e69" class="I_STATE">makes</EVENT> no <EVENT eid="e70" class="I_STATE">sense</EVENT> for us to <EVENT eid="e71" class="OCCURRENCE">put</EVENT> money at risk when you <EVENT eid="e72" class="I_STATE">know</EVENT> you 're going to lose, " <EVENT eid="e73" class="REPORTING">says</EVENT> Mr. Antolini, of Donaldson Lufkin.
+ But this <EVENT eid="e74" class="STATE">skittishness</EVENT>, Mr. Antolini says, is <EVENT eid="e75" class="OCCURRENCE">creating</EVENT> liquidity <EVENT eid="e76" class="STATE">problems</EVENT> in certain OTC stocks.
+ " It's <EVENT eid="e77" class="STATE">harder</EVENT> to sell stocks when the sell programs come in <C-SIGNAL cid="c78">because</C-SIGNAL> some market makers don't <EVENT eid="e79" class="I_STATE">want</EVENT> to { take the orders }.
+ No one has big positions and no one wants to take big risks. "
+ Joseph Hardiman, president of the National Association of Securities Dealers, which oversees trading on Nasdaq, <EVENT eid="e80" class="I_ACTION">agrees</EVENT> that program trading is <EVENT eid="e81" class="OCCURRENCE">hurting</EVENT> the market's <EVENT eid="e82" class="I_ACTION">efforts</EVENT> to <EVENT eid="e83" class="OCCURRENCE">bring</EVENT> back small investors.
+ But, he <EVENT eid="e84" class="REPORTING">observes</EVENT>, while makers <EVENT eid="e85" class="I_STATE">suffer</EVENT> <EVENT eid="e86" class="OCCURRENCE">losses</EVENT> when program trading <EVENT eid="e87" class="OCCURRENCE">drags</EVENT> the market down, they also <EVENT eid="e88" class="OCCURRENCE">make</EVENT> money when program trading <EVENT eid="e89" class="OCCURRENCE">pushes</EVENT> the prices higher.
+ " Sometimes { traders } <EVENT eid="e90" class="OCCURRENCE">lose</EVENT> sight of that, " he <EVENT eid="e91" class="REPORTING">says</EVENT>.
+ The OTC stocks in the SampP 500 include Nasdaq's biggest, such as Apple Computer, MCI Communications, Tele - Communications and Liz Claiborne.
+ These big stocks greatly influence the Nasdaq Composite Index.
+ When the computers say " sell, " the composite tumbles as well as the Dow Jones Industrial Average.
+ The problem, market makers say, is that while the industrial average and the SampP 500 usually recover as buy programs kick in, the Nasdaq Composite frequently is left behind.
+ <TIMEX3 tid="t92" type="DURATION" value="P8D" functionInDocument="NONE">Eight trading days</TIMEX3> after <TIMEX3 tid="t93" type="DATE" value="1989-10-12" anchorTimeID="t0" functionInDocument="NONE">Oct. 12</TIMEX3>, <TIMEX3 tid="t94" type="DATE" value="1989-10-12" anchorTimeID="t93" functionInDocument="NONE">the day</TIMEX3> before the stock market <EVENT eid="e95" class="OCCURRENCE">plunge</EVENT>, for instance, the Nasdaq Composite had <EVENT eid="e96" class="OCCURRENCE">fallen</EVENT> 4.3 %, compared with 3.3 % for the SampP 500, 3.5 % for the New York Stock Exchange Composite Index and 3.6 % for the industrial average.
+ This gap eventually <EVENT eid="e97" class="OCCURRENCE">closes</EVENT>, but slowly.
+ <TIMEX3 tid="t98" type="DURATION" value="P3D" functionInDocument="NONE">Three days</TIMEX3> later, as of <TIMEX3 tid="t99" type="DATE" value="1989-10-27" anchorTimeID="t0" functionInDocument="NONE">Friday</TIMEX3>'s <EVENT eid="e100" class="OCCURRENCE">close</EVENT>, the Nasdaq Composite was down 6 %, compared with 5.9 % for the industrial average, 5.7 % for the SampP 500 and 5.8 % for the Big Board Composite.
+ <C-SIGNAL cid="c101">The main reason for</C-SIGNAL> this <EVENT eid="e102" class="OCCURRENCE">lag</EVENT> is that individual investors <EVENT eid="e103" class="STATE">own</EVENT> 65 % of the OTC market's capitalization, <EVENT eid="e104" class="REPORTING">according</EVENT> to Mr. Hardiman, much more than on the Big Board.
+ Such investors tend to be more cautious than institutional investors are about re-entering the market after massive selloffs, market makers say.
+ The Nasdaq Composite Index <EVENT eid="e105" class="OCCURRENCE">tumbled</EVENT> 5.39, or 1.2 % to 452.76 on <TIMEX3 tid="t106" type="DATE" value="1989-10-27" anchorTimeID="t0" functionInDocument="NONE">Friday</TIMEX3>.
+ For <TIMEX3 tid="t107" type="DATE" value="1989-WXX" anchorTimeID="t0" functionInDocument="NONE">the week</TIMEX3>, the index <EVENT eid="e108" class="OCCURRENCE">dropped</EVENT> 3.8 %.
+ <EVENT eid="e109" class="STATE">Weakness</EVENT> in big technology stocks <EVENT eid="e110" class="OCCURRENCE">hurt</EVENT> the composite as well as the Nasdaq 100 Index, which <EVENT eid="e111" class="OCCURRENCE">fell</EVENT> 1.4 %, or 6.43, on <TIMEX3 tid="t112" type="DATE" value="1989-10-27" anchorTimeID="t0" functionInDocument="NONE">Friday</TIMEX3>, to 437.68.
+ The Nasdaq Financial Index <EVENT eid="e113" class="OCCURRENCE">lost</EVENT> about 1 %, or 3.95, to 448.80.
+ <TIMEX3 tid="t114" type="DATE" value="1989-10-27" anchorTimeID="t0" functionInDocument="NONE">Friday</TIMEX3>'s trading volume <EVENT eid="e115" class="STATE">totaled</EVENT> 132.8 million shares.
+ The average daily share turnover for <TIMEX3 tid="t116" type="DATE" value="1989-10" anchorTimeID="t0" functionInDocument="NONE">October</TIMEX3> is almost 148 million shares.
+ LIN Broadcasting <EVENT eid="e117" class="OCCURRENCE">surged</EVENT> 4 5/8 to 112 5/8;
+ LIN and BellSouth <EVENT eid="e118" class="OCCURRENCE">sweetened</EVENT> their merger agreement in an <EVENT eid="e119" class="I_ACTION">attempt</EVENT> to <EVENT eid="e120" class="I_ACTION">keep</EVENT> shareholders from <EVENT eid="e121" class="OCCURRENCE">tendering</EVENT> their shares to McCaw Cellular Communications.
+ McCaw, which <EVENT eid="e122" class="OCCURRENCE">dropped</EVENT> 2 1/2 to 37 3/4, has <EVENT eid="e123" class="OCCURRENCE">offered</EVENT> $ 125 a share for a majority of LIN's shares.
+ The revised LIN - BellSouth agreement <EVENT eid="e124" class="OCCURRENCE">boosts</EVENT> the dollar amount of the special dividend LIN promises to pay shareholders.
+ LIN <TIMEX3 tid="t125" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">now</TIMEX3> <EVENT eid="e126" class="I_STATE">plans</EVENT> to <EVENT eid="e127" class="OCCURRENCE">dole</EVENT> out $ 42 a share in cash, up from the earlier $ 20 amount.
+ Intel <EVENT eid="e128" class="OCCURRENCE">eased</EVENT> 1/8 to 31 7/8.
+ The semiconductor concern <EVENT eid="e129" class="REPORTING">said</EVENT> the <EVENT eid="e130" class="ASPECTUAL">interruption</EVENT> in <EVENT eid="e131" class="OCCURRENCE">shipment</EVENT> of its 80486 computer chip will be <EVENT eid="e132" class="STATE">brief</EVENT> and <EVENT eid="e133" class="STATE">have</EVENT> little <EVENT eid="e134" class="STATE">impact</EVENT> on the company's earnings.
+ The stock <EVENT eid="e135" class="OCCURRENCE">fell</EVENT> 7/8 <TIMEX3 tid="t136" type="DATE" value="1989-10-26" anchorTimeID="t0" functionInDocument="NONE">Thursday</TIMEX3> amid <EVENT eid="e137" class="I_STATE">concerns</EVENT> over problems discovered with the chip.
+ Intel <EVENT eid="e138" class="REPORTING">told</EVENT> analysts that the company will <EVENT eid="e139" class="ASPECTUAL">resume</EVENT> <EVENT eid="e140" class="OCCURRENCE">shipments</EVENT> of the chips within <TIMEX3 tid="t141" type="DURATION" value="P2W" functionInDocument="NONE">two to three weeks</TIMEX3>.
+ Weisfield's <EVENT eid="e142" class="OCCURRENCE">rocketed</EVENT> 9 1/2 to 39 after the jewelry store operator <EVENT eid="e143" class="REPORTING">said</EVENT> it is in preliminary <EVENT eid="e144" class="OCCURRENCE">discussions</EVENT>, with a party it wouldn't <EVENT eid="e145" class="OCCURRENCE">identify</EVENT>, regarding the possible <EVENT eid="e146" class="OCCURRENCE">acquisition</EVENT> of the company.
+ Starpointe Savings Bank <EVENT eid="e147" class="OCCURRENCE">rose</EVENT> 3 to 20 after the Federal Deposit Insurance Corp. <EVENT eid="e148" class="I_ACTION">approved</EVENT> Dime Savings Bank of New York's $ 21-a-share <EVENT eid="e149" class="OCCURRENCE">acquisition</EVENT> of Starpointe.
+ Kirschner Medical <EVENT eid="e150" class="OCCURRENCE">fell</EVENT> 4 to 15.
+ The company <EVENT eid="e151" class="REPORTING">said</EVENT> its <TIMEX3 tid="t152" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> earnings will probably be <EVENT eid="e153" class="STATE">lower</EVENT> than the 16 cents a share it <EVENT eid="e154" class="REPORTING">reported</EVENT> <TIMEX3 tid="t155" type="DATE" value="1988" anchorTimeID="t0" functionInDocument="NONE">last year</TIMEX3>, despite a <EVENT eid="e156" class="OCCURRENCE">rise</EVENT> in the company's revenue.
+ Kirschner <EVENT eid="e157" class="OCCURRENCE">earned</EVENT> $ 376,000 on revenue of $ 14.5 million in <TIMEX3 tid="t158" type="DATE" value="1988-Q3" anchorTimeID="t152" functionInDocument="NONE">the 1988 quarter</TIMEX3>.
+ The company <EVENT eid="e159" class="I_ACTION">blamed</EVENT> a number of factors for the earnings <EVENT eid="e160" class="OCCURRENCE">decline</EVENT>, including softer <EVENT eid="e161" class="OCCURRENCE">sales</EVENT> of joint-implants.
+</TEXT>
+<MAKEINSTANCE eventID="e133" eiid="ei133" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e132" eiid="ei132" tense="FUTURE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e131" eiid="ei131" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e130" eiid="ei130" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e137" eiid="ei137" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e135" eiid="ei135" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e134" eiid="ei134" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER"/>
+<MAKEINSTANCE eventID="e139" eiid="ei139" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e138" eiid="ei138" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e160" eiid="ei160" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e120" eiid="ei120" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e121" eiid="ei121" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e122" eiid="ei122" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e123" eiid="ei123" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e124" eiid="ei124" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e126" eiid="ei126" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e127" eiid="ei127" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e128" eiid="ei128" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e129" eiid="ei129" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e118" eiid="ei118" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e59" eiid="ei59" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e58" eiid="ei58" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e55" eiid="ei55" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e57" eiid="ei57" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e56" eiid="ei56" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e53" eiid="ei53" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e52" eiid="ei52" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e115" eiid="ei115" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e88" eiid="ei88" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e89" eiid="ei89" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e111" eiid="ei111" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e110" eiid="ei110" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e113" eiid="ei113" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e82" eiid="ei82" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e83" eiid="ei83" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e80" eiid="ei80" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e81" eiid="ei81" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e86" eiid="ei86" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e87" eiid="ei87" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e84" eiid="ei84" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e85" eiid="ei85" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e108" eiid="ei108" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e109" eiid="ei109" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e102" eiid="ei102" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e103" eiid="ei103" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e100" eiid="ei100" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e104" eiid="ei104" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e105" eiid="ei105" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e39" eiid="ei39" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e38" eiid="ei38" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e37" eiid="ei37" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e60" eiid="ei60" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e61" eiid="ei61" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e62" eiid="ei62" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e63" eiid="ei63" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e64" eiid="ei64" tense="PRESENT" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
+<MAKEINSTANCE eventID="e65" eiid="ei65" tense="NONE" aspect="NONE" polarity="POS" modality="must" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e66" eiid="ei66" tense="INFINITIVE" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e67" eiid="ei67" tense="NONE" aspect="NONE" polarity="POS" modality="can" pos="VERB"/>
+<MAKEINSTANCE eventID="e68" eiid="ei68" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e69" eiid="ei69" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e91" eiid="ei91" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e90" eiid="ei90" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e95" eiid="ei95" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e161" eiid="ei161" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e97" eiid="ei97" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e96" eiid="ei96" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e117" eiid="ei117" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e151" eiid="ei151" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e150" eiid="ei150" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e153" eiid="ei153" tense="NONE" aspect="NONE" polarity="POS" modality="none" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e154" eiid="ei154" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e157" eiid="ei157" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e156" eiid="ei156" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e159" eiid="ei159" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e48" eiid="ei48" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e49" eiid="ei49" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e46" eiid="ei46" tense="PAST" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e119" eiid="ei119" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e44" eiid="ei44" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e45" eiid="ei45" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e42" eiid="ei42" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e40" eiid="ei40" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e41" eiid="ei41" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e146" eiid="ei146" tense="NONE" aspect="NONE" polarity="POS" modality="none" pos="NOUN"/>
+<MAKEINSTANCE eventID="e147" eiid="ei147" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e144" eiid="ei144" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e145" eiid="ei145" tense="NONE" aspect="NONE" polarity="NEG" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e142" eiid="ei142" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e143" eiid="ei143" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e140" eiid="ei140" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e148" eiid="ei148" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e149" eiid="ei149" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e77" eiid="ei77" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e76" eiid="ei76" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e75" eiid="ei75" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e74" eiid="ei74" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e73" eiid="ei73" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e72" eiid="ei72" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e71" eiid="ei71" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e70" eiid="ei70" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e79" eiid="ei79" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="INCLUDES" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l3" relType="SIMULTANEOUS" eventInstanceID="ei3" relatedToEventInstance="ei7"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei5" relatedToTime="t0"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToEventInstance="ei1"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei7"/>
+<TLINK lid="l7" relType="INCLUDES" eventInstanceID="ei7" relatedToTime="t0"/>
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei8" relatedToTime="t9"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei10" relatedToTime="t0"/>
+<TLINK lid="l10" relType="IDENTITY" eventInstanceID="ei11" relatedToEventInstance="ei12"/>
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei12" relatedToEventInstance="ei13"/>
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei15" relatedToEventInstance="ei16"/>
+<TLINK lid="l15" relType="SIMULTANEOUS" eventInstanceID="ei17" relatedToEventInstance="ei18"/>
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei23"/>
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei22" relatedToEventInstance="ei20"/>
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei26" relatedToEventInstance="ei25"/>
+<TLINK lid="l20" relType="INCLUDES" eventInstanceID="ei27" relatedToEventInstance="ei12"/>
+<TLINK lid="l21" relType="INCLUDES" eventInstanceID="ei27" relatedToEventInstance="ei20"/>
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei27" relatedToEventInstance="ei30"/>
+<TLINK lid="l23" relType="IS_INCLUDED" eventInstanceID="ei28" relatedToTime="t29"/>
+<TLINK lid="l24" relType="BEFORE" eventInstanceID="ei28" relatedToEventInstance="ei30"/>
+<TLINK lid="l25" relType="BEFORE" eventInstanceID="ei31" relatedToEventInstance="ei28"/>
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei32" relatedToTime="t0"/>
+<TLINK lid="l27" relType="AFTER" eventInstanceID="ei33" relatedToEventInstance="ei35"/>
+<TLINK lid="l28" relType="BEFORE" eventInstanceID="ei35" relatedToEventInstance="ei37"/>
+<TLINK lid="l29" relType="BEFORE" eventInstanceID="ei37" relatedToEventInstance="ei38"/>
+<TLINK lid="l32" relType="IS_INCLUDED" eventInstanceID="ei42" relatedToTime="t0"/>
+<TLINK lid="l33" relType="IS_INCLUDED" eventInstanceID="ei44" relatedToTime="t43"/>
+<TLINK lid="l34" relType="IS_INCLUDED" eventInstanceID="ei46" relatedToTime="t47"/>
+<TLINK lid="l35" relType="IS_INCLUDED" eventInstanceID="ei48" relatedToTime="t0"/>
+<TLINK lid="l36" relType="IS_INCLUDED" eventInstanceID="ei49" relatedToTime="t47"/>
+<TLINK lid="l37" relType="IS_INCLUDED" eventInstanceID="ei49" relatedToTime="t50"/>
+<TLINK lid="l39" relType="BEFORE" eventInstanceID="ei53" relatedToEventInstance="ei49"/>
+<TLINK lid="l40" relType="AFTER" eventInstanceID="ei53" relatedToEventInstance="ei55"/>
+<TLINK lid="l41" relType="IS_INCLUDED" eventInstanceID="ei55" relatedToTime="t54"/>
+<TLINK lid="l42" relType="IS_INCLUDED" eventInstanceID="ei56" relatedToEventInstance="ei55"/>
+<TLINK lid="l43" relType="BEFORE" eventInstanceID="ei56" relatedToEventInstance="ei57"/>
+<TLINK lid="l44" relType="IS_INCLUDED" eventInstanceID="ei57" relatedToEventInstance="ei55"/>
+<TLINK lid="l45" relType="BEFORE" eventInstanceID="ei59" relatedToTime="t0"/>
+<TLINK lid="l47" relType="IS_INCLUDED" eventInstanceID="ei63" relatedToEventInstance="ei60"/>
+<TLINK lid="l48" relType="INCLUDES" eventInstanceID="ei64" relatedToEventInstance="ei63"/>
+<TLINK lid="l49" relType="SIMULTANEOUS" eventInstanceID="ei65" relatedToEventInstance="ei66"/>
+<TLINK lid="l50" relType="SIMULTANEOUS" eventInstanceID="ei67" relatedToEventInstance="ei65"/>
+<TLINK lid="l51" relType="IDENTITY" eventInstanceID="ei67" relatedToEventInstance="ei68"/>
+<TLINK lid="l52" relType="IDENTITY" eventInstanceID="ei69" relatedToEventInstance="ei70"/>
+<TLINK lid="l53" relType="SIMULTANEOUS" eventInstanceID="ei71" relatedToEventInstance="ei72"/>
+<TLINK lid="l54" relType="BEFORE" eventInstanceID="ei73" relatedToTime="t0"/>
+<TLINK lid="l55" relType="IDENTITY" eventInstanceID="ei74" relatedToEventInstance="ei75"/>
+<TLINK lid="l56" relType="BEFORE" eventInstanceID="ei75" relatedToEventInstance="ei76"/>
+<TLINK lid="l58" relType="BEFORE" eventInstanceID="ei80" relatedToTime="t0"/>
+<TLINK lid="l59" relType="IDENTITY" eventInstanceID="ei84" relatedToEventInstance="ei80"/>
+<TLINK lid="l60" relType="IDENTITY" eventInstanceID="ei85" relatedToEventInstance="ei86"/>
+<TLINK lid="l61" relType="AFTER" eventInstanceID="ei85" relatedToEventInstance="ei87"/>
+<TLINK lid="l62" relType="AFTER" eventInstanceID="ei88" relatedToEventInstance="ei89"/>
+<TLINK lid="l63" relType="IDENTITY" eventInstanceID="ei91" relatedToEventInstance="ei84"/>
+<TLINK lid="l64" relType="ENDS" eventInstanceID="ei95" relatedToTime="t94"/>
+<TLINK lid="l65" relType="ENDS" eventInstanceID="ei96" relatedToTime="t92"/>
+<TLINK lid="l66" relType="AFTER" eventInstanceID="ei96" relatedToTime="t93"/>
+<TLINK lid="l67" relType="BEGINS" eventInstanceID="ei96" relatedToTime="t94"/>
+<TLINK lid="l68" relType="BEFORE" eventInstanceID="ei96" relatedToEventInstance="ei95"/>
+<TLINK lid="l69" relType="BEGINS" eventInstanceID="ei96" relatedToTime="t98"/>
+<TLINK lid="l70" relType="AFTER" eventInstanceID="ei97" relatedToEventInstance="ei96"/>
+<TLINK lid="l71" relType="IS_INCLUDED" eventInstanceID="ei100" relatedToTime="t99"/>
+<TLINK lid="l72" relType="BEFORE" eventInstanceID="ei103" relatedToEventInstance="ei102"/>
+<TLINK lid="l74" relType="IS_INCLUDED" eventInstanceID="ei104" relatedToTime="t0"/>
+<TLINK lid="l75" relType="IS_INCLUDED" eventInstanceID="ei105" relatedToTime="t106"/>
+<TLINK lid="l76" relType="IS_INCLUDED" eventInstanceID="ei108" relatedToTime="t107"/>
+<TLINK lid="l77" relType="BEFORE" eventInstanceID="ei109" relatedToEventInstance="ei110"/>
+<TLINK lid="l78" relType="BEFORE" eventInstanceID="ei110" relatedToEventInstance="ei111"/>
+<TLINK lid="l79" relType="IS_INCLUDED" eventInstanceID="ei111" relatedToTime="t112"/>
+<TLINK lid="l80" relType="IS_INCLUDED" eventInstanceID="ei113" relatedToTime="t112"/>
+<TLINK lid="l81" relType="INCLUDES" timeID="t114" relatedToEventInstance="ei115"/>
+<TLINK lid="l82" relType="IS_INCLUDED" eventInstanceID="ei117" relatedToTime="t112"/>
+<TLINK lid="l83" relType="IDENTITY" eventInstanceID="ei118" relatedToEventInstance="ei119"/>
+<TLINK lid="l85" relType="BEFORE" eventInstanceID="ei122" relatedToEventInstance="ei123"/>
+<TLINK lid="l86" relType="BEFORE" eventInstanceID="ei123" relatedToEventInstance="ei119"/>
+<TLINK lid="l87" relType="IS_INCLUDED" eventInstanceID="ei126" relatedToTime="t125"/>
+<TLINK lid="l88" relType="IS_INCLUDED" eventInstanceID="ei128" relatedToTime="t112"/>
+<TLINK lid="l89" relType="IS_INCLUDED" eventInstanceID="ei129" relatedToTime="t0"/>
+<TLINK lid="l90" relType="BEFORE" eventInstanceID="ei130" relatedToEventInstance="ei135"/>
+<TLINK lid="l91" relType="AFTER" eventInstanceID="ei131" relatedToTime="t0"/>
+<TLINK lid="l92" relType="IDENTITY" eventInstanceID="ei132" relatedToEventInstance="ei130"/>
+<TLINK lid="l93" relType="IDENTITY" eventInstanceID="ei133" relatedToEventInstance="ei134"/>
+<TLINK lid="l94" relType="IS_INCLUDED" eventInstanceID="ei135" relatedToTime="t136"/>
+<TLINK lid="l95" relType="SIMULTANEOUS" eventInstanceID="ei137" relatedToEventInstance="ei135"/>
+<TLINK lid="l96" relType="BEFORE" eventInstanceID="ei138" relatedToTime="t0"/>
+<TLINK lid="l97" relType="IS_INCLUDED" eventInstanceID="ei139" relatedToTime="t141"/>
+<TLINK lid="l98" relType="IS_INCLUDED" eventInstanceID="ei140" relatedToEventInstance="ei139"/>
+<TLINK lid="l99" relType="BEFORE" eventInstanceID="ei142" relatedToTime="t0"/>
+<TLINK lid="l100" relType="AFTER" eventInstanceID="ei142" relatedToEventInstance="ei143"/>
+<TLINK lid="l101" relType="INCLUDES" eventInstanceID="ei143" relatedToEventInstance="ei145"/>
+<TLINK lid="l102" relType="IS_INCLUDED" eventInstanceID="ei147" relatedToTime="t112"/>
+<TLINK lid="l103" relType="AFTER" eventInstanceID="ei147" relatedToEventInstance="ei148"/>
+<TLINK lid="l104" relType="IS_INCLUDED" eventInstanceID="ei150" relatedToTime="t112"/>
+<TLINK lid="l105" relType="INCLUDES" eventInstanceID="ei151" relatedToEventInstance="ei159"/>
+<TLINK lid="l106" relType="INCLUDES" timeID="t152" relatedToEventInstance="ei153"/>
+<TLINK lid="l107" relType="IS_INCLUDED" eventInstanceID="ei154" relatedToTime="t155"/>
+<TLINK lid="l108" relType="IS_INCLUDED" eventInstanceID="ei156" relatedToTime="t152"/>
+<TLINK lid="l109" relType="IS_INCLUDED" eventInstanceID="ei157" relatedToTime="t158"/>
+<TLINK lid="l110" relType="BEFORE" eventInstanceID="ei159" relatedToTime="t0"/>
+<CLINK lid="l2" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+<CLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei13"/>
+<CLINK lid="l14" c-signalID="c14" eventInstanceID="ei15" relatedToEventInstance="ei16"/>
+<CLINK lid="l18" eventInstanceID="ei22" relatedToEventInstance="ei20"/>
+<CLINK lid="l30" c-signalID="c36" eventInstanceID="ei37" relatedToEventInstance="ei33"/>
+<CLINK lid="l31" c-signalID="c36" eventInstanceID="ei38" relatedToEventInstance="ei33"/>
+<CLINK lid="l38" c-signalID="c51" eventInstanceID="ei52" relatedToEventInstance="ei49"/>
+<CLINK lid="l46" eventInstanceID="ei62" relatedToEventInstance="ei61"/>
+<CLINK lid="l57" c-signalID="c78" eventInstanceID="ei79" relatedToEventInstance="ei77"/>
+<CLINK lid="l73" c-signalID="c101" eventInstanceID="ei103" relatedToEventInstance="ei102"/>
+<CLINK lid="l84" eventInstanceID="ei118" relatedToEventInstance="ei121"/>
+</TimeML>

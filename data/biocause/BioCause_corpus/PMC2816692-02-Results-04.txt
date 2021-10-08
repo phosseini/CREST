@@ -1,0 +1,14 @@
+SrcA interacts with the SPI-2 T3SS ATPase 
+An emerging function for T3SS chaperones is delivery of cargo to the base of the apparatus through interactions with an ATPase.
+This was shown for the flagellar T3SS [17] and later in the virulence-associated T3SS in E. coli [16],[27] and the SPI-1 T3SS in Salmonella [15].
+However, analogous interactions have not been described for the SPI-2 T3SS.
+Since srcA expression was co-regulated with genes in SPI-2, we hypothesized that it had a functional role in this system.
+To address this biochemically we purified SrcA and the predicted ATPase for the SPI-2 T3SS, SsaN, and performed binding experiments and gel filtration chromatography of the protein mixtures.
+SsaN contains conserved amino acid residues characteristic of Walker-A and Walker-B motifs of P-loop nucleoside triphosphate hydrolases, as well as a number of residues shown to contribute to ATP binding or ring stacking with the adenine base of ATP in the E. coli orthologue, EscN, (Q412, E191, R366) (Fig. S1).
+Since SsaN had not been characterized biochemically we first verified that our purified protein had ATPase activity (Fig. S1).
+We then mixed SrcA and SsaN proteins and resolved the protein complexes by gel filtration chromatography.
+By itself, SrcA existed as a dimer in solution (Fig. 4A) with no higher oligomers present, substantiating the stoichiometry obtained from our crystal data.
+SsaN existed as a monomer with a minor population eluting in a volume consistent with a probable dimer (Fig. 4B).
+When SrcA was mixed with SsaN, a new protein complex of high molecular weight was observed, along with diminished peaks corresponding to the SrcA dimer and SsaN monomer (Fig. 4C).
+This new complex elutes with a Stokes radius consistent with an apparent molecular mass of approximately600 kDa.
+We verified the identities of protein originating from each peak by western blot (Fig. 4D) and LC-MS/MS, which showed the new complex was comprised of both SsaN and SrcA.

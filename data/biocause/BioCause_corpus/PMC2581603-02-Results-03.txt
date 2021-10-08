@@ -1,0 +1,13 @@
+DNA has cation chelating activity 
+The observation that DNA disrupted the integrity of the cell envelope causing cell lysis suggested that DNA was acting as a cation chelator.
+To confirm that DNA-mediated killing was a result of cation chelation, excess Mg2+, Ca2+, Mn2+, and Zn2+ were added to P. aeruginosa cultures.
+The rapidity of DNA-induced cell death ruled out the possibility that death, or lack of growth, was simply due to cation starvation.
+Addition of excess cations to planktonic cultures inhibited the fast-acting antimicrobial effects of DNA (Fig 3A).
+Protection was measured in response to a range of cation concentrations, where the highest concentration tested was that which remained soluble in the presence of DNA (3.125-25 mM).
+The concentration at which maximal protection was obtained for each cation is represented in Fig 3A (25 mM Mg2+; 6.25 mM Ca2+; 6.25 Mn2+; 3.125 mM Zn2+).
+Kill curve assays indicated that the addition of Mg2+, Ca2+ or Mn2+ provided protection from DNA-induced lysis, however, the addition of Zn2+ did not protect from DNA-mediated killing (Fig 3A).
+In a similar manner, the addition of excess Mg2+, Ca2+ and Mn2+ restored growth of P. aeruginosa in BM2 media.
+Only partial restoration of growth was observed in the presence of Zn2+ (Fig 3B).
+The increased protection observed following addition of Mg2+ and Ca2+ is likely due to their importance in membrane integrity where they function to stabilize the OM by crosslinking adjacent LPS molecules [58].
+Cations play diverse physiologically important roles within a cell; from detoxification of reactive oxygen species and co-factors for enzymes to the stabilization of macromolecules within the cell [62].
+Since Mg2+ limitation has been shown to be associated with CAP resistance in P. aeruginosa [44],[45],[47], we sought to determine if Mg2+ chelation by DNA may account, at least in part, for the increased antibiotic resistance observed in biofilms.

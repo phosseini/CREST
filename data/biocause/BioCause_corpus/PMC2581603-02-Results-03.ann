@@ -1,0 +1,34 @@
+T1	Chemical 254 258	Mg2+
+T2	Chemical 260 264	Ca2+
+T3	Chemical 266 270	Mn2+
+T4	Chemical 276 280	Zn2+
+T5	Organism 295 308	P. aeruginosa
+T6	Chemical 856 860	Mg2+
+T7	Chemical 870 874	Ca2+
+T8	Chemical 881 885	Mn2+
+T9	Chemical 896 900	Zn2+
+T10	Chemical 952 956	Mg2+
+T11	Chemical 958 962	Ca2+
+T12	Chemical 966 970	Mn2+
+T13	Chemical 1040 1044	Zn2+
+T14	Chemical 1141 1145	Mg2+
+T15	Chemical 1147 1151	Ca2+
+T16	Chemical 1156 1160	Mn2+
+T17	Organism 1180 1193	P. aeruginosa
+T18	Chemical 1275 1279	Zn2+
+T19	Chemical 1346 1350	Mg2+
+T20	Chemical 1355 1359	Ca2+
+T21	Chemical 1481 1484	LPS
+T22	Chemical 1592 1615	reactive oxygen species
+T23	Chemical 1710 1714	Mg2+
+T24	Chemical 1763 1766	CAP
+T25	Organism 1781 1794	P. aeruginosa
+T26	Chemical 1837 1841	Mg2+
+T27	Process 1767 1777	resistance
+T28	Process 1919 1929	resistance
+E1	Process:T27 Participant:T25
+E2	Process:T28 
+T29	Span 35 123	The observation that DNA disrupted the integrity of the cell envelope causing cell lysis
+T30	Causality 124 138	suggested that
+E3	Causality:T30 Evidence:T29 Effect:T31
+T31	Span 139 174	DNA was acting as a cation chelator

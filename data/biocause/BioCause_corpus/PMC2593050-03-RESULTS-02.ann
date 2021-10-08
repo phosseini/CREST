@@ -1,0 +1,21 @@
+T1	Organism 10 19	DeltavicK
+T2	Protein 15 19	vicK
+T3	Organism 69 85	DeltavicK mutant
+T4	Protein 74 78	vicK
+T5	Protein 242 246	vicK
+T6	Organism 278 285	S. equi
+T7	Organism 324 331	S. equi
+T8	Organism 385 402	DeltavicK S. equi
+T9	Protein 390 394	vicK
+T10	Organism 761 770	DeltavicK
+T11	Protein 766 770	vicK
+T12	Organism 814 830	DeltavicK mutant
+T13	Protein 819 823	vicK
+T14	Span 45 210	The growth curve of the DeltavicK mutant in THY displays a longer early growth phase and smaller slope in the exponential growth phase than that of the parent strain
+T15	Causality 222 237	indicating that
+E1	Causality:T15 Effect:T16 Evidence:T14
+T16	Span 238 292	the vicK deletion detrimentally affects S. equi growth
+T17	Span 642 792	The growth factors, the ratio of cfu in the sample at 4 h over cfu at time zero, were 250 and 66 for the wild type and DeltavicK strains, respectively
+T18	Causality 804 808	Thus
+E2	Causality:T18 Effect:T19 Evidence:T17
+T19	Span 810 900	the DeltavicK mutant has significantly reduced ability to grow in rabbit blood (P <0.0001)

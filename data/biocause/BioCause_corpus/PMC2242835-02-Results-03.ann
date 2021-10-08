@@ -1,0 +1,41 @@
+T1	Organism 187 192	H37Ra
+T2	Organism 232 237	H37Ra
+T3	Organism 242 247	H37Rv
+T4	Organism 483 488	H37Ra
+T5	Organism 522 527	H37Rv
+T6	Organism 587 592	H37Ra
+T7	Organism 698 710	H37Ra::fadE5
+T8	Protein 705 710	fadE5
+T9	Organism 726 737	H37Ra::rpsL
+T10	Protein 733 737	rpsL
+T11	Organism 814 825	H37Ra::phoP
+T12	Protein 821 825	phoP
+T13	Organism 991 996	H37Ra
+T14	Protein 1006 1010	phoP
+T15	Organism 1104 1109	H37Rv
+T16	Process 8 17	Virulence
+T17	Process 110 119	virulence
+T18	Process 157 166	virulence
+T19	Process 299 307	infected
+T20	Process 356 365	infection
+T21	Positive_regulation 1036 1044	restored
+T22	Process 1049 1058	virulence
+T23	Process 1095 1103	virulent
+E1	Process:T16 
+E2	Process:T17 
+E3	Process:T18 Participant:T3
+E4	Process:T18 Participant:T1
+E5	Process:T18 Participant:T2
+E6	Process:T19 Participant:T2
+E7	Process:T19 Participant:T3
+E8	Process:T19 Participant:T1
+E9	Process:T20 
+E10	Positive_regulation:T21 Theme:E11
+E11	Process:T22 Participant:T13
+E12	Process:T23 Participant:T15
+T24	Causality 931 971	From these experiments we concluded that
+E13	Causality:T24 Effect:T25 Evidence:T27
+T25	Span 972 1116	complementation of H37Ra with the phoP wild-type copy partially restored its virulence, but not to the extent of the fully virulent H37Rv strain
+T26	Span 690 929	Whereas H37Ra::fadE5 (Figure 1) and H37Ra::rpsL (unpublished data) showed very little or no growth over the 7-d period, the H37Ra::phoP mutant grew more vigorously, with a 7.5-fold increase in colony-forming units (CFU) over the 7-d period
+T27	Span 582 688	When H37Ra knock-ins were tested, important differences in their ex vivo growth characteristics were found
+E14	Causality:T24 Effect:T25 Evidence:T26

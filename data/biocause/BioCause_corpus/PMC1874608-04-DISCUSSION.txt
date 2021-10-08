@@ -1,0 +1,48 @@
+DISCUSSION 
+Analysis of the Salmonella mlc mutant revealed that invasiveness for epithelial cells was impaired by the mlc mutation (Figure 1).
+It is well known that SPI1 is required for the invasion of host cells and induction of macrophage apoptosis (2,3,40).
+The genetic evidence to date is consistent with a regulatory cascade of transcriptional activation, in which HilD, HilA and InvF act sequentially to activate SPI1 expression.
+In brief, HilD binds directly to sites upstream of hilA and invFD and acts as an activator (14,16,36).
+HilA activates the transcription of invFA and SPI1-T3SS apparatus genes required for the secretion of effector proteins, whereas the expression of effector proteins is regulated by InvF (10,11).
+This regulatory cascade implies that the reduced invasive phenotype of mlc mutant is the result of hilD repression, which affects both hilA and invF expression (Figures 1 and 2).
+The 2-3-fold decrease in hilD expression caused by the mlc mutation is sufficient to account for the nearly 10-fold decrease in hilA and invFA transcription, owing to the nature of the feed-forward regulatory loop, in that moderate effects on HilD production are amplified (9).
+Although the Salmonella mlc mutant was less invasive for epithelial cells than the wild-type strain, the extent of the reduction in invasiveness and cytotoxicity of the mlc mutant was not as great as we had expected, considering the observed reduction in SPI1 gene expression (Figure 2).
+This may be partly due to the expression of hilC, a de-repressor of hilA, which was not reduced in the mlc mutant (Figure 2A).
+The hilC mutation had little effect on SPI1 gene expression or the invasive phenotype, whereas the over-expression of hilC suppressed the hilD mutation, thereby promoting high levels of hilA and invF expression, which suggests that HilC can partially compensate for the loss of function of HilD and the invasive phenotype (8,9,15).
+We have reported previously that there may be an independent hilC regulatory pathway that is not applicable to hilA or invFA regulation when bacteria respond to changes in osmolarity (29).
+Our data clearly demonstrate that Mlc directly regulates hilE expression by binding to the hilE P3 promoter (Figure 5).
+The two Mlc-binding sites in hilE P3 identified by the gel mobility shift assay and DNase I footprinting analysis show high-level homology with the known consensus Mlc-binding sequences; additionally, the two Mlc-binding sites are separated by 98nt, as is the case for other promoters that have two Mlc-binding sites (41).
+The transcriptional start site of the hilE P3 promoter lies 335nt upstream of the ATG start codon of hilE (Figures 4B and 5C).
+It is unusual that the 5'-untranslated region (UTR) of mRNA is more than 300nt in bacteria (42).
+However, this length of 5'-UTR has been observed in other SPI1 regulators.
+The HilC/D-dependent transcriptional start site of the invFD promoter is 631bp upstream of the invF open reading frame (16).
+The UTR of the hilA gene is also up to 350nt in length, and is suggested to be involved in the complex regulation of hilA in response to environmental signals (8,12).
+It has been demonstrated that the region 190-270-bp upstream of the hilE promoter is required for the activation of hilE P2 expression by FimYZ, which is a response regulator that is involved in the expression of type 1 fimbriae and motility genes (18, Figure 5C).
+Therefore, we cannot rule out the possibility that additional cis- or trans-acting regulatory elements, which have not yet been characterized, are involved in hilE expression.
+Glucose and mannose induce the Mlc regulon (39) by dephosphorylating EIICBGlc, which then sequesters Mlc from its binding sites (27,43).
+It has been suggested that glucose plays a negative role in the expression of invasion-associated genes in Salmonella.
+The addition of excess glucose to the culture medium results in the reduction of cell association by S. Typhimurium (44).
+The glucose present in DLB (LB broth diluted 1:5) decreased hilA expression 2.5-fold, as compared to DLB without glucose, while lactose and arabinose had little effect on hilA expression (45).
+The results presented in this study support the notion that hilE expression is activated as a result of Mlc sequestration by unphosphorylated EIICBGlc in the presence of glucose.
+We observed a 2-fold activation of hilE and concomitant repression of hilD in the presence of glucose or mannose, which are known inducers of the Mlc regulon, when TB was used (Figure 6).
+However, the effect of the sugar was not seen when LB was used (data not shown).
+We speculate that the nutrient-rich LB broth may mask the effect of the sugar on hilE expression because the effect of sugar addition on hilA expression was more distinct in DLB than LB (45).
+In addition, hilE expression was also increased in the presence of arabinose, which suggests an additional regulatory mechanism mediated by arabinose.
+Interestingly, carbohydrate regulation of hilE and hilD expression in the mlc mutant created a different story.
+All of the carbohydrates tested in this study, with the exception of glycerol, increased hilD expression by approximately1.1-1.2-fold, even though hilE expression in the mlc mutant was increased by approximately30% in the presence of the sugars tested (Figure 6).
+These results suggest that the presence of complex regulatory mechanisms for hilE is required for optimal regulation of the SPI1 genes, as can be expected from the complex regulatory networks identified in Salmonella (46).
+It has been suggested that the two-component regulatory system PhoR-PhoB leads to increased hilE P2 expression and subsequent repression of hilA and invasion genes (7,18).
+The PhoR sensor kinase phosphorylates PhoB when extracellular Pi levels are low, and the phosphorylated PhoB then binds and activates the promoters in the Pho regulon.
+However, even in the absence of PhoR, many carbon sources are known to activate the Pho regulon via CreC, which is a PhoR homolog (47).
+Thus, carbon metabolism sensed by PhoB/R may also affect hilE expression (22), and this may be one of the reasons for the elevated hilE expression in the presence of carbohydrates in the mlc mutant (Figure 6A).
+Recently, Teplitski et al. (48) have reported that the expression of sirA, which is a response regulator for BarA (49), is decreased in the presence of 50mM glucose.
+The repressive effect of glucose was also observed for the downstream members of the SirA regulon, such as csrB, csrC and hilA (48,49).
+Collectively, these results show that SPI1 is not activated when Salmonella is grown in the presence of glucose (Figure 6; 44,45,48).
+Since the environmental conditions faced by Salmonella change constantly during passage through the intestine of the animal host, this bacterium should use multiple signals to modulate the virulence genes needed for survival.
+It is known that S. Typhimurium uses bile or SCFAs including acetate, propionate and butyrate, as environmental signals to modulate its invasion of the gastrointestinal tract (50-52).
+We propose that Salmonella can use the glucose concentration of the mammalian intestinal tract as one of many signals for the regulation of invasion genes.
+Salmonella may use Mlc to sense the availability of sugars, thereby allowing decisions as to when and where to initiate the expression of genes involved in invasion.
+S. Typhimurium typically invades the distal small intestine (ileum) of the mammalian upper gastrointestinal tract (53).
+Simple sugars, such as glucose, are rarely encountered in the distal ileum, as most are absorbed in the proximal portion of the small intestine (54).
+The relatively high glucose concentration in the proximal small intestine may repress SPI1 gene expression through Mlc, perhaps together with PhoR-PhoB and/or SirA, whereas upon transit to the distal ileum, the glucose concentration becomes low enough to activate the invasion genes of SPI1.
+The effects of various sugars on the differential regulation of SPI1 genes require further investigation to understand their roles in Salmonella pathogenesis.

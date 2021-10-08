@@ -1,0 +1,12 @@
+Rationale for Knock-Ins 
+To evaluate the phenotypic effect of the different SNPs and to assess their potential contribution to the attenuation process, we undertook functional genomic analyses using knock-ins of H37Ra, as described previously [18].
+Clones spanning the different genomic regions of non-synonymous SNPs were selected from an ordered H37Rv library of integrating shuttle cosmids [7,19] and individually electroporated into H37Ra, where they inserted stably into the attB site.
+By this approach we obtained appropriately complemented transformants for the SNPs in genes fadE5, rpsL, and phoP (Table S1), using cosmids I230, I563, and I36, respectively.
+Based on the known role of phoP in virulence [14], the H37Ra strain complemented with I36 (H37Ra::phoP) was accorded highest priority for further molecular characterization and functional analyses, whereas the two other recombinants (H37Ra::fadE5, H37Ra::rpsL) served as controls.
+Figure S1 shows part of the nucleotide sequence of a PCR-amplified fragment obtained from H37Ra::phoP.
+It is clearly visible that at nucleotide position 656 of phoP two peaks exist, one originating from the SNP present in H37Ra and one from the integrated cosmid I36 carrying the H37Rv wild-type copy of phoP.
+Similar results were also obtained for the SNPs in fadE5 and rpsL using cosmids I230 and I563, respectively (Figure S1).
+Correct integration of I36 was also confirmed by Southern blot.
+As depicted in Figure S2, hybridization of SpeI-digested genomic DNA with a 32P labeled phoP probe resulted in two bands of different sizes, one corresponding to the SpeI fragment harboring the H37Ra phoP gene (50 kb), and the other to the larger SpeI fragment created by integration of the I36 cosmid into the genome of H37Ra at the attB site.
+The successful integration of the cosmid was also reflected by a change in colony morphology that is shown in Figure S3.
+Indeed, Steenken and colleagues originally selected the H37Ra mutants mainly on the basis of the changes in colony morphology [6].

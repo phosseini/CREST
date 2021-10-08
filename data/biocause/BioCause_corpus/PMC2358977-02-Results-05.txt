@@ -1,0 +1,5 @@
+Decreased Resistance of DeltasalKR to PMN-Mediated Killing 
+Together with the wild type strain, DeltasalKR was subjected to PMN-mediated killing assays.
+We found that the mortality rate of both strains (WT and DeltasalKR) increased coordinately with the extension of the co-culture time with PMN cells (Fig. 6).
+However, DeltasalKR had a higher mortality rate than that of WT, which means that DeltasalKR was less able to resist killing by PMNs, key mediators of innate immunity.
+This result may account partially, if not most of all, for the virulence loss in DeltasalKR.

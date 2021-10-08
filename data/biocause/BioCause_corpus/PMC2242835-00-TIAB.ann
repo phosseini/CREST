@@ -1,0 +1,54 @@
+*	Equiv T5 T6
+*	Equiv T7 T8
+T24	Regulation 0 7	Control
+T25	Localization 34 43	Secretion
+T26	Process 212 221	virulence
+T27	Process 476 485	virulence
+T28	Localization 849 858	secretion
+T29	Positive_regulation 1045 1054	increased
+T30	Process 1055 1064	virulence
+T31	Localization 1073 1082	secretion
+T32	Localization 1238 1247	secretion
+T33	Process 1301 1310	virulence
+T34	Regulation 1311 1321	regulation
+E1	Regulation:T24 Theme:E2 Cause:T3
+E2	Localization:T25 Theme:T2
+E3	Process:T26 Participant:T4
+E4	Process:T27 Participant:T5
+E5	Process:T27 Participant:T7
+E6	Localization:T28 Theme:T15
+E7	Positive_regulation:T29 Theme:E8
+E8	Process:T30 Participant:T16
+E9	Localization:T31 Theme:T19
+E10	Localization:T32 Theme:T22
+E11	Process:T33 Participant:T23
+E12	Regulation:T34 Theme:E11
+T1	Organism 11 26	M. tuberculosis
+T2	Protein 27 33	ESAT-6
+T3	Protein 79 83	PhoP
+T4	Organism 97 118	mycobacterial strains
+T5	Organism 378 401	Mycobacterium bovis BCG
+T6	Organism 403 406	BCG
+T7	Organism 412 444	Mycobacterium tuberculosis H37Ra
+T8	Organism 446 451	H37Ra
+T9	Organism 545 548	BCG
+T10	Protein 578 584	ESAT-6
+T11	Protein 603 608	ESX-1
+T12	Organism 625 630	H37Ra
+T13	Protein 768 772	PhoP
+T14	Organism 807 812	H37Ra
+T15	Protein 887 893	ESAT-6
+T16	Organism 900 905	H37Ra
+T17	Protein 971 975	phoP
+T18	Organism 986 1007	M. tuberculosis H37Rv
+T19	Protein 1066 1072	ESAT-6
+T20	Organism 1142 1147	H37Ra
+T21	Protein 1212 1216	PhoP
+T22	Protein 1231 1237	ESAT-6
+T23	Organism 1325 1340	M. tuberculosis
+T35	Causality 1168 1192	This finding established
+E13	Causality:T35 Effect:T38 Evidence:T37
+T36	Span 672 893	here we show that a point mutation (S219L) in the predicted DNA binding region of the regulator PhoP is involved in the attenuation of H37Ra via a mechanism that impacts on the secretion of the major T cell antigen ESAT-6
+T37	Span 895 1166	Only H37Ra "knock-ins" that carried an integrated cosmid with the wild-type phoP gene from M. tuberculosis H37Rv showed changes in colony morphology, increased virulence, ESAT-6 secretion, and induction of specific T cell responses, whereas other H37Ra constructs did not
+T38	Span 1193 1340	a link between the PhoP regulator and ESAT-6 secretion that opens exciting new perspectives for elucidating virulence regulation in M. tuberculosis
+E14	Causality:T35 Effect:T38 Evidence:T36

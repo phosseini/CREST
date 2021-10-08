@@ -1,0 +1,83 @@
+T2	Consequence 646 656	because of
+E1	Consequence:T2 Effect:T3 Cause:T4
+A1	Degree E1 Facilitate
+T3	Argument 608 645	many workers were forced to stay home
+T4	Argument 657 673	damaged roadways
+T5	NonCausal 892 894	if
+E2	NonCausal:T5 Arg0:T6 Arg1:T7
+A2	Hypothetical E2
+T6	Argument 895 925	you shake them up a little bit
+T7	Argument 862 891	It's not the end of the world
+T8	Motivation 1055 1065	because of
+E3	Motivation:T8 Effect:T9 Cause:T10
+A3	Degree E3 Facilitate
+T9	Argument 931 1054	Other companies, including International Business Machines Corp. and Hewlett-Packard Co., completely idled their operations
+T10	Argument 1066 1134	Tuesday evening's temblor, which registered 6.9 on the Richter scale
+T14	Motivation 2936 2941	given
+E5	Motivation:T14 Cause:T15 Effect:T16
+A5	Degree E5 Facilitate
+T15	Argument 2942 3042	what might have happened to the fragile parts that are at the heart of the microelectronics business
+T16	Argument 3044 3114	the bulk of Valley companies seemed to be just about shouting hosannas
+T17	Consequence 3348 3352	thus
+E6	Consequence:T17 Cause:T18 Effect:T19
+A6	Degree E6 Facilitate
+T18	Argument 3310 3342	buildings there tend to be newer
+T19	Argument 3310 3336;3354 3390	buildings there tend to be in step with the latest safety codes
+T20	Note 3614 3617	for
+#2	AnnotatorNotes T20	Verbal argument ("prepared for")
+T21	Purpose 3995 3997	so
+E7	Purpose:T21 Cause:T22 Effect:T23
+A7	Degree E7 Facilitate
+T22	Argument 4003 4073	a breakdown at one location shouldn't leave customers in a total pinch
+T23	Argument 3946 3993	it has factories in several parts of the nation
+T24	Consequence 4234 4244	because of
+E8	Consequence:T24 Effect:T25 Cause:T26
+A8	Degree E8 Facilitate
+T25	Argument 4158 4233	which has only a four-day supply of microprocessors from the Valley on hand
+T26	Argument 4245 4319	a just-in-time manufacturing approach that limits the buildup of inventory
+T27	Note 4439 4441	to
+#3	AnnotatorNotes T27	Verb argument ("scrambling to")
+T28	Motivation 4745 4749	when
+E9	Motivation:T28 Effect:T29 Cause:T30
+A9	Degree E9 Facilitate
+A10	Temporal E9
+T29	Argument 4718 4744	dial Digital automatically
+T30	Argument 4750 4764	trouble arises
+T31	Motivation 5372 5377	after
+E10	Motivation:T31 Effect:T32 Cause:T33
+A11	Degree E10 Facilitate
+A12	Temporal E10
+T32	Argument 5327 5371	workers were asked to head to work yesterday
+T33	Argument 5378 5486	it was realized that ``there were no show-stoppers'' in the 150-plus buildings on its one-square-mile campus
+T34	Consequence 5531 5537;5554 5556	needed to
+E11	Consequence:T34 Cause:T35 Effect:T36
+A13	Degree E11 Facilitate
+T35	Argument 5538 5553	closer scrutiny
+T36	Argument 5557 5602	make sure they weren't in danger of crumbling
+T37	Consequence 5557 5566	make sure
+E12	Consequence:T37 Effect:T40
+A14	Degree E12 Facilitate
+T40	Argument 5567 5602	they weren't in danger of crumbling
+T41	NonCausal 5919 5928	generates
+E13	NonCausal:T41 Arg0:T42 Arg1:T43
+A15	Creation-termination E13
+T42	Argument 5911 5913	It
+T43	Argument 5929 5997	pieces of the missile shield called the Strategic Defense Initiative
+T44	Motivation 6088 6090	in
+E14	Motivation:T44 Cause:T45 Effect:T46
+A16	Degree E14 Facilitate
+T45	Argument 6091 6206	a search for distant solar systems and light emitted 14 billion years ago from the farthest reaches of the universe
+T46	Argument 6044 6087	set to be launched on the shuttle next year
+T49	Note 3145 3151	spared
+#6	AnnotatorNotes T49	Have we already previously considered this?
+T54	Consequence 80 96	in the aftermath
+E15	Consequence:T54 Effect:T55 Cause:T56
+A17	Degree E15 Facilitate
+A18	Temporal E15
+T55	Argument 59 79	details were sketchy
+T56	Argument 100 206	the violent earthquake that shook the high-tech corridor along with the rest of the San Francisco Bay area
+T1	NonCausal 3726 3730	over
+E4	NonCausal:T1 Arg0:T11 Arg1:T12
+A4	Temporal E4
+T11	Argument 3731 3746	the past decade
+T12	Argument 3748 3885	it has installed computer sensors and shutoff valves, sensitive to the shake of an earthquake, in the pipes that snake through its plants

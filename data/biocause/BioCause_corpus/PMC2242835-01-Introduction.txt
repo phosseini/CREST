@@ -1,0 +1,21 @@
+Introduction 
+125 years of intense research on the major human pathogen Mycobacterium tuberculosis have passed since its discovery by Robert Koch, resulting in a huge body of knowledge.
+In spite of the great progress that has been made in the understanding of some basic features of its pathogenesis, tuberculosis remains a major threat to human life in most parts of the world.
+Indeed, M. tuberculosis has retained many secrets of its so successful pathogenic lifecycle.
+Among the different possibilities to obtain new insight into the mechanisms employed by M. tuberculosis to infect its host, the analysis of attenuated strains is one promising approach, and there are some well-documented examples of laboratory-attenuated strains.
+One of them is the "Bacille de Calmette et Guerin" (BCG), which was originally derived in 1921 from a virulent Mycobacterium bovis strain by 230 passages on potato-glycerol-ox bile medium [1].
+The genetic lesions of BCG have recently been determined [2-4], revealing that the loss of region of difference 1 (RD1), which encodes part of the ESX-1 secretion system [5], was one of the key events in its attenuation.
+Another famous example of an attenuated strain is M. tuberculosis H37Ra ("a" for avirulent) (H37Ra).
+This strain was obtained in 1934 by serial passage of patient isolate M. tuberculosis H37 through media with different pHs [6] and since then has been widely used in many laboratories in the world.
+Despite its long use, the reasons for its stable attenuation have not yet been elucidated.
+As H37Ra is derived from the same parent strain as M. tuberculosis H37Rv ("v" for virulent) (H37Rv), the sequenced paradigm strain of tuberculosis research [7], genomic comparisons of the attenuated and virulent variants of M. tuberculosis H37 are particularly interesting and have the potential to identify subtle genetic changes that might be responsible for the phenotypic differences observed between the two strains.
+In a previous study we have tried to reveal these determinants [8], but the methods employed only identified large genetic polymorphisms, associated with IS6110, which were not found to be responsible for the attenuation of H37Ra [8].
+In another study, Pascopella et al. [9] transformed a cosmid library of H37Rv into H37Ra and then selected for clones that were enriched on passage through the mouse.
+A number of overlapping cosmid clones that gave enhanced growth and survival in the spleens of infected mice relative to that of wild-type H37Ra were identified [9].
+However, the effects of these complementation attempts on virulence remained limited, and no sequence information was described, which makes it difficult now to identify the genes implicated.
+H37Ra was also the subject of extensive micro-array based analyses, including whole genome comparative DNA/DNA analyses [10] and transcriptional studies [11,12], which have identified some candidate genes that were consistently downregulated.
+However, a definitive conclusion about the molecular determinants of the attenuation could not be drawn.
+As all these previous attempts have failed to identify the genetic basis for the attenuation, we subjected H37Ra to microarray-based DNA re-sequencing (NimbleGen Systems).
+This technique has previously permitted single nucleotide polymorphisms (SNPs) of a PA-824 drug resistant mutant strain of H37Rv to be detected [13].
+This approach was combined with gene "knock-in" strategies, to complement selected lesions, that allowed recombinant H37Ra strains to be engineered, whose virulence and immunogenicity were then evaluated in in vitro, ex vivo and animal models.
+This strategy led us to identify and characterize a point mutation in the phoP/phoR two-component regulatory system of H37Ra that has uncovered novel regulatory links, which impact on the secretion and T cell recognition of the major T cell antigens ESAT-6 and CFP-10.

@@ -1,0 +1,8 @@
+Results 
+Group A streptococcus isolates from severe invasive infections is resistant to killing by human PMN To examine whether emm49 GAS isolated from severe invasive infection might alter human PMN function, we performed phagocytosis assay in vitro.
+As non-opsonized GAS was resistant to the phagocytosis by PMN [14], we opsonized GAS with human plasma in advance to the assay.
+As shown in Figure 1A, there was no significant difference between GAS that were isolated from non-invasive and severe invasive infections in phagocytosis by PMN (p=0.5556).
+However, as shown in Figure 1B, in vitro killing assay revealed that PMN killed non-invasive GAS, resulting in 15-42% of initial number of bacteria, but not invasive GAS (p=0.019).
+The similar results were obtained when opsonized with either FCS or human serum regardless of complements immobilization (data not shown).
+These results were common among all PMN donors.
+These data indicated that clinically isolated severe invasive GAS were phagocytosed, but escaped from killing by human PMN.

@@ -1,0 +1,183 @@
+T1	Consequence 63 69	reason
+E1	Consequence:T1 Cause:T2
+A1	Degree E1 Facilitate
+T2	Argument 78 112	high interest rates or labor costs
+T3	Consequence 239 243	when
+E2	Consequence:T3 Effect:T4 Cause:T5
+A2	Degree E2 Facilitate
+A3	Temporal E2
+T4	Argument 219 238	The business closed
+T5	Argument 244 277	the owner was murdered by robbers
+T6	NonCausal 508 510	as
+E3	NonCausal:T6 Cause:T7 Effect:T8
+A5	Temporal E3
+T7	Argument 511 540	he chased the robbers outside
+T8	Argument 484 507	he was shot in the hand
+T9	Motivation 643 645	in
+E4	Motivation:T9 Cause:T10 Effect:T15
+A6	Degree E4 Facilitate
+T10	Argument 646 657	retaliation
+T12	Purpose 829 831	to
+E5	Purpose:T12 Cause:T16 Effect:T17
+A7	Degree E5 Facilitate
+T15	Argument 661 761	Mr. Ortiz was shot three times in the back, during what police classified as a third robbery attempt
+T16	Argument 832 861	cover his $3,000 a month rent
+T17	Argument 789 828	working until 11 p.m. seven days a week
+T18	NonCausal 797 802	until
+E7	NonCausal:T18 Arg0:T19 Arg1:T20
+A10	Temporal E7
+T19	Argument 803 810	11 p.m.
+T20	Argument 789 796	working
+T21	NonCausal 948 956	creating
+E8	NonCausal:T21 Arg1:T22
+A11	Creation-termination E8
+T22	Argument 957 986	a focus for neighborhood life
+T23	Consequence 1224 1228	from
+E9	Consequence:T23 Effect:T24 Cause:T25
+A12	Degree E9 Facilitate
+T24	Argument 1170 1223	almost 2% of all retail-sales workers suffer injuries
+T25	Argument 1229 1234	crime
+T26	Consequence 2097 2102	while
+E10	Consequence:T26 Cause:T27 Effect:T28
+A13	Degree E10 Facilitate
+A14	Temporal E10
+T27	Argument 2103 2113	on the job
+T28	Argument 2029 2064	employees or owners had been robbed
+T29	Consequence 2186 2192	reason
+E11	Consequence:T29 Cause:T30 Effect:T31
+A15	Degree E11 Facilitate
+T30	Argument 2172 2177	Crime
+T31	Argument 2193 2289	that 26% reported difficulty recruiting personnel and that 19% said they were considering moving
+T39	Consequence 3143 3149;3156 3158	enough to
+E15	Consequence:T39 Cause:T40 Effect:T41
+A20	Degree E15 Facilitate
+A21	Extremity-sufficiency E15
+T40	Argument 3143 3155	enough money
+T41	Argument 3159 3188	hire at least one more worker
+T42	Consequence 3221 3230	enough to
+E16	Consequence:T42 Cause:T43 Effect:T44
+A22	Degree E16 Facilitate
+A23	Extremity-sufficiency E16
+T43	Argument 3190 3208	The costs of crime
+T44	Argument 3231 3260	destroy a struggling business
+T45	Motivation 3385 3390	After
+E17	Motivation:T45 Cause:T46 Effect:T47
+A24	Degree E17 Facilitate
+A25	Temporal E17
+T46	Argument 3391 3413	repeated gun robberies
+T47	Argument 3415 3484	some entrepreneurs may give up a business out of fear for their lives
+T48	Motivation 3457 3463	out of
+E18	Motivation:T48 Effect:T49 Cause:T50
+A26	Degree E18 Facilitate
+T49	Argument 3415 3456	some entrepreneurs may give up a business
+T50	Argument 3464 3484	fear for their lives
+T51	Motivation 3541 3546	after
+E19	Motivation:T51 Cause:T52 Effect:T53
+A27	Degree E19 Facilitate
+A28	Temporal E19
+T52	Argument 3547 3648	34 years in business that included four robbery deaths and 16 robberies or burglaries on the premises
+T53	Argument 3486 3540	One Washington couple recently sold their liquor store
+T54	Consequence 3771 3778	causing
+E20	Consequence:T54 Cause:T55 Effect:T56
+A29	Degree E20 Facilitate
+T55	Argument 3765 3770	crime
+T56	Argument 3779 3786	poverty
+T57	Consequence 3862 3877	contributing to
+E21	Consequence:T57 Cause:T58 Effect:T59
+A30	Degree E21 Facilitate
+T58	Argument 3790 3860	Underclass neighborhoods offer relatively few employment opportunities
+T59	Argument 3878 3908	the poverty of local residents
+T60	Consequence 3965 3967	if
+E22	Consequence:T60 Cause:T61 Effect:T62
+A31	Degree E22 Facilitate
+A32	Hypothetical E22
+T61	Argument 3968 4038	crime were not so harmful to creating and maintaining those businesses
+T62	Argument 3910 3963	Small neighborhood businesses could provide more jobs
+T63	NonCausal 3997 4005	creating
+E23	NonCausal:T63 Arg1:T65
+A34	Creation-termination E23
+T65	Argument 4022 4038	those businesses
+T66	Consequence 4062 4065	why
+E24	Consequence:T66 Cause:T67 Effect:T68
+A33	Degree E24 Facilitate
+T67	Argument 4040 4044	This
+T68	Argument 4066 4175	small businesses create 65% of all jobs nationally, but only 22% of jobs in a crime-ridden city like New York
+T69	NonCausal 4083 4089	create
+E25	NonCausal:T69 Arg0:T70 Arg1:T71
+A35	Creation-termination E25
+T70	Argument 4066 4082	small businesses
+T71	Argument 4090 4175	65% of all jobs nationally, but only 22% of jobs in a crime-ridden city like New York
+T72	Consequence 4510 4517	created
+E26	Consequence:T72 Cause:T73 Effect:T74
+A36	Creation-termination E26
+T73	Argument 4457 4505	The shift of retailing to large shopping centers
+T74	Argument 4518 4595	even greater economies of scale for providing low-crime business environments
+T75	Purpose 4676 4678	to
+E27	Purpose:T75 Cause:T76 Effect:T77
+A37	Degree E27 Facilitate
+T76	Argument 4679 4723	regulate access to these quasi-public places
+T77	Argument 4597 4675	Private security guards and moonlighting police can invoke the law of trespass
+T78	NonCausal 4725 4730	Since
+E28	NonCausal:T78 Arg0:T79 Arg1:T80
+A38	Temporal E28
+T79	Argument 4731 4735	1984
+T80	Argument 4746 4857	revenues of the 10 largest guard companies, primarily serving such big businesses, have increased by almost 62%
+T81	Consequence 5114 5121	creates
+E29	Consequence:T81 Effect:T82 Cause:T83
+A39	Degree E29 Facilitate
+A40	Creation-termination E29
+T82	Argument 5122 5138	several problems
+T83	Argument 5109 5113	This
+T84	Consequence 5166 5172;5180 5182	enough to
+E30	Consequence:T84 Cause:T85 Effect:T86
+A41	Degree E30 Facilitate
+A42	Extremity-sufficiency E30
+T85	Argument 5166 5179	enough police
+T86	Argument 5183 5207	satisfy small businesses
+T87	Consequence 5535 5539	make
+E31	Consequence:T87 Cause:T88 Effect:T89
+A43	Degree E31 Facilitate
+T88	Argument 5525 5530	which
+T89	Argument 5540 5552;5553 5623	urban police less than enthusiastic about responding to calls from small businesses
+T93	Argument 5481 5523	the persistent frustration of false alarms
+R1	Coref Arg1:T88 Arg2:T93	
+T97	Consequence 6284 6291	because
+E34	Consequence:T97 Effect:T98 Cause:T99
+A48	Degree E34 Facilitate
+T98	Argument 6233 6283	Increased patrolling of business zones makes sense
+T99	Argument 6292 6371	urban crime is heavily concentrated in such ``hot spots'' of pedestrian density
+T100	Consequence 6498 6505	effects
+E35	Consequence:T100 Cause:T101
+A49	Degree E35 Facilitate
+T101	Argument 6509 6524	such a strategy
+T102	Consequence 6654 6662	whenever
+E36	Consequence:T102 Effect:T103 Cause:T104
+A50	Correlation E36
+A51	Degree E36 Facilitate
+T103	Argument 6592 6653	Small-business patrols would be an especially helpful gesture
+T104	Argument 6663 6736	a small-business person is scheduled to testify against a robbery suspect
+T105	Consequence 6798 6803	deter
+E37	Consequence:T105 Effect:T106 Cause:T107
+A52	Degree E37 Inhibit
+T106	Argument 6804 6819	further attacks
+T107	Argument 6758 6786	an increased police presence
+#2	AnnotatorNotes T67	Even though there's an intervening "explain," "this" is still what's being credited. The cause for a "why" is usually the subject of the verb  of which "why" is the object.
+T11	Consequence 4049 4053	help
+E13	Consequence:T11 Cause:T67 Effect:T33
+A17	Degree E13 Facilitate
+T33	Argument 4054 4175	explain why small businesses create 65% of all jobs nationally, but only 22% of jobs in a crime-ridden city like New York
+A18	Degree E26 Facilitate
+T34	Argument 6181 6231	keep those jobs and sales taxes within city limits
+T35	Consequence 6176 6180	help
+E14	Consequence:T35 Effect:T34 Cause:T37
+A19	Degree E14 Facilitate
+T37	Argument 6083 6134	cities losing business to suburban shopping centers
+T38	Note 2540 2544	with
+#4	AnnotatorNotes T38	Expansion, not causation
+T13	NonCausal 705 711	during
+E6	NonCausal:T13 Arg0:T14 Arg1:T36
+A8	Temporal E6
+T14	Argument 712 761	what police classified as a third robbery attempt
+T36	Argument 661 703	Mr. Ortiz was shot three times in the back
+T64	Note 2198 2210	26% reported
+#1	AnnotatorNotes T64	A bit odd to include percents, but if this isn't the right interpretation, it should have said something like "26% reported *for* difficulty..."

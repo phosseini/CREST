@@ -1,0 +1,12 @@
+SalK/SalR, a Two-Component Signal Transduction System, Is Essential for Full Virulence of Highly Invasive Streptococcus suis Serotype 2 
+Background Streptococcus suis serotype 2 (S. suis 2, SS2) has evolved into a highly infectious entity, which caused the two recent large-scale outbreaks of human SS2 epidemic in China, and is characterized by a toxic shock-like syndrome.
+However, the molecular pathogenesis of this new emerging pathogen is still poorly understood.
+Methodology/Principal Findings 89K is a newly predicted pathogenicity island (PAI) which is specific to Chinese epidemic strains isolated from these two SS2 outbreaks.
+Further bioinformatics analysis revealed a unique two-component signal transduction system (TCSTS) located in the candidate 89K PAI, which is orthologous to the SalK/SalR regulatory system of Streptococcus salivarius.
+Knockout of salKR eliminated the lethality of SS2 in experimental infection of piglets.
+Functional complementation of salKR into the isogenic mutant DeltasalKR restored its soaring pathogenicity.
+Colonization experiments showed that the DeltasalKR mutant could not colonize any susceptible tissue of piglets when administered alone.
+Bactericidal assays demonstrated that resistance of the mutant to polymorphonuclear leukocyte (PMN)-mediated killing was greatly decreased.
+Expression microarray analysis exhibited a transcription profile alteration of 26 various genes down-regulated in the DeltasalKR mutant.
+Conclusions/Significance
+These findings suggest that SalK/SalR is requisite for the full virulence of ethnic Chinese isolates of highly pathogenic SS2, thus providing experimental evidence for the validity of this bioinformatically predicted PAI.

@@ -1,0 +1,15 @@
+T1	Consequence 408 415	Because
+E1	Consequence:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 416 439	he is extremely wealthy
+T3	Argument 441 521	his family could call in some of the best medical specialists from New York City
+T5	Motivation 892 895	for
+E2	Motivation:T5 Effect:T6 Cause:T7
+A2	Degree E2 Facilitate
+T6	Argument 830 891	We're grateful to all the staff at Cooper University Hospital
+T7	Argument 896 937	putting him on a healthy road to recovery
+T8	NonCausal 144 150	having
+E3	NonCausal:T8 Cause:T9 Effect:T10
+T9	Argument 151 275	spent eight days with our father, Gov. Jon S. Corzine, who was on a ventilator at Cooper University Hospital in Camden, N.J.
+T10	Argument 277 392	we witnessed the continuous, top-notch treatment and care of every patient on the trauma unit by nurses and doctors
+A4	Context E3

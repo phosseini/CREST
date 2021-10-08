@@ -1,0 +1,97 @@
+*	Equiv T1 T2
+*	Equiv T12 T13
+*	Equiv T18 T17
+*	Equiv T22 T23
+T46	Process 219 228	infection
+T47	Process 458 467	infection
+T48	Process 545 554	resistant
+T49	Process 645 656	reinfection
+T50	Gene_expression 954 961	produce
+T51	Process 1037 1047	resistance
+T52	Gene_expression 1091 1099	produces
+T53	Localization 1102 1110	secreted
+T54	Positive_regulation 1222 1228	cleave
+T55	Protein_catabolism 1222 1228	cleave
+T56	Gene_expression 1365 1373	produced
+T57	Negative_regulation 1429 1434	block
+T58	Binding 1439 1450	interaction
+T59	Gene_expression 1534 1542	produced
+T60	Binding 1680 1684	bind
+T61	Process 2073 2082	infection
+E1	Process:T46 
+E2	Process:T47 
+E3	Process:T48 
+E4	Process:T49 Participant:T8
+E5	Gene_expression:T50 Theme:T15
+E6	Process:T51 
+E7	Gene_expression:T52 Theme:T17
+E8	Localization:T53 Theme:T17
+E9	Positive_regulation:T54 Theme:E10 Cause:T17
+E10	Protein_catabolism:T55 Theme:T22
+E11	Gene_expression:T56 Theme:T24
+E12	Negative_regulation:T57 Theme:E13
+E13	Binding:T58 Theme1:T26 Theme2:T27
+E14	Gene_expression:T59 Theme:T29
+E15	Binding:T60 Theme1:T32 Theme2:T33
+E16	Process:T61 Participant:T45
+T1	Organism 38 72	Streptococcus equi subspeices equi
+T2	Organism 74 81	S. equi
+T3	Organism 90 96	equine
+T4	Organism 201 207	horses
+T5	Organism 483 490	S. equi
+T6	Organism 514 519	horse
+T7	Organism 580 586	Horses
+T8	Organism 637 644	S. equi
+T9	Organism 775 782	S. equi
+T10	Organism 786 791	horse
+T11	Organism 914 921	S. equi
+T12	Organism 926 947	group A Streptococcus
+T13	Organism 949 952	GAS
+T14	Chemical 966 981	hyaluronic acid
+T15	Protein 1010 1019	M protein
+T16	Organism 1087 1090	GAS
+T17	Protein 1111 1114	Mac
+T18	Protein 1138 1142	IdeE
+T19	Organism 1182 1185	GAS
+T20	Organism 1189 1194	human
+T21	Organism 1248 1253	human
+T22	Protein 1254 1270	immunoglobulin G
+T23	Protein 1272 1275	IgG
+T24	Protein 1361 1364	Mac
+T25	Organism 1377 1380	GAS
+T26	Protein 1459 1462	IgG
+T27	Protein 1467 1478	Fc receptor
+T28	Protein 1514 1517	Mac
+T29	Protein 1530 1533	Mac
+T30	Organism 1546 1561	serotype M1 GAS
+T31	Protein 1619 1630	Fc receptor
+T32	Protein 1672 1675	Mac
+T33	Protein 1692 1703	Fc receptor
+T34	Organism 1742 1749	S. equi
+T35	Organism 1769 1772	GAS
+T36	Protein 1776 1779	Mac
+T37	Protein 1792 1797	SeMac
+T38	Protein 1815 1820	SeMac
+T39	Protein 1879 1884	SeMac
+T40	Protein 1890 1912	cysteine endopeptidase
+T41	Organism 1956 1963	S. equi
+T42	Organism 1967 1972	horse
+T43	Protein 1995 2000	SeMac
+T44	Organism 2033 2038	horse
+T45	Organism 2065 2072	S. equi
+T62	Span 215 276	The infection initially causes nasal discharge and fever and,
+T63	Causality 277 291	then, leads to
+E17	Causality:T63 Effect:T64 Evidence:T62
+T64	Span 292 380	abscess formation in local lymph nodes, causing enormous pain and respiratory difficulty
+T65	Span 580 656	Horses recovered from strangles acquire immunity against S. equi reinfection
+T66	Span 662 796	The immunity is primarily mediated by protective antibodies [4], which opsonize and thus enhance phagocytosis of S. equi by horse PMNs
+T67	Causality 662 662	
+E18	Causality:T67 Evidence:T66 Effect:T65
+T68	Span 1073 1143	We found that GAS produces a secreted Mac protein (also known as IdeE)
+T69	Span 1145 1199	which inhibits opsonophagocytosis of GAS by human PMNs
+T70	Causality 1145 1145	
+E19	Causality:T70 Effect:T69 Evidence:T68
+T71	Span 1853 1977	The results indicate that SeMac is a cysteine endopeptidase but does not inhibit opsonophagocytosis of S. equi by horse PMNs
+T72	Causality 1979 1994	suggesting that
+E20	Causality:T72 Effect:T73 Evidence:T71
+T73	Span 1995 2082	SeMac has function other than evading horse acquired immunity against S. equi infection

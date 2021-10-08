@@ -1,0 +1,10 @@
+Clustering analysis and co-expression 
+The complex regulatory network suggested by these studies has been partially confirmed.
+Complete elucidation of the virulence pathways must include proteomic studies to identify steps that require translational regulation, binding studies to distinguish direct from indirect effects and additional regulators not included in this preliminary group of 14.
+In this study, cluster analysis was used to identify genes that show similar expression profiles under a variety of environmental conditions and from the isogenic Salmonella regulatory mutants we describe.
+The average G+C content of the 92 genes outside of SPI-2 that show the same regulation as SPI-2 is 47% while the average for Salmonella is 52% (p<e-25).
+Most of these genes are not found in closely related non-pathogenic bacteria (overall comparison eliminating SPI-2 genes p<e-15).
+Thus application of the CLR algorithm identified a very interesting group of genes that are co-regulated with SPI-2 and were horizontally transferred to Salmonella.
+Analysis of microarrays and other expression data was used to construct a predictive model for how the regulators may interact and coordinate regulation within the host.
+A few of the predictions have been verified and more are being tested.
+The construction of a complete interaction network describing both the host and pathogen is a long-term goal of this and other related research efforts.

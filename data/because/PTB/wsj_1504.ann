@@ -1,0 +1,159 @@
+T4	Motivation 73 76	for
+E2	Motivation:T4 Cause:T5 Effect:T6
+A3	Degree E2 Facilitate
+T5	Argument 77 92	insubordination
+T6	Argument 48 72	putting him on probation
+T7	Motivation 193 196;206 213	for reasons
+E3	Motivation:T7 Effect:T8 Cause:T9
+A4	Degree E3 Facilitate
+T8	Argument 156 192	his manager wanted to get rid of him
+T9	Argument 197 213	personal reasons
+T10	Purpose 301 304	for
+E4	Purpose:T10 Cause:T11 Effect:T12
+A5	Degree E4 Facilitate
+T11	Argument 305 314	a hearing
+T12	Argument 270 300	he went to a ``company court''
+T13	Motivation 318 320	At
+E5	Motivation:T13 Cause:T14 Effect:T15
+A6	Degree E5 Facilitate
+A7	Temporal E5
+T14	Argument 321 339	the scheduled time
+T15	Argument 341 411	Mr. Stone entered a conference room in a building near where he worked
+T16	NonCausal 413 418	After
+E6	NonCausal:T16 Arg0:T17 Arg1:T18
+A8	Temporal E6
+T17	Argument 419 471	the three members of the court introduced themselves
+T18	Argument 473 542;543 612	the chairman of the panel said: ``Go ahead and tell us what happened. We may ask questions as you go along, or we may wait until the end.''
+T19	Motivation 596 601	until
+E7	Motivation:T19 Cause:T20 Effect:T1
+A9	Degree E7 Inhibit
+A10	Temporal E7
+T20	Argument 602 609	the end
+T21	NonCausal 564 566	as
+E8	NonCausal:T21 Arg0:T22 Arg1:T23
+A11	Temporal E8
+T22	Argument 567 579	you go along
+T23	Argument 543 563	We may ask questions
+T24	Consequence 798 807	needed to
+E9	Consequence:T24 Cause:T25 Effect:T26
+A12	Degree E9 Facilitate
+T25	Argument 788 797	any facts
+T26	Argument 808 839	give the court the full picture
+T27	Motivation 919 923	When
+E10	Motivation:T27 Cause:T28 Effect:T29
+A13	Degree E10 Facilitate
+A14	Temporal E10
+T28	Argument 924 938	he was through
+T29	Argument 940 1067	the court members asked many questions, then the chairman said they would like to hear his manager's side and talk to witnesses
+T30	NonCausal 1112 1118	within
+E11	NonCausal:T30 Arg1:T31
+A15	Temporal E11
+T31	Argument 1101 1111	a decision
+T32	Motivation 2024 2027;2041 2048	for reasons
+E12	Motivation:T32 Cause:T33 Effect:T34
+A16	Degree E12 Facilitate
+T33	Argument 2028 2048	a variety of reasons
+T34	Argument 1980 2023	Corporate due process appeals to management
+T35	Argument 2124 2128	that
+T38	Argument 2050 2113	It reduces lawsuits from disgruntled employees and ex-employees
+R1	Coref Arg1:T35 Arg2:T38	
+T39	Consequence 2191 2199	helps to
+E14	Consequence:T39 Cause:T40 Effect:T41
+A18	Degree E14 Facilitate
+T40	Argument 2188 2190	It
+T41	Argument 2200 2215	keep out unions
+T43	Argument 2275 2279	that
+T44	Argument 2217 2264	It increases employee commitment to the company
+R2	Coref Arg1:T43 Arg2:T44	
+T46	Consequence 2327 2331;2356 2358	must to
+E16	Consequence:T46 Effect:T47 Cause:T48
+A20	Degree E16 Facilitate
+T47	Argument 2359 2390	establish corporate due process
+T48	Argument 2322 2326;2332 2355	What your management team do
+T49	Consequence 2422 2431	Make sure
+E17	Consequence:T49 Effect:T50
+A21	Degree E17 Facilitate
+T50	Argument 2432 2470	you have a strong personnel department
+T52	NonCausal 2811 2813	at
+E18	NonCausal:T52 Arg0:T53 Arg1:T54
+A22	Temporal E18
+T53	Argument 2814 2828	earlier stages
+T54	Argument 2754 2810	the rest of the many hundreds of complaints are resolved
+T55	Consequence 3033 3043	because of
+E19	Consequence:T55 Effect:T56 Cause:T57
+A23	Degree E19 Facilitate
+T56	Argument 2979 3032	the Problem Review Board may hear only 12 or so cases
+T57	Argument 3044 3085	personnel's skill in complaint-resolution
+T58	Consequence 3227 3232	means
+E20	Consequence:T58 Cause:T59 Effect:T60
+A24	Degree E20 Facilitate
+T59	Argument 3222 3226	that
+T60	Argument 3233 3284	many hundreds of complaints for personnel to handle
+T61	Motivation 3462 3465	for
+E21	Motivation:T61 Effect:T62 Cause:T63
+A25	Degree E21 Facilitate
+T62	Argument 3394 3460	See that they know company personnel policy backwards and forwards
+T63	Argument 3466 3525	it is the ``law'' governing company courts and adjudicators
+T64	Purpose 3561 3563	so
+E22	Purpose:T64 Cause:T65 Effect:T66
+A26	Degree E22 Facilitate
+T65	Argument 3569 3606	they can resolve problems immediately
+T66	Argument 3527 3560	Coach them in handling complaints
+T67	Motivation 3608 3615	In case
+E23	Motivation:T67 Cause:T68 Effect:T69
+A27	Degree E23 Facilitate
+T68	Argument 3616 3740	managers and personnel specialists are unsuccessful and subordinates take their complaints to a company court or adjudicator
+T69	Argument 3742 3862	teach managers to accept reversals as a fact of business life, for in a good due-process system they are bound to happen
+T70	Motivation 3805 3808	for
+E24	Motivation:T70 Effect:T71 Cause:T72
+A28	Degree E24 Facilitate
+T71	Argument 3742 3803	teach managers to accept reversals as a fact of business life
+T72	Argument 3809 3862	in a good due-process system they are bound to happen
+T73	Consequence 4466 4470	Make
+E25	Consequence:T73 Effect:T74
+A29	Degree E25 Facilitate
+T74	Argument 4471 4494;4495 4502	your due-process system visible
+T75	Consequence 4537 4543	unless
+E26	Consequence:T75 Cause:T76 Effect:T77
+A30	Degree E26 Inhibit
+T76	Argument 4544 4567	employees know about it
+T77	Argument 4504 4536	It won't do any good for anybody
+T78	Motivation 4650 4653	for
+E27	Motivation:T78 Cause:T79 Effect:T80
+A31	Degree E27 Facilitate
+T79	Argument 4654 4721	fear of encouraging cranks and chronic soreheads to file complaints
+T80	Argument 4569 4649	Most managements hesitate to go all out in advertising their due-process systems
+T81	Consequence 4747 4756	make sure
+E28	Consequence:T81 Cause:T82 Effect:T83
+A32	Degree E28 Facilitate
+T82	Argument 4742 4746	they
+T83	Argument 4775 4869	their systems are described in their employee handbooks and talked up by personnel specialists
+T84	Consequence 5019 5028	guarantee
+E29	Consequence:T84 Effect:T85 Means:T86
+A33	Degree E29 Facilitate
+T85	Argument 5029 5067	visibility for your due-process system
+T86	Argument 5075 5103	top management to support it
+T90	Purpose 5441 5443	to
+E31	Purpose:T90 Cause:T91 Effect:T92
+A36	Degree E31 Facilitate
+T91	Argument 5444 5456	decide cases
+T92	Argument 5388 5440	sitting in on the Appeals Board almost every Tuesday
+T96	Note 10 21	stewed over
+#8	AnnotatorNotes T96	Phrasal verb.
+T101	Note 5282 5286	with
+#13	AnnotatorNotes T101	Expansion, not causation
+T1	Argument 591 595	wait
+T2	Consequence 2129 2134	means
+E1	Consequence:T2 Effect:T3 Cause:T35
+A1	Degree E1 Facilitate
+T3	Argument 2120 2123	all
+T36	Consequence 2280 2285	means
+E13	Consequence:T36 Effect:T37 Cause:T43
+A2	Degree E13 Facilitate
+T37	Argument 2271 2274	all
+T42	Consequence 2595 2599	else
+E15	Consequence:T42 Cause:T45 Effect:T93
+A17	Degree E15 Inhibit
+T45	Argument 2472 2593	It must be able to handle most of the complaints that cannot be solved in the trenches by managers and their subordinates
+T93	Argument 2600 2662	the company court or adjudicators will be inundated with cases
+#1	AnnotatorNotes E29	Cause is implicit "you"

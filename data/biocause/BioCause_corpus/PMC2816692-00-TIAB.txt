@@ -1,0 +1,8 @@
+Structural and Biochemical Characterization of SrcA, a Multi-Cargo Type III Secretion Chaperone in Salmonella Required for Pathogenic Association with a Host 
+Many Gram-negative bacteria colonize and exploit host niches using a protein apparatus called a type III secretion system (T3SS) that translocates bacterial effector proteins into host cells where their functions are essential for pathogenesis.
+A suite of T3SS-associated chaperone proteins bind cargo in the bacterial cytosol, establishing protein interaction networks needed for effector translocation into host cells.
+In Salmonella enterica serovar Typhimurium, a T3SS encoded in a large genomic island (SPI-2) is required for intracellular infection, but the chaperone complement required for effector translocation by this system is not known.
+Using a reverse genetics approach, we identified a multi-cargo secretion chaperone that is functionally integrated with the SPI-2-encoded T3SS and required for systemic infection in mice.
+Crystallographic analysis of SrcA at a resolution of 2.5 A revealed a dimer similar to the CesT chaperone from enteropathogenic E. coli but lacking a 17-amino acid extension at the carboxyl terminus.
+Further biochemical and quantitative proteomics data revealed three protein interactions with SrcA, including two effector cargos (SseL and PipB2) and the type III-associated ATPase, SsaN, that increases the efficiency of effector translocation.
+Using competitive infections in mice we show that SrcA increases bacterial fitness during host infection, highlighting the in vivo importance of effector chaperones for the SPI-2 T3SS.

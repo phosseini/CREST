@@ -1,0 +1,18 @@
+Discussion 
+In this work we found that the alternative sigma factor, sigmaE, is involved in fine tuning the expressing of a subset of SsrB-regulated virulence genes required for Salmonella pathogenesis.
+Although the effect of rpoE deletion on promoter activity in some cases was mild, we have previously shown that gene regulators providing only modest transcriptional input have a profound influence on bacterial fitness in a host animal [25].
+In cases where the regulator is deleted, the loss of genetic fine-tuning causes incongruous changes in the timing and magnitude of virulence gene expression, leading to fitness loss and strong attenuation.
+We predict that RpoE confers a similar fine-tuning effect on Salmonella virulence gene expression that is required for optimal within-host fitness during infection.
+When we examined the -10 and -35 positions of the promoters studied here relative to the transcriptional start sites identified previously [24], these promoters did not appear to contain sigmaE consensus sequences.
+Instead they appeared to have consensus sites for sigma70.
+Although a bioinformatics screen identified sigmaE consensus sequences upstream of the SPI-2 genes ssaU, ssaJ, sscA and ssaC [26], these genes were not tested for sigmaE-dependence in the present study because the identified consensus sites are in coding sequence within operons, and as a result may not be directly relevant.
+Due to the high degree of conservation in sigma factor binding sequences, sigmaE may not be directly regulating SsrB-dependent promoters.
+The lack of a canonical sigmaE sequence at these promoters suggests that another regulatory gene may be epistatic to sigmaE or that these promoters encode functional, but non-canonical sigmaE-binding sites due to their horizontal acquisition and gradual integration into the sigmaE regulatory network.
+This integration may help Salmonella coordinate expression of the virulence-associated T3SS in response to host factors that compromise bacterial membrane integrity (Figure 4).
+This mechanism would activate a restorative sigmaE pathway, which is consistent with the enhanced susceptibility of rpoE mutants to oxidative stress and antimicrobial peptides [13,15,16], both of which perturb membrane integrity in vivo.
+Although there is no evidence that sigmaE can directly repress transcription, the negative effect on two promoters observed here might be due to an intermediate RpoE-regulated repressor or compensatory effect where loss of rpoE increases the relative abundance of another sigma factor that can directly activate the ssaG and srfN promoters.
+Future work will be required to resolve these possibilities.
+Our results indicate that rpoE deletion has no effect on SsrB levels under SPI-2 inducing conditions suggesting that the sigmaE pathway regulates effector expression downstream of ssrAB transcription.
+Unlinking ssrAB transcription from the sigmaE regulon would be advantageous to the cell to prevent commitment to a virulence gene expression program in response to envelope stress not associated with infection.
+The results from this study demonstrate that sigmaE has the ability to affect expression of SsrB-regulated virulence genes and offers potential insight into the virulence attenuation of rpoE mutants.
+Although when considered individually, each promoter was modestly affected by deletion of rpoE, the cumulative effects of mild rewired inputs on multiple virulence promoters has been shown to severely compromise in-host fitness and virulence ability [25].

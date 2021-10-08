@@ -1,0 +1,63 @@
+T1	Consequence 149 155	result
+E1	Consequence:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 159 176	mistaken identity
+T3	Argument 109 113	that
+T4	Argument 75 94	an exchange of fire
+R1	Coref Arg1:T3 Arg2:T4	
+T5	Motivation 360 366	During
+E2	Motivation:T5 Cause:T6 Effect:T7
+A2	Degree E2 Facilitate
+A3	Temporal E2
+T6	Argument 367 379	the exchange
+T7	Argument 381 416	the Americans called in air support
+T8	Motivation 483 485	as
+E3	Motivation:T8 Effect:T9 Cause:T10
+A4	Degree E3 Facilitate
+T9	Argument 421 482	The American troops were coming toward the Afghan police post
+A5	Temporal E3
+T10	Argument 486 536	both sides did not know the identity of each other
+T11	NonCausal 829 833	when
+E4	NonCausal:T11 Arg0:T12 Arg1:T13
+A6	Temporal E4
+T12	Argument 834 916	they were ambushed and attacked with rocket-propelled grenades and small-arms fire
+T13	Argument 713 828	they were en route to an operation at a Taliban house in the Shirzad district of Nangarhar Province on Monday night
+T14	Consequence 1167 1175	resulted
+E5	Consequence:T14 Effect:T15 Cause:T16
+A7	Degree E5 Facilitate
+T15	Argument 1137 1161	many civilian casualties
+T17	NonCausal 1379 1385	during
+E6	NonCausal:T17 Arg0:T18 Arg1:T19
+A8	Temporal E6
+T18	Argument 1386 1453	an eight-hour battle on Monday in the southern province of Kandahar
+T19	Argument 1328 1378	they had killed more than two dozen enemy fighters
+T20	Motivation 1472 1476	when
+E7	Motivation:T20 Cause:T21 Effect:T22
+A9	Degree E7 Facilitate
+T21	Argument 1477 1542	American and Afghan forces were attacked by more than 30 fighters
+A10	Temporal E7
+T22	Argument 1455 1471	The battle began
+T23	Consequence 1743 1747	when
+E8	Consequence:T23 Cause:T24 Effect:T25
+A11	Degree E8 Facilitate
+A12	Temporal E8
+T24	Argument 1748 1804	two gunmen opened fire on students as they left for home
+T25	Argument 1606 1742	two students, ages 29 and 15, were killed and four were wounded outside a girls' school in the southeastern province of Logar on Tuesday
+T26	NonCausal 1783 1785	as
+E9	NonCausal:T26 Arg0:T27 Arg1:T28
+A13	Temporal E9
+T27	Argument 1786 1804	they left for home
+T28	Argument 1748 1782	two gunmen opened fire on students
+T29	Consequence 1904 1910;1941 1944	blamed for
+E10	Consequence:T29 Cause:T30 Effect:T31
+A14	Degree E10 Facilitate
+T30	Argument 1911 1940	Taliban and Al Qaeda fighters
+T31	Argument 1945 2012	the attack in Sayed Habibullah village, south of the capital, Kabul
+T32	Motivation 2015 2019	When
+E11	Motivation:T32 Cause:T33 Effect:T34
+A15	Degree E11 Facilitate
+A16	Temporal E11
+T33	Argument 2020 2045	the Taliban were in power
+T34	Argument 2047 2096	women and girls were barred from attending school
+T16	Argument 1056 1128	a lack of coordination between the American-led forces and Afghan forces
+#1	AnnotatorNotes T16	Unusual combination of constructions that strands this argument

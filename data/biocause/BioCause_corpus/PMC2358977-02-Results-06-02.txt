@@ -1,0 +1,3 @@
+Genes revolved in recombination/repair and transcription 
+Together with some elements of DNA recombination/repair (05SSU0063, 05SSU0588 and 05SSU0953), two transcription regulators (05SSU0503 and 05SSU1233) were also under the regulation of SalK/SalR.
+Although these genes were found to be down-regulated in the mutant, it is not understood how they are associated with the attenuation of DeltasalKR.

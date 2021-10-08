@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0906</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-26</TIMEX3></DCT>
+<TEXT>
+ Diversified Investment Group Inc. <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="I_ACTION">agreed</EVENT> to be <EVENT eid="e3" class="OCCURRENCE">acquired</EVENT> by Star States Corp. for stock <EVENT eid="e4" class="OCCURRENCE">valued</EVENT> at $ 13.75 a share, or about $ 24.4 million.
+ Diversified, the holding company for Fidelity Federal Savings amp Loan Association, <EVENT eid="e5" class="REPORTING">said</EVENT> the agreement also <EVENT eid="e6" class="OCCURRENCE">gives</EVENT> Star States the option to <EVENT eid="e7" class="OCCURRENCE">acquire</EVENT> 588,300 of Diversified's 1,774,326 shares outstanding " under certain circumstances. "
+ The <EVENT eid="e8" class="OCCURRENCE">acquisition</EVENT> would <EVENT eid="e9" class="OCCURRENCE">give</EVENT> Wilmington, Del. -based Star States access to the Pennsylvania market.
+ The agreement is subject to regulatory <EVENT eid="e10" class="OCCURRENCE">approval</EVENT> and <EVENT eid="e11" class="OCCURRENCE">resolution</EVENT> of lawsuits <EVENT eid="e12" class="OCCURRENCE">brought</EVENT> by certain Diversified holders in connection with the proposed <EVENT eid="e13" class="OCCURRENCE">merger</EVENT>.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="SIMULTANEOUS" eventInstanceID="ei3" relatedToEventInstance="ei4"/>
+<TLINK lid="l3" relType="IDENTITY" eventInstanceID="ei5" relatedToEventInstance="ei1"/>
+<TLINK lid="l4" relType="INCLUDES" eventInstanceID="ei8" relatedToEventInstance="ei3"/>
+<TLINK lid="l5" relType="IDENTITY" eventInstanceID="ei8" relatedToEventInstance="ei9"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei12" relatedToEventInstance="ei11"/>
+<TLINK lid="l7" relType="INCLUDES" eventInstanceID="ei13" relatedToEventInstance="ei3"/>
+</TimeML>

@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0292</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-01</TIMEX3></DCT>
+<TEXT>
+ Despite continuing problems in its newsprint business, Kimberly - Clark Corp. <EVENT eid="e1" class="REPORTING">posted</EVENT> a 20 % <EVENT eid="e2" class="STATE">gain</EVENT> in <TIMEX3 tid="t3" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> net <EVENT eid="e4" class="STATE">income</EVENT>.
+ The consumer-products and newsprint company <EVENT eid="e5" class="REPORTING">said</EVENT> net <EVENT eid="e6" class="OCCURRENCE">rose</EVENT> to $ 108.8 million, or $ 1.35 a share, from $ 90.5 million, or $ 1.12 a share, <TIMEX3 tid="t7" type="DATE" value="1988-Q3" anchorTimeID="t3" functionInDocument="NONE">a year ago</TIMEX3>.
+ Sales <EVENT eid="e8" class="OCCURRENCE">rose</EVENT> 6.2 % to $ 1.45 billion from $ 1.37 billion.
+ After <TIMEX3 tid="t9" type="DATE" value="1989-Q2" anchorTimeID="t0" functionInDocument="NONE">a flat second quarter</TIMEX3> <EVENT eid="e10" class="STATE">tied</EVENT> largely to lower newsprint earnings, Kimberly - Clark <EVENT eid="e11" class="I_ACTION">attributed</EVENT> the <EVENT eid="e12" class="OCCURRENCE">gain</EVENT> to improved <EVENT eid="e13" class="STATE">results</EVENT> in its consumer businesses in North America, Brazil and Korea.
+ Those <EVENT eid="e14" class="OCCURRENCE">gains</EVENT> came from higher prices, particularly for disposable diapers and tissue products, and from increased <EVENT eid="e15" class="OCCURRENCE">sales</EVENT>, primarily for feminine-care products, the company <EVENT eid="e16" class="REPORTING">said</EVENT>.
+ Newsprint results <EVENT eid="e17" class="ASPECTUAL">continued</EVENT> to be <EVENT eid="e18" class="STATE">depressed</EVENT>, the company <EVENT eid="e19" class="REPORTING">added</EVENT>, <C-SIGNAL cid="c20">because of</C-SIGNAL> industrywide price <EVENT eid="e21" class="OCCURRENCE">discounting</EVENT>.
+ The quarter-to-quarter comparison was also <EVENT eid="e22" class="OCCURRENCE">enhanced</EVENT> <C-SIGNAL cid="c23">by</C-SIGNAL> <EVENT eid="e24" class="OCCURRENCE">charges</EVENT> <EVENT eid="e25" class="OCCURRENCE">taken</EVENT> in <TIMEX3 tid="t26" type="DATE" value="1988-Q3" anchorTimeID="t3" functionInDocument="NONE">the year-earlier period</TIMEX3>, including $ 11 million related to the <EVENT eid="e27" class="OCCURRENCE">modernization</EVENT> of a pulp and newsprint mill in Alabama.
+ In <TIMEX3 tid="t28" type="DATE" value="1989-Q3" anchorTimeID="t3" functionInDocument="NONE">the 1989 period</TIMEX3> also, interest expense and tax rates were <EVENT eid="e29" class="STATE">lower</EVENT> than <TIMEX3 tid="t30" type="DATE" value="1988-Q3" anchorTimeID="t26" functionInDocument="NONE">a year ago</TIMEX3>.
+ In <TIMEX3 tid="t31" type="DURATION" value="P9M" functionInDocument="NONE">the first nine months</TIMEX3>, profit <EVENT eid="e32" class="OCCURRENCE">rose</EVENT> 10 % to $ 313.2 million, or $ 3.89 a share, from $ 283.9 million, or $ 3.53 a share.
+ Sales <EVENT eid="e33" class="OCCURRENCE">rose</EVENT> 6.7 % to $ 4.27 billion from $ 4 billion.
+ In New York Stock Exchange composite trading, Kimberly - Clark <EVENT eid="e34" class="OCCURRENCE">closed</EVENT> at $ 66.50 a share, up $ 1.50.
+</TEXT>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PAST" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+<TLINK lid="l3" relType="DURING" eventInstanceID="ei4" relatedToTime="t3"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei5" relatedToTime="t0"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei8" relatedToTime="t0"/>
+<TLINK lid="l6" relType="DURING" eventInstanceID="ei10" relatedToTime="t9"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToEventInstance="ei5"/>
+<TLINK lid="l8" relType="IDENTITY" eventInstanceID="ei12" relatedToEventInstance="ei2"/>
+<TLINK lid="l9" relType="AFTER" eventInstanceID="ei12" relatedToTime="t9"/>
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei12" relatedToEventInstance="ei13"/>
+<TLINK lid="l11" relType="IDENTITY" eventInstanceID="ei14" relatedToEventInstance="ei13"/>
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei15" relatedToEventInstance="ei14"/>
+<TLINK lid="l13" relType="IDENTITY" eventInstanceID="ei16" relatedToEventInstance="ei5"/>
+<TLINK lid="l14" relType="IS_INCLUDED" eventInstanceID="ei18" relatedToEventInstance="ei17"/>
+<TLINK lid="l15" relType="IDENTITY" eventInstanceID="ei19" relatedToEventInstance="ei5"/>
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei21" relatedToEventInstance="ei17"/>
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei24" relatedToEventInstance="ei22"/>
+<TLINK lid="l19" relType="IDENTITY" eventInstanceID="ei24" relatedToEventInstance="ei25"/>
+<TLINK lid="l20" relType="IS_INCLUDED" eventInstanceID="ei24" relatedToTime="t26"/>
+<TLINK lid="l22" relType="IS_INCLUDED" eventInstanceID="ei27" relatedToEventInstance="ei24"/>
+<TLINK lid="l23" relType="IS_INCLUDED" eventInstanceID="ei29" relatedToTime="t28"/>
+<TLINK lid="l24" relType="ENDS" eventInstanceID="ei29" relatedToTime="t30"/>
+<TLINK lid="l25" relType="DURING" eventInstanceID="ei32" relatedToTime="t31"/>
+<TLINK lid="l26" relType="DURING" eventInstanceID="ei33" relatedToTime="t31"/>
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei34" relatedToTime="t0"/>
+<CLINK lid="l17" c-signalID="c20" eventInstanceID="ei21" relatedToEventInstance="ei17"/>
+<CLINK lid="l21" c-signalID="c23" eventInstanceID="ei24" relatedToEventInstance="ei22"/>
+</TimeML>

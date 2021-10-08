@@ -1,0 +1,23 @@
+Conserved histidine and glutamic acid residues in the periplasmic domain of PmrB are required for signalling in response to mild acid pH 
+The results described above established that PmrB is required for activation of PmrA in response to mild acid pH.
+This could be because PmrB is directly involved in sensing extracytoplasmic pH in a way analogous to its sensing of Fe3+ and Al3+ (Wosten et al., 2000), or because PmrB plays an indirect role in its capacity of main (if not sole) phosphodonor for PmrA.
+In fact, PmrB is required for the activation of PmrA-regulated genes in response to the low Mg2+ signal, which is sensed by the PhoQ protein (Kato and Groisman, 2004) (Fig. 1).
+Thus, we reasoned that if PmrB senses extracytoplasmic pH directly, its periplasmic domain (Fig. 5A) was likely to be required for the response to this signal.
+To examine this hypothesis, we tested a Salmonella strain with a chromosomal pbgP-lac fusion, deleted for the chromosomal copy of the pmrB gene and harbouring a plasmid expressing a PmrB protein lacking its periplasmic domain for its ability to promote pbgP expression in response to different signals.
+There was no pbgP expression in cells grown at pH 5.8 (Fig. 5B) or in the presence of Fe3+ (Fig. 5D), which is in contrast to the normal activation in response to low Mg2+ (Fig. 5C).
+Together, these results argue in favour of the notion that PmrB senses extracellular pH besides its previously described ligands Fe3+ and Al3+ (Wosten et al., 2000).
+An alignment of the amino acid sequences corresponding to the putative periplasmic domain of the PmrB proteins from six enteric species revealed that nine residues are highly conserved (Fig. 6A).
+Interestingly, one of these conserved residues was a histidine at position 35.
+Because the pKa of free histidine is approximately6, the pH at which PmrA-activated genes are induced, we hypothesized that this residue might be required for pH sensing.
+To test this hypothesis, we constructed a plasmid that produced a PmrB protein containing a single histidine to alanine substitution at position 35.
+While this mutation severely diminished the ability of Salmonella to respond to mild acid pH, there still was some residual pbgP expression (Fig. 6B) suggesting that other residues might also be required for pH sensing.
+We considered the possibility that a second histidine at position 57 could be involved in sensing acid despite the fact that this residue was only partially conserved across species (Fig. 6A).
+However, the substitution of this residue by alanine had no effect on the response to mild acid pH (Fig. 6B).
+Four of the nine conserved amino acids in the periplasmic domain of PmrB are glutamic acid residues, which also could be subjected to changes in protonation upon variations in the pH of their surroundings.
+Although the pKa of free glutamic acid is approximately4, which is well below the range of pH at which PmrA-activated genes are induced, the folding of a protein can dramatically change the pKa of its residues.
+For instance, the pKa of one of the glutamic acid residues of the regulatory protein TraM is approximately7.7 (Lu et al., 2006).
+Therefore, we hypothesized that one or more of the glutamates might be required for pH sensing.
+To test this hypothesis, we used plasmids that produced PmrB proteins containing single-amino-acid replacements in the conserved glutamic acid residues.
+When either one of the four conserved glutamates was substituted by alanine Salmonella could no longer respond to mild acid pH (Fig. 6B).
+Strains expressing the mutant PmrB proteins could express pbgP normally in response to the low Mg2+ signal (Fig. 6C) (Wosten et al., 2000), indicating that mutations in residues of the periplasmic domain of PmrB do not impair the enzymatic activity of the cytoplasmic domain of the PmrB protein.
+These results indicate that the periplasmic glutamates are required for responding to mild acid pH.

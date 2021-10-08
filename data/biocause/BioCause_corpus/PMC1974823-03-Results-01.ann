@@ -1,0 +1,106 @@
+T60	Regulation 9 13	Role
+T61	Gene_expression 30 40	expression
+T62	Regulation 92 102	controlled
+T63	Regulation 260 267	effects
+T64	Gene_expression 279 289	expression
+T65	Gene_expression 375 385	Expression
+T66	Gene_expression 628 638	expression
+T67	Negative_regulation 660 669	abolished
+T68	Gene_expression 832 842	expression
+T69	Negative_regulation 869 878	repressed
+T70	Gene_expression 960 970	expression
+T71	Regulation 1007 1013	effect
+T72	Gene_expression 1017 1027	expression
+T73	Positive_regulation 1167 1175	required
+T74	Gene_expression 1180 1190	expression
+T75	Gene_expression 1638 1648	expression
+T76	Gene_expression 1955 1965	production
+E1	Regulation:T60 Theme:E2 Cause:T1
+M1	Speculation E1
+E2	Gene_expression:T61 Theme:T2
+E3	Regulation:T62 Theme:T3 Cause:T4
+E4	Regulation:T63 Theme:E5 Cause:T7
+M2	Speculation E4
+E5	Gene_expression:T64 Theme:T8
+E6	Gene_expression:T65 Theme:T11
+E7	Gene_expression:T65 Theme:T12
+E8	Gene_expression:T66 Theme:T18
+E9	Negative_regulation:T67 Theme:E8
+E10	Gene_expression:T68 Theme:T21
+E11	Negative_regulation:T69 Theme:E10
+E12	Gene_expression:T70 Theme:T24
+E13	Regulation:T71 Theme:E14
+M3	Negation E13
+E14	Gene_expression:T72 Theme:T26
+E15	Positive_regulation:T73 Theme:E16 Cause:T29
+E16	Gene_expression:T74 Theme:T32
+E17	Gene_expression:T75 Theme:T47
+E18	Gene_expression:T75 Theme:T48
+E19	Gene_expression:T76 Theme:T56
+T1	Protein 17 21	FimR
+T2	Protein 25 29	mfa1
+T3	Protein 45 49	fimA
+T4	Two-component-system 110 119	FimS/FimR
+T5	Protein 110 114	FimS
+T6	Protein 115 119	FimR
+T7	Protein 271 275	FimR
+T8	Protein 297 301	mfa1
+T9	Organism 323 334	fimR mutant
+T10	Protein 323 327	fimR
+T11	Protein 389 393	fimA
+T12	Protein 398 402	mfa1
+T13	Organism 410 422	fimR- mutant
+T14	Protein 410 414	fimR
+T15	Organism 541 546	33277
+T16	Organism 555 567	fimR- mutant
+T17	Protein 555 559	fimR
+T18	Protein 646 650	fimA
+T19	Organism 677 700	fimR- mutant strain FRE
+T20	Protein 677 681	fimR
+T21	Protein 850 854	mfa1
+T22	Organism 896 908	fimR- mutant
+T23	Protein 896 900	fimR
+T24	Protein 955 959	fimA
+T25	Protein 985 989	fimR
+T26	Protein 1031 1035	rgpA
+T27	Organism 1092 1105	P. gingivalis
+T28	Protein 1106 1113	16S RNA
+T29	Two-component-system 1147 1156	FimS/FimR
+T30	Protein 1147 1151	FimS
+T31	Protein 1152 1156	FimR
+T32	Protein 1209 1223	minor fimbriae
+T33	Organism 1299 1311	fimR- mutant
+T34	Protein 1299 1303	fimR
+T35	Protein 1367 1371	FimA
+T36	Protein 1380 1384	Mfa1
+T37	Organism 1446 1451	33277
+T38	Organism 1458 1470	fimR- mutant
+T39	Protein 1458 1462	fimR
+T40	Organism 1472 1475	FRE
+T41	Organism 1482 1494	fimA- mutant
+T42	Protein 1482 1486	fimA
+T43	Organism 1496 1499	FAT
+T44	Organism 1509 1521	mfa1- mutant
+T45	Protein 1509 1513	mfa1
+T46	Organism 1523 1527	MFAE
+T47	Protein 1656 1660	fimA
+T48	Protein 1665 1669	mfa1
+T49	Protein 1738 1742	FimA
+T50	Organism 1777 1789	fimR- mutant
+T51	Protein 1777 1781	fimR
+T52	Protein 1818 1822	Mfa1
+T53	Organism 1848 1860	fimR- mutant
+T54	Protein 1848 1852	fimR
+T55	Organism 1900 1905	33277
+T56	Protein 1950 1954	RgpA
+T57	Organism 1973 1985	fimR- mutant
+T58	Protein 1973 1977	fimR
+T59	Protein 2014 2018	RgpA
+T77	Span 803 878	The striking finding is that expression of the mfa1 gene was also repressed
+T78	Span 880 970	hreefold in the fimR- mutant, although not to the degree observed with the fimA expression
+T79	Causality 879 888	threefold
+E20	Causality:T79 Evidence:T77 Effect:T78
+T80	Span 972 1118	However, the fimR- mutation had no effect on expression of rgpA, a gene encoding the arginine-specific protease, or the P. gingivalis 16S RNA gene
+T81	Causality 1120 1146	This analysis suggests the
+E21	Causality:T81 Effect:T82 Evidence:T80
+T82	Span 1147 1223	FimS/FimR system is required for expression of both major and minor fimbriae

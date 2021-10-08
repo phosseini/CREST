@@ -1,0 +1,14 @@
+Discussion 
+Structural features of SrcA We used a reverse genetics approach to define a new secretion chaperone in S.
+Typhimurium that is integrated functionally with the T3SS encoded by SPI-2, a system well described for its role in immune subversion and intracellular infection during host colonization.
+Consistent with other class I secretion chaperones, SrcA has extensive electronegative charge distributed over the surface of the molecule.
+The exact function of this charge distribution is not known, but data from other systems suggests a docking recognition function with other components of the type III apparatus, possibly the T3SS-accociated ATPase.
+For instance, electronegative surface residues on the SigE chaperone in the SPI-1-encoded T3SS negatively affect cargo secretion, but not cargo stability [30].
+In enteropathogenic E. coli, a surface-exposed electronegative residue in the CesT chaperone (Glu142) likewise contributes to Tir secretion but not Tir binding [16], suggesting a role in either targeting bound cargo to the T3SS or in the secretion process itself.
+Interestingly, SrcA lacks 17-amino acids that make up the carboxyl terminus of CesT, which includes Glu142, and yet it still retains effector binding, ATPase binding and effector secretion functionalities.
+Thus, it is likely that other surface charged residues of SrcA are involved in these functions or that SrcA targets effector cargo to the secretion apparatus through a mechanism distinct from CesT.
+The interface for the SrcA homodimer is extensive and is more in keeping with the structural features of single-effector class IA chaperones (approximately1100-1300 A2) compared to the reduced dimer interface of Spa15, a multi-cargo class IB chaperone from Shigella [31].
+Similar to CesT and SicP, the dimer interface of SrcA adopts a parallel configuration when comparing alpha2 helices of opposing subunits.
+In contrast, the subunits of Spa15 undergo a significant relative rotation (80degrees) about the alpha2-axis resulting in a different interface.
+These features may relate to biological function in the SPI2 T3SS and/or in vetting effector cargo amongst the >30 effectors identified in Salmonella.
+We found no evidence of interactions between SrcA and translocon components of the SPI-2 T3SS and so it appears as though SrcA functions specifically in effector translocation events.

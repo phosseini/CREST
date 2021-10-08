@@ -1,0 +1,110 @@
+T1	Organism 25 29	flea
+T2	Organism 46 55	Y. pestis
+T3	Organism 99 108	Y. pestis
+T4	Organism 155 159	flea
+T5	Organism 357 366	Y. pestis
+T6	Organism 686 695	Y. pestis
+T7	Organism 930 939	Y. pestis
+T8	Organism 978 982	flea
+T9	Organism 1132 1136	flea
+T10	Organism 1138 1147	Y. pestis
+T11	Chemical 1225 1259	poly-beta-1,6-N-acetyl glucosamine
+T12	Organism 1267 1281	staphylococcal
+T13	Organism 1481 1485	flea
+T14	Organism 1507 1511	flea
+T15	Protein 1536 1540	cafR
+T16	Protein 1540 1545	caf1M
+T17	Protein 1545 1547	1A
+T18	Protein 1547 1548	1
+T19	Protein 1586 1590	psaC
+T20	Organism 1696 1705	Y. pestis
+T21	Protein 1844 1848	phoP
+T22	Protein 1853 1857	mgtC
+T23	Organism 1877 1886	Y. pestis
+T24	Organism 1995 1999	flea
+T25	Protein 2055 2060	yadBC
+T26	Protein 2065 2068	pla
+T27	Organism 2084 2093	Y. pestis
+T28	Organism 2172 2176	flea
+T29	Protein 2228 2231	Pla
+T30	Organism 2353 2362	Y. pestis
+T31	Organism 2370 2374	flea
+T32	Organism 2388 2397	Y. pestis
+T33	Organism 2471 2475	flea
+T34	Organism 2509 2518	Y. pestis
+T35	Organism 2584 2588	flea
+T36	Organism 2809 2813	flea
+T37	Organism 2880 2885	fleas
+T38	Organism 2944 2953	Y. pestis
+T39	Process 59 65	resist
+T40	Process 146 154	infected
+T41	Process 260 269	virulence
+T42	Process 367 376	virulence
+T43	Process 474 483	infection
+T44	Process 817 826	virulence
+T45	Process 968 977	infective
+T46	Process 997 1006	resistant
+T47	Positive_regulation 1487 1499	upregulation
+T48	Process 1749 1758	virulence
+T49	Positive_regulation 1791 1803	upregulation
+T50	Process 1827 1837	resistance
+T51	Process 1929 1939	resistance
+T52	Process 2037 2046	virulence
+T53	Gene_expression 2155 2164	expressed
+T54	Process 2527 2536	virulence
+T55	Process 2701 2710	virulence
+T56	Process 2753 2763	resistance
+E1	Process:T39 Participant:T2
+E2	Process:T40 Participant:T3
+E3	Process:T41 
+E4	Process:T42 
+E5	Process:T43 
+E6	Process:T44 
+E7	Process:T45 
+E8	Process:T46 
+E9	Positive_regulation:T47 Theme:T17
+E10	Positive_regulation:T47 Theme:T18
+E11	Positive_regulation:T47 Theme:T19
+E12	Positive_regulation:T47 Theme:T15
+E13	Positive_regulation:T47 Theme:T16
+E14	Process:T48 
+E15	Positive_regulation:T49 Theme:T21
+E16	Positive_regulation:T49 Theme:T22
+E17	Process:T50 
+E18	Process:T51 
+E19	Process:T52 
+E20	Gene_expression:T53 Theme:T25
+E21	Gene_expression:T53 Theme:T26
+E22	Process:T54 
+E23	Process:T55 
+E24	Process:T56 
+T57	Span 686 892	Y. pestis grown at <28degreesC in vitro are initially susceptible to in vivo uptake and killing by phagocytes until the Yop and F1 virulence factors are produced, effectively preventing further phagocytosis
+T58	Span 226 483	The most important antiphagocytic virulence factors, the cytotoxic Yersinia outer proteins (Yops), part of the T3SS encoded by the Y. pestis virulence plasmid and the F1 capsule encoded by the pMT1 plasmid, are not present at this initial stage of infection
+T59	Causality 904 929	Our results indicate that
+E25	Causality:T59 Effect:T60 Evidence:T57
+T60	Span 930 1114	Y. pestis entering the mammal from an infective flea is relatively resistant to macrophages, as well as PMNs [7]; a vector-specific phenotype that is not related to the T3SS or capsule
+E26	Causality:T59 Effect:T60 Evidence:T58
+T61	Span 1116 1290	Coming from the flea, Y. pestis is also associated with the biofilm ECM, identical or closely related to the poly-beta-1,6-N-acetyl glucosamine ECM of staphylococcal biofilms
+T62	Causality 1292 1312	which has been shown
+E27	Causality:T62 Effect:T63 Evidence:T61
+T63	Span 1313 1364	to provide protection from innate immune components
+T64	Span 1376 1590	In addition, although the antiphagocytic F1 capsule and Psa fimbriae do not appear to be produced in the flea, upregulation in the flea of most F1 genes in the cafRcaf1M1A1 locus and the Psa usher protein gene psaC
+T65	Causality 1606 1619	suggests that
+E28	Causality:T65 Effect:T66 Evidence:T64
+T66	Span 1620 1785	components of the F1 and Psa translocation system are made, which may prime Y. pestis for rapid secretion of these extracellular virulence factors after transmission
+T67	Span 1787 1857	The upregulation of the innate immunity resistance genes phoP and mgtC
+T68	Causality 1858 1870	suggest that
+E29	Causality:T68 Effect:T69 Evidence:T67
+T69	Span 1871 2006	those Y. pestis that are phagocytized may be prepared for resistance to CAMPs and intracellular survival while still in the flea vector
+T70	Span 2193 2374	Besides degrading plasminogen, the Pla protease may also inactivate CAMPs, particularly when the F1 capsule is not present [57], which matches the phenotype of Y. pestis in the flea
+T71	Span 2388 2483	Y. pestis appears to be prepared for pathogenesis in the mammal while still in the flea vector.
+T72	Causality 2376 2386	In summary
+E30	Causality:T72 Effect:T71 Evidence:T70
+T73	Span 2484 2588	The biofilm phenotype of Y. pestis and the virulence factors upregulated or highly expressed in the flea
+T74	Causality 2589 2592	may
+E31	Causality:T74 Effect:T75 Evidence:T73
+T75	Span 2593 2741	enhance the earliest stages of plague pathogenesis while the full complement of temperature-shift-regulated virulence factors is still being induced
+T76	Span 2743 2820	Increased resistance to innate immunity that is preinduced in the flea vector
+T77	Causality 2821 2827	may be
+E32	Causality:T77 Effect:T78 Evidence:T76
+T78	Span 2828 2983	critical to productive transmission because blocked fleas transmit relatively few bacteria, often below the LD50 of Y. pestis grown in vitro at <28degreesC

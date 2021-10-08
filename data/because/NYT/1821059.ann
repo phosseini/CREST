@@ -1,0 +1,183 @@
+T1	Purpose 101 108;94 98	goal of with
+E1	Purpose:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 0 93	Mahmoud al-Mashhadani, the speaker of Parliament, read a roll call of the 275 elected members
+T3	Argument 109 129	shaming the no-shows
+T4	Motivation 461 464;480 482	led to
+E2	Motivation:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+T5	Argument 447 460	whose absence
+T6	Argument 465 479;483 511	Mr. Mashhadani ask: ``When will he be back?
+T7	NonCausal 512 517	After
+E3	NonCausal:T7 Arg0:T8
+A3	Temporal E3
+T8	Argument 518 539	we approve the budget
+T12	Motivation 688 695	because
+E5	Motivation:T12 Effect:T13 Cause:T14
+A5	Degree E5 Facilitate
+T13	Argument 633 687	Nearly every session since November has been adjourned
+T14	Argument 696 814	as few as 65 members made it to work, even as they and the absentees earned salaries and benefits worth about $120,000
+T15	Consequence 987 989	As
+E6	Consequence:T15 Cause:T16 Effect:T17
+A6	Degree E6 Facilitate
+A7	Temporal E6
+A8	Correlation E6
+T16	Argument 990 1008	chaos has deepened
+T17	Argument 1010 1054	Parliament's relevance has gradually receded
+T18	NonCausal 1159 1163	with
+E7	NonCausal:T18 Arg1:T19 Arg0:T20
+A9	Context E7
+T19	Argument 1057 1157	Deals on important legislation, most recently the oil law, now take place largely out of public view
+T20	Argument 1164 1230	Parliament -- when it meets -- rubber-stamping the final decisions
+T21	NonCausal 1178 1182	when
+E8	NonCausal:T21 Arg0:T22 Arg1:T23
+T22	Argument 1183 1191	it meets
+T23	Argument 1164 1174;1195 1230	Parliament rubber-stamping the final decisions
+T24	Consequence 1232 1234;1237 1243	As result
+E9	Consequence:T24 Effect:T25
+A11	Degree E9 Facilitate
+T25	Argument 1261 1426	vital legislation involving the budget, provincial elections and amendments to the Constitution remain trapped in a legislative process that processes nearly nothing
+T26	Consequence 1480 1484	help
+E10	Consequence:T26 Cause:T27 Effect:T28
+A12	Degree E10 Facilitate
+T27	Argument 1463 1473	Parliament
+T28	Argument 1485 1566	foster dialogue between Iraq's increasingly fractured ethnic and religious groups
+T29	Consequence 1485 1491	foster
+E11	Consequence:T29 Cause:T27 Effect:T30
+A13	Degree E11 Facilitate
+T30	Argument 1492 1566	dialogue between Iraq's increasingly fractured ethnic and religious groups
+T31	Motivation 1811 1814	for
+E12	Motivation:T31 Cause:T32 Effect:T33
+A14	Degree E12 Facilitate
+T32	Argument 1815 1835	every missed session
+T33	Argument 1763 1810	Parliament would soon start fining members $400
+T34	Motivation 1862 1864	if
+E13	Motivation:T34 Cause:T35 Effect:T36
+A15	Degree E13 Facilitate
+A16	Hypothetical E13
+T35	Argument 1865 1913	they fail to attend a minimum amount of the time
+T36	Argument 1840 1861	replace the absentees
+T42	Consequence 2861 2867	led to
+E15	Consequence:T42 Cause:T43 Effect:T44
+A19	Degree E15 Facilitate
+T43	Argument 2778 2849	sectarian divisions and the need for a twothirds majority in some cases
+T44	Argument 2868 2876	deadlock
+T45	Consequence 2914 2921	blocked
+E16	Consequence:T45 Effect:T46 Cause:T47
+A20	Degree E16 Inhibit
+T46	Argument 2922 2981	efforts to scrutinize violence connected to their own sects
+T47	Argument 2878 2908	Sunni and Shiite power brokers
+T48	Consequence 3156 3158	If
+E17	Consequence:T48 Cause:T49 Effect:T50
+A21	Degree E17 Facilitate
+A22	Hypothetical E17
+T49	Argument 3159 3183	the heart is not working
+T50	Argument 3185 3197	it all fails
+T51	Consequence 3265 3274	needed to
+E18	Consequence:T51 Cause:T52 Effect:T53
+A23	Degree E18 Facilitate
+T52	Argument 3241 3264	the 50 percent plus one
+T53	Argument 3275 3284	pass laws
+T54	Consequence 3321 3327	caused
+E19	Consequence:T54 Effect:T55 Cause:T56
+A24	Degree E19 Facilitate
+T55	Argument 3286 3319	It was the first quorum in months
+T56	Argument 3339 3505	the return of 30 members loyal to the Shiite cleric Moktada al-Sadr, whose end to a two-month boycott created a public relations blitz that helped attract 189 members
+T57	Consequence 3441 3448	created
+E20	Consequence:T57 Cause:T58 Effect:T59
+A25	Degree E20 Facilitate
+A26	Creation-termination E20
+T58	Argument 3408 3440	whose end to a two-month boycott
+T59	Argument 3449 3505	a public relations blitz that helped attract 189 members
+T60	Consequence 3479 3485	helped
+E21	Consequence:T60 Effect:T61 Cause:T106
+A27	Degree E21 Facilitate
+T61	Argument 3486 3505	attract 189 members
+T62	Argument 3449 3473	a public relations blitz
+T63	NonCausal 3814 3819	after
+E22	NonCausal:T63 Arg0:T64 Arg1:T65
+A28	Temporal E22
+T64	Argument 3820 3839	being marked absent
+T65	Argument 3675 3810	Abdul Aziz al-Hakim, who is head of the Supreme Council for the Islamic Revolution in Iraq and a Shiite rival of Mr. Sadr, arrived late
+T66	Argument 5050 5072	Most of them were here
+T67	Purpose 5073 5076	for
+E23	Purpose:T67 Effect:T66 Cause:T68
+A29	Degree E23 Facilitate
+T68	Argument 5077 5085	the game
+T69	Purpose 5087 5090	for
+E24	Purpose:T69 Cause:T70 Effect:T66
+A30	Degree E24 Facilitate
+T70	Argument 5091 5099	prestige
+T71	Purpose 5101 5104	for
+E25	Purpose:T71 Cause:T72 Effect:T66
+A31	Degree E25 Facilitate
+T72	Argument 5105 5114	the money
+T73	Motivation 5800 5807	because
+E26	Motivation:T73 Effect:T75 Cause:T74
+A32	Degree E26 Facilitate
+T74	Argument 5808 5935	his wife needed open-heart surgery and he did not trust that she would be well cared for in one of Baghdad's decrepit hospitals
+T75	Argument 5770 5799	he left Iraq a few months ago
+T76	Consequence 6152 6156	made
+E27	Consequence:T76 Cause:T77 Effect:T78
+A33	Degree E27 Facilitate
+T77	Argument 6092 6147	the dangers involved with being a public figure in Iraq
+T82	Motivation 6242 6246	when
+E29	Motivation:T82 Cause:T83 Effect:T84
+A35	Degree E29 Facilitate
+T83	Argument 6247 6263	he comes to Iraq
+T84	Argument 6210 6241	He has 40 guards to protect him
+T85	Consequence 6605 6607;6675 6679	If then
+E30	Consequence:T85 Effect:T87 Cause:T86
+A38	Hypothetical E30
+T86	Argument 6608 6673	there are some members who think there is no benefit to attending
+T87	Argument 6680 6698	they should resign
+T88	Consequence 6904 6910	ensure
+E31	Consequence:T88 Effect:T89 Cause:T90
+A39	Degree E31 Facilitate
+T89	Argument 6911 6942	the attendance of their members
+T90	Argument 6896 6900	them
+T91	Argument 6873 6886	party leaders
+R1	Coref Arg1:T90 Arg2:T91	
+T92	NonCausal 6945 6951	During
+E32	NonCausal:T92 Arg0:T93 Arg1:T94
+A40	Temporal E32
+T93	Argument 6952 7030	an interview in his office, lined with baroque cushioned chairs with gold trim
+T94	Argument 7032 7156	he also acknowledged that more money should be set aside for members' security, but only if members show up to pass a budget
+T95	Consequence 7121 7123	if
+E33	Consequence:T95 Cause:T96 Effect:T97
+A41	Degree E33 Facilitate
+A42	Hypothetical E33
+T96	Argument 7124 7156	members show up to pass a budget
+T97	Argument 7058 7110	more money should be set aside for members' security
+T98	Purpose 7089 7092	for
+E34	Purpose:T98 Cause:T99 Effect:T100
+A43	Degree E34 Facilitate
+T99	Argument 7093 7110	members' security
+T100	Argument 7058 7088	more money should be set aside
+T101	Consequence 7349 7352;7367 7369;7423 7430	For to have to
+E35	Consequence:T101 Effect:T79 Cause:T103
+A44	Degree E35 Facilitate
+T103	Argument 7387 7422;7431 7454	a majority of members in Parliament be present to pass them
+T104	Consequence 2366 2380	in the face of
+E36	Consequence:T104 Effect:T105 Cause:T40
+A45	Degree E36 Facilitate
+T105	Argument 2333 2365	Parliament's laws are irrelevant
+T40	Argument 2381 2438	sprawling chaos and the government's inability to stop it
+T106	Argument 3474 3478	that
+R2	Coref Arg1:T106 Arg2:T62	
+T41	NonCausal 5394 5400	before
+E37	NonCausal:T41 Arg0:T107 Arg1:T112
+A46	Temporal E37
+T107	Argument 5401 5414	the elections
+T112	Argument 5363 5393	who had larger shares of power
+T78	Argument 6157 6159;6160 6208	it much more difficult to participate in government
+A34	Degree E30 Facilitate
+T79	Argument 7353 7366;7370 7385	the proposals be put in place
+A10	Context E8
+A36	Temporal E29
+T9	Argument 633 653	Nearly every session
+T10	Argument 660 668	November
+T11	NonCausal 654 659	since
+E4	NonCausal:T11 Arg0:T10 Arg1:T9
+A4	Temporal E4
+#1	AnnotatorNotes E12	Debatable; seems like business-like exchange

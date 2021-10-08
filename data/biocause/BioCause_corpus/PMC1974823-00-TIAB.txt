@@ -1,0 +1,8 @@
+Porphyromonas gingivalis short fimbriae are regulated by a FimS/FimR two-component system 
+Porphyromonas gingivalis possesses two distinct fimbriae.
+The long (FimA) fimbriae have been extensively studied.
+Expression of the fimA gene is tightly controlled by a two-component system (FimS/FimR) through a cascade regulation.
+The short (Mfa1) fimbriae are less understood.
+The authors have recently demonstrated that both fimbriae are required for formation of P. gingivalis biofilms.
+Here, the novel finding that FimR, a member of the two-component regulatory system, is a transcriptional activator of the mfa1 gene is promoted.
+Unlike the regulatory mechanism of FimA by FimR, this regulation of the mfa1 gene is accomplished by FimR directly binding to the promoter region of mfa1.

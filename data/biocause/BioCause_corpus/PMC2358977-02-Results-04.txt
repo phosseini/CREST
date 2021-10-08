@@ -1,0 +1,23 @@
+Role of SalK/SalR in Virulence 
+Given the multiple roles of TCSTS in bacteria, we evaluated the effect of salKR deletion on the general biological characteristics of SS2 prior to in vivo work.
+First, the ability of the mutant strain to retain spectinomycin resistance was assessed.
+The spectinomycin resistance phenotype was stable in DeltasalKR during in vitro culture (data not shown).
+Next, the growth kinetics curves of DeltasalKR were compared with that of WT, and no obvious distinctions were observed.
+When streaked on THB plates with 5% sheep blood, DeltasalKR and WT colonies displayed a similar haemolytic phenotype.
+Finally, cell morphology and ultrastructure of these two strains were examined under light microscope and transmission electron microscope respectively, however, no significant differences were found (Fig. 4).
+An experimental infection model in piglets was designed to assess the role of SalK/SalR in virulence.
+As shown in Figure 5, all six SPF-piglets inoculated intravenously with WT developed most of the typical disease symptoms, including high fever, limping, swollen joints, shivering, CNS failure and respiratory failure within 24 hrs.
+Five of them died on day 2 post-infection, and the last one on day 3.
+In contrast, six infected piglets with an avirulent strain, 05HAS68 (as negative control), survived nearly without any obvious symptoms until the end of the experiment (14 days after infection).
+Wherein the six piglets challenged with the DeltasalKR mutant were all alive and symptom-free during the entire course monitored.
+This was similar to those observed in the negative control group, indicating that DeltasalKR totally loses its lethality.
+The experiments of functional complementation with the complemented strain CDeltasalKR showed clearly that the reintroduction of salKR into DeltasalKR restored its high pathogenicity.
+Five out of six piglets succumbed to the lethal infections of CDeltasalKR and died, with median survival times of 2 to 3 days.
+The last one recovered from serious clinical symptoms and survived at the experiments end.
+All these results strongly suggest that SalK/SalR plays an important role in the pathogenesis of Chinese isolates of highly invasive SS2.
+To better evaluate the virulence attenuation of DeltasalKR, colonization experiments were carried out.
+As shown in Table 1, wild-type bacteria were found in all of the SS2 specific tissues of WT-infected piglets, including heart, lung, liver, kidney, spleen, tonsil, brain, blood, joints and so on.
+In contrast, in the mutant-inoculated group, no mutant bacteria could be recovered from any of the examined tissue specimens.
+Obviously, lack of SalK/SalR badly impaired the capability of 05ZYH33 to colonize the various tissues of piglets.
+In the WT/DeltasalKR coinfection group, besides the detection of wild-type bacteria in all the specimens, DeltasalKR mutant bacteria could also be isolated from some susceptible tissues (such as heart, kidney, tonsil and brain) at a lower degree than the wild-type strain.
+We anticipated that the DeltasalKR mutant is still able to colonize these organs, is just due to the WT-mediated impairment of host defense against SS2 infection in these tissues.

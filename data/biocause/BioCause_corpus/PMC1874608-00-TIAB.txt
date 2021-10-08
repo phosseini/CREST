@@ -1,0 +1,8 @@
+Mlc regulation of Salmonella pathogenicity island I gene expression via hilE repression 
+The global regulator Mlc is a repressor of several genes and operons that are involved in sugar uptake and metabolism.
+A Salmonella enterica serovar Typhimurium mlc mutant showed reduced levels of invasion and cytotoxicity compared to the wild-type, and exhibited reduced expression levels of hilD, hilA and invF, which are regulatory genes in the Salmonella pathogenicity island 1 (SPI1).
+However, the effects of Mlc on hilD expression and bacterial invasiveness were not seen in the hilE mutant, and hilE expression was increased in the mlc mutant, which suggests that Mlc exerts positive effects on the expression of SPI1 genes by reducing the expression of HilE, which is known to down-regulate the expression of SPI1 genes through direct interaction with HilD.
+We found that the two known promoters of hilE were not modulated by Mlc, and we identified a third promoter, designated P3, which was repressed by Mlc.
+The gel mobility shift assay and footprinting analysis revealed that Mlc repressed hilE in a direct manner by binding to two distinct sites in the hilE P3 promoter region.
+The specific down-regulation of hilD observed in the presence of Mlc regulon-inducible sugars, such as glucose and mannose, could not be detected in the mlc mutant.
+Based on these results, we propose that Mlc functions to sense the availability of sugars and is linked to virulence gene regulation by its ability to control hilE expression in Salmonella.

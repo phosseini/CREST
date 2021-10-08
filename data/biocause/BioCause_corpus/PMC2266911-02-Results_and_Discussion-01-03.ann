@@ -1,0 +1,146 @@
+*	Equiv T45 T46
+T83	Process 536 545	infecting
+T84	Process 1491 1500	infection
+T85	Gene_expression 1540 1550	expression
+T86	Regulation 1586 1593	control
+T87	Regulation 2564 2571	control
+T88	Process 2587 2596	virulence
+T89	Gene_expression 2825 2833	produces
+T90	Binding 3053 3062	interacts
+T91	Process 3933 3942	infection
+T92	Process 4144 4153	infection
+E1	Process:T83 Participant:T4
+E2	Process:T83 Participant:T5
+E3	Process:T84 Participant:T23
+E4	Process:T84 Participant:T24
+E5	Gene_expression:T85 Theme:T26
+E6	Regulation:T86 Theme:E5 Cause:T27
+E7	Regulation:T87 Theme:E10 Cause:T45
+E8	Regulation:T87 Theme:E11 Cause:T45
+E9	Regulation:T87 Theme:E12 Cause:T45
+E10	Process:T88 Participant:T49
+E11	Process:T88 Participant:T50
+E12	Process:T88 Participant:T51
+E13	Gene_expression:T89 Theme:T58
+E14	Gene_expression:T89 Theme:T59
+E15	Gene_expression:T89 Theme:T58
+M1	Negation E15
+E16	Gene_expression:T89 Theme:T59
+M2	Negation E16
+E17	Binding:T90 Theme1:T60 Theme2:T62
+E18	Process:T91 
+E19	Process:T92 Participant:T82
+T1	Protein 350 354	UspA
+T2	Protein 373 377	UspF
+T3	Protein 377 378	G
+T4	Organism 464 478	P. luminescens
+T5	Organism 483 500	Y. enterocolitica
+T6	Protein 649 653	UspA
+T7	Protein 660 667	Plu0121
+T8	Protein 672 678	YE4050
+T9	Protein 687 691	UspE
+T10	Protein 698 705	Plu2178
+T11	Protein 710 716	YE2076
+T12	Organism 732 739	E. coli
+T13	Protein 801 805	UspA
+T14	Protein 810 814	UspC
+T15	Protein 900 904	UspA
+T16	Protein 913 917	UspE
+T17	Organism 932 946	P. luminescens
+T18	Organism 951 968	Y. enterocolitica
+T19	Organism 1115 1128	P. aeruginosa
+T20	Protein 1137 1143	PA4352
+T21	Protein 1148 1154	PA3309
+T22	Protein 1188 1192	UspA
+T23	Organism 1423 1437	P. luminescens
+T24	Organism 1442 1459	Y. enterocolitica
+T25	Organism 1524 1538	P. luminescens
+T26	Protein 1554 1558	UspA
+T27	Two-component-system 1601 1610	AstS/AstR
+T28	Protein 1601 1605	AstS
+T29	Protein 1606 1610	AstR
+T30	Two-component-system 1716 1725	AstS/AstR
+T31	Protein 1716 1720	AstS
+T32	Protein 1721 1725	AstR
+T33	Organism 1822 1839	Y. enterocolitica
+T34	Two-component-system 1871 1880	BvgS/BvgR
+T35	Protein 1871 1875	BvgS
+T36	Protein 1876 1880	BvgR
+T37	Protein 1961 1965	UspA
+T38	Organism 2099 2113	P. luminescens
+T39	Protein 2147 2150	Ner
+T40	Protein 2162 2166	HexA
+T41	Protein 2281 2285	UspA
+T42	Organism 2320 2334	P. luminescens
+T43	Protein 2381 2385	HexA
+T44	Organism 2395 2412	Y. enterocolitica
+T45	Protein 2444 2448	RovM
+T46	Protein 2450 2456	YE1343
+T47	Protein 2472 2476	HexA
+T48	Organism 2480 2494	P. luminescens
+T49	Organism 2613 2634	Y. pseudotuberculosis
+T50	Organism 2636 2645	Y. pestis
+T51	Organism 2650 2667	Y. enterocolitica
+T52	Protein 2706 2710	UspA
+T53	Organism 2782 2796	P. luminescens
+T54	Organism 2806 2823	Y. enterocolitica
+T55	Protein 2853 2857	UspF
+T56	Protein 2857 2858	G
+T57	Protein 2871 2875	UspG
+T58	Protein 2887 2894	Plu2030
+T59	Protein 2899 2906	Plu2032
+T60	Protein 3037 3041	UspG
+T61	Organism 3045 3052	E. coli
+T62	Protein 3083 3088	GroEL
+T63	Protein 3165 3170	GroEL
+T64	Organism 3195 3209	P. luminescens
+T65	Protein 3211 3218	Plu4134
+T66	Organism 3230 3244	P. luminescens
+T67	Protein 3245 3249	UspG
+T68	Organism 3297 3311	P. luminescens
+T69	Organism 3313 3330	Y. enterocolitica
+T70	Protein 3361 3365	UspA
+T71	Protein 3381 3385	UspC
+T72	Protein 3396 3402	YE2583
+T73	Organism 3437 3451	P. luminescens
+T74	Protein 3467 3471	UspC
+T75	Organism 3733 3747	P. luminescens
+T76	Organism 3752 3769	Y. enterocolitica
+T77	Protein 3859 3863	UspA
+T78	Protein 3872 3876	UspE
+T79	Protein 3952 3956	UspC
+T80	Organism 3990 4007	Y. enterocolitica
+T81	Protein 4045 4049	UspG
+T82	Organism 4129 4143	P. luminescens
+T93	Span 896 987	the UspA and the UspE homologues of P. luminescens and Y. enterocolitica are nearly similar
+T94	Causality 989 1004	indicating that
+E20	Causality:T94 Effect:T95 Evidence:T93
+T95	Span 1005 1064	an identical stress response is regulated by these proteins
+T96	Span 1814 1938	Because Y. enterocolitica produces the corresponding TCS BvgS/BvgR, but is not known to switch to another phenotypic variant
+T97	Causality 1940 1957	the possible role
+E21	Causality:T97 Effect:T98 Evidence:T96
+T98	Span 1958 2017	of UspA in global regulation still remains to be elucidated
+T99	Span 2019 2263	Phenotypic variation and thus the switch between mutualism and pathogenicity in P. luminescens is proposed to be regulated by a Ner-like and a HexA-like regulator that repress primary variant specific genes in the stage of the secondary variant
+T100	Causality 2270 2279	Therefore
+E22	Causality:T100 Effect:T101 Evidence:T99
+T101	Span 2281 2385	UspA might have a global importance in P. luminescens notifying stress and transmitting signals for HexA
+T102	Span 2392 2540	In Y. enterocolitica, the transcriptional repressor RovM (YE1343) is similar to HexA of P. luminescens (61% identity and 75% homology), and has only
+T103	Causality 2541 2563	recently been shown to
+E23	Causality:T103 Evidence:T102 Effect:T104
+T104	Span 2564 2667	control cell invasion, virulence and motility in Y. pseudotuberculosis, Y. pestis and Y. enterocolitica
+T105	Causality 2677 2695	This fact suggests
+E24	Causality:T105 Effect:T106 Evidence:T107
+T106	Span 2696 2780	a similar UspA-dependent regulatory mechanism used by the two bacteria compared here
+T107	Span 2392 2667	In Y. enterocolitica, the transcriptional repressor RovM (YE1343) is similar to HexA of P. luminescens (61% identity and 75% homology), and has only recently been shown to control cell invasion, virulence and motility in Y. pseudotuberculosis, Y. pestis and Y. enterocolitica
+T108	Span 2782 2906	P. luminescens, but not Y. enterocolitica, produces two members of the UspFG family, the UspG homologues Plu2030 and Plu2032
+T109	Causality 2917 2927	indicating
+E25	Causality:T109 Effect:T110 Evidence:T108
+T110	Span 2928 3018	a global stress response induced by those Usp proteins that is different in both organisms
+T111	Span 3283 3451	n contrast to P. luminescens, Y. enterocolitica encodes another member of the UspA subfamily, the UspC homologue YE2583 (Tab. 2), which is not present in P. luminescens
+T112	Causality 3453 3462	Therefore
+E26	Causality:T112 Effect:T113 Evidence:T111
+T113	Span 3464 3556	an UspC mediated stress response is not assumed to play a major role in insect pathogenicity
+T114	Span 3855 4035	The UspA and the UspE homologues are predicted here to be relevant for insect infection, whereas UspC is assumed be more important for Y. enterocolitica in other environments/hosts
+T115	Causality 4037 4077	The two UspG homologues might constitute
+E27	Causality:T115 Effect:T116 Evidence:T114
+T116	Span 4078 4192	a set of Usp proteins that play a specific role in P. luminescens infection or in symbiosis with the nematode host

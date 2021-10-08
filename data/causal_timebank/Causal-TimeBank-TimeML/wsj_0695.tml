@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0695</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-27</TIMEX3></DCT>
+<TEXT>
+ A group of investors led by Giant Group Ltd. and its chairman, Burt Sugarman, <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="I_ACTION">filed</EVENT> with federal antitrust regulators for clearance to <EVENT eid="e3" class="OCCURRENCE">buy</EVENT> more than 50 % of the stock of Rally's Inc., a fast-food company based in Louisville, Ky.
+ Rally's operates and franchises about 160 fast-food restaurants throughout the U.S.
+ The company <EVENT eid="e4" class="OCCURRENCE">went</EVENT> public earlier <TIMEX3 tid="t5" type="DATE" value="1989-10" anchorTimeID="t0" functionInDocument="NONE">this month</TIMEX3>, <EVENT eid="e6" class="OCCURRENCE">offering</EVENT> 1,745,000 shares of common stock at $ 15 a share.
+ Giant has interests in cement making and newsprint.
+ The investor group includes Restaurant Investment Partnership, a California general partnership, and three Rally's directors: Mr. Sugarman, James M. Trotter III and William E. Trotter II.
+ The group currently holds 3,027,330 Rally's shares, or 45.2 % of its commmon shares outstanding.
+ Giant Group <EVENT eid="e7" class="STATE">owned</EVENT> 22 % of Rally's shares before the initial public <EVENT eid="e8" class="OCCURRENCE">offering</EVENT>.
+ A second group of three company directors, aligned with Rally's founder James Patterson, also is <EVENT eid="e9" class="I_ACTION">seeking</EVENT> control of the fast-food chain.
+ It is estimated that the Patterson group <EVENT eid="e10" class="STATE">controls</EVENT> more than 40 % of Rally's stock.
+ Rally officials weren't <EVENT eid="e11" class="STATE">available</EVENT> to <EVENT eid="e12" class="OCCURRENCE">comment</EVENT> <TIMEX3 tid="t13" type="DATE" value="1989-10-26" anchorTimeID="t0" functionInDocument="NONE">late yesterday</TIMEX3>.
+ For <TIMEX3 tid="t14" type="DURATION" value="P1Y" functionInDocument="NONE">the year</TIMEX3> ended <TIMEX3 tid="t15" type="DATE" value="1989-07-02" anchorTimeID="t0" functionInDocument="NONE">July 2</TIMEX3>, Rally <EVENT eid="e16" class="OCCURRENCE">had</EVENT> net income of $ 2.4 million, or 34 cents a share, on revenue of $ 52.9 million.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToEventInstance="ei1"/>
+<TLINK lid="l2" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToTime="t5"/>
+<TLINK lid="l3" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToEventInstance="ei6"/>
+<TLINK lid="l4" relType="INCLUDES" timeID="t5" relatedToTime="t0"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei8"/>
+<TLINK lid="l6" relType="IDENTITY" eventInstanceID="ei8" relatedToEventInstance="ei6"/>
+<TLINK lid="l7" relType="INCLUDES" eventInstanceID="ei9" relatedToTime="t0"/>
+<TLINK lid="l8" relType="DURING" eventInstanceID="ei10" relatedToTime="t0"/>
+<TLINK lid="l9" relType="DURING" eventInstanceID="ei11" relatedToTime="t13"/>
+<TLINK lid="l10" relType="ENDED_BY" timeID="t14" relatedToTime="t15"/>
+<TLINK lid="l11" relType="DURING" eventInstanceID="ei16" relatedToTime="t14"/>
+</TimeML>

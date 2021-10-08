@@ -1,0 +1,51 @@
+T30	Process 529 539	resistance
+T31	Process 585 594	virulence
+T32	Negative_regulation 621 633	inactivation
+T33	Negative_regulation 991 1001	attenuates
+T34	Process 1002 1011	virulence
+T35	Process 1036 1045	infection
+E1	Process:T30 
+E2	Process:T31 Participant:T15
+E3	Negative_regulation:T32 Theme:T16 Cause:T21
+E4	Negative_regulation:T32 Theme:T17 Cause:T21
+E5	Negative_regulation:T33 Theme:E6
+E6	Process:T34 Participant:T22
+E7	Process:T35 
+T1	Two-component-system 4 9	GraRS
+T2	Protein 4 8	GraR
+T3	Protein 8 9	S
+T4	Organism 37 58	Staphylococcus aureus
+T5	Regulon-operon 186 189	dlt
+T6	Organism 206 228	Gram-positive bacteria
+T7	Protein 314 329	myeloperoxidase
+T8	Two-component-system 352 357	graRS
+T9	Protein 352 356	graR
+T10	Protein 356 357	S
+T11	Organism 440 461	Staphylococcus aureus
+T12	Two-component-system 502 507	GraRS
+T13	Protein 502 506	GraR
+T14	Protein 506 507	S
+T15	Organism 598 607	S. aureus
+T16	Organism 637 662	S. aureus SA113 wild type
+T17	Organism 680 701	graRS deletion mutant
+T18	Two-component-system 680 685	graRS
+T19	Protein 680 684	graR
+T20	Protein 684 685	S
+T21	Protein 728 733	LL-37
+T22	Two-component-system 839 844	graRS
+T23	Protein 839 843	graR
+T24	Protein 843 844	S
+T25	Organism 939 944	human
+T26	Protein 980 985	LL-37
+T27	Organism 1015 1024	S. aureus
+T28	Organism 1030 1035	mouse
+T29	Organism 1090 1099	S. aureus
+T36	Span 348 393	The graRS regulatory genes have recently been
+T37	Causality 394 404	implicated
+E8	Causality:T37 Effect:T38 Evidence:T36
+T38	Span 405 461	in the control of D-alanylation in Staphylococcus aureus
+T39	Span 821 1051	We show here that graRS deletion considerably alters bacterial surface charge, increases susceptibility to killing by human neutrophils or the defense peptide LL-37, and attenuates virulence of S. aureus in a mouse infection model
+T40	Causality 1064 1089	Our results indicate that
+E9	Causality:T40 Effect:T41 Evidence:T39
+T41	Span 1090 1177	S. aureus can regulate its surface properties in order to overcome innate host defenses
+#1	AnnotatorNotes E8	not sure

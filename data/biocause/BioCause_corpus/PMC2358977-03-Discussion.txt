@@ -1,0 +1,37 @@
+Discussion 
+Since the first description of human infection in Denmark in 1968, SS2 seems to have developed some unknown machinery to behave much more invasively, which is supported by two recent large-scale outbreaks of human epidemics in China (one had 25 cases with 14 deaths in Jiangsu in 1998, the second had 204 cases with 38 deaths in Sichuan in 2005) [4], [5].
+During the past decades, a series of virulence determinants of SS2 involved in the survival, spread and pathopoiesis of the bacterium within the host have been identified, such as capsule polysaccharide (CPS), muramidase-related protein (MRP), suilysin, etc.
+Very recently, Chen et al. [6] reported a candidate PAI of approximately89 kb in the epidemic outbreak strains of SS2 infections in China, gave some genomic clues for elucidating molecular pathways by which SS2 behaved so aggressively.
+However, they did not provide sufficient experimental evidence supporting the prediction of 89K PAI which was largely based on the results of bioinformatical analysis, and the functions of the vast majority of genes encoding within the 89K island remain largely unknown.
+In this study, we carried out a detailed structural and functional analysis of a unique two-component regulatory system designated SalK/SalR which is located in the putative 89K PAI.
+Bioinformatics analysis revealed that the GC content of salKR is far less than that of 89K island and the whole genome, implying that this TCSTS is of foreign origin which may have been acquired through horizontal gene transfer.
+It has been well documented that horizontal gene transfer events occur frequently in pathogens [45]-[47], and some of them have been implicated in high pathogenicity [48] and even in the causation of severe diseases [49].
+Suilysin, a known virulence factor, was believed to be introduced into SS2 via lateral gene transfer [43].
+Moreover, PCR analysis using primers amplifying the salKR locus also demonstrated that this TCSTS is specific to Chinese epidemic outbreak strains of SS2 (data not shown), implying its tight linkage to the virulence of this new emerging pathogenic species.
+In order to define the role of SalK/SalR in SS2 infection, an isogenic SalK/SalR-deficient mutant was generated and the impact of salKR deletion on virulence of SS2 was assessed.
+Results of piglets experimental infections clearly showed that the deletion of salKR leads to elimination of the lethality of this important pathogen.
+Colonization analysis also revealed the incapability of the DeltasalKR mutant to colonize any susceptible tissue of piglets when administered alone.
+These results indicate definitely that SalK/SalR plays a critical role in the pathogenicity of SS2.
+The reduction in virulence was mostly restored in a complemented strain upon reintroduction of functional copies of salK and salR into the mutant, suggesting that it did not result from polar effects on expression of flanking genes.
+We consider that the partial complementation observed in the piglets infection model is inherent to the pleiotropic role of this regulatory system which makes it difficult to restore the fine tuning of gene expression as in the wild-type strain.
+Results of real-time quantitative RT-PCR also confirmed that, in the complemented strain CDeltasalKR, only partial genes identified as down-regulated in the mutant rebounded to comparative transcript levels of the wild-type strain.
+Those unrecovered genes were probably irrelevant to the bacterial virulence of SS2.
+It is known that TCSTSs are often implicated in the regulation of the direct downstream genes.
+However, genes immediately flanking the salKR locus were identified as transcriptionally unaffected by the disruption of the salKR genes.
+This result is in agreement with the predicted operon organization in the genome, which suggests that salK and salR are a single co-transcriptional unit.
+Among the 26 target genes affected by SalK/SalR, 17 of them (65.4%) were predicted to be monocistronically transcribed, the others to be part of larger transcriptional units (Table 2).
+For those members belonging to putative transcriptional operons, microarray results showed that most of those genes cotranscribed with them were also down-regulated to a various degree, although under the threshold of 2.
+In the 89K island, transcripts of only two genes designated 05SSU0935 and 05SSU0953 that encode a hypothetical protein and a DNA recombinase respectively, were decreased in DeltasalKR, their contributions to the attenuation are unknown.
+It seems that SalK/SalR may control the full virulence of SS2 by regulating distant gene expression at the genome-wide level.
+Further investigation of other transcriptional alterations observed in the microarray data will be required for a better understanding of pathogenesis of this highly pathogenic pathogen.
+Efforts are currently being made in order to address functions of those down-regulated hypothetical proteins individually.
+It has been described that genes essential for viability and important virulence factors are often under the regulation of TCSTS.
+However, in our study, neither microarray findings nor further analysis of real-time quantitative RT-PCR revealed any differences in level of transcription of the known virulence factors (CPS, suilysin, MRP and EF) between the wild type and mutant strain.
+Several possible explanations may be envisaged.
+First, some pathogenic determinants are environmentally regulated and induced at specific stages of the infection process [50], [51].
+Secondly, some of the TCSTSs of S. pneumoniae were suggested to be involved in key processes of pathogenesis, such as autolysis and cell-cell signaling [52], SalK/SalR might regulate similar processes in Chinese SS2 virulent isolates.
+More importantly, accumulated evidence suggests that some of the known virulent factors are not requisite for the full virulence of SS2, as the absence of one or more of these proteins in isolates from infected animals cannot necessarily be associated with a lack of virulence [53]-[56].
+In conclusion, a unique two-component regulatory system SalK/SalR has been identified from a putative 89K PAI in Chinese isolates of highly pathogenic SS2.
+Prior to this study, SalK/SalR is only known to be associated with the production of a kind of lantibiotic peptide named salivaricin A (SalA) in S. salivarius [11], as yet, this TCSTS has not been linked to the regulation of bacterial virulence.
+Our data confirm, for the first time, that SalK/SalR is absolutely indispensable for the full virulence of Chinese highly invasive SS2 strains, although we fails to define its precise regulatory mechanism.
+Not only does this investigation provide experimental evidence for the validity of the candidate 89K PAI, but it adds novel insights into the infectious disease pathogenesis of SS2.

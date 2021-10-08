@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0805</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-27</TIMEX3></DCT>
+<TEXT>
+ CMS ENERGY Corp. <EVENT eid="e1" class="REPORTING">said</EVENT> management would <EVENT eid="e2" class="I_ACTION">recommend</EVENT> to its board <TIMEX3 tid="t3" type="DATE" value="1989-10-27" anchorTimeID="t0" functionInDocument="NONE">today</TIMEX3> that its common stock dividend be <EVENT eid="e4" class="OCCURRENCE">reinstated</EVENT> at a " modest level " <TIMEX3 tid="t5" type="DATE" value="1989-11-01" anchorTimeID="t0" functionInDocument="NONE">later this year</TIMEX3>.
+ The Dearborn, Mich., energy company <EVENT eid="e6" class="ASPECTUAL">stopped</EVENT> <EVENT eid="e7" class="OCCURRENCE">paying</EVENT> a dividend in <TIMEX3 tid="t8" type="DATE" value="1984-Q3" anchorTimeID="t0" functionInDocument="NONE">the third quarter of 1984</TIMEX3> <C-SIGNAL cid="c9">because of</C-SIGNAL> <EVENT eid="e10" class="OCCURRENCE">troubles</EVENT> at its Midland nuclear plant.
+ In addition, CMS <EVENT eid="e11" class="REPORTING">reported</EVENT> <TIMEX3 tid="t12" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> net of $ 68.2 million, or 83 cents a share, <EVENT eid="e13" class="STATE">up</EVENT> from $ 66.8 million, or 81 cents a share, <TIMEX3 tid="t14" type="DATE" value="1988-Q3" anchorTimeID="t12" functionInDocument="NONE">a year ago</TIMEX3>.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToTime="t5"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToTime="t0"/>
+<TLINK lid="l4" relType="IDENTITY" timeID="t3" relatedToTime="t0"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t5"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t8"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToTime="t8"/>
+<TLINK lid="l8" relType="BEFORE" timeID="t8" relatedToTime="t0"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei6"/>
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0"/>
+<TLINK lid="l12" relType="BEFORE" timeID="t14" relatedToTime="t12"/>
+<CLINK lid="l10" c-signalID="c9" eventInstanceID="ei10" relatedToEventInstance="ei6"/>
+</TimeML>

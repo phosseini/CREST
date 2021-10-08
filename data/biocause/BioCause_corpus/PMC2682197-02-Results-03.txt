@@ -1,0 +1,8 @@
+Effects of environmental stress on growth of M. tuberculosis Deltarv2623 in vitro 
+Although the functions of universal stress proteins have yet to be completely defined, there is evidence that many USPs play differential roles in protecting microbes against various environmental stresses [9].
+Therefore, the hypervirulence of Deltarv2623 in guinea pigs and susceptible mice is intriguing; if Rv2623 provides M. tuberculosis protection against stress, it might be expected that the Rv2623-deficient mutant would be attenuated in vivo.
+The growth kinetics and survival of the Deltarv2623 strain was examined under various stress conditions, including those likely to be present during M. tuberculosis infection.
+These included oxidative stress (superoxide anion, O2-), DNA damage (UV irradiation, mitomycin C), heat shock (53degreesC), and acidic culture (pH 4.0).
+The use of streptonigrin, an antibiotic whose toxicity correlates with levels of free iron, was based on the observation that the intracellular environment of macrophages can induce a iron-scavenging response in mycobacteria [25], perhaps as a means of maintaining adequate levels of this important growth factor, and that an E. coli USP was shown to regulate iron uptake [9].
+The results showed that the mutant strain was no more susceptible to growth inhibition than was wild type Erdman under all of the stress conditions tested (Figure S2).
+These results support the notion that it is unlikely that M. tuberculosis Rv2623 is essential for resistance to stresses encountered in the host, which is consistent with the observed in vivo hypervirulence phenotype of Deltarv2623.

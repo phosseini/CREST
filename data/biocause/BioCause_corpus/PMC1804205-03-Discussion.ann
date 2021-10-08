@@ -1,0 +1,151 @@
+T76	Positive_regulation 87 96	activates
+T77	Regulation 332 342	activation
+T78	Positive_regulation 355 364	regulated
+T79	Positive_regulation 475 484	necessary
+T80	Positive_regulation 489 499	activation
+T81	Positive_regulation 704 713	stimulate
+T82	Transcription 719 732	transcription
+T83	Regulation 2684 2694	regulation
+T84	Positive_regulation 3507 3516	activated
+T85	Regulation 3608 3616	responds
+T86	Positive_regulation 4330 4340	activation
+T87	Positive_regulation 4375 4383	requires
+T88	Phosphorylation 4467 4481	phosphorylated
+T89	Positive_regulation 4645 4654	necessary
+T90	Phosphorylation 4684 4698	phosphorylated
+T91	Gene_expression 4809 4819	expression
+T92	Positive_regulation 4841 4849	promoted
+T93	Positive_regulation 5108 5116	responds
+T94	Positive_regulation 5334 5344	activating
+E1	Positive_regulation:T76 Theme:T2 Cause:T1
+E2	Regulation:T77 Theme:T7
+E3	Positive_regulation:T78 Theme:T7 Cause:T6
+E4	Positive_regulation:T79 Theme:E5 Cause:T9
+E5	Positive_regulation:T80 Theme:T10
+E6	Positive_regulation:T81 Theme:E7 Cause:T11
+M1	Negation E6
+E7	Transcription:T82 Theme:T12
+E8	Regulation:T83 Theme:T22
+E9	Positive_regulation:T84 Theme:T26
+E10	Regulation:T85 Theme:T29 Cause:T30
+E11	Positive_regulation:T86 Theme:T37 Cause:T36
+E12	Positive_regulation:T87 Theme:T37 Cause:T38
+E13	Phosphorylation:T88 Theme:T40
+E14	Positive_regulation:T89 Theme:E15 Cause:T44
+M2	Speculation E14
+E15	Phosphorylation:T90 Theme:T45
+E16	Gene_expression:T91 Theme:T46
+E17	Positive_regulation:T92 Theme:E16
+E18	Positive_regulation:T93 Theme:T49 Cause:T50
+E19	Positive_regulation:T94 Theme:T54
+T1	Protein 55 59	PmrB
+T2	Protein 101 105	PmrA
+T3	Organism 119 129	Salmonella
+T4	Protein 186 190	PmrA
+T5	Protein 222 226	PmrB
+T6	Protein 350 354	PmrA
+T7	Protein 370 374	pbgP
+T8	Protein 420 424	pmrB
+T9	Protein 466 470	PmrB
+T10	Protein 503 507	pbgP
+T11	Protein 674 678	PmrB
+T12	Protein 714 718	pbgP
+T13	Protein 815 819	PmrB
+T14	Organism 994 1005	S. enterica
+T15	Protein 1038 1042	PmrB
+T16	Protein 1086 1090	PmrA
+T17	Organism 1508 1524	Escherichia coli
+T18	Chemical 1671 1678	acetate
+T19	Chemical 1813 1821	glycerol
+T20	Protein 2285 2289	OGR1
+T21	Protein 2550 2554	PmrB
+T22	Protein 2698 2702	PmrB
+T23	Protein 3071 3075	TraM
+T24	Protein 3261 3265	PmrB
+T25	Protein 3396 3400	PmrB
+T26	Protein 3466 3470	CadC
+T27	Organism 3482 3489	E. coli
+T28	Organism 3588 3593	human
+T29	Protein 3603 3607	OGR1
+T30	Chemical 3632 3659	sphingosylphosphorylcholine
+T31	Protein 3701 3705	PmrB
+T32	Chemical 3782 3793	ferric iron
+T33	Organism 3960 3972	cadC mutants
+T34	Protein 3960 3964	cadC
+T35	Protein 4244 4247	Tcp
+T36	Protein 4274 4278	PmrB
+T37	Protein 4344 4348	PmrA
+T38	Protein 4384 4388	PmrD
+T39	Protein 4430 4434	PmrA
+T40	Protein 4482 4486	PmrA
+T41	Protein 4568 4572	PmrB
+T42	Protein 4577 4581	PmrB
+T43	Protein 4621 4625	PmrA
+T44	Protein 4633 4637	PmrD
+T45	Protein 4699 4703	PmrA
+T46	Protein 4827 4831	pmrD
+T47	Protein 4961 4965	pmrD
+T48	Organism 5044 5054	Salmonella
+T49	Protein 5055 5059	PhoQ
+T50	Chemical 5132 5136	Mg2+
+T51	Protein 5179 5183	PhoQ
+T52	Protein 5242 5246	PhoP
+T53	Chemical 5329 5333	Mg2+
+T54	Regulon-operon 5355 5367	PhoP regulon
+T55	Protein 5355 5359	PhoP
+T56	Protein 5462 5466	PmrA
+T57	Organism 5491 5501	Salmonella
+T58	Protein 5531 5535	PmrA
+T59	Chemical 5596 5599	LPS
+T60	Organism 5874 5884	Salmonella
+T61	Chemical 5921 5932	polymyxin B
+T62	Organism 6008 6018	Salmonella
+T63	Chemical 6081 6092	polymyxin B
+T64	Organism 6127 6149	Paenibacillus polymyxa
+T65	Chemical 6219 6223	Fe3+
+T66	Chemical 6335 6339	Mg2+
+T67	Chemical 6350 6353	LPS
+T68	Chemical 6452 6456	Mg2+
+T69	Chemical 6480 6484	Mg2+
+T70	Chemical 6540 6543	LPS
+T71	Organism 6566 6576	Salmonella
+T72	Protein 6663 6667	PmrA
+T73	Chemical 6678 6681	LPS
+T74	Protein 6850 6854	pmrA
+T75	Protein 6910 6914	PmrA
+T95	Causality 156 168	resulting in
+E20	Causality:T95 Cause:T96 Effect:T97
+T96	Fact 37 154	the sensor kinase PmrB is the primary sensor that activates the PmrA protein when Salmonella experiences mild acid pH
+T97	Fact 169 206	transcription of PmrA-activated genes
+T98	Causality 269 284	is supported by
+E21	Causality:T98 Effect:T99 Evidence:T100
+T99	Span 222 268	PmrB is likely to sense changes in pH directly
+T100	Span 305 424	the mild acid pH-dependent activation of the PmrA-regulated gene pbgP was dramatically reduced in a strain lacking pmrB
+T101	Span 440 534	the periplasmic domain of PmrB was necessary for activation of pbgP under mild acid conditions
+T102	Span 555 742	single amino acid substitutions in conserved histidine and glutamic acid residues located in the periplasmic domain of PmrB abolished its ability to stimulate pbgP transcription at pH 5.8
+T103	Span 1007 1106	The requirement of periplasmic PmrB residues in the mild acid pH activation of PmrA-regulated genes
+T104	Causality 1107 1120	suggests that
+E22	Causality:T104 Effect:T105 Evidence:T103
+T105	Span 1121 1187	this signalling pathway responds to changes in extracytoplasmic pH
+T106	Span 2535 2671	In the case of PmrB, a normal response to mild acid pH requires not only a periplasmic histidine but also several glutamic acid residues
+T107	Causality 2673 2682	Therefore
+E23	Causality:T107 Cause:T106 Effect:T108
+T108	Span 2684 2771	regulation of PmrB activity may involve protonation of one or more of these amino acids
+T109	Span 3000 3117	the pKa of one of the glutamic acid residues of the regulatory protein TraM is approximately7.7 in the folded protein
+T110	Causality 3137 3168	Therefore, it is plausible that
+E24	Causality:T110 Evidence:T109 Effect:T111
+T111	Span 3169 3300	protonation/deprotonation of one or more of the glutamic acids in the periplasmic domain of PmrB could occur at pH approximately5.8
+T112	Span 3697 3859	the PmrB H35A and the E64A mutant proteins displayed partial activity in response to ferric iron but were severely impaired in their ability to respond to acid pH
+T113	Causality 3884 3892	supports
+E25	Causality:T113 Effect:T114 Evidence:T112
+T114	Span 3909 3947	these signals are sensed independently
+T118	Span 4453 4625	The levels of phosphorylated PmrA are determined by the balance of the autokinase + phosphotransferase activity of PmrB and PmrB's phosphatase activity towards phospho-PmrA
+T119	Causality 4627 4631	Thus
+E27	Causality:T119 Evidence:T118 Effect:T120
+T120	Span 4633 4759	PmrD may be necessary to ensure that the amount of phosphorylated PmrA is such to promote transcription of its regulated genes
+T121	Span 6392 6471	the low pH signal may also act synergistically with the low Mg2+ signal in vivo
+T122	Causality 6472 6479	because
+E28	Causality:T122 Effect:T121 Evidence:T123
+T123	Span 6480 6608	Mg2+ deprivation alone is not sufficient to provide all the LPS modifications seen in Salmonella when present inside macrophages
+E29	Causality:T98 Effect:T99 Evidence:T101
+E30	Causality:T98 Effect:T99 Evidence:T102

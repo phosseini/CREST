@@ -1,0 +1,481 @@
+001 "The <e1>island</e1> was farmed for <e2>oats</e2> and barley until 1796 when the owner mandated that oak and alder trees be planted."
+WordNet(e1) = "island%1:17:00::", WordNet(e2) = "oat%1:13:00::", Product-Producer(e2, e1) = "true", Query = "the * * farmed for *"
+
+002 "In some Asian countries, including China, Malaysia and the Philippines, the <e1>turtles</e1> are farmed for <e2>food</e2>."
+WordNet(e1) = "turtle%1:05:00::", WordNet(e2) = "food%1:03:00::", Product-Producer(e2, e1) = "false", Query = "the * * farmed for *"
+Comment: violates (iii)
+
+003 "Surrounding each neuron there was a group of cells of the glial type (satellite cells), which together with the <e1>collagen fibres</e1> composed the <e2>glial capsule</e2>."
+WordNet(e1) = "fibre%1:08:00::", WordNet(e2) = "capsule%1:08:00::", Product-Producer(e2, e1) = "false", Query = "the * composed the *"
+Comment: Part-Whole
+
+004 "The soft brown and beige <e1>tones</e1> in the decoration provide a <e2>tranquil mood</e2>."
+WordNet(e1) = "tone%1:07:00::", WordNet(e2) = "mood%1:26:00::", Product-Producer(e2, e1) = "false", Query = "the * provide a *"
+Comment: violates (iv); e2 is a state, Cause-Effect
+
+005 "A White House <e1>usher</e1> prepares the <e2>blue room</e2> for a luncheon for the European Commission."
+WordNet(e1) = "usher%1:18:00::", WordNet(e2) = "room%1:06:00::", Product-Producer(e2, e1) = "false", Query = "* prepares the"
+Comment: the usher doesn't "make" the room; probably just moves furniture around
+
+006 "Entering the <e1>fissure</e1> created by the <e2>meteor's impact</e2>, Sephiroth would merge with all the energy of the planet, granting him god-like power over it."
+WordNet(e1) = "fissure%1:17:00::", WordNet(e2) = "impact%1:11:00::", Product-Producer(e1, e2) = "false", Query = "created by the *"
+Comment: seems more like Cause-Effect; see (iv)
+
+007 "The <e1>artist</e1> made the <e2>picture</e2> when he was a fourth grade student in Iowa City."
+WordNet(e1) = "artist%1:18:00::", WordNet(e2) = "picture%1:06:01::", Product-Producer(e2, e1) = "true", Query = "the * made the *"
+
+008 "The glass dome from the beginning of the century is gorgeous, prices are reasonable, and the <e1>waiters</e1> provide a <e2>show</e2> worth watching."
+WordNet(e1) = "waiter%1:18:00::", WordNet(e2) = "show%1:04:00::", Product-Producer(e2, e1) = "true", Query = "the * provide a *"
+Comment: assuming "show" is an abstract object, rather than an activity
+
+009 "To that end the <e1>faculty</e1> collaboratively designed the credential, certificate, and degree <e2>programs</e2> to provide you with a sequence of coursework and field experiences that prepares you to not only act like teachers, counselors and administrators, but to think like them as well."
+WordNet(e1) = "faculty%1:14:00::", WordNet(e2) = "program%1:10:05::", Product-Producer(e2, e1) = "true", Query = "the * designed the *"
+
+010 "With these axioms, the <e1>judges</e1> cultivated the <e2>principles</e2> of judgment, and those principles could be used in gauging the restrictions on freedom that were justified or unjustified, in any domain of the law."
+WordNet(e1) = "judges%1:10:00::", WordNet(e2) = "principle%1:09:03::", Product-Producer(e2, e1) = "true", Query = "the * cultivated the *"
+Comment: very abstract, but seems OK
+
+011 "The <e1>simulation study</e1> produces <e2>voluminous results</e2>, since there are two types of models, each with four different specifications and with two sample sizes involved."
+WordNet(e1) = "study%1:04:00::", WordNet(e2) = "result%1:19:00::", Product-Producer(e2, e1) = "true", Query = "the * * produces *"
+
+012 "Not too long ago, the <e1>grass</e1> was farmed for <e2>hay</e2>; then, it was ditched for mosquito control."
+WordNet(e1) = "grass%1:20:00::", WordNet(e2) = "hay%1:13:00::", Product-Producer(e2, e1) = "false", Query = "the * * farmed for *"
+Comment: violates (iii)
+
+013 "If the <e1>hydrogen</e1> comes from <e2>water</e2>, then electricity from any source can be used to electrolyze the water."
+WordNet(e1) = "hydrogen%1:27:00::", WordNet(e2) = "water%1:27:00::", Product-Producer(e1, e2) = "false", Query = "the * comes from a *"
+Comment: violates (iii)
+
+014 "Until last year, Afghanistan was known as an <e1>opium</e1> <e2>exporter</e2>, not a major heroin producer."
+WordNet(e1) = "opium%1:06:00::", WordNet(e2) = "exporter%1:18:00::", Product-Producer(e1, e2) = "false", Query = "a * producer"
+Comment: an exporter is probably also a producer, but possibly not
+
+015 "The decedent was a licensed commercial truck driver and had been employed by this <e1>trucking</e1> <e2>company</e2> for five years."
+WordNet(e1) = "trucking%1:04:00::", WordNet(e2) = "company%1:14:01::", Product-Producer(e1, e2) = "false", Query = "this * company"
+Comment: violates (iv); product is an activity
+
+016 "Learn how cartographic evidence refutes the authenticity of the Vinland Map and from where the <e1>map</e1>'s <e2>maker</e2> might have drawn inspiration."
+WordNet(e1) = "map%1:06:00::", WordNet(e2) = "maker%1:18:00::", Product-Producer(e1, e2) = "true", Query = "the * maker"
+
+017 "The <e1>scientists</e1> made the surprising <e2>observation</e2> that SMN will bind efficiently -- and carry out its functions -- if the proteins to which it needs to bind are first "tagged" by specific enzymes."
+WordNet(e1) = "scientist%1:18:00::", WordNet(e2) = "observation%1:09:02::", Product-Producer(e2, e1) = "true", Query = "the * made the *"
+Comment: this is a bit tricky, since one might argue that a fact exists independently of whether it is observed; but that argument seems weak
+
+018 "It is set in a future in which the <e1>oceans</e1> are farmed for <e2>food</e2>."
+WordNet(e1) = "ocean%1:17:00::", WordNet(e2) = "food%1:03:00::", Product-Producer(e2, e1) = "false", Query = "the * * farmed for *"
+Comment: oceans produce animals, not food.
+
+019 "The <e1>boy</e1> who made the <e2>threat</e2> was arrested, charged, and had items confiscated from his home."
+WordNet(e1) = "boy%1:18:00::", WordNet(e2) = "threat%1:10:01::", Product-Producer(e2, e1) = "true", Query = "the * made the *"
+
+020 "Contact the <e1>router</e1>'s <e2>manufacturer</e2> for assistance with configuration and proper setup of your wired router."
+WordNet(e1) = "router%1:06:01::", WordNet(e2) = "manufacturer%1:14:00::", Product-Producer(e1, e2) = "true", Query = "the * manufacturer"
+
+021 "It is set in the most beautiful surroundings and the <e1>land</e1> has been biodynamically farmed for <e2>many years</e2>."
+WordNet(e1) = "land%1:17:01::", WordNet(e2) = "year%1:28:01::", Product-Producer(e2, e1) = "false", Query = "the * * farmed for *"
+
+022 "You're right that the <e1>punk explosion</e1> cultivated the underground/indie rock <e2>scene</e2> that would one day be called 'alternative music' that rooted deep into the culture."
+WordNet(e1) = "explosion%1:11:01::", WordNet(e2) = "scene%1:26:00::", Product-Producer(e2, e1) = "false", Query = "the * cultivated the *"
+Comment: the punk explosion seemed to have influenced the indie rock scene, not produced it.
+
+023 "Beginning in 1966-67, the <e1>club</e1> made the <e2>playoffs</e2> nine consecutive seasons, the only NHL team of the period to accomplish that feat."
+WordNet(e1) = "club%1:14:00::", WordNet(e2) = "playoff%1:11:00::", Product-Producer(e2, e1) = "false", Query = "the * made the *"
+Comment: in this sentence, "made" means something like "progressed to the level of"
+
+024 "The <e1>vaccine</e1> is produced by the <e2>government</e2> and is not for sale to private individuals or companies."
+WordNet(e1) = "vaccine%1:06:00::", WordNet(e2) = "government%1:14:00::", Product-Producer(e1, e2) = "true", Query = "the * is produced by"
+
+025 "In almost all of the incidents, the <e1>attacker</e1> developed the <e2>idea</e2> to harm the target before the attack."
+WordNet(e1) = "attacker%1:18:00::", WordNet(e2) = "idea%1:09:01::", Product-Producer(e2, e1) = "true", Query = "the * developed the *"
+
+026 "The <e1>land</e1> was farmed for <e2>olives</e2> and a few other crops."
+WordNet(e1) = "land%1:17:01::", WordNet(e2) = "olive%1:20:01::", Product-Producer(e2, e1) = "true", Query = "the * * farmed for *"
+
+027 "The <e1>students</e1> designed the home's <e2>living areas</e2> with an eye toward making a small house feel spacious."
+WordNet(e1) = "student%1:18:00::", WordNet(e2) = "area%1:06:00::", Product-Producer(e2, e1) = "false", Query = "the * designed the *"
+Comment: the students designed the living areas, but the living areas were likely built by somebody else.
+
+028 "The <e1>tram</e1> makes the <e2>trip</e2> from the main university campus in less than 5 minutes, while driving can take 15 minutes or longer."
+WordNet(e1) = "tram%1:06:01::", WordNet(e2) = "trip%1:04:00::", Product-Producer(e2, e1) = "false", Query = "the * makes the *"
+Comment: violates (iv); a trip is an activity
+
+029 "Because the ice in the smoothie has to be crushed and blended with the other ingredients, a <e1>smoothie</e1> <e2>maker</e2> is usually the appliance of choice."
+WordNet(e1) = "smoothie%1:13:00::", WordNet(e2) = "?", Product-Producer(e1, e2) = "true", Query = "a * maker"
+
+030 "We think the <e1>emission</e1> is produced by <e2>material</e2> rapidly falling into an accretion disk, which heats up to high temperatures."
+WordNet(e1) = "emission%1:27:00::", WordNet(e2) = "material%1:27:00::", Product-Producer(e1, e2) = "false", Query = "the * is produced by"
+Comment: "emission" is produced by the "falling" of material, not by the material itself; Cause-Effect
+
+031 "These are new sorts of sponsors for us, a shoe company and a <e1>furniture</e1> <e2>maker</e2>."
+WordNet(e1) = "furniture%1:06:00::", WordNet(e2) = "maker%1:14:00::", Product-Producer(e1, e2) = "true", Query = "a * maker"
+
+032 "And this means that researchers have lost a valuable lead in their hunt for the <e1>artists</e1> who created the <e2>figurines</e2>."
+WordNet(e1) = "artist%1:18:00::", WordNet(e2) = "figurine%1:06:00::", Product-Producer(e2, e1) = "true", Query = "the * created the *"
+
+033 "It is no justification that the <e1>defamation</e1> comes from a <e2>bishop</e2>."
+WordNet(e1) = "defamation%1:04:01::", WordNet(e2) = "bishop%1:18:00::", Product-Producer(e1, e2) = "true", Query = "the * comes from a *"
+Comment: assuming "defamation" is an abstract object, rather than an activity
+
+034 "The <e1>monitor</e1> shall provide a <e2>quarterly report</e2> to the Chapter (or NEC)."
+WordNet(e1) = "monitor%1:18:01::", WordNet(e2) = "report%1:10:03::", Product-Producer(e2, e1) = "true", Query = "the * provide a *"
+
+035 "The <e1>tutors</e1> provide a consistent, reliable <e2>intervention</e2> that allows students who are falling behind an opportunity to reach proficiency."
+WordNet(e1) = "tutor%1:18:00::", WordNet(e2) = "intervention%1:04:02::", Product-Producer(e2, e1) = "false", Query = "the * provide a *"
+Comment: assuming "intervention" is an activity, rather than an abstract object
+
+036 "Another good example of the importance of hormonal balance in the body is the <e1>growth hormone</e1> produced by the <e2>pituitary gland</e2>."
+WordNet(e1) = "growth_hormone%1:08:00::", WordNet(e2) = "pituitary_gland%1:08:00::", Product-Producer(e1, e2) = "true", Query = "produced by the *"
+
+037 "The production assistant is basically the <e1>guy</e1> who makes <e2>coffee</e2> and goes to the post office."
+WordNet(e1) = "guy%1:18:00::", WordNet(e2) = "coffee%1:13:00::", Product-Producer(e2, e1) = "true", Query = "the * makes * coffee"
+
+038 "The entire site was actively farmed during the 2004 growing season and aerial photography indicates the <e1>site</e1> has been farmed for <e2>multiple years</e2>."
+WordNet(e1) = "site%1:15:00::", WordNet(e2) = "year%1:28:01::", Product-Producer(e2, e1) = "false", Query = "the * * farmed for *"
+
+039 "He does not think the friends realize that the <e1>crisis</e1> begets the <e2>triumph</e2>, just as the coming war is the begetter of the Most Great Peace."
+WordNet(e1) = "crisis%1:26:00::", WordNet(e2) = "triumph%1:11:00::", Product-Producer(e2, e1) = "false", Query = "the * begets the *"
+Comment: violates (iv), since the product is a state
+
+040 "The Wal-Mart Supercenter plans to employ as many as 455 associates, including 180 planned new <e1>jobs</e1> created by the <e2>relocation</e2>."
+WordNet(e1) = "job%1:04:00::", WordNet(e2) = "relocation%1:04:00::", Product-Producer(e1, e2) = "false", Query = "created by the *"
+
+041 "Unlike most of the annual showers the <e1>antihelion radiant</e1> is produced by <e2>debris</e2> from unknown sources orbiting in a direct motion like the earth."
+WordNet(e1) = "?", WordNet(e2) = "debris%1:27:00::", Product-Producer(e1, e2) = "false", Query = "the * is produced by"
+Comment: e1 is a meteor shower; e2 is the raw material for e1; violates (iv)
+
+042 "Instead, he believes most of the <e1>noise</e1> comes from a <e2>vocal minority</e2>."
+WordNet(e1) = "noise%1:10:00::", WordNet(e2) = "minority%1:14:00::", Product-Producer(e1, e2) = "true", Query = "the * comes from a *"
+Comment: assuming e1 is an abstract object, not an activity
+
+043 "Also, very rarely, hypnotherapy leads to the development of '<e1>false memories</e1>' fabricated by the <e2>unconscious mind</e2>; these are called confabulations."
+WordNet(e1) = "memory%1:09:02::", WordNet(e2) = "mind%1:09:00::", Product-Producer(e1, e2) = "true", Query = "fabricated by the *"
+
+044 "The <e1>experimenters</e1> designed the <e2>shape</e2> and size of the enlarged fiber ends so they don't experience the stresses that usually snap fibers and limit a short-fiber composite's performance."
+WordNet(e1) = "experimenter%1:18:00::", WordNet(e2) = "shape%1:07:00::", Product-Producer(e2, e1) = "true", Query = "the * designed the *"
+
+045 "The third <e1>zone</e1> is procreated by the <e2>mid-ocean ridge</e2>, which is responsible for 7 percent of the earthquakes."
+WordNet(e1) = "zone%1:15:01::", WordNet(e2) = "ridge%1:17:02::", Product-Producer(e1, e2) = "true", Query = "the * procreated the *"
+Comment: it seems there is some metonymy here, but it seems OK
+
+046 "Digital computers actually execute numerical instructions: bitstrings that contain information in the 'native' <e1>language</e1> created by the machine's <e2>designers</e2>."
+WordNet(e1) = "language%1:10:00::", WordNet(e2) = "designer%1:18:00::", Product-Producer(e1, e2) = "true", Query = "created by the *"
+
+047 "Then, in May, 2005, the <e1>government</e1> produced the <e2>factual return</e2>, as ordered by the District Court."
+WordNet(e1) = "government%1:14:00::", WordNet(e2) = "return%1:10:01::", Product-Producer(e2, e1) = "false", Query = "the * produced the *"
+Comment: this is probably "produce" in the sense of "bring out for display"
+
+048 "<e1>Biodiesel</e1> is derived from <e2>vegetable oils</e2>."
+WordNet(e1) = "?", WordNet(e2) = "vegetable_oil%1:13:00::", Product-Producer(e1, e2) = "false", Query = "the * * is derived from *"
+Comment: violates (iii), Origin-Entity
+
+049 "The <e1>student</e1> shall provide a <e2>written request</e2>, mailed to the Executive Director of the Pacific Division."
+WordNet(e1) = "student%1:18:00::", WordNet(e2) = "request%1:10:01::", Product-Producer(e2, e1) = "true", Query = "the * provide a *"
+
+050 "Her employment at this <e1>mustard</e1> <e2>company</e2> is considered the earliest recorded evidence of a company specifically hiring an industrial nurse."
+WordNet(e1) = "mustard%1:13:00::", WordNet(e2) = "company%1:14:01::", Product-Producer(e1, e2) = "true", Query = "this * company"
+
+051 "The <e1>burning fuel</e1> produces <e2>exhaust gases</e2>, which, when forced out the nozzle, produce thrust, moving the rocket in the other direction."
+WordNet(e1) = "fuel%1:27:00::", WordNet(e2) = "gas%1:27:00::", Product-Producer(e2, e1) = "true", Query = "the * * produces *"
+
+052 "The <e1>legislature</e1> created the <e2>ombudsman</e2> to intervene when children or their parents are subjected to unauthorized or unreasonable agency decisions."
+WordNet(e1) = "legislature%1:14:00::", WordNet(e2) = "ombudsman%1:18:00::", Product-Producer(e2, e1) = "true", Query = "the * created the *"
+
+053 "To better follow the quality, the <e1>company</e1> manufactures itself the necessary <e2>fabrics</e2>, starting from the purchase of the yarn."
+WordNet(e1) = "company%1:14:01::", WordNet(e2) = "fabric%1:06:00::", Product-Producer(e2, e1) = "true", Query = "the * manufactures * the"
+
+054 "So the inscription didn't name the <e1>pistol</e1>'s <e2>maker</e2>, or the artist who decorated it, or the year it was made."
+WordNet(e1) = "pistol%1:06:00::", WordNet(e2) = "maker%1:18:00::", Product-Producer(e1, e2) = "true", Query = "the * maker"
+
+055 "As the molten metal cools, it hardens and assumes the <e1>shape</e1> created by the mold's <e2>cavity</e2>."
+WordNet(e1) = "shape%1:03:00::", WordNet(e2) = "cavity%1:25:00::", Product-Producer(e1, e2) = "true", Query = "created by the *"
+Comment: the cavity can be seen as constraining the shape of the molten metal.
+
+056 "The <e1>transmitter</e1> emits a constant <e2>radio signal</e2> to create a 'safe zone'."
+WordNet(e1) = "transmitter%1:06:00::", WordNet(e2) = "radio_signal%1:19:00::", Product-Producer(e2, e1) = "true", Query = "the * emits"
+
+057 "This teaches that the <e1>body</e1> is procreated by the <e2>parents</e2> and the soul and spirit are directly created by God and placed in the body."
+WordNet(e1) = "body%1:08:00::", WordNet(e2) = "parent%1:18:00::", Product-Producer(e1, e2) = "true", Query = "the * procreated the *"
+
+058 "The <e1>micropump</e1> is fabricated by the <e2>anisotropic etching</e2>, the boron diffusion and the metal evaporation."
+WordNet(e1) = "pump%1:06:00::", WordNet(e2) = "etching%1:04:00::", Product-Producer(e1, e2) = "true", Query = "fabricated by the *"
+
+059 "The <e1>implementor</e1> makes the <e2>decision</e2>, not the protocol."
+WordNet(e1) = "?", WordNet(e2) = "decision%1:09:00::", Product-Producer(e2, e1) = "true", Query = "the * makes the *"
+
+060 "Dr. Aimee Rose, a member of the <e1>team</e1> who made the <e2>discovery</e2>, predicts it will save many lives, both military and civilian."
+WordNet(e1) = "team%1:14:00::", WordNet(e2) = "discovery%1:09:00::", Product-Producer(e2, e1) = "true", Query = "the * made the *"
+
+061 "The <e1>servant</e1> brought forth <e2>jewels</e2> of silver, and jewels of gold, and clothing, and gave them to Rebekah."
+WordNet(e1) = "servant%1:18:00::", WordNet(e2) = "jewel%1:06:00::", Product-Producer(e2, e1) = "false", Query = "the * brought forth the *"
+Comment: this is "brought forth" in the sense of "bring out for display"
+
+062 "The <e1>demonstrators</e1> composed the <e2>figure</e2> 420, representing the number of people still being held at the US prison in Cuba."
+WordNet(e1) = "demonstrator%1:18:00::", WordNet(e2) = "figure%1:25:00::", Product-Producer(e2, e1) = "true", Query = "the * composed the *"
+
+063 "The <e1>steering committee</e1> developed the <e2>protocol</e2> and consent forms with the participating sites and guided the implementation of the trial."
+WordNet(e1) = "steering_committee%1:14:00::", WordNet(e2) = "protocol%1:09:02::", Product-Producer(e2, e1) = "true", Query = "the * developed the *"
+
+064 "The <e1>ancients</e1> cultivated the <e2>species</e2> 'Heracleum Sphondylium' which is the parsnip a similar plant to carrots."
+WordNet(e1) = "ancients%1:14:00::", WordNet(e2) = "species%1:14:00::", Product-Producer(e2, e1) = "true", Query = "the * cultivated the *"
+
+065 "If you are cleaning a <e1>coffee</e1> <e2>maker</e2> that hasn't been cleaned regularly, repeat this step again with a fresh vinegar and water mixture."
+WordNet(e1) = "coffee%1:13:00::", WordNet(e2) = "?", Product-Producer(e1, e2) = "true", Query = "a * maker"
+
+066 "The <e1>artist</e1> who originally made the <e2>song</e2> popular is listed for reference only."
+WordNet(e1) = "artist%1:18:00::", WordNet(e2) = "song%1:10:00::", Product-Producer(e2, e1) = "false", Query = "the * made the *"
+Comment: the sentence entails that e1 popularized e2, not that e1 created e2 ("make popular")
+
+067 "The satisfaction was complete - please find below a <e1>statement</e1> from the <e2>producer</e2>."
+WordNet(e1) = "statement%1:10:00::", WordNet(e2) = "producer%1:11:00::", Product-Producer(e1, e2) = "true", Query = "statement from * producer"
+
+068 "He was a <e1>trouble</e1> <e2>maker</e2> then, a leader in SDS, and a trouble maker he remains."
+WordNet(e1) = "trouble%1:11:01::", WordNet(e2) = "maker%1:18:00::", Product-Producer(e1, e2) = "false", Query = "a * maker"
+Comment: e1 is an occurrence; violates (iv), Cause-Effect
+
+069 "In zen, there is a strong relationship between <e1>work</e1> and <e2>food</e2>, for the former begets the latter."
+WordNet(e1) = "work%1:04:00::", WordNet(e2) = "food%1:03:00::", Product-Producer(e2, e1) = "false", Query = "the * begets the *"
+Comment: work presumably produces money, which is then used to purchase food; work does not actively produce food, unless the work is farm work; this violates restriction (a)
+
+070 "This <e1>skateboard</e1> <e2>company</e2> designs skateboards specifically for girls."
+WordNet(e1) = "skateboard%1:06:00::", WordNet(e2) = "company%1:14:01::", Product-Producer(e1, e2) = "true", Query = "this * company"
+
+071 "The southern <e1>supercell</e1> produced the longest <e2>tornado track</e2> of the outbreak (tornado #4)."
+WordNet(e1) = "?", WordNet(e2) = "track%1:17:00::", Product-Producer(e2, e1) = "true", Query = "the * produced the *"
+
+072 "The <e1>lady</e1> made the <e2>photocopies</e2>, pushed a few more keys on her computer, and shuffled some papers around."
+WordNet(e1) = "lady%1:18:02::", WordNet(e2) = "photocopy%1:06:00::", Product-Producer(e2, e1) = "true", Query = "the * made the *"
+
+073 "The <e1>watchmaker</e1> makes the <e2>watch</e2>, he winds it up, he sets it going, he is outside the process but he initiates the process, he sets the hands in motion."
+WordNet(e1) = "watchmaker%1:18:00::", WordNet(e2) = "watch%1:06:00::", Product-Producer(e2, e1) = "true", Query = "the * makes the *"
+
+074 "In addition to his reputation as a <e1>film</e1> <e2>maker</e2> Lehmuskallio is also known as an artist."
+WordNet(e1) = "film%1:10:01::", WordNet(e2) = "maker%1:18:00::", Product-Producer(e1, e2) = "true", Query = "a * maker"
+
+075 "After the <e1>panel</e1> makes a <e2>recommendation</e2>, OraSure said it likely will formally apply to sell the test over-the-counter."
+WordNet(e1) = "panel%1:14:00::", WordNet(e2) = "recommendation%1:10:00::", Product-Producer(e2, e1) = "true", Query = "the * makes a *"
+
+076 "The <e1>stereograph</e1> produces the same <e2>output</e2>."
+WordNet(e1) = "?", WordNet(e2) = "output%1:06:00::", Product-Producer(e2, e1) = "true", Query = "* produces the"
+
+077 "If one were to put frozen prawns in a <e1>popcorn</e1> <e2>maker</e2>, one would obtain prawn crackers."
+WordNet(e1) = "popcorn%1:13:00::", WordNet(e2) = "?", Product-Producer(e1, e2) = "true", Query = "a * maker"
+
+078 "Have you ever noticed the three numbers at the bottom of a <e1>fertilizer</e1> <e2>package</e2>?"
+WordNet(e1) = "fertilizer%1:27:00::", WordNet(e2) = "package%1:06:00::", Product-Producer(e1, e2) = "false", Query = "a fertilizer *"
+Comment: relation is Content-Container
+
+079 "During this procedure, the <e1>surgeon</e1> makes a small <e2>hole</e2> ("fenestration") in the baffle to help relieve the symptoms of the original heart disease."
+WordNet(e1) = "surgeon%1:18:00::", WordNet(e2) = "hole%1:06:00::", Product-Producer(e2, e1) = "true", Query = "the * makes a *"
+
+080 "Preliminary experiments [Nature (1994) 368, 315] seemed to support this idea in that the <e1>quenches</e1> produced the predicted high <e2>vortex-densities</e2>."
+WordNet(e1) = "?", WordNet(e2) = "density%1:07:01::", Product-Producer(e2, e1) = "false", Query = "the * produced the *"
+Comment: violates definition note (iv): e2 is a state
+
+081 "The <e1>energy</e1> of emission produces the <e2>separation field</e2>."
+WordNet(e1) = "energy%1:19:00::", WordNet(e2) = "field%1:19:00::", Product-Producer(e2, e1) = "true", Query = "* produces the"
+
+082 "On both of my systems, the <e1>reboot</e1> produced the ominous <e2>message</e2> 'Missing operating system'."
+WordNet(e1) = "?", WordNet(e2) = "message%1:10:01::", Product-Producer(e2, e1) = "false", Query = "the * produced the *"
+Comment: "reboot" is only a verb in WordNet; looks like Cause-Effect; see definition note (iv)
+
+083 "<e1>Trees</e1> grow <e2>seeds</e2>."
+WordNet(e1) = "tree%1:20:00::", WordNet(e2) = "seed%1:20:00::", Product-Producer(e2, e1) = "true", Query = " * grow *"
+
+084 "The <e1>land</e1> was farmed for <e2>cattle</e2>, but segments of the forests were sold off and the chapel fell into disrepair."
+WordNet(e1) = "land%1:17:01::", WordNet(e2) = "cattle%1:05:00::", Product-Producer(e2, e1) = "false", Query = "the * * farmed for *"
+Comment: the land did not produce the cattle, but rather it nourished and helped support the cattle.
+
+085 "Today 75% of the <e1>county</e1> is intensively farmed for <e2>corn</e2>, soybeans, oats, and alfalfa with emphasis on dairy production."
+WordNet(e1) = "county%1:15:01::", WordNet(e2) = "corn%1:20:00::", Product-Producer(e2, e1) = "true", Query = "the * * farmed for *"
+
+086 "The resulting <e1>shockwaves</e1> produced the <e2>metal-forming conditions</e2> for periods of 100-200 ns."
+WordNet(e1) = "shock_wave%1:11:00::", WordNet(e2) = "conditions%1:26:04::", Product-Producer(e2, e1) = "false", Query = "the * produced the *"
+Comment: violates definition note (iv): e2 is an occurrence
+
+087 "The <e1>plane</e1> makes a <e2>parabolic maneuver</e2>, much like a roller coaster with steep climbs and descents, that simulates zero gravity conditions."
+WordNet(e1) = "plane%1:06:01::", WordNet(e2) = "maneuver%1:04:03::", Product-Producer(e2, e1) = "false", Query = "the * makes a *"
+Comment: violates (iv); a maneuver is an action
+
+088 "Like other spiders, the <e1>tarantula</e1> makes a <e2>silken web</e2>, but not for snaring prey."
+WordNet(e1) = "tarantula%1:05:01::", WordNet(e2) = "web%1:17:00::", Product-Producer(e2, e1) = "true", Query = "the * makes a *"
+
+089 "<e1>Agarwood</e1>, the world's most valuable incense, is produced by the <e2>aquilaria tree</e2>, found in tropical rainforests, and has been used for centuries as incense and in traditional medicine."
+WordNet(e1) = "?", WordNet(e2) = "tree%1:20:00::", Product-Producer(e1, e2) = "false", Query = "produced by the *"
+Comment: violates (iii); the tree does not actively produce incense
+
+090 "The <e1>bombing</e1> produced the worst <e2>carnage</e2> since a Nov. 23 attack in the Shi'ite slum of Sadr City that killed more than 200 people."
+WordNet(e1) = "bombing%1:04:00::", WordNet(e2) = "carnage%1:04:00::", Product-Producer(e2, e1) = "false", Query = "the * produced the *"
+Comment: violates definition note (iv): e2 is an occurrence
+
+091 "The group is alleging the <e1>computer giant</e1> negligently designed the <e2>laptops</e2>, ultimately causing them to overheat and do damage their own motherboards."
+WordNet(e1) = "giant%1:14:00::", WordNet(e2) = "laptop%1:06:00::", Product-Producer(e2, e1) = "false", Query = "the * designed the *"
+Comment: The computer giant did not necessarily produce the laptop, although it designed them. The production might have been contracted out to another company.
+
+092 "The PI <e1>login</e1> is created by the <e2>administrator</e2>."
+WordNet(e1) = "?", WordNet(e2) = "administrator%1:18:00::", Product-Producer(e1, e2) = "true", Query = "created by the *"
+Comment: "log-in" is only a verb in WordNet
+
+093 "Other non-native species used in aquaculture are brook trout (Salvelinus fontinalis) and lake trout (Salvelinus namaycush), <e1>fishes</e1> that mainly has been farmed for <e2>stocking purposes</e2>."
+WordNet(e1) = "fish%1:05:00::", WordNet(e2) = "purpose%1:09:00::", Product-Producer(e2, e1) = "false", Query = "the * * farmed for *"
+Comment: "stocking purposes" probably means "for selling as food" as opposed to "for sport fishing"; in any case, e2 is an activity, so (iv) is violated
+
+094 "The <e1>tenant</e1> has farmed for this <e2>owner</e2> for several years and doesn't want to lose the ground, but also does not want to pay the large increase in rent."
+WordNet(e1) = "tenant%1:18:00::", WordNet(e2) = "owner%1:18:00::", Product-Producer(e2, e1) = "false", Query = "the * * farmed for *"
+Comment: e2 is not a product of e1; the relation is maybe Employee-Employer or Client-Business
+
+095 "The <e1>electricity</e1> is produced by 440 nuclear <e2>reactors</e2> in 31 countries."
+WordNet(e1) = "electricity%1:19:01::", WordNet(e2) = "reactor%1:06:00::", Product-Producer(e1, e2) = "true", Query = "the * is produced by"
+
+096 "The <e1>surrounding region</e1> is farmed for its <e2>fertility</e2>."
+WordNet(e1) = "region%1:15:00::", WordNet(e2) = "fertility%1:07:00::", Product-Producer(e2, e1) = "false", Query = "the * * farmed for *"
+Comment: e2 is a property of e1; the relation is Property-Object, not Product-Producer
+
+097 "The <e1>photoheliograph</e1> produced the <e2>glass-plate photographs</e2> on display in this exhibition gallery."
+WordNet(e1) = "heliograph%1:06:00::", WordNet(e2) = "photograph%1:06:00::", Product-Producer(e2, e1) = "true", Query = "the * produced the *"
+
+098 "The <e1>cabin passengers</e1> composed the <e2>elite</e2> -- the créme de la créme."
+WordNet(e1) = "passenger%1:18:00::", WordNet(e2) = "elite%1:14:00::", Product-Producer(e2, e1) = "false", Query = "the * composed the *"
+Comment: Part-Whole
+
+099 "In addition to serving as a <e1>fertilizer</e1> <e2>ingredient</e2>, ammonia can also be used directly as a fertilizer by forming a solution with irrigation water, without additional chemical processing."
+WordNet(e1) = "fertilizer%1:27:00::", WordNet(e2) = "ingredient%1:06:00::", Product-Producer(e1, e2) = "false", Query = "a fertilizer *"
+Comment: relation is Part-Whole
+
+100 "I'm the <e1>decision</e1> <e2>maker</e2>, and I had to come up with a way forward that precluded disaster."
+WordNet(e1) = "decision%1:09:00::", WordNet(e2) = "maker%1:18:00::", Product-Producer(e1, e2) = "true", Query = "the * maker"
+
+101 "This <e1>northshore</e1> <e2>company</e2> is looking for a dynamic transcriptionist who can take detailed notes from a meeting and document the next day!"
+WordNet(e1) = "shore%1:17:00::", WordNet(e2) = "company%1:14:01::", Product-Producer(e1, e2) = "false", Query = "this * company"
+Comment: relation is Entity-Location
+
+102 "I had told this <e1>headhunter</e1>'s <e2>company</e2> repeatedly that I was only interested in working in the Philadelphia area."
+WordNet(e1) = "headhunter%1:18:01::", WordNet(e2) = "company%1:14:01::", Product-Producer(e1, e2) = "false", Query = "this * company"
+Comment: the relation is Employee-Employer
+
+103 "Showing a sample of a fertilizer package this <e1>fertilizer</e1> <e2>company</e2> shows what to look for on their label."
+WordNet(e1) = "fertilizer%1:27:00::", WordNet(e2) = "company%1:14:01::", Product-Producer(e1, e2) = "true", Query = "this * company"
+
+104 "The <e1>courts</e1> created the Freeman-Walter-Abele <e2>test</e2> to determine whether an algorithm only represents an abstract idea."
+WordNet(e1) = "court%1:14:00::", WordNet(e2) = "test%1:04:00::", Product-Producer(e2, e1) = "true", Query = "the * created the *"
+
+105 "PHY 319 is presently taught in three 50-minute lectures per week in which the <e1>instructor</e1> makes a <e2>chalkboard presentation</e2>."
+WordNet(e1) = "instructor%1:18:00::", WordNet(e2) = "presentation%1:04:00::", Product-Producer(e2, e1) = "true", Query = "the * makes a *"
+
+106 "Most of the <e1>steam</e1> comes from a volcano's <e2>magma</e2>."
+WordNet(e1) = "steam%1:27:00::", WordNet(e2) = "magma%1:27:00::", Product-Producer(e1, e2) = "true", Query = "the * comes from a *"
+
+107 "The <e1>land</e1> surrounding the lakes is extensively farmed for <e2>wheat</e2>, while elsewhere in the National Park the steppe is heavily grazed by domestic livestock."
+WordNet(e1) = "land%1:17:01::", WordNet(e2) = "wheat%1:13:00::", Product-Producer(e2, e1) = "true", Query = "the * * farmed for *"
+
+108 "Some people voluntarily get involved with politicisation, while others become victims of <e1>circumstances</e1> created by the <e2>politicisation</e2>," he said."
+WordNet(e1) = "circumstance%1:26:02::", WordNet(e2) = "?", Product-Producer(e1, e2) = "false", Query = "created by the *"
+Comment: violates (iv)
+
+109 "The <e1>dose</e1> makes the <e2>poison</e2>."
+WordNet(e1) = "dose%1:23:00::", WordNet(e2) = "poison%1:07:00::", Product-Producer(e2, e1) = "false", Query = "the * makes the *"
+Comment: this means "the size of the dosage determines whether a thing is safe or dangerous"
+
+110 "We conducted a usability test on the enterprise-wide navigation system for this <e1>healthcare</e1> <e2>company</e2>'s proposed intranet redesign."
+WordNet(e1) = "healthcare%1:04:01::", WordNet(e2) = "company%1:14:01::", Product-Producer(e1, e2) = "true", Query = "this * company"
+
+111 "The <e1>insurer</e1> will provide a <e2>cash deposit</e2> in advance."
+WordNet(e1) = "insurer%1:14:00::", WordNet(e2) = "deposit%1:21:00::", Product-Producer(e2, e1) = "false", Query = "the * provide a *"
+Comment: this is "provide" in the sense of "give" rather than "make"
+
+112 "If the <e1>request</e1> comes from a <e2>private company</e2>, there's no law that requires them to provide a disclosure notice."
+WordNet(e1) = "request%1:10:01::", WordNet(e2) = "company%1:14:01::", Product-Producer(e1, e2) = "true", Query = "the * comes from a *"
+
+113 "We know this <e1>telecommunications</e1> <e2>company</e2>."
+WordNet(e1) = "telecommunication%1:10:00::", WordNet(e2) = "company%1:14:01::", Product-Producer(e1, e2) = "false", Query = "this * company"
+Comment: the relation is Instrument-User(e1, e2)
+
+114 "I was trained as a <e1>violin</e1> <e2>maker</e2>, over 20 years ago, and have built violins (baroque and classical), violas, cellos, viols da gamba, and viols d'amore."
+WordNet(e1) = "violin%1:06:00::", WordNet(e2) = "maker%1:18:00::", Product-Producer(e1, e2) = "true", Query = "a * maker"
+
+115 "Yanbian is also blessed with agricultural riches and is a major <e1>tobacco</e1> <e2>producer</e2>."
+WordNet(e1) = "tobacco%1:06:00::", WordNet(e2) = "producer%1:18:01::", Product-Producer(e1, e2) = "true", Query = "a * producer"
+
+116 "Patient survival one year after transplantation from a living-related donor is 95% and comparably high if the <e1>organ</e1> comes from a cadaveric <e2>donor</e2>."
+WordNet(e1) = "organ%1:08:00::", WordNet(e2) = "donor%1:18:01::", Product-Producer(e1, e2) = "false", Query = "the * comes from a *"
+Comment: A person/donor does not produce an organ. The organ is part of the donor.
+
+117 "However, I believe that this is an opportune moment to change the <e1>political structures</e1> which procreated the <e2>events</e2> of Sept. 11th."
+WordNet(e1) = "structure%1:14:00::", WordNet(e2) = "event%1:19:01::", Product-Producer(e2, e1) = "false", Query = "the * procreated the *"
+Comment: violates (iv), since the product is an occurrence
+
+118 "Although the <e1>goats</e1> were farmed for their <e2>fibre</e2> from early times it was not until the 16th century that export of the goats was permitted."
+WordNet(e1) = "goat%1:05:00::", WordNet(e2) = "fibre%1:27:00::", Product-Producer(e2, e1) = "true", Query = "the * * farmed for *"
+
+119 "The <e1>plan</e1> developed the <e2>premium rates</e2> in accordance with the laws and regulations governing the FEHBP."
+WordNet(e1) = "plan%1:09:00::", WordNet(e2) = "rate%1:21:00::", Product-Producer(e2, e1) = "true", Query = "the * developed the *"
+Comment: it seems odd to say that a plan can "develop" rates.
+
+120 "Then, while you relax, the <e1>chef</e1> prepares the <e2>meal</e2> and serves it, restaurant-style."
+WordNet(e1) = "chef%1:18:01::", WordNet(e2) = "meal%1:13:00::", Product-Producer(e2, e1) = "true", Query = "* prepares the"
+
+121 "Located near the equator in South America, the <e1>cocoa tree</e1> produces <e2>cocoa beans</e2>, the source of all chocolate."
+WordNet(e1) = "tree%1:20:00::", WordNet(e2) = "cocoa_bean%1:13:00::", Product-Producer(e2, e1) = "true", Query = "the * * produces *"
+
+122 "Like normal 'Simon' games, it starts with a one digit sequence, and then increases indefinitely until the <e1>caller</e1> makes a <e2>mistake</e2>."
+WordNet(e1) = "caller%1:18:03::", WordNet(e2) = "mistake%1:04:00::", Product-Producer(e2, e1) = "true", Query = "the * makes a *"
+
+123 "According to Staten, the company's <e1>storage strategy</e1> is derived from customer's <e2>needs</e2>."
+WordNet(e1) = "strategy%1:09:00::", WordNet(e2) = "need%1:17:00::", Product-Producer(e1, e2) = "false", Query = "the * * is derived from *"
+Comment: this is Cause-Effect; see (iv)
+
+124 "The same <e1>company</e1> also makes a <e2>good coffee substitute</e2> called Bambu which is made from organic chicory combined with figs, cereals and acorns to the original recope of the late Swiss nature doctor and founder of the company, Alfred Vogel."
+WordNet(e1) = "company%1:14:01::", WordNet(e2) = "coffee_substitute%1:13:00::", Product-Producer(e2, e1) = "true", Query = "the * makes a *"
+
+125 "The <e1>rain</e1> begets the <e2>food</e2> we eat."
+WordNet(e1) = "rain%1:27:00::", WordNet(e2) = "food%1:03:00::", Product-Producer(e2, e1) = "false", Query = "the * begets the *"
+Comment: the rain is raw material; this violates restriction (a)
+
+126 "Chinese liquor is a kind of <e1>wine</e1> produced by <e2>solidified fermentation</e2> of grain."
+WordNet(e1) = "wine%1:13:00::", WordNet(e2) = "fermentation%1:22:00::", Product-Producer(e1, e2) = "true", Query = "wine produced by *"
+
+127 "The <e1>tools</e1> made the <e2>job</e2> easy when it could have been a nightmare."
+WordNet(e1) = "tool%1:04:00::", WordNet(e2) = "job%1:04:01::", Product-Producer(e2, e1) = "false", Query = "the * made the *"
+Comment: the sentence entails that e1 facilitated e2, not that e1 created e2 ("make easy")
+
+128 "The <e1>collaboration</e1> produced the PUMP (Pittsburg urban mathematics program) <e2>curriculum</e2>, which focuses on mathematical analyses of real-world situations, the use of computational tools, and on making algebra accessible to all students."
+WordNet(e1) = "collaboration%1:04:01::", WordNet(e2) = "curriculum%1:10:00::", Product-Producer(e2, e1) = "true", Query = "the * produced the *"
+
+129 "Normally, the <e1>bone marrow</e1> produces <e2>stem cells</e2> (immature cells) that develop into mature blood cells."
+WordNet(e1) = "bone_marrow%1:08:00::", WordNet(e2) = "stem_cell%1:08:00::", Product-Producer(e2, e1) = "true", Query = "the * * produces *"
+
+130 "Monica Mullikin ('00) is working for Willis of Minneapolis as a catastrophe risk analyst for this <e1>reinsurance</e1> <e2>company</e2>."
+WordNet(e1) = "reinsurance%1:21:00::", WordNet(e2) = "company%1:14:01::", Product-Producer(e1, e2) = "true", Query = "this * company"
+
+131 "Some of the <e1>land</e1> was farmed for <e2>coffee</e2> in the past, but it is now mostly native vegetation (with some emergent trees)."
+WordNet(e1) = "land%1:17:01::", WordNet(e2) = "coffee%1:13:01::", Product-Producer(e2, e1) = "true", Query = "the * * farmed for *"
+
+132 "The <e1>architect</e1> carefully designed the 15 <e2>rowhouses</e2>, reflecting the suburban ideal of the late 1800s."
+WordNet(e1) = "architect%1:18:00::", WordNet(e2) = "row_house%1:06:00::", Product-Producer(e2, e1) = "false", Query = "the * designed the *"
+Comment: The actual rowhouses were not the product of the architect, their design was.
+
+133 "'We think that the <e1>fat</e1> begets the <e2>insulin resistance</e2>, which helps produce risk factors for arteriosclerosis', he added."
+WordNet(e1) = "fat%1:08:00::", WordNet(e2) = "?", Product-Producer(e2, e1) = "false", Query = "the * begets the *"
+Comment: violates (iv), since the product is a state
+
+134 "Apparantly you think two wrongs can make a right, but that doesn't help the starving people of Zimbabwe, who were previously not starving due to the <e1>land</e1> being farmed for <e2>profit</e2> instead of used as political gifts."
+WordNet(e1) = "land%1:17:01::", WordNet(e2) = "profit%1:21:00::", Product-Producer(e2, e1) = "true", Query = "the * * farmed for *"
+
+135 "It is also illegal for anyone other than the <e1>drug</e1>'s <e2>manufacturer</e2> to re-import a prescription drug that was originally manufactured in the United States."
+WordNet(e1) = "drug%1:06:00::", WordNet(e2) = "manufacturer%1:14:00::", Product-Producer(e1, e2) = "true", Query = "the * manufacturer"
+
+136 "Virtually all hillside farmers grow maize during both seasons, and many of the <e1>farmers</e1> cultivate <e2>beans</e2>, rice, and other crops as well."
+WordNet(e1) = "farmer%1:18:00::", WordNet(e2) = "bean%1:13:00::", Product-Producer(e2, e1) = "true", Query = "the farmers *"
+
+137 "The <e1>cathode</e1> emits <e2>electrons</e2>."
+WordNet(e1) = "cathode%1:06:00::", WordNet(e2) = "electron%1:17:00::", Product-Producer(e2, e1) = "true", Query = "the * emits"
+
+138 "The lower mark is the Vienna <e1>company</e1> that made the <e2>mug</e2>."
+WordNet(e1) = "company%1:14:01::", WordNet(e2) = "mug%1:06:00::", Product-Producer(e2, e1) = "true", Query = "the * made the *"
+
+139 "Peterson worked as a <e1>fertilizer</e1> <e2>salesman</e2> before his arrest."
+WordNet(e1) = "fertilizer%1:27:00::", WordNet(e2) = "salesman%1:18:00::", Product-Producer(e1, e2) = "false", Query = "a fertilizer *"
+Comment: selling is not producing
+
+140 "The <e1>headmaster</e1> made the formal <e2>announcement</e2>."
+WordNet(e1) = "headmaster%1:18:00::", WordNet(e2) = "announcement%1:10:01::", Product-Producer(e2, e1) = "true", Query = "the * made the *"
+

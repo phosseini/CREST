@@ -1,0 +1,59 @@
+T46	Regulation 3420 3429	modulates
+E1	Regulation:T46 Theme:T44 Cause:T42
+T1	Regulon-operon 254 266	spy0080-0081
+T2	Protein 254 261	spy0080
+T3	Protein 262 266	0081
+T4	Regulon-operon 268 280	spy1236-1237
+T5	Protein 268 275	spy1236
+T6	Protein 276 280	1237
+T7	Regulon-operon 282 294	spy1707-1711
+T8	Protein 282 289	spy1707
+T9	Protein 290 294	1711
+T10	Regulon-operon 296 308	spy2041-2042
+T11	Protein 296 303	spy2041
+T12	Protein 304 308	2042
+T13	Chemical 1018 1024	folate
+T14	Protein 1052 1059	spy1096
+T15	Protein 1060 1064	1100
+T16	Regulon-operon 1281 1293	spy0754-0761
+T17	Protein 1281 1288	spy0754
+T18	Protein 1289 1293	0761
+T19	Regulon-operon 1855 1867	spy0025-0028
+T20	Protein 1855 1862	spy0025
+T21	Protein 1863 1867	0028
+T22	Chemical 1870 1877	lactose
+T23	Regulon-operon 1890 1902	spy1916-1923
+T24	Protein 1890 1897	spy1916
+T25	Protein 1898 1902	1923
+T26	Regulon-operon 1930 1942	spy1743-1747
+T27	Protein 1930 1937	spy1743
+T28	Protein 1938 1942	1747
+T29	Chemical 1945 1962	lipoteichoic acid
+T30	Regulon-operon 1974 1986	spy1308-1312
+T31	Protein 1974 1981	spy1308
+T32	Protein 1982 1986	1312
+T33	Regulon-operon 2029 2041	spy1058-1060
+T34	Protein 2029 2036	spy1058
+T35	Protein 2037 2041	1060
+T36	Organism 2153 2158	human
+T37	Regulon-operon 2466 2478	spy0738-0746
+T38	Protein 2466 2473	spy0738
+T39	Protein 2474 2478	0746
+T40	Protein 2487 2501	streptolysin S
+T41	Protein 2854 2868	streptolysin S
+T42	Regulon-operon 3303 3322	streptolysin operon
+T43	Protein 3372 3376	sagA
+T44	Protein 3478 3482	sagA
+T45	Protein 3672 3676	sagA
+T47	Span 1770 2042	These clusters encompass various metabolic processes, including purine biosynthesis (spy0025-0028), lactose metabolism (spy1916-1923), fatty acid biosynthesis (spy1743-1747), lipoteichoic acid synthesis (spy1308-1312), and sugar phosphotransferase transport (spy1058-1060)
+T48	Causality 2049 2064	suggesting that
+E2	Causality:T48 Effect:T49 Evidence:T47
+T49	Span 2065 2184	specific changes occur in the streptococcal metabolic program as the bacteria adhere to human pharyngeal cells in vitro
+T50	Span 3047 3284	Although individual gene members of Type I clusters may not be statistically significant as a result of technical variability within experiments [17], the genetic structure of certain Type I operons may provide an alternative explanation
+T51	Span 3286 3581	For example, the streptolysin operon encodes an internal terminator downstream of the sagA gene (the first gene in the operon), which modulates the abundance of particular mRNA species (e.g., sagA mRNA versus the polycistronic message for all nine genes) under different environmental conditions
+T52	Span 3588 3907	If transcription is internally disrupted by such a terminator, the abundance of the sagA transcript may be much greater than the polycistronic message; such disproportionate transcript levels would affect log2-fold change values and impact the statistical significance of individual genes within these types of clusters
+T53	Causality 3909 3913	Thus
+E3	Causality:T53 Effect:T54 Evidence:T52
+T54	Span 3915 4142	in addition to helping resolve clusters that would not be easily recognized because of experimental technical variability, the neighbor clustering method may help to resolve operons with such internal terminators and regulators
+E4	Causality:T53 Effect:T54 Evidence:T51
+E5	Causality:T53 Effect:T54 Evidence:T50

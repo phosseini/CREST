@@ -1,0 +1,37 @@
+Discussion 
+The two-component regulatory system is a major mechanism of signal transduction and is widespread in bacteria.
+Six putative two-component regulatory systems were detected by surveying the P. gingivalis W83 genome database for homologues of the two-component sensor histidine kinase (Hasegawa et al., 2003).
+Although most target genes of P. gingivalis two-component systems are unknown, the role of the FimS/FimR in expression of the fimA gene is well defined.
+Expression of minor fimbriae (mfa1) in a fimR mutanthas been investigated.
+A comparison of the transcriptional level of the mfa1 in P. gingivalis wild-type strain and in the fimR mutant indicates that the FimS/FimR system is a positive regulator for the mfa1 gene, although the system controls two fimbrial genes at different levels.
+It is hypothesized that the FimS/FimR system regulates expression of each fimbrial gene through a unique mechanism.
+The previous study suggested that regulation of fimA expression by FimR is through a regulation cascade involving interaction of FimR and the promoter region of the first gene in the fimA cluster (Nishikawa et al., 2004).
+Here it is demonstrated that FimR binds directly to the promoter region of the mfa1 gene, suggesting a direct role of FimR in activation of mfa1 expression.
+It has also been reported previously that the transcriptional activity of fimA was reduced in the fimA mutant, indicating multiple levels of control of fimA expression in P. gingivalis (Xie et al., 2000a).
+This may explain the much tighter control of fimA expression by FimR.
+However, the possibility cannot be excluded that other regulatory elements are also involved in expression of the mfa1 gene.
+A two-component regulatory system typically contains a membrane-bound histidine kinase sensor and a cytosolic response regulator.
+Phosphorylation, mediated by histidine kinase at a specific aspartate residue, activates DNA-binding activity of the response regulator and initiates the corresponding cellular response.
+However, no apparent difference was found in DNA-binding affinity between rFimRs with or without acetyl phosphate treatment.
+Observation suggests that different mechanisms may be involved in P. gingivalis FimR activation.
+Activation of a regulatory protein not corresponding to phosphorylation was also observed in Streptococcus mutans (Biswas & Biswas, 2006).
+Phosphorylation of CovR, a global response regulator, had no effect on its DNA-binding affinity.
+The fact that FimR was not activated by phosphorylation may also be due to the short lifetime of the phosphorylated state, which has been observed in other bacteria (Stock et al., 2000).
+The transcriptional start site of the mfa1 gene located at 434 bp upstream of the putative start codon was detected, which is also 390 bp upstream of the site previously reported (Park et al., 2006).
+The transcriptional site revealed here is confirmed by RT-PCR analysis.
+Data of this study suggest that transcription of the mfa1 gene originated at a distal upstream transcriptional start site and read through the promoter region suggested by Park et al. (2006).
+Moreover, FimR appears to act on the promoter region identified here, suggesting that this promoter may make significant contributions toward mfa1 expression through the FimS/FimR system.
+Gene expression under the control of two promoters is not uncommon in bacteria.
+In E. coli, two promoters direct transcription of acs encoding, an acetate-scavenging enzyme required for fitness during periods of carbon starvation - the distal acsP1 and the proximal acsP2 (Beatty et al., 2003).
+It is suggested that each promoter may interact with different regulatory elements.
+Two promoter regions in the P. gingivalis fimA gene were also reported (Xie & Lamont, 1999; Nishikawa et al., 2004).
+A cascade regulation starting with FimR appears to act on the upstream promoter (Nishikawa et al., 2004).
+The observations that FimR binds only to the upstream promoter region of the mfa1 gene and that activity of the downstream promoter is inhibited by S. gordonii, S. sanguinis and S. mitis (Park et al., 2006) imply the complexity of regulation of mfa1 expression.
+It is possible that two promoters of mfa1 are regulated in response to different environmental signals.
+The hypothesis is currently under investigation.
+In conclusion, P. gingivalis fimbriae play a predominant role in the attachment of the organism to a variety of oral surfaces (Lamont & Jenkinson, 2000; Amano et al., 2004), although other surface proteins, such as gingipains, may also be involved in the bacterial colonization (Tokuda et al., 1996; Chen et al., 2001).
+It has been recently reported by the authors that both major fimbriae and minor fimbriae contribute to the formation of P. gingivalis biofilm (Lin et al., 2006).
+Major fimbriae are required for initial attachment and the minor fimbriae appear to play an important role in microcolony formation by facilitating cell-cell interactions.
+The data presented here provide evidence that these two distinct fimbriae are under the control of a two-component regulatory system: FimS/FimR.
+Expression of major fimbriae (FimA) is extremely low in the fimR mutant, and minor fimbriae production in this mutant is inhibited by least 50%.
+Therefore, it is proposed that FimR can be an attractive target for inhibition of P. gingivalis colonization.

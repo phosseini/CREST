@@ -1,0 +1,6 @@
+RESULTS 
+S. equi Mac Gene S. equi genome encodes a Mac homologue SeMac.
+The protein shares 62.4% identity in amino acid sequence with Mac made by serotype M1 GAS and a putative secretion signal sequence (amino acids 1-34), and the catalytic residues of GAS Mac consisting of Cys94, His262 and Asp284 are conserved in SeMac (Cys102, His272 and Asp 294) (Fig. 1).
+To test whether other S. equi strains have the mac gene, 10 S. equi isolates representing various geographic locations were tested with PCR using mac-specific primers.
+All the strains tested had the mac gene (Fig. 2).
+DNA sequencing found that the mac gene is 100% conserved in DNA sequence in these strains.

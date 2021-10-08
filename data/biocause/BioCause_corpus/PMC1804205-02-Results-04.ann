@@ -1,0 +1,84 @@
+T41	Positive_regulation 191 199	required
+T42	Positive_regulation 204 214	activation
+T43	Gene_expression 1011 1021	expressing
+T44	Positive_regulation 1087 1094	promote
+T45	Gene_expression 1100 1110	expression
+T46	Gene_expression 1163 1173	expression
+T47	Gene_expression 2218 2228	expression
+T48	Gene_expression 3301 3309	produced
+T49	Gene_expression 3595 3602	express
+T50	Positive_regulation 3620 3628	response
+E1	Positive_regulation:T41 Theme:E2 Cause:T2
+E2	Positive_regulation:T42 Theme:T3
+E3	Gene_expression:T43 Theme:T18
+E4	Positive_regulation:T44 Theme:E5 Cause:T18
+E5	Gene_expression:T45 Theme:T19
+E6	Gene_expression:T46 Theme:T20
+E7	Gene_expression:T46 Theme:T20
+E8	Gene_expression:T47 Theme:T30
+E9	Gene_expression:T48 Theme:T34
+E10	Gene_expression:T49 Theme:T37
+E11	Positive_regulation:T50 Theme:E10 Cause:T38
+T1	Protein 76 80	PmrB
+T2	Protein 183 187	PmrB
+T3	Protein 218 222	PmrA
+T4	Protein 274 278	PmrB
+T5	Chemical 368 372	Fe3+
+T6	Chemical 377 381	Al3+
+T7	Protein 416 420	PmrB
+T8	Protein 499 503	PmrA
+T9	Protein 514 518	PmrB
+T10	Protein 553 557	PmrA
+T11	Chemical 597 601	Mg2+
+T12	Protein 633 637	PhoQ
+T13	Protein 708 712	PmrB
+T14	Organism 882 892	Salmonella
+T15	Regulon-operon 919 927	pbgP-lac
+T16	Protein 919 923	pbgP
+T17	Protein 976 980	pmrB
+T18	Protein 1024 1028	PmrB
+T19	Protein 1095 1099	pbgP
+T20	Protein 1158 1162	pbgP
+T21	Chemical 1231 1235	Fe3+
+T22	Chemical 1312 1316	Mg2+
+T23	Protein 1387 1391	PmrB
+T24	Chemical 1457 1461	Fe3+
+T25	Chemical 1466 1470	Al3+
+T26	Protein 1591 1595	PmrB
+T27	Protein 1838 1842	PmrA
+T28	Protein 2006 2010	PmrB
+T29	Organism 2144 2154	Salmonella
+T30	Protein 2213 2217	pbgP
+T31	Protein 2680 2684	PmrB
+T32	Protein 2921 2925	PmrA
+T33	Protein 3114 3118	TraM
+T34	Protein 3310 3314	PmrB
+T35	Organism 3483 3493	Salmonella
+T36	Protein 3575 3579	PmrB
+T37	Protein 3603 3607	pbgP
+T38	Chemical 3640 3644	Mg2+
+T39	Protein 3752 3756	PmrB
+T40	Protein 3827 3831	PmrB
+T51	Causality 252 273	This could be because
+E12	Causality:T51 Effect:T52 Evidence:T53
+T52	Span 138 250	The results described above established that PmrB is required for activation of PmrA in response to mild acid pH
+T54	Causality 682 704	Thus, we reasoned that
+E13	Causality:T54 Evidence:T56 Effect:T55
+T55	Span 705 840	if PmrB senses extracytoplasmic pH directly, its periplasmic domain (Fig. 5A) was likely to be required for the response to this signal
+T56	Span 514 645	PmrB is required for the activation of PmrA-regulated genes in response to the low Mg2+ signal, which is sensed by the PhoQ protein
+T57	Span 2089 2228	While this mutation severely diminished the ability of Salmonella to respond to mild acid pH, there still was some residual pbgP expression
+T58	Causality 2239 2254	suggesting that
+E14	Causality:T58 Effect:T59 Evidence:T57
+T59	Span 2255 2307	other residues might also be required for pH sensing
+T60	Causality 1328 1386	Together, these results argue in favour of the notion that
+E15	Causality:T60 Effect:T62 Evidence:T61
+T61	Span 1145 1316	There was no pbgP expression in cells grown at pH 5.8 (Fig. 5B) or in the presence of Fe3+ (Fig. 5D), which is in contrast to the normal activation in response to low Mg2+
+T62	Span 1387 1470	PmrB senses extracellular pH besides its previously described ligands Fe3+ and Al3+
+T63	Causality 3685 3700	indicating that
+E16	Causality:T63 Effect:T64 Evidence:T65
+T64	Span 3701 3839	mutations in residues of the periplasmic domain of PmrB do not impair the enzymatic activity of the cytoplasmic domain of the PmrB protein
+T65	Span 3545 3651	Strains expressing the mutant PmrB proteins could express pbgP normally in response to the low Mg2+ signal
+T53	Span 274 381	PmrB is directly involved in sensing extracytoplasmic pH in a way analogous to its sensing of Fe3+ and Al3+
+T66	Span 405 503	or because PmrB plays an indirect role in its capacity of main (if not sole) phosphodonor for PmrA
+E17	Causality:T51 Effect:T52 Evidence:T66
+E18	Causality:T60 Effect:T62 Evidence:T55

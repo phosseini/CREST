@@ -1,0 +1,11 @@
+DNA chelation of Mg2+, Ca2+ or Mn2+ but not Zn2+ induces PA3553 expression 
+At lethal concentrations, extracellular DNA induced cell lysis by chelating cations from the OM.
+This antimicrobial activity can be prevented if DNA is pre-loaded with Mg2+, Ca2+ or Mn2+, but not Zn2+, prior to treatment of cells (Fig 3A and 3B).
+To determine the specificity of cation chelation, flame atomic absorption spectroscopy was employed to quantitate DNA-dependent removal of cations from buffer containing known concentrations of Mg2+, Ca2+, Mn2+ or Zn2+ and a combination of all four cations.
+DNA was capable of binding all four cations at similar levels (80-88%), whether alone (Fig 7A) or in combination (data not shown).
+To ensure binding was specific to DNA a negative control was included.
+The concentration of Mg2+ that bound to the column in the absence of DNA is indicated.
+At sub-lethal concentrations, extracellular DNA imposes a cation limitation that leads to induction of PA3553 (Fig 4A), which can be repressed by excess Mg2+ (Fig 4B), indicating that P. aeruginosa senses Mg2+.
+The P. aeruginosa PhoQ sensor kinase protein has been shown to bind to and be repressed by Mg2+ and Ca2+ cations [63],[64].
+Under limiting Mg2+ conditions, the addition of excess Mg2+, Ca2+ or Mn2+, but not Zn2+, repressed PA3553 expression (Fig 7B).
+Taken together, these data indicate that P. aeruginosa can sense the presence of Mg2+, Ca2+ or Mn2+ and that chelation of these same cations by DNA results in induction of the PA3552-PA3559 LPS modification operon.

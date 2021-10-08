@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0950</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-26</TIMEX3></DCT>
+<TEXT>
+ General Motors Corp.'s big defense and automotive electronics unit, GM Hughes Electronics, <EVENT eid="e1" class="REPORTING">said</EVENT> net income <EVENT eid="e2" class="OCCURRENCE">fell</EVENT> 22 % in <TIMEX3 tid="t3" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">the third quarter</TIMEX3>, reflecting <EVENT eid="e4" class="STATE">declining</EVENT> military spending and <EVENT eid="e5" class="STATE">slumping</EVENT> GM vehicle <EVENT eid="e6" class="OCCURRENCE">production</EVENT>.
+ Meanwhile, net at GM's finance arm, General Motors Acceptance Corp., <EVENT eid="e7" class="OCCURRENCE">fell</EVENT> 3.1 %.
+ By contrast, Electronic Data Systems Corp., GM's data processing subsidiary, <EVENT eid="e8" class="OCCURRENCE">boosted</EVENT> net 16 %.
+ GM <EVENT eid="e9" class="OCCURRENCE">closed</EVENT> down $ 1.875 at $ 44.875 in New York Stock Exchange <EVENT eid="e10" class="OCCURRENCE">trading</EVENT> <TIMEX3 tid="t11" type="DATE" value="1989-10-25" anchorTimeID="t0" functionInDocument="NONE">yesterday</TIMEX3>.
+ Earnings for GM common stock, reflecting the performance of GM's core automotive <EVENT eid="e12" class="OCCURRENCE">operations</EVENT>, will be <EVENT eid="e13" class="I_ACTION">disclosed</EVENT> <TIMEX3 tid="t14" type="TIME" value="1989-10-26TMO" anchorTimeID="t0" functionInDocument="NONE">this morning</TIMEX3>.
+ GM Class H, which represents a dividend interest in Hughes earnings, <EVENT eid="e15" class="OCCURRENCE">closed</EVENT> at $ 29, up 25 cents in Big Board composite trading.
+ GM Class E, which represents a dividend interest in EDS profit, <EVENT eid="e16" class="OCCURRENCE">fell</EVENT> 75 cents to $ 52.25 on the Big Board.
+ The earnings <EVENT eid="e17" class="OCCURRENCE">drop</EVENT> at GM Hughes Electronics is a sign of tough times at both the defense operations of Hughes Aircraft Co. and GM's North American automotive operations, which are a primary customer for the Delco Electronics Corp. side of the GM Hughes unit.
+ Profit at the unit <EVENT eid="e18" class="OCCURRENCE">fell</EVENT> to $ 110.6 million, or 37 cents a share, from $ 142.4 million, or 45 cents a share, largely <C-SIGNAL cid="c19">because of</C-SIGNAL> a $ 24 million one-time <EVENT eid="e20" class="OCCURRENCE">charge</EVENT> associated with Hughes's previously <EVENT eid="e21" class="I_ACTION">announced</EVENT> <EVENT eid="e22" class="I_STATE">plan</EVENT> to <EVENT eid="e23" class="OCCURRENCE">reduce</EVENT> employment by at least 6,000 people by <TIMEX3 tid="t24" type="DATE" value="1989" anchorTimeID="t0" functionInDocument="NONE">year end</TIMEX3>.
+ Even excluding the charge, however, net <EVENT eid="e25" class="OCCURRENCE">fell</EVENT> 5 %.
+ In addition, GM's North American vehicle production <EVENT eid="e26" class="OCCURRENCE">fell</EVENT> 8.4 % from <TIMEX3 tid="t27" type="DATE" value="1988-10" anchorTimeID="t0" functionInDocument="NONE">a year ago</TIMEX3>, which <EVENT eid="e28" class="OCCURRENCE">hurt</EVENT> Delco Electronic's earnings, a company spokesman <EVENT eid="e29" class="REPORTING">said</EVENT>.
+ That <EVENT eid="e30" class="OCCURRENCE">decline</EVENT> was reflected in revenue for the GM Hughes unit, which <EVENT eid="e31" class="OCCURRENCE">edged</EVENT> down to $ 2.58 billion from $ 2.63 billion.
+ In <TIMEX3 tid="t32" type="DURATION" value="P9M" functionInDocument="NONE">the nine months</TIMEX3>, GM Hughes net <EVENT eid="e33" class="OCCURRENCE">fell</EVENT> 6.6 % to $ 486.6 million, or $ 1.48 a share, from $ 521 million, or $ 1.58 a share.
+ Revenue <EVENT eid="e34" class="OCCURRENCE">rose</EVENT> 3.5 % to $ 8.47 billion from $ 8.18 billion.
+ At GMAC, net <EVENT eid="e35" class="OCCURRENCE">dropped</EVENT> 3.1 % to $ 234.5 million from $ 241.9 million.
+ The finance unit <EVENT eid="e36" class="I_ACTION">attributed</EVENT> the <EVENT eid="e37" class="OCCURRENCE">decline</EVENT> to higher borrowing costs compared with <TIMEX3 tid="t38" type="DATE" value="1988" anchorTimeID="t0" functionInDocument="NONE">a year earlier</TIMEX3>.
+ GMAC <EVENT eid="e39" class="REPORTING">said</EVENT> its automotive financing and leasing business <EVENT eid="e40" class="OCCURRENCE">rose</EVENT> 35 % in the U.S., largely <C-SIGNAL cid="c41">because of</C-SIGNAL> dealer and customer incentives <EVENT eid="e42" class="OCCURRENCE">used</EVENT> to <EVENT eid="e43" class="OCCURRENCE">boost</EVENT> sales.
+ GMAC profits are combined with earnings from the rest of GM's operations and attributed to the company's traditional common stock.
+ In <TIMEX3 tid="t44" type="DURATION" value="P9M" functionInDocument="NONE">the first nine months</TIMEX3>, GMAC's earnings <EVENT eid="e45" class="OCCURRENCE">fell</EVENT> 8 % to $ 859.5 million from $ 930.2 million.
+ At EDS, <TIMEX3 tid="t46" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> profit <EVENT eid="e47" class="OCCURRENCE">jumped</EVENT> 16 % to a record $ 110.9 million, or 93 cents a share, from $ 95.9 million, or 79 cents a share.
+ Revenue <EVENT eid="e48" class="OCCURRENCE">rose</EVENT> 12 % to $ 1.37 billion from $ 1.22 billion.
+ In <TIMEX3 tid="t49" type="DURATION" value="P9M" functionInDocument="NONE">the nine months</TIMEX3>, EDS <EVENT eid="e50" class="OCCURRENCE">earned</EVENT> $ 315.8 million, or $ 2.62 a share, up 13 % from $ 280.7 million, or $ 2.30 a share.
+ Revenue <EVENT eid="e51" class="OCCURRENCE">rose</EVENT> 14 % to $ 4.03 billion from $ 3.54 billion.
+ Revenue from non-GM accounts was 45 % of EDS's total business in <TIMEX3 tid="t52" type="DURATION" value="P9M" functionInDocument="NONE">the latest nine months</TIMEX3>, compared with 40 % <TIMEX3 tid="t53" type="DATE" value="1988" functionInDocument="NONE">a year earlier</TIMEX3>.
+ The company has <EVENT eid="e54" class="REPORTING">said</EVENT> it <EVENT eid="e55" class="I_STATE">wants</EVENT> to <EVENT eid="e56" class="OCCURRENCE">boost</EVENT> non-GM revenue to at least 50 % of its total business by <TIMEX3 tid="t57" type="DATE" value="1990" functionInDocument="NONE">the end of 1990</TIMEX3>.
+</TEXT>
+<MAKEINSTANCE eventID="e56" eiid="ei56" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e42" eiid="ei42" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e47" eiid="ei47" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e45" eiid="ei45" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e40" eiid="ei40" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e51" eiid="ei51" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e39" eiid="ei39" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="FUTURE" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e48" eiid="ei48" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e37" eiid="ei37" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e55" eiid="ei55" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e54" eiid="ei54" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e50" eiid="ei50" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="DURING" eventInstanceID="ei2" relatedToTime="t3"/>
+<TLINK lid="l3" relType="AFTER" eventInstanceID="ei2" relatedToEventInstance="ei6"/>
+<TLINK lid="l4" relType="SIMULTANEOUS" eventInstanceID="ei2" relatedToEventInstance="ei7"/>
+<TLINK lid="l7" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei8"/>
+<TLINK lid="l8" relType="ENDS" eventInstanceID="ei9" relatedToEventInstance="ei10"/>
+<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei10" relatedToTime="t11"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei13" relatedToTime="t14"/>
+<TLINK lid="l11" relType="IS_INCLUDED" timeID="t14" relatedToTime="t0"/>
+<TLINK lid="l12" relType="ENDS" eventInstanceID="ei15" relatedToEventInstance="ei10"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToEventInstance="ei10"/>
+<TLINK lid="l14" relType="IDENTITY" eventInstanceID="ei17" relatedToEventInstance="ei16"/>
+<TLINK lid="l15" relType="IS_INCLUDED" eventInstanceID="ei18" relatedToTime="t11"/>
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei20" relatedToEventInstance="ei18"/>
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei21" relatedToEventInstance="ei20"/>
+<TLINK lid="l19" relType="ENDED_BY" eventInstanceID="ei23" relatedToTime="t24"/>
+<TLINK lid="l20" relType="SIMULTANEOUS" eventInstanceID="ei25" relatedToEventInstance="ei18"/>
+<TLINK lid="l21" relType="SIMULTANEOUS" eventInstanceID="ei26" relatedToEventInstance="ei25"/>
+<TLINK lid="l22" relType="BEGUN_BY" eventInstanceID="ei26" relatedToTime="t27"/>
+<TLINK lid="l23" relType="BEFORE" eventInstanceID="ei26" relatedToEventInstance="ei28"/>
+<TLINK lid="l24" relType="BEFORE" eventInstanceID="ei29" relatedToTime="t0"/>
+<TLINK lid="l25" relType="IDENTITY" eventInstanceID="ei30" relatedToEventInstance="ei26"/>
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei30" relatedToEventInstance="ei31"/>
+<TLINK lid="l27" relType="DURING" eventInstanceID="ei33" relatedToTime="t32"/>
+<TLINK lid="l28" relType="DURING" eventInstanceID="ei34" relatedToTime="t32"/>
+<TLINK lid="l29" relType="SIMULTANEOUS" eventInstanceID="ei35" relatedToEventInstance="ei34"/>
+<TLINK lid="l30" relType="BEFORE" eventInstanceID="ei36" relatedToTime="t0"/>
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei39" relatedToTime="t0"/>
+<TLINK lid="l32" relType="BEFORE" eventInstanceID="ei42" relatedToEventInstance="ei40"/>
+<TLINK lid="l34" relType="BEFORE" eventInstanceID="ei43" relatedToEventInstance="ei40"/>
+<TLINK lid="l35" relType="IDENTITY" timeID="t44" relatedToTime="t32"/>
+<TLINK lid="l36" relType="SIMULTANEOUS" eventInstanceID="ei45" relatedToEventInstance="ei33"/>
+<TLINK lid="l37" relType="DURING" eventInstanceID="ei45" relatedToTime="t44"/>
+<TLINK lid="l38" relType="SIMULTANEOUS" eventInstanceID="ei47" relatedToEventInstance="ei45"/>
+<TLINK lid="l39" relType="DURING" eventInstanceID="ei47" relatedToTime="t46"/>
+<TLINK lid="l40" relType="SIMULTANEOUS" eventInstanceID="ei48" relatedToEventInstance="ei47"/>
+<TLINK lid="l41" relType="IDENTITY" timeID="t49" relatedToTime="t44"/>
+<TLINK lid="l42" relType="SIMULTANEOUS" eventInstanceID="ei50" relatedToEventInstance="ei47"/>
+<TLINK lid="l43" relType="DURING" eventInstanceID="ei50" relatedToTime="t49"/>
+<TLINK lid="l44" relType="DURING" eventInstanceID="ei51" relatedToTime="t49"/>
+<TLINK lid="l45" relType="BEFORE" eventInstanceID="ei54" relatedToTime="t0"/>
+<CLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+<CLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei5"/>
+<CLINK lid="l17" c-signalID="c19" eventInstanceID="ei20" relatedToEventInstance="ei18"/>
+<CLINK lid="l33" c-signalID="c41" eventInstanceID="ei42" relatedToEventInstance="ei40"/>
+</TimeML>

@@ -1,0 +1,113 @@
+T74	Regulation 239 242	act
+T75	Transcription 307 320	transcription
+T76	Negative_regulation 325 332	reduced
+T77	Transcription 382 397	transcriptional
+T78	Positive_regulation 398 408	activation
+T79	Positive_regulation 545 555	activation
+T80	Gene_expression 693 703	expressing
+T81	Gene_expression 1584 1594	expression
+T82	Gene_expression 1813 1828	over-expression
+E1	Regulation:T74 Theme:T2
+E2	Transcription:T75 Theme:T3
+E3	Negative_regulation:T76 Theme:E2
+E4	Transcription:T77 Theme:T4
+E5	Positive_regulation:T78 Theme:E4 Cause:T5
+E6	Positive_regulation:T79 Theme:T7 Cause:T6
+E7	Gene_expression:T80 Theme:T10
+E8	Gene_expression:T81 Theme:T69
+E9	Gene_expression:T81 Theme:T63
+E10	Gene_expression:T81 Theme:T66
+E11	Gene_expression:T82 Theme:T73
+T1	Protein 0 4	SlyA
+T2	Protein 246 250	slyA
+T3	Protein 302 306	slyA
+T4	Protein 377 381	slyA
+T5	Protein 412 416	PhoP
+T6	Protein 540 544	SlyA
+T7	Protein 559 563	ssrB
+T8	Protein 602 606	slyA
+T9	Protein 611 615	ssrB
+T10	Protein 688 692	slyA
+T11	Protein 719 723	SlyA
+T12	Two-component-system 893 902	ompR/envZ
+T13	Protein 893 897	ompR
+T14	Protein 898 902	envZ
+T15	Two-component-system 904 913	phoP/phoQ
+T16	Protein 904 908	phoP
+T17	Protein 909 913	phoQ
+T18	Protein 915 919	csrA
+T19	Protein 924 928	himD
+T20	Protein 1031 1035	slyA
+T21	Protein 1095 1099	slyA
+T22	Two-component-system 1111 1120	ssrA/ssrB
+T23	Protein 1111 1115	ssrA
+T24	Protein 1116 1120	ssrB
+T25	Protein 1156 1160	slyA
+T26	Protein 1226 1230	ssrB
+T27	Organism 1292 1306	ssrAB/ompRenvZ
+T28	Two-component-system 1292 1297	ssrAB
+T29	Protein 1292 1296	ssrA
+T30	Protein 1296 1297	B
+T31	Two-component-system 1298 1306	ompRenvZ
+T32	Protein 1298 1302	ompR
+T33	Protein 1302 1306	envZ
+T34	Organism 1308 1319	ssrAB/phoPQ
+T35	Two-component-system 1308 1313	ssrAB
+T36	Protein 1308 1312	ssrA
+T37	Protein 1312 1313	B
+T38	Two-component-system 1314 1319	phoPQ
+T39	Protein 1314 1318	phoP
+T40	Protein 1318 1319	Q
+T41	Organism 1321 1331	ssrAB/csrA
+T42	Two-component-system 1321 1326	ssrAB
+T43	Protein 1321 1325	ssrA
+T44	Protein 1325 1326	B
+T45	Protein 1327 1331	csrA
+T46	Organism 1336 1346	ssrAB/himD
+T47	Two-component-system 1336 1341	ssrAB
+T48	Protein 1336 1340	ssrA
+T49	Protein 1340 1341	B
+T50	Protein 1342 1346	himD
+T51	Protein 1371 1375	slyA
+T52	Protein 1444 1448	ssrB
+T53	Two-component-system 1450 1459	ompR/envZ
+T54	Protein 1450 1454	ompR
+T55	Protein 1455 1459	envZ
+T56	Two-component-system 1461 1470	phoP/phoQ
+T57	Protein 1461 1465	phoP
+T58	Protein 1466 1470	phoQ
+T59	Protein 1472 1476	csrA
+T60	Protein 1481 1485	himD
+T61	Protein 1487 1490	ihf
+T62	Protein 1535 1539	ssrB
+T63	Regulon-operon 1640 1649	ssaB-ssaE
+T64	Protein 1640 1644	ssaB
+T65	Protein 1645 1649	ssaE
+T66	Regulon-operon 1654 1663	sseA-sseG
+T67	Protein 1654 1658	sseA
+T68	Protein 1659 1663	sseG
+T69	Regulon-operon 1700 1709	ssaG-ssaQ
+T70	Protein 1700 1704	ssaG
+T71	Protein 1705 1709	ssaQ
+T72	Protein 1727 1731	slyA
+T73	Protein 1832 1836	slyA
+T83	Span 267 286	Quantitative RT-PCR
+T84	Causality 287 301	confirmed that
+E12	Causality:T84 Effect:T85 Evidence:T83
+T85	Span 302 363	slyA transcription was reduced in 11 of 14 mutant backgrounds
+T86	Span 446 472	The complementation result
+T87	Causality 473 486	suggests that
+E13	Causality:T87 Effect:T88 Evidence:T86
+T88	Span 487 632	many of the regulators may function on SPI-2 through SlyA activation of ssrB or alternatively via both regulators (slyA and ssrB) acting together
+T89	Span 857 928	The construct strongly complemented ompR/envZ, phoP/phoQ, csrA and himD
+T90	Causality 930 945	suggesting that
+E14	Causality:T90 Effect:T91 Evidence:T89
+T91	Span 946 1035	the effect of these regulators on SPI-2 expression may be indirect via regulation of slyA
+T92	Span 1037 1135	Surprisingly, the expression of SPI-2 genes depended upon slyA even in an ssrA/ssrB deleted strain
+T93	Causality 1137 1155	This suggests that
+E15	Causality:T93 Effect:T94 Evidence:T92
+T94	Span 1156 1230	slyA can regulate expression of SPI-2 in a way that is independent of ssrB
+T95	Span 1541 1710	Furthermore there was a clear dichotomy in expression between the first two SPI-2 operons encoding ssaB-ssaE and sseA-sseG and the operons further downstream (ssaG-ssaQ)
+T96	Causality 1711 1726	suggesting that
+E16	Causality:T96 Effect:T97 Evidence:T95
+T97	Span 1727 1771	slyA may act at different sites within SPI-2

@@ -1,0 +1,82 @@
+*	Equiv T13 T14
+*	Equiv T24 T26
+*	Equiv T47 T49
+*	Equiv T51 T53
+T58	Process 195 204	virulence
+T59	Negative_regulation 205 211	defect
+T60	Process 1162 1171	virulence
+T61	Process 2652 2661	virulence
+E1	Process:T58 Participant:T3
+E2	Negative_regulation:T59 Theme:E1
+E3	Process:T60 Participant:T21
+E4	Process:T61 Participant:T51
+E5	Process:T61 Participant:T56
+T1	Organism 24 36	cheB2 Mutant
+T2	Protein 24 29	cheB2
+T3	Organism 75 82	TB0173s
+T4	Protein 91 96	cheB2
+T5	Protein 242 247	cheB2
+T6	Organism 260 262	TB
+T7	Organism 340 344	PAO1
+T8	Organism 348 352	PA14
+T9	Organism 400 402	TB
+T10	Organism 540 544	PA14
+T11	Protein 688 692	mcpA
+T12	Organism 705 711	PA0171
+T13	Protein 736 741	cheB2
+T14	Protein 743 749	PA0173
+T15	Organism 802 806	PA14
+T16	Organism 810 812	TB
+T17	Organism 862 864	TB
+T18	Organism 865 869	PA14
+T19	Organism 1050 1052	TB
+T20	Organism 1057 1061	PA14
+T21	Organism 1219 1221	TB
+T22	Protein 1279 1284	cheB2
+T23	Protein 1337 1342	cheB2
+T24	Organism 1421 1433	cheB2 mutant
+T25	Protein 1421 1426	cheB2
+T26	Organism 1442 1449	TB0173i
+T27	Organism 1478 1488	C. elegans
+T28	Organism 1524 1548	STM cheB2 mutant TB0173s
+T29	Protein 1528 1533	cheB2
+T30	Organism 1565 1578	cheB2 mutants
+T31	Protein 1565 1570	cheB2
+T32	Organism 1580 1587	TB0173s
+T33	Organism 1592 1599	TB0173i
+T34	Organism 1654 1656	TB
+T35	Protein 1729 1734	cheB2
+T36	Organism 1751 1776	P. aeruginosa PA14 strain
+T37	Organism 1787 1796	PA140173i
+T38	Organism 1872 1882	C. elegans
+T39	Organism 1948 1960	cheB2 mutant
+T40	Protein 1948 1953	cheB2
+T41	Organism 1992 1994	TB
+T42	Organism 2090 2102	cheB2 mutant
+T43	Protein 2090 2095	cheB2
+T44	Protein 2118 2123	cheB2
+T45	Organism 2319 2332	P. aeruginosa
+T46	Protein 2338 2343	cheB2
+T47	Organism 2465 2477	cheB2 mutant
+T48	Protein 2465 2470	cheB2
+T49	Organism 2479 2486	TB0173s
+T50	Organism 2503 2514	TB0173sp2B2
+T51	Organism 2581 2601	TB0173s cheB2 mutant
+T52	Protein 2589 2594	cheB2
+T53	Organism 2614 2624	TB0173sCTX
+T54	Organism 2695 2719	cheB2 mutant TB0173sp2B2
+T55	Protein 2695 2700	cheB2
+T56	Organism 2743 2773	cheB2 mutant strain TB0173sCTX
+T57	Protein 2743 2748	cheB2
+T62	Span 836 954	Each paired reaction set (TB/PA14) resulted in products running at the same migratory rate within the 1.5% agarose gel
+T63	Causality 973 996	These results show that
+E6	Causality:T63 Evidence:T62 Effect:T64
+T64	Span 997 1131	there is little difference between the two isolates, TB and PA14, with regards the overall organization of the che2 chromosomal region
+T65	Causality 1461 1467	showed
+E7	Causality:T65 Evidence:T67 Effect:T66
+T66	Span 1468 1558	a delayed C. elegans killing comparable to the original STM cheB2 mutant TB0173s (p<0.004)
+T67	Span 1377 1467	As shown in Figure 3A, the newly engineered cheB2 mutant, called TB0173i (p<0.005), showed
+T68	Span 1692 1882	In addition, we engineered a similar cheB2 mutation in the P. aeruginosa PA14 strain, yielding PA140173i (see Materials and Methods), and observed similar virulence attenuation on C. elegans
+T69	Causality 1896 1918	This further confirmed
+E8	Causality:T69 Evidence:T68 Effect:T70
+T70	Span 1919 2016	the virulence phenotype of a cheB2 mutant and indicated that it is not a TB strain-specific trait

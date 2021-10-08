@@ -1,0 +1,10 @@
+Screening the TB Transposon Library for Mutants Attenuated in Virulence 
+A signature tagged mutagenesis (STM) library was previously generated in the virulent P. aeruginosa CF isolate, TB, using the plasposon vector pTnModOGm [20],[35].
+Auxotrophic mutants were removed from the library by pre-screening post-conjugation TB isolates onto minimal media and selecting only clones, which grew normally.
+This pre-screening eliminated clones that might have exhibited attenuated virulence based upon reduced growth or viability, rather than loss of a specific virulence function.
+After this initial segregation, 2,200 clones were picked into a 96-well plate and tested with the C. elegans high throughput-killing assay.
+Each mutant was tested at least four times using this assay.
+The mutants selected were segregated into three groups based upon their level of virulence attenuation as compared to the TB parental strain, which killed 85% of worms under the test conditions.
+In group 1, we included 187 mutants (9% of total library) which allowed more than 50% worm survival, group 2 between 30% and 50% (536 mutants, 25%), and group 3 below 30% (1450 mutants, 65%), approaching the same level of killing as the parental isolate.
+Within group 1, the 12 most highly attenuated isolates, classified as group 1A (0.4% of the total library), were further studied.
+When cultured in the presence of these mutants more than 70% of worms survived, representing a near 5-fold reduction in virulence compared to TB.

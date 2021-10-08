@@ -1,0 +1,10 @@
+Genes encoding proteins of unknown function 
+Several membrane proteins such as 05SSU0677 and 05SSU1912 were also repressed in DeltasalKR.
+It is well documented that surface proteins or cell wall-anchored proteins are usually thought to contribute to the immunogenicity [33], [34], invasiveness [35]-[37], and even pathogenesis [38], [39] of pathogens.
+Moreover, it should be noted that numerous proteins of unknown function are also depressed in DeltasalKR, which may in part lead to the virulence loss of the mutant via some thus-far-unknown mechanisms.
+Remarkably, no gene was found to be up-regulated (more than twice) in DeltasalKR.
+To examine the validity of the microarray data, we performed further quantitative real-time PCR analysis on 42 genes using RNA from three independent cultures of each strain (WT, the DeltasalKR mutant and the complemented strain CDeltasalKR).
+These genes include the total 26 ones that are down-regulated in the DeltasalKR mutant, four virulence factors (CPS, MRP, EF, SLY) coding genes [40]-[44], genes immediately flanking the salKR locus (05SSU0945 and 05SSU0942), and 10 genes that selected from the chromosome of 05ZYH33 every 200 ORFs.
+As shown in Table S1, the quantitative results of RT-PCR were highly compatible to the microarray data, in the DeltasalKR mutant, 41 out of 42 selected genes (97.6%) were confirmed to have similar transcript levels using these two different techniques, thus independently confirming the microarray results.
+The discrepancies of target genes expression between microarray data and real-time quantitative PCR results probably best reflects differences in the relative sensitivity and specificity of the two methods.
+Among the 26 down-regulated genes in the DeltasalKR mutant, five did not recover to expression level of the wild-type strain, indicating that the complemented strain does not imitate completely the exact tuning of gene expression as in the wild-type strain.

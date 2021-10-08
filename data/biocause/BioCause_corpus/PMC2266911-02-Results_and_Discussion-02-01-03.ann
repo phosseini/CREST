@@ -1,0 +1,123 @@
+*	Equiv T31 T32
+*	Equiv T79 T81
+*	Equiv T80 T82
+T89	Gene_expression 540 548	produces
+T90	Gene_expression 1119 1127	produces
+T91	Process 2643 2652	virulence
+T92	Process 3340 3349	virulence
+T93	Gene_expression 3806 3815	expressed
+E1	Gene_expression:T89 Theme:T13
+E2	Gene_expression:T90 Theme:T28
+E3	Gene_expression:T90 Theme:T29
+E4	Gene_expression:T90 Theme:T31
+E5	Gene_expression:T90 Theme:T34
+E6	Gene_expression:T90 Theme:T35
+E7	Process:T91 
+E8	Process:T92 
+E9	Gene_expression:T93 Theme:T79
+E10	Gene_expression:T93 Theme:T80
+T1	Protein 230 236	YE1998
+T2	Protein 237 241	2000
+T3	Protein 243 250	Plu0634
+T4	Protein 251 258	Plu0635
+T5	Organism 265 279	P. luminescens
+T6	Protein 342 349	plu1330
+T7	Protein 350 354	1369
+T8	Protein 390 397	plu3217
+T9	Protein 399 406	plu3324
+T10	Protein 428 435	plu4117
+T11	Protein 454 461	plu3668
+T12	Organism 507 524	Y. enterocolitica
+T13	Protein 571 577	YE1322
+T14	Organism 623 637	P. luminescens
+T15	Protein 639 646	Plu3209
+T16	Protein 740 744	XaxA
+T17	Protein 744 745	B
+T18	Organism 772 786	X. nematophila
+T19	Protein 854 861	Plu2288
+T20	Protein 866 873	Plu0359
+T21	Protein 898 904	YE2685
+T22	Organism 968 985	Y. enterocolitica
+T23	Protein 987 993	YE2091
+T24	Organism 999 1039	P. luminescens ssp. akhurstii strain W14
+T25	Organism 1052 1093	P. luminescens ssp. laumondii strain TT01
+T26	Organism 1104 1118	P. luminescens
+T27	Organism 1230 1247	Y. enterocolitica
+T28	Protein 1273 1278	Txp40
+T29	Protein 1336 1340	Xnp2
+T30	Organism 1361 1372	X. bovienii
+T31	Protein 1404 1408	galA
+T32	Protein 1410 1417	plu0840
+T33	Organism 1453 1473	Aeromonas hydrophila
+T34	Protein 1591 1598	plu2400
+T35	Protein 1603 1610	plu2420
+T36	Protein 1666 1670	cipA
+T37	Protein 1675 1679	cipB
+T38	Organism 1683 1697	P. luminescens
+T39	Protein 1719 1726	plu1537
+T40	Organism 1746 1763	Y. enterocolitica
+T41	Protein 1807 1810	Pnf
+T42	Organism 1830 1870	P. luminescens ssp. akhurstii strain W14
+T43	Organism 1883 1924	P. luminescens ssp. laumondii strain TT01
+T44	Organism 1929 1943	P. luminescens
+T45	Protein 1962 1969	plu4092
+T46	Protein 1974 1981	plu4436
+T47	Organism 2158 2172	P. luminescens
+T48	Organism 2181 2189	M. sexta
+T49	Protein 2253 2257	mcf2
+T50	Protein 2259 2266	plu3128
+T51	Organism 2302 2319	Y. enterocolitica
+T52	Organism 2395 2409	P. luminescens
+T53	Organism 2422 2438	tobacco hornworm
+T54	Organism 2458 2475	Y. enterocolitica
+T55	Organism 2498 2507	Y. pestis
+T56	Protein 2534 2541	YPO0339
+T57	Organism 2691 2708	Y. enterocolitica
+T58	Organism 2721 2735	P. luminescens
+T59	Protein 2893 2897	SopB
+T60	Organism 3006 3011	human
+T61	Organism 3021 3035	P. asymbiotica
+T62	Organism 3068 3082	P. luminescens
+T63	Protein 3118 3124	YE2447
+T64	Protein 3172 3176	SrfA
+T65	Protein 3210 3214	PhoP
+T66	Organism 3218 3232	S. typhimurium
+T67	Protein 3243 3247	SrfA
+T68	Organism 3368 3382	P. luminescens
+T69	Protein 3404 3410	YE1604
+T70	Protein 3411 3415	1606
+T71	Protein 3421 3425	ProP
+T72	Protein 3427 3433	YE3594
+T73	Protein 3498 3504	YE4072
+T74	Protein 3505 3509	4078
+T75	Protein 3612 3618	YE3228
+T76	Protein 3619 3623	3235
+T77	Chemical 3642 3645	AHL
+T78	Chemical 3676 3679	ADP
+T79	Protein 3716 3720	ytxA
+T80	Protein 3720 3721	B
+T81	Protein 3723 3729	ye2124
+T82	Protein 3730 3736	ye2123
+T83	Organism 3752 3760	Yersinia
+T84	Organism 3920 3934	P. luminescens
+T85	Organism 3950 3967	Y. enterocolitica
+T86	Organism 4028 4042	P. luminescens
+T87	Organism 4060 4077	Y. enterocolitica
+T88	Organism 4102 4119	Y. enterocolitica
+T94	Span 526 578	This pathogen produces only one RTX protein (YE1322)
+T95	Causality 579 579	
+E11	Causality:T95 Effect:T94 Evidence:T96
+T96	Span 579 647	for which a truncated homologue is found in P. luminescens (Plu3209)
+T97	Causality 1212 1215	but
+E12	Causality:T97 Evidence:T99 Effect:T98
+T98	Span 1216 1247	are absent in Y. enterocolitica
+T99	Span 1104 1210	P. luminescens produces a series of proteins similar to toxins that have been identified in other bacteria
+T100	Span 2616 2735	We also identified several virulence genes and operons that are present in Y. enterocolitica, but not in P. luminescens
+T101	Causality 2737 2752	suggesting that
+E13	Causality:T101 Effect:T102 Evidence:T100
+T102	Span 2753 2878	they have been acquired by horizontal gene transfer from other bacteria and do not play a role in bacteria-insect association
+T103	Span 3873 3967	the large variety of diverse toxins present in P. luminescens, but absent in Y. enterocolitica
+T104	Causality 3969 3988	might contribute to
+E14	Causality:T104 Effect:T105 Evidence:T103
+T105	Span 3989 4077	the higher toxicity towards insects of P. luminescens in comparison to Y. enterocolitica
+#1	AnnotatorNotes E12	not sure

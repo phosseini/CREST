@@ -1,0 +1,52 @@
+T1	NonCausal 104 108	when
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 109 140	they touted the Web's potential
+T3	Argument 69 103	what Internet pioneers had in mind
+T4	Consequence 566 574	enabling
+E2	Consequence:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+T5	Argument 554 562	the site
+T6	Argument 575 593	witness harassment
+T7	Consequence 713 725	essential to
+E3	Consequence:T7 Cause:T8 Effect:T9
+A3	Degree E3 Facilitate
+T8	Argument 697 709	transparency
+T9	Argument 726 748	a fair judicial system
+T10	Consequence 998 1003	where
+E4	Consequence:T10 Cause:T11 Effect:T12
+A4	Degree E4 Facilitate
+A5	Context E4
+T11	Argument 1004 1046	the life of the witness may be in jeopardy
+T12	Argument 1048 1103	courts should consider not putting the documents online
+T13	Consequence 1206 1218	essential to
+E5	Consequence:T13 Cause:T14 Effect:T15
+A6	Degree E5 Facilitate
+T14	Argument 1183 1197	the eyewitness
+T15	Argument 1219 1247	police work and prosecutions
+T16	Purpose 1316 1331	for the sake of
+E6	Purpose:T16 Effect:T17 Cause:T18
+A8	Degree E6 Facilitate
+T17	Argument 1275 1315	citizens cooperating with the government
+T18	Argument 1332 1345	public safety
+T19	Motivation 1686 1689	for
+E7	Motivation:T19 Cause:T20 Effect:T21
+A9	Degree E7 Facilitate
+T20	Argument 1690 1776	firebombing the house of an activist who told the police about neighborhood drug deals
+T21	Argument 1648 1685	gang members were sentenced last year
+T22	Consequence 1821 1828	require
+E8	Consequence:T22 Effect:T23 Cause:T24
+A10	Degree E8 Facilitate
+T23	Argument 1778 1815	Combating the growing culture of fear
+T24	Argument 1829 1887	a greater emphasis on the physical protection of witnesses
+T28	Consequence 2174 2177	fed
+E10	Consequence:T28 Cause:T29 Effect:T30
+A12	Degree E10 Facilitate
+T29	Argument 2038 2168	Racial profiling, sentencing disparities for crack and powdered cocaine and aggressive stops and searches in certain neighborhoods
+T30	Argument 2178 2323	a deep sense of persecution -- particularly among young black and Hispanic men -- and a dangerously adversarial relationship with law enforcement
+T31	Motivation 2325 2330	Until
+E11	Motivation:T31 Cause:T32 Effect:T33
+A13	Degree E11 Inhibit
+T32	Argument 2331 2358	that relationship is healed
+T33	Argument 2360 2431	cooperation will continue to suffer, as will the communities themselves
+A11	Temporal E11

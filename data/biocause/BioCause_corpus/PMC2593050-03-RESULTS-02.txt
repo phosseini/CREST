@@ -1,0 +1,7 @@
+Growth of DeltavicK in THY and Rabbit Blood 
+The growth curve of the DeltavicK mutant in THY displays a longer early growth phase and smaller slope in the exponential growth phase than that of the parent strain (Fig. 2A), indicating that the vicK deletion detrimentally affects S. equi growth.
+The effect of the deletion on S. equi growth in blood was also examined.
+The wild-type and DeltavicK S. equi strains were inoculated into 1 ml heparinized rabbit blood at an inoculum of approximately 20,000 cfu.
+The samples were incubated for 4 h, and the numbers of the bacteria in the samples and inocula at time zero were determined by plating.
+The growth factors, the ratio of cfu in the sample at 4 h over cfu at time zero, were 250 and 66 for the wild type and DeltavicK strains, respectively (Fig. 2B).
+Thus, the DeltavicK mutant has significantly reduced ability to grow in rabbit blood (P <0.0001).

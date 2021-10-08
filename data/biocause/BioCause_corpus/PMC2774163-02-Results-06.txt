@@ -1,0 +1,22 @@
+Mutant biofilms display protein and phosphorylation patterns indicative of stage-specific arrest of biofilm development 
+Based on qualitative and quantitative analyses, BfiS (PA4197) and BfmR (PA4101) mutant biofilm architecture appeared to be the result of arrested biofilm formation following initial attachment, while inactivation of MifR (PA5511) coincided with biofilms impaired in microcolony formation at the maturation-1 stage.
+Since each of these biofilm developmental stages is characterized by a unique phosphorylation pattern (Figs. 1, 4, Table 1), we reasoned that if the mutant biofilms are indeed arrested in biofilm development, their phosphoproteomes will correspond to the stage at which they are arrested.
+We, therefore, analyzed the phosphorylation patterns of DeltabfiS, DeltabfmR, and DeltamifR biofilms grown for 144 hr in comparison to P. aeruginosa wild type biofilms grown for 8, 24, 72, and 144 hr.
+The phosphoproteomes were analyzed using two approaches, (i) immunoblot analysis of whole biofilm cell extracts and (ii) LC-MS/MS analysis in conjunction with cICAT labeling following MOAC purification.
+The phosphoproteome of DeltabfiS biofilms as determined by LC-MS/MS was 74% similar (26% difference) to planktonic cells while DeltabfmR biofilms shared 60% of all detected phosphorylation events with planktonic cells (40% difference).
+This is in contrast to the phosphoproteome of 144-hr-old P. aeruginosa wild type biofilms, which was 62-65% different from that of planktonic cells (Fig. 4A).
+Furthermore, both mutant biofilms failed to exhibit phosphorylation events typically observed during normal biofilm development following 144 hr of growth (see Fig. 1, Suppl. Table S2).
+For instance, DeltabfiS and DeltabfmR biofilms lacked all phosphorylated proteins typically found in mature, 144-hr-old biofilms.
+In addition, both mutant biofilms lacked evidence for MifR phosphorylation (phosphorylated following 72 hr of wild type growth, Table 1, Suppl. Fig. S3).
+Instead, DeltabfiS biofilms exhibited stage-specific phosphorylation events typically detected in 8-hr- and 24-hr-old wild type biofilms: the Ser/Thr phosphoproteome contained 15 out of 23 phosphorylated proteins and 2 out of 21 phosphorylated proteins that are specific for 8-hr- and 24-hr-old wild type biofilms, respectively (see Fig. 1, Suppl. Table S2).
+Similarly, the phosphorylation patterns of DeltabfmR biofilms indicated the presence of 24- and 72-hr stage-specific phosphorylated proteins (not shown).
+The phosphorylation patterns of 144-hr-old DeltamifR biofilms were 62% different relative to planktonic cells, but only shared 58% similarity with mature, 144-hr-old wild type biofilms (Fig. 4A).
+Furthermore, DeltamifR biofilms exhibited 8 out of 27 maturation-1 specific protein phosphorylation events, and only 16 out of 37 maturation-2 phosphorylation events (Suppl. Table S2, see Fig. 1).
+We further reasoned that if the mutant biofilms are indeed arrested in biofilm development, their whole proteomes will also correspond to the stage at which they are arrested.
+We therefore compared the protein production patterns of 144-hr-old DeltabfiS, DeltabfmR, and DeltamifR biofilms to the 2D-patterns of P. aeruginosa wild type biofilms grown for 24, 72 and 144 hr using 2D/PAGE, 2D ImageMaster Platinum software and heuristic clustering.
+As shown in Fig. 4B, cluster analysis based on protein similarity confirmed our previous findings obtained by microscopic and phosphoproteome analyses of mutant biofilms.
+DeltabfiS biofilms were more similar to 24-hr-old wild type biofilms than to wild type biofilms at more mature stages.
+The two protein patterns were more than 80% similar.
+In contrast, DeltabfmR biofilms were most similar to protein patterns obtained from 72-hr-old wild type biofilms (85% similarity), while those of DeltamifR biofilms were similar to both 72- and 144-hr-old biofilms sharing 76 and 82% similarity, respectively, to both protein patterns (Fig. 4B).
+Based on analyses of biofilm architecture, as well as of protein production and phosphorylation patterns, our findings indicate that DeltabfiS biofilms are arrested in the transition from reversible to the irreversible attachment stage (8 hr to 24-hr-old biofilms, respectively).
+Inactivation of MifR appeared to result in the arrest of biofilm development in the transition between the maturation-1 and -2 stages (72 to 144 hr) while DeltabfmR biofilms were arrested in the transition between irreversible attachment to maturation-1 stage.

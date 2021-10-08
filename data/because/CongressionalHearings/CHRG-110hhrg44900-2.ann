@@ -1,0 +1,830 @@
+T1	Purpose 167 169	to
+E1	Purpose:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 170 236	strengthen the oversight of banks and other financial institutions
+T3	Argument 107 166	that could be taken at the regulatory and supervisory level
+T6	Argument 775 784	we can do
+T7	Argument 788 836	strengthen the oversight under existing statutes
+T8	Argument 844 908	make sure that the infrastructure is working as well as possible
+T9	Purpose 785 787	to
+E3	Purpose:T9 Effect:T6 Cause:T7
+A3	Degree E3 Facilitate
+T10	Purpose 841 843	to
+E4	Purpose:T10 Effect:T6 Cause:T8
+A4	Degree E4 Facilitate
+T11	Consequence 844 853	make sure
+E5	Consequence:T11 Effect:T12 Cause:T13 Means:T6
+A5	Degree E5 Facilitate
+T12	Argument 854 908	that the infrastructure is working as well as possible
+T13	Argument 775 777	we
+T14	Purpose 994 996	to
+E6	Purpose:T14 Cause:T16 Effect:T15
+A6	Degree E6 Facilitate
+T15	Argument 971 993	that we are now having
+T16	Argument 997 1055	strengthen the OTC derivatives infrastructure and the like
+T22	Consequence 1999 2010	resulted in
+E9	Consequence:T22 Cause:T24 Effect:T23
+A9	Degree E9 Facilitate
+T23	Argument 2011 2054	a lot of what we are seeing, market turmoil
+T24	Argument 1994 1998	that
+T25	Argument 1977 1989	being faulty
+R1	Coref Arg1:T24 Arg2:T25	
+T34	Argument 2967 3121	capital is available, and that is a much better alternative than shrinking their balance sheets and pulling back from the activities that are so necessary
+T35	Argument 2832 2957	We have encouraged, both of our organizations have encouraged financial institutions to recognize losses and to raise capital
+T36	Motivation 2959 2966	because
+E14	Motivation:T36 Cause:T34 Effect:T35
+A14	Degree E14 Facilitate
+T39	Consequence 3384 3393	make sure
+E16	Consequence:T39 Effect:T40 Cause:T19
+A16	Degree E16 Facilitate
+T40	Argument 3394 3462	that these firms are safe and able to withstand the current stresses
+T41	Argument 4126 4192	try to limit the regulatory impact on the procyclicality of credit
+T42	Argument 4064 4068;4087 4122	that we will want to look at much harder
+T43	Purpose 4123 4125	to
+E17	Purpose:T43 Cause:T41 Effect:T42
+A17	Degree E17 Facilitate
+T44	Purpose 4653 4655	in
+E18	Purpose:T44 Cause:T45 Effect:T46
+A18	Degree E18 Facilitate
+T45	Argument 4656 4778	the hope that we will make a clearer statement about when private equity can come in and add capital to the banking system
+T46	Argument 4620 4652	We are currently looking at that
+T47	Argument 5429 5490	the emergency powers or extraordinary powers or change powers
+T48	Argument 5491 5495	that
+T49	Consequence 5500 5512	necessary to
+E19	Consequence:T49 Effect:T50 Cause:T48
+A19	Degree E19 Facilitate
+T50	Argument 5513 5529	meet this crisis
+R2	Coref Arg1:T48 Arg2:T47	
+T51	Argument 5949 5969	take certain actions
+T52	Argument 5973 5994	prevent systemic risk
+T53	Purpose 5970 5972	to
+E20	Purpose:T53 Cause:T52 Effect:T51
+A20	Degree E20 Facilitate
+T54	Argument 5949 5994	take certain actions to prevent systemic risk
+T55	Argument 5998 6139	over the next 9-month period the Congress is not able to act and you discern that the powers you have are not adequate to meet the challenges
+T56	Motivation 5995 5997	if
+E21	Motivation:T56 Cause:T55 Effect:T54
+A21	Degree E21 Facilitate
+T57	Consequence 5973 5980	prevent
+E22	Consequence:T57 Effect:T58 Cause:T59
+A22	Degree E22 Inhibit
+T58	Argument 5981 5994	systemic risk
+T59	Argument 5907 5945	either the Federal Reserve or Treasury
+T63	Motivation 3468 3470	so
+E24	Motivation:T63 Effect:T64
+A24	Degree E24 Facilitate
+T64	Argument 3485 3684	in our work with the SEC at the investment banks, we have urged them, and they have complied, in raising capital and especially in raising liquidity, which was one of the key issues with Bear Stearns
+T84	Argument 9925 9956	I would just like to thank them
+T85	Motivation 9965 9968	for
+E32	Motivation:T85 Cause:T86 Effect:T84
+A32	Degree E32 Facilitate
+T86	Argument 9969 10029	what has been excellent work in very difficult circumstances
+T87	Argument 11528 11569	let's get the GSE reform legislation done
+T88	Purpose 11571 11573	to
+E33	Purpose:T88 Cause:T89 Effect:T87
+A33	Degree E33 Facilitate
+T89	Argument 11574 11683	have a strong, independent regulator that will inject confidence into those institutions and into the markets
+T93	Argument 12084 12115	this is going to take some time
+T94	Argument 12120 12147	begin work urgently on that
+T95	Motivation 12117 12119	so
+E35	Motivation:T95 Effect:T94 Cause:T93
+A35	Degree E35 Facilitate
+T96	Motivation 12706 12708	So
+E36	Motivation:T96 Effect:T97
+A36	Degree E36 Facilitate
+T97	Argument 12709 12826	we will continue to think about what steps might be taken on a shorter-term basis and be in close touch with Congress
+T101	Argument 14252 14299	you don't know which way you would like to head
+T102	Argument 14311 14346	you have no chance of getting there
+T103	Consequence 14249 14251	if
+E38	Consequence:T103 Cause:T101 Effect:T102
+A38	Degree E38 Facilitate
+T105	Argument 14669 14701	a lot of this problem came about
+T106	Argument 14717 14763	sloppy and lax mortgage origination procedures
+T107	Argument 15487 15502	the authorities
+T108	Consequence 15508 15512;15513 15515	need to
+E40	Consequence:T108 Effect:T109 Cause:T107
+A40	Degree E40 Facilitate
+T109	Argument 15516 15542	do the macro stability job
+T110	Argument 15934 15943	thank you
+T111	Argument 15954 15995	holding this very important hearing today
+T112	Motivation 15950 15953	for
+E41	Motivation:T112 Cause:T111 Effect:T110
+A41	Degree E41 Facilitate
+T113	Argument 16017 16067	thank both Secretary Paulson and Chairman Bernanke
+T114	Argument 16072 16088	being here today
+T115	Motivation 16068 16071	for
+E42	Motivation:T115 Cause:T114 Effect:T113
+A42	Degree E42 Facilitate
+T116	Argument 16163 16220	how disappointed I am with all of us, Members of Congress
+T117	Motivation 16222 16225	for
+E43	Motivation:T117 Effect:T116 Cause:T118
+A43	Degree E43 Facilitate
+T118	Argument 16226 16293	what appears to have been weak oversight of our regulatory agencies
+T119	Motivation 16323 16326	for
+E44	Motivation:T119 Effect:T120 Cause:T121
+A44	Degree E44 Facilitate
+T120	Argument 16163 16189;16299 16322	how disappointed I am with our regulatory agencies
+T121	Argument 16327 16397	what appears to have been weak oversight of our financial institutions
+T122	Argument 16545 16600	the devastation to some of our families and communities
+T123	Argument 16611 16633	this subprime meltdown
+T124	Consequence 16601 16607	caused
+E45	Consequence:T124 Cause:T123 Effect:T122
+A45	Degree E45 Facilitate
+T125	Argument 18048 18061	I'm surprised
+T126	Argument 18071 18280	I thought that our regulatory agencies, no matter how they were organized, whether it was by financial institution category or not, had as its prime objective, all of those things that you talk about doing now
+T127	Motivation 18063 18070	because
+E46	Motivation:T127 Cause:T126 Effect:T125
+A46	Degree E46 Facilitate
+T130	Motivation 18387 18394	because
+E48	Motivation:T130 Effect:T131 Cause:T132
+A48	Degree E48 Facilitate
+T131	Argument 18289 18385	what I really want to know is not so much what you plan that may not be instituted for some time
+T132	Argument 18395 18439	it takes some time to get this into practice
+T133	Argument 18608 18675	I want to know if you have anything in your plans to deal with them
+T134	Argument 18685 18931	after we get finished with all of the President's HOPE NOW program and the money that we are giving to NeighborWorks and other organizations to do counseling, they can't do very much good, because the servicers are the ones who make the decisions
+T135	Motivation 18677 18684	because
+E49	Motivation:T135 Effect:T133 Cause:T134
+A49	Degree E49 Facilitate
+T136	Argument 18844 18872	they can't do very much good
+T137	Argument 18882 18931	the servicers are the ones who make the decisions
+T138	Consequence 18874 18881	because
+E50	Consequence:T138 Cause:T137 Effect:T136
+A50	Degree E50 Facilitate
+T139	Argument 22594 22631	you're giving a break to the borrower
+T140	Argument 22635 22668	the borrower can stay in the home
+T141	Purpose 22632 22634	so
+E51	Purpose:T141 Cause:T140 Effect:T139
+A51	Degree E51 Facilitate
+T142	Argument 22725 22779;22827 22848	Let me ask, Mr. Secretary, that you respond in writing on the servicer issue
+T143	Argument 22805 22825	our time constraints
+T144	Motivation 22794 22804	because of
+E52	Motivation:T144 Cause:T143 Effect:T142
+A52	Degree E52 Facilitate
+T145	Argument 23082 23132	thank you, Secretary Paulson and Chairman Bernanke
+T146	Argument 23138 23151	being with us
+T147	Motivation 23134 23137	for
+E53	Motivation:T147 Cause:T146 Effect:T145
+A53	Degree E53 Facilitate
+T148	Argument 23733 23806	Such private prudential regulation can be impaired, indeed even displaced
+T149	Argument 23831 23909	some counterparties assume that government regulators obviate private prudence
+T150	Consequence 23828 23830	if
+E54	Consequence:T150 Cause:T149 Effect:T148
+A54	Degree E54 Facilitate
+T151	Argument 24129 24163	federal guarantees of private debt
+T152	Argument 24056 24103	market discipline is undermined by moral hazard
+T153	Consequence 24118 24128	because of
+E55	Consequence:T153 Cause:T151 Effect:T152
+A55	Degree E55 Facilitate
+T154	Argument 24620 24624	runs
+T155	Consequence 24682 24689	avoided
+E56	Consequence:T155 Effect:T154 Means:T156
+A56	Degree E56 Inhibit
+T156	Argument 24706 24731	central bank intervention
+T157	Consequence 24744 24754	arise from
+E57	Consequence:T157 Cause:T159 Effect:T158
+A57	Degree E57 Facilitate
+T158	Argument 24733 24743	Other runs
+T159	Argument 24755 24779	fundamental developments
+T160	Argument 24966 25002	that can provide a sense of security
+T161	Argument 25006 25134	prevent self-fulfilling prophesies, to use, you know, Jeffrey Lacker's words, with respect to runs on our financial institutions
+T162	Purpose 25003 25005	to
+E58	Purpose:T162 Effect:T160 Cause:T161
+A58	Degree E58 Facilitate
+T163	Argument 25163 25289	interfering with the type of market discipline that Mr. Greenspan believes is so critical to the health of our capital markets
+T164	Consequence 25157 25162	avoid
+E59	Consequence:T164 Cause:T165 Effect:T163
+A59	Degree E59 Inhibit
+T165	Argument 24966 24970	that
+T166	Argument 24947 24965	a regulatory model
+R3	Coref Arg1:T165 Arg2:T166	
+T167	Consequence 25244 25255	critical to
+E60	Consequence:T167 Cause:T170 Effect:T168
+A60	Degree E60 Facilitate
+T168	Argument 25256 25289	the health of our capital markets
+T169	Argument 25180 25209	the type of market discipline
+T170	Argument 25210 25214	that
+R4	Coref Arg1:T170 Arg2:T169	
+T172	Argument 25014 25040	self-fulfilling prophesies
+T171	Consequence 25006 25013	prevent
+E61	Consequence:T171 Effect:T172 Cause:T165 Means:T128
+A61	Degree E61 Inhibit
+T174	Argument 25834 25876	our system will never be what it should be
+T175	Argument 25884 25956	we can get to the point where market discipline plays its necessary role
+T176	Consequence 25877 25883	unless
+E62	Consequence:T176 Cause:T175 Effect:T174
+A62	Degree E62 Inhibit
+T177	Purpose 25962 25973	in order to
+E63	Purpose:T177 Cause:T178 Effect:T179
+A63	Degree E63 Facilitate
+T178	Argument 25974 25983	get there
+T179	Argument 25985 26027	I want to emphasize what Ben Bernanke said
+T180	Argument 26044 26058	do some things
+T181	Purpose 26059 26061	to
+E64	Purpose:T181 Cause:T182 Effect:T180
+A64	Degree E64 Facilitate
+T182	Argument 26062 26232	strengthen the infrastructure we have, the over-the-counter derivative market, the tri-party repossession market, and that which is secured financing between institutions
+T183	Argument 26318 26336	too interconnected
+T184	Argument 26340 26344	fail
+T185	Consequence 26318 26321;26337 26339	too to
+E65	Consequence:T185 Effect:T184 Cause:T183
+A65	Degree E65 Inhibit
+T186	Argument 26249 26256	do that
+T187	Argument 26265 26361	the appearance and the reality that institutions are too interconnected to fail no longer exists
+T188	Purpose 26257 26259	so
+E66	Purpose:T188 Cause:T187 Effect:T186
+A66	Degree E66 Facilitate
+T189	Consequence 26985 26993	Avoiding
+E67	Consequence:T189 Cause:T190
+A67	Degree E67 Inhibit
+T190	Argument 26994 27010	the moral hazard
+T191	Argument 26985 27043	Avoiding the moral hazard, having strong market discipline
+T192	Consequence 27044 27049	makes
+E68	Consequence:T192 Effect:T193 Cause:T191
+A68	Degree E68 Facilitate
+T193	Argument 27050 27060;27061 27072	the system work better
+T194	Consequence 27345 27355	because of
+E69	Consequence:T194 Cause:T195 Effect:T196
+A69	Degree E69 Facilitate
+T195	Argument 27356 27375	failing hedge funds
+T196	Argument 27300 27344	material losses to banks or investment banks
+T197	Argument 27281 27375	There have been no material losses to banks or investment banks because of failing hedge funds
+T198	Consequence 27381 27388	because
+E70	Consequence:T198 Cause:T199 Effect:T197
+A70	Degree E70 Facilitate
+T199	Argument 27389 27428	the banks have been doing due diligence
+T200	Consequence 27546 27551	given
+E71	Consequence:T200 Cause:T201 Effect:T202
+A71	Degree E71 Facilitate
+T201	Argument 27552 27588	the financial conditions at the time
+T202	Argument 27482 27544	our action to address the Bear Stearns situation was necessary
+T203	Argument 27860 27903	supervisory oversight of those institutions
+T204	Argument 27907 28037	make sure that they are in fact doing what they need to do to be safe and sound, are not taking advantage of the implicit backstop
+T205	Purpose 27904 27906	to
+E72	Purpose:T205 Cause:T204 Effect:T203
+A72	Degree E72 Facilitate
+T206	Consequence 27907 27916	make sure
+E73	Consequence:T206 Effect:T207
+A73	Degree E73 Facilitate
+T207	Argument 27917 28037	that they are in fact doing what they need to do to be safe and sound, are not taking advantage of the implicit backstop
+T208	Consequence 27955 27962;27966 27968	need to to
+E74	Consequence:T208 Effect:T210 Cause:T209
+A74	Degree E74 Facilitate
+T209	Argument 27963 27965	do
+T210	Argument 27969 27986	be safe and sound
+T211	Consequence 28164 28170	ensure
+E75	Consequence:T211 Effect:T212
+A75	Degree E75 Facilitate
+T212	Argument 28171 28205	that the moral hazard is minimized
+T214	Argument 28254 28303	we can strengthen our infrastructure sufficiently
+T213	Argument 28312 28355	it could absorb the failure of a large firm
+T215	Purpose 28304 28306	so
+E76	Purpose:T215 Effect:T214 Cause:T213
+A76	Degree E76 Facilitate
+T216	Argument 28406 28497	it were clearer that the system could withstand the failure of a firm of Bear Stearns' size
+T217	Argument 28504 28609	we would be much more comfortable letting it happen, because we would think the system would be preserved
+T218	Motivation 28403 28405;28499 28503	if then
+E77	Motivation:T218 Effect:T217 Cause:T216
+A77	Degree E77 Facilitate
+T219	Motivation 28557 28564	because
+E78	Motivation:T219 Cause:T221 Effect:T220
+A78	Degree E78 Facilitate
+T220	Argument 28504 28555	we would be much more comfortable letting it happen
+T221	Argument 28565 28609	we would think the system would be preserved
+T222	Argument 28733 28737	that
+T223	Argument 28702 28732	stronger resolution procedures
+R5	Coref Arg1:T222 Arg2:T223	
+T224	Consequence 28744 28749;28753 28755	allow to
+E79	Consequence:T224 Cause:T222 Effect:T225
+A79	Degree E79 Facilitate
+T225	Argument 28750 28752;28756 28783	us intervene in an early stage
+T226	Consequence 28744 28749;28796 28798	allow to
+E80	Consequence:T226 Cause:T222 Effect:T227
+A80	Degree E80 Facilitate
+T227	Argument 28799 29042	try to create an orderly process that doesn't create the market externalities at the same time it would avoid moral hazard because the equity holders, the management and subordinate debt holders would all be subjected to losses in that process
+T228	Consequence 28903 28908	avoid
+E81	Consequence:T228 Cause:T230 Effect:T229
+A81	Degree E81 Inhibit
+T229	Argument 28909 28921	moral hazard
+T230	Argument 28894 28896	it
+T231	Argument 28813 28831	an orderly process
+R6	Coref Arg1:T230 Arg2:T231	
+T232	Consequence 28845 28851	create
+E82	Consequence:T232 Cause:T234 Effect:T233
+A82	Degree E82 Facilitate
+T233	Argument 28852 28876	the market externalities
+T234	Argument 28832 28836	that
+R7	Coref Arg1:T234 Arg2:T231	
+T236	Consequence 30692 30704	gave rise to
+E83	Consequence:T236 Effect:T237 Cause:T238
+A83	Degree E83 Facilitate
+T237	Argument 30705 30740	conflicts and excessive risk taking
+T238	Argument 30565 30690	many expected synergies of financial service activities, whatever benefits that they gave during times of economic prosperity
+T239	Consequence 30776 30778	so
+E84	Consequence:T239 Cause:T240 Effect:T241
+A84	Degree E84 Facilitate
+T240	Argument 30776 30803	so many lines of businesses
+T241	Argument 30809 30843	conflicts and excessive risk arise
+T242	Argument 30974 31005	Bear Stearns' trading operation
+T243	Consequence 31015 31021	caused
+E85	Consequence:T243 Effect:T244 Cause:T242
+A85	Degree E85 Facilitate
+T244	Argument 31022 31053	risk to its clearing operations
+T245	Consequence 32001 32003	so
+E86	Consequence:T245 Cause:T246
+A86	Degree E86 Facilitate
+T246	Argument 32004 32114	we are seeing how a number of these institutions and securities are performing under stress for the first time
+T247	Argument 32711 32743	much greater than was understood
+T248	Consequence 32745 32752	because
+E87	Consequence:T248 Cause:T249 Effect:T247
+A87	Degree E87 Facilitate
+T249	Argument 32753 32836	a lot of it was taken on through complex products that were difficult to understand
+T250	Argument 32842 32846	that
+T251	Consequence 32849 32852	why
+E88	Consequence:T251 Effect:T252 Cause:T250
+A88	Degree E88 Facilitate
+T252	Argument 32853 32893	it's taking so long to work through this
+T253	Consequence 34129 34138	make sure
+E89	Consequence:T253 Effect:T255 Cause:T254
+A89	Degree E89 Facilitate
+T254	Argument 34126 34128	we
+T255	Argument 34144 34241	we interact more intensively with the functional regulators of the subsidiaries or the affiliates
+T256	Argument 34506 34549	I'm delighted the two of you are here today
+T257	Argument 34558 34680	I might just get to the bottom of the question I have been asking for many years, which is, who is in charge of the dollar
+T258	Motivation 34550 34557	because
+E90	Motivation:T258 Cause:T257 Effect:T256
+A90	Degree E90 Facilitate
+T259	Note 34682 34689	Because
+#2	AnnotatorNotes T259	Discourse
+T260	Argument 34827 34881	acknowledge the gentleman from New Jersey, Mr. Garrett
+T261	Motivation 34883 34886	for
+E91	Motivation:T261 Effect:T260 Cause:T262
+A91	Degree E91 Facilitate
+T262	Argument 34887 34934	playing a part in bringing these hearings about
+T263	Argument 34827 34838;34940 34959	acknowledge also Chairman Frank
+T264	Argument 34964 34985	having these hearings
+T265	Motivation 34960 34963	for
+E92	Motivation:T265 Cause:T264 Effect:T263
+A92	Degree E92 Facilitate
+T266	Argument 34994 35016	I deeply appreciate it
+T267	Argument 34814 34985	I do want to acknowledge the gentleman from New Jersey, Mr. Garrett, for playing a part in bringing these hearings about, and also Chairman Frank for having these hearings
+T268	Motivation 34986 34993	because
+E93	Motivation:T268 Cause:T266 Effect:T267
+A93	Degree E93 Facilitate
+T269	Argument 35026 35114	I would like to take a minute to just challenge something he said during his questioning
+T270	Argument 35124 35210	he made the flat statement that there was no alternative to the Federal Reserve system
+T271	Motivation 35116 35123	because
+E94	Motivation:T271 Cause:T270 Effect:T269
+A94	Degree E94 Facilitate
+T272	Argument 35820 35907	I would like to see a lot more regulations on the government and on the Federal Reserve
+T273	Argument 35917 36069	I think it's the ability of the government, through regulatory agencies as well as the Federal Reserve, to disrupt markets and destroy market discipline
+T274	Motivation 35909 35916	because
+E95	Motivation:T274 Cause:T273 Effect:T272
+A95	Degree E95 Facilitate
+T275	Argument 36161 36182	it must have happened
+T276	Argument 36191 36223	we didn't have enough regulation
+T277	Consequence 36183 36190	because
+E96	Consequence:T277 Cause:T276 Effect:T275
+A96	Degree E96 Facilitate
+T278	Motivation 36225 36227	so
+E97	Motivation:T278 Effect:T280 Cause:T279
+A97	Degree E97 Facilitate
+T279	Argument 36134 36223	we immediately said, well, it must have happened because we didn't have enough regulation
+T280	Argument 36228 36284	Congress immediately responded by passing Sarbanes-Oxley
+T281	Argument 36667 36686	they're in disarray
+T282	Argument 36695 36787	our monetary policy disrupts the markets because we create interest rates below market rates
+T283	Argument 36695 36735	our monetary policy disrupts the markets
+T284	Argument 36744 36787	we create interest rates below market rates
+T285	Consequence 36736 36743	because
+E98	Consequence:T285 Effect:T283 Cause:T284
+A98	Degree E98 Facilitate
+T286	Consequence 36687 36694	because
+E99	Consequence:T286 Effect:T281 Cause:T282
+A99	Degree E99 Facilitate
+T287	Argument 37004 37021	the malinvestment
+T288	Argument 36994 36997	you
+T289	Argument 37023 37026	you
+T290	Argument 37033 37047;37051 37061	excessive debt accumulate
+T291	Argument 37077 37088;37092 37097	the bubbles burst
+T292	Argument 37067 37070	you
+T293	Consequence 37027 37032;37048 37050	cause to
+E100	Consequence:T293 Cause:T289 Effect:T290
+A100	Degree E100 Facilitate
+T294	Consequence 37071 37076;37089 37091	cause to
+E101	Consequence:T294 Cause:T292 Effect:T291
+A101	Degree E101 Facilitate
+T295	Argument 38164 38293	evidently he is the spokesman and he is the champion of the dollar, and all public statements are that the dollar is to be strong
+T296	Argument 38086 38154	my question is directed to Secretary Paulson dealing with the dollar
+T297	Motivation 38156 38163	because
+E102	Motivation:T297 Cause:T295 Effect:T296
+A102	Degree E102 Facilitate
+T298	Consequence 36998 37003	cause
+E103	Consequence:T298 Cause:T288 Effect:T287
+A103	Degree E103 Facilitate
+T26	Note 2832 2850	We have encouraged
+#3	AnnotatorNotes T26	Dysfluency
+T28	Argument 6080 6099	the powers you have
+T29	Argument 6120 6139	meet the challenges
+T31	Consequence 6108 6119	adequate to
+E11	Consequence:T31 Effect:T29 Cause:T28
+A11	Degree E11 Facilitate
+T32	Motivation 6598 6600	so
+E12	Motivation:T32 Effect:T33
+A12	Degree E12 Facilitate
+T33	Argument 6602 6712	realistically, I agree with the Chairman, that it will be difficult to get it done as quickly as we would like
+T299	Note 9045 9052	because
+#4	AnnotatorNotes T299	Discourse
+T305	Argument 11221 11239	complicated enough
+T306	Argument 11244 11246;11250 11272	me have trouble following
+T307	Consequence 11233 11239;11240 11243;11247 11249	enough for to
+E105	Consequence:T307 Cause:T305 Effect:T306
+A105	Degree E105 Facilitate
+T311	Consequence 12645 12654	make sure
+E107	Consequence:T311 Effect:T312 Cause:T313
+A107	Degree E107 Facilitate
+T312	Argument 12655 12700	it's done right and thoroughly worked through
+T313	Argument 12617 12619	we
+T104	Consequence 14702 14704;14707 14716	as result of
+E39	Consequence:T104 Effect:T105 Cause:T106
+A39	Degree E39 Facilitate
+T308	Motivation 20548 20559	forced into
+E106	Motivation:T308 Effect:T309
+A106	Degree E106 Facilitate
+T309	Argument 20560 20571	foreclosure
+T310	Consequence 21838 21847	avoidance
+E108	Consequence:T310 Effect:T314
+A108	Degree E108 Inhibit
+T314	Argument 21826 21837	foreclosure
+T173	Motivation 24892 24894	so
+E109	Motivation:T173 Effect:T315
+A109	Degree E109 Facilitate
+T315	Argument 24895 25289	I would ask you both if it is possible to establish a regulatory model that can provide a sense of security to prevent self-fulfilling prophesies, to use, you know, Jeffrey Lacker's words, with respect to runs on our financial institutions, and at the same time avoid interfering with the type of market discipline that Mr. Greenspan believes is so critical to the health of our capital markets
+T318	Note 32208 32210	So
+#8	AnnotatorNotes T318	Discourse
+T319	Argument 32902 33111	I believe the big part of the answer here is going to be the de-leveraging and going forward enhancing liquidity practices, risk management practices, and getting our arms around some of these complex products
+T320	Motivation 32899 32901	So
+E110	Motivation:T320 Effect:T319
+A110	Degree E110 Facilitate
+T19	Argument 3358 3361	our
+T4	Argument 1623 1665	regulators are working together seamlessly
+T5	Purpose 1666 1668	to
+E2	Purpose:T5 Cause:T61 Effect:T4
+A2	Degree E2 Facilitate
+T61	Argument 1669 1712	address some of the issues that have arisen
+T27	NonCausal 4991 4996	since
+E10	NonCausal:T27 Arg0:T30 Arg1:T37
+A10	Temporal E10
+T30	Argument 4997 5008	last August
+T37	Argument 5019 5183	all of us have examined and watched market failure occurring in various and sundry areas growing from subprime failure in August to what we call now a credit crisis
+T38	NonCausal 6480 6485	since
+E13	NonCausal:T38 Arg0:T62 Arg1:T69
+A13	Temporal E13
+T62	Argument 6486 6592	the time that many of our rules were put in place, that many of the--that the regulatory structure was set
+T69	Argument 6455 6479	that has evolved greatly
+T65	NonCausal 6948 6950;6962 6966;6977 6979	it take to
+E15	NonCausal:T65 Arg1:T67 Arg0:T66
+T66	Argument 6967 6976	some time
+T67	Argument 6980 6994	get through it
+T68	Argument 7310 7365	those investment banks working with the Fed and the SEC
+T70	Purpose 7366 7368	to
+E23	Purpose:T70 Cause:T71 Effect:T68
+A23	Degree E23 Facilitate
+T71	Argument 7369 7450	strengthen their liquidity, strengthen their capital positions, and re-price risk
+T78	Argument 9096 9159	our department work creatively with the Department of Education
+T79	Purpose 9160 9162	to
+E26	Purpose:T79 Cause:T80 Effect:T78
+A26	Degree E26 Facilitate
+T80	Argument 9163 9202	deal with a problem that's here and now
+T98	Consequence 10335 10339	When
+E29	Consequence:T98 Cause:T99 Effect:T100
+A29	Degree E29 Facilitate
+T99	Argument 10340 10358	you're in Congress
+T100	Argument 10360 10429	you sort of think in terms of the next election or whatever it may be
+T129	Motivation 22922 22924	So
+E30	Motivation:T129 Effect:T300
+A30	Degree E30 Facilitate
+T300	Argument 22925 23001	I would ask that you respond in writing to the servicer part of the question
+A31	Hypothetical E54
+A37	Hypothetical E77
+T301	NonCausal 30655 30661	during
+E31	NonCausal:T301 Arg0:T302 Arg1:T303
+A47	Temporal E31
+T302	Argument 30662 30690	times of economic prosperity
+T303	Argument 30640 30654	that they gave
+A104	Extremity-sufficiency E84
+A112	Creation-termination E82
+T317	NonCausal 28806 28812	create
+E37	NonCausal:T317 Arg1:T324
+T324	Argument 28813 29042	an orderly process that doesn't create the market externalities at the same time it would avoid moral hazard because the equity holders, the management and subordinate debt holders would all be subjected to losses in that process
+A113	Creation-termination E37
+A114	Obligation-permission E79
+A115	Obligation-permission E80
+T235	Consequence 28922 28929	because
+E47	Consequence:T235 Effect:T326 Cause:T327
+A116	Degree E47 Facilitate
+T326	Argument 28894 28921	it would avoid moral hazard
+T327	Argument 28930 29042	the equity holders, the management and subordinate debt holders would all be subjected to losses in that process
+T328	Consequence 33161 33167	Unless
+E104	Consequence:T328 Cause:T329
+A117	Degree E104 Inhibit
+T329	Argument 33168 33187	you would like to--
+T330	Consequence 33301 33303	if
+E112	Consequence:T330 Cause:T331 Effect:T332
+A118	Degree E112 Facilitate
+T331	Argument 33304 33316	time permits
+T332	Argument 33289 33299	Absolutely
+A119	Hypothetical E112
+T333	Consequence 33318 33320	If
+E113	Consequence:T333 Cause:T334
+A120	Degree E113 Facilitate
+A121	Hypothetical E113
+T334	Argument 33321 33333	time permits
+T335	Consequence 33416 33421	after
+E114	Consequence:T335 Cause:T336 Effect:T337
+A122	Degree E114 Facilitate
+T336	Argument 33422 33443	their 5 minutes is up
+T337	Argument 33388 33415	no member can ask questions
+A123	Temporal E114
+T338	Motivation 33449 33451	if
+E115	Motivation:T338 Cause:T339 Effect:T340
+A124	Degree E115 Facilitate
+A125	Hypothetical E115
+T339	Argument 33452 33479	there is a question pending
+T340	Argument 33481 33496	we will take it
+T321	NonCausal 33672 33679	created
+E116	NonCausal:T321 Arg1:T341 Arg0:T432
+#1	AnnotatorNotes E116	incomprehensible sentence
+A126	Temporal E116
+T341	Argument 33680 33700	very, very big firms
+T322	NonCausal 36947 36951	when
+E111	NonCausal:T322 Arg0:T323 Arg1:T342
+T323	Argument 36952 37097	you have artificially low interest rates, you cause the malinvestment, you cause excessive debt to accumulate, and you cause the bubbles to burst
+T342	Argument 36911 36946	we wonder why there are disruptions
+T343	NonCausal 37108 37112	when
+E117	NonCausal:T343 Arg0:T344 Arg1:T345
+A111	Temporal E117
+T344	Argument 37113 37123	they burst
+T345	Argument 37125 37258	the only thing we can come back for is more regulations and more inflation, we need lower interest rates, we need to print more money
+T346	NonCausal 37373 37381	creating
+E118	NonCausal:T346 Arg0:T347 Arg1:T348
+T347	Argument 37332 37334	we
+T348	Argument 37382 37387	money
+A128	Creation-termination E118
+T349	NonCausal 38378 38385	created
+E119	NonCausal:T349 Arg0:T350 Arg1:T351
+T350	Argument 38370 38372	we
+T351	Argument 38386 38412	$4 trillion of new dollars
+A129	Creation-termination E119
+T352	NonCausal 38418 38422	when
+E120	NonCausal:T352 Cause:T353 Effect:T354
+T353	Argument 38423 38437	we go to China
+T354	Argument 38439 38480	we tell the Chinese we want a weak dollar
+T355	Consequence 38515 38518;38549 38551	get to
+E121	Consequence:T355 Cause:T357 Effect:T356
+A131	Degree E121 Facilitate
+T356	Argument 38519 38548;38552 38570	the Secretary of the Treasury explain this to me
+T357	Argument 38509 38510	I
+A34	Hypothetical E38
+T90	NonCausal 13829 13833	when
+E34	NonCausal:T90 Arg0:T91 Arg1:T449
+A133	Temporal E34
+T91	Argument 13834 13880	we started thinking about regulatory structure
+T92	NonCausal 13987 13989	if
+E123	NonCausal:T92 Arg0:T360 Arg1:T361
+A134	Hypothetical E123
+T360	Argument 13990 14047	we were beginning from scratch, which we obviously aren't
+T361	Argument 14049 14078	how would you design a system
+T362	NonCausal 13904 13910	before
+E124	NonCausal:T362 Arg0:T363 Arg1:T364
+A135	Temporal E124
+T363	Argument 13911 13940	this period of market turmoil
+T364	Argument 13882 13903	we began the thinking
+T365	NonCausal 13947 13953	before
+E125	NonCausal:T365 Arg0:T366 Arg1:T364
+A136	Temporal E125
+T366	Argument 13954 13958	this
+T367	Consequence 14144 14146;14189 14193	to take
+E126	Consequence:T367 Cause:T369 Effect:T368
+A137	Degree E126 Facilitate
+T368	Argument 14147 14159	get to there
+T369	Argument 14194 14206	a good while
+T370	NonCausal 15406 15411	while
+E127	NonCausal:T370 Arg0:T371 Arg1:T372
+A138	Temporal E127
+T371	Argument 15412 15472	retaining their responsibilities as a consolidated regulator
+T372	Argument 15393 15405	have the Fed
+T373	Motivation 16647 16651	when
+E128	Motivation:T373 Cause:T374 Effect:T375
+A139	Degree E128 Facilitate
+T374	Argument 16652 16753	I hear about these exotic products and how they could ever have come into being without any oversight
+T375	Argument 16635 16646	I'm stunned
+A140	Context E128
+A141	Temporal E128
+T379	NonCausal 17071 17076	after
+E130	NonCausal:T379 Arg0:T380 Arg1:T381
+A143	Temporal E130
+T380	Argument 17077 17092	the S&L scandal
+T381	Argument 17040 17064	I came on this committee
+T382	NonCausal 18685 18690	after
+E131	NonCausal:T382 Cause:T383 Effect:T384
+T383	Argument 18691 18842	we get finished with all of the President's HOPE NOW program and the money that we are giving to NeighborWorks and other organizations to do counseling
+T384	Argument 18844 18931	they can't do very much good, because the servicers are the ones who make the decisions
+T385	Consequence 22488 22492	when
+E132	Consequence:T385 Cause:T386 Effect:T387
+A145	Degree E132 Facilitate
+T386	Argument 22493 22549	there's a principal writedown or other loan modification
+T387	Argument 22550 22668	that is essentially what is happening, that you're giving a break to the borrower so the borrower can stay in the home
+A146	Temporal E132
+T391	Consequence 24530 24534	when
+E134	Consequence:T391 Cause:T392 Effect:T393
+A149	Degree E134 Facilitate
+A150	Context E134
+A151	Temporal E134
+T392	Argument 24535 24577	considering intervention by the regulators
+T393	Argument 24448 24529	distinguish between fundamental and nonfundamental runs on financial institutions
+T394	Consequence 28042 28047	since
+E135	Consequence:T394 Effect:T396 Cause:T395
+A152	Degree E135 Facilitate
+A153	Temporal E135
+T395	Argument 28048 28086	we have gone into the investment banks
+T396	Argument 28088 28140	they have all raised their liquidity, not reduced it
+T397	Motivation 29211 29214	for
+E136	Motivation:T397 Cause:T398 Effect:T399
+A154	Degree E136 Facilitate
+T398	Argument 29215 29225	the record
+T399	Argument 29204 29210;29226 29295	submit Secretary Paulson's speech in London on July 2nd on market discipline
+A155	Hypothetical E21
+A156	Extremity-sufficiency E11
+A158	Extremity-sufficiency E105
+A160	Temporal E131
+A161	Extremity-sufficiency E65
+A162	Temporal E120
+T400	Argument 36744 36746	we
+T401	Consequence 36747 36753	create
+E137	Consequence:T401 Cause:T400 Effect:T402
+A163	Degree E137 Facilitate
+A164	Creation-termination E137
+T402	Argument 36754 36787	interest rates below market rates
+T414	Note 12998 13000	to
+#22	AnnotatorNotes T414	Verb argument
+T432	Argument 33615 33667	diversification, complementary services and the like
+T435	Note 36509 36511	So
+#42	AnnotatorNotes T435	Inference
+T17	Note 743 745	So
+#9	AnnotatorNotes T17	Discourse
+T18	Note 1061 1063	So
+#50	AnnotatorNotes T18	Discourse
+T20	Argument 2360 2408	new capital requirements and liquidity standards
+T21	Consequence 2420 2433	precipitating
+E7	Consequence:T21 Cause:T20 Effect:T403
+A7	Degree E7 Facilitate
+A8	Creation-termination E7
+T60	Note 2434 2437	and
+#51	AnnotatorNotes T60	Almost certainly should say "a."
+T403	Argument 2434 2526	and sort of a tension between that and the need for these institutions to raise more capital
+A15	Temporal E15
+T405	Note 7913 7915	So
+#12	AnnotatorNotes T405	Discourse
+T407	NonCausal 8220 8224	from
+E138	NonCausal:T407 Arg1:T408 Arg0:T443
+A167	Temporal E138
+T408	Argument 8196 8219	We have been doing that
+T443	Argument 8225 8251	before the turmoil started
+T444	Argument 8258 8290	the day I set foot in Washington
+T445	NonCausal 8253 8257	from
+E139	NonCausal:T445 Arg1:T408 Arg0:T444
+A168	Temporal E139
+T72	Note 8514 8516	to
+#13	AnnotatorNotes T72	Argument of "worked"
+T73	Argument 8961 8982	we get to catastrophe
+T74	Argument 8884 8953	you need emergency powers on some of these things you mentioned to us
+T409	NonCausal 8954 8960	before
+E25	NonCausal:T409 Arg1:T73 Arg0:T74
+A25	Temporal E25
+#14	AnnotatorNotes E25	Could also be that the recognizing, rather than the needing, comes before catastrophe.
+T404	Note 9208 9210	so
+#15	AnnotatorNotes T404	Discourse (?)
+T75	Note 9516 9518	to
+#16	AnnotatorNotes T75	Argument of "working"
+T76	Note 9699 9701	to
+#17	AnnotatorNotes T76	Argument of "working"
+T77	Argument 9715 9764	help that securitization market become more vital
+T81	Argument 9702 9711	do things
+T82	Purpose 9712 9714	to
+E8	Purpose:T82 Cause:T77 Effect:T81
+A27	Degree E8 Facilitate
+A28	Context E29
+T83	NonCausal 10494 10498	then
+E27	NonCausal:T83 Arg1:T406 Arg0:T410
+A157	Temporal E27
+T406	Argument 10499 10536	we have the election season coming up
+T410	Argument 10471 10488	We have September
+T358	Note 11945 11952	because
+#18	AnnotatorNotes T358	Discourse
+T359	NonCausal 12101 12105	take
+E28	NonCausal:T359 Arg0:T411 Arg1:T412
+T411	Argument 12106 12115	some time
+A132	Temporal E28
+T412	Argument 12084 12088	this
+T413	Argument 12633 12641	the time
+T446	Consequence 12642 12644	to
+E122	Consequence:T446 Cause:T413 Effect:T447
+A159	Degree E122 Facilitate
+T447	Argument 12645 12700	make sure it's done right and thoroughly worked through
+#19	AnnotatorNotes E122	Needed to
+T448	NonCausal 13696 13703;13717 13719	it take to
+E140	NonCausal:T448 Arg0:T450 Arg1:T451
+A165	Temporal E140
+T449	Argument 13882 13958	we began the thinking before this period of market turmoil, well before this
+T450	Argument 13704 13716	3 to 5 years
+T451	Argument 13720 13727	do this
+T452	Argument 14355 14382	we started with that vision
+T453	Argument 14393 14500	we came up with some immediate priorities and some other things that could be done in the intermediate term
+T415	NonCausal 14388 14392	then
+E141	NonCausal:T415 Arg0:T452 Arg1:T453
+A166	Temporal E141
+T454	Note 14352 14354	So
+#20	AnnotatorNotes T454	Discourse
+T416	NonCausal 14506 14508	as
+E142	NonCausal:T416 Cause:T455 Effect:T418
+T418	Argument 14559 14763	the one thing we are not talking about a lot here, but I do believe we don't want to forget, is the fact that a lot of this problem came about as a result of sloppy and lax mortgage origination procedures
+T455	Argument 14509 14558	I look at what can be done in terms of the timing
+A169	Temporal E142
+T376	Motivation 17130 17132	so
+E129	Motivation:T376 Effect:T377
+A142	Degree E129 Facilitate
+T377	Argument 17133 17328	while I suppose I should be impressed with the fact that there's a President's Working Group on Financial Markets and the reports that have been issued, I'm skeptical about what is being proposed
+#21	AnnotatorNotes T309	Tough to figure out what the argument should be here...arguably the "who" should be included.
+T378	Argument 21562 21580	it would be better
+T417	Argument 21584 21603	it had been earlier
+T419	Consequence 21581 21583	if
+E143	Consequence:T419 Cause:T417 Effect:T378
+A144	Degree E143 Facilitate
+A170	Hypothetical E143
+#10	AnnotatorNotes E30	Seems to be saying because of time constraints.
+A147	Creation-termination E57
+T128	Argument 24975 25002	provide a sense of security
+T388	Consequence 28538 28545	letting
+E133	Consequence:T388 Effect:T389 Cause:T390
+A148	Degree E133 Facilitate
+T389	Argument 28546 28548;28549 28555	it happen
+T390	Argument 28504 28506	we
+T316	Note 28784 28791	perhaps
+#5	AnnotatorNotes T316	Modifies "allow"
+T420	Consequence 29910 29917;29926 29928	brought to
+E144	Consequence:T420 Cause:T421 Effect:T304
+A171	Degree E144 Facilitate
+T421	Argument 29902 29905	who
+T422	Argument 29883 29900	Chairman Bernanke
+R8	Coref Arg1:T421 Arg2:T422	
+T304	Argument 29918 29925;29929 30172	the Fed fully realize its role, not only managing monetary policy and guarding the safety and soundness of our financial institutions, but also focusing on curbing unfair and deceptive practices that have hurt working Americans and our overall economy
+T425	Consequence 30838 30843	arise
+E146	Consequence:T425 Effect:T426
+A173	Degree E146 Facilitate
+T426	Argument 30809 30837	conflicts and excessive risk
+T325	Motivation 31059 31069	in view of
+E147	Motivation:T325 Cause:T428 Effect:T427
+A174	Degree E147 Facilitate
+T427	Argument 31106 31192	some have said that the repeal and deregulation of Glass-Steagal may have gone too far
+T428	Argument 31070 31104	these recent events and challenges
+T429	NonCausal 32853 32855;32858 32864;32873 32875	it taking to
+E148	NonCausal:T429 Arg1:T431 Arg0:T430
+A175	Temporal E148
+T430	Argument 32865 32872	so long
+T431	Argument 32876 32893	work through this
+T433	Note 34247 34249	So
+#6	AnnotatorNotes T433	Seems to be discourse ("in summary, ...")
+T456	Argument 35084 35091	he said
+T457	Argument 35099 35114	his questioning
+T458	NonCausal 35092 35098	during
+E149	NonCausal:T458 Arg0:T457 Arg1:T456
+A176	Temporal E149
+T434	Consequence 36115 36119	When
+E150	Consequence:T434 Arg1:T460 Arg0:T459
+A177	Temporal E150
+T459	Argument 36120 36132	Enron failed
+T460	Argument 36134 36284	we immediately said, well, it must have happened because we didn't have enough regulation, so Congress immediately responded by passing Sarbanes-Oxley
+A178	Degree E150 Facilitate
+T461	Consequence 36606 36609	why
+E151	Consequence:T461 Effect:T462
+A179	Degree E151 Facilitate
+T462	Argument 36610 36635	are they in such disarray
+T436	Consequence 36921 36924	why
+E152	Consequence:T436 Effect:T463
+A180	Degree E152 Facilitate
+T463	Argument 36925 36946	there are disruptions
+A127	Context E111
+T437	NonCausal 37103 37107	then
+E153	NonCausal:T437 Arg1:T438
+T438	Argument 37108 37258	when they burst, the only thing we can come back for is more regulations and more inflation, we need lower interest rates, we need to print more money
+A181	Temporal E153
+T439	Note 37702 37707	since
+#7	AnnotatorNotes T439	Identifying a time anchor, not relating two times/events
+T440	Motivation 38621 38624	why
+E154	Motivation:T440 Effect:T441
+A130	Degree E154 Facilitate
+T441	Argument 38625 38669	don't we worry about the value of our dollar
+A182	Creation-termination E83
+T423	Argument 30338 30371	abusive practices in credit cards
+T424	NonCausal 30328 30337	eliminate
+E145	NonCausal:T424 Arg1:T423
+A172	Creation-termination E145

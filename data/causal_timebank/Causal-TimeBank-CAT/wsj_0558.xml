@@ -1,0 +1,676 @@
+<Document doc_name="wsj_0558">
+  <Markables>
+    <TIMEX3 RELATED_TO="" TAG_DESCRIPTOR="Empty_Mark" beginPoint="" comment="" endPoint="" freq="" functionInDocument="CREATION_TIME" id="0" quant="" type="DATE" value="1989-10-30" />
+    <TIMEX3 anchorTimeID="0" beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="1" quant="" type="DATE" value="1989-Q3">
+      <token_anchor id="6" />
+    </TIMEX3>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="2" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="9" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="3" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="25" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="4" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="31" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="5" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="42" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="6" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="43" />
+    </EVENT>
+    <TIMEX3 anchorTimeID="0" beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="7" quant="" type="DATE" value="1988">
+      <token_anchor id="60" />
+      <token_anchor id="61" />
+    </TIMEX3>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="8" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="63" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="9" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="70" />
+    </EVENT>
+    <TIMEX3 anchorTimeID="0" beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="10" quant="" type="DATE" value="1988">
+      <token_anchor id="83" />
+    </TIMEX3>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="11" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="84" />
+    </EVENT>
+    <EVENT aspect="PERFECTIVE" certainty="" class="I_ACTION" comment="" factuality="" id="12" modality="NONE" polarity="POS" pos="VERB" tense="PRESENT">
+      <token_anchor id="87" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="I_STATE" comment="" factuality="" id="13" modality="NONE" polarity="POS" pos="VERB" tense="INFINITIVE">
+      <token_anchor id="89" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="14" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="92" />
+    </EVENT>
+    <EVENT aspect="PERFECTIVE" certainty="" class="ASPECTUAL" comment="" factuality="" id="15" modality="NONE" polarity="POS" pos="VERB" tense="PRESENT">
+      <token_anchor id="97" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="16" modality="NONE" polarity="POS" pos="VERB" tense="PRESPART">
+      <token_anchor id="98" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="17" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="99" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="18" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="104" />
+    </EVENT>
+    <TIMEX3 anchorTimeID="0" beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="19" quant="" type="DATE" value="1989-WXX">
+      <token_anchor id="105" />
+      <token_anchor id="106" />
+      <token_anchor id="107" />
+      <token_anchor id="108" />
+    </TIMEX3>
+    <C-SIGNAL id="20">
+      <token_anchor id="111" />
+    </C-SIGNAL>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="21" modality="NONE" polarity="POS" pos="ADJECTIVE" tense="NONE">
+      <token_anchor id="116" />
+    </EVENT>
+    <EVENT aspect="PERFECTIVE_PROGRESSIVE" certainty="" class="OCCURRENCE" comment="" factuality="" id="22" modality="NONE" polarity="POS" pos="VERB" tense="PRESENT">
+      <token_anchor id="122" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="23" modality="NONE" polarity="POS" pos="VERB" tense="PRESENT">
+      <token_anchor id="129" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="I_STATE" comment="" factuality="" id="24" modality="NONE" polarity="NEG" pos="NOUN" tense="NONE">
+      <token_anchor id="131" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="25" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="134" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="26" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="137" />
+    </EVENT>
+    <TIMEX3 anchorTimeID="0" beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="27" quant="" type="DATE" value="1989-Q4">
+      <token_anchor id="139" />
+    </TIMEX3>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="28" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="140" />
+    </EVENT>
+    <TIMEX3 anchorTimeID="0" beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="29" quant="" type="DATE" value="1989-10-27">
+      <token_anchor id="149" />
+    </TIMEX3>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="30" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="152" />
+    </EVENT>
+    <TIMEX3 anchorTimeID="0" beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="31" quant="" type="DATE" value="1989-Q3">
+      <token_anchor id="162" />
+      <token_anchor id="163" />
+      <token_anchor id="164" />
+    </TIMEX3>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="32" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="167" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="33" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="172" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="34" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="182" />
+    </EVENT>
+    <TIMEX3 anchorTimeID="29" beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="35" quant="" type="DATE" value="1988-Q3">
+      <token_anchor id="187" />
+      <token_anchor id="188" />
+    </TIMEX3>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="36" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="196" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="37" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="207" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="38" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="211" />
+    </EVENT>
+    <TIMEX3 beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="39" quant="" type="DURATION" value="P3Y">
+      <token_anchor id="219" />
+      <token_anchor id="220" />
+      <token_anchor id="221" />
+    </TIMEX3>
+    <EVENT aspect="NONE" certainty="" class="REPORTING" comment="" factuality="" id="40" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="239" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="41" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="244" />
+    </EVENT>
+    <TIMEX3 anchorTimeID="0" beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="42" quant="" type="DATE" value="1989-Q3">
+      <token_anchor id="250" />
+    </TIMEX3>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="43" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="251" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="44" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="256" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="STATE" comment="" factuality="" id="45" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="263" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="46" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="269" />
+    </EVENT>
+    <TIMEX3 anchorTimeID="0" beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="47" quant="" type="DATE" value="1989-08">
+      <token_anchor id="274" />
+    </TIMEX3>
+    <TIMEX3 beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="48" quant="" type="DURATION" value="P9M">
+      <token_anchor id="284" />
+      <token_anchor id="285" />
+      <token_anchor id="286" />
+    </TIMEX3>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="49" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="289" />
+    </EVENT>
+    <TIMEX3 anchorTimeID="0" beginPoint="" comment="" endPoint="" freq="" functionInDocument="NONE" id="50" quant="" type="DATE" value="1988">
+      <token_anchor id="313" />
+      <token_anchor id="314" />
+    </TIMEX3>
+  </Markables>
+  <Relations>
+    <TLINK comment="" id="1" relType="AFTER">
+      <source id="0" />
+      <target id="2" />
+    </TLINK>
+    <TLINK comment="" id="2" relType="AFTER">
+      <source id="0" />
+      <target id="15" />
+    </TLINK>
+    <TLINK comment="" id="3" relType="AFTER">
+      <source id="0" />
+      <target id="40" />
+    </TLINK>
+    <TLINK comment="" id="4" relType="DURING">
+      <source id="1" />
+      <target id="2" />
+    </TLINK>
+    <TLINK comment="" id="5" relType="IDENTITY">
+      <source id="1" />
+      <target id="42" />
+    </TLINK>
+    <TLINK comment="" id="6" relType="IS_INCLUDED">
+      <source id="1" />
+      <target id="48" />
+    </TLINK>
+    <CLINK comment="" id="7">
+      <source id="2" />
+      <target id="3" />
+    </CLINK>
+    <CLINK comment="" id="8">
+      <source id="2" />
+      <target id="4" />
+    </CLINK>
+    <TLINK comment="" id="9" relType="BEFORE">
+      <source id="3" />
+      <target id="2" />
+    </TLINK>
+    <TLINK comment="" id="10" relType="AFTER">
+      <source id="4" />
+      <target id="2" />
+    </TLINK>
+    <TLINK comment="" id="11" relType="IS_INCLUDED">
+      <source id="5" />
+      <target id="3" />
+    </TLINK>
+    <TLINK comment="" id="12" relType="BEFORE">
+      <source id="5" />
+      <target id="6" />
+    </TLINK>
+    <TLINK comment="" id="13" relType="INCLUDES">
+      <source id="7" />
+      <target id="8" />
+    </TLINK>
+    <TLINK comment="" id="14" relType="AFTER">
+      <source id="8" />
+      <target id="11" />
+    </TLINK>
+    <TLINK comment="" id="15" relType="SIMULTANEOUS">
+      <source id="9" />
+      <target id="8" />
+    </TLINK>
+    <TLINK comment="" id="16" relType="DURING">
+      <source id="10" />
+      <target id="11" />
+    </TLINK>
+    <TLINK comment="" id="17" relType="AFTER">
+      <source id="12" />
+      <target id="14" />
+    </TLINK>
+    <CLINK comment="" id="18">
+      <source id="12" />
+      <target id="14" />
+    </CLINK>
+    <TLINK comment="" id="19" relType="AFTER">
+      <source id="16" />
+      <target id="18" />
+    </TLINK>
+    <TLINK comment="" id="20" relType="BEFORE">
+      <source id="17" />
+      <target id="15" />
+    </TLINK>
+    <TLINK comment="" id="21" relType="BEFORE">
+      <source id="18" />
+      <target id="17" />
+    </TLINK>
+    <TLINK comment="" id="22" relType="INCLUDES">
+      <source id="19" />
+      <target id="18" />
+    </TLINK>
+    <CLINK c-signalID="20" comment="" id="23">
+      <source id="21" />
+      <target id="23" />
+    </CLINK>
+    <CLINK c-signalID="20" comment="" id="24">
+      <source id="22" />
+      <target id="23" />
+    </CLINK>
+    <TLINK comment="" id="25" relType="IDENTITY">
+      <source id="23" />
+      <target id="24" />
+    </TLINK>
+    <TLINK comment="" id="26" relType="AFTER">
+      <source id="24" />
+      <target id="22" />
+    </TLINK>
+    <TLINK comment="" id="27" relType="IDENTITY">
+      <source id="26" />
+      <target id="18" />
+    </TLINK>
+    <TLINK comment="" id="28" relType="BEFORE">
+      <source id="26" />
+      <target id="25" />
+    </TLINK>
+    <TLINK comment="" id="29" relType="DURING">
+      <source id="27" />
+      <target id="28" />
+    </TLINK>
+    <TLINK comment="" id="30" relType="INCLUDES">
+      <source id="28" />
+      <target id="24" />
+    </TLINK>
+    <TLINK comment="" id="31" relType="INCLUDES">
+      <source id="29" />
+      <target id="30" />
+    </TLINK>
+    <TLINK comment="" id="32" relType="IDENTITY">
+      <source id="31" />
+      <target id="1" />
+    </TLINK>
+    <TLINK comment="" id="33" relType="INCLUDES">
+      <source id="31" />
+      <target id="32" />
+    </TLINK>
+    <TLINK comment="" id="34" relType="DURING">
+      <source id="31" />
+      <target id="36" />
+    </TLINK>
+    <TLINK comment="" id="35" relType="IDENTITY">
+      <source id="33" />
+      <target id="32" />
+    </TLINK>
+    <TLINK comment="" id="36" relType="AFTER">
+      <source id="33" />
+      <target id="34" />
+    </TLINK>
+    <TLINK comment="" id="37" relType="IS_INCLUDED">
+      <source id="34" />
+      <target id="35" />
+    </TLINK>
+    <TLINK comment="" id="38" relType="BEFORE">
+      <source id="35" />
+      <target id="31" />
+    </TLINK>
+    <CLINK comment="" id="39">
+      <source id="36" />
+      <target id="37" />
+    </CLINK>
+    <CLINK comment="" id="40">
+      <source id="36" />
+      <target id="38" />
+    </CLINK>
+    <TLINK comment="" id="41" relType="BEFORE">
+      <source id="37" />
+      <target id="36" />
+    </TLINK>
+    <TLINK comment="" id="42" relType="BEFORE">
+      <source id="38" />
+      <target id="36" />
+    </TLINK>
+    <TLINK comment="" id="43" relType="DURING">
+      <source id="39" />
+      <target id="38" />
+    </TLINK>
+    <TLINK comment="" id="44" relType="DURING">
+      <source id="42" />
+      <target id="43" />
+    </TLINK>
+    <TLINK comment="" id="45" relType="IS_INCLUDED">
+      <source id="44" />
+      <target id="43" />
+    </TLINK>
+    <TLINK comment="" id="46" relType="IS_INCLUDED">
+      <source id="45" />
+      <target id="42" />
+    </TLINK>
+    <TLINK comment="" id="47" relType="INCLUDES">
+      <source id="47" />
+      <target id="46" />
+    </TLINK>
+    <TLINK comment="" id="48" relType="IS_INCLUDED">
+      <source id="49" />
+      <target id="48" />
+    </TLINK>
+  </Relations>
+  <token id="1" number="0" sentence="0">Aetna</token>
+  <token id="2" number="1" sentence="0">Life</token>
+  <token id="3" number="2" sentence="0">amp</token>
+  <token id="4" number="3" sentence="0">Casualty</token>
+  <token id="5" number="4" sentence="0">Co.'s</token>
+  <token id="6" number="5" sentence="0">third-quarter</token>
+  <token id="7" number="6" sentence="0">net</token>
+  <token id="8" number="7" sentence="0">income</token>
+  <token id="9" number="8" sentence="0">fell</token>
+  <token id="10" number="9" sentence="0">22</token>
+  <token id="11" number="10" sentence="0">%</token>
+  <token id="12" number="11" sentence="0">to</token>
+  <token id="13" number="12" sentence="0">$</token>
+  <token id="14" number="13" sentence="0">182.6</token>
+  <token id="15" number="14" sentence="0">million</token>
+  <token id="16" number="15" sentence="0">,</token>
+  <token id="17" number="16" sentence="0">or</token>
+  <token id="18" number="17" sentence="0">$</token>
+  <token id="19" number="18" sentence="0">1.63</token>
+  <token id="20" number="19" sentence="0">a</token>
+  <token id="21" number="20" sentence="0">share</token>
+  <token id="22" number="21" sentence="0">,</token>
+  <token id="23" number="22" sentence="0">reflecting</token>
+  <token id="24" number="23" sentence="0">the</token>
+  <token id="25" number="24" sentence="0">damages</token>
+  <token id="26" number="25" sentence="0">from</token>
+  <token id="27" number="26" sentence="0">Hurricane</token>
+  <token id="28" number="27" sentence="0">Hugo</token>
+  <token id="29" number="28" sentence="0">and</token>
+  <token id="30" number="29" sentence="0">lower</token>
+  <token id="31" number="30" sentence="0">results</token>
+  <token id="32" number="31" sentence="0">for</token>
+  <token id="33" number="32" sentence="0">some</token>
+  <token id="34" number="33" sentence="0">of</token>
+  <token id="35" number="34" sentence="0">the</token>
+  <token id="36" number="35" sentence="0">company</token>
+  <token id="37" number="36" sentence="0">'s</token>
+  <token id="38" number="37" sentence="0">major</token>
+  <token id="39" number="38" sentence="0">divisions</token>
+  <token id="40" number="39" sentence="0">.</token>
+  <token id="41" number="40" sentence="1">Catastrophe</token>
+  <token id="42" number="41" sentence="1">losses</token>
+  <token id="43" number="42" sentence="1">reduced</token>
+  <token id="44" number="43" sentence="1">Aetna</token>
+  <token id="45" number="44" sentence="1">'s</token>
+  <token id="46" number="45" sentence="1">net</token>
+  <token id="47" number="46" sentence="1">income</token>
+  <token id="48" number="47" sentence="1">by</token>
+  <token id="49" number="48" sentence="1">$</token>
+  <token id="50" number="49" sentence="1">50</token>
+  <token id="51" number="50" sentence="1">million</token>
+  <token id="52" number="51" sentence="1">,</token>
+  <token id="53" number="52" sentence="1">including</token>
+  <token id="54" number="53" sentence="1">$</token>
+  <token id="55" number="54" sentence="1">36</token>
+  <token id="56" number="55" sentence="1">million</token>
+  <token id="57" number="56" sentence="1">from</token>
+  <token id="58" number="57" sentence="1">Hugo</token>
+  <token id="59" number="58" sentence="1">.</token>
+  <token id="60" number="59" sentence="2">Last</token>
+  <token id="61" number="60" sentence="2">year</token>
+  <token id="62" number="61" sentence="2">catastrophe</token>
+  <token id="63" number="62" sentence="2">losses</token>
+  <token id="64" number="63" sentence="2">totaled</token>
+  <token id="65" number="64" sentence="2">$</token>
+  <token id="66" number="65" sentence="2">5</token>
+  <token id="67" number="66" sentence="2">million</token>
+  <token id="68" number="67" sentence="2">,</token>
+  <token id="69" number="68" sentence="2">when</token>
+  <token id="70" number="69" sentence="2">net</token>
+  <token id="71" number="70" sentence="2">was</token>
+  <token id="72" number="71" sentence="2">$</token>
+  <token id="73" number="72" sentence="2">235.5</token>
+  <token id="74" number="73" sentence="2">million</token>
+  <token id="75" number="74" sentence="2">,</token>
+  <token id="76" number="75" sentence="2">or</token>
+  <token id="77" number="76" sentence="2">$</token>
+  <token id="78" number="77" sentence="2">2.07</token>
+  <token id="79" number="78" sentence="2">a</token>
+  <token id="80" number="79" sentence="2">share</token>
+  <token id="81" number="80" sentence="2">.</token>
+  <token id="82" number="81" sentence="3">The</token>
+  <token id="83" number="82" sentence="3">year-earlier</token>
+  <token id="84" number="83" sentence="3">results</token>
+  <token id="85" number="84" sentence="3">have</token>
+  <token id="86" number="85" sentence="3">been</token>
+  <token id="87" number="86" sentence="3">restated</token>
+  <token id="88" number="87" sentence="3">to</token>
+  <token id="89" number="88" sentence="3">reflect</token>
+  <token id="90" number="89" sentence="3">an</token>
+  <token id="91" number="90" sentence="3">accounting</token>
+  <token id="92" number="91" sentence="3">change</token>
+  <token id="93" number="92" sentence="3">.</token>
+  <token id="94" number="93" sentence="4">The</token>
+  <token id="95" number="94" sentence="4">insurer</token>
+  <token id="96" number="95" sentence="4">has</token>
+  <token id="97" number="96" sentence="4">started</token>
+  <token id="98" number="97" sentence="4">processing</token>
+  <token id="99" number="98" sentence="4">claims</token>
+  <token id="100" number="99" sentence="4">from</token>
+  <token id="101" number="100" sentence="4">the</token>
+  <token id="102" number="101" sentence="4">Northern</token>
+  <token id="103" number="102" sentence="4">California</token>
+  <token id="104" number="103" sentence="4">earthquake</token>
+  <token id="105" number="104" sentence="4">nearly</token>
+  <token id="106" number="105" sentence="4">two</token>
+  <token id="107" number="106" sentence="4">weeks</token>
+  <token id="108" number="107" sentence="4">ago</token>
+  <token id="109" number="108" sentence="4">.</token>
+  <token id="110" number="109" sentence="5">But</token>
+  <token id="111" number="110" sentence="5">because</token>
+  <token id="112" number="111" sentence="5">these</token>
+  <token id="113" number="112" sentence="5">claims</token>
+  <token id="114" number="113" sentence="5">are</token>
+  <token id="115" number="114" sentence="5">more</token>
+  <token id="116" number="115" sentence="5">difficult</token>
+  <token id="117" number="116" sentence="5">to</token>
+  <token id="118" number="117" sentence="5">evaluate</token>
+  <token id="119" number="118" sentence="5">and</token>
+  <token id="120" number="119" sentence="5">have</token>
+  <token id="121" number="120" sentence="5">been</token>
+  <token id="122" number="121" sentence="5">coming</token>
+  <token id="123" number="122" sentence="5">in</token>
+  <token id="124" number="123" sentence="5">more</token>
+  <token id="125" number="124" sentence="5">slowly</token>
+  <token id="126" number="125" sentence="5">,</token>
+  <token id="127" number="126" sentence="5">the</token>
+  <token id="128" number="127" sentence="5">company</token>
+  <token id="129" number="128" sentence="5">has</token>
+  <token id="130" number="129" sentence="5">no</token>
+  <token id="131" number="130" sentence="5">estimate</token>
+  <token id="132" number="131" sentence="5">of</token>
+  <token id="133" number="132" sentence="5">the</token>
+  <token id="134" number="133" sentence="5">impact</token>
+  <token id="135" number="134" sentence="5">of</token>
+  <token id="136" number="135" sentence="5">the</token>
+  <token id="137" number="136" sentence="5">earthquake</token>
+  <token id="138" number="137" sentence="5">on</token>
+  <token id="139" number="138" sentence="5">fourth-quarter</token>
+  <token id="140" number="139" sentence="5">results</token>
+  <token id="141" number="140" sentence="5">.</token>
+  <token id="142" number="141" sentence="6">In</token>
+  <token id="143" number="142" sentence="6">New</token>
+  <token id="144" number="143" sentence="6">York</token>
+  <token id="145" number="144" sentence="6">Stock</token>
+  <token id="146" number="145" sentence="6">Exchange</token>
+  <token id="147" number="146" sentence="6">composite</token>
+  <token id="148" number="147" sentence="6">trading</token>
+  <token id="149" number="148" sentence="6">Friday</token>
+  <token id="150" number="149" sentence="6">,</token>
+  <token id="151" number="150" sentence="6">Aetna</token>
+  <token id="152" number="151" sentence="6">closed</token>
+  <token id="153" number="152" sentence="6">at</token>
+  <token id="154" number="153" sentence="6">$</token>
+  <token id="155" number="154" sentence="6">60</token>
+  <token id="156" number="155" sentence="6">,</token>
+  <token id="157" number="156" sentence="6">down</token>
+  <token id="158" number="157" sentence="6">50</token>
+  <token id="159" number="158" sentence="6">cents</token>
+  <token id="160" number="159" sentence="6">.</token>
+  <token id="161" number="160" sentence="7">In</token>
+  <token id="162" number="161" sentence="7">the</token>
+  <token id="163" number="162" sentence="7">latest</token>
+  <token id="164" number="163" sentence="7">quarter</token>
+  <token id="165" number="164" sentence="7">,</token>
+  <token id="166" number="165" sentence="7">Aetna</token>
+  <token id="167" number="166" sentence="7">had</token>
+  <token id="168" number="167" sentence="7">a</token>
+  <token id="169" number="168" sentence="7">$</token>
+  <token id="170" number="169" sentence="7">23</token>
+  <token id="171" number="170" sentence="7">million</token>
+  <token id="172" number="171" sentence="7">loss</token>
+  <token id="173" number="172" sentence="7">on</token>
+  <token id="174" number="173" sentence="7">its</token>
+  <token id="175" number="174" sentence="7">auto</token>
+  <token id="176" number="175" sentence="7">/</token>
+  <token id="177" number="176" sentence="7">homeowners</token>
+  <token id="178" number="177" sentence="7">line</token>
+  <token id="179" number="178" sentence="7">,</token>
+  <token id="180" number="179" sentence="7">compared</token>
+  <token id="181" number="180" sentence="7">with</token>
+  <token id="182" number="181" sentence="7">earnings</token>
+  <token id="183" number="182" sentence="7">of</token>
+  <token id="184" number="183" sentence="7">$</token>
+  <token id="185" number="184" sentence="7">33</token>
+  <token id="186" number="185" sentence="7">million</token>
+  <token id="187" number="186" sentence="7">last</token>
+  <token id="188" number="187" sentence="7">year</token>
+  <token id="189" number="188" sentence="7">.</token>
+  <token id="190" number="189" sentence="8">Profit</token>
+  <token id="191" number="190" sentence="8">for</token>
+  <token id="192" number="191" sentence="8">its</token>
+  <token id="193" number="192" sentence="8">commercial</token>
+  <token id="194" number="193" sentence="8">insurance</token>
+  <token id="195" number="194" sentence="8">division</token>
+  <token id="196" number="195" sentence="8">fell</token>
+  <token id="197" number="196" sentence="8">30</token>
+  <token id="198" number="197" sentence="8">%</token>
+  <token id="199" number="198" sentence="8">to</token>
+  <token id="200" number="199" sentence="8">$</token>
+  <token id="201" number="200" sentence="8">59</token>
+  <token id="202" number="201" sentence="8">million</token>
+  <token id="203" number="202" sentence="8">,</token>
+  <token id="204" number="203" sentence="8">reflecting</token>
+  <token id="205" number="204" sentence="8">higher</token>
+  <token id="206" number="205" sentence="8">catastrophe</token>
+  <token id="207" number="206" sentence="8">losses</token>
+  <token id="208" number="207" sentence="8">and</token>
+  <token id="209" number="208" sentence="8">the</token>
+  <token id="210" number="209" sentence="8">price</token>
+  <token id="211" number="210" sentence="8">war</token>
+  <token id="212" number="211" sentence="8">in</token>
+  <token id="213" number="212" sentence="8">the</token>
+  <token id="214" number="213" sentence="8">property</token>
+  <token id="215" number="214" sentence="8">/</token>
+  <token id="216" number="215" sentence="8">casualty</token>
+  <token id="217" number="216" sentence="8">market</token>
+  <token id="218" number="217" sentence="8">for</token>
+  <token id="219" number="218" sentence="8">nearly</token>
+  <token id="220" number="219" sentence="8">three</token>
+  <token id="221" number="220" sentence="8">years</token>
+  <token id="222" number="221" sentence="8">.</token>
+  <token id="223" number="222" sentence="9">However</token>
+  <token id="224" number="223" sentence="9">,</token>
+  <token id="225" number="224" sentence="9">Aetna</token>
+  <token id="226" number="225" sentence="9">'s</token>
+  <token id="227" number="226" sentence="9">employee</token>
+  <token id="228" number="227" sentence="9">benefits</token>
+  <token id="229" number="228" sentence="9">division</token>
+  <token id="230" number="229" sentence="9">,</token>
+  <token id="231" number="230" sentence="9">which</token>
+  <token id="232" number="231" sentence="9">includes</token>
+  <token id="233" number="232" sentence="9">its</token>
+  <token id="234" number="233" sentence="9">group</token>
+  <token id="235" number="234" sentence="9">health</token>
+  <token id="236" number="235" sentence="9">insurance</token>
+  <token id="237" number="236" sentence="9">operations</token>
+  <token id="238" number="237" sentence="9">,</token>
+  <token id="239" number="238" sentence="9">posted</token>
+  <token id="240" number="239" sentence="9">a</token>
+  <token id="241" number="240" sentence="9">34</token>
+  <token id="242" number="241" sentence="9">%</token>
+  <token id="243" number="242" sentence="9">profit</token>
+  <token id="244" number="243" sentence="9">gain</token>
+  <token id="245" number="244" sentence="9">to</token>
+  <token id="246" number="245" sentence="9">$</token>
+  <token id="247" number="246" sentence="9">106</token>
+  <token id="248" number="247" sentence="9">million</token>
+  <token id="249" number="248" sentence="9">.</token>
+  <token id="250" number="249" sentence="10">Third-quarter</token>
+  <token id="251" number="250" sentence="10">results</token>
+  <token id="252" number="251" sentence="10">included</token>
+  <token id="253" number="252" sentence="10">net</token>
+  <token id="254" number="253" sentence="10">realized</token>
+  <token id="255" number="254" sentence="10">capital</token>
+  <token id="256" number="255" sentence="10">gains</token>
+  <token id="257" number="256" sentence="10">of</token>
+  <token id="258" number="257" sentence="10">$</token>
+  <token id="259" number="258" sentence="10">48</token>
+  <token id="260" number="259" sentence="10">million</token>
+  <token id="261" number="260" sentence="10">,</token>
+  <token id="262" number="261" sentence="10">which</token>
+  <token id="263" number="262" sentence="10">included</token>
+  <token id="264" number="263" sentence="10">$</token>
+  <token id="265" number="264" sentence="10">27</token>
+  <token id="266" number="265" sentence="10">million</token>
+  <token id="267" number="266" sentence="10">from</token>
+  <token id="268" number="267" sentence="10">the</token>
+  <token id="269" number="268" sentence="10">sale</token>
+  <token id="270" number="269" sentence="10">of</token>
+  <token id="271" number="270" sentence="10">Federated</token>
+  <token id="272" number="271" sentence="10">Investors</token>
+  <token id="273" number="272" sentence="10">in</token>
+  <token id="274" number="273" sentence="10">August</token>
+  <token id="275" number="274" sentence="10">and</token>
+  <token id="276" number="275" sentence="10">a</token>
+  <token id="277" number="276" sentence="10">$</token>
+  <token id="278" number="277" sentence="10">15</token>
+  <token id="279" number="278" sentence="10">million</token>
+  <token id="280" number="279" sentence="10">tax</token>
+  <token id="281" number="280" sentence="10">credit</token>
+  <token id="282" number="281" sentence="10">.</token>
+  <token id="283" number="282" sentence="11">In</token>
+  <token id="284" number="283" sentence="11">the</token>
+  <token id="285" number="284" sentence="11">nine</token>
+  <token id="286" number="285" sentence="11">months</token>
+  <token id="287" number="286" sentence="11">,</token>
+  <token id="288" number="287" sentence="11">net</token>
+  <token id="289" number="288" sentence="11">rose</token>
+  <token id="290" number="289" sentence="11">4.3</token>
+  <token id="291" number="290" sentence="11">%</token>
+  <token id="292" number="291" sentence="11">to</token>
+  <token id="293" number="292" sentence="11">$</token>
+  <token id="294" number="293" sentence="11">525.8</token>
+  <token id="295" number="294" sentence="11">million</token>
+  <token id="296" number="295" sentence="11">or</token>
+  <token id="297" number="296" sentence="11">$</token>
+  <token id="298" number="297" sentence="11">4.67</token>
+  <token id="299" number="298" sentence="11">a</token>
+  <token id="300" number="299" sentence="11">share</token>
+  <token id="301" number="300" sentence="11">,</token>
+  <token id="302" number="301" sentence="11">from</token>
+  <token id="303" number="302" sentence="11">$</token>
+  <token id="304" number="303" sentence="11">504.2</token>
+  <token id="305" number="304" sentence="11">million</token>
+  <token id="306" number="305" sentence="11">,</token>
+  <token id="307" number="306" sentence="11">or</token>
+  <token id="308" number="307" sentence="11">$</token>
+  <token id="309" number="308" sentence="11">4.41</token>
+  <token id="310" number="309" sentence="11">a</token>
+  <token id="311" number="310" sentence="11">share</token>
+  <token id="312" number="311" sentence="11">,</token>
+  <token id="313" number="312" sentence="11">last</token>
+  <token id="314" number="313" sentence="11">year</token>
+  <token id="315" number="314" sentence="11">.</token>
+</Document>

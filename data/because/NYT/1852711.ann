@@ -1,0 +1,116 @@
+T1	NonCausal 0 2	As
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 3 97	leaders of wealthy nations converged Wednesday on a Baltic Sea resort for their annual meeting
+T3	Argument 99 260	the White House effectively derailed a climate change initiative backed by one of President Bush's strongest European allies, Chancellor Angela Merkel of Germany
+T4	NonCausal 490 492	as
+E2	NonCausal:T4 Arg1:T5 Arg0:T6
+A2	Temporal E2
+T5	Argument 448 488	The meeting got off to a tense beginning
+T6	Argument 493 647	several thousand protesters blocked roads and rail lines to Heiligendamm, the luxury resort town about 10 miles from here where the meeting was being held
+T7	Purpose 807 809	to
+E3	Purpose:T7 Cause:T8 Effect:T9
+A3	Degree E3 Facilitate
+T8	Argument 810 823	disperse them
+T9	Argument 789 806	who used tear gas
+T10	Purpose 1043 1045	to
+E4	Purpose:T10 Effect:T11 Cause:T12
+A4	Degree E4 Facilitate
+T11	Argument 942 1041	The rock star Bono and the concert organizer Bob Geldof turned up, along with a Senegalese musician
+T12	Argument 1046 1151	lobby heads of state, including Mr. Bush, to spend more money combating global poverty and AIDS in Africa
+T13	Note 1088 1090	to
+#1	AnnotatorNotes T13	Verb argument ("lobby to")
+T15	Motivation 1445 1447	if
+E5	Motivation:T15 Effect:T16 Cause:T17
+A5	Degree E5 Facilitate
+A6	Hypothetical E5
+T16	Argument 1410 1444	he saw no need for military action
+T17	Argument 1448 1505	Mr. Putin decided to again aim Russian missiles at Europe
+T18	Motivation 1712 1717	After
+E6	Motivation:T18 Cause:T19 Effect:T20
+A7	Temporal E6
+T19	Argument 1718 1737	lunch with Mr. Bush
+T20	Argument 1739 1835	Mrs. Merkel seemed to concede -- without explicitly saying so -- that her plan was off the table
+T21	Motivation 2036 2040	When
+E7	Motivation:T21 Cause:T22 Effect:T23
+A8	Degree E7 Facilitate
+A9	Temporal E7
+T22	Argument 2041 2129	Mr. Bush turned to her and said he has ''a strong desire to work with you'' on the issue
+T23	Argument 2131 2161	the chancellor pursed her lips
+T24	NonCausal 3041 3047	before
+E8	NonCausal:T24 Arg1:T25 Arg0:T26
+T25	Argument 3048 3074	his lunch with Mrs. Merkel
+T26	Argument 2931 3040	''Here's a way to get China and India at the table,'' Mr. Bush said Wednesday, in a roundtable with reporters
+T27	NonCausal 3387 3392	since
+E9	NonCausal:T27 Arg0:T28 Arg1:T29
+A12	Temporal E9
+T28	Argument 3393 3425	she took office in November 2005
+T29	Argument 3357 3386	who have forged a strong bond
+A13	Degree E6 Facilitate
+T30	Consequence 3675 3680	cause
+E10	Consequence:T30 Effect:T31 Cause:T32
+A14	Degree E10 Facilitate
+T31	Argument 3681 3707	strain to the relationship
+T32	Argument 3654 3656	he
+T33	Consequence 3427 3431	With
+E11	Consequence:T33 Cause:T34 Effect:T35
+A15	Context E11
+A16	Degree E11 Facilitate
+T34	Argument 3432 3590	Prime Minister Tony Blair of Britain planning to leave office later this month, and the new French president, Nicolas Sarkozy, an unknown quantity to Mr. Bush
+T35	Argument 3592 3648	Mrs. Merkel may be the president's best friend in Europe
+T36	NonCausal 3872 3878	during
+E12	NonCausal:T36 Arg0:T37 Arg1:T38
+A17	Temporal E12
+T37	Argument 3879 3898	this year's meeting
+T38	Argument 3820 3871	making real and significant progress on the problem
+T39	Consequence 3750 3754	made
+E13	Consequence:T39 Cause:T40 Effect:T42
+A18	Degree E13 Facilitate
+T40	Argument 3742 3745	who
+T41	Argument 3710 3721	Mrs. Merkel
+R1	Coref Arg1:T40 Arg2:T41	
+T42	Argument 3755 3769;3770 3789	global warming her signature issue
+T43	Note 3820 3826	making
+#3	AnnotatorNotes T43	Not the sense we're after
+T44	Consequence 3956 3958	if
+E14	Consequence:T44 Cause:T45 Effect:T46
+A19	Degree E14 Facilitate
+A20	Hypothetical E14
+T45	Argument 3959 4013	she appears to be caving in to the president's demands
+T46	Argument 4015 4043	she risks a backlash at home
+T47	Consequence 4127 4131	make
+E15	Consequence:T47 Cause:T48 Effect:T49
+A21	Degree E15 Facilitate
+T48	Argument 4106 4109	She
+T49	Argument 4132 4136;4137 4150	this a public spat
+T50	Motivation 4305 4312	because
+E16	Motivation:T50 Effect:T51 Cause:T52
+A22	Degree E16 Facilitate
+T51	Argument 4277 4296	But she was elected
+T52	Argument 4313 4439	she's a scientist, she has a very strong position on this, and Germans are huge fans of any effort to cope with climate change
+T53	Consequence 4441 4443	So
+E17	Consequence:T53 Effect:T54
+A23	Degree E17 Facilitate
+T54	Argument 4444 4566	for her own public, she has to show that she's being a bit forceful with the United States and she's putting her foot down
+T55	NonCausal 4923 4925	if
+E18	NonCausal:T55 Arg1:T56 Arg0:T57
+A24	Hypothetical E18
+T56	Argument 4892 4922	It would be very disappointing
+T57	Argument 4926 4969	the energy efficiency issue is marginalized
+T58	Consequence 6233 6242	enough to
+E19	Consequence:T58 Effect:T59
+A25	Degree E19 Facilitate
+A26	Extremity-sufficiency E19
+T59	Argument 6243 6265	turn Bush on the issue
+T63	Purpose 73 76	for
+E20	Purpose:T63 Cause:T64 Effect:T60
+A27	Degree E20 Facilitate
+T64	Argument 77 97	their annual meeting
+T60	Argument 3 72	leaders of wealthy nations converged Wednesday on a Baltic Sea resort
+T65	NonCausal 1215 1219	when
+E21	NonCausal:T65 Arg1:T66 Arg0:T67
+A28	Temporal E21
+T66	Argument 1205 1213	Thursday
+T67	Argument 1220 1309	Mr. Bush and President Vladimir V. Putin of Russia are to have a much-anticipated meeting
+#2	AnnotatorNotes E9	Temporal enablement
+A10	Temporal E8

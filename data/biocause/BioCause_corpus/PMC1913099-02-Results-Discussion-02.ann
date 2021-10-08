@@ -1,0 +1,4 @@
+T1	Causality 866 878	demonstrated
+E1	Causality:T1 Evidence:T2 Effect:T3
+T2	Span 819 865	Results of standard linear regression analysis
+T3	Span 879 971	a strong positive correlation (r = 0.9) between data obtained using the different techniques

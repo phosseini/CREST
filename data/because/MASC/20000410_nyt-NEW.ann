@@ -1,0 +1,59 @@
+T1	Consequence 477 480	why
+E1	Consequence:T1 Effect:T2
+A1	Degree E1 Facilitate
+T2	Argument 481 505;510 563	aid has been ineffective in stemming malnourishment and other medical problems
+T3	Consequence 513 521	stemming
+E2	Consequence:T3 Cause:T5 Effect:T6
+A2	Degree E2 Inhibit
+A3	Creation-termination E2
+T5	Argument 481 484	aid
+T6	Argument 522 563	malnourishment and other medical problems
+T7	Consequence 652 660	thwarted
+E3	Consequence:T7 Effect:T9 Cause:T33
+A4	Degree E3 Inhibit
+A5	Creation-termination E3
+T8	Argument 588 606	economic sanctions
+T9	Argument 661 714;719 742	the country's ability to recover from the devastation of the bombing campaign
+T11	NonCausal 1313 1319	before
+E5	NonCausal:T11 Arg0:T15 Arg1:T16
+A8	Degree E5 Facilitate
+A9	Temporal E5
+T14	NonCausal 1353 1362	permitted
+E6	NonCausal:T14 Arg1:T17
+A10	Degree E6 Facilitate
+A11	Obligation-permission E6
+T15	Argument 1281 1308	where he'll spend the night
+T16	Argument 1320 1335	driving to Iraq
+T17	Argument 1337 1344;1363 1372	Flights into Iraq
+T18	Consequence 116 119	let
+E7	Consequence:T18 Effect:T20 Cause:T19
+A7	Degree E7 Facilitate
+T19	Argument 81 101	The Iraqi government
+T20	Argument 120 139;140 149;154 221;226 252	U.S. Rep. Tony Hall visit the country next week to assess a humanitarian crisis that has festered since the Gulf War of 1990
+T4	NonCausal 607 612	since
+E8	NonCausal:T4 Arg1:T21 Arg0:T22
+A12	Degree E8 Facilitate
+A13	Temporal E8
+T21	Argument 568 606	Iraq has been under economic sanctions
+T22	Argument 613 626	the war ended
+T23	NonCausal 1054 1059	since
+E9	NonCausal:T23 Arg1:T24 Arg0:T25
+A14	Degree E9 Facilitate
+A15	Temporal E9
+T24	Argument 988 1053	Hall will be only the second member of Congress to travel in Iraq
+T25	Argument 1064 1071	the war
+A16	Obligation-permission E7
+T27	Argument 140 149;154 171	visit the country next week
+T28	Argument 175 221;226 252	assess a humanitarian crisis that has festered since the Gulf War of 1990
+T29	Purpose 172 174	to
+E10	Purpose:T29 Cause:T28 Effect:T27
+A17	Degree E10 Facilitate
+T30	Argument 411 429;434 454	visiting hospitals and other facilities
+T31	Argument 458 505;510 563	seek understanding why aid has been ineffective in stemming malnourishment and other medical problems
+T32	Purpose 455 457	to
+E11	Purpose:T32 Effect:T30 Cause:T31
+A18	Degree E11 Facilitate
+T33	Argument 628 633	which
+R2	Coref Arg1:T33 Arg2:T8	
+T10	Note 1184 1188	help
+#1	AnnotatorNotes T10	assist

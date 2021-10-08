@@ -1,0 +1,99 @@
+T1	Argument 5 21	last we left him
+T2	NonCausal 0 4	When
+E1	NonCausal:T2 Arg0:T1 Arg1:T3
+A1	Temporal E1
+T3	Argument 23 199	FBI Agent Nick Mancuso had solved a murder mystery, unraveled a Washington political scandal, and racked up some pretty good ratings numbers in the miniseries ``Favorite Son.''
+T4	Argument 892 911	the first few weeks
+T5	NonCausal 887 891	Over
+E2	NonCausal:T5 Arg0:T4 Arg1:T6
+A2	Temporal E2
+T6	Argument 913 1052	``Mancuso FBI'' has sprung straight from the headlines, which is either a commendable stab at topicality, or a lack of imagination, or both
+T7	Motivation 1154 1158	When
+E3	Motivation:T7 Cause:T8 Effect:T9
+A3	Degree E3 Facilitate
+A4	Temporal E3
+T8	Argument 1159 1213	his secretary is found floating dead in the pol's pool
+T9	Argument 1215 1250	Mancuso is called in to investigate
+T11	Consequence 2159 2164	makes
+E4	Consequence:T11 Cause:T12 Effect:T13
+A5	Degree E4 Facilitate
+T12	Argument 2154 2158	What
+T13	Argument 2165 2184;2185 2197	the veteran FBI man so endearing
+T14	Argument 2201 2235;2250 2317	his hard-bitten cynicism -- earned when he was assigned to the civil rights movement back in the 1960s
+R1	Coref Arg1:T12 Arg2:T14	
+T15	Consequence 2250 2254	when
+E5	Consequence:T15 Effect:T16 Cause:T17
+A6	Degree E5 Facilitate
+A7	Temporal E5
+T16	Argument 2229 2235	earned
+T17	Argument 2255 2317	he was assigned to the civil rights movement back in the 1960s
+T18	Motivation 2849 2853	when
+E6	Motivation:T18 Cause:T19 Effect:T20
+A8	Degree E6 Facilitate
+A9	Temporal E6
+T19	Argument 2854 2892	he's told ``Try a little tenderness,''
+T20	Argument 2893 2952	he shoots back ``I'm going home to try a little linguine.''
+T21	NonCausal 1734 1736	If
+E7	NonCausal:T21 Arg0:T22 Arg1:T10
+A10	Hypothetical E7
+T22	Argument 1737 1769	all of this seems a little stale
+T10	Argument 1771 1920	it's redeemed in part by some tricky plot twists: The usual suspects are found to be guilty, then not guilty, then guilty -- but of a different crime
+T26	Consequence 3463 3465	if
+E9	Consequence:T26 Cause:T27 Effect:T28
+A12	Hypothetical E9
+T27	Argument 3466 3495	the press gets a hold of this
+T28	Argument 3458 3462	What
+T29	NonCausal 4476 4481	after
+E10	NonCausal:T29 Arg0:T30 Arg1:T31
+A13	Temporal E10
+T30	Argument 4482 4497	the polls close
+T31	Argument 4447 4469	The scars will be here
+T32	Consequence 4597 4601	when
+E11	Consequence:T32 Effect:T33 Cause:T34
+A14	Temporal E11
+A15	Degree E11 Facilitate
+T33	Argument 4562 4596	Where the hell are they gonna live
+T34	Argument 4602 4660	people like you turn the world into a big toxic waste dump
+T36	Motivation 5034 5037	Why
+E12	Motivation:T36 Effect:T37
+A16	Degree E12 Facilitate
+T37	Argument 5039 5139	when a key witness disappears, does Mancuso trash her apartment, tearing down drapes, smashing walls
+T38	Motivation 5039 5043	when
+E13	Motivation:T38 Cause:T39 Effect:T40
+A17	Degree E13 Facilitate
+A18	Temporal E13
+T39	Argument 5044 5068	a key witness disappears
+T40	Argument 5034 5037;5070 5139	Why does Mancuso trash her apartment, tearing down drapes, smashing walls
+T41	NonCausal 5349 5351	at
+E14	NonCausal:T41 Arg0:T42 Arg1:T43
+A19	Temporal E14
+T42	Argument 5352 5384	the end of the first week's show
+T43	Argument 5332 5348	There is a scene
+T44	Consequence 5559 5562;5573 5575	too to
+E15	Consequence:T44 Cause:T45 Effect:T46
+A20	Degree E15 Inhibit
+A21	Extremity-sufficiency E15
+T45	Argument 5559 5572	too choked up
+T46	Argument 5576 5593	get the words out
+T47	Consequence 5852 5854	If
+E16	Consequence:T47 Cause:T48 Effect:T49
+A22	Degree E16 Facilitate
+A23	Hypothetical E16
+T48	Argument 5855 5922	the show's creators could just let themselves be quiet for a little
+T49	Argument 5924 5947	they might just hear it
+T51	Note 3133 3135	If
+#5	AnnotatorNotes T51	Concessive
+T54	Note 4633 4637	into
+#8	AnnotatorNotes T54	Resultative construction :(
+T23	Purpose 2925 2927	to
+E8	Purpose:T23 Cause:T24 Effect:T25
+A11	Degree E8 Facilitate
+T24	Argument 2928 2949	try a little linguine
+T25	Argument 2910 2924	I'm going home
+A24	Degree E9 Facilitate
+T35	Consequence 5886 5889	let
+E17	Consequence:T35 Cause:T50 Effect:T52
+A25	Degree E17 Facilitate
+A26	Obligation-permission E17
+T50	Argument 5855 5874	the show's creators
+T52	Argument 5890 5900;5901 5922	themselves be quiet for a little

@@ -1,0 +1,47 @@
+T1	Protein 12 17	SeMac
+T2	Protein 57 62	SeMac
+T3	Protein 80 85	SeMac
+T4	Organism 103 110	S. equi
+T5	Protein 111 114	mac
+T6	Protein 136 141	SeMac
+T7	Protein 170 175	SeMac
+T8	Protein 276 281	SeMac
+T9	Organism 313 320	S. equi
+T10	Protein 441 446	SeMac
+T11	Organism 447 452	mouse
+T12	Protein 466 471	SeMac
+T13	Protein 538 543	SeMac
+T14	Protein 586 591	SeMac
+T15	Organism 619 626	S. equi
+T16	Protein 654 659	SeMac
+T17	Organism 752 758	horses
+T18	Organism 787 791	mice
+T19	Organism 810 817	S. equi
+T20	Protein 866 871	SeMac
+T21	Protein 917 922	SeMac
+T22	Gene_expression 43 53	Expression
+T23	Gene_expression 262 272	production
+T24	Gene_expression 551 559	produced
+T25	Gene_expression 595 603	produced
+T26	Process 627 636	infection
+T27	Process 818 827	infection
+T28	Gene_expression 926 934	produced
+T29	Process 950 959	infection
+E1	Gene_expression:T22 Theme:T2
+E2	Gene_expression:T23 Theme:T8
+E3	Gene_expression:T24 Theme:T13
+M1	Negation E3
+E4	Gene_expression:T25 Theme:T14
+M2	Speculation E4
+E5	Process:T26 Participant:T15
+E6	Process:T27 Participant:T19
+E7	Gene_expression:T28 Theme:T21
+E8	Process:T29 
+T30	Span 463 503	No SeMac was detected in all the samples
+T31	Causality 522 537	suggesting that
+E9	Causality:T31 Effect:T32 Evidence:T30
+T32	Span 538 568	SeMac is not produced in vitro
+T33	Span 829 889	All the convalescent sera tested had SeMac-specific antibody
+T34	Causality 901 916	indicating that
+E10	Causality:T34 Effect:T35 Evidence:T33
+T35	Span 917 959	SeMac is produced in vivo during infection

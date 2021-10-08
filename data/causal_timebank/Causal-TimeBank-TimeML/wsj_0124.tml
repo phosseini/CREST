@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0124</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-02</TIMEX3></DCT>
+<TEXT>
+ William C. Walbrecher Jr., an executive at San Francisco-based 1st Nationwide Bank, was <EVENT eid="e1" class="I_ACTION">named</EVENT> president and chief executive officer of Citadel Holding Corp. and its principal operating unit, Fidelity Federal Bank.
+ The <EVENT eid="e2" class="OCCURRENCE">appointment</EVENT> <EVENT eid="e3" class="ASPECTUAL">takes</EVENT> <EVENT eid="e4" class="ASPECTUAL">effect</EVENT> <TIMEX3 tid="t5" type="DATE" value="1989-11-13" anchorTimeID="t0" functionInDocument="NONE">Nov. 13</TIMEX3>.
+ He <EVENT eid="e6" class="ASPECTUAL">succeeds</EVENT> James A. Taylor, who <EVENT eid="e7" class="ASPECTUAL">stepped</EVENT> down as chairman, president and chief executive in <TIMEX3 tid="t8" type="DATE" value="1989-03" functionInDocument="NONE">March</TIMEX3> for health reasons.
+ Edward L. Kane succeeded Mr. Taylor as chairman.
+ Separately, Citadel <EVENT eid="e9" class="REPORTING">posted</EVENT> a <TIMEX3 tid="t10" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> net <EVENT eid="e11" class="OCCURRENCE">loss</EVENT> of $ 2.3 million, or 68 cents a share, versus net <EVENT eid="e12" class="OCCURRENCE">income</EVENT> of $ 5.3 million, or $ 1.61 a share, <TIMEX3 tid="t13" type="DATE" value="1988-Q3" anchorTimeID="t10" functionInDocument="NONE">a year earlier</TIMEX3>.
+ The latest <EVENT eid="e14" class="OCCURRENCE">results</EVENT> <EVENT eid="e15" class="REPORTING">include</EVENT> some unusual <EVENT eid="e16" class="OCCURRENCE">write-downs</EVENT>, which had an after-tax impact of $ 4.9 million.
+ Those <EVENT eid="e17" class="REPORTING">included</EVENT> costs associated with the potential Valley Federal Savings and Loan Association <EVENT eid="e18" class="OCCURRENCE">acquisition</EVENT>, which was <EVENT eid="e19" class="ASPECTUAL">terminated</EVENT> on <TIMEX3 tid="t20" type="DATE" value="1989-11-27" functionInDocument="NONE">Sept. 27, 1989</TIMEX3>.
+ In addition, operating <EVENT eid="e21" class="OCCURRENCE">results</EVENT> were <EVENT eid="e22" class="OCCURRENCE">hit</EVENT> <C-SIGNAL cid="c23">by</C-SIGNAL> an <EVENT eid="e24" class="OCCURRENCE">increase</EVENT> in loan and real estate loss reserves.
+ In American Stock Exchange composite trading, Citadel shares <EVENT eid="e25" class="OCCURRENCE">closed</EVENT> <TIMEX3 tid="t26" type="DATE" value="1989-11-01" anchorTimeID="t0" functionInDocument="NONE">yesterday</TIMEX3> at $ 45.75, down 25 cents.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="NONE" aspect="NONE" polarity="POS" modality="potential" pos="NOUN"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToEventInstance="ei1"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei6"/>
+<TLINK lid="l3" relType="IDENTITY" eventInstanceID="ei2" relatedToEventInstance="ei1"/>
+<TLINK lid="l4" relType="IDENTITY" eventInstanceID="ei3" relatedToEventInstance="ei4"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t5"/>
+<TLINK lid="l6" relType="AFTER" timeID="t5" relatedToTime="t0"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t5"/>
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei7"/>
+<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToTime="t8"/>
+<TLINK lid="l10" relType="BEFORE" timeID="t8" relatedToTime="t0"/>
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t0"/>
+<TLINK lid="l12" relType="BEFORE" timeID="t10" relatedToTime="t0"/>
+<TLINK lid="l13" relType="ENDS" eventInstanceID="ei11" relatedToTime="t10"/>
+<TLINK lid="l14" relType="ENDS" eventInstanceID="ei12" relatedToTime="t13"/>
+<TLINK lid="l15" relType="BEFORE" timeID="t13" relatedToTime="t10"/>
+<TLINK lid="l16" relType="SIMULTANEOUS" eventInstanceID="ei14" relatedToEventInstance="ei11"/>
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei18" relatedToTime="t20"/>
+<TLINK lid="l18" relType="IS_INCLUDED" eventInstanceID="ei19" relatedToTime="t20"/>
+<TLINK lid="l19" relType="BEFORE" timeID="t20" relatedToTime="t0"/>
+<TLINK lid="l20" relType="SIMULTANEOUS" eventInstanceID="ei21" relatedToEventInstance="ei14"/>
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei24" relatedToEventInstance="ei22"/>
+<TLINK lid="l23" relType="IS_INCLUDED" eventInstanceID="ei25" relatedToTime="t26"/>
+<TLINK lid="l24" relType="BEFORE" timeID="t26" relatedToTime="t0"/>
+<CLINK lid="l22" c-signalID="c23" eventInstanceID="ei24" relatedToEventInstance="ei22"/>
+</TimeML>

@@ -1,0 +1,296 @@
+*	Equiv T5 T8
+*	Equiv T11 T14
+*	Equiv T17 T20
+*	Equiv T38 T39
+*	Equiv T40 T41
+*	Equiv T77 T78
+T159	Phosphorylation 1814 1828	phosphorylated
+T160	Negative_regulation 5434 5446	Inactivation
+T161	Regulation 5804 5812	utilizes
+T162	Positive_regulation 7120 7130	Activation
+T163	Phosphorylation 7159 7174	phosphorylation
+T164	Positive_regulation 7322 7331	dependent
+T165	Process 8620 8629	infection
+T166	Phosphorylation 9072 9087	phosphorylation
+T167	Negative_regulation 9137 9147	suppressor
+T168	Negative_regulation 9161 9171	vice versa
+T169	Regulation 9183 9193	regulating
+T170	Regulation 9264 9274	modulating
+T171	Phosphorylation 9279 9294	phosphorylation
+T172	Phosphorylation 9409 9424	phosphorylation
+T173	Phosphorylation 9545 9563	non-phosphorylated
+T174	Phosphorylation 9654 9668	phosphorylated
+T175	Phosphorylation 9676 9691	phosphorylation
+T176	Regulation 9785 9794	modulates
+T177	Phosphorylation 9799 9814	phosphorylation
+T178	Phosphorylation 10016 10030	phosphorylated
+T179	Positive_regulation 10041 10050	dependent
+T180	Gene_expression 10068 10078	expression
+T181	Positive_regulation 10146 10155	dependent
+T182	Regulation 10298 10307	regulates
+T183	Process 10308 10317	virulence
+E1	Phosphorylation:T159 Theme:T24
+E2	Phosphorylation:T159 Theme:T25
+E3	Phosphorylation:T159 Theme:T26
+E4	Negative_regulation:T160 Theme:T59
+E5	Regulation:T161 Theme:T63
+E6	Positive_regulation:T162 Theme:T79
+E7	Phosphorylation:T163 Theme:T80
+E8	Positive_regulation:T164 Theme:T82
+E9	Process:T165 Participant:T104
+E10	Phosphorylation:T166 Theme:T109
+E11	Negative_regulation:T167 Theme:T111 Cause:T110
+E12	Negative_regulation:T168 Theme:T110 Cause:T111
+E13	Regulation:T169 Theme:E15 Cause:T112
+E14	Regulation:T170 Theme:E15 Cause:T112
+E15	Phosphorylation:T171 Theme:T113
+E16	Phosphorylation:T172 Theme:T114
+E17	Phosphorylation:T173 Theme:T116
+M1	Negation E17
+E18	Phosphorylation:T174 Theme:T116
+E19	Phosphorylation:T175 Theme:T117
+E20	Regulation:T176 Theme:E21 Cause:T118
+E21	Phosphorylation:T177 Theme:T119
+E22	Phosphorylation:T178 Theme:T122
+E23	Positive_regulation:T179 Theme:E22 Cause:T123
+E24	Gene_expression:T180 Theme:T125
+E25	Positive_regulation:T181 Theme:E24 Cause:T126
+E26	Regulation:T182 Theme:E27
+E27	Process:T183 
+T1	Organism 391 408	Bacillus subtilis
+T2	Organism 439 457	Myxococcus xanthus
+T3	Protein 915 918	Pel
+T4	Protein 923 926	Psl
+T5	Two-component-system 1072 1077	BfiRS
+T6	Protein 1072 1076	BfiR
+T7	Protein 1076 1077	S
+T8	Two-component-system 1079 1090	PA4196-4197
+T9	Protein 1079 1085	PA4196
+T10	Protein 1086 1090	4197
+T11	Two-component-system 1162 1167	BfmRS
+T12	Protein 1162 1166	BfmR
+T13	Protein 1166 1167	S
+T14	Two-component-system 1169 1180	PA4101-4102
+T15	Protein 1169 1175	PA4101
+T16	Protein 1176 1180	4102
+T17	Two-component-system 1239 1244	MifRS
+T18	Protein 1239 1243	MifR
+T19	Protein 1243 1244	S
+T20	Two-component-system 1246 1257	PA5511-5512
+T21	Protein 1246 1252	PA5511
+T22	Protein 1253 1257	5512
+T23	Organism 1698 1711	P. aeruginosa
+T24	Protein 1803 1807	BfiS
+T25	Protein 1848 1852	GacS
+T26	Protein 1866 1870	MifR
+T27	Protein 2203 2207	GacS
+T28	Two-component-system 2237 2246	RetS/LadS
+T29	Protein 2237 2241	RetS
+T30	Protein 2242 2246	LadS
+T31	Protein 2247 2251	GacA
+T32	Protein 2251 2252	S
+T33	Protein 2253 2257	RsmA
+T34	Organism 2579 2592	P. aeruginosa
+T35	Chemical 3807 3816	glutamate
+T36	Chemical 3820 3827	citrate
+T37	Chemical 3838 3844	carbon
+T38	Protein 4386 4390	BfiS
+T39	Protein 4392 4398	PA4197
+T40	Protein 4404 4408	BfmR
+T41	Protein 4410 4416	PA4101
+T42	Protein 4616 4620	BfiS
+T43	Organism 4878 4885	E. coli
+T44	Organism 4887 4908	Klebsiella pneumoniae
+T45	Organism 4914 4929	Enterobacter sp
+T46	Protein 4942 4946	BfmR
+T47	Organism 5003 5014	Yersinia sp
+T48	Organism 5017 5032	Burkholderia sp
+T49	Organism 5035 5047	Rhizobium sp
+T50	Organism 5050 5059	Vibrio sp
+T51	Organism 5061 5073	Geobacter sp
+T52	Organism 5080 5090	M. xanthus
+T53	Protein 5149 5153	MifR
+T54	Organism 5272 5282	M. xanthus
+T55	Protein 5314 5318	MifR
+T56	Organism 5332 5342	M. xanthus
+T57	Protein 5365 5369	NtrC
+T58	Protein 5413 5417	CrdA
+T59	Protein 5450 5454	crdA
+T60	Organism 5491 5501	M. xanthus
+T61	Protein 5534 5538	NtrC
+T62	Protein 5784 5798	RNA polymerase
+T63	Protein 5856 5860	rpoN
+T64	Protein 5889 5893	NtrC
+T65	Organism 5955 5965	M. xanthus
+T66	Protein 6145 6149	NtrC
+T67	Organism 6258 6268	M. xanthus
+T68	Protein 6345 6349	RpoN
+T69	Organism 6424 6435	B. subtilis
+T70	Protein 6506 6513	Sigma E
+T71	Protein 6515 6516	F
+T72	Protein 6518 6519	G
+T73	Protein 6525 6526	K
+T74	Protein 6974 6978	RpoD
+T75	Protein 6983 6987	RpoN
+T76	Protein 7004 7008	BfiR
+T77	Protein 7029 7037	Sigma-70
+T78	Protein 7039 7043	RpoD
+T79	Protein 7134 7138	BfiR
+T80	Protein 7154 7158	BfiS
+T81	Protein 7245 7249	RpoD
+T82	Protein 7261 7265	MifR
+T83	Protein 7276 7284	sigma-54
+T84	Protein 7294 7298	RpoN
+T85	Two-component-system 7370 7375	BfiRS
+T86	Protein 7370 7374	BfiR
+T87	Protein 7374 7375	S
+T88	Two-component-system 7380 7385	BfmRS
+T89	Protein 7380 7384	BfmR
+T90	Protein 7384 7385	S
+T91	Organism 7479 7492	P. aeruginosa
+T92	Organism 7620 7631	B. subtilis
+T93	Organism 7662 7672	M. xanthus
+T94	Organism 7918 7931	P. aeruginosa
+T95	Protein 8197 8201	SadA
+T96	Protein 8201 8202	R
+T97	Protein 8202 8203	S
+T98	Protein 8205 8210	RocS1
+T99	Protein 8210 8212	RA
+T100	Protein 8212 8213	1
+T101	Protein 8502 8506	RetS
+T102	Protein 8508 8512	LadS
+T103	Protein 8518 8522	GacS
+T104	Organism 8633 8646	P. aeruginosa
+T105	Organism 8896 8909	P. aeruginosa
+T106	Protein 8992 8996	RetS
+T107	Protein 9000 9004	LadS
+T108	Protein 9020 9024	GacS
+T109	Protein 9067 9071	GacS
+T110	Protein 9122 9126	GacS
+T111	Protein 9151 9155	RetS
+T112	Protein 9178 9182	RetS
+T113	Protein 9247 9251	GacS
+T114	Protein 9357 9361	GacS
+T115	Protein 9463 9467	GacS
+T116	Protein 9487 9491	GacS
+T117	Protein 9695 9699	GacS
+T118	Protein 9771 9775	RetS
+T119	Protein 9824 9828	GacS
+T120	Protein 9865 9869	RetS
+T121	Protein 9956 9960	RetS
+T122	Protein 9995 9999	GacS
+T123	Protein 10036 10040	BfiS
+T124	Protein 10086 10090	BfiS
+T125	Protein 10119 10123	BfiR
+T126	Protein 10141 10145	RsmA
+T127	Protein 10258 10262	RetS
+T128	Protein 10263 10267	LadS
+T129	Protein 10268 10272	GacA
+T130	Protein 10272 10273	S
+T131	Protein 10274 10278	RsmA
+T132	Organism 10490 10503	P. aeruginosa
+T133	Two-component-system 10666 10671	BfiSR
+T134	Protein 10666 10670	BfiS
+T135	Protein 10670 10671	R
+T136	Two-component-system 10673 10684	PA4196-4197
+T137	Protein 10673 10679	PA4196
+T138	Protein 10680 10684	4197
+T139	Two-component-system 10687 10692	BfmSR
+T140	Protein 10687 10691	BfmS
+T141	Protein 10691 10692	R
+T142	Two-component-system 10693 10704	PA4101-4102
+T143	Protein 10693 10699	PA4101
+T144	Protein 10700 10704	4102
+T145	Two-component-system 10711 10716	MifSR
+T146	Protein 10711 10715	MifS
+T147	Protein 10715 10716	R
+T148	Two-component-system 10718 10729	PA5511-5512
+T149	Protein 10718 10724	PA5511
+T150	Protein 10725 10729	5512
+T151	Protein 10893 10897	GacS
+T152	Protein 10902 10906	RsmA
+T153	Protein 10958 10962	RetS
+T154	Protein 10963 10967	LadS
+T155	Protein 10968 10972	GacA
+T156	Protein 10972 10973	S
+T157	Protein 10974 10978	RsmA
+T158	Organism 11485 11498	P. aeruginosa
+T184	Causality 124 154	has led to the assumption that
+E28	Causality:T184 Evidence:T185 Effect:T186
+T185	Span 34 123	biofilm development is a coordinated series of events coinciding with distinct phenotypes
+T186	Span 155 207	the formation of biofilms is a regulated progression
+T187	Span 233 457	biofilm development has been considered to be distinct from other developmental processes including the programmed differentiation seen in spore formation in Bacillus subtilis or fruiting body formation in Myxococcus xanthus
+T188	Causality 464 478	mainly because
+E29	Causality:T188 Effect:T189 Evidence:T187
+T189	Span 479 640	no regulatory pathways have yet been identified that are responsible for regulating committed steps in the formation of biofilms with the exception of attachment
+T190	Span 1382 1544	The stage-specific arrest in biofilm formation of the mutant strains coincided with the timing of phosphorylation of the respective regulatory or sensory proteins
+T191	Causality 1545 1560	indicating that
+E30	Causality:T191 Effect:T192 Evidence:T190
+T192	Span 1561 1711	the phosphorylation status of the three novel two-component systems is essential for their function in regulating biofilm development by P. aeruginosa
+T193	Span 2349 2561	While it is not clear how the three two-component systems interact to form the observed sequential phosphorylation cascade, it is apparent from our observations that phosphorylation of each of the three novel TCS
+T194	Causality 2562 2574	has to occur
+E31	Causality:T194 Effect:T195 Evidence:T193
+T195	Span 2575 2611	for P. aeruginosa biofilms to mature
+T196	Span 2813 2976	Since inactivation of each TCS system resulted in altered or arrested biofilms which failed to exhibit stage-specific protein production and phosphorylation events
+T197	Causality 3008 3025	it is likely that
+E32	Causality:T197 Effect:T198 Evidence:T196
+T198	Span 3026 3163	the mutant biofilms in turn do not produce the necessary signal(s) to activate or phosphorylate TCS system(s) that are further downstream
+T199	Span 2813 3163	Since inactivation of each TCS system resulted in altered or arrested biofilms which failed to exhibit stage-specific protein production and phosphorylation events (Figs. 1, 4, Suppl. Table S2), it is likely that the mutant biofilms in turn do not produce the necessary signal(s) to activate or phosphorylate TCS system(s) that are further downstream
+T200	Causality 3165 3188	Thus, it is likely that
+E33	Causality:T200 Effect:T201 Evidence:T199
+T201	Span 3189 3288	inactivation of one TCS system (in)directly results in altered or arrested phosphorylation patterns
+T202	Causality 3289 3297	and thus
+E34	Causality:T202 Evidence:T201 Effect:T203
+T203	Span 3299 3367	lack of phosphorylation of downstream TCS systems (as observed here)
+T204	Causality 3399 3417	it is evident that
+E35	Causality:T204 Effect:T205 Evidence:T201
+T205	Span 3418 3635	inactivation not only disrupts the sequence of phosphorylation events but also leads to the collapse of mature biofilms to an earlier biofilm developmental stage at which the respective regulatory proteins play a role
+T206	Span 3655 3851	This is even more important as this biofilm collapse was observed under two different nutritional conditions, when grown on minimal medium using either glutamate or citrate as a sole carbon source
+T207	Causality 3928 3953	The finding suggests that
+E36	Causality:T207 Effect:T208 Evidence:T206
+T208	Span 3954 4305	while biofilm formation, architecture and cell-cell signaling is modulated by environmental and nutritional conditions resulting in biofilm development proceeding via distinctly different pathways [16], [55]-[63], it is possible that the novel regulatory proteins identified here play a role under more than one discrete culturing condition or pathway
+T209	Span 4307 4331	The novelty of these TCS
+T210	Causality 4332 4355	is further supported by
+E37	Causality:T210 Evidence:T211 Effect:T209
+T211	Span 4356 4605	the finding that a search for BfiS (PA4197) and BfmR (PA4101) homologues using BLAST (http://blast.ncbi.nlm.nih.gov/Blast.cgi) and BLINK (precomputed BLAST, [53]), did not reveal any proteins that have been previously characterized in the literature
+T212	Span 5434 5472	Inactivation of crdA has been shown to
+T213	Causality 5473 5482	result in
+E38	Causality:T213 Effect:T214 Evidence:T212
+T214	Span 5483 5527	delayed M. xanthus multicellular development
+T215	Span 6049 6117	The preponderance of developmental promoters with sigma 54 hallmarks
+T216	Causality 6118 6144	led to the suggestion that
+E39	Causality:T216 Effect:T217 Evidence:T215
+T217	Span 6145 6280	NtrC-like activators are key components of the transcriptional machinery that coordinates gene expression during M. xanthus development
+T218	Causality 7408 7441	These results are consistent with
+E40	Causality:T218 Effect:T221 Evidence:T219
+T219	Span 7261 7385	MifR harbors a sigma-54 binding (RpoN) binding domain and is dependent on the consecutive phosphorylation of BfiRS and BfmRS
+T220	Span 7120 7249	Activation of BfiR coincides with BfiS phosphorylation following 8 hours of surface attached growth and dephosphorylation of RpoD
+T221	Span 7443 7816	he idea that biofilm development by P. aeruginosa is orchestrated by a regulatory cascade (Fig. 6) that is analogous to other developmental systems including spore formation in B. subtilis or fruiting body formation in M. xanthus, requiring the consecutive action of at least two sigma factors and three two-component regulatory systems in response to environmental signals
+E41	Causality:T218 Effect:T221 Evidence:T220
+T222	Span 7980 8214	The only other regulatory system having been identified to play a role at later stages of biofilm formation, in particular the formation of large microcolonies and fluid-filled channels, is the three-component system SadARS (RocS1RA1)
+T223	Causality 8216 8216	
+E42	Causality:T223 Effect:T222 Evidence:T224
+T224	Span 8216 8276	probably by controlling the expression of fimbrial cup genes
+T225	Span 9057 9087	confirmed GacS phosphorylation
+T226	Causality 9088 9090	by
+E43	Causality:T226 Evidence:T227 Effect:T225
+T227	Span 9091 9110	immunoblot analysis
+T228	Span 9122 9300	GacS acts as a suppressor of RetS (and vice versa) with RetS regulating the suppressor activity of the membrane-bound sensor GacS by directly modulating its phosphorylation state
+T229	Causality 9307 9337	The finding is consistent with
+E44	Causality:T229 Effect:T230 Evidence:T228
+T230	Span 9338 9467	our observation of GacS playing a dual role in biofilm formation, with phosphorylation acting as a switch in the function of GacS
+T231	Span 9670 9828	Since phosphorylation of GacS occurred following 8 hr of surface attached growth (Table 1) and since RetS directly modulates the phosphorylation state of GacS
+T232	Causality 9835 9864	the findings may suggest that
+E45	Causality:T232 Effect:T233 Evidence:T231
+T233	Span 9865 9987	RetS only remains functional for a period of 8 hours during initial attachment after which RetS is rendered non-functional
+T234	Span 9670 9986	Since phosphorylation of GacS occurred following 8 hr of surface attached growth (Table 1) and since RetS directly modulates the phosphorylation state of GacS [38], the findings may suggest that RetS only remains functional for a period of 8 hours during initial attachment after which RetS is rendered non-functiona
+T235	Span 10059 10155	In turn, expression of the BfiS cognate response regulator, BfiR, was found to be RsmA dependent
+T237	Span 10216 10553	a link between the multi-component switch RetS/LadS/GacAS/RsmA which reciprocally regulates virulence and the transition between the planktonic and the surface attached mode of growth and the previously undescribed signaling network which regulates developmental steps once P. aeruginosa has committed to the surface associated lifestyle
+T236	Causality 10175 10215	Taken together, our observations suggest
+E46	Causality:T236 Effect:T237 Evidence:T235
+E47	Causality:T236 Effect:T237 Evidence:T234
+T238	Span 10993 11120	the finding of sequential and essential regulatory steps in biofilm formation and the involvement of at least two sigma factors
+T239	Causality 11121 11134	suggests that
+E48	Causality:T239 Effect:T240 Evidence:T238
+T240	Span 11135 11211	biofilm development is analogous to other programmed developmental processes
+#1	AnnotatorNotes E43	not sure

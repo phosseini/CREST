@@ -1,0 +1,48 @@
+T22	Phosphorylation 88 102	phosphorylated
+T23	Positive_regulation 113 122	dependent
+T24	Negative_regulation 255 267	Inactivation
+T25	Phosphorylation 1716 1731	phosphorylation
+E1	Phosphorylation:T22 Theme:T3
+E2	Positive_regulation:T23 Theme:E1 Cause:T4
+E3	Negative_regulation:T24 Theme:T9
+E4	Phosphorylation:T25 Theme:T21
+T1	Protein 0 4	GacS
+T2	Organism 26 39	P. aeruginosa
+T3	Protein 67 71	GacS
+T4	Protein 108 112	BfiS
+T5	Organism 176 192	DeltagacS mutant
+T6	Protein 181 185	gacS
+T7	Organism 235 244	DeltabfiS
+T8	Protein 240 244	bfiS
+T9	Protein 271 275	gacS
+T10	Organism 448 457	DeltagacS
+T11	Protein 453 457	gacS
+T12	Organism 674 683	DeltagacS
+T13	Protein 679 683	gacS
+T14	Organism 908 917	DeltagacS
+T15	Protein 913 917	gacS
+T16	Organism 1206 1215	DeltagacS
+T17	Protein 1211 1215	gacS
+T18	Organism 1434 1443	DeltagacS
+T19	Protein 1439 1443	gacS
+T20	Protein 1619 1623	GacS
+T21	Protein 1742 1746	GacS
+T26	Span 406 481	Closer inspection of biofilm formation by DeltagacS over a period of 144 hr
+T27	Causality 492 506	indicated that
+E5	Causality:T27 Effect:T28 Evidence:T26
+T28	Span 507 672	the biofilm architecture (seen after 144 hr) was due to accelerated biofilm growth followed by premature disaggregation of biofilms as compared to wild type biofilms
+T29	Span 1125 1231	Continued growth for more than 72 hr, however, resulted in the disaggregation of DeltagacS mutant biofilms
+T30	Causality 1232 1247	as indicated by
+E6	Causality:T30 Effect:T31 Evidence:T29
+T31	Span 1248 1392	the presence of large, detached clusters floating in the bulk liquid, and a significantly reduced attached biofilm biomass and biofilm thickness
+T32	Span 674 876	DeltagacS mutant biofilms were significantly thicker than wild type biofilms following 1 and 72 hr of growth under flowing conditions, forming microcolonies and clusters exceeding 150 microm in diameter
+T33	Span 887 1105	At both time points, DeltagacS biofilms not only exceeded the average microcolony size typically seen for wild type biofilms of the same age, but also the biomass and thickness of wild type biofilms at more mature ages
+T34	Causality 1412 1416	Thus
+E7	Causality:T34 Effect:T35 Evidence:T33
+T35	Span 1418 1577	while growth of DeltagacS mutant biofilms following 24 hr post attachment was accelerated (Fig. 3), initial attachment was significantly reduced in this mutant
+E8	Causality:T34 Effect:T35 Evidence:T32
+T36	Span 61 155	Since GacS was found to be phosphorylated in a BfiS-dependent manner following 8 hrs of growth
+T37	Causality 1591 1618	These findings suggest that
+E9	Causality:T37 Effect:T38 Evidence:T35
+T38	Span 1619 1746	GacS may play a dual role in regulating biofilm formation, which in turn may be dependent on the phosphorylation status of GacS
+E10	Causality:T37 Effect:T38 Evidence:T36

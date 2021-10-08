@@ -1,0 +1,84 @@
+T1	Organism 16 26	DeltasalKR
+T2	Two-component-system 21 26	salKR
+T3	Protein 21 25	salK
+T4	Protein 25 26	R
+T5	Two-component-system 48 57	SalK/SalR
+T6	Protein 48 52	SalK
+T7	Protein 53 57	SalR
+T8	Organism 81 84	SS2
+T9	Two-component-system 136 141	salKR
+T10	Protein 136 140	salK
+T11	Protein 140 141	R
+T12	Protein 149 153	SpcR
+T13	Organism 220 227	05ZYH33
+T14	Chemical 323 336	spectinomycin
+T15	Two-component-system 395 400	salKR
+T16	Protein 395 399	salK
+T17	Protein 399 400	R
+T18	Two-component-system 471 476	salKR
+T19	Protein 471 475	salK
+T20	Protein 475 476	R
+T21	Protein 608 612	SpcR
+T22	Two-component-system 643 648	salKR
+T23	Protein 643 647	salK
+T24	Protein 647 648	R
+T25	Organism 695 702	05ZYH33
+T26	Two-component-system 729 734	salKR
+T27	Protein 729 733	salK
+T28	Protein 733 734	R
+T29	Protein 819 823	SpcR
+T30	Protein 982 986	SpcR
+T31	Two-component-system 1085 1090	salKR
+T32	Protein 1085 1089	salK
+T33	Protein 1089 1090	R
+T34	Protein 1219 1223	SpcR
+T35	Two-component-system 1326 1331	salKR
+T36	Protein 1326 1330	salK
+T37	Protein 1330 1331	R
+T38	Two-component-system 1428 1433	salKR
+T39	Protein 1428 1432	salK
+T40	Protein 1432 1433	R
+T41	Two-component-system 1527 1532	salKR
+T42	Protein 1527 1531	salK
+T43	Protein 1531 1532	R
+T44	Two-component-system 1610 1615	salKR
+T45	Protein 1610 1614	salK
+T46	Protein 1614 1615	R
+T47	Protein 1629 1633	SpcR
+T48	Two-component-system 1896 1901	salKR
+T49	Protein 1896 1900	salK
+T50	Protein 1900 1901	R
+T51	Organism 1910 1920	DeltasalKR
+T52	Two-component-system 1915 1920	salKR
+T53	Protein 1915 1919	salK
+T54	Protein 1919 1920	R
+T55	Protein 2002 2006	salK
+T56	Protein 2011 2015	salR
+T57	Organism 2040 2050	DeltasalKR
+T58	Two-component-system 2045 2050	salKR
+T59	Protein 2045 2049	salK
+T60	Protein 2049 2050	R
+T61	Two-component-system 2098 2103	salKR
+T62	Protein 2098 2102	salK
+T63	Protein 2102 2103	R
+T64	Transcription 2025 2036	transcribed
+E1	Transcription:T64 Theme:T55
+M1	Negation E1
+E2	Transcription:T64 Theme:T56
+M2	Negation E2
+T67	Span 1407 1538	this strain had pUC::salKR integrated into its chromosome by a single cross-over event at the 3'-flanking region of the salKR genes
+#1	AnnotatorNotes T67	Effect
+T70	Span 1555 1811	Additionally, the allelic replacement of the wild-type salKR genes by the SpcR cassette in the suspected mutant was also confirmed by multiple-PCR analysis and sequencing with primers specific to genomic regions lying out the homologous left and right arms
+T71	Causality 1830 1864	All these results demonstrate that
+E6	Causality:T71 Effect:T72 Cause:T70
+T72	Span 1865 1950	an isogenic knockout mutant of salKR (namely DeltasalKR) was successfully constructed
+T74	Span 1952 1981	RT-PCR experiments later also
+T75	Causality 1982 1988	showed
+E7	Causality:T75 Evidence:T74 Effect:T76
+T76	Span 1994 2050	neither salK nor salR could be transcribed in DeltasalKR
+T77	Causality 2069 2097	which further confirmed that
+E8	Causality:T77 Evidence:T76 Effect:T78
+T78	Span 2098 2150	salKR had been deleted from the bacterial chromosome
+T66	Causality 1391 1406	indicating that
+E4	Causality:T66 Evidence:T65 Effect:T67
+T65	Span 1148 1371	In a single cross-over mutant which was set as the reference, both the SpcR and pUC18 probe hybridized with a 6.1 kb Cla I restriction fragment (Fig. 3B and 3D, lane 3), and the salKR probe hybridized with a 4.0 kb fragment

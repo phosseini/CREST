@@ -1,0 +1,214 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_1014</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-26</TIMEX3></DCT>
+<TEXT>
+ Anheuser - Busch Cos.
+ <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="I_STATE">plans</EVENT> to aggressively <EVENT eid="e3" class="OCCURRENCE">discount</EVENT> its major beer brands, <EVENT eid="e4" class="OCCURRENCE">setting</EVENT> the stage for a potentially bruising price <EVENT eid="e5" class="OCCURRENCE">war</EVENT> <C-SIGNAL cid="c6">as</C-SIGNAL> the maturing industry's <EVENT eid="e7" class="OCCURRENCE">growth</EVENT> <EVENT eid="e8" class="ASPECTUAL">continues</EVENT> to <EVENT eid="e9" class="OCCURRENCE">slow</EVENT>.
+ Anheuser, the world's largest brewer and U.S. market leader, has historically been <EVENT eid="e10" class="I_STATE">reluctant</EVENT> to <EVENT eid="e11" class="OCCURRENCE">engage</EVENT> in <EVENT eid="e12" class="OCCURRENCE">price-cutting</EVENT> as a means of <EVENT eid="e13" class="OCCURRENCE">boosting</EVENT> sales volume.
+ With the <EVENT eid="e14" class="OCCURRENCE">passing</EVENT> of the heady <TIMEX3 tid="t15" type="DURATION" value="PXD" functionInDocument="NONE">days</TIMEX3> of swelling industry sales, however, the once-sporadic and brief <EVENT eid="e16" class="OCCURRENCE">forays</EVENT> into <EVENT eid="e17" class="OCCURRENCE">discounting</EVENT> are <EVENT eid="e18" class="OCCURRENCE">becoming</EVENT> standard competitive weapons in the beer industry.
+ Over the <TIMEX3 tid="t19" type="DATE" value="1989-SU" anchorTimeID="t0" functionInDocument="NONE">summer</TIMEX3>, Anheuser competitors <EVENT eid="e20" class="I_ACTION">offered</EVENT> more and deeper <EVENT eid="e21" class="OCCURRENCE">discounts</EVENT> than industry observers have <EVENT eid="e22" class="PERCEPTION">seen</EVENT> for a long time.
+ Some experts <TIMEX3 tid="t23" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">now</TIMEX3> <EVENT eid="e24" class="OCCURRENCE">predict</EVENT> Anheuser's <EVENT eid="e25" class="OCCURRENCE">entry</EVENT> into the fray <EVENT eid="e26" class="OCCURRENCE">means</EVENT> near-term earnings <EVENT eid="e27" class="OCCURRENCE">trouble</EVENT> for all the industry players.
+ The St. Louis company <EVENT eid="e28" class="REPORTING">said</EVENT> major rivals, Philip Morris Co.'s Miller Brewing unit and Adolph Coors Co. " have been <EVENT eid="e29" class="OCCURRENCE">following</EVENT> a policy of continuous and deep <EVENT eid="e30" class="OCCURRENCE">discounting</EVENT> for <TIMEX3 tid="t31" type="DURATION" value="P18M" functionInDocument="NONE">at least the past 18 months</TIMEX3> " on their premium brands, <EVENT eid="e32" class="OCCURRENCE">pricing</EVENT> their product as much as 25 cents a 12-pack below Anheuser's Budweiser label in many markets.
+ Anheuser <EVENT eid="e33" class="REPORTING">said</EVENT> it's discounting policy basically would <EVENT eid="e34" class="OCCURRENCE">involve</EVENT> <EVENT eid="e35" class="OCCURRENCE">matching</EVENT> such <EVENT eid="e36" class="OCCURRENCE">moves</EVENT> by rivals on a market-by-market basis.
+ Anheuser - Busch <EVENT eid="e37" class="REPORTING">announced</EVENT> its <EVENT eid="e38" class="I_STATE">plan</EVENT> at the same time it <EVENT eid="e39" class="REPORTING">reported</EVENT> <TIMEX3 tid="t40" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> net income <EVENT eid="e41" class="OCCURRENCE">rose</EVENT> a lower-than-anticipated 5.2 % to $ 238.3 million, or 83 cents a share, from $ 226.5 million, or 78 cents.
+ Third-period sales were $ 2.49 billion, up from last year's $ 2.34 billion.
+ Anheuser <EVENT eid="e42" class="REPORTING">said</EVENT> its new strategy -- <EVENT eid="e43" class="OCCURRENCE">started</EVENT> in some markets <TIMEX3 tid="t44" type="DATE" value="1989-09" anchorTimeID="t0" functionInDocument="NONE">last month</TIMEX3> and <EVENT eid="e45" class="I_STATE">expected</EVENT> to be <EVENT eid="e46" class="OCCURRENCE">applied</EVENT> soon in selected markets nationwide -- will <EVENT eid="e47" class="OCCURRENCE">mean</EVENT> lower-than-anticipated earnings for <TIMEX3 tid="t48" type="DATE" value="1989-H2" functionInDocument="NONE">the last half of 1989</TIMEX3> and for <TIMEX3 tid="t49" type="DATE" value="1990" functionInDocument="NONE">1990</TIMEX3>.
+ The <EVENT eid="e50" class="OCCURRENCE">projection</EVENT> <EVENT eid="e51" class="OCCURRENCE">sent</EVENT> Anheuser shares <EVENT eid="e52" class="OCCURRENCE">plunging</EVENT> $ 4.375 in New York Stock Exchange composite trading <TIMEX3 tid="t53" type="DATE" value="1989-10-25" anchorTimeID="t0" functionInDocument="NONE">yesterday</TIMEX3>.
+ The stock <EVENT eid="e54" class="OCCURRENCE">closed</EVENT> at $ 38.50 on heavy volume of about 3.5 million shares.
+ Shares of Coors, the company's sole publicly traded major competitor, <EVENT eid="e55" class="OCCURRENCE">fell</EVENT> $ 1.50 apiece to $ 19.125 in national over-the-counter trading, apparently on investor concerns over potential <EVENT eid="e56" class="OCCURRENCE">fallout</EVENT> from the coming pricing <EVENT eid="e57" class="OCCURRENCE">struggle</EVENT>.
+ Anheuser <EVENT eid="e58" class="REPORTING">noted</EVENT> that " beer industry sales volume is <TIMEX3 tid="t59" type="DATE" value="1989" functionInDocument="NONE">1989</TIMEX3> is <EVENT eid="e60" class="OCCURRENCE">following</EVENT> the trend that has <EVENT eid="e61" class="OCCURRENCE">characterized</EVENT> <TIMEX3 tid="t62" type="DATE" value="198" functionInDocument="NONE">the last half of the ' 80s</TIMEX3>, with sales volume being essentially <EVENT eid="e63" class="STATE">flat</EVENT> " while <EVENT eid="e64" class="OCCURRENCE">consolidation</EVENT> <EVENT eid="e65" class="OCCURRENCE">creates</EVENT> fewer, bigger players.
+ " We can not <EVENT eid="e66" class="I_ACTION">permit</EVENT> a further <EVENT eid="e67" class="OCCURRENCE">slowing</EVENT> in our volume trend, " Anheuser <EVENT eid="e68" class="REPORTING">said</EVENT>, <EVENT eid="e69" class="REPORTING">adding</EVENT> it will <EVENT eid="e70" class="OCCURRENCE">take</EVENT> " appropriate competitive pricing <EVENT eid="e71" class="OCCURRENCE">actions</EVENT> to <EVENT eid="e72" class="OCCURRENCE">support</EVENT> our long-term market share growth strategy " for the premium brands.
+ Anheuser <EVENT eid="e73" class="REPORTING">said</EVENT> it <EVENT eid="e74" class="ASPECTUAL">continues</EVENT> to <EVENT eid="e75" class="OCCURRENCE">hold</EVENT> to its <EVENT eid="e76" class="STATE">earlier-announced</EVENT> goal of a 50 % U.S. market share by <TIMEX3 tid="t77" type="DATE" value="199" functionInDocument="NONE">the mid-1990s</TIMEX3>.
+ Beneath the tepid news-release jargon <EVENT eid="e78" class="OCCURRENCE">lies</EVENT> a powerful threat from the brewing giant, which last year <EVENT eid="e79" class="OCCURRENCE">accounted</EVENT> for about 41 % of all U.S. beer sales and is <EVENT eid="e80" class="I_STATE">expected</EVENT> to <EVENT eid="e81" class="PERCEPTION">see</EVENT> that <EVENT eid="e82" class="OCCURRENCE">grow</EVENT> to 42.5 % in <TIMEX3 tid="t83" type="DATE" value="1989" anchorTimeID="t0" functionInDocument="NONE">the current year</TIMEX3>.
+ " Anheuser is the biggest guy in the bar, and he just <EVENT eid="e84" class="OCCURRENCE">decided</EVENT> to <EVENT eid="e85" class="OCCURRENCE">join</EVENT> in the barroom <EVENT eid="e86" class="OCCURRENCE">brawl</EVENT>, " <EVENT eid="e87" class="REPORTING">said</EVENT> Joseph J. Doyle, an analyst with Smith Barney, Harris Upham amp Co. " It's going to <EVENT eid="e88" class="OCCURRENCE">get</EVENT> bloody. "
+ Jerry Steinman, publisher of Beer Marketers Insights, a trade newsletter, <EVENT eid="e89" class="REPORTING">said</EVENT> Anheuser's <EVENT eid="e90" class="OCCURRENCE">announcement</EVENT> <EVENT eid="e91" class="OCCURRENCE">means</EVENT> " everybody else in the industry is going to <EVENT eid="e92" class="STATE">have</EVENT> a difficult time <EVENT eid="e93" class="OCCURRENCE">reaching</EVENT> their profit objectives. "
+ Prudential - Bache Securities Inc. analyst George E. Thompson <EVENT eid="e94" class="OCCURRENCE">downplayed</EVENT> the importance of the <EVENT eid="e95" class="OCCURRENCE">announcement</EVENT>, and <EVENT eid="e96" class="OCCURRENCE">called</EVENT> any comparison between the coming beer-industry tiff and the seemingly unending " cola wars, " unwarranted.
+ Mr. Thompson <EVENT eid="e97" class="OCCURRENCE">calls</EVENT> discounting " a loser's game for anyone without a dominant market share, " and <EVENT eid="e98" class="REPORTING">projected</EVENT> that Anheuser's statement of intent could simply be a means of <EVENT eid="e99" class="I_ACTION">warning</EVENT> competitors to <EVENT eid="e100" class="OCCURRENCE">ease</EVENT> up on <EVENT eid="e101" class="OCCURRENCE">price-cutting</EVENT> or face a costly and fruitless <EVENT eid="e102" class="OCCURRENCE">battle</EVENT>.
+ Mr. Thompson <EVENT eid="e103" class="REPORTING">noted</EVENT> that the disappointing earnings, which <EVENT eid="e104" class="OCCURRENCE">fell</EVENT> five cents a share short of his own <EVENT eid="e105" class="OCCURRENCE">projections</EVENT>, <EVENT eid="e106" class="OCCURRENCE">contributed</EVENT> to the sell-off by an edgy and currently unforgiving investing public.
+ But Smith Barney's Mr. Doyle, who <TIMEX3 tid="t107" type="DATE" value="1989-10-25" anchorTimeID="t0" functionInDocument="NONE">yesterday</TIMEX3> <EVENT eid="e108" class="OCCURRENCE">trimmed</EVENT> his <TIMEX3 tid="t109" type="DATE" value="1990" functionInDocument="NONE">1990</TIMEX3> Anheuser earnings projection to $ 2.95 a share from $ 3.10, <EVENT eid="e110" class="OCCURRENCE">called</EVENT> the market's reaction " justified. "
+ While the <TIMEX3 tid="t111" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> earnings were a " moderate disappointment, " he <EVENT eid="e112" class="REPORTING">said</EVENT>, " the real bad news is the <EVENT eid="e113" class="STATE">intensity</EVENT> of price <EVENT eid="e114" class="OCCURRENCE">competition</EVENT> " in the premium-beer sector.
+ <EVENT eid="e115" class="REPORTING">According</EVENT> to Mr. Steinman, the newsletter publisher, Anheuser's market share is nearly twice that of its nearest competitor, Miller Brewing, which <EVENT eid="e116" class="STATE">had</EVENT> a 21.2 % stake <TIMEX3 tid="t117" type="DATE" value="1988" anchorTimeID="t0" functionInDocument="NONE">last year</TIMEX3>.
+ It's <EVENT eid="e118" class="OCCURRENCE">followed</EVENT> by Stroh Brewery Co., which has <EVENT eid="e119" class="I_ACTION">agreed</EVENT> to <EVENT eid="e120" class="OCCURRENCE">sell</EVENT> its assets to Coors.
+ Both Coors and Stroh have recently been <EVENT eid="e121" class="OCCURRENCE">ceding</EVENT> market share to Miller and Anheuser.
+</TEXT>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e119" eiid="ei119" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e120" eiid="ei120" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e121" eiid="ei121" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e118" eiid="ei118" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e58" eiid="ei58" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e55" eiid="ei55" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e54" eiid="ei54" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e57" eiid="ei57" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e56" eiid="ei56" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e51" eiid="ei51" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e50" eiid="ei50" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e52" eiid="ei52" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e115" eiid="ei115" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e114" eiid="ei114" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e88" eiid="ei88" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e89" eiid="ei89" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e110" eiid="ei110" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e113" eiid="ei113" tense="PRESENT" aspect="NONE" polarity="POS" pos="OTHER"/>
+<MAKEINSTANCE eventID="e112" eiid="ei112" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e82" eiid="ei82" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e80" eiid="ei80" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e81" eiid="ei81" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e86" eiid="ei86" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e87" eiid="ei87" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e84" eiid="ei84" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e85" eiid="ei85" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e108" eiid="ei108" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e102" eiid="ei102" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e103" eiid="ei103" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e100" eiid="ei100" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e101" eiid="ei101" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e106" eiid="ei106" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e104" eiid="ei104" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e105" eiid="ei105" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e39" eiid="ei39" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e38" eiid="ei38" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e37" eiid="ei37" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e60" eiid="ei60" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e61" eiid="ei61" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e63" eiid="ei63" tense="PRESENT" aspect="NONE" polarity="POS" pos="OTHER"/>
+<MAKEINSTANCE eventID="e64" eiid="ei64" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e65" eiid="ei65" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e66" eiid="ei66" tense="NONE" aspect="NONE" polarity="NEG" modality="can" pos="VERB"/>
+<MAKEINSTANCE eventID="e67" eiid="ei67" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e68" eiid="ei68" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e69" eiid="ei69" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e99" eiid="ei99" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e98" eiid="ei98" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e91" eiid="ei91" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e90" eiid="ei90" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e93" eiid="ei93" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e92" eiid="ei92" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e95" eiid="ei95" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e94" eiid="ei94" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e97" eiid="ei97" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e96" eiid="ei96" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="PERFECTIVE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e116" eiid="ei116" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e46" eiid="ei46" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e47" eiid="ei47" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e45" eiid="ei45" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e42" eiid="ei42" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e41" eiid="ei41" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e76" eiid="ei76" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e75" eiid="ei75" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e74" eiid="ei74" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e73" eiid="ei73" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e72" eiid="ei72" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e71" eiid="ei71" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e70" eiid="ei70" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e79" eiid="ei79" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e78" eiid="ei78" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToEventInstance="ei3"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei4" relatedToEventInstance="ei5"/>
+<TLINK lid="l4" relType="DURING" eventInstanceID="ei7" relatedToEventInstance="ei9"/>
+<TLINK lid="l5" relType="DURING" eventInstanceID="ei8" relatedToEventInstance="ei9"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei10" relatedToTime="t0"/>
+<TLINK lid="l8" relType="BEGINS" eventInstanceID="ei11" relatedToEventInstance="ei12"/>
+<TLINK lid="l9" relType="ENDS" eventInstanceID="ei14" relatedToTime="t15"/>
+<TLINK lid="l10" relType="DURING" eventInstanceID="ei16" relatedToTime="t0"/>
+<TLINK lid="l11" relType="SIMULTANEOUS" eventInstanceID="ei17" relatedToEventInstance="ei16"/>
+<TLINK lid="l12" relType="DURING" eventInstanceID="ei18" relatedToTime="t0"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei20" relatedToTime="t19"/>
+<TLINK lid="l14" relType="IDENTITY" eventInstanceID="ei21" relatedToEventInstance="ei3"/>
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei22" relatedToEventInstance="ei20"/>
+<TLINK lid="l16" relType="DURING" eventInstanceID="ei24" relatedToTime="t23"/>
+<TLINK lid="l17" relType="IS_INCLUDED" eventInstanceID="ei26" relatedToEventInstance="ei24"/>
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei28" relatedToTime="t0"/>
+<TLINK lid="l19" relType="IS_INCLUDED" eventInstanceID="ei30" relatedToTime="t31"/>
+<TLINK lid="l20" relType="ENDED_BY" timeID="t31" relatedToTime="t0"/>
+<TLINK lid="l21" relType="SIMULTANEOUS" eventInstanceID="ei32" relatedToEventInstance="ei30"/>
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei33" relatedToTime="t0"/>
+<TLINK lid="l23" relType="SIMULTANEOUS" eventInstanceID="ei34" relatedToEventInstance="ei35"/>
+<TLINK lid="l24" relType="AFTER" eventInstanceID="ei35" relatedToEventInstance="ei36"/>
+<TLINK lid="l25" relType="SIMULTANEOUS" eventInstanceID="ei37" relatedToEventInstance="ei39"/>
+<TLINK lid="l26" relType="AFTER" eventInstanceID="ei39" relatedToTime="t40"/>
+<TLINK lid="l27" relType="ENDS" eventInstanceID="ei41" relatedToTime="t40"/>
+<TLINK lid="l28" relType="BEFORE" eventInstanceID="ei42" relatedToTime="t0"/>
+<TLINK lid="l29" relType="IS_INCLUDED" eventInstanceID="ei43" relatedToTime="t44"/>
+<TLINK lid="l30" relType="DURING" eventInstanceID="ei45" relatedToTime="t0"/>
+<TLINK lid="l31" relType="ENDS" eventInstanceID="ei47" relatedToTime="t48"/>
+<TLINK lid="l32" relType="ENDS" eventInstanceID="ei47" relatedToTime="t49"/>
+<TLINK lid="l33" relType="IDENTITY" eventInstanceID="ei50" relatedToEventInstance="ei42"/>
+<TLINK lid="l34" relType="SIMULTANEOUS" eventInstanceID="ei50" relatedToEventInstance="ei51"/>
+<TLINK lid="l36" relType="BEFORE" eventInstanceID="ei51" relatedToEventInstance="ei52"/>
+<TLINK lid="l37" relType="IS_INCLUDED" eventInstanceID="ei52" relatedToTime="t53"/>
+<TLINK lid="l38" relType="IS_INCLUDED" eventInstanceID="ei54" relatedToTime="t53"/>
+<TLINK lid="l39" relType="IS_INCLUDED" eventInstanceID="ei55" relatedToTime="t53"/>
+<TLINK lid="l40" relType="AFTER" eventInstanceID="ei56" relatedToEventInstance="ei57"/>
+<TLINK lid="l41" relType="BEFORE" eventInstanceID="ei58" relatedToTime="t0"/>
+<TLINK lid="l42" relType="DURING" eventInstanceID="ei61" relatedToTime="t62"/>
+<TLINK lid="l43" relType="DURING" eventInstanceID="ei63" relatedToTime="t59"/>
+<TLINK lid="l44" relType="SIMULTANEOUS" eventInstanceID="ei65" relatedToEventInstance="ei64"/>
+<TLINK lid="l45" relType="SIMULTANEOUS" eventInstanceID="ei69" relatedToEventInstance="ei68"/>
+<TLINK lid="l46" relType="IDENTITY" eventInstanceID="ei71" relatedToEventInstance="ei70"/>
+<TLINK lid="l47" relType="BEFORE" eventInstanceID="ei73" relatedToTime="t77"/>
+<TLINK lid="l48" relType="IS_INCLUDED" eventInstanceID="ei75" relatedToTime="t0"/>
+<TLINK lid="l49" relType="BEFORE" eventInstanceID="ei76" relatedToEventInstance="ei73"/>
+<TLINK lid="l50" relType="DURING" eventInstanceID="ei78" relatedToTime="t0"/>
+<TLINK lid="l51" relType="DURING" eventInstanceID="ei80" relatedToTime="t83"/>
+<TLINK lid="l52" relType="INCLUDES" timeID="t83" relatedToEventInstance="ei82"/>
+<TLINK lid="l53" relType="DURING" eventInstanceID="ei86" relatedToEventInstance="ei85"/>
+<TLINK lid="l54" relType="AFTER" eventInstanceID="ei88" relatedToEventInstance="ei87"/>
+<TLINK lid="l55" relType="BEFORE" eventInstanceID="ei90" relatedToEventInstance="ei89"/>
+<TLINK lid="l56" relType="AFTER" eventInstanceID="ei92" relatedToEventInstance="ei89"/>
+<TLINK lid="l57" relType="SIMULTANEOUS" eventInstanceID="ei92" relatedToEventInstance="ei93"/>
+<TLINK lid="l58" relType="AFTER" eventInstanceID="ei94" relatedToEventInstance="ei95"/>
+<TLINK lid="l59" relType="IDENTITY" eventInstanceID="ei95" relatedToEventInstance="ei90"/>
+<TLINK lid="l60" relType="SIMULTANEOUS" eventInstanceID="ei96" relatedToEventInstance="ei94"/>
+<TLINK lid="l61" relType="SIMULTANEOUS" eventInstanceID="ei97" relatedToEventInstance="ei96"/>
+<TLINK lid="l62" relType="SIMULTANEOUS" eventInstanceID="ei98" relatedToEventInstance="ei97"/>
+<TLINK lid="l63" relType="DURING" eventInstanceID="ei101" relatedToEventInstance="ei98"/>
+<TLINK lid="l64" relType="AFTER" eventInstanceID="ei102" relatedToEventInstance="ei99"/>
+<TLINK lid="l65" relType="BEFORE" eventInstanceID="ei104" relatedToEventInstance="ei103"/>
+<TLINK lid="l66" relType="BEFORE" eventInstanceID="ei105" relatedToEventInstance="ei104"/>
+<TLINK lid="l67" relType="INCLUDES" timeID="t107" relatedToEventInstance="ei108"/>
+<TLINK lid="l68" relType="AFTER" timeID="t109" relatedToEventInstance="ei108"/>
+<TLINK lid="l69" relType="BEFORE" eventInstanceID="ei110" relatedToTime="t0"/>
+<TLINK lid="l70" relType="DURING" eventInstanceID="ei113" relatedToTime="t111"/>
+<TLINK lid="l71" relType="DURING" eventInstanceID="ei114" relatedToEventInstance="ei112"/>
+<TLINK lid="l72" relType="IS_INCLUDED" eventInstanceID="ei115" relatedToTime="t0"/>
+<TLINK lid="l73" relType="IS_INCLUDED" eventInstanceID="ei116" relatedToTime="t117"/>
+<TLINK lid="l74" relType="DURING" eventInstanceID="ei118" relatedToTime="t0"/>
+<TLINK lid="l75" relType="BEFORE" eventInstanceID="ei119" relatedToTime="t0"/>
+<TLINK lid="l76" relType="DURING" eventInstanceID="ei121" relatedToTime="t0"/>
+<CLINK lid="l6" c-signalID="c6" eventInstanceID="ei8" relatedToEventInstance="ei4"/>
+<CLINK lid="l35" eventInstanceID="ei50" relatedToEventInstance="ei52"/>
+</TimeML>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0150</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-02</TIMEX3></DCT>
+<TEXT>
+ A.L. Williams Corp. was <EVENT eid="e1" class="OCCURRENCE">merged</EVENT> into Primerica Corp., New York, after a special <EVENT eid="e2" class="OCCURRENCE">meeting</EVENT> of Williams shareholders <EVENT eid="e3" class="I_ACTION">cleared</EVENT> the <EVENT eid="e4" class="OCCURRENCE">transaction</EVENT>, the companies <EVENT eid="e5" class="REPORTING">said</EVENT>.
+ Primerica, which had <EVENT eid="e6" class="STATE">owned</EVENT> nearly 70 % of Williams, will <EVENT eid="e7" class="OCCURRENCE">pay</EVENT> about 16.7 million shares, <TIMEX3 tid="t8" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">currently</TIMEX3> <EVENT eid="e9" class="STATE">valued</EVENT> at almost $ 472 million, for the rest of Williams.
+ The financial-services company will <EVENT eid="e10" class="OCCURRENCE">pay</EVENT> 0.82 share for each Williams share.
+ Williams shares, which were to be <EVENT eid="e11" class="OCCURRENCE">delisted</EVENT> from the New York Stock Exchange after the <EVENT eid="e12" class="OCCURRENCE">close</EVENT> of composite trading <TIMEX3 tid="t13" type="DATE" value="1989-11-01" anchorTimeID="t0" functionInDocument="NONE">yesterday</TIMEX3>, <EVENT eid="e14" class="OCCURRENCE">closed</EVENT> at $ 23.25, off 12.5 cents.
+ Primerica <EVENT eid="e15" class="I_ACTION">closed</EVENT> at $ 28.25, down 50 cents.
+ Williams, Duluth, Ga., is an insurance and financial-services holding company.
+ Its subsidiaries ' services are marketed by closely held A.L. Williams amp Associates.
+ Primerica, as expected, also <EVENT eid="e16" class="OCCURRENCE">acquired</EVENT> certain assets of the agency and <EVENT eid="e17" class="OCCURRENCE">assumed</EVENT> certain of its liabilities.
+ Terms weren't <EVENT eid="e18" class="REPORTING">disclosed</EVENT>.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei2"/>
+<TLINK lid="l2" relType="INCLUDES" eventInstanceID="ei2" relatedToEventInstance="ei3"/>
+<TLINK lid="l3" relType="IDENTITY" eventInstanceID="ei4" relatedToEventInstance="ei1"/>
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t0"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0"/>
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei7" relatedToTime="t0"/>
+<TLINK lid="l7" relType="INCLUDES" timeID="t8" relatedToTime="t0"/>
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t8"/>
+<TLINK lid="l9" relType="AFTER" eventInstanceID="ei10" relatedToTime="t0"/>
+<TLINK lid="l10" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToEventInstance="ei7"/>
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei11" relatedToEventInstance="ei12"/>
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei12" relatedToTime="t13"/>
+<TLINK lid="l13" relType="IBEFORE" timeID="t13" relatedToTime="t0"/>
+<TLINK lid="l14" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t13"/>
+<TLINK lid="l15" relType="IS_INCLUDED" eventInstanceID="ei15" relatedToTime="t13"/>
+<TLINK lid="l16" relType="SIMULTANEOUS" eventInstanceID="ei16" relatedToEventInstance="ei4"/>
+<TLINK lid="l17" relType="SIMULTANEOUS" eventInstanceID="ei17" relatedToEventInstance="ei4"/>
+<TLINK lid="l18" relType="IS_INCLUDED" eventInstanceID="ei18" relatedToTime="t0"/>
+</TimeML>

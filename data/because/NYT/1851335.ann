@@ -1,0 +1,75 @@
+T1	NonCausal 175 181	before
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 104 174	he had read the classified October 2002 National Intelligence Estimate
+T3	Argument 182 215	voting to authorize force in Iraq
+T4	NonCausal 509 513	over
+E2	NonCausal:T4 Arg0:T5 Arg1:T6
+A2	Temporal E2
+T5	Argument 514 527	the last week
+T6	Argument 452 508	The issue of who had read the full report has bubbled up
+T7	NonCausal 616 622	before
+E3	NonCausal:T7 Arg0:T8 Arg1:T9
+A3	Temporal E3
+T8	Argument 546 615	Senator Hillary Rodham Clinton, Democrat of New York, had not read it
+T9	Argument 623 656	voting to authorize force in Iraq
+T10	NonCausal 919 923	when
+E4	NonCausal:T10 Arg0:T11 Arg1:T12
+A4	Temporal E4
+T11	Argument 924 985	the interviewer, Elliot Schrage, spoke with him about the war
+T12	Argument 853 918	The issue surfaced for Mr. Edwards at a forum sponsored by Google
+T13	Consequence 1657 1660	Why
+E5	Consequence:T13 Effect:T14
+A5	Degree E5 Facilitate
+T14	Argument 1661 1682	does America not know
+T15	Consequence 2819 2824	until
+E6	Consequence:T15 Effect:T16 Cause:T17
+A6	Degree E6 Inhibit
+T16	Argument 2781 2818	American troops should remain in Iraq
+T17	Argument 2825 2867	some level of stability was achieved there
+A7	Temporal E6
+T18	Purpose 2910 2912	to
+E7	Purpose:T18 Cause:T20 Effect:T19
+A8	Degree E7 Facilitate
+T19	Argument 2870 2909	Mr. Giuliani used the endorsement event
+T20	Argument 2913 3028	announce an ambitious proposal to set up a system to monitor and measure the success of nearly every federal agency
+T21	Purpose 3094 3096	to
+E8	Purpose:T21 Effect:T22 Cause:T23
+A9	Degree E8 Facilitate
+T22	Argument 3071 3093	what New York City did
+T23	Argument 3097 3176	monitor the effectiveness of the Police Department through the Compstat program
+T24	NonCausal 3313 3317	when
+E9	NonCausal:T24 Arg1:T25 Arg0:T26
+A10	Temporal E9
+T25	Argument 3285 3312	who was police commissioner
+T26	Argument 3318 3352	Mr. Giuliani was mayor of New York
+T27	Purpose 3396 3398	to
+E10	Purpose:T27 Effect:T28 Cause:T29
+A11	Degree E10 Facilitate
+T28	Argument 3197 3394	he met yesterday in Los Angeles with Chief William J. Bratton of the Police Department, who was police commissioner when Mr. Giuliani was mayor of New York and an originator of the Compstat program
+T29	Argument 3399 3469	discuss how its basic concepts could be applied to government agencies
+T30	NonCausal 3502 3507	since
+E11	NonCausal:T30 Arg0:T32 Arg1:T31
+A13	Temporal E11
+T31	Argument 3471 3501	The two men had been estranged
+T32	Argument 3508 3552	Mr. Bratton left the Giuliani administration
+T33	Motivation 3626 3628	as
+E12	Motivation:T33 Effect:T34 Cause:T35
+A14	Degree E12 Facilitate
+A15	Temporal E12
+T34	Argument 3595 3625	Mr. Giuliani is mending fences
+T35	Argument 3629 3659	he mounts his presidential bid
+T36	Note 3729 3731	to
+#1	AnnotatorNotes T36	Purpose of existence
+T37	Purpose 3785 3787	to
+E13	Purpose:T37 Cause:T39 Effect:T38
+A16	Degree E13 Facilitate
+T38	Argument 3707 3728;3776 3784	real-time information was used
+T39	Argument 3788 3864	hold police commanders responsible for upticks in crime under their commands
+#2	AnnotatorNotes E11	An external unstated state (Giuliani being mad that Bratton got too much credit) is the cause; the relationship between these two is just temporal enablement
+T40	Consequence 528 532	with
+E14	Consequence:T40 Arg1:T42 Arg0:T41
+A12	Context E14
+T41	Argument 533 719	reports that Senator Hillary Rodham Clinton, Democrat of New York, had not read it before voting to authorize force in Iraq, even though she and other senators had access to the document
+T42	Argument 452 527	The issue of who had read the full report has bubbled up over the last week
+A17	Degree E14 Facilitate

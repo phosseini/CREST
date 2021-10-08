@@ -1,0 +1,20 @@
+T9	Process 3087 3096	infection
+T10	Process 3149 3155	infect
+T11	Process 3765 3774	virulence
+T12	Process 4197 4206	infection
+E1	Process:T9 
+E2	Process:T10 
+E3	Process:T11 
+E4	Process:T12 
+T1	Organism 2981 3001	group A streptococci
+T2	Organism 3003 3025	Streptococcus pyogenes
+T3	Organism 3047 3052	human
+T4	Organism 3160 3165	human
+T5	Organism 3360 3372	streptococci
+T6	Organism 3892 3904	streptococci
+T7	Organism 4136 4148	streptococci
+T8	Organism 4228 4233	human
+T13	Causality 3878 3891	indicate that
+E5	Causality:T13 Evidence:T14 Effect:T15
+T14	Span 3784 3877	Although the mechanisms mediating these responses are not known, the results of these studies
+T15	Span 3892 4014	streptococci sense and, on a transcriptional level, respond to various signals and cues in the pharyngeal cell environment

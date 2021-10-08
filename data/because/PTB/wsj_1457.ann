@@ -1,0 +1,97 @@
+T1	NonCausal 53 55	As
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 56 123	they stumble and bumble toward election day two weeks from tomorrow
+T3	Argument 125 199	both Democrat David Dinkins and Republican Rudolph Giuliani are in trouble
+T4	Consequence 287 294	because
+E2	Consequence:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+T5	Argument 202 286	Mr. Dinkins, the Manhattan borough president, can afford more bumbling and stumbling
+T6	Argument 295 367	he holds a comfortable 20-point lead in most of the public-opinion polls
+T7	NonCausal 534 540	should
+E3	NonCausal:T7 Arg1:T9 Arg0:T8
+A4	Hypothetical E3
+T8	Argument 541 579	he become New York's first black mayor
+T9	Argument 463 533	that could adversely affect his ability to govern this tumultuous city
+T10	NonCausal 901 903	at
+E4	NonCausal:T10 Arg0:T11 Arg1:T12
+A3	Temporal E4
+T11	Argument 904 922	the crucial moment
+T12	Argument 924 949	he's running out of money
+T13	Consequence 1956 1962	helped
+E5	Consequence:T13 Effect:T14 Cause:T15
+A5	Degree E5 Facilitate
+T14	Argument 1963 1997	put George Bush in the White House
+T15	Argument 1932 1955	whose last big campaign
+T16	Consequence 2214 2219;2225 2227	needs to
+E6	Consequence:T16 Cause:T19 Effect:T20
+A6	Degree E6 Facilitate
+T17	Consequence 2110 2113	For
+E7	Consequence:T17 Cause:T18
+A7	Degree E7 Facilitate
+T18	Argument 2115 2296	just as Mr. Giuliani latches on to an issue that has Mr. Dinkins reeling, his campaign desperately needs cash to keep Mr. Ailes's commercials on the air beyond Wednesday or Thursday
+T19	Argument 2220 2224	cash
+T20	Argument 2228 2296	keep Mr. Ailes's commercials on the air beyond Wednesday or Thursday
+T21	Consequence 2164 2167	has
+E8	Consequence:T21 Effect:T22 Cause:T23
+A8	Degree E8 Facilitate
+T22	Argument 2168 2187	Mr. Dinkins reeling
+T23	Argument 2159 2163	that
+T24	Argument 2150 2158	an issue
+R1	Coref Arg1:T23 Arg2:T24	
+T25	Consequence 3678 3685	because
+E9	Consequence:T25 Effect:T26 Cause:T27
+A9	Degree E9 Facilitate
+T26	Argument 3608 3670	He defeated the contentious Mr. Koch in the Democratic primary
+T27	Argument 3686 3759	he seemed to offer hope he could heal the city's racial and ethnic wounds
+T28	Purpose 4116 4118	to
+E10	Purpose:T28 Cause:T29 Effect:T30
+A10	Degree E10 Facilitate
+T29	Argument 4119 4155	pick up votes leaning to Mr. Dinkins
+T30	Argument 4059 4115	The 45-year-old Mr. Giuliani has run a negative campaign
+T31	Purpose 5027 5030	for
+E11	Purpose:T31 Cause:T32 Effect:T33
+A11	Degree E11 Facilitate
+T32	Argument 5031 5054	help with Jewish voters
+T33	Argument 4992 5026	he turned to comedian Jackie Mason
+T34	Motivation 5084 5089	after
+E12	Motivation:T34 Cause:T35 Effect:T36
+A12	Degree E12 Facilitate
+A13	Temporal E12
+T35	Argument 5090 5164	telling reporters Mr. Dinkins is ``a fancy `shvartzer' with a moustache.''
+T36	Argument 5056 5083	Mr. Mason left the campaign
+T37	Purpose 5477 5479	to
+E13	Purpose:T37 Cause:T38 Effect:T39
+A14	Degree E13 Facilitate
+T38	Argument 5480 5520	get out the vote on primary-election day
+T39	Argument 5423 5476	The Dinkins campaign paid Mr. Carson close to $10,000
+T40	NonCausal 5788 5792	when
+E14	NonCausal:T40 Arg0:T42 Arg1:T41
+A15	Temporal E14
+T41	Argument 5782 5786	1973
+T42	Argument 5793 5833	he was being considered for deputy mayor
+T43	Purpose 6319 6321	to
+E15	Purpose:T43 Cause:T44 Effect:T45
+A16	Degree E15 Facilitate
+T44	Argument 6322 6420	avoid conflict-of-interest problems in his role as a voting member of the city's Board of Estimate
+T45	Argument 6304 6318	sold the stock
+T46	Consequence 6322 6327	avoid
+E16	Consequence:T46 Effect:T47 Means:T45 Cause:T61
+A17	Degree E16 Inhibit
+T47	Argument 6328 6420	conflict-of-interest problems in his role as a voting member of the city's Board of Estimate
+T48	Motivation 6629 6634	until
+E17	Motivation:T48 Effect:T49 Cause:T50
+A18	Degree E17 Inhibit
+A19	Temporal E17
+T49	Argument 6603 6628	He waits to talk about it
+T50	Argument 6635 6655	after he gets caught
+T53	Consequence 6689 6692	why
+E19	Consequence:T53 Effect:T54
+A22	Degree E19 Facilitate
+T54	Argument 6693 6765	something worth a million dollars ended up worth $58,000 two years later
+T55	Consequence 7311 7316	makes
+E20	Consequence:T55 Cause:T56 Effect:T57
+A23	Degree E20 Facilitate
+T56	Argument 7308 7310	It
+T57	Argument 7317 7323;7324 7378	people think, maybe this guy isn't so squeaky clean after all
+T61	Argument 6301 6303	he

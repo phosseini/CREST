@@ -1,0 +1,10 @@
+Extracellular DNA Chelates Cations and Induces Antibiotic Resistance in Pseudomonas aeruginosa Biofilms 
+Biofilms are surface-adhered bacterial communities encased in an extracellular matrix composed of DNA, bacterial polysaccharides and proteins, which are up to 1000-fold more antibiotic resistant than planktonic cultures.
+To date, extracellular DNA has been shown to function as a structural support to maintain Pseudomonas aeruginosa biofilm architecture.
+Here we show that DNA is a multifaceted component of P. aeruginosa biofilms.
+At physiologically relevant concentrations, extracellular DNA has antimicrobial activity, causing cell lysis by chelating cations that stabilize lipopolysaccharide (LPS) and the outer membrane (OM).
+DNA-mediated killing occurred within minutes, as a result of perturbation of both the outer and inner membrane (IM) and the release of cytoplasmic contents, including genomic DNA.
+Sub-inhibitory concentrations of DNA created a cation-limited environment that resulted in induction of the PhoPQ- and PmrAB-regulated cationic antimicrobial peptide resistance operon PA3552-PA3559 in P. aeruginosa.
+Furthermore, DNA-induced expression of this operon resulted in up to 2560-fold increased resistance to cationic antimicrobial peptides and 640-fold increased resistance to aminoglycosides, but had no effect on beta-lactam and fluoroquinolone resistance.
+Thus, the presence of extracellular DNA in the biofilm matrix contributes to cation gradients, genomic DNA release and inducible antibiotic resistance.
+DNA-rich environments, including biofilms and other infection sites like the CF lung, are likely the in vivo environments where extracellular pathogens such as P. aeruginosa encounter cation limitation.

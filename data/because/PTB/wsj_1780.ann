@@ -1,0 +1,139 @@
+T1	NonCausal 448 450	if
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A2	Hypothetical E1
+T2	Argument 451 469	it passed Congress
+T3	Argument 395 447	he would urge President Bush to veto the legislation
+T4	Motivation 943 950	because
+E2	Motivation:T4 Effect:T5 Cause:T6
+A3	Degree E2 Facilitate
+T5	Argument 920 942	who supported the bill
+T6	Argument 951 1004	they thought the Transportation Department favored it
+T7	Motivation 1028 1035	because
+E3	Motivation:T7 Effect:T8 Cause:T9
+A4	Degree E3 Facilitate
+T8	Argument 1008 1027	We backed this bill
+T9	Argument 1036 1068	we thought it would help Skinner
+T10	Consequence 1245 1247	if
+E4	Consequence:T10 Effect:T11 Cause:T12
+A5	Degree E4 Facilitate
+A6	Hypothetical E4
+T11	Argument 1205 1244	it would be ``cleaner, more efficient''
+T12	Argument 1248 1293	he had authority to block buy-outs in advance
+T13	Consequence 1397 1403;1414 1416	enough to
+E5	Consequence:T13 Cause:T14 Effect:T15
+A7	Degree E5 Facilitate
+A8	Extremity-sufficiency E5
+T14	Argument 1397 1413	enough authority
+T15	Argument 1417 1435	deal with buy-outs
+T16	Consequence 1540 1542	if
+E6	Consequence:T16 Cause:T18 Effect:T17
+A9	Degree E6 Facilitate
+A10	Hypothetical E6
+T17	Argument 1465 1504;1518 1539;1551 1636	the Transportation secretary would have an additional 20 days to review any proposed purchase of 15% or more of a major U.S. airline's voting stock
+T18	Argument 1543 1549	needed
+T19	NonCausal 1661 1669;1670 1672	required to
+E7	NonCausal:T19 Arg1:T20
+A11	Obligation-permission E7
+T20	Argument 1638 1651;1673 1870	The secretary block an acquisition if he concluded that it would so weaken an airline financially that it would hurt safety or reduce the carrier's ability to compete, or if it gave control to a foreign interest
+T21	Consequence 1694 1696	if
+E8	Consequence:T21 Effect:T22 Cause:T23
+A12	Degree E8 Facilitate
+A13	Hypothetical E8
+T22	Argument 1638 1693	The secretary would be required to block an acquisition
+T23	Argument 1697 1825	he concluded that it would so weaken an airline financially that it would hurt safety or reduce the carrier's ability to compete
+T24	Consequence 1724 1726	so
+E9	Consequence:T24 Cause:T25 Effect:T26
+A14	Degree E9 Facilitate
+A15	Extremity-sufficiency E9
+T25	Argument 1715 1756	it would so weaken an airline financially
+T26	Argument 1762 1870	it would hurt safety or reduce the carrier's ability to compete, or if it gave control to a foreign interest
+T27	Purpose 2100 2111	in order to
+E10	Purpose:T27 Cause:T28 Effect:T29
+A16	Degree E10 Facilitate
+T28	Argument 2112 2122	repay debt
+T29	Argument 2050 2099	an airline might sacrifice costly safety measures
+T30	NonCausal 2489 2495	during
+E11	NonCausal:T30 Arg0:T31 Arg1:T32
+A17	Temporal E11
+T31	Argument 2496 2521	the panel's deliberations
+T32	Argument 2301 2488	``It became apparent in hearings that there ought to be regulation of leveraged buy-outs of some sort,'' Rep. James Oberstar (D., Minn.), chairman of the House Aviation Subcommittee, said
+T33	Motivation 2598 2608	because of
+E12	Motivation:T33 Effect:T34 Cause:T35
+A18	Degree E12 Facilitate
+T34	Argument 2525 2597	I don't believe in the airline business you can be totally laissez-faire
+T35	Argument 2609 2654	the high degree of public interest'' at stake
+T36	Consequence 3076 3081	block
+E13	Consequence:T36 Effect:T37 Cause:T38
+A19	Degree E13 Inhibit
+T37	Argument 3082 3103	a takeover in advance
+T38	Argument 3016 3045	the Transportation Department
+T40	Consequence 3114 3116	if
+E14	Consequence:T40 Cause:T41 Effect:T42
+A20	Degree E14 Facilitate
+A21	Hypothetical E14
+T41	Argument 3117 3195	the secretary concludes that a transaction has made a carrier unfit to operate
+T42	Argument 3197 3261	the department may revoke its certificate, grounding the airline
+T43	Consequence 3164 3168	made
+E15	Consequence:T43 Cause:T44 Effect:T45
+A22	Degree E15 Facilitate
+T44	Argument 3148 3159	transaction
+T45	Argument 3169 3178;3179 3195	a carrier unfit to operate
+T46	Motivation 3385 3387	so
+E16	Motivation:T46 Cause:T47 Effect:T48
+A23	Degree E16 Facilitate
+A24	Extremity-sufficiency E16
+T47	Argument 3385 3395	so drastic
+T48	Argument 3401 3439	the department would hesitate doing it
+T49	Consequence 3530 3535;3565 3567	allow to
+E17	Consequence:T49 Cause:T50 Effect:T51
+A25	Degree E17 Facilitate
+A26	Obligation-permission E17
+T50	Argument 3462 3525	a proposal pushed by AMR Corp., the parent of American Airlines
+T51	Argument 3536 3564;3568 3663	the Transportation secretary block corporate raiders from waging proxy fights to oust boards that oppose a leveraged buy-out
+T52	Consequence 3568 3573;3592 3596	block from
+E18	Consequence:T52 Cause:T53 Effect:T54
+A27	Degree E18 Inhibit
+T53	Argument 3536 3564	the Transportation secretary
+T54	Argument 3574 3591;3597 3663	corporate raiders waging proxy fights to oust boards that oppose a leveraged buy-out
+T55	Purpose 3617 3619	to
+E19	Purpose:T55 Cause:T56 Effect:T57
+A28	Degree E19 Facilitate
+T56	Argument 3620 3663	oust boards that oppose a leveraged buy-out
+T57	Argument 3597 3616	waging proxy fights
+T58	Consequence 3751 3756	block
+E20	Consequence:T58 Cause:T59 Effect:T60
+A29	Degree E20 Inhibit
+T59	Argument 3702 3715	the secretary
+T60	Argument 3757 3766	a buy-out
+T61	NonCausal 3774 3781;3797 3799	require to
+E21	NonCausal:T61 Arg0:T59 Arg1:T62
+A30	Obligation-permission E21
+T62	Argument 3782 3796;3800 3843	the department consider the impact of a buy-out on workers
+T71	Consequence 123 128	block
+E22	Consequence:T71 Effect:T72 Cause:T73
+A31	Degree E22 Inhibit
+T72	Argument 129 155	airline leveraged buy-outs
+T73	Argument 84 113	the Transportation Department
+T74	Consequence 231 249	clears the way for
+E23	Consequence:T74 Cause:T75 Effect:T76
+A32	Degree E23 Facilitate
+T75	Argument 217 230	The 23-5 vote
+T76	Argument 250 310	consideration on the House floor next week or the week after
+T64	Consequence 1268 1273	block
+E24	Consequence:T64 Effect:T65 Cause:T77
+A33	Degree E24 Inhibit
+T65	Argument 1274 1293	buy-outs in advance
+T77	Argument 1248 1250	he
+T78	Argument 1162 1173	Mr. Skinner
+R1	Coref Arg1:T77 Arg2:T78	
+T79	Consequence 1673 1678	block
+E25	Consequence:T79 Cause:T80 Effect:T81
+A34	Degree E25 Inhibit
+T80	Argument 1638 1651	The secretary
+T81	Argument 1679 1693	an acquisition
+T82	Consequence 1830 1832	if
+E26	Consequence:T82 Effect:T22 Cause:T83
+A35	Degree E26 Facilitate
+A36	Hypothetical E26
+T83	Argument 1833 1870	it gave control to a foreign interest
+#1	AnnotatorNotes E1	Purely hypothetical: in the hypothetical world where it passes, the veto won't be because it passed.

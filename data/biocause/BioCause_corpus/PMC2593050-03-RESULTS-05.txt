@@ -1,0 +1,3 @@
+DeltavicK Infection Confers Protection of Mice against Reinfection with Wild-Type S. equi 
+To test whether DeltavicK infection confers immunity against S. equi infection, the seven mice recovered from the subcutaneous DeltavicK infection was reinfected subcutaneously with 1.5 x 108 cfu wild-type S. equi 30 days after the first infection and monitored for 18 days.
+Six of the 7 mice survived the reinfection (Fig. 4A), suggesting that the DeltavicK infection induces immunity against S. equi infection.

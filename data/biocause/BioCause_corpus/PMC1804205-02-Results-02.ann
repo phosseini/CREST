@@ -1,0 +1,82 @@
+T45	Positive_regulation 48 58	activation
+T46	Positive_regulation 102 112	activation
+T47	Positive_regulation 381 390	induction
+T48	Binding 480 485	binds
+T49	Gene_expression 718 728	expression
+T50	Gene_expression 955 965	expression
+T51	Positive_regulation 985 992	induced
+T52	Transcription 1066 1079	transcription
+T53	Phosphorylation 1147 1161	phosphorylated
+T54	Phosphorylation 1261 1275	phosphorylated
+T55	Transcription 1502 1515	transcription
+T56	Negative_regulation 1520 1529	abrogated
+T57	Gene_expression 1839 1849	expression
+T58	Phosphorylation 1996 2011	phosphorylation
+E1	Positive_regulation:T45 Theme:T2 Cause:T1
+E2	Positive_regulation:T46 Theme:T4 Cause:T3
+E3	Positive_regulation:T46 Theme:T4 Cause:T3
+E4	Positive_regulation:T47 Theme:T10 Cause:T9
+E5	Binding:T48 Theme1:T12 Theme2:T13
+E6	Gene_expression:T49 Theme:T16
+E7	Gene_expression:T50 Theme:T23
+E8	Positive_regulation:T51 Theme:E7
+E9	Transcription:T52 Theme:T26
+M1	Negation E9
+E10	Phosphorylation:T53 Theme:T29
+E11	Phosphorylation:T54 Theme:T31
+E12	Transcription:T55 Theme:T34
+E13	Negative_regulation:T56 Theme:E12
+E14	Gene_expression:T57 Theme:T42
+E15	Phosphorylation:T58 Theme:T44
+T1	Protein 4 8	PmrB
+T2	Protein 62 66	PmrA
+T3	Protein 72 76	PmrB
+T4	Protein 120 124	PmrA
+T5	Chemical 140 144	Mg2+
+T6	Chemical 212 216	Fe3+
+T7	Protein 272 276	PmrB
+T8	Protein 307 311	PmrA
+T9	Protein 337 341	PmrB
+T10	Protein 394 398	pbgP
+T11	Protein 435 439	PmrA
+T12	Protein 467 471	PmrA
+T13	Protein 493 497	pbgP
+T14	Organism 647 659	pmrB strains
+T15	Protein 647 651	pmrB
+T16	Regulon-operon 685 693	pbgP-lac
+T17	Protein 685 689	pbgP
+T18	Organism 766 777	pmrB mutant
+T19	Protein 766 770	pmrB
+T20	Organism 790 802	pmrB+ strain
+T21	Protein 790 794	pmrB
+T22	Protein 869 873	pmrB
+T23	Protein 950 954	pbgP
+T24	Organism 973 984	pmrB mutant
+T25	Protein 973 977	pmrB
+T26	Protein 1061 1065	pbgP
+T27	Organism 1087 1098	pmrA mutant
+T28	Protein 1087 1091	pmrA
+T29	Protein 1129 1133	PmrA
+T30	Protein 1196 1200	PmrB
+T31	Protein 1250 1254	PmrA
+T32	Chemical 1281 1297	acetyl phosphate
+T33	Chemical 1306 1322	acetyl phosphate
+T34	Protein 1497 1501	pbgP
+T35	Organism 1537 1548	pmrB mutant
+T36	Protein 1537 1541	pmrB
+T37	Protein 1570 1573	pta
+T38	Protein 1578 1582	ackA
+T39	Chemical 1668 1684	acetyl phosphate
+T40	Chemical 1765 1781	acetyl phosphate
+T41	Protein 1804 1808	pmrB
+T42	Protein 1834 1838	pbgP
+T43	Protein 1929 1933	pmrB
+T44	Protein 1991 1995	PmrA
+T59	Span 1722 1856	a strain lacking the ability to synthesize acetyl phosphate but with a functional pmrB gene exhibited wild-type pbgP expression levels
+T60	Causality 1867 1880	implying that
+E16	Causality:T60 Effect:T61 Evidence:T59
+T61	Span 1881 2011	under normal conditions (i.e. when a functional pmrB gene is present) acetyl phosphate does not contribute to PmrA phosphorylation
+T62	Span 931 1098	There was residual pbgP expression in the pmrB mutant induced with mild acid pH (Fig. 3), which was in contrast to the absence of pbgP transcription in the pmrA mutant
+T63	Causality 1109 1128	This suggested that
+E17	Causality:T63 Effect:T64 Evidence:T62
+T64	Span 1129 1215	PmrA could become phosphorylated from another phosphodonor(s) when PmrB is not present

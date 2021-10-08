@@ -1,0 +1,67 @@
+T1	Organism 0 22	Caenorhabditis elegans
+T2	Protein 103 108	cheB2
+T3	Organism 112 134	Pseudomonas aeruginosa
+T4	Organism 146 168	Pseudomonas aeruginosa
+T5	Organism 189 194	human
+T6	Organism 267 289	Caenorhabditis elegans
+T7	Organism 385 395	C. elegans
+T8	Organism 444 457	P. aeruginosa
+T9	Organism 802 815	P. aeruginosa
+T10	Organism 825 834	TBCF10839
+T11	Organism 906 916	C. elegans
+T12	Protein 1062 1066	AraC
+T13	Protein 1157 1161	cheB
+T14	Chemical 1189 1203	methylesterase
+T15	Protein 1228 1233	CheB2
+T16	Protein 1240 1245	cheB2
+T17	Organism 1269 1275	murine
+T18	Protein 1350 1355	cheB2
+T19	Organism 1473 1486	P. aeruginosa
+T20	Protein 1576 1581	cheB1
+T21	Organism 1616 1628	cheB2 mutant
+T22	Protein 1616 1621	cheB2
+T23	Organism 1632 1644	cheB1 mutant
+T24	Protein 1632 1637	cheB1
+T25	Organism 1680 1690	C. elegans
+T26	Organism 1800 1812	cheB2 mutant
+T27	Protein 1800 1805	cheB2
+T28	Protein 1878 1883	cheB2
+T29	Organism 1992 2005	P. aeruginosa
+T30	Process 135 144	Virulence
+T31	Process 216 226	infections
+T32	Process 346 355	virulence
+T33	Process 891 902	attenuation
+T34	Process 1281 1290	infection
+T35	Negative_regulation 1324 1334	attenuated
+T36	Process 1335 1344	virulence
+T37	Negative_regulation 1652 1662	attenuated
+T38	Process 1667 1676	virulence
+T39	Process 1776 1785	virulence
+T40	Process 1962 1971	infection
+E1	Process:T30 Participant:T3
+E2	Process:T31 Participant:T4
+E3	Process:T32
+E4	Process:T33
+E5	Process:T34
+E6	Negative_regulation:T35 Theme:E7
+E7	Process:T36
+E8	Negative_regulation:T37 Theme:E10
+M1	Negation E8
+E9	Negative_regulation:T37 Theme:E11
+M2	Negation E9
+E10	Process:T38 Participant:T23
+E11	Process:T38 Participant:T21
+E12	Process:T39 Participant:T26
+E13	Process:T40 Participant:T29
+T41	Causality 204 215	that causes
+E14	Causality:T41 Evidence:T42 Effect:T43
+T42	Span 146 203	Pseudomonas aeruginosa is an opportunistic human pathogen
+T43	Span 216 265	infections in a variety of animal and plant hosts
+T44	Span 1630 1753	a cheB1 mutant is not attenuated for virulence in C. elegans whereas in vitro motility and chemotaxis are severely impaired
+T45	Span 1236 1344	The cheB2 mutant was tested in a murine lung infection model and found to have a highly attenuated virulence
+T46	Span 1346 1468	The cheB2 gene is part of the chemotactic gene cluster II, which was shown to be required for an optimal mobility in vitro
+T47	Span 1470 1581	In P. aeruginosa, the main player in chemotaxis and mobility is the chemotactic gene cluster I, including cheB1
+T48	Causality 1583 1595	We show that
+E15	Causality:T48 Effect:T44 Evidence:T47
+E16	Causality:T48 Effect:T44 Evidence:T46
+E17	Causality:T48 Effect:T44 Evidence:T45

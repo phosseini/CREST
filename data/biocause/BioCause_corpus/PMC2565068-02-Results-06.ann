@@ -1,0 +1,87 @@
+*	Equiv T9 T11
+T43	Process 59 69	infections
+T44	Process 131 141	infections
+T45	Process 167 176	virulence
+T46	Process 219 227	infected
+T47	Positive_regulation 528 540	introduction
+T48	Process 726 735	virulence
+T49	Process 772 782	infections
+T50	Process 939 947	infected
+T51	Process 1521 1530	infection
+T52	Process 1552 1560	infected
+T53	Process 1700 1708	virulent
+E1	Process:T43 
+E2	Process:T44 
+E3	Process:T45 Participant:T4
+E4	Process:T46 Participant:T6
+E5	Positive_regulation:T47 Theme:T14
+E6	Process:T48 
+E7	Process:T49 
+E8	Process:T50 Participant:T24
+E9	Process:T51 Participant:T36
+E10	Process:T52 Participant:T36
+E11	Process:T52 Participant:T37
+E12	Process:T52 Participant:T38
+E13	Process:T53 Participant:T40
+E14	Process:T53 Participant:T41
+T1	Protein 0 4	csrS
+T2	Organism 75 80	mouse
+T3	Protein 122 126	csrS
+T4	Organism 180 183	GAS
+T5	Organism 201 206	mouse
+T6	Organism 228 231	GAS
+T7	Organism 255 272	non-invasive 1566
+T8	Organism 359 374	invasive NIH230
+T9	Organism 403 416	csrS deletion
+T10	Protein 403 407	csrS
+T11	Organism 418 431	1566DeltacsrS
+T12	Protein 427 431	csrS
+T13	Organism 496 502	NIH230
+T14	Protein 555 559	csrS
+T15	Organism 574 580	NIH230
+T16	Organism 589 602	NIH230::csrS+
+T17	Protein 597 602	csrS+
+T18	Organism 656 675	non-invasive strain
+T19	Protein 705 709	csrS
+T20	Organism 750 755	mouse
+T21	Organism 811 817	NIH230
+T22	Organism 846 850	mice
+T23	Organism 934 938	mice
+T24	Organism 953 966	NIH230::csrS+
+T25	Protein 961 966	csrS+
+T26	Organism 981 985	1566
+T27	Organism 1016 1028	non-invasive
+T28	Organism 1065 1088	invasive isolates +CsrS
+T29	Protein 1084 1088	CsrS
+T30	Organism 1119 1123	mice
+T31	Organism 1142 1148	NIH230
+T32	Organism 1413 1417	mice
+T33	Organism 1436 1440	1566
+T34	Organism 1445 1458	NIH230::csrS+
+T35	Protein 1453 1458	csrS+
+T36	Organism 1534 1540	NIH230
+T37	Organism 1614 1618	1566
+T38	Organism 1623 1636	NIH230::csrS+
+T39	Protein 1631 1636	csrS+
+T40	Organism 1669 1681	invasive GAS
+T41	Organism 1722 1738	non-invasive GAS
+T42	Protein 1822 1826	csrS
+T54	Span 393 432	whereas a csrS deletion (1566DeltacsrS)
+T55	Causality 433 439	caused
+E15	Causality:T55 Effect:T56 Evidence:T54
+T56	Span 440 509	an increase in the LD50 value comparable to that of the NIH230 strain
+T57	Span 511 675	Consistently, an introduction of the intact csrS gene into the NIH230 strain (NIH230::csrS+) reduced the LD50 value to the level observed in the non-invasive strain
+T58	Span 251 509	The non-invasive 1566 strain displayed the LD50 value approximately 100-fold higher than that of the severe invasive NIH230 strain (Table 1), whereas a csrS deletion (1566DeltacsrS) caused an increase in the LD50 value comparable to that of the NIH230 strain
+T59	Causality 677 704	These results indicate that
+E16	Causality:T59 Effect:T60 Evidence:T57
+T60	Span 705 782	csrS is an important virulence factor in the mouse model of lethal infections
+E17	Causality:T59 Effect:T60 Evidence:T58
+T62	Span 1665 1831	the invasive GAS isolates are more virulent in vivo than non-invasive GAS, and impair PMN function in vivo, owing, at least in part, to the mutations in the csrS gene
+T61	Causality 1638 1664	These results suggest that
+E18	Causality:T61 Effect:T62 Evidence:T63
+T63	Span 1487 1636	Figure 7D shows that subcutaneous infection of NIH230 formed the infected lesions with area significantly larger than those of 1566 and NIH230::csrS+
+T64	Span 1091 1303	Histopathologically, in the mice injected with the NIH230 strain, bacteria formed clusters in interstitial tissues in the kidneys and the lungs, accompanied congestion and no inflammatory cells at infectious foci
+T65	Span 784 1089	As shown in Figure 7A, the NIH230 strain caused bacteremia in mice 24 h after intraperitoneal injection whereas the bacteremia was barely detected in mice infected with NIH230::csrS+as well as the 1566 strain (p=0.005 compared with non-invasive isolates, and p=0.005 compared with invasive isolates +CsrS)
+T66	Span 1340 1466	Contrarily, no significant pathological alterations were observed in the mice injected with the 1566 and NIH230::csrS+ strains
+E19	Causality:T61 Effect:T62 Evidence:T66
+E20	Causality:T61 Effect:T62 Evidence:T64

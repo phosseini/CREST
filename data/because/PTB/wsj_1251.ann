@@ -1,0 +1,21 @@
+T1	NonCausal 327 336;344 346	permitted to
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Obligation-permission E1
+T2	Argument 305 326	The 1987 highway bill
+T3	Argument 337 343;347 495	states raise the speed limit to 65 mph from 55 mph on interstate roads, which are defined as highways that pass through areas with fewer than 50,000 people
+T5	Argument 503 507	1987
+T4	Motivation 497 502	Since
+E2	Motivation:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+A3	Temporal E2
+T6	Argument 509 570	40 states have increased the speed limit on rural interstates
+T7	Consequence 620 633	attributed to
+E3	Consequence:T7 Effect:T8 Cause:T9
+A4	Degree E3 Facilitate
+T8	Argument 576 616	About one-third of the fatality increase
+T9	Argument 634 648	greater travel
+T10	Consequence 674 687	attributed to
+E4	Consequence:T10 Effect:T11 Cause:T12
+A5	Degree E4 Facilitate
+T11	Argument 654 670	about two-thirds
+T12	Argument 688 730	other factors {primarily to greater speed}

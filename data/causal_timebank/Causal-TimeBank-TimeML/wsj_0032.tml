@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0032</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-02</TIMEX3></DCT>
+<TEXT>
+ Italian chemical giant Montedison S.p.A., through its Montedison Acquisition N.V. indirect unit, <EVENT eid="e1" class="ASPECTUAL">began</EVENT> its $ 37-a-share tender <EVENT eid="e2" class="OCCURRENCE">offer</EVENT> for all the common shares outstanding of Erbamont N.V., a maker of pharmaceuticals incorporated in the Netherlands.
+ The <EVENT eid="e3" class="OCCURRENCE">offer</EVENT>, <EVENT eid="e4" class="OCCURRENCE">advertised</EVENT> in <TIMEX3 tid="t5" type="DATE" value="1989-11-02" anchorTimeID="t0" functionInDocument="NONE">today</TIMEX3>'s editions of The Wall Street Journal, is <EVENT eid="e6" class="I_ACTION">scheduled</EVENT> to <EVENT eid="e7" class="OCCURRENCE">expire</EVENT> at the <TIMEX3 tid="t8" type="TIME" value="1989-11" anchorTimeID="t0" functionInDocument="NONE">the end of November</TIMEX3>.
+ Montedison <TIMEX3 tid="t9" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">currently</TIMEX3> <EVENT eid="e10" class="STATE">owns</EVENT> about 72 % of Erbamont's common shares outstanding.
+ The <EVENT eid="e11" class="OCCURRENCE">offer</EVENT> is being <EVENT eid="e12" class="I_ACTION">launched</EVENT> <C-SIGNAL cid="c13">pursuant to</C-SIGNAL> a <TIMEX3 tid="t14" type="TIME" value="PAST_REF" anchorTimeID="t0" functionInDocument="NONE">previously</TIMEX3> <EVENT eid="e15" class="REPORTING">announced</EVENT> <EVENT eid="e16" class="OCCURRENCE">agreement</EVENT> between the companies.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToEventInstance="ei1"/>
+<TLINK lid="l2" relType="BEGINS" eventInstanceID="ei1" relatedToEventInstance="ei2"/>
+<TLINK lid="l3" relType="IDENTITY" eventInstanceID="ei3" relatedToEventInstance="ei2"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei4"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei7"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t5"/>
+<TLINK lid="l7" relType="IDENTITY" timeID="t5" relatedToTime="t0"/>
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t0"/>
+<TLINK lid="l9" relType="ENDED_BY" eventInstanceID="ei7" relatedToTime="t8"/>
+<TLINK lid="l10" relType="INCLUDES" timeID="t9" relatedToTime="t0"/>
+<TLINK lid="l11" relType="INCLUDES" timeID="t9" relatedToEventInstance="ei10"/>
+<TLINK lid="l12" relType="IDENTITY" eventInstanceID="ei11" relatedToEventInstance="ei3"/>
+<TLINK lid="l13" relType="BEGUN_BY" eventInstanceID="ei11" relatedToEventInstance="ei12"/>
+<TLINK lid="l14" relType="IS_INCLUDED" eventInstanceID="ei12" relatedToTime="t0"/>
+<TLINK lid="l15" relType="AFTER" eventInstanceID="ei12" relatedToEventInstance="ei16"/>
+<TLINK lid="l16" relType="BEFORE" timeID="t14" relatedToTime="t0"/>
+<TLINK lid="l17" relType="SIMULTANEOUS" eventInstanceID="ei15" relatedToTime="t14"/>
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei15"/>
+<CLINK lid="l19" c-signalID="c13" eventInstanceID="ei16" relatedToEventInstance="ei12"/>
+</TimeML>

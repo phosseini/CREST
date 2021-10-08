@@ -1,0 +1,24 @@
+DISCUSSION 
+In this study we describe that SeMac is a cysteine endopeptidase with limited activity against horse IgG and is unable to inhibit opsonophagocytosis of S. equi by horse PMNs in a whole blood assay.
+SeMac efficiently cleaves the heavy chain of human IgG.
+The residues of Cys102 and His272 are essential and Asp294 important for the enzymatic activity of SeMac.
+Thus, like GAS M1 Mac [7,8], SeMac is a cysteine endopeptidase.
+Although both SeMac and GAS Mac efficiently cleave human IgG, they cannot cleave the majority of total horse IgG.
+The peptide fragment, PELLGG, in the lower hinge region is proposed to bind to the active site of Mac [9], and the cleavage occurs between the two Gly residues (Table 1).
+This lower hinge region is not well conserved in the seven subgroups of horse IgG [17] (Table 1).
+Cleavable horse IgG1 has PELLGG, while the non-cleavable horse IgG4 has PECLSVG in the same region, suggesting that the amino acid sequences of the lower hinge region are important for cleavability by SeMac and GAS Mac.
+If this is true, horse IgG3 may be also cleavable by SeMac, while the other five horse IgG subgroups may not be cleaved.
+These horse IgG antibodies that cannot be cleaved by SeMac thus still can mediate the opsonophagocytosis of S. equi.
+SeMac and GAS M1 Mac show similar enzymatic specificity (Fig. 4 and Table 1), confirming the previous finding [18].
+SeMac can cleave human IgG and inhibit the opsonophagocytosis of GAS by human PMNs, but it has limited enzymatic activity against horse IgG and is unable to inhibit opsonophagocytosis of S. equi by horse PMNs.
+Thus, there is a correlation between the enzymatic activity of SeMac and its ability to inhibit opsonophagocytosis, suggesting that SeMac functions like GAS M1 Mac in the inhibition of opsonophagocytosis of GAS by human PMNs.
+Timoney et al. recently reported that IdeE/SeMac reduces the bactericidal activity of isolated equine PMNs for S. equi [19].
+Our results suggest that the inhibition of the bactericidal activity of PMNs may not be mediated by opsonophagocytosis or may be insignificant in whole blood.
+SeMac is not produced in vitro, whereas GAS Mac is [16].
+The mac gene is controlled by the two-component regulatory system CovRS [5], which also controls the expression of many virulence factors including the hyaluronic capsule [20].
+The hyaluronic capsule of S. equi is highly produced in vitro.
+These observations suggest that the semac and mac genes are regulated by different mechanisms.
+This suggestion is supported by only 29% DNA sequence identity between S. equi and M1 GAS in the upstream region of the semac and mac genes.
+S. equi is a horse pathogen.
+The fact that SeMac does not inhibit opsonophagocytosis of S. equi by horse PMNs indicates that SeMac is not involved in the evasion of the acquired horse immunity against S. equi.
+This suggests that SeMac has other unknown function.

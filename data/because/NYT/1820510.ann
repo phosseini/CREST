@@ -1,0 +1,135 @@
+T1	Consequence 154 168	contributed to
+E1	Consequence:T1 Cause:T3 Effect:T2
+A1	Degree E1 Facilitate
+T2	Argument 169 226	the deaths of four unarmed Iraqi men during a raid in May
+T3	Argument 149 153	that
+T4	Argument 117 132	improper orders
+R1	Coref Arg1:T3 Arg2:T4	
+T5	Argument 409 523	Colonel Steele was formally reprimanded in the summer by Lt. Gen. Peter W. Chiarelli, the former commander in Iraq
+T6	Motivation 525 528	for
+E2	Motivation:T6 Cause:T7 Effect:T5
+A2	Degree E2 Facilitate
+T7	Argument 529 583	not reporting the deaths and other details of the raid
+T8	Consequence 1648 1651;1665 1667	led to
+E3	Consequence:T8 Cause:T10 Effect:T9
+A3	Degree E3 Facilitate
+T9	Argument 1652 1664;1668 1834	his soldiers believe that distinguishing combatants from noncombatants -- a main tenet of the military's standing rules of engagement -- was not necessary during the May 9 mission
+T10	Argument 1625 1636	The colonel
+T11	Consequence 2209 2223	contributed to
+E4	Consequence:T11 Cause:T13 Effect:T12
+A4	Degree E4 Facilitate
+T12	Argument 2224 2257	the deaths of four unarmed Iraqis
+T13	Argument 2161 2208	the colonel's ``miscommunication'' of the rules
+T14	Consequence 2317 2328	in light of
+E5	Consequence:T14 Effect:T16 Cause:T15
+A5	Degree E5 Facilitate
+T15	Argument 2329 2387	his honest belief of the correctness of the mission R.O.E.
+T16	Argument 2281 2314	formal charges were not warranted
+T17	Purpose 2928 2930	to
+E6	Purpose:T17 Effect:T19 Cause:T18
+A6	Degree E6 Facilitate
+T18	Argument 2931 2980	order his soldiers to kill all military-age males
+T19	Argument 2891 2927	he did not use ``specific language''
+T20	Consequence 3210 3215	cause
+E7	Consequence:T20 Cause:T22 Effect:T21
+A7	Degree E7 Facilitate
+T21	Argument 3219 3331	the death of at least four unarmed individuals, none of whom committed a hostile act or displayed hostile intent
+T22	Argument 3161 3191	confusion regarding the R.O.E.
+T23	Consequence 3599 3601	If
+E8	Consequence:T23 Cause:T24 Effect:T25
+A8	Degree E8 Facilitate
+T24	Argument 3602 3620	you don't get shot
+T25	Argument 3622 3647	you ought to be surprised
+T26	Consequence 4525 4531	blocks
+E9	Consequence:T26 Effect:T28 Cause:T27
+A9	Degree E9 Inhibit
+T27	Argument 4468 4512	The formal reprimand Colonel Steele received
+T28	Argument 4532 4560	any chance for his promotion
+T29	Purpose 5469 5471	to
+E10	Purpose:T29 Cause:T30 Effect:T31
+T30	Argument 5472 5500	cover up three of the deaths
+T31	Argument 5400 5468	at least 10 other soldiers from Colonel Steele's former brigade lied
+A10	Degree E10 Facilitate
+T32	Consequence 604 608	made
+E11	Consequence:T32 Effect:T33
+A11	Degree E11 Facilitate
+T33	Argument 585 595;609 615	The action public
+T34	NonCausal 206 212	during
+E12	NonCausal:T34 Arg1:T36 Arg0:T35
+A12	Temporal E12
+T35	Argument 213 226	a raid in May
+T36	Argument 33 205	Michael D. Steele, a decorated combat veteran and brigade commander in Iraq, issued improper orders to his soldiers that contributed to the deaths of four unarmed Iraqi men
+T37	Argument 1488 1517	that all soldiers must follow
+T38	Argument 1521 1589	determine whether they may legally use lethal force against an enemy
+T39	Purpose 1518 1520	to
+E13	Purpose:T39 Cause:T38 Effect:T37
+A13	Degree E13 Facilitate
+T40	NonCausal 1810 1816	during
+E14	NonCausal:T40 Arg0:T41 Arg1:T42
+A14	Temporal E14
+T41	Argument 1817 1834	the May 9 mission
+T42	Argument 1681 1809	distinguishing combatants from noncombatants -- a main tenet of the military's standing rules of engagement -- was not necessary
+T45	NonCausal 4123 4128	After
+E15	NonCausal:T45 Arg0:T46 Arg1:T47
+A15	Temporal E15
+T46	Argument 4129 4137	the raid
+T47	Argument 4139 4246	several soldiers noticed blindfolds and plastic handcuffs on the bodies of three of the men who were killed
+T48	Motivation 4410 4415	until
+E16	Motivation:T48 Arg0:T49 Arg1:T50
+A16	Temporal E16
+T49	Argument 4416 4465	the colonel returned from leave a few weeks later
+T50	Argument 4355 4409	avoid reporting any findings to the division commander
+#3	AnnotatorNotes E16	Not clear what the causal connection is here, if any.
+T51	Motivation 4615 4619	When
+E17	Motivation:T51 Cause:T52 Effect:T53
+A17	Degree E17 Facilitate
+T52	Argument 4620 4701	you're looking to go from colonel to general, and it's a 2 percent selection rate
+A18	Context E17
+T53	Argument 4703 4737	you're looking to throw people out
+T43	NonCausal 3988 3993	after
+E18	NonCausal:T43 Arg0:T55 Arg1:T54
+T44	NonCausal 3977 3983	before
+E19	NonCausal:T44 Arg1:T55 Arg0:T54
+T54	Argument 3952 3976	Colonel Steele's actions
+T55	Argument 3994 4002	the raid
+A19	Hypothetical E8
+T56	Argument 1430 1606	he communicated the rules of engagement, the instructions that all soldiers must follow to determine whether they may legally use lethal force against an enemy, to his soldiers
+T57	Argument 1614 1622	the raid
+T58	NonCausal 1607 1613	before
+E20	NonCausal:T58 Arg1:T57 Arg0:T56
+A20	Temporal E20
+T59	Argument 3484 3546;3567 3579	``Guys, you are going to get shot coming off the helicopter,'' he told them
+T60	Argument 3587 3595	the raid
+T61	NonCausal 3580 3586	before
+E21	NonCausal:T61 Arg1:T60 Arg0:T59
+A21	Temporal E21
+A22	Temporal E19
+A23	Temporal E18
+T62	Argument 844 862	a fearless fighter
+T63	Argument 870 916	Special Operations missions in Somalia in 1993
+T64	NonCausal 863 869	during
+E22	NonCausal:T64 Arg1:T62 Arg0:T63
+A24	Temporal E22
+T65	Argument 5326 5338	the killings
+T66	Argument 5346 5354	the raid
+T67	NonCausal 5339 5345	during
+E23	NonCausal:T67 Arg0:T66 Arg1:T65
+A25	Temporal E23
+T68	Note 3015 3019	with
+#1	AnnotatorNotes T68	Questionable; could be Context
+T69	NonCausal 1265 1269	Over
+E24	NonCausal:T69 Arg0:T70 Arg1:T71
+A26	Temporal E24
+T70	Argument 1270 1288	the past two weeks
+T71	Argument 1290 1347	two of the soldiers have pleaded guilty to lesser charges
+T72	Consequence 2031 2033	by
+E25	Consequence:T72 Cause:T73 Effect:T74
+A27	Degree E25 Facilitate
+#2	AnnotatorNotes E25	By virtue of
+T73	Argument 2034 2103	being present on an objective deemed hostile by an on-scene commander
+T74	Argument 1986 2023	A person cannot be targeted on status
+T75	Note 2014 2023	on status
+#4	AnnotatorNotes T75	Unclear what this means
+T76	Note 3838 3844	spared
+#5	AnnotatorNotes T76	Add?
+A28	Degree E16 Inhibit

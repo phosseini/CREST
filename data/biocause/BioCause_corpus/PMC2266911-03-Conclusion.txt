@@ -1,0 +1,17 @@
+Conclusion 
+The comparison of Y. enterocolitica and P. luminescens at the genomic level performed here provides the database for a better understanding of the genetic basis for their distinct behaviour towards invertebrates and mammals.
+Y. enterocolitica is expected to switch between two pathogenicity phases against insects and mammalians, while the genome of P. luminescens must contain the modulators and regulators necessary to change the bacterium from a state of symbiosis with nematodes to pathogenicity against insects, and also from symbiosis-proficient primary variants to symbiosis-deficient secondary variants [17].
+Those adaptational processes must be precisely regulated by the bacteria.
+It was assumed that there are parallels in the regulation of pathogenicity in mammals and insect pathogens [41,123].
+However, molecular components of the regulatory networks controlling pathogenicity and mutualism have recently been demonstrated to be very different between P. luminescens and X. nematophilus with similar life cycles [124].
+Dissecting the genomes of Y. enterocolitica and P. luminescens for putative key regulators, we identified factor groups (AI-2, PAS-4/LuxR like receptors) possibly involved in pathogen-insect association only, those with members contributing to either insect or mammalian pathogenicity (QS, TKS, Usp), and c-di-GMP signalling probably not involved in regulation of activities against insects.
+Certainly, the question whether fundamental differences in regulatory networks reflect how each of these two bacteria specifically interacts with either the insect or the human host remains to be addressed in more detail.
+Bioconversion of its insect hosts is an important stage in the lifecycle of P. luminescens.
+This fact might explain the high number of antibacterial factors directed against possible competitors that are going to colonize the same insect cadaver or that are already present in the insect gut flora [17].
+However, no corresponding determinants were identified in the genome of Y. enterocolitica.
+Moreover, P. luminescens is pathogenic to a variety of insect larvae, and a dose of <5 colony-forming units directly injected into the blood system is sufficient to kill within 48-72 h [124].
+In contrast, only highly concentrated protein extracts of Y. enterocolitica are toxic for M. sexta [7], and a low insect larvae mortality has been observed following injection of approximately 3.5 x 106 Y. enterocolitica cells into the hemolymph (T. M. Fuchs, unpublished data).
+This data strongly suggests that Y. enterocolitica, similar to Y. pestis, has developed a strategy to infect and proliferate in insects, and use these organisms rather as transmission vectors than as pure nutrient source.
+Summarizing, Y. enterocolitica and P. luminescens have evolved partially different and partially similar and therefore probably conserved mechanisms to detect and to react on the insect host.
+Up to the present time, we are far away from understanding the complexity of bacteria-invertebrate interactions.
+With the genome comparison carried out here, however, we uncovered several genes which are promising candidate genes involved in insect association and pathogenicity, and therefore created a promising basis for future experimental work.

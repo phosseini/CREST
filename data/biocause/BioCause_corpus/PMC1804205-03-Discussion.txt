@@ -1,0 +1,35 @@
+Discussion 
+We have established that the sensor kinase PmrB is the primary sensor that activates the PmrA protein when Salmonella experiences mild acid pH, resulting in transcription of PmrA-activated genes (Fig. 1).
+That PmrB is likely to sense changes in pH directly is supported by three findings:
+(i) the mild acid pH-dependent activation of the PmrA-regulated gene pbgP was dramatically reduced in a strain lacking pmrB (Fig. 3),
+(ii) the periplasmic domain of PmrB was necessary for activation of pbgP under mild acid conditions (Fig. 5),
+and (iii) single amino acid substitutions in conserved histidine and glutamic acid residues located in the periplasmic domain of PmrB abolished its ability to stimulate pbgP transcription at pH 5.8 (Fig. 6).
+The periplasmic histidine and glutamates are conserved in the PmrB periplasmic domain of other enteric species, raising the possibility that the signalling pathway described in this article may be operating in other organisms in addition to S. enterica.
+The requirement of periplasmic PmrB residues in the mild acid pH activation of PmrA-regulated genes suggests that this signalling pathway responds to changes in extracytoplasmic pH.
+Moreover, under the experimental conditions used in this study it is unlikely that the cytoplasmic pH varied significantly because: first, bacterial cells can maintain an internal pH of up to 2 units higher than the external pH (Foster, 2004); in fact, Slonczewski et al. (1981) determined that the intracellular pH in Escherichia coli cells was 7.4 even when the external pH was 5.5.
+Second, acid stress can become a severe challenge for bacterial cells when organic acids such as acetate or products of fermentation are present in the medium (Bearson et al., 1998); and in our experiments we used a non-fermentable sugar (glycerol) and inorganic acids which are not expected to cause such acid stress.
+Structural changes driven by a relatively narrow variation in pH (1-2 units) have been reported for several cytosolic bacterial proteins (Tews et al., 2005; Lu et al., 2006).
+This is in contrast to the few membrane proteins (other than ion channels) that have been shown to respond to changes in extracellular pH of a similar magnitude.
+For example, the eukaryotic G-protein coupled receptor OGR1 is inactive at pH 7.8 and fully active at pH 6.8 suggesting that the pH sensing mechanism involves protonation of several extracytoplasmic histidines (Ludwig et al., 2003), which is in agreement with the pKa of free histidine of approximately6.
+In the case of PmrB, a normal response to mild acid pH requires not only a periplasmic histidine but also several glutamic acid residues.
+Therefore, regulation of PmrB activity may involve protonation of one or more of these amino acids.
+Even though protonation of the glutamic acid residues may seem unlikely given the fact that the pKa of free glutamic acid is approximately4, protein folding can change the pKa of its residues (Tanford and Roxby, 1972).
+Indeed, the pKa of one of the glutamic acid residues of the regulatory protein TraM is approximately7.7 in the folded protein (Lu et al., 2006).
+Therefore, it is plausible that protonation/deprotonation of one or more of the glutamic acids in the periplasmic domain of PmrB could occur at pH approximately5.8.
+Integral membrane proteins that recognize signals in addition to extracytoplasmic pH, such as PmrB, have been identified both in prokaryotes and in eukaryotes.
+The CadC protein of E. coli, for example, is activated by exogenous lysine besides acid pH (Dell et al., 1994).
+Likewise, the human receptor OGR1 responds to both pH and sphingosylphosphorylcholine (Ludwig et al., 2003).
+The fact that the PmrB H35A and the E64A mutant proteins displayed partial activity in response to ferric iron but were severely impaired in their ability to respond to acid pH (compare Fig. 6B and D) supports the notion that these signals are sensed independently.
+Similarly, cadC mutants have been isolated that are impaired in the ability to sense only one of its two inducing signals (Dell et al., 1994).
+Furthermore, the ability to sense two different compounds has also recently been shown to be genetically distinguishable in the bacterial chemoreceptor Tcp (Iwama et al., 2006).
+The PmrB protein plays the primary role in the pH-dependent activation of PmrA, but full activation also requires PmrD, the post-translational activator of the PmrA protein (Fig. 3).
+The levels of phosphorylated PmrA are determined by the balance of the autokinase + phosphotransferase activity of PmrB and PmrB's phosphatase activity towards phospho-PmrA.
+Thus, PmrD may be necessary to ensure that the amount of phosphorylated PmrA is such to promote transcription of its regulated genes.
+Consistent with its role in acid pH activation, expression of the pmrD gene was promoted in media of mild acid pH (Fig. 4).
+The mechanism(s) by which acid pH leads to an increase in the levels of the pmrD transcript, however, remains unclear.
+Although it has been suggested that the Salmonella PhoQ protein senses acid pH (Aranda et al., 1992) or responds to both pH and Mg2+ (Bearson et al., 1998), a direct role for PhoQ in responding to acid pH appears unlikely because not all PhoP-regulated genes are activated under these conditions, which is in contrast to low Mg2+ activating the whole PhoP regulon (see Groisman and Mouslim, 2006 for a review).
+What role could the pH-dependent activation of PmrA-regulated genes play in Salmonella's lifestyle? Because several PmrA-activated gene products are responsible for remodelling the LPS structure and these modifications are required for resistance to certain antimicrobial peptides and toxic metals, one possibility is that acidic environments provide a means to induce the cell envelope changes resulting in resistance.
+Indeed, when grown at pH 5.8 wild-type Salmonella were 100 000-fold more resistant to polymyxin B than when grown at pH 7.7 (Fig. 7).
+This may be particularly important for Salmonella living in soil due to the fact that the antimicrobial peptide polymyxin B is produced by the soil bacterium Paenibacillus polymyxa (Paulus and Gray, 1964) and because the solubility of metals such as Fe3+ increases in acid pH.
+On the other hand, although mild acid (pH 6.0) per se, i.e. even in the presence of high Mg2+, promotes LPS modifications (Gibbons et al., 2005), the low pH signal may also act synergistically with the low Mg2+ signal in vivo because Mg2+ deprivation alone is not sufficient to provide all the LPS modifications seen in Salmonella when present inside macrophages (Gibbons et al., 2005).
+Finally, while a role for the PmrA-dependent LPS modifications in the previously described acid tolerance response is unlikely because survival to acid stress (pH approximately3) was not reduced in cells deficient in pmrA (data not shown and Bearson et al., 1998), some of the PmrA-regulated genes to which no function has been ascribed yet could mediate other cellular responses to acid pH.

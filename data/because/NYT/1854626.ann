@@ -1,0 +1,96 @@
+T1	Motivation 73 76	for
+E1	Motivation:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 13 72	who as a presidential candidate has already drawn criticism
+T3	Argument 77 124	changes in his positions on other social issues
+T4	Consequence 657 664	Because
+E2	Consequence:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+T5	Argument 665 713	standard research entails destruction of embryos
+T6	Argument 715 900	federal financing is currently allowed only for work on those stem cell lines that already existed in August 2001, when President Bush adopted that cutoff as his administration's policy
+T7	Consequence 746 753	allowed
+E3	Consequence:T7 Effect:T8
+A3	Degree E3 Facilitate
+A4	Obligation-permission E3
+T8	Argument 715 732;754 828	federal financing only for work on those stem cell lines that already existed in August 2001
+T12	Motivation 1080 1084	When
+E5	Motivation:T12 Cause:T13 Effect:T14
+A6	Degree E5 Facilitate
+A7	Temporal E5
+T13	Argument 1085 1125	he did not directly answer that question
+T14	Argument 1127 1265	he was pressed on whether scientists should be able to do research at all on embryos that fertility clinics would otherwise discard anyway
+T15	Consequence 1307 1312	allow
+E6	Consequence:T15 Effect:T16 Cause:T17
+A8	Degree E6 Facilitate
+A9	Obligation-permission E6
+T16	Argument 1313 1317	that
+T17	Argument 1268 1278	Mr. Romney
+T18	Consequence 1402 1409	allowed
+E7	Consequence:T18 Effect:T19
+A10	Degree E7 Facilitate
+A11	Obligation-permission E7
+T19	Argument 1391 1395	that
+T20	Purpose 1457 1460	for
+E8	Purpose:T20 Cause:T21 Effect:T22
+A12	Degree E8 Facilitate
+T21	Argument 1461 1465	that
+T22	Argument 1424 1456	I won't use our government funds
+T23	NonCausal 1840 1844	when
+E9	NonCausal:T23 Arg0:T24 Arg1:T25
+A13	Temporal E9
+T24	Argument 1845 1877	he was governor of Massachusetts
+T25	Argument 1768 1839	who was his deputy chief of staff and his point man on bioethics issues
+T26	Note 1992 1994	to
+#2	AnnotatorNotes T26	Verb argument ("sat down to")?
+T27	Motivation 2860 2863;2869 2875	For reason
+E10	Motivation:T27 Effect:T28 Cause:T53
+A14	Degree E10 Facilitate
+T28	Argument 2902 3005	he supports stem cell research on new and existing lines, in both private and federally funded settings
+T29	Consequence 3312 3318;3323 3330	opened door to
+E11	Consequence:T29 Cause:T30 Effect:T32
+A15	Degree E11 Facilitate
+T30	Argument 3251 3255	that
+T31	Argument 3230 3250	a Massachusetts bill
+R1	Coref Arg1:T30 Arg2:T31	
+T32	Argument 3331 3421	a controversial technique entailing the cloning of embryos for purposes of experimentation
+T33	Purpose 3390 3405	for purposes of
+E12	Purpose:T33 Cause:T34 Effect:T35
+A16	Degree E12 Facilitate
+T34	Argument 3406 3421	experimentation
+T35	Argument 3367 3389	the cloning of embryos
+T36	Argument 3734 3744	being used
+T37	Purpose 3745 3748	for
+E13	Purpose:T37 Cause:T38 Effect:T36
+A17	Degree E13 Facilitate
+T38	Argument 3749 3777	research and experimentation
+T39	Consequence 3867 3872	after
+E14	Consequence:T39 Effect:T40 Cause:T41
+A18	Degree E14 Facilitate
+A19	Temporal E14
+T40	Argument 3812 3866	The stem cell issue took on added relevance this month
+T41	Argument 3873 4016	the Democratic-led Congress passed a measure similar to the earlier bill that Mr. Bush vetoed and that Mr. Romney spoke favorably about in 2005
+T42	Purpose 4558 4560	to
+E15	Purpose:T42 Cause:T43 Effect:T44
+A20	Degree E15 Facilitate
+T43	Argument 4561 4579	win the nomination
+T44	Argument 4521 4557	he is willing to say and do anything
+T9	Note 830 834	when
+#1	AnnotatorNotes T9	Relative pronoun
+T10	Argument 1053 1078	broader federal financing
+T11	Consequence 1043 1052	encourage
+E4	Consequence:T11 Cause:T45 Effect:T10
+A5	Degree E4 Facilitate
+T45	Argument 1034 1036	he
+T46	Argument 1005 1015	Mr. Romney
+R2	Coref Arg1:T45 Arg2:T46	
+T47	NonCausal 1943 1947	From
+E16	NonCausal:T47 Arg0:T48 Arg1:T49
+A21	Temporal E16
+T48	Argument 1948 2035	the moment we sat down as an administration to formulate a policy on stem cell research
+T49	Argument 2037 2154	the governor has never been a proponent of expanded federal funding or state funding for embryonic stem cell research
+T50	Argument 2803 2853	scientific research and the discovery of new cures
+T51	Consequence 2781 2790	encourage
+E17	Consequence:T51 Effect:T50 Cause:T52
+A22	Degree E17 Facilitate
+T52	Argument 2757 2769	the governor
+T53	Argument 2864 2875	that reason

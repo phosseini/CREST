@@ -1,0 +1,28 @@
+T15	Process 61 71	infections
+T16	Process 168 177	infection
+T17	Process 508 518	infections
+E1	Process:T15 Participant:T1
+E2	Process:T16 Participant:T3
+E3	Process:T17 Participant:T9
+T1	Organism 9 30	Group A streptococcus
+T2	Organism 99 104	human
+T3	Organism 128 137	emm49 GAS
+T4	Protein 128 133	emm49
+T5	Organism 190 195	human
+T6	Organism 269 272	GAS
+T7	Organism 333 336	GAS
+T8	Organism 342 347	human
+T9	Organism 447 450	GAS
+T10	Organism 634 650	non-invasive GAS
+T11	Organism 711 723	invasive GAS
+T12	Organism 803 808	human
+T13	Organism 975 987	invasive GAS
+T14	Organism 1035 1040	human
+T18	Span 403 552	there was no significant difference between GAS that were isolated from non-invasive and severe invasive infections in phagocytosis by PMN (p=0.5556)
+T19	Span 554 733	However, as shown in Figure 1B, in vitro killing assay revealed that PMN killed non-invasive GAS, resulting in 15-42% of initial number of bacteria, but not invasive GAS (p=0.019)
+T20	Span 735 855	The similar results were obtained when opsonized with either FCS or human serum regardless of complements immobilization
+T21	Causality 922 947	These data indicated that
+E4	Causality:T21 Effect:T22 Evidence:T20
+T22	Span 948 1044	clinically isolated severe invasive GAS were phagocytosed, but escaped from killing by human PMN
+E5	Causality:T21 Effect:T22 Evidence:T19
+E6	Causality:T21 Effect:T22 Evidence:T18

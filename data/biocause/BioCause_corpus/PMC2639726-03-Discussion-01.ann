@@ -1,0 +1,111 @@
+T69	Process 34 43	infection
+T70	Process 135 144	virulence
+T71	Process 230 239	virulence
+T72	Process 427 436	virulence
+T73	Process 493 503	attenuated
+T74	Process 524 533	infection
+T75	Process 920 929	infection
+T76	Process 952 961	infection
+T77	Process 1477 1486	infection
+T78	Process 1508 1518	attenuated
+T79	Process 1563 1573	attenuated
+T80	Process 1773 1782	infection
+T81	Process 1866 1875	infection
+T82	Process 2873 2882	infection
+T83	Transcription 3841 3852	transcribed
+T84	Positive_regulation 5452 5462	activation
+T85	Process 5613 5622	infection
+E1	Process:T69 Participant:T2
+E2	Process:T70 
+E3	Process:T71 Participant:T3
+E4	Process:T72 
+E5	Process:T73 
+E6	Process:T74 
+E7	Process:T75 Participant:T29
+E8	Process:T76 Participant:T29
+E9	Process:T77 
+E10	Process:T78 
+E11	Process:T79 
+E12	Process:T80 
+E13	Process:T81 Participant:T32
+E14	Process:T82 Participant:T34
+E15	Transcription:T83 Theme:T48
+M1	Negation E15
+E16	Positive_regulation:T84 Theme:T59
+E17	Process:T85 Participant:T62
+T1	Organism 28 33	mouse
+T2	Organism 45 55	Salmonella
+T3	Organism 207 229	Salmonella enteriditis
+T4	Organism 313 319	calves
+T5	Organism 321 329	chickens
+T6	Organism 335 339	mice
+T7	Organism 421 426	mouse
+T8	Organism 518 523	mouse
+T9	Protein 615 619	rpoS
+T10	Protein 624 628	rpoE
+T11	Two-component-system 657 666	ompR/envZ
+T12	Protein 657 661	ompR
+T13	Protein 662 666	envZ
+T14	Two-component-system 668 677	phoP/phoQ
+T15	Protein 668 672	phoP
+T16	Protein 673 677	phoQ
+T17	Two-component-system 683 692	ssrA/ssrB
+T18	Protein 683 687	ssrA
+T19	Protein 688 692	ssrB
+T20	Protein 728 732	csrA
+T21	Protein 734 737	hfq
+T22	Protein 742 746	smpB
+T23	Protein 768 771	ihf
+T24	Protein 822 826	fruR
+T25	Protein 828 832	spvR
+T26	Protein 834 837	crp
+T27	Protein 839 843	slyA
+T28	Protein 849 852	hnr
+T29	Organism 883 893	Salmonella
+T30	Organism 1471 1476	mouse
+T31	Organism 1581 1586	mouse
+T32	Organism 1848 1858	Salmonella
+T33	Organism 2504 2514	Salmonella
+T34	Organism 2811 2821	Salmonella
+T35	Chemical 3244 3253	magnesium
+T36	Protein 3268 3272	mgtB
+T37	Protein 3277 3281	mgtC
+T38	Protein 3307 3314	STM1485
+T39	Chemical 3337 3346	phosphate
+T40	Protein 3360 3364	pstS
+T41	Chemical 3440 3449	magnesium
+T42	Chemical 3451 3460	phosphate
+T43	Protein 3654 3658	sifA
+T44	Regulon-operon 3674 3686	STM3117-3120
+T45	Protein 3674 3681	STM3117
+T46	Protein 3682 3686	3120
+T47	Organism 3772 3782	Salmonella
+T48	Regulon-operon 3820 3832	STM3117-3120
+T49	Protein 3820 3827	STM3117
+T50	Protein 3828 3832	3120
+T51	Organism 4490 4497	E. coli
+T52	Protein 4947 4951	slyA
+T53	Protein 4967 4971	ssrB
+T54	Protein 4986 4990	fruR
+T55	Protein 5006 5009	crp
+T56	Organism 5273 5283	Salmonella
+T57	Protein 5295 5299	ssrB
+T58	Protein 5330 5334	hilA
+T59	Two-component-system 5442 5451	ssrB/slyA
+T60	Protein 5442 5446	ssrB
+T61	Protein 5447 5451	slyA
+T62	Organism 5552 5562	Salmonella
+T63	Organism 5626 5637	BALB/c mice
+T64	Protein 5720 5723	hns
+T65	Two-component-system 5828 5836	ydgT/hha
+T66	Protein 5828 5832	ydgT
+T67	Protein 5833 5836	hha
+T68	Protein 5893 5900	STM0410
+T86	Span 2471 2578	We computed the z-score for each Salmonella gene from our data and from the data provided by Eriksson et al
+T87	Causality 2585 2589	thus
+E18	Causality:T87 Effect:T88 Evidence:T86
+T88	Span 2590 2657	providing a value that can be compared across different experiments
+T89	Span 3179 3365	Four of the 5 most strongly differentially induced genes include magnesium transporters (mgtB and mgtC), an acid shock protein (STM1485), and a high affinity phosphate transporter (pstS)
+T90	Causality 3366 3381	suggesting that
+E19	Causality:T90 Effect:T91 Evidence:T89
+T91	Span 3382 3495	the acidic minimal media we used may not be low enough in magnesium, phosphate, or may not be sufficiently acidic

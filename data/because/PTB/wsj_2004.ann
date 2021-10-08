@@ -1,0 +1,40 @@
+T1	Argument 294 301;302 375	Messrs. Wolf and Pope saw their prospective personal fortunes continue to plummet
+T2	Consequence 376 378	as
+E1	Consequence:T2 Cause:T3 Effect:T1
+A1	Degree E1 Facilitate
+A2	Temporal E1
+T3	Argument 379 466	shares of UAL, United's parent company, dived $24.875 on the Big Board to close at $198
+T4	Consequence 601 604	had
+E2	Consequence:T4 Cause:T5 Effect:T6
+A3	Degree E2 Facilitate
+A4	Hypothetical E2
+T5	Argument 605 678	the pilots and management-led buy-out of UAL gone through at $300 a share
+T6	Argument 576 600	they would have realized
+T7	Consequence 682 686	When
+E3	Consequence:T7 Cause:T8 Effect:T9
+A5	Degree E3 Facilitate
+A6	Temporal E3
+T8	Argument 687 737	bank financing for the buy-out collapsed last week
+T9	Argument 739 757	so did UAL's stock
+T10	NonCausal 1371 1375	when
+E4	NonCausal:T10 Arg1:T12 Arg0:T11
+A8	Temporal E4
+T11	Argument 1376 1388	it hired him
+T12	Argument 1338 1370	UAL gave him a $15 million bonus
+#1	AnnotatorNotes E4	Temporal enablement
+T13	Consequence 1490 1496;1527 1529	enough to
+E5	Consequence:T13 Effect:T14 Cause:T15
+A9	Degree E5 Facilitate
+A10	Extremity-sufficiency E5
+T14	Argument 1530 1559	stash away that kind of money
+T15	Argument 1445 1496	The 40-year old Mr. Pope hasn't changed jobs enough
+T16	Purpose 1594 1596	to
+E6	Purpose:T16 Cause:T17 Effect:T18
+A11	Degree E6 Facilitate
+T17	Argument 1597 1633	lure him away from American Airlines
+T18	Argument 1561 1593	United paid him a $375,000 bonus
+T19	Purpose 2120 2122	so
+E7	Purpose:T19 Cause:T20 Effect:T21
+A12	Degree E7 Facilitate
+T20	Argument 2123 2153	the buy-out would be a success
+T21	Argument 2090 2119	asked to make pay concessions

@@ -1,0 +1,14 @@
+SlyA can complement other regulators for SPI-2 expression 
+The number of inputs at each regulator shown in Figure 6B corresponds to the number of regulators that directly or indirectly control its expression.
+The number of regulators that act on slyA was surprising.
+Quantitative RT-PCR confirmed that slyA transcription was reduced in 11 of 14 mutant backgrounds (Figure 6A).
+slyA transcriptional activation by PhoP has been reported [63],[64].
+The complementation result suggests that many of the regulators may function on SPI-2 through SlyA activation of ssrB or alternatively via both regulators (slyA and ssrB) acting together.
+To determine epistatic relationships, we introduced a slyA-expressing plasmid, pBAD30SlyA, into each regulatory mutant and examined complementation in each mutant background compared to an empty vector control (Figure 7C).
+The construct strongly complemented ompR/envZ, phoP/phoQ, csrA and himD, suggesting that the effect of these regulators on SPI-2 expression may be indirect via regulation of slyA.
+Surprisingly, the expression of SPI-2 genes depended upon slyA even in an ssrA/ssrB deleted strain.
+This suggests that slyA can regulate expression of SPI-2 in a way that is independent of ssrB.
+To test this possibility we constructed double deletions of ssrAB/ompRenvZ, ssrAB/phoPQ, ssrAB/csrA and ssrAB/himD.
+As shown in Figure 7D, slyA is capable of activating expression of SPI-2 genes independently of ssrB, ompR/envZ, phoP/phoQ, csrA and himD (ihf), although the effects are not as strong as ssrB.
+Furthermore there was a clear dichotomy in expression between the first two SPI-2 operons encoding ssaB-ssaE and sseA-sseG and the operons further downstream (ssaG-ssaQ) suggesting that slyA may act at different sites within SPI-2.
+However, these experiments are based on over-expression of slyA that may complicate the analysis because of binding to sites that would normally not be occupied.

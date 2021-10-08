@@ -1,0 +1,4 @@
+Regulation by uncommon LuxR-like receptors 
+LuxR-like receptors in Y. enterocolitica with a yet unidentified signalling binding-site are YE2705 and YE3014, both of which are also present in Y. pestis (YPO2955 and YPO2593) and in S. glossinidius (SGP1_007, SG1174, SG1480, and SG1698), but not in P. luminescens (Fig. 3).
+It might be possible that signalling molecules of mammals and hormones of adult insects are sensed via these receptors by Y. enterocolitica and S. glossinidius, respectively, hosts which P. luminescens does not specifically interact with during its life cycle.
+In P. luminescens, two LuxR-like receptors with a yet unidentified signalling binding site are present, Plu4274 and Plu1817, the latter of which is shared by Y. enterocolitica (YE1621), but not by S. glossinidius.

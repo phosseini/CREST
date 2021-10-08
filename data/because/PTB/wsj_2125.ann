@@ -1,0 +1,77 @@
+T5	Motivation 1198 1205	because
+E2	Motivation:T5 Effect:T6 Cause:T7
+A2	Degree E2 Facilitate
+T6	Argument 1136 1197	bankers and other investors were willing to provide financing
+T7	Argument 1206 1277	they assumed there would be major gains in both profitability and sales
+T8	Consequence 1478 1482	when
+E3	Consequence:T8 Cause:T9 Effect:T10
+A3	Degree E3 Facilitate
+A4	Temporal E3
+T9	Argument 1483 1500	prices were crazy
+T10	Argument 1502 1533	it was even harder to do an LBO
+T11	Argument 847 852	which
+T13	Consequence 860 864	help
+E4	Consequence:T13 Effect:T14 Cause:T11
+A5	Degree E4 Facilitate
+T14	Argument 865 875	management
+T15	Argument 807 845	The pricing will become more realistic
+R1	Coref Arg1:T11 Arg2:T15	
+#2	AnnotatorNotes E4	Implicit effect: makes it easier to do the thing specified above
+T12	Consequence 1768 1772	help
+E5	Consequence:T12 Cause:T16 Effect:T17
+A6	Degree E5 Facilitate
+T16	Argument 1750 1762	lower prices
+T17	Argument 1773 1814	his management team in their proposed LBO
+#3	AnnotatorNotes E5	Still talking about making what they want to do easier
+T18	Consequence 1917 1921;1925 1927	help in
+E6	Consequence:T18 Cause:T19 Effect:T20
+A7	Degree E6 Facilitate
+T19	Argument 1903 1905	It
+T20	Argument 1922 1924;1928 1958	us our search for equity partners
+T21	Consequence 1960 1962;2001 2005	To need
+E7	Consequence:T21 Effect:T22 Cause:T23
+A8	Degree E7 Facilitate
+T22	Argument 1963 1979	make an LBO work
+T23	Argument 2006 2031	more than just junk bonds
+T24	Consequence 1963 1967	make
+E8	Consequence:T24 Effect:T25 Cause:T26
+A9	Degree E8 Facilitate
+T25	Argument 1968 1974;1975 1979	an LBO work
+T26	Argument 1985 1987	we
+T27	Consequence 2245 2247	if
+E9	Consequence:T27 Cause:T28 Effect:T29
+A10	Degree E9 Facilitate
+A11	Hypothetical E9
+T28	Argument 2248 2288	consumers lose confidence in the economy
+T29	Argument 2192 2244	could the Wall Street gyrations damp Christmas sales
+T30	Consequence 2785 2789	make
+E10	Consequence:T30 Cause:T31 Effect:T32
+A12	Degree E10 Facilitate
+T31	Argument 2715 2777	the lower prices these retail chains are now expected to bring
+T32	Argument 2790 2792;2793 2875	it easier for managers to raise the necessary capital and pay back the resulting debt
+T33	Consequence 2861 2870	resulting
+E11	Consequence:T33 Effect:T34
+A13	Degree E11 Facilitate
+T34	Argument 2871 2875	debt
+T35	NonCausal 3317 3326	producing
+E12	NonCausal:T35 Arg1:T36 Arg0:T37
+A14	Creation-termination E12
+T36	Argument 3327 3334	profits
+T37	Argument 3277 3286	Retailers
+T38	Consequence 3552 3562	because of
+E13	Consequence:T38 Effect:T39 Cause:T40
+A15	Degree E13 Facilitate
+T39	Argument 3525 3542	already in tumult
+T40	Argument 3563 3645	concerns associated with bonds issued by the Federated and Allied units of Campeau
+T41	Consequence 3729 3733	help
+E14	Consequence:T41 Effect:T42 Cause:T43
+A16	Degree E14 Facilitate
+T42	Argument 3734 3744	management
+T43	Argument 3718 3723	which
+#4	AnnotatorNotes E14	Implicit effect
+T44	Argument 3651 3716	Prices for retail chains are lower today than they were last week
+R2	Coref Arg1:T43 Arg2:T44	
+T45	Note 758 763	drive
+#5	AnnotatorNotes T45	"Drive" in the sense of "push"
+T50	Note 3525 3542	already in tumult
+#10	AnnotatorNotes T50	I think this is the effect

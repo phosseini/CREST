@@ -1,0 +1,74 @@
+T4	Purpose 450 452;465 475	in attempt to
+E2	Purpose:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+T5	Argument 374 448	a 90% devaluation of the ruble against the dollar for private transactions
+T6	Argument 476 513	curb a black market for hard currency
+T10	Consequence 813 819	easing
+E4	Consequence:T10 Effect:T11 Cause:T12
+A5	Degree E4 Facilitate
+T11	Argument 820 836	abortion funding
+T12	Argument 806 812	a bill
+T13	Consequence 909 918	needed to
+E5	Consequence:T13 Cause:T14 Effect:T15
+A6	Degree E5 Facilitate
+T14	Argument 885 908	the two-thirds majority
+T15	Argument 919 1052	overturn the president's veto of legislation renewing support of Medicaid abortions for poor women who are victims of rape and incest
+T16	NonCausal 1317 1326;1333 1335	requiring to
+E6	NonCausal:T16 Arg0:T17 Arg1:T18
+T17	Argument 1310 1316	a bill
+T18	Argument 1327 1332;1336 1372	girls get parental consent for an abortion
+T19	NonCausal 1434 1439	after
+E7	NonCausal:T19 Arg1:T21 Arg0:T20
+T20	Argument 1440 1466	the 24th week of pregnancy
+T21	Argument 1424 1433	abortions
+T22	NonCausal 1647 1652	since
+E8	NonCausal:T22 Arg0:T23 Arg1:T24
+A8	Temporal E8
+T23	Argument 1653 1657	1987
+T24	Argument 1588 1646	Adults have had access to the only approved antiviral drug
+T25	Consequence 1937 1947	came after
+E9	Consequence:T25 Cause:T26 Effect:T27
+A9	Degree E9 Facilitate
+T26	Argument 1948 1992	the Senate approved the House-passed measure
+T27	Argument 1926 1936	The action
+A10	Temporal E7
+A11	Temporal E9
+A12	Obligation-permission E6
+T28	NonCausal 2224 2230	during
+E10	NonCausal:T28 Arg0:T29 Arg1:T30
+A13	Temporal E10
+T29	Argument 2231 2254	the current fiscal year
+T30	Argument 2193 2223	provide more than $3.8 billion
+T31	NonCausal 2347 2353	within
+E11	NonCausal:T31 Arg1:T32
+A14	Temporal E11
+T32	Argument 2301 2346	The final package is expected to be announced
+T37	Consequence 2902 2907;2921 2923	allow to
+E13	Consequence:T37 Cause:T38 Effect:T39
+A16	Degree E13 Facilitate
+A17	Obligation-permission E13
+T38	Argument 2893 2895	he
+T39	Argument 2908 2920;2924 2949	East Germans travel abroad more freely
+T46	Consequence 4002 4010;4055 4057	allowing to
+E16	Consequence:T46 Cause:T47 Effect:T48
+A20	Degree E16 Facilitate
+T47	Argument 3988 4001	a court order
+A21	Obligation-permission E16
+T48	Argument 4011 4054;4058 4160	former National Security Adviser Poindexter subpoena ex-President Reagan's personal papers for use in the defense case against Iran-Contra charges
+T49	Purpose 4105 4108	for
+E17	Purpose:T49 Cause:T50 Effect:T51
+A22	Degree E17 Facilitate
+T50	Argument 4109 4160	use in the defense case against Iran-Contra charges
+T51	Argument 4058 4104	subpoena ex-President Reagan's personal papers
+T1	Consequence 5247 5249	of
+E1	Consequence:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 5250 5256	cancer
+T33	Consequence 5362 5364	of
+E12	Consequence:T33 Cause:T34 Effect:T35
+A7	Degree E12 Facilitate
+T34	Argument 5365 5379	a heart attack
+T35	Argument 5174 5178;5264 5360	Died Marion Harper, 73, founder and ex-chief executive of Interpublic Group of Cos., in Oklahoma City
+T3	Argument 5174 5245	Died: Mary McCarthy, 77, novelist and literary critic, in New York City
+T7	Note 634 638	over
+#1	AnnotatorNotes T7	Clearly causal, but Topic.

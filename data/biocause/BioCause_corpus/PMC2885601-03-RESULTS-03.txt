@@ -1,0 +1,13 @@
+Endopeptidase Activity of SeMac against Horse IgG1 and Human IgG 
+GAS Mac can cleave the heavy chain of human IgG at the lower hinge region between Fab and Fc fragments.
+A catalytic triad of Cys94, His262, and Asp284 residues is critical for the enzymatic activity of GAS Mac [7, 8].
+SeMac possesses putative catalytic residues of Cys102, His272, and Asp294 (Fig. 1).
+To determine whether SeMac also is a cysteine endopeptidase targeting IgG, Cys102 and His272 or Asp294 of SeMac were replaced with Ser and Ala, respectively, by site-directed mutagenesis, and wild-type and mutant (SeMacCys102Ser, SeMacHis272Ala and SeMacAsp294Ala) SeMac proteins expressed in E. coli were tested for IgG endopeptidase activity using human IgG.
+Wild-type SeMac cleaved the heavy chain of human IgG, while SeMacCys102Ser and SeMacHis272Ala completely lost the IgG endopeptidase activity, and SeMacAsp294Ala had dramatically lower enzymatic activity than the wild-type protein (Fig. 4A).
+The results indicate that SeMac is a cysteine endopeptidase, which uses Cys102, His272 and Asp294 as its catalytic triad to cleave human IgG.
+Purified recombinant SeMac and GAS Mac were then tested for activity to cleave horse IgG.
+While both proteins cleaved human IgG efficiently, only a small fraction of horse IgG was cleaved by either protein (Fig. 4B), suggesting that SeMac or GAS Mac cannot digest all subgroups of horse IgG.
+To test this possibility, available horse IgG1 and a mixture of IgG1 and IgG4 were treated with SeMac or GAS Mac.
+SeMac or GAS Mac cleaved a small portion of the IgG1/IgG4 mixture, but not IgG4.
+Therefore, the Mac proteins can cleave IgG1 but not IgG4.
+Due to the unavailability of other purified subgroup IgG, it is not known whether SeMac cleaves the other IgG subgroups.

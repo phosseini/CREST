@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0321</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-01</TIMEX3></DCT>
+<TEXT>
+ StatesWest Airlines, Phoenix, Ariz., <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE">withdrew</EVENT> its <EVENT eid="e3" class="I_ACTION">offer</EVENT> to <EVENT eid="e4" class="OCCURRENCE">acquire</EVENT> Mesa Airlines <C-SIGNAL cid="c5">because</C-SIGNAL> the Farmington, N.M., carrier didn't <EVENT eid="e6" class="OCCURRENCE">respond</EVENT> to its <EVENT eid="e7" class="OCCURRENCE">offer</EVENT> by the <EVENT eid="e8" class="OCCURRENCE">close</EVENT> of business <TIMEX3 tid="t9" type="DATE" value="1989-10-31" functionInDocument="NONE">yesterday</TIMEX3>, a deadline StatesWest had <EVENT eid="e10" class="OCCURRENCE">set</EVENT> for a response.
+ However, StatesWest isn't <EVENT eid="e11" class="ASPECTUAL">abandoning</EVENT> its <EVENT eid="e12" class="OCCURRENCE">pursuit</EVENT> of the much-larger Mesa.
+ StatesWest, which has a 7.25 % stake in Mesa, <EVENT eid="e13" class="REPORTING">said</EVENT> it may <EVENT eid="e14" class="OCCURRENCE">purchase</EVENT> more Mesa stock or <EVENT eid="e15" class="OCCURRENCE">make</EVENT> a tender <EVENT eid="e16" class="OCCURRENCE">offer</EVENT> directly to Mesa shareholders.
+ StatesWest had <EVENT eid="e17" class="I_ACTION">proposed</EVENT> <EVENT eid="e18" class="OCCURRENCE">acquiring</EVENT> Mesa for $ 7 a share and one share of a new series of StatesWest 6 % convertible preferred stock it values at $ 3 a share.
+ Earlier, Mesa had <EVENT eid="e19" class="I_STATE">rejected</EVENT> a general <EVENT eid="e20" class="I_ACTION">proposal</EVENT> from StatesWest to <EVENT eid="e21" class="OCCURRENCE">combine</EVENT> the two carriers in some way.
+ StatesWest serves 10 cities in California, Arizona and Nevada.
+ Mesa flies to 42 cities in New Mexico, Arizona, Wyoming, Colorado and Texas.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" modality="may" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" modality="may" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei2"/>
+<TLINK lid="l3" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToEventInstance="ei8"/>
+<TLINK lid="l5" relType="IDENTITY" eventInstanceID="ei7" relatedToEventInstance="ei3"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei2"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei10" relatedToTime="t9"/>
+<TLINK lid="l8" relType="INCLUDES" eventInstanceID="ei11" relatedToTime="t0"/>
+<TLINK lid="l9" relType="IDENTITY" eventInstanceID="ei12" relatedToEventInstance="ei3"/>
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0"/>
+<TLINK lid="l11" relType="IDENTITY" eventInstanceID="ei15" relatedToEventInstance="ei16"/>
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei17" relatedToTime="t0"/>
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei17"/>
+<TLINK lid="l14" relType="AFTER" eventInstanceID="ei19" relatedToEventInstance="ei20"/>
+<CLINK lid="l4" c-signalID="c5" eventInstanceID="ei6" relatedToEventInstance="ei2"/>
+</TimeML>

@@ -1,0 +1,203 @@
+T91	Process 428 437	infection
+T92	Process 766 774	infected
+T93	Process 1031 1040	infection
+T94	Process 1255 1264	infection
+T95	Process 1339 1348	infection
+T96	Process 1362 1372	challenged
+T97	Process 1476 1489	hypervirulent
+T98	Gene_expression 1570 1579	expressed
+T99	Process 1899 1908	infection
+T100	Process 2145 2153	infected
+T101	Process 2180 2188	infected
+T102	Process 2344 2352	infected
+T103	Gene_expression 2565 2575	expression
+T104	Process 2777 2786	infection
+T105	Process 2808 2816	infected
+T106	Process 3029 3038	resistant
+T107	Process 3252 3261	infection
+T108	Process 3283 3297	hypervirulence
+T109	Process 3442 3451	virulence
+T110	Process 3573 3581	virulent
+T111	Process 3646 3655	infection
+T112	Process 3711 3719	infected
+T113	Process 3762 3771	infection
+T114	Process 4069 4083	hypervirulence
+T115	Process 4131 4140	infection
+T116	Process 4181 4189	infected
+T117	Process 4278 4286	infected
+T118	Gene_expression 4379 4393	reintroduction
+T119	Negative_regulation 4462 4470	reverses
+T120	Process 4475 4489	hypervirulence
+T121	Process 5013 5022	infection
+T122	Process 5037 5050	hypervirulent
+E1	Process:T91 
+E2	Process:T92 
+E3	Process:T93 Participant:T14
+E4	Process:T94 Participant:T15
+E5	Process:T95 
+E6	Process:T96 Participant:T19
+E7	Process:T97 
+E8	Gene_expression:T98 Theme:T20
+E9	Process:T99 
+E10	Process:T100 Participant:T28
+E11	Process:T101 Participant:T30
+E12	Process:T102 Participant:T31
+E13	Gene_expression:T103 Theme:T40
+E14	Process:T104 
+E15	Process:T105 Participant:T44
+E16	Process:T105 Participant:T45
+E17	Process:T105 Participant:T47
+E18	Process:T106 
+E19	Process:T107 Participant:T54
+E20	Process:T108 Participant:T56
+E21	Process:T109 Participant:T60
+E22	Process:T110 Participant:T63
+E23	Process:T110 Participant:T65
+E24	Process:T111 Participant:T63
+E25	Process:T111 Participant:T65
+E26	Process:T112 Participant:T63
+E27	Process:T112 Participant:T65
+E28	Process:T113 Participant:T67
+E29	Process:T113 Participant:T68
+E30	Process:T114 Participant:T70
+E31	Process:T115 
+E32	Process:T116 Participant:T74
+E33	Process:T117 
+E34	Gene_expression:T118 Theme:T77
+E35	Negative_regulation:T119 Theme:E36 Cause:E34
+E36	Process:T120 Participant:T78
+E37	Process:T121 Participant:T90
+E38	Process:T122 Participant:T90
+T1	Protein 0 6	Rv2623
+T2	Organism 195 205	Salmonella
+T3	Organism 232 236	mice
+T4	Protein 264 270	Rv2623
+T5	Organism 384 399	M. tuberculosis
+T6	Organism 457 468	guinea pigs
+T7	Organism 535 546	Deltarv2623
+T8	Protein 540 546	rv2623
+T9	Organism 633 648	M. tuberculosis
+T10	Organism 681 713	Deltarv2623-infected guinea pigs
+T11	Protein 686 692	rv2623
+T12	Organism 789 795	Erdman
+T13	Organism 900 911	Guinea pigs
+T14	Organism 946 960	Erdman bacilli
+T15	Organism 1149 1168	Deltarv2623 bacilli
+T16	Protein 1154 1160	rv2623
+T17	Organism 1276 1308	Deltarv2623-infected guinea pigs
+T18	Protein 1281 1287	rv2623
+T19	Organism 1387 1393	Erdman
+T20	Protein 1563 1569	rv2623
+T21	Organism 1624 1654	Deltarv2623 attB::Phsp60Rv2623
+T22	Protein 1629 1635	rv2623
+T23	Protein 1636 1640	attB
+T24	Protein 1643 1648	hsp60
+T25	Protein 1648 1654	Rv2623
+T26	Organism 1791 1823	Deltarv2623-infected guinea pigs
+T27	Protein 1796 1802	rv2623
+T28	Organism 2133 2144	Deltarv2623
+T29	Protein 2138 2144	rv2623
+T30	Organism 2203 2209	Erdman
+T31	Organism 2375 2405	Deltarv2623 attB::Phsp60Rv2623
+T32	Protein 2380 2386	rv2623
+T33	Protein 2387 2391	attB
+T34	Protein 2394 2399	hsp60
+T35	Protein 2399 2405	Rv2623
+T36	Organism 2526 2557	Deltarv2623 attB::Prv2623Rv2623
+T37	Protein 2531 2537	rv2623
+T38	Protein 2538 2542	attB
+T39	Protein 2545 2551	rv2623
+T40	Protein 2551 2557	Rv2623
+T41	Protein 2641 2647	rv2623
+T42	Organism 2714 2724	guinea pig
+T43	Organism 2795 2807	C57BL/6 mice
+T44	Organism 2831 2846	M. tuberculosis
+T45	Organism 2848 2859	Deltarv2623
+T46	Protein 2853 2859	rv2623
+T47	Organism 2868 2907	attB::Phsp60 Rv2623 complemented strain
+T48	Protein 2868 2872	attB
+T49	Protein 2875 2880	hsp60
+T50	Protein 2881 2887	Rv2623
+T51	Organism 3007 3012	mouse
+T52	Organism 3047 3062	M. tuberculosis
+T53	Organism 3096 3103	C57BL/6
+T54	Organism 3145 3160	M. tuberculosis
+T55	Organism 3192 3196	mice
+T56	Organism 3311 3322	Deltarv2623
+T57	Protein 3316 3322	rv2623
+T58	Organism 3351 3361	guinea pig
+T59	Organism 3398 3410	C57BL/6 mice
+T60	Organism 3455 3466	Deltarv2623
+T61	Protein 3460 3466	rv2623
+T62	Organism 3497 3510	C3H/HeJ mouse
+T63	Organism 3536 3547	Deltarv2623
+T64	Protein 3541 3547	rv2623
+T65	Organism 3603 3625	Erdman M. tuberculosis
+T66	Organism 3698 3710	C3H/HeJ mice
+T67	Organism 3776 3782	Erdman
+T68	Organism 3788 3813	Deltarv2623-infected mice
+T69	Protein 3793 3799	rv2623
+T70	Organism 3966 3989	Rv2623-deficient mutant
+T71	Protein 3966 3972	Rv2623
+T72	Organism 4011 4033	M. tuberculosis Erdman
+T73	Organism 4176 4180	mice
+T74	Organism 4195 4222	Deltarv2623 M. tuberculosis
+T75	Protein 4200 4206	rv2623
+T76	Organism 4306 4316	guinea pig
+T77	Protein 4423 4429	rv2623
+T78	Organism 4435 4461	Deltarv2623 M.tuberculosis
+T79	Protein 4440 4446	rv2623
+T80	Organism 4519 4526	C3H/HeJ
+T81	Organism 4592 4609	tubercle bacillus
+T82	Protein 4656 4662	rv2623
+T83	Organism 4694 4719	Deltarv2623-infected mice
+T84	Protein 4699 4705	rv2623
+T85	Organism 4774 4779	mouse
+T86	Organism 4788 4797	C3HeB/FeJ
+T87	Protein 4869 4875	Rv2623
+T88	Organism 4900 4915	M. tuberculosis
+T89	Protein 4943 4949	Rv2623
+T90	Organism 4955 4972	tubercle bacillus
+T123	Span 411 493	Low dose aerosol infection of outbred Hartley guinea pigs with approximately30 CFU
+T124	Causality 494 502	revealed
+E39	Causality:T124 Effect:T125 Evidence:T123
+T125	Span 503 581	a clear growth advantage of the Deltarv2623 mutant strain relative to wildtype
+T126	Span 900 1040	Guinea pigs are able to control the growth of Erdman bacilli following the onset of adaptive immunity at approximately3 weeks post-infection
+T128	Span 1056 1264	the relatively stable pulmonary bacterial burden beyond the 3 week time point, yet levels of Deltarv2623 bacilli continued to increase at a reduced but steady rate resulting in a rapidly progressing infection
+T127	Causality 1042 1055	as evident by
+E40	Causality:T127 Evidence:T128 Effect:T126
+T129	Span 1276 1421	Deltarv2623-infected guinea pigs were moribund at 60 days post-infection, while those challenged with wildtype Erdman remained relatively healthy
+T130	Causality 1423 1454	providing further evidence that
+E41	Causality:T130 Effect:T131 Evidence:T129
+T131	Span 1455 1503	the mutant strain is hypervirulent in this model
+T132	Span 1514 1655	complementation with a single integrated copy of rv2623 expressed from a constitutive mycobacterial promoter (Deltarv2623 attB::Phsp60Rv2623)
+T133	Causality 1656 1656	
+E42	Causality:T133 Effect:T134 Evidence:T132
+T134	Span 1656 1709	abrogated the growth advantage of the deletion mutant
+T135	Span 3124 3261	evidence exists that M. tuberculosis triggers an immune response in mice that is in excess of that required for controlling the infection
+T136	Causality 3273 3277	Thus
+E43	Causality:T136 Effect:T137 Evidence:T135
+T137	Span 3279 3410	the hypervirulence phenotype of Deltarv2623 observed in the susceptible guinea pig model could have been masked in the C57BL/6 mice
+T138	Span 3532 3655	the Deltarv2623 mutant was markedly more virulent relative to wildtype Erdman M. tuberculosis following aerogenic infection
+T139	Causality 3657 3671	as assessed by
+E44	Causality:T139 Evidence:T140 Effect:T138
+T140	Span 3672 3813	the mean survival time of C3H/HeJ mice infected with these strains (62 and 25.5 days post infection for Erdman- and Deltarv2623-infected mice
+T141	Span 3532 3813	the Deltarv2623 mutant was markedly more virulent relative to wildtype Erdman M. tuberculosis following aerogenic infection, as assessed by the mean survival time of C3H/HeJ mice infected with these strains (62 and 25.5 days post infection for Erdman- and Deltarv2623-infected mice
+T142	Causality 3851 3886	In agreement with the survival data
+E45	Causality:T142 Effect:T143 Evidence:T141
+T143	Span 3888 4033	quantification of tissue bacterial burden revealed a growth advantage for the Rv2623-deficient mutant relative to wildtype M. tuberculosis Erdman
+T144	Span 4047 4141	Manifestation of this hypervirulence phenotype is apparent as early as 3 weeks post-infection,
+T145	Causality 4142 4146	with
+E46	Causality:T145 Effect:T146 Evidence:T144
+T146	Span 4147 4294	the lung bacterial burden of mice infected with Deltarv2623 M. tuberculosis approximately100 fold higher than that in the wildtype-infected animals
+T147	Span 4296 4532	As in the guinea pig studies, results of complementation experiments involving the reintroduction of a single copy of wildtype rv2623 into Deltarv2623 M.tuberculosis reverses the hypervirulence (Figure 4C) exhibited in the C3H/HeJ model
+T148	Causality 4534 4554	thus indicating that
+E47	Causality:T148 Effect:T149 Evidence:T147
+T149	Span 4555 4671	the observed growth phenotype of the tubercle bacillus deficient for the universal stress protein is rv2623-specific
+T150	Span 4673 4797	Finally, survival of Deltarv2623-infected mice was also significantly reduced in another susceptible mouse strain, C3HeB/FeJ
+T151	Span 4296 4671	As in the guinea pig studies, results of complementation experiments involving the reintroduction of a single copy of wildtype rv2623 into Deltarv2623 M.tuberculosis reverses the hypervirulence (Figure 4C) exhibited in the C3H/HeJ model, thus indicating that the observed growth phenotype of the tubercle bacillus deficient for the universal stress protein is rv2623-specific
+T152	Causality 4811 4868	Together, the animal studies provide strong evidence that
+E48	Causality:T152 Effect:T153 Evidence:T150
+T153	Span 4869 5060	Rv2623 regulates the growth of M. tuberculosis in vivo: in the absence of Rv2623, the tubercle bacillus fails to establish a chronic persistent infection, exhibiting a hypervirulent phenotype
+E49	Causality:T152 Effect:T153 Evidence:T151
+E50	Causality:T152 Effect:T153 Evidence:T141

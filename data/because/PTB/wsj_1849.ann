@@ -1,0 +1,176 @@
+T1	Consequence 191 196	after
+E1	Consequence:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+A2	Temporal E1
+T2	Argument 197 231	the Armenian earthquake a year ago
+T3	Argument 180 190	The rubble
+T4	Consequence 344 356	stemmed from
+E2	Consequence:T4 Effect:T5 Cause:T6
+A3	Degree E2 Facilitate
+T5	Argument 317 343	The extent of the disaster
+A4	Creation-termination E2
+T6	Argument 357 405	years of chicanery and bureaucratic indifference
+T7	NonCausal 429 434	after
+E3	NonCausal:T7 Arg0:T8 Arg1:T9
+A5	Temporal E3
+T8	Argument 435 481	the earthquake centered south of San Francisco
+T9	Argument 409 428;482 526	The larger parallel is surely with the state of the U.S. economy
+T10	Motivation 775 783	produced
+E4	Motivation:T10 Cause:T11 Effect:T12
+A6	Degree E4 Facilitate
+A7	Creation-termination E4
+T11	Argument 726 770	The eerie complacency of the Reagan-Bush era
+T12	Argument 784 872	Panglossian paeans about the present perfection of U.S. economic and social arrangements
+T13	Consequence 1012 1017	since
+E5	Consequence:T13 Effect:T14 Cause:T15
+A8	Degree E5 Facilitate
+T14	Argument 977 1011	history is, so to speak, at an end
+T15	Argument 1018 1116	the course of human progress has now culminated in the glorious full stop of American civilization
+T16	Consequence 1505 1509	when
+E6	Consequence:T16 Effect:T17 Cause:T18
+A9	Degree E6 Facilitate
+A10	Temporal E6
+T17	Argument 1451 1504	Builders get away with using sand and financiers junk
+T18	Argument 1510 1574	society decides it's okay, necessary even, to look the other way
+T19	Motivation 1626 1635	reason to
+E7	Motivation:T19 Effect:T20
+A11	Degree E7 Facilitate
+T20	Argument 1636 1654	welcome junk bonds
+T21	Motivation 1626 1632;1656 1658	reason to
+E8	Motivation:T21 Effect:T22
+A12	Degree E8 Facilitate
+T22	Argument 1659 1677	look the other way
+T24	Consequence 2196 2198	if
+E9	Consequence:T24 Effect:T25 Cause:T26
+A13	Degree E9 Facilitate
+A14	Hypothetical E9
+T25	Argument 2185 2195	arrived at
+T26	Argument 2199 2318;2319 2330	you divide the market value of firms by the replacement costs of their assets, the famous Q ratio associated with Prof. James Tobin
+T27	Consequence 2542 2544	if
+E10	Consequence:T27 Cause:T28 Effect:T29
+A15	Degree E10 Facilitate
+A16	Hypothetical E10
+T28	Argument 2545 2578	the firm is not producing profits
+T29	Argument 2486 2541	the firm's capital stock -- its assets -- means nothing
+T30	NonCausal 2561 2570	producing
+E11	NonCausal:T30 Arg0:T31 Arg1:T32
+A17	Creation-termination E11
+T31	Argument 2545 2553	the firm
+T32	Argument 2571 2578	profits
+T33	Argument 2628 2647	the ratio was 43.5%
+T34	Consequence 2649 2656	meaning
+E12	Consequence:T34 Cause:T33 Effect:T35
+A18	Degree E12 Facilitate
+T35	Argument 2662 2746	the market was valuing every dollar's worth of the average firm's assets at 43 cents
+T36	Motivation 2816 2818	if
+E13	Motivation:T36 Cause:T37 Effect:T38
+A19	Degree E13 Facilitate
+A20	Hypothetical E13
+T37	Argument 2819 2891	it takes only 43 cents to buy a dollar's worth of a firm's capital stock
+T38	Argument 2893 2939	an alert entrepreneur won't look the other way
+T39	Argument 3013 3054	the capital assets he bought on the cheap
+T40	NonCausal 3068 3077	producing
+E14	NonCausal:T40 Arg0:T39 Arg1:T41
+A21	Creation-termination E14
+T41	Argument 3078 3085	profits
+T42	Motivation 3087 3091	thus
+E15	Motivation:T42 Effect:T43 Cause:T44
+A22	Degree E15 Facilitate
+T43	Argument 3092 3128	restoring the market's faith in them
+T44	Argument 2964 3085	the underlying profitability rate will go up and the capital assets he bought on the cheap will soon be producing profits
+T45	Motivation 3130 3135	Hence
+E16	Motivation:T45 Effect:T46
+A23	Degree E16 Facilitate
+T46	Argument 3136 3149	the LBO craze
+T47	Consequence 3355 3361	Result
+E17	Consequence:T47 Effect:T48
+A24	Degree E17 Facilitate
+T48	Argument 3363 3473	a landscape littered with lemons, huge debt burdens crushing down upon the arch and spans of corporate America
+T49	Motivation 3557 3563;3665 3668;3677 3679	enough for to
+E18	Motivation:T49 Cause:T50 Effect:T100
+A25	Degree E18 Facilitate
+A26	Extremity-sufficiency E18
+T50	Argument 3546 3664	there were enough promoters announcing the end of history (in this case suspension of normal laws of economic gravity)
+T52	Purpose 3835 3837	to
+E19	Purpose:T52 Cause:T53 Effect:T54
+A27	Degree E19 Facilitate
+T53	Argument 3838 3879	watch the avalanche of leveraged buy-outs
+T54	Argument 3813 3834	swiveling their heads
+T55	Consequence 3897 3903	result
+E20	Consequence:T55 Effect:T56
+A28	Degree E20 Facilitate
+T56	Argument 3913 4018	a leaner, meaner corporate America, with soaring productivity and profits and the weaker gone to the wall
+T57	NonCausal 4592 4597	after
+E21	NonCausal:T57 Arg0:T58 Arg1:T59
+A29	Temporal E21
+T58	Argument 4598 4619	the great merger wave
+T59	Argument 4579 4591	Profit rates
+T60	Consequence 4714 4726	consequences
+E22	Consequence:T60 Cause:T61
+A30	Degree E22 Facilitate
+T61	Argument 4730 4756	building empires with sand
+T62	Consequence 5046 5057	consequence
+E23	Consequence:T62 Effect:T63 Cause:T64
+A31	Degree E23 Facilitate
+T63	Argument 5034 5038	What
+T64	Argument 5061 5135	a high-interest burden, high default rates and continued low profitability
+T65	Motivation 5197 5204	Without
+E24	Motivation:T65 Cause:T66 Effect:T67
+A32	Context E24
+A33	Degree E24 Inhibit
+T66	Argument 5205 5266	liquidity from the junk-bond market or cash flow from profits
+T67	Argument 5268 5442	they look to the government, which obediently assists the natural motions of the capitalist economy with charity in the form of cuts in the capital-gains tax rate or bailouts
+T68	Consequence 5448 5459	consequence
+E25	Consequence:T68 Effect:T69
+A34	Degree E25 Facilitate
+T69	Argument 5467 5476	inflation
+T70	Consequence 5496 5502	effect
+E26	Consequence:T70 Cause:T71 Effect:T69
+A35	Degree E26 Facilitate
+T71	Argument 5506 5571	a desperate bid to avoid the deflationary shock of a sudden crash
+T75	NonCausal 6232 6237	after
+E28	NonCausal:T75 Arg0:T76 Arg1:T77
+A37	Temporal E28
+T76	Argument 6238 6272	the glory boom of the Reagan years
+T77	Argument 6274 6409	wages had sunk from the post World War II peak by 16% as capitalists, helped by the government, turned down the screws or went offshore
+T78	Consequence 6328 6330	as
+E29	Consequence:T78 Cause:T80 Effect:T79
+A38	Temporal E29
+T79	Argument 6274 6327	wages had sunk from the post World War II peak by 16%
+T80	Argument 6331 6409	capitalists, helped by the government, turned down the screws or went offshore
+T81	NonCausal 6760 6767;6778 6780	forbade to
+E30	NonCausal:T81 Arg0:T82 Arg1:T83
+A39	Obligation-permission E30
+T82	Argument 6743 6759	the London Times
+T83	Argument 6768 6777;6781 6836	my father use when he was reporting the Wall Street crash in 1929
+T84	NonCausal 6785 6789	when
+E31	NonCausal:T84 Arg0:T86 Arg1:T85
+A41	Temporal E31
+T85	Argument 6743 6784	the London Times forbade my father to use
+T86	Argument 6790 6836	he was reporting the Wall Street crash in 1929
+T93	Note 2091 2107	Corresponding to
+#4	AnnotatorNotes T93	General having to do with each other; co-varying correlation is by implication at best.
+T94	Note 2750 2754	From
+#5	AnnotatorNotes T94	"Based on," not "because of"
+T97	Note 3949 3953	with
+#8	AnnotatorNotes T97	Specification of how it's leaner and meaner, not reason/context for.
+T91	Argument 2008 2012	that
+T99	Consequence 2013 2021	followed
+E33	Consequence:T99 Effect:T91
+A43	Degree E33 Facilitate
+A44	Temporal E33
+T23	Argument 1987 2007	the supposed miracle
+R2	Coref Arg1:T91 Arg2:T23	
+T100	Argument 3669 3676;3680 3707	society continue shielding its eyes
+T102	Note 7238 7242	make
+#10	AnnotatorNotes T102	"Make X of Y" is a different construction.
+T98	Consequence 5478 5488	brought on
+E34	Consequence:T98 Effect:T69 Cause:T103
+A45	Degree E34 Facilitate
+A46	Creation-termination E34
+T103	Argument 5492 5571	the effect of a desperate bid to avoid the deflationary shock of a sudden crash
+T92	Consequence 5525 5530	avoid
+E35	Consequence:T92 Effect:T104
+A47	Degree E35 Inhibit
+T104	Argument 5531 5571	the deflationary shock of a sudden crash
+A36	Degree E29 Facilitate

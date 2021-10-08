@@ -1,0 +1,17 @@
+Temperature-dependent genes 
+Temperature is a key environmental signal to enable bacterial adaptation to diverse hosts.
+In Yersinia, temperature-dependent gene expression has been described to be an important theme in bacterial mechanisms of pathogenesis towards humans [116].
+However, the biological role of genes repressed at body temperature, but induced at environmental temperature, has been underinvestigated so far.
+By data mining, we identified 32 genes or gene loci of Yersinia spp. that exhibit stronger expression with temperature decrease (Table 1).
+19 of them have a homologue in P. luminescens.
+Most genes belong to the groups of offensive virulence factors, regulators, and metabolic enzymes.
+The data have derived from expression profiling in vitro and cannot directly be translated to the in vivo situation.
+Moreover, several genes induced at lower temperature such as inv, yst or yplA affect the virulence properties of Y. enterocolitica in mice [87].
+However, low temperature-dependent expression of the genes in Table 1 suggests that they also play a role during the insect stage of Y. enterocolitica, or that they have evolved from bacteria-insect interaction and then adapted to pathogenicity towards mammals.
+Some of these low temperature-induced genes are restricted to a narrow spectrum of bacterial genera such as Burkholderia, Pseudomonas, Serratia, or Erwinia, all of which are known to be associated with soil, plants or insects.
+Other genes of Table 1 are present in a broader range of bacteria, and their expression might depend on regulatory mechanisms different from that of Y. enterocolitica.
+This pathogen is non-motile at body temperature, and a connection between motility and virulence is well-documented [116,117].
+For example, a non-motile flhDC mutant of Y. enterocolitica secretes larger amounts of Yop proteins encoded by the pYV plasmid than the wild-type bacteria [118].
+Recently, it was shown that the flagellar master-operon of X. nematophila regulates the expression of a novel hemolysin which is required for full virulence of X. nematophila against insects [119].
+We therefore speculate that motility essentially contributes to the control of the Y. enterocolitica switch between two pathogenicity phases towards mammalians and invertebrates [120].
+In evolutionary terms, environmental temperature, but not 37degreesC, appears as the ancient signal for the expression of many genes involved in pathogenicity, confirming the idea that the biological function of many virulence factors has been evolved during the association of bacteria with poikilothermic organisms (see below).

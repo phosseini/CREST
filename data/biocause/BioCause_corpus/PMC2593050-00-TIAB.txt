@@ -1,0 +1,8 @@
+The Two-Component Regulatory System VicRK is Important to Virulence of Streptococcus equi Subspecies equi 
+This study aims at evaluating the importance of the two-component regulatory system VicRK to virulence of the horse pathogen Streptococcus equi subspecies equi and the potential of a vicK mutant as a live vaccine candidate using mouse infection models.
+The vicK gene was deleted by gene replacement.
+The DeltavicK mutant is attenuated in virulence in both subcutaneous and intranasal infections in mice.
+DeltavicK grows less slowly than the parent strain but retains the ability of S. equi to resist to phagocytosis by polymorphoneuclear leukocytes, suggesting that the vicK deletion causes growth defect.
+DeltavicK infection protects mice against reinfection with a wild-type S. equi strain.
+Intranasal DeltavicK infection induces production of anti-SeM mucosal IgA and systemic IgG.
+These results indicate that VicRK is important to S. equi growth and virulence and suggest that DeltavicK has the potential to be developed as a live S. equi vaccine.

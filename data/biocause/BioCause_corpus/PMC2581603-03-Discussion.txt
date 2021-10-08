@@ -1,0 +1,43 @@
+Discussion 
+Infections caused by P. aeruginosa continue to be a leading cause of mortality among immunocompromised patients.
+The ability of P. aeruginosa to form biofilms promotes survival of the bacteria in the presence of antimicrobials and host defense mechanisms and is thought to contribute significantly to its ability to survive long-term within the hostile environment of chronically-infected patients.
+Understanding the mechanisms underlying antibiotic resistance and especially biofilm-specific antimicrobial resistance is of significant importance in the development of new treatment options and/or strategies.
+We have identified a novel mechanism of biofilm-associated antibiotic resistance in which the presence of DNA in the extracellular matrix of biofilms creates a localized cation-limited environment that is detected by P. aeruginosa leading to the induction of LPS modification genes and resistance to antimicrobials.
+Magnesium limitation has long been known as an in vitro signal that induces resistance to CAPs in P. aeruginosa [59].
+As an intracellular pathogen, the PhoPQ system of Salmonella typhimurium is activated by limiting magnesium in vitro and phoP-regulated genes are also induced after invasion of macrophages and epithelial cells [65].
+These observations suggested that Mg2+ is limiting within host cells, but it was recently shown that vacuole acidification and low pH is the crucial environmental trigger of PhoPQ activation [66].
+Many extracellular pathogens possess homologs of the cation-sensing PhoPQ TCS that responds to magnesium limitation and induces genes necessary for surviving this environmental challenge [65].
+However, to date the identification of a relevant in vivo environment for P. aeruginosa which is cation limited has remained elusive.
+We have demonstrated that DNA-rich environments, such as biofilms, are cation limited.
+While Mg2+ limitation has been identified as a signal involved in induced resistance to aminoglycosides in P. aeruginosa [59], the contribution of the PhoPQ-regulated LPS modifications has not been clearly determined.
+PhoQ mutants, which constitutively express phoP and are constitutively resistant to cationic antimicrobial peptides, are also more resistant to aminoglycosides [43].
+In S. typhimurium, PhoPQ regulates multiple LPS modifications that decrease the OM permeability to membrane cationic dyes, bile salts and antibiotics, including gentamicin [67].
+We report here that DNA-induces aminoglycoside resistance in P. aeruginosa biofilms, and this resistance is partially dependent on the LPS modification operon PA3552-PA3559.
+The aminoarabinose modification likely blocks the self-promoted uptake of aminoglycosides, which normally bind and displace cations that crosslink adjacent LPS molecules [68].
+Previous reports have documented the involvement of P. aeruginosa PmrAB [49] and the E. coli PmrAB homologs BasRS [69] in regulating the formation of an antimicrobial peptide-tolerant subpopulation within biofilms.
+In pure culture P. aeruginosa biofilms, genomic DNA localizes throughout the biofilm surface monolayer and surrounds the mushroom-shaped microcolonies [51].
+This coincides with the localization of a CAP-tolerant subpopulation of bacteria that expresses the PA3552-PA3559 operon along the surface of mushroom-structured P. aeruginosa biofilms [49].
+To date, it was thought unlikely that a biofilm environment may be cation limited.
+However, our data indicates that the presence of DNA in biofilms does indeed result in a cation-limited environment, resulting in the induction of the LPS modification operon PA3552-PA3559.
+To our knowledge this is the first report to identify the antimicrobial properties of DNA.
+Above certain concentrations (approximately0.5% (w/v)) extracellular DNA inhibited planktonic growth and biofilm formation.
+Recently, a novel host defense mechanism was discovered whereby stimulated neutrophils ejected a mesh-like net of intracellular DNA and proteins that functions to trap and kill pathogens [70].
+The antimicrobial property of neutrophil nets was attributed to DNA-associated histones and other antimicrobial peptides [70].
+However, our results demonstrate that above certain concentrations, the DNA itself is antimicrobial due to cation chelation.
+In principle, cation chelation by DNA is similar to another recently identified host defense mechanism, where the Mn2+ and Zn2+ metal chelation properties of the host innate-immune protein calprotectin was shown to limit Staphylococcus aureus growth in tissue abscesses [71].
+Staining of peg-adhered biofilms indicated that DNA was present throughout the biofilm.
+(Fig 5B).
+This data supports the hypothesis that the release of genomic DNA by lysed cells following exposure to inhibitory concentrations of extracellular DNA may result in a continual release of DNA by dying cells and a DNA gradient within the biofilm.
+Our observation that DNA imposes a cation gradient in biofilm is also consistent with previous reports of oxygen and nutrient gradients within biofilms, which result in diverse physiological cellular states within a biofilm community [72].
+Although DNA is toxic at high concentrations, it functions as a double-edged sword whereby sub-inhibitory DNA concentrations serve to protect bacteria from antibiotic exposure, either from the host immune response or from antimicrobial treatment.
+It has previously been reported that Mg2+ concentrations within the airway surface fluid are high (2.2 mM) [73],[74].
+However, sputum samples from the lungs of CF patients have very high concentrations of DNA, up to 20 mg/ml (2% (w/v)) [75],[76].
+It is likely that within the CF lung, localized cation limited environments exist within DNA-rich microcolonies.
+It is also known that CF airway fluid contains high levels of neutrophil defensins [77] and that sub-lethal doses of CAPs induce PA3553 gene expression, although independently of PhoPQ and PmrAB [45].
+Therefore, it appears that there are multiple environmental signals in the CF lung that can induce the expression the PA3552-PA3559 operon, which may explain why many P. aeruginosa CF isolates show LPS modifications such as aminoarabinose addition to lipid A [78].
+As many P. aeruginosa strains isolated from the CF lung overproduce the negatively charged EPS alginate, we hypothesized that alginate may also be a relevant in vivo signal inducing expression of the PA3552-PA3559 operon.
+However, induction of PA3553 gene expression does not occur in the presence of alginate (data not shown).
+The observation that DNA is present in the lungs of CF patients has prompted the use of DNAseI as a therapeutic agent to reduce the sputum viscosity and improve lung function [75],[76].
+However, our data suggests that the success of DNAseI therapy may, in part, be attributed to the degradation of DNA and subsequent disarming of the PhoPQ/PmrAB response and antibiotic resistance mechanisms.
+While previous studies have shown the biofilm matrix to function as a diffusion barrier to antibiotics, these results demonstrate a novel function of the biofilm matrix component DNA, where the cation chelating properties of DNA in biofilms induces resistance to host-derived or therapeutic antimicrobials.
+Furthermore, these findings indicate that DNA-rich environments, such as bacterial biofilms or the CF lung, may represent the natural setting where bacterial growth is cation limited, and highlight the importance of the PhoPQ/PmrAB controlled response and LPS modifications in antibiotic resistance in biofilms.

@@ -1,0 +1,82 @@
+*	Equiv T16 T15
+*	Equiv T21 T22
+T54	Process 623 632	infection
+T55	Process 697 706	virulence
+T56	Process 1028 1037	infection
+T57	Regulation 1239 1250	responsible
+T58	Process 1671 1679	infected
+T59	Negative_regulation 2489 2498	competing
+E1	Process:T54 
+E2	Process:T55 Participant:T12
+E3	Process:T56 
+E4	Regulation:T57 Theme:T19
+E5	Regulation:T57 Theme:T20
+E6	Process:T58 
+E7	Negative_regulation:T59 Theme:T34 Cause:T33
+E8	Negative_regulation:T59 Theme:T36 Cause:T33
+T1	Organism 153 164	rickettsiae
+T2	Organism 166 186	Borrelia spirochetes
+T3	Organism 219 241	Francisella tularensis
+T4	Organism 246 261	Yersinia pestis
+T5	Organism 284 293	Y. pestis
+T6	Organism 363 368	hosts
+T7	Organism 374 378	flea
+T8	Organism 410 415	fleas
+T9	Organism 451 460	Y. pestis
+T10	Organism 531 535	host
+T11	Organism 640 644	flea
+T12	Organism 687 696	Y. pestis
+T13	Organism 896 900	flea
+T14	Organism 1045 1049	flea
+T15	Protein 1086 1107	yersinia murine toxin
+T16	Protein 1109 1112	ymt
+T17	Protein 1130 1145	phospholipase D
+T18	Organism 1183 1187	flea
+T19	Regulon-operon 1216 1223	hmsHFRS
+T20	Protein 1228 1232	gmhA
+T21	Chemical 1293 1311	lipopolysaccharide
+T22	Chemical 1313 1316	LPS
+T23	Organism 1403 1407	flea
+T24	Organism 1444 1448	flea
+T25	Organism 1557 1566	Y. pestis
+T26	Organism 1600 1604	flea
+T27	Organism 1680 1685	fleas
+T28	Organism 1815 1824	Y. pestis
+T29	Organism 2000 2005	Fleas
+T30	Organism 2152 2161	Y. pestis
+T31	Organism 2190 2194	flea
+T32	Organism 2399 2408	Y. pestis
+T33	Chemical 2457 2463	di-GMP
+T34	Protein 2517 2521	hmsT
+T35	Protein 2522 2541	diguanylate cyclase
+T36	Protein 2546 2550	hmsP
+T37	Protein 2551 2568	phosphodiesterase
+T38	Organism 2751 2760	Y. pestis
+T39	Organism 2834 2843	Y. pestis
+T40	Organism 2869 2873	rats
+T41	Organism 2916 2925	Y. pestis
+T42	Organism 2951 2979	Xenopsylla cheopis rat fleas
+T43	Organism 3014 3020	humans
+T44	Organism 3036 3045	Y. pestis
+T45	Organism 3077 3081	flea
+T46	Organism 3179 3183	flea
+T47	Organism 3214 3218	flea
+T48	Organism 3337 3341	flea
+T49	Organism 3353 3356	rat
+T50	Organism 3443 3452	Y. pestis
+T51	Organism 3619 3623	flea
+T52	Organism 3712 3721	Y. pestis
+T53	Organism 3769 3773	flea
+T60	Span 3022 3183	Comparing the Y. pestis gene expression profile in the flea to those of in vitro biofilm and planktonic cells cultured at the low temperature typical of the flea
+T61	Causality 3184 3194	implicated
+E9	Causality:T61 Effect:T62 Evidence:T60
+T62	Span 3195 3276	several genes in a flea-specific adaptive response and in proventricular blockage
+T63	Span 3278 3361	In addition, comparing the gene expression patterns in the flea and in the rat bubo
+T64	Causality 3362 3376	confirmed that
+E10	Causality:T64 Effect:T65 Evidence:T63
+T65	Span 3377 3463	distinct subsets of genes are differentially expressed during the Y. pestis life cycle
+T66	Span 3465 3623	Notably, several genes with known or predicted roles in protection against the mammalian innate immune system and in pathogenesis were upregulated in the flea
+T67	Causality 3625 3640	suggesting that
+E11	Causality:T67 Effect:T68 Evidence:T66
+T68	Span 3641 3792	transit through the insect vector preinduces a phenotype that enhances Y. pestis survival and dissemination in the mammal after flea-borne transmission
+#1	AnnotatorNotes E9	not sure

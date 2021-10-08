@@ -1,0 +1,9 @@
+The cheB2 Mutant Shows Reduced Virulence in Mice 
+We further tested the virulence of the cheB2 mutant TB0173s in a mouse model of lung infection, utilizing the view-controlled intratracheal infection protocol [48].
+Ten female C3H/HeN mice each were inoculated with 7.5x106 CFU equivalent to the LD50 dose of the wild type strain determined in prior experiments (data not shown).
+Figure 4 displays the representative outcome of one of three independent infection experiments.
+The cheB2 mutant (TB0173s) showed a significantly attenuated virulence during respiratory tract infection of mice as compared to the parental strain TB and the complemented strain TB0173sp2B2.
+Infection with the wild type resulted in 50% dead animals (5 of 10) by day 5 compared to 10% deaths for the TB0173s cheB2 mutant (1 of 10; P=0.036, Fisher's exact test).
+Infection with the complemented strain TB0173sp2B2 resulted in 60% dead by day 3 (6 of 10; P=0,0018, Fisher's exact test) (Figure 4A).
+We have also evaluated the body condition of the mice during bacterial infection (see Materials and Methods).
+Surviving mice infected with the cheB2 mutant showed a significantly less troubled body condition from days 3 to 6 post infection (P<0.01, Mann-Whitney rank test) than surviving mice infected with the wild type strain indicating that the former group recovered earlier than the latter (Figure 4B).

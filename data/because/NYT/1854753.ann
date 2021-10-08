@@ -1,0 +1,44 @@
+T1	NonCausal 186 188	as
+E1	NonCausal:T1 Arg1:T2 Arg0:T3
+A1	Temporal E1
+T2	Argument 62 179	bluntly expressing disappointment with the pace of political reconciliation under Prime Minister Nuri Kamal al-Maliki
+T3	Argument 189 320	the final units of the American troop increase were moving into position and bombings threatened to inspire more sectarian violence
+T4	Note 490 492	to
+#1	AnnotatorNotes T4	Purpose of existence
+T5	NonCausal 753 757	over
+E2	NonCausal:T5 Arg0:T6 Arg1:T7
+A2	Temporal E2
+T6	Argument 758 769	recent days
+T7	Argument 698 752	a message delivered to the Maliki government in person
+T8	NonCausal 1373 1379	before
+E3	NonCausal:T8 Arg0:T9 Arg1:T10
+A3	Temporal E3
+T9	Argument 1351 1372	comments to reporters
+T10	Argument 1380 1451	arriving at the American military headquarters on the Baghdad outskirts
+T11	Consequence 2337 2349	make certain
+E4	Consequence:T11 Effect:T12
+A4	Degree E4 Facilitate
+T12	Argument 2350 2510	that the bombing of a revered mosque in Samarra -- and a feared round of reprisals -- ``won't further disrupt or delay the process'' of political reconciliation
+T16	NonCausal 3057 3062	until
+E6	NonCausal:T16 Arg1:T17 Arg0:T18
+A6	Temporal E6
+T17	Argument 3048 3056	patience
+T18	Argument 3063 3175	the fifth and final Army brigade ordered by President Bush to bolster forces in Iraq could begin full operations
+T13	Note 2649 2651	to
+#2	AnnotatorNotes T13	Not causal ("do a lot to")
+T14	Motivation 289 296	inspire
+E5	Motivation:T14 Cause:T19 Effect:T15
+A5	Degree E5 Facilitate
+T15	Argument 297 320	more sectarian violence
+T19	Argument 266 274	bombings
+T20	Consequence 1293 1298	spark
+E7	Consequence:T20 Effect:T21 Cause:T22
+A7	Degree E7 Facilitate
+T21	Argument 1299 1343	greater attention to this ``ground-up effort
+T22	Argument 1281 1283	he
+A8	Creation-termination E7
+T23	Consequence 937 948	encouraging
+E8	Consequence:T23 Effect:T24 Cause:T25
+A9	Degree E8 Facilitate
+T24	Argument 949 992	efforts by the Maliki government in Baghdad
+T25	Argument 905 914	Mr. Gates

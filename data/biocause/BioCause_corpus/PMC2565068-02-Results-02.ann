@@ -1,0 +1,24 @@
+T13	Process 80 89	infection
+T14	Process 133 143	infectious
+T15	Process 272 282	infections
+T16	Process 372 381	infection
+E1	Process:T13 
+E2	Process:T14 
+E3	Process:T15 Participant:T3
+E4	Process:T16 
+T1	Organism 7 19	invasive GAS
+T2	Organism 47 52	human
+T3	Organism 227 230	GAS
+T4	Protein 445 449	IL-8
+T5	Organism 454 457	GAS
+T6	Protein 714 718	IL-8
+T7	Organism 723 739	non-invasive GAS
+T8	Organism 829 841	invasive GAS
+T9	Protein 985 989	IL-8
+T10	Organism 1001 1013	invasive GAS
+T11	Chemical 1056 1072	propidium iodine
+T12	Organism 1137 1149	invasive GAS
+T17	Span 889 1091	Flow cytometry analysis suggested that although PMN was detected in the lower well consisted of IL-8 and severe invasive GAS, but most of them were dead as defined by propidium iodine staining (p=0.016)
+T18	Causality 1111 1129	demonstrating that
+E5	Causality:T18 Effect:T19 Evidence:T17
+T19	Span 1130 1223	severe invasive GAS affected survival of PMN and its migration activity in a transwell system

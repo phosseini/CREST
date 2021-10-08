@@ -1,0 +1,73 @@
+T1	Protein 21 25	SrcA
+T2	Protein 84 88	SrcA
+T3	Protein 93 97	CesT
+T4	Organism 124 148	enteropathogenic E. coli
+T5	Organism 150 154	EPEC
+T6	Protein 216 220	SrcA
+T7	Protein 275 283	PDB 3EPU
+T8	Protein 461 465	CesT
+T9	Protein 467 475	PDB 1K3E
+T10	Protein 483 487	SrcA
+T11	Protein 994 998	SrcA
+T12	Protein 1341 1345	SrcA
+T13	Protein 1476 1480	SrcA
+T14	Protein 1540 1544	CesT
+T15	Protein 1549 1553	SicP
+T16	Protein 1592 1596	SrcA
+T17	Protein 1672 1676	CesT
+T18	Protein 1678 1682	SrcA
+T19	Protein 1753 1757	CesT
+T20	Protein 1759 1763	SicP
+T21	Protein 1768 1772	SrcA
+T22	Protein 2140 2144	CesT
+T23	Protein 2225 2229	SicP
+T24	Protein 2294 2298	SrcA
+T25	Protein 2579 2583	CesT
+T26	Protein 2769 2773	SrcA
+T27	Protein 2906 2910	SrcA
+T28	Protein 2912 2916	CesT
+T29	Protein 2921 2925	SicP
+T30	Protein 2996 3001	Spa15
+T31	Protein 3054 3058	SrcA
+T32	Protein 3120 3124	SrcA
+T33	Protein 3129 3134	Spa15
+T34	Protein 3243 3247	SrcA
+T35	Protein 3252 3257	Spa15
+T36	Protein 3580 3584	SrcA
+T37	Protein 3603 3607	SicP
+T38	Protein 3637 3641	SptP
+T39	Protein 3659 3663	SrcA
+T40	Protein 3727 3731	SptP
+T41	Protein 3770 3774	SicP
+T42	Protein 3834 3838	SrcA
+T43	Protein 3990 3994	SrcA
+*	Equiv T5 T4
+*	Equiv T7 T6
+*	Equiv T9 T8
+T44	Binding 3561 3568	binding
+T45	Binding 3716 3723	Binding
+T46	Entity 3756 3766	N-terminus
+T47	Binding 3814 3821	binding
+T48	Binding 4025 4036	interaction
+E1	Binding:T44 Theme:T36
+E2	Binding:T45 Theme1:T40 Theme2:T41 Site2:T46
+E3	Binding:T47 Theme:T42
+E4	Binding:T48 Theme:T43
+T49	Span 1260 1323	The total surface area buried at the dimer interface is 1258 A2
+T50	Causality 1325 1340	suggesting that
+E5	Causality:T50 Effect:T51 Evidence:T49
+T51	Span 1341 1427	SrcA would exist as a dimer in solution, which we confirmed by gel filtration analysis
+T52	Span 2749 2833	A comparison of the SrcA dimer interface with other class I chaperone family members
+T53	Causality 2834 2843	indicates
+E6	Causality:T53 Effect:T54 Evidence:T52
+T54	Span 2844 2925	the overall similarity of quaternary structure shared between SrcA, CesT and SicP
+T55	Span 3094 3327	A structural alignment of SrcA and Spa15 generated through alignment of single monomers shows the relative difference in subunit orientation between SrcA and Spa15 reflected by the positions of each monomer in the dimer configuration
+T56	Span 3329 3517	These unique orientations produce an 80degrees rotational offset between respective subunits and could be expected to influence the mode of effector interactions utilized by these proteins
+T57	Causality 3329 3329	
+E7	Causality:T57 Effect:T56 Evidence:T55
+T58	Span 3990 4051	SrcA using a similar mechanism for interaction with effectors
+T59	Causality 3965 3989	which is consistent with
+E8	Causality:T59 Evidence:T58 Effect:T61
+T60	Span 3716 3858	Binding of SptP occurs primarily in the N-terminus of SicP [12], which is similar to the effector binding surface for SrcA predicted in silico
+T61	Span 3860 3953	This surface contains several conserved hydrophobic residues including L16, D24, N26, and I32
+E9	Causality:T59 Evidence:T58 Effect:T60

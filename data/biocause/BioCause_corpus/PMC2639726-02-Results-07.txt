@@ -1,0 +1,10 @@
+SsrB can complement other regulators of SPI-2 transcription 
+SsrB binds within SPI-2 and activates SPI-2 genes for transcription.
+However the location of binding sites varies suggesting that SsrB regulation is unusual [52].
+Some of the 14 regulators in this study have been previously shown to directly regulate ssrA/ssrB; OmpR binding to PssrA/ssrB [60],[61]; SlyA binding to PssrA [62]; PhoP binding to PssrB [45].
+To distinguish direct from indirect effects, we carried out epistasis experiments and determined if ssrB expression could suppress the phenotype of the other regulators of SPI-2 expression.
+Each isogenic derivative was transformed with either pBAD30SsrB or the empty vector control.
+We investigated the same seven SPI-2 genes as in the qRT-PCR assays above, and results are shown in Figure 7A [52].
+Expression of an episomal copy of ssrB resulted in expression of SPI-2 genes in each mutant background, suggesting that SsrB is epistatic to other regulators for SPI-2 transcription.
+This result is in agreement with the model shown in Figure 6 where all positive regulation takes place via either ssrB or slyA or both as tested further below.
+Furthermore, SsrB could complement all three deletions DeltassrB, DeltassrA, and DeltassrA/ssrB (Figure 7B), suggesting that over-expression of SsrB may compensate for differences in phosphorylation that normally play a role in regulation [52].

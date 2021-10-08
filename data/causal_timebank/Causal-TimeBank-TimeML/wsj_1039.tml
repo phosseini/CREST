@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_1039</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-26</TIMEX3></DCT>
+<TEXT>
+ Amdahl Corp., a maker of mainframe computers, <EVENT eid="e1" class="REPORTING">reported</EVENT> a sharp <EVENT eid="e2" class="OCCURRENCE">decline</EVENT> in net <EVENT eid="e3" class="OCCURRENCE">income</EVENT> for its <TIMEX3 tid="t4" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third quarter</TIMEX3>, <EVENT eid="e5" class="OCCURRENCE">citing</EVENT> <EVENT eid="e6" class="OCCURRENCE">pricecutting</EVENT> by competitors and adverse effects from a strong U.S. dollar.
+ Net income <EVENT eid="e7" class="OCCURRENCE">fell</EVENT> 37 % to $ 32.9 million, or 30 cents a share, from $ 52.2 million, or 48 cents a share, in <TIMEX3 tid="t8" type="DATE" value="1988-Q3" anchorTimeID="t4" functionInDocument="NONE">the year-ago period</TIMEX3>.
+ Revenue <EVENT eid="e9" class="OCCURRENCE">rose</EVENT> 15 % to $ 534.3 million from $ 464.7 million.
+ Amdahl's <EVENT eid="e10" class="OCCURRENCE">results</EVENT> were somewhat worse than expected.
+ Jay Stevens, an analyst with Dean Witter Reynolds, said he <EVENT eid="e11" class="I_STATE">expected</EVENT> the Sunnyvale, Calif., company to earn 35 cents a share for <TIMEX3 tid="t12" type="DATE" value="1989-Q3" anchorTimeID="t4" functionInDocument="NONE">the quarter</TIMEX3> and <EVENT eid="e13" class="REPORTING">said</EVENT> the firm's weaker <EVENT eid="e14" class="STATE">profit</EVENT> was partly <C-SIGNAL cid="c15">the <EVENT eid="e16" class="OCCURRENCE">result</EVENT> of</C-SIGNAL> increased <EVENT eid="e17" class="OCCURRENCE">competition</EVENT> from International Business Machines Corp., Amdahl's principal competitor for mainframe sales.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="ENDS" eventInstanceID="ei3" relatedToTime="t4"/>
+<TLINK lid="l3" relType="SIMULTANEOUS" eventInstanceID="ei5" relatedToEventInstance="ei1"/>
+<TLINK lid="l4" relType="AFTER" eventInstanceID="ei5" relatedToEventInstance="ei6"/>
+<TLINK lid="l5" relType="DURING" eventInstanceID="ei7" relatedToTime="t8"/>
+<TLINK lid="l6" relType="DURING" eventInstanceID="ei9" relatedToTime="t8"/>
+<TLINK lid="l7" relType="INCLUDES" eventInstanceID="ei10" relatedToEventInstance="ei3"/>
+<CLINK lid="l8" c-signalID="c15" eventInstanceID="ei17" relatedToEventInstance="ei14"/>
+</TimeML>

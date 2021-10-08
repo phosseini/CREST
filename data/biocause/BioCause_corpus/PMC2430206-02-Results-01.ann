@@ -1,0 +1,173 @@
+T124	Binding 247 254	binding
+T125	Binding 422 427	bound
+T126	Binding 670 677	binding
+T127	Binding 878 885	binding
+T128	Binding 1131 1138	binding
+T129	Positive_regulation 1352 1361	increased
+T130	Binding 1362 1369	binding
+T131	Positive_regulation 1457 1466	increased
+T132	Binding 1467 1474	binding
+T133	Negative_regulation 1735 1742	reduced
+T134	Gene_expression 1748 1758	expression
+T135	Negative_regulation 2417 2429	inactivation
+T136	Gene_expression 3032 3039	produce
+E1	Binding:T124 Theme1:T10 Theme2:T11
+E2	Binding:T124 Theme1:T10 Theme2:T12
+E3	Binding:T124 Theme1:T10 Theme2:T16
+E4	Binding:T125 Theme1:T21 Theme2:T17
+E5	Binding:T126 Theme1:T23 Theme2:T24
+E6	Binding:T127 Theme1:T29 Theme2:T33
+E7	Binding:T127 Theme1:T29 Theme2:T30
+E8	Binding:T128 Theme1:T50 Theme2:T45
+E9	Binding:T128 Theme1:T50 Theme2:T44
+E10	Positive_regulation:T129 Theme:E11
+E11	Binding:T130 Theme:T55
+E12	Positive_regulation:T131 Theme:E13
+E13	Binding:T132 Theme1:T58 Theme2:T59
+E14	Negative_regulation:T133 Theme:E15
+E15	Gene_expression:T134 Theme:T67
+E16	Negative_regulation:T135 Theme:T91 Cause:T96
+E17	Gene_expression:T136 Theme:T111
+T1	Organism 13 25	graRS mutant
+T2	Two-component-system 13 18	graRS
+T3	Protein 13 17	graR
+T4	Protein 17 18	S
+T5	Chemical 74 100	lysyl-phosphatidylglycerol
+T6	Chemical 102 105	LPG
+T7	Two-component-system 178 183	graRS
+T8	Protein 178 182	graR
+T9	Protein 182 183	S
+T10	Protein 293 305	cytochrome c
+T11	Organism 319 334	S. aureus SA113
+T12	Organism 354 366	graRS mutant
+T13	Two-component-system 354 359	graRS
+T14	Protein 354 358	graR
+T15	Protein 358 359	S
+T16	Organism 376 403	plasmid-complemented mutant
+T17	Organism 409 421	graRS mutant
+T18	Two-component-system 409 414	graRS
+T19	Protein 409 413	graR
+T20	Protein 413 414	S
+T21	Protein 447 459	cytochrome c
+T22	Chemical 606 620	teichoic acids
+T23	Protein 681 693	cytochrome c
+T24	Organism 701 713	graRS mutant
+T25	Two-component-system 701 706	graRS
+T26	Protein 701 705	graR
+T27	Protein 705 706	S
+T28	Chemical 773 786	teichoic acid
+T29	Protein 889 901	cytochrome c
+T30	Organism 907 927	dltA deletion mutant
+T31	Protein 907 911	dltA
+T32	Chemical 978 992	teichoic acids
+T33	Organism 1004 1037	dltA/graRS double deletion mutant
+T34	Protein 1004 1008	dltA
+T35	Two-component-system 1009 1014	graRS
+T36	Protein 1009 1013	graR
+T37	Protein 1013 1014	S
+T38	Two-component-system 1078 1083	graRS
+T39	Protein 1078 1082	graR
+T40	Protein 1082 1083	S
+T41	Organism 1102 1113	dltA mutant
+T42	Protein 1102 1106	dltA
+T43	Protein 1157 1161	dltA
+T44	Organism 1157 1161	dltA
+T45	Organism 1170 1187	dltA/graRS mutant
+T46	Protein 1170 1174	dltA
+T47	Two-component-system 1175 1180	graRS
+T48	Protein 1175 1179	graR
+T49	Protein 1179 1180	S
+T50	Protein 1257 1269	cytochrome c
+T51	Two-component-system 1287 1292	graRS
+T52	Protein 1287 1291	graR
+T53	Protein 1291 1292	S
+T54	Organism 1306 1316	dlt mutant
+T55	Protein 1373 1385	cytochrome c
+T56	Organism 1402 1413	dltA mutant
+T57	Protein 1402 1406	dltA
+T58	Protein 1478 1490	cytochrome c
+T59	Organism 1498 1510	graRS mutant
+T60	Two-component-system 1498 1503	graRS
+T61	Protein 1498 1502	graR
+T62	Protein 1502 1503	S
+T63	Chemical 1546 1560	teichoic acids
+T64	Two-component-system 1668 1673	GraRS
+T65	Protein 1668 1672	GraR
+T66	Protein 1672 1673	S
+T67	Protein 1743 1747	mprF
+T68	Chemical 1785 1810	lysylphosphatidylglycerol
+T69	Chemical 1812 1815	LPG
+T70	Chemical 1968 1971	LPG
+T71	Organism 1984 1996	graRS mutant
+T72	Two-component-system 1984 1989	graRS
+T73	Protein 1984 1988	graR
+T74	Protein 1988 1989	S
+T75	Protein 2078 2082	mprF
+T76	Two-component-system 2100 2105	graRS
+T77	Protein 2100 2104	graR
+T78	Protein 2104 2105	S
+T79	Organism 2125 2140	S. aureus SA113
+T80	Organism 2151 2163	graRS mutant
+T81	Two-component-system 2151 2156	graRS
+T82	Protein 2151 2155	graR
+T83	Protein 2155 2156	S
+T84	Protein 2198 2203	LL-37
+T85	Organism 2208 2213	human
+T86	Organism 2307 2319	graRS mutant
+T87	Two-component-system 2307 2312	graRS
+T88	Protein 2307 2311	graR
+T89	Protein 2311 2312	S
+T90	Organism 2376 2381	human
+T91	Organism 2440 2452	graRS mutant
+T92	Two-component-system 2440 2445	graRS
+T93	Protein 2440 2444	graR
+T94	Protein 2444 2445	S
+T95	Organism 2460 2465	human
+T96	Protein 2479 2484	LL-37
+T97	Organism 2531 2540	S. aureus
+T98	Protein 2645 2650	LL-37
+T99	Organism 2683 2692	S. aureus
+T100	Organism 2721 2748	complemented mutant strains
+T101	Protein 2797 2802	LL-37
+T102	Organism 2835 2847	graRS mutant
+T103	Two-component-system 2835 2840	graRS
+T104	Protein 2835 2839	graR
+T105	Protein 2839 2840	S
+T106	Organism 2949 2961	graRS mutant
+T107	Two-component-system 2949 2954	graRS
+T108	Protein 2949 2953	graR
+T109	Protein 2953 2954	S
+T110	Organism 3007 3012	human
+T111	Protein 3056 3061	LL-37
+T112	Organism 3136 3148	graRS mutant
+T113	Two-component-system 3136 3141	graRS
+T114	Protein 3136 3140	graR
+T115	Protein 3140 3141	S
+T116	Organism 3261 3273	graRS mutant
+T117	Two-component-system 3261 3266	graRS
+T118	Protein 3261 3265	graR
+T119	Protein 3265 3266	S
+T120	Two-component-system 3504 3509	graRS
+T121	Protein 3504 3508	graR
+T122	Protein 3508 3509	S
+T123	Organism 3578 3587	S. aureus
+T137	Span 405 498	The graRS mutant bound significantly more cytochrome c than the WT or the complemented mutant
+T138	Causality 510 532	which is in accordance
+E18	Causality:T138 Evidence:T139 Effect:T137
+T139	Span 533 634	with the recently described reduced content of D-alanine residues in the teichoic acids of the mutant
+T140	Span 1271 1413	Deletion of the graRS genes in the dlt mutant background did not lead to further increased binding of cytochrome c compared to the dltA mutant
+T141	Causality 1425 1452	This finding indicates that
+E19	Causality:T141 Effect:T142 Evidence:T140
+T142	Span 1453 1673	the increased binding of cytochrome c by the graRS mutant is due to decreased alanylation of teichoic acids and that the resulting surface charge alteration does not result from other regulatory effects mediated by GraRS
+T143	Span 1953 2019	The amounts of LPG from WT and graRS mutant were indistinguishable
+T144	Causality 2038 2077	which corroborates recent findings that
+E20	Causality:T144 Effect:T145 Evidence:T143
+T145	Span 2078 2140	mprF is not among the graRS-regulated genes in S. aureus SA113
+T146	Causality 3463 3503	Taken together, these data indicate that
+E21	Causality:T146 Effect:T147 Evidence:T148
+T147	Span 3504 3619	graRS-mediated control of CAMP resistance mechanisms is of importance for S. aureus evasion from neutrophil killing
+T148	Span 3215 3319	After 15 and 30 min, the recovered CFU of the graRS mutant were significantly lower than those of the WT
+T149	Span 3132 3213	The graRS mutant was killed by neutrophils considerably faster than the WT strain
+T150	Span 2710 2904	the WT and complemented mutant strains showed no significant decrease in CFU following LL-37 exposure, whereas the number of graRS mutant bacteria recovered was only 25% of the original inoculum
+E22	Causality:T146 Effect:T147 Evidence:T149
+E23	Causality:T146 Effect:T147 Evidence:T150

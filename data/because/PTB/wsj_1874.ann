@@ -1,0 +1,199 @@
+T1	NonCausal 30 32	as
+E1	NonCausal:T1 Arg1:T2 Arg0:T3
+A1	Temporal E1
+T2	Argument 0 29	Bond prices rambled yesterday
+T3	Argument 33 118	investors kept close watch on the stock market and worried about a wave of new supply
+T4	Consequence 150 152	as
+E2	Consequence:T4 Cause:T6 Effect:T5
+A2	Temporal E2
+T5	Argument 139 149	bonds rose
+T6	Argument 153 292	investors rushed to buy Treasury securities on the prospect that stocks would plummet in the aftermath of the massive California earthquake
+T9	Consequence 441 445	when
+E3	Consequence:T9 Cause:T10 Effect:T11
+A3	Degree E3 Facilitate
+A4	Temporal E3
+T10	Argument 446 491	the Dow Jones Industrial Average rose instead
+T11	Argument 493 512	bonds drifted lower
+T12	NonCausal 516 520	With
+E4	NonCausal:T12 Arg0:T13 Arg1:T14
+A5	Context E4
+T13	Argument 521 545	stocks not a major focus
+T14	Argument 547 592	``we're waiting for the next guiding light,''
+T15	Consequence 668 670;711 715	If then
+E5	Consequence:T15 Cause:T16 Effect:T17
+A6	Degree E5 Facilitate
+A7	Hypothetical E5
+T16	Argument 671 709	the stock market tremors are behind us
+T17	Argument 716 841	the bond market will go back to looking at the next batch of economic numbers to determine'' where interest rates are heading
+T18	Purpose 794 796	to
+E6	Purpose:T18 Cause:T19 Effect:T20
+A8	Degree E6 Facilitate
+T19	Argument 797 841	determine'' where interest rates are heading
+T20	Argument 716 793	the bond market will go back to looking at the next batch of economic numbers
+T21	NonCausal 952 958	during
+E7	NonCausal:T21 Arg0:T22 Arg1:T23
+A9	Temporal E7
+T22	Argument 959 984	the first hour of trading
+T23	Argument 884 950	which jumped 3/8 point, or about $3.75 for each $1,000 face amount
+A10	Degree E2 Facilitate
+T24	Consequence 1240 1242	as
+E8	Consequence:T24 Effect:T25 Cause:T26
+A11	Degree E8 Facilitate
+A12	Temporal E8
+T25	Argument 1195 1239	some so-called high-quality junk issues fell
+T26	Argument 1243 1304	some mutual funds sold their most liquid issues to raise cash
+T27	Purpose 1291 1293	to
+E9	Purpose:T27 Cause:T28 Effect:T29
+A15	Degree E9 Facilitate
+T28	Argument 1294 1304	raise cash
+T29	Argument 1243 1290	some mutual funds sold their most liquid issues
+T30	Motivation 1536 1545	forced to
+E10	Motivation:T30 Effect:T31
+A16	Degree E10 Facilitate
+T31	Argument 1529 1531;1546 1588	it scale back the size of its latest offering
+T32	NonCausal 1905 1907	at
+E11	NonCausal:T32 Arg0:T33 Arg1:T34
+A17	Temporal E11
+T33	Argument 1908 1920	a later date
+T34	Argument 1880 1904	the notes may be offered
+T42	Purpose 3040 3042	to
+E14	Purpose:T42 Cause:T43 Effect:T44
+A21	Degree E14 Facilitate
+T43	Argument 3043 3079	rescue the nation's troubled thrifts
+T44	Argument 3032 3039	created
+T45	NonCausal 3278 3280	as
+E15	NonCausal:T45 Arg0:T47 Arg1:T46
+A23	Temporal E15
+T46	Argument 3245 3277	all eyes were on California debt
+T47	Argument 3281 3357	investors tried to gauge the financial ramifications of Tuesday's earthquake
+T48	Consequence 3540 3547	because
+E16	Consequence:T48 Effect:T49 Cause:T50
+A22	Degree E16 Facilitate
+T49	Argument 3477 3539	There are certain bonds traders refer to as `earthquake' bonds
+T50	Argument 3548 3597	the (issuers) are on top of the San Andreas fault
+T51	Consequence 3694 3699	Since
+E17	Consequence:T51 Cause:T52 Effect:T53
+A24	Degree E17 Facilitate
+T52	Argument 3700 3789	those bonds already pay a slightly higher yield, an extra premium for the earthquake risk
+T53	Argument 3791 3823	they weren't materially affected
+T54	Consequence 3888 3890	if
+E18	Consequence:T54 Effect:T55 Cause:T56
+A26	Degree E18 Facilitate
+A27	Hypothetical E18
+T55	Argument 3862 3887	that could quickly change
+T56	Argument 3891 4019	property casualty insurance companies scramble to sell portions of their municipal portfolios to raise cash to pay damage claims
+T57	Purpose 3985 3987	to
+E19	Purpose:T57 Cause:T58 Effect:T59
+A28	Degree E19 Facilitate
+T58	Argument 3988 4019	raise cash to pay damage claims
+T59	Argument 3941 3984	sell portions of their municipal portfolios
+T60	Note 3999 4001	to
+#3	AnnotatorNotes T60	Ambiguous; could be purpose or purpose of existence. Resolving with low attachment.
+T61	Note 4088 4090	to
+#4	AnnotatorNotes T61	Purpose of existence
+T62	Argument 4251 4264	lag Treasurys
+T63	Consequence 4265 4267	as
+E20	Consequence:T63 Effect:T62 Cause:T64
+A29	Degree E20 Facilitate
+A30	Temporal E20
+T64	Argument 4268 4344	California is forced to issue new debt over time to repair public facilities
+T65	Motivation 4282 4291	forced to
+E21	Motivation:T65 Effect:T66
+A31	Degree E21 Facilitate
+A32	Obligation-permission E21
+A33	Obligation-permission E10
+T66	Argument 4268 4278;4292 4344	California issue new debt over time to repair public facilities
+T67	NonCausal 4307 4311	over
+E22	NonCausal:T67 Arg0:T68 Arg1:T69
+A34	Temporal E22
+T68	Argument 4312 4316	time
+T69	Argument 4292 4306;4317 4344	issue new debt to repair public facilities
+T70	Purpose 4317 4319	to
+E23	Purpose:T70 Cause:T71 Effect:T72
+A35	Degree E23 Facilitate
+T71	Argument 4320 4344	repair public facilities
+T72	Argument 4292 4316	issue new debt over time
+T73	Consequence 4432 4437	cause
+E24	Consequence:T73 Cause:T74 Effect:T75
+A36	Degree E24 Facilitate
+T74	Argument 4416 4425	the quake
+T75	Argument 4438 4568	``wide-scale credit deterioration'' for issuers and debt issues in the 12-county area of Northern California affected by the quake
+T76	Motivation 5587 5597	because of
+E25	Motivation:T76 Effect:T77 Cause:T78
+A37	Degree E25 Facilitate
+T77	Argument 5547 5586	there hadn't been much investor selling
+T78	Argument 5598 5607	the quake
+T79	NonCausal 6305 6310	after
+E26	NonCausal:T79 Arg0:T80 Arg1:T81
+A38	Temporal E26
+T80	Argument 6311 6325	light dealings
+T81	Argument 6264 6304	Mortgage securities ended little changed
+T82	Note 6368 6372	from
+#5	AnnotatorNotes T82	Argument of "impact"; not an answer to a "why" question.
+T83	Motivation 6472 6481	forced to
+E27	Motivation:T83 Effect:T84
+A39	Degree E27 Facilitate
+A40	Obligation-permission E27
+T84	Argument 6443 6462;6482 6544	insurance companies sell mortgage securities to help pay earthquake-related claims
+T85	Purpose 6507 6509	to
+E28	Purpose:T85 Cause:T86 Effect:T87
+A41	Degree E28 Facilitate
+T86	Argument 6510 6544	help pay earthquake-related claims
+T87	Argument 6482 6506	sell mortgage securities
+T88	Consequence 6510 6514	help
+E29	Consequence:T88 Cause:T89 Means:T90 Effect:T91
+A42	Degree E29 Facilitate
+T89	Argument 6443 6462	insurance companies
+T90	Argument 6482 6506	sell mortgage securities
+T91	Argument 6515 6544	pay earthquake-related claims
+T92	Motivation 6834 6839	given
+E30	Motivation:T92 Cause:T93 Effect:T94
+A43	Degree E30 Facilitate
+T93	Argument 6845 6908	they require a financial cushion on all the loans they purchase
+T94	Argument 6786 6833	their potential quake exposure is seen as small
+T95	Consequence 6914 6921	because
+E31	Consequence:T95 Cause:T96 Effect:T97
+A44	Degree E31 Facilitate
+T96	Argument 6922 6965	Northern California home prices are so high
+T97	Argument 6967 7059	loans from the region often are too large to be included in Freddie Mac and Fannie Mae pools
+T98	Consequence 6999 7002;7009 7011	too to
+E32	Consequence:T98 Cause:T99 Effect:T100
+A45	Degree E32 Inhibit
+A46	Extremity-sufficiency E32
+T99	Argument 6999 7008	too large
+T100	Argument 7012 7059	be included in Freddie Mac and Fannie Mae pools
+T101	NonCausal 7442 7444	as
+E33	NonCausal:T101 Arg0:T102 Arg1:T103
+A47	Temporal E33
+T102	Argument 7445 7489	equities there recovered from Tuesday's drop
+T103	Argument 7383 7441	British government bonds, or gilts, ended moderately lower
+T104	NonCausal 7576 7581	while
+E34	NonCausal:T104 Arg0:T105 Arg1:T106
+A48	Temporal E34
+T105	Argument 7582 7648	the 12% notes due 1995 were down 7/32 to 103 22/32 to yield 11.04%
+T106	Argument 7493 7574	The Treasury's 11 3/4% bond due 2003/2007 fell 11/32 to 111 31/32 to yield 10.08%
+T107	Purpose 7930 7932	to
+E35	Purpose:T107 Cause:T108 Effect:T109
+A49	Degree E35 Facilitate
+T108	Argument 7933 7971	announce major economic policy changes
+T109	Argument 7883 7929	The chancellor sometimes has used the occasion
+T110	Motivation 8038 8043	given
+E36	Motivation:T110 Cause:T111 Effect:T112
+A50	Degree E36 Facilitate
+T111	Argument 8044 8103	Mr. Lawson's apparent reluctance to adjust policy currently
+T112	Argument 7973 8036	Economists don't expect any such changes in this year's address
+T114	NonCausal 8351 8353	as
+E37	NonCausal:T114 Arg0:T115 Arg1:T116
+A51	Temporal E37
+T115	Argument 8354 8392	the bond market searched for direction
+T116	Argument 8317 8350	investors stayed on the sidelines
+T7	Consequence 239 258	in the aftermath of
+E38	Consequence:T7 Cause:T8 Effect:T117
+A52	Degree E38 Facilitate
+A53	Temporal E38
+T8	Argument 259 292	the massive California earthquake
+T117	Argument 218 238	stocks would plummet
+T35	Note 5915 5923	ahead of
+#1	AnnotatorNotes T35	Excluded for now
+T36	Note 6510 6514	help
+#2	AnnotatorNotes T36	Weird...revisit

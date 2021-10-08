@@ -1,0 +1,107 @@
+T1	NonCausal 898 903	after
+E1	NonCausal:T1 Arg1:T2 Arg0:T3
+A1	Degree E1 Facilitate
+A2	Temporal E1
+T2	Argument 842 897	every subsequent issue or broadcast or Internet posting
+T3	Argument 904 921;922 944	the first offense is noted by Chatterbox
+T4	Consequence 945 947	if
+E2	Consequence:T4 Cause:T5 Effect:T16
+A3	Degree E2 Facilitate
+A4	Hypothetical E2
+T5	Argument 948 993;994 998	they continue not to report said inconvenient fact
+T9	Motivation 1375 1382	because
+E4	Motivation:T9 Cause:T11 Effect:T10
+A6	Degree E4 Facilitate
+T10	Argument 1299 1347;1348 1372	Chatterbox would prefer not to invoke the phrase "intellectual dishonesty
+T11	Argument 1383 1426;1427 1472	it's pompous and falsely suggests that only intellectuals can be intellectually dishonest
+T12	Motivation 1751 1758	because
+E5	Motivation:T12 Cause:T14 Effect:T13
+A7	Degree E5 Facilitate
+T13	Argument 1603 1667;1668 1734;1735 1749	For the purposes of this survey, the Wall Street Journal will be counted as a separate and distinct publication from the Journal 's editorial page
+T14	Argument 1772 1777	it is
+T15	Consequence 2262 2265	for
+E6	Consequence:T15 Effect:T18 Cause:T19
+A8	Degree E6 Facilitate
+T18	Argument 2220 2246;2247 2261	The Journal editorial page gets one point
+T19	Argument 2266 2316;2317 2346	failing to note the pardon in its initial Op-Ed by Dorothy Rabinowitz on Feb. 19
+T20	Consequence 2348 2355	Because
+E7	Consequence:T20 Cause:T21 Effect:T22
+A9	Degree E7 Facilitate
+T21	Argument 2356 2394;2395 2411	it has published three times since the initial omission
+T22	Argument 2413 2449	it scores an additional three points
+T23	Consequence 2455 2462	because
+E8	Consequence:T23 Cause:T27 Effect:T28
+A10	Degree E8 Facilitate
+T24	NonCausal 3211 3217	permit
+E9	NonCausal:T24 Arg0:T25 Arg1:T26
+A11	Degree E9 Facilitate
+A12	Obligation-permission E9
+T25	Argument 3180 3201	the Scientific Method
+T26	Argument 3218 3246;3247 3274	any tinkering with the Indis Index 's scoring procedures
+T27	Argument 2463 2465;2466 2545;2546 2598	it published an editorial Feb. 22 taunting the rest of the press for not following it on the story--and still didn't mention the pardon
+T28	Argument 2600 2618;2619 2629	it scores an extra two points
+T32	Consequence 2833 2835	if
+E11	Consequence:T32 Cause:T33 Effect:T34
+A14	Degree E11 Facilitate
+A15	Hypothetical E11
+T33	Argument 2836 2890	the Journal editorial page continues to take no action
+T34	Argument 2891 2893;2894 2951	it will be in the Indis Hall of Fame by Monday at the latest
+T44	NonCausal 3416 3420	When
+E15	NonCausal:T44 Arg0:T45 Arg1:T46
+T45	Argument 3421 3455;3456 3526;3527 3604;3605 3668	Chatterbox asked the Journal 's DC bureau chief, Alan Murray, who exercised good judgment in not breaking the Broaddrick story (and--full disclosure-- is Chatterbox's former boss), to comment about a Journal employee's feeding sources to the Times
+T46	Argument 3671 3750;3751 3776	he replied: "I don't really have any comment on what the edit page did. They do their thing, we do ours."
+T47	Consequence 3864 3870	causes
+E16	Consequence:T47 Cause:T48 Effect:T49
+A23	Degree E16 Facilitate
+T48	Argument 3845 3863	the editorial page
+T49	Argument 3871 3875;3876 3884;3885 3898	them cringing embarrassment
+T51	Consequence 4038 4042	made
+E17	Consequence:T51 Cause:T52 Effect:T29
+A24	Degree E17 Facilitate
+A25	Creation-termination E17
+T52	Argument 4028 4037	the Times
+T55	Motivation 4240 4243	why
+E19	Motivation:T55 Effect:T56
+A28	Degree E19 Facilitate
+T56	Argument 4244 4274;4275 4336	she had decided to talk to the New York Post 's Steve Dunleavy, and refused a Times reporter
+T65	Argument 4574 4583	she would
+T66	NonCausal 4584 4586	if
+E22	NonCausal:T66 Arg1:T65 Arg0:T67
+A34	Hypothetical E22
+T67	Argument 4587 4602	he called again
+T70	Motivation 3046 3049	for
+E24	Motivation:T70 Cause:T71 Effect:T72
+A36	Degree E24 Facilitate
+T71	Argument 3050 3115;3116 3174	having "eventually convinced" Broaddrick to grant an interview to the New York Times (as the Times reports in today's story)
+T72	Argument 3013 3038;3039 3045	awarding Rabinowitz bonus points
+T29	Argument 4043 4047;4048 4053	them sound
+T16	Argument 807 841;842 921;922 944	They will then score one point for every subsequent issue or broadcast or Internet posting after the first offense is noted by Chatterbox
+T6	Argument 786 805	the initial offense
+T7	Argument 583 622;623 702;703 775;776 781	Publications that refuse to acknowledge (even if to refute the importance of) highly significant but inconvenient facts in their news or opinion coverage of controversial events will score one point
+T8	Consequence 782 785	for
+E3	Consequence:T8 Cause:T6 Effect:T7
+A5	Degree E3 Facilitate
+T17	Argument 807 837	They will then score one point
+T30	Argument 842 921;922 944	every subsequent issue or broadcast or Internet posting after the first offense is noted by Chatterbox
+T31	Consequence 838 841	for
+E10	Consequence:T31 Effect:T17 Cause:T30
+A13	Degree E10 Facilitate
+#1	AnnotatorNotes E3	Unusual use of "for"
+T35	Argument 2497 2527	taunting the rest of the press
+T36	Argument 2532 2545;2546 2561	not following it on the story
+T37	Motivation 2528 2531	for
+E12	Motivation:T37 Cause:T36 Effect:T35
+A16	Degree E12 Facilitate
+T38	Consequence 3373 3378	given
+E13	Consequence:T38 Cause:T39 Effect:T40
+A18	Degree E13 Facilitate
+T39	Argument 3379 3386;3387 3414	the two newspapers' intense rivalry
+T40	Argument 3289 3316;3317 3371	Rabinowitz's efforts on the Times ' behalf weren't really unethical, just puzzling
+T41	Argument 4668 4699	our second day's interview chat
+T42	Argument 4604 4641;4642 4660	I passed this on to [ Times reporter] Felicity Barringer
+T43	NonCausal 4661 4667	during
+E14	NonCausal:T43 Arg0:T41 Arg1:T42
+A17	Temporal E14
+T50	Note 4701 4703	So
+#2	AnnotatorNotes T50	Discourse
+A19	Temporal E15

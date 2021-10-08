@@ -1,0 +1,11 @@
+The PmrD protein is necessary for normal PmrA activation at pH 5.8 
+The PhoP-activated PmrD protein favours the phosphorylated state of the PmrA protein (Fig. 1) (Kato and Groisman, 2004).
+Thus, we tested the possibility of PmrD participating in the PmrA-dependent response to acidic conditions, and thus contributing to the pbgP transcription remaining in a pmrB mutant.
+Expression of the pbgP gene was abolished in a pmrB pmrD double mutant (Fig. 3) indicating that both genes are necessary to activate PmrA under acidic conditions.
+In contrast to the phenotype of the pta ackA double mutant, pbgP transcription was reduced in the pmrD mutant (Fig. 3).
+These results imply that the pmrD gene was being expressed even though the media contained 10 mM MgCl2, a concentration known to repress transcription of PhoP-activated genes (Soncini et al., 1996).
+We examined transcription of the pmrD gene using RNA isolated from organisms grown at pH 5.8 or 7.7.
+Growth at pH 5.8 resulted in pmrD transcript levels that were approximately3.5-fold higher than in organisms grown at pH 7.7 (Fig. 4A).
+This acid pH-promoted increase appears to be specific to a subset of PhoP-activated genes (our unpublished results) that includes pmrD because expression of the PhoP-regulated slyA gene and the PhoP-independent corA gene was not affected by the pH of the medium (Fig. 4A).
+In agreement with the gene transcription data, Western blot analysis of crude extracts using anti-PmrD antibodies showed that the PmrD protein was produced in cells grown in N-minimal medium pH 5.8 and 10 mM MgCl2 but not in cells grown in the same medium buffered at pH 7.7 (Fig. 4B).
+The acid-promoted expression of the PmrD protein was phoPQ-dependent, which is in agreement with the fact that PhoP is the only known direct transcriptional activator of pmrD (Kox et al., 2000).

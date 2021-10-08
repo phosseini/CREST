@@ -1,0 +1,6 @@
+The GraRS regulatory system controls Staphylococcus aureus susceptibility to antimicrobial host defenses 
+Background Modification of teichoic acids with D-alanine by the products of the dlt operon protects Gram-positive bacteria against major antimicrobial host defense molecules such as defensins, cathelicidins, myeloperoxidase or phospholipase.
+The graRS regulatory genes have recently been implicated in the control of D-alanylation in Staphylococcus aureus.
+Results To determine the impact of the GraRS regulatory system on resistance to antimicrobial host defense mechanisms and virulence of S. aureus, we compared inactivation of S. aureus SA113 wild type and its isogenic graRS deletion mutant by the human cathelicidin LL-37 or human neutrophil granulocytes in vitro, and the ability to cause infection in vivo.
+We show here that graRS deletion considerably alters bacterial surface charge, increases susceptibility to killing by human neutrophils or the defense peptide LL-37, and attenuates virulence of S. aureus in a mouse infection model.
+Conclusion Our results indicate that S. aureus can regulate its surface properties in order to overcome innate host defenses.

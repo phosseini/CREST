@@ -1,0 +1,99 @@
+*	Equiv T24 T25
+*	Equiv T31 T32
+T51	Negative_regulation 711 722	inactivated
+T52	Negative_regulation 1066 1076	attenuated
+T53	Process 1077 1086	virulence
+T54	Process 1359 1368	infection
+T55	Process 1517 1526	infection
+T56	Process 1627 1634	resists
+T57	Process 1857 1867	resistance
+T58	Process 1968 1979	reinfection
+T59	Process 2153 2163	attenuated
+T60	Regulation 2405 2415	importance
+T61	Process 2436 2445	virulence
+T62	Process 2520 2529	infection
+T63	Negative_regulation 2570 2580	attenuated
+T64	Process 2589 2598	virulence
+T65	Process 2646 2656	infections
+T66	Process 2666 2675	infection
+T67	Negative_regulation 2712 2722	protection
+T68	Process 2742 2751	infection
+T69	Positive_regulation 2779 2786	induces
+T70	Gene_expression 2787 2797	production
+T71	Process 2852 2861	infection
+E1	Negative_regulation:T51 Theme:T12
+E2	Negative_regulation:T52 Theme:E3
+E3	Process:T53 
+E4	Process:T54 
+E5	Process:T55 
+E6	Process:T56 Participant:T27
+E7	Process:T57 
+E8	Process:T58 Participant:T34
+E9	Process:T59 
+E10	Regulation:T60 Theme:E11 Cause:T37
+M1	Speculation E10
+E11	Process:T61 Participant:T40
+E12	Process:T62 
+E13	Negative_regulation:T63 Theme:E14
+E14	Process:T64 Participant:T45
+E15	Process:T65 
+E16	Process:T66 Participant:T47
+E17	Negative_regulation:T67 Theme:E18 Cause:E16
+E18	Process:T68 Participant:T49
+E19	Positive_regulation:T69 Theme:E20 Cause:E16
+E20	Gene_expression:T70 Theme:T50
+E21	Process:T71 
+T1	Two-component-system 418 423	VicRK
+T2	Protein 418 422	VicR
+T3	Protein 422 423	K
+T4	Two-component-system 427 432	YycFG
+T5	Protein 427 431	YycF
+T6	Protein 431 432	G
+T7	Protein 497 501	VicR
+T8	Organism 518 535	Bacillus subtilis
+T9	Organism 541 562	Staphylococcus aureus
+T10	Organism 572 596	Streptococcus pneumoniae
+T11	Organism 638 660	Streptococcus pyogenes
+T12	Protein 686 690	vicK
+T13	Organism 726 739	S. pneumoniae
+T14	Organism 745 765	Streptococcus mutans
+T15	Organism 775 786	S. pyogenes
+T16	Organism 802 813	B. subtilis
+T17	Organism 822 831	S. aureus
+T18	Two-component-system 867 872	vicRK
+T19	Protein 867 871	vicR
+T20	Protein 871 872	K
+T21	Two-component-system 1157 1162	vicRK
+T22	Protein 1157 1161	vicR
+T23	Protein 1161 1162	K
+T24	Organism 1197 1231	Streptococcus equi subspecies equi
+T25	Organism 1233 1240	S. equi
+T26	Organism 1285 1291	equine
+T27	Organism 1619 1626	S. equi
+T28	Organism 1756 1763	S. equi
+T29	Chemical 1774 1789	hyaluronic acid
+T30	Organism 1802 1809	S. equi
+T31	Protein 1810 1824	M-like protein
+T32	Protein 1826 1829	SeM
+T33	Organism 1906 1912	horses
+T34	Organism 1960 1967	S. equi
+T35	Protein 2083 2086	SeM
+T36	Chemical 2209 2224	hyaluronic acid
+T37	Two-component-system 2419 2424	VicRK
+T38	Protein 2419 2423	VicR
+T39	Protein 2423 2424	K
+T40	Organism 2428 2435	S. equi
+T41	Organism 2469 2489	vicK deletion mutant
+T42	Protein 2469 2473	vicK
+T43	Organism 2514 2519	mouse
+T44	Protein 2556 2560	vicK
+T45	Organism 2581 2588	S. equi
+T46	Organism 2602 2607	mouse
+T47	Organism 2683 2703	vicK deletion mutant
+T48	Protein 2683 2687	vicK
+T49	Organism 2767 2774	S. equi
+T50	Protein 2839 2842	SeM
+T72	Span 1901 1997	Most horses recovered from strangles have immunity against S. equi reinfection for up to 5 years
+T73	Causality 2004 2023	It is believed that
+E22	Causality:T73 Effect:T72 Evidence:T74
+T74	Span 2024 2116	the immunity is mediated by mucosal antibodies specific to SeM and other protective antigens

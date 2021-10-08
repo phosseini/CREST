@@ -1,0 +1,47 @@
+T1	Regulon-operon 1249 1261	spy0127-0130
+T2	Protein 1249 1256	spy0127
+T3	Protein 1257 1261	0130
+T4	Regulon-operon 1266 1278	spy1701-1704
+T5	Protein 1266 1273	spy1701
+T6	Protein 1274 1278	1704
+T7	Regulon-operon 1525 1537	spy0127-0130
+T8	Protein 1525 1532	spy0127
+T9	Protein 1533 1537	0130
+T10	Protein 1684 1691	spy0123
+T11	Protein 1692 1696	0136
+T12	Organism 1704 1709	SF370
+T13	Protein 1930 1937	spy0129
+T14	Regulon-operon 2188 2200	spy0127-0130
+T15	Protein 2188 2195	spy0127
+T16	Protein 2196 2200	0130
+T17	Organism 2350 2370	group A streptococci
+T18	Organism 2376 2381	mouse
+T19	Protein 2480 2487	sortase
+T20	Protein 2536 2543	spy0129
+T21	Protein 2617 2624	spy0128
+T22	Protein 2641 2644	Cpa
+T23	Protein 2663 2670	spy0130
+T24	Protein 2687 2696	protein F
+T25	Protein 2729 2736	spy0128
+T26	Protein 2801 2813	gene product
+T27	Protein 2817 2824	spy0130
+T28	Regulon-operon 3106 3118	spy0127-0130
+T29	Protein 3106 3113	spy0127
+T30	Protein 3114 3118	0130
+T31	Organism 3226 3231	SF370
+T32	Protein 3483 3490	spy0127
+T33	Protein 3770 3777	spy0135
+T34	Positive_regulation 1513 1524	upregulated
+T35	Process 2391 2400	infection
+E1	Positive_regulation:T34 Theme:T7
+E2	Process:T35 Participant:T17
+T36	Span 2133 2292	Recently, it was reported that the four genes spanning spy0127-0130 encode, and are responsible for, the formation of surface-localized, trypsin-resistant pili
+T37	Span 2293 2400	that induce protective immunity against a lethal dose of group A streptococci in a mouse model of infection
+T38	Causality 2292 2292	
+E3	Causality:T38 Evidence:T36 Effect:T37
+T39	Span 2133 2399	Recently, it was reported that the four genes spanning spy0127-0130 encode, and are responsible for, the formation of surface-localized, trypsin-resistant pili that induce protective immunity against a lethal dose of group A streptococci in a mouse model of infectio
+T40	Span 2407 2498	This same report provided the first experimental evidence supporting the sortase prediction
+T41	Causality 2500 2515	indicating that
+E4	Causality:T41 Effect:T42 Evidence:T40
+T42	Span 2516 2704	the gene product of spy0129 is responsible for the cell-wall sorting of the proteins encoded by both spy0128 (annotated as a Cpa homolog [50]) and spy0130 (annotated as a protein F homolog
+E5	Causality:T41 Effect:T42 Evidence:T39

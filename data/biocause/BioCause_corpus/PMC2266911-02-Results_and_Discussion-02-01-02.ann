@@ -1,0 +1,101 @@
+T69	Localization 721 732	transported
+T70	Positive_regulation 764 773	activated
+T71	Gene_expression 801 811	expression
+T72	Positive_regulation 902 914	up-regulated
+T73	Positive_regulation 2075 2082	induced
+T74	Process 2886 2895	virulence
+T75	Gene_expression 2951 2961	expression
+E1	Localization:T69 Theme:T5
+E2	Positive_regulation:T70 Theme:T5 Cause:T6
+E3	Gene_expression:T71 Theme:T5
+E4	Gene_expression:T71 Theme:T6
+E5	Positive_regulation:T72 Theme:T8
+E6	Positive_regulation:T73 Theme:T56
+E7	Process:T74 
+E8	Gene_expression:T75 Theme:T67
+E9	Gene_expression:T75 Theme:T65
+E10	Gene_expression:T75 Theme:T66
+T1	Chemical 117 121	iron
+T2	Organism 617 631	P. luminescens
+T3	Organism 636 653	Y. enterocolitica
+T4	Chemical 678 685	calcium
+T5	Protein 708 712	PhlA
+T6	Protein 777 781	PhlB
+T7	Chemical 830 834	iron
+T8	Two-component-system 888 897	phlA/phlB
+T9	Protein 888 892	phlA
+T10	Protein 893 897	phlB
+T11	Organism 955 965	Y. ruckeri
+T12	Organism 1011 1025	P. luminescens
+T13	Two-component-system 1034 1049	Plu0225/Plu0226
+T14	Protein 1034 1041	Plu0225
+T15	Protein 1042 1049	Plu0226
+T16	Two-component-system 1051 1066	Plu0548/Plu0549
+T17	Protein 1051 1058	Plu0548
+T18	Protein 1059 1066	Plu0549
+T19	Two-component-system 1068 1083	Plu1149/Plu1150
+T20	Protein 1068 1075	Plu1149
+T21	Protein 1076 1083	Plu1150
+T22	Two-component-system 1085 1100	Plu1367/Plu1368
+T23	Protein 1085 1092	Plu1367
+T24	Protein 1093 1100	Plu1368
+T25	Two-component-system 1102 1117	Plu3064/Plu3065
+T26	Protein 1102 1109	Plu3064
+T27	Protein 1110 1117	Plu3065
+T28	Two-component-system 1119 1136	Plu3125-3127/3128
+T29	Protein 1119 1126	Plu3125
+T30	Protein 1127 1131	3127
+T31	Protein 1132 1136	3128
+T32	Two-component-system 1138 1153	Plu3667/Plu3668
+T33	Protein 1138 1145	Plu3667
+T34	Protein 1146 1153	Plu3668
+T35	Two-component-system 1159 1174	Plu3718/Plu3719
+T36	Protein 1159 1166	Plu3718
+T37	Protein 1167 1174	Plu3719
+T38	Organism 1279 1296	Y. enterocolitica
+T39	Two-component-system 1350 1363	YE0479/YE0480
+T40	Protein 1350 1356	YE0479
+T41	Protein 1357 1363	YE0480
+T42	Two-component-system 1365 1378	YE2407/YE2408
+T43	Protein 1365 1371	YE2407
+T44	Protein 1372 1378	YE2408
+T45	Two-component-system 1380 1401	(YE4084)YE4085/YE4086
+T46	Protein 1381 1387	YE4084
+T47	Protein 1388 1394	YE4085
+T48	Protein 1395 1401	YE4086
+T49	Protein 1407 1413	YE3454
+T50	Two-component-system 1456 1469	YE0479/YE0480
+T51	Protein 1456 1462	YE0479
+T52	Protein 1463 1469	YE0480
+T53	Organism 1500 1514	P. luminescens
+T54	Protein 1589 1595	YE0480
+T55	Organism 1745 1762	Y. enterocolitica
+T56	Protein 1933 1937	FhaC
+T57	Protein 2007 2011	ShlA
+T58	Organism 2017 2036	Serratia marcescens
+T59	Organism 2131 2145	P. luminescens
+T60	Organism 2252 2269	Y. enterocolitica
+T61	Organism 2403 2417	P. luminescens
+T62	Organism 2477 2494	Y. enterocolitica
+T63	Organism 2762 2779	Y. enterocolitica
+T64	Two-component-system 2965 2978	YE0479/YE0480
+T65	Protein 2965 2971	YE0479
+T66	Protein 2972 2978	YE0480
+T67	Protein 2983 2987	fhaC
+T68	Organism 3059 3076	Y. enterocolitica
+T76	Span 46 167	These extracellular toxins target red blood cells to provide access to iron, but often show activity against immune cells
+T77	Causality 169 173	thus
+E11	Causality:T77 Effect:T78 Evidence:T76
+T78	Span 174 288	contributing to the bacterial response to the immune system of hosts, including phagocytosis by insect blood cells
+T79	Span 1523 1625	Recently, we have shown that a luciferase reporter insertion into YE0480 is induced at low temperature
+T80	Causality 1632 1647	indicating that
+E12	Causality:T80 Evidence:T79 Effect:T81
+T81	Span 1648 1762	this TPS system might contribute to insect pathogenicity and possibly to the host-specificity of Y. enterocolitica
+T82	Span 2372 2494	However, the majority of these P. luminescens toxins exhibit highly significant similarities to those of Y. enterocolitica
+T83	Causality 2496 2506	suggesting
+E13	Causality:T83 Effect:T84 Evidence:T82
+T84	Span 2507 2539	common progenitors of hemolysins
+T85	Span 2707 2987	Although it can not be excluded that the hemolysins of Y. enterocolitica act on the immune systems of both the insect and the mammalian host, the genetic overlap of this group of virulence factor between both pathogens, and the low-temperature expression of YE0479/YE0480 and fhaC
+T86	Causality 2989 2998	indicates
+E14	Causality:T86 Effect:T87 Evidence:T85
+T87	Span 2999 3076	the presence of insect-specific hemolysins in the genome of Y. enterocolitica

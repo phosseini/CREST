@@ -1,0 +1,117 @@
+T1	Consequence 521 523	so
+E1	Consequence:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 485 519	These people came in the wrong way
+T3	Argument 524 554	they don't belong here, period
+T5	Note 1210 1220	encouraged
+#2	AnnotatorNotes T5	Not the sense we're after
+T6	Motivation 1295 1300	after
+E2	Motivation:T6 Effect:T7 Cause:T8
+A2	Degree E2 Facilitate
+A3	Temporal E2
+T7	Argument 1247 1294	Their outrage and activism surged to full force
+T8	Argument 1301 1447	Senator Jon Kyl, the Arizona Republican who was an author of the bill, suggested early this week that support for the measure seemed to be growing
+T9	Consequence 2613 2615	if
+E3	Consequence:T9 Cause:T10 Effect:T11
+A4	Degree E3 Facilitate
+A5	Hypothetical E3
+T10	Argument 2616 2637	you don't do anything
+T11	Argument 2638 2663	you have a silent amnesty
+T12	Consequence 3173 3180	because
+E4	Consequence:T12 Effect:T13 Cause:T14
+A6	Degree E4 Facilitate
+T13	Argument 3110 3172	the immigration debate was a battle for the soul of the nation
+T14	Argument 3181 3299	it seemed to divert taxpayer-financed resources to cater to foreigners who had not come to this country by legal means
+T15	Purpose 3229 3231	to
+E5	Purpose:T15 Effect:T16 Cause:T17
+A7	Degree E5 Facilitate
+T16	Argument 3194 3228	divert taxpayer-financed resources
+T17	Argument 3232 3299	cater to foreigners who had not come to this country by legal means
+T18	Motivation 3326 3333	because
+E6	Motivation:T18 Effect:T19 Cause:T20
+A8	Degree E6 Facilitate
+T19	Argument 3304 3325	This hit home with me
+T20	Argument 3334 3375	I knew it was taking away from our people
+T21	Motivation 3717 3719	as
+E7	Motivation:T21 Effect:T22 Cause:T23
+A9	Degree E7 Facilitate
+A10	Temporal E7
+T22	Argument 3696 3716	a similar outpouring
+T23	Argument 3720 3780	proponents of the Senate bill claimed to be gaining momentum
+T24	NonCausal 4342 4348	during
+E8	NonCausal:T24 Arg1:T25 Arg0:T26
+A11	Temporal E8
+T25	Argument 4317 4341	that Democrats pioneered
+T26	Argument 4349 4398	the presidential candidacy in 2004 of Howard Dean
+T28	Motivation 5512 5519	because
+E9	Motivation:T28 Effect:T29 Cause:T30
+A12	Degree E9 Facilitate
+T29	Argument 5480 5511	he felt strongly about the bill
+T30	Argument 5520 5582	he believed it would degrade the value of American citizenship
+T31	Motivation 5587 5589	If
+E10	Motivation:T31 Cause:T32 Effect:T33
+A13	Degree E10 Facilitate
+A14	Hypothetical E10
+T32	Argument 5590 5608	I come from Mexico
+T33	Argument 5610 5666	I can jump the fence and get all those American benefits
+T36	NonCausal 5864 5868	When
+E11	NonCausal:T36 Cause:T37 Effect:T38
+A16	Temporal E11
+T37	Argument 5869 5912	asked about Mr. Bush's support for the bill
+T38	Argument 5914 5981	Mr. Murphy, a longtime Republican, had to pause to temper his words
+T39	Purpose 5962 5964	to
+E12	Purpose:T39 Cause:T40 Effect:T41
+A17	Degree E12 Facilitate
+#6	AnnotatorNotes E12	Has modality of obligation ("had to pause"), but seems like Purpose, not Consequence.
+T40	Argument 5965 5981	temper his words
+T41	Argument 5914 5961	Mr. Murphy, a longtime Republican, had to pause
+T42	Consequence 7743 7753	because of
+E13	Consequence:T42 Effect:T43 Cause:T44
+A18	Degree E13 Facilitate
+T43	Argument 7668 7742	A nephew who works as a house painter had trouble finding high-paying work
+T44	Argument 7754 7789	competition from illegal immigrants
+T45	Motivation 7861 7868	because
+E14	Motivation:T45 Effect:T46 Cause:T47
+A19	Degree E14 Facilitate
+T46	Argument 7852 7860	mock her
+T47	Argument 7869 7890	she walks with a cane
+T49	Consequence 8243 8248	After
+E15	Consequence:T49 Cause:T50 Effect:T51
+A20	Degree E15 Facilitate
+T50	Argument 8249 8253	that
+T51	Argument 8255 8360	immigration agents, local police and the National Guard, if necessary, should be mobilized to deport them
+A21	Temporal E15
+T52	Consequence 8312 8314	if
+E16	Consequence:T52 Cause:T53 Effect:T54
+A22	Degree E16 Facilitate
+A23	Hypothetical E16
+T53	Argument 8315 8324	necessary
+T54	Argument 8292 8310;8326 8360	the National Guard should be mobilized to deport them
+T55	Motivation 8549 8551	so
+E17	Motivation:T55 Cause:T56 Effect:T57
+A24	Degree E17 Facilitate
+A25	Extremity-sufficiency E17
+T56	Argument 8549 8555	so big
+T57	Argument 8561 8575	people noticed
+T58	Motivation 8843 8845	If
+E18	Motivation:T58 Cause:T59 Effect:T60
+A26	Degree E18 Facilitate
+A27	Hypothetical E18
+T59	Argument 8846 8895	the immigration issue comes before Congress again
+T60	Argument 8909 8956	I'm going to get a microphone and start yelling
+T27	NonCausal 5401 5407	before
+E19	NonCausal:T27 Arg1:T61 Arg0:T62
+A28	Temporal E19
+T61	Argument 5408 5416	the vote
+T62	Argument 5418 5461	he said, he put in new calls to 15 senators
+T63	Argument 1099 1245	a furious rebellion among many Republican and even some Democratic voters, who were linked by the Internet and encouraged by radio talk show hosts
+T64	Argument 1075 1090	the legislation
+T4	Motivation 1091 1098	sparked
+E20	Motivation:T4 Effect:T63 Cause:T64
+A29	Degree E20 Facilitate
+A30	Creation-termination E20
+T34	Purpose 5826 5828	to
+E21	Purpose:T34 Cause:T35 Effect:T65
+A31	Degree E21 Facilitate
+T35	Argument 5829 5861	become legal permanent residents
+T65	Argument 5777 5825	that illegal immigrants would pay under the bill

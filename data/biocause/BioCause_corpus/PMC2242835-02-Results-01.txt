@@ -1,0 +1,9 @@
+Results 
+Microarray-Based Comparative Genome Sequencing of M. tuberculosis H37Ra The genome-wide comparative mutational analysis of H37Ra and H37Rv was carried out by NimbleGen Systems following a previously published method [13].
+Putative SNPs with high probability scores were separated into synonymous and non-synonymous SNPs of which the latter were verified by conventional dye terminator cycle sequencing.
+By this combined approach we identified 13 non-synonymous SNPs that differed between the H37Ra and H37Rv strains used (Table S1).
+We were particularly interested in a C to T mutation responsible for the serine to leucine replacement at position 219, S219L, of the two-component regulator PhoP as this protein is well known for its involvement in the virulent phenotype of M. tuberculosis [14].
+Importantly, on inspection of the structure of the PhoP-ortholog from Bacillus subtilis, it was found that the equivalent residue Ser 207 is a main residue in the DNA-binding domain, helix alpha3 [15].
+For the other 13 genes we found no indication that would identify them as potential virulence genes, as none of them belong to the 5% of genes that were previously determined by transposon site hybridization (TraSH) as being essential for in vivo growth of M. tuberculosis [16].
+While writing this article, the whole genome sequence of H37Ra became publicly available (NC_009525), and comparison of the SNP data obtained from the H37Ra strain used in our laboratory (Table S1) with the NC_009525 data, showed that some differences existed between the H37Ra strains, a phenomenon which was also previously observed for BCG [4] and H37Rv [17].
+Nevertheless, the S129L mutation in PhoP, which we consider an important SNP involved in the attenuation and reduced immunogenicity of H37Ra, is identical in all H37Ra strains.

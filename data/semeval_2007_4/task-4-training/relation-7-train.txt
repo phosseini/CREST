@@ -1,0 +1,520 @@
+001 "Put <e1>tea</e1> in a <e2>heat-resistant jug</e2> and add the boiling water."
+WordNet(e1) = "tea%1:13:00::", WordNet(e2) = "jug%1:06:00::", Content-Container(e1, e2) = "true", Query = "put tea in a"
+
+002 "The <e1>kitchen</e1> holds patient <e2>drinks</e2> and snacks."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "drink%1:13:04::", Content-Container(e2, e1) = "true", Query = "the kitchen holds"
+Comment: or Location-Located.
+
+003 "Where are the <e1>batteries</e1> kept in a <e2>phone</e2>?"
+WordNet(e1) = "battery%1:06:00::", WordNet(e2) = "phone%1:06:00::", Content-Container(e1, e2) = "false", Query = "batteries kept in"
+Comment: the sentence does not entail that the batteries are inside the phone, though it is a likely intepretation. The real issue is that batteries are part of what we normally consider a working phone.
+
+004 "This answer leads me to think that the <e1>robber</e1> was inside the <e2>office</e2> when the manager decided to take action and escape out the side door."
+WordNet(e1) = "robber%1:18:01::", WordNet(e2) = "office%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * was inside the"
+Comment: Located-Location.
+
+005 "Often the <e1>patient</e1> is kept in the <e2>hospital</e2> one night for observation, but in other cases the patient can be discharged home the same day as surgery."
+WordNet(e1) = "patient%1:18:00::", WordNet(e2) = "hospital%1:14:00::", Content-Container(e1, e2) = "false", Query = "the * is kept in the"
+Comment: not sure what relation it is. Either sense of "hospital" fits.
+
+006 "<e1>Batteries</e1> stored in <e2>contact</e2> with one another can generate heat and hydrogen gas."
+WordNet(e1) = "battery%1:06:00::", WordNet(e2) = "contact%1:26:00::", Content-Container(e1, e2) = "false", Query = "batteries stored in"
+Comment: "in contact with" is a compound preposition, or a phrase which serves as a preposition.
+
+007 "Among the contents of the <e1>vessel</e1> were a set of carpenter's <e2>tools</e2>, several large storage jars, ceramic utensils, ropes and remnants of food, as well as a heavy load of ballast stones."
+WordNet(e1) = "vessel%1:06:00::", WordNet(e2) = "tool%1:06:00::", Content-Container(e2, e1) = "true", Query = "contents of the * were a"
+
+008 "You can put <e1>wine</e1> in the <e2>hookah water</e2>, and otherwise adulterate the tobacco and so on to change the flavor."
+WordNet(e1) = "wine%1:07:00::", WordNet(e2) = "water%1:13:00::", Content-Container(e1, e2) = "false", Query = "put wine in the"
+Comment: this cannot be Part-Whole (wine might be part, but water can only be whole after the putting has occurred -- something not entailed by the sentence). It is also not quite Located-Location: putting is not a fact but a possibility. Such temporal uncertainties are tough to interpret.
+
+009 "And we do recommend excersise, as the <e1>kitchen</e1> holds <e2>culinary temptations</e2> in store for you that are bound to prolong your evening and lift your spirit."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "temptation%1:09:00::", Content-Container(e2, e1) = "false", Query = "the kitchen holds"
+Comment: Located-Location; it is a different sense of the verb "hold", and note that WN 3.0 offers 36 (!) senses.
+
+010 "The <e1>catalogue</e1> contained <e2>books</e2> published in 1998 warning of the upcoming millennium bug and other similarly germane works, but neither of Brock's bestsellers."
+WordNet(e1) = "catalogue%1:10:01::", WordNet(e2) = "book%1:10:00::", Content-Container(e2, e1) = "false", Query = "the * contained books"
+Comment: a catalog is either "a complete list of things" or "a book or pamphlet containing an enumeration of things". There is metonymy here: a book means some "listable" identification of a book. This is Part-Whole.
+
+011 "Vinegar's <e1>usefulness</e1> doesn't stop inside the <e2>house</e2>."
+WordNet(e1) = "usefulness%1:07:00::", WordNet(e2) = "house%1:06:00::", Content-Container(e1, e2) = "false", Query = "inside the house"
+Comment: definitely no relation fits this example adequately.
+
+012 "You'll rarely see a <e1>clock</e1> inside a <e2>casino</e2>, the same goes for windows."
+WordNet(e1) = "clock%1:06:00::", WordNet(e2) = "casino%1:06:00::", Content-Container(e1, e2) = "false", Query = "a clock inside a"
+Comment: Located-Location.
+
+013 "The original Waldorf <e1>salad</e1>, created at New York's Waldorf Astoria Hotel in the 1890s, contained only <e2>apples</e2>, mayonnaise, and celery."
+WordNet(e1) = "salad%1:13:00::", WordNet(e2) = "apple%1:13:00::", Content-Container(e2, e1) = "false", Query = "the * contained apples"
+Comment: ingredient, so Object-Stuff, a subcategory of Whole-Part.
+
+014 "The <e1>library</e1> contained <e2>books</e2> of guidance on the processes."
+WordNet(e1) = "library%1:14:00::", WordNet(e2) = "book%1:10:00::", Content-Container(e2, e1) = "true", Query = "the * contained books"
+Comment: marginal; Located-Location is tempting, too.
+
+015 "The story not only put <e1>wine</e1> in a <e2>positive health light</e2>, but pointed out that it was superior to other foods in that particular regard."
+WordNet(e1) = "wine%1:07:00::", WordNet(e2) = "light%1:09:01::", Content-Container(e1, e2) = "false", Query = "put wine in a"
+Comment: a difficult case, and an instance of metonymy; no relation comes easily to mind.
+
+016 "Our water froze and <e1>batteries</e1> kept in <e2>pockets</e2> got cold."
+WordNet(e1) = "battery%1:06:00::", WordNet(e2) = "pocket%1:06:00::", Content-Container(e1, e2) = "true", Query = "batteries kept in"
+
+017 "How do I recognize a <e1>room</e1> that contains <e2>radioactive materials</e2>?"
+WordNet(e1) = "room%1:06:00::", WordNet(e2) = "radioactive_material%1:27:00::", Content-Container(e2, e1) = "true", Query = "room that contains"
+Comment: Location-Located is almost equally good.
+
+018 "<e1>Equipment</e1> for making repairs en route was carried in a <e2>jockey box</e2> attached to one end or side of the wagon."
+WordNet(e1) = "equipment%1:06:00::", WordNet(e2) = "box%1:06:00::", Content-Container(e1, e2) = "true", Query = "carried in a"
+
+019 "The <e1>video</e1> contains a <e2>clip</e2> from the movie."
+WordNet(e1) = "video%1:06:00::", WordNet(e2) = "?", Content-Container(e2, e1) = "false", Query = "the * contains"
+Comment: Whole-Part. "Clip" in this sense absent in WordNet.
+
+020 "The contents of the <e1>cyst</e1> included a foul smelling <e2>gas</e2> and white-green pus."
+WordNet(e1) = "cyst%1:26:00::", WordNet(e2) = "gas%1:26:00::", Content-Container(e2, e1) = "false", Query = "contents of the * included"
+Comment: Stuff-Object, a subcategory of Part-Whole.
+
+021 "The contents of the <e1>memorandum</e1> included <e2>stigmatizing statements</e2> about Cannon."
+WordNet(e1) = "memorandum%1:10:00::", WordNet(e2) = "statement%1:10:00::", Content-Container(e2, e1) = "false", Query = "contents of the * included"
+Comment: Whole-Part.
+
+022 "The <e1>display table</e1> contained <e2>books</e2> and posters for visitors to browse."
+WordNet(e1) = "table%1:17:00::", WordNet(e2) = "book%1:10:05::", Content-Container(e2, e1) = "false", Query = "the * contained books"
+Comment: Located-Location.
+
+023 "The <e1>bomb</e1> was contained in a <e2>suitcase</e2> and was planted by two men."
+WordNet(e1) = "bomb%1:06:00::", WordNet(e2) = "suitcase%1:06:00::", Content-Container(e1, e2) = "true", Query = "contained in a suitcase"
+
+024 "We kept the <e1>antenna</e1> inside the <e2>car</e2>, which limited range due to the car's attenuation."
+WordNet(e1) = "antenna%1:06:00::", WordNet(e2) = "car%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * inside the car"
+Comment: Located-Location; Part-Whole if the antenna is attached.
+
+025 "Any <e1>marinade</e1> that contains <e2>acid</e2>, alcohol or salt should not be used for very long, because it will chemically 'cook' or denature the food in it."
+WordNet(e1) = "marinade%1:13:00::", WordNet(e2) = "acid%1:27:00::", Content-Container(e2, e1) = "false", Query = "that contains acid"
+Comment: Object-Stuff, a subcategory of Whole-Part.
+
+026 "This experiment is performed with an aqueous solution of a strong <e1>acid</e1> inside a <e2>flask</e2>."
+WordNet(e1) = "acid%1:27:00::", WordNet(e2) = "flask%1:06:00::", Content-Container(e1, e2) = "true", Query = "acid inside a"
+
+027 "Arthur and Franz are thieves, or they're trying to be thieves, and somehow learn that Odile lives in a <e1>house</e1> that contains a large sum of <e2>money</e2>."
+WordNet(e1) = "house%1:06:00::", WordNet(e2) = "money%1:21:01::", Content-Container(e2, e1) = "true", Query = "a house that contains a"
+Comment: or Located-Location.
+
+028 "A tokamak is a toroidal (doughnut shape) <e1>magnetic bottle</e1> that contains the <e2>fusion plasma</e2>."
+WordNet(e1) = "magnetic_bottle%1:06:00::", WordNet(e2) = "plasma%1:26:00::", Content-Container(e2, e1) = "true", Query = "bottle that contains"
+
+029 "A letterbox is a plastic, screw-top <e1>bottle</e1> that contains a small <e2>notebook</e2> and a unique rubber stamp."
+WordNet(e1) = "bottle%1:06:00::", WordNet(e2) = "notebook%1:10:00::", Content-Container(e2, e1) = "true", Query = "bottle that contains"
+
+030 "That's because nostalgia serves a useful defensive and reparative function; it took the <e1>sting</e1> from a <e2>painful episode</e2> in his life by shading the script."
+WordNet(e1) = "sting%1:26:02::", WordNet(e2) = "episode%1:11:00::", Content-Container(e1, e2) = "false", Query = "took the * from a"
+Comment: no relation seems to fit...
+
+031 "It has long been thought that the <e1>crypt</e1> contained the <e2>tomb</e2> of St Paul but the altar had hidden it."
+WordNet(e1) = "crypt%1:06:00::", WordNet(e2) = "tomb%1:06:00::", Content-Container(e2, e1) = "false", Query = "the * contained the"
+Comment: both Located-Location and Whole-Part fit.
+
+032 "Flash Drives were designed to be portable - worn on a necklace or key chain - while <e1>diskettes</e1> should be carried in a <e2>case</e2> for protection."
+WordNet(e1) = "diskette%1:06:00::", WordNet(e2) = "case%1:06:00::", Content-Container(e1, e2) = "true", Query = "carried in a"
+
+033 "The <e1>clutter</e1> in my <e2>house</e2> was destroying me."
+WordNet(e1) = "clutter%1:26:00::", WordNet(e2) = "house%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * in my house"
+Comment: possibly Located-Location.
+
+034 "Because of the Depression the original design was cut back significantly, but the <e1>building</e1> contained a number of unique <e2>architectural features</e2>."
+WordNet(e1) = "building%1:06:00::", WordNet(e2) = "feature%1:09:00::", Content-Container(e2, e1) = "false", Query = "the building contained"
+Comment: Property.
+
+035 "While Calvin is able to get the diamond, he's nearly caught by the police while making his getaway, and stashes the <e1>jewel</e1> in a <e2>bag</e2> carried by a passerby."
+WordNet(e1) = "jewel%1:06:00::", WordNet(e2) = "bag%1:06:00::", Content-Container(e1, e2) = "true", Query = "the * in a bag"
+
+036 "The <e1>kitchen</e1> holds a <e2>cooker</e2>, fridge, microwave oven, in short; everything you need if you want to prepare a light meal."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "cooker%1:06:00::", Content-Container(e2, e1) = "true", Query = "the kitchen holds"
+Comment: a cooker is not attached (only plugged in), and a kitchen without a cooker is possible, so the definition holds.
+
+037 "Let us sprinkle flowers around and put <e1>wine</e1> in the <e2>cup</e2>."
+WordNet(e1) = "wine%1:13:00::", WordNet(e2) = "cup%1:06:00::", Content-Container(e1, e2) = "false", Query = n1 "put wine in the"
+Comment: the temporal element is at issue. The wine is not, and may never be, in the cup. There is no entailment to justify classifying this example as positive.
+
+038 "The <e1>bulbs</e1> in my <e2>house</e2> use 190 watts."
+WordNet(e1) = "bulb%1:06:00::", WordNet(e2) = "house%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * in my house"
+Comment: Located-Location.
+
+039 "Tim Boyle (1846) checks a <e1>flask</e1> that contains the dried cathode precursor <e2>powder</e2>."
+WordNet(e1) = "flask%1:06:00::", WordNet(e2) = "powder%1:27:00::", Content-Container(e2, e1) = "true", Query = "a flask that contains"
+
+040 "Your <e1>stomach</e1> is supposed to contain <e2>acid</e2>."
+WordNet(e1) = "stomach%1:08:00::", WordNet(e2) = "acid%1:27:00::", Content-Container(e2, e1) = "true", Query = "to contain acid"
+Comment: the best choice, but oddly the definition fails a little (one cannot get rid of acid).
+
+041 "Tapestries of rocky coastlines share wall space with a <e1>clock</e1> inside a ship's <e2>wheel</e2>."
+WordNet(e1) = "clock%1:06:00::", WordNet(e2) = "wheel%1:06:01::", Content-Container(e1, e2) = "true", Query = "a clock inside a"
+
+042 "The <e1>turn signal indicator</e1> inside the <e2>car</e2> was blinking erratically for the last month and someone recently explained that it meant the bulb had gone somewhere on the left."
+WordNet(e1) = "indicator%1:10:01::", WordNet(e2) = "car%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * inside the car"
+Comment: Part-Whole.
+
+043 "In the case of aerodynamic lift, the <e1>aircraft</e1> is kept in the <e2>air</e2> by wings or rotors (see aerodynamics)."
+WordNet(e1) = "aircraft%1:06:00::", WordNet(e2) = "air%1:15:00::", Content-Container(e1, e2) = "false", Query = "the * is kept in the"
+Comment: Located-Location.
+
+044 "Suddenly, a man approached me from nowhere and stuck a bag of <e1>candy</e1> in my <e2>face</e2>."
+WordNet(e1) = "candy%1:13:00::", WordNet(e2) = "face%1:08:00::", Content-Container(e1, e2) = "false", Query = "candy in my"
+Comment: Located-Location or Thing-Direction.
+
+045 "I am installing lights under the <e1>cabinets</e1> in my <e2>kitchen</e2>."
+WordNet(e1) = "cabinet%1:06:02::", WordNet(e2) = "kitchen%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * in my kitchen"
+Comment: cabinets are normally affixed, so this is Part-Whole.
+
+046 "When he was back he noticed that he had locked the <e1>keys</e1> inside the <e2>car</e2>."
+WordNet(e1) = "key%1:06:00::", WordNet(e2) = "car%1:06:00::", Content-Container(e1, e2) = "true", Query = "the * inside the car"
+Comment: Located-Location is also good.
+
+047 "This represents a <e1>house</e1> that contains a <e2>light bulb</e2> and an airconditioner."
+WordNet(e1) = "house%1:06:01::", WordNet(e2) = "light_bulb%1:06:00::", Content-Container(e2, e1) = "false", Query = "a house that contains a"
+Comment: Located-Location.
+
+048 "Because the <e1>air</e1> in the <e2>jar</e2> cannot circulate to the rest of the room, this air stays in the sunlight and gets warmer and warmer."
+WordNet(e1) = "air%1:27:00::", WordNet(e2) = "jar%1:06:00::", Content-Container(e1, e2) = "true", Query = "in the jar"
+Comment: though it is hard to remove air...
+
+049 "If you mount the photo on a <e1>material</e1> that contains <e2>acid</e2> the paper will absorb the acid which in turn will attack the photo itself."
+WordNet(e1) = "material%1:27:00::", WordNet(e2) = "acid%1:27:00::", Content-Container(e2, e1) = "false", Query = "that contains acid"
+Comment: Object-Stuff, a subcategory of Whole-Part.
+
+050 "There are four <e1>caverns</e1> located inside the <e2>cave</e2> with the tunnel heading west being the largest."
+WordNet(e1) = "cavern%1:17:00::", WordNet(e2) = "cave%1:17:00::", Content-Container(e1, e2) = "false", Query = "located inside the cave"
+Comment: Part-Whole.
+
+051 "Harry Stanley, 46, from Hackney, East London, was shot and killed by Metropolitan Police officers who apparently had mistaken a <e1>chair-leg</e1> being carried in a <e2>plastic bag</e2> for a firearm."
+WordNet(e1) = "leg%1:06:01::", WordNet(e2) = "plastic_bag%1:06:00::", Content-Container(e1, e2) = "true", Query = "carried in a"
+
+052 "The <e1>building</e1> contained a significant amount of <e2>school furniture</e2> and equipment."
+WordNet(e1) = "building%1:14:00::", WordNet(e2) = "furniture%1:06:00::", Content-Container(e2, e1) = "true", Query = "the building contained"
+
+053 "I put <e1>candy</e1> in my <e2>jar</e2>."
+WordNet(e1) = "candy%1:13:00::", WordNet(e2) = "jar%1:06:00::", Content-Container(e1, e2) = "true", Query = "candy in my"
+
+054 "A pool with a sand <e1>beach</e1> is located inside the <e2>cave</e2>."
+WordNet(e1) = "beach%1:17:00::", WordNet(e2) = "cave%1:17:00::", Content-Container(e1, e2) = "false", Query = "located inside the cave"
+Comment: Located-Location; possibly Part-Whole.
+
+055 "You own a <e1>house</e1> that contains a <e2>granny flat</e2>."
+WordNet(e1) = "house%1:06:01::", WordNet(e2) = "flat%1:06:00::", Content-Container(e2, e1) = "false", Query = "a house that contains a"
+Comment: Whole-Part.
+
+056 "The <e1>box</e1> contained the jumbled <e2>skeletal remains</e2> of what appeared to be sheep, as well as a variety of other mammals."
+WordNet(e1) = "box%1:06:00::", WordNet(e2) = "remains%1:08:00::", Content-Container(e2, e1) = "true", Query = "the box contained"
+Comment: there is a small problem with WN sense (the dead body of a human being -- not an animal). Perhaps it would be better not to assign a sense, though it seems like WN's minor omission.
+
+057 "The discharge <e1>valve</e1> is kept in the <e2>closed position</e2> at all times unless the dike is deliberately being drained."
+WordNet(e1) = "valve%1:06:00::", WordNet(e2) = "position%1:07:00::", Content-Container(e1, e2) = "false", Query = "the * is kept in the"
+Comment: this would be some form of Thing-State.
+
+058 "He sued Georgia Tech and the Board of Regents, claiming his professor and the University's administration should have provided him with laboratory safety training and should have warned him of the dangers of mixing acetone, ethanol, and <e1>nitric acid</e1> inside a <e2>metal container</e2>."
+WordNet(e1) = "nitric_acid%1:27:00::", WordNet(e2) = "container%1:06:00::", Content-Container(e1, e2) = "true", Query = "acid inside a"
+
+059 "The <e1>heater</e1> inside the <e2>car</e2> consumed gasoline."
+WordNet(e1) = "heater%1:06:00::", WordNet(e2) = "car%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * inside the car"
+Comment: Part-Whole.
+
+060 "The contents of the <e1>boxes</e1> included <e2>phone cards</e2>, disposable cameras and razors, travel-size toiletries, snack food, and lots of candy."
+WordNet(e1) = "box%1:06:00::", WordNet(e2) = "phone_card%1:21:00::", Content-Container(e2, e1) = "true", Query = "contents of the * included"
+
+061 "The <e1>food</e1> is kept in the <e2>kitchen</e2> and guests should help themselves as it is self service and not served by the hostel."
+WordNet(e1) = "food%1:13:00::", WordNet(e2) = "kitchen%1:06:00::", Content-Container(e1, e2) = "true", Query = "kept in the kitchen"
+Comment: or Located-Location.
+
+062 "He used a stable form of <e1>liquid nitroglycerin</e1> carried in a <e2>bottle</e2> labeled as contact lens solution, using cotton as a stabilizer."
+WordNet(e1) = "nitroglycerin%1:27:00::", WordNet(e2) = "bottle%1:06:00::", Content-Container(e1, e2) = "true", Query = "carried in a"
+
+063 "The <e1>kitchen</e1> contained primarily <e2>drug paraphernalia</e2>."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "paraphernalia%1:06:00::", Content-Container(e2, e1) = "true", Query = "the kitchen contained"
+Comment: or Located-Location.
+
+064 "The <e1>kitchen</e1> contained one other interesting item, a <e2>trap door</e2> in the ceiling."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "trap_door%1:06:00::", Content-Container(e2, e1) = "false", Query = "the kitchen contained"
+Comment: Whole-Part.
+
+065 "The main cell types are fibroblasts, macrophages and adipocytes (the <e1>hypodermis</e1> contains 50% of <e2>body fat</e2>)."
+WordNet(e1) = "hypodermis%1:05:00::", WordNet(e2) = "fat%1:08:00::", Content-Container(e2, e1) = "false", Query = "the * contains"
+Comment: Stuff-Object (a subcategory of Part-Whole).
+
+066 "Do not use perchloric or <e1>hydrofluoric acid</e1> inside a <e2>fume hood</e2> unless the hood was specifically designed for its use."
+WordNet(e1) = "hydrofluoric_acid%1:27:00::", WordNet(e2) = "hood%1:06:04::", Content-Container(e1, e2) = "false", Query = "acid inside a"
+Comment: Located-Location.
+
+067 "Contents of the <e1>scrapbooks</e1> included <e2>pictures</e2> cut from magazines and newspapers, stories, poems and anecdotes as well as photographs."
+WordNet(e1) = "scrapbook%1:06:00::", WordNet(e2) = "picture%1:10:00::", Content-Container(e2, e1) = "true", Query = "contents of the * included"
+Comment: assume an empty scrapbook is okay.
+
+068 "Put the <e1>flour</e1> in a preheated <e2>oven</e2> until warm to the touch (approximately 2 minutes)."
+WordNet(e1) = "flour%1:13:00::", WordNet(e2) = "oven%1:06:00::", Content-Container(e1, e2) = "true", Query = "put the * in a"
+Comment: or Located-Location.
+
+069 "Retailers have done their bit to put <e1>wine</e1> in the <e2>hands</e2> of the masses, to make it more accessible to the wider UK public, and there is little more that they can do in this regard."
+WordNet(e1) = "wine%1:07:00::", WordNet(e2) = "hand%1:08:00::", Content-Container(e1, e2) = "false", Query = "put wine in the"
+Comment: a metaphor, and hard to find a relation for.
+
+070 "However, the fact that the guinea pigs appeared to function in a normal physiological manner indicates that the <e1>diets</e1> contained the necessary <e2>energy density</e2>."
+WordNet(e1) = "diet%1:13:01::", WordNet(e2) = "density%1:07:01::", Content-Container(e2, e1) = "false", Query = "the * contained the"
+
+071 "The total contents of the <e1>purse</e1> included a <e2>cell phone</e2> and wallet valued at $120."
+WordNet(e1) = "purse%1:06:00::", WordNet(e2) = "cellphone%1:06:00::", Content-Container(e2, e1) = "true", Query = "contents of the * included"
+
+072 "Straight ahead you enter a nice sized <e1>living room</e1> that contains the front <e2>door</e2>."
+WordNet(e1) = "living_room%1:06:00::", WordNet(e2) = "door%1:07:00::", Content-Container(e2, e1) = "false", Query = "room that contains"
+Comment: Whole-Part.
+
+073 "I put the remaining <e1>candy</e1> in my <e2>mouth</e2> and walked back the way I came, then past the village and into town."
+WordNet(e1) = "candy%1:13:00::", WordNet(e2) = "mouth%1:08:01::", Content-Container(e1, e2) = "true", Query = "candy in my"
+
+074 "I am still amazed just how deep and loud it can get with certain soundtracks and songs, literally making things bounce off the <e1>walls</e1> in my <e2>house</e2>."
+WordNet(e1) = "wall%1:06:00::", WordNet(e2) = "house%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * in my house"
+Comment: Part-Whole.
+
+075 "Interestingly, the <e1>sink</e1> was inside the <e2>room</e2>."
+WordNet(e1) = "sink%1:06:00::", WordNet(e2) = "room%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * was inside the"
+Comment: Located-Location (the sentence does not entail that the room is a kitchen or a bathroom).
+
+076 "The lower portion of the <e1>building</e1> contained hundreds of <e2>storage rooms</e2>."
+WordNet(e1) = "building%1:06:00::", WordNet(e2) = "storage_room%1:06:00::", Content-Container(e2, e1) = "false", Query = "the building contained"
+Comment: Part-Whole.
+
+077 "The <e1>boil</e1> in a <e2>bag</e2> omelets work great too."
+WordNet(e1) = "boil%2:30:00::", WordNet(e2) = "bag%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * in a bag"
+Comment: "boil" is a verb here.
+
+078 "Keep <e1>money</e1> in a <e2>box</e2> and keep your eye on it at all times."
+WordNet(e1) = "money%1:21:01::", WordNet(e2) = "box%1:06:01::", Content-Container(e1, e2) = "true", Query = "keep money in a"
+
+079 "In my tests with a final engineering prototype, Scooba generally did a fine job cleaning the <e1>linoleum</e1> in my <e2>kitchen</e2> after my 2-year-old daughter's birthday party."
+WordNet(e1) = "linoleum%1:27:00::", WordNet(e2) = "kitchen%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * in my kitchen"
+Comment: could be Part-Whole.
+
+080 "While that operation was a success, the contents of the <e1>satchel</e1> were a tiny <e2>loss</e2> for the traffickers."
+WordNet(e1) = "satchel%1:06:00::", WordNet(e2) = "loss%1:21:01::", Content-Container(e2, e1) = "false", Query = "contents of the * were a"
+Comment: no content named explicitly.
+
+081 "Put the <e1>flour</e1> in a <e2>mixing bowl</e2>, and mix in the water a little at a time until you've got a dough."
+WordNet(e1) = "flour%1:13:00::", WordNet(e2) = "bowl%1:06:01::", Content-Container(e1, e2) = "true", Query = "put the * in a"
+
+082 "The other <e1>shelves</e1> contained <e2>books</e2> with sinister-sounding titles, such as Crime and Punishment, Days of Wrath, Death Walks Among You and a few others."
+WordNet(e1) = "shelf%1:06:00::", WordNet(e2) = "book%1:06:00::", Content-Container(e2, e1) = "true", Query = "the * contained books"
+Comment: a boundary case. Shelves support books, rather. Still, the definition of Content-Container holds.
+
+083 "The viewer looks through an <e1>eyehole</e1> in the <e2>metal box</e2> into the abyss, an infinite regression/progression of mirrors reflecting themselves."
+WordNet(e1) = "eyehole%1:06:01::", WordNet(e2) = "box%1:06:00::", Content-Container(e1, e2) = "false", Query = "in the metal box"
+Comment: Part-Whole.
+
+084 "Put the <e1>peels</e1> in a different <e2>sack</e2>."
+WordNet(e1) = "peel%1:13:00::", WordNet(e2) = "sack%1:06:00::", Content-Container(e1, e2) = "true", Query = "put the * in a"
+
+085 "Woz has outfitted the house with an elaborate <e1>swimming pool</e1> that extends inside the <e2>house</e2> by way of an underwater channel."
+WordNet(e1) = "swimming_pool%1:06:00::", WordNet(e2) = "house%1:06:01::", Content-Container(e1, e2) = "false", Query = "inside the house"
+Comment: Located-Location.
+
+086 "Remember to reverse the position of <e1>batteries</e1> stored in <e2>flashlights</e2> to prevent them from accidentally switching on and losing power."
+WordNet(e1) = "battery%1:06:00::", WordNet(e2) = "flashlight%1:06:00::", Content-Container(e1, e2) = "true", Query = "batteries stored in"
+Comment: a small dilemma. Batteries are stored/carried, but they also are part of a functioning flashlight. Still, the sentence entails that the batteries are inside the flashlight, and this is what matters.
+
+087 "The <e1>box</e1> holds three stiff <e2>cardboard tubes</e2>, each wrapped in now decaying cellophane."
+WordNet(e1) = "box%1:06:00::", WordNet(e2) = "tube%1:25:00::", Content-Container(e2, e1) = "true", Query = "the box holds"
+
+088 "Eight rooms surround a central square <e1>room</e1> that contains the mortal <e2>remains</e2> of Bibi Pari."
+WordNet(e1) = "room%1:06:00::", WordNet(e2) = "remains%1:08:00::", Content-Container(e2, e1) = "true", Query = "room that contains"
+
+089 "<e1>Batteries</e1> stored in a <e2>discharged state</e2> are susceptible to freezing, sulfation and an increased rate of discharge."
+WordNet(e1) = "battery%1:06:00::", WordNet(e2) = "state%1:03:00::", Content-Container(e1, e2) = "false", Query = "batteries stored in"
+Comment: Property.
+
+090 "The <e1>detainee</e1> is kept in the <e2>cell</e2> 23 Â½ hours a day."
+WordNet(e1) = "detainee%1:18:00::", WordNet(e2) = "cell%1:06:01::", Content-Container(e1, e2) = "false", Query = "the * is kept in the"
+Comment: Located-Location; preferred for people in places.
+
+091 "You haven't experienced true tartness until you've tasted the <e1>jelly</e1> inside a <e2>passionfruit</e2>."
+WordNet(e1) = "jelly%1:27:00::", WordNet(e2) = "fruit%1:11:00::", Content-Container(e1, e2) = "false", Query = "jelly inside a"
+Comment: Part-Whole? Note the spelling "passion fruit" in WN -- with a space. The WN sense of e1 (any substance having the consistency of jelly or gelatin) is iffy; the other two are not acceptable.
+
+092 "A <e1>dining room</e1> that contains direct <e2>access</e2> from the kitchen is the most practical, unless the room will exist for fluff purposes only."
+WordNet(e1) = "dining_room%1:06:00::", WordNet(e2) = "access%1:06:00::", Content-Container(e2, e1) = "false", Query = "room that contains"
+Comment: Part-Whole. In WN: access -- a way of entering or leaving ==> any artifact consisting of a path affording passage from one place to another.
+
+093 "How can I get rid of the <e1>ants</e1> in my <e2>kitchen</e2> without using dangerous pesticides?"
+WordNet(e1) = "ant%1:05:00::", WordNet(e2) = "kitchen%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * in my kitchen"
+Comment: Located-Location.
+
+094 "Among the additional contents of the <e1>box</e1> were a <e2>controller</e2>, an audio/video connector, a plug, and quite a few manuals and booklets."
+WordNet(e1) = "box%1:06:00::", WordNet(e2) = "controller%1:06:00::", Content-Container(e2, e1) = "true", Query = "contents of the * were a"
+
+095 "But for the family that shares the cooking and clean up duties, the <e1>kitchen</e1> holds a special <e2>nuturing role</e2> beyond supplying nutrition for the physical body."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "role%1:07:00::", Content-Container(e2, e1) = "false", Query = "the kitchen holds"
+Comment: a non-container sense of "hold".
+
+096 "The <e1>morning session</e1> contains a <e2>tutorial</e2> that aims to address the basic issues necessary for a better understanding of this complicated topic."
+WordNet(e1) = "session%1:04:00::", WordNet(e2) = "tutorial%1:10:00::", Content-Container(e2, e1) = "false", Query = "the * contains"
+Comment: Whole-Part.
+
+097 "These are not simply memorable words written on a piece of <e1>paper</e1> kept in a <e2>museum</e2>."
+WordNet(e1) = "paper%1:27:00::", WordNet(e2) = "museum%1:06:00::", Content-Container(e1, e2) = "true", Query = "paper kept in a"
+Comment: or Located-Location.
+
+098 "Rather, the <e1>entrails</e1> contained mostly <e2>apples</e2> and corn."
+WordNet(e1) = "entrails%1:08:00::", WordNet(e2) = "apple%1:13:00::", Content-Container(e2, e1) = "true", Query = "the * contained apples"
+
+099 "About 2000 feet of <e1>passageways</e1> have been located inside the <e2>cave</e2>, and about half of that has been mapped."
+WordNet(e1) = "passageway%1:06:00::", WordNet(e2) = "cave%1:17:00::", Content-Container(e1, e2) = "false", Query = "located inside the cave"
+Comment: Located-Location.
+
+100 "The <e1>fruit basket</e1> contained <e2>apples</e2>, oranges and bananas."
+WordNet(e1) = "basket%1:06:00::", WordNet(e2) = "apple%1:13:00::", Content-Container(e2, e1) = "true", Query = "the * contained apples"
+
+101 "The contents of the <e1>workshop</e1> included a <e2>discussion</e2> on various documents in respect of exports, imports and documents relating to letters of credit."
+WordNet(e1) = "workshop%1:04:00::", WordNet(e2) = "discussion%1:10:00::", Content-Container(e2, e1) = "false", Query = "contents of the * included"
+Comment: Whole-Part seems much more apt.
+
+102 "In each <e1>house</e1> lives a <e2>person</e2> with a different nationality."
+WordNet(e1) = "house%1:06:01::", WordNet(e2) = "person%1:03:00::", Content-Container(e2, e1) = "false", Query = "in * house"
+Comment: maybe Location-Located.
+
+103 "Such airships are essentially motorized free balloons and the <e1>engines</e1> are carried in a <e2>car</e2> attached to the lower side or bottom of the bag."
+WordNet(e1) = "engine%1:06:00::", WordNet(e2) = "car%1:06:03::", Content-Container(e1, e2) = "true", Query = "carried in a"
+
+104 "Once the <e1>photon</e1> was inside the <e2>cloud</e2>, the control beam was switched off, allowing the photon to come to a halt inside the dense ensemble of atoms."
+WordNet(e1) = "photon%1:17:00::", WordNet(e2) = "cloud%1:19:01::", Content-Container(e1, e2) = "false", Query = "the * was inside the"
+Comment: Located-Location.
+
+105 "The contents of the <e1>bag</e1> included numerous <e2>flyers</e2> from other conference sponsors and exhibitors and some useful stationery supplies."
+WordNet(e1) = "bag%1:06:00::", WordNet(e2) = "flyer%1:10:00::", Content-Container(e2, e1) = "true", Query = "contents of the * included"
+
+106 "Because the <e1>trench</e1> was inside the <e2>fenced back yard</e2>, he saw no reason to worry about leaving it uncovered."
+WordNet(e1) = "trench%1:06:01::", WordNet(e2) = "yard%1:23:02::", Content-Container(e1, e2) = "false", Query = "the * was inside the"
+Comment: Located-Location. WordNet has "backyard", one word.
+
+107 "An <e1>office</e1> that contains <e2>plants</e2> suggests you're trying to create an agreeable environment for yourself and others."
+WordNet(e1) = "office%1:06:00::", WordNet(e2) = "plant%1:03:00::", Content-Container(e2, e1) = "true", Query = "office that contains"
+
+108 "The <e1>bowl</e1> contained <e2>apples</e2>, pears, and oranges."
+WordNet(e1) = "bowl%1:06:00::", WordNet(e2) = "apple%1:13:00::", Content-Container(e2, e1) = "true", Query = "the * contained apples"
+
+109 "<e1>Picric acid</e1> is kept in an <e2>aqueous solution</e2>, which makes it suitable and safe to handle."
+WordNet(e1) = "picric_acid%1:27:00::", WordNet(e2) = "aqueous_solution%1:27:00::", Content-Container(e1, e2) = "false", Query = "acid is kept in"
+Comment: Located-Location. The sentence and world knowledge entail that hereacid and solution don't mix.
+
+110 "Close all <e1>doors</e1> inside the <e2>house</e2> to slow down fire spread from room to room."
+WordNet(e1) = "door%1:06:01::", WordNet(e2) = "house%1:06:01::", Content-Container(e1, e2) = "false", Query = "inside the house"
+Comment: Part-Whole.
+
+111 "We actually put <e1>tea</e1> in the <e2>food</e2> whenever possible."
+WordNet(e1) = "tea%1:13:00::", WordNet(e2) = "food%1:13:00::", Content-Container(e1, e2) = "false", Query = "put tea in the"
+Comment: this cannot be Part-Whole (tea might be part, but food can only be whole after the putting has occurred -- something not entailed by the sentence). It is also not quite Located-Location: putting is not a fact but a possibility. Such temporal uncertainties are tough to interpret.
+
+112 "Now, I have a plastic <e1>bottle</e1> that contains <e2>alcohol</e2> in which I put my artificial eyelashes at night when I take them off, to clean them and keep them safe."
+WordNet(e1) = "bottle%1:06:00::", WordNet(e2) = "alcohol%1:27:00::", Content-Container(e2, e1) = "true", Query = "bottle that contains"
+
+113 "After the cashier put the <e1>cash</e1> in a <e2>bag</e2>, the robber saw a bottle of scotch that he wanted behind the counter on the shelf."
+WordNet(e1) = "cash%1:21:00::", WordNet(e2) = "bag%1:06:00::", Content-Container(e1, e2) = "true", Query = "the * in a bag"
+
+114 "The conventional way to grow bacteria is to inoculate a <e1>flask</e1> that contains a <e2>broth</e2> of nutrients."
+WordNet(e1) = "flask%1:06:00::", WordNet(e2) = "?", Content-Container(e2, e1) = "true", Query = "a flask that contains"
+Comment: neither WordNet sense makes sense. Choose your poison.
+
+115 "Suppose you were given a <e1>bottle</e1> that contains 400 grams of a 3.0% <e2>bleach solution</e2>."
+WordNet(e1) = "bottle%1:06:00::", WordNet(e2) = "solution%1:27:00::", Content-Container(e2, e1) = "true", Query = "bottle that contains"
+
+116 "The contents of the <e1>questionnaire</e1> included the <e2>gender</e2> and age of the patient, his/her knowledge of the procedure undertaken and the person obtaining consent."
+WordNet(e1) = "questionnaire%1:10:00::", WordNet(e2) = "gender%1:07:00::", Content-Container(e2, e1) = "false", Query = "contents of the * included"
+Comment: Whole-Part.
+
+117 "Like many recipes for stuffing, the original <e1>recipe</e1> contained <e2>apples</e2>, but as apples are a higher carb fruit, I have substituted cranberries which have the dual effect of making the stuffing lower carb than the regular recipe and also adding a little extra seasonal color and flavor."
+WordNet(e1) = "recipe%1:10:00::", WordNet(e2) = "apple%1:13:00::", Content-Container(e2, e1) = "false", Query = "the * contained apples"
+Comment: apples (direction to use them) are part of a recipe (direction to make something). So, Whole-Part.
+
+118 "I explained that I was a teacher and that the <e1>boxes</e1> contained <e2>books</e2> I was bringing for the students to improve their English."
+WordNet(e1) = "box%1:06:00::", WordNet(e2) = "book%1:06:00::", Content-Container(e2, e1) = "true", Query = "the * contained books"
+
+119 "The <e1>information</e1> on the recorded talks is kept in the <e2>database</e2>."
+WordNet(e1) = "information%1:14:00::", WordNet(e2) = "database%1:10:00::", Content-Container(e1, e2) = "true", Query = "the * is kept in the"
+Comment: removing some information preserves the nature of the database.
+
+120 "A new <e1>composter</e1> is now available from East Sussex County Council which can be kept in the <e2>kitchen</e2> and will take all organic waste."
+WordNet(e1) = "?", WordNet(e2) = "kitchen%1:06:00::", Content-Container(e1, e2) = "true", Query = "kept in the kitchen"
+Comment: Located-Location would be preferred, but this artefact can be removed from the kitchen with impunity. Note: no WordNet sense.
+
+121 "To repair, use duct tape or caulk to seal <e1>gaps</e1> in the <e2>metal box</e2> and between joints and seams in the duct."
+WordNet(e1) = "gap%1:17:00::", WordNet(e2) = "box%1:06:00::", Content-Container(e1, e2) = "false", Query = "in the metal box"
+Comment: Part-Whole, if a gap can be a part (compare with holes in objects).
+
+122 "The <e1>kitchen</e1> contains basic items such as <e2>salt</e2>, pepper and olive oil."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "salt%1:13:00::", Content-Container(e2, e1) = "false", Query = "kitchen contains * such as"
+Comment: Location-Located.
+
+123 "In particular, we work on devices that take the <e1>signal</e1> that is carried in a <e2>beam</e2> of light going through an optical fiber and transfer that signal to another beam of light going through the same fiber."
+WordNet(e1) = "signal%1:19:00::", WordNet(e2) = "beam%1:19:00::", Content-Container(e1, e2) = "true", Query = "carried in a"
+Comment: compare with information/wave. A beam is limited in space (long but narow).
+
+124 "The <e1>building</e1> contained a large <e2>open central space</e2> with tables and chairs as well as a nursery and two tearooms."
+WordNet(e1) = "building%1:06:00::", WordNet(e2) = "space%1:25:00::", Content-Container(e2, e1) = "false", Query = "the building contained"
+Comment: Whole-Part.
+
+125 "The <e1>bag</e1> contained <e2>books</e2>, a cell phone and notepads, but no explosives."
+WordNet(e1) = "bag%1:06:00::", WordNet(e2) = "book%1:06:00::", Content-Container(e2, e1) = "true", Query = "the * contained books"
+
+126 "The <e1>kitchen</e1> contained a large <e2>stove</e2>, a sink, a small table with chairs, and an old sofa that had seen many children and grandchildren tear at its skin."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "stove%1:06:01::", Content-Container(e2, e1) = "true", Query = "the kitchen contained"
+Comment: we assume that the stove can be removed (it is only plugged in).
+
+127 "I find it hard to bend and reach and I cannot use the <e1>cupboards</e1> in my <e2>kitchen</e2>."
+WordNet(e1) = "cupboard%1:06:00::", WordNet(e2) = "kitchen%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * in my kitchen"
+Comment: Located-Location or, better, Part-Whole.
+
+128 "So I was looking at the <e1>ceiling</e1> in my <e2>kitchen</e2> yelling at God."
+WordNet(e1) = "ceiling%1:06:00::", WordNet(e2) = "kitchen%1:06:00::", Content-Container(e1, e2) = "false", Query = "the * in my kitchen"
+Comment: Part-Whole.
+
+129 "I'm looking at one right now and he appears to be very content, despite the fact that he's trying to sleep in a <e1>kitchen</e1> that contains a noisy <e2>boiler</e2>."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "boiler%1:06:00::", Content-Container(e2, e1) = "true", Query = "a kitchen that contains a"
+
+130 "There was a persistent rumor that the contents of the <e1>cornerstone</e1> included a <e2>liquor bottle</e2> that would have had 49 years to age."
+WordNet(e1) = "cornerstone%1:06:01::", WordNet(e2) = "bottle%1:06:00::", Content-Container(e2, e1) = "true", Query = "contents of the * included"
+Comment: normally a stone cannot have contents; assume a hollowed-out stone.
+
+131 "Conference center has at least one dedicated main conference <e1>room</e1> that contains a minimum of 1,000 <e2>square feet</e2> and can accommodate flexible seating arrangements."
+WordNet(e1) = "room%1:26:00::", WordNet(e2) = "square_foot%1:23:00::", Content-Container(e2, e1) = "false", Query = "room that contains"
+Comment: Measure-Measured.
+
+132 "The <e1>acid</e1> is kept in a level-controlled <e2>tank</e2> (with a controller and an alarm. in the event of low acid level)."
+WordNet(e1) = "acid%1:27:00::", WordNet(e2) = "tank%1:06:00::", Content-Container(e1, e2) = "true", Query = "acid is kept in"
+
+133 "To test this, we placed a kitchen <e1>match</e1> in the <e2>jar</e2> instead of the candle, lit the match, screwed on the lid and dropped the jar."
+WordNet(e1) = "match%1:06:02::", WordNet(e2) = "jar%1:06:00::", Content-Container(e1, e2) = "true", Query = "in the jar"
+Comment: could be Located-Location, too.
+
+134 "The <e1>building</e1> contained <e2>laboratory facilities</e2> for conducting spectrochemical, chemical, and mass spectrometric analyses."
+WordNet(e1) = "building%1:06:00::", WordNet(e2) = "facility%1:04:01::", Content-Container(e2, e1) = "false", Query = "the building contained"
+Comment: Whole-Part.
+
+135 "On the other hand, the <e1>information</e1> being carried in a high frequency quasi-sinusoidal <e2>wave</e2> invites comparisons with the auditory system of vertebrates."
+WordNet(e1) = "information%1:10:00::", WordNet(e2) = "wave%1:11:00::", Content-Container(e1, e2) = "true", Query = "carried in a"
+Comment: another example of metonymy (waves carry a physical representation of information). A wave is delimited in space, too, even if long (-:).
+
+136 "This is why, not only the contents of the <e1>box</e1> were a <e2>present</e2>, but the box itself was as a present."
+WordNet(e1) = "box%1:06:00::", WordNet(e2) = "present%1:21:00::", Content-Container(e2, e1) = "true", Query = "contents of the * were a"
+Comment: slightly iffy.
+
+137 "Until 1729 the <e1>building</e1> contained only the <e2>grammar school</e2>."
+WordNet(e1) = "building%1:06:00::", WordNet(e2) = "grammar_school%1:14:00::", Content-Container(e2, e1) = "false", Query = "the building contained"
+Comment: Located-Location.
+
+138 "Maybe some <e1>relationships</e1> are best kept in a <e2>box</e2>."
+WordNet(e1) = "relationship%1:26:00::", WordNet(e2) = "box%1:06:00::", Content-Container(e1, e2) = "false", Query = "kept in a box"
+Comment: the sense of e1 might as well be any of the other three. The example is metaphorical: not Content-Container.
+
+139 "Some inactivated influenza vaccine contains thimerosal, a <e1>preservative</e1> that contains <e2>mercury</e2>."
+WordNet(e1) = "preservative%1:27:00::", WordNet(e2) = "mercury%1:27:00::", Content-Container(e2, e1) = "false", Query = "a * that contains"
+Comment: Object-Stuff, a subcategory of Whole-Part.
+
+140 "The <e1>kitchen</e1> contains various commercial equipment such as <e2>stoves</e2>, griddles, deep fryer, and an oven."
+WordNet(e1) = "kitchen%1:06:00::", WordNet(e2) = "stove%1:06:01::", Content-Container(e2, e1) = "true", Query = "kitchen contains * such as"
+Comment: this is a little unclear (in another example, flooring is part of a kitchen). A stove is not attached (only plugged in), and a kitchen without a stove is possible, so the definition holds.
+

@@ -1,0 +1,182 @@
+T83	Negative_regulation 46 56	repressing
+T84	Gene_expression 101 111	expression
+T85	Regulation 116 124	affected
+T86	Regulation 266 275	affecting
+T87	Transcription 281 294	transcription
+T88	Binding 310 321	interaction
+T89	Regulation 346 352	effect
+T90	Gene_expression 368 378	expression
+T91	Gene_expression 396 406	expression
+T92	Gene_expression 635 644	expressed
+T93	Gene_expression 716 725	expressed
+T94	Gene_expression 793 803	expression
+T95	Transcription 893 903	mRNA level
+T96	Gene_expression 954 964	expression
+T97	Positive_regulation 969 978	increased
+T98	Negative_regulation 1053 1056	act
+T99	Transcription 1737 1750	transcription
+T100	Gene_expression 1763 1773	expression
+T101	Negative_regulation 1778 1785	reduced
+T102	Gene_expression 1929 1944	over-expression
+T103	Regulation 2006 2013	control
+T104	Entity 2023 2031	promoter
+T105	Positive_regulation 2043 2052	induction
+T106	Positive_regulation 2243 2252	activates
+T107	Transcription 2257 2270	transcription
+T108	Positive_regulation 2303 2311	activate
+T109	Positive_regulation 2317 2326	dependent
+T110	Gene_expression 2333 2343	expression
+T111	Positive_regulation 2363 2372	activates
+T112	Positive_regulation 2380 2389	dependent
+T113	Gene_expression 2396 2406	expression
+T114	Positive_regulation 2519 2529	increasing
+T115	Gene_expression 2548 2558	expression
+T116	Gene_expression 2582 2592	expression
+T117	Positive_regulation 2649 2658	increased
+T118	Gene_expression 2659 2664	level
+T119	Negative_regulation 2695 2702	repress
+T120	Gene_expression 2774 2784	expression
+E1	Negative_regulation:T83 Theme:T2 Cause:T1
+E2	Gene_expression:T84 Theme:T3
+E3	Regulation:T85 Theme:E2 Cause:T4
+M1	Speculation E3
+E4	Regulation:T86 Theme:E5
+E5	Transcription:T87 Theme:T7
+E6	Binding:T88 Theme1:T5 Theme2:T8
+E7	Regulation:T89 Theme:E8 Cause:T9
+M2	Speculation E7
+E8	Gene_expression:T90 Theme:T10
+E9	Gene_expression:T91 Theme:T11
+E10	Gene_expression:T92 Theme:T17
+E11	Gene_expression:T93 Theme:T19
+E12	Gene_expression:T94 Theme:T20
+E13	Transcription:T95 Theme:T23
+E14	Gene_expression:T96 Theme:T24
+E15	Positive_regulation:T97 Theme:E14
+E16	Negative_regulation:T98 Theme:T27 Cause:T26
+E17	Transcription:T99 Theme:T46
+E18	Gene_expression:T100 Theme:T47
+E19	Negative_regulation:T101 Theme:E18
+E20	Gene_expression:T102 Theme:T55
+E21	Regulation:T103 Theme:T57 Site:T104
+E22	Positive_regulation:T105 Theme:T58 Cause:E21
+E23	Positive_regulation:T105 Theme:T59 Cause:E21
+E24	Positive_regulation:T106 Theme:E25 Cause:T62
+E25	Transcription:T107 Theme:T63
+E26	Positive_regulation:T108 Theme:E27 Cause:E24
+E27	Positive_regulation:T109 Theme:E28 Cause:T64
+E28	Gene_expression:T110 Theme:T65
+E29	Positive_regulation:T111 Theme:E30 Cause:E24
+E30	Positive_regulation:T112 Theme:E31 Cause:T68
+E31	Gene_expression:T113 Theme:T71
+E32	Positive_regulation:T114 Theme:E33
+E33	Gene_expression:T115 Theme:T75
+E34	Gene_expression:T116 Theme:T76
+E35	Positive_regulation:T117 Theme:E36
+E36	Gene_expression:T118 Theme:T79
+E37	Negative_regulation:T119 Theme:T82 Cause:E35
+E38	Gene_expression:T120 Theme:T82
+T1	Protein 0 3	Mlc
+T2	Protein 57 61	hilE
+T3	Protein 96 100	hilE
+T4	Protein 128 131	Mlc
+T5	Protein 168 172	HilE
+T6	Organism 233 243	Salmonella
+T7	Protein 276 280	hilA
+T8	Protein 327 331	HilD
+T9	Protein 356 359	Mlc
+T10	Protein 363 367	hilE
+T11	Regulon-operon 410 420	hilE-lacZY
+T12	Protein 410 414	hilE
+T13	Protein 415 419	lacZ
+T14	Protein 419 420	Y
+T15	Protein 472 476	hilE
+T16	Organism 621 634	SL1344-pMAB69
+T17	Protein 674 692	beta-galactosidase
+T18	Organism 702 715	SR1304-pMAB69
+T19	Protein 755 773	beta-galactosidase
+T20	Protein 788 792	hilE
+T21	Organism 811 821	mlc mutant
+T22	Protein 811 814	mlc
+T23	Protein 888 892	hilE
+T24	Protein 949 953	hilE
+T25	Organism 982 988	SR1304
+T26	Protein 1045 1048	Mlc
+T27	Protein 1084 1088	hilE
+T28	Protein 1102 1106	HilE
+T29	Protein 1152 1155	Mlc
+T30	Protein 1219 1223	hilE
+T31	Organism 1228 1243	hilE/mlc mutant
+T32	Protein 1228 1232	hilE
+T33	Protein 1233 1236	mlc
+T34	Organism 1255 1265	Salmonella
+T35	Protein 1343 1346	mlc
+T36	Protein 1398 1402	hilE
+T37	Organism 1438 1460	hilE/mlc double mutant
+T38	Protein 1438 1442	hilE
+T39	Protein 1443 1446	mlc
+T40	Organism 1518 1529	hilE mutant
+T41	Protein 1518 1522	hilE
+T42	Protein 1581 1584	mlc
+T43	Protein 1645 1649	HilE
+T44	Protein 1679 1683	hilE
+T45	Protein 1688 1691	Mlc
+T46	Protein 1732 1736	hilD
+T47	Protein 1758 1762	hilD
+T48	Organism 1793 1803	mlc mutant
+T49	Protein 1793 1796	mlc
+T50	Protein 1865 1869	hilE
+T51	Organism 1865 1869	hilE
+T52	Organism 1874 1889	hilE/mlc mutant
+T53	Protein 1874 1878	hilE
+T54	Protein 1879 1882	mlc
+T55	Protein 1948 1952	HilD
+T56	Protein 1986 1990	hilD
+T57	Regulon-operon 2019 2022	lac
+T58	Protein 2056 2060	hilA
+T59	Protein 2088 2092	invF
+T60	Protein 2132 2136	hilE
+T61	Protein 2140 2143	mlc
+T62	Protein 2238 2242	HilD
+T63	Protein 2274 2278	hilA
+T64	Protein 2312 2316	HilA
+T65	Regulon-operon 2327 2332	invFA
+T66	Protein 2327 2331	invF
+T67	Protein 2331 2332	A
+T68	Two-component-system 2373 2379	HilC/D
+T69	Protein 2373 2377	HilC
+T70	Protein 2378 2379	D
+T71	Regulon-operon 2390 2395	invFD
+T72	Protein 2390 2394	invF
+T73	Protein 2394 2395	D
+T74	Protein 2446 2449	mlc
+T75	Protein 2543 2547	hilE
+T76	Protein 2577 2581	hilD
+T77	Organism 2600 2610	mlc mutant
+T78	Protein 2600 2603	mlc
+T79	Protein 2668 2672	HilE
+T80	Organism 2680 2690	mlc mutant
+T81	Protein 2680 2683	mlc
+T82	Protein 2719 2723	HilD
+T124	Span 775 882	the level of hilE expression in the mlc mutant was almost 1.8-fold higher than that in the wild-type strain
+T125	Causality 1018 1044	These results suggest that
+E40	Causality:T125 Effect:T126 Evidence:T124
+T126	Span 1045 1088	Mlc can act as a negative regulator of hilE
+T127	Causality 1543 1562	which suggests that
+E41	Causality:T127 Evidence:T128 Effect:T129
+T128	Span 1425 1529	However, the hilE/mlc double mutant showed an almost similar invasion ability to that of the hilE mutant
+T129	Span 1563 1658	the effect of the mlc mutation on the invasive phenotype is mainly dependent upon HilE function
+T130	Fact 1925 2031	the over-expression of HilD from the plasmid pJB3 containing hilD gene under the control of a lac promoter
+T131	Causality 2032 2038	caused
+E42	Causality:T131 Cause:T130 Effect:T132
+T132	Fact 2039 2213	the induction of hilA by approximately2-fold and invF by approximately6-fold irrespective of hilE or mlc mutation when real-time PCR was used to compare the expression levels
+T133	Causality 2413 2441	these results establish that
+E43	Causality:T133 Effect:T135 Evidence:T134
+T134	Span 2232 2406	Since HilD activates the transcription of hilA (14), which in turn can activate HilA-dependent invFA expression (10), and directly activates HilC/D-dependent invFD expression
+T135	Span 2442 2558	the mlc mutation exerts a negative effect on SPI1 gene expression, mainly by increasing the level of hilE expression
+T136	Span 2560 2610	The low level of hilD expression in the mlc mutant
+T137	Causality 2611 2630	can be explained by
+E44	Causality:T137 Effect:T136 Evidence:T138
+T138	Span 2645 2784	the increased level of HilE in the mlc mutant can repress the activity of HilD, which is known to act as an activator of its own expression
+T121	Span 884 1004	The hilE mRNA level measured by real-time PCR also revealed that hilE expression was increased in SR1304 by about 2-fold
+E39	Causality:T125 Effect:T126 Evidence:T121

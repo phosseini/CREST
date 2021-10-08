@@ -1,0 +1,39 @@
+T1	Chemical 445 449	EDTA
+T2	Organism 466 479	P. aeruginosa
+T3	Chemical 505 509	Mg2+
+T4	Chemical 510 514	Ca2+
+T5	Chemical 557 560	LPS
+T6	Chemical 598 602	EDTA
+T7	Organism 996 1009	P. aeruginosa
+T8	Organism 1203 1216	P. aeruginosa
+T9	Chemical 1591 1595	EDTA
+T10	Chemical 1722 1738	Propidium iodide
+T11	Chemical 1740 1742	PI
+T12	Chemical 1792 1794	PI
+T13	Chemical 1845 1849	EDTA
+T14	Chemical 1903 1905	PI
+T15	Organism 2354 2365	Pseudomonas
+T16	Chemical 2473 2477	EDTA
+T17	Organism 2521 2534	P. aeruginosa
+T18	Chemical 2609 2614	syto9
+T19	Chemical 2652 2654	PI
+*	Equiv T10 T11
+T20	Binding 535 539	bind
+E1	Binding:T20 Theme1:T3 Theme2:T5
+E2	Binding:T20 Theme1:T4 Theme2:T5
+T21	Span 1591 1622	EDTA, the known cation chelator
+T22	Causality 1623 1629	caused
+E3	Causality:T22 Effect:T23 Evidence:T21
+T23	Span 1630 1720	comparable IM and OM perturbations as those observed in cells exposed to extracellular DNA
+T24	Span 1792 1849	PI staining was observed in cells exposed to DNA and EDTA
+T25	Causality 1851 1866	confirming that
+E4	Causality:T25 Effect:T26 Evidence:T24
+T26	Span 1867 1892	this treatment was lethal
+T27	Span 2354 2422	Pseudomonas specific semi-quantitative PCR (qPCR) was also performed
+T28	Causality 2423 2438	to confirm that
+E5	Causality:T28 Effect:T29 Evidence:T27
+T29	Span 2439 2534	the DNA released following DNA or EDTA treated cells was in fact genomic DNA from P. aeruginosa
+T30	Span 2545 2663	Buffer treated control cells showed intense green staining with syto9 (indicating viability) and a lack of PI staining
+T31	Causality 2665 2675	indicating
+E6	Causality:T31 Effect:T32 Evidence:T30
+T32	Span 2676 2710	no dead/dying cells or DNA release

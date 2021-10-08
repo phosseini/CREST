@@ -1,0 +1,20 @@
+Metabolism 
+While many specific virulence factors, which enable the microbes to overcome the various physical and biochemical barriers of the infected hosts, have been investigated in detail, little attention has been given to the metabolic requirements and substrate availability of bacteria in vivo.
+Both in insects and mammals, pathogens get access to host-specific nutrients, but also encounter substrate limitations such as low iron concentration.
+In this chapter, we focus on metabolic pathways of P. luminescens and Y. enterocolitica absent in E. coli, induced at low temperature, or already known to be virulence-associated.
+Degradative pathways P. luminescens and Y. enterocolitica share loci encoding several common degradation pathways that are absent in E. coli K-12, including the urease operon (ureABCEFGD), the genes involved in myo-inositol degradation, and the histidine degradation operon (hutHUCGI).
+These pathways might help the bacteria to gain access to sufficient amounts of substrates and thus to proliferate in the hemolymph of the insect larvae.
+We recently reported that the genes of the urease operon as well as a histidine ammonia lyase (ye3021/plu1240), which deaminates histidine to urocanic acid, are highly induced in Y. enterocolitica upon temperature decrease [67].
+Beside arginine (5.17 mumol/g), lysine (12.23 mumol/g), serine (6.77 mumol/g) and proline (6.40 mumol/g), histidine (5.04 mumol/g) is the most abundant free amino acids in the Hyalophora gloveri fat body [98].
+The synthesis of vitamin B12 that occurs only anaerobically is required for the degradation of 1,2-propanediol by the products of the pdu operon, as well as of ethanolamine by the eutABC-encoded enzymes.
+The cobalamine-dependent anaerobic growth of Salmonella typhimurium on both these substrates has been shown to be supported by the alternative electron acceptor tetrathionate whose respiration is facilitated by the tetrathionate reductase gene cluster ttr [99,100].
+Beside S. typhimurium, all these genetic determinants were found only in few other bacteria, namely the human pathogens Listeria monocytogenes, and Clostridium perfringens [101].
+Y. enterocolitica carries the genes encoding tetrathionate reductase (ttrABC) and the TCS TtrRS (YE1613-1617).
+The gene clusters for cobalamin synthesis and propanediol degradation are located on a 40-kb genomic island (ye2707-2750), but the eutABC operon is missing.
+Propanediol degradation by Y. enterocolitica might also be supported by YE4187 with a putative GlcG domain which is predicted to be involved in glycolate and propanediol utilization.
+The cobalamine synthesis genes and the eutABC operon, but not ttrC, ttrR, ttrS and the propanediol utilization gene cluster, are also present in the genome of P. luminescens, suggesting the degradation of phosphatidylethanolamine as additional energy source in the insect host [102].
+Further metabolic genes common to both pathogens are dctA responsible for transport of C4- dicarboxylates across the membrane, the UhpABC regulatory system controlling the hexose phosphate transport by UhpT, and the three Mg2+ transport systems CorA, MgtA and MgtB.
+The uhpABC operon as well as mgtC encoding the Mg2+ transport ATPase subunit have been found to be induced at low temperature in Y. enterocolitica [67], indicating a relevance for these metabolic genes for P. luminescens and Y. enterocolitica during insect infection.
+Another gene, gltP encoding a glutamate-aspartate symporter, is also up-regulated at low temperature in Y. enterocolitica, but lacks a counterpart in P. luminescens.
+Furthermore, both insecticidal bacteria produce a chitin-binding-like protein (Plu2352, YE3576), but chitinase-like proteins (Plu2235, Plu2458 and Plu2461) are without homologues in Y. enterocolitica.
+This fact correlates once more with the separate lifestyle of both bacteria, e.g. association with the host and persistence for Y. enterocolitica, and association and bioconversion of the insect in case of P. luminescens.

@@ -1,0 +1,28 @@
+Introduction 
+Many Gram-negative bacteria that colonize host animals use a type III secretion system (T3SS) to deliver effector proteins directly into host cells where their interaction with host proteins and membranes contribute to pathogenesis.
+Comprised of over 20 proteins, T3SS are complex structures with relation to the flagellar T3SS [1],[2] and include several central features; (i) inner and outer membrane ring structures, (ii) an extracellular needle structure with pore-forming proteins at the distal tip that engage a host cell membrane, (iii) an ATPase at the base of the apparatus with energetic and chaperone-effector recruitment roles, and (iv) a suite of chaperones to coordinate the assembly and function of the apparatus during infection.
+Secretion chaperones are proteins required for T3SS function with roles in apparatus assembly and effector delivery, but are not themselves subject to secretion [3].
+These chaperones often have common physical features such as low molecular weight (<15 kDa), an acidic isoelectric point and a predicted amphipathic helix at the carboxyl terminus.
+Current literature groups secretion chaperones into three classes based on their physical interactions with cargo [3],[4].
+Class I chaperones bind to translocated effector proteins at a chaperone binding domain (CBD) located in the amino terminus of the effector.
+Class I chaperones have a structural fold of five beta-strands and three alpha-helices, forming homodimers that bind to the CBD in a horseshoe-like structure.
+These chaperones have been further sub-classified based on their substrate repertoire and location with respect to the genes encoding the T3SS [3].
+Class II chaperones bind to translocon proteins that make up the secretion pore in the host target membrane and class III chaperones bind the extracellular filament proteins (or flagellin rod in the orthologous flagellar system) that polymerize into a helical structure following secretion from the bacterial cell.
+Secondary structure predictions suggest class III chaperones adopt an extended alpha helical structure, which was confirmed by the crystal structure of the CesA chaperone in enteropathogenic E. coli that binds the EspA filament protein [5].
+Much of the virulence potential of Salmonella enterica, a group of more than 2300 serotypes, is attributed to horizontally acquired genomic islands termed Salmonella Pathogenicity Islands (SPI).
+SPI-1 encodes a T3SS required for host cell invasion and SPI-2 encodes a second T3SS needed for intracellular survival and immune evasion [6],[7].
+To date, 13 effectors have been identified as substrates of the SPI-1 T3SS and 21 effectors for the SPI-2 T3SS, although the chaperones orchestrating the latter system have been elusive.
+Whereas 80% of the effectors of the SPI-1 system have defined chaperones, only two effector-chaperone interactions are known for the SPI-2 system.
+These include the effector-chaperone pair of SseF-SscB, and the chaperone SseA that binds translocon components SseD and SseB [8],[9],[10].
+Crystal structures have been determined for three chaperones that coordinate translocation of effectors through the SPI-1 T3SS (InvB [11], SicP [12] and SigE [13]).
+However no structures are available for the SPI-2 T3SS chaperones whose effector repertoire seems considerably larger than that of the SPI-1 system.
+In addition to maintaining a region of localized effector unfolding [12], T3SS chaperones have an emerging role as escorts that deliver their cargo to the cytoplasmic face of the inner membrane through physical interactions with an ATPase.
+These ATPases form a hexameric structure at the base of the T3SS [14] and are a conserved feature of both flagellar and non-flagellar type III systems to enhance secretion activity by promoting chaperone release and effector unfolding prior to secretion [15],[16],[17].
+A chaperone-ATPase interaction for the SPI-2 T3SS has not been described previously and so whether this system conforms to the emerging escort paradigm is not known.
+The regulation of the SPI-2 T3SS and its associated effector genes is coordinated by environmental cues signifying the intracellular environment [18].
+These cues activate a two-component signaling system encoded in the SPI-2 island comprising the SsrA sensor kinase and SsrB response regulator.
+In addition to activating all of the T3SS structural operons, transcriptional profiling has uncovered new genes in the SsrB regulon that are required for bacterial pathogenesis including a translocated effector, SseL [19],[20], and a gene of unknown function called srfN that is common to the Salmonella genus [21].
+Using a reverse genetics approach we identified an SsrB-regulated gene (STM2138) that we named srcA (SsrB-regulated chaperone A), whose gene product satisfied several a priori predictions relating to the physical properties associated with T3SS chaperones.
+We solved the crystal structure of SrcA and performed additional biochemical, proteomic and in vivo experiments that revealed SrcA to be a class I chaperone required for bacterial fitness in the host environment.
+Despite being genetically disconnected from SPI-2, SrcA is integrated functionally with this system by binding to the T3SS ATPase, SsaN, and providing chaperone activity towards two important effectors, SseL (STM2287) and PipB2 (STM2780), necessary for immune escape and cell-to-cell transmission.
+These data reveal structural and biochemical insight into a T3SS secretion chaperone required for intracellular pathogenesis of Salmonella.

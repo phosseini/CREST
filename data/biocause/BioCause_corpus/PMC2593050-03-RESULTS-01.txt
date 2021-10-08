@@ -1,0 +1,13 @@
+RESULTS 
+S. equi vicK Deletion Mutant
+The S. equi vicRK genes were found by blasting the S. equi genome database (http://www.sanger.ac.uk/Projects/S_equi ) with the S. pyogenes vicRK sequence.
+Gene replacement strategy was used to generate vicK-deletion mutant (Fig. 1A).
+The vector pGRV has two genes aad and cmR for selections with spectinomycin and chloramphenicol, respectively.
+The two upstream and downstream flanking fragments of the internal vicK fragment from Tyr151 to Ser427 to be deleted were cloned at the upstream and downstream ends of the aad gene, respectively, resulting in suicide plasmid pGRV-DeltavicK.
+Single crossover between one flanking fragment in pGRV-DeltavicK and the homologous region in the genome would lead to the insertion of the whole plasmid into S. equi genome, resulting in strains resistant to both spectinomycin and chloramphenicol.
+Double crossoverat both of the flanking fragments would lead to the replacement of the vicK internal fragment with the aad gene, resulting in vicK deletion strains with resistance only to spectinomycin.
+The colonies on spectinomycin agar plates were tested for resistance to chloramphenicol.
+Three putative DeltavicK strains, which were spectinomycin-resistant and chloramphenicol-sensitive, were obtained.
+PCR analyses using the primers located beyond the deleted fragment resulted in the PCR product from these strains that were expectedly bigger than that from the wild-type strain because the replacing fragment was bigger than the displaced vicK fragment (Fig. 1B).
+DNA sequencing confirmed the desired deletion.
+One deletion strain was randomly chosen for further characterization.

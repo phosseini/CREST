@@ -1,0 +1,20 @@
+Characterization of the cheB2 Mutant 
+We chose to further characterize the TB0173s mutant (cheB2), as this isolate was affected in all phenotypes tested and thus exhibited a general motility and virulence defect (Table 1).
+To ensure that the cheB2 gene in the TB strain is located in a cluster similar to the che2 cluster described for the PAO1 or PA14 strains, we further analyzed the corresponding TB chromosomal region.
+A series of 8 PCR reactions were performed using oligonucleotides based on the nucleotide sequence obtained from the PA14 genome sequence (Table S1).
+The 8 PCR products were meant to cover the totality of the che2 cluster (Figure 1 and Figure S2) starting from the mcpA gene to the PA0171 gene located downstream cheB2 (PA0173).
+The reactions were performed simultaneously using PA14 or TB genomic DNA as matrix.
+Each paired reaction set (TB/PA14) resulted in products running at the same migratory rate within the 1.5% agarose gel (data not shown).
+These results show that there is little difference between the two isolates, TB and PA14, with regards the overall organization of the che2 chromosomal region.
+To validate that the loss of virulence and other phenotypic changes observed with the TB strain were a result of the transposon disruption of the cheB2 gene, we generated a new mutant by interrupting the cheB2 gene (see Materials and Methods).
+As shown in Figure 3A, the newly engineered cheB2 mutant, called TB0173i (p<0.005), showed a delayed C. elegans killing comparable to the original STM cheB2 mutant TB0173s (p<0.004).
+Both cheB2 mutants, TB0173s and TB0173i, required at least one additional day, as compared to TB, to kill 50% of exposed nematodes.
+In addition, we engineered a similar cheB2 mutation in the P. aeruginosa PA14 strain, yielding PA140173i (see Materials and Methods), and observed similar virulence attenuation on C. elegans (Figure S3).
+This further confirmed the virulence phenotype of a cheB2 mutant and indicated that it is not a TB strain-specific trait.
+Finally, a complementation assay was performed.
+We reintroduced, in the cheB2 mutant, the wild-type cheB2 gene using an integration-proficient vector, mini-CTX1 [47].
+This vector contains the phiCTX attachment site allowing integration of exogenous DNA fragments at the attB site within the genome of P. aeruginosa.
+The cheB2 gene was cloned into the mini-CTX1, yielding CTXp2B2 (see Materials and Methods).
+This construct was introduced into the cheB2 mutant, TB0173s, generating the TB0173sp2B2 strain.
+The empty vector, mini-CTX1, was also introduced into the TB0173s cheB2 mutant, generating TB0173sCTX.
+As shown in Figure 3B the virulence was restored in the complemented cheB2 mutant TB0173sp2B2 (p<0.009), whereas the cheB2 mutant strain TB0173sCTX (p<0.005) remained fully attenuated.

@@ -1,0 +1,18 @@
+Introduction 
+Facultative intracellular bacteria such as Brucella must survive in varied and changing conditions ranging from the open environment to the intracellular medium.
+For this, the bacterium must coordinate an intricate network of factors to generate a suitable adaptive response to the various signals.
+This attribute is often accomplished by two-component transduction systems, consisting of a sensor kinase and a response regulator.
+These regulatory systems are highly conserved among bacteria and widely used for controlling gene expression in response to environmental signals.
+In response to stimuli, the sensor kinase autophosphorylates, then transfers its phosphate to its cognate response regulator to control the transcription of target genes [1].
+Up to now, BvrR/BvrS is the best characterized two-component regulatory system of Brucella [2]-[4].
+BvrS is a membrane-bound homodimeric protein that has three conserved regions frequently found in members of the histidine protein kinase superfamily: an amino-terminal periplasmic sensing domain with transmembrane segments, a cytoplasmic dimerisation domain with a specific His residue, and the carboxy-terminal ATP-binding kinase domain [5].
+BvrR is a cytoplasmic protein that shows significant similarity to OmpR/PhoB subfamily of response regulator proteins with a specific Asp residue located within a conserved regulatory domain and an effector domain with DNA-binding activity [5].
+Although genome sequencing has revealed 21 putative two-component regulatory systems in the Brucella genus, the best characterized one implicated in virulence is the BvrR/BvrS system.
+BvrR/bvrS mutants are avirulent in mice, have increased susceptibility to killing by nonimmune serum, show reduced invasiveness to epithelial cells and macrophages, and are incapable of inhibiting lysosome fusion and of intracellular replication [4].
+As demonstrated for other two-component systems, multiple genes are expected to be under the control of BvrR/BvrS [1].
+B. abortus mutants in this system were more susceptible to bactericidal polycationic substances like polymyxin B, melittin or poly-L-lysine, and displayed a more hydrophobic outer membrane surface than the parental strain [4].
+This evidence suggests an altered outer membrane structure.
+Later studies demonstrated that the BvrR/BvrS system regulates transcription of at least two major outer membrane proteins, Omp22 (Omp3b) and Omp25a (Omp3a).
+Changes in non-protein envelope molecules such as lipid A underacylation and increased LPS acyl-chain fluidity have been also found in these mutants [3].
+To further understand the role of the BvrR/BvrS two-component signal transduction system, global gene expression profiles were analyzed by using ORFeome-based Brucella whole-genome DNA microarrays and confirmed by reverse transcription-PCR (RT-PCR).
+Our results link the regulation of carbon and nitrogen metabolism to the expression of cell envelope components and suggest the existence of a complex regulatory network with the interplay of several transcriptional regulators.

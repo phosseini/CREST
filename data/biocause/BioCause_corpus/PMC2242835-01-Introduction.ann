@@ -1,0 +1,64 @@
+*	Equiv T6 T7
+*	Equiv T10 T11
+*	Equiv T15 T16
+T35	Process 579 585	infect
+T36	Process 838 846	virulent
+T37	Process 1231 1240	avirulent
+T38	Process 1622 1630	virulent
+T39	Process 1728 1738	attenuated
+T40	Process 1743 1751	virulent
+T41	Process 2171 2182	attenuation
+T42	Process 2459 2467	infected
+T43	Process 2588 2597	virulence
+E1	Process:T35 Participant:T5
+E2	Process:T36 Participant:T8
+E3	Process:T37 
+M1	Negation E3
+E4	Process:T38 Participant:T15
+E5	Process:T39 Participant:T14
+E6	Process:T40 Participant:T15
+E7	Process:T41 Participant:T18
+E8	Process:T42 Participant:T23
+E9	Process:T43 
+T1	Organism 57 62	human
+T2	Organism 72 98	Mycobacterium tuberculosis
+T3	Organism 340 345	human
+T4	Organism 387 402	M. tuberculosis
+T5	Organism 560 575	M. tuberculosis
+T6	Organism 756 785	Bacille de Calmette et Guerin
+T7	Organism 788 791	BCG
+T8	Organism 847 866	Mycobacterium bovis
+T9	Organism 952 955	BCG
+T10	Organism 1200 1221	M. tuberculosis H37Ra
+T11	Organism 1243 1248	H37Ra
+T12	Organism 1305 1312	patient
+T13	Organism 1321 1340	M. tuberculosis H37
+T14	Organism 1543 1548	H37Ra
+T15	Organism 1591 1612	M. tuberculosis H37Rv
+T16	Organism 1633 1638	H37Rv
+T17	Organism 1764 1783	M. tuberculosis H37
+T18	Organism 2186 2191	H37Ra
+T19	Organism 2269 2274	H37Rv
+T20	Organism 2280 2285	H37Ra
+T21	Organism 2357 2362	mouse
+T22	Organism 2468 2472	mice
+T23	Organism 2503 2508	H37Ra
+T24	Organism 2722 2727	H37Ra
+T25	Organism 3177 3182	H37Ra
+T26	Chemical 3326 3332	PA-824
+T27	Organism 3365 3370	H37Rv
+T28	Organism 3509 3514	H37Ra
+T29	Two-component-system 3710 3719	phoP/phoR
+T30	Protein 3710 3714	phoP
+T31	Protein 3715 3719	phoR
+T32	Organism 3755 3760	H37Ra
+T33	Protein 3886 3892	ESAT-6
+T34	Protein 3897 3903	CFP-10
+T44	Causality 3636 3685	This strategy led us to identify and characterize
+E10	Causality:T44 Effect:T48 Evidence:T46
+T45	Span 3393 3634	his approach was combined with gene "knock-in" strategies, to complement selected lesions, that allowed recombinant H37Ra strains to be engineered, whose virulence and immunogenicity were then evaluated in in vitro, ex vivo and animal models
+T46	Span 3070 3220	As all these previous attempts have failed to identify the genetic basis for the attenuation, we subjected H37Ra to microarray-based DNA re-sequencing
+T47	Span 3242 3385	This technique has previously permitted single nucleotide polymorphisms (SNPs) of a PA-824 drug resistant mutant strain of H37Rv to be detected
+T48	Span 3686 3903	a point mutation in the phoP/phoR two-component regulatory system of H37Ra that has uncovered novel regulatory links, which impact on the secretion and T cell recognition of the major T cell antigens ESAT-6 and CFP-10
+E11	Causality:T44 Effect:T48 Evidence:T47
+E12	Causality:T44 Effect:T48 Evidence:T45

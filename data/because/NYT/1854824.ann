@@ -1,0 +1,83 @@
+T1	NonCausal 633 635	If
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Hypothetical E1
+T2	Argument 636 673	Mr. Romney was feeling the man's pain
+T3	Argument 675 705	he was  not inclined to say so
+T5	Motivation 1016 1019	for
+E2	Motivation:T5 Effect:T6 Cause:T7
+A2	Degree E2 Facilitate
+T6	Argument 962 1014	He attacks Senator Harry Reid, the Democratic leader
+T7	Argument 1020 1048	saying the war was ``lost.''
+T8	NonCausal 1050 1055	After
+E3	NonCausal:T8 Arg0:T9 Arg1:T10
+A3	Temporal E3
+T9	Argument 1056 1069	eight minutes
+T10	Argument 1071 1133	Mr. Romney concluded, ``Thanks, great question,'' and moved on
+T12	Consequence 3629 3631	as
+E4	Consequence:T12 Cause:T13 Effect:T14
+A4	Degree E4 Facilitate
+T13	Argument 3632 3663	Mr. Romney becomes better known
+A5	Temporal E4
+A6	Correlation E4
+T14	Argument 3665 3719	he will become more accessible, and likable, to voters
+T15	Purpose 5670 5672	to
+E5	Purpose:T15 Cause:T16 Effect:T17
+A7	Degree E5 Facilitate
+T16	Argument 5673 5729	highlight the candidate's so-called flip-flops on issues
+T17	Argument 5592 5669	who keep showing up at Mr. Romney's events dressed as a dolphin named Flipper
+T18	Purpose 5844 5846	to
+E6	Purpose:T18 Cause:T19 Effect:T20
+A8	Degree E6 Facilitate
+T19	Argument 5847 5892	appeal to Spanish-speaking voters or dolphins
+T20	Argument 5798 5831	One held a ``Señor Flipper'' sign
+T21	Consequence 5937 5945	creating
+E7	Consequence:T21 Cause:T22 Effect:T23
+A9	Degree E7 Facilitate
+A10	Creation-termination E7
+T22	Argument 5914 5921	Flipper
+T23	Argument 5946 5959	a disturbance
+T24	NonCausal 6022 6028	during
+E8	NonCausal:T24 Arg0:T25 Arg1:T26
+A11	Temporal E8
+T25	Argument 6029 6039	his speech
+T26	Argument 5914 5921;5964 6021	Flipper was ushered out of the hall by Mr. Romney's staff members
+T27	NonCausal 6279 6281	As
+E9	NonCausal:T27 Arg0:T28 Arg1:T29
+A12	Temporal E9
+T28	Argument 6282 6324	Mr. Lauer walked on stage to loud applause
+T29	Argument 6326 6474	Mr. Romney mentioned that he recently came across a magazine promoting Mr. Lauer as having ``the best bod in a bathing suit'' among morning TV hosts
+T30	NonCausal 6649 6655	Before
+E10	NonCausal:T30 Arg1:T31 Arg0:T32
+A13	Temporal E10
+T31	Argument 6656 6663	leaving
+T32	Argument 6665 6773	Mr. Romney reasserted his ``enormous faith in the American people,'' in keeping with his determined optimism
+T33	NonCausal 7163 7169	during
+E11	NonCausal:T33 Arg0:T34 Arg1:T35
+A14	Temporal E11
+T34	Argument 7170 7186	heavy turbulence
+T35	Argument 7091 7162	whose deep, cockpit-ready voice would reassure any cabin full of fliers
+T36	Motivation 8043 8047	into
+E12	Motivation:T36 Cause:T37 Effect:T38
+A15	Degree E12 Facilitate
+T37	Argument 8001 8042	American generals had ``brainwashed'' him
+T38	Argument 8048 8077	supporting the war in Vietnam
+T41	Argument 716 744	he gave the requisite thanks
+T4	Argument 749 766	the son's service
+T42	Motivation 745 748	for
+E13	Motivation:T42 Cause:T4 Effect:T41
+A16	Degree E13 Facilitate
+T11	NonCausal 1977 1979	at
+E14	NonCausal:T11 Arg0:T43 Arg1:T44
+A17	Temporal E14
+T43	Argument 1980 1985	times
+T44	Argument 1964 1976;1986 2154	He struggles to convey a sense that he is an accessible mortal -- that he can be spontaneous, that he bears scars and can appreciate at gut-level the struggles of ordinary Americans
+T39	Argument 7261 7308	seeing a Boston television reporter, Jon Keller
+T45	Argument 7189 7255	``Isn't it a beautiful day?'' Mr. Romney marveled in New Hampshire
+T46	NonCausal 7256 7260	upon
+E15	NonCausal:T46 Arg0:T39 Arg1:T45
+A18	Temporal E15
+T40	NonCausal 8468 8475	anytime
+E16	NonCausal:T40 Arg0:T47 Arg1:T48
+T47	Argument 8476 8530	you're running for the presidency of the United States
+T48	Argument 8532 8541	you're on
+A19	Correlation E16

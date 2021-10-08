@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>SJMN91-06338157</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1991-12-03" temporalFunction="false" functionInDocument="CREATION_TIME">1991-12-03</TIMEX3></DCT>
+<TEXT>
+ One of President Bush's sons has <EVENT eid="e1" class="REPORTING">informed</EVENT> White House Chief of Staff John Sununu that he has <EVENT eid="e2" class="OCCURRENCE">lost</EVENT> much of his support among Republicans, <EVENT eid="e3" class="OCCURRENCE">prompting</EVENT> an intense effort by Sununu to <EVENT eid="e4" class="STATE">hold</EVENT> on to his job by <EVENT eid="e5" class="OCCURRENCE">demonstrating</EVENT> his GOP backing, White House and Republican sources <EVENT eid="e6" class="REPORTING">said</EVENT> <TIMEX3 tid="t7" type="DATE" value="1991-12-02" anchorTimeID="t0" functionInDocument="NONE">Monday</TIMEX3>.
+ Sununu was <EVENT eid="e8" class="REPORTING">told</EVENT> <TIMEX3 tid="t9" type="DATE" value="1991-11-27" anchorTimeID="t0" functionInDocument="NONE">Wednesday</TIMEX3> by Bush's son, George, that he had <EVENT eid="e10" class="OCCURRENCE">alienated</EVENT> members of the Cabinet, the White House staff and the Republican political community, <EVENT eid="e11" class="OCCURRENCE">creating</EVENT> a situation that puts his effectiveness in significant doubt, the sources <EVENT eid="e12" class="REPORTING">said</EVENT>.
+ The message to the chief of staff was meant to be taken as a suggestion that Sununu offer to resign, one highly placed source <EVENT eid="e13" class="REPORTING">said</EVENT>.
+ Instead, Sununu <EVENT eid="e14" class="I_ACTION">sought</EVENT> to <EVENT eid="e15" class="OCCURRENCE">prove</EVENT> to the president that his supporters <EVENT eid="e16" class="OCCURRENCE">outnumber</EVENT> his critics and that he should <EVENT eid="e17" class="STATE">remain</EVENT> in his post.
+ One senior official <TIMEX3 tid="t18" type="DATE" value="1991-12-02" anchorTimeID="t0" functionInDocument="NONE">Monday</TIMEX3> <EVENT eid="e19" class="REPORTING">described</EVENT> the White House as " a collection of small groups of aides <EVENT eid="e20" class="STATE">holding</EVENT> their breaths, " <EVENT eid="e21" class="I_STATE">waiting</EVENT> to <EVENT eid="e22" class="PERCEPTION">see</EVENT> whether Sununu <EVENT eid="e23" class="OCCURRENCE">survives</EVENT>.
+ One GOP source, <EVENT eid="e24" class="OCCURRENCE">reporting</EVENT> on a <EVENT eid="e25" class="OCCURRENCE">call</EVENT> from the chief of staff to a Republican leader, <EVENT eid="e26" class="REPORTING">said</EVENT> Sununu <EVENT eid="e27" class="OCCURRENCE">lamented</EVENT> that " the noose is <EVENT eid="e28" class="OCCURRENCE">tightening</EVENT> around my neck, and I <EVENT eid="e29" class="I_STATE">need</EVENT> your <EVENT eid="e30" class="OCCURRENCE">help</EVENT>. "
+;
+ Another highly placed source <EVENT eid="e31" class="REPORTING">said</EVENT> the president's son <EVENT eid="e32" class="OCCURRENCE">met</EVENT> with Sununu <TIMEX3 tid="t33" type="DATE" value="1991-W48" anchorTimeID="t0" functionInDocument="NONE">last week</TIMEX3> after <EVENT eid="e34" class="OCCURRENCE">holding</EVENT> a series of <EVENT eid="e35" class="OCCURRENCE">conversations</EVENT> about the structure of the White House staff and of the campaign with other Bush loyalists and GOP activists.
+ The source <EVENT eid="e36" class="REPORTING">said</EVENT> the younger Bush " <EVENT eid="e37" class="OCCURRENCE">sketched</EVENT> out for Sununu " problems the president is <EVENT eid="e38" class="OCCURRENCE">encountering</EVENT> <C-SIGNAL cid="c39">because of</C-SIGNAL> the chief of staff's <EVENT eid="e40" class="STATE">tenure</EVENT>.
+ " He was <EVENT eid="e41" class="REPORTING">told</EVENT> ... the handwriting was <EVENT eid="e42" class="STATE">on</EVENT> the wall, " the source <EVENT eid="e43" class="REPORTING">said</EVENT> <TIMEX3 tid="t44" type="DATE" value="1991-12-02" anchorTimeID="t0" functionInDocument="NONE">Monday</TIMEX3>.
+ That, the source <EVENT eid="e45" class="REPORTING">said</EVENT>, was when Sununu <EVENT eid="e46" class="ASPECTUAL">started</EVENT> <EVENT eid="e47" class="OCCURRENCE">calling</EVENT> congressional Republicans and <EVENT eid="e48" class="I_ACTION">asking</EVENT> them to <EVENT eid="e49" class="REPORTING">tell</EVENT> Bush that the conservative wing of the party, in particular, would <EVENT eid="e50" class="OCCURRENCE">object</EVENT> if he were <EVENT eid="e51" class="OCCURRENCE">fired</EVENT>.
+ Officials <EVENT eid="e52" class="REPORTING">said</EVENT> the president himself <EVENT eid="e53" class="OCCURRENCE">met</EVENT> with Sununu <TIMEX3 tid="t54" type="DATE" value="1991-12-01" anchorTimeID="t0" functionInDocument="NONE">Sunday</TIMEX3>.
+ A source <EVENT eid="e55" class="REPORTING">said</EVENT> the outcome of that <EVENT eid="e56" class="OCCURRENCE">session</EVENT> was unclear.
+</TEXT>
+<MAKEINSTANCE eventID="e56" eiid="ei56" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e42" eiid="ei42" tense="PAST" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e49" eiid="ei49" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e52" eiid="ei52" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e53" eiid="ei53" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e46" eiid="ei46" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e47" eiid="ei47" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e45" eiid="ei45" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e40" eiid="ei40" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e41" eiid="ei41" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e51" eiid="ei51" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e38" eiid="ei38" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="NONE" aspect="NONE" polarity="POS" modality="should" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e37" eiid="ei37" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e55" eiid="ei55" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e48" eiid="ei48" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e50" eiid="ei50" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei1"/>
+<TLINK lid="l4" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei1"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei4"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t7"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei8" relatedToTime="t9"/>
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei8"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei11"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei12" relatedToTime="t7"/>
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t7"/>
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei14" relatedToTime="t7"/>
+<TLINK lid="l13" relType="DURING" eventInstanceID="ei16" relatedToTime="t0"/>
+<TLINK lid="l14" relType="INCLUDES" timeID="t18" relatedToEventInstance="ei19"/>
+<TLINK lid="l15" relType="AFTER" eventInstanceID="ei24" relatedToEventInstance="ei25"/>
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei26" relatedToEventInstance="ei24"/>
+<TLINK lid="l17" relType="DURING" eventInstanceID="ei28" relatedToEventInstance="ei27"/>
+<TLINK lid="l18" relType="DURING" eventInstanceID="ei29" relatedToEventInstance="ei27"/>
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei31" relatedToTime="t7"/>
+<TLINK lid="l20" relType="IS_INCLUDED" eventInstanceID="ei32" relatedToTime="t33"/>
+<TLINK lid="l21" relType="AFTER" eventInstanceID="ei32" relatedToEventInstance="ei34"/>
+<TLINK lid="l22" relType="SIMULTANEOUS" eventInstanceID="ei35" relatedToEventInstance="ei34"/>
+<TLINK lid="l23" relType="SIMULTANEOUS" eventInstanceID="ei36" relatedToEventInstance="ei31"/>
+<TLINK lid="l24" relType="DURING" eventInstanceID="ei38" relatedToTime="t0"/>
+<TLINK lid="l26" relType="IS_INCLUDED" eventInstanceID="ei42" relatedToTime="t44"/>
+<TLINK lid="l27" relType="INCLUDES" timeID="t44" relatedToEventInstance="ei43"/>
+<TLINK lid="l28" relType="SIMULTANEOUS" eventInstanceID="ei45" relatedToEventInstance="ei31"/>
+<TLINK lid="l29" relType="IS_INCLUDED" eventInstanceID="ei47" relatedToTime="t44"/>
+<TLINK lid="l30" relType="BEFORE" eventInstanceID="ei51" relatedToEventInstance="ei50"/>
+<TLINK lid="l31" relType="SIMULTANEOUS" eventInstanceID="ei52" relatedToEventInstance="ei31"/>
+<TLINK lid="l32" relType="INCLUDES" timeID="t54" relatedToEventInstance="ei53"/>
+<TLINK lid="l33" relType="BEFORE" eventInstanceID="ei56" relatedToEventInstance="ei55"/>
+<CLINK lid="l3" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+<CLINK lid="l25" c-signalID="c39" eventInstanceID="ei40" relatedToEventInstance="ei37"/>
+</TimeML>

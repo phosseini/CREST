@@ -1,0 +1,78 @@
+T42	Positive_regulation 139 148	essential
+T43	Process 170 179	virulence
+T44	Gene_expression 862 871	expressed
+T45	Positive_regulation 1151 1163	up-regulated
+T46	Regulation 1242 1251	regulated
+T47	Regulation 1300 1308	affected
+T48	Gene_expression 1355 1364	expressed
+T49	Process 1474 1483	virulence
+E1	Positive_regulation:T42 Theme:E2 Cause:T5
+E2	Process:T43 Participant:T8
+E3	Gene_expression:T44 Theme:T18
+E4	Gene_expression:T44 Theme:T19
+E5	Positive_regulation:T45 Theme:T23
+E6	Positive_regulation:T45 Theme:T24
+E7	Regulation:T46 Theme:T27
+E8	Regulation:T46 Theme:T28
+E9	Regulation:T46 Theme:T29
+E10	Regulation:T47 Theme:T30
+E11	Regulation:T47 Theme:T31
+E12	Regulation:T47 Theme:T32
+E13	Gene_expression:T48 Theme:T30
+E14	Gene_expression:T48 Theme:T31
+E15	Gene_expression:T48 Theme:T32
+E16	Process:T49 Participant:T35
+T1	Organism 30 46	Brucella abortus
+T2	Two-component-system 47 56	BvrR/BvrS
+T3	Protein 47 51	BvrR
+T4	Protein 52 56	BvrS
+T5	Two-component-system 119 128	BvrR/BvrS
+T6	Protein 119 123	BvrR
+T7	Protein 124 128	BvrS
+T8	Organism 153 169	Brucella abortus
+T9	Chemical 305 312	lipid A
+T10	Two-component-system 360 369	BvrR/BvrS
+T11	Protein 360 364	BvrR
+T12	Protein 365 369	BvrS
+T13	Organism 425 435	B. abortus
+T14	Organism 468 479	bvrR mutant
+T15	Protein 468 472	bvrR
+T16	Organism 662 673	bvrR mutant
+T17	Protein 662 666	bvrR
+T18	Protein 908 914	omp25a
+T19	Protein 916 922	omp25d
+T20	Chemical 939 942	LPS
+T21	Chemical 947 957	fatty acid
+T22	Chemical 1099 1105	carbon
+T23	Protein 1118 1122	pckA
+T24	Protein 1127 1131	fumB
+T25	Organism 1171 1182	bvrR mutant
+T26	Protein 1171 1175	bvrR
+T27	Protein 1211 1215	nirK
+T28	Protein 1217 1221	norC
+T29	Protein 1226 1230	nosZ
+T30	Protein 1320 1324	VjbR
+T31	Protein 1326 1330	ExoR
+T32	Protein 1335 1339	OmpR
+T33	Organism 1372 1383	bvrR mutant
+T34	Protein 1372 1376	bvrR
+T35	Organism 1465 1473	Brucella
+T36	Two-component-system 1568 1577	BvrR/BvrS
+T37	Protein 1568 1572	BvrR
+T38	Protein 1573 1577	BvrS
+T39	Chemical 1645 1651	carbon
+T40	Chemical 1656 1664	nitrogen
+T41	Organism 1738 1746	Brucella
+T54	Causality 1681 1688	suggest
+E18	Causality:T54 Effect:T55 Evidence:T56
+T55	Span 1689 1857	a cross-talk among some regulators to adjust the Brucella physiology to the shift expected to occur during the transit from the extracellular to the intracellular niche
+T56	Span 1076 1251	Ten genes related with carbon metabolism (pckA and fumB among others) were up-regulated in the bvrR mutant, and denitrification genes (nirK, norC and nosZ) were also regulated
+T57	Span 1253 1383	Notably, seven transcriptional regulators were affected, including VjbR, ExoR and OmpR that were less expressed in the bvrR mutant
+T58	Span 1395 1500	he expression of eleven genes which have been previously related with Brucella virulence was also altered
+T50	Causality 1527 1553	All these data corroborate
+E17	Causality:T50 Effect:T51 Evidence:T56
+T51	Span 1554 1675	the impact of BvrR/BvrS on cell envelope modulation, confirm that this system controls the carbon and nitrogen metabolism
+E19	Causality:T54 Effect:T55 Evidence:T57
+E20	Causality:T54 Effect:T55 Evidence:T58
+E21	Causality:T50 Effect:T51 Evidence:T57
+E22	Causality:T50 Effect:T51 Evidence:T58

@@ -1,0 +1,31 @@
+Regulation of carbon and nitrogen metabolism 
+One of the remarkable findings observed in our microarray analysis was that several genes related with metabolism were also differentially expressed.
+These included twelve genes encoding ABC transport systems (matE, BAB1_0340; dctM, BAB1_0372; fhuD, BAB1_1366; yadH, BAB1_1368; oppA, BAB1_1601; oppC, BAB2_1051; oppD, BAB2_0817; potC, BAB1_ 1624; ssuB, BAB2_0917; ugpC, BAB2_1143; BAB2_0794; BAB2_1139), ten genes related with carbohydrate, amino or fatty acids metabolism and five related with nitrogen metabolism.
+Interestingly, all genes related with carbohydrate, amino or fatty acids metabolism were up-regulated in the bvrR mutant.
+These included the first enzyme in gluconeogenesis (pckA, phosphoenolpyruvate carboxykinase, BAB1_2091), four genes involved in TCA cycle and pyruvate metabolism (fumB, fumarate hydratase, BAB1_0977; lpdA, dihydrolipoamide dehydrogenase, BAB2_0712; pyruvate dehydrogenase, BAB2_0032; acetyl-CoA acetyltransferase, BAB2_0443), three genes involved in amino or fatty acid metabolism (aldehyde dehydrogenases, BAB2_1130, BAB2_1114; hydroxymethylglutaryl-CoA lyase, BAB1_0017), and two genes involve in benzoate degradation (pcaC, carboxymuconolactone decarboxylase, BAB2_0597; pcaI, coenzyme A transferase, BAB2_0604).
+In addition, the complete maltose transport system of Brucella, which consists in a large operon containing thirteen genes (BAB1_0236-0248) was also affected.
+Ten of these genes, including malK, malG, malF, malE and an iclR regulator, were down-regulated suggesting that the complete operon was negatively regulated in the bvrR mutant.
+Although it has been showed that the mutants in the BvrR/BvrS system have no obvious defects with regard to the ability to grow on standard media [4], our microarray results suggests that the BvrR/BvrS system controls elements directly involved in adjusting the Brucella metabolism to the nutrient shift expected to occur during the transit to the intracellular niche.
+To determine if the BvrR/BvrS system affects the metabolism, bvrR mutant and wild type strains were grown in synthetic minimal media.
+As show in Figure 3, growth of the bvrR mutant was significantly reduced in minimal media. 
+Other genes differentially expressed in the bvrR mutant included denitrification genes. 
+The nitrite reductase gene ( nirK, BAB2_0943) was down regulated and the nitric oxide and nitrous oxide reductases genes ( nor C, BAB2_0955; nosZ, BAB2_0928) were up regulated. 
+On the other hand, two deaminases (glutaminase, BAB2_0863; guanine deaminase, BAB1_0383) were also affected.
+Since Brucella is an intracellular facultative pathogen, the bacteria could use these denitrification reactions to grow under low-oxygen condition by respiration of nitrate.
+Brucella may also take advantage of denitrification to cope with nitric oxide (NO) production in the macrophage during the innate response against infection.
+In fact, some of these denitrification genes have been related with the virulence in mice [10], [11].
+Interestingly, our experiments to study the intracellular transcriptional level of BvrR/BvrS controlled genes (see below) showed that whereas norC was induced intracellularly, nirK and nosZ were less expressed.
+Taken together all these data support the proposal that one role of the BvrR/BvrS system could be neutralize the production of toxic reactive nitrogen molecules, as NO, by the host.
+These results also demonstrated a connection between carbon and nitrogen metabolism and BvrR/BvrS in Brucella.
+Our results also demonstrated that gene hpr-K (BAB1_2094), a member of the Brucella phosphotransferase system (PTS; BAB1_2097-2094) adjacent to the bvrR/bvrS, was down-regulated.
+As mentioned before, phosphoenolpyruvate carboxykinase gene (pckA, BAB1_2091) which is located upstream of the regulatory gene bvrR and divergently expressed was up-regulated.
+Comparative genome analysis revealed that in addition to the bvrR/bvrS genes, the genome structure around these genes is essentially the same for all the alpha-proteobacteria [5].
+Genes encoding proteins related to the PTS, including a HPr Ser-kinase, an EIIA permease of the mannose family and a HPr homologue precede those of the two-component regulatory system.
+In most of these loci, upstream of the regulatory gene the pckA is divergently expressed (Figure 2).
+This gene catalyzes the reversible decarboxylation and phosphorylation of oxaloacetate to form phosphoenolpyruvate.
+In alpha-proteobacteria, it has been proposed that HPr might control the phosphorylation state of the transcription regulator [12]-[14].
+In this regard, Letesson and col. [15] have suggested that in Brucella the PTS could interact with the BvrS sensor kinase, which in turn phosphorylates the response regulator.
+Then, the BvrR could control transcription of the pckA gene, which encodes an essential control enzyme of the gluconeogenesis and Krebs cycle.
+This hypothesis could explain the observation that mutants in the regulatory gene bvrR were inhibited in minimal media (see above).
+According to this, it has been demonstrated that in A. tumefaciens the pckA genes is indeed under the control of ChvG/ChvI [16] and that null mutants in S. meliloti exoS and chvI have pleiotropic growth defects and were unable to grow on several carbon sources [17].
+A link between carbon and nitrogen metabolism, PTS and two-component regulatory systems have been proposed for some bacteria [18], and our microarray results strongly suggest that same relationship could be made for Brucella.

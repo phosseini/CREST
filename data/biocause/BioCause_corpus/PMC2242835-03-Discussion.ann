@@ -1,0 +1,313 @@
+*	Equiv T50 T51
+*	Equiv T52 T53
+*	Equiv T56 T57
+*	Equiv T59 T61
+*	Equiv T60 T62
+*	Equiv T80 T81
+T165	Process 119 127	virulent
+T166	Process 132 141	avirulent
+T167	Process 214 223	virulence
+T168	Process 293 302	avirulent
+T169	Process 381 389	virulent
+T170	Process 684 693	virulence
+T171	Regulation 1261 1271	regulating
+T172	Process 1272 1281	virulence
+T173	Negative_regulation 1365 1377	inactivation
+T174	Negative_regulation 1390 1394	loss
+T175	Process 1398 1407	virulence
+T176	Positive_regulation 1819 1825	impact
+T177	Process 1833 1842	virulence
+T178	Negative_regulation 2615 2627	inactivation
+T179	Gene_expression 2653 2662	expressed
+T180	Process 3113 3122	virulence
+T181	Positive_regulation 3140 3149	regulated
+T182	Localization 3245 3254	secretion
+T183	Negative_regulation 3485 3498	downregulated
+T184	Gene_expression 3704 3713	expressed
+T185	Positive_regulation 3911 3920	essential
+T186	Localization 3929 3938	secretion
+T187	Gene_expression 4122 4132	expression
+T188	Gene_expression 4240 4250	expression
+T189	Positive_regulation 4634 4646	upregulation
+T190	Positive_regulation 4803 4814	upregulated
+T191	Regulation 4967 4977	regulation
+T192	Gene_expression 4997 5007	expression
+T193	Regulation 5020 5030	influences
+T194	Localization 5038 5047	secretion
+T195	Process 5052 5061	virulence
+T196	Process 5111 5120	virulence
+T197	Gene_expression 5178 5185	express
+T198	Localization 5841 5850	secretion
+T199	Gene_expression 6127 6136	expressed
+T200	Gene_expression 6193 6203	expression
+T201	Negative_regulation 6292 6306	downregulation
+T202	Positive_regulation 6901 6909	increase
+T203	Process 6913 6922	virulence
+T204	Positive_regulation 6963 6974	restoration
+T205	Localization 6985 6994	secretion
+T206	Gene_expression 7191 7201	expression
+T207	Localization 7220 7229	secretion
+T208	Process 7435 7443	virulent
+T209	Gene_expression 7557 7567	production
+T210	Process 7639 7648	infection
+T211	Process 7714 7723	virulence
+T212	Process 7954 7963	virulence
+T213	Process 8091 8102	attenuation
+T214	Localization 9015 9024	secretion
+T215	Process 9438 9447	virulence
+T216	Regulation 9448 9458	regulation
+E1	Process:T165 Participant:T2
+E2	Process:T166 Participant:T2
+M1	Negation E2
+E3	Process:T167 Participant:T3
+E4	Process:T168 Participant:T4
+M2	Negation E4
+E5	Process:T169 Participant:T5
+E6	Process:T170 Participant:T7
+E7	Regulation:T171 Theme:E8
+E8	Process:T172 
+E9	Negative_regulation:T173 Theme:T21
+E10	Negative_regulation:T174 Theme:E11
+E11	Process:T175 Participant:T20
+E12	Positive_regulation:T176 Theme:E13 Cause:T30
+M3	Negation E12
+E13	Process:T177 Participant:T31
+E14	Negative_regulation:T178 Theme:T45
+E15	Gene_expression:T179 Theme:T50
+E16	Gene_expression:T179 Theme:T52
+E17	Process:T180 
+E18	Positive_regulation:T181 Theme:T56 Cause:T63
+E19	Positive_regulation:T181 Theme:T59 Cause:T63
+E20	Positive_regulation:T181 Theme:T60 Cause:T63
+E21	Localization:T182 Theme:T64
+E22	Localization:T182 Theme:T65
+E23	Negative_regulation:T183 Theme:T68
+E24	Negative_regulation:T183 Theme:T69
+E25	Gene_expression:T184 Theme:T74
+E26	Positive_regulation:T185 Theme:E30 Cause:T79
+E27	Positive_regulation:T185 Theme:E30 Cause:T80
+E28	Positive_regulation:T185 Theme:E31 Cause:T79
+E29	Positive_regulation:T185 Theme:E31 Cause:T80
+E30	Localization:T186 Theme:T82
+E31	Localization:T186 Theme:T83
+E32	Gene_expression:T187 Theme:T87
+E33	Gene_expression:T187 Theme:T88
+E34	Gene_expression:T188 Theme:T90
+E35	Gene_expression:T188 Theme:T91
+E36	Positive_regulation:T189 Theme:T96
+E37	Positive_regulation:T189 Theme:T97
+E38	Positive_regulation:T189 Theme:T98
+E39	Positive_regulation:T190 Theme:T101
+E40	Positive_regulation:T190 Theme:T102
+E41	Regulation:T191 Theme:E43 Cause:T103
+E42	Regulation:T191 Theme:E44 Cause:T103
+E43	Gene_expression:T192 Theme:T104
+E44	Gene_expression:T192 Theme:T105
+E45	Regulation:T193 Theme:E47 Cause:T103
+E46	Regulation:T193 Theme:E48 Cause:T103
+E47	Localization:T194 Theme:T106
+E48	Process:T195 
+E49	Process:T196 Participant:T107
+E50	Process:T196 Participant:T108
+E51	Gene_expression:T197 Theme:T110
+E52	Gene_expression:T197 Theme:T111
+E53	Localization:T198 Theme:T115
+E54	Gene_expression:T199 Theme:T117
+E55	Gene_expression:T200 Theme:T120
+E56	Negative_regulation:T201 Theme:T121
+E57	Positive_regulation:T202 Theme:E58
+E58	Process:T203 
+E59	Positive_regulation:T204 Theme:E60
+E60	Localization:T205 Theme:T128
+E61	Gene_expression:T206 Theme:T131
+E62	Localization:T207 Theme:T132
+E63	Process:T208 Participant:T136
+E64	Gene_expression:T209 Theme:T139
+E65	Process:T210 Participant:T141
+E66	Process:T211 
+E67	Process:T212 Participant:T145
+E68	Process:T212 Participant:T147
+E69	Process:T213 Participant:T148
+E70	Localization:T214 Theme:T156
+E71	Process:T215 Participant:T164
+E72	Regulation:T216 Theme:E71
+T1	Organism 27 32	H37Ra
+T2	Organism 155 176	tubercle bacillus H37
+T3	Organism 231 234	H37
+T4	Organism 311 316	H37Ra
+T5	Organism 398 403	H37Rv
+T6	Organism 458 461	H37
+T7	Organism 697 702	H37Ra
+T8	Protein 844 848	PhoP
+T9	Organism 860 865	H37Ra
+T10	Organism 977 982	H37Ra
+T11	Two-component-system 1011 1020	PhoP/PhoR
+T12	Protein 1011 1015	PhoP
+T13	Protein 1016 1020	PhoR
+T14	Organism 1062 1077	M. tuberculosis
+T15	Two-component-system 1106 1115	PhoP/PhoR
+T16	Protein 1106 1110	PhoP
+T17	Protein 1111 1115	PhoR
+T18	Chemical 1225 1234	phosphate
+T19	Chemical 1239 1248	magnesium
+T20	Organism 1298 1313	M. tuberculosis
+T21	Protein 1381 1385	phoP
+T22	Protein 1429 1433	phoP
+T23	Organism 1479 1494	M. tuberculosis
+T24	Two-component-system 1531 1540	PhoP-PhoR
+T25	Protein 1531 1535	PhoP
+T26	Protein 1536 1540	PhoR
+T27	Chemical 1577 1602	polyketide-derived lipids
+T28	Chemical 1666 1684	lipoarabinomannans
+T29	Organism 1688 1703	M. tuberculosis
+T30	Chemical 1763 1797	polyketide-derived (Pks2-4) lipids
+T31	Organism 1846 1861	M. tuberculosis
+T32	Organism 1945 1959	phoP ko mutant
+T33	Protein 1945 1949	phoP
+T34	Organism 1963 1968	H37Rv
+T35	Protein 2038 2042	PhoP
+T36	Organism 2087 2094	phoP-ko
+T37	Protein 2087 2091	phoP
+T38	Organism 2191 2206	M. tuberculosis
+T39	Organism 2329 2334	H37Ra
+T40	Organism 2352 2357	H37Rv
+T41	Organism 2396 2401	H37Ra
+T42	Organism 2406 2411	H37Rv
+T43	Protein 2493 2497	PhoP
+T44	Organism 2561 2566	H37Ra
+T45	Protein 2631 2635	phoP
+T46	Organism 2683 2690	phoP-ko
+T47	Protein 2683 2687	phoP
+T48	Organism 2705 2710	H37Ra
+T49	Chemical 2780 2790	polyketide
+T50	Protein 2801 2805	pks2
+T51	Protein 2807 2814	rv3825c
+T52	Protein 2846 2851	papA1
+T53	Protein 2853 2860	rv3824c
+T54	Protein 2926 2930	phoP
+T55	Protein 2939 2944	ppe68
+T56	Protein 2964 2968	NirA
+T57	Protein 2970 2976	Rv2391
+T58	Chemical 2990 2997	nitrite
+T59	Protein 3012 3018	MmpL10
+T60	Protein 3019 3025	FadD21
+T61	Protein 3027 3033	Rv1183
+T62	Protein 3034 3037	85c
+T63	Protein 3153 3157	PhoP
+T64	Protein 3229 3233	phoP
+T65	Protein 3238 3244	ESAT-6
+T66	Protein 3342 3349	rv3612c
+T67	Protein 3350 3357	rv3616c
+T68	Protein 3455 3462	rv3612c
+T69	Protein 3463 3470	rv3616c
+T70	Organism 3506 3526	H37Rv phoP ko mutant
+T71	Protein 3512 3516	phoP
+T72	Organism 3541 3546	H37Ra
+T73	Protein 3649 3656	rv3614c
+T74	Protein 3681 3688	rv3614c
+T75	Organism 3728 3733	H37Ra
+T76	Organism 3742 3747	H37Rv
+T77	Organism 3752 3763	H37Ra::phoP
+T78	Protein 3759 3763	phoP
+T79	Protein 3870 3877	rv3614c
+T80	Protein 3878 3885	rv3616c
+T81	Protein 3887 3891	espA
+T82	Protein 3942 3948	ESAT-6
+T83	Protein 3953 3959	CFP-10
+T84	Protein 4007 4013	ESAT-6
+T85	Organism 4061 4066	H37Ra
+T86	Organism 4071 4074	SO2
+T87	Protein 4136 4143	rv3612c
+T88	Protein 4144 4151	rv3616c
+T89	Protein 4203 4207	PhoP
+T90	Protein 4267 4274	rv3612c
+T91	Protein 4275 4282	rv3616c
+T92	Organism 4286 4291	H37Rv
+T93	Two-component-system 4540 4549	PhoP/PhoR
+T94	Protein 4540 4544	PhoP
+T95	Protein 4545 4549	PhoR
+T96	Protein 4650 4654	phoP
+T97	Protein 4659 4666	rv3614c
+T98	Protein 4667 4674	rv3616c
+T99	Organism 4708 4723	M. tuberculosis
+T100	Chemical 4731 4735	H2O2
+T101	Protein 4755 4762	rv3614c
+T102	Protein 4763 4770	rv3616c
+T103	Protein 4943 4947	PhoP
+T104	Protein 4981 4988	rv3612c
+T105	Protein 4989 4996	rv3616c
+T106	Protein 5031 5037	ESAT-6
+T107	Organism 5144 5149	H37Ra
+T108	Organism 5157 5164	phoP ko
+T109	Protein 5157 5161	phoP
+T110	Protein 5186 5193	rv3616c
+T111	Protein 5194 5199	3612c
+T112	Organism 5491 5507	tubercle bacilli
+T113	Organism 5562 5593	Mycobacterium prototuberculosis
+T114	Organism 5718 5723	H37Ra
+T115	Protein 5834 5840	ESAT-6
+T116	Organism 5854 5859	H37Ra
+T117	Protein 6069 6075	ESAT-6
+T118	Organism 6140 6145	H37Ra
+T119	Organism 6154 6159	H37Rv
+T120	Protein 6186 6192	ESAT-6
+T121	Protein 6310 6316	ESAT-6
+T122	Organism 6320 6325	H37Ra
+T123	Protein 6536 6540	PhoP
+T124	Organism 6575 6580	H37Ra
+T125	Protein 6615 6619	PhoP
+T126	Organism 6770 6775	H37Ra
+T127	Protein 6869 6873	PhoP
+T128	Protein 6978 6984	ESAT-6
+T129	Organism 7144 7155	SO2 phoP ko
+T130	Protein 7148 7152	phoP
+T131	Protein 7184 7190	ESAT-6
+T132	Protein 7213 7219	ESAT-6
+T133	Protein 7268 7275	ESAT-6-
+T134	Organism 7359 7363	mice
+T135	Organism 7368 7379	guinea pigs
+T136	Organism 7444 7459	M. tuberculosis
+T137	Protein 7469 7475	ESAT-6
+T138	Protein 7534 7540	ESAT-6
+T139	Protein 7547 7556	IFN-gamma
+T140	Protein 7631 7634	SO2
+T141	Organism 7664 7679	M. tuberculosis
+T142	Protein 7756 7762	ESAT-6
+T143	Organism 7804 7819	M. tuberculosis
+T144	Organism 7931 7934	BCG
+T145	Organism 7981 8004	phoP complemented H37Ra
+T146	Protein 7981 7985	phoP
+T147	Organism 8060 8065	H37Rv
+T148	Organism 8110 8115	H37Ra
+T149	Chemical 8224 8251	phthiocerol dimycocerosates
+T150	Chemical 8253 8257	PDIM
+T151	Organism 8487 8492	H37Rv
+T152	Organism 8538 8543	H37Ra
+T153	Organism 8759 8764	H37Ra
+T154	Organism 8848 8853	H37Ra
+T155	Protein 8983 8987	phoP
+T156	Protein 9008 9014	ESAT-6
+T157	Organism 9143 9146	BCG
+T158	Organism 9151 9156	H37Ra
+T159	Organism 9193 9209	tubercle bacilli
+T160	Protein 9256 9262	ESAT-6
+T161	Protein 9340 9345	ESX-1
+T162	Organism 9357 9373	tubercle bacilli
+T163	Protein 9422 9426	phoP
+T164	Organism 9462 9477	M. tuberculosis
+T217	Span 1294 1407	For M. tuberculosis, several studies have described a link between the inactivation of phoP and loss of virulence
+T218	Causality 1409 1424	suggesting that
+E73	Causality:T218 Evidence:T217 Effect:T219
+T219	Span 1425 1494	the phoP gene is required for intracellular growth of M. tuberculosis
+T220	Span 4874 5011	from these reports it seems plausible that the pleiotropic regulator PhoP is involved in the regulation of rv3612c-rv3616c expression and
+T221	Causality 5012 5019	thereby
+E74	Causality:T221 Evidence:T220 Effect:T222
+T222	Span 5020 5061	influences ESAT-6 secretion and virulence
+T223	Causality 6271 6284	argue against
+E75	Causality:T223 Evidence:T224 Effect:T225
+T224	Span 6161 6265	Our results obtained for ESAT-6 expression (Figure 5) and the transcriptome data from Gao and colleagues
+T225	Span 6285 6325	direct downregulation of ESAT-6 in H37Ra
+T226	Span 7869 8065	However, as previously observed in complementation studies of BCG [18], the level of virulence displayed by the phoP complemented H37Ra strain was still substantially below that of wild-type H37Rv
+T227	Causality 8067 8079	arguing that
+E76	Causality:T227 Effect:T226 Evidence:T228
+T228	Span 8080 8258	the strong attenuation of the H37Ra strain is likely based on several different genetic lesions, such as the one responsible for the absence of phthiocerol dimycocerosates (PDIM)

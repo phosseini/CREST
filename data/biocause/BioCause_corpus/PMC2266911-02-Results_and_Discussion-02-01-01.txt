@@ -1,0 +1,13 @@
+Virulence factors 
+So-called offensive virulence factors actively contribute to a successful infection by colonization of and toxicity towards the host organism.
+We compared both genomes with respect to genes encoding toxins, adhesins or invasines that are common to both pathogens.
+All virulence factors described in the following are summarized in Fig. 4.
+Toxins Insecticidal toxins The insecticidal toxin complex (Tc) proteins were first purified from P. luminescens [61].
+Tc homologues have also been described to be present in Yersinia spp. and in other insect-associated bacteria such as Serratia entomophila and Xenorhabdus nematophilus [62,63].
+The respective genes encoding four high molecular weight toxin complexes are termed tca, tcb, tcc and tcd.
+Further experiments supported the hypothesis that TccC-like proteins might act as universal activators of, or chaperons for, different toxin proteins, while Tca-like and Tcd-like proteins contribute predominantly to the oral toxicity of bacterial supernatants [17].
+It is speculated that the Tc toxins are active against different tissues within individual hosts, namely Tcb against hemocytes and Tcd and Tca against cells of the insect gut.
+In Y. enterocolitica, the insecticidal toxin genes are located on a distinct genomic island termed tc-PAIYe of 21 kb, and are low-temperature induced [7].
+Similar islands in which regulatory genes are followed by three tca genes, phage-related genes and one or two tccC genes, are present in the genomes of Y. pseudotuberculosis IP32953 and Y. pestis KIM.
+In P. luminescens, the insecticidal genes are organized in the tcd island harbouring nine tcd- and tcc-like genes and several non tc-like genes, while further nine tcc-like genes are scattered over the chromosome [24].
+The reason for the over-represence of tc-like genes in the P. luminescens genome might reflect the different strategies followed by both bacteria within insects, namely the rapid killing for exploiting the victim as a food source in case of P. luminescens, and infection of and persistance within the invertebrate host as possibly preferred by Y. enterocolitica.

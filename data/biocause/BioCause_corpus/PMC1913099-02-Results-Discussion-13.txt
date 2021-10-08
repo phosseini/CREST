@@ -1,0 +1,18 @@
+Analysis of Previously Published Array Data 
+We applied the statistical analysis and the GenomeCrawler algorithms to data from a recently published streptococcal microarray study that is relevant for comparison to our own data (same streptococcal strain, similar array platform) [57].
+In this study, the transciptomes of S. pyogenes strain SF370 and an isogenic mutant deficient for the Mga regulon were compared during exponential growth in culture broth.
+The Mga regulator is a growth-phase mediator of a number of surface-exposed molecules and secreted proteins involved in colonization and immune evasion during infection [58].
+Although the authors of that study did not provide a statistical analysis of their data, we compared the published results for the magnitude and direction of fold-changes for each gene reported in this study with those obtained from our initial significance analysis of this dataset (presented as Table S7).
+A total of 256 genes reported in this study were also detected by our analysis, and the magnitude and log2-fold change were found to be in agreement for 81% of the genes.
+We suspect that this discrepancy results from different normalization methods used, or from different methods that were applied to analyze the ratio of signal intensities between sample and control (i.e., we analyzed the ratios of the median rather than the ratios of the mean [57]).
+Although the published report did not include statistical analysis of the data, we note that the statistical analysis that we performed identified four genes with significant log2-fold changes in expression (PF < 0.05; Table S8).
+We applied the GenomeCrawler algorithms to the statistically analyzed dataset, which identified an expanded group of genes (107 versus four) contained within 36 statistically significant clusters (PK < 0.05; Table S9).
+These groupings included clusters of genes that have been shown previously in streptococci to be functionally related, indicating that the algorithms were performing as expected.
+Two of the identified upregulated clusters (spy2009-2010 and spy2039-2040) encoding the well-studied virulence factors, C5a peptidase and SpeB, respectively, showed consistently large log2-fold changes of the genes across replicates [57].
+GenomeCrawler confirmed these results by identifying both groupings as statistically significant neighbor clusters.
+GenomeCrawler also identified a number of clusters that contained genes known to share common function or regulation; however, they were not as apparent in the dataset without its application.
+For example, the algorithm identified a significant neighbor cluster spanning spy0711-0712.
+This grouping encodes two known virulence factors, pyrogenic exotoxin SpeC and the MF2 DNase, previously shown to be commonly regulated as an operon [11].
+The algorithm also identified other neighbor clusters containing genes known to be functionally related, including spy0098-0100 (encoding the beta and beta' subunits of DNA-dependent RNA polymerase), spy2159-2160 (encoding the 50S ribosomal subunit proteins L32 and L33), and spy0741-0746 (six of the nine streptolysin S-encoding genes) [14].
+Although the analysis of this previously published dataset did not reveal as many intact biological pathways as were identified from the pharyngeal cell adherence data, the inclusion of more replicates in the analysis to increase statistical power could resolve such loci.
+However, these results provided further supporting evidence that the GenomeCrawler algorithms can identify (1) a larger group of genes than a rigorous statistical analysis alone and (2) biologically relevant groupings in other microarray datasets, even if they contain fewer replicates than presented in our study.

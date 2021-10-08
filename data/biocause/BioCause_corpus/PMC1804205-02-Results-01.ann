@@ -1,0 +1,88 @@
+T44	Regulation 222 231	regulated
+T45	Positive_regulation 728 737	induction
+T46	Transcription 746 759	transcription
+T47	Gene_expression 1383 1393	expression
+T48	Regulation 1406 1417	independent
+T49	Negative_regulation 1423 1432	repressed
+T50	Positive_regulation 1471 1478	induced
+T51	Gene_expression 1543 1553	Expression
+T52	Positive_regulation 1572 1579	induced
+T53	Phosphorylation 2110 2124	phosphorylated
+T54	Positive_regulation 2521 2531	activating
+T55	Phosphorylation 2557 2572	phosphorylation
+E1	Regulation:T44 Theme:T9 Cause:T8
+E2	Regulation:T44 Theme:T10 Cause:T8
+E3	Regulation:T44 Theme:T11 Cause:T8
+E4	Positive_regulation:T45 Theme:E5
+E5	Transcription:T46 Theme:T17
+E6	Gene_expression:T47 Theme:T28
+E7	Regulation:T48 Theme:T28 Cause:T26
+M1	Negation E7
+E8	Negative_regulation:T49 Theme:T28 Cause:T27
+E9	Positive_regulation:T50 Theme:E6
+E10	Gene_expression:T51 Theme:T30
+E11	Positive_regulation:T52 Theme:E10
+E12	Phosphorylation:T53 Theme:T38
+M2	Negation E12
+E13	Positive_regulation:T54 Theme:T43
+E14	Phosphorylation:T55 Theme:T43
+T1	Protein 47 51	PmrA
+T2	Protein 109 113	PmrA
+T3	Organism 139 149	Salmonella
+T4	Regulon-operon 179 185	lacZYA
+T5	Protein 179 183	lacZ
+T6	Protein 183 184	Y
+T7	Protein 184 185	A
+T8	Protein 217 221	PmrA
+T9	Protein 238 242	pbgP
+T10	Protein 244 248	pmrC
+T11	Protein 253 256	ugd
+T12	Chemical 350 354	Fe3+
+T13	Chemical 358 362	Al3+
+T14	Protein 379 383	PmrB
+T15	Chemical 435 440	MgCl2
+T16	Protein 472 476	PmrA
+T17	Protein 741 745	pbgP
+T18	Chemical 775 778	MES
+T19	Chemical 845 853	Bis-Tris
+T20	Protein 1008 1012	PmrA
+T21	Chemical 1100 1104	Fe3+
+T22	Chemical 1207 1217	Chelex 100
+T23	Organism 1294 1304	Salmonella
+T24	Chemical 1332 1342	Chelex 100
+T25	Chemical 1370 1374	iron
+T26	Protein 1401 1405	pmrA
+T27	Chemical 1418 1422	iron
+T28	Protein 1433 1437	iroA
+T29	Chemical 1521 1531	Chelex 100
+T30	Protein 1557 1561	pbgP
+T31	Organism 1585 1595	Salmonella
+T32	Chemical 1613 1619	Chelex
+T33	Chemical 1681 1685	Fe3+
+T34	Chemical 1695 1716	deferoxamine mesylate
+T35	Protein 1859 1863	PmrA
+T36	Organism 2007 2018	pmrA mutant
+T37	Protein 2007 2011	pmrA
+T38	Protein 2082 2086	PmrA
+T39	Protein 2281 2285	PmrA
+T40	Organism 2353 2364	pmrA strain
+T41	Protein 2353 2357	pmrA
+T42	Organism 2447 2457	Salmonella
+T43	Protein 2536 2540	PmrA
+T56	Causality 442 442	
+E15	Causality:T56 Effect:T58 Cause:T57
+T57	Fact 331 440	This medium lacked Fe3+ or Al3+, the only known PmrB ligands (Wosten et al., 2000), and contained 10 mM MgCl2
+T58	Fact 442 492	which represses expression of PmrA-activated genes
+T59	Fact 541 639	All three genes were expressed when cells were grown in media buffered at pH 5.8 but not at pH 7.7
+T60	Causality 653 665	in agreement
+E16	Causality:T60 Effect:T59 Cause:T61
+T61	Fact 666 716	with previous results (Soncini and Groisman, 1996)
+T62	Causality 872 882	indicating
+E17	Causality:T62 Evidence:T63 Effect:T64
+T63	Span 718 853	A similar induction of pbgP transcription was found when MES was used as the buffering agent in the media at pH 5.8 instead of Bis-Tris
+T64	Span 883 972	that the mild acid effect on gene expression was not due to a particular buffering system
+T66	Span 2032 2208	Moreover, a mutant expressing a derivative of the PmrA protein that cannot be phosphorylated due to substitution of the putative phosphorylation residue aspartate 51 by alanine
+#1	AnnotatorNotes T61	Do we need to annotate anything referring back to previous results?
+T65	Span 2235 2364	completely failed to promote transcription of PmrA-activated genes in response to pH 5.8, in a similar fashion to the pmrA strain
+T67	Causality 2209 2209	
+E18	Causality:T67 Cause:T66 Effect:T65

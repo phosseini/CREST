@@ -1,0 +1,18 @@
+Extracellular DNA induces cell death by membrane perturbation and cell lysis 
+DNA is a highly anionic polymer due to the phosphates in the deoxyribose backbone.
+This property, in combination with the fast-killing observed in response to extracellular DNA led us to hypothesize that addition of exogenous DNA resulted in the loss of membrane integrity through cation chelation, in a manner similar to that observed with the known cation chelator EDTA [58].
+The OM of P. aeruginosa contains a 20:1 ratio of Mg2+:Ca2+ cations [59], which bind to and stabilize LPS in the outer leaflet of the OM [58].
+EDTA treatment of cells resulted in chelation and removal of divalent cations from the OM, leading to disruption of the OM [58].
+To determine the effect of DNA on membrane integrity, microscopic analysis in response to lethal concentrations of DNA and relevant controls was performed.
+Lipoproteins are lipid-modified proteins anchored in the outer leaflet of the IM or the inner leaflet of the OM.
+P. aeruginosa cells producing mCherry fluorescent membrane-anchored lipoproteins (lipoChFP) that are localized to either the OM or IM [60],[61] were used as markers of OM and IM integrity.
+LipoChFP-labelled P. aeruginosa cells showed dramatic membrane perturbations when exposed to 2% (w/v) DNA, but showed uniform membrane staining patterns in untreated cells (Fig 2A).
+The OM perturbations in DNA-exposed cells included regions of patchy fluorescence and the release of OMVs, while the IM perturbations were visualized simply as patchy and irregular regions of membrane fluorescence (Fig 2A).
+EDTA, the known cation chelator caused comparable IM and OM perturbations as those observed in cells exposed to extracellular DNA.
+Propidium iodide (PI) stains extracellular DNA and DNA in dead cells.
+PI staining was observed in cells exposed to DNA and EDTA, confirming that this treatment was lethal (Fig 2B).
+PI staining also revealed the presence of long strands of genomic DNA, presumably as a consequence of the loss of membrane integrity, cell lysis and release of cytoplasmic contents, including DNA (Fig 2B).
+The DNA released by lysed cells formed a mesh-like coating surrounding and connecting individual bacterial cells (Fig 2B).
+Degradation of these strands by DNAse treatment of lysed cells confirmed that these fibres were composed of DNA (Fig S1).
+Pseudomonas specific semi-quantitative PCR (qPCR) was also performed to confirm that the DNA released following DNA or EDTA treated cells was in fact genomic DNA from P. aeruginosa (Fig 2C).
+Buffer treated control cells showed intense green staining with syto9 (indicating viability) and a lack of PI staining (indicating no dead/dying cells or DNA release) (Fig S1).

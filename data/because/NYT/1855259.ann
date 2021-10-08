@@ -1,0 +1,40 @@
+T1	NonCausal 258 264	Within
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 265 270	hours
+T3	Argument 272 385	American soldiers fired into a crowd of Afghans near the scene of the blast, killing one man and wounding another
+T4	Consequence 527 532	cause
+E2	Consequence:T4 Effect:T5
+A2	Degree E2 Facilitate
+T5	Argument 536 572	the accidental discharge of a weapon
+T6	Consequence 924 935	resulted in
+E3	Consequence:T6 Effect:T7 Cause:T8
+A3	Degree E3 Facilitate
+T7	Argument 936 955	civilian casualties
+T8	Argument 903 918	suicide attacks
+T9	Motivation 2621 2624	why
+E4	Motivation:T9 Effect:T10
+A4	Degree E4 Facilitate
+T10	Argument 2625 2672	mortal fate had selected Mustaffah and not them
+T11	Consequence 3038 3044;3077 3079	enough to
+E5	Consequence:T11 Cause:T12 Effect:T13
+A5	Degree E5 Facilitate
+A6	Extremity-sufficiency E5
+T12	Argument 3038 3076	enough fear among the general populace
+T13	Argument 3080 3136	cause thousands to flee for neighboring Pakistan or Iran
+T14	Motivation 3080 3085;3096 3098	cause to
+E6	Motivation:T14 Effect:T18 Cause:T16 Means:T19
+A7	Degree E6 Facilitate
+T15	Consequence 3030 3037	created
+E7	Consequence:T15 Cause:T16 Effect:T17
+A8	Degree E7 Facilitate
+A9	Creation-termination E7
+T16	Argument 2962 2977	suicide attacks
+T17	Argument 3038 3136	enough fear among the general populace to cause thousands to flee for neighboring Pakistan or Iran
+T18	Argument 3086 3095;3104 3136	thousands for neighboring Pakistan or Iran
+T19	Argument 3030 3076	created enough fear among the general populace
+T20	NonCausal 3024 3029	since
+E8	NonCausal:T20 Arg1:T21 Arg0:T22
+A10	Temporal E8
+T21	Argument 2962 2977;3019 3023;3030 3136	suicide attacks have created enough fear among the general populace to cause thousands to flee for neighboring Pakistan or Iran
+T22	Argument 2999 3017	only two years ago

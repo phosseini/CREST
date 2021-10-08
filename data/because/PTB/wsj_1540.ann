@@ -1,0 +1,45 @@
+T1	Motivation 616 621	after
+E1	Motivation:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+A2	Temporal E1
+T2	Argument 564 615	Ford and Saab ended talks about a possible alliance
+T3	Argument 622 718	Ford concluded that the cost to modernize Saab's car operations would outweigh the likely return
+T4	Motivation 740 748	prompted
+E2	Motivation:T4 Cause:T5 Effect:T6
+A3	Degree E2 Facilitate
+T5	Argument 720 739	The collapse Friday
+T6	Argument 749 859	speculation that Ford would intensify its pursuit of Jaguar, which is negotiating a defensive alliance with GM
+T7	Consequence 959 965	making
+E3	Consequence:T7 Cause:T8 Effect:T9
+A4	Degree E3 Facilitate
+T8	Argument 910 957	The Dow Jones industrials rose 5.94, to 2689.14
+T9	Argument 966 987;988 1019	the gain for the week a record 119.88 points, or 4.7%
+#1	AnnotatorNotes E3	Not sure if this is quite the causal sense we're after, or if it's more of a "constitutive" or "amount to" sense.                
+T11	Consequence 1574 1576	if
+E4	Consequence:T11 Effect:T12 Cause:T13
+A5	Degree E4 Facilitate
+A6	Hypothetical E4
+T12	Argument 1530 1573	prices could collapse a few months from now
+T13	Argument 1577 1611	the group doesn't adopt new quotas
+T14	Motivation 1787 1789	as
+E5	Motivation:T14 Cause:T15 Effect:T16
+A7	Degree E5 Facilitate
+A8	Temporal E5
+T15	Argument 1790 1864	the London-based ad giant struggles through its most difficult period ever
+T16	Argument 1725 1786	The proposals, from suitors including Interpublic Group, come
+T17	NonCausal 1917 1921	when
+E6	NonCausal:T17 Arg0:T18 Arg1:T19
+A10	Temporal E6
+T18	Argument 1922 1985	its Los Angeles-based affiliate filed for Chapter 11 protection
+T19	Argument 1868 1916	Qintex Australia suffered another setback Friday
+T20	NonCausal 2585 2590	since
+E7	NonCausal:T20 Arg0:T21 Arg1:T22
+A11	Temporal E7
+T21	Argument 2591 2647	the legal battle with Pennzoil began over four years ago
+T22	Argument 2546 2584	It is Texaco's first major acquisition
+T24	Motivation 1144 1148	amid
+E8	Motivation:T24 Cause:T25 Effect:T26
+A12	Context E8
+A13	Degree E8 Facilitate
+T25	Argument 1149 1183	political and economic uncertainty
+T26	Argument 1082 1143	New York City bonds were sold off by many investors last week

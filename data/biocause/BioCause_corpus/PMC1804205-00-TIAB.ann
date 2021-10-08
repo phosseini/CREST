@@ -1,0 +1,42 @@
+T25	Positive_regulation 8 18	activation
+T26	Positive_regulation 1358 1366	activate
+E1	Positive_regulation:T25 Theme:T1
+E2	Positive_regulation:T26 Theme:T23
+T1	Two-component-system 26 35	PmrA/PmrB
+T2	Protein 26 30	PmrA
+T3	Protein 31 35	PmrB
+T4	Organism 71 90	Salmonella enterica
+T5	Organism 283 322	Salmonella enterica serovar Typhimurium
+T6	Protein 502 506	PmrA
+T7	Protein 650 654	PmrA
+T8	Protein 679 683	PmrB
+T9	Chemical 731 735	Fe3+
+T10	Chemical 740 744	Al3+
+T11	Protein 750 754	PmrA
+T12	Protein 786 790	PmrD
+T13	Protein 917 921	PmrB
+T14	Protein 994 998	PmrA
+T15	Two-component-system 1020 1029	PmrA/PmrB
+T16	Protein 1020 1024	PmrA
+T17	Protein 1025 1029	PmrB
+T18	Chemical 1046 1064	lipopolysaccharide
+T19	Chemical 1118 1129	polymyxin B
+T20	Organism 1141 1151	Salmonella
+T21	Chemical 1206 1217	polymyxin B
+T22	Protein 1294 1298	PmrB
+T23	Protein 1371 1375	PmrA
+T24	Chemical 1443 1454	polymyxin B
+T27	Span 405 598	Growth in mild acid (pH 5.8) promotes transcription of genes activated by the response regulator PmrA, but the signalling pathway(s) that mediates this response has thus far remained unexplored
+T28	Causality 605 614	we report
+E3	Causality:T28 Effect:T27 Cause:T29
+T29	Span 615 790	that this activation requires both PmrA's cognate sensor kinase PmrB, which had been previously shown to respond to Fe3+ and Al3+, and PmrA's post-translational activator PmrD
+T30	Fact 792 921	Substitution of a conserved histidine or of either one of four conserved glutamic acid residues in the periplasmic domain of PmrB
+T31	Fact 922 1014	severely decreased or abolished the mild acid-promoted transcription of PmrA-activated genes
+T32	Causality 922 922	
+E4	Causality:T32 Cause:T30 Effect:T31
+T33	Span 1016 1129	The PmrA/PmrB system controls lipopolysaccharide modifications mediating resistance to the antibiotic polymyxin B
+T34	Span 1131 1248	Wild-type Salmonella grown at pH 5.8 were > 100 000-fold more resistant to polymyxin B than organisms grown at pH 7.7
+T35	Causality 1250 1274	Our results suggest that
+E5	Causality:T35 Effect:T36 Evidence:T34
+T36	Span 1275 1465	protonation of the PmrB periplasmic histidine and/or of the glutamic acid residues activate the PmrA protein, and that mild acid promotes cellular changes resulting in polymyxin B resistance
+E6	Causality:T35 Effect:T36 Evidence:T33

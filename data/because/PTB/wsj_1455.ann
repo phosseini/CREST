@@ -1,0 +1,132 @@
+T1	NonCausal 395 400	After
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 401 428	years of relative obscurity
+T3	Argument 430 534	he is starting to attract notice for the ecological as well as the aesthetic quality of his architecture
+T4	Consequence 595 605	depends on
+E2	Consequence:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+T5	Argument 566 594	the well-being of the planet
+T6	Argument 606 784	such stratagems as opening windows to cut indoor air pollution, tacking down carpets instead of using toxic glues, and avoiding mahogany, which comes from endangered rain forests
+T7	Purpose 641 643	to
+E3	Purpose:T7 Cause:T8 Effect:T9
+A3	Degree E3 Facilitate
+T8	Argument 644 668	cut indoor air pollution
+T9	Argument 625 640	opening windows
+T10	Motivation 1618 1624	during
+E4	Motivation:T10 Cause:T11 Effect:T12
+A4	Degree E4 Facilitate
+A5	Temporal E4
+T11	Argument 1625 1637	the holidays
+T12	Argument 1571 1617	sell a foot-tall chocolate model of the center
+T13	Consequence 1828 1830	If
+E5	Consequence:T13 Cause:T14 Effect:T15
+A6	Degree E5 Facilitate
+A7	Hypothetical E5
+T14	Argument 1831 1865	Mr. McDonough's plans get executed
+T15	Argument 1867 1990	as much of the Polish center as possible will be made from aluminum, steel and glass recycled from Warsaw's abundant rubble
+T16	Consequence 2091 2095	make
+E6	Consequence:T16 Cause:T17 Effect:T18
+A8	Degree E6 Facilitate
+T17	Argument 2062 2085	Solar-powered batteries
+T18	Argument 2096 2105;2106 2110	the spire glow
+T19	Consequence 2267 2272	allow
+E7	Consequence:T19 Cause:T20 Effect:T21
+A9	Degree E7 Facilitate
+A10	Obligation-permission E7
+T20	Argument 2238 2261	the $150 million budget
+T21	Argument 2273 2275	it
+T22	Argument 2277 2392	Mr. McDonough will rely on solid wood, rather than plywood or particle board, to limit the emission of formaldehyde
+R1	Coref Arg1:T21 Arg2:T22	
+T23	Consequence 2396 2398	If
+E8	Consequence:T23 Cause:T24 Effect:T25
+A11	Degree E8 Facilitate
+A12	Hypothetical E8
+T24	Argument 2399 2424	Mr. McDonough has his way
+T25	Argument 2426 2574	the Poles will compensate for the trade center's emissions of carbon dioxide, a prime suspect in the global atmospheric warming many scientists fear
+T26	Consequence 2878 2890	consequences
+E9	Consequence:T26 Cause:T27
+A13	Degree E9 Facilitate
+T27	Argument 2894 2904	their work
+T28	NonCausal 3501 3507	before
+E10	NonCausal:T28 Arg1:T29 Arg0:T30
+A14	Temporal E10
+T29	Argument 3508 3534	entering Dartmouth College
+T30	Argument 3423 3499	attended 19 schools in places ranging from Hong Kong to Shaker Heights, Ohio
+T31	Consequence 3767 3771	made
+E11	Consequence:T31 Cause:T32 Effect:T33
+A15	Degree E11 Facilitate
+T32	Argument 3737 3756	Living in Hong Kong
+T33	Argument 3772 3775;3776 3833	him sensitive to the limits on food, power and water supplies
+T34	Motivation 3899 3902	for
+E12	Motivation:T34 Effect:T35 Cause:T36
+A16	Degree E12 Facilitate
+T35	Argument 3867 3898	he was thought a little strange
+T36	Argument 3903 3990	shutting off open water taps and admonishing his schoolmates to take only brief showers
+T37	Motivation 4459 4464	Since
+E13	Motivation:T37 Cause:T38 Effect:T39
+A17	Degree E13 Facilitate
+A18	Temporal E13
+T38	Argument 4465 4488	the 1970s energy crisis
+T39	Argument 4490 4600	some efforts to conserve energy by sealing buildings have had an unintended side effect: high indoor pollution
+T40	Consequence 4571 4577	effect
+E14	Consequence:T40 Cause:T41 Effect:T42
+A19	Degree E14 Facilitate
+T41	Argument 4490 4542	some efforts to conserve energy by sealing buildings
+T42	Argument 4579 4600	high indoor pollution
+T43	Purpose 4602 4604	To
+E15	Purpose:T43 Cause:T44 Effect:T45
+A20	Degree E15 Facilitate
+T44	Argument 4605 4637	reduce it at the fund's building
+T45	Argument 4639 4734	workers rubbed beeswax instead of polyurethane on the floors in the executive director's office
+T46	Purpose 5213 5215	to
+E16	Purpose:T46 Cause:T47 Effect:T48
+A21	Degree E16 Facilitate
+T47	Argument 5216 5241	let in more real daylight
+T48	Argument 5158 5211	Offices with outside windows have inside windows, too
+T52	Purpose 5465 5468	for
+E18	Purpose:T52 Cause:T53 Effect:T54
+A23	Degree E18 Facilitate
+T53	Argument 5469 5483	lunch meetings
+T54	Argument 5438 5464	who has visited the office
+T55	Purpose 5919 5921	To
+E19	Purpose:T55 Cause:T56 Effect:T57
+A24	Degree E19 Facilitate
+T56	Argument 5922 6003	more than replace the wood from two English oaks used for paneling at Paul Stuart
+T57	Argument 6014 6079	Mr. McDonough and friends planted 1,000 acorns around the country
+T58	Argument 5971 5975	used
+T59	Purpose 5976 5979	for
+E20	Purpose:T59 Cause:T60 Effect:T58
+A25	Degree E20 Facilitate
+T60	Argument 5980 5988	paneling
+T61	NonCausal 6641 6643	If
+E21	NonCausal:T61 Arg0:T62 Arg1:T63
+A26	Hypothetical E21
+T62	Argument 6644 6698	any nation can use environmentally benign architecture
+T63	Argument 6700 6712	it is Poland
+T64	Consequence 6844 6847;6861 6864	too for
+E22	Consequence:T64 Cause:T65 Effect:T66
+A27	Degree E22 Inhibit
+A28	Extremity-sufficiency E22
+T65	Argument 6844 6860	too contaminated
+T66	Argument 6865 6877	safe farming
+T67	Consequence 6878 6888	because of
+E23	Consequence:T67 Effect:T68 Cause:T69
+A29	Degree E23 Facilitate
+T68	Argument 6806 6877	perhaps a quarter of Poland's soil is too contaminated for safe farming
+T69	Argument 6889 6902	air pollution
+T70	Consequence 7211 7217	ensure
+E24	Consequence:T70 Effect:T71
+A30	Degree E24 Facilitate
+T71	Argument 7223 7244	it will be maintained
+T87	Motivation 463 466	for
+E27	Motivation:T87 Effect:T79 Cause:T88
+A33	Degree E27 Facilitate
+T79	Argument 430 462	he is starting to attract notice
+T88	Argument 467 534	the ecological as well as the aesthetic quality of his architecture
+T89	NonCausal 2670 2674	with
+E28	NonCausal:T89 Arg0:T90 Arg1:T91
+A34	Context E28
+T90	Argument 2675 2714	the center's developer footing the bill
+T91	Argument 2576 2668	The Poles would plant a 10-square-mile forest somewhere in the country at a cost of $150,000
+#1	AnnotatorNotes E4	Seems to be part of the motivation to sell.

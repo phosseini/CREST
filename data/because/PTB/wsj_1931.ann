@@ -1,0 +1,65 @@
+T1	Motivation 395 404	triggered
+E1	Motivation:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+A2	Creation-termination E1
+T2	Argument 344 394	News of the major earthquake in California Tuesday
+T3	Argument 405 449	a round of dollar sales in early Asian trade
+T4	Motivation 1151 1162	in light of
+E2	Motivation:T4 Effect:T5 Cause:T6
+A3	Degree E2 Facilitate
+T5	Argument 1084 1150	Mr. Woodland doesn't predict a significant climb for the U.S. unit
+T6	Argument 1163 1210	recent moves in interest rates around the world
+T7	Motivation 1674 1679	Since
+E3	Motivation:T7 Cause:T8 Effect:T9
+A4	Degree E3 Facilitate
+A5	Temporal E3
+T8	Argument 1680 1716	Friday's dive in stock market prices
+T9	Argument 1718 1854	the Fed has injected reserves into the banking system in an effort to calm the markets and avert a repeat of 1987's stock market debacle
+T10	Purpose 1772 1774;1778 1787	in effort to
+E4	Purpose:T10 Cause:T11 Effect:T12
+A6	Degree E4 Facilitate
+T11	Argument 1788 1854	calm the markets and avert a repeat of 1987's stock market debacle
+T12	Argument 1718 1725	the Fed
+T13	Consequence 1809 1814	avert
+E5	Consequence:T13 Effect:T14 Cause:T12 Means:T37
+A7	Degree E5 Inhibit
+T14	Argument 1815 1854	a repeat of 1987's stock market debacle
+T15	Consequence 1882 1887	after
+E6	Consequence:T15 Cause:T16 Effect:T17
+A8	Degree E6 Facilitate
+A9	Temporal E6
+T16	Argument 1888 1957	last week's stock market tailspin and Tuesday's California earthquake
+T17	Argument 1959 2033	it's hard to gauge where the central bank wants the key federal funds rate
+T18	Consequence 2070 2080;2092 2096	preventing from
+E7	Consequence:T18 Cause:T19 Effect:T20
+A10	Degree E7 Inhibit
+T19	Argument 2051 2065	the earthquake
+T20	Argument 2081 2091;2097 2123	many banks operating at full capacity
+T21	Motivation 2157 2166	reason to
+E8	Motivation:T21 Effect:T22
+A11	Degree E8 Facilitate
+T22	Argument 2167 2197	keep liquidity at a high level
+T23	Consequence 2687 2689	as
+E9	Consequence:T23 Effect:T24 Cause:T25
+A12	Degree E9 Facilitate
+A13	Temporal E9
+T24	Argument 2661 2686	the U.S. unit edged lower
+T25	Argument 2690 2763	the Dow Jones Industrial Average dropped about 13 points in early trading
+T26	NonCausal 2862 2868	before
+E10	NonCausal:T26 Arg0:T27 Arg1:T28
+A15	Temporal E10
+T27	Argument 2869 2903	the unit dropped back by day's end
+T28	Argument 2765 2861	A slight recovery in the stock market gave currency traders confidence to push the dollar higher
+T29	Motivation 3002 3011	following
+E11	Motivation:T29 Effect:T30 Cause:T31
+A16	Degree E11 Facilitate
+A17	Temporal E11
+T30	Argument 2931 3001	nervousness over the recent sharp dive in stock prices could intensify
+T31	Argument 3012 3166	suggestions by Bank of Japan Governor Satoshi Sumita that appeared to advise Japanese investors to be very careful in investing in U.S. leveraged buy-outs
+T32	Argument 3441 3483	the figures show a hefty rise in inflation
+T33	Argument 3485 3530	they could militate against easing by the Fed
+T34	Consequence 3438 3440	If
+E12	Consequence:T34 Cause:T32 Effect:T33
+A18	Degree E12 Facilitate
+A19	Hypothetical E12
+T37	Argument 1726 1771	has injected reserves into the banking system

@@ -1,0 +1,240 @@
+141 "The <e1>name</e1> given to our cluster, Valhalla, comes from Norse <e2>mythology</e2>."
+WordNet(e1) = "name%1:10:00::", WordNet(e2) = "mythology%1:14:00::", Cause-Effect(e2,e1) = "?", Query = "* comes from *"
+
+142 "This as well as kinetic data support the hypothesis of <e1>inhibition</e1> through <e2>altered membrane properties</e2>."
+WordNet(e1) = "inhibition%1:04:01::", WordNet(e2) = "property%1:07:00::" Cause-Effect(e2,e1) = "?", Query = "inhibition through *"
+
+143 "Hundreds of thousands in central China are sleeping outdoors for fear of more <e1>tremors</e1> after Saturday's <e2>earthquake</e2>."
+WordNet(e1) = "tremor%1:11:00::", WordNet(e2) = "earthquake%1:11:00::", Cause-Effect(e2,e1) = "?", Query = "tremors after *"
+
+144 "<e1>Dehydration</e1> from <e2>fluid loss</e2> generally is the only major problem the virus can cause, most often in the elderly."
+WordNet(e1) = "dehydration%1:26:01::" , WordNet(e2) = "loss%1:22:00::", Cause-Effect(e2,e1) = "?", Query = "dehydration from *"
+
+145 "Fathers, in particular, are often more involved in <e1>teaching</e1> social competence through <e2>physical activity</e2> and sport to their sons."
+WordNet(e1) = "teaching%1:04:01::", WordNet(e2) = "activity%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "* through physical activity"
+
+146 "Sometimes <e1>joy</e1> comes from unexpected <e2>places</e2>."
+WordNet(e1) = "joy%1:12:00::", WordNet(e2) = "n3", Cause-Effect(e2,e1) = "?", Query = "joy comes from *"
+
+147 "If your main <e1>aim</e1> is for <e2>growth</e2> in the value of the property then obviously you need to look at where you think the next "value-spurt" is going to be."
+WordNet(e1) = "aim%1:09:01::", WordNet(e2) = "growth%1:22:02::", Cause-Effect(e1,e2) = "?", Query = "* is for growth"
+
+148 "<e1>Brushing</e1> after <e2>meals</e2> should become part of your daily schedule."
+WordNet(e1) = "brushing%1:04:03::", WordNet(e2) = "meal%1:28:00::", Cause-Effect(e2,e1) = "?", Query = "* after meals"
+
+149 "In order to achieve <e1>satisfaction</e1> from <e2>administrators</e2> and users, a search solution must provide an excellent experience for the end user, have a technology underpinning that can handle the scope, scale and security requirements inherent in complex environments, and be easy to deploy."
+WordNet(e1) = "satisfaction%1:12:00::", WordNet(e2) = "administrator%1:18:00::", Cause-Effect(e2,e1) = "?", Query = "satisfaction from *"
+
+150 "<e1>Virus infection</e1> starts with <e2>virus entry</e2> into the host cells and this process is mediated by viral and cellular membrane fusion in enveloped viruses."
+WordNet(e1) = "virus_infection%1:26:00::", WordNet(e2) = "entry%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "* starts with *"
+
+151 "Research shows that 30% to 40% of law students experience <e1>depression</e1> after their first <e2>semester</e2> and this depression persists throughout law school."
+WordNet(e1) = "depression%1:12:00::", WordNet(e2) = "semester%1:28:01::", Cause-Effect(e2,e1) = "?", Query = "depression after *"
+
+152 "Givers gain moral strength and <e1>happiness</e1> from <e2>giving</e2>."
+WordNet(e1) = "happiness%1:26:00::" , WordNet(e2) = "giving%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "happiness from *"
+
+153 "The <e1>joy</e1> comes from cather's <e2>writing</e2>: precise observation and wording, the lilting cadence of her phrasing, the beautiful and clear pictures she evokes of scenery and characters, and the unfamiliar, old fashioned words and expressions she uses."
+WordNet(e1) = "joy%1:12:00::", WordNet(e2) = "writing%1:10:00::", Cause-Effect(e2,e1) = "?", Query = "joy comes from *"
+
+154 "There is a rise in <e1>erratic behaviour</e1> from <e2>substance abuse</e2> and frustration caused by long waits for hospital treatment."
+WordNet(e1) = "behaviour%1:04:00::", WordNet(e2) = "substance_abuse%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "behaviour from *"
+
+155 "In one day, the Red Crescent treated more than injuries – mainly broken bones caused by <e1>panic</e1> from <e2>aftershocks</e2>."
+WordNet(e1) = "panic%1:12:00::", WordNet(e2) = "aftershock%1:11:00::", Cause-Effect(e2,e1) = "?", Query = "panic from *"
+
+156 "The book has as its backdrop the <e1>political controversy</e1> over <e2>euthanasia</e2> in Australia, where the author is senior lecturer in the Health Law Program."
+WordNet(e1) = "controversy%1:10:00::", WordNet(e2) = "euthanasia%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "controversy over *"
+
+157 "My <e1>sore throat</e1> from <e2>yesterday</e2> has turned into a full-blown cold over night."
+WordNet(e1) = "sore_throat%1:26:00::" , WordNet(e2) = "yesterday%1:28:01::", Cause-Effect(e2,e1) = "?", Query = "sore throat from *"
+
+158 "I'm finding the most <e1>joy</e1> comes from <e2>Asian flavours</e2>; beautiful fresh fish; things that have been marinated; roasted vegetables; meats that intensify in flavour during the cooking process; and dishes made from the most brilliant, fresh, in-season food."
+WordNet(e1) = "joy%1:12:00::", WordNet(e2) = "flavour%1:09:00::", Cause-Effect(e2,e1) = "?", Query = "joy comes from *"
+
+159 "Whilst audio sampled at 8kHz is sufficient for communication, such narrow-band speech does not sound natural, leading to user <e1>frustration</e1> after <e2>prolonged exposure</e2>, and making language learning difficult."
+WordNet(e1) = "frustration%1:12:01::". WordNet(e2) = "exposure%1:26:01::", Cause-Effect(e2,e1) = "?", Query = "frustration after *"
+
+160 "Videotape is a fragile medium subject to damage and <e1>deterioration</e1> from <e2>exposure</e2> to poor environmental conditions and inadequate handling practices."
+WordNet(e1) = "deterioration%1:22:00::", WordNet(e2) = "exposure%1:07:00::", Cause-Effect(e2,e1) = "?", Query = "* from exposure"
+
+161 "Get <e1>neck pain relief</e1> by <e2>easing tension</e2> in the shoulders and upper back."
+WordNet(e1) = "relief%1:12:00::", WordNet(e2) = "tension%1:26:01::", Cause-Effect(e2,e1) = "?", Query = "relief by *"
+
+162 "They're bringing in applications such as catalog management and <e1>order fulfillment</e1> from <e2>vendors</e2>, then laboriously developing and integrating those applications themselves."
+WordNet(e1) = "fulfillment%1:04:00::", WordNet(e2) = "vendor%1:18:00::", Cause-Effect(e2,e1) = "?", Query = "fulfillment from *"
+
+163 "Most of the <e1>taste</e1> of strong onions comes from the <e2>smell</e2>."
+WordNet(e1) = "taste%1:09:02::", WordNet(e2) = "smell%1:09:02::", Cause-Effect(e2,e1) = "?", Query = "* comes from *"
+
+164 "The centre and right images show progressive <e1>shrinkage</e1> after two and four <e2>years</e2>."
+WordNet(e1) = "shrinkage%1:11:00::", WordNet(e2) = "years%1:28:00::", Cause-Effect(e2,e1) = "?", Query = "shrinkage after *"
+
+165 "Surgery is reserved for treating residual disease six to eight <e1>weeks</e1> after <e2>radiation therapy</e2> or for recurrence."
+WordNet(e1) = "week%1:28:00::", WordNet(e2) = "radiation_therapy%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "* after radiation therapy"
+
+166 "While <e1>public drinking</e1> <e2>regulations</e2> varied, some form of the beer parlour became the norm across the country."
+WordNet(e1) = "drinking%1:04:01::", WordNet(e2) = "regulation%1:10:00::", Cause-Effect(e1,e2) = "?", Query = "drinking *"
+
+167 "The <e1>evacuation</e1> after the Chernobyl <e2>accident</e2> was poorly planned and chaotic."
+WordNet(e1) = "evacuation%1:04:01::", WordNet(e2) = "accident%1:11:01::", Cause-Effect(e2,e1) = "?", Query = "evacuation after *"
+
+168 "A cancer survivor writes about the relatively rare occurrence of <e1>calcification</e1> of the breast after <e2>radiation therapy</e2>."
+WordNet(e1) = "calcification%1:22:00::", WordNet(e2) = "radiation_therapy%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "* after radiation therapy"
+
+169 "Losing land to new white settlers, non-payment, past broken treaties, plus food shortages and <e1>famine</e1> following <e2>crop failure</e2> led to great discontent among the Dakota people."
+WordNet(e1) = "famine%1:11:00::", WordNet(e2) = "crop_failure%1:26:00::", Cause-Effect(e2,e1) = "?", Query = "famine following *"
+
+170 "Colorful, almost fat-free <e1>salad dressings</e1> start with <e2>fresh fruit</e2>."
+WordNet(e1) = "salad_dressing%1:13:00::", WordNet(e2) = "fruit%1:20:00::", Cause-Effect(e2,e1) = "?", Query = "* start with *"
+
+171 "Subjects will be secured at all times with a safety harness to prevent <e1>injury</e1> from <e2>falling</e2>."
+WordNet(e1) = "injury%1:26:00::", WordNet(e2) = "?", Cause-Effect(e2,e1) = "?", Query = "injury from *"
+
+172 "Diabetes drug shows promise for preventing <e1>brain injury</e1> from <e2>radiation therapy</e2>."
+WordNet(e1) = "injury%1:26:00::", WordNet(e2) = "radiation_therapy%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "injury from *"
+
+173 "I guess that the <e1>dehydration</e1> from this <e2>morning</e2> and the heat of the sun have made my head go to mush."
+WordNet(e1) = "dehydration%1:26:00::", WordNet(e2) = "morning%1:28:00::", Cause-Effect(e2,e1) = "?", Query = "dehydration from *"
+
+174 "<e1>Entrepreneurship</e1> out of <e2>necessity</e2> is quite common in Europe where 60% of female headed businesses in Northern Europe and 70% in Southern Europe are established for this reason."
+WordNet(e1) = "?", WordNet(e2) = "necessity%1:26:00::", Cause-Effect(e2,e1) = "?", Query = "* out of *"
+
+175 "It has helped to revive a city whose primary natural resource -- its charm -- is constantly threatened with <e1>extinction</e1> from <e2>overdevelopment</e2>."
+WordNet(e1) = "extinction%1:26:01::", WordNet(e2) = "?", Cause-Effect(e2,e1) = "?", Query = "extinction from *"
+
+176 "This year's newest attractions include a dedicated music zone which takes you on a musical journey around the world and gives you a chance to experience <e1>musical ecstasy</e1> from <e2>different cultures</e2>."
+WordNet(e1) = "ecstasy%1:26:00::", WordNet(e2) = "culture%1:14:00::", Cause-Effect(e2,e1) = "?", Query = "ecstasy from *"
+
+177 "I have always drawn <e1>satisfaction</e1> from <e2>exertion</e2>, straining my muscles to their limits."
+WordNet(e1) = "satisfaction%1:12:00::", WordNet(e2) = "exertion%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "satisfaction from *"
+
+178 "Mr C notes <e1>worsening</e1> of seizures and cognition with <e2>sleep deprivation</e2> and stress."
+WordNet(e1) = "worsening%1:04:00::", WordNet(e2) = "sleep_deprivation%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "* with sleep deprivation"
+
+179 "I hear <e1>happiness</e1> from <e2>house painter</e2> Michael Gaul who wrote eloquently in Newsweek last month about the satisfaction he gets from simply painting a house."
+WordNet(e1) = "happiness%1:26:00::", WordNet(e2) = "house_painter%1:18:00::", Cause-Effect(e2,e1) = "?", Query = "happiness from *"
+
+180 "Services include public warehousing, third party distribution, and <e1>order fulfillment</e1> from a <e2>city</e2> in Oregon."
+WordNet(e1) = "fulfillment%1:04:00::", WordNet(e2) = "city%1:15:01::", Cause-Effect(e2,e1) = "?", Query = "fulfillment from *"
+
+181 "Principals respond to a <e1>decrease</e1> in uncertainty with more <e2>aggressive strategies</e2>."
+WordNet(e1) = "decrease%1:11:00::", WordNet(e2) = "strategy%1:09:00::", Cause-Effect(e2,e1) = "?", Query = "decrease in * with *"
+
+182 "His tendency to experience pathological <e1>anxiety</e1> from his <e2>early years</e2> and his tendency to respond to novelty, change, and challenges with an exaggerated anxiety response were noted."
+WordNet(e1) = "anxiety%1:26:00::", WordNet(e2) = "years%1:28:02::", Cause-Effect(e2,e1) = "?", Query = "anxiety from *"
+
+183 "I can already see from their reaction that there is <e1>enthusiasm</e1> for <e2>increased responsibility</e2> and training."
+WordNet(e1) = "enthusiasm%1:12:00::", WordNet(e2) = "responsibility%1:04:00::", Cause-Effect(e1,e2) = "?", Query = "* is for increased *"
+
+184 "The man cannot be too old, in his middle thirties, but his face exhibits more <e1>wrinkles</e1> from <e2>smiling</e2> than I've seen upon the mug of the happiest of grandparents."
+WordNet(e1) = "wrinkle%1:25:00::", WordNet(e2) = "smiling%1:10:00::", Cause-Effect(e2,e1) = "?", Query = "wrinkles from *"
+
+185 "But Hong Kong was able to recover from that and is now experiencing strong <e1>economic growth</e1> from <e2>exports</e2>."
+WordNet(e1) = "economic_growth%1:22:00::", WordNet(e2) = "export%1:06:00::", Cause-Effect(e2,e1) = "?", Query = "growth from *"
+
+186 "Furthermore, pain blocking by this cutaneous stimulus only lasts for a short period of time, whereas it is claimed that the effect of <e1>pain relief</e1> by <e2>acupuncture</e2> lasts for an extended period of time, sometimes months after the needle was removed."
+WordNet(e1) = "relief%1:04:01::", WordNet(e2) = "acupuncture%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "relief through *"
+
+187 "Their retreat was disorderly and confused and much like a flight, the Pallantines hanging on their flanks and rear and doing great <e1>damage</e1> from early <e2>dawn</e2> till evening."
+WordNet(e1) = "damage%1:04:00::", WordNet(e2) = "dawn%1:28:00::", Cause-Effect(e2,e1) = "?", Query = "damage from *"
+
+188 "<e1>Profit</e1> from <e2>sale</e2> of investments may soon be tax-free for general insurers."
+WordNet(e1) = "profit%1:21:00::", WordNet(e2) = "sale%1:04:02::", Cause-Effect(e2,e1) = "?", Query = "profit from *"
+
+189 "Development has not stepped up to offer the housing <e1>vouchers</e1> for poor victims that were so effective in the wake of the Northridge California <e2>quake</e2>."
+WordNet(e1) = "voucher%1:10:00::", WordNet(e2) = "quake%1:11:00::", Cause-Effect(e2,e1) = "?", Query = "* in the wake of *"
+
+190 "Complications from these symptoms can include weight gain from excessive eggnog and chocolate intake, and <e1>sore throat</e1> from excessive <e2>singing</e2>."
+WordNet(e1) = "sore_throat%1:26:00::", WordNet(e2) = "singing%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "sore throat from *"
+
+191 "The pipeline had to face the following main concerns from opposition: disturbance of animal migration patterns, <e1>environmental damage</e1> from <e2>spills</e2>, geological concerns and the Alaskan permafrost."
+WordNet(e1) = "damage%1:11:00::", WordNet(e2) = "spill%1:27:00::", Cause-Effect(e2,e1) = "?", Query = "damage from *"
+
+192 "The tongue has taste buds, but a cat's <e1>appetite</e1> comes from the <e2>smell</e2> of the food and doesn't come from the taste of it."
+WordNet(e1) = "appetite%1:12:00::", WordNet(e2) = "smell%1:09:02::", Cause-Effect(e2,e1) = "?", Query = "* comes from *"
+
+193 "Furthermore, <e1>control</e1> over <e2>agricultural research</e2>, production, distribution and practice is shifting from public institutions to private corporations, which are profit driven and are not motivated by humanitarian concerns."
+WordNet(e1) = "control%1:07:00::", WordNet(e2) = "research%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "control over *"
+
+194 "Children with Asperger's Syndrome often experience <e1>anxiety</e1> from <e2>sensory overload</e2>."
+WordNet(e1) = "anxiety%1:26:00::", WordNet(e2) = "overload%1:06:02::", Cause-Effect(e2,e1) = "?", Query = "anxiety from *"
+
+195 "This strategy may continue to provide the added benefit of enhanced <e1>growth</e1> from <e2>takeovers</e2>, since we anticipate merger activity to remain steady or increase."
+WordNet(e1) = "growth%1:22:02::", WordNet(e2) = "takeover%1:04:01::", Cause-Effect(e2,e1) = "?", Query = "growth from *"
+
+196 "The thing that many people don't know about the liver is that it has no nerve endings, so you would never feel pain directly from the liver, but usually as a result of <e1>inflammation</e1> from the <e2>liver</e2> pressing against other organs and circulation in the abdominal area."
+WordNet(e1) = "inflammation%1:26:00::", WordNet(e2) = "liver%1:08:00::", Cause-Effect(e2,e1) = "?", Query = "inflammation from *"
+
+197 "Sometimes the <e1>blockage</e1> comes from <e2>fear</e2>, as for a CEO who hates public speaking but must give frequent speeches."
+WordNet(e1) = "blockage%1:26:00::", WordNet(e2) = "fear%1:12:00::", Cause-Effect(e2,e1) = "?", Query = "blockage comes from *"
+
+198 "<e1>Progress</e1> comes from <e2>constructive competition</e2>, and churches and religions can benefit greatly from it."
+WordNet(e1) = "progress%1:04:01::", WordNet(e2) = "competition%1:24:01::", Cause-Effect(e2,e1) = "?", Query = "progress comes from *"
+
+199 "Enter the long-term portion of <e1>gains</e1> from <e2>line</e2> 12, column (f), here and include on the appropriate line of Schedule D (see instructions)."
+WordNet(e1) = "gain%1:23:00::", WordNet(e2) = "line%1:10:02::", Cause-Effect(e2,e1) = "?", Query = "gains from *"
+
+200 "Initiated during the early 1990's National Mineral Resource Assessment, this project received a major <e1>boost</e1> from <e2>funding</e2> provided through the 'Data-at-Risk' add-on funding received by the USGS through the fiscal year."
+WordNet(e1) = "boost%1:04:00::", WordNet(e2) = "funding%1:21:00::", Cause-Effect(e2,e1) = "?", Query = "* from funding"
+
+201 "This durable short sleeve crew neck tee shirt is made of preshrunk cotton to minimize <e1>shrinkage</e1> after <e2>washing</e2>."
+WordNet(e1) = "shrinkage%1:11:00::", WordNet(e2) = "washing%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "shrinkage after *"
+
+202 "Any <e1>deformation</e1> from the <e2>circular form</e2> would have a significant effect on the ability of the hose to sustain internal pressure."
+WordNet(e1) = "deformation%1:11:01::", WordNet(e2) = "form%1:03:00::", Cause-Effect(e2,e1) = "?", Query = "deformation from *"
+
+203 "Gradually I proceeded to reflect upon the consequences of Pleyel's mistake, and on the measures I should take to guard myself against future <e1>injury</e1> from that <e2>man</e2>."
+WordNet(e1) = "injury%1:26:00::", WordNet(e2) = "man%1:18:00::", Cause-Effect(e2,e1) = "?", Query = "injury from *"
+
+204 "<e1>Flight disruption</e1> after the <e2>attacks</e2> in the US delayed him there for three days."
+WordNet(e1) = "disruption%1:04:02::", WordNet(e2) = "attack%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "disruption after *"
+
+205 "Most patients reported moderate-to-severe dry mouth, difficulty in swallowing, and <e1>sore throat</e1> from <e2>weeks</e2> through 7."
+WordNet(e1) = "sore_throat%1:26:00::", WordNet(e2) = "week%1:28:00::", Cause-Effect(e2,e1) = "?", Query = "sore throat from *"
+
+206 "After several years of self-observation, Alexander began to teach his method of conscious <e1>inhibition</e1> through <e2>manual facilitated movement</e2>."
+WordNet(e1) = "inhibition%1:04:00::", WordNet(e2) = "movement%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "inhibition through *"
+
+207 "Sparky Anderson is making progress in his <e1>recovery</e1> from <e2>exhaustion</e2> and could return to managing the Detroit Tigers within a week."
+WordNet(e1) = "recovery%1:22:00::", WordNet(e2) = "exhaustion%1:26:00::", Cause-Effect(e2,e1) = "?", Query = "* from exhaustion"
+
+208 "Stadler agrees, stating that <e1>progress</e1> often comes from <e2>unexpected sources</e2>."
+WordNet(e1) = "progress%1:04:01::", WordNet(e2) = "source%1:18:00::", Cause-Effect(e2,e1) = "?", Query = "progress comes from *"
+
+209 "We're not seeing a <e1>panic</e1> from <e2>travelers</e2>, because we've been pretty diligent in telling them for over a year that they need a passport."
+WordNet(e1) = "panic%1:12:00::", WordNet(e2) = "traveler%1:18:00::", Cause-Effect(e2,e1) = "?", Query = "panic from *"
+
+210 "To this end, the government, through the Wildlife Act, created the Endangered Species Conservation Committee (ESCC) to advise the provincial government about what to do with plants and animals that were facing <e1>extinction</e1> from Alberta's <e2>lakes</e2>, rivers, mountains and prairies."
+WordNet(e1) = "extinction%1:26:01::", WordNet(e2) = "lake%1:17:00::", Cause-Effect(e2,e1) = "?", Query = "extinction from *"
+
+211 "I derive tremendous pleasure and <e1>fulfillment</e1> from <e2>teaching</e2>, particularly when I am able to help students understand a previously foreign concept or idea, aid them in seeing a familiar object or event from a new and unusual perspective, guide them with projects they are working on, or encourage the interests they have."
+WordNet(e1) = "fulfillment%1:12:00::", WordNet(e2) = "teaching%1:04:01::", Cause-Effect(e2,e1) = "?", Query = "fulfillment from *"
+
+212 "We planetary citizens have a unique capacity for <e1>ecstasy</e1> from <e2>repetition</e2> especially when it comes from drumming."
+WordNet(e1) = "ecstasy%1:26:00::", WordNet(e2) = "repetition%1:04:00::", Cause-Effect(e2,e1) = "?", Query = "ecstasy from *"
+
+213 "It also includes an automatic purge valve for quick <e1>equalization</e1> after <e2>changes</e2> in atmospheric pressure."
+WordNet(e1) = "equalization%1:04:00::", WordNet(e2) = "change%1:19:00::", Cause-Effect(e2,e1) = "?", Query = "* after changes"
+
+214 "His lung function remained stable after <e1>complete removal</e1> from <e2>exposure</e2> to metalworking fluids."
+WordNet(e1) = "removal%1:04:00::" , WordNet(e2) = "exposure%1:07:00::" , Cause-Effect(e2,e1) = "?", Query = "* from exposure"
+
+215 "It's very rewarding and I get a great deal of enjoyment and <e1>satisfaction</e1> from <e2>mentoring</e2>."
+WordNet(e1) = "satisfaction%1:26:00::", WordNet(e2) = "?", Cause-Effect(e2,e1) = "?", Query = "satisfaction from *"
+
+216 "This work will identify the performance requirements for windows, given the conflict between the need for them to contain passengers during accidents, and their potential role as a means of <e1>evacuation</e1> after <e2>accidents</e2>."
+WordNet(e1) = "evacuation%1:04:01::", WordNet(e2) = "accident%1:11:01::", Cause-Effect(e2,e1) = "?", Query = "evacuation after *"
+
+217 "While we can understand Monaco's <e1>frustration</e1> after <e2>losing</e2> his position after so many years, the fact is that nothing in the record could support drawing an inference that age played any factor in AGAC's decision to terminate his employment."
+WordNet(e1) = "frustration%1:12:00::", WordNet(e2) = "?", Cause-Effect(e2,e1) = "?", Query = "frustration after *"
+
+218 "Commisioner Wilson stated that the Board selected a list of expenditure reduction and <e1>revenue increase</e1> from the <e2>list</e2> attached to staff report."
+WordNet(e1) = "increase%1:11:00::", WordNet(e2) = "list%1:10:00::", Cause-Effect(e2,e1) = "?", Query = "increase from *"
+
+219 "Short-term side effects are uncommon, but include <e1>headache</e1> from <e2>eyestrain</e2>, nausea, agitation or nervousness."
+WordNet(e1) = "headache%1:26:00::", WordNet(e2) = "eyestrain%1:26:00::", Cause-Effect(e2,e1) = "?", Query = "headache from *"
+
+220 "It is a business truism that <e1>improvement</e1> starts with <e2>leadership</e2>, right from the top and driving down throughout the whole organization."
+WordNet(e1) = "improvement%1:11:00::", WordNet(e2) = "leadership%1:14:00::", Cause-Effect(e2,e1) = "?", Query = "* starts with *"
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0168</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-02</TIMEX3></DCT>
+<TEXT>
+ Meridian National Corp. <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE">sold</EVENT> 750,000 shares of its common stock to the McAlpine family interests, for $ 1 million, or $ 1.35 a share.
+ The <EVENT eid="e3" class="OCCURRENCE">sale</EVENT> <EVENT eid="e4" class="OCCURRENCE">represents</EVENT> 10.2 % of Meridian's shares outstanding.
+ The McAlpine family, which <EVENT eid="e5" class="OCCURRENCE">operates</EVENT> a number of multinational companies, including a London-based engineering and construction company, also <EVENT eid="e6" class="OCCURRENCE">lent</EVENT> to Meridian National $ 500,000.
+ That amount is <EVENT eid="e7" class="STATE">convertible</EVENT> into shares of Meridian common stock at $ 2 a share during its <TIMEX3 tid="t8" type="DURATION" value="P1Y" functionInDocument="NONE">one-year term</TIMEX3>.
+ The loan may be <EVENT eid="e9" class="OCCURRENCE">extended</EVENT> by the McAlpine group for <TIMEX3 tid="t10" type="DURATION" value="P1Y" functionInDocument="NONE">an additional year</TIMEX3> with an <EVENT eid="e11" class="OCCURRENCE">increase</EVENT> in the conversion price to $ 2.50 a share.
+ The <EVENT eid="e12" class="OCCURRENCE">sale</EVENT> of shares to the McAlpine family along with the recent <EVENT eid="e13" class="OCCURRENCE">sale</EVENT> of 750,000 shares of Meridian stock to Haden MacLellan Holding PLC of Surrey, England and a recent public <EVENT eid="e14" class="OCCURRENCE">offering</EVENT> have <EVENT eid="e15" class="OCCURRENCE">increased</EVENT> Meridian's net worth to $ 8.5 million, <EVENT eid="e16" class="REPORTING">said</EVENT> William Feniger, chief executive officer of Toledo, Ohio-based Meridian.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="PERFECTIVE" polarity="POS" modality="may" pos="VERB"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToEventInstance="ei1"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei2" relatedToTime="t0"/>
+<TLINK lid="l3" relType="IDENTITY" eventInstanceID="ei3" relatedToEventInstance="ei2"/>
+<TLINK lid="l4" relType="IDENTITY" eventInstanceID="ei3" relatedToEventInstance="ei4"/>
+<TLINK lid="l5" relType="INCLUDES" eventInstanceID="ei5" relatedToTime="t0"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0"/>
+<TLINK lid="l7" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToEventInstance="ei2"/>
+<TLINK lid="l8" relType="IDENTITY" eventInstanceID="ei6" relatedToEventInstance="ei7"/>
+<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToTime="t8"/>
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei9" relatedToTime="t8"/>
+<TLINK lid="l11" relType="SIMULTANEOUS" eventInstanceID="ei9" relatedToTime="t10"/>
+<TLINK lid="l12" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei9"/>
+<TLINK lid="l13" relType="IDENTITY" eventInstanceID="ei12" relatedToEventInstance="ei2"/>
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei13" relatedToEventInstance="ei12"/>
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei14" relatedToTime="t0"/>
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei16" relatedToTime="t0"/>
+</TimeML>

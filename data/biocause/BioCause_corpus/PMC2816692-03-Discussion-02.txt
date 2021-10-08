@@ -1,0 +1,7 @@
+Implications for type III secretion function 
+The interaction between SrcA and SsaN supports an emerging paradigm whereby secretion chaperones bring effector cargo to the T3SS through physical interaction with the hexameric ATPase at the base of the apparatus [14].
+This was demonstrated for chaperone-ATPase components in the flagellar type III system [17] and in non-flagellar type III systems in E. coli [27] and the SPI-1 system in Salmonella [15].
+Our work shows the first chaperone-ATPase interaction for a T3SS functioning from within an intracellular vacuolar compartment and supports this interaction as a more generalize feature of type III secretion function.
+In our experiments, we could induce the ATPase domain of SsaN to oligomerize in the presence of SrcA, but not in its absence, which was intriguing because the purified enzyme lacked a domain at the carboxyl terminus thought to be involved in oligomer stability, at least for E. coli EscN [14].
+These data suggest that type III chaperones might have an as yet undefined role in assembly of the ATPase homohexamer that gives rise to efficient effector translocation.
+This will be an important area for further experimentation in this and other systems.

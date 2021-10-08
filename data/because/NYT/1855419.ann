@@ -1,0 +1,84 @@
+T1	Motivation 41 46	after
+E1	Motivation:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+A2	Temporal E1
+T2	Argument 47 67	their cases go south
+T3	Argument 0 40	People like to gripe about their lawyers
+T4	Motivation 482 485;530 533	The the
+E2	Motivation:T4 Cause:T5 Effect:T6
+A3	Degree E2 Facilitate
+A4	Correlation E2
+T5	Argument 486 515	more I reviewed Abrams's work
+T6	Argument 534 578	more I was disappointed with his performance
+T7	Argument 675 780	trying to protect a reporter, two of his sources, press freedom, the rule of law and a media conglomerate
+T8	NonCausal 781 787	during
+E3	NonCausal:T8 Arg1:T7 Arg0:T9
+A5	Temporal E3
+T9	Argument 788 939	the investigation by a special prosecutor, Patrick J. Fitzgerald, into the disclosure of the identity of Valerie Wilson, an undercover C.I.A. operative
+T10	Motivation 1046 1050	have
+E4	Motivation:T10 Cause:T11 Effect:T12
+A6	Degree E4 Facilitate
+T11	Argument 1041 1045	that
+T12	Argument 1051 1064;1065 1072	media lawyers buzzing
+T13	Argument 952 1039	the book's sharp and sustained attacks on Mr. Abrams, a lion of the legal establishment
+R1	Coref Arg1:T11 Arg2:T13	
+T17	Purpose 2080 2083	for
+E6	Purpose:T17 Effect:T18 Cause:T19
+A8	Degree E6 Facilitate
+T18	Argument 2060 2079	Here I should pause
+T19	Argument 2084 2100	some disclosures
+T20	Motivation 2651 2656	after
+E7	Motivation:T20 Effect:T21 Cause:T22
+A9	Degree E7 Facilitate
+A10	Temporal E7
+T21	Argument 2582 2650	who found himself boxed in by terrible legal and financial pressures
+T22	Argument 2657 2713	the Supreme Court turned down the magazine's last appeal
+T23	Argument 3374 3411	Mr. Pearlstine retired from Time Inc.
+T24	Argument 3427 3439	his decision
+T25	Motivation 3421 3426	after
+E8	Motivation:T25 Effect:T23 Cause:T24
+A11	Degree E8 Facilitate
+A12	Temporal E8
+T26	Purpose 4293 4296	for
+E9	Purpose:T26 Cause:T28 Effect:T27
+A13	Degree E9 Facilitate
+T27	Argument 4275 4292	approach Mr. Rove
+T28	Argument 4297 4341	permission to cooperate in the investigation
+T29	Consequence 5488 5495;5507 5509	allowed to
+E10	Consequence:T29 Cause:T30 Effect:T31
+A14	Degree E10 Facilitate
+T30	Argument 5483 5487	that
+T31	Argument 5496 5506;5510 5517	Mr. Cooper testify
+T32	Argument 5411 5481	a deal with a lawyer for Mr. Cooper's other source, I. Lewis Libby Jr.
+R2	Coref Arg1:T30 Arg2:T32	
+#2	AnnotatorNotes E10	Unclear whether this should be Obligation/Permission.
+T33	NonCausal 5562 5564	as
+E11	NonCausal:T33 Arg1:T34 Arg0:T35
+A15	Temporal E11
+T34	Argument 5520 5550	Mr. Pearlstine switched horses
+T35	Argument 5565 5602	the case approached the Supreme Court
+T36	Purpose 5629 5631	to
+E12	Purpose:T36 Effect:T37 Cause:T38
+A16	Degree E12 Facilitate
+T37	Argument 5604 5628	hiring Theodore B. Olson
+T38	Argument 5632 5655	take Mr. Abrams's place
+T39	Consequence 5688 5690;5693 5699	as result
+E13	Consequence:T39 Effect:T40
+A17	Degree E13 Facilitate
+T40	Argument 5657 5687	Nothing of consequence changed
+T41	NonCausal 5776 5778	as
+E14	NonCausal:T41 Arg1:T42 Arg0:T43
+A18	Temporal E14
+T42	Argument 5716 5770	firing the nation's most famous First Amendment lawyer
+T43	Argument 5779 5834	we were beginning to prepare our Supreme Court petition
+T44	NonCausal 5986 5991	Until
+E15	NonCausal:T44 Arg0:T45
+A19	Temporal E15
+T45	Argument 5992 5995	now
+T14	Note 1149 1151	to
+#1	AnnotatorNotes T14	Seems to be verb argument (what was being worked towards), not purpose of working
+T15	Consequence 4806 4812;4853 4856	blamed for
+E5	Consequence:T15 Effect:T46 Cause:T16
+A7	Degree E5 Facilitate
+T16	Argument 4813 4851	Jim Kelly, then Time's managing editor
+T46	Argument 4857 4878	the magazine's stance

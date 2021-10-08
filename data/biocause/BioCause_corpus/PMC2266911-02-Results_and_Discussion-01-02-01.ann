@@ -1,0 +1,70 @@
+*	Equiv T6 T7
+T54	Process 75 84	Virulence
+T55	Regulation 168 177	regulated
+T56	Binding 528 533	binds
+T57	Gene_expression 945 955	production
+T58	Positive_regulation 1010 1017	induced
+E1	Process:T54 
+E2	Regulation:T55 Theme:E1 Cause:T3
+E3	Binding:T56 Theme:T11
+E4	Gene_expression:T57 Theme:T23
+E5	Gene_expression:T57 Theme:T24
+E6	Positive_regulation:T58 Theme:E4
+E7	Positive_regulation:T58 Theme:E5
+T1	Chemical 51 54	AHL
+T2	Protein 55 59	LuxR
+T3	Two-component-system 181 190	LuxI/LuxR
+T4	Protein 181 185	LuxI
+T5	Protein 186 190	LuxR
+T6	Chemical 296 320	acyl homoserine lactones
+T7	Chemical 322 326	AHLs
+T8	Protein 372 376	LuxR
+T9	Chemical 425 429	AHLs
+T10	Protein 477 481	LuxI
+T11	Protein 523 527	LuxR
+T12	Organism 683 700	Y. enterocolitica
+T13	Two-component-system 756 765	YenI/YenR
+T14	Protein 756 760	YenI
+T15	Protein 761 765	YenR
+T16	Two-component-system 767 780	YE1600/YE1599
+T17	Protein 767 773	YE1600
+T18	Protein 774 780	YE1599
+T19	Chemical 866 878	3-oxo-C6-AHL
+T20	Chemical 883 889	C6-AHL
+T21	Protein 916 920	YenI
+T22	Organism 930 939	Y. pestis
+T23	Protein 959 963	YspI
+T24	Protein 968 972	YspR
+T25	Protein 992 996	YenI
+T26	Protein 1001 1005	YenR
+T27	Chemical 1076 1079	AHL
+T28	Protein 1080 1084	LuxR
+T29	Protein 1096 1102	YE1026
+T30	Chemical 1127 1130	AHL
+T31	Chemical 1198 1202	AHLs
+T32	Protein 1215 1219	YenI
+T33	Organism 1238 1252	P. luminescens
+T34	Chemical 1282 1285	AHL
+T35	Protein 1286 1290	LuxR
+T36	Protein 1307 1314	plu0320
+T37	Protein 1319 1326	plu4562
+T38	Protein 1335 1339	luxI
+T39	Organism 1387 1401	P. luminescens
+T40	Chemical 1427 1430	AHL
+T41	Organism 1584 1603	Salmonella enterica
+T42	Organism 1608 1624	Escherichia coli
+T43	Organism 1656 1673	Y. enterocolitica
+T44	Protein 1695 1701	YE1026
+T45	Organism 1734 1771	Sodalis glossinidius strain morsitans
+T46	Organism 1796 1836	tse tse fly Glossina morsitans morsitans
+T47	Chemical 1867 1870	AHL
+T48	Protein 1871 1875	LuxR
+T49	Protein 1887 1893	SG1740
+T50	Protein 1898 1904	SG0285
+T51	Protein 1913 1917	luxI
+T52	Chemical 1959 1963	AHLs
+T53	Chemical 2074 2078	AHLs
+T59	Span 1221 1357	In the genome of P. luminescens, two genes encoding putative AHL-LuxR-like receptors, plu0320 and plu4562, but no luxI genes are present
+T60	Causality 1368 1386	This suggests that
+E8	Causality:T60 Evidence:T59 Effect:T61
+T61	Span 1387 1624	P. luminescens does not produce its own AHL signalling molecule, but might be able to sense those produced by other bacteria and therefore to detect mixed microbial communities as demonstrated for Salmonella enterica and Escherichia coli

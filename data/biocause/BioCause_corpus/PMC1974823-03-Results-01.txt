@@ -1,0 +1,16 @@
+Results 
+Role of FimR in mfa1 expression The fimA gene is the only gene known to be tightly controlled by the FimS/FimR system.
+It was postulated that the expression of other genes may also be controlled by this two component regulatory system.
+To investigate effects of FimR on expression of the mfa1 gene, an insertional fimR mutant was constructed by allelic replacement.
+Expression of fimA and mfa1 in the fimR- mutant was determined using real-time PCR analysis.
+Statistically significant differences of the level of gene expression in 33277 and the fimR- mutant were calculated by a Student's t-test.
+As shown in Fig. 1a, expression of the fimA gene was abolished in the fimR- mutant strain FRE.
+This result is consistent with previous observations (Hayashi et al., 2000; Nishikawa et al., 2004).
+The striking finding is that expression of the mfa1 gene was also repressed threefold in the fimR- mutant, although not to the degree observed with the fimA expression.
+However, the fimR- mutation had no effect on expression of rgpA, a gene encoding the arginine-specific protease, or the P. gingivalis 16S RNA gene.
+This analysis suggests the FimS/FimR system is required for expression of both major and minor fimbriae.
+To determine production of long (major) and short (minor) fimbriae in the fimR- mutant, western blotting was performed with a polyclonal anti-FimA or anti-Mfa1 antibody to compare fimbrial production in wild-type strain (33277), the fimR- mutant (FRE), the fimA- mutant (FAT) and the mfa1- mutant (MFAE).
+Density of protein bands was determined by UVP Bioimaging System (UVP, CA).
+This analysis revealed that the expression of the fimA and mfa1 genes was consistent at the mRNA level and protein level (Fig. 1b).
+FimA protein was not detectable in the fimR- mutant, while a 50% lower level of Mfa1 protein was found in the fimR- mutant compared with that in wild-type strain 33277.
+Similarly, there was no apparent change in RgpA production in the fimR- mutant, which was detected by anti-RgpA serum.

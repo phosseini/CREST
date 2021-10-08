@@ -1,0 +1,101 @@
+T1	Purpose 718 720	to
+E1	Purpose:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 689 717	he isn't using the telephone
+T3	Argument 721 749	lure clients to his doorstep
+T4	Purpose 1184 1187	for
+E2	Purpose:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+T5	Argument 1188 1210	in-office consultation
+T6	Argument 1116 1182	which refer people to lawyers, usually personal-injury specialists
+T7	Motivation 1214 1218	When
+E3	Motivation:T7 Cause:T8 Effect:T9
+A3	Degree E3 Facilitate
+A4	Temporal E3
+T8	Argument 1219 1269	a caller reaches Telelawyer by dialing 900-TELELAW
+T9	Argument 1271 1325	a receptionist refers the call to one of six attorneys
+T10	Purpose 1327 1329;1333 1342	In effort to
+E4	Purpose:T10 Cause:T11 Effect:T12
+A5	Degree E4 Facilitate
+T11	Argument 1343 1387	determine whether a caller has reason to sue
+T12	Argument 1389 1517	Cane lawyers review documents and perform research, if necessary, with the help of three law clerks and several support staffers
+T13	Motivation 1374 1383	reason to
+E5	Motivation:T13 Effect:T14
+A6	Degree E5 Facilitate
+T14	Argument 1384 1387	sue
+T15	Motivation 1441 1443	if
+E6	Motivation:T15 Cause:T16 Effect:T17
+A7	Degree E6 Facilitate
+A8	Hypothetical E6
+T16	Argument 1444 1453	necessary
+T17	Argument 1389 1401;1423 1439;1455 1517	Cane lawyers perform research with the help of three law clerks and several support staffers
+T18	Motivation 1582 1584	If
+E7	Motivation:T18 Cause:T19 Effect:T20
+A9	Degree E7 Facilitate
+A10	Hypothetical E7
+T19	Argument 1585 1637	the matter requires further legal work or litigation
+T20	Argument 1654 1700	his lawyers may refer the client to a law firm
+T24	Consequence 2630 2636	led to
+E8	Consequence:T24 Cause:T25 Effect:T27
+A11	Degree E8 Facilitate
+T25	Argument 2614 2618	that
+T26	Argument 2587 2613	political-corruption cases
+R1	Coref Arg1:T25 Arg2:T26	
+T27	Argument 2637 2647	its demise
+T28	Purpose 3685 3687	to
+E9	Purpose:T28 Cause:T29 Effect:T30
+A12	Degree E9 Facilitate
+T29	Argument 3688 3703	form a new firm
+T30	Argument 3646 3684	FIVE SHEA & GOULD PARTNERS are leaving
+T31	Motivation 4152 4159	because
+E10	Motivation:T31 Effect:T32 Cause:T33
+A13	Degree E10 Facilitate
+T32	Argument 4136 4151	they're leaving
+T33	Argument 4160 4241	they wanted a different environment -- a smaller firm they would be principals of
+T34	NonCausal 4433 4439	during
+E11	NonCausal:T34 Arg0:T35 Arg1:T36
+A14	Temporal E11
+T35	Argument 4440 4458	the past few weeks
+T36	Argument 4368 4432	Shea & Gould held a number of discussions with the five partners
+T37	Purpose 4459 4461	to
+E12	Purpose:T37 Cause:T38 Effect:T39
+A15	Degree E12 Facilitate
+T38	Argument 4462 4478	get them to stay
+T39	Argument 4368 4458	Shea & Gould held a number of discussions with the five partners during the past few weeks
+T40	Motivation 4877 4881	once
+E13	Motivation:T40 Cause:T41 Effect:T42
+A16	Degree E13 Facilitate
+A17	Temporal E13
+T41	Argument 4882 4929	a formal complaint is filed against an attorney
+T42	Argument 4849 4876	the public will be notified
+T43	Consequence 5221 5226	allow
+E14	Consequence:T43 Cause:T44 Effect:T46
+A18	Degree E14 Facilitate
+A19	Obligation-permission E14
+T44	Argument 5216 5220	that
+T45	Argument 5200 5215	36 other states
+R2	Coref Arg1:T44 Arg2:T45	
+T46	Argument 5227 5284	public participation in attorney-disciplinary proceedings
+T47	Consequence 5505 5512	because
+E15	Consequence:T47 Effect:T48 Cause:T49
+A20	Degree E15 Facilitate
+T48	Argument 5458 5504	non-lawyers shouldn't be on the inquiry panels
+T49	Argument 5513 5589	they are unlikely to appreciate the nuances of attorney-client relationships
+T50	Motivation 6111 6125	in the wake of
+E16	Motivation:T50 Cause:T51 Effect:T52
+A21	Degree E16 Facilitate
+T51	Argument 6126 6183	the firm's guilty plea to federal insider-trading charges
+T52	Argument 6092 6110	settle with Drexel
+T53	Consequence 6290 6295;6299 6301	allow to
+E17	Consequence:T53 Effect:T54 Cause:T55
+A22	Degree E17 Facilitate
+A23	Obligation-permission E17
+T54	Argument 6296 6298;6302 6367	it operate freely nationwide despite its record as an admitted felon
+T55	Argument 6279 6283	that
+T56	Argument 6267 6278	settlements
+R3	Coref Arg1:T55 Arg2:T56	
+T57	Purpose 6427 6429	to
+E18	Purpose:T57 Cause:T58 Effect:T59
+A24	Degree E18 Facilitate
+T58	Argument 6430 6448	settle with states
+T59	Argument 6401 6426	pay $11.5 million overall

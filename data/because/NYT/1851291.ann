@@ -1,0 +1,103 @@
+T4	Motivation 361 363	as
+E2	Motivation:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+T5	Argument 364 452	he might one day be responsible for making the most important decisions for this country
+T7	NonCausal 509 513	when
+E3	NonCausal:T7 Arg0:T8 Arg1:T9
+A3	Context E3
+T8	Argument 514 602	it comes to decisions about our health, national security, economic policy and education
+T9	Argument 455 508	We can only hope that he chooses to believe the facts
+T6	Argument 298 359	I find his pick-and-choose approach to science very worrisome
+T10	Motivation 605 607	As
+E4	Motivation:T10 Cause:T11 Effect:T12
+A4	Degree E4 Facilitate
+T11	Argument 608 701	science has yet to prove or disprove the existence of a divine power, and probably never will
+T12	Argument 703 811	I will use my gift of reason, be it from God or evolutionary serendipity, to inform my beliefs and decisions
+T16	NonCausal 956 960	when
+E6	NonCausal:T16 Arg0:T17 Arg1:T18
+T17	Argument 961 1033	he writes that we should not ``drive a wedge between faith and reason.''
+T18	Argument 879 941	There is much to agree with in Senator Sam Brownback's article
+T19	Motivation 1106 1110	when
+E7	Motivation:T19 Effect:T20 Cause:T21
+A7	Degree E7 Facilitate
+T20	Argument 1069 1105	``firmly reject'' aspects of science
+A8	Context E7
+T21	Argument 1111 1155	they are inconsistent with religious beliefs
+T22	Purpose 1288 1290	To
+E8	Purpose:T22 Cause:T23 Effect:T24
+A9	Degree E8 Facilitate
+T23	Argument 1291 1341	thrive in our science and technology-based society
+T24	Argument 1343 1411	people really can't pick and choose which scientific facts to accept
+T28	Consequence 1715 1720	since
+E10	Consequence:T28 Cause:T29 Effect:T30
+A12	Degree E10 Facilitate
+T29	Argument 1721 1753	they deal with different domains
+T30	Argument 1650 1713	religion should not be substituted for science, nor the reverse
+T31	Motivation 2110 2121	necessitate
+E11	Motivation:T31 Cause:T32 Effect:T33
+A13	Degree E11 Facilitate
+T32	Argument 2061 2100	an appreciation of biological evolution
+T33	Argument 2122 2176	a completely materialistic and deterministic worldview
+T38	Consequence 2712 2718;2725 2727	forces to
+E13	Consequence:T38 Cause:T39 Effect:T40
+A15	Degree E13 Facilitate
+T39	Argument 2694 2711	Senator Brownback
+T40	Argument 2719 2724;2728 2771	there be a contradiction between faith and reason
+T41	Motivation 3304 3309	given
+E14	Motivation:T41 Cause:T42 Effect:T43
+A17	Degree E14 Facilitate
+T42	Argument 3310 3371	his assertion that these are not mutually exclusive positions
+T43	Argument 3173 3303	I can't help but feel that he did not truthfully answer the question posed in the first Republican presidential candidates' debate
+T44	Consequence 3447 3449	if
+E15	Consequence:T44 Effect:T46 Cause:T45
+A19	Hypothetical E15
+T45	Argument 3450 3457;3483 3580	he felt that the question was intended to force the candidates to elevate faith over reason or vice versa
+T46	Argument 3393 3446	he should have challenged the premise of the question
+T47	Consequence 3517 3522;3538 3540	force to
+E16	Consequence:T47 Effect:T48 Cause:T25
+A20	Degree E16 Facilitate
+T48	Argument 3523 3537;3541 3580	the candidates elevate faith over reason or vice versa
+T49	Purpose 4201 4203	to
+E17	Purpose:T49 Effect:T50 Cause:T51
+A22	Degree E17 Facilitate
+T50	Argument 4164 4200	scientists use the scientific method
+T51	Argument 4204 4245	override preconceived notions and beliefs
+T52	Consequence 4318 4324	unless
+E18	Consequence:T52 Effect:T53 Cause:T54
+A23	Degree E18 Inhibit
+T53	Argument 4292 4317	Science cannot do its job
+T54	Argument 4325 4378	the dichotomy between faith and science is recognized
+T60	Consequence 5168 5173;5177 5179	force to
+E21	Consequence:T60 Cause:T61 Effect:T62
+A25	Degree E21 Facilitate
+T61	Argument 5136 5139	God
+T62	Argument 5174 5176;5180 5280	us close our eyes to what we see in deference to what another may choose to believe is his guiding hand
+T63	Purpose 5822 5824	to
+E22	Purpose:T63 Cause:T64 Effect:T65
+A27	Degree E22 Facilitate
+T64	Argument 5825 5878	safeguard humanity from science-based ethical systems
+T65	Argument 5752 5821	we must also recover the perennial wisdoms of philosophy and theology
+T66	NonCausal 5881 5886	While
+E23	NonCausal:T66 Arg0:T67 Arg1:T68
+A28	Temporal E23
+T67	Argument 5887 5943	Al Gore is lamenting the loss of reason in American life
+T68	Argument 5945 6029	his former colleague in the Senate is doing an admirable job of trying to recover it
+T69	Motivation 6167 6177	as long as
+E24	Motivation:T69 Effect:T70 Cause:T71
+A29	Degree E24 Facilitate
+A30	Hypothetical E24
+T70	Argument 6111 6166	Senator Sam Brownback is in favor of scientific inquiry
+T71	Argument 6178 6228	it does not speak to questions of ultimate meaning
+A10	Degree E15 Facilitate
+T25	Argument 3488 3500	the question
+T77	Consequence 2587 2593	causes
+E26	Consequence:T77 Effect:T78
+A31	Degree E26 Facilitate
+T78	Note 2583 2586	its
+T1	Motivation 5210 5212	in
+E1	Motivation:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 5180 5209	close our eyes to what we see
+T3	Argument 5213 5280	deference to what another may choose to believe is his guiding hand
+A5	Context E6
+#1	AnnotatorNotes T78	Irritating that we have to grab the whole token here

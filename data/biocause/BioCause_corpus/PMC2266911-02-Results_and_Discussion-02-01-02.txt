@@ -1,0 +1,17 @@
+Hemolysins or hemagglutinin-related proteins 
+These extracellular toxins target red blood cells to provide access to iron, but often show activity against immune cells, thus contributing to the bacterial response to the immune system of hosts, including phagocytosis by insect blood cells [64].
+Hemolysins or surface-associated adhesins, together with their transporters, are sometimes organized as two-partner secretion (TPS) systems, a specialized mechanism for the delivery of large exoproteins [65].
+TPS systems have been characterized mainly in pathogenic bacteria, but are also present in other microorganisms.
+P. luminescens and Y. enterocolitica TPS systems include the calcium-independent hemolysin PhlA that is transported through the outer membrane and activated by PhlB.
+Remarkably, their expression is induced by low iron concentration as encountered in the insect host, and phlA/phlB are up-regulated at 18degreesC compared to 28degreesC in Y. ruckeri [66].
+Eight other TPS systems are present in P. luminescens, namely Plu0225/Plu0226, Plu0548/Plu0549, Plu1149/Plu1150, Plu1367/Plu1368, Plu3064/Plu3065, Plu3125-3127/3128, Plu3667/Plu3668, and Plu3718/Plu3719, and further three genes for which the partner locus has not been identified (Fig. 4).
+In the genome of Y. enterocolitica, only three complete TPS systems are present, namely YE0479/YE0480, YE2407/YE2408, (YE4084)YE4085/YE4086, and YE3454 which lacks the activator partner.
+Except YE0479/YE0480, all have counterparts in the P. luminescens genome.
+Recently, we have shown that a luciferase reporter insertion into YE0480 is induced at low temperature [67], indicating that this TPS system might contribute to insect pathogenicity and possibly to the host-specificity of Y. enterocolitica.
+The genomes of both pathogens also carry three and five, respectively, further hemolysin/hemagglutinin-related proteins which are absent in the other pathogen (Fig. 4).
+FhaC which belongs to a family of hemolysin activator proteins related to ShlA from Serratia marcescens is present in both pathogens and also induced at low temperature [67].
+The genome sequence of P. luminescens exhibits more toxin genes than found in any other bacterial genome sequenced yet, including the genome of Y. enterocolitica.
+Hemolysin-related factors and their transporters discussed above are an example for this redundancy.
+However, the majority of these P. luminescens toxins exhibit highly significant similarities to those of Y. enterocolitica, suggesting common progenitors of hemolysins.
+It is therefore tempting to speculate that hemolytic activities of bacteria had been evolved during the association with insects and then adapted to mammalian hosts.
+Although it can not be excluded that the hemolysins of Y. enterocolitica act on the immune systems of both the insect and the mammalian host, the genetic overlap of this group of virulence factor between both pathogens, and the low-temperature expression of YE0479/YE0480 and fhaC, indicates the presence of insect-specific hemolysins in the genome of Y. enterocolitica.

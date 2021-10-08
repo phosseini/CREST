@@ -1,0 +1,56 @@
+T1	Organism 21 26	H37Ra
+T2	Organism 53 58	Mouse
+T3	Organism 120 125	H37Ra
+T4	Organism 187 231	severe combined immuno-deficient (SCID) mice
+T5	Organism 252 257	H37Ra
+T6	Protein 267 271	PhoP
+T7	Organism 321 332	H37Ra::phoP
+T8	Protein 328 332	phoP
+T9	Organism 357 362	H37Ra
+T10	Organism 518 523	H37Ra
+T11	Protein 546 551	fadE5
+T12	Protein 566 570	rpsL
+T13	Protein 651 655	phoP
+T14	Organism 725 730	H37Rv
+T15	Organism 940 945	mouse
+T16	Protein 992 996	phoP
+T17	Organism 1086 1091	H37Ra
+T18	Process 0 9	Virulence
+T19	Process 174 183	infection
+T20	Positive_regulation 290 299	increased
+T21	Process 304 313	virulence
+T22	Regulation 474 481	effects
+T23	Process 489 498	virulence
+T24	Positive_regulation 664 671	restore
+T25	Process 682 691	virulence
+T26	Process 902 911	infection
+T27	Process 946 955	infection
+E1	Process:T18 Participant:T1
+E2	Process:T19 Participant:T3
+E3	Positive_regulation:T20 Theme:E5
+E4	Process:T21 Participant:T9
+E5	Process:T21 Participant:T7
+E6	Regulation:T22 Theme:E7
+M1	Negation E6
+E7	Process:T23 Participant:T10
+E8	Positive_regulation:T24 Theme:E10
+E9	Process:T25 Participant:T14
+E10	Process:T25 Participant:T10
+E11	Process:T26 
+E12	Process:T27 Participant:T17
+T28	Span 233 362	Complementation of H37Ra with the PhoP-expressing cosmid increased the virulence of the H37Ra::phoP recombinant relative to H37Ra
+T29	Causality 364 376	resulting in
+E13	Causality:T29 Evidence:T28 Effect:T30
+T30	Span 377 456	a 1.0 log and 0.5 log increase in CFU number in lungs and spleens, respectively
+T31	Span 458 512	In contrast, no effects on the virulence were observed
+T32	Causality 513 517	when
+E14	Causality:T32 Effect:T31 Evidence:T33
+T33	Span 518 570	H37Ra was complemented with fadE5 (Figure 2) or rpsL
+T34	Span 600 730	as already observed in macrophages, integration of phoP did not restore levels of virulence to those of the reference strain H37Rv
+T35	Causality 591 598	However
+E15	Causality:T35 Effect:T34 Evidence:T28
+T36	Span 859 955	Together with the data from the macrophage infection assay, the results from the mouse infection
+T37	Causality 956 965	show that
+E16	Causality:T37 Evidence:T36 Effect:T38
+T38	Span 966 1098	the S219L mutation in the phoP gene definitely represents one genetic lesion that contributed to the attenuation of the H37Ra strain
+#1	AnnotatorNotes E15	not sure

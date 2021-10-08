@@ -1,0 +1,12 @@
+Sugars that induce the Mlc regulon repress hilD expression by activating hilE 
+Sequestration of Mlc by the unphosphorylated form of glucose permease, enzyme IICBGlc, is known to displace Mlc from its DNA-binding sites, thereby allowing transcription of its target genes (25-27).
+The Mlc regulon can be induced by glucose and, to a lesser extent, by mannose (39).
+The effects of various carbon sources on the expression of hilE and hilD were studied with two Mlc regulon-inducing sugars, glucose and mannose, and two Mlc regulon-non-inducing carbohydrates, arabinose and glycerol.
+SL1344 and SR1304 carrying either pMAB69 (hilE-lacZY) or pJB5 (hilD-lacZY) were cultivated in TB that was buffered to pH 7.0 with 0.1M MOPS, to minimize pH effects arising from growth in the presence of the various carbon sources.
+In the wild-type strain, glucose and mannose increased hilE expression 2-fold and hilE activation reduced hilD expression (Figure 6).
+The expression levels of hilE and hilD remained almost unaffected in the presence of glycerol.
+Interestingly, arabinose also activated hilE, albeit to a lesser degree than either glucose or mannose.
+Nevertheless, this caused a minute increase in hilD expression.
+In the absence of sugars, the mlc mutation increased hilE expression 1.5-fold, with a concomitant reduction in hilD expression.
+On the other hand, the expression in SR1304 of both hilE and hilD was increased in the presence of glucose, mannose or arabinose.
+These results imply that multiple regulatory pathways are involved in the regulation of hilE and hilD by carbohydrates.

@@ -1,0 +1,31 @@
+T14	Process 0 9	Virulence
+T15	Process 39 48	virulence
+T16	Process 93 102	infection
+T17	Process 287 296	virulence
+T18	Process 2038 2047	infection
+E1	Process:T14 
+E2	Process:T15 
+E3	Process:T16 
+E4	Process:T17 
+E5	Process:T18 Participant:T13
+T1	Organism 455 469	P. luminescens
+T2	Organism 532 540	Yersinia
+T3	Organism 594 614	Serratia entomophila
+T4	Organism 619 643	Xenorhabdus nematophilus
+T5	Protein 810 814	TccC
+T6	Organism 1205 1222	Y. enterocolitica
+T7	Protein 1467 1471	tccC
+T8	Organism 1509 1538	Y. pseudotuberculosis IP32953
+T9	Organism 1543 1556	Y. pestis KIM
+T10	Organism 1561 1575	P. luminescens
+T11	Organism 1836 1850	P. luminescens
+T12	Organism 2018 2032	P. luminescens
+T13	Organism 2121 2138	Y. enterocolitica
+T19	Span 1202 1351	In Y. enterocolitica, the insecticidal toxin genes are located on a distinct genomic island termed tc-PAIYe of 21 kb, and are low-temperature induced
+T20	Span 1358 1556	imilar islands in which regulatory genes are followed by three tca genes, phage-related genes and one or two tccC genes, are present in the genomes of Y. pseudotuberculosis IP32953 and Y. pestis KIM
+T21	Span 1558 1770	In P. luminescens, the insecticidal genes are organized in the tcd island harbouring nine tcd- and tcc-like genes and several non tc-like genes, while further nine tcc-like genes are scattered over the chromosome
+T22	Causality 1777 1791	The reason for
+E6	Causality:T22 Evidence:T23 Effect:T21
+T23	Span 1792 2138	the over-represence of tc-like genes in the P. luminescens genome might reflect the different strategies followed by both bacteria within insects, namely the rapid killing for exploiting the victim as a food source in case of P. luminescens, and infection of and persistance within the invertebrate host as possibly preferred by Y. enterocolitica
+E7	Causality:T22 Evidence:T23 Effect:T20
+E8	Causality:T22 Evidence:T23 Effect:T19

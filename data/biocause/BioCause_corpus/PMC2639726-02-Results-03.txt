@@ -1,0 +1,17 @@
+Transcription profiling of avirulent strains 
+Because some of the Typhimurium regulator mutants survived so poorly within macrophages that preparing mRNA from intracellular bacteria was not possible we have used in vitro growth conditions that duplicate some of the intracellular conditions (low pH, minimal media; [47],[48]).
+The 14 virulence regulators, whose absence was identified by attenuated virulence in vivo in this study, presumably sense specific environmental signals within the host and respond by expressing the appropriate complement of virulence factors.
+However the specific environmental signals are not known and therefore each strain was grown in four different conditions; to log phase or stationary phase in Luria-Bertani (LB) broth and in a low pH/low magnesium, minimal medium [47],[48].
+Two different minimal media conditions were used depending only on pre-growth conditions as described in the Materials and Methods (called acidic minimal media (AMM)1 and AMM2 here); these conditions are identical to conditions previously reported for expression of SPI-2; [47],[48].
+The fate of intracellular Typhimurium is determined by pre-growth conditions prior to macrophage infection and for that reason we used both conditions AMM1 and 2 [49].
+To identify global transcriptional changes for each regulator, mRNAs were isolated from each strain grown under the four conditions, converted to cDNA, and used to probe a spotted non-redundant pan-Salmonella orf microarray using hybridization of total genomic Salmonella DNA as an internal control [50].
+Each microarray was probed with RNA from the parent or an isogenic deletion of one of the regulator mutants prepared from bacterial cells grown under one of the four conditions.
+In all there were 4 biological replicates of the parent strain but one for each mutant under each growth condition.
+Transcriptional profiles were significantly different from the parent for known virulence factors required during systemic infection, but only if cells were grown in acidic minimal media (AMM1 or AMM2; see Figure 3; complete microarray data available at http://www.ohsu.edu/microbiology/heffron/r01.html).
+Z-scores ((score-mean)/standard deviation) were computed for each gene in the Typhimurium genome in each mutant background under each growth condition (Table S2).
+Statistical analysis of the complete transcriptional data for gene expression in AMM1 identified at least 237 genes that were reduced 4-fold or more in common comparing the mutations to the parent strain (at least 3 standard deviation based on the technical replicates).
+Because transcription is reduced in the mutant compared to the parent, it suggests that normally the regulator activates transcription of these genes as is shown dramatically in Figure 3 for all SPI-2 encoded virulence genes.
+Conversely, only 45 genes showed a 4-fold or more up-regulation in the mutant backgrounds when cells were prepared under the same growth condition, suggesting that the regulator normally represses these genes.
+A more precise statistical analysis of genes that are co-regulated with SPI-2 is provided below (Table 2).
+All in all, these results suggest that the normal function of each of the 14 regulators is to activate transcription of virulence factors necessary for systemic infection but only under specific environmental conditions.
+Acidic minimal media (AMM1) provides the best induction condition of those that were examined.

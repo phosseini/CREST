@@ -1,0 +1,35 @@
+T1	Consequence 381 387	caused
+E1	Consequence:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 376 380	what
+T3	Argument 388 481	the explosions and fires, which sent columns of heavy black smoke billowing high into the air
+T4	Purpose 671 673	to
+E2	Purpose:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+T5	Argument 559 670	Glenn Cox, Phillips' president and chief operating officer, and other Phillips officials flew from Bartlesville
+T6	Argument 674 743	assess the damage and determine the cause of the afternoon explosions
+T7	Consequence 710 715	cause
+E3	Consequence:T7 Effect:T8
+A3	Degree E3 Facilitate
+T8	Argument 719 743	the afternoon explosions
+T9	Motivation 1096 1103	because
+E4	Motivation:T9 Cause:T10 Effect:T11
+A4	Degree E4 Facilitate
+T10	Argument 1104 1144	the thick, black smoke obscured the area
+T11	Argument 986 1094	The U.S. Coast Guard closed six miles of the Houston Ship Channel, where about 150 companies have operations
+T12	Consequence 1246 1254	hindered
+E5	Consequence:T12 Cause:T13 Effect:T14
+A5	Degree E5 Inhibit
+T13	Argument 1213 1245	Broken water lines and gas leaks
+T14	Argument 1255 1276	firefighters' efforts
+T18	Consequence 1784 1788	from
+E7	Consequence:T18 Effect:T19 Cause:T20
+A7	Degree E7 Facilitate
+T19	Argument 1779 1783	cuts
+T20	Argument 1789 1801	flying glass
+T21	Consequence 2107 2112	after
+E8	Consequence:T21 Cause:T22 Effect:T23
+A8	Degree E8 Facilitate
+A9	Temporal E8
+T22	Argument 2113 2180	an explosion at a fuel supply line near the facility's boiler house
+T23	Argument 2041 2106	four contract workers were injured and one Phillips employee died

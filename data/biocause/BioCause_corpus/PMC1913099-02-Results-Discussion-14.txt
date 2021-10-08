@@ -1,0 +1,13 @@
+Concluding Remarks 
+Although GenomeCrawler improves bacterial array analyses, it has limitations: it cannot identify regulons comprising genes dispersed throughout the genome by virtue of its design, it does not specifically interrogate single-gene operons, and it only applies to genomes with available and accurate experimental information (expression data and gene annotations).
+We recognize that incorporating intergenic distance and transcription direction into the algorithms would reduce processing time.
+Adding available clusters of orthologous groups (COG) information into a downstream processing step could decrease errors by minimizing clustering of unrelated genes.
+Nonetheless, neighbor clustering provided a more comprehensive view of the transcriptome of group A streptococci during adherence to human pharyngeal cells, a critical step in the infection program of this organism.
+We found that even a rigorous statistical analysis of well-replicated microarray data produced a dataset that was somewhat limited, although certainly more informative than assigning arbitrary thresholds for significance.
+As described in other microarray reports, we had initially identified a number of incomplete biological pathways in which we did not detect the differential expression of a number of known pathway members.
+Neighbor clustering was able to extend the results by identifying more differentially expressed genes and reconstructing more intact biological pathways.
+Neighbor clustering, despite the statistical framework with which it assigns groupings, would be valuable to microarray data analysis only if it produced biologically relevant data.
+Although biological testing of every identified gene or cluster is unrealistic, we provided evidence, through the creation and testing of isogenic deletion mutants and through the identification of clusters of known, functionally related genes from a published streptococcal array study, that the algorithms produce results that are pertinent to the biology of streptococci.
+This may be of particular importance for data in which the relationship between clustered genes is not obvious, and may facilitate the organization of larger datasets into more meaningful packages.
+It is also possible that GenomeCrawler (in its current form) could be used to interrogate intergenic portions of the genome (such as those encoding small noncoding RNAs or sRNAs), if probes representing such regions were included on the microarray, and experimental conditions were designed to promote their differential expression.
+Finally, because of the common architecture of bacterial chromosomes, the neighbor clustering algorithms may be applicable to microarray datasets from other prokaryotes.

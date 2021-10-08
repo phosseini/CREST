@@ -1,0 +1,104 @@
+T1	Organism 0 26	Mycobacterium tuberculosis
+T2	Protein 52 58	Rv2623
+T3	Chemical 89 92	ATP
+T4	Organism 328 354	Mycobacterium tuberculosis
+T5	Protein 395 401	rv2623
+T6	Organism 451 468	tubercle bacillus
+T7	Protein 569 575	rv2623
+T8	Organism 593 608	M. tuberculosis
+T9	Organism 730 734	mice
+T10	Protein 803 809	Rv2623
+T11	Organism 862 885	Rv2623-deficient mutant
+T12	Protein 862 868	Rv2623
+T13	Organism 938 949	guinea pigs
+T14	Organism 954 958	mice
+T15	Protein 1140 1146	rv2623
+T16	Protein 1222 1228	Rv2623
+T17	Chemical 1273 1276	ATP
+T18	Protein 1335 1341	Rv2623
+T19	Chemical 1350 1353	ATP
+T20	Protein 1429 1435	Rv2623
+T21	Chemical 1457 1460	ATP
+T22	Organism 1491 1503	mycobacteria
+T23	Protein 1590 1596	Rv2623
+T24	Chemical 1633 1636	ATP
+T25	Organism 1677 1692	M. tuberculosis
+T26	Protein 1693 1699	Rv2623
+T27	Protein 1761 1767	Rv2623
+T28	Organism 1801 1818	tubercle bacillus
+T29	Protein 1886 1892	Rv2623
+T30	Chemical 1899 1902	ATP
+T31	Chemical 1976 1979	ATP
+T32	Protein 2014 2020	Rv2623
+T33	Chemical 2040 2043	ATP
+T34	Binding 93 100	Binding
+T35	Positive_regulation 428 435	induced
+T36	Positive_regulation 556 565	Induction
+T37	Process 925 934	infection
+T38	Gene_expression 1122 1136	overexpression
+T39	Binding 1267 1272	binds
+T40	Binding 1342 1349	engages
+T41	Binding 1461 1468	binding
+T42	Binding 1628 1632	bind
+T43	Positive_regulation 1771 1779	required
+T44	Process 1845 1854	infection
+T45	Binding 1893 1898	binds
+T46	Positive_regulation 2044 2053	dependent
+E1	Binding:T34 Theme1:T2 Theme2:T3
+E2	Positive_regulation:T35 Theme:T5
+E3	Positive_regulation:T36 Theme:T7
+E4	Process:T37 Participant:T11
+E5	Gene_expression:T38 Theme:T15
+E6	Binding:T39 Theme1:T16 Theme2:T17
+E7	Binding:T40 Theme1:T18 Theme2:T19
+E8	Binding:T41 Theme:T21
+E9	Binding:T42 Theme1:T23 Theme2:T24
+E10	Positive_regulation:T43 Theme:E11 Cause:T27
+E11	Process:T44 Participant:T28
+E12	Binding:T45 Theme1:T29 Theme2:T30
+E13	Positive_regulation:T46 Theme:T32 Cause:T33
+M1	Speculation E13
+T47	Span 556 587	Induction of rv2623 also occurs
+T48	Causality 588 592	when
+E14	Causality:T48 Evidence:T49 Effect:T47
+T49	Span 593 760	M. tuberculosis encounters conditions associated with growth arrest, such as the intracellular milieu of macrophages and in the lungs of mice with chronic tuberculosis
+T50	Span 859 958	an Rv2623-deficient mutant fails to establish chronic tuberculous infection in guinea pigs and mice
+T51	Causality 842 858	We observed that
+E15	Causality:T51 Effect:T52 Evidence:T50
+T52	Span 960 1054	exhibiting a hypervirulence phenotype associated with increased bacterial burden and mortality
+T53	Span 842 1054	We observed that an Rv2623-deficient mutant fails to establish chronic tuberculous infection in guinea pigs and mice, exhibiting a hypervirulence phenotype associated with increased bacterial burden and mortality
+T54	Causality 1056 1076	Consistent with this
+E16	Causality:T54 Effect:T55 Evidence:T53
+T55	Span 1077 1187	in vivo growth-regulatory role, constitutive overexpression of rv2623 attenuates mycobacterial growth in vitro
+T56	Span 1189 1228	Biochemical analysis of purified Rv2623
+T57	Causality 1229 1243	suggested that
+E17	Causality:T57 Effect:T58 Evidence:T56
+T58	Span 1244 1276	this mycobacterial USP binds ATP
+T59	Span 1282 1320	the 2.9-A-resolution crystal structure
+T60	Causality 1321 1334	revealed that
+E18	Causality:T60 Effect:T61 Evidence:T59
+T61	Span 1335 1390	Rv2623 engages ATP in a novel nucleotide-binding pocket
+T62	Span 1392 1420	Structure-guided mutagenesis
+T63	Causality 1421 1428	yielded
+E19	Causality:T63 Effect:T64 Evidence:T62
+T64	Span 1429 1477	Rv2623 mutants with reduced ATP-binding capacity
+T65	Span 1479 1532	Analysis of mycobacteria overexpressing these mutants
+T66	Causality 1533 1546	revealed that
+E20	Causality:T66 Effect:T67 Evidence:T65
+T67	Span 1547 1636	the in vitro growth-inhibitory property of Rv2623 correlates with its ability to bind ATP
+T68	Causality 1648 1673	the results indicate that
+E21	Causality:T68 Evidence:T53 Effect:T69
+T69	Span 1677 1751	M. tuberculosis Rv2623 regulates mycobacterial growth in vitro and in vivo
+T70	Span 1056 1187	Consistent with this in vivo growth-regulatory role, constitutive overexpression of rv2623 attenuates mycobacterial growth in vitro
+T71	Span 1189 1390	Biochemical analysis of purified Rv2623 suggested that this mycobacterial USP binds ATP, and the 2.9-A-resolution crystal structure revealed that Rv2623 engages ATP in a novel nucleotide-binding pocket
+T72	Span 1761 1866	Rv2623 is required for the entry of the tubercle bacillus into the chronic phase of infection in the host
+E22	Causality:T68 Effect:T69 Evidence:T70
+T73	Span 1886 1996	Rv2623 binds ATP; and iv) the growth-regulatory attribute of this USP is dependent on its ATP-binding activity
+T74	Span 1479 1636	Analysis of mycobacteria overexpressing these mutants revealed that the in vitro growth-inhibitory property of Rv2623 correlates with its ability to bind ATP
+E23	Causality:T68 Evidence:T53 Effect:T73
+E24	Causality:T68 Effect:T72 Evidence:T70
+E25	Causality:T68 Effect:T69 Evidence:T71
+E26	Causality:T68 Effect:T72 Evidence:T71
+E27	Causality:T68 Effect:T69 Evidence:T74
+E28	Causality:T68 Effect:T72 Evidence:T74
+#1	AnnotatorNotes E27	PMC2682197-00-TIAB

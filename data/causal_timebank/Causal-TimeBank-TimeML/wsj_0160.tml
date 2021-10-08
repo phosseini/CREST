@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0160</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-02</TIMEX3></DCT>
+<TEXT>
+ Savin Corp. <EVENT eid="e1" class="REPORTING">reported</EVENT> a <TIMEX3 tid="t2" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> net <EVENT eid="e3" class="OCCURRENCE">loss</EVENT> of $ 35.2 million, or 31 cents a share, compared with <TIMEX3 tid="t4" type="DATE" value="1988-Q3" anchorTimeID="t2" functionInDocument="NONE">year-earlier</TIMEX3> <EVENT eid="e5" class="OCCURRENCE">profit</EVENT> of $ 3.8 million, or one cent a share.
+ A spokesman for the Stamford, Conn.based company <EVENT eid="e6" class="REPORTING">said</EVENT> operations had a <EVENT eid="e7" class="OCCURRENCE">loss</EVENT> of $ 5.5 million for <TIMEX3 tid="t8" type="DATE" value="1989-Q3" anchorTimeID="t2" functionInDocument="NONE">the quarter</TIMEX3>;
+ in addition, the <EVENT eid="e9" class="OCCURRENCE">loss</EVENT> was <EVENT eid="e10" class="OCCURRENCE">magnified</EVENT> by nonrecurring charges totaling $ 23.5 million and $ 8.2 million in asset-valuation adjustments that he described as " unusual. "
+ The charges were partly <EVENT eid="e11" class="OCCURRENCE">offset</EVENT> <C-SIGNAL cid="c12">by</C-SIGNAL> a $ 2 million <EVENT eid="e13" class="OCCURRENCE">gain</EVENT> on the <EVENT eid="e14" class="OCCURRENCE">sale</EVENT> of investments of two joint ventures, he <EVENT eid="e15" class="REPORTING">said</EVENT>.
+ Revenue <EVENT eid="e16" class="OCCURRENCE">declined</EVENT> 8 % to $ 85.7 million, from $ 93.3 million <TIMEX3 tid="t17" type="DATE" value="1988-Q3" anchorTimeID="t2" functionInDocument="NONE">a year earlier</TIMEX3>.
+ Savin <EVENT eid="e18" class="REPORTING">cited</EVENT> " a general <EVENT eid="e19" class="OCCURRENCE">softening</EVENT> in the demand for office products in the market segments in which Savin competes. "
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToEventInstance="ei1"/>
+<TLINK lid="l2" relType="SIMULTANEOUS" eventInstanceID="ei3" relatedToTime="t2"/>
+<TLINK lid="l3" relType="INCLUDES" eventInstanceID="ei3" relatedToEventInstance="ei7"/>
+<TLINK lid="l4" relType="SIMULTANEOUS" eventInstanceID="ei5" relatedToTime="t4"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0"/>
+<TLINK lid="l6" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToEventInstance="ei1"/>
+<TLINK lid="l7" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToTime="t8"/>
+<TLINK lid="l8" relType="IDENTITY" timeID="t8" relatedToTime="t2"/>
+<TLINK lid="l9" relType="IDENTITY" eventInstanceID="ei9" relatedToEventInstance="ei3"/>
+<TLINK lid="l10" relType="SIMULTANEOUS" eventInstanceID="ei9" relatedToEventInstance="ei10"/>
+<TLINK lid="l11" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei9"/>
+<TLINK lid="l12" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei13"/>
+<TLINK lid="l13" relType="SIMULTANEOUS" eventInstanceID="ei13" relatedToEventInstance="ei14"/>
+<TLINK lid="l15" relType="SIMULTANEOUS" eventInstanceID="ei15" relatedToEventInstance="ei6"/>
+<TLINK lid="l16" relType="SIMULTANEOUS" eventInstanceID="ei16" relatedToTime="t2"/>
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei18" relatedToTime="t0"/>
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei1"/>
+<CLINK lid="l14" c-signalID="c12" eventInstanceID="ei13" relatedToEventInstance="ei11"/>
+</TimeML>

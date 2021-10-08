@@ -1,0 +1,14 @@
+T1	NonCausal 625 629	when
+E1	NonCausal:T1 Cause:T2 Effect:T3
+A2	Temporal E1
+T2	Argument 630 665	an updated version will be released
+T3	Argument 616 623	Oct. 27
+T7	Consequence 990 994	Once
+E3	Consequence:T7 Cause:T8 Effect:T9
+A4	Degree E3 Facilitate
+A5	Temporal E3
+T8	Argument 995 1014	you're Miss America
+T9	Argument 1016 1042	you're always Miss America
+T10	Note 1268 1271	for
+#2	AnnotatorNotes T10	Purpose of existence?
+#1	AnnotatorNotes E1	Treating this "when" as modifying the date loses the causal relationship.

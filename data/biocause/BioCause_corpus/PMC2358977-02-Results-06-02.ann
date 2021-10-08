@@ -1,0 +1,37 @@
+T13	Regulation 227 237	regulation
+T14	Negative_regulation 290 304	down-regulated
+T15	Regulation 354 364	associated
+T16	Process 374 385	attenuation
+E1	Regulation:T13 Theme:T1 Cause:T6
+E2	Regulation:T13 Theme:T2 Cause:T6
+E3	Regulation:T13 Theme:T3 Cause:T6
+E4	Regulation:T13 Theme:T4 Cause:T6
+E5	Regulation:T13 Theme:T5 Cause:T6
+E6	Negative_regulation:T14 Theme:T5
+E7	Negative_regulation:T14 Theme:T1
+E8	Negative_regulation:T14 Theme:T2
+E9	Negative_regulation:T14 Theme:T3
+E10	Negative_regulation:T14 Theme:T4
+E11	Regulation:T15 Theme:E16 Cause:E7
+M1	Speculation E11
+E12	Regulation:T15 Theme:E16 Cause:E8
+M2	Speculation E12
+E13	Regulation:T15 Theme:E16 Cause:E9
+M3	Speculation E13
+E14	Regulation:T15 Theme:E16 Cause:E10
+M4	Speculation E14
+E15	Regulation:T15 Theme:E16 Cause:E6
+M5	Speculation E15
+E16	Process:T16 Participant:T9
+T1	Protein 115 124	05SSU0063
+T2	Protein 126 135	05SSU0588
+T3	Protein 140 149	05SSU0953
+T4	Protein 182 191	05SSU0503
+T5	Protein 196 205	05SSU1233
+T6	Two-component-system 241 250	SalK/SalR
+T7	Protein 241 245	SalK
+T8	Protein 246 250	SalR
+T9	Organism 389 399	DeltasalKR
+T10	Two-component-system 394 399	salKR
+T11	Protein 394 398	salK
+T12	Protein 398 399	R

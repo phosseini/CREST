@@ -1,0 +1,19 @@
+Introduction 
+Streptococcus suis (S. suis) is considered an important zoonotic pathogen causing a variety of life-threatening infections that include meningitis, arthritis, septicaemia and even sudden death in pigs and humans [1], [2].
+Among the known 35 serotypes [1], [2], S. suis serotype 2 (S. suis 2 or SS2) is the most virulent and the most frequently isolated serotype.
+It was previously thought that SS2 caused only sporadic cases of meningitis and sepsis in humans [1], [2].
+However, two major emerging infectious disease outbreaks of SS2 in China (one in Jiangsu Province, 1998, and the other in Sichuan Province, 2005), raised considerable international concerns among the public health professionals [3], [4].
+A key feature of these two Chinese outbreaks is the prevalence of a toxic shock-like syndrome manifesting itself as acute high fever, multiple organ failures, short course of disease and high lethality [5].
+Despite the growing significance of such infections, little is known about the factors that govern the physiological responses of this emerging organism, especially the genetic repertoire that the streptococcus employs to cause the toxic shock-like syndrome.
+To shed light on the mystery of high virulence of the epidemic outbreak strains of SS2, our joint research group completed a comprehensive study of comparative genomics, decoding the whole genome sequences of two virulent SS2 strains (98HAH12 and 05ZYH33) isolated from Chinese infected patients [6].
+A candidate pathogenicity island (PAI) called 89K was predicted, which is only present in the epidemic strains in these two SS2 outbtreaks but not in other domestic clinical isolates or international virulent strains [6].
+However, this bioinformatically predicted candidate PAI needs experimental validation and its linkage to SS2-related high pathogenicity remains unknown.
+As a subgroup of genomic islands (GIs), PAI usually contains some distinct genetic elements acquired by horizontal gene transfer [7], [8].
+A wide range of molecular machineries such as quorum sensing, TCSTS, and ABC transporters, are often involved in a putative PAI, whereby the PAI responds to environmental signals and fulfills its critical functions contributing to the virulence in pathogens[8]-[10].
+Further bioinformatics analysis of the 89K island revealed a distinct two-component signal transduction system (TCSTS) encoded therein appears to be orthologous to the SalK/SalR system of S. salivarius, a salivaricin regulated TCSTS [11].
+TCSTS, composed of a membrane sensor (histidine kinase, HK) and a cytoplasmic response regulator (RR), is an important mechanism used by bacteria to adapt to and survive in the changing environments.
+In pathogens, various members of TCSTSs have been shown to play critical roles in both metabolism and pathogenesis [12]-[23].
+Up until now, only one orphan response regulator, RevS, has been found to be implicated in the pathogenesis of SS2 [24].
+To date, SalK/SalR is still a little-reported TCSTS in the fast-growing field of bacterial pathogenesis.
+In the present study, we attempted to generate the deletion mutant of salKR and assess the contribution of this TCSTS to the high pathogenicity of Chinese SS2 strains.
+Virulence assays together with a series of experiments enabled us to identify a novel genetic determinant which is required for the overall virulence of Chinese isolates of highly pathogenic SS2.

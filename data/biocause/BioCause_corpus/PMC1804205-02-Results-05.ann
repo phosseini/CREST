@@ -1,0 +1,15 @@
+T1	Chemical 61 72	polymyxin B
+T2	Protein 131 135	PmrA
+T3	Organism 160 170	Salmonella
+T4	Two-component-system 196 205	PmrA/PmrB
+T5	Protein 196 200	PmrA
+T6	Protein 201 205	PmrB
+T7	Chemical 269 280	polymyxin B
+T8	Chemical 429 440	polymyxin B
+T9	Protein 552 556	PmrA
+T10	Protein 601 605	pmrA
+T11	Chemical 660 671	polymyxin B
+T12	Span 532 566	This resistance was PmrA-dependent
+T13	Causality 567 574	because
+E1	Causality:T13 Effect:T12 Evidence:T14
+T14	Span 575 715	a strain deficient in the pmrA gene was approximately 100 000-fold more sensitive to polymyxin B than the wild-type strain when grown pH 5.8

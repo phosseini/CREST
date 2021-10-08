@@ -1,0 +1,28 @@
+Crystal structure of SrcA 
+Sequence analysis showed 59% amino acid identity between SrcA and CesT, a secretion chaperone in enteropathogenic E. coli (EPEC) (Fig. 2A).
+As a means to address the biological function of SrcA, we solved the crystal structure at 2.5-A resolution (PDB 3EPU).
+A summary of crystallographic data collection and model refinement statistics is in Table 1.
+The structure was solved by molecular replacement using an initial model based on CesT (PDB 1K3E) [13].
+SrcA crystallized in space group C2 with two molecules related by a 2-fold symmetry axis in each asymmetric unit (Fig. 2B).
+Each monomer consisted of a small and large domain.
+The smaller domain formed by alpha1 and the extended loop region preceding beta1 adopts a distinct conformation in each subunit.
+The larger domain mediates dimerization and is comprised of a twisted anti-parallel beta-sheet (beta1-beta2-beta3-beta5-beta4) flanked by alpha-helices alpha2 and alpha3.
+The dimer interface formed between SrcA monomers occurs primarily through reciprocal hydrophobic interactions between alpha2 and alpha2' with additional interface-stabilizing interactions occurring between the alpha2 helix of one monomer and beta4 and beta5 strands of the opposing monomer (Fig. 2B).
+The total surface area buried at the dimer interface is 1258 A2, suggesting that SrcA would exist as a dimer in solution, which we confirmed by gel filtration analysis (see below).
+A structure similarity search with SrcA revealed proteins identified as T3SS secretion chaperones.
+CesT and SicP were the most structurally similar to SrcA, aligning with RMSD of 1.8 A and 2.2 A respectively.
+With the exception of CesT, SrcA has weak overall sequence identity (<20%) with other T3SS chaperones.
+CesT, SicP and SrcA contain several clusters of highly conserved amino acids notable on primary sequence alignments (Fig. 2A).
+Most of these conserved sites are located in the alpha2-interface helix and in strands beta4 and beta5 that help stabilize this interface.
+Although the N-terminus of these proteins is conserved structurally, the tertiary structures differ for each protein.
+In CesT, alpha1 and beta1 adopt an extended conformation while the equivalent domain in SicP remains closely packed against the dimerization domain [12].
+In SrcA, both extended and closely packed conformations are observed in separate subunits of the same dimer within the asymmetric unit.
+In the extended conformation the N-terminal helix from one dimer interacts with the beta4 region of an adjacent dimer, similar to a domain swap seen in CesT [13].
+At this time, the possible biological relevance for such a domain swap is unclear and may reflect an artifact of crystallization as critically discussed [13].
+A comparison of the SrcA dimer interface with other class I chaperone family members indicates the overall similarity of quaternary structure shared between SrcA, CesT and SicP (Fig. 3A).
+This is in contrast to the class II chaperone interface of Spa15, which despite having similar tertiary structure to SrcA adopts a distinct dimer interface.
+A structural alignment of SrcA and Spa15 generated through alignment of single monomers shows the relative difference in subunit orientation between SrcA and Spa15 reflected by the positions of each monomer in the dimer configuration.
+These unique orientations produce an 80degrees rotational offset between respective subunits and could be expected to influence the mode of effector interactions utilized by these proteins.
+To evaluate the potential for an effector-binding surface on SrcA, the structure of SicP in complex with its effector SptP was aligned with SrcA and represented as a space-filling model (Fig. 3B).
+Binding of SptP occurs primarily in the N-terminus of SicP [12], which is similar to the effector binding surface for SrcA predicted in silico.
+This surface contains several conserved hydrophobic residues including L16, D24, N26, and I32 (Fig. 2A), which is consistent with SrcA using a similar mechanism for interaction with effectors.

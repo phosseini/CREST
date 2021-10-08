@@ -1,0 +1,73 @@
+T1	Protein 0 4	SsrB
+T2	Protein 61 65	SsrB
+T3	Protein 191 195	SsrB
+T4	Two-component-system 312 321	ssrA/ssrB
+T5	Protein 312 316	ssrA
+T6	Protein 317 321	ssrB
+T7	Protein 323 327	OmpR
+T8	Two-component-system 340 349	ssrA/ssrB
+T9	Protein 340 344	ssrA
+T10	Protein 345 349	ssrB
+T11	Protein 361 365	SlyA
+T12	Protein 378 382	ssrA
+T13	Protein 389 393	PhoP
+T14	Protein 406 410	ssrB
+T15	Protein 517 521	ssrB
+T16	Protein 666 670	SsrB
+T17	Protein 850 854	ssrB
+T18	Protein 936 940	SsrB
+T19	Protein 1113 1117	ssrB
+T20	Protein 1121 1125	slyA
+T21	Protein 1172 1176	SsrB
+T22	Organism 1214 1223	DeltassrB
+T23	Protein 1219 1223	ssrB
+T24	Organism 1225 1234	DeltassrA
+T25	Protein 1230 1234	ssrA
+T26	Organism 1240 1254	DeltassrA/ssrB
+T27	Two-component-system 1245 1254	ssrA/ssrB
+T28	Protein 1245 1249	ssrA
+T29	Protein 1250 1254	ssrB
+T30	Protein 1303 1307	SsrB
+T31	Binding 66 71	binds
+T32	Regulation 196 206	regulation
+T33	Regulation 303 311	regulate
+T34	Binding 328 335	binding
+T35	Entity 339 340	P
+T36	Binding 366 373	binding
+T37	Entity 377 378	P
+T38	Binding 394 401	binding
+T39	Entity 405 406	P
+T40	Gene_expression 522 532	expression
+T41	Gene_expression 816 826	Expression
+T42	Positive_regulation 855 863	resulted
+T43	Gene_expression 1284 1299	over-expression
+E1	Binding:T31 Theme:T2
+E2	Regulation:T32 Theme:T3
+E3	Regulation:T33 Theme:T4
+E4	Binding:T34 Theme1:T7 Theme2:T8 Site2:T35
+E5	Binding:T36 Theme1:T11 Theme2:T12 Site2:T37
+E6	Binding:T38 Theme1:T13 Theme2:T14 Site2:T39
+E7	Gene_expression:T40 Theme:T15
+E8	Gene_expression:T41 Theme:T17
+E9	Positive_regulation:T42 Theme:E8
+E10	Gene_expression:T43 Theme:T30
+T44	Span 61 84	SsrB binds within SPI-2
+T45	Span 89 128	activates SPI-2 genes for transcription
+T46	Causality 85 88	and
+E11	Causality:T46 Evidence:T44 Effect:T45
+T47	Span 130 174	However the location of binding sites varies
+T48	Causality 175 190	suggesting that
+E12	Causality:T48 Effect:T49 Evidence:T47
+T49	Span 191 217	SsrB regulation is unusual
+T50	Span 816 918	Expression of an episomal copy of ssrB resulted in expression of SPI-2 genes in each mutant background
+T51	Causality 920 935	suggesting that
+E13	Causality:T51 Effect:T52 Evidence:T50
+T52	Span 936 997	SsrB is epistatic to other regulators for SPI-2 transcription
+T53	Span 816 997	Expression of an episomal copy of ssrB resulted in expression of SPI-2 genes in each mutant background, suggesting that SsrB is epistatic to other regulators for SPI-2 transcription
+T54	Causality 999 1031	This result is in agreement with
+E14	Causality:T54 Effect:T55 Evidence:T53
+T55	Span 1032 1157	the model shown in Figure 6 where all positive regulation takes place via either ssrB or slyA or both as tested further below
+T56	Span 1159 1254	Furthermore, SsrB could complement all three deletions DeltassrB, DeltassrA, and DeltassrA/ssrB
+T57	Causality 1268 1283	suggesting that
+E15	Causality:T57 Effect:T58 Evidence:T56
+T58	Span 1284 1397	over-expression of SsrB may compensate for differences in phosphorylation that normally play a role in regulation

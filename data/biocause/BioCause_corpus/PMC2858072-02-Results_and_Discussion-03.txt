@@ -1,0 +1,21 @@
+BvrR/BvrS and the expression of other transcriptional regulators 
+Notably, seven transcriptional regulators genes were also differentially expressed in the bvrR mutant compared to parental strain: BAB1_0237, BAB1_0891 (exoR), BAB1_1397, BAB2_0118 (vjbR), BAB2_0762 (ompR), BAB2_1127 and BAB2_1152. Three of these, namely exoR, ompR and vjbR are down regulated and have been previously implicated in Brucella virulence.
+B. melitensis vjbR mutant is highly attenuated in both cellular and mouse models of infection [19].
+VjbR has been described as a transcriptional regulator able to activate directly the secretion system virB operon and the flagellar genes, both virulence factors associated to the surface of the bacteria [20], [21].
+Moreover, it has been demonstrated that VjbR controls the synthesis of exopolysaccharides and the productions of several OMPs, some of which are also involved in virulence [22].
+Interestingly, our results also showed that the expression of vjbR was also induced intracellularly (see below).
+All these data suggest that VjbR, similarly to the BvrR/BvrS system, is involved in the control of outer membrane composition and virulence.
+In addition, DeJong and col [20] have demonstrated that among the promoters which expression is dependent of the VjbR regulator, is the ompR gene, the regulator of the OmpR/EnvZ two component system.
+E. coli OmpR/EnvZ system controls the transcription of the outer membrane porins OmpF and OmpC in response to osmolarity [23].
+Moreover, a systematically transcriptome analysis of all two component regulatory systems in E. coli has demonstrated that the OmpR/EnvZ system also controls the metabolism of amino acids, flagellar synthesis and nutrient transport [24].
+As we have show in this study, the expression of at least three flagellar genes (fliM, BAB2_0124/5; flgJ, BAB1_0260; motB, BAB2_1103) were increased also in the bvrR mutant (Figure 2).
+The two-regulatory systems ChvG(ExoS)/ChvI in S. meliloti and A. tumefaciens posses a high level of identity with the Brucella BvrR/BvrS [25], [26].
+Chaves-Olarte et al have reported that B. abortus bvrS mutant complemented with the ExoS protein recuperated the ability to invade and replicated successfully in HeLa and macrophage cells [27], suggesting that the BvrR/BvrS system is functionally interchangeable with the ExoS/ChvI system.
+A. tumefaciens ChvI/ChvG system controls the expression of the Aop, an OMP homologous to Brucella Omp25a [28], and in S. meliloti, ExoS/ChvI is a key regulator of gene expression for exopolysaccharide synthesis, motility and nutrient utilization [26].
+It has been described in S. meliloti that exoR gene encodes a global regulator of transcription and that ExoR interacts genetically with both ExoS and ChvI and inhibits ExoS/ChvI activity [29], [30].
+Further analysis indicated that both the ExoR protein and the ExoS/ChvI two-component regulatory system are involved in the regulation of both polysaccharides and flagellum biosynthesis [31].
+In addition, the transcription of the S. meliloti lpsS gene, that encodes a sulfotransferase that modifies LPS, is dependent on the exoR gene [32].
+Other authors [29] suggest that ExoR is an inhibitor of two-component signaling that may be conserved in a large number of alpha-proteobacteria.
+Our results also support this hypothesis: the functional relationship between the exoR gene and the BvrR/BvrS system.
+Based on all these findings, obvious comparison about the function of all these regulators in Brucella could be made.
+The fact that the expression of VjbR, OmpR and ExoR was altered in the bvrR mutant demonstrated for the first time an interaction or cross-talk among these global regulators, all involved in the control of composition and structure of the cell envelope (OMPs, LPS, chaperones, flagella, em).

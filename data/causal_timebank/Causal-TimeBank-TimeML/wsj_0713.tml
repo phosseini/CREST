@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0713</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-27</TIMEX3></DCT>
+<TEXT>
+ West German and French authorities have <EVENT eid="e1" class="OCCURRENCE">cleared</EVENT> Dresdner Bank AG's <EVENT eid="e2" class="OCCURRENCE">takeover</EVENT> of a majority stake in Banque Internationale de Placement ( BIP ), Dresdner Bank <EVENT eid="e3" class="REPORTING">said</EVENT>.
+ The <EVENT eid="e4" class="OCCURRENCE">approval</EVENT>, which had been <EVENT eid="e5" class="I_STATE">expected</EVENT>, <EVENT eid="e6" class="OCCURRENCE">permits</EVENT> West Germany's second-largest bank to <EVENT eid="e7" class="OCCURRENCE">acquire</EVENT> shares of the French investment bank.
+ In a first step, Dresdner Bank will <EVENT eid="e8" class="OCCURRENCE">buy</EVENT> 32.99 % of BIP for 1,015 French francs ( $ 162 ) a share, or 528 million francs ( $ 84.7 million ).
+ Dresdner Bank <EVENT eid="e9" class="REPORTING">said</EVENT> it will also <EVENT eid="e10" class="OCCURRENCE">buy</EVENT> all shares <EVENT eid="e11" class="OCCURRENCE">tendered</EVENT> by shareholders on the Paris Stock Exchange at the same price from <TIMEX3 tid="t12" type="DATE" value="1989-10-27" anchorTimeID="t0" functionInDocument="NONE">today</TIMEX3> through <TIMEX3 tid="t13" type="DATE" value="1989-11-17" anchorTimeID="t0" functionInDocument="NONE">Nov. 17</TIMEX3>.
+ In addition, the bank <EVENT eid="e14" class="STATE">has</EVENT> an option to <EVENT eid="e15" class="OCCURRENCE">buy</EVENT> a 30.84 % stake in BIP from Societe Generale after <TIMEX3 tid="t16" type="DATE" value="1990-01-01" functionInDocument="NONE">Jan. 1, 1990</TIMEX3> at 1,015 francs a share.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei2"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0"/>
+<TLINK lid="l5" relType="IDENTITY" eventInstanceID="ei4" relatedToEventInstance="ei1"/>
+<TLINK lid="l6" relType="IDENTITY" eventInstanceID="ei4" relatedToEventInstance="ei6"/>
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei4"/>
+<TLINK lid="l9" relType="AFTER" eventInstanceID="ei8" relatedToTime="t0"/>
+<TLINK lid="l10" relType="IDENTITY" eventInstanceID="ei9" relatedToEventInstance="ei3"/>
+<TLINK lid="l11" relType="IAFTER" eventInstanceID="ei10" relatedToEventInstance="ei11"/>
+<TLINK lid="l12" relType="BEGUN_BY" eventInstanceID="ei11" relatedToTime="t12"/>
+<TLINK lid="l13" relType="ENDED_BY" eventInstanceID="ei11" relatedToTime="t13"/>
+<TLINK lid="l14" relType="INCLUDES" eventInstanceID="ei14" relatedToTime="t0"/>
+<TLINK lid="l15" relType="AFTER" eventInstanceID="ei15" relatedToTime="t16"/>
+<CLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei7"/>
+</TimeML>

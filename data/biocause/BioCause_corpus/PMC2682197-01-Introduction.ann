@@ -1,0 +1,66 @@
+*	Equiv T6 T7
+T28	Process 86 93	infects
+T29	Process 285 294	infection
+T30	Gene_expression 2163 2173	expression
+T31	Process 2277 2285	infected
+T32	Process 2360 2369	infection
+T33	Process 2433 2447	hypervirulence
+T34	Gene_expression 2507 2517	expression
+T35	Gene_expression 2594 2608	overexpression
+T36	Binding 2737 2742	binds
+E1	Process:T28 Participant:T1
+E2	Process:T29 Participant:T3
+E3	Gene_expression:T30 Theme:T16
+E4	Process:T31 Participant:T18
+E5	Process:T32 Participant:T18
+E6	Process:T33 Participant:T20
+E7	Gene_expression:T34 Theme:T21
+E8	Gene_expression:T35 Theme:T22
+E9	Binding:T36 Theme1:T23 Theme2:T24
+T1	Organism 14 40	Mycobacterium tuberculosis
+T2	Organism 69 74	human
+T3	Organism 269 284	M. tuberculosis
+T4	Organism 877 892	M. tuberculosis
+T5	Organism 1009 1024	M. tuberculosis
+T6	Chemical 1177 1189	Nitric oxide
+T7	Chemical 1191 1193	NO
+T8	Organism 1395 1410	M. tuberculosis
+T9	Organism 1500 1515	M. tuberculosis
+T10	Two-component-system 1596 1605	DosR-DosS
+T11	Protein 1596 1600	DosR
+T12	Protein 1601 1605	DosS
+T13	Protein 1683 1689	rv2623
+T14	Organism 1704 1719	M. tuberculosis
+T15	Protein 2061 2067	rv2623
+T16	Protein 2177 2183	rv2623
+T17	Organism 2286 2290	mice
+T18	Organism 2344 2359	M. tuberculosis
+T19	Protein 2418 2424	rv2623
+T20	Organism 2455 2472	tubercle bacillus
+T21	Protein 2521 2527	Rv2623
+T22	Protein 2612 2618	Rv2623
+T23	Protein 2730 2736	Rv2623
+T24	Chemical 2743 2746	ATP
+T25	Protein 2826 2832	Rv2623
+T26	Organism 2938 2953	M. tuberculosis
+T27	Chemical 2975 2978	ATP
+T37	Causality 1430 1466	Exposure to these stimuli results in
+E10	Causality:T37 Effect:T38 Evidence:T39
+T38	Span 1467 1605	the induction of approximately50 M. tuberculosis genes, designated the dormancy regulon, via the two-component regulatory system DosR-DosS
+T39	Span 1177 1428	Nitric oxide (NO) produced by infected macrophages and relative hypoxia are signals likely to be encountered within tuberculous lesions that are believed, based on in vitro studies, to promote latency by prompting the M. tuberculosis dormancy response
+T40	Span 2153 2290	Increased expression of rv2623 was also observed following phagocytosis by macrophages [10] and in the lungs of chronically infected mice
+T41	Causality 2297 2307	supporting
+E11	Causality:T41 Effect:T42 Evidence:T40
+T42	Span 2308 2369	a functional role during persistent M. tuberculosis infection
+T43	Span 2406 2489	deletion of rv2623 confers hypervirulence on the tubercle bacillus in animal models
+T44	Causality 2491 2506	suggesting that
+E12	Causality:T44 Effect:T45 Evidence:T43
+T45	Span 2507 2588	expression of Rv2623 may be conducive to the establishment of persistence in vivo
+T46	Span 2594 2678	overexpression of Rv2623 results in growth retardation of recipient strains in vitro
+T47	Causality 2680 2698	further supporting
+E13	Causality:T47 Effect:T48 Evidence:T46
+T48	Span 2699 2723	a growth-regulatory role
+T49	Span 2761 2879	through mutagenesis study guided by crystallographic analysis of Rv2623 (the first such study for a tandem-domain USP)
+T50	Causality 2881 2893	we show that
+E14	Causality:T50 Effect:T51 Evidence:T49
+T51	Span 2898 2995	the growth-regulating attribute of this M. tuberculosis USP is linked to its ATP-binding capacity

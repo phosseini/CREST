@@ -1,0 +1,82 @@
+T1	Organism 0 15	M. tuberculosis
+T2	Protein 16 22	Rv2623
+T3	Protein 99 105	Rv2623
+T4	Organism 245 260	M. tuberculosis
+T5	Protein 261 267	Rv2623
+T6	Organism 285 292	E. coli
+T7	Protein 390 396	Rv2623
+T8	Protein 535 541	Rv2623
+T9	Protein 594 600	Rv2623
+T10	Protein 736 742	Rv2623
+T11	Protein 1011 1017	MJ0577
+T12	Organism 1044 1068	Methanococcus jannaschii
+T13	Chemical 1107 1110	ATP
+T14	Chemical 1147 1150	ATP
+T15	Chemical 1167 1170	ATP
+T16	Chemical 1259 1262	ATP
+T17	Protein 1337 1343	Rv2623
+T18	Chemical 1399 1402	ATP
+T19	Protein 1491 1497	Rv2623
+T20	Protein 1521 1527	Rv2623
+T21	Chemical 1550 1553	ATP
+T22	Chemical 1558 1561	ADP
+T23	Organism 1586 1593	E. coli
+T24	Protein 1604 1610	Rv2623
+T25	Chemical 1670 1673	ATP
+T26	Protein 1700 1706	Rv2623
+T27	Chemical 1728 1731	ATP
+T28	Protein 1997 2003	Rv2623
+T29	Chemical 2036 2049	guanidine-HCl
+T30	Chemical 2134 2137	ATP
+T31	Protein 2159 2165	Rv2623
+T32	Organism 2206 2213	E. coli
+T33	Chemical 2600 2603	ADP
+T34	Protein 2629 2635	Rv2623
+T35	Chemical 2647 2650	ATP
+T36	Chemical 2678 2681	ATP
+T37	Gene_expression 272 281	expressed
+T38	Binding 1151 1158	binding
+T39	Binding 1171 1178	binding
+T40	Binding 1248 1255	binding
+T41	Gene_expression 1594 1603	expressed
+T42	Binding 2166 2171	binds
+T43	Binding 2636 2646	associated
+E1	Gene_expression:T37 Theme:T5
+E2	Binding:T38 Theme:T14
+E3	Binding:T39 Theme:T15
+M1	Negation E3
+E4	Binding:T40 Theme:T16
+E5	Gene_expression:T41 Theme:T24
+E6	Binding:T42 Theme:T31
+E7	Binding:T43 Theme1:T34 Theme2:T35
+T44	Span 346 419	SDS-PAGE analysis of affinity-purified His6-Rv2623 revealed a single band
+T45	Causality 420 424	that
+E8	Causality:T45 Effect:T46 Evidence:T44
+T46	Span 425 541	approximates the predicted molecular mass of approximately31.6 kDa, which was identified by immunoblotting as Rv2623
+T47	Span 555 718	Gel filtration analysis of native His6-Rv2623 revealed that the purified protein exists primarily as a single species with an apparent molecular mass of 61+/-1 kDa
+T48	Causality 720 735	suggesting that
+E9	Causality:T48 Effect:T49 Evidence:T47
+T49	Span 736 777	Rv2623 is a dimer under native conditions
+T50	Causality 791 830	an observation that was later confirmed
+E10	Causality:T50 Effect:T49 Evidence:T51
+T51	Span 831 894	using nano electrospray ionization (nano ESI) mass spectrometry
+T52	Span 1117 1213	On the basis of structures of ATP-binding and non-ATP-binding USPs, a G-2X-G-9X-G(S/T) motif was
+T53	Causality 1214 1229	suggested to be
+E11	Causality:T53 Effect:T54 Evidence:T52
+T54	Span 1230 1262	essential for the binding of ATP
+T55	Span 1117 1262	On the basis of structures of ATP-binding and non-ATP-binding USPs, a G-2X-G-9X-G(S/T) motif was suggested to be essential for the binding of ATP
+T56	Span 1269 1418	The presence of this motif in each of the two tandem USP domains of Rv2623 [7] raised the possibility that this protein possesses ATP binding activit
+T57	Causality 1269 1269
+E12	Causality:T57 Effect:T56 Evidence:T55
+T58	Span 1421 1497	An HPLC-based examination of supernatants from boiled samples of His6-Rv2623
+T59	Causality 1498 1515	demonstrated that
+E13	Causality:T59 Effect:T60 Evidence:T58
+T60	Span 1516 1561	His6-Rv2623 co-purifies with both ATP and ADP
+T61	Span 1574 1648	Analysis of E. coli-expressed Rv2623 using nano ESI mass spectrometry also
+T62	Causality 1649 1666	demonstrated that
+E14	Causality:T62 Effect:T63 Evidence:T61
+T63	Span 1667 1803	an ATP-saturated form of dimeric Rv2623 (composed of 2 bound ATP molecules per monomer) constitutes at least half of the purified sample
+T64	Span 1822 2151	Measurement of the binding stoichiometry, which comprised HPLC-based quantification of adenine nucleotides from the boiled supernatant and spectral analysis of heat denatured Rv2623 following reconstitution in 6 M guanidine-HCl, yields 1.4+/-0.2 nucleotide equivalents/monomer with an overall content of 86+/-4% ATP (14+/-4% ADP)
+T65	Causality 2153 2157	Thus
+E15	Causality:T65 Effect:T66 Evidence:T64
+T66	Span 2159 2335	Rv2623 binds endogenous adenine nucleotides in E. coli, and the association is sufficiently tight that nearly 75% of the nucleotide binding sites are occupied upon purification

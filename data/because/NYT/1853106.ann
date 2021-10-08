@@ -1,0 +1,35 @@
+T1	Purpose 587 589	so
+E1	Purpose:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 590 666	the judge, Oscar Magi, could decide whether to suspend the trial temporarily
+T3	Argument 555 586	the trial adjourned for 10 days
+T4	Consequence 724 729	while
+E2	Consequence:T4 Cause:T5 Effect:T6
+A2	Temporal E2
+T5	Argument 730 827	the Constitutional Court rules on whether prosecutors violated state secrecy in bringing the case
+T6	Argument 697 723	the trial should be halted
+A3	Degree E2 Facilitate
+T10	Consequence 1381 1386	After
+E4	Consequence:T10 Cause:T11 Effect:T12
+A4	Degree E4 Facilitate
+A6	Temporal E4
+T11	Argument 1387 1409	the abduction in Milan
+T12	Argument 1411 1460;1471 1486	Mr. Nasr was jailed for four years in Egypt where he was tortured
+T15	Motivation 2035 2045	reason for
+E6	Motivation:T15 Effect:T16
+A8	Degree E6 Facilitate
+T16	Argument 2046 2094	recruiting other members for their organizations
+T21	Purpose 225 228	for
+E7	Purpose:T21 Cause:T22 Effect:T23
+A9	Degree E7 Facilitate
+T22	Argument 229 252	interrogation elsewhere
+T23	Argument 196 224	abducting terrorism suspects
+T17	NonCausal 865 870	until
+E8	NonCausal:T17 Arg0:T18 Arg1:T24
+A10	Temporal E8
+T18	Argument 871 886	later this year
+T24	Argument 852 864	not expected
+T7	NonCausal 550 554	Then
+E3	NonCausal:T7 Arg1:T8
+A5	Temporal E3
+T8	Argument 555 666	the trial adjourned for 10 days so the judge, Oscar Magi, could decide whether to suspend the trial temporarily

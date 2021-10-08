@@ -1,0 +1,12 @@
+IgG Endopeptidase SeMac does not Inhibit Opsonophagocytosis of Streptococcus equi Subspecies equi by Horse Polymorphonuclear Leukocytes 
+The secreted Mac protein made by group A Streptococcus (GAS) inhibits opsonophagocytosis of GAS by human polymorphonuclear leukocytes (PMNs).
+This protein also has the endopeptidase activity against human immunoglobulin G (IgG), and the Cys94, His262 and Asp284 are critical for the enzymatic activity.
+The horse pathogen Streptococcus equi subspecies equi produces a homologue of Mac (SeMac).
+SeMac was characterized to determine whether SeMac has IgG endopeptidase activity and inhibits opsonophagocytosis of S. equi by horse PMNs.
+The gene was cloned and recombinant SeMac was overexpressed in Escherichia coli and purified to homogeneity.
+Mice with experimental S. equi infection and horses with strangles caused by S. equi seroconverted to SeMac, indicating that SeMac is produced in vivo during infection.
+SeMac has endopeptidase activity against human IgG.
+However, the protein just cleaves a small fraction, which may be IgG1 only, of horse IgG.
+Replacement of Cys102 with Ser or His272 with Ala abolishes the enzymatic activity of SeMac, and the Asp294Ala mutation greatly decreases the enzymatic activity.
+SeMac does not inhibit opsonophagocytosis of S. equi by horse PMNs but opsonophagocytosis of GAS by human PMNs.
+Thus, SeMac is a cysteine endopeptidase with a limited activity against horse IgG and must have other function.

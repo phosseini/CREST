@@ -1,0 +1,142 @@
+*	Equiv T38 T39
+T58	Process 61 70	virulence
+T59	Process 88 97	virulence
+T60	Process 326 335	virulence
+T61	Gene_expression 473 480	express
+T62	Process 487 496	virulence
+T63	Positive_regulation 514 522	requires
+T64	Gene_expression 532 542	expression
+T65	Positive_regulation 896 904	increase
+T66	Gene_expression 913 919	levels
+T67	Negative_regulation 1028 1037	decreased
+T68	Gene_expression 1043 1049	levels
+T69	Process 1261 1271	attenuated
+T70	Regulation 1348 1357	influence
+T71	Gene_expression 1366 1372	levels
+T72	Regulation 1532 1538	effect
+T73	Gene_expression 1701 1711	expression
+T74	Gene_expression 1747 1753	levels
+T75	Localization 1947 1955	secreted
+T76	Entity 1965 1984	culture supernatant
+T77	Process 2332 2341	virulence
+T78	Gene_expression 2541 2550	expressed
+T79	Negative_regulation 2678 2686	decrease
+T80	Gene_expression 2699 2705	levels
+T81	Regulation 2784 2790	effect
+T82	Gene_expression 2855 2860	level
+T83	Positive_regulation 2890 2899	increased
+T84	Regulation 2937 2941	role
+T85	Negative_regulation 2960 2970	repression
+E1	Process:T58 
+E2	Process:T59 Participant:T3
+E3	Process:T60 
+E4	Gene_expression:T61 Theme:T10
+E5	Process:T62 Participant:T5
+E6	Positive_regulation:T63 Theme:E7 Cause:T11
+E7	Gene_expression:T64 Theme:T10
+E8	Positive_regulation:T65 Theme:E9
+E9	Gene_expression:T66 Theme:T15
+E10	Negative_regulation:T67 Theme:E11
+E11	Gene_expression:T68 Theme:T19
+E12	Process:T69 
+E13	Regulation:T70 Theme:E14
+E14	Gene_expression:T71 Theme:T24
+E15	Regulation:T72 Theme:T27
+E16	Gene_expression:T73 Theme:T31
+E17	Gene_expression:T74 Theme:T32
+E18	Localization:T75 Theme:T36 ToLoc:T76
+E19	Process:T77 
+E20	Gene_expression:T78 Theme:T44
+E21	Gene_expression:T78 Theme:T45
+E22	Gene_expression:T78 Theme:T46
+E23	Negative_regulation:T79 Theme:E24
+E24	Gene_expression:T80 Theme:T48
+E25	Regulation:T81 Theme:T52 Cause:T51
+M1	Negation E25
+E26	Gene_expression:T82 Theme:T53
+E27	Positive_regulation:T83 Theme:E26
+E28	Regulation:T84 Theme:E29 Cause:T56
+E29	Negative_regulation:T85 Theme:T57
+T1	Protein 21 25	rpoE
+T2	Protein 46 50	SsrB
+T3	Organism 77 87	Salmonella
+T4	Protein 311 315	SsrB
+T5	Organism 412 426	S. Typhimurium
+T6	Protein 428 432	rpoS
+T7	Protein 434 438	rpoN
+T8	Protein 440 444	rpoE
+T9	Protein 446 450	rpoH
+T10	Protein 503 507	sseB
+T11	Protein 523 527	SsrB
+T12	Protein 618 622	rpoH
+T13	Protein 806 812	sigmaH
+T14	Protein 861 865	rpoS
+T15	Protein 908 912	SseB
+T16	Protein 954 958	RpoS
+T17	Protein 992 996	rpoE
+T18	Protein 1001 1005	rpoN
+T19	Protein 1038 1042	SseB
+T20	Protein 1087 1091	rpoE
+T21	Organism 1237 1249	rpoE mutants
+T22	Protein 1237 1241	rpoE
+T23	Protein 1302 1306	RpoE
+T24	Protein 1361 1365	SseB
+T25	Protein 1419 1423	rpoE
+T26	Organism 1446 1474	S. Typhimurium strain SL1344
+T27	Protein 1542 1546	SseB
+T28	Organism 1554 1570	rpoE::cat mutant
+T29	Protein 1554 1558	rpoE
+T30	Protein 1560 1563	cat
+T31	Protein 1642 1646	rpoE
+T32	Protein 1757 1761	SseB
+T33	Organism 1765 1774	DeltarpoE
+T34	Protein 1770 1774	rpoE
+T35	Protein 1845 1849	rpoE
+T36	Protein 1942 1946	SseB
+T37	Protein 2066 2070	rpoE
+T38	Protein 2265 2271	sigmaE
+T39	Protein 2273 2277	rpoE
+T40	Protein 2317 2321	SsrB
+T41	Protein 2388 2392	rpoE
+T42	Protein 2418 2422	sseB
+T43	Protein 2450 2454	SsrB
+T44	Protein 2509 2517	SseL-2HA
+T45	Protein 2519 2527	SifA-2HA
+T46	Protein 2532 2540	SrfN-2HA
+T47	Protein 2660 2664	SseB
+T48	Protein 2690 2698	SifA-2HA
+T49	Organism 2709 2718	DeltarpoE
+T50	Protein 2714 2718	rpoE
+T51	Protein 2763 2767	rpoE
+T52	Protein 2794 2802	SseL-2HA
+T53	Protein 2864 2872	SrfN-2HA
+T54	Organism 2907 2916	DeltarpoE
+T55	Protein 2912 2916	rpoE
+T56	Regulon-operon 2946 2952	sigmaE
+T57	Protein 2974 2978	SrfN
+T92	Causality 509 522	that requires
+E32	Causality:T92 Cause:T93 Effect:T94
+T93	Fact 428 507	rpoS, rpoN, rpoE, rpoH) for their ability to express a key virulence gene, sseB
+T94	Fact 523 609	SsrB for expression and whose gene product is essential for intracellular pathogenesis
+T110	Span 1600 1780	A low-copy plasmid containing full-length rpoE and the three endogenous promoters that can drive its expression [20] was able to restore wild type levels of SseB to DeltarpoE cells
+T111	Causality 1793 1811	demonstrating that
+E38	Causality:T111 Cause:T110 Effect:T112
+T112	Span 1812 1858	the results were specific to the rpoE deletion
+T113	Fact 1991 2099	however consistent with previous observations [22,23] perturbations to the rpoE pathway increased cell lysis
+T114	Causality 2100 2109	resulting
+E39	Causality:T114 Cause:T113 Effect:T115
+T115	Fact 2110 2212	in contamination of secreted fractions with cytosolic proteins which precluded accurate interpretation
+T116	Causality 2666 2686	there was a decrease
+E40	Causality:T116 Cause:T117 Effect:T118
+T117	Fact 2628 2664	Consistent with the results for SseB
+T118	Fact 2687 2740	in SifA-2HA levels in DeltarpoE compared to wild type
+T119	Fact 2742 2802	although deletion of rpoE did not have an effect on SseL-2HA
+T120	Causality 2924 2934	suggesting
+E41	Causality:T120 Cause:T121 Effect:T122
+T121	Span 2804 2922	Relative to its expression in wild type cells, the level of SrfN-2HA was reproducibly increased in the DeltarpoE cells
+T122	Span 2935 3043	a role for sigmaE in the repression of SrfN, although it is unlikely that this is through a direct mechanism
+T86	Span 845 919	In this screen, rpoS deletion resulted in a slight increase in SseB levels
+T87	Causality 932 942	indicating
+E30	Causality:T87 Cause:T86 Effect:T88
+T88	Span 943 985	a role for RpoS in the repression of SPI-2
+E31	Causality:T116 Cause:T117 Effect:T119

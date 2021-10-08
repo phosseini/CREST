@@ -1,0 +1,51 @@
+T1	Motivation 441 448	because
+E1	Motivation:T1 Cause:T3 Effect:T2
+A1	Degree E1 Facilitate
+T2	Argument 417 440	the plane had been sent
+T3	Argument 449 485	commercial flights had been canceled
+T5	Argument 806 823	medical treatment
+T6	Argument 721 801;824 834	Mr. Conté, who has ruled Guinea since seizing power in 1984, has traveled abroad frequently
+T7	Purpose 802 805	for
+E2	Purpose:T7 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+T10	Argument 207 246	the United States sent a military plane
+T11	Argument 250 325	airlift some American officials and private citizens to neighboring Senegal
+T12	Purpose 247 249	to
+E3	Purpose:T12 Cause:T11 Effect:T10
+A3	Degree E3 Facilitate
+T13	Argument 732 752	who has ruled Guinea
+T14	Argument 759 780	seizing power in 1984
+T15	NonCausal 753 758	since
+E4	NonCausal:T15 Arg0:T14 Arg1:T13
+A4	Temporal E4
+T4	Motivation 1359 1370	In response
+E5	Motivation:T4 Effect:T16
+A5	Degree E5 Facilitate
+T16	Argument 1372 1402	Mr. Conté declared martial law
+T17	Argument 1650 1677	the strike began last month
+T18	Argument 1549 1643	At least 60 people have been killed in the clashes between demonstrators and government forces
+T19	NonCausal 1644 1649	since
+E6	NonCausal:T19 Arg0:T17 Arg1:T18
+T20	Argument 1734 1742	Saturday
+T21	Argument 1744 1854	more than 275 wounded people had been admitted and treated at Donka Hospital in the capital of Guinea, Conakry
+T22	NonCausal 1728 1733	since
+E7	NonCausal:T22 Arg0:T20 Arg1:T21
+A6	Temporal E7
+T23	Argument 1885 1922	several of its warehouses were looted
+T24	Argument 1928 1939	the weekend
+T25	NonCausal 1923 1927	over
+E8	NonCausal:T25 Arg0:T24 Arg1:T23
+A7	Temporal E8
+T26	Argument 620 719	labor unions and other civic groups have demanded that the ailing leader, Lansana Conté, step aside
+T27	Argument 567 615	Guinea has been in turmoil for more than a month
+T28	Consequence 617 619	as
+E9	Consequence:T28 Cause:T26 Effect:T27
+A8	Degree E9 Facilitate
+A9	Temporal E9
+A10	Temporal E6
+T9	Motivation 190 194	Amid
+E10	Motivation:T9 Cause:T29 Effect:T30
+A11	Degree E10 Facilitate
+T29	Argument 195 205	the unrest
+T30	Argument 207 325	the United States sent a military plane to airlift some American officials and private citizens to neighboring Senegal
+A12	Context E10

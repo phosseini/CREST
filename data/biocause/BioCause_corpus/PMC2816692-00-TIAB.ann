@@ -1,0 +1,47 @@
+T20	Process 703 712	infection
+T21	Process 977 986	infection
+T22	Binding 1272 1284	interactions
+T23	Process 1460 1470	infections
+T24	Process 1537 1546	infection
+E1	Process:T20 
+E2	Process:T21 
+E3	Binding:T22 Theme1:T13 Theme2:T14
+E4	Binding:T22 Theme1:T13 Theme2:T15
+E5	Binding:T22 Theme1:T13 Theme2:T16
+E6	Process:T23 
+E7	Process:T24 
+T1	Protein 47 51	SrcA
+T2	Organism 99 109	Salmonella
+T3	Organism 153 157	Host
+T4	Organism 208 212	host
+T5	Organism 339 343	host
+T6	Organism 568 572	host
+T7	Organism 583 622	Salmonella enterica serovar Typhimurium
+T8	Organism 990 994	mice
+T9	Protein 1025 1029	SrcA
+T10	Protein 1087 1091	CesT
+T11	Organism 1124 1131	E. coli
+T12	Chemical 1177 1185	carboxyl
+T13	Protein 1290 1294	SrcA
+T14	Protein 1327 1331	SseL
+T15	Protein 1336 1341	PipB2
+T16	Protein 1379 1383	SsaN
+T17	Organism 1474 1478	mice
+T18	Protein 1492 1496	SrcA
+T19	Organism 1532 1536	host
+T25	Span 404 485	A suite of T3SS-associated chaperone proteins bind cargo in the bacterial cytosol
+T26	Causality 487 499	establishing
+E8	Causality:T26 Effect:T27 Evidence:T25
+T27	Span 500 578	protein interaction networks needed for effector translocation into host cells
+T28	Span 808 841	Using a reverse genetics approach
+T29	Causality 843 856	we identified
+E9	Causality:T29 Effect:T30 Evidence:T28
+T30	Span 857 994	a multi-cargo secretion chaperone that is functionally integrated with the SPI-2-encoded T3SS and required for systemic infection in mice
+T31	Span 1442 1478	Using competitive infections in mice
+T32	Causality 1479 1491	we show that
+E10	Causality:T32 Effect:T33 Evidence:T31
+T33	Span 1492 1625	SrcA increases bacterial fitness during host infection, highlighting the in vivo importance of effector chaperones for the SPI-2 T3SS
+T34	Span 996 1054	Crystallographic analysis of SrcA at a resolution of 2.5 A
+T35	Causality 1055 1063	revealed
+E11	Causality:T35 Effect:T36 Evidence:T34
+T36	Span 1064 1194	a dimer similar to the CesT chaperone from enteropathogenic E. coli but lacking a 17-amino acid extension at the carboxyl terminus

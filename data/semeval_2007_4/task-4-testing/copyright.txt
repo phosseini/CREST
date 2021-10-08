@@ -1,0 +1,22 @@
+
+
+
+Classification of Semantic Relations between Nominals:
+Dataset for Task 4 in SemEval 2007
+
+
+The Complete Dataset and the Trial Dataset for Task 4 are released under
+the Creative Commons Attribution-Share Alike 2.5 License:
+
+http://creativecommons.org/licenses/by-sa/2.5/
+
+In any work that uses the Complete Dataset or the Trial Dataset for Task 4,
+please acknowledge the authors, as follows:
+
+Roxana Girju, Marti Hearst, Preslav Nakov, Vivi Nastase, Stan Szpakowicz,
+Peter Turney, and Deniz Yuret (2007). Classification of Semantic Relations
+between Nominals: Dataset for Task 4 in SemEval 2007, 4th International
+Workshop on Semantic Evaluations, June 23-24, 2007, Prague, Czech Republic.
+
+
+

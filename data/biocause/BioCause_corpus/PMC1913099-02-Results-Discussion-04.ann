@@ -1,0 +1,16 @@
+*	Equiv T3 T2
+T5	Process 139 149	infectious
+T6	Positive_regulation 331 338	induced
+T7	Positive_regulation 504 511	induced
+E1	Process:T5 
+M1	Negation E1
+E2	Positive_regulation:T6 Theme:T2
+E3	Positive_regulation:T7 Theme:T4
+T1	Organism 21 26	SF370
+T2	Protein 307 311	speH
+T3	Protein 318 325	spy1008
+T4	Protein 449 453	speH
+T8	Span 162 221	We identified 11 differentially expressed phage 370.2 genes
+T9	Causality 223 238	suggesting that
+E4	Causality:T9 Evidence:T8 Effect:T10
+T10	Span 239 291	this defective phage is not transcriptionally silent

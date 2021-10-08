@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>ed980111.1130.0089</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-01-11" temporalFunction="false" functionInDocument="CREATION_TIME">1998-01-11</TIMEX3></DCT>
+<TEXT>
+ The lights are <EVENT eid="e1" class="STATE">out</EVENT> and the heat is <EVENT eid="e2" class="STATE">off</EVENT> and those vital signs are not <EVENT eid="e3" class="STATE">likely</EVENT> to <EVENT eid="e4" class="OCCURRENCE">change</EVENT> much over <TIMEX3 tid="t5" type="DURATION" value="PXD" functionInDocument="NONE">the next several days</TIMEX3> for p - people in parts of the northeastern US and eastern Canada.
+ A powerful ice storm <EVENT eid="e6" class="ASPECTUAL">continues</EVENT> to <EVENT eid="e7" class="STATE">maintain</EVENT> its <EVENT eid="e8" class="STATE">grip</EVENT>.
+ <TIMEX3 tid="t9" type="DATE" value="1998-01-10" anchorTimeID="t0" functionInDocument="NONE">Yesterday</TIMEX3> New York governor George Pataki <EVENT eid="e10" class="OCCURRENCE">toured</EVENT> five counties that have been <EVENT eid="e11" class="I_ACTION">declared</EVENT> under a state of emergency.
+ He <EVENT eid="e12" class="ASPECTUAL">added</EVENT> one more <TIMEX3 tid="t13" type="DATE" value="1998-01-11" anchorTimeID="t0" functionInDocument="NONE">today</TIMEX3>.
+ Helicopters are <EVENT eid="e14" class="OCCURRENCE">flying</EVENT> over northern New York <TIMEX3 tid="t15" type="DATE" value="1998-01-11" anchorTimeID="t0" functionInDocument="NONE">today</TIMEX3> <EVENT eid="e16" class="I_ACTION">trying</EVENT> to <EVENT eid="e17" class="OCCURRENCE">locate</EVENT> people <EVENT eid="e18" class="OCCURRENCE">stranded</EVENT> without food, heat or medicine.
+ In Maine, about a half million people still don't <EVENT eid="e19" class="STATE">have</EVENT> power and they 're going to have to <EVENT eid="e20" class="STATE">live</EVENT> without it for <TIMEX3 tid="t21" type="DURATION" value="PXX" anchorTimeID="t0" functionInDocument="NONE">a while</TIMEX3>.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToTime="t0"/>
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToTime="t0"/>
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t5"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t0"/>
+<TLINK lid="l6" relType="IDENTITY" eventInstanceID="ei7" relatedToEventInstance="ei8"/>
+<TLINK lid="l7" relType="BEFORE" timeID="t9" relatedToTime="t0"/>
+<TLINK lid="l8" relType="INCLUDES" timeID="t9" relatedToEventInstance="ei10"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0"/>
+<TLINK lid="l10" relType="DURING" eventInstanceID="ei12" relatedToTime="t13"/>
+<TLINK lid="l11" relType="IDENTITY" timeID="t13" relatedToTime="t0"/>
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t0"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t15"/>
+<TLINK lid="l14" relType="SIMULTANEOUS" eventInstanceID="ei14" relatedToEventInstance="ei16"/>
+<TLINK lid="l15" relType="AFTER" eventInstanceID="ei17" relatedToEventInstance="ei18"/>
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei19" relatedToTime="t0"/>
+<TLINK lid="l17" relType="AFTER" eventInstanceID="ei20" relatedToTime="t0"/>
+<TLINK lid="l18" relType="SIMULTANEOUS" eventInstanceID="ei20" relatedToTime="t21"/>
+</TimeML>

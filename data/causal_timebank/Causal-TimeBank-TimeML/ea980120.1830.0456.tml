@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>ea980120.1830.0456</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-01-20" temporalFunction="false" functionInDocument="CREATION_TIME">1998-01-20</TIMEX3></DCT>
+<TEXT>
+ The Pentagon <EVENT eid="e1" class="REPORTING">said</EVENT> <TIMEX3 tid="t2" type="DATE" value="1998-01-20" anchorTimeID="t0" functionInDocument="NONE">today</TIMEX3> it will <EVENT eid="e3" class="I_ACTION">re-examine</EVENT> the question are the remains inside the Tomb of the Unknown from the Vietnam War, in fact, <EVENT eid="e4" class="OCCURRENCE">known</EVENT>?
+ CBS News first <EVENT eid="e5" class="REPORTING">reported</EVENT> <TIMEX3 tid="t6" type="TIME" value="1998-01-19TNI" anchorTimeID="t0" functionInDocument="NONE">last night</TIMEX3> that the tomb may <EVENT eid="e7" class="OCCURRENCE">contain</EVENT> the remains of Air Force pilot Michael Blassie.
+ There was a <EVENT eid="e8" class="OCCURRENCE">suspicion</EVENT> the body <EVENT eid="e9" class="STATE">was</EVENT> Blassie <C-SIGNAL cid="c10">because</C-SIGNAL> his uniform and ID card were <EVENT eid="e11" class="OCCURRENCE">found</EVENT> near the body in Vietnam.
+ But subsequently, they were <EVENT eid="e12" class="OCCURRENCE">lost</EVENT>.
+ Blassie's mother <TIMEX3 tid="t13" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">now</TIMEX3> <EVENT eid="e14" class="I_STATE">wants</EVENT> the remains in the tomb <EVENT eid="e15" class="OCCURRENCE">tested</EVENT> for DNA.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" modality="may" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="OTHER"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t2"/>
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t0"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei1"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t6"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0"/>
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei12" relatedToEventInstance="ei11"/>
+<TLINK lid="l9" relType="INCLUDES" timeID="t13" relatedToEventInstance="ei14"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t0"/>
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei14" relatedToTime="t6"/>
+<CLINK lid="l7" c-signalID="c10" eventInstanceID="ei11" relatedToEventInstance="ei8"/>
+</TimeML>

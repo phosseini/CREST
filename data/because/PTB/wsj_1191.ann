@@ -1,0 +1,16 @@
+T1	Motivation 271 280	reason to
+E1	Motivation:T1 Effect:T2
+A1	Degree E1 Facilitate
+T2	Argument 281 507	believe that the proposed acquisition could substantially reduce competition'' in the production of certain image intensifier tubes, which are important components of night-vision devices sold primarily to the defense industry
+T3	Consequence 653 655	if
+E2	Consequence:T3 Cause:T4 Effect:T5
+A2	Degree E2 Facilitate
+A3	Hypothetical E2
+T4	Argument 656 697	the court grants a preliminary injunction
+T5	Argument 699 816	the FTC must begin administrative proceedings to determine the legality of the proposed stock purchase within 20 days
+T6	NonCausal 802 808	within
+E3	NonCausal:T6 Arg1:T7
+A4	Temporal E3
+T7	Argument 699 801	the FTC must begin administrative proceedings to determine the legality of the proposed stock purchase
+T8	Note 745 747	to
+#1	AnnotatorNotes T8	Purpose of existence

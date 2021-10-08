@@ -1,0 +1,16 @@
+Results 
+Deletion of rpoE affects a subset of SsrB-regulated virulence genes Salmonella virulence gene expression is coordinated in vivo and may be regulated, in part, by alternative sigma factor(s) in order to quickly respond to the host environment.
+To date, no sigma factor has been identified as regulating SsrB-dependent virulence genes.
+To start, we first screened four alternative sigma factor mutants of S. Typhimurium (rpoS, rpoN, rpoE, rpoH) for their ability to express a key virulence gene, sseB, that requires SsrB for expression and whose gene product is essential for intracellular pathogenesis.
+For an rpoH deletion, this strain was only viable at temperatures below 30degreesC.
+Since SPI-2 gene activation is integrated into a thermosensing circuit [19] we were unable to test the role of sigmaH in this study (data not shown).
+In this screen, rpoS deletion resulted in a slight increase in SseB levels (Figure 1A) indicating a role for RpoS in the repression of SPI-2.
+Both rpoE and rpoN deletions resulted in decreased SseB levels with a more pronounced effect in the rpoE deletion.
+Since we were predominantly interested in sigma factors that activate SPI-2 and which could be linked to the previous observation that rpoE mutants are highly attenuated in vivo we choose to focus on RpoE in the current study, which had the most influence on SseB levels in the cell.
+An unmarked in-frame deletion of rpoE was then generated in S. Typhimurium strain SL1344 and we verified that this in-frame deletion had the same effect on SseB as the rpoE::cat mutant used previously (Figure 1B).
+A low-copy plasmid containing full-length rpoE and the three endogenous promoters that can drive its expression [20] was able to restore wild type levels of SseB to DeltarpoE cells (Figure 1B) demonstrating that the results were specific to the rpoE deletion.
+In these complementation experiments, attempts were made to examine the levels of SseB secreted into the culture supernatant [21], however consistent with previous observations [22,23] perturbations to the rpoE pathway increased cell lysis resulting in contamination of secreted fractions with cytosolic proteins which precluded accurate interpretation (data not shown).
+In order to examine the effect of sigmaE (rpoE) on the expression of a broad range of SsrB-regulated virulence genes, we tested whether or not the effect of rpoE deletion was specific to sseB or if it extended to other SsrB-regulated genes.
+To do this we examined the levels of SseL-2HA, SifA-2HA and SrfN-2HA expressed from their endogenous promoters under SPI-2 inducing conditions (Figure 1C).
+Consistent with the results for SseB, there was a decrease in SifA-2HA levels in DeltarpoE compared to wild type, although deletion of rpoE did not have an effect on SseL-2HA.
+Relative to its expression in wild type cells, the level of SrfN-2HA was reproducibly increased in the DeltarpoE cells, suggesting a role for sigmaE in the repression of SrfN, although it is unlikely that this is through a direct mechanism.

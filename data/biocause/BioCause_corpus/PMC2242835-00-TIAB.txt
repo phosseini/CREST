@@ -1,0 +1,7 @@
+Control of M. tuberculosis ESAT-6 Secretion and Specific T Cell Recognition by PhoP 
+Analysis of mycobacterial strains that have lost their ability to cause disease is a powerful approach to identify yet unknown virulence determinants and pathways involved in tuberculosis pathogenesis.
+Two of the most widely used attenuated strains in the history of tuberculosis research are Mycobacterium bovis BCG (BCG) and Mycobacterium tuberculosis H37Ra (H37Ra), which both lost their virulence during in vitro serial passage.
+Whereas the attenuation of BCG is due mainly to loss of the ESAT-6 secretion system, ESX-1, the reason why H37Ra is attenuated remained unknown.
+However, here we show that a point mutation (S219L) in the predicted DNA binding region of the regulator PhoP is involved in the attenuation of H37Ra via a mechanism that impacts on the secretion of the major T cell antigen ESAT-6.
+Only H37Ra "knock-ins" that carried an integrated cosmid with the wild-type phoP gene from M. tuberculosis H37Rv showed changes in colony morphology, increased virulence, ESAT-6 secretion, and induction of specific T cell responses, whereas other H37Ra constructs did not.
+This finding established a link between the PhoP regulator and ESAT-6 secretion that opens exciting new perspectives for elucidating virulence regulation in M. tuberculosis.

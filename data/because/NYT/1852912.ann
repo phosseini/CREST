@@ -1,0 +1,84 @@
+T1	Motivation 311 320;376 378	compelled to
+E1	Motivation:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 202 310	news of the attack by Muslim extremists on a Marine Corps barracks in Beirut that killed 241 service members
+T3	Argument 321 374;379 399	Colonel Chessani, then a teenager from Rangely, Colo. embrace Christianity
+T4	Motivation 311 320;412 414	compelled to
+E2	Motivation:T4 Cause:T2 Effect:T5
+A2	Degree E2 Facilitate
+T5	Argument 321 374;415 451	Colonel Chessani, then a teenager from Rangely, Colo. follow two brothers into the service
+T6	NonCausal 532 536	when
+E3	NonCausal:T6 Arg1:T7 Arg0:T8
+A3	Temporal E3
+T7	Argument 471 530	Colonel Chessani was a battalion commander in Haditha, Iraq
+T8	Argument 537 634	a roadside bomb planted by Sunni Arab insurgents killed one of his marines and wounded two others
+T9	Motivation 834 837	for
+E4	Motivation:T9 Cause:T10 Effect:T11
+A4	Degree E4 Facilitate
+T10	Argument 838 881	failing to investigate the episode properly
+T11	Argument 726 833	Last year, the Marine Corps charged Colonel Chessani, 43, and three other officers with dereliction of duty
+T12	NonCausal 1133 1138	since
+E5	NonCausal:T12 Arg1:T13 Arg0:T14
+A5	Temporal E5
+T13	Argument 1125 1132	charged
+T14	Argument 1139 1182	the Iraq war began more than four years ago
+T15	Motivation 2878 2883	after
+E6	Motivation:T15 Effect:T16 Cause:T17
+A6	Degree E6 Facilitate
+A7	Temporal E6
+T16	Argument 2830 2877	angrily shouting, ``My men are not murderers!''
+T17	Argument 2884 2996	Major Carrasco and another battalion officer advised him, on Jan. 29, 2006, to open an inquiry into the killings
+T18	NonCausal 3047 3053	during
+E7	NonCausal:T18 Arg0:T19 Arg1:T20
+A8	Temporal E7
+T19	Argument 3054 3067	the past week
+T20	Argument 3004 3046	all the courtroom characterizations of him
+T24	Motivation 4118 4125	because
+E9	Motivation:T24 Cause:T25 Effect:T26
+A11	Degree E9 Facilitate
+T25	Argument 4126 4258	they followed an attack by insurgents that, he believed, was intended to provoke lethal return fire by marines in a residential area
+T26	Argument 4035 4116	he never suspected that the killings were improper under the American laws of war
+T27	Motivation 4199 4206	provoke
+E10	Motivation:T27 Cause:T28 Effect:T29
+A12	Degree E10 Facilitate
+T28	Argument 4164 4168	that
+T29	Argument 4207 4258	lethal return fire by marines in a residential area
+T30	Purpose 4462 4464	so
+E11	Purpose:T30 Cause:T31 Effect:T32
+A13	Degree E11 Facilitate
+T31	Argument 4470 4502	there would be collateral damage
+T32	Argument 4441 4461	they had set this up
+T33	Motivation 4593 4596;4599 4605	for reason
+E12	Motivation:T33 Effect:T34 Cause:T48
+A14	Degree E12 Facilitate
+T34	Argument 4525 4592	Enemy had picked the place, he had picked the time and the location
+T36	Consequence 4701 4705	make
+E13	Consequence:T36 Cause:T37 Effect:T38
+A15	Degree E13 Facilitate
+T37	Argument 4688 4690	he
+T38	Argument 4706 4708;4709 4717	us look bad
+T39	Motivation 4792 4794	so
+E14	Motivation:T39 Cause:T40 Effect:T41
+A16	Degree E14 Facilitate
+A17	Extremity-sufficiency E14
+T40	Argument 4761 4871	Colonel Chessani was, in fact, so intent on not letting insurgents use the civilian deaths against the marines
+T41	Argument 4877 5014	he ignored evidence that his troops, under sporadic small-arms fire, had violated rules of engagement in killing civilians in their homes
+T42	Consequence 5507 5515;5528 5530	required to
+E15	Consequence:T42 Cause:T43 Effect:T44
+T43	Argument 5502 5506	that
+T44	Argument 5516 5527;5531 5567	infantrymen discern enemy targets from civilians
+T45	Argument 5483 5501	live-fire training
+R1	Coref Arg1:T43 Arg2:T45	
+T46	Argument 4140 4163	an attack by insurgents
+R2	Coref Arg1:T28 Arg2:T46	
+A18	Degree E15 Facilitate
+T21	Motivation 2277 2280	why
+E8	Motivation:T21 Effect:T22
+A9	Degree E8 Facilitate
+T22	Argument 2281 2312	the marines killed 24 civilians
+T23	NonCausal 2999 3003	Amid
+E16	NonCausal:T23 Arg1:T47 Arg0:T35
+A10	Context E16
+T35	Argument 3004 3067	all the courtroom characterizations of him during the past week
+T47	Argument 3069 3244	Colonel Chessani, slightly built and with thinning gray hair, sat stone-faced at the defense table in his desert fatigues, jotting notes but rarely talking even to his lawyers
+T48	Argument 4597 4605	a reason

@@ -1,0 +1,100 @@
+T1	NonCausal 345 350	after
+E1	NonCausal:T1 Arg1:T2
+A1	Temporal E1
+T2	Argument 351 488	a fleet of 336 gargantuan earthmoving vehicles belonging to De Beers Consolidated Mines Ltd., the world's diamond kingpins, do their work
+T3	Purpose 563 565	to
+E2	Purpose:T3 Effect:T4 Cause:T5
+A2	Degree E2 Facilitate
+T4	Argument 501 562	43 million tons of desert were moved from one dune to another
+T5	Argument 566 649	recover 934,242 carats, which comes to 46 tons of sand per carat, or one-fifth gram
+T6	NonCausal 708 710	If
+E3	NonCausal:T6 Arg0:T7 Arg1:T8
+A3	Hypothetical E3
+T7	Argument 711 737	there's diamonds out there
+T8	Argument 739 756	we'll get to them
+T9	Consequence 953 962	Thanks to
+E4	Consequence:T9 Cause:T10 Effect:T11
+A4	Degree E4 Facilitate
+T10	Argument 963 1189	centuries of polishing by Mother Nature -- first in the gentle current of the Orange River that carried the stones from South Africa's interior, then in the cold surf of the ocean, and finally in the coarse sands of the desert
+T11	Argument 1193 1241	98% of the diamonds uncovered are of gem quality
+T12	Motivation 1338 1343	Since
+E5	Motivation:T12 Cause:T13 Effect:T14
+A5	Degree E5 Facilitate
+A6	Temporal E5
+T13	Argument 1344 1397	this treasure chest is too big to fit in a bank vault
+T14	Argument 1399 1426	it has been turned into one
+T15	Argument 1367 1374	too big
+T16	Consequence 1367 1370;1375 1377	too to
+E6	Consequence:T16 Cause:T15 Effect:T17
+A7	Degree E6 Inhibit
+A8	Extremity-sufficiency E6
+T17	Argument 1378 1397	fit in a bank vault
+T18	Motivation 1435 1440	after
+E7	Motivation:T18 Cause:T19 Effect:T20
+A9	Degree E7 Facilitate
+A10	Temporal E7
+T19	Argument 1441 1520	railway worker Zacharias Lewala first picked up a diamond from the sand in 1908
+T20	Argument 1522 1769	the German colonialists who controlled Namibia proclaimed a wide swath of the desert -- about 200 miles north from the Orange River and 60 miles inland from the Atlantic -- a restricted area, a designation normally reserved for military operations
+T21	Consequence 1771 1775	When
+E8	Consequence:T21 Cause:T22 Effect:T23
+A11	Degree E8 Facilitate
+A12	Temporal E8
+T22	Argument 1776 1804	the Germans lost World War I
+T23	Argument 1806 1926	they lost Namibia to South Africa and the diamonds to Ernest Oppenheimer, patriarch of Anglo American Corp. and De Beers
+T24	Consequence 1980 1987	without
+E9	Consequence:T24 Cause:T25 Effect:T26
+A13	Degree E9 Inhibit
+A14	Context E9
+T25	Argument 1988 2014	De Beers's stingy approval
+T26	Argument 1935 1979	no one gets in or out of the restricted area
+T27	Consequence 2038 2042	thus
+E10	Consequence:T27 Effect:T28
+A15	Degree E10 Facilitate
+T28	Argument 2018 2037;2043 2093	The mining zone has remained one of the most desolate places in Africa
+T29	Purpose 2359 2361	to
+E11	Purpose:T29 Cause:T30 Effect:T31
+A16	Degree E11 Facilitate
+T30	Argument 2362 2389	drink from water sprinklers
+T31	Argument 2283 2358	gemsbok, hardy antelope with long straight horns, wander in from the desert
+T35	Motivation 2985 2989	when
+E13	Motivation:T35 Cause:T36 Effect:T37
+A19	Degree E13 Facilitate
+A20	Temporal E13
+T36	Argument 2990 3044	the rising Orange River threatened to swamp the course
+T37	Argument 3046 3144	the same engineers who are pushing back the Atlantic rushed to build a wall to hold back the flood
+T39	Motivation 4075 4079	When
+E14	Motivation:T39 Cause:T40 Effect:T41
+A21	Degree E14 Facilitate
+A22	Temporal E14
+T40	Argument 4080 4123	the mining in front of the wall is complete
+T41	Argument 4125 4146	it is moved northward
+T42	Consequence 4171 4176	helps
+E15	Consequence:T42 Cause:T43 Effect:T44
+A23	Degree E15 Facilitate
+T43	Argument 4148 4165	A companion jetty
+T44	Argument 4177 4194	hold back the sea
+T45	Purpose 4263 4265	to
+E16	Purpose:T45 Effect:T46 Cause:T47
+A24	Degree E16 Facilitate
+T46	Argument 4226 4262	Engineers first used concrete blocks
+T47	Argument 4266 4285	bolster the barrier
+T48	Motivation 4485 4489	when
+E17	Motivation:T48 Cause:T49 Effect:T50
+A25	Degree E17 Facilitate
+A26	Temporal E17
+T49	Argument 4490 4529	they see their equipment used like that
+T50	Argument 4445 4484	The Caterpillar people aren't too happy
+T51	Motivation 4965 4971	should
+E18	Motivation:T51 Cause:T52 Effect:T53
+A27	Degree E18 Facilitate
+A28	Hypothetical E18
+T52	Argument 4972 4984	they spy one
+T53	Argument 4986 5043	the company will pay a bonus equal to one-third its value
+T38	Consequence 5118 5127	enough to
+E19	Consequence:T38 Cause:T54 Effect:T56
+A29	Degree E19 Facilitate
+A30	Extremity-sufficiency E19
+T54	Argument 5102 5106	this
+T56	Argument 5128 5215	overcome the temptation to steal -- a crime that could earn them up to 15 years in jail
+T32	Note 2460 2466	create
+#1	AnnotatorNotes T32	Create a physical thing

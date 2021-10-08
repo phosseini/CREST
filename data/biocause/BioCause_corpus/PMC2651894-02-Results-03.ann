@@ -1,0 +1,57 @@
+T1	Protein 14 18	RpoE
+T2	Protein 55 59	ssrB
+T3	Protein 96 100	rpoE
+T4	Protein 113 117	SsrB
+T5	Protein 153 157	RpoE
+T6	Protein 199 203	ssrB
+T7	Protein 246 250	ssrB
+T8	Organism 259 268	DeltarpoE
+T9	Protein 264 268	rpoE
+T10	Regulon-operon 297 307	ssrB::FLAG
+T11	Protein 297 301	ssrB
+T12	Protein 347 351	SsrB
+T13	Regulon-operon 429 438	SsrB-FLAG
+T14	Protein 429 433	SsrB
+T15	Organism 461 470	DeltarpoE
+T16	Protein 466 470	rpoE
+T17	Protein 520 524	RpoE
+T18	Protein 623 627	SsrB
+T19	Protein 685 689	RpoE
+T20	Organism 741 755	S. Typhimurium
+T21	Process 22 31	virulence
+T22	Gene_expression 60 70	expression
+T23	Transcription 171 184	transcription
+T24	Regulation 185 195	downstream
+T25	Gene_expression 204 214	expression
+T26	Gene_expression 337 343	levels
+T27	Regulation 405 411	change
+T28	Gene_expression 419 425	levels
+T29	Process 548 557	virulence
+T30	Regulation 612 619	changes
+T31	Gene_expression 628 642	protein levels
+T32	Process 712 721	virulence
+E1	Process:T21 
+E2	Gene_expression:T22 Theme:T2
+E3	Transcription:T23 Theme:T5
+E4	Regulation:T24 Theme:E3 Cause:E5
+E5	Gene_expression:T25 Theme:T6
+E6	Gene_expression:T26 Theme:T12
+E7	Regulation:T27 Theme:E8
+M1	Negation E7
+E8	Gene_expression:T28 Theme:T13
+E9	Process:T29 Participant:T15
+E10	Regulation:T30 Theme:E11
+E11	Gene_expression:T31 Theme:T18
+E12	Process:T32 Participant:T20
+T33	Causality 138 152	suggested that
+E13	Causality:T33 Effect:T35 Evidence:T34
+T34	Fact 72 137	The variable effects of rpoE deletion on SsrB-regulated effectors
+T35	Fact 153 214	RpoE might direct transcription downstream of ssrB expression
+T37	Span 392 476	There was no change in the levels of SsrB-FLAG between wild type and DeltarpoE cells
+T38	Causality 489 499	indicating
+E14	Causality:T38 Evidence:T37 Effect:T39
+T39	Span 500 642	that the effects of RpoE on the four classes of virulence gene promoters examined here was not mediated through changes to SsrB protein levels
+T36	Span 392 642	There was no change in the levels of SsrB-FLAG between wild type and DeltarpoE cells (Figure 3), indicating that the effects of RpoE on the four classes of virulence gene promoters examined here was not mediated through changes to SsrB protein levels
+T40	Causality 644 673	Together these data establish
+E15	Causality:T40 Effect:T41 Evidence:T36
+T41	Span 674 740	a role for RpoE in the fine-tuning of virulence gene expression in

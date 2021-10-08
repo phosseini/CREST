@@ -1,0 +1,7 @@
+Virulence Studies of H37Ra Complemented Mutants in a Mouse Model 
+Further assessment of the in vivo growth of different H37Ra knock-in strains was carried out by intravenous infection of severe combined immuno-deficient (SCID) mice.
+Complementation of H37Ra with the PhoP-expressing cosmid increased the virulence of the H37Ra::phoP recombinant relative to H37Ra, resulting in a 1.0 log and 0.5 log increase in CFU number in lungs and spleens, respectively.
+In contrast, no effects on the virulence were observed when H37Ra was complemented with fadE5 (Figure 2) or rpsL (unpublished data).
+However, as already observed in macrophages, integration of phoP did not restore levels of virulence to those of the reference strain H37Rv (Figure 2).
+This situation is also reflected in the sizes of spleens, which correlate with the CFU data in spleens (Figure S4).
+Together with the data from the macrophage infection assay, the results from the mouse infection show that the S219L mutation in the phoP gene definitely represents one genetic lesion that contributed to the attenuation of the H37Ra strain.

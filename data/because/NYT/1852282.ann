@@ -1,0 +1,43 @@
+T1	Motivation 313 317	when
+E1	Motivation:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+A2	Temporal E1
+T2	Argument 318 358	he leaves office at the end of the month
+T3	Argument 259 312	he will take a special interest in interfaith affairs
+T4	Consequence 533 538;550 552	force to
+E2	Consequence:T4 Effect:T6 Means:T5
+A3	Degree E2 Facilitate
+A4	Obligation-permission E2
+T5	Argument 522 529	torture
+T6	Argument 539 549;553 565	conversion Christianity
+T7	Purpose 530 532	to
+E3	Purpose:T7 Cause:T8 Effect:T9
+A5	Degree E3 Facilitate
+T8	Argument 533 565	force conversion to Christianity
+T9	Argument 492 529	the use, in times gone by, of torture
+T10	Purpose 744 747	for
+E4	Purpose:T10 Cause:T11 Effect:T12
+A6	Degree E4 Facilitate
+T11	Argument 748 843	a two-day program that was organized by the government in conjunction with Cambridge University
+T12	Argument 579 743	Muslim leaders from Egypt, Indonesia, Bosnia, Western Europe and the United States joined a carefully selected group of British Muslims at Lancaster House in London
+T13	Motivation 916 922;944 946	caused to
+E5	Motivation:T13 Cause:T14 Effect:T15
+A7	Degree E5 Facilitate
+T14	Argument 846 914	The guest list, a subject of negotiations for the past several weeks
+T15	Argument 923 943;947 1127	some British Muslims complain that the conference was shaped to lend support for Mr. Blair's policies on Iraq and Afghanistan and to affirm government support for some British Muslim groups over others
+T16	Motivation 1176 1178;1183 1195	on grounds that
+E6	Motivation:T16 Effect:T17 Cause:T18
+A8	Degree E6 Facilitate
+T17	Argument 1159 1175	have been chosen
+T18	Argument 1196 1273	they provided a bulwark against what the government considers extremist views
+T23	Consequence 3364 3366	if
+E8	Consequence:T23 Cause:T24 Effect:T25
+A11	Degree E8 Facilitate
+A12	Hypothetical E8
+T24	Argument 3367 3424	we have a motivating idea that is better than their ideas
+T25	Argument 3341 3363	We will only defeat it
+#1	AnnotatorNotes E1	Debatable, but plausible Motivation reading
+T26	Note 987 989	to
+#2	AnnotatorNotes T26	Not two separate clauses with one being the purpose of the other
+T19	Note 2466 2472	barred
+#3	AnnotatorNotes T19	Exclusively legal verb

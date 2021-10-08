@@ -1,0 +1,20 @@
+Y. pestis genes involved in infection and biofilm formation in the flea 
+Because blockage of the flea vector is essentially a biofilm phenomenon, Y. pestis genes whose expression patterns are significantly upregulated in the flea and flowcell biofilms relative to planktonic cultures (Table S4) might indicate that they are transmission factors.
+Several studies comparing the transcriptional profiles of Escherichia coli and other gram negative bacteria during biofilm and planktonic growth in vitro have been published [20],[21],[22],[23].
+Certain genes whose mutational loss resulted in an altered biofilm phenotype have been identified in these studies; but in general a consistent, distinct biofilm gene expression profile has not emerged.
+This is probably because different media and experimental systems have been employed and the fact that a biofilm consists of a physiologically heterogeneous community [24],[25].
+Nevertheless, common biofilm-related adaptations include the repression of motility and the induction of specific adhesins, an extracellular polysaccharide matrix (ECM), and an envelope stress response (ESR) [10],[23].
+However, Y. pestis is constitutively nonmotile, and synthesis of the Hms-dependent biofilm ECM is regulated post-translationally [26].
+The ymt gene was among the most highly expressed genes in the flea (Table S3), but neither it nor the known transmission factors (hmsHFRS, hmsT, hmsP, and gmhA) showed significantly higher expression in the flea than in vitro at 21degreesC, indicating that they are induced primarily by low temperature, and not by environmental factors specific to the flea gut.
+Y. pestis homologs of two genes with previously identified roles in biofilm, yidE, which encodes a hyperadherence factor in E. coli [27], and cpxP, a member of the cpxPAR ESR system, were upregulated in the flowcell; but predicted adhesin genes were not upregulated.
+The transcriptional profile of Y. pestis in blocked fleas showed greater similarity to the transcriptional profile reported for E. coli in mature, four-day-old in vitro biofilms [23].
+In addition to yidE and cpxP, other Y. pestis predicted adhesins and components of an ESR were upregulated in the flea.
+The Y. pestis homologs of Pseudomonas aeruginosa cupA1 and cupA3 in a predicted fimbrial biosynthesis operon and yapL, a predicted autotransporter adhesin similar to E. coli tibA, were specifically upregulated in the flea (Table S1).
+The cupA fimbrial locus and tibA are important for surface adherence and for biofilm formation in P. aeruginosa and E. coli, respectively [28],[29].
+Evidence for induction of an ESR in the flea included the high expression levels of rpoE, the gene for the alternate transcription factor sigmaE (as well as the anti-sigmaE negative regulator genes rseA and rseB), cpxP; and pspA and pspG, components of the phage-shock protein (Psp) response (Tables S1 and S3).
+These genes were also found to be upregulated in mature E. coli biofilms [23], suggesting that the three prominent ESR systems are important for integrating signals required for survival in a biofilm.
+Because homologs of the yidE, cpxP, tibA (yapL), cupA fimbriae, and pspABC genes were upregulated in the flea and have been shown to be involved in biofilm formation in other bacteria [23],[27],[28],[29], we made a series of Y. pestis strains containing deletions of these loci.
+However, the single loss of any of these genes did not result in a noticeable defect in biofilm formation in vitro, or in flea infection or blockage (data not shown).
+These genes may contribute to biofilm formation, but are not individually essential for this phenotype.
+Although genes in the polyamine transport gabTpotDBC locus are among the most highly induced genes in the flea (Table S1) and polyamines are essential for Y. pestis biofilm formation [30], we have previously reported that a Y. pestis Deltapot mutant has no defect in flea infection or blockage [31].
+This is likely due to the fact that Y. pestis is able to synthesize polyamines de novo.

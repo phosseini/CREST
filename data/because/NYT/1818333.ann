@@ -1,0 +1,161 @@
+T1	Purpose 256 258	to
+E1	Purpose:T1 Effect:T3 Cause:T2
+A1	Degree E1 Facilitate
+T2	Argument 259 277	take back the city
+T3	Argument 205 255	make a show of increased American force in Baghdad
+T4	Consequence 472 479	because
+E2	Consequence:T4 Cause:T19 Effect:T18
+A2	Degree E2 Facilitate
+T5	Consequence 489 493	make
+E3	Consequence:T5 Effect:T21 Cause:T20
+A3	Degree E3 Facilitate
+T6	Purpose 870 872	to
+E4	Purpose:T6 Cause:T23 Effect:T22
+A4	Degree E4 Facilitate
+T7	Consequence 873 876	let
+E5	Consequence:T7 Effect:T24 Means:T22
+A5	Degree E5 Facilitate
+T8	Consequence 1237 1240	let
+E6	Consequence:T8 Effect:T26 Cause:T25
+A6	Degree E6 Facilitate
+T9	Consequence 2498 2502	made
+E7	Consequence:T9 Effect:T10 Cause:T11
+A7	Degree E7 Facilitate
+T10	Argument 2503 2505;2506 2525	it worth adding troops
+T11	Argument 2438 2497	the economic commitments by both Iraq and the United States
+T12	Consequence 3859 3868	helped to
+E8	Consequence:T12 Cause:T33 Effect:T65
+A8	Degree E8 Facilitate
+T13	Consequence 4414 4421	lead to
+E9	Consequence:T13 Effect:T36 Cause:T35
+A9	Degree E9 Facilitate
+T14	Consequence 4611 4618	without
+E10	Consequence:T14 Cause:T38 Effect:T37
+A10	Degree E10 Inhibit
+T15	Consequence 4706 4713	without
+E11	Consequence:T15 Cause:T40 Effect:T39
+A11	Degree E11 Inhibit
+T16	Consequence 4912 4917;4943 4945	allow to
+E12	Consequence:T16 Effect:T41
+A12	Degree E12 Facilitate
+T17	Purpose 5765 5767	to
+E13	Purpose:T17 Cause:T43 Effect:T42
+A13	Degree E13 Facilitate
+T18	Argument 416 470	to send more troops to Iraq could be counterproductive
+T19	Argument 480 543	it might make the Iraqi government less likely to defend itself
+T20	Argument 480 482	it
+R1	Coref Arg1:T20 Arg2:T30	
+T21	Argument 494 514;515 543	the Iraqi government less likely to defend itself
+T22	Argument 857 869	pulling back
+T23	Argument 873 908	let the Iraqi factions fight it out
+T24	Argument 877 895;896 908	the Iraqi factions fight it out
+T25	Argument 1205 1207	we
+T26	Argument 1241 1253;1254 1277	the factions fight it out themselves
+T27	Motivation 3180 3182	If
+E14	Motivation:T27 Cause:T28 Effect:T29
+A14	Degree E14 Facilitate
+T28	Argument 3183 3228	General Casey feels like he needs more troops
+T29	Argument 3230 3245	we'll send them
+T33	Argument 3824 3858	Mr. Rumsfeld's departure on Nov. 8
+T35	Argument 4383 4407	political reconciliation
+T36	Argument 4422 4431	stability
+T37	Argument 4587 4610	You can't have security
+T38	Argument 4619 4650	political and economic progress
+T39	Argument 4656 4705	it's hard to have political and economic progress
+T40	Argument 4714 4722	security
+T41	Argument 4918 4942;4946 4959	Iraqi-vs.-Iraqi fighting settle itself
+T42	Argument 5724 5763	General Pace traveled to Crawford, Tex.
+T43	Argument 5768 5786	meet with Mr. Bush
+T30	Argument 416 443	to send more troops to Iraq
+T31	NonCausal 5 11	before
+E15	NonCausal:T31 Arg1:T32 Arg0:T44
+A15	Temporal E15
+T32	Argument 12 34	the November elections
+T44	Argument 36 277	President Bush and his national security adviser, Stephen J. Hadley, were informally discussing what Mr. Hadley was calling ``the big push'' -- whether it made sense to make a show of increased American force in Baghdad to take back the city
+T45	NonCausal 284 288	when
+E16	NonCausal:T45 Arg0:T46 Arg1:T47
+T46	Argument 289 332	Mr. Hadley traveled to Iraq in late October
+A16	Temporal E16
+T47	Argument 334 543	the commander there, Gen. George W. Casey Jr., repeated his frequent warning that to send more troops to Iraq could be counterproductive, because it might make the Iraqi government less likely to defend itself
+T48	Consequence 1195 1198	Why
+E17	Consequence:T48 Effect:T49
+A17	Degree E17 Facilitate
+T49	Argument 1199 1277	can't we just pull out of Baghdad and let the factions fight it out themselves
+T50	Motivation 2388 2393	until
+E18	Motivation:T50 Effect:T51 Cause:T52
+A18	Temporal E18
+T51	Argument 2287 2387	John P. Abizaid, who heads the Central Command, was opposed to any increase in American troop levels
+T52	Argument 2394 2525	mid-November, when he became convinced that the economic commitments by both Iraq and the United States made it worth adding troops
+T56	NonCausal 2955 2961	before
+E20	NonCausal:T56 Arg1:T57 Arg0:T58
+A20	Temporal E20
+T57	Argument 2962 2975	the elections
+T58	Argument 2939 2954	public comments
+T59	NonCausal 3092 3098	During
+E21	NonCausal:T59 Arg0:T60 Arg1:T61
+A21	Temporal E21
+T60	Argument 3099 3161	an interview session with conservative columnists in September
+T61	Argument 3163 3248	Mr. Bush said: ``If General Casey feels like he needs more troops, we'll send them,''
+T63	NonCausal 3961 3963	as
+E22	NonCausal:T63 Arg0:T64 Arg1:T34
+A22	Temporal E22
+T64	Argument 3964 4014	they ran the review process inside the White House
+T65	Argument 3869 4014	empower Mr. Hadley, along with his deputy at the National Security Council, Jack D. Crouch, as they ran the review process inside the White House
+T66	NonCausal 4536 4542	before
+E23	NonCausal:T66 Arg1:T67 Arg0:T68
+A23	Temporal E23
+T67	Argument 4543 4583	he took his late-October trip to Baghdad
+T68	Argument 4454 4535	You have this Catch-22 element,'' Mr. Hadley said in a conversation in his office
+T69	NonCausal 5034 5036	As
+E24	NonCausal:T69 Arg0:T70 Arg1:T71
+T70	Argument 5037 5070	you peel that back and look at it
+T71	Argument 5072 5108	it just doesn't war-game out for you
+T72	Motivation 6418 6422	when
+E25	Motivation:T72 Cause:T74 Effect:T73
+A25	Degree E25 Facilitate
+A26	Temporal E25
+T73	Argument 6370 6397	General Abizaid came around
+T74	Argument 6423 6532	he saw that the additional American combat forces would be accompanied by a ``political and economic surge.''
+T75	NonCausal 1702 1708	during
+E26	NonCausal:T75 Arg0:T76 Arg1:T77
+A27	Temporal E26
+T76	Argument 1709 1722	the past year
+T77	Argument 1667 1701	who had been on the ground in Iraq
+A29	Hypothetical E14
+T62	NonCausal 3338 3340;3377 3381	if Then
+E27	NonCausal:T62 Arg0:T79 Arg1:T80
+A30	Hypothetical E27
+T79	Argument 3341 3351	he's wrong
+T80	Argument 3382 3408	I picked the wrong general
+A31	Context E10
+A32	Context E11
+T81	Argument 5724 5786	General Pace traveled to Crawford, Tex., to meet with Mr. Bush
+T82	NonCausal 5787 5792	after
+E28	NonCausal:T82 Arg0:T83 Arg1:T81
+A33	Temporal E28
+T83	Argument 5793 5802	Christmas
+T84	Argument 1004 1146	Mr. Bush, Mr. Hadley, Secretary of State Condoleezza Rice and the newly appointed secretary of defense, Robert M. Gates, weighed their options
+T85	Argument 1148 1280	the president asked his deputies, in effect: ``Why can't we just pull out of Baghdad and let the factions fight it out themselves?''
+T86	NonCausal 1001 1003	as
+E29	NonCausal:T86 Arg0:T84 Arg1:T85
+A34	Temporal E29
+A24	Temporal E24
+T87	Argument 5209 5242	you see ethnic cleansing going on
+T88	Argument 5243 5261	look the other way
+T89	NonCausal 5204 5208	when
+E30	NonCausal:T89 Arg0:T87 Arg1:T88
+T90	NonCausal 766 770	Over
+E31	NonCausal:T90 Arg1:T91 Arg0:T92
+A36	Temporal E31
+T91	Argument 791 985	those diametrically opposed options -- adding American troops, or pulling back to let the Iraqi factions fight it out -- marked the boundaries of a vigorous debate inside the Bush administration
+T92	Argument 771 790	the past two months
+T93	NonCausal 987 989	At
+E32	NonCausal:T93 Arg1:T85 Arg0:T94
+A37	Temporal E32
+T94	Argument 990 999	one point
+T78	Note 2408 2412	when
+#2	AnnotatorNotes T78	Relative pronoun
+#1	AnnotatorNotes E27	Inference
+T34	Argument 3824 3959	Mr. Rumsfeld's departure on Nov. 8 helped to empower Mr. Hadley, along with his deputy at the National Security Council, Jack D. Crouch
+A19	Degree E18 Inhibit
+A28	Context E30

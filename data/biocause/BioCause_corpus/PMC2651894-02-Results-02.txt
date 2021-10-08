@@ -1,0 +1,12 @@
+RpoE is involved in transcriptional activity of a subset of virulence genes 
+In order to confirm the effect of sigmaE on the expression of a broad range of SsrB-regulated virulence genes, we used wild type and DeltarpoE cells and integrated into the chromosome individually six single-copy transcriptional fusions representing promoters for four classes of SsrB-dependent genes or operons
+((i) type III secretion effector operon (sseA); (ii) structural operon I (ssaB); (iii) structural operon II (ssaG); (iv and v) effectors encoded outside of SPI-2 (sseL and sifA); and (vi) integrated virulence genes unlinked to SPI-2 (srfN) [9].
+Transcriptional fusions to lacZ of the sseA, ssaB, ssaG, sseL, sifA and srfN promoters (mapped previously; [9,24] were integrated into the chromosome of wild type and DeltarpoE cells and then grown in the SsrB-activating medium LPM.
+The activity of each promoter was measured using a beta-galactosidase assay during exponential growth.
+Although DeltarpoE was observed to have a slightly prolonged lag phase relative to wild type cells under these experimental conditions, at later time points the mutant grew similarly to wild type.
+To account for any differences in growth kinetics of the cultures, all data was normalized to the optical density at 600 nm of the culture, which permitted direct comparisons.
+In wild type cells, promoter activity from all the transcriptional fusions was high, as expected, because LPM medium is highly inducing for SsrB activity [21].
+In contrast, promoter activity for sseA, ssaB, and sifA decreased in the rpoE mutant compared to wild type cells (Figure 2A, B and 2D), whereas promoter activity from the ssaG and srfN reporters was upregulated in the rpoE mutant (Figure 2C and 2F).
+beta-galactosidase activity observed from the sseL reporter was unaltered in the rpoE deletion compared to that in wild type cells (Figure 2E).
+These data are consistent with the protein levels detected for these gene products.
+Together, these data indicate that sigmaE can have a variable and bidirectional effect on SsrB-regulated virulence genes.

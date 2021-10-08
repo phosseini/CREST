@@ -1,0 +1,221 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0575</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-30</TIMEX3></DCT>
+<TEXT>
+ Control Data Corp., which just <TIMEX3 tid="t1" type="DURATION" value="PXM" functionInDocument="NONE">months ago</TIMEX3> was <EVENT eid="e2" class="OCCURRENCE">hemorrhaging</EVENT> financially, <EVENT eid="e3" class="I_STATE">thinks</EVENT> it will be <EVENT eid="e4" class="STATE">healthy</EVENT> enough <TIMEX3 tid="t5" type="DATE" value="FUTURE_REF" functionInDocument="NONE">soon</TIMEX3> to <EVENT eid="e6" class="I_STATE">consider</EVENT> <EVENT eid="e7" class="OCCURRENCE">repurchasing</EVENT> public debt.
+ Moreover, the company, whose go-it-alone approach nearly <EVENT eid="e8" class="OCCURRENCE">proved</EVENT> fatal, <TIMEX3 tid="t9" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">now</TIMEX3> <EVENT eid="e10" class="I_STATE">sees</EVENT> alliances with others as the way back to prosperity in what it calls " the data solutions " business.
+ " I 'm not saying everything is hunky-dory, but we have <EVENT eid="e11" class="ASPECTUAL">completed</EVENT> the <EVENT eid="e12" class="OCCURRENCE">transition</EVENT>, " Robert M. Price, chairman and chief executive, <EVENT eid="e13" class="REPORTING">said</EVENT> in an <EVENT eid="e14" class="OCCURRENCE">interview</EVENT>.
+ " Transition " is a reference to the company's <TIMEX3 tid="t15" type="DURATION" value="P5Y" functionInDocument="NONE">five-year</TIMEX3> restructuring <EVENT eid="e16" class="I_ACTION">effort</EVENT>.
+ During <TIMEX3 tid="t17" type="DURATION" value="P5Y" anchorTimeID="t15" functionInDocument="NONE">that time</TIMEX3>, Control Data <EVENT eid="e18" class="STATE">had</EVENT> losses of more than $ 1 billion.
+ Now, following asset sales that <EVENT eid="e19" class="OCCURRENCE">shrank</EVENT> revenue by more than one-third <TIMEX3 tid="t20" type="DATE" value="1989" anchorTimeID="t0" functionInDocument="NONE">this year</TIMEX3> alone, Control Data is <EVENT eid="e21" class="STATE">flush</EVENT> with cash.
+ <C-SIGNAL cid="c22">So</C-SIGNAL> its senior executives are <EVENT eid="e23" class="I_ACTION">talking</EVENT> openly about possibly <EVENT eid="e24" class="OCCURRENCE">buying</EVENT> back some of the company's $ 172.5 million in subordinated convertible debentures <TIMEX3 tid="t25" type="DATE" value="1990" anchorTimeID="t0" functionInDocument="NONE">next year</TIMEX3>.
+ " We 'd <EVENT eid="e26" class="I_STATE">like</EVENT> to <EVENT eid="e27" class="ASPECTUAL">continue</EVENT> to <EVENT eid="e28" class="OCCURRENCE">reduce</EVENT> debt, " President Lawrence Perlman <EVENT eid="e29" class="REPORTING">said</EVENT>.
+ <EVENT eid="e30" class="REPORTING">Noting</EVENT> that the company is <EVENT eid="e31" class="I_ACTION">offering</EVENT> to <EVENT eid="e32" class="OCCURRENCE">buy</EVENT> back $ 154.2 million in senior notes <EVENT eid="e33" class="OCCURRENCE">paying</EVENT> 12 3/4 %, he <EVENT eid="e34" class="REPORTING">said</EVENT> the <EVENT eid="e35" class="OCCURRENCE">response</EVENT> will <EVENT eid="e36" class="I_STATE">help</EVENT> <EVENT eid="e37" class="I_ACTION">determine</EVENT> future debt-reduction <EVENT eid="e38" class="OCCURRENCE">efforts</EVENT>.
+ The <EVENT eid="e39" class="OCCURRENCE">offer</EVENT> was automatically <EVENT eid="e40" class="ASPECTUAL">triggered</EVENT> <C-SIGNAL cid="c41">by</C-SIGNAL> the <TIMEX3 tid="t42" type="DATE" value="PAST_REF" anchorTimeID="t0" functionInDocument="NONE">recent</TIMEX3> <EVENT eid="e43" class="OCCURRENCE">sale</EVENT> of Control Data's Imprimis disk-drive business to Seagate Technology Inc.
+ Mr. Perlman, who is also acting chief financial officer and the odds-on favorite to become the next chief executive, <EVENT eid="e44" class="REPORTING">said</EVENT> the company is <EVENT eid="e45" class="I_STATE">achieving</EVENT> " modest positive cash <EVENT eid="e46" class="STATE">flow</EVENT> from operations, and we <EVENT eid="e47" class="I_STATE">expect</EVENT> that to <EVENT eid="e48" class="ASPECTUAL">continue</EVENT> into <TIMEX3 tid="t49" type="DATE" value="1990" functionInDocument="NONE">1990</TIMEX3>. "
+ He <EVENT eid="e50" class="REPORTING">said</EVENT> the company <EVENT eid="e51" class="STATE">has</EVENT> no intention of <EVENT eid="e52" class="OCCURRENCE">tapping</EVENT> its short-term bank lines " for <TIMEX3 tid="t53" type="DATE" value="1990" functionInDocument="NONE">a good part of 1990</TIMEX3>. "
+ Sometime <TIMEX3 tid="t54" type="DATE" value="1990" anchorTimeID="t0" functionInDocument="NONE">next year</TIMEX3>, Control Data will " <EVENT eid="e55" class="I_ACTION">develop</EVENT> a new bank relationship, " Mr. Perlman <EVENT eid="e56" class="REPORTING">said</EVENT>.
+ In <TIMEX3 tid="t57" type="DURATION" value="PXM" functionInDocument="NONE">recent months</TIMEX3> a group of lenders, led by Bank of America, has <EVENT eid="e58" class="OCCURRENCE">extended</EVENT> Control Data up to $ 90 million in revolving loans through <TIMEX3 tid="t59" type="DATE" value="1990-01" anchorTimeID="t0" functionInDocument="NONE">January</TIMEX3>, as well as $ 115 million in standby letters of credit.
+ Loan covenants require that the company achieve specified levels of operating earnings and meet a rolling four-quarter profitability test.
+ <TIMEX3 tid="t60" type="DATE" value="1989-WXX" anchorTimeID="t0" functionInDocument="NONE">Last week</TIMEX3> Control Data <EVENT eid="e61" class="REPORTING">reported</EVENT> <TIMEX3 tid="t62" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> <EVENT eid="e63" class="STATE">earnings</EVENT> of $ 9.8 million, or 23 cents a share, on revenue of $ 763 million.
+ Through <TIMEX3 tid="t64" type="DURATION" value="P9M" functionInDocument="NONE">the first nine months</TIMEX3>, the company <EVENT eid="e65" class="STATE">had</EVENT> a <EVENT eid="e66" class="STATE">loss</EVENT> of $ 484 million, largely reflecting the <EVENT eid="e67" class="OCCURRENCE">closing</EVENT> of its supercomputer unit.
+ While a few assets are still being shopped -- including the sports and entertainment ticketing portion of the company's Ticketron unit -- Mr. Price <EVENT eid="e68" class="REPORTING">said</EVENT> future restructuring would be a question of strategy.
+ " We don't <EVENT eid="e69" class="I_STATE">need</EVENT> the cash. "
+ Ticketron's automated wagering business, which operates lotteries in a half dozen states, is not for sale, the company <EVENT eid="e70" class="REPORTING">said</EVENT>.
+ Rather, Mr. Perlman <EVENT eid="e71" class="REPORTING">said</EVENT>, Control Data <EVENT eid="e72" class="I_STATE">intends</EVENT> to <EVENT eid="e73" class="OCCURRENCE">bid</EVENT> for the coming Minnesota lottery contract and is <EVENT eid="e74" class="I_ACTION">seeking</EVENT> new applications for the technology overseas, where " there is great interest in games of skill. "
+ He wouldn't <EVENT eid="e75" class="OCCURRENCE">elaborate</EVENT>.
+ Control Data's semiconductor business, VTC Inc., <EVENT eid="e76" class="ASPECTUAL">continues</EVENT> to <EVENT eid="e77" class="OCCURRENCE">lose</EVENT> money, the executives <EVENT eid="e78" class="REPORTING">acknowledged</EVENT>, but they <EVENT eid="e79" class="REPORTING">said</EVENT> they <EVENT eid="e80" class="I_ACTION">consider</EVENT> some of the technology vital to national defense and <C-SIGNAL cid="c81">so</C-SIGNAL> are <EVENT eid="e82" class="I_STATE">reluctant</EVENT> to <EVENT eid="e83" class="OCCURRENCE">dispose</EVENT> of it.
+ The company's strategy for keeping its computer products business profitable -- it <TIMEX3 tid="t84" type="DATE" value="PAST_REF" anchorTimeID="t0" functionInDocument="NONE">recently</TIMEX3> <EVENT eid="e85" class="I_STATE">achieved</EVENT> profitability after <TIMEX3 tid="t86" type="DURATION" value="PXQ" functionInDocument="NONE">several quarters</TIMEX3> of <EVENT eid="e87" class="OCCURRENCE">losses</EVENT> -- calls for a narrow focus and a lid on expenses.
+ Partly, costs will be <EVENT eid="e88" class="OCCURRENCE">held</EVENT> down through strategic technology alliances, management <EVENT eid="e89" class="REPORTING">said</EVENT>.
+ Control Data <TIMEX3 tid="t90" type="DATE" value="PAST_REF" anchorTimeID="t0" functionInDocument="NONE">recently</TIMEX3> <EVENT eid="e91" class="REPORTING">announced</EVENT> an <EVENT eid="e92" class="STATE">agreement</EVENT> with MIPS Computer Systems Inc. to jointly <EVENT eid="e93" class="OCCURRENCE">develop</EVENT> machines with simplified operating software.
+ James E. Ousley, computer products group president, <EVENT eid="e94" class="REPORTING">said</EVENT> such arrangements could <EVENT eid="e95" class="I_STATE">help</EVENT> <EVENT eid="e96" class="OCCURRENCE">slash</EVENT> Control Data's computer research and development costs in half by <TIMEX3 tid="t97" type="DATE" value="1990" functionInDocument="NONE">the end of 1990</TIMEX3>.
+ He <EVENT eid="e98" class="REPORTING">disclosed</EVENT> that before Control Data <EVENT eid="e99" class="OCCURRENCE">scrapped</EVENT> its ETA Systems Inc. supercomputer business <TIMEX3 tid="t100" type="DATE" value="1989-SP" anchorTimeID="t0" functionInDocument="NONE">this past spring</TIMEX3>, those costs were <EVENT eid="e101" class="OCCURRENCE">running</EVENT> at nearly 35 % of group revenue.
+ At the same time four of six design projects were <EVENT eid="e102" class="OCCURRENCE">spiked</EVENT>, he <EVENT eid="e103" class="REPORTING">said</EVENT>.
+ <EVENT eid="e104" class="I_ACTION">Asked</EVENT> how the company <EVENT eid="e105" class="I_STATE">hopes</EVENT> to <EVENT eid="e106" class="OCCURRENCE">expand</EVENT> its computer hardware business, Mr. Ousley <EVENT eid="e107" class="REPORTING">said</EVENT> it <EVENT eid="e108" class="I_STATE">sees</EVENT> good opportunities in systems integration.
+ " We <EVENT eid="e109" class="I_STATE">think</EVENT> we 're <EVENT eid="e110" class="OCCURRENCE">getting</EVENT> only 10 % of the integration dollars our customers are <EVENT eid="e111" class="OCCURRENCE">spending</EVENT>, " he <EVENT eid="e112" class="REPORTING">said</EVENT>.
+ " We 're in environments that are going to <EVENT eid="e113" class="OCCURRENCE">spend</EVENT> a lot of money on that. "
+ Control Data mainframes are designed for numerically intensive computing users, such as the scientific, engineering and academic communities.
+ Utilities management is a major commercial niche.
+ <EVENT eid="e114" class="I_ACTION">Reviewing</EVENT> the company's <EVENT eid="e115" class="OCCURRENCE">scrape</EVENT> with disaster, Mr. Price <EVENT eid="e116" class="I_ACTION">conceded</EVENT> it had <EVENT eid="e117" class="I_ACTION">tried</EVENT> to <EVENT eid="e118" class="OCCURRENCE">do</EVENT> too much on its own.
+ " Absolutely, " he said.
+ But while its stock is <EVENT eid="e119" class="OCCURRENCE">selling</EVENT> at about half Control Data's estimated breakup value, neither Messrs.
+ Perlman nor Price <EVENT eid="e120" class="REPORTING">said</EVENT> he <EVENT eid="e121" class="OCCURRENCE">spends</EVENT> much time <EVENT eid="e122" class="I_STATE">considering</EVENT> the possibility of a hostile <EVENT eid="e123" class="OCCURRENCE">takeover</EVENT>.
+ " We 've been <EVENT eid="e124" class="OCCURRENCE">listed</EVENT> as a candidate for so long it's not worth worrying about, " <EVENT eid="e125" class="REPORTING">said</EVENT> Mr. Price.
+</TEXT>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="NONE" aspect="NONE" polarity="POS" modality="none" pos="VERB"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="FUTURE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e120" eiid="ei120" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e121" eiid="ei121" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e122" eiid="ei122" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e123" eiid="ei123" tense="NONE" aspect="NONE" polarity="POS" modality="none" pos="NOUN"/>
+<MAKEINSTANCE eventID="e124" eiid="ei124" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e125" eiid="ei125" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e58" eiid="ei58" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e55" eiid="ei55" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e56" eiid="ei56" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e51" eiid="ei51" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e50" eiid="ei50" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e52" eiid="ei52" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e115" eiid="ei115" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e114" eiid="ei114" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e88" eiid="ei88" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e89" eiid="ei89" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e111" eiid="ei111" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e110" eiid="ei110" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e113" eiid="ei113" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e112" eiid="ei112" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e82" eiid="ei82" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e83" eiid="ei83" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e80" eiid="ei80" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e119" eiid="ei119" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e87" eiid="ei87" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e85" eiid="ei85" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e108" eiid="ei108" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e109" eiid="ei109" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e102" eiid="ei102" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e103" eiid="ei103" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e101" eiid="ei101" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e106" eiid="ei106" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e107" eiid="ei107" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e104" eiid="ei104" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e105" eiid="ei105" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e39" eiid="ei39" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e38" eiid="ei38" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e37" eiid="ei37" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e61" eiid="ei61" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e63" eiid="ei63" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e65" eiid="ei65" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e66" eiid="ei66" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e67" eiid="ei67" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e68" eiid="ei68" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e69" eiid="ei69" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e99" eiid="ei99" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e98" eiid="ei98" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e91" eiid="ei91" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e93" eiid="ei93" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e92" eiid="ei92" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e95" eiid="ei95" tense="NONE" aspect="NONE" polarity="POS" modality="could" pos="VERB"/>
+<MAKEINSTANCE eventID="e94" eiid="ei94" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e96" eiid="ei96" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e117" eiid="ei117" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e116" eiid="ei116" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e48" eiid="ei48" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e46" eiid="ei46" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e47" eiid="ei47" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e44" eiid="ei44" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e45" eiid="ei45" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e40" eiid="ei40" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e118" eiid="ei118" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e77" eiid="ei77" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e76" eiid="ei76" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e75" eiid="ei75" tense="NONE" aspect="NONE" polarity="NEG" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e74" eiid="ei74" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e73" eiid="ei73" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e72" eiid="ei72" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e71" eiid="ei71" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e70" eiid="ei70" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e79" eiid="ei79" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e78" eiid="ei78" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToTime="t1"/>
+<TLINK lid="l2" relType="INCLUDES" eventInstanceID="ei3" relatedToTime="t0"/>
+<TLINK lid="l3" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei2"/>
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t5"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t5"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei8" relatedToEventInstance="ei10"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei10" relatedToTime="t9"/>
+<TLINK lid="l8" relType="IDENTITY" eventInstanceID="ei12" relatedToEventInstance="ei16"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei13" relatedToEventInstance="ei14"/>
+<TLINK lid="l11" relType="DURING" timeID="t15" relatedToEventInstance="ei16"/>
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei19" relatedToTime="t20"/>
+<TLINK lid="l13" relType="AFTER" eventInstanceID="ei21" relatedToEventInstance="ei19"/>
+<TLINK lid="l15" relType="INCLUDES" eventInstanceID="ei23" relatedToTime="t0"/>
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei24" relatedToTime="t25"/>
+<TLINK lid="l17" relType="IS_INCLUDED" eventInstanceID="ei28" relatedToEventInstance="ei27"/>
+<TLINK lid="l18" relType="IS_INCLUDED" eventInstanceID="ei30" relatedToEventInstance="ei29"/>
+<TLINK lid="l19" relType="IS_INCLUDED" eventInstanceID="ei33" relatedToEventInstance="ei32"/>
+<TLINK lid="l20" relType="IDENTITY" eventInstanceID="ei34" relatedToEventInstance="ei29"/>
+<TLINK lid="l21" relType="INCLUDES" eventInstanceID="ei34" relatedToEventInstance="ei30"/>
+<TLINK lid="l23" relType="IAFTER" eventInstanceID="ei40" relatedToEventInstance="ei43"/>
+<TLINK lid="l24" relType="BEFORE" eventInstanceID="ei43" relatedToEventInstance="ei39"/>
+<TLINK lid="l25" relType="IS_INCLUDED" eventInstanceID="ei43" relatedToTime="t42"/>
+<TLINK lid="l27" relType="IDENTITY" eventInstanceID="ei44" relatedToEventInstance="ei34"/>
+<TLINK lid="l28" relType="IS_INCLUDED" eventInstanceID="ei48" relatedToTime="t49"/>
+<TLINK lid="l29" relType="IDENTITY" eventInstanceID="ei50" relatedToEventInstance="ei44"/>
+<TLINK lid="l30" relType="DURING" eventInstanceID="ei52" relatedToTime="t53"/>
+<TLINK lid="l31" relType="IS_INCLUDED" eventInstanceID="ei55" relatedToTime="t54"/>
+<TLINK lid="l32" relType="IDENTITY" eventInstanceID="ei56" relatedToEventInstance="ei50"/>
+<TLINK lid="l33" relType="IS_INCLUDED" eventInstanceID="ei58" relatedToTime="t57"/>
+<TLINK lid="l34" relType="ENDED_BY" eventInstanceID="ei58" relatedToTime="t59"/>
+<TLINK lid="l35" relType="INCLUDES" timeID="t60" relatedToEventInstance="ei61"/>
+<TLINK lid="l36" relType="DURING" eventInstanceID="ei63" relatedToTime="t62"/>
+<TLINK lid="l37" relType="DURING" eventInstanceID="ei65" relatedToTime="t64"/>
+<TLINK lid="l38" relType="IDENTITY" eventInstanceID="ei65" relatedToEventInstance="ei66"/>
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei67" relatedToEventInstance="ei66"/>
+<TLINK lid="l41" relType="IDENTITY" eventInstanceID="ei68" relatedToEventInstance="ei13"/>
+<TLINK lid="l42" relType="BEFORE" eventInstanceID="ei70" relatedToTime="t0"/>
+<TLINK lid="l43" relType="IDENTITY" eventInstanceID="ei71" relatedToEventInstance="ei56"/>
+<TLINK lid="l44" relType="BEFORE" eventInstanceID="ei71" relatedToEventInstance="ei75"/>
+<TLINK lid="l45" relType="SIMULTANEOUS" eventInstanceID="ei74" relatedToEventInstance="ei72"/>
+<TLINK lid="l46" relType="IS_INCLUDED" eventInstanceID="ei77" relatedToEventInstance="ei76"/>
+<TLINK lid="l47" relType="INCLUDES" eventInstanceID="ei79" relatedToEventInstance="ei78"/>
+<TLINK lid="l49" relType="INCLUDES" timeID="t84" relatedToEventInstance="ei85"/>
+<TLINK lid="l50" relType="AFTER" eventInstanceID="ei85" relatedToTime="t86"/>
+<TLINK lid="l51" relType="IS_INCLUDED" eventInstanceID="ei87" relatedToTime="t86"/>
+<TLINK lid="l52" relType="AFTER" eventInstanceID="ei88" relatedToTime="t0"/>
+<TLINK lid="l53" relType="BEFORE" eventInstanceID="ei89" relatedToTime="t0"/>
+<TLINK lid="l54" relType="IS_INCLUDED" eventInstanceID="ei91" relatedToTime="t90"/>
+<TLINK lid="l55" relType="AFTER" eventInstanceID="ei96" relatedToTime="t0"/>
+<TLINK lid="l56" relType="IS_INCLUDED" eventInstanceID="ei96" relatedToTime="t97"/>
+<TLINK lid="l57" relType="IDENTITY" eventInstanceID="ei98" relatedToEventInstance="ei94"/>
+<TLINK lid="l58" relType="IS_INCLUDED" eventInstanceID="ei99" relatedToTime="t100"/>
+<TLINK lid="l59" relType="BEFORE" eventInstanceID="ei101" relatedToEventInstance="ei99"/>
+<TLINK lid="l60" relType="SIMULTANEOUS" eventInstanceID="ei101" relatedToEventInstance="ei102"/>
+<TLINK lid="l61" relType="IDENTITY" eventInstanceID="ei103" relatedToEventInstance="ei98"/>
+<TLINK lid="l62" relType="IS_INCLUDED" eventInstanceID="ei105" relatedToTime="t0"/>
+<TLINK lid="l63" relType="AFTER" eventInstanceID="ei107" relatedToEventInstance="ei104"/>
+<TLINK lid="l64" relType="BEFORE" eventInstanceID="ei111" relatedToEventInstance="ei110"/>
+<TLINK lid="l65" relType="IDENTITY" eventInstanceID="ei112" relatedToEventInstance="ei107"/>
+<TLINK lid="l66" relType="BEFORE" eventInstanceID="ei115" relatedToTime="t0"/>
+<TLINK lid="l67" relType="BEFORE" eventInstanceID="ei116" relatedToTime="t0"/>
+<TLINK lid="l68" relType="SIMULTANEOUS" eventInstanceID="ei116" relatedToEventInstance="ei114"/>
+<TLINK lid="l69" relType="INCLUDES" eventInstanceID="ei119" relatedToTime="t0"/>
+<TLINK lid="l70" relType="IDENTITY" eventInstanceID="ei120" relatedToEventInstance="ei116"/>
+<TLINK lid="l71" relType="SIMULTANEOUS" eventInstanceID="ei121" relatedToEventInstance="ei122"/>
+<TLINK lid="l72" relType="BEFORE" eventInstanceID="ei124" relatedToTime="t0"/>
+<TLINK lid="l73" relType="IDENTITY" eventInstanceID="ei125" relatedToEventInstance="ei68"/>
+<TLINK lid="l74" relType="IDENTITY" eventInstanceID="ei125" relatedToEventInstance="ei116"/>
+<CLINK lid="l14" c-signalID="c22" eventInstanceID="ei21" relatedToEventInstance="ei23"/>
+<CLINK lid="l22" eventInstanceID="ei35" relatedToEventInstance="ei37"/>
+<CLINK lid="l26" c-signalID="c41" eventInstanceID="ei43" relatedToEventInstance="ei40"/>
+<CLINK lid="l39" eventInstanceID="ei65" relatedToEventInstance="ei67"/>
+<CLINK lid="l48" c-signalID="c81" eventInstanceID="ei80" relatedToEventInstance="ei82"/>
+</TimeML>

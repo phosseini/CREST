@@ -1,0 +1,6 @@
+Allelic Replacement of speH 
+Increased expression of speH during pharyngeal cell adherence suggests that the SpeH exotoxin is either necessary for adherence, or is a component of a downstream infection process.
+Adherence-mediated upregulation of speH is likely not the result of phage induction, as the remaining phage 370.2 genes identified in our analysis were downregulated.
+To determine if SpeH plays a direct role in the adherence process, we created a deletion mutant in strain SF370 (SF370DeltaspeH), which was confirmed by PCR (unpublished data) and RT-PCR (Figure 1A) and tested in vitro for adherence to human pharyngeal cells.
+We observed no significant difference in adherence between the wild-type (SF370) and mutant strains (Figure 1B), indicating that SpeH is not involved directly in attachment to the pharyngeal cell.
+The significant upregulation of the speH gene during adherence suggests that the gene product may function instead during a subsequent stage of infection.

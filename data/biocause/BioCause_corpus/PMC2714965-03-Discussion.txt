@@ -1,0 +1,44 @@
+Discussion 
+C. elegans is a convenient model for studying bacterial virulence mechanisms [7],[49] and it was shown that virulence factors important in the killing of C. elegans are relevant for virulence in mammalian hosts [50],[51].
+Growth conditions and host-pathogen interactions affect the physiology of P. aeruginosa via complex regulatory networks, which in turn control an arsenal of virulence factors [52],[53],[54],[55].
+We developed a liquid-based high throughput C. elegans killing assay to speed the screening process of bacterial libraries and to perform multiple screens on virulent clinical isolates.
+This method was automated using the COPAS Biosort worm sorting system, which greatly reduced the time required to perform the assay.
+Under slow killing conditions (Figure 3) the TB strain requires approximately three days to kill 50% of a given worm population, and up to 8 days to kill all the worms in a population of 50 nematodes.
+The liquid killing assay by contrast, is read after overnight feeding of the nematodes with the bacterial strains.
+It is worth noting that a mutant affected in the gacA gene, previously identified in the slow killing assay, appeared to be attenuated in our liquid-based killing assay.
+We used our killing assay to screen a STM library of the P. aeruginosa CF isolate TB [20].
+We identified several factors, not yet associated with virulence in P. aeruginosa.
+Several of the genes identified relate to regulatory, motility or unknown functions.
+We tested additional virulence and motility related phenotypes including C. elegans slow killing, swarming and swimming motility, or adherence to human cells (Table 1).
+Most of our selected mutants were impaired in at least one of the additional tested phenotypes.
+One of the identified mutants showed reductions in all aspects of virulence we tested.
+This mutant, named TB0173s, has a transposon insertion in PA0173, cheB2, one of four cheB genes found in P. aeruginosa.
+CheB protein functions involve interactions with MCPs.
+As many as 26 MCPs have been identified in P. aeruginosa [56], and it has been proposed that the CheB2 protein functions at least with McpB [57].
+In the high throughput C. elegans liquid-based killing assay and the slow killing assay, the cheB2 mutant showed significant virulence attenuation.
+The cheB2 mutant was also found to have reduced adhesive capabilities to bronchial epithelial cells (Figure S1).
+Finally, the reductions seen in the motility assays, swimming and swarming, are in agreement with previously reported results revealing a partial loss of motility capabilities [21].
+Most importantly in a mouse lung model of infection, the cheB2 mutant was highly attenuated and failed to induce strong inflammatory response in the infected mice lungs.
+Interestingly, we observed that a mutation in the cheB1 gene yields different phenotypes compared to the cheB2 mutation.
+The cheB1 mutant virulence is not attenuated in the slow killing assay.
+Moreover, it shows more severe motility defect than the cheB2 mutant.
+Finally, in chemotaxis assays using tryptone as chemo-attractant, we observed that, while the cheB1 mutant was strongly affected, the cheB2 mutant had a mild phenotype.
+These observations suggest that the attenuation in virulence of the cheB2 mutant is specific and not due to a global effect on motility or chemotaxis.
+As cluster I of che genes plays the dominant role in P. aeruginosa chemotaxis and flagellar mobility, cluster II genes may be induced under very specific conditions and function in fine-tuning the bacterial response to conditions encountered within a host.
+Schuster and collaborators have reported that the cluster II genes are induced during stationary phase, are regulated by quorum sensing and that RpoS, the stationary phase RNA polymerase sigma factor, plays a role in controlling cheB2 gene expression [58].
+Moreover, Burrowes and collaborators reported that RsmA exerted control over cheB2 with a 10-fold reduction in expression of cheB2 in an rsmA mutant [59].
+RsmA works in conjunction with small non-coding RNA to regulate the expression of multiple virulence genes, including the quorum sensing lasI and rhlI genes [60].
+Finally, using fluorescent protein-tagged CheY and CheA, it was shown that the Che1 proteins (cluster I) localized to the flagellated pole throughout growth [61].
+While the Che1 proteins are still found as bacterial cells entered stationary phase, a patch of Che2 proteins begins to co-localize with the Che1 proteins at that stage.
+This might indicate that during stationary phase, the chemotactic response will be different than the one observed with exponentially growing cells and the function of the Che2 cluster, even though currently unknown, might be to respond to particular stimuli encountered at that stage.
+It has been shown that a cheW mutant in Helicobacter pylori is unable to establish a normal long-term infection in mice, remaining only in one portion of the stomach.
+The bacterial pathogen may lose its ability to perceive its niche due to the absence of chemotaxis [62].
+It is a possibility that within a host, the cluster II che genes of P. aeruginosa might play a similar role in sensing particular conditions during infection.
+As previously mentioned, even though the cheB2 mutant is impaired in motility, it is likely that the cheB2 defect in virulence is not linked to this phenotype but to additional traits of virulence and attachment that have not yet been determined.
+We have shown that the cheB1 mutant is affected in motility but still is virulent.
+Furthermore, in our study, we isolated a second mutant with reduced motility TB4953s (motB mutant) (Table 1), and while this isolate was attenuated in the high throughput assay, it did not show a reduction in killing in the slow assay (data not shown), further suggesting that the loss of virulence seen in the cheB2 mutant strain (TB0173s) is not solely due to a reduction or change in motility.
+While some bacteria require host-derived factors for their growth and are difficult to grow in vitro, others, such as S. marcescens during its infection of C. elegans [33], grow at a much lower rate in the host compared to in vitro.
+Our observations support the hypothesis that the che2 gene cluster plays a major role during host colonization.
+For example, we may hypothesize that within the gut of the nematode, or the lungs of the mice, bacteria might reach high cell density and develop as biofilm.
+This could be a condition to set the function of the Che2 proteins and allow non-growing cells to sense and respond to the environment in a different manner as compared to fast-growing cells.
+While the idea that the Che2 system might be a specialized chemotaxis system required during host infection is appealing, further experiments are required to understand the chain of command, which switches on the Che2 system and directs the physiological response of P. aeruginosa to Che2 sensing.

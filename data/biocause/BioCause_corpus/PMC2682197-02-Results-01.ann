@@ -1,0 +1,59 @@
+T1	Organism 9 35	Mycobacterium tuberculosis
+T2	Protein 36 42	Rv2623
+T3	Organism 72 94	rv2623-deletion mutant
+T4	Protein 72 78	rv2623
+T5	Organism 111 140	M. tuberculosis Erdman strain
+T6	Protein 193 199	rv2623
+T7	Protein 368 374	rv2623
+T8	Chemical 408 418	hygromycin
+T9	Organism 494 505	Deltarv2623
+T10	Protein 499 505	rv2623
+T11	Protein 547 553	rv2623
+T12	Protein 667 673	rv2623
+T13	Protein 721 727	rv2623
+T14	Protein 750 756	rv2624
+T15	Protein 810 816	rv2623
+T16	Organism 860 867	E. coli
+T17	Organism 934 941	E. coli
+T18	Protein 963 967	UspA
+T19	Organism 1069 1096	Deltarv2623 M. tuberculosis
+T20	Protein 1074 1080	rv2623
+T21	Chemical 1100 1104	OADC
+T22	Organism 1195 1201	Erdman
+T23	Protein 1306 1312	Rv2623
+T24	Organism 1364 1379	M. tuberculosis
+T25	Organism 1461 1468	E. coli
+T26	Organism 1570 1596	M. smegmatis strain mc2155
+T27	Organism 1656 1671	M. tuberculosis
+T28	Protein 1672 1678	rv2623
+T29	Organism 1906 1921	M. tuberculosis
+T30	Protein 1922 1928	Rv2623
+T31	Process 102 110	virulent
+T32	Process 419 429	resistance
+T33	Transcription 761 772	transcribed
+T34	Gene_expression 1638 1652	overexpression
+E1	Process:T31 Participant:T5
+E2	Process:T32 
+E3	Transcription:T33 Theme:T14
+E4	Gene_expression:T34 Theme:T28
+T35	Span 189 340	The rv2623-specific allelic exchange construct was delivered via recombinant mycobacteriophage phAE159 and transformants were analyzed by Southern blot
+T36	Causality 342 352	confirming
+E5	Causality:T36 Effect:T37 Evidence:T35
+T37	Span 353 429	replacement of rv2623 with the hyg gene, which confers hygromycin resistance
+T38	Span 535 612	Deletion of rv2623 is not likely to affect transcription of neighboring genes
+T39	Causality 614 619	given
+E6	Causality:T39 Evidence:T40 Effect:T38
+T40	Span 620 817	the sequence-confirmed precise excision of the rv2623 coding region and the gene organization at the rv2623 locus (the downstream rv2624c is transcribed in the direction opposite to that of rv2623)
+T41	Span 831 902	Deletion of specific USPs in E. coli results in growth defects in vitro
+T42	Causality 918 929	For example
+E7	Causality:T42 Effect:T43 Evidence:T41
+T43	Span 931 1021	an E. coli strain deficient for UspA exhibits reduced survival in stationary phase culture
+T44	Span 1028 1232	However, the in vitro growth kinetics of Deltarv2623 M. tuberculosis in OADC-supplemented Middlebrook 7H9 or minimal Sauton's medium is comparable to that of wildtype Erdman up to 14 days post-inoculation
+T45	Causality 1246 1262	We reasoned that
+E8	Causality:T45 Evidence:T46 Effect:T44
+T46	Span 1263 1392	a potential growth-regulating attribute of Rv2623 might be masked by functional redundancy among the M. tuberculosis USP homologs
+T47	Span 1625 1868	constitutive overexpression of M. tuberculosis rv2623 using the multi-copy plasmid pMV261 resulted in growth deficiency of the recipient strain both on solid medium (Middlebrook 7H10 agar) and in the liquid medium-based BD BACTEC 9000MB system
+T48	Causality 1870 1905	These results strongly suggest that
+E9	Causality:T48 Effect:T49 Evidence:T47
+T49	Span 1906 1968	M. tuberculosis Rv2623 regulates mycobacterial growth in vitro
+#1	AnnotatorNotes E7	not sure

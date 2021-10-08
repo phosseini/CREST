@@ -1,0 +1,59 @@
+T1	NonCausal 82 88	within
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 89 94	weeks
+T3	Argument 0 81	North Korea could be ready to begin shutting down its plutonium-producing reactor
+T4	Argument 350 433	stalled efforts to dismantle North Korea's nuclear weapons program could move ahead
+T5	Consequence 434 439	after
+E2	Consequence:T5 Effect:T4 Cause:T6
+A2	Temporal E2
+T6	Argument 440 469	a visit by nuclear inspectors
+A3	Degree E2 Facilitate
+T7	Purpose 608 611	for
+E3	Purpose:T7 Cause:T8 Effect:T9
+A4	Degree E3 Facilitate
+T8	Argument 612 659	talks about verifying and monitoring a shutdown
+T9	Argument 471 607	North Korea has invited inspectors from the International Atomic Energy Agency, the United Nations' nuclear monitoring program, to visit
+T10	NonCausal 744 749	after
+E4	NonCausal:T10 Arg0:T11 Arg1:T12
+A5	Temporal E4
+T11	Argument 750 794	talks with his Chinese counterpart, Wu Dawei
+T12	Argument 662 743	``This is an event we have been looking forward to for some time,'' Mr. Hill said
+T13	Purpose 898 900	to
+E5	Purpose:T13 Cause:T15 Effect:T14
+A6	Degree E5 Facilitate
+T14	Argument 827 897	it would send a team to Pyongyang, the North Korean capital, next week
+T15	Argument 901 953	discuss how its inspectors would verify the shutdown
+T16	Motivation 1109 1114	until
+E6	Motivation:T16 Cause:T18 Effect:T17
+A7	Degree E6 Inhibit
+A8	Temporal E6
+T17	Argument 999 1108	North Korea had refused to proceed with a February agreement to begin decommissioning its reactor in Yongbyon
+T18	Argument 1115 1212	$25 million in accounts linked to North Korea held in a Macao bank was transferred to North Korea
+T19	Motivation 1236 1240	when
+E7	Motivation:T19 Effect:T20 Cause:T21
+A9	Degree E7 Facilitate
+A10	Temporal E7
+T20	Argument 1215 1235	The money was frozen
+T21	Argument 1241 1353	the United States accused the bank, Banco Delta Asia, of complicity in financial crimes on behalf of North Korea
+T22	NonCausal 1356 1361	After
+E8	NonCausal:T22 Arg0:T23 Arg1:T24
+A11	Temporal E8
+T23	Argument 1362 1420	months of wrangling over the method of returning the money
+T24	Argument 1422 1485	it  was  wired Thursday to the Federal Reserve Bank in New York
+T25	NonCausal 1536 1542	before
+E9	NonCausal:T25 Arg1:T26 Arg0:T27
+A12	Temporal E9
+T26	Argument 1543 1630	a further transfer to an account controlled by North Korea in a Russian commercial bank
+T27	Argument 1487 1535	It was  then to be sent to Russia's central bank
+T28	NonCausal 1795 1800	while
+E10	NonCausal:T28 Arg0:T29 Arg1:T30
+A13	Temporal E10
+T29	Argument 1801 1833	the transfer was being organized
+T30	Argument 1790 1794	lost
+T31	Consequence 2067 2072;2084 2086	allow to
+E11	Consequence:T31 Effect:T32 Cause:T33
+A14	Degree E11 Facilitate
+A15	Obligation-permission E11
+T32	Argument 2073 2083;2087 2166	inspectors verify and monitor the shutdown in return for a 50,000-ton shipment of fuel oil
+T33	Argument 2011 2022	North Korea

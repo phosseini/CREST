@@ -1,0 +1,142 @@
+T1	Organism 14 38	Porphyromonas gingivalis
+T2	Organism 322 335	P. gingivalis
+T3	Protein 611 615	FimA
+T4	Protein 647 651	fimA
+T5	Protein 718 722	Mfa1
+T6	Protein 830 834	FimA
+T7	Protein 861 865	fimA
+T8	Protein 912 916	FimA
+T9	Organism 941 954	P. gingivalis
+T10	Organism 1108 1121	P. gingivalis
+T11	Organism 1122 1133	fimA mutant
+T12	Protein 1122 1126	fimA
+T13	Protein 1251 1255	FimA
+T14	Protein 1396 1400	FimA
+T15	Chemical 1475 1480	hemin
+T16	Organism 1519 1542	Streptococcus cristatus
+T17	Protein 1607 1611	FimR
+T18	Two-component-system 1641 1650	fimS/fimR
+T19	Protein 1641 1645	fimS
+T20	Protein 1646 1650	fimR
+T21	Protein 1692 1696	FimA
+T22	Organism 1748 1760	fimR mutants
+T23	Protein 1748 1752	fimR
+T24	Protein 1833 1837	fimA
+T25	Protein 1841 1845	FimR
+T26	Protein 1861 1865	FimR
+T27	Protein 1896 1900	fimA
+T28	Protein 1970 1976	pg2130
+T29	Protein 1985 1989	fimA
+T30	Protein 2015 2021	PG2130
+T31	Protein 2029 2033	FimR
+T32	Protein 2104 2108	fimA
+T33	Protein 2132 2136	fimA
+T34	Protein 2188 2192	Mfa1
+T35	Organism 2213 2226	P. gingivalis
+T36	Organism 2284 2297	P. gingivalis
+T37	Organism 2302 2324	Streptococcus gordonii
+T38	Protein 2352 2356	Mfa1
+T39	Protein 2384 2388	SspB
+T40	Organism 2486 2499	P. gingivalis
+T41	Protein 2726 2730	Mfa1
+T42	Protein 2862 2866	FimA
+T43	Protein 2871 2875	Mfa1
+T44	Organism 2893 2906	P. gingivalis
+T45	Protein 3016 3020	mfa1
+T46	Organism 3094 3105	S. gordonii
+T47	Organism 3107 3130	Streptococcus sanguinis
+T48	Organism 3135 3154	Streptococcus mitis
+T49	Protein 3237 3241	mfa1
+T50	Protein 3293 3297	FimR
+T51	Protein 3325 3329	Mfa1
+T52	Protein 3375 3379	FimR
+T53	Protein 3390 3394	fimA
+T54	Protein 3407 3411	FimR
+T55	Protein 3422 3426	mfa1
+T56	Protein 3484 3488	mfa1
+T57	Process 362 371	infection
+T58	Positive_regulation 382 391	dependent
+T59	Regulation 847 857	regulation
+T60	Gene_expression 866 876	expression
+T61	Gene_expression 1401 1411	expression
+T62	Regulation 1416 1425	modulated
+T63	Gene_expression 1697 1707	expression
+T64	Negative_regulation 1737 1744	reduced
+T65	Regulation 1819 1829	regulation
+T66	Binding 1875 1879	bind
+T67	Entity 1901 1909	promoter
+T68	Binding 1922 1927	binds
+T69	Entity 1935 1950	promoter region
+T70	Regulation 2061 2070	regulates
+T71	Gene_expression 2071 2081	expression
+T72	Binding 2241 2251	Coadhesion
+T73	Positive_regulation 2325 2332	require
+T74	Binding 2337 2348	interaction
+T75	Gene_expression 2731 2741	expression
+T76	Regulation 2753 2762	fluctuate
+T77	Gene_expression 2848 2858	expression
+T78	Negative_regulation 2880 2889	inhibited
+T79	Gene_expression 3002 3012	expression
+T80	Negative_regulation 3024 3033	repressed
+T81	Regulation 3212 3233	regulatory mechanisms
+T82	Gene_expression 3242 3252	expression
+T83	Positive_regulation 3303 3321	positive regulator
+T84	Gene_expression 3330 3340	expression
+T85	Positive_regulation 3380 3389	dependent
+T86	Gene_expression 3395 3405	expression
+T87	Regulation 3412 3421	regulates
+T88	Gene_expression 3427 3437	expression
+T89	Binding 3450 3457	binding
+T90	Entity 3465 3480	promoter region
+E1	Process:T57 Participant:T2
+E2	Positive_regulation:T58 Theme:E1
+E3	Regulation:T59 Theme:E4
+M1	Speculation E3
+E4	Gene_expression:T60 Theme:T7
+E5	Gene_expression:T61 Theme:T14
+E6	Regulation:T62 Theme:E5
+E7	Gene_expression:T63 Theme:T21
+E8	Negative_regulation:T64 Theme:E7
+E9	Regulation:T65 Theme:T24 Cause:T25
+E10	Binding:T66 Theme1:T26 Theme2:T27 Site2:T67
+M2	Negation E10
+E11	Binding:T68 Theme1:T26 Theme2:T28 Site2:T69
+E12	Regulation:T70 Theme:E13 Cause:T30
+E13	Gene_expression:T71 Theme:T33
+E14	Binding:T72 Theme1:T36 Theme2:T37
+E15	Positive_regulation:T73 Theme:E14 Cause:E16
+E16	Binding:T74 Theme1:T38 Theme2:T39
+E17	Gene_expression:T75 Theme:T41
+E18	Regulation:T76 Theme:E17
+E19	Gene_expression:T77 Theme:T42
+E20	Gene_expression:T77 Theme:T43
+E21	Negative_regulation:T78 Theme:E19
+E22	Negative_regulation:T78 Theme:E20
+E23	Gene_expression:T79 Theme:T45
+E24	Negative_regulation:T80 Theme:E23
+E25	Regulation:T81 Theme:E26
+E26	Gene_expression:T82 Theme:T49
+E27	Positive_regulation:T83 Theme:E28 Cause:T50
+E28	Gene_expression:T84 Theme:T51
+E29	Positive_regulation:T85 Theme:E30 Cause:T52
+E30	Gene_expression:T86 Theme:T53
+E31	Regulation:T87 Theme:E32 Cause:E33
+E32	Gene_expression:T88 Theme:T55
+E33	Binding:T89 Theme1:T54 Theme2:T56 Site2:T90
+T91	Span 1106 1219	A P. gingivalis fimA mutant shows impaired invasion capability of epithelial cells compared with wild-type strain
+T92	Causality 1221 1235	suggesting the
+E34	Causality:T92 Evidence:T91 Effect:T93
+T93	Span 1236 1327	involvement of FimA in the bacterial interaction with surface receptor(s) on gingival cells
+T94	Span 1607 1760	FimR, a response regulator of the fimS/fimR two-component system was identified, and FimA expression was found to be dramatically reduced in fimR mutants
+T95	Span 1785 1845	Investigation of the mechanism of regulation of fimA by FimR
+T96	Causality 1846 1860	indicates that
+E35	Causality:T96 Effect:T97 Evidence:T95
+T97	Span 1861 1997	FimR does not bind directly to the fimA promoter, but rather binds to the promoter region of the first gene (pg2130) in the fimA cluster
+E36	Causality:T96 Effect:T97 Evidence:T94
+T98	Causality 1999 2014	suggesting that
+E37	Causality:T98 Evidence:T97 Effect:T99
+T99	Span 2015 2141	PG2130 is the FimR target gene, which in turn regulates expression of other genes in the fimA cluster, including the fimA gene
+T100	Span 3342 3488	Evidence is provided that unlike FimR-dependent fimA expression, FimR regulates mfa1 expression by directly binding to the promoter region of mfa1
+T101	Causality 3269 3292	it is demonstrated that
+E38	Causality:T101 Effect:T102 Evidence:T100
+T102	Span 3293 3340	FimR is a positive regulator of Mfa1 expression

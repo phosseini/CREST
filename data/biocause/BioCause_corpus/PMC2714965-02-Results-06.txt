@@ -1,0 +1,14 @@
+A cheB1 Mutant Is not Attenuated for C. elegans Virulence 
+Several chemotactic gene clusters have been identified in the P. aeruginosa genome [21],[23].
+The che1 gene cluster encodes the principle chemotactic device controlling flagellar mobility [23].
+We investigated whether the loss of virulence observed in the cheB2 mutant on C. elegans is specific, and results from a loss of chemotaxis under the direction of the che2 chemotactic cluster, rather than being linked with more global chemotactic or motility deficiency.
+We thus investigated the fate of a cheB1 mutant in a similar assay.
+The cheB1 mutation was engineered in the TB strain as described in materials and methods, yielding TB1459i.
+The cheB1 mutant was used to feed C. elegans in the slow killing assay and the survival percentage was compared to those obtained when using the cheB2 mutant or the parental TB strain (Figure 3C).
+Interestingly, the cheB1 mutant showed no significant reduction in C. elegans killing when compared to the parental TB strain, with only 36% of the worms alive after 4 days post infection.
+This is in contrast to the loss of virulence in the original cheB2 mutant (TB0173s) and the insertional cheB2 mutant TB0173i.
+The mobility of the cheB1 mutant was also analyzed and both swimming and swarming motility appeared to be affected as shown in Figure 2.
+The swimming or swarming motility defect is, however, much more severe in the cheB1 mutant as compared to the cheB2 mutant.
+Finally, we used a chemotactic assay using tryptone as chemo-attractant (see Materials and Methods).
+The parental TB strain was able to move towards the attractant (an increase of slightly more than half a log of bacteria over 45 min) and the TB0173s strain (cheB2 mutant) was also capable of chemotaxis, even though much reduced as compared to TB (Figure S4).
+However, the TB1459i strain (cheB1 mutant) was no longer able to move towards the attractant, and thus showed a defect in this chemotaxis assay (Figure S4).

@@ -1,0 +1,12 @@
+Expression of bfiS, bfmR, and mifR is required for maintenance of normal biofilm architecture while loss of expression results in biofilm architecture collapse 
+Our observations indicated that BfiS (PA4197), BfmR (PA4101) and MifR (PA5511) are essential in the stage-specific development of P. aeruginosa biofilm formation.
+To determine whether these regulatory proteins are only essential during biofilm formation or are also necessary for the maintenance of established biofilms, we asked whether inactivation of these regulatory proteins in mature biofilms would affect biofilm architecture.
+Complemented mutant strains, harboring the respective regulator genes under the control of the arabinose-inducible PBAD promoter, were allowed to grow for 144 hr in flow cells to maturity (Fig. 2C, Fig. 5-0 hr) in the presence of arabinose, after which time arabinose was removed from the growth medium to stop the transcription of the respective genes.
+The resulting biofilm architecture was viewed over a period of 144 hr post arabinose removal using confocal microscopy.
+P. aeruginosa wild type harboring an empty pJN105 vector was used as control.
+Loss of bfiS, bfmR, and mifR expression due to arabinose removal resulted in the collapse of the mutant biofilm architecture within three days.
+For DeltabfiS and DeltabfmR mutant biofilms, biofilm disaggregation was noticeable as early as 24 hr post arabinose removal (not shown).
+The collapse was apparent by significant reduction (P<0.05) of biofilm variables including biofilm biomass and thickness, which further decreased upon continued incubation (Fig. 5, Table 3).
+Post 144 hr of arabinose removal, the biofilm architecture of the complemented mutants was similar to mutant biofilms lacking the respective regulatory gene (Figs. 2, 5).
+In contrast, no reduction of the wild type biofilm architecture was observed (Fig. 5, Table 3).
+These findings indicated that the three novel regulators are not only essential for the stage-specific progression of P. aeruginosa biofilms but also in the maintenance of the biofilm structure.

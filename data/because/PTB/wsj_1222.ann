@@ -1,0 +1,19 @@
+T1	Motivation 233 235	So
+E1	Motivation:T1 Effect:T2
+A1	Degree E1 Facilitate
+T2	Argument 236 333	the inner-city burial ground is trying to resurrect itself with a television advertising campaign
+T3	Consequence 703 709	helped
+E2	Consequence:T3 Cause:T4 Effect:T5
+A2	Degree E2 Facilitate
+T4	Argument 667 680	Street lights
+T5	Argument 710 759	sharpen the arm of many a budding baseball player
+T6	Purpose 1178 1180	to
+E3	Purpose:T6 Cause:T7 Effect:T8
+A3	Degree E3 Facilitate
+T7	Argument 1181 1190	sell lots
+T8	Argument 1134 1177	which use direct mail and other advertising
+T9	Purpose 1926 1928	to
+E4	Purpose:T9 Cause:T10 Effect:T11
+A4	Degree E4 Facilitate
+T10	Argument 1929 1961	counter his penny-pinching image
+T11	Argument 1882 1925	who spent his later years passing out dimes

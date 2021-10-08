@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_1025</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-26</TIMEX3></DCT>
+<TEXT>
+ Sotheby's Holdings Inc., the parent of the auction house Sotheby's, <EVENT eid="e1" class="REPORTING">said</EVENT> its net <EVENT eid="e2" class="OCCURRENCE">loss</EVENT> for the seasonally slow <TIMEX3 tid="t3" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third quarter</TIMEX3> <EVENT eid="e4" class="OCCURRENCE">narrowed</EVENT> from <TIMEX3 tid="t5" type="DATE" value="1988-Q3" anchorTimeID="t3" functionInDocument="NONE">a year earlier</TIMEX3> on a <EVENT eid="e6" class="OCCURRENCE">leap</EVENT> in operating revenue.
+ The New York-based company <EVENT eid="e7" class="REPORTING">reported</EVENT> a <TIMEX3 tid="t8" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> net <EVENT eid="e9" class="OCCURRENCE">loss</EVENT> of $ 5.1 million, or 10 cents a share, compared with a <TIMEX3 tid="t10" type="DATE" value="1988-Q3" anchorTimeID="t8" functionInDocument="NONE">year-earlier</TIMEX3> net <EVENT eid="e11" class="OCCURRENCE">loss</EVENT> of $ 6.2 million, or 12 cents a share.
+ Operating revenue <EVENT eid="e12" class="OCCURRENCE">surged</EVENT> 54 % in <TIMEX3 tid="t13" type="DATE" value="1989-QX" anchorTimeID="t0" functionInDocument="NONE">the latest period</TIMEX3> to $ 42.9 million from $ 27.7 million.
+ The company <EVENT eid="e14" class="REPORTING">said</EVENT> 80 % of its auction business is usually <EVENT eid="e15" class="OCCURRENCE">conducted</EVENT> in the <TIMEX3 tid="t16" type="SET" value="XXXX-Q2" anchorTimeID="t17" functionInDocument="NONE">second</TIMEX3> and <TIMEX3 tid="t17" type="SET" value="XXXX-Q4" functionInDocument="NONE">fourth quarters</TIMEX3>, with <TIMEX3 tid="t18" type="DATE" value="1989-Q4" anchorTimeID="t0" functionInDocument="NONE">the current quarter</TIMEX3> having <EVENT eid="e19" class="ASPECTUAL">begun</EVENT> " extremely well. "
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToEventInstance="ei19"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l3" relType="ENDS" eventInstanceID="ei2" relatedToTime="t3"/>
+<TLINK lid="l4" relType="DURING" eventInstanceID="ei4" relatedToTime="t3"/>
+<TLINK lid="l5" relType="ENDS" eventInstanceID="ei4" relatedToTime="t5"/>
+<TLINK lid="l6" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToEventInstance="ei4"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToTime="t0"/>
+<TLINK lid="l8" relType="ENDED_BY" timeID="t8" relatedToEventInstance="ei9"/>
+<TLINK lid="l9" relType="ENDS" eventInstanceID="ei11" relatedToTime="t10"/>
+<TLINK lid="l10" relType="INCLUDES" timeID="t13" relatedToEventInstance="ei12"/>
+<TLINK lid="l11" relType="IDENTITY" eventInstanceID="ei14" relatedToEventInstance="ei7"/>
+<TLINK lid="l12" relType="INCLUDES" timeID="t16" relatedToEventInstance="ei15"/>
+<TLINK lid="l13" relType="INCLUDES" timeID="t17" relatedToEventInstance="ei15"/>
+<TLINK lid="l14" relType="BEGUN_BY" timeID="t18" relatedToEventInstance="ei19"/>
+</TimeML>

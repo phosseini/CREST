@@ -1,0 +1,89 @@
+T1	NonCausal 329 340	comes after
+E1	NonCausal:T1 Arg1:T2 Arg0:T3
+A1	Temporal E1
+T2	Argument 279 328	The clearance by the Food and Drug Administration
+T3	Argument 341 470	two years of restricted access for the youngest victims of AIDS to the only antiviral drug yet cleared to treat the fatal disease
+T4	Consequence 628 632	make
+E2	Consequence:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+T5	Argument 614 622	The move
+T6	Argument 633 741	the drug available free of charge for a time to children with the disease and symptoms of advanced infection
+T7	Consequence 785 790	since
+E3	Consequence:T7 Cause:T8 Effect:T9
+A4	Degree E3 Facilitate
+A5	Temporal E3
+T8	Argument 791 845	FDA approved the drug's usage for adults in March 1987
+T9	Argument 745 784	Adults with AIDS have had access to AZT
+T13	Consequence 1028 1030;1033 1039	As result
+E5	Consequence:T13 Effect:T14
+A7	Degree E5 Facilitate
+T14	Argument 1041 1178	many youngsters have been unable to obtain the drug and, for the few exceptions, insurance carriers won't cover its cost of $6,400 a year
+T10	Consequence 1765 1770	after
+E4	Consequence:T10 Cause:T11 Effect:T12
+A6	Degree E4 Facilitate
+A8	Temporal E4
+T11	Argument 1771 1818	her parents unsuccessfully pleaded for the drug
+T12	Argument 1705 1764	One of them, a daughter Ariel, died a year ago at age seven
+T15	NonCausal 1935 1940	until
+E6	NonCausal:T15 Arg0:T16 Arg1:T17
+A9	Temporal E6
+T16	Argument 1941 1967	she was too ill to take it
+T17	Argument 1913 1933	my daughter couldn't
+T18	Consequence 2135 2144	blamed on
+E7	Consequence:T18 Cause:T19 Effect:T20
+A10	Degree E7 Facilitate
+T19	Argument 2145 2169	a combination of factors
+T20	Argument 2089 2125	The delay in getting AZT to children
+T21	Motivation 2281 2291	because of
+E8	Motivation:T21 Effect:T22 Cause:T23
+A11	Degree E8 Facilitate
+T22	Argument 2186 2279	the medical establishment has waited two years to approve adult treatments for pediatric uses
+T23	Argument 2292 2351	a combination of conservative safety standards and red tape
+T24	Motivation 2442 2449	because
+E9	Motivation:T24 Effect:T25 Cause:T26
+A12	Degree E9 Facilitate
+T25	Argument 2363 2441	critics have charged AZT's maker Burroughs Wellcome Co. with corporate inertia
+T26	Argument 2450 2561	children account for just 1% of the patient population and hence a small part of the large and lucrative market
+T27	Consequence 2509 2514	hence
+E10	Consequence:T27 Effect:T28 Cause:T29
+A13	Degree E10 Facilitate
+T28	Argument 2450 2470;2515 2561	children account for a small part of the large and lucrative market
+T29	Argument 2450 2504	children account for just 1% of the patient population
+T30	NonCausal 2745 2750;2776 2781	comes after
+E11	NonCausal:T30 Arg0:T32 Arg1:T31
+A14	Temporal E11
+T31	Argument 2736 2744	all this
+T32	Argument 2782 2986	Philip Pizzo of the National Cancer Institute offered evidence that AZT could reverse the ravages of AIDS dementia, sometimes prompting dramatic recovery of IQ levels and reappearance of lost motor skills
+T33	Consequence 2908 2917	prompting
+E12	Consequence:T33 Effect:T34 Cause:T35
+A15	Degree E12 Facilitate
+T34	Argument 2918 2986	dramatic recovery of IQ levels and reappearance of lost motor skills
+T35	Argument 2850 2853	AZT
+T36	NonCausal 2988 2993	Since
+E13	NonCausal:T36 Arg0:T37 Arg1:T38
+A16	Temporal E13
+T37	Argument 2994 2998	then
+T38	Argument 3000 3067	roughly 50 pediatric patients have received the drug in his program
+T39	Consequence 3204 3207	why
+E14	Consequence:T39 Effect:T40
+A17	Degree E14 Facilitate
+T40	Argument 3208 3226	it's taken so long
+T41	Consequence 3228 3231	Why
+E15	Consequence:T41 Effect:T42
+A18	Degree E15 Facilitate
+T42	Argument 3232 3318	has it taken people so long for people to understand pediatric AIDS is a major problem
+T43	Motivation 3618 3621	Why
+E16	Motivation:T43 Effect:T44
+A19	Degree E16 Facilitate
+T44	Argument 3622 3717	did it take Burroughs Wellcome so long to apply'' for treatment investigational new drug status
+T45	Consequence 3821 3825	with
+E17	Consequence:T45 Cause:T46 Effect:T47
+A20	Degree E17 Facilitate
+T46	Argument 3826 3851	this drug for 2 1/2 years
+T47	Argument 3794 3820	that has been profiteering
+T48	Consequence 4142 4151	make sure
+E18	Consequence:T48 Effect:T50
+A21	Degree E18 Facilitate
+T50	Argument 4152 4256	other experimental drugs, like Bristol-Myers Co. 's DDI, don't follow the same frustrating course as AZT
+T54	Note 4142 4151	make sure
+#4	AnnotatorNotes T54	I'm not convinced "we" is the subject of "make sure."

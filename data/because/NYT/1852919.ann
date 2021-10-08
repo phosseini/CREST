@@ -1,0 +1,80 @@
+T1	Motivation 508 510	so
+E1	Motivation:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+A2	Extremity-sufficiency E1
+T2	Argument 508 574	so sensitive and potentially disruptive to British-Saudi relations
+T3	Argument 580 708	the government canceled an official inquiry last December into the claims of corruption that have swirled around the transaction
+T4	Motivation 2038 2043	after
+E2	Motivation:T4 Cause:T5 Effect:T6
+A3	Degree E2 Facilitate
+A4	Temporal E2
+T5	Argument 2044 2063	government pressure
+T6	Argument 1934 2037	Britain's Serious Fraud Office abruptly canceled an inquiry into alleged corruption in the Yamamah deal
+T7	NonCausal 2286 2288	if
+E3	NonCausal:T7 Arg0:T8 Arg1:T9
+A5	Hypothetical E3
+T8	Argument 2289 2321	the investigation had gone ahead
+T9	Argument 2323 2433	it ``would have involved the most serious allegations in investigations being made into the Saudi royal family
+T10	Consequence 2584 2587;2605 2607	led to
+E4	Consequence:T10 Cause:T11 Effect:T12
+A6	Degree E4 Facilitate
+T11	Argument 2542 2559	the investigation
+T12	Argument 2608 2679	the complete wreckage of a vital strategic relationship for our country
+T13	NonCausal 3069 3071	if
+E5	NonCausal:T13 Arg0:T14 Arg1:T15
+A7	Hypothetical E5
+T14	Argument 3072 3129	allegations of bribery popping around aren't investigated
+T15	Argument 3012 3067	It's bad for British business, apart from anything else
+T16	Motivation 3300 3305	since
+E6	Motivation:T16 Effect:T17 Cause:T18
+A8	Degree E6 Facilitate
+T17	Argument 3252 3299	it was ``unable to comment on these allegations
+T18	Argument 3306 3467	to do so would involve disclosing confidential information about Al Yamamah and that would cause the damage that ending the investigation was designed to prevent
+T19	Consequence 3397 3402	cause
+E7	Consequence:T19 Cause:T20 Effect:T22
+A9	Degree E7 Facilitate
+T20	Argument 3386 3390	that
+T21	Argument 3329 3381	disclosing confidential information about Al Yamamah
+R1	Coref Arg1:T20 Arg2:T21	
+T22	Argument 3403 3467	the damage that ending the investigation was designed to prevent
+T23	Consequence 3460 3467	prevent
+E8	Consequence:T23 Effect:T24 Cause:T25
+A10	Degree E8 Inhibit
+T24	Argument 3403 3413	the damage
+T28	Motivation 3964 3969	after
+E10	Motivation:T28 Effect:T29 Cause:T30
+A14	Degree E10 Facilitate
+A15	Temporal E10
+T29	Argument 3903 3963	King Abdullah scuttled an Israeli-Palestinian summit meeting
+T30	Argument 3970 4016	assurances of Saudi support from Prince Bandar
+T31	Motivation 4597 4599	if
+E11	Motivation:T31 Effect:T32 Cause:T33
+A16	Degree E11 Facilitate
+A17	Hypothetical E11
+T32	Argument 4552 4596	The Justice Department would become involved
+T33	Argument 4600 4770	it were determined there was a possible violation of the Foreign Corrupt Practices Act, which forbids companies from making payments to foreign officials to win contracts
+T34	Purpose 4754 4756	to
+E12	Purpose:T34 Cause:T35 Effect:T36
+A18	Degree E12 Facilitate
+T35	Argument 4757 4770	win contracts
+T36	Argument 4717 4753	making payments to foreign officials
+T37	NonCausal 4694 4701;4712 4716	forbids from
+E13	NonCausal:T37 Arg0:T38 Arg1:T40
+A19	Obligation-permission E13
+T38	Argument 4688 4693	which
+T39	Argument 4653 4686	the Foreign Corrupt Practices Act
+R2	Coref Arg1:T38 Arg2:T39	
+T40	Argument 4702 4711;4717 4770	companies making payments to foreign officials to win contracts
+T41	Consequence 4787 4794;4822 4825;4829 4831	have to for to
+E14	Consequence:T41 Effect:T42 Cause:T43
+A20	Degree E14 Facilitate
+T42	Argument 4826 4828;4832 4845	us bring charges
+T43	Argument 4775 4780;4795 4821	There be some kind of U.S. nexus
+T44	Note 1855 1859	over
+#1	AnnotatorNotes T44	Business-like exchange
+T46	NonCausal 2065 2067	At
+E15	NonCausal:T46 Arg0:T47 Arg1:T48
+A21	Temporal E15
+T47	Argument 2068 2077	that time
+T48	Argument 2079 2198	Prime Minister Tony Blair said the inquiry would prejudice Britain's diplomatic and intelligence ties with Saudi Arabia
+T25	Argument 3419 3443	ending the investigation

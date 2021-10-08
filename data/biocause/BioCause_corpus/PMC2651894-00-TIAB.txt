@@ -1,0 +1,6 @@
+RpoE fine tunes expression of a subset of SsrB-regulated virulence factors in Salmonella enterica serovar Typhimurium 
+Background The survival of Salmonella enterica within the intracellular host niche requires highly co-ordinated expression of virulence effectors predominantly regulated by the SsrAB two-component regulatory system.
+S. enterica serovar Typhimurium mutants lacking the ssrAB genes are avirulent in mice, highlighting the importance of this regulatory system in vivo.
+Mutants lacking the gene encoding the alternative sigma factor sigmaE (rpoE) are also highly attenuated for intracellular survival, pointing to a potential connection with the SsrAB regulatory system.
+Results In this study we demonstrate that RpoE is involved in fine-tuning the expression of a subset of SsrB-regulated genes found in the Salmonella pathogenicity island-2 (SPI-2) genetic locus that encodes a horizontally acquired type III secretion system, and unlinked genes integrated into this regulon that are required for virulence in host animals.
+Conclusion These data point to a potential connection between the virulence phenotype of strains lacking ssrB and rpoE, and highlight new transcriptional regulation that might be essential for appropriate temporal and spatial control of the virulence-associated type III secretion system during host infection.

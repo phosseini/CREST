@@ -1,0 +1,19 @@
+Virulence Factors 
+Streptococci elaborate several factors implicated in infection, including surface-exposed adhesins and secreted toxigenic proteins (reviewed in [7,14,24]).
+The initial statistical analysis identified four differentially expressed virulence genes (Tables 1 and 2).
+Genes encoding streptolysin O (slo or spy0167) and the SpeB protease (spy2039) were downregulated, while genes encoding pyrogenic exotoxin H (speH or spy1008) and a putative fibronectin-binding protein (spy0130) were upregulated.
+We verified the differential expression of spy2039 and spy0130 by qRT-PCR.
+The downregulation of virulence loci during presumably inappropriate stages of infection was not surprising.
+Streptolysin O is a cytotoxin that damages human tissue and increases host cell cytotoxicity [7,25].
+The resulting cellular damage, particularly to polymorphonuclear leukocytes [26], decreases internalization and subsequent intracellular killing of streptococci [27].
+Based on its downregulation during adherence, we infer that slo was transcribed during pre-adherence associations, perhaps, as previously reported, to protect streptococci from phagocytic killing in vivo [27].
+However, once adhered, our data suggest that streptococci downregulate production of this cytotoxin, presumably to prevent further host tissue destruction that could interfere with adherence.
+SpeB (encoded by spy2039) is a multifunctional cysteine protease implicated in numerous infection strategies [28,29].
+Although few studies have examined gene expression patterns during adherence, SpeB production (as detected by Western blot analysis) decreases during co-culture with human peripheral blood mononuclear cells [30] and in a mouse infection model [31].
+When SpeB expression is limited, several streptococcal proteins necessary for adherence remain intact [24,32,33]; thus, decreased SpeB production (as indicated here) may promote pharyngeal cell attachment.
+Furthermore, SpeB abolishes internalization (following adherence) of certain streptococcal strains by epithelial cells (including Detroit 562 cells), a process mediated in part by the fibronectin-binding protein F [34,35].
+We observed significant upregulation of the gene spy0130, encoding a protein recently found to be associated with the production of surface-exposed pili on strain SF370 [36].
+The protein shares 60% sequence similarity to protein F, suggesting that it may coordinate a similar internalization mechanism or may be involved directly in adherence (discussed later in detail).
+SpeB downregulation also coincides with increased expression of pyrogenic exotoxins [33,37] that reportedly increase streptococcal survival in vivo.
+We observed that the exotoxin-encoding speH gene [38] was upregulated.
+Taken together, our results agree with previous reports on SpeB production during host cell interactions, suggesting that decreased expression may promote streptococcal adherence (by preventing proteolytic degradation of key virulence factors or adhesins), enhance internalization (perhaps through a fibronectin-mediated pathway), and increase survival (through increased pyrogenic exotoxin production, discussed below).

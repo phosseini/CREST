@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>PRI19980205.2000.1890</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-02-05" temporalFunction="false" functionInDocument="CREATION_TIME">1998-02-05</TIMEX3></DCT>
+<TEXT>
+ The US is <EVENT eid="e1" class="OCCURRENCE">bolstering</EVENT> its military presence in the gulf, as President Clinton <EVENT eid="e2" class="I_ACTION">discussed</EVENT> the Iraq <EVENT eid="e3" class="OCCURRENCE">crisis</EVENT> with the one ally who has <EVENT eid="e4" class="I_ACTION">backed</EVENT> his <EVENT eid="e5" class="OCCURRENCE">threat</EVENT> of force, British prime minister Tony Blair.
+ The World's Nancy Marshall reports on Mr. Blair's current visit to Washington and the special relationship between the two leaders.
+ President Clinton <EVENT eid="e6" class="OCCURRENCE">rolled</EVENT> out the red carpet for prime minister Blair, <EVENT eid="e7" class="OCCURRENCE">welcoming</EVENT> him not only as a close ally, but a close friend.
+ <EVENT eid="e8" class="OCCURRENCE">Posing</EVENT> for photographers with Clinton, Blair <EVENT eid="e9" class="I_ACTION">pledged</EVENT> to <EVENT eid="e10" class="I_STATE">stand</EVENT> united with the president against Iraq, <EVENT eid="e11" class="I_ACTION">warning</EVENT> Saddam Hussein that the <EVENT eid="e12" class="OCCURRENCE">threat</EVENT> of force is real.
+ The British aircraft carrier invincible is <TIMEX3 tid="t13" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">now</TIMEX3> <EVENT eid="e14" class="OCCURRENCE">patrolling</EVENT> the Persian Gulf alongside three US vessels.
+ Washington and London are virtually alone in warning Iraq of military <EVENT eid="e15" class="OCCURRENCE">strikes</EVENT> if it doesn't <EVENT eid="e16" class="OCCURRENCE">back</EVENT> down on the weapons inspection issue.
+ President Clinton <EVENT eid="e17" class="REPORTING">says</EVENT> he and Blair will <EVENT eid="e18" class="STATE">stand</EVENT> together not just on Iraq but also on <EVENT eid="e19" class="OCCURRENCE">arresting</EVENT> the terrorists <EVENT eid="e20" class="I_STATE">suspected</EVENT> of <EVENT eid="e21" class="OCCURRENCE">blowing</EVENT> up Pan Am flight one oh three over Scotland.
+ For The World I 'm Nancy Marshall in Washington.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="INCLUDES" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei2"/>
+<TLINK lid="l3" relType="AFTER" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei2"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei4"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToEventInstance="ei2"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToEventInstance="ei2"/>
+<TLINK lid="l8" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei6"/>
+<TLINK lid="l9" relType="SIMULTANEOUS" eventInstanceID="ei8" relatedToEventInstance="ei9"/>
+<TLINK lid="l10" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei9"/>
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei12" relatedToEventInstance="ei11"/>
+<TLINK lid="l12" relType="DURING" eventInstanceID="ei14" relatedToTime="t13"/>
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei15"/>
+<TLINK lid="l14" relType="AFTER" eventInstanceID="ei17" relatedToEventInstance="ei6"/>
+<TLINK lid="l15" relType="DURING" eventInstanceID="ei18" relatedToEventInstance="ei19"/>
+<TLINK lid="l16" relType="AFTER" eventInstanceID="ei19" relatedToEventInstance="ei20"/>
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei21" relatedToEventInstance="ei20"/>
+</TimeML>

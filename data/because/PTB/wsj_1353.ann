@@ -1,0 +1,82 @@
+T7	NonCausal 1053 1055	As
+E3	NonCausal:T7 Arg0:T8 Arg1:T9
+A3	Temporal E3
+T8	Argument 1056 1109	the death toll from last week's temblor climbed to 61
+T9	Argument 1111 1206	the condition of freeway survivor Buck Helm, who spent four days trapped under rubble, improved
+T10	NonCausal 1726 1728	as
+E4	NonCausal:T10 Arg1:T12 Arg0:T11
+A6	Temporal E4
+T11	Argument 1729 1823	Acting President Szuros delivered a nationally televised address rejecting communist dominance
+T12	Argument 1657 1725	A crowd estimated at 100,000 held a torch-lit march through Budapest
+T13	Motivation 2394 2401	because
+E5	Motivation:T13 Effect:T14 Cause:T15
+A7	Degree E5 Facilitate
+T14	Argument 2332 2393	The five astronauts returned to Earth about three hours early
+T15	Argument 2402 2451	high winds had been predicted at the landing site
+T16	NonCausal 2475 2481	before
+E6	NonCausal:T16 Arg1:T17 Arg0:T18
+A8	Temporal E6
+T17	Argument 2482 2491	touchdown
+T18	Argument 2453 2474	Fog shrouded the base
+T19	Consequence 2593 2600	causing
+E7	Consequence:T19 Cause:T20 Effect:T21
+A9	Degree E7 Facilitate
+T20	Argument 2495 2572	Explosions shook a Phillips Petroleum Co. plastics plant near Pasadena, Texas
+T21	Argument 2601 2634	a fire visible from 10 miles away
+T22	Purpose 2848 2850	to
+E8	Purpose:T22 Effect:T23 Cause:T24
+A10	Degree E8 Facilitate
+T23	Argument 2779 2847	Bush is conferring with leaders of the Senate Intelligence Committee
+T24	Argument 2851 2898	ease differences over guidelines for CIA agents
+T25	Motivation 2914 2924	came after
+E9	Motivation:T25 Effect:T26 Cause:T27
+A11	Degree E9 Facilitate
+A12	Temporal E9
+T26	Argument 2900 2913	The statement
+T27	Argument 2925 3095	officials said Bush complained at a private meeting last week that a strict interpretation of a policy requires the U.S. to notify foreign dictators of certain coup plots
+T28	NonCausal 3028 3036;3046 3048	requires to
+E10	NonCausal:T28 Arg0:T29 Arg1:T30
+A13	Obligation-permission E10
+T29	Argument 2992 3027	a strict interpretation of a policy
+T30	Argument 3037 3045;3049 3095	the U.S. notify foreign dictators of certain coup plots
+T31	Motivation 3216 3221	after
+E11	Motivation:T31 Cause:T32 Effect:T33
+A14	Degree E11 Facilitate
+A15	Temporal E11
+T32	Argument 3222 3296	Lebanon's two main Shiite militias rejected an Arab-sponsored peace accord
+T33	Argument 3099 3215	Lebanon's Gen. Aoun placed Christian military forces on alert in case of renewed fighting with Syrian-backed Moslems
+T35	Motivation 3519 3523	when
+E12	Motivation:T35 Cause:T36 Effect:T37
+A16	Degree E12 Facilitate
+A17	Temporal E12
+T36	Argument 3524 3606	the alliance's nuclear planning group convenes a two-day session today in Portugal
+T37	Argument 3470 3518	call for a reduction in nuclear forces in Europe
+T41	Motivation 3835 3848	contingent on
+E14	Motivation:T41 Effect:T42 Cause:T43
+A19	Degree E14 Facilitate
+T42	Argument 3816 3830	the assistance
+T43	Argument 3849 3967	U.S. aid in resolving the cases of three Iranians kidnapped in Lebanon in 1982 or the release of frozen Iranian assets
+T44	Motivation 4378 4383	after
+E15	Motivation:T44 Cause:T45 Effect:T46
+A20	Degree E15 Facilitate
+A21	Temporal E15
+T45	Argument 4384 4467	Zimbabwe's President Mugabe called Thatcher's views on South Africa ``despicable.''
+T46	Argument 4300 4377	Commonwealth leaders turned to issues ranging from drugs to the world economy
+T47	Motivation 4556 4559	for
+E16	Motivation:T47 Cause:T48 Effect:T49
+A22	Degree E16 Facilitate
+T48	Argument 4560 4629	criticizing the 49-nation group's call for Pretoria to ease apartheid
+T49	Argument 4494 4555	Australia and Canada also assailed the British prime minister
+T1	Motivation 3161 3171	in case of
+E1	Motivation:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 3099 3160	Lebanon's Gen. Aoun placed Christian military forces on alert
+T3	Argument 3172 3215	renewed fighting with Syrian-backed Moslems
+T6	Note 2868 2872	over
+#3	AnnotatorNotes T6	Add?
+#6	AnnotatorNotes E15	Strange and unclear
+T39	NonCausal 298 305;340 342	it took to
+E2	NonCausal:T39 Arg0:T40 Arg1:T50
+A2	Temporal E2
+T40	Argument 329 339	four years
+T50	Argument 306 328;343 411	Gorbachev's government determine that the station's location in Siberia violated the accord

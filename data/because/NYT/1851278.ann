@@ -1,0 +1,34 @@
+T1	NonCausal 470 474	when
+E1	NonCausal:T1 Arg1:T2 Arg0:T3
+A1	Temporal E1
+T2	Argument 387 468	The policemen ambushed were driving from Zabul Province toward the capital, Kabul
+T3	Argument 475 629	they came under fire at 9 a.m. at Shah Joy, a district known for robberies and ambushes, which lies on a route used by insurgents heading to the mountains
+T4	Note 1373 1391	responsibility for
+#1	AnnotatorNotes T4	Not causal: Attributing an action ("shooting") to an (implicit) actor ("the Taliban"). See constructicon.
+T8	NonCausal 1991 1997	before
+E3	NonCausal:T8 Arg0:T9 Arg1:T10
+A3	Temporal E3
+T9	Argument 1937 1990	which had just dropped off soldiers for the operation
+T10	Argument 1998 2010	it went down
+T11	Purpose 2408 2410	to
+E4	Purpose:T11 Effect:T12 Cause:T13
+A4	Degree E4 Facilitate
+T12	Argument 2351 2407	open the route in Helmand up to the Kajaki dam this year
+T13	Argument 2411 2488	secure the area and allow engineers to move in and repair and upgrade the dam
+T14	Consequence 2431 2436;2447 2449	allow to
+E5	Consequence:T14 Cause:T15 Effect:T16 Means:T12
+A5	Degree E5 Facilitate
+T15	Argument 2307 2318	NATO troops
+T16	Argument 2437 2446;2450 2488	engineers move in and repair and upgrade the dam
+T18	Note 1654 1658	when
+#4	AnnotatorNotes T18	Relative pronoun.
+T20	NonCausal 189 193	amid
+E6	NonCausal:T20 Arg1:T21 Arg0:T17
+A7	Context E6
+T21	Argument 167 188	The ambush took place
+T17	Argument 194 384	reports of heavy fighting in several places in southern Afghanistan, in particular in Helmand Province, where a NATO helicopter crashed Wednesday night, possibly brought down by Taliban fire
+T5	Argument 1937 1972	which had just dropped off soldiers
+T6	Argument 1977 1990	the operation
+T7	Purpose 1973 1976	for
+E2	Purpose:T7 Cause:T6 Effect:T5
+A2	Degree E2 Facilitate

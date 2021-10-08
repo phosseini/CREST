@@ -1,0 +1,14 @@
+T1	Consequence 252 259	results
+E1	Consequence:T1 Cause:T2
+A1	Degree E1 Facilitate
+T2	Argument 263 268	which
+T3	Argument 152 246	a people who embrace machines and allow them to mediate their cultural and social interactions
+R1	Coref Arg1:T2 Arg2:T3	
+T4	Consequence 186 191	allow
+E2	Consequence:T4 Cause:T5 Effect:T9
+A2	Degree E2 Facilitate
+A3	Obligation-permission E2
+T5	Argument 161 164	who
+T6	Argument 152 160	a people
+R2	Coref Arg1:T5 Arg2:T6	
+T9	Argument 192 196;197 246	them to mediate their cultural and social interactions

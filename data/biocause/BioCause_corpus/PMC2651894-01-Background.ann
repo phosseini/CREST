@@ -1,0 +1,105 @@
+T1	Organism 12 31	Salmonella enterica
+T2	Organism 306 316	Salmonella
+T3	Protein 358 362	ssrA
+T4	Protein 367 371	ssrB
+T5	Two-component-system 388 393	SsrAB
+T6	Protein 388 392	SsrA
+T7	Protein 392 393	B
+T8	Protein 470 474	SsrB
+T9	Protein 547 551	ssaB
+T10	Protein 611 615	sseL
+T11	Protein 624 628	srfN
+T12	Protein 712 716	SsrB
+T13	Two-component-system 742 747	ssrAB
+T14	Protein 742 746	ssrA
+T15	Protein 746 747	B
+T16	Organism 810 814	mice
+T17	Protein 1113 1117	RpoE
+T18	Protein 1119 1125	sigmaE
+T19	Protein 1187 1193	sigmaE
+T20	Protein 1246 1250	RseA
+T21	Protein 1331 1335	SsrB
+T22	Organism 1377 1391	S. Typhimurium
+T23	Protein 1540 1546	sigmaE
+T25	Organism 1608 1612	rpoE
+T24	Protein 1608 1612	rpoE
+T26	Organism 1616 1628	ssrB mutants
+T27	Protein 1616 1620	ssrB
+T28	Protein 1755 1759	rpoE
+T29	Protein 1764 1768	ssrB
+T30	Protein 1824 1828	RpoE
+T31	Protein 1918 1922	rseA
+T32	Organism 1926 1953	Yersinia pseudotuberculosis
+T33	Regulon-operon 2144 2150	sigmaE
+T34	Protein 2155 2159	SsrB
+T35	Regulon-operon 2224 2230	sigmaE
+T36	Protein 2245 2249	SsrB
+T37	Protein 2318 2322	RpoE
+T38	Protein 2371 2375	SsrB
+T39	Protein 2465 2469	SsrB
+T40	Protein 2707 2711	RpoE
+T41	Protein 2745 2749	SsrB
+T42	Protein 2845 2849	ssrB
+T43	Protein 2887 2891	rpoE
+T44	Protein 2909 2913	SsrB
+T45	Protein 3008 3012	SsrB
+T46	Protein 3017 3021	RpoE
+*	Equiv T18 T17
+T47	Regulation 475 484	regulates
+T48	Gene_expression 489 499	expression
+T49	Process 583 592	virulence
+T50	Process 797 806	avirulent
+T51	Regulation 1127 1135	responds
+T52	Process 1640 1650	attenuated
+T53	Gene_expression 1741 1751	expression
+T54	Positive_regulation 1772 1784	up-regulated
+T55	Process 1833 1842	virulence
+T56	Gene_expression 1848 1858	expression
+T57	Process 1970 1979	virulence
+T58	Process 2076 2085	virulence
+T59	Process 2651 2660	virulence
+T60	Gene_expression 2850 2860	expression
+T61	Regulation 2899 2905	effect
+T62	Gene_expression 2914 2920	levels
+T63	Process 2968 2977	virulence
+T64	Process 3203 3212	infection
+E1	Regulation:T47 Theme:E4
+E2	Regulation:T47 Theme:E5
+E3	Regulation:T47 Theme:E6
+E4	Gene_expression:T48 Theme:T9
+E5	Gene_expression:T48 Theme:T10
+E6	Gene_expression:T48 Theme:T11
+E7	Process:T49
+E8	Process:T50
+M1	Negation E8
+E9	Regulation:T51 Theme:T17
+E10	Process:T52
+E11	Gene_expression:T53 Theme:T28
+E12	Gene_expression:T53 Theme:T29
+E13	Positive_regulation:T54 Theme:E11
+E14	Positive_regulation:T54 Theme:E12
+E15	Process:T55
+E16	Gene_expression:T56 Theme:T30
+E17	Process:T57
+E18	Process:T58
+E19	Process:T59
+E20	Gene_expression:T60 Theme:T42
+E21	Regulation:T61 Theme:E22
+M2	Negation E21
+E22	Gene_expression:T62 Theme:T44
+E23	Process:T63
+E24	Process:T64
+T74	Span 1176 1250	Release of sigmaE from its inner membrane anchored anti-sigma factor, RseA
+T75	Causality 1252 1260	leads to
+E28	Causality:T75 Cause:T74 Effect:T76
+T76	Span 1261 1324	induction of genes required to maintain cell envelope integrity
+T83	Fact 1906 1953	Deletion of rseA in Yersinia pseudotuberculosis
+T84	Causality 1954 1960	causes
+E31	Causality:T84 Cause:T83 Effect:T85
+T85	Fact 1961 2105	elevated virulence effector synthesis and secretion [18], establishing links between alternative sigma factors and virulence-specific regulators
+T87	Span 2288 2409	We tested the hypothesis that RpoE is involved in expression of genes that use the SsrB response regulator for activation
+T90	Span 2411 2686	By testing six promoters representing four classes of SsrB-regulated promoters ((i) two type III secretion structural operons in SPI-2, (ii) the effector operon in SPI-2, (iii) two effector genes unlinked with SPI-2, and (iv) an integrated virulence gene unlinked with SPI-2)
+T91	Span 2707 2765	RpoE elicits an effect on a subset of SsrB-regulated genes
+T92	Causality 2687 2706	we demonstrate that
+E34	Causality:T92 Effect:T91 Evidence:T90
+E25	Causality:T92 Effect:T91 Evidence:T87

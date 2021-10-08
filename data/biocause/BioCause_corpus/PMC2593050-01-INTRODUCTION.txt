@@ -1,0 +1,18 @@
+INTRODUCTION 
+Bacterial pathogens produce many two-component regulatory systems to regulate gene expression by specific environmental signals [1].
+These systems consist of membrane protein sensors and cognate cytoplasmic response regulators.
+The regulator is phosphorylated by the sensor in response to a specific signal, activating or repressing the transcription of target genes.
+The two-component regulatory system VicRK or YycFG is specific for Gram-positive bacteria.
+The regulator component VicR is essential in Bacillus subtilis [2], Staphylococcus aureus [3], and Streptococcus pneumoniae [4-5] but appears not to be essential in Streptococcus pyogenes [6].
+The deletion of the vicK gene can be readily inactivated in S. pneumoniae [7], Streptococcus mutans [8], and S. pyogenes [6] but not in B. subtilis [2] and S. aureus [3].
+Conditional and unconditional vicRK mutants display various phenotypes, including defects in morphology and cell wall synthesis, decreased competence, sensitivity to antibiotics and fatty acids, defects in biofilm formation, and attenuated virulence, growth defect, and sensitivity to osmotic pressure [3, 6, 8-11].
+The vicRK system of Gram-positive bacterium Streptococcus equi subspecies equi (S. equi) has not been studied.
+This pathogen causes equine strangles, a highly contagious purulent lymphadenitis [12-13].
+The infection initially causes nasal discharge and fever and, then, leads to abscess formation in local lymph nodes, causing respiratory difficulty.
+Although the infection at the lymph nodes cause massive infiltration of polymorphoneuclear leukocytes (PMNs) [14], S. equi resists phagocytosis by PMNs and rapidly multiplies, forming an abscess of large numbers of degenerating PMNs and long chains of S. equi [15].
+The hyaluronic acid capsule and S. equi M-like protein (SeM) are both required for the resistance to phagocytosis by PMNs [16-17].
+Most horses recovered from strangles have immunity against S. equi reinfection for up to 5 years [18].
+It is believed that the immunity is mediated by mucosal antibodies specific to SeM and other protective antigens.
+An intranasal vaccine made of live attenuated strain has been used in USA, which lacks the hyaluronic acid capsule, and various adverse effects, including pharyngeal lymphadenopathy, limb edema, and bastard strangles abscesses, have been reported [15].
+This study aims at evaluating the importance of VicRK to S. equi virulence and the potential of a vicK deletion mutant as a live vaccine using mouse infection models.
+We found that the vicK deletion attenuated S. equi virulence in mouse models of subcutaneous and intranasal infections and that infection with a vicK deletion mutant confers protection against subsequent infection with wild-type S. equi and induces production of mucosal and systemic immunoglobins to SeM in nasal infection.

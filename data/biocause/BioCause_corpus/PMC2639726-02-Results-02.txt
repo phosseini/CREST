@@ -1,0 +1,18 @@
+The ability of Salmonella to survive and replicate in macrophages is necessary but not sufficient for mouse virulence 
+Previous work demonstrated that Salmonella mutants that were unable to survive within elicited peritoneal macrophages were attenuated for virulence during systemic mouse infection [36].
+In fact, fluorescence-activated cell sorting analysis of infected blood and spleen using Salmonella that expresses green fluorescent protein does not identify any extracellular bacteria [16],[37],[38].
+Salmonella is within blood monocytes and in other WBC in the spleen including neutrophils, dendritic cells, and B and T cells in these reports (ibid).
+It is possible that growth in cells types other than macrophages is necessary for Salmonella to cause a systemic infection in mice following i.p. administration.
+Thus, some of the regulatory mutations described here may affect growth in cells types other than macrophages.
+We therefore wished to determine if there is a direct relationship between growth in macrophages and mouse virulence.
+In these studies we used primary bone marrow-derived macrophages (BMDM) from the same strain of mouse as used in the original identification of attenuated regulatory mutants (BALB/c).
+The identical number of input bacteria and the identical number of macrophages were used in every infection experiment.
+As observed by others, following phagocytosis there is some bacterial killing that varied from strain to strain followed by intracellular growth.
+We monitored the number of intracellular bacteria at an early time (30 min) to determine the number of bacteria internalized (Figure 2).
+Even at the shortest time few intracellular bacteria were recovered from macrophage infection with an rpoE mutant, suggesting that this strain is very sensitive to microbicidal factors released by macrophages on contact with bacteria or doesn't get internalized very well.
+At 2.0 hrs post infection there was a decrease in bacterial numbers that varied from strain to strain presumably reflecting variation in the sensitivity to bacterial killing by the oxidative burst, acidic pH, and antimicrobial peptides.
+Finally, at 18 hrs bacterial numbers were enumerated to monitor intracellular replication as well as the ability to withstand nitrous oxide oxidation and other late antimicrobial factors [39],[40].
+No effect was found at any time point for a mutant in the plasmid-encoded regulator spvR in murine macrophages in agreement with other investigators [41],[42].
+Small differences in intracellular growth were observed for ssrA/ssrB and slyA compared to the parent although larger differences have been observed previously [43]-[45] perhaps reflecting BMDM preparation techniques, bacterial strain differences, or opsonization differences [46].
+Mutations of himD, rpoE, crp, or hfq drastically reduce the number of viable bacteria that can be recovered from macrophages even at short times (Figure 2).
+These results also demonstrated that growth in macrophages per se does not duplicate in vivo infection and that some regulator mutants that were totally avirulent in the mouse showed no differences in growth in these primary macrophages.

@@ -1,0 +1,244 @@
+T1	Organism 43 48	human
+T2	Organism 79 82	SS2
+T3	Organism 220 225	human
+T4	Organism 431 434	SS2
+T5	Chemical 548 570	capsule polysaccharide
+T6	Chemical 572 575	CPS
+T7	Chemical 612 620	suilysin
+T8	Organism 741 744	SS2
+T9	Organism 834 837	SS2
+T10	Two-component-system 1265 1274	SalK/SalR
+T11	Protein 1265 1269	SalK
+T12	Protein 1270 1274	SalR
+T13	Two-component-system 1373 1378	salKR
+T14	Protein 1373 1377	salK
+T15	Protein 1377 1378	R
+T16	Chemical 1768 1776	Suilysin
+T17	Organism 1839 1842	SS2
+T18	Two-component-system 1927 1932	salKR
+T19	Protein 1927 1931	salK
+T20	Protein 1931 1932	R
+T21	Organism 2025 2028	SS2
+T22	Two-component-system 2163 2172	SalK/SalR
+T23	Protein 2163 2167	SalK
+T24	Protein 2168 2172	SalR
+T25	Organism 2176 2179	SS2
+T26	Organism 2203 2229	SalK/SalR-deficient mutant
+T27	Two-component-system 2203 2212	SalK/SalR
+T28	Protein 2203 2207	SalK
+T29	Protein 2208 2212	SalR
+T30	Two-component-system 2262 2267	salKR
+T31	Protein 2262 2266	salK
+T32	Protein 2266 2267	R
+T33	Organism 2293 2296	SS2
+T34	Organism 2322 2329	piglets
+T35	Organism 2378 2395	deletion of salKR
+T36	Protein 2390 2394	salK
+T37	Protein 2394 2395	R
+T38	Organism 2522 2532	DeltasalKR
+T39	Two-component-system 2527 2532	salKR
+T40	Protein 2527 2531	salK
+T41	Protein 2531 2532	R
+T42	Organism 2578 2585	piglets
+T43	Two-component-system 2650 2659	SalK/SalR
+T44	Protein 2650 2654	SalK
+T45	Protein 2655 2659	SalR
+T46	Organism 2706 2709	SS2
+T47	Protein 2827 2831	salK
+T48	Protein 2836 2840	salR
+T49	Organism 3005 3012	piglets
+T50	Organism 3279 3290	CDeltasalKR
+T51	Two-component-system 3285 3290	salKR
+T52	Protein 3285 3289	salK
+T53	Protein 3289 3290	R
+T54	Organism 3501 3504	SS2
+T55	Two-component-system 3641 3646	salKR
+T56	Protein 3641 3645	salK
+T57	Protein 3645 3646	R
+T58	Two-component-system 3726 3731	salKR
+T59	Protein 3726 3730	salK
+T60	Protein 3730 3731	R
+T61	Protein 3841 3845	salK
+T62	Protein 3850 3854	salR
+T63	Two-component-system 3931 3940	SalK/SalR
+T64	Protein 3931 3935	SalK
+T65	Protein 3936 3940	SalR
+T66	Protein 4359 4368	05SSU0935
+T67	Protein 4373 4382	05SSU0953
+T68	Organism 4472 4482	DeltasalKR
+T69	Two-component-system 4477 4482	salKR
+T70	Protein 4477 4481	salK
+T71	Protein 4481 4482	R
+T72	Two-component-system 4550 4559	SalK/SalR
+T73	Protein 4550 4554	SalK
+T74	Protein 4555 4559	SalR
+T75	Organism 4594 4597	SS2
+T76	Chemical 5290 5293	CPS
+T77	Chemical 5295 5303	suilysin
+T78	Organism 5572 5585	S. pneumoniae
+T79	Two-component-system 5698 5707	SalK/SalR
+T80	Protein 5698 5702	SalK
+T81	Protein 5703 5707	SalR
+T82	Organism 5752 5755	SS2
+T83	Organism 5907 5910	SS2
+T84	Two-component-system 6119 6128	SalK/SalR
+T85	Protein 6119 6123	SalK
+T86	Protein 6124 6128	SalR
+T87	Organism 6214 6217	SS2
+T88	Two-component-system 6240 6249	SalK/SalR
+T89	Protein 6240 6244	SalK
+T90	Protein 6245 6249	SalR
+T91	Chemical 6340 6353	salivaricin A
+T92	Chemical 6355 6359	SalA
+T93	Organism 6364 6377	S. salivarius
+T94	Two-component-system 6508 6517	SalK/SalR
+T95	Protein 6508 6512	SalK
+T96	Protein 6513 6517	SalR
+T97	Organism 6596 6599	SS2
+T98	Organism 6848 6851	SS2
+*	Equiv T5 T6
+T99	Process 49 58	infection
+T100	Process 405 414	virulence
+T101	Process 745 755	infections
+T102	Process 1786 1795	virulence
+T103	Process 2081 2090	virulence
+T104	Regulation 2155 2159	role
+T105	Process 2180 2189	infection
+T106	Regulation 2252 2258	impact
+T107	Process 2280 2289	virulence
+T108	Process 2343 2353	infections
+T109	Negative_regulation 2715 2724	reduction
+T110	Process 2728 2737	virulence
+T111	Positive_regulation 2788 2802	reintroduction
+T112	Process 3013 3022	infection
+T113	Process 3488 3497	virulence
+T114	Transcription 3868 3891	co-transcriptional unit
+T115	Transcription 4318 4329	transcripts
+T116	Negative_regulation 4459 4468	decreased
+T117	Regulation 4564 4571	control
+T118	Process 4581 4590	virulence
+T119	Process 5271 5280	virulence
+T120	Regulation 5714 5722	regulate
+T121	Process 5756 5764	virulent
+T122	Process 5846 5854	virulent
+T123	Process 5894 5903	virulence
+T124	Process 5977 5985	infected
+T125	Process 6042 6051	virulence
+T126	Process 6454 6463	virulence
+T127	Positive_regulation 6532 6545	indispensable
+T128	Process 6559 6568	virulence
+E1	Process:T99 Participant:T2
+E2	Process:T100 Participant:T4
+E3	Process:T101 Participant:T8
+E4	Process:T102 
+E5	Process:T103 Participant:T21
+E6	Regulation:T104 Theme:E7 Cause:T22
+M1	Speculation E6
+E7	Process:T105 Participant:T25
+E8	Regulation:T106 Theme:E9
+M2	Speculation E8
+E9	Process:T107 Participant:T33
+E10	Process:T108 Participant:T35
+E11	Negative_regulation:T109 Theme:E12
+E12	Process:T110 
+E13	Positive_regulation:T111 Theme:T47
+E14	Positive_regulation:T111 Theme:T48
+E15	Process:T112 
+E16	Process:T113 Participant:T54
+E17	Transcription:T114 Theme:T61
+E18	Transcription:T114 Theme:T62
+E19	Transcription:T115 Theme:T66
+E20	Transcription:T115 Theme:T67
+E21	Negative_regulation:T116 Theme:E19
+E22	Negative_regulation:T116 Theme:E20
+E23	Regulation:T117 Theme:E24 Cause:T72
+M3	Speculation E23
+E24	Process:T118 Participant:T75
+E25	Process:T119 
+E26	Regulation:T120 Theme:E27 Cause:T79
+M4	Speculation E26
+E27	Process:T121 Participant:T82
+E28	Process:T122 
+E29	Process:T123 Participant:T83
+E30	Process:T124 
+E31	Process:T125 
+E32	Process:T126 
+E33	Positive_regulation:T127 Theme:E34 Cause:T94
+E34	Process:T128 Participant:T97
+T135	Causality 863 870	However
+E37	Causality:T135 Effect:T136 Evidence:T137
+T136	Span 872 962	they did not provide sufficient experimental evidence supporting the prediction of 89K PAI
+T137	Span 963 1132	which was largely based on the results of bioinformatical analysis, and the functions of the vast majority of genes encoding within the 89K island remain largely unknown
+T138	Span 1355 1435	the GC content of salKR is far less than that of 89K island and the whole genome
+T139	Causality 1437 1450	implying that
+E38	Causality:T139 Effect:T140 Evidence:T138
+T140	Span 1451 1544	this TCSTS is of foreign origin which may have been acquired through horizontal gene transfer
+T141	Span 1875 1943	Moreover, PCR analysis using primers amplifying the salKR locus also
+T142	Causality 1944 1961	demonstrated that
+E39	Causality:T142 Evidence:T141 Effect:T143
+T143	Span 1962 2130	this TCSTS is specific to Chinese epidemic outbreak strains of SS2 (data not shown), implying its tight linkage to the virulence of this new emerging pathogenic species
+T144	Causality 2396 2404	leads to
+E40	Causality:T144 Evidence:T145 Effect:T146
+T145	Span 2311 2395	Results of piglets experimental infections clearly showed that the deletion of salKR
+T146	Span 2405 2460	elimination of the lethality of this important pathogen
+T147	Span 2462 2609	Colonization analysis also revealed the incapability of the DeltasalKR mutant to colonize any susceptible tissue of piglets when administered alone
+T151	Span 2650 2709	SalK/SalR plays a critical role in the pathogenicity of SS2
+T152	Causality 2611 2649	These results indicate definitely that
+E42	Causality:T152 Effect:T151 Evidence:T147
+T153	Span 2711 2856	The reduction in virulence was mostly restored in a complemented strain upon reintroduction of functional copies of salK and salR into the mutant
+T154	Causality 2858 2873	suggesting that
+E43	Causality:T154 Effect:T155 Evidence:T153
+T155	Span 2874 2942	it did not result from polar effects on expression of flanking genes
+T162	Fact 4299 4452	In the 89K island, transcripts of only two genes designated 05SSU0935 and 05SSU0953 that encode a hypothetical protein and a DNA recombinase respectively
+T163	Fact 4454 4534	were decreased in DeltasalKR, their contributions to the attenuation are unknown
+T164	Causality 4454 4454	
+E46	Causality:T164 Cause:T162 Effect:T163
+T165	Span 4536 4597	It seems that SalK/SalR may control the full virulence of SS2
+T166	Span 4598 4660	by regulating distant gene expression at the genome-wide level
+T167	Causality 4598 4598	
+E47	Causality:T167 Evidence:T166 Effect:T165
+T168	Span 5111 5215	in our study, neither microarray findings nor further analysis of real-time quantitative RT-PCR revealed
+T169	Causality 5102 5109	However
+E48	Causality:T169 Evidence:T168 Effect:T170
+T170	Span 5216 5356	any differences in level of transcription of the known virulence factors (CPS, suilysin, MRP and EF) between the wild type and mutant strain
+T171	Span 5540 5590	Secondly, some of the TCSTSs of S. pneumoniae were
+T172	Causality 5591 5600	suggested
+E49	Causality:T172 Evidence:T171 Effect:T173
+T173	Span 5601 5691	to be involved in key processes of pathogenesis, such as autolysis and cell-cell signaling
+T174	Span 5698 5722	SalK/SalR might regulate
+T175	Span 5723 5773	similar processes in Chinese SS2 virulent isolates
+T176	Causality 5721 5721	
+E50	Causality:T176 Evidence:T174 Effect:T175
+T177	Span 5912 6051	as the absence of one or more of these proteins in isolates from infected animals cannot necessarily be associated with a lack of virulence
+T178	Span 5775 5910	More importantly, accumulated evidence suggests that some of the known virulent factors are not requisite for the full virulence of SS2
+T179	Causality 5814 5822	suggests
+E51	Causality:T179 Effect:T178 Evidence:T177
+T180	Fact 6219 6377	Prior to this study, SalK/SalR is only known to be associated with the production of a kind of lantibiotic peptide named salivaricin A (SalA) in S. salivarius
+T181	Fact 6384 6463	as yet, this TCSTS has not been linked to the regulation of bacterial virulence
+T183	Causality 6384 6384	
+E52	Causality:T183 Effect:T180 Evidence:T181
+T182	Span 6465 6545	Our data confirm, for the first time, that SalK/SalR is absolutely indispensable
+T184	Span 6546 6669	for the full virulence of Chinese highly invasive SS2 strains, although we fails to define its precise regulatory mechanism
+T185	Causality 6546 6546	
+E53	Causality:T185 Evidence:T182 Effect:T184
+T186	Causality 6725 6733	evidence
+E54	Causality:T186 Evidence:T187 Effect:T188
+T187	Span 6671 6724	Not only does this investigation provide experimental
+T188	Span 6734 6851	for the validity of the candidate 89K PAI, but it adds novel insights into the infectious disease pathogenesis of SS2
+T132	Span 659 861	eported a candidate PAI of approximately89 kb in the epidemic outbreak strains of SS2 infections in China, gave some genomic clues for elucidating molecular pathways by which SS2 behaved so aggressively
+E36	Causality:T135 Effect:T136 Evidence:T132
+T133	Span 3474 3504	the bacterial virulence of SS2
+T134	Span 3190 3420	Results of real-time quantitative RT-PCR also confirmed that, in the complemented strain CDeltasalKR, only partial genes identified as down-regulated in the mutant rebounded to comparative transcript levels of the wild-type strain
+T148	Causality 3422 3459	Those unrecovered genes were probably
+E41	Causality:T148 Effect:T133 Cause:T134
+#1	AnnotatorNotes E41	not sure
+#2	AnnotatorNotes E51	not sure
+#3	AnnotatorNotes E52	not sure
+#4	AnnotatorNotes E53	not sure
+#5	AnnotatorNotes E54	not sure
+#6	AnnotatorNotes E46	not sure
+#7	AnnotatorNotes E48	not sure
+#8	AnnotatorNotes E49	not sure
+#9	AnnotatorNotes E50	not sure
+#10	AnnotatorNotes E36	not sure
+#11	AnnotatorNotes E37	not sure

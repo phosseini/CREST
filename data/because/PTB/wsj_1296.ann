@@ -1,0 +1,106 @@
+T1	Consequence 274 280	hamper
+E1	Consequence:T1 Cause:T2 Effect:T3
+A1	Degree E1 Inhibit
+T2	Argument 211 267	The reluctance of some states to let Drexel off the hook
+T3	Argument 281 369	the firm's attempts to polish its image after its guilty plea to six felonies last month
+T4	Consequence 1364 1378	in the wake of
+E2	Consequence:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+A3	Temporal E2
+T5	Argument 1310 1363	Drexel has to settle with state securities regulators
+T6	Argument 1379 1529	its criminal guilty plea and a related civil settlement with the Securities and Exchange Commission that includes payment of $650 million in penalties
+T7	Consequence 1537 1546	stem from
+E3	Consequence:T7 Effect:T8 Cause:T9
+A4	Degree E3 Facilitate
+A5	Creation-termination E3
+T8	Argument 1531 1536	These
+T9	Argument 1547 1634	a two-year federal investigation of insider trading and securities fraud on Wall Street
+T10	Consequence 2099 2103;2123 2126	need for
+E4	Consequence:T10 Cause:T11 Effect:T12
+A6	Degree E4 Facilitate
+T11	Argument 2104 2122	brokerage licenses
+T12	Argument 2127 2175	non-retail activities such as investment banking
+T16	Consequence 2249 2256	because
+E6	Consequence:T16 Effect:T17 Cause:T18
+A8	Degree E6 Facilitate
+T17	Argument 2203 2248	a revoked brokerage license could be a burden
+T18	Argument 2257 2339	it must be disclosed in many of the transactions in which Drexel could be involved
+T22	Consequence 2905 2915	allowed to
+E8	Consequence:T22 Effect:T23
+A10	Obligation-permission E8
+A11	Degree E8 Facilitate
+T23	Argument 2888 2894;2916 2931	Drexel pay and move on
+T24	Consequence 2985 2989	when
+E9	Consequence:T24 Cause:T25 Effect:T26
+A12	Degree E9 Facilitate
+A13	Temporal E9
+T25	Argument 2990 3022	someone is convicted of a felony
+T26	Argument 2946 2984	you should (simply) revoke the license
+T30	Argument 3307 3360	his state hadn't received any complaints about Drexel
+T31	Consequence 3362 3364	so
+E11	Consequence:T31 Cause:T30 Effect:T32
+A16	Degree E11 Facilitate
+T32	Argument 3365 3399	it really couldn't press the issue
+T33	Motivation 3427 3434	reasons
+E12	Motivation:T33 Effect:T34
+A17	Degree E12 Facilitate
+T34	Argument 3442 3470	other states are holding out
+T35	Consequence 4305 4312	promote
+E13	Consequence:T35 Effect:T36 Cause:T37
+A18	Degree E13 Facilitate
+T36	Argument 4313 4356	ethical behavior in the securities industry
+T37	Argument 4260 4262	it
+T38	Argument 4184 4203	The investment bank
+T39	NonCausal 4443 4449	before
+E14	NonCausal:T39 Arg1:T40 Arg0:T41
+A19	Temporal E14
+T40	Argument 4450 4462	next Tuesday
+T41	Argument 4392 4442	a minimum of 35 states reach settlement agreements
+T43	Consequence 5808 5814	led to
+E15	Consequence:T43 Effect:T44 Cause:T45
+A20	Degree E15 Facilitate
+T44	Argument 5815 5844	the firm's legal difficulties
+T45	Argument 5803 5807	that
+T46	Argument 5756 5802	Drexel's highly profitable junk-bond operation
+R2	Coref Arg1:T45 Arg2:T46	
+T47	Motivation 5925 5936	reasons for
+E16	Motivation:T47 Effect:T48
+A21	Degree E16 Facilitate
+T48	Argument 5937 5949	not doing so
+T49	Consequence 5966 5970	made
+E17	Consequence:T49 Cause:T50 Effect:T51
+A22	Degree E17 Facilitate
+T50	Argument 5955 5961	Drexel
+T51	Argument 5971 5973;5974 5979;5980 6061	it clear it could mount a significant legal battle in each state if its license is revoked
+T52	NonCausal 6036 6038	if
+E18	NonCausal:T52 Arg0:T53 Arg1:T54
+A23	Hypothetical E18
+T53	Argument 6039 6061	its license is revoked
+T54	Argument 5980 6035	it could mount a significant legal battle in each state
+T55	Motivation 6230 6235	after
+E19	Motivation:T55 Effect:T56 Cause:T57
+A24	Degree E19 Facilitate
+A25	Temporal E19
+T56	Argument 6214 6229	E.F. Hutton did
+T57	Argument 6236 6302	its guilty plea to a massive check-kiting scheme several years ago
+T58	Purpose 6584 6586	so
+E20	Purpose:T58 Cause:T59 Effect:T60
+A26	Degree E20 Facilitate
+T59	Argument 6587 6611	they don't do this again
+T60	Argument 6562 6583	have somebody worried
+T62	Consequence 5155 5169	sufficient for
+E21	Consequence:T62 Effect:T63 Cause:T64
+A27	Degree E21 Facilitate
+A28	Extremity-sufficiency E21
+T63	Argument 5170 5180	settlement
+T64	Argument 5128 5140	the proposal
+T13	NonCausal 4269 4275	create
+E5	NonCausal:T13 Arg1:T14 Arg0:T37
+A7	Creation-termination E5
+T14	Argument 4276 4356	an independent foundation to promote ethical behavior in the securities industry
+R1	Coref Arg1:T37 Arg2:T38	
+T15	Argument 2343 2378	Securities regulators praise Drexel
+T19	Argument 2383 2507	its energetic effort, led by government-approved general counsel Saul S. Cohen, to settle its legal problems with the states
+T20	Motivation 2379 2382	for
+E7	Motivation:T20 Cause:T19 Effect:T15
+A9	Degree E7 Facilitate

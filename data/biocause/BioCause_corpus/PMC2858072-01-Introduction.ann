@@ -1,0 +1,67 @@
+T1	Organism 57 65	Brucella
+T2	Chemical 673 682	phosphate
+T3	Two-component-system 778 787	BvrR/BvrS
+T4	Protein 778 782	BvrR
+T5	Protein 783 787	BvrS
+T6	Organism 849 857	Brucella
+T7	Protein 867 871	BvrS
+T8	Chemical 1180 1183	ATP
+T9	Protein 1211 1215	BvrR
+T10	Two-component-system 1278 1287	OmpR/PhoB
+T11	Protein 1278 1282	OmpR
+T12	Protein 1283 1287	PhoB
+T13	Organism 1548 1556	Brucella
+T14	Two-component-system 1622 1631	BvrR/BvrS
+T15	Protein 1622 1626	BvrR
+T16	Protein 1627 1631	BvrS
+T17	Organism 1640 1657	BvrR/bvrS mutants
+T18	Two-component-system 1640 1649	BvrR/bvrS
+T19	Protein 1640 1644	BvrR
+T20	Protein 1645 1649	bvrS
+T21	Organism 1675 1679	mice
+T22	Two-component-system 1995 2004	BvrR/BvrS
+T23	Protein 1995 1999	BvrR
+T24	Protein 2000 2004	BvrS
+T25	Organism 2010 2028	B. abortus mutants
+T26	Chemical 2111 2122	polymyxin B
+T27	Chemical 2124 2132	melittin
+T28	Chemical 2136 2149	poly-L-lysine
+T29	Two-component-system 2333 2342	BvrR/BvrS
+T30	Protein 2333 2337	BvrR
+T31	Protein 2338 2342	BvrS
+T32	Protein 2421 2426	Omp22
+T33	Protein 2428 2433	Omp3b
+T34	Protein 2439 2445	Omp25a
+T35	Protein 2447 2452	Omp3a
+T36	Chemical 2505 2512	lipid A
+T37	Chemical 2542 2545	LPS
+T38	Two-component-system 2647 2656	BvrR/BvrS
+T39	Protein 2647 2651	BvrR
+T40	Protein 2652 2656	BvrS
+T41	Organism 2768 2776	Brucella
+T42	Chemical 2894 2900	carbon
+T43	Chemical 2905 2913	nitrogen
+*	Equiv T32 T33
+*	Equiv T34 T35
+T44	Regulation 1591 1601	implicated
+T45	Process 1605 1614	virulence
+T46	Process 1662 1671	avirulent
+T47	Regulation 2350 2359	regulates
+T48	Transcription 2360 2373	transcription
+E1	Regulation:T44 Theme:E2 Cause:T14
+M1	Speculation E1
+E2	Process:T45 Participant:T13
+E3	Process:T46 Participant:T17
+M2	Negation E3
+E4	Regulation:T47 Theme:E6 Cause:T29
+E5	Regulation:T47 Theme:E7 Cause:T29
+E6	Transcription:T48 Theme:T32
+E7	Transcription:T48 Theme:T34
+T49	Span 1640 1885	BvrR/bvrS mutants are avirulent in mice, have increased susceptibility to killing by nonimmune serum, show reduced invasiveness to epithelial cells and macrophages, and are incapable of inhibiting lysosome fusion and of intracellular replication
+T50	Causality 1891 1938	As demonstrated for other two-component systems
+E8	Causality:T50 Effect:T51 Evidence:T49
+T51	Span 1940 2004	multiple genes are expected to be under the control of BvrR/BvrS
+T52	Span 2010 2231	B. abortus mutants in this system were more susceptible to bactericidal polycationic substances like polymyxin B, melittin or poly-L-lysine, and displayed a more hydrophobic outer membrane surface than the parental strain
+T54	Span 2260 2295	an altered outer membrane structure
+T53	Causality 2237 2259	This evidence suggests
+E9	Causality:T53 Effect:T54 Evidence:T52

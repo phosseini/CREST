@@ -1,0 +1,16 @@
+Extracellular DNA induces expression of the PA3552-PA3559 CAP resistance operon in planktonic cultures 
+In P. aeruginosa, the PhoPQ and PmrAB-controlled response to magnesium limitation includes the induction of the PA3552 and its neighbouring genes.
+The genes PA3552-PA3559 are co-regulated under low Mg2+ conditions and are thought to be organized as an operon [45]-[47].
+These genes encode an LPS modification pathway required for the addition of aminoarabinose to lipid A, which reduces the OM permeability to CAPs, thus conferring resistance [48].
+To determine if extracellular DNA imposes Mg2+ limitation, we measured the gene expression of a chromosomally encoded transcriptional lux (bioluminescence) fusion to PA3553, as a measure of the CAP resistance operon expression in planktonic cultures.
+PA3553::lux expression was strongly induced (up to 10-fold) by sub-inhibitory concentrations of low molecular weight salmon sperm DNA (Fig 4A).
+Induction of the CAP resistance operon was dose-dependent with increasing DNA concentrations up to 0.5% (w/v) DNA, at which growth is inhibited (Fig 4A).
+Addition of excess Mg2+ (5 mM) to the growth medium completely repressed the expression of PA3553 in cultures supplemented with DNA, except at the highest DNA concentration tested (0.5% (w/v)) (Fig 4B).
+A similar induction profile of PA3553::lux was observed following exposure to high molecular weight P. aeruginosa genomic DNA (not shown) or P. aeruginosa genomic DNA that was mechanically sheared by sonication (Fig 4C).
+P. aeruginosa genomic DNA inhibited growth at similar concentrations as salmon sperm DNA.
+Thus, the ability of extracellular DNA to chelate magnesium is independent of origin and molecular weight, indicating that chelation is a general property of this negatively charged polymer.
+To ensure that induction of PA3553 expression was specific to the ability of DNA to chelate cations, DNAse treated DNA was assessed for its ability to induce PA3553 gene expression (Fig 4D).
+DNAse treated DNA failed to induce PA3553 gene expression.
+However the addition of DNAse buffer to cells in our buffer control experiment also abolished induction of PA3553.
+This is due to the addition of excess Mg2+ ions as part of the DNAse buffer, which is required for DNAse activity.
+Thus, it is impossible to determine conclusively if DNAse treatment of DNA abolished PA3553 gene expression.

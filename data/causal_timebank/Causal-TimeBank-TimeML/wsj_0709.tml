@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0709</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-27</TIMEX3></DCT>
+<TEXT>
+ Service Corp.
+ International <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="I_STATE">expects</EVENT> to <EVENT eid="e3" class="REPORTING">report</EVENT> net <EVENT eid="e4" class="STATE">income</EVENT> of 15 cents a share for <TIMEX3 tid="t5" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">the third quarter</TIMEX3>.
+ The company <EVENT eid="e6" class="REPORTING">said</EVENT> it <EVENT eid="e7" class="I_STATE">expects</EVENT> to <EVENT eid="e8" class="OCCURRENCE">release</EVENT> third-quarter results in <TIMEX3 tid="t9" type="DATE" value="1989-11" anchorTimeID="t0" functionInDocument="NONE">mid-November</TIMEX3>.
+ The funeral home and cemetery operator <EVENT eid="e10" class="OCCURRENCE">changed</EVENT> from a fiscal year to a calendar year in <TIMEX3 tid="t11" type="DATE" value="1988-12" anchorTimeID="t0" functionInDocument="NONE">December</TIMEX3>.
+ In <TIMEX3 tid="t12" type="DATE" value="1988-Q2" anchorTimeID="t13" functionInDocument="NONE">the comparable year-ago quarter</TIMEX3>, the <TIMEX3 tid="t13" type="DATE" value="1988-Q2" anchorTimeID="t12" functionInDocument="NONE">second quarter</TIMEX3> ended <TIMEX3 tid="t14" type="DATE" value="1988-10-31" anchorTimeID="t12" functionInDocument="NONE">Oct. 31</TIMEX3>, Service Corp. <EVENT eid="e15" class="OCCURRENCE">had</EVENT> a <EVENT eid="e16" class="OCCURRENCE">loss</EVENT> of about $ 12.5 million, or 26 cents a share, on revenue of $ 175.4 million.
+ Results for <TIMEX3 tid="t17" type="DATE" value="1988-Q2" anchorTimeID="t13" functionInDocument="NONE">that quarter</TIMEX3> included a $ 30 million, or 40 cents a share, <EVENT eid="e18" class="OCCURRENCE">write-down</EVENT> associated with the consolidation of a facility.
+</TEXT>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="DURING" eventInstanceID="ei4" relatedToTime="t5"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t9"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei8" relatedToTime="t9"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei10" relatedToTime="t11"/>
+<TLINK lid="l7" relType="IDENTITY" eventInstanceID="ei15" relatedToEventInstance="ei16"/>
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei16" relatedToTime="t0"/>
+<TLINK lid="l9" relType="DURING" eventInstanceID="ei16" relatedToTime="t12"/>
+<TLINK lid="l10" relType="DURING" eventInstanceID="ei16" relatedToTime="t13"/>
+<TLINK lid="l11" relType="ENDED_BY" eventInstanceID="ei16" relatedToTime="t14"/>
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei18" relatedToTime="t17"/>
+</TimeML>

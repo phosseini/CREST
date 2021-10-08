@@ -1,0 +1,36 @@
+T1	Organism 55 68	P. aeruginosa
+T2	Organism 239 260	Staphylococcus aureus
+T3	Organism 267 280	P. aeruginosa
+T4	Organism 288 307	Serratia marcescens
+T5	Organism 378 388	C. elegans
+T6	Organism 524 537	P. aeruginosa
+T7	Organism 646 658	E. coli OP50
+T8	Organism 1142 1149	E. coli
+T9	Organism 1291 1304	P. aeruginosa
+T10	Organism 1306 1310	PA14
+T11	Organism 1312 1316	PAO1
+T12	Organism 1321 1323	TB
+T13	Organism 1406 1419	P. aeruginosa
+T14	Organism 1512 1523	gacA mutant
+T15	Protein 1512 1516	gacA
+T16	Organism 1533 1537	PA14
+T17	Organism 1706 1716	C. elegans
+T18	Organism 1854 1858	PA14
+T19	Process 192 201	virulence
+T20	Process 465 475	attenuated
+T21	Process 836 845	virulence
+T22	Process 985 994	virulence
+T23	Negative_regulation 1436 1446	attenuated
+T24	Process 1447 1456	virulence
+T25	Process 1691 1700	virulence
+T26	Process 1717 1726	infection
+E1	Process:T19 Participant:T2
+E2	Process:T19 Participant:T3
+E3	Process:T19 Participant:T4
+E4	Process:T20 Participant:T6
+E5	Process:T21 
+E6	Process:T22 
+E7	Negative_regulation:T23 Theme:E8
+E8	Process:T24 
+E9	Process:T25 Participant:T14
+E10	Process:T26 Participant:T14

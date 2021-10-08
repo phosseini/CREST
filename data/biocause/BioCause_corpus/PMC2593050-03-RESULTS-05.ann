@@ -1,0 +1,41 @@
+T1	Organism 0 9	DeltavicK
+T2	Protein 5 9	vicK
+T3	Organism 42 46	Mice
+T4	Organism 82 89	S. equi
+T5	Organism 107 116	DeltavicK
+T6	Protein 112 116	vicK
+T7	Organism 152 159	S. equi
+T8	Organism 181 185	mice
+T9	Organism 218 227	DeltavicK
+T10	Protein 223 227	vicK
+T11	Organism 297 304	S. equi
+T12	Organism 379 383	mice
+T13	Organism 440 449	DeltavicK
+T14	Protein 445 449	vicK
+T15	Organism 485 492	S. equi
+T16	Process 10 19	Infection
+T17	Negative_regulation 28 38	Protection
+T18	Process 55 66	Reinfection
+T19	Process 117 126	infection
+T20	Process 160 169	infection
+T21	Process 228 237	infection
+T22	Process 242 252	reinfected
+T23	Process 329 338	infection
+T24	Process 397 408	reinfection
+T25	Process 450 459	infection
+T26	Process 493 502	infection
+E1	Process:T16 Participant:T1
+E2	Negative_regulation:T17 Theme:E3 Cause:E1
+E3	Process:T18 Participant:T4
+E4	Process:T19 Participant:T5
+E5	Process:T20 Participant:T7
+E6	Process:T21 Participant:T9
+E7	Process:T22 Participant:T11
+E8	Process:T23 
+E9	Process:T24 
+E10	Process:T25 Participant:T13
+E11	Process:T26 Participant:T15
+T27	Span 366 408	Six of the 7 mice survived the reinfection
+T28	Causality 420 435	suggesting that
+E12	Causality:T28 Effect:T29 Evidence:T27
+T29	Span 436 502	the DeltavicK infection induces immunity against S. equi infection

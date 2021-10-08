@@ -1,0 +1,198 @@
+T94	Process 385 394	infection
+T95	Positive_regulation 1406 1416	activation
+T96	Regulation 1522 1542	plays a crucial role
+T97	Gene_expression 1550 1560	expression
+T98	Binding 1639 1646	binding
+T99	Entity 1647 1655	upstream
+T100	Gene_expression 1683 1693	expression
+T101	Positive_regulation 1715 1724	induction
+T102	Gene_expression 1974 1984	expression
+T103	Negative_regulation 1988 2001	counteracting
+T104	Entity 2057 2065	promoter
+T105	Positive_regulation 2134 2144	activating
+T106	Positive_regulation 2235 2243	activate
+T107	Entity 2260 2268	promoter
+T108	Regulation 2298 2309	independent
+T109	Binding 2400 2407	binding
+T110	Entity 2408 2416	upstream
+T111	Positive_regulation 2457 2463	induce
+T112	Gene_expression 2468 2478	expression
+T113	Gene_expression 2594 2604	expression
+T114	Positive_regulation 2640 2648	increase
+T115	Gene_expression 2657 2667	expression
+T116	Binding 2737 2746	interacts
+T117	Negative_regulation 2783 2792	represses
+T118	Gene_expression 2798 2808	expression
+T119	Negative_regulation 2812 2822	inhibiting
+T120	Negative_regulation 3575 3586	attenuation
+T121	Process 3590 3599	virulence
+T122	Process 4029 4038	virulence
+T123	Positive_regulation 4147 4159	contribution
+T124	Process 4174 4183	virulence
+T125	Negative_regulation 4252 4262	repressing
+T126	Gene_expression 4268 4278	expression
+E1	Process:T94 Participant:T4
+E2	Positive_regulation:T95 Theme:T8
+E3	Positive_regulation:T95 Theme:T9
+E4	Positive_regulation:T95 Theme:T10
+E5	Positive_regulation:T95 Theme:T11
+E6	Regulation:T96 Theme:E8 Cause:T12
+E7	Regulation:T96 Theme:E9 Cause:T12
+E8	Gene_expression:T97 Theme:T13
+E9	Gene_expression:T97 Theme:T14
+E10	Binding:T98 Theme1:T12 Theme2:T15 Site2:T99
+E11	Binding:T98 Theme1:T12 Theme2:T16 Site2:T99
+E12	Gene_expression:T100 Theme:T17
+E13	Positive_regulation:T101 Theme:T18 Cause:E12
+E14	Positive_regulation:T101 Theme:T19 Cause:E12
+E15	Positive_regulation:T101 Theme:T22 Cause:E12
+E16	Gene_expression:T102 Theme:T28
+E17	Negative_regulation:T103 Theme:T29 Site:T104 Cause:T24
+E18	Negative_regulation:T103 Theme:T29 Site:T104 Cause:T25
+E19	Positive_regulation:T105 Theme:T31 Cause:T30
+E20	Positive_regulation:T106 Theme:T34 Site:T107 Cause:T32
+E21	Positive_regulation:T106 Theme:T34 Site:T107 Cause:T33
+E22	Regulation:T108 Theme:T34 Cause:T35
+M1	Negation E22
+E23	Binding:T109 Theme1:T39 Theme2:T36 Site1:T110
+E24	Binding:T109 Theme1:T39 Theme2:T37 Site1:T110
+E25	Binding:T109 Theme1:T39 Theme2:T38 Site1:T110
+E26	Positive_regulation:T111 Theme:E29 Cause:E23
+E27	Positive_regulation:T111 Theme:E29 Cause:E24
+E28	Positive_regulation:T111 Theme:E29 Cause:E25
+E29	Gene_expression:T112 Theme:T39
+E30	Gene_expression:T113 Theme:T42
+E31	Positive_regulation:T114 Theme:E32
+E32	Gene_expression:T115 Theme:T44
+E33	Binding:T116 Theme1:T45 Theme2:T46
+E34	Negative_regulation:T117 Theme:E35 Cause:T47
+E35	Gene_expression:T118 Theme:T48
+E36	Negative_regulation:T119 Theme:T49 Cause:T47
+E37	Negative_regulation:T120 Theme:E38
+E38	Process:T121 Participant:T78
+E39	Process:T122 Participant:T88
+E40	Positive_regulation:T123 Theme:T91
+M2	Speculation E40
+E41	Process:T124 Participant:T89
+E42	Negative_regulation:T125 Theme:E43 Cause:T92
+E43	Gene_expression:T126 Theme:T93
+T1	Organism 14 53	Salmonella enterica serovar Typhimurium
+T2	Organism 166 172	humans
+T3	Organism 225 229	mice
+T4	Organism 291 301	Salmonella
+T5	Organism 640 650	Salmonella
+T6	Chemical 1111 1117	oxygen
+T7	Chemical 1152 1156	Mg2+
+T8	Protein 1484 1488	HilA
+T9	Protein 1490 1494	HilC
+T10	Protein 1496 1500	HilD
+T11	Protein 1505 1509	InvF
+T12	Protein 1517 1521	HilA
+T13	Regulon-operon 1611 1614	prg
+T14	Regulon-operon 1619 1626	inv/spa
+T15	Protein 1659 1663	prgH
+T16	Protein 1668 1672	invF
+T17	Protein 1697 1701	invF
+T18	Regulon-operon 1777 1784	sic/sip
+T19	Two-component-system 1811 1820	sigD/sopB
+T20	Protein 1811 1815	sigD
+T21	Protein 1816 1820	sopB
+T22	Protein 1825 1829	sopE
+T23	Protein 1837 1841	SicA
+T24	Protein 1863 1867	HilC
+T25	Protein 1872 1876	HilD
+T26	Protein 1903 1907	AraC
+T27	Protein 1908 1912	XylS
+T28	Protein 1969 1973	hilA
+T29	Protein 2052 2056	hilA
+T30	Protein 2107 2111	HilD
+T31	Protein 2158 2162	hilA
+T32	Protein 2207 2211	HilC
+T33	Protein 2216 2220	HilD
+T34	Protein 2276 2280	invF
+T35	Protein 2313 2317	HilA
+T36	Protein 2338 2342	HilC
+T37	Protein 2347 2351	HilD
+T38	Protein 2353 2357	RtsA
+T39	Protein 2448 2452	hilA
+T40	Protein 2535 2539	HilE
+T41	Organism 2556 2566	Salmonella
+T42	Protein 2589 2593	hilA
+T43	Protein 2625 2629	hilE
+T44	Protein 2652 2656	hilA
+T45	Protein 2732 2736	HilE
+T46	Protein 2752 2756	HilD
+T47	Protein 2778 2782	HilE
+T48	Protein 2793 2797	hilA
+T49	Protein 2839 2843	HilD
+T50	Two-component-system 3143 3149	PhoP/Q
+T51	Protein 3143 3147	PhoP
+T52	Protein 3148 3149	Q
+T53	Two-component-system 3151 3156	PhoBR
+T54	Protein 3151 3155	PhoB
+T55	Protein 3155 3156	R
+T56	Two-component-system 3158 3167	OmpR/EnvZ
+T57	Protein 3158 3162	OmpR
+T58	Protein 3163 3167	EnvZ
+T59	Two-component-system 3172 3181	SirA/BarA
+T60	Protein 3172 3176	SirA
+T61	Protein 3177 3181	BarA
+T62	Regulon-operon 3214 3219	CsrAB
+T63	Protein 3214 3218	CsrA
+T64	Protein 3218 3219	B
+T65	Protein 3221 3228	RNase E
+T66	Protein 3230 3236	PNPase
+T67	Protein 3241 3244	Lon
+T68	Protein 3266 3268	HU
+T69	Protein 3270 3273	FIS
+T70	Protein 3275 3279	H-NS
+T71	Protein 3284 3287	Hha
+T72	Chemical 3311 3316	ppGpp
+T73	Chemical 3321 3325	NpnN
+T74	Protein 3359 3363	FliZ
+T75	Protein 3365 3369	FadD
+T76	Protein 3374 3378	CpxA
+T77	Chemical 3400 3419	phosphoenolpyruvate
+T78	Organism 3619 3629	Salmonella
+T79	Protein 3666 3669	pts
+T80	Protein 3671 3674	crr
+T81	Protein 3676 3679	cya
+T82	Protein 3683 3686	crp
+T83	Protein 3762 3768	IIAGlc
+T84	Protein 3781 3798	adenylate cyclase
+T85	Protein 3803 3830	cyclic AMP receptor protein
+T86	Protein 3854 3857	Mlc
+T87	Protein 4008 4011	Mlc
+T88	Organism 4042 4052	Salmonella
+T89	Organism 4078 4111	Salmonella Typhimurium mlc mutant
+T90	Protein 4101 4104	mlc
+T91	Protein 4163 4166	Mlc
+T92	Protein 4214 4217	Mlc
+T93	Protein 4263 4267	hilE
+T127	Fact 1517 1634	HilA plays a crucial role in the expression of genes that encode the SPI1-T3SS apparatus, the prg and inv/spa operons
+T128	Fact 1639 1672	binding upstream of prgH and invF
+T129	Causality 1636 1638	by
+E44	Causality:T129 Cause:T128 Effect:T127
+T130	Fact 2327 2396	Similar to HilC and HilD, RtsA activates the expression of SPI1 genes
+T131	Fact 2400 2478	binding upstream of the master regulatory gene, hilA, to induce its expression
+T132	Causality 2397 2399	by
+E45	Causality:T132 Effect:T130 Cause:T131
+T133	Causality 2630 2636	causes
+E46	Causality:T133 Evidence:T134 Effect:T135
+T134	Span 2606 2629	A null mutation in hilE
+T135	Span 2637 2680	an increase in hilA expression and invasion
+T136	Causality 2758 2777	which suggests that
+E47	Causality:T136 Effect:T138 Evidence:T137
+T137	Span 2682 2756	Using two-hybrid analysis, it has been shown that HilE interacts with HilD
+T138	Span 2778 2881	HilE represses hilA expression by inhibiting the activity of HilD through a protein-protein interaction
+T139	Span 3854 3963	Mlc is a global regulator of carbohydrate metabolism and controls several genes involved in sugar utilization
+T140	Causality 3973 3982	Therefore
+E48	Causality:T140 Evidence:T139 Effect:T141
+T141	Span 4008 4052	Mlc also affects the virulence of Salmonella
+T142	Fact 4214 4248	Mlc activates SPI1 gene expression
+T143	Fact 4249 4278	by repressing hilE expression
+T144	Causality 4249 4249	
+E49	Causality:T144 Effect:T142 Cause:T143
+#1	AnnotatorNotes E45	not sure
+#2	AnnotatorNotes E44	not sure
+#3	AnnotatorNotes E49	not sure

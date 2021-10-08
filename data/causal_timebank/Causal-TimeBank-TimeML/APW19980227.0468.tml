@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>APW19980227.0468</DOCID>
+<DCT><TIMEX3 tid="t0" type="TIME" value="1998-02-27T07:56:00" temporalFunction="false" functionInDocument="CREATION_TIME">1998-02-27T07:56:00</TIMEX3></DCT>
+<TEXT>
+ MOSCOW ( AP ) _ The mayor of Moscow has <EVENT eid="e1" class="OCCURRENCE">allocated</EVENT> funds to <EVENT eid="e2" class="I_ACTION">help</EVENT> <EVENT eid="e3" class="OCCURRENCE">build</EVENT> a museum in honor of Mikhail Kalashnikov, the Russian who <EVENT eid="e4" class="OCCURRENCE">gave</EVENT> his name to the world's most widely wielded weapon, <EVENT eid="e5" class="REPORTING">according</EVENT> to a news agency <EVENT eid="e6" class="REPORTING">report</EVENT> <TIMEX3 tid="t7" type="DATE" value="1998-02-27" anchorTimeID="t0" functionInDocument="NONE">Friday</TIMEX3>.
+ Kalashnikov <EVENT eid="e8" class="OCCURRENCE">designed</EVENT> the AK-47 automatic rifle, famed for its reliability and effectiveness.
+ Together with its derivatives, the Kalashnikov rifle has been <EVENT eid="e9" class="OCCURRENCE">used</EVENT> by the police and armies of 55 countries and an assortment of guerrillas, terrorists and just plain thugs around the globe.
+ Seventy-five million copies of the rifle have been <EVENT eid="e10" class="OCCURRENCE">built</EVENT> since it <EVENT eid="e11" class="ASPECTUAL">entered</EVENT> <EVENT eid="e12" class="STATE">production</EVENT> in <TIMEX3 tid="t13" type="DATE" value="1947-02" functionInDocument="NONE">February 1947</TIMEX3>, making it history's most widely <EVENT eid="e14" class="STATE">distributed</EVENT> weapon.
+ UR The ITAR - Tass, 4th graf pvs ( pvs / ji )
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei4" relatedToEventInstance="ei1"/>
+<TLINK lid="l2" relType="IDENTITY" eventInstanceID="ei5" relatedToEventInstance="ei6"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t7"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei8" relatedToEventInstance="ei9"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei8" relatedToTime="t13"/>
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei10" relatedToEventInstance="ei8"/>
+<TLINK lid="l7" relType="AFTER" eventInstanceID="ei10" relatedToEventInstance="ei11"/>
+<TLINK lid="l8" relType="BEGUN_BY" eventInstanceID="ei10" relatedToTime="t13"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t13"/>
+<TLINK lid="l11" relType="BEGUN_BY" eventInstanceID="ei12" relatedToEventInstance="ei11"/>
+<CLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei14"/>
+</TimeML>

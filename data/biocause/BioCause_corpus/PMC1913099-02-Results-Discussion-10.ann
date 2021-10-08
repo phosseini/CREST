@@ -1,0 +1,45 @@
+T1	Protein 23 30	spy0129
+T2	Organism 45 68	spy0129 deletion mutant
+T3	Protein 45 52	spy0129
+T4	Organism 79 84	SF370
+T5	Organism 86 103	SF370Deltaspy0129
+T6	Protein 96 103	spy0129
+T7	Regulon-operon 148 160	spy0127-0130
+T8	Protein 148 155	spy0127
+T9	Protein 156 160	0130
+T10	Protein 260 267	spy0129
+T11	Protein 404 411	spy0128
+T12	Protein 416 423	spy0130
+T13	Protein 501 508	sortase
+T14	Organism 653 672	SF370Deltaspy0129.2
+T15	Protein 663 670	spy0129
+T16	Protein 703 710	spy0129
+T17	Protein 824 831	spy0130
+T18	Organism 987 1013	SF370Deltaspy0129.2 mutant
+T19	Protein 997 1004	spy0129
+T20	Organism 1084 1089	SF370
+T21	Protein 1189 1196	spy0130
+T22	Protein 1283 1290	sortase
+T23	Protein 1413 1420	spy0129
+T24	Protein 1642 1649	spy0128
+T25	Protein 1656 1663	spy0130
+T26	Localization 445 453	localize
+T27	Entity 461 478	cell-wall surface
+T28	Gene_expression 790 800	expression
+T29	Negative_regulation 888 898	eliminated
+T30	Negative_regulation 1264 1275	elimination
+E1	Localization:T26 Theme:T11 AtLoc:T27
+M1	Negation E1
+E2	Localization:T26 Theme:T12 AtLoc:T27
+M2	Negation E2
+E3	Gene_expression:T28 Theme:T17
+E4	Negative_regulation:T29 Theme:E3
+E5	Negative_regulation:T30 Theme:T22
+T31	Span 522 744	Allelic replacement created two putative deletion mutants; however, RT-PCR analysis (Figure 4A) revealed that only one such clone (SF370Deltaspy0129.2) was a true knock-out for the spy0129 gene and useful for further study
+T32	Span 746 913	Because the gene cluster is also an operon, expression of the downstream gene spy0130, encoding the protein F homolog/pilus protein, was also eliminated in this mutant
+T33	Span 927 1149	In vitro pharyngeal cell adherence assays revealed that the SF370Deltaspy0129.2 mutant was approximately 66% less adherent than the parental control strain, SF370 (Figure 4B; p = 0.03 as determined by the Student's t-test)
+T34	Causality 1151 1177	These results suggest that
+E6	Causality:T34 Effect:T35 Evidence:T33
+T35	Span 1178 1399	either the spy0130 gene product is involved directly in adherence, or that due to the elimination of the sortase, the pili, which may function in their entirety as adhesins, were not assembled on the surface of the mutant
+E7	Causality:T34 Effect:T35 Evidence:T32
+E8	Causality:T34 Effect:T35 Evidence:T31

@@ -1,0 +1,16 @@
+INTRODUCTION 
+Gram-positive bacterium Streptococcus equi subspeices equi (S. equi) causes equine strangles, a highly contagious purulent lymphadenitis and one of the most common infectious diseases in horses [1,2].
+The infection initially causes nasal discharge and fever and, then, leads to abscess formation in local lymph nodes, causing enormous pain and respiratory difficulty.
+There is massive infiltration of polymorphonuclear leukocytes (PMNs) to the infection site.
+However, S. equi effectively evades the horse innate immunity by being resistant to phagocytosis by PMNs.
+Horses recovered from strangles acquire immunity against S. equi reinfection [3].
+The immunity is primarily mediated by protective antibodies [4], which opsonize and thus enhance phagocytosis of S. equi by horse PMNs.
+To survive in hosts, bacterial pathogens have evolved multiple mechanisms to evade host defense.
+For examples, both S. equi and group A Streptococcus (GAS) produce the hyaluronic acid capsule and surface protein M protein to contribute to resistance to phagocytosis by PMNs.
+We found that GAS produces a secreted Mac protein (also known as IdeE), which inhibits opsonophagocytosis of GAS by human PMNs [5].
+This protein can cleave the heavy chain of human immunoglobulin G (IgG) using Cys94, His262 and Asp284 as its catalytic triad [6-8].
+There are two kinds of Mac produced by GAS isolates [7], which use different mechanisms to block the interaction between IgG and Fc receptor on the surface of PMNs.
+The type-1 Mac, such as M1 Mac produced by serotype M1 GAS strains, has high enzymatic activity and low affinity to Fc receptor on the surface of PMNs, while the type-2 Mac can bind to the Fc receptor and has lower enzymatic activity [9].
+S. equi has a homologue of GAS M1 Mac (designated SeMac).
+In this study, SeMac was prepared and characterized.
+The results indicate that SeMac is a cysteine endopeptidase but does not inhibit opsonophagocytosis of S. equi by horse PMNs, suggesting that SeMac has function other than evading horse acquired immunity against S. equi infection.

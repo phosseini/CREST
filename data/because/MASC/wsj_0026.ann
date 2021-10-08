@@ -1,0 +1,12 @@
+T1	Motivation 241 255	in response to
+E1	Motivation:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 225 240	The action came
+T3	Argument 256 380	a petition filed by Timex Inc. for changes in the U.S. Generalized System of Preferences for imports from developing nations
+T7	Motivation 711 721	because of
+E3	Motivation:T7 Effect:T8 Cause:T9
+A3	Degree E3 Facilitate
+T8	Argument 590 709	Mr. Bush decided to grant duty-free status for 18 categories, but turned down such treatment for other types of watches
+T9	Argument 722 817	the potential for material injury to watch producers located in the U.S. and the Virgin Islands
+T4	Note 291 298	changes
+#1	AnnotatorNotes T4	Non-projective; subject of the petition

@@ -1,0 +1,48 @@
+T1	Two-component-system 12 17	graRS
+T2	Protein 12 16	graR
+T3	Protein 16 17	S
+T4	Organism 53 58	mouse
+T5	Organism 131 143	graRS mutant
+T6	Two-component-system 131 136	graRS
+T7	Protein 131 135	graR
+T8	Protein 135 136	S
+T9	Organism 301 306	mouse
+T10	Organism 341 352	BALB/c mice
+T11	Organism 393 402	S. aureus
+T12	Organism 409 421	graRS mutant
+T13	Two-component-system 409 414	graRS
+T14	Protein 409 413	graR
+T15	Protein 413 414	S
+T16	Organism 594 606	graRS mutant
+T17	Two-component-system 594 599	graRS
+T18	Protein 594 598	graR
+T19	Protein 598 599	S
+T20	Positive_regulation 18 23	leads
+T21	Negative_regulation 27 37	attenuated
+T22	Process 38 47	virulence
+T23	Process 59 68	infection
+T24	Negative_regulation 105 112	reduced
+T25	Process 113 123	resistance
+T26	Process 224 234	infections
+T27	Process 260 269	virulence
+T28	Process 379 387	infected
+T29	Process 443 452	infection
+T30	Process 576 584	infected
+T31	Process 618 626	infected
+E1	Positive_regulation:T20 Theme:E2
+E2	Negative_regulation:T21 Theme:E3
+E3	Process:T22 
+E4	Process:T23 
+E5	Negative_regulation:T24 Theme:E6
+E6	Process:T25 Participant:T5
+E7	Process:T26 
+E8	Process:T27 
+E9	Process:T28 Participant:T11
+E10	Process:T28 Participant:T12
+E11	Process:T29 
+E12	Process:T30 Participant:T16
+E13	Process:T31 
+T32	Span 492 647	Significantly less bacteria were detected in the kidneys of animals, which had been infected with the graRS mutant than those infected with the WT bacteria
+T33	Causality 658 693	This finding is in coincidence with
+E14	Causality:T33 Effect:T34 Evidence:T32
+T34	Span 694 838	the increased susceptibility to clearance by CAMPs and neutrophils, corroborating the central importance of these host factors in innate defense

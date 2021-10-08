@@ -1,0 +1,165 @@
+*	Equiv T13 T12
+*	Equiv T19 T18
+*	Equiv T21 T20
+*	Equiv T46 T45
+T95	Positive_regulation 731 738	induced
+T96	Positive_regulation 985 996	upregulated
+T97	Process 2131 2140	infection
+T98	Positive_regulation 2815 2827	Upregulation
+T99	Localization 2884 2890	uptake
+T100	Localization 3058 3067	secretion
+T101	Localization 3079 3085	uptake
+T102	Localization 3185 3191	uptake
+T103	Localization 3316 3327	Acquisition
+T104	Localization 3797 3803	uptake
+E1	Positive_regulation:T95 Theme:T9
+E2	Positive_regulation:T95 Theme:T10
+E3	Positive_regulation:T96 Theme:T20
+E4	Positive_regulation:T96 Theme:T22
+E5	Positive_regulation:T96 Theme:T23
+E6	Positive_regulation:T96 Theme:T24
+E7	Positive_regulation:T96 Theme:T25
+E8	Positive_regulation:T96 Theme:T26
+E9	Positive_regulation:T96 Theme:T27
+E10	Positive_regulation:T96 Theme:T28
+E11	Process:T97 
+E12	Positive_regulation:T98 Theme:T60
+E13	Localization:T99 Theme:T63
+E14	Localization:T100 Theme:T67
+E15	Localization:T101 Theme:T68
+E16	Localization:T102 Theme:T69
+E17	Localization:T103 Theme:T76
+E18	Localization:T104 Theme:T83
+E19	Localization:T104 Theme:T84
+T1	Organism 0 9	Y. pestis
+T2	Organism 38 42	flea
+T3	Organism 96 100	flea
+T4	Organism 421 425	flea
+T5	Chemical 507 510	TCA
+T6	Chemical 531 540	succinate
+T7	Chemical 542 549	formate
+T8	Chemical 555 574	alpha-ketoglutarate
+T9	Protein 580 584	gabD
+T10	Protein 589 593	gabT
+T11	Chemical 630 639	succinate
+T12	Chemical 645 664	gamma-aminobutyrate
+T13	Chemical 666 670	GABA
+T14	Organism 746 750	flea
+T15	Protein 756 760	gabD
+T16	Chemical 787 796	succinate
+T17	Chemical 807 811	GABA
+T18	Chemical 816 836	hydroxyphenylacetate
+T19	Chemical 838 841	HPA
+T20	Protein 900 913	HPA transport
+T21	Protein 915 919	hpaX
+T22	Protein 937 941	hpaC
+T23	Protein 941 942	B
+T24	Protein 942 943	I
+T25	Protein 943 944	F
+T26	Protein 944 945	H
+T27	Protein 945 946	D
+T28	Protein 946 947	E
+T29	Organism 958 967	Y. pestis
+T30	Organism 1004 1008	flea
+T31	Organism 1036 1045	Y. pestis
+T32	Chemical 1098 1102	GABA
+T33	Chemical 1106 1109	HPA
+T34	Organism 1154 1158	flea
+T35	Protein 1195 1199	gabD
+T36	Protein 1204 1208	gabT
+T37	Chemical 1272 1276	GABA
+T38	Organism 1416 1420	flea
+T39	Chemical 1487 1496	glutamate
+T40	Chemical 1501 1505	GABA
+T41	Organism 1943 1952	Y. pestis
+T42	Organism 1971 1975	flea
+T43	Chemical 2069 2076	hexoses
+T44	Organism 2148 2152	flea
+T45	Protein 2182 2211	chitobiose phosphotransferase
+T46	Protein 2213 2216	PTS
+T47	Two-component-system 2250 2255	chbBC
+T48	Protein 2250 2254	chbB
+T49	Protein 2254 2255	C
+T50	Protein 2257 2261	chbF
+T51	Protein 2309 2313	frwB
+T52	Protein 2313 2314	C
+T53	Protein 2314 2315	D
+T54	Organism 2355 2359	flea
+T55	Protein 2371 2381	Chitobiose
+T56	Organism 2406 2410	flea
+T57	Chemical 2499 2506	glucose
+T58	Organism 2672 2676	flea
+T59	Chemical 2697 2704	hexoses
+T60	Protein 2835 2839	actP
+T61	Protein 2844 2847	acs
+T62	Organism 2861 2865	flea
+T63	Chemical 2894 2901	acetate
+T64	Chemical 2924 2934	acetyl-CoA
+T65	Chemical 2968 2978	acetyl-CoA
+T66	Chemical 3023 3026	TCA
+T67	Chemical 3050 3057	acetate
+T68	Chemical 3071 3078	acetate
+T69	Chemical 3178 3184	hexose
+T70	Organism 3201 3210	Y. pestis
+T71	Protein 3229 3238	permeases
+T72	Chemical 3247 3262	pentoses ribose
+T73	Chemical 3264 3270	xylose
+T74	Chemical 3276 3285	arabinose
+T75	Organism 3306 3310	flea
+T76	Chemical 3331 3339	pentoses
+T77	Organism 3386 3395	Y. pestis
+T78	Protein 3413 3446	glucose 6-phosphate dehydrogenase
+T79	Chemical 3479 3496	pentose phosphate
+T80	Organism 3524 3528	flea
+T81	Organism 3577 3586	Y. pestis
+T82	Organism 3713 3717	flea
+T83	Chemical 3763 3771	glycerol
+T84	Chemical 3776 3796	glycerol-3-phosphate
+T85	Organism 3854 3858	flea
+T86	Chemical 3897 3910	glycerolipids
+T87	Organism 3926 3935	Y. pestis
+T88	Organism 3949 3958	Y. pestis
+T89	Chemical 4035 4041	carbon
+T90	Chemical 4043 4051	nitrogen
+T91	Organism 4079 4083	flea
+T92	Chemical 4096 4102	carbon
+T93	Chemical 4135 4138	TCA
+T94	Organism 4194 4198	flea
+T105	Span 1033 1109	As Y. pestis does not have homologs of genes required to produce GABA or HPA
+T106	Causality 1111 1111	
+E20	Causality:T106 Effect:T107 Evidence:T105
+T107	Span 1111 1174	these metabolites may be taken up from the flea digestive tract
+T108	Span 1467 1646	Interestingly, both glutamate and GABA are important neurotransmitters at the neuromuscular junction of insects, and the concentration of glutamate is very low in insect hemolymph
+T109	Causality 1648 1663	suggesting that
+E21	Causality:T109 Effect:T110 Evidence:T108
+T110	Span 1664 1714	it is converted to glutamine before it is absorbed
+T111	Span 1721 1925	Insect midgut epithelium is typified by multiple amino acid transporters with specific substrates and rapid absorption kinetics, but different amino acids enter the hemocoel at different rates and amounts
+T112	Causality 1937 1941	Thus
+E22	Causality:T112 Effect:T113 Evidence:T111
+T113	Span 1943 2035	Y. pestis metabolism in the flea may reflect the available pool of amino acids in the midgut
+T114	Span 2372 2414	hitobiose could be present in the flea gut
+T115	Causality 2415 2421	due to
+E23	Causality:T115 Evidence:T116 Effect:T114
+T116	Span 2422 2479	turnover of the chitin layer on the proventricular spines
+T117	Span 2624 2677	Glycolytic pathways were not upregulated in the flea;
+T118	Causality 2687 2687	
+E24	Causality:T118 Evidence:T119 Effect:T117
+T119	Span 2687 2813	available hexoses and the gluconeogenesis pathway may be used to synthesize polysaccharide components required for cell growth
+T120	Span 2815 2934	Upregulation of the actP and acs genes in the flea, which direct the uptake of acetate and its conversion to acetyl-CoA
+T121	Causality 2936 2954	also suggests that
+E25	Causality:T121 Effect:T122 Evidence:T120
+T122	Span 2955 3032	insufficient acetyl-CoA is produced by glycolysis to potentiate the TCA cycle
+T123	Span 3316 3377	Acquisition of pentoses from the environment may be important
+T124	Causality 3378 3385	because
+E26	Causality:T124 Evidence:T125 Effect:T123
+T125	Span 3386 3504	Y. pestis does not possess glucose 6-phosphate dehydrogenase activity, the first step of the pentose phosphate pathway
+T126	Span 3511 3575	Although the flea gut contains lipid derived from the blood meal
+T127	Span 3577 3637	Y. pestis does not appear to use it as a major energy source
+T128	Causality 3577 3577	
+E27	Causality:T128 Effect:T127 Evidence:T126
+T129	Span 3753 3836	genes for glycerol and glycerol-3-phosphate uptake and utilization were upregulated
+T130	Causality 3838 3853	suggesting that
+E28	Causality:T130 Effect:T131 Evidence:T129
+T131	Span 3854 3935	flea digestion products derived from blood glycerolipids may be used by Y. pestis
+#1	AnnotatorNotes E20	not sure
+#2	AnnotatorNotes E27	not sure

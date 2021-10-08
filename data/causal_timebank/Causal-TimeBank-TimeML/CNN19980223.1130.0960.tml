@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>CNN19980223.1130.0960</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-02-23" temporalFunction="false" functionInDocument="CREATION_TIME">1998-02-23</TIMEX3></DCT>
+<TEXT>
+ Despite the recent possibility of military <EVENT eid="e1" class="OCCURRENCE">conflict</EVENT> with Iraq, oil prices have been <EVENT eid="e2" class="OCCURRENCE">falling</EVENT>, that's <C-SIGNAL cid="c3">because of</C-SIGNAL> a worldwide <EVENT eid="e4" class="OCCURRENCE">glut</EVENT> of oil.
+ <TIMEX3 tid="t5" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">Now</TIMEX3> with a diplomatic <EVENT eid="e6" class="OCCURRENCE">solution</EVENT> to the <EVENT eid="e7" class="OCCURRENCE">crisis</EVENT> seemingly at hand, get <EVENT eid="e8" class="I_ACTION">set</EVENT> for oil prices from the Brent north sea variety to light swede crude to <EVENT eid="e9" class="OCCURRENCE">fall</EVENT> further.
+ Oil prices have <EVENT eid="e10" class="OCCURRENCE">come</EVENT> down from <TIMEX3 tid="t11" type="DATE" value="1997-10" anchorTimeID="t0" functionInDocument="NONE">the middle of October</TIMEX3> from a twenty-two dollar barrel level down to the fourteen dollars we 're <EVENT eid="e12" class="PERCEPTION">seeing</EVENT> <TIMEX3 tid="t13" type="DATE" value="1998-02-23" anchorTimeID="t0" functionInDocument="NONE">today</TIMEX3>.
+ That's <EVENT eid="e14" class="OCCURRENCE">built</EVENT> up a heck of a momentum and that momentum will <EVENT eid="e15" class="I_ACTION">look</EVENT> to <EVENT eid="e16" class="OCCURRENCE">increase</EVENT>.
+ Ah next up is that thirteen dollar a barrel level we <EVENT eid="e17" class="PERCEPTION">saw</EVENT> in <TIMEX3 tid="t18" type="DATE" value="1994-WI" functionInDocument="NONE">the winter of nineteen ninety-four</TIMEX3>.
+ Weakened oil prices have already <EVENT eid="e19" class="I_ACTION">made</EVENT> life easier for motorists at the gas pump.
+ Gas prices <EVENT eid="e20" class="OCCURRENCE">fell</EVENT> nearly two cents a gallon over <TIMEX3 tid="t21" type="DURATION" value="P2W" functionInDocument="NONE">the last two weeks</TIMEX3>.
+ That <EVENT eid="e22" class="REPORTING">according</EVENT> to the Lundberg survey of ten thousand gas stations nationwide.
+</TEXT>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<TLINK lid="l1" relType="IAFTER" timeID="t0" relatedToTime="t21"/>
+<TLINK lid="l2" relType="DURING" eventInstanceID="ei2" relatedToTime="t0"/>
+<TLINK lid="l3" relType="DURING" eventInstanceID="ei4" relatedToTime="t0"/>
+<TLINK lid="l5" relType="IDENTITY" eventInstanceID="ei7" relatedToEventInstance="ei1"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei10" relatedToTime="t0"/>
+<TLINK lid="l7" relType="DURING" eventInstanceID="ei12" relatedToTime="t13"/>
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei14" relatedToTime="t0"/>
+<TLINK lid="l9" relType="AFTER" eventInstanceID="ei15" relatedToTime="t0"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei17" relatedToTime="t18"/>
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei20" relatedToTime="t21"/>
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToTime="t0"/>
+<CLINK lid="l4" eventInstanceID="ei4" relatedToEventInstance="ei2"/>
+</TimeML>

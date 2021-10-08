@@ -1,0 +1,213 @@
+141 "You have been appointed as a <e1>reviewer</e1> for a <e2>thesis</e2> towards a Technical Licentiate degree at the Department of Materials Science and Engineering."
+WordNet(e1) = "reviewer%1:18:01::", WordNet(e2) = "thesis%1:10:01::", Theme-Tool(e2, e1) = "?", Query = "a * for a"
+
+142 "If the <e1>declarator</e1> is for an instance <e2>variable</e2> (that is, a field that is not static), then the variable initializer is evaluated."
+WordNet(e1) = "?", WordNet(e2) = "variable%1:10:00::", Theme-Tool(e2, e1) = "?", Query = "the * is for"
+
+143 "They could get the <e1>addresses</e1> for the Web <e2>sites</e2> of the items, for another look."
+WordNet(e1) = "address%1:10:04::", WordNet(e2) = "site%1:10:00::", Theme-Tool(e2, e1) = "?", Query = "the * for the"
+
+144 "The <e1>election</e1> for the <e2>board</e2> of trustees of the Wikimedia Foundation has closed."
+WordNet(e1) = "election%1:04:01::", WordNet(e2) = "board%1:14:00::", Theme-Tool(e2, e1) = "?", Query = "the * for the"
+
+145 "The <e1>empathy</e1> <e2>quotient</e2> is intended to measure how easily you pick up on other people's feelings and also how strongly you are affected by other people's feelings."
+WordNet(e1) = "empathy%1:12:00::", WordNet(e2) = "quotient%1:23:00::", Theme-Tool(e1, e2) = "?", Query = "the * * is"
+
+146 "We are on the <e1>lookout</e1> for a free or cheap English <e2>bulldog</e2>."
+WordNet(e1) = "lookout%1:04:00::", WordNet(e2) = "bulldog%1:05:00::", Theme-Tool(e2, e1) = "?", Query = "the * for a"
+
+147 "A <e1>bath towel</e1> is used for drying one's <e2>body</e2> after bathing or showering."
+WordNet(e1) = "bath_towel%1:06:00::", WordNet(e2) = "body%1:08:00::", Theme-Tool(e2, e1) = "?", Query = "is used for"
+
+148 "An important <e1>aspect</e1> of preparing your paper for publication by ACM Press is to provide the proper indexing and retrieval <e2>information</e2> from the ACM Computing Classification System."
+WordNet(e1) = "aspect%1:09:00::", WordNet(e2) = "information%1:14:00::", Theme-Tool(e2, e1) = "?", Query = "* is to *"
+
+149 "The section below illustrates the period of ineligibility for Federal Student Aid funds, depending on whether the <e1>conviction</e1> was for <e2>sale</e2> or possession."
+WordNet(e1) = "conviction%1:04:00::", WordNet(e2) = "sale%1:04:00::", Theme-Tool(e2, e1) = "?", Query = "* was for *"
+
+150 "The <e1>objective</e1> of this action is to support research <e2>infrastructures</e2>."
+WordNet(e1) = "objective%1:09:00::", WordNet(e2) = "infrastructure%1:06:01::", Theme-Tool(e2, e1) = "?", Query = "* is to *"
+
+151 "The standard university assessment <e1>scale</e1> is used for all <e2>assessments</e2>."
+WordNet(e1) = "scale%1:24:03::", WordNet(e2) = "assessment%1:09:00::", Theme-Tool(e2, e1) = "?", Query = "is used for"
+
+152 "The <e1>warrant</e1> was for simple <e2>assault</e2>."
+WordNet(e1) = "warrant%1:10:00::", WordNet(e2) = "assault%1:04:01::", Theme-Tool(e2, e1) = "?", Query = "* was for *"
+
+153 "An essential <e1>aim</e1> of computing professionals is to minimize negative <e2>consequences</e2>."
+WordNet(e1) = "aim%1:09:00::", WordNet(e2) = "consequence%1:19:00::", Theme-Tool(e2, e1) = "?", Query = "* is to *"
+
+154 "The <e1>aim</e1> was for <e2>completion</e2> so that they would be available to study the Sun during the peak of the solar cycle, which was expected in the year 2000."
+WordNet(e1) = "aim%1:09:00::", WordNet(e2) = "completion%1:04:00::", Theme-Tool(e2, e1) = "?", Query = "* was for *"
+
+155 "The SalesVantage <e1>directory</e1> is for advertising, marketing & sales management <e2>services</e2> in your area."
+WordNet(e1) = "directory%1:10:00::", WordNet(e2) = "service%1:04:08::", Theme-Tool(e2, e1) = "?", Query = "the * is for"
+
+156 "This can be a <e1>model</e1> for the health care <e2>industry</e2> nationwide."
+WordNet(e1) = "model%1:09:01::", WordNet(e2) = "industry%1:14:00::", Theme-Tool(e2, e1) = "?", Query = "a * for the"
+
+157 "Esther, a <e1>programmer</e1> for a new social networking <e2>site</e2> based on FOAF, has written an RDF crawler."
+WordNet(e1) = "programmer%1:18:00::", WordNet(e2) = "site%1:10:00::", Theme-Tool(e2, e1) = "?", Query = "a * for a"
+
+158 "As of Flash8, the Flash <e1>video</e1> <e2>encoder</e2> is also standalone."
+WordNet(e1) = "video%1:10:02::", WordNet(e2) = "?", Theme-Tool(e1, e2) = "?", Query = "the * * is"
+
+159 "His <e1>admonition</e1> was to never question the <e2>motive</e2> of an intellectual."
+WordNet(e1) = "admonition%1:10:01::", WordNet(e2) = "motive%1:03:00::", Theme-Tool(e2, e1) = "?", Query = "* was to *"
+
+160 "First, a general introduction sets the <e1>context</e1> for the <e2>project</e2>."
+WordNet(e1) = "context%1:26:00::", WordNet(e2) = "project%1:04:00::", Theme-Tool(e2, e1) = "?", Query = "the * for the"
+
+161 "If the window is not repaired quickly, the <e1>tendency</e1> is for vandals to break a few more <e2>windows</e2>, over time."
+WordNet(e1) = "tendency%1:09:00::", WordNet(e2) = "window%1:06:04::", Theme-Tool(e2, e1) = "?", Query = "the * is for"
+
+162 "Under the Convention, it is also bribery whether money or some other type of advantage is offered, promised or given; whether the <e1>bribe</e1> was for the benefit of the foreign <e2>official</e2> or a third party."
+WordNet(e1) = "bribe%1:21:00::", WordNet(e2) = "official%1:18:01::", Theme-Tool(e2, e1) = "?", Query = "* was for *"
+
+163 "BIO already has a foundation upon which to build an <e1>infrastructure</e1> for the biological <e2>sciences</e2>."
+WordNet(e1) = "infrastructure%1:06:01::", WordNet(e2) = "science%1:09:00::", Theme-Tool(e2, e1) = "?", Query = "a * for the"
+
+164 "The <e1>termination</e1> was for <e2>reasons</e2> beyond his control."
+WordNet(e1) = "termination%1:04:00::", WordNet(e2) = "reason%1:10:00::", Theme-Tool(e2, e1) = "?", Query = "* was for *"
+
+165 "He presented a <e1>framework</e1> for measuring the social <e2>impact</e2> of Canadian documentaries."
+WordNet(e1) = "framework%1:06:00::", WordNet(e2) = "impact%1:19:00::", Theme-Tool(e2, e1) = "?", Query = "a * for * the"
+
+166 "Huffman coding is a <e1>method</e1> for the <e2>construction</e2> of minimum-redundancy codes."
+WordNet(e1) = "method%1:09:00::", WordNet(e2) = "construction%1:04:00::", Theme-Tool(e2, e1) = "?", Query = "a * for the"
+
+167 "We consider muon-spin rotation as a <e1>tool</e1> for investigating the <e2>diffusion</e2> of positive muons in type-II superconductors."
+WordNet(e1) = "tool%1:04:00::", WordNet(e2) = "diffusion%1:22:00::", Theme-Tool(e2, e1) = "?", Query = "a * for * the"
+
+168 "Eliminating those clouds is critical to the <e1>prospects</e1> for the machine's <e2>success</e2>."
+WordNet(e1) = "prospect%1:26:00::", WordNet(e2) = "success%1:11:00::", Theme-Tool(e2, e1) = "?", Query = "the * for the"
+
+169 "He needs a <e1>recipe</e1> for a <e2>milkshake</e2>."
+WordNet(e1) = "recipe%1:10:00::", WordNet(e2) = "milkshake%1:13:00::", Theme-Tool(e2, e1) = "?", Query = "a * for a"
+
+170 "The <e1>software</e1> is used for managing <e2>websites</e2>."
+WordNet(e1) = "software%1:10:00::", WordNet(e2) = "website%1:10:00::", Theme-Tool(e2, e1) = "?", Query = "is used for"
+
+171 "Of course, KATU also failed to mention that the <e1>petition</e1> was for <e2>artists</e2> and writers and ignored the presence of Ursula K. Le Guin entirely."
+WordNet(e1) = "petition%1:10:00::", WordNet(e2) = "artist%1:18:00::", Theme-Tool(e2, e1) = "?", Query = "* was for *"
+
+172 "The only <e1>charge</e1> to the subscriber is for programming <e2>selections</e2>."
+WordNet(e1) = "charge%1:21:02::", WordNet(e2) = "selection%1:09:00::", Theme-Tool(e2, e1) = "?", Query = "the * is for"
+
+173 "Note that the <e1>user</e1> <e2>interface</e2> is quite different at LANL and NCSTRL."
+WordNet(e1) = "user%1:18:00::", WordNet(e2) = "interface%1:10:00::", Theme-Tool(e1, e2) = "?", Query = "the * * is"
+
+174 "These are the <e1>requirements</e1> for obtaining a <e2>deferral</e2> or exception to performance or repayment under an agreement."
+WordNet(e1) = "requirement%1:09:01::", WordNet(e2) = "deferral%1:04:01::", Theme-Tool(e2, e1) = "?", Query = "the * for * a"
+
+175 "These recommendations will serve as the <e1>basis</e1> for a <e2>process</e2> of engagement with other countries."
+WordNet(e1) = "basis%1:09:00::", WordNet(e2) = "process%1:04:00::", Theme-Tool(e2, e1) = "?", Query = "the * for a"
+
+176 "He had a <e1>proposal</e1> for solving the caller ID <e2>problem</e2>."
+WordNet(e1) = "proposal%1:10:00::", WordNet(e2) = "problem%1:26:00::", Theme-Tool(e2, e1) = "?", Query = "a * for * the"
+
+177 "Rwandatel had no customer-service department and 12 employees whose sole <e1>job</e1> was to play on the company soccer <e2>team</e2>."
+WordNet(e1) = "job%1:04:00::", WordNet(e2) = "team%1:14:00::", Theme-Tool(e2, e1) = "?", Query = "* was to *"
+
+178 "He talked about a <e1>method</e1> for the <e2>transmission</e2> of IPv6 packets over ethernet networks."
+WordNet(e1) = "method%1:09:00::", WordNet(e2) = "transmission%1:10:00::", Theme-Tool(e2, e1) = "?", Query = "a * for the"
+
+179 "The <e1>process</e1> for submitting a feature <e2>request</e2> is very similar to bug requests."
+WordNet(e1) = "process%1:04:00::", WordNet(e2) = "request%1:10:01::", Theme-Tool(e2, e1) = "?", Query = "the * for * a"
+
+180 "Unfortunately, signing statements has become a <e1>substitute</e1> for a presidential <e2>veto</e2>."
+WordNet(e1) = "substitute%1:09:00::", WordNet(e2) = "veto%1:07:00::", Theme-Tool(e2, e1) = "?", Query = "a * for a"
+
+181 "Ace is no longer the <e1>place</e1> for the lowest <e2>prices</e2> or the biggest assortment of home improvement goods; the big boxes have it beaten in those categories."
+WordNet(e1) = "place%1:15:01::", WordNet(e2) = "price%1:07:00::", Theme-Tool(e2, e1) = "?", Query = "the * for the"
+
+182 "Our <e1>mission</e1> is to provide our site visitors with as much <e2>information</e2> as possible about animals that people keep as pets."
+WordNet(e1) = "mission%1:04:00::", WordNet(e2) = "information%1:14:00::", Theme-Tool(e2, e1) = "?", Query = "* is to *"
+
+183 "Josh Earnest is a <e1>spokesman</e1> for the <e2>committee</e2>."
+WordNet(e1) = "spokesman%1:18:00::", WordNet(e2) = "committee%1:14:00::", Theme-Tool(e2, e1) = "?", Query = "a * for the"
+
+184 "The <e1>mission</e1> of the ACLU is to preserve all of these <e2>protections</e2> and guarantees."
+WordNet(e1) = "mission%1:04:00::", WordNet(e2) = "protection%1:26:00::", Theme-Tool(e2, e1) = "?", Query = "* is to *"
+
+185 "The application <e1>deadline</e1> for the 2007 AARP Best Employers for Workers over 50 <e2>program</e2> is fast approaching."
+WordNet(e1) = "deadline%1:28:00::", WordNet(e2) = "program%1:09:00::", Theme-Tool(e2, e1) = "?", Query = "the * for the"
+
+186 "We are a nonprofit association whose <e1>mission</e1> is to advance higher <e2>education</e2> by promoting the intelligent use of information technology."
+WordNet(e1) = "mission%1:04:00::", WordNet(e2) = "education%1:04:00::", Theme-Tool(e2, e1) = "?", Query = "* is to *"
+
+187 "The website is a good <e1>resource</e1> for the <e2>classroom</e2>."
+WordNet(e1) = "resource%1:07:00::", WordNet(e2) = "classroom%1:06:00::", Theme-Tool(e2, e1) = "?", Query = "a * for the"
+
+188 "The technical reference manual represents the <e1>guidelines</e1> for the <e2>preparation</e2> of hazardous waste management plans."
+WordNet(e1) = "guideline%1:09:01::", WordNet(e2) = "preparation%1:09:00::", Theme-Tool(e2, e1) = "?", Query = "the * for the"
+
+189 "The <e1>prosecution</e1> was for defrauding the <e2>government</e2> under procurement contracts."
+WordNet(e1) = "prosecution%1:04:00::", WordNet(e2) = "government%1:14:00::", Theme-Tool(e2, e1) = "?", Query = "* was for *"
+
+190 "The balance of the <e1>expenditures</e1> was for <e2>machinery</e2>, equipment, furniture and informatics equipment costing less than $500 thousand each."
+WordNet(e1) = "expenditure%1:21:00::", WordNet(e2) = "machinery%1:06:00::", Theme-Tool(e2, e1) = "?", Query = "* was for *"
+
+191 "The <e1>data</e1> contained herein is for informational <e2>purposes</e2> only and is not represented to be error free."
+WordNet(e1) = "data%1:14:00::", WordNet(e2) = "purpose%1:07:00::", Theme-Tool(e2, e1) = "?", Query = "the * is for"
+
+192 "TERENA has a <e1>vacancy</e1> for a public relations <e2>officer</e2>."
+WordNet(e1) = "vacancy%1:26:00::", WordNet(e2) = "officer%1:18:02::", Theme-Tool(e2, e1) = "?", Query = "a * for a"
+
+193 "The original <e1>intention</e1> was to create a third <e2>institution</e2> to handle the trade."
+WordNet(e1) = "intention%1:09:00::", WordNet(e2) = "institution%1:14:00::", Theme-Tool(e2, e1) = "?", Query = "* was to *"
+
+194 "My <e1>ambition</e1> was to liquidate <e2>communism</e2>, the dictatorship over all the people."
+WordNet(e1) = "ambition%1:12:00::", WordNet(e2) = "communism%1:14:00::", Theme-Tool(e2, e1) = "?", Query = "* was to *"
+
+195 "Kwispel is the Dutch <e1>word</e1> for wagging a <e2>tail</e2>."
+WordNet(e1) = "word%1:10:00::", WordNet(e2) = "tail%1:05:00::", Theme-Tool(e2, e1) = "?", Query = "the * for * a"
+
+196 "It features styled unordered lists for the navigation, styled skip links, min and max width, and has a <e1>placeholder</e1> for a photo <e2>gallery</e2>. "
+WordNet(e1) = "?", WordNet(e2) = "gallery%1:06:04::", Theme-Tool(e2, e1) = "?", Query = "a * for a"
+
+197 "The <e1>role</e1> of middleware is to make application <e2>development</e2> easier."
+WordNet(e1) = "role%1:07:00::", WordNet(e2) = "development%1:04:01::", Theme-Tool(e2, e1) = "?", Query = "* is to *"
+
+198 "You can take the <e1>credit</e1> for the <e2>elderly</e2> or the disabled if you meet both of the following requirements."
+WordNet(e1) = "?", WordNet(e2) = "elderly%1:14:00::", Theme-Tool(e2, e1) = "?", Query = "the * for the"
+
+199 "This <e1>form</e1> is used for a department billing for goods or <e2>services</e2> it has provided."
+WordNet(e1) = "form%1:10:01::", WordNet(e2) = "service%1:04:08::", Theme-Tool(e2, e1) = "?", Query = "is used for"
+
+200 "This is the <e1>agenda</e1> for a postwar planning <e2>meeting</e2> on Japan and China."
+WordNet(e1) = "agenda%1:10:00::", WordNet(e2) = "meeting%1:14:00::", Theme-Tool(e2, e1) = "?", Query = "the * for a"
+
+201 "A bill is a <e1>proposal</e1> for a <e2>law</e2>. "
+WordNet(e1) = "proposal%1:10:00::", WordNet(e2) = "law%1:10:00::", Theme-Tool(e2, e1) = "?", Query = "a * for a"
+
+202 "The <e1>request</e1> was for a full <e2>copy</e2> of a report into the performance of the child protection agencies following the death of a child from neglect."
+WordNet(e1) = "request%1:10:01::", WordNet(e2) = "copy%1:10:00::", Theme-Tool(e2, e1) = "?", Query = "* was for *"
+
+203 "It provides a <e1>framework</e1> for improving the <e2>use</e2> of biomonitoring data including developing and using biomarkers."
+WordNet(e1) = "framework%1:06:00::", WordNet(e2) = "use%1:04:00::", Theme-Tool(e2, e1) = "?", Query = "a * for * the"
+
+204 "The <e1>playbook</e1> was for <e2>insiders</e2>, but it got in the hands of some outsiders."
+WordNet(e1) = "playbook%1:09:00::", WordNet(e2) = "insider%1:18:00::", Theme-Tool(e2, e1) = "?", Query = "* was for *"
+
+205 "My <e1>dream</e1> was to be a <e2>martyr</e2>."
+WordNet(e1) = "dream%1:12:00::", WordNet(e2) = "martyr%1:18:00::", Theme-Tool(e2, e1) = "?", Query = "* was to *"
+
+206 "This mail <e1>list</e1> is used for all <e2>people</e2> interested in the development of ERP5."
+WordNet(e1) = "list%1:10:00::", WordNet(e2) = "people%1:14:00::", Theme-Tool(e2, e1) = "?", Query = "is used for"
+
+207 "The <e1>requirement</e1> was for transportation <e2>services</e2>, so the contracting officer used the clause with its Alternate IV."
+WordNet(e1) = "requirement%1:09:01::", WordNet(e2) = "service%1:04:08::", Theme-Tool(e2, e1) = "?", Query = "the * is for"
+
+208 "The team is working to harness the reaction to develop a <e1>nanoswitch</e1> for a variety of <e2>applications</e2>."
+WordNet(e1) = "?", WordNet(e2) = "application%1:04:02::", Theme-Tool(e2, e1) = "?", Query = "a * for a"
+
+209 "Also in the second quarter, the company took a $75000 <e1>write-down</e1> for a non-recoverable <e2>advance</e2> it made to an unnamed recording artist."
+WordNet(e1) = "write-down%1:21:00::", WordNet(e2) = "advance%1:21:00::", Theme-Tool(e2, e1) = "?", Query = "a * for a"
+
+210 "Then they would check out the <e1>maps</e1> for the <e2>trip</e2> itself."
+WordNet(e1) = "map%1:06:00::", WordNet(e2) = "trip%1:04:00::", Theme-Tool(e2, e1) = "?", Query = "the * for the"
+
+211 "Bill Van Ness's <e1>instinct</e1> was to fight the <e2>plan</e2> to build a school next to his factory."
+WordNet(e1) = "instinct%1:09:00::", WordNet(e2) = "plan%1:09:00::", Theme-Tool(e2, e1) = "?", Query = "* was to *"
+

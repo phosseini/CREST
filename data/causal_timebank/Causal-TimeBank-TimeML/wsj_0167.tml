@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0167</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-02</TIMEX3></DCT>
+<TEXT>
+ RMS International Inc., Hasbrouk Heights, N.J., <EVENT eid="e1" class="I_ACTION">facing</EVENT> a cash-flow <EVENT eid="e2" class="STATE">squeeze</EVENT>, <EVENT eid="e3" class="REPORTING">said</EVENT> it is <EVENT eid="e4" class="OCCURRENCE">seeking</EVENT> other financing sources and waivers from debenture holders.
+ The company <EVENT eid="e5" class="REPORTING">said</EVENT> that <C-SIGNAL cid="c6">because of</C-SIGNAL> softening <EVENT eid="e7" class="OCCURRENCE">sales</EVENT> it isn't <EVENT eid="e8" class="STATE">in</EVENT> compliance with requirements that it <EVENT eid="e9" class="STATE">maintain</EVENT> $ 3 million in working capital.
+ RMS distributes electronic devices and produces power supplies and plastic literature displays.
+ RMS <EVENT eid="e10" class="REPORTING">said</EVENT> it <EVENT eid="e11" class="STATE">had</EVENT> a loss of $ 158,666, or 10 cents a share, in <TIMEX3 tid="t12" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">the third quarter</TIMEX3>, compared with a <TIMEX3 tid="t13" type="DATE" value="1988-Q3" anchorTimeID="t13" functionInDocument="NONE">year-earlier</TIMEX3> loss of $ 26,956, or two cents a share.
+ Sales <EVENT eid="e14" class="OCCURRENCE">rose</EVENT> to $ 3 million from $ 2.9 million.
+ For <TIMEX3 tid="t15" type="DURATION" value="P9M" functionInDocument="NONE">the nine months</TIMEX3>, the company <EVENT eid="e16" class="REPORTING">reported</EVENT> a net <EVENT eid="e17" class="STATE">loss</EVENT> of $ 608,413, or 39 cents a share, compared with <TIMEX3 tid="t18" type="DATE" value="1988" anchorTimeID="t13" functionInDocument="NONE">year-earlier</TIMEX3> net <EVENT eid="e19" class="STATE">income</EVENT> of $ 967,809, or 62 cents a share.
+ Sales <EVENT eid="e20" class="OCCURRENCE">rose</EVENT> to $ 9.8 million from $ 8.9 million.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESENT" aspect="NONE" polarity="NEG" pos="OTHER"/>
+<TLINK lid="l1" relType="INCLUDES" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0"/>
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToEventInstance="ei1"/>
+<TLINK lid="l4" relType="SIMULTANEOUS" eventInstanceID="ei5" relatedToEventInstance="ei3"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei8" relatedToTime="t0"/>
+<TLINK lid="l7" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToEventInstance="ei5"/>
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t12"/>
+<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t12"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToTime="t15"/>
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei17" relatedToTime="t15"/>
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei19" relatedToTime="t18"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei20" relatedToTime="t15"/>
+<CLINK lid="l5" c-signalID="c6" eventInstanceID="ei7" relatedToEventInstance="ei8"/>
+</TimeML>

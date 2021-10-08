@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0068</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-02</TIMEX3></DCT>
+<TEXT>
+ GOODY PRODUCTS Inc. <EVENT eid="e1" class="OCCURRENCE">cut</EVENT> its quarterly dividend to five cents a share from 11.5 cents a share.
+ The reduced dividend is <EVENT eid="e2" class="OCCURRENCE">payable</EVENT> <TIMEX3 tid="t3" type="DATE" value="1990-01-02" anchorTimeID="t0" functionInDocument="NONE">Jan. 2</TIMEX3> to stock of record <TIMEX3 tid="t4" type="DATE" value="1989-12-15" anchorTimeID="t0" functionInDocument="NONE">Dec. 15</TIMEX3>.
+ The Kearny, N.J.-based maker of hair accessories and other cosmetic products <EVENT eid="e5" class="REPORTING">said</EVENT> it <EVENT eid="e6" class="OCCURRENCE">cut</EVENT> the dividend <C-SIGNAL cid="c7">due to</C-SIGNAL> its <TIMEX3 tid="t8" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> <EVENT eid="e9" class="OCCURRENCE">loss</EVENT> of $ 992,000, or 15 cents a share.
+ In <TIMEX3 tid="t10" type="DATE" value="1988-Q3" anchorTimeID="t0" functionInDocument="NONE">the year-ago quarter</TIMEX3>, the company <EVENT eid="e11" class="REPORTING">reported</EVENT> net income of $ 1.9 million, or 29 cents a share.
+ The company also <EVENT eid="e12" class="I_ACTION">adopted</EVENT> an anti-takeover plan.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToEventInstance="ei1"/>
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToTime="t3"/>
+<TLINK lid="l3" relType="AFTER" timeID="t3" relatedToTime="t0"/>
+<TLINK lid="l4" relType="AFTER" timeID="t3" relatedToTime="t4"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei5" relatedToTime="t0"/>
+<TLINK lid="l6" relType="IDENTITY" eventInstanceID="ei6" relatedToEventInstance="ei1"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei6"/>
+<TLINK lid="l8" relType="ENDS" eventInstanceID="ei9" relatedToTime="t8"/>
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0"/>
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei12" relatedToTime="t0"/>
+<CLINK lid="l9" c-signalID="c7" eventInstanceID="ei9" relatedToEventInstance="ei6"/>
+</TimeML>

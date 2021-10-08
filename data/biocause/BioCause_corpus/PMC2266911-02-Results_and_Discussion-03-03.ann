@@ -1,0 +1,93 @@
+T1	Two-component-system 32 41	TctE/TctD
+T2	Protein 32 36	TctE
+T3	Protein 37 41	TctD
+T4	Organism 68 82	P. luminescens
+T5	Organism 104 121	Y. enterocolitica
+T6	Regulon-operon 215 221	tctCBA
+T7	Protein 215 219	tctC
+T8	Protein 219 220	B
+T9	Protein 220 221	A
+T10	Chemical 242 260	tricarboxylic acid
+T11	Protein 278 282	TctC
+T12	Protein 282 283	B
+T13	Protein 283 284	A
+T14	Chemical 344 351	citrate
+T15	Chemical 353 366	fluorocitrate
+T16	Chemical 368 378	isocitrate
+T17	Chemical 383 397	cis-acconitate
+T18	Chemical 437 440	Na+
+T19	Chemical 451 458	citrate
+T20	Protein 469 473	CitS
+T21	Organism 477 488	S. enterica
+T22	Organism 500 517	Y. enterocolitica
+T23	Protein 526 532	YE2507
+T24	Two-component-system 569 578	CitA/CitB
+T25	Protein 569 573	CitA
+T26	Protein 574 578	CitB
+T27	Chemical 606 613	citrate
+T28	Chemical 680 687	citrate
+T29	Organism 703 717	P. luminescens
+T30	Organism 722 739	Y. enterocolitica
+T31	Organism 747 764	Y. enterocolitica
+T32	Chemical 774 781	citrate
+T33	Chemical 854 861	citrate
+T34	Chemical 872 891	tricarboxylic acids
+T35	Chemical 895 899	TctC
+T36	Chemical 899 900	B
+T37	Chemical 900 901	A
+T38	Organism 913 927	P. luminescens
+T39	Chemical 971 978	citrate
+T40	Chemical 1027 1045	tricarboxylic acid
+T41	Protein 1143 1147	sucA
+T42	Chemical 1170 1189	alpha-ketoglutarate
+T43	Protein 1203 1207	acnA
+T44	Organism 1264 1275	V. cholerae
+T45	Chemical 1324 1327	TCA
+T46	Organism 1355 1369	S. typhimurium
+T47	Protein 1417 1421	sucA
+T48	Organism 1425 1439	P. luminescens
+T49	Organism 1459 1478	Galleria mellonella
+T50	Chemical 1747 1766	tricarboxylic acids
+T51	Protein 1784 1788	TctE
+T52	Chemical 1830 1849	tricarboxylic acids
+T53	Organism 1878 1895	Y. enterocolitica
+T54	Organism 1900 1909	Y. pestis
+T55	Organism 2055 2072	Y. enterocolitica
+T56	Organism 2077 2091	P. luminescens
+T57	Chemical 2145 2160	tricarboxylates
+T58	Regulation 184 192	controls
+T59	Gene_expression 197 207	expression
+T60	Positive_regulation 554 561	induced
+T61	Positive_regulation 1253 1260	induced
+T62	Process 1288 1297	infection
+T63	Positive_regulation 1342 1350	required
+T64	Process 1370 1379	virulence
+T65	Positive_regulation 1404 1413	induction
+E1	Regulation:T58 Theme:E2
+E2	Gene_expression:T59 Theme:T6
+E3	Positive_regulation:T60 Theme:T20 Cause:T24
+E4	Positive_regulation:T61 Theme:T41
+E5	Positive_regulation:T61 Theme:T43
+E6	Process:T62 
+E7	Positive_regulation:T63 Theme:E8
+E8	Process:T64 Participant:T46
+E9	Positive_regulation:T65 Theme:T47
+T66	Span 433 637	The Na+ dependent citrate symporter CitS of S. enterica, which the Y. enterocolitica protein YE2507 is homologous to, is induced by the CitA/CitB system for fermentation of citrate under anoxic conditions
+T67	Causality 645 655	indicating
+E10	Causality:T67 Effect:T68 Evidence:T66
+T68	Span 656 739	a general difference of citrate utilization in P. luminescens and Y. enterocolitica
+T69	Span 741 806	While Y. enterocolitica explores citrate for anaerobic metabolism
+T70	Causality 808 830	it is most likely that
+E11	Causality:T70 Effect:T71 Evidence:T69
+T71	Span 831 991	the specific uptake of citrate and other tricarboxylic acids by TctCBA is used by P. luminescens upon entering the insect host where enough citrate is available
+T72	Span 1130 1379	For example, sucA encoding a subunit of alpha-ketoglutarate synthase and acnA encoding the aconitase have been found to be induced in V. cholerae during host infection [111,112], and a complete TCA cycle is also required for S. typhimurium virulence
+T73	Span 1387 1478	We also observed induction of sucA in P. luminescens in the insect host Galleria mellonella
+T74	Causality 1512 1555	This finding underlines the hypothesis that
+E12	Causality:T74 Effect:T75 Evidence:T73 Evidence:T72
+T75	Span 1556 1711	the citric cycle enzymes used under aerobic conditions are up-regulated as a specific adaptation of the metabolic activity in the nutrient rich insect host
+T76	Span 1713 1876	To guarantee an optimal amount of tricarboxylic acids within the cell, TctE might specifically sense the presence of tricarboxylic acids and/or signals of the host
+T77	Span 1878 2013	Y. enterocolitica and Y. pestis, in contrast exhibit upregulation of all TCA genes upon temperature shift from 26degreesC to 37degreesC
+T78	Causality 2025 2054	Therefore, it is obvious that
+E13	Causality:T78 Effect:T79 Evidence:T77
+T79	Span 2055 2160	Y. enterocolitica and P. luminescens use different sensing and utilization strategies for tricarboxylates
+E14	Causality:T78 Effect:T79 Evidence:T76

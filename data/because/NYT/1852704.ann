@@ -1,0 +1,59 @@
+T1	NonCausal 328 333	after
+E1	NonCausal:T1 Cause:T3 Effect:T2
+A1	Temporal E1
+T2	Argument 269 304	a rising toll of sectarian killings
+T3	Argument 334 382	the beginning of the increase in American troops
+T4	NonCausal 556 562	before
+E2	NonCausal:T4 Arg0:T5 Arg1:T6
+A2	Temporal E2
+T5	Argument 551 555	seen
+T6	Argument 563 590	the rise in American forces
+T7	NonCausal 657 659	As
+E3	NonCausal:T7 Arg0:T8 Arg1:T9
+A3	Temporal E3
+T8	Argument 660 776	the rising body count stoked new concerns about how well the troop expansion will tamp down execution-style killings
+T9	Argument 778 1001	Iraqi and American officials got a jolt late in the day when reports emerged suggesting that Turkish forces had begun a long-threatened incursion into northern Iraq to hunt Kurdish guerrillas who stage attacks inside Turkey
+T10	Consequence 834 838	when
+E4	Consequence:T10 Effect:T11 Cause:T12
+A4	Temporal E4
+T11	Argument 778 833	Iraqi and American officials got a jolt late in the day
+T12	Argument 839 1001	reports emerged suggesting that Turkish forces had begun a long-threatened incursion into northern Iraq to hunt Kurdish guerrillas who stage attacks inside Turkey
+T17	Purpose 1770 1772	to
+E6	Purpose:T17 Cause:T18 Effect:T19
+A6	Degree E6 Facilitate
+T18	Argument 1773 1832	hunt down P.K.K. rebels, who favor an independent Kurdistan
+T19	Argument 1742 1769	send troops over the border
+T20	Consequence 2834 2836	as
+E7	Consequence:T20 Cause:T21 Effect:T22
+A7	Degree E7 Facilitate
+A8	Temporal E7
+T21	Argument 2837 2865	the troop increase took hold
+T22	Argument 2767 2833	there would not be ups and downs in the Baghdad security situation
+T23	NonCausal 3265 3269;3289 3291	take to
+E8	NonCausal:T23 Arg0:T24 Arg1:T25
+A9	Temporal E8
+T24	Argument 3270 3286	up to two months
+T25	Argument 3292 3371	fully establish themselves'' with Iraqi forces and civilians where they operate
+T26	Purpose 4425 4427	to
+E9	Purpose:T26 Cause:T27 Effect:T28
+A10	Degree E9 Facilitate
+T27	Argument 4428 4444	abduct 10 people
+T28	Argument 4392 4424	militants used a fake checkpoint
+T29	NonCausal 4591 4596	after
+E10	NonCausal:T29 Arg1:T30 Arg0:T31
+A11	Temporal E10
+T30	Argument 4534 4590	it had reached a cease-fire with Al Qaeda in Mesopotamia
+T31	Argument 4597 4679	skirmishes between the groups last week in the Amariya district of western Baghdad
+A13	Degree E4 Facilitate
+T35	Motivation 1105 1107	in
+E12	Motivation:T35 Effect:T36 Cause:T37
+A15	Degree E12 Facilitate
+T36	Argument 1064 1104	thousands of soldiers crossed the border
+T37	Argument 1108 1169	pursuit of members of the Kurdistan Worker's Party, or P.K.K.
+T16	Note 2779 2782	not
+#1	AnnotatorNotes T16	Scoped over the whole "as" relationship
+#2	AnnotatorNotes E1	Unclear whether this is intended to be causal.
+T13	Note 943 945	to
+#3	AnnotatorNotes T13	Purpose of existence
+T14	Note 4872 4874	to
+#4	AnnotatorNotes T14	Verb argument (cooperated in driving out)

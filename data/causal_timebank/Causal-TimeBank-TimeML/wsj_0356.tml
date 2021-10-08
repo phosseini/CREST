@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0356</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-01</TIMEX3></DCT>
+<TEXT>
+ Rally's Inc. <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE">adopted</EVENT> a shareholders rights plan to <EVENT eid="e3" class="OCCURRENCE">protect</EVENT> shareholders from an inadequately priced takeover <EVENT eid="e4" class="OCCURRENCE">offer</EVENT>.
+ The plan provides for the distribution of one common stock-purchase right as a dividend for each share of common outstanding.
+ Each right entitles shareholders to buy one-half share of common for $ 30.
+ <TIMEX3 tid="t5" type="DATE" value="1989-11" anchorTimeID="t0" functionInDocument="NONE">Earlier this month</TIMEX3>, a group led by three of the company's directors, Burt Sugarman, James M. Trotter III and Willam E. Trotter II, <EVENT eid="e6" class="REPORTING">indicated</EVENT> it <EVENT eid="e7" class="STATE">had</EVENT> a 45.2 % stake in the Louisville, Ky., fast-food company and that it <EVENT eid="e8" class="I_STATE">planned</EVENT> to <EVENT eid="e9" class="I_ACTION">seek</EVENT> a majority of seats on Rally's nine-member board.
+ The company <EVENT eid="e10" class="REPORTING">said</EVENT> it was " <EVENT eid="e11" class="I_STATE">concerned</EVENT> about the announced intent to <EVENT eid="e12" class="I_ACTION">acquire</EVENT> control of the company " by a Sugarman-led group.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei1"/>
+<TLINK lid="l4" relType="INCLUDES" timeID="t5" relatedToEventInstance="ei6"/>
+<TLINK lid="l5" relType="IDENTITY" eventInstanceID="ei10" relatedToEventInstance="ei1"/>
+<CLINK lid="l3" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+</TimeML>

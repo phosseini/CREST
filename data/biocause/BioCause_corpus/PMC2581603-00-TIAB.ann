@@ -1,0 +1,59 @@
+*	Equiv T4 T5
+T20	Process 58 68	Resistance
+T21	Process 290 299	resistant
+T22	Positive_regulation 1008 1017	induction
+T23	Regulation 1042 1051	regulated
+T24	Process 1083 1093	resistance
+T25	Gene_expression 1158 1168	expression
+T26	Positive_regulation 1212 1221	increased
+T27	Process 1222 1232	resistance
+T28	Positive_regulation 1281 1290	increased
+T29	Process 1291 1301	resistance
+T30	Regulation 1333 1339	effect
+T31	Process 1375 1385	resistance
+T32	Process 1527 1537	resistance
+T33	Process 1591 1600	infection
+E1	Process:T20 Participant:T1
+E2	Process:T21 
+E3	Positive_regulation:T22 Theme:T12
+E4	Regulation:T23 Theme:T12 Cause:T6
+E5	Regulation:T23 Theme:T12 Cause:T9
+E6	Process:T24 Participant:T15
+E7	Gene_expression:T25 Theme:T12
+E8	Positive_regulation:T26 Theme:E9
+E9	Process:T27 
+E10	Positive_regulation:T28 Theme:E11
+E11	Process:T29 
+E12	Regulation:T30 Theme:E13
+M1	Negation E12
+E13	Process:T31 
+E14	Process:T32 
+E15	Process:T33 
+T1	Organism 72 94	Pseudomonas aeruginosa
+T2	Organism 416 438	Pseudomonas aeruginosa
+T3	Organism 514 527	P. aeruginosa
+T4	Chemical 683 701	lipopolysaccharide
+T5	Chemical 703 706	LPS
+T6	Two-component-system 1025 1030	PhoPQ
+T7	Protein 1025 1029	PhoP
+T8	Protein 1029 1030	Q
+T9	Two-component-system 1036 1041	PmrAB
+T10	Protein 1036 1040	PmrA
+T11	Protein 1040 1041	B
+T12	Regulon-operon 1101 1114	PA3552-PA3559
+T13	Protein 1101 1107	PA3552
+T14	Protein 1108 1114	PA3559
+T15	Organism 1118 1131	P. aeruginosa
+T16	Chemical 1305 1320	aminoglycosides
+T17	Chemical 1343 1354	beta-lactam
+T18	Chemical 1359 1374	fluoroquinolone
+T19	Organism 1699 1712	P. aeruginosa
+T34	Span 538 626	At physiologically relevant concentrations, extracellular DNA has antimicrobial activity
+T35	Causality 628 635	causing
+E16	Causality:T35 Effect:T36 Evidence:T34
+T36	Span 636 735	cell lysis by chelating cations that stabilize lipopolysaccharide (LPS) and the outer membrane (OM)
+T37	Span 917 1131	Sub-inhibitory concentrations of DNA created a cation-limited environment that resulted in induction of the PhoPQ- and PmrAB-regulated cationic antimicrobial peptide resistance operon PA3552-PA3559 in P. aeruginosa
+T38	Span 1133 1385	Furthermore, DNA-induced expression of this operon resulted in up to 2560-fold increased resistance to cationic antimicrobial peptides and 640-fold increased resistance to aminoglycosides, but had no effect on beta-lactam and fluoroquinolone resistance
+T39	Causality 1387 1391	Thus
+E17	Causality:T39 Effect:T40 Evidence:T37 Evidence:T38
+T40	Span 1393 1537	the presence of extracellular DNA in the biofilm matrix contributes to cation gradients, genomic DNA release and inducible antibiotic resistance

@@ -1,0 +1,114 @@
+*	Equiv T2 T5
+*	Equiv T3 T6
+*	Equiv T4 T7
+T52	Negative_regulation 285 297	Inactivation
+T53	Regulation 369 375	affect
+T54	Binding 384 394	attachment
+T55	Negative_regulation 989 996	reduced
+T56	Binding 1005 1015	attachment
+T57	Phosphorylation 1859 1874	phosphorylation
+T58	Phosphorylation 2090 2104	phosphorylated
+T59	Phosphorylation 2177 2192	phosphorylation
+E1	Negative_regulation:T52 Theme:T2
+E2	Negative_regulation:T52 Theme:T3
+E3	Negative_regulation:T52 Theme:T4
+E4	Regulation:T53 Theme:E7 Cause:E1
+M1	Negation E4
+E5	Regulation:T53 Theme:E7 Cause:E2
+M2	Negation E5
+E6	Regulation:T53 Theme:E7 Cause:E3
+M3	Negation E6
+E7	Binding:T54 Theme:T8
+E8	Negative_regulation:T55 Theme:E9
+E9	Binding:T56 Theme:T13
+E10	Phosphorylation:T57 Theme:T24
+E11	Phosphorylation:T57 Theme:T25
+E12	Phosphorylation:T58 Theme:T30
+E13	Phosphorylation:T59 Theme:T31
+T1	Organism 234 247	P. aeruginosa
+T2	Protein 301 305	BfiS
+T3	Protein 307 311	BfmR
+T4	Protein 317 321	MifR
+T5	Protein 323 329	PA4197
+T6	Protein 331 337	PA4101
+T7	Protein 339 345	PA5511
+T8	Chemical 398 409	polystyrene
+T9	Protein 648 651	Pel
+T10	Protein 656 659	Psl
+T11	Protein 858 861	Pel
+T12	Protein 866 869	Psl
+T13	Organism 957 973	DeltagacS mutant
+T14	Protein 962 966	gacS
+T15	Organism 1310 1319	DeltabfiS
+T16	Protein 1315 1319	bfiS
+T17	Organism 1324 1340	DeltabfmR mutant
+T18	Protein 1329 1333	bfmR
+T19	Organism 1465 1478	P. aeruginosa
+T20	Organism 1665 1674	DeltabfmR
+T21	Protein 1670 1674	bfmR
+T22	Organism 1714 1723	DeltabfiS
+T23	Protein 1719 1723	bfiS
+T24	Protein 1845 1849	BfiS
+T25	Protein 1854 1858	BfmR
+T26	Organism 1907 1916	DeltamifR
+T27	Protein 1912 1916	mifR
+T28	Organism 2002 2011	DeltamifR
+T29	Protein 2007 2011	mifR
+T30	Protein 2066 2070	MifR
+T31	Protein 2196 2200	MifR
+T32	Organism 2237 2250	P. aeruginosa
+T33	Organism 2368 2377	DeltabfiS
+T34	Protein 2373 2377	bfiS
+T35	Organism 2379 2388	DeltabfmR
+T36	Protein 2384 2388	bfmR
+T37	Organism 2394 2410	DeltamifR mutant
+T38	Protein 2399 2403	mifR
+T39	Organism 2561 2570	DeltabfiS
+T40	Protein 2566 2570	bfiS
+T41	Organism 2575 2584	DeltabfmR
+T42	Protein 2580 2584	bfmR
+T43	Organism 2898 2907	DeltabfiS
+T44	Protein 2903 2907	bfiS
+T45	Organism 2912 2921	DeltabfmR
+T46	Protein 2917 2921	bfmR
+T47	Organism 2970 2979	DeltamifR
+T48	Protein 2975 2979	mifR
+T49	Organism 3064 3077	P. aeruginosa
+T50	Organism 3185 3194	DeltamifR
+T51	Protein 3190 3194	mifR
+T60	Span 285 440	Inactivation of BfiS, BfmR, and MifR (PA4197, PA4101, PA5511, respectively) did not affect initial attachment to polystyrene compared to wild type biofilms
+T61	Causality 441 455	as revealed by
+E14	Causality:T61 Evidence:T62 Effect:T60
+T62	Span 456 525	the crystal violet microtiter plate assay and confirmed by microscopy
+T63	Span 552 728	no difference in growth in broth or defect with respect to twitching, swimming, and swarming or Pel and Psl polysaccharide production was detected for any of the mutant strains
+T64	Span 755 932	no difference in transcript abundance, as determined by semi-quantitative RT-PCR, of genes involved in Pel and Psl polysaccharide biosynthesis compared to wild type was detected
+T65	Span 955 1114	a DeltagacS mutant showed 10-fold reduced initial attachment compared to the wild type (not shown), consistent with previous findings by Parkins and colleagues
+T66	Causality 1121 1148	These findings implied that
+E15	Causality:T66 Effect:T67 Evidence:T65
+T67	Span 1149 1276	the novel regulatory proteins were involved in the regulation of biofilm formation at later stages following initial attachment
+E16	Causality:T66 Effect:T67 Evidence:T64
+E17	Causality:T66 Effect:T67 Evidence:T63
+T68	Causality 1550 1558	Based on
+E18	Causality:T68 Evidence:T69 Effect:T70
+T69	Span 1559 1596	the comparison of 5 biofilm variables
+T70	Span 1598 1751	both mutant biofilms were more similar to 24-hr-old biofilms, with DeltabfmR forming more substantial biofilms than DeltabfiS or 24 hr wild type biofilms
+T71	Span 1889 1986	Comparison of the DeltamifR biofilm architecture following 144 hr of growth to wild type biofilms
+T72	Causality 1987 2001	indicated that
+E19	Causality:T72 Effect:T73 Evidence:T71
+T73	Span 2002 2058	DeltamifR biofilms were comparable to 72-hr-old biofilms
+T74	Span 2060 2148	Since MifR was detected to be phosphorylated following 72 hr of biofilm growth (Table 1)
+T75	Causality 2150 2176	our findings indicate that
+E20	Causality:T75 Effect:T76 Evidence:T74
+T76	Span 2177 2330	phosphorylation of MifR is essential for the progression of P. aeruginosa biofilms from the maturation-1 stage (72 hr) to the maturation-2 stage (144 hr)
+T77	Causality 3360 3394	The findings clearly indicate that
+E21	Causality:T77 Effect:T84 Evidence:T82
+T78	Causality 3490 3517	our findings suggested that
+E22	Causality:T78 Effect:T83 Evidence:T82
+T80	Span 2713 2951	However, while wild type biofilms continued to mature/develop upon prolonged incubation (see Fig. 2A), no additional biomass accumulation or alteration in architecture was observed for DeltabfiS and DeltabfmR biofilms post 24 hr of growth
+T81	Span 2953 3125	Furthermore, for DeltamifR biofilms, the progression of biofilm formation was indistinguishable from wild type P. aeruginosa biofilm formation for the first 72 hr of growth
+T82	Span 3127 3358	However, continued incubation did not result in increased DeltamifR biofilm growth (biomass, thickness) or microcolony formation typically seen in wild type biofilms at the maturation-2 stage (post 72 hr of growth, Table 2, Fig. 2)
+T83	Span 3518 3631	the mutant biofilms were incapable of progressing from the initial attachment stage to more mature biofilm stages
+T84	Span 3395 3479	inactivation of these novel regulatory proteins did not cause biofilm disaggregation
+E23	Causality:T77 Effect:T84 Evidence:T81
+#1	AnnotatorNotes E18	not sure
+#2	AnnotatorNotes E23	not sure

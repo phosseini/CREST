@@ -1,0 +1,138 @@
+T109	Process 32 41	virulence
+T110	Process 142 150	infected
+T111	Process 611 620	virulence
+T112	Positive_regulation 3260 3267	induced
+T113	Process 3418 3427	infection
+T114	Positive_regulation 3498 3510	up-regulated
+E1	Process:T109 
+E2	Process:T110 
+E3	Process:T111 
+E4	Positive_regulation:T112 Theme:T88
+E5	Positive_regulation:T112 Theme:T92
+E6	Process:T113 Participant:T95
+E7	Process:T113 Participant:T96
+E8	Positive_regulation:T114 Theme:T97
+T1	Organism 504 518	P. luminescens
+T2	Organism 523 540	Y. enterocolitica
+T3	Organism 551 558	E. coli
+T4	Organism 654 668	P. luminescens
+T5	Organism 673 690	Y. enterocolitica
+T6	Organism 766 778	E. coli K-12
+T7	Regulon-operon 809 819	ureABCEFGD
+T8	Protein 809 813	ureA
+T9	Protein 813 814	B
+T10	Protein 814 815	C
+T11	Protein 815 816	E
+T12	Protein 816 817	F
+T13	Protein 817 818	G
+T14	Protein 818 819	D
+T15	Regulon-operon 908 916	hutHUCGI
+T16	Protein 908 912	hutH
+T17	Protein 912 913	U
+T18	Protein 913 914	C
+T19	Protein 914 915	G
+T20	Protein 915 916	I
+T21	Chemical 1152 1159	ammonia
+T22	Protein 1167 1173	ye3021
+T23	Protein 1174 1181	plu1240
+T24	Chemical 1214 1227	urocanic acid
+T25	Organism 1251 1268	Y. enterocolitica
+T26	Organism 1477 1495	Hyalophora gloveri
+T27	Chemical 1528 1539	vitamin B12
+T28	Chemical 1606 1621	1,2-propanediol
+T29	Regulon-operon 1645 1648	pdu
+T30	Chemical 1671 1683	ethanolamine
+T31	Protein 1691 1695	eutA
+T32	Protein 1695 1696	B
+T33	Protein 1696 1697	C
+T34	Chemical 1719 1729	cobalamine
+T35	Organism 1760 1782	Salmonella typhimurium
+T36	Chemical 1876 1889	tetrathionate
+T37	Chemical 1930 1943	tetrathionate
+T38	Organism 1988 2002	S. typhimurium
+T39	Organism 2085 2090	human
+T40	Organism 2101 2123	Listeria monocytogenes
+T41	Organism 2129 2152	Clostridium perfringens
+T42	Organism 2160 2177	Y. enterocolitica
+T43	Chemical 2205 2218	tetrathionate
+T44	Protein 2230 2234	ttrA
+T45	Protein 2234 2235	B
+T46	Protein 2235 2236	C
+T47	Two-component-system 2250 2255	TtrRS
+T48	Protein 2250 2254	TtrR
+T49	Protein 2254 2255	S
+T50	Protein 2257 2263	YE1613
+T51	Protein 2264 2268	1617
+T52	Chemical 2293 2302	cobalamin
+T53	Chemical 2317 2328	propanediol
+T54	Protein 2380 2386	ye2707
+T55	Protein 2387 2391	2750
+T56	Regulon-operon 2402 2408	eutABC
+T57	Protein 2402 2406	eutA
+T58	Protein 2406 2407	B
+T59	Protein 2407 2408	C
+T60	Chemical 2428 2439	Propanediol
+T61	Organism 2455 2472	Y. enterocolitica
+T62	Protein 2500 2506	YE4187
+T63	Protein 2523 2527	GlcG
+T64	Chemical 2572 2581	glycolate
+T65	Chemical 2586 2597	propanediol
+T66	Chemical 2615 2625	cobalamine
+T67	Regulon-operon 2650 2656	eutABC
+T68	Protein 2650 2654	eutA
+T69	Protein 2654 2655	B
+T70	Protein 2655 2656	C
+T71	Protein 2673 2677	ttrC
+T72	Protein 2679 2683	ttrR
+T73	Protein 2685 2689	ttrS
+T74	Chemical 2698 2709	propanediol
+T75	Organism 2770 2784	P. luminescens
+T76	Chemical 2816 2840	phosphatidylethanolamine
+T77	Protein 2948 2952	dctA
+T78	Chemical 2982 3000	C4- dicarboxylates
+T79	Protein 3026 3030	UhpA
+T80	Protein 3030 3031	B
+T81	Protein 3031 3032	C
+T82	Chemical 3067 3083	hexose phosphate
+T83	Protein 3097 3101	UhpT
+T84	Chemical 3117 3121	Mg2+
+T85	Protein 3140 3144	CorA
+T86	Protein 3146 3150	MgtA
+T87	Protein 3155 3159	MgtB
+T88	Regulon-operon 3165 3171	uhpABC
+T89	Protein 3165 3169	uhpA
+T90	Protein 3169 3170	B
+T91	Protein 3170 3171	C
+T92	Protein 3190 3194	mgtC
+T93	Chemical 3208 3212	Mg2+
+T94	Organism 3290 3307	Y. enterocolitica
+T95	Organism 3367 3381	P. luminescens
+T96	Organism 3386 3403	Y. enterocolitica
+T97	Protein 3443 3447	gltP
+T98	Organism 3533 3550	Y. enterocolitica
+T99	Organism 3579 3593	P. luminescens
+T100	Chemical 3645 3651	chitin
+T101	Protein 3674 3681	Plu2352
+T102	Protein 3683 3689	YE3576
+T103	Protein 3721 3728	Plu2235
+T104	Protein 3730 3737	Plu2458
+T105	Protein 3742 3749	Plu2461
+T106	Organism 3777 3794	Y. enterocolitica
+T107	Organism 3924 3941	Y. enterocolitica
+T108	Organism 4002 4016	P. luminescens
+T115	Span 633 917	Degradative pathways P. luminescens and Y. enterocolitica share loci encoding several common degradation pathways that are absent in E. coli K-12, including the urease operon (ureABCEFGD), the genes involved in myo-inositol degradation, and the histidine degradation operon (hutHUCGI)
+T116	Causality 919 939	These pathways might
+E9	Causality:T116 Effect:T117 Evidence:T115
+T117	Span 940 1070	help the bacteria to gain access to sufficient amounts of substrates and thus to proliferate in the hemolymph of the insect larvae
+T118	Span 2428 2534	Propanediol degradation by Y. enterocolitica might also be supported by YE4187 with a putative GlcG domain
+T119	Causality 2535 2553	which is predicted
+E10	Causality:T119 Effect:T120 Evidence:T118
+T120	Span 2554 2609	to be involved in glycolate and propanediol utilization
+T121	Span 2611 2784	The cobalamine synthesis genes and the eutABC operon, but not ttrC, ttrR, ttrS and the propanediol utilization gene cluster, are also present in the genome of P. luminescens
+T122	Causality 2786 2796	suggesting
+E11	Causality:T122 Effect:T123 Evidence:T121
+T123	Span 2797 2887	the degradation of phosphatidylethanolamine as additional energy source in the insect host
+T124	Span 3161 3307	The uhpABC operon as well as mgtC encoding the Mg2+ transport ATPase subunit have been found to be induced at low temperature in Y. enterocolitica
+T125	Causality 3314 3324	indicating
+E12	Causality:T125 Effect:T126 Evidence:T124
+T126	Span 3325 3427	a relevance for these metabolic genes for P. luminescens and Y. enterocolitica during insect infection

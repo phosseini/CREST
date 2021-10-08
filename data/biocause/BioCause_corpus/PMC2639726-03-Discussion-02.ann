@@ -1,0 +1,76 @@
+T1	Chemical 279 285	Carbon
+T2	Chemical 320 324	Mg2+
+T3	Chemical 328 332	Ca2+
+T4	Two-component-system 524 533	phoP/phoQ
+T5	Protein 524 528	phoP
+T6	Protein 529 533	phoQ
+T7	Two-component-system 589 598	ompR/envZ
+T8	Protein 589 593	ompR
+T9	Protein 594 598	envZ
+T10	Protein 605 609	OmpR
+T11	Protein 653 657	cadC
+T12	Protein 690 694	SsrA
+T13	Two-component-system 714 723	SsrA/SsrB
+T14	Protein 714 718	SsrA
+T15	Protein 719 723	SsrB
+T16	Protein 797 801	ssrB
+T17	Protein 835 839	ssrA
+T18	Two-component-system 843 852	ssrA/ssrB
+T19	Protein 843 847	ssrA
+T20	Protein 848 852	ssrB
+T21	Chemical 954 963	phosphate
+T22	Protein 1026 1030	SsrB
+T23	Protein 1089 1093	ssrB
+T24	Protein 1102 1106	ssrA
+T25	Protein 1192 1196	SsrB
+T26	Protein 1381 1385	PhoP
+T27	Protein 1405 1409	rpoE
+T28	Protein 1411 1415	smpB
+T29	Protein 1417 1421	rpoS
+T30	Protein 1427 1430	hfq
+T31	Organism 1595 1601	murine
+T32	Protein 1619 1623	rpoE
+T33	Protein 1628 1632	rpoS
+T34	Organism 1741 1744	SCV
+T35	Two-component-system 1943 1952	ompR/envZ
+T36	Protein 1943 1947	ompR
+T37	Protein 1948 1952	envZ
+T38	Protein 2106 2110	smpB
+T39	Protein 2115 2118	hfq
+T40	Protein 2211 2215	spvR
+T41	Protein 2220 2223	hnr
+T42	Organism 2291 2302	BALB/c mice
+T43	Organism 2357 2362	mouse
+T44	Positive_regulation 628 635	respond
+T45	Gene_expression 778 793	over-expression
+T46	Positive_regulation 1031 1039	requires
+T47	Phosphorylation 1040 1055	phosphorylation
+T48	Gene_expression 1075 1085	expression
+T49	Phosphorylation 1204 1218	phosphorylated
+T50	Gene_expression 1283 1298	over-expression
+T51	Positive_regulation 1332 1342	activation
+T52	Regulation 1913 1919	affect
+T53	Process 2334 2344	attenuated
+E1	Positive_regulation:T44 Theme:T10 Cause:T11
+E2	Gene_expression:T45 Theme:T16
+E3	Positive_regulation:T46 Theme:T22 Cause:E4
+E4	Phosphorylation:T47 Theme:T22
+E5	Gene_expression:T48 Theme:T23
+E6	Phosphorylation:T49 Theme:T25
+E7	Gene_expression:T50 Theme:T25
+E8	Positive_regulation:T51 Theme:T25 Cause:E7
+E9	Regulation:T52 Theme:T35 Cause:T33
+E10	Regulation:T52 Theme:T33 Cause:E12
+E11	Regulation:T52 Theme:T32 Cause:E9
+E12	Regulation:T52 Theme:T35 Cause:T32
+E13	Process:T53 
+T54	Span 854 1009	Previous results have shown that a conservative replacement of the amino acid that is the essential phosphate acceptor eliminated expression of SPI-2 genes
+T55	Causality 1010 1025	suggesting that
+E14	Causality:T55 Effect:T56 Evidence:T54
+T56	Span 1026 1068	SsrB requires phosphorylation for activity
+T57	Span 1075 1158	expression of ssrB without ssrA results in expression of all 7 SPI-2 genes examined
+T58	Causality 1172 1191	It is possible that
+E15	Causality:T58 Effect:T57 Evidence:T59
+T59	Span 1192 1264	SsrB can be phosphorylated from other sources as noted by Walthers et al
+T60	Span 1271 1385	or that the over-expression results in dimerization and self activation similar to what has been observed for PhoP
+E16	Causality:T58 Effect:T57 Evidence:T60

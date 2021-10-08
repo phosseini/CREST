@@ -1,0 +1,74 @@
+T1	Organism 331 335	PAO1
+T2	Protein 551 557	PA2588
+T3	Organism 627 631	PAO1
+T4	Protein 632 638	PA0831
+T5	Protein 653 657	OruR
+T6	Protein 683 689	PA4380
+T7	Organism 738 761	Pseudomonas fluorescens
+T8	Protein 762 766	ColS
+T9	Organism 837 851	P. fluorescens
+T10	Protein 852 856	ColS
+T11	Organism 907 925	Pseudomonas putida
+T12	Protein 976 982	TN4652
+T13	Protein 1076 1082	PA4554
+T14	Protein 1126 1131	PilY1
+T15	Protein 1260 1266	PA4953
+T16	Organism 1308 1315	E. coli
+T17	Protein 1316 1320	MotB
+T18	Protein 1440 1446	PA0173
+T19	Protein 1448 1453	cheB2
+T20	Organism 1496 1509	P. aeruginosa
+T21	Protein 1527 1533	PA0173
+T22	Organism 1591 1595	PAO1
+T23	Protein 1829 1834	CheB2
+T24	Protein 1990 1996	PA5479
+T25	Protein 2033 2037	GltP
+T26	Organism 2043 2050	E. coli
+T27	Protein 2126 2132	PA2585
+T28	Protein 2146 2150	UvrA
+T29	Protein 2150 2151	B
+T30	Protein 2151 2152	C
+T31	Protein 2174 2178	UvrC
+T32	Protein 2226 2230	uvrC
+T33	Protein 2267 2271	gacA
+T34	Organism 2331 2344	P. aeruginosa
+T35	Protein 2395 2401	PA2585
+T36	Protein 2461 2467	PA2588
+T37	Protein 2567 2573	PA2478
+T38	Protein 2680 2686	PA0946
+T39	Protein 2688 2694	PA3080
+T40	Protein 2696 2702	PA0260
+T41	Protein 2707 2713	PA2769
+T42	Organism 2810 2820	C. elegans
+T43	Organism 2874 2876	TB
+T44	Organism 2911 2915	PA14
+T45	Organism 3052 3054	TB
+T46	Organism 3114 3116	TB
+T47	Organism 3333 3340	TB0173s
+T48	Protein 3342 3347	cheB2
+T49	Organism 3359 3366	TB4554s
+T50	Protein 3368 3373	pilY1
+T51	Organism 3388 3395	TB4380s
+T52	Protein 3397 3401	colS
+*	Equiv T4 T5
+*	Equiv T13 T14
+*	Equiv T18 T19
+*	Equiv T27 T31
+T53	Process 29 39	Attenuated
+T54	Regulation 2319 2327	involved
+T55	Process 2345 2354	virulence
+T56	Positive_regulation 2517 2525	required
+T57	Process 2530 2539	virulence
+T58	Process 3264 3273	virulence
+T59	Negative_regulation 3274 3285	attenuation
+E1	Process:T53 
+E2	Regulation:T54 Theme:E3 Cause:T32
+E3	Process:T55 Participant:T34
+E4	Positive_regulation:T56 Theme:E5
+E5	Process:T57 
+E6	Process:T58 
+E7	Negative_regulation:T59 Theme:E6
+T60	Span 2356 2467	Since, in addition to the insertion in PA2585, we isolated a mutant with an insertion in a neighbor gene PA2588
+T61	Causality 2469 2485	it suggests that
+E8	Causality:T61 Evidence:T60 Effect:T62
+T62	Span 2486 2539	this cluster of genes might be required for virulence

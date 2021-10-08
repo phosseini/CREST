@@ -1,0 +1,57 @@
+T1	Motivation 117 121	When
+E1	Motivation:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 122 150	the champ has lost his stuff
+T3	Argument 235 262	he throws his heart instead
+T4	Motivation 188 192	when
+E2	Motivation:T4 Cause:T5 Effect:T3
+A3	Degree E2 Facilitate
+T5	Argument 193 233	he can no longer throw the high hard one
+T6	NonCausal 560 564	When
+E3	NonCausal:T6 Arg0:T7 Arg1:T8
+A5	Temporal E3
+T7	Argument 565 580	he died in 1959
+T8	Argument 582 738	Chandler left behind four chapters of yet another Marlowe book, ``The Poodle Springs Story,'' which seemed to go beyond parody into something like burlesque
+T9	NonCausal 925 929	with
+E4	NonCausal:T9 Arg0:T10 Arg1:T11
+A6	Context E4
+T10	Argument 930 966	the blessings of the Chandler estate
+T11	Argument 808 924;967 1019	Robert Parker, author of several best sellers featuring Spenser, a contemporary private eye in the Marlowe mold, has been hired to complete ``The Poodle Springs Story.''
+T12	Note 978 980	to
+#1	AnnotatorNotes T12	Verb argument
+T13	Consequence 1024 1030	result
+E5	Consequence:T13 Effect:T14
+A7	Degree E5 Facilitate
+T14	Argument 1032 1080	``Poodle Springs'' (Putnam's, 288 pages, $18.95)
+T15	NonCausal 1223 1225	If
+E6	NonCausal:T15 Arg0:T16 Arg1:T17
+A8	Hypothetical E6
+T16	Argument 1226 1273	it does not quite have Chandler's special magic
+T17	Argument 1283 1315	at the end, neither did Chandler
+T18	NonCausal 1319 1321	As
+E7	NonCausal:T18 Arg0:T19 Arg1:T20
+A9	Temporal E7
+T19	Argument 1322 1337	the book begins
+T20	Argument 1339 1405;1406 1456	a newly wed Marlowe roars into the desert resort of Poodle (a.k.a. Palm) Springs at the wheel of a Cadillac Fleetwood
+T21	Motivation 2254 2258	when
+E8	Motivation:T21 Cause:T22 Effect:T23
+A10	Degree E8 Facilitate
+A11	Temporal E8
+A2	Temporal E1
+A4	Temporal E2
+T22	Argument 2259 2280	it suits his purposes
+T23	Argument 2204 2253	who still doesn't hesitate to have Marlowe jailed
+T24	NonCausal 2547 2549	At
+E9	NonCausal:T24 Arg0:T25 Arg1:T26
+A12	Temporal E9
+T25	Argument 2550 2559	one point
+T26	Argument 2561 2683	the reader is two steps ahead of Marlowe in catching on to a double identity scam -- and Marlowe is supposed to be the pro
+T27	Consequence 2955 2959	made
+E10	Consequence:T27 Effect:T28 Cause:T29
+A13	Degree E10 Facilitate
+T28	Argument 2960 2968;2969 2993	the book that much more enjoyable
+T29	Argument 2891 2943	A little more care in re-creating Marlowe's universe
+T33	Motivation 2524 2535	grounds for
+E12	Motivation:T33 Effect:T34
+A15	Degree E12 Facilitate
+T34	Argument 2536 2545	complaint

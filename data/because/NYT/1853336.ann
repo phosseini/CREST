@@ -1,0 +1,54 @@
+T1	Purpose 685 687	to
+E1	Purpose:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 688 759	renew its fleet of Boeing and Airbus planes built during the Soviet era
+T3	Argument 610 683	Aeroflot is buying 22 of the airplanes, to be assembled in Everett, Wash.
+T4	Consequence 1627 1629	as
+E2	Consequence:T4 Cause:T5 Effect:T6
+T5	Argument 1630 1683	relations between Russia and the United States soured
+T6	Argument 1593 1626	which had appeared dead last year
+A2	Degree E2 Facilitate
+A3	Temporal E2
+T7	Consequence 1738 1743	after
+E3	Consequence:T7 Effect:T9 Cause:T8
+A4	Degree E3 Facilitate
+A5	Temporal E3
+T8	Argument 1744 1917	the State Department imposed sanctions on Sukhoi -- a Boeing partner even at the time, though a company better known as a maker of fighter jets -- for doing business in Iran
+T9	Argument 1686 1737	Talks between Aeroflot and Boeing stalled last fall
+T10	Motivation 1891 1894	for
+E4	Motivation:T10 Cause:T11 Effect:T12
+A6	Degree E4 Facilitate
+T11	Argument 1895 1917	doing business in Iran
+T12	Argument 1744 1887	the State Department imposed sanctions on Sukhoi -- a Boeing partner even at the time, though a company better known as a maker of fighter jets
+T13	Consequence 2406 2411	after
+E5	Consequence:T13 Effect:T14 Cause:T15
+A7	Degree E5 Facilitate
+A8	Temporal E5
+T14	Argument 2372 2405	Aeroflot also apparently suffered
+T15	Argument 2412 2481	the talks stalled by allowing a delivery agreement for 2010 to expire
+T17	Consequence 3003 3011;3024 3026	allowing to
+E6	Consequence:T17 Cause:T18 Effect:T19
+A9	Degree E6 Facilitate
+T18	Argument 2847 3001	A Boeing design center in Moscow employs about 1,400 Russian engineers who work in shifts that correspond with the downtime of Boeing engineers in Seattle
+T19	Argument 3012 3023;3027 3064	the company design planes almost around the clock
+T20	NonCausal 3319 3323	over
+E7	NonCausal:T20 Arg1:T21 Arg0:T24
+A11	Temporal E7
+T21	Argument 3273 3318	will sell $18 billion worth of airplane parts
+T22	Purpose 1334 1336	to
+E8	Purpose:T22 Effect:T26 Cause:T27
+A12	Degree E8 Facilitate
+T26	Argument 1306 1333	being formed by the Kremlin
+T27	Argument 1337 1379	resuscitate the domestic aircraft industry
+T16	Consequence 2433 2441;2472 2474	allowing to
+E9	Consequence:T16 Effect:T23 Cause:T30
+A13	Degree E9 Facilitate
+T23	Argument 2442 2471;2475 2481	a delivery agreement for 2010 expire
+#1	AnnotatorNotes E9	Bad sentence structure – unclear who's doing the allowing. Perhaps the "by" is really attached to "suffered," but that makes less sense.
+T24	Argument 3324 3332	30 years
+T25	Argument 732 737	built
+T28	Argument 745 759	the Soviet era
+T29	NonCausal 738 744	during
+E10	NonCausal:T29 Arg0:T28 Arg1:T25
+A14	Temporal E10
+T30	Argument 2372 2380	Aeroflot

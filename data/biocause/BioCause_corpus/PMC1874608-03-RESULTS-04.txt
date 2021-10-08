@@ -1,0 +1,11 @@
+The hilE P3 promoter is repressed by Mlc 
+Baxter and Jones (18) have identified two independent hilE promoters, P1 and P2.
+We performed a primer extension assay of total RNA isolated from SL1344 grown to exponential phase in static culture, using the primer described by Baxter and Jones (18), to discover which promoter is regulated by Mlc.
+The transcriptional start site of one transcript, designated P1, agreed with the previous report, although the promoter activity was very low under the conditions used in our experiment (Figure 4A).
+We detected a stronger transcript, designated P2, upstream of P1, although the transcription start site of P2 was mapped 12 nucleotides upstream of that reported by Baxter and Jones (18) (Figures 4A and 5C).
+This difference could be attributed to differences in the experimental model conditions; in our study, total RNA from a Salmonella strain was used in the primer extension assay, whereas Baxter and Jones (18) used total RNA prepared from E. coli harboring the hilE reporter plasmid pMAB69.
+However, the activities of the two promoters were not changed by mlc mutation.
+Using a primer extension assay with the hilE5 primer (Table 2), the promoter of hilE, which is designated as P3, was newly identified; this promoter initiates 335 nucleotides upstream of the translation start site of hilE (Figure 4B, lane 1).
+We observed putative -10 (TTAAAT) and -35 (ATAACA) motifs for hilE P3 (Figure 4C) (37).
+Transcription from the P3 promoter was increased substantially by mlc mutation (Figure 4B, lane 2).
+The specificity of the Mlc effect was verified by complementation, as the plasmid pKB, which expresses mlc, restored the transcriptional level of hilE in SR1304 almost to that of the wild-type strain (Figure 4B, lane 4).

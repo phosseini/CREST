@@ -1,0 +1,92 @@
+T3	Motivation 364 369	since
+E1	Motivation:T3 Effect:T4 Cause:T5
+A1	Degree E1 Facilitate
+A2	Temporal E1
+T4	Argument 335 363	The attacks have intensified
+T5	Argument 370 492	the Colombian government began cracking down on the traffickers in August, trying to prevent their takeover of the country
+T7	NonCausal 998 1003	while
+E2	NonCausal:T7 Arg0:T8 Arg1:T9
+A3	Temporal E2
+T8	Argument 1004 1039	her car was stopped for a red light
+T9	Argument 909 996	The paper's local administrator, Maria Luz Lopez, was shot dead, and her mother wounded
+T11	Consequence 1350 1357	causing
+E3	Consequence:T11 Cause:T12 Effect:T13 Means:T29
+A4	Degree E3 Facilitate
+T12	Argument 1279 1283	They
+T13	Argument 1358 1380	$2.5 million in damage
+T14	Motivation 1423 1433	because of
+E4	Motivation:T14 Effect:T15 Cause:T16
+A5	Degree E4 Facilitate
+T15	Argument 1383 1422	El Espectador has been a special target
+T16	Argument 1434 1490	the extraordinary courage of its publisher and his staff
+T17	Motivation 1712 1719	because
+E5	Motivation:T17 Cause:T19 Effect:T18
+A6	Degree E5 Facilitate
+T18	Argument 1649 1711	They want to terrify the press and in particular El Espectador
+T19	Argument 1720 1764	it has always been a torchbearer in this war
+T20	Motivation 1236 1238	if
+E6	Motivation:T20 Effect:T21 Cause:T22
+A7	Degree E6 Facilitate
+A8	Hypothetical E6
+T21	Argument 1186 1235	they would blow up the Bogota newspaper's offices
+T22	Argument 1239 1277	it continued to distribute in Medellin
+T23	Note 3540 3544	mean
+#5	AnnotatorNotes T23	Inference
+T24	Consequence 3595 3597	If
+E7	Consequence:T24 Cause:T25 Effect:T26
+A9	Degree E7 Facilitate
+A10	Hypothetical E7
+T25	Argument 3598 3677	the cartel succeeds in blackmailing the Colombian authorities into negotiations
+T26	Argument 3679 3763	the cartel will be in control and Fidel can exploit his past relationships with them
+T31	Consequence 4520 4525	After
+E9	Consequence:T31 Cause:T32 Effect:T33
+A12	Degree E9 Facilitate
+A13	Temporal E9
+T32	Argument 4526 4543	the Panama fiasco
+T33	Argument 4545 4576	they will need some reassurance
+T34	Consequence 2183 2193	as long as
+E10	Consequence:T34 Effect:T35 Cause:T36
+A14	Degree E10 Facilitate
+T35	Argument 2109 2182	the state of press freedom in the Americas still must be regarded as grim
+T36	Argument 2194 2294	journalists and their families are subject to the crudest form of censorship: death by assassination
+T44	Consequence 455 462	prevent
+E8	Consequence:T44 Effect:T45 Cause:T46
+A11	Degree E8 Inhibit
+T45	Argument 463 492	their takeover of the country
+T46	Argument 370 394	the Colombian government
+T47	Motivation 1024 1027	for
+E11	Motivation:T47 Cause:T48 Effect:T49
+A15	Degree E11 Facilitate
+T48	Argument 1028 1039	a red light
+T49	Argument 1004 1023	her car was stopped
+A16	Temporal E10
+T50	Motivation 3660 3664	into
+E12	Motivation:T50 Effect:T51 Cause:T52
+A17	Degree E12 Facilitate
+T51	Argument 3665 3677	negotiations
+T52	Argument 3621 3659	blackmailing the Colombian authorities
+T53	Purpose 4023 4026	for
+E13	Purpose:T53 Cause:T54 Effect:T55
+A18	Degree E13 Facilitate
+T54	Argument 4027 4032	trial
+T55	Argument 3980 4022	He will probably be extradited to the U.S.
+T56	NonCausal 4323 4329	within
+E14	NonCausal:T56 Arg1:T6
+T58	Purpose 4426 4428	to
+E15	Purpose:T58 Effect:T59 Cause:T60
+A19	Degree E15 Facilitate
+T59	Argument 4318 4425	meet within 90 days with Mr. Barco, President Alan Garcia of Peru and President Jaime Paz Zamora of Bolivia
+T60	Argument 4429 4453	discuss the drug problem
+T61	NonCausal 102 106	Over
+E16	NonCausal:T61 Arg1:T1 Arg0:T10
+A20	Temporal E16
+T1	Argument 128 268	six journalists have been killed and 10 kidnapped by drug traffickers or leftist guerrillas -- who often are one and the same -- in Colombia
+T2	NonCausal 270 274	Over
+E17	NonCausal:T2 Arg1:T27 Arg0:T28
+A21	Temporal E17
+T27	Argument 294 333	at least 40 journalists have died there
+T6	Argument 4318 4322;4338 4453	meet with Mr. Barco, President Alan Garcia of Peru and President Jaime Paz Zamora of Bolivia to discuss the drug problem
+A22	Temporal E14
+T10	Argument 107 126	the past six months
+T28	Argument 275 292	the past 12 years
+T29	Argument 1284 1320	bombed the Bogota offices last month

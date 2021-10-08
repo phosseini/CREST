@@ -1,0 +1,54 @@
+T1	NonCausal 113 117	when
+E1	NonCausal:T1 Arg1:T2 Arg0:T3
+A1	Temporal E1
+T2	Argument 0 112	An expected less-than-warm welcome at the Group of 8 meeting was also clearly on President Bush's mind this week
+T3	Argument 118 179	he announced an expanded plan to combat AIDS in foreign lands
+T4	Consequence 256 266	preventing
+E2	Consequence:T4 Effect:T5
+A2	Degree E2 Inhibit
+T5	Argument 280 284	AIDS
+T6	Consequence 292 300	spurring
+E3	Consequence:T6 Effect:T8
+A3	Degree E3 Facilitate
+T8	Argument 301 362	a wider global fight against H.I.V., the virus that causes it
+T19	Consequence 1029 1038	prevented
+E7	Consequence:T19 Cause:T20 Effect:T21
+A9	Degree E7 Inhibit
+T20	Argument 938 949	The program
+T21	Argument 1039 1065	millions of new infections
+T22	Consequence 353 359	causes
+E8	Consequence:T22 Cause:T23 Effect:T24
+A10	Degree E8 Facilitate
+T23	Argument 348 352	that
+T24	Argument 360 362	it
+T25	Motivation 1102 1106	with
+E9	Motivation:T25 Cause:T26 Effect:T27
+A11	Degree E9 Facilitate
+A12	Context E9
+T26	Argument 1107 1158	the first five-year program set to expire next year
+T27	Argument 1160 1286	the president has proposed a five-year extension with almost twice the financing -- $30 billion over fiscal years 2009 to 2013
+T28	Consequence 1328 1332	when
+E10	Consequence:T28 Cause:T29 Effect:T30
+A13	Degree E10 Facilitate
+T29	Argument 1333 1368	added to the first five-year effort
+A16	Context E10
+T30	Argument 1322 1326;1370 1522	this would bring the total number of people treated to 2.5 million people, prevent 12 million new infections and provide care for more than 12 million people
+T31	Consequence 1440 1447	prevent
+E11	Consequence:T31 Effect:T32 Cause:T33
+A17	Degree E11 Inhibit
+T32	Argument 1448 1473	12 million new infections
+T33	Argument 1322 1326	this
+T35	Consequence 1579 1588	needed to
+E12	Consequence:T35 Cause:T36 Effect:T37
+A18	Degree E12 Facilitate
+T36	Argument 1572 1576	what
+T37	Argument 1589 1615	curb the widening epidemic
+T44	Note 692 700	launched
+#8	AnnotatorNotes T44	Not the right sense of "launch" even for inception
+T7	Argument 338 347	the virus
+R2	Coref Arg1:T23 Arg2:T7	
+T9	Motivation 489 497	Inspired
+E4	Motivation:T9 Cause:T10 Effect:T11
+A4	Degree E4 Facilitate
+T10	Argument 511 673	the fact that Christian conservatives, his party's base, have embraced AIDS as a cause and by the need to burnish America's image in an increasingly hostile world
+T11	Argument 675 799	Mr. Bush in 2003 launched a five-year, $15 billion program to support treatment, prevention and care in developing countries

@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_1006</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-26</TIMEX3></DCT>
+<TEXT>
+ In a stunning <EVENT eid="e1" class="OCCURRENCE">shift</EVENT> in direction, Provigo Inc. <EVENT eid="e2" class="REPORTING">said</EVENT> it will <EVENT eid="e3" class="OCCURRENCE">sell</EVENT> all its non-food operations to <EVENT eid="e4" class="OCCURRENCE">concentrate</EVENT> solely on its retail and wholesale grocery business.
+ The non-food operations <EVENT eid="e5" class="OCCURRENCE">accounted</EVENT> for about 27 % of Provigo's 7.38 billion Canadian dollars ( US $ 6.3 billion ) in sales in <TIMEX3 tid="t6" type="DATE" value="1988" anchorTimeID="t0" functionInDocument="NONE">the latest fiscal year</TIMEX3>.
+ In a related <EVENT eid="e7" class="OCCURRENCE">move</EVENT>, Pierre Lortie, chairman and chief executive, <EVENT eid="e8" class="OCCURRENCE">resigned</EVENT>.
+ Mr. Lortie <EVENT eid="e9" class="OCCURRENCE">joined</EVENT> Provigo in <TIMEX3 tid="t10" type="DATE" value="1985" functionInDocument="NONE">1985</TIMEX3> and <EVENT eid="e11" class="OCCURRENCE">spearheaded</EVENT> the company's <EVENT eid="e12" class="OCCURRENCE">drive</EVENT> to <EVENT eid="e13" class="OCCURRENCE">grow</EVENT> outside its traditional food business.
+ He couldn't be <EVENT eid="e14" class="OCCURRENCE">reached</EVENT> for comment.
+ Bertin Nadeau, newly <EVENT eid="e15" class="OCCURRENCE">appointed</EVENT> chairman and interim chief executive of Provigo, wouldn't <EVENT eid="e16" class="REPORTING">say</EVENT> if Mr. Lortie was <EVENT eid="e17" class="I_ACTION">asked</EVENT> to <EVENT eid="e18" class="OCCURRENCE">leave</EVENT>.
+ " Mr.
+ Lortie <EVENT eid="e19" class="OCCURRENCE">felt</EVENT> less pertinent, " Mr. Nadeau <EVENT eid="e20" class="REPORTING">said</EVENT>, given the <EVENT eid="e21" class="I_ACTION">decision</EVENT> to <EVENT eid="e22" class="OCCURRENCE">dump</EVENT> Provigo's non-food operations.
+ " At this stage it was <EVENT eid="e23" class="OCCURRENCE">felt</EVENT> I was perhaps more pertinent as chief executive. "
+ Mr. Nadeau also is chairman and chief executive of Unigesco Inc., Provigo's controlling shareholder.
+ At a news conference, Mr. Nadeau <EVENT eid="e24" class="REPORTING">said</EVENT> the <EVENT eid="e25" class="OCCURRENCE">sale</EVENT> of the three non-food businesses, which account for nearly half the company's C $ 900 million in assets, should be <EVENT eid="e26" class="ASPECTUAL">completed</EVENT> in a " matter of months. "
+ The three units are a nationwide pharmaceutical and health-products distributor, a small sporting-goods chain, and a combination catalog showroom and toy-store chain.
+ Investors and analysts <EVENT eid="e27" class="OCCURRENCE">applauded</EVENT> the news.
+ Provigo was the most active industrial stock on the Montreal Exchange, where it <EVENT eid="e28" class="OCCURRENCE">closed</EVENT> at C $ 9.75 ( US $ 8.32 ), up 75 Canadian cents.
+ " I <EVENT eid="e29" class="I_STATE">think</EVENT> it's a pretty positive <EVENT eid="e30" class="OCCURRENCE">development</EVENT>, " <EVENT eid="e31" class="REPORTING">said</EVENT> Ross Cowan, a financial analyst with Levesque Beaubien Geoffrion Inc., of the <EVENT eid="e32" class="OCCURRENCE">decision</EVENT> to <EVENT eid="e33" class="OCCURRENCE">concentrate</EVENT> on groceries.
+ Mr. Lortie's <EVENT eid="e34" class="OCCURRENCE">departure</EVENT>, while sudden, was <EVENT eid="e35" class="PERCEPTION">seen</EVENT> as <EVENT eid="e36" class="STATE">inevitable</EVENT> in light of the <EVENT eid="e37" class="OCCURRENCE">shift</EVENT> in strategy.
+ " The non-food operations were largely Mr. Lortie's creation { and } his strategy didn't <EVENT eid="e38" class="OCCURRENCE">work</EVENT>, " <EVENT eid="e39" class="REPORTING">said</EVENT> Steven Holt, a financial analyst with Midland Doherty Ltd.
+ Provigo's profit record over <TIMEX3 tid="t40" type="DURATION" value="P2Y" functionInDocument="NONE">the past two years</TIMEX3> <EVENT eid="e41" class="OCCURRENCE">tarnished</EVENT> the company's and Mr. Lortie's reputations.
+ For <TIMEX3 tid="t42" type="DURATION" value="P6M" functionInDocument="NONE">the six months</TIMEX3> <EVENT eid="e43" class="ASPECTUAL">ended</EVENT> <TIMEX3 tid="t44" type="DATE" value="1989-08-12" anchorTimeID="t0" functionInDocument="NONE">Aug. 12</TIMEX3>, Provigo <EVENT eid="e45" class="OCCURRENCE">posted</EVENT> net income of C $ 6.5 million, or eight Canadian cents a share, compared with C $ 18.1 million, or 21 Canadian cents a share, <TIMEX3 tid="t46" type="DATE" value="1988-08-12" anchorTimeID="t44" functionInDocument="NONE">a year earlier</TIMEX3>.
+ Sales were C $ 4.2 billion compared with C $ 3.7 billion.
+ <TIMEX3 tid="t47" type="DATE" value="1989-09" anchorTimeID="t0" functionInDocument="NONE">Last month</TIMEX3>, Canadian Bond Rating Service <EVENT eid="e48" class="OCCURRENCE">downgraded</EVENT> Provigo's commercial paper and debentures <C-SIGNAL cid="c49">because of</C-SIGNAL> its lackluster <EVENT eid="e50" class="OCCURRENCE">performance</EVENT>.
+ Analysts are <EVENT eid="e51" class="I_STATE">skeptical</EVENT> Provigo will be able to <EVENT eid="e52" class="OCCURRENCE">sell</EVENT> the non-food businesses as a group for at least book value, <C-SIGNAL cid="c53">and</C-SIGNAL> are <EVENT eid="e54" class="I_STATE">expecting</EVENT> <EVENT eid="e55" class="OCCURRENCE">write-downs</EVENT>.
+ Mr. Nadeau <EVENT eid="e56" class="REPORTING">said</EVENT> he couldn't yet <EVENT eid="e57" class="REPORTING">say</EVENT> if the sale prices would <EVENT eid="e58" class="OCCURRENCE">match</EVENT> book values.
+ He <EVENT eid="e59" class="REPORTING">said</EVENT> all three non-food operations are <EVENT eid="e60" class="STATE">profitable</EVENT>.
+ Mr. Nadeau <EVENT eid="e61" class="REPORTING">said</EVENT> <EVENT eid="e62" class="OCCURRENCE">discussions</EVENT> are under way with potential purchasers of each of the units.
+ He <EVENT eid="e63" class="OCCURRENCE">declined</EVENT> to <EVENT eid="e64" class="REPORTING">confirm</EVENT> or <EVENT eid="e65" class="REPORTING">deny</EVENT> <EVENT eid="e66" class="REPORTING">reports</EVENT> that Provigo executive Henri Roy is <EVENT eid="e67" class="I_ACTION">trying</EVENT> to <EVENT eid="e68" class="OCCURRENCE">put</EVENT> together a management <EVENT eid="e69" class="OCCURRENCE">buy-out</EVENT> of the catalogue showroom unit.
+ Mr. Roy couldn't be <EVENT eid="e70" class="OCCURRENCE">reached</EVENT>.
+ Yvon Bussieres was <EVENT eid="e71" class="I_ACTION">named</EVENT> senior executive vice president and chief operating officer of Provigo, a new position.
+ Mr. Bussieres was president and chief operating officer of Provigo's Quebec retail and wholesale grocery unit.
+ Mr. Nadeau <EVENT eid="e72" class="REPORTING">said</EVENT> he <EVENT eid="e73" class="I_STATE">intends</EVENT> to <EVENT eid="e74" class="STATE">remain</EVENT> Provigo's chief executive only until the non-food businesses are <EVENT eid="e75" class="OCCURRENCE">sold</EVENT>, after a which a new chief executive will be <EVENT eid="e76" class="OCCURRENCE">named</EVENT>.
+</TEXT>
+<MAKEINSTANCE eventID="e56" eiid="ei56" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e54" eiid="ei54" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e51" eiid="ei51" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e48" eiid="ei48" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e60" eiid="ei60" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e61" eiid="ei61" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e62" eiid="ei62" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e63" eiid="ei63" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e64" eiid="ei64" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e65" eiid="ei65" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e66" eiid="ei66" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e67" eiid="ei67" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e68" eiid="ei68" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e69" eiid="ei69" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e52" eiid="ei52" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="NONE" aspect="PERFECTIVE" polarity="POS" modality="should" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e45" eiid="ei45" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e41" eiid="ei41" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e39" eiid="ei39" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e76" eiid="ei76" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e75" eiid="ei75" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e38" eiid="ei38" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e73" eiid="ei73" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e72" eiid="ei72" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e71" eiid="ei71" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e70" eiid="ei70" tense="NONE" aspect="PERFECTIVE" polarity="NEG" modality="could" pos="VERB"/>
+<MAKEINSTANCE eventID="e59" eiid="ei59" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e58" eiid="ei58" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="PERFECTIVE" polarity="NEG" modality="could" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="NONE" aspect="NONE" polarity="NEG" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e37" eiid="ei37" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e55" eiid="ei55" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e74" eiid="ei74" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e57" eiid="ei57" tense="NONE" aspect="NONE" polarity="NEG" modality="could" pos="VERB"/>
+<MAKEINSTANCE eventID="e50" eiid="ei50" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei2"/>
+<TLINK lid="l2" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei2"/>
+<TLINK lid="l3" relType="ENDS" eventInstanceID="ei5" relatedToTime="t6"/>
+<TLINK lid="l4" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei8"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t10"/>
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei11" relatedToEventInstance="ei9"/>
+<TLINK lid="l7" relType="BEGINS" eventInstanceID="ei11" relatedToEventInstance="ei12"/>
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei14" relatedToTime="t0"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei15" relatedToTime="t0"/>
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei15" relatedToEventInstance="ei8"/>
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei8"/>
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei23" relatedToEventInstance="ei20"/>
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei24" relatedToTime="t0"/>
+<TLINK lid="l14" relType="IDENTITY" eventInstanceID="ei25" relatedToEventInstance="ei3"/>
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei31" relatedToTime="t0"/>
+<TLINK lid="l16" relType="IDENTITY" eventInstanceID="ei32" relatedToEventInstance="ei21"/>
+<TLINK lid="l17" relType="IDENTITY" eventInstanceID="ei34" relatedToEventInstance="ei8"/>
+<TLINK lid="l18" relType="SIMULTANEOUS" eventInstanceID="ei35" relatedToEventInstance="ei34"/>
+<TLINK lid="l19" relType="SIMULTANEOUS" eventInstanceID="ei37" relatedToEventInstance="ei36"/>
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei39" relatedToTime="t0"/>
+<TLINK lid="l21" relType="INCLUDES" timeID="t40" relatedToEventInstance="ei41"/>
+<TLINK lid="l22" relType="ENDED_BY" timeID="t42" relatedToEventInstance="ei43"/>
+<TLINK lid="l23" relType="SIMULTANEOUS" eventInstanceID="ei43" relatedToTime="t44"/>
+<TLINK lid="l24" relType="DURING" eventInstanceID="ei45" relatedToTime="t44"/>
+<TLINK lid="l25" relType="INCLUDES" timeID="t47" relatedToEventInstance="ei48"/>
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei50" relatedToEventInstance="ei48"/>
+<TLINK lid="l28" relType="SIMULTANEOUS" eventInstanceID="ei51" relatedToEventInstance="ei54"/>
+<TLINK lid="l30" relType="IS_INCLUDED" eventInstanceID="ei54" relatedToTime="t0"/>
+<TLINK lid="l31" relType="IDENTITY" eventInstanceID="ei56" relatedToEventInstance="ei24"/>
+<TLINK lid="l32" relType="IDENTITY" eventInstanceID="ei59" relatedToEventInstance="ei56"/>
+<TLINK lid="l33" relType="DURING" eventInstanceID="ei60" relatedToTime="t0"/>
+<TLINK lid="l34" relType="IDENTITY" eventInstanceID="ei61" relatedToEventInstance="ei59"/>
+<TLINK lid="l35" relType="IS_INCLUDED" eventInstanceID="ei62" relatedToTime="t42"/>
+<TLINK lid="l36" relType="AFTER" eventInstanceID="ei63" relatedToEventInstance="ei61"/>
+<TLINK lid="l37" relType="SIMULTANEOUS" eventInstanceID="ei64" relatedToEventInstance="ei65"/>
+<TLINK lid="l38" relType="SIMULTANEOUS" eventInstanceID="ei67" relatedToEventInstance="ei66"/>
+<TLINK lid="l39" relType="BEFORE" eventInstanceID="ei68" relatedToEventInstance="ei69"/>
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei70" relatedToTime="t44"/>
+<TLINK lid="l41" relType="AFTER" eventInstanceID="ei71" relatedToEventInstance="ei75"/>
+<TLINK lid="l42" relType="IDENTITY" eventInstanceID="ei72" relatedToEventInstance="ei61"/>
+<TLINK lid="l43" relType="BEFORE" eventInstanceID="ei74" relatedToEventInstance="ei75"/>
+<TLINK lid="l44" relType="AFTER" eventInstanceID="ei76" relatedToEventInstance="ei75"/>
+<CLINK lid="l27" c-signalID="c49" eventInstanceID="ei50" relatedToEventInstance="ei48"/>
+<CLINK lid="l29" c-signalID="c53" eventInstanceID="ei51" relatedToEventInstance="ei54"/>
+</TimeML>

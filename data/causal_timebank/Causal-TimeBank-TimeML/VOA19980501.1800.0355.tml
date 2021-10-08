@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>VOA19980501.1800.0355</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-05-01" temporalFunction="false" functionInDocument="CREATION_TIME">1998-05-01</TIMEX3></DCT>
+<TEXT>
+ Israeli Prime Minister Benjamin Netanyahu <EVENT eid="e1" class="REPORTING">says</EVENT> considerable gaps <EVENT eid="e2" class="ASPECTUAL">remain</EVENT> between Israeli and Palestinian positions before <TIMEX3 tid="t3" type="DATE" value="1998-W19" anchorTimeID="t0" functionInDocument="NONE">next week</TIMEX3>'s <EVENT eid="e4" class="OCCURRENCE">talks</EVENT> in London.
+ He and Palestinian leader Yasser Arafat <EVENT eid="e5" class="OCCURRENCE">meet</EVENT> separately <TIMEX3 tid="t6" type="DATE" value="1998-05-04" anchorTimeID="t0" functionInDocument="NONE">Monday</TIMEX3> with US Secretary of State Madeleine Albright.
+ At a news <EVENT eid="e7" class="OCCURRENCE">conference</EVENT> with US Vice President Al Gore in Jerusalem, Mr. Netanyahu <EVENT eid="e8" class="I_ACTION">suggested</EVENT> Israel might be <EVENT eid="e9" class="I_STATE">willing</EVENT> to <EVENT eid="e10" class="OCCURRENCE">move</EVENT> a little on issues <EVENT eid="e11" class="I_STATE">holding</EVENT> up peace, but he <EVENT eid="e12" class="REPORTING">said</EVENT> he <EVENT eid="e13" class="I_STATE">expects</EVENT> an equal <EVENT eid="e14" class="OCCURRENCE">effort</EVENT> from the Palestinians.
+ If Israel is <EVENT eid="e15" class="I_ACTION">asked</EVENT> to uh <EVENT eid="e16" class="OCCURRENCE">stretch</EVENT> itself on matters that are vital to its security concerns, then we must <EVENT eid="e17" class="PERCEPTION">see</EVENT> an equal effort on the other side.
+ Mr. Gore <EVENT eid="e18" class="I_ACTION">called</EVENT> on Israel to <EVENT eid="e19" class="ASPECTUAL">continue</EVENT> <EVENT eid="e20" class="OCCURRENCE">taking</EVENT> risks for peace.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="NONE" aspect="NONE" polarity="POS" modality="must" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="PROGRESSIVE" polarity="POS" modality="might" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t3"/>
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t6"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei8" relatedToEventInstance="ei7"/>
+<TLINK lid="l6" relType="INCLUDES" eventInstanceID="ei11" relatedToEventInstance="ei10"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei12" relatedToTime="t0"/>
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei15" relatedToTime="t0"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei18" relatedToTime="t0"/>
+</TimeML>

@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0132</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-02</TIMEX3></DCT>
+<TEXT>
+ N.V. DSM <EVENT eid="e1" class="REPORTING">said</EVENT> net income in <TIMEX3 tid="t2" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">the third quarter</TIMEX3> <EVENT eid="e3" class="OCCURRENCE">jumped</EVENT> 63 % as the company <EVENT eid="e4" class="OCCURRENCE">had</EVENT> substantially lower extraordinary <EVENT eid="e5" class="OCCURRENCE">charges</EVENT> to <EVENT eid="e6" class="OCCURRENCE">account</EVENT> for a restructuring program.
+ The Dutch chemical group <EVENT eid="e7" class="REPORTING">said</EVENT> net income <EVENT eid="e8" class="OCCURRENCE">gained</EVENT> to 235 million guilders ( $ 113.2 million ), or 6.70 guilders a share, from 144 million guilders, or 4.10 guilders a share, <TIMEX3 tid="t9" type="DATE" value="1988" anchorTimeID="t0" functionInDocument="NONE">a year ago</TIMEX3>.
+ The 32 % state-owned DSM <EVENT eid="e10" class="OCCURRENCE">had</EVENT> eight million guilders of extraordinary <EVENT eid="e11" class="OCCURRENCE">charges</EVENT> in <TIMEX3 tid="t12" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">the latest quarter</TIMEX3>, mainly to <EVENT eid="e13" class="REPORTING">reflect</EVENT> one-time <EVENT eid="e14" class="OCCURRENCE">losses</EVENT> <C-SIGNAL cid="c15">in connection with</C-SIGNAL> the <EVENT eid="e16" class="OCCURRENCE">disposal</EVENT> of some operations.
+ The charges were <EVENT eid="e17" class="OCCURRENCE">offset</EVENT> in part <C-SIGNAL cid="c18">by</C-SIGNAL> a <EVENT eid="e19" class="OCCURRENCE">gain</EVENT> <C-SIGNAL cid="c20">from</C-SIGNAL> the <EVENT eid="e21" class="OCCURRENCE">sale</EVENT> of the company's construction division.
+ <TIMEX3 tid="t22" type="DATE" value="1988" anchorTimeID="t0" functionInDocument="NONE">Last year</TIMEX3>, DSM <EVENT eid="e23" class="OCCURRENCE">had</EVENT> 71 million guilders of extraordinary <EVENT eid="e24" class="OCCURRENCE">charges</EVENT> for the restructuring program and other transactions.
+ The earnings <EVENT eid="e25" class="OCCURRENCE">growth</EVENT> also was <EVENT eid="e26" class="OCCURRENCE">fueled</EVENT> by the company's ability to <EVENT eid="e27" class="OCCURRENCE">cut</EVENT> net financing spending by half to around 15 million guilders.
+ Also, substantially lower Dutch corporate tax rates <EVENT eid="e28" class="OCCURRENCE">helped</EVENT> the company <EVENT eid="e29" class="ASPECTUAL">keep</EVENT> its tax outlay flat relative to earnings growth, the company <EVENT eid="e30" class="REPORTING">added</EVENT>.
+ Sales, however, were little <EVENT eid="e31" class="OCCURRENCE">changed</EVENT> at 2.46 billion guilders, compared with 2.42 billion guilders.
+</TEXT>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="PAST" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToEventInstance="ei1"/>
+<TLINK lid="l2" relType="BEFORE" timeID="t2" relatedToTime="t0"/>
+<TLINK lid="l3" relType="ENDED_BY" eventInstanceID="ei3" relatedToTime="t2"/>
+<TLINK lid="l4" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei1"/>
+<TLINK lid="l5" relType="IDENTITY" eventInstanceID="ei8" relatedToEventInstance="ei3"/>
+<TLINK lid="l6" relType="BEFORE" timeID="t9" relatedToTime="t0"/>
+<TLINK lid="l7" relType="IDENTITY" eventInstanceID="ei11" relatedToEventInstance="ei5"/>
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t12"/>
+<TLINK lid="l9" relType="IDENTITY" timeID="t12" relatedToTime="t2"/>
+<TLINK lid="l10" relType="IAFTER" eventInstanceID="ei14" relatedToEventInstance="ei16"/>
+<TLINK lid="l12" relType="IAFTER" eventInstanceID="ei19" relatedToEventInstance="ei21"/>
+<TLINK lid="l15" relType="BEFORE" timeID="t22" relatedToTime="t0"/>
+<TLINK lid="l16" relType="IDENTITY" eventInstanceID="ei25" relatedToEventInstance="ei3"/>
+<TLINK lid="l17" relType="SIMULTANEOUS" eventInstanceID="ei26" relatedToEventInstance="ei25"/>
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei27" relatedToEventInstance="ei26"/>
+<TLINK lid="l20" relType="SIMULTANEOUS" eventInstanceID="ei28" relatedToEventInstance="ei29"/>
+<TLINK lid="l21" relType="IAFTER" eventInstanceID="ei30" relatedToEventInstance="ei1"/>
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei31" relatedToEventInstance="ei1"/>
+<CLINK lid="l11" c-signalID="c15" eventInstanceID="ei16" relatedToEventInstance="ei14"/>
+<CLINK lid="l13" c-signalID="c18" eventInstanceID="ei19" relatedToEventInstance="ei17"/>
+<CLINK lid="l14" c-signalID="c20" eventInstanceID="ei21" relatedToEventInstance="ei19"/>
+<CLINK lid="l19" eventInstanceID="ei27" relatedToEventInstance="ei25"/>
+</TimeML>

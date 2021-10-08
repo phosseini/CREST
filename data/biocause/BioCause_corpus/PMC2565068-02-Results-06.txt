@@ -1,0 +1,10 @@
+csrS mutation is important in the pathogenesis of invasive infections in a mouse model 
+In order to elucidate the role of csrS, in infections in vivo, we compared the virulence of GAS isolates using a mouse model which infected GAS intraperitoneally.
+The non-invasive 1566 strain displayed the LD50 value approximately 100-fold higher than that of the severe invasive NIH230 strain (Table 1), whereas a csrS deletion (1566DeltacsrS) caused an increase in the LD50 value comparable to that of the NIH230 strain.
+Consistently, an introduction of the intact csrS gene into the NIH230 strain (NIH230::csrS+) reduced the LD50 value to the level observed in the non-invasive strain.
+These results indicate that csrS is an important virulence factor in the mouse model of lethal infections.
+As shown in Figure 7A, the NIH230 strain caused bacteremia in mice 24 h after intraperitoneal injection whereas the bacteremia was barely detected in mice infected with NIH230::csrS+as well as the 1566 strain (p=0.005 compared with non-invasive isolates, and p=0.005 compared with invasive isolates +CsrS).
+Histopathologically, in the mice injected with the NIH230 strain, bacteria formed clusters in interstitial tissues in the kidneys and the lungs, accompanied congestion and no inflammatory cells at infectious foci (Figure 7B, 7C and data not shown).
+Contrarily, no significant pathological alterations were observed in the mice injected with the 1566 and NIH230::csrS+ strains (Figure 7B and 7C).
+Figure 7D shows that subcutaneous infection of NIH230 formed the infected lesions with area significantly larger than those of 1566 and NIH230::csrS+.
+These results suggest that the invasive GAS isolates are more virulent in vivo than non-invasive GAS, and impair PMN function in vivo, owing, at least in part, to the mutations in the csrS gene.

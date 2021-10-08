@@ -1,0 +1,19 @@
+T1	Consequence 175 182;191 195	prevent from
+E1	Consequence:T1 Effect:T2 Cause:T3
+A1	Degree E1 Inhibit
+T2	Argument 185 190;196 213	Royal acquiring Realist
+T3	Argument 76 106	Realist Inc. and its directors
+T4	Note 585 591	thwart
+#1	AnnotatorNotes T4	Object is not an action.
+T5	Motivation 754 759	after
+E2	Motivation:T5 Cause:T6 Effect:T7
+A3	Degree E2 Facilitate
+A4	Temporal E2
+T6	Argument 760 797	Realist disclosed the Ammann purchase
+T7	Argument 611 753	Royal withdrew its offer to buy Realist, a maker of optical and electronic products based in Menomonee Falls, Wis., for $14.06 a share in July
+T8	Motivation 958 963	until
+E3	Motivation:T8 Effect:T9 Cause:T10
+A5	Degree E3 Inhibit
+A6	Temporal E3
+T9	Argument 878 889;933 957	the company wouldn't have a response
+T10	Argument 964 998	it had an opportunity to review it

@@ -1,0 +1,78 @@
+T1	Consequence 108 117;130 132;152 157	necessary if is to
+E1	Consequence:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+A2	Hypothetical E1
+T3	Argument 121 129	Mexico's
+T4	Consequence 650 655;661 663	allow to
+E2	Consequence:T4 Cause:T5 Effect:T6
+A3	Degree E2 Facilitate
+T5	Argument 640 644	This
+T6	Argument 656 660;664 703	them get better wages and working conditions
+T7	NonCausal 1217 1222	after
+E3	NonCausal:T7 Arg1:T8 Arg0:T9
+A4	Temporal E3
+T8	Argument 1189 1216	they return home for a year
+T9	Argument 1223 1256	working across the border for two
+T10	Consequence 1339 1345	ensure
+E4	Consequence:T10 Cause:T11 Effect:T12
+A5	Degree E4 Facilitate
+T11	Argument 1330 1332	It
+T12	Argument 1346 1404	the continued flow of money back to workers' families here
+T22	Consequence 1899 1907	generate
+E8	Consequence:T22 Cause:T23 Effect:T24
+A9	Degree E8 Facilitate
+T23	Argument 1876 1881	which
+A10	Creation-termination E8
+T24	Argument 1908 1931	abuses and mistreatment
+T25	Argument 1807 1874	unduly harsh enforcement provisions at the border and the workplace
+R1	Coref Arg1:T23 Arg2:T25	
+T26	Consequence 1940 1942	if
+E9	Consequence:T26 Cause:T27 Effect:T28
+A11	Degree E9 Facilitate
+A12	Hypothetical E9
+T27	Argument 1943 2023	every Mexican in the United States who arrived before Jan. 1, 2007, is legalized
+T28	Argument 2025 2116	enforcement inside the United States, including discriminatory raids, will become redundant
+T29	Consequence 2122 2124	if
+E10	Consequence:T29 Cause:T30 Effect:T31
+A13	Degree E10 Facilitate
+A14	Hypothetical E10
+T30	Argument 2125 2193	nearly everyone who wants to go north can obtain a guest-worker visa
+T31	Argument 2195 2274	there will be no need to cross illegally and face rough treatment at the border
+T32	Consequence 2692 2699;2759 2761	allowed to
+E11	Consequence:T32 Cause:T33 Effect:T34
+A15	Degree E11 Facilitate
+A16	Obligation-permission E11
+A17	Obligation-permission E2
+T33	Argument 2662 2680	The earlier figure
+T34	Argument 2700 2758;2762 2781	roughly the same number of workers who now cross illegally obtain guest status
+T35	Consequence 2787 2789	if
+E12	Consequence:T35 Cause:T36 Effect:T37
+A18	Degree E12 Facilitate
+A19	Hypothetical E12
+T36	Argument 2790 2821	the final law has too few slots
+T37	Argument 2823 2896	it will not end illegal immigration, but simply perpetuate the status quo
+T2	Argument 133 151;158 165	immigration reform succeed
+T38	Consequence 650 655;705 707	allow to
+E13	Consequence:T38 Effect:T39 Cause:T5
+A20	Degree E13 Facilitate
+A21	Obligation-permission E13
+T39	Argument 656 660;708 759	them become eligible for mortgages and driver's licenses
+T40	Consequence 650 655;761 763	allow to
+E14	Consequence:T40 Effect:T41 Cause:T5
+A22	Degree E14 Facilitate
+A23	Obligation-permission E14
+T41	Argument 656 660;764 780	them travel back home
+T45	Note 1990 1996	before
+#4	AnnotatorNotes T45	Add as non-causal
+T42	Argument 656 660;788 826	them have an immensely better everyday life
+T46	Consequence 650 655;785 787	allow to
+E15	Consequence:T46 Effect:T42 Cause:T5
+A24	Degree E15 Facilitate
+T19	NonCausal 1990 1996	before
+E7	NonCausal:T19 Arg0:T20 Arg1:T21
+A8	Temporal E7
+T20	Argument 1997 2009	Jan. 1, 2007
+T21	Argument 1978 1989	who arrived
+T13	Note 1489 1491	to
+#1	AnnotatorNotes T13	Not "in the hopes of"
+#2	AnnotatorNotes T3	Ellipsis...would need post-processing to get "cooperation."

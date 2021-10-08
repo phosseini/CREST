@@ -1,0 +1,46 @@
+T1	Protein 0 4	SrcA
+T2	Protein 115 119	SrcA
+T3	Protein 200 204	SrcA
+T4	Protein 408 412	SrcA
+T5	Organism 418 428	Salmonella
+T6	Protein 498 502	srcA
+T7	Protein 544 548	srcA
+T8	Organism 707 718	srcA mutant
+T9	Protein 707 711	srcA
+T10	Protein 1041 1045	SrcA
+T11	Protein 1197 1201	SseL
+T12	Protein 1271 1275	SrcA
+T13	Protein 1301 1305	SseL
+T14	Protein 1353 1357	SrcA
+T15	Protein 1477 1481	OmpF
+T16	Organism 1730 1741	srcA mutant
+T17	Protein 1730 1734	srcA
+T18	Protein 1870 1874	SseL
+T19	Protein 1882 1887	PipB2
+T20	Organism 1943 1954	srcA mutant
+T21	Protein 1943 1947	srcA
+T22	Protein 2110 2114	srcA
+T23	Organism 2159 2170	srcA mutant
+T24	Protein 2159 2163	srcA
+T25	Binding 5 10	binds
+T26	Localization 1914 1922	secreted
+T27	Gene_expression 1975 1982	reached
+T28	Gene_expression 2096 2106	expression
+E1	Binding:T25 Theme:T1
+E2	Localization:T26 Theme:T18
+M1	Negation E2
+E3	Localization:T26 Theme:T19
+M2	Negation E3
+E4	Gene_expression:T27 Theme:T18
+E5	Gene_expression:T27 Theme:T19
+E6	Gene_expression:T28 Theme:T22
+T29	Span 215 428	First, we used stable isotope labeling of amino acids in cell culture (SILAC) [28] in conjunction with quantitative mass spectrometry-based proteomics to identify cargo immunoprecipitated with SrcA from Salmonella
+T30	Span 55 213	Since structural and biochemical data unambiguously defined SrcA as a T3SS-associated chaperone, we used two experimental approaches to identify SrcA cargo(s)
+T31	Causality 215 215	
+E7	Causality:T31 Effect:T30 Evidence:T29
+T32	Span 1575 1848	Secondly, to verify the mass spectrometry data and to identify other possible effector cargo, we examined the secretion profiles of wild type cells and an srcA mutant that each expressed HA-tagged effector genes, the products of which are secreted by the SPI-2-encoded T3SS
+E8	Causality:T31 Effect:T30 Evidence:T32
+T33	Span 1850 2024	Using this approach SseL-HA and PipB2-HA were depleted from the secreted protein fraction of srcA mutant cells (Fig. 5C) but reached similar levels in the bacterial cytoplasm
+T34	Causality 2036 2047	As expected
+E9	Causality:T34 Effect:T35 Evidence:T33
+T35	Span 2048 2170	from data with the complemented mutant in vivo, expression of srcA in trans restored effector secretion in the srcA mutant

@@ -1,0 +1,9 @@
+Additional Type II Cluster Example 
+Another cluster, spy1725-1719, contained six genes that together (though not individually) exhibited significant downregulation.
+The genes spy1724, spy1722, spy1721, and spy1719 share transcriptional order and predicted function with homologs in the nusA-infB protein biosynthesis operon of Bacillus subtilis and Escherichia coli [51].
+We examined the spy1725 and spy1723 gene products (annotated as hypothetical proteins [14]) for similarities with known proteins that might indicate a role for these gene products in protein biosynthesis.
+BlastP analysis aligned the spy1725 gene product, which has homologs in all sequenced streptococcal genomes, with the SP14.3 protein from S. pneumoniae [52] (80% sequence similarity; 67% identity).
+Based on structural characterization, SP14.3 is a predicted RNA-binding protein.
+The spy1723 gene product has similar domain structure to the YlxR protein of S. pneumoniae, an RNA-binding protein implicated in transcription termination [53].
+These results indicate that both genes likely encode RNA-binding proteins, in agreement with their functionally defined cluster members.
+Although domain and homology searches yielded the functional predictions, their membership within a protein biosynthetic cluster provided the initial indication of common function or regulation.

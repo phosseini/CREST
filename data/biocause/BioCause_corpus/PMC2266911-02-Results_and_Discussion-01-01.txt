@@ -1,0 +1,41 @@
+Results and Discussion 
+The genomes of P. luminescens ssp. laumondii TT01 and Y. enterocolitica 8081 have completely been sequenced.
+The genome of the latter strain has a size of ~4.6 Mbp and encodes 4037 putative proteins [23].
+Its genome size is exceeded by the ~5.7 Mbp genome of P. luminescens encoding 4839 putative proteins [24].
+To uncover candidate genes which are involved in insect pathogenicity, a total of 424 (P. luminescens) and 386 (Y. enterocolitica) genes and proteins predicted to belong to one of the functional categories described in the text were analysed for their presence or absence in both organisms, and for their degree of similarity.
+House-keeping genes and genes of unknown function were not considered.
+The set of shared genes or proteins, respectively, indicates mechanisms of regulation, virulence and metabolic pathways similar for both pathogens, and moreover unraveled novel candidate genes/proteins which presumably are involved in insect association and/or pathogenicity.
+Proteins which are solely present in either one of the organisms suggest a distinct function of these factors, or different strategies followed by the two pathogens during their life cycles.
+Sensing, signalling, and regulation Bacteria have evolved several regulation mechanisms to ensure a proper answer to changing environments.
+Upon entering their insect hosts, P. luminescens and Y. enterocolitica are challenged by varying and detrimental surrounding conditions which they have to sense and adapt to for further persistence.
+In addition, both pathogens must be capable to withstand the insect's immune response.
+In the following chapter we compare sensing and regulating mechanisms of the two insect-associated organisms, P. luminescens and Y. enterocolitica, thus identifying strategies which might be important for insect colonization and pathogenicity.
+Two-component signal transduction To sense their environment and to react rapidly to changing surrounding conditions, bacteria have evolved so called two-component systems (TCSs) [25] which have been found to be involved in the control of virulence or symbiosis, in metabolite utilization, and also in the adaptation to various stress factors [26].
+A basic TCS consists of two proteins, a sensor histidine kinase and a response regulator performing a His-Asp phosphotransfer.
+The consisting domains or proteins can also be organized as more complex systems using a His-Asp-His-Asp phosphorelay.
+The number of TCSs ranges from zero in Mycoplasma genitalium to 80 in Syncheocystes spp. [25,27].
+Eighteen of these TCSs are present in P. luminescens, and 28 in Y. enterocolitica, of which 17 are shared by both organisms (Fig. 2, depicted in grey).
+The additional set of eleven TCSs in Y. enterocolitica (Fig. 2, shown in red) might reflect the high number of different environments this pathogen is exposed to during its life cycle, namely soil, water and invertebrates as well as mammalian hosts.
+In contrast, P. luminescens cells are primarily restricted to symbiosis with the nematode species H. bacteriophora and the insect larvae as hosts, thus encountering a more homeostatic milieu.
+Among the eleven TCSs of Y. enterocolitica not shared by P. luminescens are duplicates of the CitA/CitB system (YE2505/YE2506 and YE2654/YE2655) and of the LytS/LytR system (YE1228/YE1227 and YE4014/YE4015).
+The principal biological reason for this redundancy remains unclear.
+Interestingly, one TCS (Plu0102/Plu103 and YE4185/YE4186) is unique for the genera Photorhabdus and Yersinia.
+Both sensor kinases Plu0102 and YE4185 are of moderate similarity (31.5% identity, 48.5% homology).
+They are anchored to the membrane with one transmembrane domain, and have a large periplasmic sensing domain which is proposed to bind a specific ligand.
+Therefore, Plu0102 and YE4185 are interesting candidates for unravelling invertebrate-specific signals.
+The putative target genes of Plu0102/Plu0103 and Ye4185/Ye4186, plu0104 and ye4187, respectively, are homologues and encode putative secreted proteins which might act in a similar, yet unknown manner.
+All TCSs present in both organisms are depicted in grey in Fig. 2, and include PhoP/PhoQ, and AstS/AstR (BvgS/BvgR) which have been identified to be involved in virulence [28].
+The role of PhoP/PhoQ in regulating virulence gene expression has been characterized mainly in Salmonella species, but has also been shown, in addition to three other TCSs, to be important for virulence of Y. pseudotuberculosis [29,30].
+In P. luminescens, this TCS controls the expression of the pbgPE operon which is involved in lipid A modification and thus plays a role in colonization and infection of the invertebrate hosts [18,31].
+Furthermore, PhoP has also been found to be important for virulence of Y. pestis [32], but its function in Y. enterocolitica during its insect-associated phase remains hypothetical.
+The AstS/AstR TCS is required for the correct timing of phase variant switching in P. luminescens [28].
+BvgS/BvgR is the TCS of Y. enterocolitica that corresponds to AstS/AstR.
+Because Y. enterocolitica is not known to switch to another phenotypic variant, the possible role in virulence regulation still remains to be elucidated.
+Both Y. enterocolitica and P. luminescens produce the KdpD/KdpE system that regulates K+ homeostasis and osmotic stress.
+It has recently been found that the Kdp-system of P. luminescens is important for insect pathogenicity (S. E. Reynolds and N. R. Waterfield, University of Bath, UK, personal communication).
+Therefore, the KdpD/KdpE system is also a further candidate system which might be involved in the regulation of insecticidal activity of Y. enterocolitica.
+The only TCS of P. luminescens absent in Y. enterocolitica is TctE/TctD (Fig. 2, marked in blue), which, however, is found in the genomes of Y. intermedia and Y. frederiksenii.
+Beside these microorganisms, TctE/TctD homologues controlling the transport of tricarboxylic acid (see section "Tricarboxylate utilization") are present in the genera Salmonella, Burkholderia, Agrobacterium, Bordetella, Collinsella, Xylella, Xanthomonas, and Pseudomonas, particularly P. entomophila, all of which are found in association with eukaryotes.
+To summarize, the comparison of the P. luminescens and the Y. enterocolitica TCSs reveals a basal set of signal sensing mechanisms which are used by both organisms.
+Whether the stimulons or regulons which are regulated by these sets of TCSs are also similar remains to be examined.
+In comparison to P. luminescens, Y. enterocolitica uses an expanded set of TCSs, possibly to adapt to its various hosts (Fig. 1).

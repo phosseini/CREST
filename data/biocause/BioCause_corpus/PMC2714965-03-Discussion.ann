@@ -1,0 +1,172 @@
+T1	Organism 12 22	C. elegans
+T2	Organism 166 176	C. elegans
+T3	Organism 308 321	P. aeruginosa
+T4	Organism 474 484	C. elegans
+T5	Organism 794 796	TB
+T6	Protein 1114 1118	gacA
+T7	Organism 1292 1319	P. aeruginosa CF isolate TB
+T8	Organism 1394 1407	P. aeruginosa
+T9	Organism 1567 1577	C. elegans
+T10	Organism 1640 1645	human
+T11	Organism 1865 1872	TB0173s
+T12	Protein 1904 1910	PA0173
+T13	Protein 1912 1917	cheB2
+T14	Organism 1951 1964	P. aeruginosa
+T15	Organism 2064 2077	P. aeruginosa
+T16	Protein 2118 2123	CheB2
+T17	Protein 2156 2160	McpB
+T18	Organism 2190 2200	C. elegans
+T19	Organism 2260 2272	cheB2 mutant
+T20	Protein 2260 2265	cheB2
+T21	Organism 2319 2331	cheB2 mutant
+T22	Protein 2319 2324	cheB2
+T23	Organism 2632 2637	mouse
+T24	Organism 2667 2679	cheB2 mutant
+T25	Protein 2667 2672	cheB2
+T26	Organism 2768 2772	mice
+T27	Protein 2830 2835	cheB1
+T28	Protein 2885 2890	cheB2
+T29	Organism 2905 2917	cheB1 mutant
+T30	Protein 2905 2910	cheB1
+T31	Organism 3029 3041	cheB2 mutant
+T32	Protein 3029 3034	cheB2
+T33	Organism 3137 3149	cheB1 mutant
+T34	Protein 3137 3142	cheB1
+T35	Organism 3177 3189	cheB2 mutant
+T36	Protein 3177 3182	cheB2
+T37	Organism 3280 3292	cheB2 mutant
+T38	Protein 3280 3285	cheB2
+T39	Organism 3416 3429	P. aeruginosa
+T40	Protein 3765 3769	RpoS
+T41	Protein 3849 3854	cheB2
+T42	Protein 3928 3932	RsmA
+T43	Protein 3954 3959	cheB2
+T44	Protein 4002 4007	cheB2
+T45	Organism 4014 4025	rsmA mutant
+T46	Protein 4014 4018	rsmA
+T47	Protein 4032 4036	RsmA
+T48	Protein 4169 4173	lasI
+T49	Protein 4178 4182	rhlI
+T50	Protein 4237 4241	CheY
+T51	Protein 4246 4250	CheA
+T52	Organism 4839 4850	cheW mutant
+T53	Protein 4839 4843	cheW
+T54	Organism 4854 4873	Helicobacter pylori
+T55	Organism 4929 4933	mice
+T56	Organism 5154 5167	P. aeruginosa
+T57	Organism 5286 5298	cheB2 mutant
+T58	Protein 5286 5291	cheB2
+T59	Protein 5346 5351	cheB2
+T60	Organism 5515 5527	cheB1 mutant
+T61	Protein 5515 5520	cheB1
+T62	Organism 5652 5659	TB4953s
+T63	Organism 5661 5672	motB mutant
+T64	Protein 5661 5665	motB
+T65	Organism 5886 5905	cheB2 mutant strain
+T66	Protein 5886 5891	cheB2
+T67	Organism 5907 5914	TB0173s
+T68	Organism 6090 6103	S. marcescens
+T69	Organism 6128 6138	C. elegans
+T70	Organism 6406 6410	mice
+T71	Organism 6934 6947	P. aeruginosa
+*	Equiv T62 T63
+*	Equiv T65 T67
+T72	Process 68 77	virulence
+T73	Process 120 129	virulence
+T74	Process 194 203	virulence
+T75	Process 391 400	virulence
+T76	Process 588 596	virulent
+T77	Regulation 1098 1106	affected
+T78	Process 1189 1199	attenuated
+T79	Process 1381 1390	virulence
+T80	Process 1515 1524	virulence
+T81	Process 1825 1834	virulence
+T82	Process 2292 2301	virulence
+T83	Negative_regulation 2302 2313	attenuation
+T84	Process 2652 2661	infection
+T85	Process 2691 2701	attenuated
+T86	Process 2759 2767	infected
+T87	Process 2918 2927	virulence
+T88	Negative_regulation 2935 2945	attenuated
+T89	Negative_regulation 3248 3259	attenuation
+T90	Process 3263 3272	virulence
+T91	Regulation 3837 3848	controlling
+T92	Gene_expression 3860 3870	expression
+T93	Regulation 3941 3948	control
+T94	Negative_regulation 3975 3984	reduction
+T95	Gene_expression 3988 3998	expression
+T96	Process 4123 4132	virulence
+T97	Process 4916 4925	infection
+T98	Process 5234 5243	infection
+T99	Negative_regulation 5352 5358	defect
+T100	Process 5362 5371	virulence
+T101	Process 5432 5441	virulence
+T102	Process 5565 5573	virulent
+T103	Process 5712 5722	attenuated
+T104	Process 5864 5873	virulence
+T105	Process 6115 6124	infection
+T106	Process 6765 6774	infection
+E1	Process:T72
+E2	Process:T73
+E3	Process:T74
+E4	Process:T75
+E5	Process:T76
+E6	Regulation:T77 Theme:T6
+E7	Process:T78
+E8	Process:T79 Participant:T8
+E9	Process:T80
+E10	Process:T81
+E11	Process:T82 Participant:T19
+E12	Negative_regulation:T83 Theme:E11
+E13	Process:T84
+E14	Process:T85 Participant:T24
+E15	Process:T86 Participant:T24
+E16	Process:T87 Participant:T29
+E17	Negative_regulation:T88 Theme:E16
+E18	Negative_regulation:T89 Theme:E19
+E19	Process:T90 Participant:T37
+E20	Regulation:T91 Theme:E21 Cause:T40
+E21	Gene_expression:T92 Theme:T41
+E22	Regulation:T93 Theme:T43 Cause:T42
+E23	Negative_regulation:T94 Theme:E24
+E24	Gene_expression:T95 Theme:T44
+E25	Process:T96
+E26	Process:T97 Participant:T52
+E27	Process:T98 Participant:T56
+E28	Negative_regulation:T99 Theme:T59
+E29	Process:T100
+E30	Process:T101
+E31	Process:T102 Participant:T60
+E32	Process:T103 Participant:T62
+E33	Process:T104 Participant:T65
+M1	Negation E33
+E34	Process:T105 Participant:T68
+E35	Process:T106
+T107	Span 749 778	Under slow killing conditions
+T108	Span 790 948	the TB strain requires approximately three days to kill 50% of a given worm population, and up to 8 days to kill all the worms in a population of 50 nematodes
+T109	Causality 790 790
+E36	Causality:T109 Cause:T107 Effect:T108
+T110	Span 950 1063	The liquid killing assay by contrast, is read after overnight feeding of the nematodes with the bacterial strains
+E37	Causality:T109 Cause:T107 Effect:T110
+T111	Span 2901 2971	The cheB1 mutant virulence is not attenuated in the slow killing assay
+T112	Span 2973 3041	Moreover, it shows more severe motility defect than the cheB2 mutant
+T113	Span 3043 3210	Finally, in chemotaxis assays using tryptone as chemo-attractant, we observed that, while the cheB1 mutant was strongly affected, the cheB2 mutant had a mild phenotype
+T114	Causality 3212 3243	These observations suggest that
+E38	Causality:T114 Effect:T115 Evidence:T111
+T115	Span 3244 3361	the attenuation in virulence of the cheB2 mutant is specific and not due to a global effect on motility or chemotaxis
+E39	Causality:T114 Effect:T115 Evidence:T112
+E40	Causality:T114 Effect:T115 Evidence:T113
+T116	Span 4195 4351	Finally, using fluorescent protein-tagged CheY and CheA, it was shown that the Che1 proteins (cluster I) localized to the flagellated pole throughout growth
+T117	Span 4358 4526	While the Che1 proteins are still found as bacterial cells entered stationary phase, a patch of Che2 proteins begins to co-localize with the Che1 proteins at that stage
+T118	Causality 4528 4551	This might indicate tha
+E41	Causality:T118 Effect:T119 Evidence:T116
+T119	Span 4553 4812	during stationary phase, the chemotactic response will be different than the one observed with exponentially growing cells and the function of the Che2 cluster, even though currently unknown, might be to respond to particular stimuli encountered at that stage
+E42	Causality:T118 Effect:T119 Evidence:T117
+T120	Span 5270 5322	even though the cheB2 mutant is impaired in motility
+T121	Causality 5324 5341	it is likely that
+E43	Causality:T121 Effect:T120 Evidence:T122
+T122	Span 5342 5490	the cheB2 defect in virulence is not linked to this phenotype but to additional traits of virulence and attachment that have not yet been determined
+T123	Span 5575 5826	Furthermore, in our study, we isolated a second mutant with reduced motility TB4953s (motB mutant) (Table 1), and while this isolate was attenuated in the high throughput assay, it did not show a reduction in killing in the slow assay (data not shown)
+T124	Causality 5836 5851	suggesting that
+E44	Causality:T124 Evidence:T123 Effect:T125
+T125	Span 5852 5970	the loss of virulence seen in the cheB2 mutant strain (TB0173s) is not solely due to a reduction or change in motility

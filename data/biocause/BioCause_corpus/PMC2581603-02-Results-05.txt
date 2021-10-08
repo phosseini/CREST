@@ -1,0 +1,12 @@
+Expression of the CAP resistance operon PA3552-PA3559 is induced in biofilms in response to extracellular DNA 
+To determine the influence of extracellular DNA on PA3553 gene expression in biofilms, DNA-enriched biofilms were cultivated on the surface of polystyrene pegs.
+Consistent with previous reports that DNA is a component of biofilms [50],[51], we observed DNA in 24 h old peg-adhered biofilms (Fig 5A and 5B).
+Double staining of P. aeruginosa with syto9 (stains viable cells green) and the extracellular DNA stain DDAO (red) [51] was used to visualize DNA as a loose lattice in biofilms formed on polystyrene pegs after 24 h (Fig 5A).
+DNA was also visualized (PI stained) as a mesh-like DNA matrix in 1 day-old peg-adhered biofilm monolayers (Fig 5B), which resembled the thread-like projections of genomic DNA observed in DNA or EDTA-lysed cells (Fig 2B).
+These localization patterns of extracellular DNA are suggestive of DNA gradients within biofilms.
+Biofilm formation was inhibited at extracellular DNA concentrations >/=0.5% (w/v) (Fig 6A).
+This is consistent with the observed growth inhibition of planktonic cells at similar DNA concentrations (Fig 1A).
+One-day old PA3553::lux biofilms were washed to remove non-adhered cells and gene expression was measured from the cells adhered to the polystyrene peg surface.
+PA3553 gene expression was strongly induced, up to 20-fold, in peg-adhered biofilms, with the highest induction at 0.5% (w/v) extracellular DNA (Fig 6B).
+Although gene expression was measured in a mutant background, both PAO1 and PA3553::lux had similar biofilm phenotypes in each condition tested (Fig 6A).
+In biofilms cultivated in the presence of extracellular DNA supplemented with excess Mg2+ (5 mM), PA3553 gene expression was completely repressed (data not shown).

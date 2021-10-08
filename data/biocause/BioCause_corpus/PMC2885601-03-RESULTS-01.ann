@@ -1,0 +1,20 @@
+T1	Organism 9 16	S. equi
+T2	Protein 17 20	Mac
+T3	Organism 26 33	S. equi
+T4	Protein 51 54	Mac
+T5	Protein 65 70	SeMac
+T6	Protein 134 137	Mac
+T7	Organism 146 161	serotype M1 GAS
+T8	Organism 253 256	GAS
+T9	Protein 257 260	Mac
+T10	Protein 317 322	SeMac
+T11	Organism 384 391	S. equi
+T12	Protein 409 412	mac
+T13	Organism 422 429	S. equi
+T14	Protein 508 511	mac
+T15	Protein 561 564	mac
+T16	Protein 610 613	mac
+T17	Causality 580 605	DNA sequencing found that
+E1	Causality:T17 Effect:T19 Evidence:T18
+T18	Span 362 528	To test whether other S. equi strains have the mac gene, 10 S. equi isolates representing various geographic locations were tested with PCR using mac-specific primers
+T19	Span 606 669	the mac gene is 100% conserved in DNA sequence in these strains

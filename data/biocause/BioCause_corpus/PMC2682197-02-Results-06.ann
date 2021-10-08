@@ -1,0 +1,58 @@
+T25	Regulation 118 127	dependent
+T26	Binding 721 728	binding
+T27	Negative_regulation 871 880	deficient
+T28	Binding 888 895	binding
+T29	Binding 988 993	bound
+T30	Negative_regulation 1696 1703	reduced
+T31	Binding 1714 1719	bound
+E1	Regulation:T25 Theme:T5 Cause:T4
+E2	Binding:T26 Theme:T9
+E3	Negative_regulation:T27 Theme:E4
+E4	Binding:T28 Theme:T12
+E5	Binding:T29 Theme1:T13 Theme2:T14
+E6	Negative_regulation:T30 Theme:E7
+E7	Binding:T31 Theme1:T23 Theme2:T24
+T1	Organism 27 63	ATP-binding-deficient Rv2623 mutants
+T2	Chemical 27 30	ATP
+T3	Protein 49 55	Rv2623
+T4	Chemical 114 117	ATP
+T5	Protein 152 158	Rv2623
+T6	Protein 198 204	Rv2623
+T7	Chemical 359 362	ATP
+T8	Chemical 439 447	hydrogen
+T9	Chemical 717 720	ATP
+T10	Protein 799 805	Rv2623
+T11	Protein 814 820	Rv2623
+T12	Chemical 884 887	ATP
+T13	Chemical 984 987	ATP
+T14	Protein 1007 1013	Rv2623
+T15	Chemical 1102 1105	ATP
+T16	Chemical 1216 1219	ATP
+T17	Protein 1297 1303	Rv2623
+T18	Protein 1378 1384	Rv2623
+T19	Protein 1386 1392	Rv2623
+T20	Protein 1401 1407	Rv2623
+T21	Protein 1482 1488	Rv2623
+T22	Chemical 1645 1648	ATP
+T23	Chemical 1720 1723	ATP
+T24	Protein 1750 1756	Rv2623
+T32	Span 389 467	n silico replacement of the beta4 G117 side chain hydrogen with a methyl group
+T33	Causality 468 482	suggested that
+E8	Causality:T33 Effect:T34 Evidence:T32
+T34	Span 483 618	any residue larger than glycine at this position is likely to perturb both of the conserved loop regions in contact with the nucleotide
+T35	Span 631 684	extension of the D15 side chain to glutamate was also
+T36	Causality 685 697	predicted to
+E9	Causality:T36 Effect:T37 Evidence:T35
+T37	Span 698 741	interfere with the ATP-binding conformation
+T38	Span 755 825	HPLC analysis of nucleotides extracted from Rv2623D15E and Rv2623G117A
+T39	Causality 826 839	revealed that
+E10	Causality:T39 Effect:T40 Evidence:T38
+T40	Span 840 1027	the mutant proteins are indeed deficient in ATP-binding, exhibiting approximately34% (p<0.001) and approximately29% (p=0.0018) of the amount of ATP bound by wild-type Rv2623, respectively
+T41	Span 1335 1412	thermal denaturation profiles of wild-type Rv2623, Rv2623D15E and Rv2623G117A
+T42	Causality 1413 1425	demonstrated
+E11	Causality:T42 Effect:T43 Evidence:T41
+T43	Span 1426 1533	virtually identical Tm values, implying that the native Rv2623 fold was not destabilized by these mutations
+T45	Causality 1547 1574	It is therefore likely that
+E12	Causality:T45 Evidence:T46 Effect:T44
+T46	Span 1575 1662	the D15E and G117A mutations produced local structural changes in the ATP binding loops
+T44	Span 1663 1756	that contributed directly to the reduced levels of bound ATP in comparing to wild-type Rv2623

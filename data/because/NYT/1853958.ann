@@ -1,0 +1,31 @@
+T1	Consequence 109 113	make
+E1	Consequence:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 114 164;165 172	the results of the presidential primary on Jan. 29 binding
+T3	Argument 63 87	Florida Democratic Party
+T4	NonCausal 425 431	before
+E2	NonCausal:T4 Arg1:T5 Arg0:T6
+A2	Temporal E2
+T5	Argument 432 438	Feb. 5
+T6	Argument 407 424	holding primaries
+T7	Consequence 684 690	making
+E3	Consequence:T7 Effect:T8 Cause:T9
+A3	Degree E3 Facilitate
+T8	Argument 691 710;711 721	the primary results nonbinding
+T9	Argument 651 668	Florida Democrats
+T10	NonCausal 755 760	after
+E4	NonCausal:T10 Arg0:T11 Arg1:T12
+A4	Temporal E4
+T11	Argument 761 767	Feb. 5
+T12	Argument 726 754	holding caucuses like Iowa's
+T13	Purpose 769 771	to
+E5	Purpose:T13 Cause:T14 Effect:T15
+A5	Degree E5 Facilitate
+T14	Argument 772 791	apportion delegates
+T15	Argument 726 767	holding caucuses like Iowa's after Feb. 5
+T16	Motivation 1395 1400	until
+E6	Motivation:T16 Effect:T17 Cause:T18
+A6	Degree E6 Inhibit
+A7	Temporal E6
+T17	Argument 1366 1394	it would not comment further
+T18	Argument 1401 1448	Florida Democrats formally submitted their plan

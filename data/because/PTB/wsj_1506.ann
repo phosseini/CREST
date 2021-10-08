@@ -1,0 +1,139 @@
+T1	NonCausal 12 23	required to
+E1	NonCausal:T1 Arg1:T2
+A1	Obligation-permission E1
+T2	Argument 0 8;24 48	The U.S. notify foreign dictators
+T3	Consequence 49 51	if
+E2	Consequence:T3 Cause:T4 Effect:T5
+A3	Hypothetical E2
+T4	Argument 52 105	it knows of coup plans likely to endanger their lives
+T5	Argument 0 48	The U.S. is required to notify foreign dictators
+T6	Consequence 380 385	since
+E3	Consequence:T6 Effect:T7 Cause:T8
+A2	Degree E3 Facilitate
+A4	Temporal E3
+T7	Argument 331 379	The existence of the guidelines has become known
+T8	Argument 386 491	President Bush disclosed them privately to seven Republican senators at a White House meeting last Monday
+T9	Consequence 644 657	contribute to
+E4	Consequence:T9 Cause:T10 Effect:T11
+A5	Degree E4 Facilitate
+T10	Argument 577 615	the sort of congressional requirements
+T11	Argument 658 765	the failure of such covert actions as this month's futile effort to oust Panamanian dictator Manuel Noriega
+T12	Motivation 1156 1163	because
+E5	Motivation:T12 Effect:T13 Cause:T14
+A6	Degree E5 Facilitate
+T13	Argument 1092 1127	No notification was ever considered
+T14	Argument 1164 1267	the U.S. didn't think the coup plotters intended to kill Mr. Noriega, but merely sought to imprison him
+T15	NonCausal 1603 1609	before
+E6	NonCausal:T15 Arg0:T16 Arg1:T17
+A7	Temporal E6
+T16	Argument 1583 1590	Oct. 12
+T17	Argument 1610 1671	the meeting at which the president complained about the rules
+T21	Consequence 1930 1945	responsible for
+E8	Consequence:T21 Cause:T22 Effect:T23
+A9	Degree E8 Facilitate
+T22	Argument 1923 1926	who
+T23	Argument 1946 1977	the failure to oust Mr. Noriega
+T26	Consequence 3109 3116	because
+E9	Consequence:T26 Effect:T27 Cause:T28
+A10	Degree E9 Facilitate
+T27	Argument 3041 3108	the committee couldn't defend itself by making the documents public
+T28	Argument 3117 3156	that would violate classification rules
+T29	Motivation 3595 3601	during
+E10	Motivation:T29 Cause:T30 Effect:T31
+A11	Degree E10 Facilitate
+A12	Temporal E10
+T30	Argument 3602 3615	foreign coups
+T31	Argument 3568 3594	how the U.S. might operate
+T32	Motivation 3616 3627	in light of
+E11	Motivation:T32 Cause:T34 Effect:T18
+A13	Degree E11 Facilitate
+T34	Argument 3628 3701	the longstanding presidential order banning a U.S. role in assassinations
+T33	NonCausal 3853 3861	required
+E12	NonCausal:T33 Arg1:T35
+A14	Obligation-permission E12
+T35	Argument 3836 3848	notification
+T36	Argument 4211 4213	it
+T37	Consequence 4223 4229	led to
+E13	Consequence:T37 Cause:T36 Effect:T39
+A15	Degree E13 Facilitate
+T38	Argument 4094 4120	the notification guideline
+R1	Coref Arg1:T36 Arg2:T38	
+T39	Argument 4230 4323	hesitation and uncertainty on the part of U.S. intelligence and military operatives in Panama
+T40	Consequence 4414 4418	make
+E14	Consequence:T40 Effect:T43 Cause:T41
+A16	Degree E14 Facilitate
+T41	Argument 4405 4407	it
+T42	Argument 4367 4380	the guideline
+R2	Coref Arg1:T41 Arg2:T42	
+T43	Argument 4419 4434;4435 4514	U.S. operatives reluctant to even listen to coup plans for fear they may get into legal trouble
+T44	Motivation 4474 4477	for
+E15	Motivation:T44 Cause:T45 Effect:T46
+A17	Degree E15 Facilitate
+T45	Argument 4478 4514	fear they may get into legal trouble
+T46	Argument 4435 4473	reluctant to even listen to coup plans
+T47	Consequence 4581 4588	because
+E16	Consequence:T47 Effect:T48 Cause:T49
+A18	Degree E16 Facilitate
+T48	Argument 4518 4552	The issue came to a head last year
+T49	Argument 4589 4705	the Reagan administration had sought unsuccessfully to win committee approval of funding for new Panama coup efforts
+T50	Consequence 4836 4843	spurred
+E17	Consequence:T50 Cause:T51 Effect:T55
+A19	Degree E17 Facilitate
+T51	Argument 4847 4930	a White House desire to avoid nasty overseas surprises during the election campaign
+T52	Motivation 4902 4908	during
+E18	Motivation:T52 Cause:T53 Effect:T54
+A20	Degree E18 Facilitate
+A21	Temporal E18
+T53	Argument 4909 4930	the election campaign
+T54	Argument 4871 4901	avoid nasty overseas surprises
+T55	Argument 4773 4824	the need for guidelines on coups and assassinations
+T56	Argument 5242 5246	that
+T57	Argument 5195 5241	new interpretations of the assassination order
+R3	Coref Arg1:T56 Arg2:T57	
+T58	NonCausal 5253 5259	permit
+E19	NonCausal:T58 Arg0:T56 Arg1:T59
+A23	Obligation-permission E19
+T59	Argument 5260 5268;5269 5297	the U.S. more freedom to act in coups
+T60	Consequence 5402 5407;5417 5420	blame for
+E20	Consequence:T60 Cause:T62 Effect:T63
+A22	Degree E20 Facilitate
+T61	Consequence 5460 5468	hampered
+E21	Consequence:T61 Cause:T64 Effect:T65
+A24	Degree E21 Inhibit
+T62	Argument 5408 5416	Congress
+T63	Argument 5421 5490	restrictions the White House said have hampered its freedom of action
+T64	Argument 5421 5433	restrictions
+T65	Argument 5469 5490	its freedom of action
+T66	Consequence 5578 5586	hampered
+E22	Consequence:T66 Cause:T67 Effect:T68
+A25	Degree E22 Inhibit
+T67	Argument 5551 5570	congressional curbs
+T68	Argument 5587 5638	the spy agency's role in the coup attempt in Panama
+T69	NonCausal 5750 5755	after
+E23	NonCausal:T69 Arg1:T70 Arg0:T71
+A26	Temporal E23
+T70	Argument 5656 5733;5734 5749	the administration's criticisms appeared to have made some headway with Sens. Boren and Cohen
+T71	Argument 5756 5796	their Oct. 12 meeting with the president
+T72	Purpose 5892 5894	to
+E24	Purpose:T72 Effect:T73 Cause:T74
+A27	Degree E24 Facilitate
+T73	Argument 5798 5890	The three men agreed to rewrite the guidelines, without changing the basic assassination ban
+T74	Argument 5895 6000	clear up any ambiguities that may have hampered U.S. encouragement of coups against anti-American leaders
+T75	Consequence 5934 5942	hampered
+E25	Consequence:T75 Effect:T76 Cause:T77
+A28	Degree E25 Inhibit
+T76	Argument 5943 6000	U.S. encouragement of coups against anti-American leaders
+T77	Argument 5920 5924	that
+T78	Argument 5904 5919	any ambiguities
+R4	Coref Arg1:T77 Arg2:T78	
+A30	Degree E2 Facilitate
+T82	Consequence 1930 1941;1997 2000	responsible for
+E27	Consequence:T82 Cause:T22 Effect:T83
+A31	Degree E27 Facilitate
+T83	Argument 2001 2054	difficulties in carrying out covert activities abroad
+T84	Purpose 2623 2625	to
+E28	Purpose:T84 Cause:T85 Effect:T24
+A32	Degree E28 Facilitate
+T85	Argument 2626 2698	develop a clear and appropriate policy to help the country in the future
+T24	Argument 2609 2622	work together
+T18	Argument 3568 3615	how the U.S. might operate during foreign coups

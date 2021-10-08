@@ -1,0 +1,67 @@
+*	Equiv T22 T23
+T43	Process 902 911	infection
+T44	Binding 1259 1263	bind
+E1	Process:T43 
+E2	Binding:T44 Theme:T26
+T1	Protein 14 19	PAS_4
+T2	Protein 20 24	LuxR
+T3	Organism 44 58	P. luminescens
+T4	Protein 74 78	luxR
+T5	Protein 161 165	LuxR
+T6	Protein 189 194	PAS_4
+T7	Chemical 232 235	AHL
+T8	Protein 383 390	plu0918
+T9	Protein 391 395	0925
+T10	Protein 400 407	plu2001
+T11	Protein 408 412	2019
+T12	Protein 446 450	LuxR
+T13	Organism 481 498	Y. enterocolitica
+T14	Protein 539 545	ye0035
+T15	Protein 546 550	0039
+T16	Protein 584 589	PAS_4
+T17	Organism 725 740	S. glossinidius
+T18	Protein 809 814	PAS_4
+T19	Protein 815 819	LuxR
+T20	Organism 1001 1034	fruit fly Drosophila melanogaster
+T21	Chemical 1048 1058	methoprene
+T22	Protein 1074 1077	met
+T23	Protein 1122 1128	Rst1JH
+T24	Organism 1133 1148	D. melanogaster
+T25	Protein 1218 1223	PAS_3
+T26	Protein 1237 1240	Met
+T27	Protein 1384 1389	PAS_4
+T28	Protein 1390 1394	LuxR
+T29	Organism 1413 1427	P. luminescens
+T30	Organism 1429 1446	Y. enterocolitica
+T31	Organism 1452 1467	S. glossinidius
+T32	Organism 1638 1652	P. luminescens
+T33	Organism 1752 1769	Y. enterocolitica
+T34	Organism 1811 1819	M. sexta
+T35	Protein 1924 1928	LuxR
+T36	Organism 1951 1965	P. luminescens
+T37	Organism 1975 1992	Y. enterocolitica
+T38	Organism 2070 2087	Y. enterocolitica
+T39	Organism 2102 2116	P. luminescens
+T40	Protein 2184 2189	PAS_4
+T41	Protein 2190 2194	LuxR
+T42	Organism 2225 2240	S. glossinidius
+T45	Span 638 834	It is interesting to note that there is only one bacterium else, the insect colonizing S. glossinidius, whose genome also carries a series of unclustered genes coding for PAS_4/LuxR-like receptors
+T46	Causality 836 851	indicating that
+E3	Causality:T46 Effect:T47 Evidence:T45
+T47	Span 852 911	this kind of receptors plays a role during insect infection
+T48	Span 1237 1305	Met has been shown to bind JH at physiological concentrations and is
+T49	Causality 1306 1325	therefore suspected
+E4	Causality:T49 Effect:T50 Evidence:T48
+T50	Span 1326 1349	to act as a JH receptor
+T51	Span 1237 1349	Met has been shown to bind JH at physiological concentrations and is therefore suspected to act as a JH receptor
+T52	Causality 1359 1368	Therefore
+E5	Causality:T52 Effect:T53 Evidence:T51
+T53	Span 1370 1575	the potential PAS_4/LuxR-like receptors of P. luminescens, Y. enterocolitica, and S. glossinidius might sense JH or other eukaryotic hormones of the insect to adapt their gene expression to the insect host
+T54	Span 1577 1652	The high number of 35 highly homologous receptor proteins in P. luminescens
+T55	Causality 1653 1661	might be
+E6	Causality:T55 Evidence:T54 Effect:T56
+T56	Span 1662 1741	the reason for the wide insect host spectrum this pathogen is capable to infect
+T57	Span 1879 1993	The difference in the number of the uncommon LuxR-like receptors (35 in P. luminescens, nine in Y. enterocolitica)
+T58	Causality 1994 2025	gives rise to speculations that
+E7	Causality:T58 Evidence:T57 Effect:T59
+T59	Span 2027 2116	he insect host spectrum is constricted for Y. enterocolitica compared with P. luminescens

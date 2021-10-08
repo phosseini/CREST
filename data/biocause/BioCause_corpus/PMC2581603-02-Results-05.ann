@@ -1,0 +1,49 @@
+T24	Gene_expression 0 10	Expression
+T25	Process 22 32	resistance
+T26	Positive_regulation 57 64	induced
+T27	Gene_expression 174 184	expression
+T28	Gene_expression 1252 1262	expression
+T29	Gene_expression 1343 1353	expression
+T30	Positive_regulation 1367 1374	induced
+T31	Gene_expression 1499 1509	expression
+T32	Gene_expression 1749 1759	expression
+T33	Negative_regulation 1775 1784	repressed
+E1	Gene_expression:T24 Theme:T2
+E2	Process:T25 
+E3	Positive_regulation:T26 Theme:E1
+E4	Gene_expression:T27 Theme:T5
+E5	Gene_expression:T28 Theme:T14
+E6	Gene_expression:T28 Theme:T15
+E7	Gene_expression:T29 Theme:T17
+E8	Positive_regulation:T30 Theme:E7
+E9	Gene_expression:T31 Theme:T20
+E10	Gene_expression:T31 Theme:T21
+E11	Gene_expression:T32 Theme:T23
+E12	Negative_regulation:T33 Theme:E11 Cause:T22
+T1	Chemical 18 21	CAP
+T2	Regulon-operon 40 53	PA3552-PA3559
+T3	Protein 40 46	PA3552
+T4	Protein 47 53	PA3559
+T5	Protein 162 168	PA3553
+T6	Chemical 254 265	polystyrene
+T7	Organism 437 450	P. aeruginosa
+T8	Chemical 456 461	syto9
+T9	Chemical 522 526	DDAO
+T10	Chemical 605 616	polystyrene
+T11	Chemical 668 670	PI
+T12	Chemical 838 842	EDTA
+T13	Organism 1182 1193	PA3553::lux
+T14	Protein 1182 1188	PA3553
+T15	Protein 1190 1193	lux
+T16	Chemical 1306 1317	polystyrene
+T17	Protein 1331 1337	PA3553
+T18	Organism 1552 1556	PAO1
+T19	Organism 1561 1572	PA3553::lux
+T20	Protein 1561 1567	PA3553
+T21	Protein 1569 1572	lux
+T22	Chemical 1724 1728	Mg2+
+T23	Protein 1737 1743	PA3553
+T34	Span 643 854	DNA was also visualized (PI stained) as a mesh-like DNA matrix in 1 day-old peg-adhered biofilm monolayers (Fig 5B), which resembled the thread-like projections of genomic DNA observed in DNA or EDTA-lysed cells
+T35	Causality 865 928	These localization patterns of extracellular DNA are suggestive
+E13	Causality:T35 Effect:T36 Evidence:T34
+T36	Span 929 961	of DNA gradients within biofilms

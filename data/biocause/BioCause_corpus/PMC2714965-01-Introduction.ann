@@ -1,0 +1,84 @@
+*	Equiv T16 T15
+T53	Process 113 119	infect
+T54	Process 197 206	infection
+T55	Process 357 366	virulence
+T56	Process 688 697	infection
+T57	Process 811 820	virulence
+T58	Process 2203 2213	resistance
+T59	Negative_regulation 2979 2989	attenuated
+T60	Process 2994 3003	virulence
+T61	Process 3121 3130	virulence
+T62	Process 3214 3223	virulence
+T63	Negative_regulation 4914 4923	reduction
+T64	Process 4927 4938	infectivity
+T65	Process 5108 5117	infection
+E1	Process:T53 Participant:T1
+E2	Process:T54 Participant:T3
+E3	Process:T55 Participant:T3
+E4	Process:T56 
+E5	Process:T57 
+E6	Process:T58 
+E7	Negative_regulation:T59 Theme:E8
+E8	Process:T60 Participant:T23
+E9	Process:T61 
+E10	Process:T62 Participant:T27
+E11	Negative_regulation:T63 Theme:E12
+E12	Process:T64 Participant:T45
+E13	Process:T65 Participant:T49
+E14	Process:T65 Participant:T50
+T1	Organism 53 75	Pseudomonas aeruginosa
+T2	Organism 172 178	humans
+T3	Organism 208 221	P. aeruginosa
+T4	Organism 749 771	Caenorhabditis elegans
+T5	Organism 882 895	P. aeruginosa
+T6	Organism 918 928	C. elegans
+T7	Organism 964 989	P. aeruginosa strain PA14
+T8	Organism 1179 1183	PA14
+T9	Organism 1368 1394	P. aeruginosa isolate PAO1
+T10	Organism 1499 1509	C. elegans
+T11	Organism 1562 1566	PAO1
+T12	Chemical 1576 1585	phosphate
+T13	Organism 1687 1714	P. aeruginosa isolates PA14
+T14	Organism 1719 1723	PAO1
+T15	Organism 2001 2031	P. aeruginosa strain TBCF10839
+T16	Organism 2033 2035	TB
+T17	Organism 2085 2092	patient
+T18	Organism 2103 2105	TB
+T19	Organism 2158 2171	P. aeruginosa
+T20	Chemical 2246 2252	oxygen
+T21	Organism 2385 2395	C. elegans
+T22	Organism 2484 2497	P. aeruginosa
+T23	Organism 2833 2877	TB STM (signature tagged mutagenesis) mutant
+T24	Organism 3007 3017	C. elegans
+T25	Organism 3136 3141	mouse
+T26	Protein 3171 3176	cheB2
+T27	Organism 3200 3213	P. aeruginosa
+T28	Protein 3229 3234	cheB2
+T29	Organism 3255 3268	P. aeruginosa
+T30	Protein 3311 3317	PA0180
+T31	Protein 3318 3324	PA0173
+T32	Organism 3343 3356	P. aeruginosa
+T33	Protein 3471 3477	PA1456
+T34	Protein 3478 3484	PA1464
+T35	Protein 3501 3507	PA3349
+T36	Protein 3508 3514	PA3348
+T37	Organism 3600 3613	P. aeruginosa
+T38	Protein 3665 3671	PA3708
+T39	Protein 3672 3678	PA3702
+T40	Protein 3790 3796	PA0408
+T41	Protein 3797 3803	PA0417
+T42	Protein 3926 3931	cheB2
+T43	Organism 4015 4028	P. aeruginosa
+T44	Organism 4373 4389	Escherichia coli
+T45	Organism 4688 4710	Salmonella typhimurium
+T46	Organism 4873 4878	human
+T47	Organism 4944 4949	mouse
+T48	Protein 5025 5030	cheB2
+T49	Organism 5025 5030	cheB2
+T50	Organism 5035 5048	cheB1 mutants
+T51	Protein 5035 5040	cheB1
+T52	Protein 5070 5075	cheB2
+T66	Span 3019 3147	By testing these mutants in additional phenotypic assays, including adherence to epithelial cells and virulence in a mouse model
+T67	Causality 3149 3162	we identified
+E15	Causality:T67 Evidence:T66 Effect:T68
+T68	Span 3163 3223	a gene, cheB2, necessary for in vivo P. aeruginosa virulence

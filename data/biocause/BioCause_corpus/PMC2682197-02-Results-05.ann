@@ -1,0 +1,48 @@
+T24	Binding 72 79	binding
+T25	Binding 1618 1630	Dimerization
+T26	Binding 2259 2266	binding
+T27	Binding 3129 3136	binding
+T28	Binding 3291 3298	binding
+T29	Binding 3450 3460	associated
+E1	Binding:T24 Theme1:T3 Theme2:T2
+M1	Speculation E1
+E2	Binding:T25 Theme:T8
+E3	Binding:T26 Theme:T13
+E4	Binding:T27 Theme1:T17 Theme2:T18
+E5	Binding:T28 Theme1:T20 Theme2:T21
+E6	Binding:T29 Theme:T22
+T1	Organism 25 40	M. tuberculosis
+T2	Protein 41 47	Rv2623
+T3	Chemical 68 71	ATP
+T4	Protein 144 150	Rv2623
+T5	Protein 210 216	Rv2623
+T6	Chemical 1137 1140	ATP
+T7	Chemical 1185 1188	ATP
+T8	Protein 1634 1640	Rv2623
+T9	Chemical 1719 1722	ATP
+T10	Protein 1804 1810	Rv2623
+T11	Protein 2031 2037	Rv2623
+T12	Chemical 2174 2177	ATP
+T13	Chemical 2255 2258	ATP
+T14	Protein 2377 2383	Rv2623
+T15	Protein 2636 2642	Rv2623
+T16	Chemical 2787 2790	ATP
+T17	Chemical 3125 3128	ATP
+T18	Protein 3158 3164	Rv2623
+T19	Chemical 3197 3200	ATP
+T20	Chemical 3287 3290	ATP
+T21	Protein 3304 3310	MJ0577
+T22	Chemical 3461 3464	ATP
+T23	Chemical 3644 3647	ATP
+T30	Span 1987 2069	Structure-based sequence alignments of both Rv2623 domains with the N631 consensus
+T31	Causality 2070 2082	suggest that
+E7	Causality:T31 Effect:T32 Evidence:T30
+T32	Span 2083 2302	domain 2, which exhibits significantly higher conservation than domain 1 across global and ATP-binding subfamily consensus sequences, represents the ancestral domain among ATP-binding USPs with tandem-type architectures
+T33	Span 3100 3323	To gain insight into the ATP-binding mode(s) exhibited by Rv2623, the structural features of the ATP-binding pocket of domains 1/2 were compared to the monomer fold of the representative ATP-binding USP, MJ0577 (PDBID 1MJH)
+T34	Causality 3330 3365	Overlay of these structures reveals
+E8	Causality:T34 Effect:T35 Evidence:T33
+T35	Span 3366 3561	very considerable similarity for the residues that form the binding pockets and the associated ATP molecules, for which the triphosphoryl moieties assume virtually indistinguishable conformations
+T36	Span 3563 3663	Relatively subtle structural and phylogenetic differences that exist between the ATP-binding pockets
+T37	Causality 3664 3669	might
+E9	Causality:T37 Effect:T38 Evidence:T36
+T38	Span 3670 3758	nevertheless confer divergent binding and/or regulatory properties to the tandem domains

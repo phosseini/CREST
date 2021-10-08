@@ -1,0 +1,38 @@
+T25	Process 10 20	Resistance
+T26	Process 543 552	virulence
+T27	Negative_regulation 553 557	loss
+E1	Process:T25 Participant:T1
+E2	Process:T26 Participant:T21
+E3	Negative_regulation:T27 Theme:E2
+T1	Organism 24 34	DeltasalKR
+T2	Two-component-system 29 34	salKR
+T3	Protein 29 33	salK
+T4	Protein 33 34	R
+T5	Organism 96 106	DeltasalKR
+T6	Two-component-system 101 106	salKR
+T7	Protein 101 105	salK
+T8	Protein 105 106	R
+T9	Organism 210 220	DeltasalKR
+T10	Two-component-system 215 220	salKR
+T11	Protein 215 219	salK
+T12	Protein 219 220	R
+T13	Organism 321 331	DeltasalKR
+T14	Two-component-system 326 331	salKR
+T15	Protein 326 330	salK
+T16	Protein 330 331	R
+T17	Organism 394 404	DeltasalKR
+T18	Two-component-system 399 404	salKR
+T19	Protein 399 403	salK
+T20	Protein 403 404	R
+T21	Organism 561 571	DeltasalKR
+T22	Two-component-system 566 571	salKR
+T23	Protein 566 570	salK
+T24	Protein 570 571	R
+T31	Causality 377 393	which means that
+E5	Causality:T31 Evidence:T32 Effect:T33
+T32	Span 321 375	DeltasalKR had a higher mortality rate than that of WT
+T33	Span 394 478	DeltasalKR was less able to resist killing by PMNs, key mediators of innate immunity
+T28	Causality 480 538	This result may account partially, if not most of all, for
+E4	Causality:T28 Cause:T30 Effect:T29
+T29	Span 539 571	the virulence loss in DeltasalKR
+T30	Span 321 478	DeltasalKR had a higher mortality rate than that of WT, which means that DeltasalKR was less able to resist killing by PMNs, key mediators of innate immunity

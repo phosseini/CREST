@@ -1,0 +1,66 @@
+T1	Organism 2 14	cheB1 Mutant
+T2	Protein 2 7	cheB1
+T3	Organism 37 47	C. elegans
+T4	Organism 121 134	P. aeruginosa
+T5	Organism 315 327	cheB2 mutant
+T6	Protein 315 320	cheB2
+T7	Organism 331 341	C. elegans
+T8	Organism 559 571	cheB1 mutant
+T9	Protein 559 564	cheB1
+T10	Protein 596 601	cheB1
+T11	Organism 633 635	TB
+T12	Organism 691 698	TB1459i
+T13	Organism 704 716	cheB1 mutant
+T14	Protein 704 709	cheB1
+T15	Organism 734 744	C. elegans
+T16	Organism 845 857	cheB2 mutant
+T17	Protein 845 850	cheB2
+T18	Organism 874 876	TB
+T19	Organism 916 928	cheB1 mutant
+T20	Protein 916 921	cheB1
+T21	Organism 964 974	C. elegans
+T22	Organism 1013 1015	TB
+T23	Organism 1147 1159	cheB2 mutant
+T24	Protein 1147 1152	cheB2
+T25	Organism 1161 1168	TB0173s
+T26	Organism 1190 1210	cheB2 mutant TB0173i
+T27	Protein 1190 1195	cheB2
+T28	Organism 1232 1244	cheB1 mutant
+T29	Protein 1232 1237	cheB1
+T30	Organism 1427 1439	cheB1 mutant
+T31	Protein 1427 1432	cheB1
+T32	Organism 1459 1471	cheB2 mutant
+T33	Protein 1459 1464	cheB2
+T34	Organism 1587 1589	TB
+T35	Organism 1716 1723	TB0173s
+T36	Organism 1732 1744	cheB2 mutant
+T37	Protein 1732 1737	cheB2
+T38	Organism 1818 1820	TB
+T39	Organism 1847 1854	TB1459i
+T40	Organism 1863 1875	cheB1 mutant
+T41	Protein 1863 1868	cheB1
+*	Equiv T23 T25
+*	Equiv T35 T36
+*	Equiv T39 T40
+T42	Negative_regulation 22 32	Attenuated
+T43	Process 48 57	Virulence
+T44	Process 289 298	virulence
+T45	Process 1075 1084	infection
+T46	Process 1121 1130	virulence
+E1	Negative_regulation:T42 Theme:E2
+E2	Process:T43 Participant:T1
+E3	Process:T44 Participant:T5
+M1	Negation E3
+E4	Process:T45 Participant:T19
+E5	Process:T46 Participant:T23
+M2	Negation E5
+E6	Process:T46 Participant:T26
+M3	Negation E6
+T47	Span 700 883	The cheB1 mutant was used to feed C. elegans in the slow killing assay and the survival percentage was compared to those obtained when using the cheB2 mutant or the parental TB strain
+T48	Span 897 1084	Interestingly, the cheB1 mutant showed no significant reduction in C. elegans killing when compared to the parental TB strain, with only 36% of the worms alive after 4 days post infection
+T49	Causality 897 897
+E7	Causality:T49 Cause:T47 Effect:T48
+T50	Span 1834 1926	However, the TB1459i strain (cheB1 mutant) was no longer able to move towards the attractant
+T51	Causality 1928 1936	and thus
+E8	Causality:T51 Cause:T50 Effect:T52
+T52	Span 1937 1977	showed a defect in this chemotaxis assay

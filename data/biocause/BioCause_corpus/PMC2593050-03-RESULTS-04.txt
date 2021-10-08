@@ -1,0 +1,6 @@
+Attenuation of S. equi Virulence by vicK Deletion 
+Group of 8 mice were subcutaneously inoculated with 1.1 x 108 cfu wild-type or DeltavicK mutant strains.
+Seven of the 8 mice infected with the wild-type S. equi strain died, whereas 7 of the 8 mice inoculated with DeltavicK survived (Fig. 4A).
+The infection was performed in a model of intranasal infection as well.
+All the 8 mice infected with DeltavicK survived, whereas 5 of the 8 mice infected with the wild-type S. equi strain died (Fig. 4B).
+These results indicate that the vicK deletion significantly attenuated S. equi virulence in both mouse models of subcutaneous (P = 0.0066) and nasal (P = 0.0085) infections.

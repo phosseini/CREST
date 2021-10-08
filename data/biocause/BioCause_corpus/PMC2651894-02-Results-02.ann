@@ -1,0 +1,59 @@
+T44	Process 60 69	virulence
+T45	Process 588 597	virulence
+T46	Positive_regulation 1470 1478	inducing
+E1	Process:T44 
+E2	Process:T45 Participant:T4
+E3	Positive_regulation:T46 Theme:T29
+T1	Protein 0 4	RpoE
+T2	Protein 111 117	sigmaE
+T3	Protein 156 160	SsrB
+T4	Organism 210 219	DeltarpoE
+T5	Protein 215 219	rpoE
+T6	Protein 357 361	SsrB
+T7	Regulon-operon 394 428	type III secretion effector operon
+T8	Protein 430 434	sseA
+T9	Regulon-operon 442 461	structural operon I
+T10	Protein 463 467	ssaB
+T11	Regulon-operon 476 496	structural operon II
+T12	Protein 498 502	ssaG
+T13	Protein 552 556	sseL
+T14	Protein 561 565	sifA
+T15	Protein 623 627	srfN
+T16	Protein 661 665	lacZ
+T17	Protein 673 677	sseA
+T18	Protein 679 683	ssaB
+T19	Protein 685 689	ssaG
+T20	Protein 691 695	sseL
+T21	Protein 697 701	sifA
+T22	Protein 706 710	srfN
+T23	Organism 801 810	DeltarpoE
+T24	Protein 806 810	rpoE
+T25	Protein 839 843	SsrB
+T26	Protein 918 936	beta-galactosidase
+T27	Organism 979 988	DeltarpoE
+T28	Protein 984 988	rpoE
+T29	Protein 1483 1487	SsrB
+T30	Protein 1538 1542	sseA
+T31	Protein 1544 1548	ssaB
+T32	Protein 1554 1558	sifA
+T33	Organism 1576 1587	rpoE mutant
+T34	Protein 1576 1580	rpoE
+T35	Protein 1674 1678	ssaG
+T36	Protein 1683 1687	srfN
+T37	Organism 1721 1732	rpoE mutant
+T38	Protein 1721 1725	rpoE
+T39	Protein 1753 1771	beta-galactosidase
+T40	Protein 1799 1803	sseL
+T41	Protein 1834 1838	rpoE
+T42	Protein 2016 2022	sigmaE
+T43	Protein 2071 2075	SsrB
+T47	Span 1343 1496	In wild type cells, promoter activity from all the transcriptional fusions was high, as expected, because LPM medium is highly inducing for SsrB activity
+T48	Span 1503 1751	In contrast, promoter activity for sseA, ssaB, and sifA decreased in the rpoE mutant compared to wild type cells (Figure 2A, B and 2D), whereas promoter activity from the ssaG and srfN reporters was upregulated in the rpoE mutant (Figure 2C and 2F)
+T49	Span 1753 1895	beta-galactosidase activity observed from the sseL reporter was unaltered in the rpoE deletion compared to that in wild type cells (Figure 2E)
+T50	Span 1897 1979	These data are consistent with the protein levels detected for these gene products
+T51	Causality 1981 2015	Together, these data indicate that
+E4	Causality:T51 Effect:T52 Evidence:T47
+T52	Span 2016 2101	sigmaE can have a variable and bidirectional effect on SsrB-regulated virulence genes
+E5	Causality:T51 Effect:T52 Evidence:T48
+E6	Causality:T51 Effect:T52 Evidence:T49
+E7	Causality:T51 Effect:T52 Evidence:T50

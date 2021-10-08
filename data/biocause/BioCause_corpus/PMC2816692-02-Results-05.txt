@@ -1,0 +1,11 @@
+SrcA binds effector cargo destined for the SPI-2 T3SS 
+Since structural and biochemical data unambiguously defined SrcA as a T3SS-associated chaperone, we used two experimental approaches to identify SrcA cargo(s).
+First, we used stable isotope labeling of amino acids in cell culture (SILAC) [28] in conjunction with quantitative mass spectrometry-based proteomics to identify cargo immunoprecipitated with SrcA from Salmonella.
+For this series of experiments we constructed a mutant in which the srcA gene was replaced on the chromosome with srcA-FLAG to enable immunoprecipitation from cell lysates.
+Lysates prepared from wild type cells grown in 2H4-Lys and 13C6-Arg containing SILAC medium (heavy) and srcA mutant cells grown in medium containing natural amino acids of Lys and Arg (light) were mixed and subjected to an immunoprecipitation procedure with an anti-FLAG antibody followed by quantitative mass spectrometry.
+Peptides originating from wild type cells contained heavy atom-substituted lysine and arginine such that putative SrcA cargo proteins would generate low heavy:light SILAC peptide ratios from the complex mixtures (Fig. 5A).
+In these experiments the T3SS effector protein SseL was identified by quantitative SILAC mass spectrometry as a specific SrcA cargo protein (Fig. 5B).
+SseL was immunoprecipitated specifically along with SrcA-FLAG with a SILAC ratio of 0.08, whereas additional abundant proteins displayed SILAC ratios closer to approximately1 (OmpF is shown, Fig. 5B) (mean SILAC ratio of all other peptides identified was 0.93 (Dataset S1).
+Secondly, to verify the mass spectrometry data and to identify other possible effector cargo, we examined the secretion profiles of wild type cells and an srcA mutant that each expressed HA-tagged effector genes, the products of which are secreted by the SPI-2-encoded T3SS.
+Using this approach SseL-HA and PipB2-HA were depleted from the secreted protein fraction of srcA mutant cells (Fig. 5C) but reached similar levels in the bacterial cytoplasm (Fig. 5D).
+As expected from data with the complemented mutant in vivo, expression of srcA in trans restored effector secretion in the srcA mutant (data not shown).

@@ -1,0 +1,92 @@
+T1	Argument 229 244;245 283	I often feel as if I only get half the story sometimes
+T2	Motivation 285 287	so
+E1	Motivation:T2 Effect:T3 Cause:T1
+A1	Degree E1 Facilitate
+T3	Argument 288 322;323 383	I typically do a massive amount of reporting that is most often much more than I will ever need
+T4	Motivation 401 404	why
+E2	Motivation:T4 Effect:T6 Cause:T5
+A2	Degree E2 Facilitate
+T5	Argument 393 397	that
+T6	Argument 405 428	I welcomed doing a book
+T7	Argument 770 777;778 846	Much of it, of course, using the standards of top newspapers, cannot be used
+T8	Argument 853 855;856 890	it is largely gossip we are repeating
+T9	Consequence 847 852	since
+E3	Consequence:T9 Cause:T8 Effect:T7
+A3	Degree E3 Facilitate
+T10	Argument 1035 1069	probably decades and decades hence
+T11	Argument 1073 1088	it is too close
+T12	Consequence 1070 1072	as
+E4	Consequence:T12 Cause:T11 Effect:T10
+A4	Degree E4 Facilitate
+T16	NonCausal 1191 1193	as
+E6	NonCausal:T16 Arg0:T17 Arg1:T18
+T17	Argument 1194 1231	they all become our current pop icons
+T18	Argument 1104 1165;1166 1190	there certainly is no lack of information available about the moguls of technology now
+A6	Temporal E6
+T19	Argument 1408 1477;1478 1483	the shift in the image of Gates has been an interesting one for me to watch
+T20	Motivation 1405 1407	So
+E7	Motivation:T20 Effect:T19
+A7	Degree E7 Facilitate
+T21	Argument 1753 1788;1789 1867	there, while you think of Case, you also think of Pittman and Leonsis and increasingly a range of other executives
+T22	Consequence 1750 1752	So
+E8	Consequence:T22 Effect:T21
+A8	Degree E8 Facilitate
+T23	Argument 2120 2136	several of which
+T24	Argument 2142 2144;2145 2161;2162 2170	me spit up my lunch laughing
+T25	Consequence 2137 2141	made
+E9	Consequence:T25 Effect:T24 Cause:T23
+A9	Degree E9 Facilitate
+T26	Argument 2296 2309	That's ironic
+T27	Argument 2317 2318;2319 2396;2397 2472;2473 2479	I think it was just that insularity that helped them, much in the same way that AOL has benefited from being in the Virginia suburbs rather than in Silicon Valley
+T28	Consequence 2311 2316	since
+E10	Consequence:T28 Cause:T27 Effect:T26
+A10	Degree E10 Facilitate
+T29	Argument 2481 2509	AOL would never have existed
+T30	Argument 2513 2537	it had been founded here
+T31	Consequence 2510 2512	if
+E11	Consequence:T31 Cause:T30 Effect:T29
+A11	Degree E11 Facilitate
+A12	Hypothetical E11
+T32	Argument 2481 2537	AOL would never have existed if it had been founded here
+T33	Consequence 2550 2555	since
+E12	Consequence:T33 Cause:T34 Effect:T32
+A13	Degree E12 Facilitate
+T34	Argument 2556 2623	its employees would have been mocked into obscurity by the digerati
+T35	Note 2745 2750	means
+#1	AnnotatorNotes T35	Inference
+T36	Argument 2972 2982;2983 3025	I think it almost does not matter what the judge does
+T37	Argument 3032 3062;3063 3128	it's clear that the balance of power is shifting again, although it not clear where it will land
+T38	Consequence 3026 3031	since
+E13	Consequence:T38 Cause:T37 Effect:T36
+A14	Degree E13 Facilitate
+T39	Argument 3223 3246	will it be none of them
+T40	Argument 3255 3278;3279 3353;3354 3399	the Internet allows and encourages a plethora of strong companies and a complex interconnection of businesses where none are allowed to dominate
+T41	Consequence 3247 3254	because
+E14	Consequence:T41 Cause:T40 Effect:T39
+A15	Degree E14 Facilitate
+T42	NonCausal 3444 3448	when
+E15	NonCausal:T42 Arg0:T43 Arg1:T44
+A17	Temporal E15
+T43	Argument 3449 3489;3490 3557	people tell me that one company--whether it is AOL or Microsoft or Disney--is in charge of all our destinies
+T44	Argument 3414 3443	I always use two simple words
+T45	Motivation 3862 3865	why
+E16	Motivation:T45 Effect:T46
+A18	Degree E16 Facilitate
+T46	Argument 3866 3869	not
+T13	Argument 2072 2083;2084 2118	your highly amusing and informative dispatches
+R1	Coref Arg1:T23 Arg2:T13	
+T14	Argument 2397 2414	AOL has benefited
+T15	Argument 2420 2472;2473 2479	being in the Virginia suburbs rather than in Silicon Valley
+T47	Consequence 2415 2419	from
+E5	Consequence:T47 Cause:T15 Effect:T14
+A5	Degree E5 Facilitate
+T48	Argument 2586 2592	mocked
+T49	Argument 2598 2607	obscurity
+T50	Consequence 2593 2597	into
+E17	Consequence:T50 Effect:T49 Cause:T48
+A19	Degree E17 Facilitate
+T51	Consequence 3380 3390	allowed to
+E18	Consequence:T51 Effect:T52
+A20	Degree E18 Facilitate
+T52	Argument 3371 3375;3391 3399	none dominate
+#2	AnnotatorNotes E18	Not obligation/permission

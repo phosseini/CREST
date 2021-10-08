@@ -1,0 +1,37 @@
+T22	Process 914 923	virulence
+T23	Process 2306 2315	virulence
+E1	Process:T22 
+E2	Process:T23 
+T1	Organism 137 142	human
+T2	Organism 284 301	Y. enterocolitica
+T3	Organism 306 320	P. luminescens
+T4	Organism 539 553	yersiniabactin
+T5	Organism 992 1006	P. asymbiotica
+T6	Organism 1047 1053	humans
+T7	Organism 1094 1108	P. asymbiotica
+T8	Organism 1302 1319	Y. enterocolitica
+T9	Organism 1455 1469	S. typhimurium
+T10	Organism 1474 1483	H. pylori
+T11	Chemical 1495 1499	iron
+T12	Protein 1549 1555	Flag-2
+T13	Organism 1590 1607	Y. enterocolitica
+T14	Organism 1816 1830	P. luminescens
+T15	Protein 1909 1916	plu0958
+T16	Protein 1917 1921	1166
+T17	Two-component-system 1991 2000	CcdA/CcdB
+T18	Protein 1991 1995	CcdA
+T19	Protein 1996 2000	CcdB
+T20	Organism 2087 2101	P. luminescens
+T21	Chemical 2127 2131	iron
+T24	Span 609 872	The complexity of this evolutionary concept is also demonstrated by the fact that the immune systems both of invertebrates and vertebrates are based on phagocytic cells that are attacked by hemolysins, T3SS effector proteins, and many other toxins described above
+T25	Causality 874 878	Thus
+E3	Causality:T25 Effect:T26 Evidence:T24
+T26	Span 880 970	it can not be excluded that these virulence factors are able to act on both immune systems
+T27	Span 978 1086	The fact that P. asymbiotica has been found to be pathogenic against humans [14] strengthens this hypothesis
+T28	Causality 1088 1092	Thus
+E4	Causality:T28 Effect:T29 Evidence:T27
+T29	Span 1094 1191	P. asymbiotica might be an evolutionary link that is evolving from an insect to a mammal-pathogen
+T30	Span 2025 2172	Only few other genes or operons of the PZ are also present in P. luminescens, namely a chitinase, two iron acquisition systems, and three ysa genes
+T31	Causality 2174 2178	thus
+E5	Causality:T31 Effect:T32 Evidence:T30
+T32	Span 2179 2258	confirming the idea of a patchwork of horizontally acquired genes within the PZ

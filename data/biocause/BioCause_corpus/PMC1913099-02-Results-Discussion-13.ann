@@ -1,0 +1,42 @@
+T1	Organism 233 253	streptococcal strain
+T2	Organism 321 345	S. pyogenes strain SF370
+T3	Regulon-operon 387 398	Mga regulon
+T4	Protein 387 390	Mga
+T5	Protein 461 464	Mga
+T6	Organism 1922 1934	streptococci
+T7	Regulon-operon 2067 2079	spy2009-2010
+T8	Protein 2067 2074	spy2009
+T9	Protein 2075 2079	2010
+T10	Regulon-operon 2084 2096	spy2039-2040
+T11	Protein 2084 2091	spy2039
+T12	Protein 2092 2096	2040
+T13	Protein 2143 2156	C5a peptidase
+T14	Protein 2161 2165	SpeB
+T15	Protein 2649 2656	spy0711
+T16	Protein 2657 2661	0712
+T17	Protein 2733 2737	SpeC
+T18	Protein 2746 2749	MF2
+T19	Regulon-operon 2933 2945	spy0098-0100
+T20	Protein 2933 2940	spy0098
+T21	Protein 2941 2945	0100
+T22	Regulon-operon 3018 3030	spy2159-2160
+T23	Protein 3018 3025	spy2159
+T24	Protein 3026 3030	2160
+T25	Protein 3076 3079	L32
+T26	Protein 3084 3087	L33
+T27	Regulon-operon 3094 3106	spy0741-0746
+T28	Protein 3094 3101	spy0741
+T29	Protein 3102 3106	0746
+T30	Protein 3124 3138	streptolysin S
+T31	Process 616 625	infection
+T32	Positive_regulation 2045 2056	upregulated
+T33	Process 2124 2133	virulence
+T34	Process 2695 2704	virulence
+T35	Regulation 2789 2798	regulated
+E1	Process:T31 
+E2	Positive_regulation:T32 Theme:T7
+E3	Positive_regulation:T32 Theme:T10
+E4	Process:T33 
+E5	Process:T34 
+E6	Regulation:T35 Theme:T17
+E7	Regulation:T35 Theme:T18

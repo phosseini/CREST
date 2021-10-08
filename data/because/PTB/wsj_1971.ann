@@ -1,0 +1,72 @@
+T1	Purpose 78 80;84 93	in effort to
+E1	Purpose:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 94 132	spur sales of Next Inc. 's new machine
+T3	Argument 0 77	Steve Jobs took a step back from the frontier of personal-computer technology
+T4	Motivation 280 282	if
+E2	Motivation:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+A3	Hypothetical E2
+T5	Argument 283 369	the buyer chooses a hard-disk drive as an alternative to Next's optical-storage device
+T6	Argument 211 278	lowering the entry-level price for a Next machine by $1,500, or 23%
+T7	Consequence 526 528	if
+E3	Consequence:T7 Cause:T8 Effect:T9
+A4	Degree E3 Facilitate
+A5	Hypothetical E3
+T8	Argument 529 550	buyers pay full price
+T9	Argument 371 525	The hard drive, which is the storage device of choice for virtually every desktop computer user, also now will supplement Next's futuristic optical device
+T10	Motivation 627 629	in
+E4	Motivation:T10 Effect:T11 Cause:T12
+A6	Degree E4 Facilitate
+T11	Argument 554 626	Mr. Jobs, co-founder of Apple Computer Inc., founded Next four years ago
+T12	Argument 630 716	the hopes of fomenting a revolution in the way desktop computers are designed and used
+T13	Consequence 941 951	because of
+E5	Consequence:T13 Effect:T14 Cause:T15
+A7	Degree E5 Facilitate
+T14	Argument 904 940	the computer was proving a hard sell
+T15	Argument 952 1039	its high price, a lack of software and an optical data-storage device that was too slow
+T16	NonCausal 1070 1072	at
+E6	NonCausal:T16 Arg0:T17 Arg1:T18
+A8	Temporal E6
+T17	Argument 1073 1093	the end of last year
+T18	Argument 1043 1069	The machine began shipping
+T19	Purpose 1235 1238;1250 1258	for purposes
+E7	Purpose:T19 Cause:T20 Effect:T21
+A9	Degree E7 Facilitate
+T20	Argument 1239 1258	evaluation purposes
+T21	Argument 1205 1234	they are buying small numbers
+T22	Motivation 1732 1740	prompted
+E8	Motivation:T22 Effect:T23 Cause:T24
+A10	Degree E8 Facilitate
+T23	Argument 1715 1726	the changes
+T24	Argument 1744 1886	requests from customers who are frustrated with the performance of the optical device, which isn't offered as standard equipment by any rivals
+T25	Motivation 1937 1940	Why
+E9	Motivation:T25 Effect:T26
+A11	Degree E9 Facilitate
+T26	Argument 1941 1975	don't you give us a cheaper system
+T27	Consequence 2105 2109	make
+E10	Consequence:T27 Cause:T28 Effect:T29
+A12	Degree E10 Facilitate
+T28	Argument 2039 2062	Optical-storage devices
+T29	Argument 2110 2112;2113 2178	it far easier to edit film clips or audio recordings with a computer
+T31	Purpose 2266 2268	To
+E11	Purpose:T31 Cause:T32 Effect:T33
+A13	Degree E11 Facilitate
+T32	Argument 2269 2319	get around the delays caused by the optical device
+T33	Argument 2321 2465	Businessland, which is Next's exclusive dealer to corporations, has for months been advising customers to purchase hard drives with the machines
+T34	Consequence 2291 2297	caused
+E12	Consequence:T34 Effect:T35 Cause:T36
+A14	Degree E12 Facilitate
+T35	Argument 2280 2290	the delays
+T36	Argument 2301 2319	the optical device
+T37	Motivation 3443 3449	before
+E13	Motivation:T37 Effect:T38 Cause:T39
+A15	Degree E13 Facilitate
+A16	Temporal E13
+T38	Argument 3450 3496	large numbers of students purchase the machine
+T39	Argument 3410 3442	Next's prices must go even lower
+T40	Consequence 3744 3752	hindered
+E14	Consequence:T40 Effect:T41 Cause:T42
+A17	Degree E14 Inhibit
+T41	Argument 3700 3735	Broad acceptance of Next's computer
+T42	Argument 3756 3798	difficulty in distributing software for it

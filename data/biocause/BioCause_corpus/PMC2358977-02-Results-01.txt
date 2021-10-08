@@ -1,0 +1,17 @@
+Results 
+Discovery and Characterization of SalK/SalR The newly decoded genomic sequence of S. suis 05ZYH33 makes it possible to systematically investigate the genetic basis of streptococcal pathogenicity.
+We focused on the putative 89K PAI to perform further molecular analysis.
+On the negative strand of 89K, peptides encoded by 05SSU0944 and 05SSU0943 exhibit 27% and 41% amino acid sequence identity with the SalK and the SalR proteins of Streptococcus salivarius, respectively, forming a TCSTS belonging to the Nar/LuxR family.
+05SSU0944 and 05SSU0943 were accordingly renamed salK and salR (Fig. 1).
+Notably, the average GC content of salKR, 29.9%, is much less than that of both 89K and the whole genome of 05ZYH33 (36.8% and 41.1%, respectively) (Fig. 1B).
+The results of bioinformatics analysis indicated that the response regulator, SalR, contains 199 amino acids (aa) with the three N-terminal invariant aa residues (D30, D54 and K107) of the receiver domain of response regulators from Gram-positive bacteria [25].
+In the C-terminal domain, it contains two residues (E142, G152) that are absolutely conserved in the winged helix-turn-helix DNA-binding domains of response regulators belonging to the LuxR family [26].
+salK encodes a 396 aa long protein, with five N-terminal transmembrane domains and a transmitter domain signature motif in the C-terminal - typical of sensor histidine protein kinases of TCSTSs [25].
+As some TCSTS gene pairs are adjacent to the genes that they control, the genetic structure of the salKR locus and its flanking genes was defined (Fig. 2A).
+The salK coding region overlaps that of salR by 20 base pairs (bp), and no putative promoter or transcriptional terminator could be identified within either gene.
+A putative promoter located approximately 50 bp upstream from the TTG initiation codon of salK, was predicted using the online server of Neutral Network Promoter Prediction.
+Further sequence analysis revealed a palindrome of 55 bp with the potential to form a stem-loop structure situated in the intergenic region between salR and 05SSU0942, which may function as a transcriptional terminator.
+05SSU0945, situated upstream (729 bp long intergenic region) of the salKR locus, encodes a 94 aa polypeptide for which there were no significant database matches.
+Downstream of salKR, the 05SSU0942, 05SSU0941, 05SSU0940, 05SSU0939, 05SSU0938 genes were predicted to encode peptides with significant identities to the orthologues of Streptococcus agalactiae.
+The function of these downstream gene products are unknown except for 05SSU0941, which encodes a predicted DNA primase that might be involed in DNA replication.
+The genetic organization of this locus indicates that salK might be cotranscribed with salR initiating from the PsalK promoter.

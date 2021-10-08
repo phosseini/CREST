@@ -1,0 +1,45 @@
+T1	Organism 15 22	S. equi
+T2	Protein 36 40	vicK
+T3	Organism 62 66	mice
+T4	Organism 130 146	DeltavicK mutant
+T5	Protein 135 139	vicK
+T6	Organism 171 175	mice
+T7	Organism 204 211	S. equi
+T8	Organism 244 248	mice
+T9	Organism 265 274	DeltavicK
+T10	Protein 270 274	vicK
+T11	Organism 377 381	mice
+T12	Organism 396 405	DeltavicK
+T13	Protein 401 405	vicK
+T14	Organism 435 439	mice
+T15	Organism 468 475	S. equi
+T16	Protein 531 535	vicK
+T17	Organism 570 577	S. equi
+T18	Organism 596 601	mouse
+T19	Negative_regulation 0 11	Attenuation
+T20	Process 23 32	Virulence
+T21	Process 176 184	infected
+T22	Process 299 308	infection
+T23	Process 348 357	infection
+T24	Process 382 390	infected
+T25	Process 440 448	infected
+T26	Negative_regulation 559 569	attenuated
+T27	Process 578 587	virulence
+T28	Process 661 671	infections
+E1	Negative_regulation:T19 Theme:E2
+E2	Process:T20 Participant:T1
+E3	Process:T21 Participant:T7
+E4	Process:T22 
+E5	Process:T23 
+E6	Process:T24 Participant:T12
+E7	Process:T25 Participant:T15
+E8	Negative_regulation:T26 Theme:E9
+E9	Process:T27 Participant:T17
+E10	Process:T28 
+T29	Causality 499 526	These results indicate that
+E11	Causality:T29 Effect:T30 Evidence:T32
+T30	Span 527 671	the vicK deletion significantly attenuated S. equi virulence in both mouse models of subcutaneous (P = 0.0066) and nasal (P = 0.0085) infections
+T31	Span 367 487	All the 8 mice infected with DeltavicK survived, whereas 5 of the 8 mice infected with the wild-type S. equi strain died
+T32	Span 156 283	Seven of the 8 mice infected with the wild-type S. equi strain died, whereas 7 of the 8 mice inoculated with DeltavicK survived
+E12	Causality:T29 Effect:T30 Evidence:T31
+T33	Span 436 502	ice infected with the wild-type S. equi strain died (Fig. 4B). The

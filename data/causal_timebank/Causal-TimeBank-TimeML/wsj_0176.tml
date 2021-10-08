@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0176</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-02</TIMEX3></DCT>
+<TEXT>
+ Xerox Corp. has <EVENT eid="e1" class="REPORTING">told</EVENT> employees in its Crum amp Forster personal insurance operations that it is <EVENT eid="e2" class="OCCURRENCE">laying</EVENT> off about 300 people, or 25 % of the staff.
+ A spokeswoman for Crum amp Forster <EVENT eid="e3" class="REPORTING">said</EVENT> employees were <EVENT eid="e4" class="REPORTING">told</EVENT> <TIMEX3 tid="t5" type="DATE" value="1989-W44" anchorTimeID="t0" functionInDocument="NONE">early this week</TIMEX3> that numerous staff functions for the personal insurance lines were going to be <EVENT eid="e6" class="STATE">centralized</EVENT> as a cost-cutting move.
+ She <EVENT eid="e7" class="REPORTING">said</EVENT> the <EVENT eid="e8" class="OCCURRENCE">move</EVENT> would <EVENT eid="e9" class="OCCURRENCE">result</EVENT> in a after-tax <EVENT eid="e10" class="OCCURRENCE">charge</EVENT> of less than $ 4 million to be <EVENT eid="e11" class="OCCURRENCE">spread</EVENT> over <TIMEX3 tid="t12" type="DURATION" value="P9M" functionInDocument="NONE">the next three quarters</TIMEX3>.
+ By comparison, for <TIMEX3 tid="t13" type="DURATION" value="P9M" functionInDocument="NONE">the first nine months</TIMEX3>, Xerox <EVENT eid="e14" class="OCCURRENCE">earned</EVENT> $ 492 million, or $ 4.55 a share, on revenue of $ 12.97 billion.
+ Earnings at Xerox's financial-services operations actually <EVENT eid="e15" class="OCCURRENCE">rose</EVENT> slightly, but that was largely <C-SIGNAL cid="c16">because</C-SIGNAL> capital gains at Crum amp Forster <EVENT eid="e17" class="OCCURRENCE">offset</EVENT> Hurricane Hugo payments and the reserves set up to cover future payments.
+ Property / casualty insurance has been a tough business in <TIMEX3 tid="t18" type="DURATION" value="PXM" functionInDocument="NONE">recent quarters</TIMEX3>, as pricing has been cutthroat and natural disasters such as <EVENT eid="e19" class="OCCURRENCE">Hurricane</EVENT> Hugo and the California <EVENT eid="e20" class="OCCURRENCE">earthquake</EVENT> have resulted in huge <EVENT eid="e21" class="OCCURRENCE">payments</EVENT>.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="IDENTITY" eventInstanceID="ei2" relatedToEventInstance="ei8"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0"/>
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t5"/>
+<TLINK lid="l5" relType="AFTER" eventInstanceID="ei6" relatedToTime="t0"/>
+<TLINK lid="l6" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei3"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei8" relatedToEventInstance="ei9"/>
+<TLINK lid="l9" relType="SIMULTANEOUS" eventInstanceID="ei9" relatedToEventInstance="ei11"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t12"/>
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t13"/>
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei15" relatedToTime="t0"/>
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei17" relatedToEventInstance="ei15"/>
+<CLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei10"/>
+<CLINK lid="l14" c-signalID="c16" eventInstanceID="ei17" relatedToEventInstance="ei15"/>
+<CLINK lid="l15" eventInstanceID="ei19" relatedToEventInstance="ei21"/>
+<CLINK lid="l16" eventInstanceID="ei20" relatedToEventInstance="ei21"/>
+</TimeML>

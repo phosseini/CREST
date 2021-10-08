@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_1042</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-26</TIMEX3></DCT>
+<TEXT>
+ AVON RENT-A-CAR amp TRUCK Corp. <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE">declared</EVENT> a dividend of one warrant for each three shares of common stock.
+ Currently, Avon, based in Santa Monica, Calif., <EVENT eid="e3" class="OCCURRENCE">has</EVENT> 3.3 million common shares outstanding.
+ About 1.1 million Class C warrants were <EVENT eid="e4" class="OCCURRENCE">issued</EVENT>, the company <EVENT eid="e5" class="REPORTING">said</EVENT>.
+ Each of the Class C warrants will <EVENT eid="e6" class="OCCURRENCE">enable</EVENT> the holders to <EVENT eid="e7" class="OCCURRENCE">purchase</EVENT> one share of common stock at $ 5.50.
+ The warrants may be <EVENT eid="e8" class="OCCURRENCE">exercised</EVENT> until <TIMEX3 tid="t9" type="DURATION" value="P90D" functionInDocument="NONE">90 days</TIMEX3> after their issue date.
+ Avon also said it will <EVENT eid="e10" class="OCCURRENCE">issue</EVENT> an additional 243,677 of the Class C warrants to holders of its Class A, Class B and unclassified warrants.
+ Issuance of those warrants will be at the rate of one-third warrant for each warrant exercised.
+</TEXT>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="PERFECTIVE" polarity="POS" modality="may" pos="VERB"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToEventInstance="ei1"/>
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToTime="t0"/>
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t0"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei8" relatedToTime="t9"/>
+</TimeML>

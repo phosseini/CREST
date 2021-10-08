@@ -1,0 +1,52 @@
+T1	Motivation 313 318	after
+E1	Motivation:T1 Effect:T2 Cause:T3
+A1	Temporal E1
+T2	Argument 257 312	an American warship fired cruise missiles into the area
+T3	Argument 319 461	two boatloads of heavily armed gunmen landed at Bargal, a small fishing village on the north Somali coast, and then escaped into the mountains
+A2	Degree E1 Facilitate
+T4	Motivation 1032 1047	on condition of
+E2	Motivation:T4 Effect:T5 Cause:T6
+A3	Degree E2 Facilitate
+T5	Argument 1023 1031	speaking
+T6	Argument 1048 1057	anonymity
+T7	Purpose 1641 1643	to
+E3	Purpose:T7 Effect:T8 Cause:T9
+A4	Degree E3 Facilitate
+T8	Argument 1527 1542;1587 1640	American forces sent in a small contingent of Special Forces soldiers
+T9	Argument 1644 1690	investigate the remains of suspected militants
+T10	NonCausal 1971 1975	when
+E4	NonCausal:T10 Arg1:T11 Arg0:T12
+A5	Temporal E4
+T11	Argument 1939 1970	reducing terrorist capabilities
+T12	Argument 1986 1998	we find them
+T13	Consequence 2131 2144	predicated on
+E5	Consequence:T13 Effect:T14 Cause:T15
+A6	Degree E5 Facilitate
+T14	Argument 2035 2120	The very nature of some of our operations, as well as the success of those operations
+T15	Argument 2145 2201	our ability to work quietly with our partners and allies
+T16	Purpose 2381 2383;2387 2397	in attempt to
+E6	Purpose:T16 Effect:T17 Cause:T18
+A7	Degree E6 Facilitate
+T17	Argument 2339 2380	they had come by boat to northern Somalia
+T18	Argument 2398 2443	cross the Gulf of Aden and escape the country
+T19	Motivation 2647 2652	after
+E7	Motivation:T19 Effect:T20 Cause:T21
+A8	Degree E7 Facilitate
+A9	Temporal E7
+T20	Argument 2542 2645	Somali officials contacted American officers in Djibouti, where there is a large American military base
+T21	Argument 2653 2777	a gun battle on Friday evening in which the militants wounded four Somali security agents and then melted into the mountains
+T22	Consequence 3259 3266	helping
+E8	Consequence:T22 Effect:T23 Cause:T24
+A10	Degree E8 Facilitate
+T23	Argument 3267 3347	overthrow the Islamist movement that controlled Somalia for six months last year
+T24	Argument 3191 3206	American forces
+T25	Consequence 3481 3498;3569 3571	paved the way for to
+E10	Consequence:T25 Cause:T26 Effect:T27
+A12	Degree E10 Facilitate
+T26	Argument 3476 3480	That
+T27	Argument 3499 3568;3572 3636	Somalia's internationally recognized but weak transitional government take loose control of the capital, Mogadishu, for the first time
+T28	NonCausal 2747 2751	then
+E9	NonCausal:T28 Arg1:T29 Arg0:T30
+A11	Temporal E9
+T29	Argument 2752 2777	melted into the mountains
+T30	Argument 2693 2742	the militants wounded four Somali security agents

@@ -1,0 +1,58 @@
+T1	Organism 4 16	cheB2 Mutant
+T2	Protein 4 9	cheB2
+T3	Organism 44 48	Mice
+T4	Organism 89 109	cheB2 mutant TB0173s
+T5	Protein 89 94	cheB2
+T6	Organism 115 120	mouse
+T7	Organism 226 238	C3H/HeN mice
+T8	Organism 479 491	cheB2 mutant
+T9	Protein 479 484	cheB2
+T10	Organism 493 500	TB0173s
+T11	Organism 584 588	mice
+T12	Organism 624 626	TB
+T13	Organism 655 666	TB0173sp2B2
+T14	Organism 776 796	TB0173s cheB2 mutant
+T15	Protein 784 789	cheB2
+T16	Organism 877 888	TB0173sp2B2
+T17	Organism 1022 1026	mice
+T18	Organism 1093 1097	mice
+T19	Organism 1116 1128	cheB2 mutant
+T20	Protein 1116 1121	cheB2
+T21	Organism 1261 1265	mice
+*	Equiv T8 T10
+T22	Process 31 40	Virulence
+T23	Process 72 81	virulence
+T24	Process 135 144	infection
+T25	Process 190 199	infection
+T26	Process 452 461	infection
+T27	Negative_regulation 525 535	attenuated
+T28	Process 536 545	virulence
+T29	Process 571 580	infection
+T30	Process 668 677	Infection
+T31	Process 838 847	Infection
+T32	Process 1044 1053	infection
+T33	Process 1098 1106	infected
+T34	Process 1203 1212	infection
+T35	Process 1266 1274	infected
+E1	Process:T22 Participant:T1
+E2	Process:T23 Participant:T4
+E3	Process:T24 
+E4	Process:T25 
+E5	Process:T26 
+E6	Negative_regulation:T27 Theme:E8
+E7	Process:T28 Participant:T13
+E8	Process:T28 Participant:T8
+E9	Process:T28 Participant:T12
+E10	Process:T29 Participant:T12
+E11	Process:T29 Participant:T13
+E12	Process:T29 Participant:T8
+E13	Process:T30 Participant:T14
+E14	Process:T31 Participant:T16
+E15	Process:T32 
+E16	Process:T33 Participant:T19
+E17	Process:T34 Participant:T19
+E18	Process:T35 
+T36	Span 1083 1300	Surviving mice infected with the cheB2 mutant showed a significantly less troubled body condition from days 3 to 6 post infection (P<0.01, Mann-Whitney rank test) than surviving mice infected with the wild type strain
+T37	Causality 1301 1316	indicating that
+E19	Causality:T37 Evidence:T36 Effect:T38
+T38	Span 1317 1380	the former group recovered earlier than the latter (Figure 4B).

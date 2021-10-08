@@ -1,0 +1,137 @@
+T82	Regulation 0 4	Role
+T83	Process 21 30	Virulence
+T84	Process 257 267	resistance
+T85	Process 300 310	resistance
+T86	Process 853 862	infection
+T87	Regulation 907 911	role
+T88	Process 928 937	virulence
+T89	Process 1203 1212	infection
+T90	Process 1258 1266	infected
+T91	Process 1283 1292	avirulent
+T92	Process 1460 1470	challenged
+T93	Positive_regulation 1799 1813	reintroduction
+T94	Process 1920 1930	infections
+T95	Process 2251 2260	virulence
+T96	Negative_regulation 2261 2272	attenuation
+T97	Process 2423 2431	infected
+T98	Process 2788 2799	coinfection
+T99	Process 3192 3201	infection
+E1	Regulation:T82 Theme:E2 Cause:T1
+M1	Speculation E1
+E2	Process:T83 
+E3	Process:T84 
+E4	Process:T85 Participant:T10
+E5	Process:T86 
+E6	Regulation:T87 Theme:E7 Cause:T23
+M2	Speculation E6
+E7	Process:T88 
+E8	Process:T89 
+E9	Process:T90 Participant:T28
+E10	Process:T91 Participant:T28
+E11	Process:T92 Participant:T30
+E12	Positive_regulation:T93 Theme:T42
+E13	Process:T94 Participant:T50
+E14	Process:T95 Participant:T58
+E15	Negative_regulation:T96 Theme:E14
+E16	Process:T97 
+E17	Process:T98 Participant:T69
+E18	Process:T99 Participant:T81
+T1	Two-component-system 8 17	SalK/SalR
+T2	Protein 8 12	SalK
+T3	Protein 13 17	SalR
+T4	Two-component-system 106 111	salKR
+T5	Protein 106 110	salK
+T6	Protein 110 111	R
+T7	Organism 166 169	SS2
+T8	Chemical 243 256	spectinomycin
+T9	Chemical 286 299	spectinomycin
+T10	Organism 335 345	DeltasalKR
+T11	Two-component-system 340 345	salKR
+T12	Protein 340 344	salK
+T13	Protein 344 345	R
+T14	Organism 424 434	DeltasalKR
+T15	Two-component-system 429 434	salKR
+T16	Protein 429 433	salK
+T17	Protein 433 434	R
+T18	Organism 558 568	DeltasalKR
+T19	Two-component-system 563 568	salKR
+T20	Protein 563 567	salK
+T21	Protein 567 568	R
+T22	Organism 872 879	piglets
+T23	Two-component-system 915 924	SalK/SalR
+T24	Protein 915 919	SalK
+T25	Protein 920 924	SalR
+T26	Organism 973 980	piglets
+T27	Organism 1267 1274	piglets
+T28	Organism 1301 1308	05HAS68
+T29	Organism 1452 1459	piglets
+T30	Organism 1480 1490	DeltasalKR
+T31	Two-component-system 1485 1490	salKR
+T32	Protein 1485 1489	salK
+T33	Protein 1489 1490	R
+T34	Organism 1648 1658	DeltasalKR
+T35	Two-component-system 1653 1658	salKR
+T36	Protein 1653 1657	salK
+T37	Protein 1657 1658	R
+T38	Organism 1743 1774	complemented strain CDeltasalKR
+T39	Two-component-system 1769 1774	salKR
+T40	Protein 1769 1773	salK
+T41	Protein 1773 1774	R
+T42	Two-component-system 1817 1822	salKR
+T43	Protein 1817 1821	salK
+T44	Protein 1821 1822	R
+T45	Organism 1828 1838	DeltasalKR
+T46	Two-component-system 1833 1838	salKR
+T47	Protein 1833 1837	salK
+T48	Protein 1837 1838	R
+T49	Organism 1888 1895	piglets
+T50	Organism 1934 1945	CDeltasalKR
+T51	Two-component-system 1940 1945	salKR
+T52	Protein 1940 1944	salK
+T53	Protein 1944 1945	R
+T54	Two-component-system 2130 2139	SalK/SalR
+T55	Protein 2130 2134	SalK
+T56	Protein 2135 2139	SalR
+T57	Organism 2223 2226	SS2
+T58	Organism 2276 2286	DeltasalKR
+T59	Two-component-system 2281 2286	salKR
+T60	Protein 2281 2285	salK
+T61	Protein 2285 2286	R
+T62	Organism 2396 2399	SS2
+T63	Organism 2432 2439	piglets
+T64	Two-component-system 2672 2681	SalK/SalR
+T65	Protein 2672 2676	SalK
+T66	Protein 2677 2681	SalR
+T67	Organism 2715 2722	05ZYH33
+T68	Organism 2758 2765	piglets
+T69	Organism 2777 2787	DeltasalKR
+T70	Two-component-system 2782 2787	salKR
+T71	Protein 2782 2786	salK
+T72	Protein 2786 2787	R
+T73	Organism 2873 2883	DeltasalKR
+T74	Two-component-system 2878 2883	salKR
+T75	Protein 2878 2882	salK
+T76	Protein 2882 2883	R
+T77	Organism 3064 3074	DeltasalKR
+T78	Two-component-system 3069 3074	salKR
+T79	Protein 3069 3073	salK
+T80	Protein 3073 3074	R
+T81	Organism 3188 3191	SS2
+T111	Span 1566 1630	This was similar to those observed in the negative control group
+T112	Causality 1632 1647	indicating that
+E23	Causality:T112 Evidence:T111 Effect:T113
+T113	Span 1648 1686	DeltasalKR totally loses its lethality
+T114	Span 1688 1774	The experiments of functional complementation with the complemented strain CDeltasalKR
+T115	Span 1795 1870	the reintroduction of salKR into DeltasalKR restored its high pathogenicity
+T116	Causality 1775 1794	showed clearly that
+E24	Causality:T116 Evidence:T114 Effect:T115
+T118	Causality 2090 2129	All these results strongly suggest that
+E25	Causality:T118 Effect:T119 Cause:T101 Cause:T100
+T119	Span 2130 2226	SalK/SalR plays an important role in the pathogenesis of Chinese isolates of highly invasive SS2
+#1	AnnotatorNotes E25	Well seems like several "causality" words or phrases are preceded by all these results
+T128	Span 3060 3120	the DeltasalKR mutant is still able to colonize these organs
+T129	Span 3137 3218	the WT-mediated impairment of host defense against SS2 infection in these tissues
+T130	Causality 3122 3136	is just due to
+E29	Causality:T130 Effect:T128 Evidence:T129
+T100	Span 1872 1997	Five out of six piglets succumbed to the lethal infections of CDeltasalKR and died, with median survival times of 2 to 3 days
+T101	Span 1999 2088	The last one recovered from serious clinical symptoms and survived at the experiments end

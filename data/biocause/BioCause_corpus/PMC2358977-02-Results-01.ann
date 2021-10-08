@@ -1,0 +1,73 @@
+T1	Two-component-system 43 52	SalK/SalR
+T2	Protein 43 47	SalK
+T3	Protein 48 52	SalR
+T4	Organism 91 106	S. suis 05ZYH33
+T5	Protein 330 339	05SSU0944
+T6	Protein 344 353	05SSU0943
+T7	Protein 412 416	SalK
+T8	Protein 425 429	SalR
+T9	Organism 442 466	Streptococcus salivarius
+T10	Two-component-system 515 523	Nar/LuxR
+T11	Protein 515 518	Nar
+T12	Protein 519 523	LuxR
+T13	Protein 532 541	05SSU0944
+T14	Protein 546 555	05SSU0943
+T15	Protein 581 585	salK
+T16	Protein 590 594	salR
+T17	Two-component-system 640 645	salKR
+T18	Protein 640 644	salK
+T19	Protein 644 645	R
+T20	Organism 713 720	05ZYH33
+T21	Protein 842 846	SalR
+T22	Protein 1211 1215	LuxR
+T23	Protein 1229 1233	salK
+T24	Two-component-system 1528 1533	salKR
+T25	Protein 1528 1532	salK
+T26	Protein 1532 1533	R
+T27	Protein 1590 1594	salK
+T28	Protein 1626 1630	salR
+T29	Protein 1839 1843	salK
+T30	Protein 2071 2075	salR
+T31	Protein 2080 2089	05SSU0942
+T32	Protein 2143 2152	05SSU0945
+T33	Two-component-system 2211 2216	salKR
+T34	Protein 2211 2215	salK
+T35	Protein 2215 2216	R
+T36	Two-component-system 2320 2325	salKR
+T37	Protein 2320 2324	salK
+T38	Protein 2324 2325	R
+T39	Protein 2331 2340	05SSU0942
+T40	Protein 2342 2351	05SSU0941
+T41	Protein 2353 2362	05SSU0940
+T42	Protein 2364 2373	05SSU0939
+T43	Protein 2375 2384	05SSU0938
+T44	Organism 2475 2499	Streptococcus agalactiae
+T45	Protein 2571 2580	05SSU0941
+T46	Protein 2716 2720	salK
+T47	Protein 2749 2753	salR
+T48	Two-component-system 2774 2779	PsalK
+T49	Protein 2774 2778	Psal
+T50	Protein 2778 2779	K
+*	Equiv T13 T15
+*	Equiv T14 T16
+T51	Regulation 972 980	response
+T52	Transcription 2730 2743	cotranscribed
+E1	Regulation:T51 Theme:T21
+E2	Transcription:T52 Theme:T46
+E3	Transcription:T52 Theme:T47
+T53	Fact 53 124	The newly decoded genomic sequence of S. suis 05ZYH33 makes it possible
+T54	Fact 125 203	to systematically investigate the genetic basis of streptococcal pathogenicity
+T55	Causality 125 125	
+E4	Causality:T55 Evidence:T53 Effect:T54
+T62	Span 1923 2089	Further sequence analysis revealed a palindrome of 55 bp with the potential to form a stem-loop structure situated in the intergenic region between salR and 05SSU0942
+T63	Span 2091 2141	which may function as a transcriptional terminator
+T64	Causality 2091 2091	
+E7	Causality:T64 Evidence:T62 Effect:T63
+T68	Span 2501 2619	The function of these downstream gene products are unknown except for 05SSU0941, which encodes a predicted DNA primase
+T69	Span 2620 2660	that might be involed in DNA replication
+T70	Causality 2620 2620	
+E9	Causality:T70 Evidence:T68 Effect:T69
+T56	Span 2662 2700	The genetic organization of this locus
+T57	Causality 2701 2715	indicates that
+E5	Causality:T57 Evidence:T56 Effect:T58
+T58	Span 2716 2788	salK might be cotranscribed with salR initiating from the PsalK promoter

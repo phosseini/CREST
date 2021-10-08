@@ -1,0 +1,8 @@
+T3	Process 192 201	virulence
+E1	Process:T3 
+T1	Regulon-operon 85 91	sigmaE
+T2	Protein 108 112	SsrB
+T4	Span 53 225	the genetic interaction between sigmaE and a subset of SsrB-regulated genes may serve to coordinate the spatial and temporal activation of virulence genes in a host setting
+T5	Causality 227 248	likely in response to
+E2	Causality:T5 Cause:T6 Effect:T4
+T6	Span 249 356	membrane damage resulting from oxidative anti-microbial systems and membrane-targeted host defence peptides

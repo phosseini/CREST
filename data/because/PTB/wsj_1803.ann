@@ -1,0 +1,134 @@
+T1	Consequence 675 680	until
+E1	Consequence:T1 Effect:T3 Cause:T2
+A1	Temporal E1
+T2	Argument 681 740	6 a.m. PDT yesterday when controllers returned to the tower
+T3	Argument 518 673	The major gateway to Asia and one of the nation's 10 busiest airports was closed to all but emergency traffic from the time the quake hit Tuesday afternoon
+A2	Degree E1 Inhibit
+T4	NonCausal 702 706	when
+E2	NonCausal:T4 Arg0:T5 Arg1:T6
+A3	Temporal E2
+T5	Argument 707 740	controllers returned to the tower
+T6	Argument 681 701	6 a.m. PDT yesterday
+T7	Consequence 1793 1800	impeded
+E3	Consequence:T7 Effect:T8 Cause:T9
+A4	Degree E3 Inhibit
+T8	Argument 1801 1836	its pickup and delivery of packages
+T9	Argument 1754 1787	road shutdowns and power failures
+T10	Consequence 1962 1971;2003 2007	prevented from
+E4	Consequence:T10 Effect:T11 Cause:T12
+A5	Degree E4 Inhibit
+T11	Argument 1972 2002;2008 2017	its package-sorting facilities operating
+T12	Argument 1947 1961	power failures
+T13	Consequence 2019 2026	causing
+E5	Consequence:T13 Effect:T14 Cause:T15
+A6	Degree E5 Facilitate
+T14	Argument 2027 2033	delays
+T15	Argument 1947 2017	power failures prevented its package-sorting facilities from operating
+T16	Motivation 2242 2247	while
+E6	Motivation:T16 Cause:T17 Effect:T18
+A7	Degree E6 Facilitate
+T17	Argument 2248 2277	its officials inspected track
+T18	Argument 2196 2241	Santa Fe stopped freight trains Tuesday night
+A8	Temporal E6
+T19	Motivation 2312 2316	when
+E7	Motivation:T19 Cause:T20 Effect:T21
+A9	Degree E7 Facilitate
+A10	Temporal E7
+T20	Argument 2317 2337	they found no damage
+T21	Argument 2196 2204;2282 2311	Santa Fe resumed service at 10:45 p.m.
+T22	Consequence 2545 2551	caused
+E8	Consequence:T22 Effect:T23 Cause:T24
+A11	Degree E8 Facilitate
+T23	Argument 2538 2544	delays
+T24	Argument 2555 2586	employees unable to get to work
+T25	Motivation 2818 2828	because of
+E9	Motivation:T25 Effect:T26 Cause:T27
+A12	Degree E9 Facilitate
+T26	Argument 2688 2817	service on its north-south coastline, which is used by an Amtrak train between Los Angeles and Seattle, was suspended temporarily
+T27	Argument 2829 2873	kinked rails near the epicenter of the quake
+T28	Consequence 3227 3233	during
+E10	Consequence:T28 Cause:T29 Effect:T30
+A13	Degree E10 Facilitate
+A14	Temporal E10
+T29	Argument 3234 3243	the quake
+T30	Argument 3183 3226	which sustained ``heavy structural damage''
+T31	Purpose 3329 3331	to
+E11	Purpose:T31 Cause:T32 Effect:T33
+A15	Degree E11 Facilitate
+T32	Argument 3332 3364	ferry passengers to the Bay area
+T33	Argument 3312 3328	relying on buses
+T34	NonCausal 3764 3770	during
+E12	NonCausal:T34 Arg0:T35 Arg1:T36
+A16	Temporal E12
+T35	Argument 3771 3778	the day
+T36	Argument 3710 3763	the rail system was running a full fleet of 45 trains
+T37	Purpose 3779 3781	to
+E13	Purpose:T37 Cause:T38 Effect:T39
+A17	Degree E13 Facilitate
+T38	Argument 3782 3826	provide an alternative for highway travelers
+T39	Argument 3710 3778	the rail system was running a full fleet of 45 trains during the day
+T40	Consequence 4537 4543;4555 4557	had to to
+E14	Consequence:T40 Effect:T41 Cause:T42
+A18	Degree E14 Facilitate
+T41	Argument 4558 4571	resume travel
+T42	Argument 4491 4500;4544 4554	thousands wait a day
+T43	Motivation 4747 4754	because
+E15	Motivation:T43 Effect:T44 Cause:T45
+A19	Degree E15 Facilitate
+T44	Argument 4621 4736	traffic was being limited yesterday to 27 arrivals and 27 departures an hour -- down from 33 to 45 an hour normally
+T45	Argument 4755 4828	the noise level in the control tower was overwhelming without the windows
+T46	Consequence 4809 4816	without
+E16	Consequence:T46 Cause:T47 Effect:T48
+A20	Context E16
+A21	Degree E16 Inhibit
+T47	Argument 4817 4828	the windows
+T48	Argument 4755 4808	the noise level in the control tower was overwhelming
+T49	Motivation 4857 4862	While
+E17	Motivation:T49 Cause:T50 Effect:T51
+A22	Temporal E17
+T50	Argument 4863 4885	the airport was closed
+T51	Argument 4887 4998	flights were diverted to airports in Sacramento and Stockton, Calif.; Reno and Las Vegas, Nev.; and Los Angeles
+T52	Motivation 5126 5136	because of
+E18	Motivation:T52 Effect:T53 Cause:T54
+A23	Degree E18 Facilitate
+T53	Argument 5000 5125	United Airlines, the largest carrier at San Francisco, was operating only 50% of its scheduled service in and out of the area
+T54	Argument 5137 5230	damage to its terminal, which in turn was causing delays for travelers headed to the Bay area
+T55	Consequence 5179 5186	causing
+E19	Consequence:T55 Effect:T56 Cause:T57
+A24	Degree E19 Facilitate
+T56	Argument 5187 5230	delays for travelers headed to the Bay area
+T57	Argument 5161 5166	which
+T59	Consequence 5297 5307	because of
+E20	Consequence:T59 Effect:T60 Cause:T61
+A25	Degree E20 Facilitate
+T60	Argument 5256 5288	14 of its 21 gates were unusable
+T61	Argument 5308 5380	water damage caused when a sprinkler system was triggered by the tremors
+T62	Consequence 5321 5327	caused
+E21	Consequence:T62 Effect:T63 Means:T64
+A26	Degree E21 Facilitate
+T63	Argument 5308 5320	water damage
+T64	Argument 5333 5380	a sprinkler system was triggered by the tremors
+T65	Argument 5321 5327	caused
+T66	Consequence 5328 5332	when
+E22	Consequence:T66 Effect:T65 Cause:T64
+A27	Degree E22 Facilitate
+A28	Temporal E22
+T68	NonCausal 5467 5469	as
+E23	NonCausal:T68 Arg0:T69 Arg1:T70
+A29	Temporal E23
+T69	Argument 5470 5515	the airport was being evacuated Tuesday night
+T70	Argument 5517 5537	two babies were born
+T71	Argument 5733 5756	help family and friends
+T72	Purpose 5730 5732	to
+E24	Purpose:T72 Effect:T73 Cause:T71
+A30	Degree E24 Facilitate
+T73	Argument 5720 5729	get there
+T74	Consequence 6385 6390	since
+E25	Consequence:T74 Effect:T75 Cause:T76
+A31	Degree E25 Facilitate
+A32	Temporal E25
+T75	Argument 6305 6384	Its telecommunications headquarters in Burlingame, Calif., had been knocked out
+T76	Argument 6391 6400	the quake
+R1	Coref Arg1:T57 Arg2:T53	
+T58	Note 5321 5327	caused
+#1	AnnotatorNotes T58	Revisit

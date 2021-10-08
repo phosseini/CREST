@@ -1,0 +1,84 @@
+*	Equiv T1 T2
+T58	Gene_expression 613 621	produced
+T59	Positive_regulation 1864 1873	increased
+T60	Positive_regulation 2041 2050	increased
+E1	Gene_expression:T58 Theme:T17
+E2	Positive_regulation:T59 Theme:T51
+E3	Positive_regulation:T60 Theme:T55
+T1	Protein 19 33	streptolysin O
+T2	Protein 35 38	SLO
+T3	Organism 52 64	invasive GAS
+T4	Organism 124 136	invasive GAS
+T5	Protein 221 230	annexin V
+T6	Chemical 279 288	cytolysin
+T7	Organism 317 320	GAS
+T8	Chemical 333 343	cytolysins
+T9	Protein 381 395	Streptolysin S
+T10	Protein 397 400	SLS
+T11	Chemical 408 414	oxygen
+T12	Chemical 422 436	beta-hemolysin
+T13	Protein 441 455	Streptolysin O
+T14	Protein 457 460	SLO
+T15	Chemical 480 491	cholesterol
+T16	Organism 556 559	GAS
+T17	Protein 609 612	SLO
+T18	Organism 625 637	invasive GAS
+T19	Organism 736 748	invasive GAS
+T20	Protein 769 772	SLO
+T21	Chemical 904 915	cholesterol
+T22	Organism 964 984	SLO deficient mutant
+T23	Protein 964 967	SLO
+T24	Organism 1005 1011	NIH230
+T25	Organism 1013 1022	NIH230slo
+T26	Protein 1019 1022	slo
+T27	Protein 1105 1108	SLO
+T28	Organism 1154 1166	invasive GAS
+T29	Organism 1180 1200	SLS-deficient mutant
+T30	Protein 1180 1183	SLS
+T31	Organism 1206 1212	NIH230
+T32	Organism 1221 1231	NIH230sagA
+T33	Protein 1227 1231	sagA
+T34	Protein 1298 1301	SLS
+T35	Organism 1348 1360	invasive GAS
+T36	Organism 1362 1391	SLO and SLS double mutant GAS
+T37	Protein 1362 1365	SLO
+T38	Protein 1370 1373	SLS
+T39	Organism 1397 1403	NIH230
+T40	Organism 1412 1425	NIH230slosagA
+T41	Protein 1418 1421	slo
+T42	Protein 1421 1425	sagA
+T43	Organism 1489 1498	NIH230slo
+T44	Protein 1495 1498	slo
+T45	Protein 1533 1536	SLO
+T46	Organism 1541 1544	GAS
+T47	Protein 1644 1648	IL-8
+T48	Organism 1653 1661	invasive
+T49	Organism 1665 1681	non-invasive GAS
+T50	Organism 1735 1747	invasive GAS
+T51	Protein 1848 1851	SLO
+T52	Organism 1877 1889	invasive GAS
+T53	Protein 1910 1913	SLO
+T54	Organism 1936 1939	GAS
+T55	Protein 1991 1994	SLO
+T56	Organism 2031 2037	NIH230
+T57	Organism 2071 2095	non-invasive strain 1566
+T61	Span 961 1057	an SLO deficient mutant from a STSS isolate NIH230 (NIH230slo) lost the killing activity for PMN
+T62	Causality 1071 1104	thereby, strongly suggesting that
+E4	Causality:T62 Effect:T63 Evidence:T61
+T63	Span 1105 1166	SLO is a key element for PMN killing mediated by invasive GAS
+T64	Span 1168 1280	Contrarily, SLS-deficient mutant from NIH230 strain (NIH230sagA) killed PMN, as efficiently as did parent strain
+T65	Causality 1282 1297	indicating that
+E5	Causality:T65 Effect:T66 Evidence:T64
+T66	Span 1298 1360	SLS is dispensable for killing of PMN mediated by invasive GAS
+T67	Span 1362 1498	SLO and SLS double mutant GAS from NIH230 strain (NIH230slosagA) displayed the killing activity indistinguishable from that of NIH230slo
+T68	Causality 1500 1510	confirming
+E6	Causality:T68 Effect:T69 Evidence:T67
+T69	Span 1511 1565	the primarily role of SLO for GAS-mediated PMN killing
+T70	Span 1590 1710	incubation of PMN with supernatant from co-culture of IL-8 and invasive or non-invasive GAS did not affect PMN viability
+T71	Causality 1712 1727	suggesting that
+E7	Causality:T71 Effect:T72 Evidence:T70
+T72	Span 1728 1830	severe invasive GAS causes PMN killing following encounter with bacteria in a contact-dependent manner
+T73	Span 1991 2095	SLO activity of severe invasive isolate NIH230 is increased as twice as that of non-invasive strain 1566
+T74	Causality 1832 1847	To confirm that
+E8	Causality:T74 Effect:T75 Evidence:T73
+T75	Span 1848 1966	SLO activity is increased in invasive GAS strain, we measured SLO hemolytic activity of GAS strains used in this study

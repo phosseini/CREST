@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0798</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-27</TIMEX3></DCT>
+<TEXT>
+ Hudson's Bay Co. <EVENT eid="e1" class="OCCURRENCE">announced</EVENT> terms of a previously proposed rights issue that is <EVENT eid="e2" class="I_STATE">expected</EVENT> to <EVENT eid="e3" class="OCCURRENCE">raise</EVENT> about 396 million Canadian dollars ( US $ 337 million ) net of expenses.
+ Proceeds of the offering will be <EVENT eid="e4" class="OCCURRENCE">used</EVENT> to <EVENT eid="e5" class="OCCURRENCE">redeem</EVENT> C $ 264 million of preferred shares and to <EVENT eid="e6" class="OCCURRENCE">reduce</EVENT> short-term debt, the company <EVENT eid="e7" class="REPORTING">said</EVENT>.
+ Canada's largest department store operator <EVENT eid="e8" class="REPORTING">said</EVENT> the rights offering will <EVENT eid="e9" class="I_STATE">entitle</EVENT> holders of its ordinary shares, except residents in the U.S. and Britain, to <EVENT eid="e10" class="OCCURRENCE">subscribe</EVENT> for two additional shares for every five shares held at a price of C $ 31.25 a share.
+ The record date is <TIMEX3 tid="t11" type="DATE" value="1989-11-09" anchorTimeID="t0" functionInDocument="NONE">Nov. 9</TIMEX3>.
+ The company <EVENT eid="e12" class="STATE">has</EVENT> about 31 million ordinary shares outstanding.
+ On the Toronto Stock Exchange, Hudson's Bay shares <EVENT eid="e13" class="OCCURRENCE">closed</EVENT> at C $ 35, up 12.5 cents.
+ Hudson's Bay <EVENT eid="e14" class="REPORTING">said</EVENT> that Woodbridge Co., which <TIMEX3 tid="t15" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">currently</TIMEX3> <EVENT eid="e16" class="STATE">holds</EVENT> about 77 % of the ordinary shares, will <EVENT eid="e17" class="OCCURRENCE">subscribe</EVENT> for all the shares to which it is entitled and for any shares that aren't otherwise taken up.
+ Woodbridge is a holding company owned by Toronto's Thomson family.
+ Hudson's Bay <EVENT eid="e18" class="REPORTING">said</EVENT> it will <EVENT eid="e19" class="OCCURRENCE">redeem</EVENT> 9.5 million Series H preferred shares on <TIMEX3 tid="t20" type="DATE" value="1989-10-31" anchorTimeID="t0" functionInDocument="NONE">Oct. 31</TIMEX3> at a price of C $ 27.75 each.
+ The <EVENT eid="e21" class="OCCURRENCE">move</EVENT> was <EVENT eid="e22" class="I_ACTION">approved</EVENT> at a special shareholders ' <EVENT eid="e23" class="OCCURRENCE">meeting</EVENT> <TIMEX3 tid="t24" type="DATE" value="1989-10-26" anchorTimeID="t0" functionInDocument="NONE">yesterday</TIMEX3>.
+ Gary Lukassen, chief financial officer, <EVENT eid="e25" class="REPORTING">said</EVENT> <EVENT eid="e26" class="OCCURRENCE">redemption</EVENT> of the preferred shares, originally <EVENT eid="e27" class="OCCURRENCE">issued</EVENT> at C $ 25 each, will <EVENT eid="e28" class="ASPECTUAL">eliminate</EVENT> dividend <EVENT eid="e29" class="OCCURRENCE">payments</EVENT> of C $ 17.9 million <TIMEX3 tid="t30" type="SET" value="XXXX" functionInDocument="NONE">annually</TIMEX3>.
+</TEXT>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="IS_INCLUDED" timeID="t0" relatedToEventInstance="ei2"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToEventInstance="ei2"/>
+<TLINK lid="l4" relType="AFTER" eventInstanceID="ei4" relatedToTime="t0"/>
+<TLINK lid="l5" relType="IDENTITY" eventInstanceID="ei7" relatedToEventInstance="ei1"/>
+<TLINK lid="l6" relType="IDENTITY" eventInstanceID="ei8" relatedToEventInstance="ei1"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei10"/>
+<TLINK lid="l8" relType="INCLUDES" eventInstanceID="ei12" relatedToTime="t0"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0"/>
+<TLINK lid="l10" relType="INCLUDES" eventInstanceID="ei16" relatedToTime="t0"/>
+<TLINK lid="l11" relType="DURING" eventInstanceID="ei16" relatedToTime="t15"/>
+<TLINK lid="l12" relType="IDENTITY" eventInstanceID="ei18" relatedToEventInstance="ei14"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei19" relatedToTime="t20"/>
+<TLINK lid="l14" relType="INCLUDES" eventInstanceID="ei21" relatedToEventInstance="ei19"/>
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei22" relatedToEventInstance="ei21"/>
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToEventInstance="ei23"/>
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei23" relatedToTime="t0"/>
+<TLINK lid="l18" relType="IS_INCLUDED" eventInstanceID="ei23" relatedToTime="t24"/>
+<TLINK lid="l19" relType="SIMULTANEOUS" eventInstanceID="ei25" relatedToEventInstance="ei18"/>
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei26" relatedToEventInstance="ei28"/>
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei27" relatedToEventInstance="ei26"/>
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei27" relatedToEventInstance="ei28"/>
+<TLINK lid="l23" relType="AFTER" eventInstanceID="ei29" relatedToEventInstance="ei26"/>
+</TimeML>

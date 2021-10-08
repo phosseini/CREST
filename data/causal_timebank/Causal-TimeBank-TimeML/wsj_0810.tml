@@ -1,0 +1,185 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0810</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-27</TIMEX3></DCT>
+<TEXT>
+ Cie.
+ de Navigation Mixte Chairman Marc Fournier <EVENT eid="e1" class="REPORTING">said</EVENT> his board unanimously <EVENT eid="e2" class="I_ACTION">rejected</EVENT> as too low the $ 1.77 billion <EVENT eid="e3" class="OCCURRENCE">bid</EVENT> by Cie.
+ Financiere de Paribas to <EVENT eid="e4" class="OCCURRENCE">bring</EVENT> its stake in Navigation Mixte to 66.7 %.
+ At a news <EVENT eid="e5" class="OCCURRENCE">conference</EVENT>, Mr. Fournier <EVENT eid="e6" class="I_ACTION">accused</EVENT> Paribas of <EVENT eid="e7" class="I_STATE">planning</EVENT> to <EVENT eid="e8" class="OCCURRENCE">pay</EVENT> for the <EVENT eid="e9" class="OCCURRENCE">takeover</EVENT> by selling parts of the company, whose interests include insurance, banking, tuna canning, sugar and orange juice.
+ The chairman <EVENT eid="e10" class="REPORTING">said</EVENT> his board members, including representatives of West German insurance giant Allianz AG and French banks Credit Lyonnais and Societe Generale, <EVENT eid="e11" class="I_STATE">hold</EVENT> nearly 50 % of Navigation Mixte's capital.
+ Mr. Fournier <EVENT eid="e12" class="REPORTING">said</EVENT> that as Navigation Mixte chairman, he is <EVENT eid="e13" class="I_STATE">prohibited</EVENT> by takeover regulations from <EVENT eid="e14" class="OCCURRENCE">organizing</EVENT> his own defense or <EVENT eid="e15" class="OCCURRENCE">doing</EVENT> anything besides <EVENT eid="e16" class="OCCURRENCE">managing</EVENT> current company business.
+ But sources <EVENT eid="e17" class="REPORTING">said</EVENT> he will be <EVENT eid="e18" class="I_ACTION">urging</EVENT> his allies to <EVENT eid="e19" class="OCCURRENCE">boost</EVENT> their stakes in Navigation Mixte, which is being <EVENT eid="e20" class="OCCURRENCE">traded</EVENT> in London and is to <EVENT eid="e21" class="ASPECTUAL">resume</EVENT> <EVENT eid="e22" class="OCCURRENCE">trading</EVENT> in Paris <TIMEX3 tid="t23" type="DATE" value="1989-10-31" anchorTimeID="t0" functionInDocument="NONE">Tuesday</TIMEX3>.
+ At the same time, he is <EVENT eid="e24" class="I_STATE">expected</EVENT> to <EVENT eid="e25" class="I_ACTION">seek</EVENT> legal and regulatory means of <EVENT eid="e26" class="I_ACTION">blocking</EVENT> or <EVENT eid="e27" class="I_ACTION">delaying</EVENT> Paribas's <EVENT eid="e28" class="OCCURRENCE">bid</EVENT>.
+ For the moment, the sources <EVENT eid="e29" class="REPORTING">said</EVENT>, he has <EVENT eid="e30" class="OCCURRENCE">decided</EVENT> against <EVENT eid="e31" class="I_ACTION">seeking</EVENT> a white knight or <EVENT eid="e32" class="I_ACTION">organizing</EVENT> a <EVENT eid="e33" class="OCCURRENCE">counterbid</EVENT> for Paribas.
+ Mr. Fournier <EVENT eid="e34" class="REPORTING">said</EVENT> Navigation Mixte's <TIMEX3 tid="t35" type="DATE" value="1989" functionInDocument="NONE">1989</TIMEX3> unconsolidated, or parent-company, profit is likely to be 4.7 billion francs ( $ 754.4 million ), <EVENT eid="e36" class="STATE">up</EVENT> from 633.8 million francs <TIMEX3 tid="t37" type="DATE" value="1988" anchorTimeID="t35" functionInDocument="NONE">last year</TIMEX3>.
+ That is <C-SIGNAL cid="c38">due mostly to</C-SIGNAL> <EVENT eid="e39" class="OCCURRENCE">payments</EVENT> from Allianz for most of the 50 % stake it has <EVENT eid="e40" class="I_ACTION">agreed</EVENT> to <EVENT eid="e41" class="OCCURRENCE">acquire</EVENT> in Navigation Mixte's insurance business.
+ Mr. Fournier <EVENT eid="e42" class="REPORTING">said</EVENT> the exceptional gain would <EVENT eid="e43" class="OCCURRENCE">mean</EVENT> nearly twice as high a dividend <TIMEX3 tid="t44" type="DATE" value="1989" anchorTimeID="t0" functionInDocument="NONE">this year</TIMEX3> as <TIMEX3 tid="t45" type="DATE" value="1988" anchorTimeID="t0" functionInDocument="NONE">last</TIMEX3>.
+ If holders <EVENT eid="e46" class="I_ACTION">avoid</EVENT> <EVENT eid="e47" class="OCCURRENCE">tendering</EVENT> to Paribas, he <EVENT eid="e48" class="REPORTING">added</EVENT>, they can <EVENT eid="e49" class="I_STATE">expect</EVENT> strong dividends again <TIMEX3 tid="t50" type="DATE" value="1990" anchorTimeID="t0" functionInDocument="NONE">next year</TIMEX3>.
+ Analysts <EVENT eid="e51" class="REPORTING">noted</EVENT> that over <TIMEX3 tid="t52" type="DURATION" value="P20Y" functionInDocument="NONE">the past 20 years</TIMEX3>, Mr. Fournier has <EVENT eid="e53" class="OCCURRENCE">built</EVENT> his company through astute stock-market activity and has <EVENT eid="e54" class="I_ACTION">warded</EVENT> off at least three takeover <EVENT eid="e55" class="I_ACTION">attempts</EVENT>.
+ This time, however, some analysts <EVENT eid="e56" class="I_STATE">think</EVENT> he could <EVENT eid="e57" class="I_STATE">face</EVENT> a real <EVENT eid="e58" class="OCCURRENCE">battle</EVENT>.
+ " Without some unexpected " coup de theatre ", I don't <EVENT eid="e59" class="PERCEPTION">see</EVENT> what will <EVENT eid="e60" class="I_ACTION">block</EVENT> the Paribas <EVENT eid="e61" class="OCCURRENCE">bid</EVENT>, " <EVENT eid="e62" class="REPORTING">said</EVENT> Philippe de Cholet, analyst at the brokerage Cholet - Dupont amp Cie.
+ Mr. de Cholet <EVENT eid="e63" class="REPORTING">said</EVENT> Mr. Fournier's biggest hope was to somehow <EVENT eid="e64" class="I_ACTION">persuade</EVENT> regulatory authorities to <EVENT eid="e65" class="I_ACTION">block</EVENT> the <EVENT eid="e66" class="OCCURRENCE">bid</EVENT>.
+ Paribas still needs the go-ahead from the Commission des Operations de Bourse, a government regulatory agency, but analysts <EVENT eid="e67" class="REPORTING">said</EVENT> that is considered likely.
+ Mr. Fournier also <EVENT eid="e68" class="REPORTING">noted</EVENT> that Navigation Mixte <EVENT eid="e69" class="OCCURRENCE">joined</EVENT> Paribas's core of shareholders when Paribas was <EVENT eid="e70" class="OCCURRENCE">denationalized</EVENT> in <TIMEX3 tid="t71" type="DATE" value="1987" functionInDocument="NONE">1987</TIMEX3>, and <EVENT eid="e72" class="REPORTING">said</EVENT> it <TIMEX3 tid="t73" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">now</TIMEX3> <EVENT eid="e74" class="STATE">holds</EVENT> just under 5 % of Paribas's shares.
+ Once he <EVENT eid="e75" class="I_STATE">realized</EVENT> that Paribas's intentions weren't friendly, he <EVENT eid="e76" class="REPORTING">said</EVENT>, but before the <EVENT eid="e77" class="OCCURRENCE">bid</EVENT> was <EVENT eid="e78" class="OCCURRENCE">launched</EVENT>, he <EVENT eid="e79" class="I_ACTION">sought</EVENT> <EVENT eid="e80" class="I_ACTION">approval</EVENT> to <EVENT eid="e81" class="OCCURRENCE">boost</EVENT> his Paribas stake above 10 %.
+ The petition is still <EVENT eid="e82" class="OCCURRENCE">pending</EVENT>, but Mr. Fournier <EVENT eid="e83" class="OCCURRENCE">downplayed</EVENT> the likelihood of his <EVENT eid="e84" class="I_ACTION">organizing</EVENT> a takeover <EVENT eid="e85" class="OCCURRENCE">bid</EVENT> of his own for the much-larger Paribas.
+ One big question now is the likely role of Mr. Fournier's allies.
+ Mr. Fournier <EVENT eid="e86" class="REPORTING">said</EVENT> the large institutions that hold nearly 50 % of Navigation Mixte's capital all strongly <EVENT eid="e87" class="OCCURRENCE">support</EVENT> him, but some analysts <EVENT eid="e88" class="REPORTING">said</EVENT> they aren't so sure.
+ Allianz, for example, has <EVENT eid="e89" class="REPORTING">said</EVENT> in official comments so far that it will <EVENT eid="e90" class="STATE">remain</EVENT> neutral.
+ Paribas is Allianz's lead French bank.
+ Paribas <EVENT eid="e91" class="REPORTING">said</EVENT> <TIMEX3 tid="t92" type="DATE" value="1989-10-23" anchorTimeID="t0" functionInDocument="NONE">Monday</TIMEX3> that it <EVENT eid="e93" class="I_ACTION">intends</EVENT> to <EVENT eid="e94" class="OCCURRENCE">bid</EVENT> to <EVENT eid="e95" class="OCCURRENCE">boost</EVENT> its stake in Navigation Mixte to 66.7 %, from the 18.7 % it already <EVENT eid="e96" class="OCCURRENCE">owns</EVENT>.
+ The <EVENT eid="e97" class="OCCURRENCE">purchase</EVENT> of the additional 48 % stake is <EVENT eid="e98" class="I_STATE">expected</EVENT> to <EVENT eid="e99" class="STATE">cost</EVENT> more than 11 billion francs ( $ 1.77 billion ).
+ Paribas <EVENT eid="e100" class="REPORTING">says</EVENT> it will <EVENT eid="e101" class="OCCURRENCE">offer</EVENT> 1,850 francs ( $ 296.95 ) each for Navigation Mixte shares that <EVENT eid="e102" class="STATE">enjoy</EVENT> full dividend rights, and 1,800 francs each for a block of shares issued <TIMEX3 tid="t103" type="DATE" value="1989-07-01" anchorTimeID="t0" functionInDocument="NONE">July 1</TIMEX3>, which will <EVENT eid="e104" class="OCCURRENCE">receive</EVENT> only partial dividends <TIMEX3 tid="t105" type="DATE" value="1989" anchorTimeID="t0" functionInDocument="NONE">this year</TIMEX3>.
+ Alternatively, it is to <EVENT eid="e106" class="OCCURRENCE">offer</EVENT> three Paribas shares for one Navigation Mixte share.
+ The Paribas offer values Navigation Mixte at about 23 billion francs, depending on how many of Navigation Mixte's warrants are converted into shares during the takeover battle.
+</TEXT>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e59" eiid="ei59" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e58" eiid="ei58" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e55" eiid="ei55" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e54" eiid="ei54" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e57" eiid="ei57" tense="NONE" aspect="NONE" polarity="POS" modality="could" pos="NOUN"/>
+<MAKEINSTANCE eventID="e56" eiid="ei56" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e51" eiid="ei51" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e53" eiid="ei53" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e88" eiid="ei88" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e89" eiid="ei89" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e82" eiid="ei82" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e83" eiid="ei83" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e80" eiid="ei80" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e81" eiid="ei81" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e86" eiid="ei86" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e87" eiid="ei87" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e84" eiid="ei84" tense="NONE" aspect="NONE" polarity="POS" modality="likelihood" pos="NOUN"/>
+<MAKEINSTANCE eventID="e85" eiid="ei85" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e102" eiid="ei102" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e100" eiid="ei100" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e101" eiid="ei101" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e106" eiid="ei106" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e104" eiid="ei104" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e39" eiid="ei39" tense="PRESENT" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e60" eiid="ei60" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e61" eiid="ei61" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e62" eiid="ei62" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e63" eiid="ei63" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e64" eiid="ei64" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e65" eiid="ei65" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e66" eiid="ei66" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e67" eiid="ei67" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e68" eiid="ei68" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e69" eiid="ei69" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e99" eiid="ei99" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e98" eiid="ei98" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e91" eiid="ei91" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e90" eiid="ei90" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e93" eiid="ei93" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e95" eiid="ei95" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e94" eiid="ei94" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e97" eiid="ei97" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e96" eiid="ei96" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e48" eiid="ei48" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e49" eiid="ei49" tense="NONE" aspect="NONE" polarity="POS" modality="can" pos="VERB"/>
+<MAKEINSTANCE eventID="e46" eiid="ei46" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e47" eiid="ei47" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e42" eiid="ei42" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="OTHER"/>
+<MAKEINSTANCE eventID="e40" eiid="ei40" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e41" eiid="ei41" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e77" eiid="ei77" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e76" eiid="ei76" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e75" eiid="ei75" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e74" eiid="ei74" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e72" eiid="ei72" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e70" eiid="ei70" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e79" eiid="ei79" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e78" eiid="ei78" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToEventInstance="ei21"/>
+<TLINK lid="l2" relType="IS_INCLUDED" timeID="t0" relatedToEventInstance="ei82"/>
+<TLINK lid="l3" relType="IS_INCLUDED" timeID="t0" relatedToEventInstance="ei96"/>
+<TLINK lid="l4" relType="IS_INCLUDED" timeID="t0" relatedToEventInstance="ei102"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l6" relType="INCLUDES" eventInstanceID="ei5" relatedToEventInstance="ei1"/>
+<TLINK lid="l7" relType="INCLUDES" eventInstanceID="ei5" relatedToEventInstance="ei6"/>
+<TLINK lid="l8" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToEventInstance="ei1"/>
+<TLINK lid="l9" relType="IDENTITY" eventInstanceID="ei10" relatedToEventInstance="ei1"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei10" relatedToEventInstance="ei5"/>
+<TLINK lid="l11" relType="IDENTITY" eventInstanceID="ei12" relatedToEventInstance="ei10"/>
+<TLINK lid="l12" relType="SIMULTANEOUS" eventInstanceID="ei16" relatedToEventInstance="ei13"/>
+<TLINK lid="l13" relType="AFTER" eventInstanceID="ei18" relatedToEventInstance="ei17"/>
+<TLINK lid="l14" relType="SIMULTANEOUS" eventInstanceID="ei18" relatedToEventInstance="ei25"/>
+<TLINK lid="l15" relType="INCLUDES" eventInstanceID="ei20" relatedToTime="t0"/>
+<TLINK lid="l16" relType="INCLUDES" eventInstanceID="ei20" relatedToEventInstance="ei17"/>
+<TLINK lid="l17" relType="IS_INCLUDED" eventInstanceID="ei21" relatedToTime="t23"/>
+<TLINK lid="l18" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToTime="t23"/>
+<TLINK lid="l19" relType="INCLUDES" eventInstanceID="ei24" relatedToTime="t0"/>
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei24" relatedToEventInstance="ei25"/>
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei29" relatedToTime="t0"/>
+<TLINK lid="l22" relType="IS_INCLUDED" eventInstanceID="ei32" relatedToTime="t0"/>
+<TLINK lid="l23" relType="AFTER" eventInstanceID="ei39" relatedToEventInstance="ei40"/>
+<TLINK lid="l25" relType="AFTER" eventInstanceID="ei43" relatedToTime="t0"/>
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei46" relatedToEventInstance="ei49"/>
+<TLINK lid="l27" relType="SIMULTANEOUS" eventInstanceID="ei48" relatedToEventInstance="ei34"/>
+<TLINK lid="l28" relType="DURING" eventInstanceID="ei53" relatedToTime="t52"/>
+<TLINK lid="l29" relType="DURING" eventInstanceID="ei54" relatedToTime="t52"/>
+<TLINK lid="l30" relType="SIMULTANEOUS" eventInstanceID="ei56" relatedToEventInstance="ei51"/>
+<TLINK lid="l31" relType="IS_INCLUDED" eventInstanceID="ei62" relatedToEventInstance="ei51"/>
+<TLINK lid="l32" relType="IDENTITY" eventInstanceID="ei63" relatedToEventInstance="ei62"/>
+<TLINK lid="l33" relType="IDENTITY" eventInstanceID="ei67" relatedToEventInstance="ei51"/>
+<TLINK lid="l34" relType="SIMULTANEOUS" eventInstanceID="ei68" relatedToEventInstance="ei42"/>
+<TLINK lid="l35" relType="AFTER" eventInstanceID="ei69" relatedToEventInstance="ei70"/>
+<TLINK lid="l36" relType="IS_INCLUDED" eventInstanceID="ei70" relatedToTime="t71"/>
+<TLINK lid="l37" relType="SIMULTANEOUS" eventInstanceID="ei72" relatedToEventInstance="ei68"/>
+<TLINK lid="l38" relType="IS_INCLUDED" eventInstanceID="ei74" relatedToTime="t73"/>
+<TLINK lid="l39" relType="BEGINS" eventInstanceID="ei78" relatedToEventInstance="ei77"/>
+<TLINK lid="l40" relType="AFTER" eventInstanceID="ei79" relatedToEventInstance="ei75"/>
+<TLINK lid="l41" relType="BEFORE" eventInstanceID="ei79" relatedToEventInstance="ei78"/>
+<TLINK lid="l42" relType="BEFORE" eventInstanceID="ei83" relatedToTime="t0"/>
+<TLINK lid="l43" relType="AFTER" eventInstanceID="ei84" relatedToEventInstance="ei85"/>
+<TLINK lid="l44" relType="IDENTITY" eventInstanceID="ei86" relatedToEventInstance="ei76"/>
+<TLINK lid="l45" relType="AFTER" eventInstanceID="ei88" relatedToEventInstance="ei86"/>
+<TLINK lid="l46" relType="BEFORE" eventInstanceID="ei89" relatedToTime="t0"/>
+<TLINK lid="l47" relType="IS_INCLUDED" eventInstanceID="ei91" relatedToTime="t92"/>
+<TLINK lid="l48" relType="INCLUDES" eventInstanceID="ei97" relatedToEventInstance="ei95"/>
+<TLINK lid="l49" relType="AFTER" eventInstanceID="ei97" relatedToEventInstance="ei98"/>
+<TLINK lid="l50" relType="IDENTITY" eventInstanceID="ei100" relatedToEventInstance="ei91"/>
+<TLINK lid="l51" relType="AFTER" eventInstanceID="ei101" relatedToTime="t0"/>
+<TLINK lid="l52" relType="AFTER" eventInstanceID="ei101" relatedToEventInstance="ei100"/>
+<TLINK lid="l53" relType="AFTER" eventInstanceID="ei104" relatedToEventInstance="ei101"/>
+<TLINK lid="l54" relType="IS_INCLUDED" eventInstanceID="ei104" relatedToTime="t105"/>
+<TLINK lid="l55" relType="IDENTITY" eventInstanceID="ei106" relatedToEventInstance="ei101"/>
+<CLINK lid="l24" c-signalID="c38" eventInstanceID="ei39" relatedToEventInstance="ei36"/>
+</TimeML>

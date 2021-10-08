@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0263</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-01</TIMEX3></DCT>
+<TEXT>
+ UNIFIRST Corp. <EVENT eid="e1" class="I_ACTION">declared</EVENT> a 2-for-1 stock <EVENT eid="e2" class="OCCURRENCE">split</EVENT>.
+ The Wilmington, Mass., garment service company also <EVENT eid="e3" class="OCCURRENCE">boosted</EVENT> its quarterly dividend 20 % to three cents a share adjusted for the <EVENT eid="e4" class="OCCURRENCE">split</EVENT>.
+ The dividend had been five cents a share.
+ The split and quarterly dividend will be <EVENT eid="e5" class="STATE">payable</EVENT> <TIMEX3 tid="t6" type="DATE" value="1990-01-03" anchorTimeID="t0" functionInDocument="NONE">Jan. 3</TIMEX3> to stock of record <TIMEX3 tid="t7" type="DATE" value="1989-11-16" anchorTimeID="t0" functionInDocument="NONE">Nov. 16</TIMEX3>, the company <EVENT eid="e8" class="REPORTING">said</EVENT>.
+ The <EVENT eid="e9" class="OCCURRENCE">split</EVENT> will <EVENT eid="e10" class="OCCURRENCE">raise</EVENT> the number of shares outstanding to about 10.2 million.
+ Separately, UniFirst <EVENT eid="e11" class="REPORTING">reported</EVENT> that net income <EVENT eid="e12" class="OCCURRENCE">rose</EVENT> 21 % to $ 3 million, or 29 cents a share adjusted for the <EVENT eid="e13" class="OCCURRENCE">split</EVENT>, for <TIMEX3 tid="t14" type="DATE" value="1989-Q4" anchorTimeID="t16" functionInDocument="NONE">the fourth quarter</TIMEX3> <EVENT eid="e15" class="ASPECTUAL">ended</EVENT> <TIMEX3 tid="t16" type="DATE" value="1989-08-26" anchorTimeID="t0" functionInDocument="NONE">Aug. 26</TIMEX3>.
+ <TIMEX3 tid="t17" type="DATE" value="1988-11-01" anchorTimeID="t0" functionInDocument="NONE">A year earlier</TIMEX3> UniFirst <EVENT eid="e18" class="OCCURRENCE">earned</EVENT> $ 2.4 million, or 24 cents a share adjusted for the <EVENT eid="e19" class="OCCURRENCE">split</EVENT>.
+ Sales <EVENT eid="e20" class="OCCURRENCE">rose</EVENT> to $ 52.4 million from $ 50.1 million.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="FUTURE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei2"/>
+<TLINK lid="l3" relType="IDENTITY" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+<TLINK lid="l4" relType="SIMULTANEOUS" eventInstanceID="ei3" relatedToEventInstance="ei1"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t6"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei8" relatedToTime="t0"/>
+<TLINK lid="l7" relType="IDENTITY" eventInstanceID="ei9" relatedToEventInstance="ei2"/>
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei10"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei12" relatedToTime="t14"/>
+<TLINK lid="l11" relType="IDENTITY" eventInstanceID="ei13" relatedToEventInstance="ei9"/>
+<TLINK lid="l12" relType="ENDED_BY" timeID="t14" relatedToEventInstance="ei15"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei15" relatedToTime="t16"/>
+<TLINK lid="l14" relType="INCLUDES" timeID="t17" relatedToEventInstance="ei18"/>
+<TLINK lid="l15" relType="IDENTITY" eventInstanceID="ei19" relatedToEventInstance="ei9"/>
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei20" relatedToTime="t0"/>
+</TimeML>

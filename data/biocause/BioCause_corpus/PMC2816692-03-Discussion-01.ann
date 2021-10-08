@@ -1,0 +1,52 @@
+T26	Process 270 279	infection
+T27	Binding 973 980	binding
+T28	Binding 1227 1234	binding
+T29	Binding 1243 1250	binding
+T30	Binding 2219 2231	interactions
+E1	Process:T26 Participant:T2
+E2	Binding:T27 Theme1:T7 Theme2:T9
+E3	Binding:T28 Theme:T10
+E4	Binding:T29 Theme:T10
+E5	Binding:T30 Theme:T24
+M1	Negation E5
+T1	Protein 35 39	SrcA
+T2	Organism 115 129	S. Typhimurium
+T3	Organism 287 291	host
+T4	Protein 358 362	SrcA
+T5	Protein 715 719	SigE
+T6	Organism 841 848	E. coli
+T7	Protein 899 903	CesT
+T8	Protein 947 950	Tir
+T9	Protein 969 972	Tir
+T10	Protein 1100 1104	SrcA
+T11	Chemical 1143 1151	carboxyl
+T12	Protein 1164 1168	CesT
+T13	Protein 1349 1353	SrcA
+T14	Protein 1394 1398	SrcA
+T15	Protein 1483 1487	CesT
+T16	Protein 1511 1515	SrcA
+T17	Protein 1701 1706	Spa15
+T18	Organism 1746 1754	Shigella
+T19	Protein 1772 1776	CesT
+T20	Protein 1781 1785	SicP
+T21	Protein 1810 1814	SrcA
+T22	Protein 1928 1933	Spa15
+T23	Organism 2183 2193	Salmonella
+T24	Protein 2240 2244	SrcA
+T25	Protein 2317 2321	SrcA
+T31	Span 661 814	For instance, electronegative surface residues on the SigE chaperone in the SPI-1-encoded T3SS negatively affect cargo secretion, but not cargo stability
+T32	Causality 511 543	data from other systems suggests
+E6	Causality:T32 Effect:T33 Evidence:T31
+T33	Span 544 659	a docking recognition function with other components of the type III apparatus, possibly the T3SS-accociated ATPase
+T34	Span 821 980	In enteropathogenic E. coli, a surface-exposed electronegative residue in the CesT chaperone (Glu142) likewise contributes to Tir secretion but not Tir binding
+T35	Causality 987 997	suggesting
+E7	Causality:T35 Effect:T36 Evidence:T34
+T36	Span 998 1083	a role in either targeting bound cargo to the T3SS or in the secretion process itself
+T37	Span 1085 1289	Interestingly, SrcA lacks 17-amino acids that make up the carboxyl terminus of CesT, which includes Glu142, and yet it still retains effector binding, ATPase binding and effector secretion functionalities
+T38	Causality 1291 1314	Thus, it is likely that
+E8	Causality:T38 Effect:T39 Evidence:T37
+T39	Span 1315 1487	other surface charged residues of SrcA are involved in these functions or that SrcA targets effector cargo to the secretion apparatus through a mechanism distinct from CesT
+T40	Span 2195 2288	We found no evidence of interactions between SrcA and translocon components of the SPI-2 T3SS
+T41	Causality 2289 2306	and so it appears
+E9	Causality:T41 Effect:T42 Evidence:T40
+T42	Span 2307 2377	as though SrcA functions specifically in effector translocation events

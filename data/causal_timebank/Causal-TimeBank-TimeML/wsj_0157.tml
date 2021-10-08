@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0157</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-02</TIMEX3></DCT>
+<TEXT>
+ Tony Lama Co. <EVENT eid="e1" class="REPORTING">said</EVENT> that Equus Investment II Limited Partnership has <EVENT eid="e2" class="I_ACTION">proposed</EVENT> <EVENT eid="e3" class="OCCURRENCE">changing</EVENT> the <EVENT eid="e4" class="I_ACTION">offer</EVENT> for the company to $ 13.65 in cash and stock from an all-cash <EVENT eid="e5" class="I_ACTION">transaction</EVENT>.
+ Under terms of the new <EVENT eid="e6" class="I_ACTION">proposal</EVENT>, Equus, managed by Equus Capital Corp., Houston, would <EVENT eid="e7" class="OCCURRENCE">pay</EVENT> $ 12 cash and one new preferred share with a liquidation preference of $ 1.65 a share for each of Tony Lama's 2.1 million shares outstanding.
+ <TIMEX3 tid="t8" type="DATE" value="PAST_REF" anchorTimeID="t0" functionInDocument="NONE">Previously</TIMEX3>, it <EVENT eid="e9" class="I_ACTION">offered</EVENT> $ 13.65 a share in cash, or $ 29 million.
+ The El Paso, Texas, maker of Western boots and leather accessories <EVENT eid="e10" class="REPORTING">said</EVENT> the preferred stock would <EVENT eid="e11" class="OCCURRENCE">accrue</EVENT> dividends at a 12 % rate, but wouldn't be <EVENT eid="e12" class="OCCURRENCE">paid</EVENT> for <TIMEX3 tid="t13" type="DURATION" value="P2Y" functionInDocument="NONE">the first two years</TIMEX3>.
+ The stock would be <EVENT eid="e14" class="OCCURRENCE">redeemed</EVENT> in <TIMEX3 tid="t15" type="DATE" value="1994" anchorTimeID="t0" functionInDocument="NONE">five years</TIMEX3>, subject to terms of the surviving company's debt.
+ Neither Equus nor Tony Lama <EVENT eid="e16" class="REPORTING">gave</EVENT> a reason for the changed <EVENT eid="e17" class="I_ACTION">offer</EVENT> and Tony Lama couldn't be reached for comment.
+ However, Tony Lama <EVENT eid="e18" class="REPORTING">said</EVENT> it would promptly <EVENT eid="e19" class="OCCURRENCE">submit</EVENT> the offer to a special committee of the company's board.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="NEG" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei4" relatedToEventInstance="ei2"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei3"/>
+<TLINK lid="l4" relType="IDENTITY" eventInstanceID="ei6" relatedToEventInstance="ei2"/>
+<TLINK lid="l5" relType="BEFORE" timeID="t8" relatedToEventInstance="ei3"/>
+<TLINK lid="l6" relType="SIMULTANEOUS" timeID="t8" relatedToEventInstance="ei9"/>
+<TLINK lid="l7" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToEventInstance="ei1"/>
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei14" relatedToEventInstance="ei7"/>
+<TLINK lid="l9" relType="SIMULTANEOUS" eventInstanceID="ei14" relatedToTime="t15"/>
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei19" relatedToTime="t0"/>
+</TimeML>

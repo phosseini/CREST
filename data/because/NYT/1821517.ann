@@ -1,0 +1,115 @@
+T1	Consequence 843 853	because of
+E1	Consequence:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 854 959	her perspective as a former insider in the vice president's office and as a former colleague of Mr. Libby
+T3	Argument 777 842	Ms. Martin's testimony may prove especially damaging to Mr. Libby
+T4	Argument 2234 2284	the Bush administration had distorted intelligence
+T5	Argument 2288 2320	build the case for invading Iraq
+T6	Purpose 2285 2287	to
+E2	Purpose:T6 Cause:T5 Effect:T4
+A2	Degree E2 Facilitate
+T7	Argument 2996 3009;3013 3145	the president inaccurately say in his State of the Union address that the British government had confirmed Iraq's efforts to buy uranium in Africa
+T8	Consequence 2988 2995;3010 3012	causing to
+E3	Consequence:T8 Cause:T9 Effect:T7
+A3	Degree E3 Facilitate
+T9	Argument 2973 2983	the C.I.A.
+T12	Argument 2988 3145	causing the president to inaccurately say in his State of the Union address that the British government had confirmed Iraq's efforts to buy uranium in Africa
+T16	Argument 4217 4281	he appeared on the NBC news program ``Meet the Press'' on July 7
+T17	Argument 4285 4326	make his charges about the administration
+T18	Purpose 4282 4284	to
+E6	Purpose:T18 Cause:T17 Effect:T16
+A6	Degree E6 Facilitate
+T19	Argument 1258 1285	his nuclear weapons program
+T20	Argument 1231 1253	buy uranium from Niger
+T21	Motivation 1254 1257	for
+E7	Motivation:T21 Cause:T19 Effect:T20
+A7	Degree E7 Facilitate
+T22	Consequence 3159 3163	made
+E8	Consequence:T22 Effect:T23 Cause:T24
+A8	Degree E8 Facilitate
+T23	Argument 3164 3166;3167 3172;3193 3307	it clear that it was Mr. Libby who had gone out of his way to take on the task of speaking to Ms. Mitchell about that issue
+T24	Argument 3148 3158	Ms. Martin
+T10	Consequence 2965 2972;2984 2987	blaming for
+E4	Consequence:T10 Effect:T12 Cause:T9
+A4	Degree E4 Facilitate
+T11	Argument 178 248	a crucial period that is at the center of the perjury case against him
+T25	Argument 141 170	Mr. Libby's version of events
+T26	NonCausal 171 177	during
+E9	NonCausal:T26 Arg0:T11 Arg1:T25
+A9	Temporal E9
+T27	NonCausal 441 447	before
+E10	NonCausal:T27 Arg1:T29 Arg0:T28
+A10	Temporal E10
+T28	Argument 340 434	telling both Mr. Cheney and Mr. Libby that a prominent war critic's wife worked for the C.I.A.
+T29	Argument 448 495	he contends he first learned it from a reporter
+T30	Argument 599 604	lying
+T31	Argument 612 691	an investigation of who leaked the name of the C.I.A. operative, Valerie Wilson
+T32	NonCausal 605 611	during
+E11	NonCausal:T32 Arg0:T31 Arg1:T30
+A11	Temporal E11
+T33	Argument 1942 1949	he lied
+T34	Argument 1955 2049	he told a grand jury and F.B.I. agents that he learned of Ms. Wilson's identity from reporters
+T35	NonCausal 1950 1954	when
+E12	NonCausal:T35 Arg0:T34 Arg1:T33
+A12	Temporal E12
+T36	NonCausal 2154 2159	after
+E13	NonCausal:T36 Arg0:T38 Arg1:T37
+A13	Temporal E13
+T37	Argument 2051 2142	Ms. Wilson's identity was first disclosed in a news column by Robert Novak on July 14, 2003
+T38	Argument 2160 2320	her husband had written a commentary in The New York Times asserting that the Bush administration had distorted intelligence to build the case for invading Iraq
+T39	Argument 2791 2863	Stephen J. Hadley, the deputy national security adviser, expressed anger
+T40	Argument 2870 2915	receiving a query from Andrea Mitchell of NBC
+T41	Motivation 2864 2869	after
+E14	Motivation:T41 Cause:T40 Effect:T39
+A14	Degree E14 Facilitate
+A15	Temporal E14
+T45	Argument 3663 3698	Mr. Hadley was all but accusing her
+T46	Argument 3633 3657	what Mr. Libby was doing
+T47	NonCausal 3658 3662	when
+E16	NonCausal:T47 Arg1:T46 Arg0:T45
+A17	Temporal E16
+T48	Argument 4074 4097	she spoke to Mr. Harlow
+T49	Argument 4113 4119	July 7
+T50	NonCausal 4107 4112	after
+E17	NonCausal:T50 Arg0:T49 Arg1:T48
+A18	Temporal E17
+T13	Note 4178 4185	because
+#1	AnnotatorNotes T13	Inference
+T14	Argument 3753 3775	the end of the meeting
+T15	NonCausal 3750 3752	At
+E5	NonCausal:T15 Arg0:T14 Arg1:T51
+A5	Temporal E5
+T51	Argument 3787 3861	Mr. Hadley took her and other press aides aside and upbraided them further
+T52	Argument 4832 4856	the trial resumes Monday
+T53	Argument 4791 4826	Her cross-examination will continue
+T54	NonCausal 4827 4831	when
+E18	NonCausal:T54 Arg0:T52 Arg1:T53
+A19	Temporal E18
+T56	NonCausal 1588 1592	then
+E19	NonCausal:T56 Arg1:T57
+A20	Temporal E19
+T57	Argument 1580 1587;1593 1748	she was put on the phone with Bill Harlow, the C.I.A. spokesman, who told her that Mr. Wilson went to Africa on behalf of the agency and that his wife worked there
+T58	Purpose 3440 3442	to
+E20	Purpose:T58 Cause:T59 Effect:T60
+A21	Degree E20 Facilitate
+T59	Argument 3443 3488	signify he knew she was Ms. Mitchell's source
+T60	Argument 3364 3433	Mr. Hadley made a point of turning around and looking directly at her
+T61	NonCausal 4133 4138	since
+E21	NonCausal:T61 Arg1:T62
+A22	Temporal E21
+T62	Argument 4125 4132;4139 4326	she has acknowledged it must have been earlier because she recognized Mr. Wilson when he appeared on the NBC news program ``Meet the Press'' on July 7 to make his charges about the administration
+T55	Argument 1146 1173	who had been sent to Africa
+T63	Argument 1177 1285	investigate reports that Saddam Hussein was trying to buy uranium from Niger for his nuclear weapons program
+T64	Purpose 1174 1176	to
+E22	Purpose:T64 Cause:T63 Effect:T55
+A23	Degree E22 Facilitate
+T65	Argument 4186 4211	she recognized Mr. Wilson
+T66	Argument 4217 4326	he appeared on the NBC news program ``Meet the Press'' on July 7 to make his charges about the administration
+T67	NonCausal 4212 4216	when
+E23	NonCausal:T67 Arg0:T66 Arg1:T65
+A24	Temporal E23
+T68	Consequence 2468 2472	made
+E24	Consequence:T68 Effect:T69 Cause:T70
+A25	Degree E24 Facilitate
+T69	Argument 2454 2463;2473 2503	Mr. Libby aware of Ms. Wilson's identity
+T70	Argument 2509 2545	a number of administration officials

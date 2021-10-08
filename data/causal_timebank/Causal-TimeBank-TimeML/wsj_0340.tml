@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0340</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">1989-11-01</TIMEX3></DCT>
+<TEXT>
+ The portfolio unit of the French bank group Credit Lyonnais <EVENT eid="e1" class="REPORTING">told</EVENT> stock market regulators that it <EVENT eid="e2" class="OCCURRENCE">bought</EVENT> 43,000 shares of Cie.
+ de Navigation Mixte, apparently to <EVENT eid="e3" class="I_ACTION">help</EVENT> <EVENT eid="e4" class="OCCURRENCE">fend</EVENT> off an unwelcome takeover bid for the company.
+ <TIMEX3 tid="t5" type="DATE" value="1989-10-31" anchorTimeID="t0" functionInDocument="NONE">Earlier yesterday</TIMEX3>, the Societe de Bourses Francaises was <EVENT eid="e6" class="REPORTING">told</EVENT> that a unit of Framatome S.A. also <EVENT eid="e7" class="OCCURRENCE">bought</EVENT> Navigation Mixte shares, this <EVENT eid="e8" class="OCCURRENCE">purchase</EVENT> covering more than 160,000 shares.
+ Both companies are allies of Navigation Mixte in its <EVENT eid="e9" class="STATE">fight</EVENT> against a hostile takeover bid <EVENT eid="e10" class="ASPECTUAL">launched</EVENT> <TIMEX3 tid="t11" type="DATE" value="1989-WXX" anchorTimeID="t0" functionInDocument="NONE">last week</TIMEX3> by Cie.
+ Financiere de Paribas at 1,850 French francs ( $ 297 ) a share.
+ Navigation Mixte's chairman had <EVENT eid="e12" class="I_STATE">suggested</EVENT> that friendly institutions were likely to <EVENT eid="e13" class="OCCURRENCE">buy</EVENT> its stock as soon as <EVENT eid="e14" class="OCCURRENCE">trading</EVENT> <EVENT eid="e15" class="ASPECTUAL">opened</EVENT> <TIMEX3 tid="t16" type="DATE" value="1989-11-06" anchorTimeID="t0" functionInDocument="NONE">Monday</TIMEX3>.
+ The Credit Lyonnais purchase, for 33,000 regular common shares and 10,000 newly created shares, is valued at about slightly more than 80 million French francs.
+</TEXT>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l3" relType="INCLUDES" timeID="t5" relatedToEventInstance="ei6"/>
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToEventInstance="ei8"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t0"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei10" relatedToTime="t11"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei12" relatedToTime="t0"/>
+<TLINK lid="l8" relType="IBEFORE" eventInstanceID="ei13" relatedToEventInstance="ei15"/>
+<TLINK lid="l9" relType="AFTER" eventInstanceID="ei14" relatedToTime="t0"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t16"/>
+<CLINK lid="l2" eventInstanceID="ei2" relatedToEventInstance="ei4"/>
+</TimeML>

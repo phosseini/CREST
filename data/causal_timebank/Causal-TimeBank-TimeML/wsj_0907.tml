@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0907</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-26</TIMEX3></DCT>
+<TEXT>
+ Chandler Insurance Co. <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="I_STATE">expects</EVENT> to <EVENT eid="e3" class="REPORTING">report</EVENT> <TIMEX3 tid="t4" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> net income <EVENT eid="e5" class="OCCURRENCE">jumped</EVENT> 97 % to $ 2.8 million, or 51 cents a share.
+ In <TIMEX3 tid="t6" type="DATE" value="1988-Q3" anchorTimeID="t4" functionInDocument="NONE">the year-earlier quarter</TIMEX3>, the automobile and trucking insurer <EVENT eid="e7" class="STATE">had</EVENT> <EVENT eid="e8" class="STATE">earnings</EVENT> of $ 1.4 million, or 48 cents a share on a restated basis, on revenue of $ 16.5 million.
+ In an <EVENT eid="e9" class="OCCURRENCE">interview</EVENT>, W. Brent LeGere, chairman and chief executive officer, <EVENT eid="e10" class="REPORTING">said</EVENT> he <EVENT eid="e11" class="I_STATE">expects</EVENT> revenue in <TIMEX3 tid="t12" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">the latest quarter</TIMEX3> to <EVENT eid="e13" class="OCCURRENCE">total</EVENT> about $ 28 million.
+ The earnings-per-share figures reflect a 25 % stock dividend in <TIMEX3 tid="t14" type="DATE" value="1989-06" functionInDocument="NONE">June 1989</TIMEX3>.
+ Mr. LeGere <EVENT eid="e15" class="I_ACTION">attributed</EVENT> the earnings <EVENT eid="e16" class="OCCURRENCE">increase</EVENT> to <EVENT eid="e17" class="OCCURRENCE">growth</EVENT> in the company's longhaul trucking insurance lines and the ability to <EVENT eid="e18" class="ASPECTUAL">keep</EVENT> premium rates firm.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="DURING" eventInstanceID="ei5" relatedToTime="t4"/>
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToTime="t6"/>
+<TLINK lid="l4" relType="IDENTITY" eventInstanceID="ei7" relatedToEventInstance="ei8"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t0"/>
+<TLINK lid="l6" relType="INCLUDES" eventInstanceID="ei9" relatedToEventInstance="ei10"/>
+<TLINK lid="l7" relType="ENDS" eventInstanceID="ei13" relatedToTime="t12"/>
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei15" relatedToEventInstance="ei9"/>
+<TLINK lid="l9" relType="AFTER" eventInstanceID="ei16" relatedToEventInstance="ei17"/>
+</TimeML>

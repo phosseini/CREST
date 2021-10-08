@@ -1,0 +1,21 @@
+Introduction 
+Arthropod-borne transmission of bacterial pathogens is somewhat rare but has evolved in a phylogenetically diverse group that includes the rickettsiae, Borrelia spirochetes, and the gram-negative bacteria Francisella tularensis and Yersinia pestis, the plague bacillus.
+Y. pestis circulates among many species of wild rodents, its primary reservoir hosts, via flea bite.
+As it alternates between fleas and mammals, it is postulated that Y. pestis regulates gene expression appropriately to adapt to the two disparate host environments, and that different sets of genes are required to produce a transmissible infection in the flea and disease in the mammal.
+Many important Y. pestis virulence factors that are required for plague in mammals have been identified, and most of them are induced by a temperature shift from <26degreesC to 37degreesC, which mimics the transition from a flea to the warm-blooded host [1].
+To date, only three transmission factors (genes specifically required to produce a transmissible infection in the flea) have been characterized.
+One, the  yersinia murine toxin (ymt) gene, encodes a phospholipase D that is required for survival in the flea midgut [2].
+The other two, (hmsHFRS and gmhA), are responsible for an extracellular polysaccharide and a lipopolysaccharide (LPS) core modification that are required for normal biofilm formation and blockage in the flea [3],[4].
+Biofilm development in the flea digestive tract is important for biological transmission [5],[6],[7].
+After being taken up in a blood meal, Y. pestis proliferates in the lumen of the flea midgut to form cohesive multicellular biofilm aggregates.
+In some infected fleas, the proventricular valve between the midgut and esophagus is colonized.
+The subsequent growth and consolidation of the adherent Y. pestis biofilm amongst the rows of cuticle-covered spines that line the proventriculus interferes with normal blood feeding, resulting in regurgitation of bacteria and transmission.
+Fleas with a completely blocked proventriculus make prolonged, repeated attempts to feed, increasing the opportunities for transmission.
+Formation of a Y. pestis biofilm in vitro and in the flea proventriculus depends on synthesis of an extracellular polysaccharide matrix (ECM) that is synthesized only at temperatures below 26degreesC [3],[7].
+In common with many other bacteria, ECM synthesis in Y. pestis is controlled by intracellular levels of cyclic di-GMP, which are determined by competing activities of the hmsT diguanylate cyclase and hmsP phosphodiesterase gene products [8],[9].
+Bacterial adhesins are typically required for initial adherence and autoaggregation in biofilm development [10], but such factors have yet to be identified in Y. pestis.
+In a previous study, we reported the in vivo gene expression profile of Y. pestis during bubonic plague in rats [11].
+In this study, we characterized the Y. pestis transcriptome in blocked Xenopsylla cheopis rat fleas, an important vector of plague to humans.
+Comparing the Y. pestis gene expression profile in the flea to those of in vitro biofilm and planktonic cells cultured at the low temperature typical of the flea implicated several genes in a flea-specific adaptive response and in proventricular blockage.
+In addition, comparing the gene expression patterns in the flea and in the rat bubo confirmed that distinct subsets of genes are differentially expressed during the Y. pestis life cycle.
+Notably, several genes with known or predicted roles in protection against the mammalian innate immune system and in pathogenesis were upregulated in the flea, suggesting that transit through the insect vector preinduces a phenotype that enhances Y. pestis survival and dissemination in the mammal after flea-borne transmission.

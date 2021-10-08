@@ -1,0 +1,19 @@
+T9	Process 155 166	resistance,
+E1	Process:T9 
+T1	Organism 223 236	P. aeruginosa
+T2	Organism 425 438	P. aeruginosa
+T3	Organism 594 607	P. aeruginosa
+T4	Organism 616 629	PAO1::p16Slux
+T5	Organism 1071 1087	Escherichia coli
+T6	Organism 1089 1110	Staphylococcus aureus
+T7	Organism 1115 1139	Burkholderia cenocepacia
+T8	Organism 1225 1238	P. aeruginosa
+T10	Span 297 404	Addition of 0.5% (w/v) (5 mg/ml) or greater extracellular DNA to LB or 1% (w/v) or greater DNA to BM2 media
+T11	Causality 405 405	
+E2	Causality:T11 Effect:T12 Evidence:T10
+T12	Span 405 438	inhibited growth of P. aeruginosa
+T13	Span 1000 1139	One percent (w/v) extracellular DNA in LB also inhibited the growth of Escherichia coli, Staphylococcus aureus and Burkholderia cenocepacia
+T15	Span 1174 1238	the antimicrobial activity of DNA is not unique to P. aeruginosa
+T14	Causality 1158 1173	suggesting that
+E3	Causality:T14 Effect:T15 Evidence:T13
+#1	AnnotatorNotes E2	not sure

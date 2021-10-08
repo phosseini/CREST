@@ -1,0 +1,79 @@
+T1	Organism 14 32	Streptococcus suis
+T2	Organism 34 41	S. suis
+T3	Organism 210 214	pigs
+T4	Organism 219 225	humans
+T5	Organism 275 293	S. suis serotype 2
+T6	Organism 295 304	S. suis 2
+T7	Organism 308 311	SS2
+T8	Organism 408 411	SS2
+T9	Organism 467 473	humans
+T10	Organism 544 547	SS2
+T11	Organism 1271 1274	SS2
+T12	Organism 1410 1413	SS2
+T13	Organism 1423 1430	98HAH12
+T14	Organism 1435 1442	05ZYH33
+T15	Organism 1475 1483	patients
+T16	Organism 1613 1616	SS2
+T17	Organism 1816 1819	SS2
+T18	Two-component-system 2438 2447	SalK/SalR
+T19	Protein 2438 2442	SalK
+T20	Protein 2443 2447	SalR
+T21	Organism 2458 2471	S. salivarius
+T22	Protein 2885 2889	RevS
+T23	Organism 2946 2949	SS2
+T24	Two-component-system 2965 2974	SalK/SalR
+T25	Protein 2965 2969	SalK
+T26	Protein 2970 2974	SalR
+T27	Two-component-system 3131 3136	salKR
+T28	Protein 3131 3135	salK
+T29	Protein 3135 3136	R
+T30	Organism 3216 3219	SS2
+T31	Organism 3420 3423	SS2
+*	Equiv T1 T2 T3
+*	Equiv T5 T6 T7
+T32	Process 126 136	infections
+T33	Process 325 333	virulent
+T34	Process 512 530	infectious disease
+T35	Process 970 980	infections
+T36	Process 1225 1234	virulence
+T37	Process 1401 1409	virulent
+T38	Process 1689 1697	virulent
+T39	Process 2238 2247	virulence
+T40	Regulation 2487 2496	regulated
+T41	Process 3229 3238	Virulence
+T42	Process 3369 3378	virulence
+E1	Process:T32 Participant:T1
+E2	Process:T33 Participant:T5
+E3	Process:T34 Participant:T10
+E4	Process:T35 
+E5	Process:T36 Participant:T11
+E6	Process:T37 Participant:T13
+E7	Process:T37 Participant:T14
+E8	Process:T38 
+E9	Process:T39 
+E10	Regulation:T40 Theme:T18
+E11	Process:T41 
+E12	Process:T42 Participant:T31
+T44	Regulation 88 95	causing
+E14	Regulation:T44 
+T47	Span 377 411	It was previously thought that SS2
+T48	Causality 412 418	caused
+E15	Causality:T48 Effect:T49 Evidence:T47
+T49	Span 419 473	only sporadic cases of meningitis and sepsis in humans
+T53	Span 2003 2130	A wide range of molecular machineries such as quorum sensing, TCSTS, and ABC transporters, are often involved in a putative PAI
+T54	Causality 2132 2139	whereby
+E17	Causality:T54 Evidence:T53 Effect:T55
+T55	Span 2140 2260	the PAI responds to environmental signals and fulfills its critical functions contributing to the virulence in pathogens
+#1	AnnotatorNotes E17	I suppose this is one of the causality words.
+T56	Span 2270 2396	Further bioinformatics analysis of the 89K island revealed a distinct two-component signal transduction system (TCSTS) encoded
+T57	Causality 2397 2404	therein
+E18	Causality:T57 Effect:T58 Evidence:T56
+T58	Span 2405 2502	appears to be orthologous to the SalK/SalR system of S. salivarius, a salivaricin regulated TCSTS
+T59	Span 2835 2905	Up until now, only one orphan response regulator, RevS, has been found
+T60	Span 2906 2949	to be implicated in the pathogenesis of SS2
+T61	Causality 2906 2906	
+E19	Causality:T61 Evidence:T59 Effect:T60
+T62	Span 3229 3352	Virulence assays together with a series of experiments enabled us to identify a novel genetic determinant which is required
+T63	Span 3353 3423	for the overall virulence of Chinese isolates of highly pathogenic SS2
+T64	Causality 3369 3369	
+E20	Causality:T64 Evidence:T62 Effect:T63

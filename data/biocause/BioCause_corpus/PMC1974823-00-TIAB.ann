@@ -1,0 +1,38 @@
+T20	Gene_expression 205 215	Expression
+T21	Regulation 244 254	controlled
+T22	Positive_regulation 617 625	promoted
+T23	Regulation 638 658	regulatory mechanism
+T24	Regulation 681 691	regulation
+T25	Binding 742 749	binding
+T26	Entity 757 772	promoter region
+E1	Gene_expression:T20 Theme:T7
+E2	Regulation:T21 Theme:E1 Cause:T8
+E3	Positive_regulation:T22 Theme:T13
+E4	Regulation:T23 Theme:T15 Cause:T16
+E5	Regulation:T24 Theme:T17
+E6	Binding:T25 Theme1:T18 Theme2:T19 Site2:T26
+T1	Organism 0 24	Porphyromonas gingivalis
+T2	Two-component-system 59 68	FimS/FimR
+T3	Protein 59 63	FimS
+T4	Protein 64 68	FimR
+T5	Organism 91 115	Porphyromonas gingivalis
+T6	Protein 159 163	FimA
+T7	Protein 223 227	fimA
+T8	Two-component-system 282 291	FimS/FimR
+T9	Protein 282 286	FimS
+T10	Protein 287 291	FimR
+T11	Protein 334 338	Mfa1
+T12	Organism 458 471	P. gingivalis
+T13	Protein 511 515	FimR
+T14	Protein 604 608	mfa1
+T15	Protein 662 666	FimA
+T16	Protein 670 674	FimR
+T17	Protein 699 703	mfa1
+T18	Protein 728 732	FimR
+T19	Protein 776 780	mfa1
+T27	Causality 370 413	The authors have recently demonstrated that
+E7	Causality:T27 Effect:T28 Evidence:T29
+T28	Span 414 481	both fimbriae are required for formation of P. gingivalis biofilms.
+T29	Span 323 368	The short (Mfa1) fimbriae are less understood
+T30	Span 205 321	Expression of the fimA gene is tightly controlled by a two-component system (FimS/FimR) through a cascade regulation
+E8	Causality:T27 Effect:T28 Evidence:T30

@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0661</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-30</TIMEX3></DCT>
+<TEXT>
+ A unit of DPC Acquisition Partners <EVENT eid="e1" class="OCCURRENCE">launched</EVENT> a $ 10-a-share tender <EVENT eid="e2" class="OCCURRENCE">offer</EVENT> for the shares outstanding of Dataproducts Corp., and <EVENT eid="e3" class="REPORTING">said</EVENT> it would <EVENT eid="e4" class="I_ACTION">seek</EVENT> to <EVENT eid="e5" class="OCCURRENCE">liquidate</EVENT> the computer-printer maker " <TIMEX3 tid="t6" type="DATE" value="FUTURE_REF" anchorTimeID="t0" functionInDocument="NONE">as soon as possible</TIMEX3>, " even if a <EVENT eid="e7" class="OCCURRENCE">merger</EVENT> isn't <EVENT eid="e8" class="I_STATE">consummated</EVENT>.
+ DPC Acquisition is controlled by Crescott Investment Associates, Wilson Investment Group, Kernel Corp. and Catalyst Partners.
+ The investor group owns 1,534,600 Dataproducts common shares, or a 7.6 % stake.
+ The <EVENT eid="e9" class="OCCURRENCE">offer</EVENT> is based on several conditions, including <EVENT eid="e10" class="I_STATE">obtaining</EVENT> <EVENT eid="e11" class="STATE">financing</EVENT>.
+ DPC Acquisition <EVENT eid="e12" class="REPORTING">said</EVENT> it had <EVENT eid="e13" class="OCCURRENCE">received</EVENT> the reasonable assurance of Chase Manhattan Bank N.A. that the <EVENT eid="e14" class="STATE">financing</EVENT> can be <EVENT eid="e15" class="I_STATE">obtained</EVENT>.
+ In a filing with the Securities and Exchange Commission, DPC Acquisition <EVENT eid="e16" class="REPORTING">said</EVENT> it <EVENT eid="e17" class="I_STATE">expects</EVENT> it will <EVENT eid="e18" class="I_STATE">need</EVENT> about $ 215 million to <EVENT eid="e19" class="OCCURRENCE">buy</EVENT> the shares and <EVENT eid="e20" class="OCCURRENCE">pay</EVENT> related fees and expenses.
+ DPC Acquisition <EVENT eid="e21" class="REPORTING">added</EVENT> that it has not <EVENT eid="e22" class="ASPECTUAL">begun</EVENT> <EVENT eid="e23" class="OCCURRENCE">discussions</EVENT> with financing sources, and <EVENT eid="e24" class="REPORTING">said</EVENT> it <EVENT eid="e25" class="I_STATE">expected</EVENT> to <EVENT eid="e26" class="OCCURRENCE">repay</EVENT> the amounts <EVENT eid="e27" class="OCCURRENCE">borrowed</EVENT> through proceeds of the <EVENT eid="e28" class="OCCURRENCE">liquidation</EVENT>.
+ Dataproducts officials <EVENT eid="e29" class="I_ACTION">declined</EVENT> to <EVENT eid="e30" class="OCCURRENCE">comment</EVENT>, and <EVENT eid="e31" class="REPORTING">said</EVENT> they had not yet <EVENT eid="e32" class="PERCEPTION">seen</EVENT> a suit <EVENT eid="e33" class="OCCURRENCE">filed</EVENT> in federal court by DPC Acquisition that <EVENT eid="e34" class="I_STATE">seeks</EVENT> to <EVENT eid="e35" class="I_STATE">nullify</EVENT> a standstill <EVENT eid="e36" class="STATE">agreement</EVENT> between DPC Acquisition and Dataproducts.
+ <TIMEX3 tid="t37" type="DATE" value="1989" anchorTimeID="t0" functionInDocument="NONE">Earlier this year</TIMEX3>, DPC Acquisition <EVENT eid="e38" class="OCCURRENCE">made</EVENT> a $ 15-a-share <EVENT eid="e39" class="OCCURRENCE">offer</EVENT> for Dataproducts, which the Dataproducts board <EVENT eid="e40" class="REPORTING">said</EVENT> it <EVENT eid="e41" class="I_ACTION">rejected</EVENT> <C-SIGNAL cid="c42">because</C-SIGNAL> the $ 283.7 million offer was not fully <EVENT eid="e43" class="OCCURRENCE">financed</EVENT>.
+ Dataproducts has since <EVENT eid="e44" class="ASPECTUAL">started</EVENT> a <EVENT eid="e45" class="OCCURRENCE">restructuring</EVENT>, and has <EVENT eid="e46" class="REPORTING">said</EVENT> it is not <EVENT eid="e47" class="STATE">for</EVENT> sale.
+</TEXT>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e46" eiid="ei46" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e47" eiid="ei47" tense="PRESENT" aspect="NONE" polarity="NEG" pos="PREPOSITION"/>
+<MAKEINSTANCE eventID="e44" eiid="ei44" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e45" eiid="ei45" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e40" eiid="ei40" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e41" eiid="ei41" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e39" eiid="ei39" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e38" eiid="ei38" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PRESPART" aspect="NONE" polarity="POS" modality="none" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" modality="can" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="PAST" aspect="PERFECTIVE" polarity="NEG" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEGINS" eventInstanceID="ei1" relatedToEventInstance="ei2"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0"/>
+<TLINK lid="l4" relType="INCLUDES" eventInstanceID="ei3" relatedToEventInstance="ei1"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t6"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei8" relatedToEventInstance="ei5"/>
+<TLINK lid="l7" relType="BEGINS" eventInstanceID="ei8" relatedToEventInstance="ei7"/>
+<TLINK lid="l8" relType="IDENTITY" eventInstanceID="ei9" relatedToEventInstance="ei2"/>
+<TLINK lid="l9" relType="ENDED_BY" eventInstanceID="ei10" relatedToEventInstance="ei11"/>
+<TLINK lid="l10" relType="IDENTITY" eventInstanceID="ei12" relatedToEventInstance="ei3"/>
+<TLINK lid="l11" relType="IDENTITY" eventInstanceID="ei14" relatedToEventInstance="ei11"/>
+<TLINK lid="l12" relType="ENDED_BY" eventInstanceID="ei15" relatedToEventInstance="ei14"/>
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei18" relatedToEventInstance="ei19"/>
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei18" relatedToEventInstance="ei20"/>
+<TLINK lid="l15" relType="IDENTITY" eventInstanceID="ei21" relatedToEventInstance="ei16"/>
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei23" relatedToTime="t0"/>
+<TLINK lid="l17" relType="IDENTITY" eventInstanceID="ei24" relatedToEventInstance="ei21"/>
+<TLINK lid="l18" relType="AFTER" eventInstanceID="ei26" relatedToEventInstance="ei27"/>
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei27" relatedToEventInstance="ei25"/>
+<TLINK lid="l20" relType="SIMULTANEOUS" eventInstanceID="ei27" relatedToEventInstance="ei28"/>
+<TLINK lid="l21" relType="SIMULTANEOUS" eventInstanceID="ei31" relatedToEventInstance="ei29"/>
+<TLINK lid="l22" relType="SIMULTANEOUS" eventInstanceID="ei33" relatedToEventInstance="ei34"/>
+<TLINK lid="l23" relType="INCLUDES" timeID="t37" relatedToEventInstance="ei38"/>
+<TLINK lid="l24" relType="BEFORE" eventInstanceID="ei38" relatedToEventInstance="ei1"/>
+<TLINK lid="l25" relType="IDENTITY" eventInstanceID="ei38" relatedToEventInstance="ei39"/>
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei38" relatedToEventInstance="ei41"/>
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei41" relatedToEventInstance="ei40"/>
+<TLINK lid="l28" relType="BEFORE" eventInstanceID="ei43" relatedToEventInstance="ei41"/>
+<TLINK lid="l30" relType="AFTER" eventInstanceID="ei44" relatedToEventInstance="ei41"/>
+<TLINK lid="l31" relType="IS_INCLUDED" eventInstanceID="ei45" relatedToEventInstance="ei44"/>
+<TLINK lid="l32" relType="AFTER" eventInstanceID="ei46" relatedToEventInstance="ei44"/>
+<TLINK lid="l33" relType="IS_INCLUDED" eventInstanceID="ei47" relatedToTime="t0"/>
+<CLINK lid="l29" c-signalID="c42" eventInstanceID="ei43" relatedToEventInstance="ei41"/>
+</TimeML>

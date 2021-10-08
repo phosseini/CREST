@@ -1,0 +1,64 @@
+T1	Purpose 408 410	to
+E1	Purpose:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 288 407	the Bush administration uses the phrase ``global war on terror'' as a ``bumper sticker'' slogan that serves as a shield
+T3	Argument 411 543	pursue dangerous policies like the war in Iraq, which has come back to haunt the United States by increasing the threat of terrorism
+T4	Motivation 565 573;619 621	prompted to
+E2	Motivation:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+T5	Argument 546 560	That assertion
+T6	Argument 574 618;622 700	former Mayor Rudolph W. Giuliani of New York accuse Mr. Edwards and other Democrats of being ``in denial'' about the threat
+T7	NonCausal 1042 1046;831 833	then If
+E3	NonCausal:T7 Arg0:T8 Arg1:T9
+A3	Hypothetical E3
+T8	Argument 834 1041	Mayor Giuliani believes that what President Bush has done is good and wants to embrace it, and run a campaign for the presidency saying 'I will give you four more years of what this president has given you,'
+T9	Argument 1047 1070	he's allowed to do that
+T10	Consequence 1052 1062	allowed to
+E4	Consequence:T10 Effect:T11
+A4	Degree E4 Facilitate
+A5	Obligation-permission E4
+T11	Argument 1047 1049;1063 1070	he do that
+T12	Consequence 1158 1168	allowed to
+E5	Consequence:T12 Effect:T13
+A6	Degree E5 Facilitate
+A7	Obligation-permission E5
+T13	Argument 1153 1155;1169 1176	he do that
+T14	Purpose 1408 1410	to
+E6	Purpose:T14 Cause:T16 Effect:T15
+A8	Degree E6 Facilitate
+T15	Argument 1381 1407	go beyond the use of force
+T16	Argument 1411 1444	undermine the threat of terrorism
+T18	Consequence 1670 1673	for
+E7	Consequence:T18 Effect:T19 Cause:T20
+A9	Degree E7 Facilitate
+T19	Argument 1634 1669	President Bush deserved some credit
+T20	Argument 1674 1720	helping keep America from being attacked again
+T21	Consequence 1682 1686;1695 1699	keep from
+E8	Consequence:T21 Cause:T22 Effect:T23
+A10	Degree E8 Inhibit
+T22	Argument 1634 1648	President Bush
+T23	Argument 1687 1694;1700 1720	America being attacked again
+T24	Consequence 1674 1681	helping
+E9	Consequence:T24 Cause:T22 Effect:T25
+A11	Degree E9 Facilitate
+T25	Argument 1682 1720	keep America from being attacked again
+T26	NonCausal 1947 1953	before
+E10	NonCausal:T26 Arg1:T27 Arg0:T28
+A12	Temporal E10
+T27	Argument 1954 1995	Mr. Edwards's comments about Mr. Giuliani
+T28	Argument 1997 2068	the former mayor had been increasingly critical of the Democratic field
+T29	NonCausal 2273 2277	When
+E11	NonCausal:T29 Arg0:T30 Arg1:T31
+A13	Temporal E11
+T30	Argument 2278 2358	I lived through Sept. 11, and I don't just mean the day, I mean a period of time
+T31	Argument 2360 2385	I was at the center of it
+T32	NonCausal 2482 2487	After
+E12	NonCausal:T32 Arg0:T33 Arg1:T34
+A14	Temporal E12
+T33	Argument 2488 2507	a town hall meeting
+T34	Argument 2509 2731	Mr. Giuliani was asked about critics who said the decision to go to war in Iraq was already providing inspiration and a training ground for extremists and that this in itself countered the idea that America was safer today
+T17	Argument 1453 1487	adopt a more multilateral approach
+T35	Argument 1491 1533	combat ``the long-term forces of terrorism
+T36	Purpose 1488 1490	to
+E13	Purpose:T36 Cause:T35 Effect:T17
+A15	Degree E13 Facilitate

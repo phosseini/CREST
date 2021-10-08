@@ -1,0 +1,18 @@
+Regulation via c-di-GMP as a second messenger 
+Cyclic diguanylate (c-di-GMP) is a bacterial second messenger that activates biofilm formation while inhibiting motility, thus regulating the switch between a planktonic and a sessile lifestyle.
+In addition to phenotypes that affect virulence properties indirectly, c-di-GMP can also directly regulate virulence factors [56,57].
+Proteins containing a so-called GGDEF domain are responsible for the synthesis of c-di-GMP, and those with a so-called EAL domain for its degradation.
+The expression and activity of those GGDEF and EAL domain containing proteins is regulated by factors with a PilZ domain that binds c-di-GMP. The PilZ domain is found as a stand-alone domain or in combination with GGDEF, EAL and other domains, thus assumed to function also as an allosteric domain to control other regulatory enzymes [58,59].
+In Y. enterocolitica, we identified 22 putative proteins containing GGDEF and EAL domains.
+Eleven of these proteins solely contain a GGDEF-domain and six solely an EAL-domain, and both domains are found in tandem in five proteins.
+The protein AdrA (YE3010, GGDEF domain) is annotated as a putative diguanylate cyclase, YE2278 (GGDEF+EAL) as a putative phosphodiesterase, YE3818 (GGDEF) as a putative regulator, and YE3806 (GGDEF+EAL) as a putative exported protein.
+All other GGDEF and EAL domain-containing proteins are of unknown function.
+Furthermore, two proteins with PilZ domain exist in Y. enterocolitica, namely YE3197 and BcsA (YE4074), a putative cellulose synthase.
+Cellulose synthesis in bacteria has been identified to be important for the protection from chemical or mechanical stress by forming a hydrophobic extracellular matrix [60].
+The expression of two of those EAL-domain containing proteins, YE4063 and YE1324, is induced at low temperature (Tab. 1).
+These two factors might therefore be important for insect colonization instead for virulence against mammals.
+The presence of c-di-GMP mediated regulation in Y. enterocolitica is therefore suggested to play a central role in switching from biofilm formation to the human as well as to the insect environment.
+P. luminescens contains no protein with GGDEF, EAL or PilZ domain.
+This phenomenon is quite surprising, because with few exceptions such as Helicobacter pylori, nearly all pathogenic bacteria use c-di-GMP as a second messenger.
+It has been reported that P. luminescens forms biofilms in vitro, and that a luxS-deficient mutant unable to synthesize the quorum-sensing inducer AI-2 showed a decreased biofilm formation [42].
+The lack of these protein domains in P. luminescens reveals that c-di-GMP signalling plays a major role in pathogenic bacteria when colonizing a mammalian host, and a minor for invertebrate colonization of entomopathogenic or entomoinfecting bacteria.

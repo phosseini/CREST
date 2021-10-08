@@ -1,0 +1,232 @@
+<Document doc_name="wsj_1008">
+  <Markables>
+    <TIMEX3 RELATED_TO="" TAG_DESCRIPTOR="Empty_Mark" beginPoint="" comment="" endPoint="" freq="" functionInDocument="CREATION_TIME" id="0" quant="" type="DATE" value="1989-10-26" />
+    <EVENT aspect="NONE" certainty="" class="REPORTING" comment="" factuality="" id="1" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="5" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="2" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="7" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="3" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="34" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="I_STATE" comment="" factuality="" id="4" modality="NONE" polarity="POS" pos="VERB" tense="PRESENT">
+      <token_anchor id="59" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="5" modality="NONE" polarity="POS" pos="VERB" tense="INFINITIVE">
+      <token_anchor id="61" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="I_ACTION" comment="" factuality="" id="6" modality="NONE" polarity="POS" pos="VERB" tense="INFINITIVE">
+      <token_anchor id="69" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="7" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="70" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="8" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="72" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="9" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+      <token_anchor id="78" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="10" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="84" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="11" modality="NONE" polarity="POS" pos="VERB" tense="PRESENT">
+      <token_anchor id="99" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="REPORTING" comment="" factuality="" id="12" modality="NONE" polarity="POS" pos="VERB" tense="PAST">
+      <token_anchor id="107" />
+    </EVENT>
+    <EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="13" modality="NONE" polarity="POS" pos="VERB" tense="PRESENT">
+      <token_anchor id="130" />
+    </EVENT>
+  </Markables>
+  <Relations>
+    <TLINK comment="" id="1" relType="BEFORE">
+      <source id="1" />
+      <target id="0" />
+    </TLINK>
+    <TLINK comment="" id="2" relType="AFTER">
+      <source id="1" />
+      <target id="2" />
+    </TLINK>
+    <TLINK comment="" id="3" relType="BEFORE">
+      <source id="3" />
+      <target id="0" />
+    </TLINK>
+    <TLINK comment="" id="4" relType="DURING">
+      <source id="4" />
+      <target id="0" />
+    </TLINK>
+    <CLINK comment="" id="5">
+      <source id="5" />
+      <target id="7" />
+    </CLINK>
+    <TLINK comment="" id="6" relType="SIMULTANEOUS">
+      <source id="7" />
+      <target id="8" />
+    </TLINK>
+    <TLINK comment="" id="7" relType="SIMULTANEOUS">
+      <source id="9" />
+      <target id="3" />
+    </TLINK>
+    <TLINK comment="" id="8" relType="BEFORE">
+      <source id="9" />
+      <target id="10" />
+    </TLINK>
+    <TLINK comment="" id="9" relType="DURING">
+      <source id="11" />
+      <target id="0" />
+    </TLINK>
+    <TLINK comment="" id="10" relType="BEFORE">
+      <source id="12" />
+      <target id="0" />
+    </TLINK>
+    <TLINK comment="" id="11" relType="DURING">
+      <source id="13" />
+      <target id="0" />
+    </TLINK>
+  </Relations>
+  <token id="1" number="0" sentence="0">Lawrence</token>
+  <token id="2" number="1" sentence="0">Insurance</token>
+  <token id="3" number="2" sentence="0">Group</token>
+  <token id="4" number="3" sentence="0">Inc.</token>
+  <token id="5" number="4" sentence="0">said</token>
+  <token id="6" number="5" sentence="0">it</token>
+  <token id="7" number="6" sentence="0">acquired</token>
+  <token id="8" number="7" sentence="0">United</token>
+  <token id="9" number="8" sentence="0">Republic</token>
+  <token id="10" number="9" sentence="0">Reinsurance</token>
+  <token id="11" number="10" sentence="0">Co.,</token>
+  <token id="12" number="11" sentence="0">a</token>
+  <token id="13" number="12" sentence="0">Houston</token>
+  <token id="14" number="13" sentence="0">property</token>
+  <token id="15" number="14" sentence="0">and</token>
+  <token id="16" number="15" sentence="0">casualty</token>
+  <token id="17" number="16" sentence="0">reinsurance</token>
+  <token id="18" number="17" sentence="0">company</token>
+  <token id="19" number="18" sentence="0">,</token>
+  <token id="20" number="19" sentence="0">from</token>
+  <token id="21" number="20" sentence="0">United</token>
+  <token id="22" number="21" sentence="0">Savings</token>
+  <token id="23" number="22" sentence="0">Association</token>
+  <token id="24" number="23" sentence="0">of</token>
+  <token id="25" number="24" sentence="0">Texas</token>
+  <token id="26" number="25" sentence="0">for</token>
+  <token id="27" number="26" sentence="0">$</token>
+  <token id="28" number="27" sentence="0">28</token>
+  <token id="29" number="28" sentence="0">million</token>
+  <token id="30" number="29" sentence="0">.</token>
+  <token id="31" number="30" sentence="1">Lawrence</token>
+  <token id="32" number="31" sentence="1">Insurance</token>
+  <token id="33" number="32" sentence="1">also</token>
+  <token id="34" number="33" sentence="1">sold</token>
+  <token id="35" number="34" sentence="1">3.2</token>
+  <token id="36" number="35" sentence="1">million</token>
+  <token id="37" number="36" sentence="1">of</token>
+  <token id="38" number="37" sentence="1">its</token>
+  <token id="39" number="38" sentence="1">shares</token>
+  <token id="40" number="39" sentence="1">for</token>
+  <token id="41" number="40" sentence="1">$</token>
+  <token id="42" number="41" sentence="1">7.125</token>
+  <token id="43" number="42" sentence="1">each</token>
+  <token id="44" number="43" sentence="1">to</token>
+  <token id="45" number="44" sentence="1">its</token>
+  <token id="46" number="45" sentence="1">parent</token>
+  <token id="47" number="46" sentence="1">,</token>
+  <token id="48" number="47" sentence="1">Lawrence</token>
+  <token id="49" number="48" sentence="1">Group</token>
+  <token id="50" number="49" sentence="1">Inc.</token>
+  <token id="51" number="50" sentence="2">Lawrence</token>
+  <token id="52" number="51" sentence="2">Insurance</token>
+  <token id="53" number="52" sentence="2">,</token>
+  <token id="54" number="53" sentence="2">based</token>
+  <token id="55" number="54" sentence="2">in</token>
+  <token id="56" number="55" sentence="2">Albany</token>
+  <token id="57" number="56" sentence="2">,</token>
+  <token id="58" number="57" sentence="2">N.Y.,</token>
+  <token id="59" number="58" sentence="2">plans</token>
+  <token id="60" number="59" sentence="2">to</token>
+  <token id="61" number="60" sentence="2">use</token>
+  <token id="62" number="61" sentence="2">the</token>
+  <token id="63" number="62" sentence="2">$</token>
+  <token id="64" number="63" sentence="2">22.5</token>
+  <token id="65" number="64" sentence="2">million</token>
+  <token id="66" number="65" sentence="2">in</token>
+  <token id="67" number="66" sentence="2">proceeds</token>
+  <token id="68" number="67" sentence="2">to</token>
+  <token id="69" number="68" sentence="2">help</token>
+  <token id="70" number="69" sentence="2">finance</token>
+  <token id="71" number="70" sentence="2">the</token>
+  <token id="72" number="71" sentence="2">acquisition</token>
+  <token id="73" number="72" sentence="2">of</token>
+  <token id="74" number="73" sentence="2">United</token>
+  <token id="75" number="74" sentence="2">Republic</token>
+  <token id="76" number="75" sentence="2">.</token>
+  <token id="77" number="76" sentence="3">By</token>
+  <token id="78" number="77" sentence="3">acquiring</token>
+  <token id="79" number="78" sentence="3">the</token>
+  <token id="80" number="79" sentence="3">shares</token>
+  <token id="81" number="80" sentence="3">,</token>
+  <token id="82" number="81" sentence="3">Lawrence</token>
+  <token id="83" number="82" sentence="3">Group</token>
+  <token id="84" number="83" sentence="3">increased</token>
+  <token id="85" number="84" sentence="3">its</token>
+  <token id="86" number="85" sentence="3">stake</token>
+  <token id="87" number="86" sentence="3">in</token>
+  <token id="88" number="87" sentence="3">Lawrence</token>
+  <token id="89" number="88" sentence="3">Insurance</token>
+  <token id="90" number="89" sentence="3">to</token>
+  <token id="91" number="90" sentence="3">93.2</token>
+  <token id="92" number="91" sentence="3">%</token>
+  <token id="93" number="92" sentence="3">from</token>
+  <token id="94" number="93" sentence="3">91.2</token>
+  <token id="95" number="94" sentence="3">%</token>
+  <token id="96" number="95" sentence="3">.</token>
+  <token id="97" number="96" sentence="4">Lawrence</token>
+  <token id="98" number="97" sentence="4">Insurance</token>
+  <token id="99" number="98" sentence="4">underwrites</token>
+  <token id="100" number="99" sentence="4">mostly</token>
+  <token id="101" number="100" sentence="4">primary</token>
+  <token id="102" number="101" sentence="4">insurance</token>
+  <token id="103" number="102" sentence="4">,</token>
+  <token id="104" number="103" sentence="4">a</token>
+  <token id="105" number="104" sentence="4">company</token>
+  <token id="106" number="105" sentence="4">spokesman</token>
+  <token id="107" number="106" sentence="4">said</token>
+  <token id="108" number="107" sentence="4">.</token>
+  <token id="109" number="108" sentence="5">A</token>
+  <token id="110" number="109" sentence="5">reinsurance</token>
+  <token id="111" number="110" sentence="5">company</token>
+  <token id="112" number="111" sentence="5">effectively</token>
+  <token id="113" number="112" sentence="5">insures</token>
+  <token id="114" number="113" sentence="5">insurance</token>
+  <token id="115" number="114" sentence="5">companies</token>
+  <token id="116" number="115" sentence="5">that</token>
+  <token id="117" number="116" sentence="5">wish</token>
+  <token id="118" number="117" sentence="5">to</token>
+  <token id="119" number="118" sentence="5">spread</token>
+  <token id="120" number="119" sentence="5">the</token>
+  <token id="121" number="120" sentence="5">risk</token>
+  <token id="122" number="121" sentence="5">of</token>
+  <token id="123" number="122" sentence="5">a</token>
+  <token id="124" number="123" sentence="5">particular</token>
+  <token id="125" number="124" sentence="5">policy</token>
+  <token id="126" number="125" sentence="5">.</token>
+  <token id="127" number="126" sentence="6">Lawrence</token>
+  <token id="128" number="127" sentence="6">Group</token>
+  <token id="129" number="128" sentence="6">also</token>
+  <token id="130" number="129" sentence="6">owns</token>
+  <token id="131" number="130" sentence="6">Lawrence</token>
+  <token id="132" number="131" sentence="6">Agency</token>
+  <token id="133" number="132" sentence="6">Corp.,</token>
+  <token id="134" number="133" sentence="6">Schenectady</token>
+  <token id="135" number="134" sentence="6">,</token>
+  <token id="136" number="135" sentence="6">N.Y.,</token>
+  <token id="137" number="136" sentence="6">an</token>
+  <token id="138" number="137" sentence="6">insurance</token>
+  <token id="139" number="138" sentence="6">agency</token>
+  <token id="140" number="139" sentence="6">and</token>
+  <token id="141" number="140" sentence="6">brokerage</token>
+  <token id="142" number="141" sentence="6">.</token>
+</Document>

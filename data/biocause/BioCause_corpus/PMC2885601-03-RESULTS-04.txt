@@ -1,0 +1,11 @@
+SeMac does not Inhibit Opsonophagocytosis of S. equi by Horse PMN 
+A whole blood based phagocytosis assay [13, 14] was used to test whether SeMac inhibits opsonophagocytosis of S. equi by horse PMNs.
+The bacteria were labeled with FITC, treated with S. equi-specific horse convalescent serum in the absence or presence of SeMac, and incubated with horse blood.
+Percentage of PMNs with phagocytosed S. equi was determined by flow cytometry.
+As expected, percentage of PMNs with phagocytosed S. equi with the serum treatment was significantly higher than that for S. equi without serum treatment.
+But the inclusion of SeMac in the assay did not affect opsonophagocytosis of S. equi (Fig. 5A), suggesting that SeMac does not inhibit opsonophagocytosis of S. equi by horse PMNs.
+The inability of SeMac to inhibit S. equi opsonophagocytosis by horse PMNs may be due to its inability to cleave the majority of horse IgG.
+If this is true, SeMac should inhibit opsonophagocytosis of GAS by human PMNs, since SeMac efficiently cleaves human IgG.
+To test this idea, the phagocytosis assay was repeated using GAS and human blood.
+SeMac indeed inhibits the opsonophagocytosis of GAS by human PMNs (Fig. 5B).
+These results suggest that IgG endopeptidase activity of SeMac is critical for inhibition of phagocytosis.

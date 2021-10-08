@@ -1,0 +1,69 @@
+T1	Purpose 245 247	to
+E1	Purpose:T1 Cause:T2 Effect:T3
+A1	Degree E1 Facilitate
+T2	Argument 248 308	help finance its $750 million purchase of a 15% stake in UAL
+T3	Argument 196 244	The United Kingdom carrier had planned the issue
+T4	Consequence 248 252	help
+E2	Consequence:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+T5	Argument 253 308	finance its $750 million purchase of a 15% stake in UAL
+T6	Argument 235 244	the issue
+T7	Motivation 395 400	after
+E3	Motivation:T7 Cause:T8 Effect:T9
+A3	Degree E3 Facilitate
+A4	Temporal E3
+T8	Argument 401 469	the group failed to get bank financing for its $6.79 billion buy-out
+T9	Argument 314 393	British Airways withdrew from the UAL labor-management buy-out plan last Friday
+T10	NonCausal 721 726	since
+E4	NonCausal:T10 Arg0:T11 Arg1:T12
+A5	Temporal E4
+T11	Argument 727 761	the 1987 global stock market crash
+T12	Argument 648 720	6.3% level marked the poorest showing for any major British rights issue
+T13	Argument 944 948	that
+T14	Motivation 971 977	reason
+E5	Motivation:T14 Effect:T13
+A6	Degree E5 Facilitate
+T15	Argument 930 943	rights issues
+R1	Coref Arg1:T13 Arg2:T15	
+T16	Motivation 991 997	reason
+E6	Motivation:T16 Cause:T17
+A7	Degree E6 Facilitate
+T17	Argument 1003 1053	for British Air) to buy a stake in United Airlines
+T18	Argument 1253 1317	the volatility of the stock market since the launch of the issue
+T19	Consequence 1247 1252	given
+E7	Consequence:T19 Cause:T18 Effect:T20
+A8	Degree E7 Facilitate
+T20	Argument 1189 1246	it would have been unreasonable to expect a better result
+T21	NonCausal 1288 1293	since
+E8	NonCausal:T21 Arg0:T22 Arg1:T23
+A9	Temporal E8
+T22	Argument 1294 1317	the launch of the issue
+T23	Argument 1253 1287	the volatility of the stock market
+T27	NonCausal 2775 2780	after
+E10	NonCausal:T27 Arg0:T28 Arg1:T29
+A11	Temporal E10
+T28	Argument 2781 2837	the company announced the rights issue in late September
+T29	Argument 2770 2774	seen
+T30	Consequence 2943 2950	because
+E11	Consequence:T30 Cause:T31 Effect:T32
+A12	Degree E11 Facilitate
+T31	Argument 2951 3019	British Air is issuing convertible bonds rather than ordinary shares
+T32	Argument 3021 3149	the share price won't be directly hurt by any surplus left with underwriters after they try to sell the issue in the open market
+T33	Consequence 3098 3103	after
+E12	Consequence:T33 Cause:T34 Effect:T38
+A13	Degree E12 Facilitate
+A14	Temporal E12
+T34	Argument 3104 3149	they try to sell the issue in the open market
+T36	Consequence 3328 3335	lead to
+E13	Consequence:T36 Effect:T37 Cause:T39
+A15	Degree E13 Facilitate
+T37	Argument 3336 3412	the resignation of Sir Colin Marshall, the carrier's chief executive officer
+T38	Argument 3075 3097	left with underwriters
+T39	Argument 3318 3323	which
+T40	Argument 3298 3316	a board room split
+R2	Coref Arg1:T39 Arg2:T40	
+T24	Consequence 3290 3297	set off
+E9	Consequence:T24 Cause:T25 Effect:T40
+A10	Degree E9 Facilitate
+A16	Creation-termination E9
+T25	Argument 3277 3285	the move

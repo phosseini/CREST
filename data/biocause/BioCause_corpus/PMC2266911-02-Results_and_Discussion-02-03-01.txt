@@ -1,0 +1,8 @@
+Defensive mechanisms 
+Antimicrobials The production of antibiotics is mainly restricted to P. luminescens, whereas factors combating antimicrobial host substances play an important role during the infection process of both pathogens compared here.
+In the genome of P. luminescens ssp. laumondii strain TT01, many loci involved in the defense of the insect cadaver against different microbial competitors are present, including nearly 50 genes encoding proteins such as polyketide and peptide synthases putatively involved in antibiotic synthesis and efflux.
+Interestingly, none of these genes showed significant similarities to sequences of the Y. enterocolitica genome.
+Phage-derived bacteriocins in entomopathogenic bacteria are also presumed to eliminate competing bacteria.
+More than twenty colicin/pyocin-like factors and putative immunity proteins are unique to P. luminescens in comparison to Y. enterocolitica.
+Remarkable exceptions are the toxin/antitoxin system ccdA/ccdB, the tolQRAB/pal operon involved in group A colicin translocation, and a colicin production and secretion system (Plu3168/Plu3869; YE0791/YE1314).
+Recently, it was reported that PrtS (Plu1382) secreted by P. luminescens, a metalloprotease without counterpart in Y. enterocolitica, specifically induces melanization of the hemolymph, probably to circumvent the innate immune response of the insect [81].

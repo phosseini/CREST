@@ -1,0 +1,75 @@
+T1	Chemical 17 21	Mg2+
+T2	Chemical 23 27	Ca2+
+T3	Chemical 31 35	Mn2+
+T4	Chemical 44 48	Zn2+
+T5	Protein 57 63	PA3553
+T6	Chemical 244 248	Mg2+
+T7	Chemical 250 254	Ca2+
+T8	Chemical 258 262	Mn2+
+T9	Chemical 272 276	Zn2+
+T10	Chemical 517 521	Mg2+
+T11	Chemical 523 527	Ca2+
+T12	Chemical 529 533	Mn2+
+T13	Chemical 537 541	Zn2+
+T14	Chemical 804 808	Mg2+
+T15	Protein 973 979	PA3553
+T16	Chemical 1023 1027	Mg2+
+T17	Organism 1054 1067	P. aeruginosa
+T18	Chemical 1075 1079	Mg2+
+T19	Organism 1085 1098	P. aeruginosa
+T20	Protein 1099 1103	PhoQ
+T21	Chemical 1172 1176	Mg2+
+T22	Chemical 1181 1185	Ca2+
+T23	Chemical 1220 1224	Mg2+
+T24	Chemical 1260 1264	Mg2+
+T25	Chemical 1266 1270	Ca2+
+T26	Chemical 1274 1278	Mn2+
+T27	Chemical 1288 1292	Zn2+
+T28	Protein 1304 1310	PA3553
+T29	Organism 1373 1386	P. aeruginosa
+T30	Chemical 1413 1417	Mg2+
+T31	Chemical 1419 1423	Ca2+
+T32	Chemical 1427 1431	Mn2+
+T33	Regulon-operon 1508 1521	PA3552-PA3559
+T34	Protein 1508 1514	PA3552
+T35	Protein 1515 1521	PA3559
+T36	Chemical 1522 1525	LPS
+T37	Positive_regulation 49 56	induces
+T38	Gene_expression 64 74	expression
+T39	Positive_regulation 960 969	induction
+T40	Negative_regulation 1003 1012	repressed
+T41	Binding 1144 1148	bind
+T42	Negative_regulation 1159 1168	repressed
+T43	Negative_regulation 1294 1303	repressed
+T44	Gene_expression 1311 1321	expression
+T45	Positive_regulation 1491 1500	induction
+E1	Positive_regulation:T37 Theme:E5 Cause:T1
+E2	Positive_regulation:T37 Theme:E5 Cause:T2
+E3	Positive_regulation:T37 Theme:E5 Cause:T3
+E4	Positive_regulation:T37 Theme:E5 Cause:T4
+M1	Negation E4
+E5	Gene_expression:T38 Theme:T5
+E6	Positive_regulation:T39 Theme:T15
+E7	Negative_regulation:T40 Theme:E6 Cause:T16
+E8	Binding:T41 Theme1:T20 Theme2:T21
+E9	Binding:T41 Theme1:T20 Theme2:T22
+E10	Negative_regulation:T42 Theme:T20 Cause:T21
+E11	Negative_regulation:T42 Theme:T20 Cause:T22
+E12	Negative_regulation:T43 Theme:E16 Cause:T24
+E13	Negative_regulation:T43 Theme:E16 Cause:T25
+E14	Negative_regulation:T43 Theme:E16 Cause:T26
+E15	Negative_regulation:T43 Theme:E16 Cause:T27
+M2	Negation E15
+E16	Gene_expression:T44 Theme:T28
+E17	Positive_regulation:T45 Theme:T33
+T46	Span 870 1027	At sub-lethal concentrations, extracellular DNA imposes a cation limitation that leads to induction of PA3553 (Fig 4A), which can be repressed by excess Mg2+
+T47	Causality 1038 1053	indicating that
+E18	Causality:T47 Effect:T48 Evidence:T46
+T48	Span 1054 1079	P. aeruginosa senses Mg2+
+T49	Span 1081 1193	The P. aeruginosa PhoQ sensor kinase protein has been shown to bind to and be repressed by Mg2+ and Ca2+ cations
+T50	Span 1205 1321	Under limiting Mg2+ conditions, the addition of excess Mg2+, Ca2+ or Mn2+, but not Zn2+, repressed PA3553 expression
+T51	Causality 1332 1372	Taken together, these data indicate that
+E19	Causality:T51 Effect:T52 Evidence:T49
+T52	Span 1373 1431	P. aeruginosa can sense the presence of Mg2+, Ca2+ or Mn2+
+T53	Span 1436 1545	that chelation of these same cations by DNA results in induction of the PA3552-PA3559 LPS modification operon
+E20	Causality:T51 Effect:T53 Evidence:T49

@@ -1,0 +1,11 @@
+Identification of the transcriptional start site of the mfa1 gene 
+To identify the promoter region of mfa1, the transcriptional start site was first determined.
+The RACE experiment was first conducted with mfa1-specific reverse primers MfaTSR1 located at 135 bp up-stream of the potential start codon and MfaTSR2 located at 37 bp downstream of the potential start codon (Fig. 2a).
+The transcriptional start site (the A) of mfa1 was at 434 bp upstream from the potential start codon (Fig. 2b).
+To verify the result, the RACE experiment was repeated with mfa1-specific reverse primers MfaTSR3 and MfaTSR4 located at 237 bp upstream of the potential start codon.
+The same transcriptional start site was identified.
+To confirm the result of RACE, reverse-transcriptional PCR using three sets of primers was performed.
+As shown in Fig. 2c, the PCR product was generated only with primers MfaTSF1 (corresponding to +6 to +25) and MfaTSR5 (+805 to +824).
+There was no PCR product generated from RT-PCR using the primers (MfaTSF3, from -139 to -121 or MfaTSF2, from -66 to -47) which correspond to the DNA sequences upstream from the transcriptional start site.
+This transcriptional start site is 390 bp upstream of the site previously reported (Park et al., 2006).
+It is likely that mfa1 gene possesses two functional promoters, which are also detected in the fimA gene of P. gingivalis (Xie & Lamont, 1999; Nishikawa et al., 2004).

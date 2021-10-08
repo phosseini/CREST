@@ -1,0 +1,87 @@
+T1	Note 83 87	help
+#1	AnnotatorNotes T1	Assist
+T2	Motivation 318 326	Now that
+E1	Motivation:T2 Cause:T3 Effect:T4
+A1	Degree E1 Facilitate
+T3	Argument 327 381	Vietnam appears to have pulled out its occupation army
+T4	Argument 383 511	the State Department is talking again about accepting an ``interim'' coalition government in the Cambodian capital of Phnom Penh
+T7	Consequence 1012 1019	require
+E3	Consequence:T7 Effect:T8 Cause:T9
+A4	Degree E3 Facilitate
+T8	Argument 1020 1050	they squeeze out everyone else
+T9	Argument 985 1011	their ideology and methods
+A5	Obligation-permission E3
+T10	NonCausal 1172 1178	Within
+E4	NonCausal:T10 Arg1:T11
+A6	Temporal E4
+T11	Argument 1190 1368	the moderates were exiled or in prison, Nicaragua had gone communist, and the Sandinistas were building one of the biggest armies in Latin America and threatening their neighbors
+T15	Consequence 1379 1383	when
+E6	Consequence:T15 Cause:T16 Effect:T17
+A8	Degree E6 Facilitate
+A9	Temporal E6
+T16	Argument 1384 1441	the Western powers bowed to pressure for such a coalition
+T17	Argument 1456 1506	they were opening the door to communist domination
+T18	NonCausal 2145 2150	while
+E7	NonCausal:T18 Arg0:T19 Arg1:T20
+A10	Temporal E7
+T19	Argument 2151 2221	building Cambodia's equivalent of the Berlin Wall near the Thai border
+T20	Argument 2048 2144	The Hun Sen regime has sent thousands of conscript laborers to die of malaria and malnourishment
+T21	Consequence 2315 2321	caused
+E8	Consequence:T21 Cause:T22 Effect:T14
+A11	Degree E8 Facilitate
+T22	Argument 2300 2314	These utopians
+T25	Consequence 2437 2439	so
+E9	Consequence:T25 Cause:T26 Effect:T27
+A12	Degree E9 Facilitate
+A13	Extremity-sufficiency E9
+T26	Argument 2437 2443	so bad
+T27	Argument 2449 2512	the Vietnamese occupation in 1978 was a perverse form of relief
+T28	Consequence 3027 3031	help
+E10	Consequence:T28 Effect:T29 Cause:T30
+A14	Degree E10 Facilitate
+T29	Argument 3032 3047;3048 3079	the Khmer Rouge set up shop again in Phnom Penh
+T30	Argument 3016 3020	that
+T31	Argument 3005 3015	conditions
+R1	Coref Arg1:T30 Arg2:T31	
+T33	NonCausal 3213 3217	over
+E11	NonCausal:T33 Arg0:T34 Arg1:T35
+A15	Temporal E11
+T34	Argument 3218 3227	the years
+T35	Argument 3167 3212	Prince Sihanouk has backed all sorts of ideas
+T39	Note 3824 3828	help
+#3	AnnotatorNotes T39	Assistance
+T40	Motivation 4196 4198	if
+E13	Motivation:T40 Cause:T41 Effect:T42
+A18	Degree E13 Facilitate
+A19	Hypothetical E13
+T41	Argument 4199 4218	the going got rough
+T42	Argument 4220 4260	the U.S. would then rearm the opposition
+T43	Motivation 4262 4265	Why
+E14	Motivation:T43 Effect:T44
+A20	Degree E14 Facilitate
+T44	Argument 4266 4278	the timidity
+T45	Consequence 4354 4364;4407 4411	preventing from
+E15	Consequence:T45 Effect:T46
+A21	Degree E15 Inhibit
+T46	Argument 4365 4406;4412 4453	the Khmer Rouge and Cambodia's communists ultimately moving against their opponents
+T47	NonCausal 4455 4459	When
+E16	NonCausal:T47 Arg0:T48 Arg1:T49
+A22	Temporal E16
+T48	Argument 4460 4474	that day comes
+T49	Argument 4476 4646	it would be particularly awful to know that the United States sat on military aid and deprived these people of the means to settle their fate with at least a little honor
+T50	Note 754 762	allowing
+#4	AnnotatorNotes T50	Different sense of "allow" (grant / allow to have)
+T51	Note 1442 1455	it turned out
+#5	AnnotatorNotes T51	Parenthetical like "he said" that actually applies to the whole sentence
+T5	Consequence 1466 1473;1478 1485	opening door to
+E2	Consequence:T5 Effect:T6 Cause:T12
+A2	Degree E2 Facilitate
+T6	Argument 1486 1506	communist domination
+T12	Argument 1456 1460	they
+T13	Argument 1384 1402	the Western powers
+R2	Coref Arg1:T12 Arg2:T13	
+T14	Argument 2322 2410	the deaths -- by starvation, disease or execution -- of well over one million Cambodians
+T23	Motivation 2929 2931	So
+E5	Motivation:T23 Effect:T24
+A3	Degree E5 Facilitate
+T24	Argument 2932 3079	it's difficult to swallow the notion that Mr. Baker is willing to accept conditions that would help the Khmer Rouge set up shop again in Phnom Penh

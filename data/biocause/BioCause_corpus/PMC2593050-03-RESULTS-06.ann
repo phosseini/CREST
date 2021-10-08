@@ -1,0 +1,56 @@
+T34	Process 21 30	Infection
+T35	Positive_regulation 31 38	Induces
+T36	Process 150 159	infection
+T37	Process 221 229	infected
+T38	Process 279 287	infected
+T39	Process 329 338	infection
+T40	Process 385 393	infected
+T41	Process 481 489	infected
+T42	Process 1005 1014	infection
+E1	Process:T34 Participant:T1
+E2	Positive_regulation:T35 Theme:T4 Cause:E1
+E3	Positive_regulation:T35 Theme:T5 Cause:E1
+E4	Process:T36 Participant:T6
+E5	Process:T37 Participant:T9
+E6	Process:T38 Participant:T12
+E7	Process:T39 
+E8	Process:T40 Participant:T14
+E9	Process:T41 
+E10	Process:T42 Participant:T32
+T1	Organism 11 20	DeltavicK
+T2	Protein 16 20	vicK
+T3	Protein 39 42	SeM
+T4	Protein 60 63	IgA
+T5	Protein 77 80	IgG
+T6	Organism 140 149	DeltavicK
+T7	Protein 145 149	vicK
+T8	Organism 216 220	mice
+T9	Organism 248 257	DeltavicK
+T10	Protein 253 257	vicK
+T11	Organism 274 278	mice
+T12	Organism 307 314	S. equi
+T13	Organism 380 384	mice
+T14	Organism 399 408	DeltavicK
+T15	Protein 404 408	vicK
+T16	Protein 431 436	SeM38
+T17	Protein 437 440	260
+T18	Protein 441 444	IgA
+T19	Organism 476 480	mice
+T20	Organism 537 541	mice
+T21	Protein 554 557	IgA
+T22	Protein 591 594	SeM
+T23	Protein 613 616	IgG
+T24	Protein 690 693	SeM
+T25	Protein 703 706	IgG
+T26	Organism 742 751	DeltavicK
+T27	Protein 747 751	vicK
+T28	Protein 792 797	SeM38
+T29	Protein 798 801	260
+T30	Organism 852 868	DeltavicK mutant
+T31	Protein 857 861	vicK
+T32	Organism 995 1004	DeltavicK
+T33	Protein 1000 1004	vicK
+T43	Span 708 830	The wild-type sera and 5 of the 8 DeltavicK samples had strong immunoreactions with SeM38-260 in Western blotting analysis
+T44	Causality 842 846	Thus
+E11	Causality:T44 Effect:T45 Evidence:T43
+T45	Span 848 1014	the DeltavicK mutant has the ability to induce mucosal and systemic immune responses, though there was host variation in these responses caused by DeltavicK infection

@@ -1,0 +1,177 @@
+T1	Protein 27 30	slo
+T2	Protein 39 43	scpC
+T3	Organism 60 72	invasive GAS
+T4	Protein 130 134	CsrS
+T5	Protein 162 165	slo
+T6	Protein 179 183	scpC
+T7	Organism 230 242	non-invasive
+T8	Organism 254 266	invasive GAS
+T9	Protein 310 313	slo
+T10	Protein 322 326	scpC
+T11	Organism 362 374	invasive GAS
+T12	Organism 411 427	non-invasive GAS
+T13	Protein 493 496	IgG
+T14	Protein 519 522	GAS
+T15	Protein 524 529	Mac-1
+T16	Protein 544 547	mac
+T17	Chemical 550 579	nicotine adenine dinucleotide
+T18	Protein 596 599	nga
+T19	Chemical 602 624	polysaccharide capsule
+T20	Protein 637 641	hasA
+T21	Protein 663 667	scpA
+T22	Organism 704 716	invasive GAS
+T23	Organism 752 768	non-invasive GAS
+T24	Protein 843 847	speB
+T25	Protein 850 853	SLS
+T26	Protein 855 859	sagA
+T27	Protein 884 888	speF
+T28	Organism 929 941	invasive GAS
+T29	Organism 973 989	non-invasive GAS
+T30	Protein 1154 1157	slo
+T31	Protein 1166 1170	scpC
+T32	Organism 1190 1202	invasive GAS
+T33	Protein 1216 1220	csrR
+T34	Protein 1224 1228	csrS
+T35	Organism 1279 1284	mouse
+T36	Organism 1392 1395	GAS
+T37	Organism 1410 1414	mice
+T38	Protein 1461 1465	csrS
+T39	Two-component-system 1491 1497	CsrR/S
+T40	Protein 1491 1495	CsrR
+T41	Protein 1496 1497	S
+T42	Protein 1615 1619	csrS
+T43	Protein 1627 1631	csrR
+T44	Organism 1658 1670	invasive GAS
+T45	Organism 1714 1727	emm49 strains
+T46	Protein 1714 1719	emm49
+T47	Protein 1779 1783	csrR
+T48	Protein 1840 1844	csrS
+T49	Organism 1878 1894	non-invasive GAS
+T50	Protein 1958 1962	csrS
+T51	Organism 2003 2015	invasive GAS
+T52	Organism 2132 2138	NIH147
+T53	Organism 2140 2146	NIH226
+T54	Organism 2148 2154	NIH230
+T55	Organism 2160 2166	NIH269
+T56	Organism 2216 2222	NIH200
+T57	Protein 2257 2261	CsrS
+T58	Protein 2373 2377	csrS
+T59	Organism 2390 2394	1566
+T60	Organism 2418 2430	invasive GAS
+T61	Organism 2452 2487	csrS-introduced severe invasive GAS
+T62	Protein 2452 2456	csrS
+T63	Protein 2525 2528	slo
+T64	Protein 2537 2541	scpC
+T65	Organism 2585 2601	non-invasive GAS
+T66	Protein 2634 2638	speB
+T67	Organism 2684 2700	non-invasive GAS
+T68	Protein 2757 2760	slo
+T69	Protein 2765 2769	scpC
+T70	Organism 2784 2796	invasive GAS
+T71	Protein 2825 2829	csrS
+T72	Organism 2851 2863	invasive GAS
+T73	Organism 2944 2967	invasive isolates +CsrS
+T74	Protein 2963 2967	CsrS
+T75	Protein 3042 3046	IL-8
+T76	Organism 3070 3093	invasive isolates +CsrS
+T77	Protein 3089 3093	CsrS
+T78	Organism 3201 3224	invasive isolates +CsrS
+T79	Protein 3220 3224	CsrS
+T80	Protein 3304 3308	csrS
+*	Equiv T25 T26
+T81	Positive_regulation 0 8	Enhanced
+T82	Gene_expression 9 19	expression
+T83	Gene_expression 338 347	expressed
+T84	Gene_expression 433 443	expression
+T85	Process 457 466	virulence
+T86	Positive_regulation 497 506	degrading
+T87	Protein_catabolism 497 506	degrading
+T88	Positive_regulation 679 689	upregulted
+T89	Negative_regulation 901 914	downregulated
+T90	Transcription 1077 1100	transcriptional profile
+T91	Process 1112 1121	virulence
+T92	Regulation 1251 1262	alterations
+T93	Process 1266 1275	virulence
+T94	Process 1295 1304	infection
+T95	Process 1557 1566	infection
+T96	Process 1671 1680	infection
+T97	Process 2290 2299	virulence
+T98	Process 2321 2331	resistance
+T99	Negative_regulation 2488 2495	reduced
+T100	Gene_expression 2500 2510	expression
+T101	Gene_expression 2620 2630	expression
+T102	Positive_regulation 2643 2654	upregulated
+T103	Gene_expression 2735 2745	expression
+T104	Positive_regulation 2798 2810	introduction
+T105	Protein_catabolism 3027 3038	degradation
+E1	Positive_regulation:T81 Theme:E3
+E2	Positive_regulation:T81 Theme:E4
+E3	Gene_expression:T82 Theme:T1
+E4	Gene_expression:T82 Theme:T2
+E5	Gene_expression:T83 Theme:T9
+E6	Gene_expression:T83 Theme:T10
+E7	Gene_expression:T84 Theme:T13
+E8	Gene_expression:T84 Theme:T14
+E9	Gene_expression:T84 Theme:T16
+E10	Gene_expression:T84 Theme:T18
+E11	Gene_expression:T84 Theme:T21
+E12	Gene_expression:T84 Theme:T20
+E13	Process:T85 
+E14	Positive_regulation:T86 Theme:E15 Cause:T16
+E15	Protein_catabolism:T87 Theme:T13
+E16	Positive_regulation:T86 Theme:E15 Cause:T14
+E17	Positive_regulation:T88 Theme:E7
+E18	Positive_regulation:T88 Theme:E8
+E19	Positive_regulation:T88 Theme:E9
+E20	Positive_regulation:T88 Theme:E10
+E21	Positive_regulation:T88 Theme:E11
+E22	Positive_regulation:T88 Theme:E12
+E23	Negative_regulation:T89 Theme:T24
+E24	Negative_regulation:T89 Theme:T25
+E25	Negative_regulation:T89 Theme:T27
+E26	Transcription:T90 Theme:T30
+E27	Transcription:T90 Theme:T31
+E28	Process:T91 
+E29	Regulation:T92 Theme:E30
+E30	Process:T93 
+E31	Process:T94 
+E32	Process:T95 Participant:T36
+E33	Process:T96 Participant:T44
+E34	Process:T97 
+E35	Process:T98 
+E36	Negative_regulation:T99 Theme:E38
+E37	Negative_regulation:T99 Theme:E39
+E38	Gene_expression:T100 Theme:T63
+E39	Gene_expression:T100 Theme:T64
+E40	Gene_expression:T101 Theme:T66
+E41	Positive_regulation:T102 Theme:E40
+E42	Gene_expression:T103 Theme:T68
+E43	Gene_expression:T103 Theme:T69
+E44	Positive_regulation:T104 Theme:T71
+E45	Protein_catabolism:T105 Theme:T75
+T106	Span 0 72	Enhanced expression of the slo and the scpC genes in severe invasive GAS
+T107	Causality 73 89	is attributed to
+E46	Causality:T107 Effect:T108 Evidence:T106
+T108	Span 90 134	mutation of a transcriptional regulator CsrS
+T109	Span 429 768	The expression of the other virulence-associated genes, such as IgG degrading protease of GAS, Mac-1-like protein (mac), nicotine adenine dinucleotide glycohydrolase (nga), polysaccharide capsule production (hasA), and C5a peptidase (scpA), was also upregulted in the severe invasive GAS, greater than that detected in the non-invasive GAS
+T110	Span 782 989	Contrarily, the levels of streptococcal pyrogenic endotoxin (speB), SLS (sagA), and mitogenic factor (speF) genes were downregulated in the severe invasive GAS, compared to that found in the non-invasive GAS
+T111	Causality 1022 1047	These results demonstrate
+E47	Causality:T111 Effect:T112 Evidence:T110 Evidence:T109
+T112	Span 1048 1202	the prominent changes in the transcriptional profile of several virulence-associated genes, including the slo and the scpC, in the all severe invasive GAS
+T113	Span 1204 1304	Mutation of csrR or csrS can cause significant alterations in virulence in mouse models of infection
+T114	Causality 1305 1311	either
+E48	Causality:T114 Evidence:T115 Effect:T113
+T115	Span 1312 1381	increasing lethality or the severity of localized soft tissue lesions
+T116	Span 1954 2065	the csrS genes of all clinically isolated severe invasive GAS had a deletion, a point mutation, or an insertion
+T117	Causality 2067 2074	thereby
+E49	Causality:T117 Effect:T118 Evidence:T116
+T118	Span 2076 2214	resulting in the creation of translational stop codons (NIH147, NIH226, NIH230, and NIH269) or in a mutation in the presumed kinase domain
+T119	Span 2714 2968	In parallel with the expression profile of slo and scpC in the severe invasive GAS, introduction of the intact csrS gene into the severe invasive GAS restored the susceptibility to the killing by PMN (p=0.015 compared with severe invasive isolates +CsrS)
+T120	Span 2982 3094	abrogated the inhibition of PMN migration by degradation of IL-8 (p=0.002 compared with invasive isolates +CsrS)
+T121	Span 3124 3225	diminished the killing activity for PMN by necrosis (p=0.00016 compared with invasive isolates +CsrS)
+T123	Span 3287 3450	mutations in the csrS gene correspond to the immunocompromized activity in the severe invasive isolates, associated with inhibition of PMN recruitment and survival
+T122	Causality 3251 3286	These results strongly suggest that
+E50	Causality:T122 Effect:T123 Evidence:T119
+E51	Causality:T122 Effect:T123 Evidence:T120
+E52	Causality:T122 Effect:T123 Evidence:T121
+#1	AnnotatorNotes E48	not sure

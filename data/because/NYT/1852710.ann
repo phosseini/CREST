@@ -1,0 +1,81 @@
+T1	NonCausal 265 267	As
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 268 313	light rain descended from a gray Normandy sky
+T3	Argument 315 460	Mr. Gates said that the allied invasion on D-Day was founded on ``the belief that that blood of free men could wash away the stains of tyranny.''
+T4	NonCausal 654 656	At
+E2	NonCausal:T4 Arg0:T5 Arg1:T6
+A2	Temporal E2
+T5	Argument 657 666	one point
+T6	Argument 668 915	directly addressing his French counterpart, Minister of Defense Hervé Morin, Mr. Gates said that disagreements between the United States and France that made for an often stormy relationship should not overshadow what the two nations had in common
+T7	Consequence 821 829	made for
+E3	Consequence:T7 Cause:T8 Effect:T10
+A3	Degree E3 Facilitate
+T8	Argument 816 820	that
+T9	Argument 765 815	disagreements between the United States and France
+R1	Coref Arg1:T8 Arg2:T9	
+T10	Argument 830 858	an often stormy relationship
+T11	Consequence 920 923	Let
+E4	Consequence:T11 Effect:T12
+A4	Degree E4 Facilitate
+A5	Obligation-permission E4
+T12	Argument 924 949;950 1032	the people of our nations never forget that we are bound by history and values just as we are bound by blood
+T14	Consequence 1135 1147	gave rise to
+E5	Consequence:T14 Cause:T15 Effect:T17
+A6	Degree E5 Facilitate
+A7	Creation-termination E5
+T15	Argument 1130 1134	that
+T16	Argument 1113 1129	the lofty ideals
+R2	Coref Arg1:T15 Arg2:T16	
+T17	Argument 1167 1185	our great alliance
+T18	Motivation 2026 2028	as
+E6	Motivation:T18 Effect:T19 Cause:T20
+A8	Degree E6 Facilitate
+A9	Temporal E6
+T19	Argument 1939 2025	the Bush administration more recently has made efforts to heal the trans-Atlantic rift
+T20	Argument 2029 2134	it seeks allies against Islamic radicalism and European help through NATO for the fighting in Afghanistan
+T24	NonCausal 2290 2295	after
+E8	NonCausal:T24 Arg1:T25 Arg0:T26
+A11	Temporal E8
+T25	Argument 2258 2289	He assumed the post in December
+T26	Argument 2296 2330	being out of government since 1993
+T27	NonCausal 2320 2325	since
+E9	NonCausal:T27 Arg0:T28 Arg1:T29
+A12	Temporal E9
+T28	Argument 2326 2330	1993
+T29	Argument 2296 2319	being out of government
+T30	NonCausal 2363 2365	at
+E10	NonCausal:T30 Arg0:T31 Arg1:T32
+A13	Temporal E10
+T31	Argument 2366 2371	times
+T32	Argument 2258 2260;2336 2362;2372 2415	He seems puzzled and dismayed by the actions of America's European allies
+T33	Consequence 2591 2600	needed to
+E11	Consequence:T33 Effect:T35 Cause:T21
+A14	Degree E11 Facilitate
+T35	Argument 2601 2640	train the Afghan Army and police forces
+T36	Consequence 3308 3314	during
+E12	Consequence:T36 Cause:T37 Effect:T38
+A15	Degree E12 Facilitate
+A16	Temporal E12
+T37	Argument 3315 3336	the Normandy invasion
+T38	Argument 3299 3307	who died
+T39	NonCausal 3338 3343	After
+E13	NonCausal:T39 Arg0:T40 Arg1:T41
+A17	Temporal E13
+T40	Argument 3344 3354	his speech
+T41	Argument 3356 3480	Mr. Gates cut the ribbon on a $30 million visitor center on the cemetery grounds, perched on a bluff overlooking Omaha Beach
+T42	Consequence 3576 3585;3603 3605	essential to
+E14	Consequence:T42 Cause:T43 Effect:T44
+A18	Degree E14 Facilitate
+T43	Argument 3552 3571	Such memorial sites
+T44	Argument 3606 3773	ensure that the heroism of those who fought is not forgotten, and that ``the passage of time and the thinning of their ranks will never dim the glory of their deeds.''
+T45	Consequence 3606 3612	ensure
+E15	Consequence:T45 Effect:T46 Means:T43
+A19	Degree E15 Facilitate
+T46	Argument 3613 3770	that the heroism of those who fought is not forgotten, and that ``the passage of time and the thinning of their ranks will never dim the glory of their deeds
+#3	AnnotatorNotes E15	Unstated cause
+T48	Note 1720 1724	over
+#4	AnnotatorNotes T48	Clearly causal, but also topic.
+T21	Argument 2561 2590	a shortfall of 3,000 soldiers
+T13	Note 1099 1101	in
+#1	AnnotatorNotes T13	"In the course of," not "motivated by"

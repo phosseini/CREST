@@ -1,0 +1,14 @@
+Caenorhabditis elegans Semi-Automated Liquid Screen Reveals a Specialized Role for the Chemotaxis Gene cheB2 in Pseudomonas aeruginosa Virulence 
+Pseudomonas aeruginosa is an opportunistic human pathogen that causes infections in a variety of animal and plant hosts.
+Caenorhabditis elegans is a simple model with which one can identify bacterial virulence genes.
+Previous studies with C. elegans have shown that depending on the growth medium, P. aeruginosa provokes different pathologies: slow or fast killing, lethal paralysis and red death.
+In this study, we developed a high-throughput semi-automated liquid-based assay such that an entire genome can readily be scanned for virulence genes in a short time period.
+We screened a 2,200-member STM mutant library generated in a cystic fibrosis airway P. aeruginosa isolate, TBCF10839.
+Twelve mutants were isolated each showing at least 70% attenuation in C. elegans killing.
+The selected mutants had insertions in regulatory genes, such as a histidine kinase sensor of two-component systems and a member of the AraC family, or in genes involved in adherence or chemotaxis.
+One mutant had an insertion in a cheB gene homologue, encoding a methylesterase involved in chemotaxis (CheB2).
+The cheB2 mutant was tested in a murine lung infection model and found to have a highly attenuated virulence.
+The cheB2 gene is part of the chemotactic gene cluster II, which was shown to be required for an optimal mobility in vitro.
+In P. aeruginosa, the main player in chemotaxis and mobility is the chemotactic gene cluster I, including cheB1.
+We show that, in contrast to the cheB2 mutant, a cheB1 mutant is not attenuated for virulence in C. elegans whereas in vitro motility and chemotaxis are severely impaired.
+We conclude that the virulence defect of the cheB2 mutant is not linked with a global motility defect but that instead the cheB2 gene is involved in a specific chemotactic response, which takes place during infection and is required for P. aeruginosa pathogenicity.

@@ -1,0 +1,473 @@
+001 "Immediately after the court is opened, the <e1>judge</e1> removes his <e2>wig</e2> and counsel are expected to follow suit."
+WordNet(e1) = "judge%1:18:00::", WordNet(e2) = "wig%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "the judge * wig"
+
+002 "Well, this <e1>footballer</e1> kicked the <e2>ball</e2> the hardest he could and hit me."
+WordNet(e1) = "footballer%1:18:00::", WordNet(e2) = "ball%1:06:01::", Instrument-Agency(e2, e1) = "true", Query = "footballer * the ball"
+
+003 "A <e1>man</e1> struck my video camera with a <e2>hammer</e2> while I accompanied a German film crew in Clearwater."
+WordNet(e1) = "man%1:18:00::", WordNet(e2) = "hammer%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "with a hammer"
+
+004 "A <e1>moat</e1> keeps the <e2>enemy</e2> at bay."
+WordNet(e1) = "moat%1:06:00::", WordNet(e2) = "enemy%1:14:00::", Instrument-Agency(e1, e2) = "false", Query = "a * keeps the"
+
+005 "The <e1>astronauts</e1> used the orbiter boom sensor <e2>system</e2> mounted on the end of the shuttle's robotic arm."
+WordNet(e1) = "astronaut%1:18:00::", WordNet(e2) = "system%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "the * used the *"
+
+006 "In converting a tree into thick planks, the <e1>saw</e1> causes a <e2>waste</e2> of a very small fractional part."
+WordNet(e1) = "saw%1:06:01::", WordNet(e2) = "waste%1:27:00::", Instrument-Agency(e1, e2) = "false", Query = "the saw * * a"
+Comment: Cause-Effect
+
+007 "The <e1>tailor</e1> left his <e2>scissors</e2> on a wall below his balcony."
+WordNet(e1) = "tailor%1:18:00::", WordNet(e2) = "scissors%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "the tailor * scissors"
+
+008 "A <e1>raindrop</e1> keeps the same <e2>shape</e2> to a reasonable approximation all the time it is falling."
+WordNet(e1) = "raindrop%1:19:00::", WordNet(e2) = "shape%1:03:00::", Instrument-Agency(e1, e2) = "false", Query = "a * keeps the"
+
+009 "On October 28, 2003, a <e1>worker</e1> was using a <e2>hammer</e2> to tap the arms of a truck's cabstand into a vertical position when the cabstand's arms collapsed in an unintended opposite direction causing the cab to slide off the stand onto the worker's arm."
+WordNet(e1) = "worker%1:18:00::", WordNet(e2) = "hammer%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "was using a hammer"
+
+010 "You should place the awl or <e1>screwdriver</e1> underneath the <e2>hinge</e2>, with the pointy end touching the end of the bolt or screw."
+WordNet(e1) = "screwdriver%1:06:00::", WordNet(e2) = "hinge%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "a screwdriver"
+
+011 "The <e1>diener</e1> takes a large <e2>scalpel</e2> and makes the incision in the trunk."
+WordNet(e1) = "?", WordNet(e2) = "scalpel%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "a scalpel"
+
+012 "The <e1>judge</e1> hesitates, <e2>gavel</e2> poised, shooting them a warning look."
+WordNet(e1) = "judge%1:18:00::", WordNet(e2) = "gavel%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "the judge * gavel"
+Comment: implies that the judge is using the gavel to warn people.
+
+013 "The test is made by inserting the end of a <e1>jimmy</e1> or other <e2>burglar</e2>'s tool and endeavouring to produce impressions similar to those which have been found on doors or windows."
+WordNet(e1) = "jimmy%1:06:00::", WordNet(e2) = "burglar%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "jimmy * burglar"
+
+014 "A second aspect of the invention provides apparatuses for indicating the position of an <e1>oar</e1> during <e2>rowing</e2>."
+WordNet(e1) = "oar%1:06:00::", WordNet(e2) = "rowing%1:04:00::", Instrument-Agency(e1, e2) = "false", Query = "oar * rowing"
+
+015 "They will cast you out of the <e1>net</e1> like any <e2>fisherman</e2> looking for a certain fish."
+WordNet(e1) = "net%1:06:02::", WordNet(e2) = "fisherman%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "the net * fisherman"
+Comment: implies that the fishermen use nets
+
+016 "Most people will use a <e1>paddle</e1> to propel their <e2>canoe</e2>."
+WordNet(e1) = "paddle%1:06:00::", WordNet(e2) = "canoe%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "a paddle * canoe"
+
+017 "Our powered <e1>scissors</e1> effortlessly cut <e2>fabrics</e2>, gift wrap, vinyl and much more!"
+WordNet(e1) = "scissors%1:06:00::", WordNet(e2) = "fabric%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "scissors * cut"
+
+018 "A star <e1>footballer</e1> can barely touch the <e2>ball</e2> for 90 minutes, then suddenly produce five seconds of genius that decides the game."
+WordNet(e1) = "footballer%1:18:00::", WordNet(e2) = "ball%1:06:01::", Instrument-Agency(e2, e1) = "true", Query = "footballer * the ball"
+Comment: footballer uses the ball (if rarely).
+
+019 "The small knife <e1>assemblies</e1> are widely used for cutting various <e2>strips</e2> of flexible materials."
+WordNet(e1) = "assembly%1:06:00::", WordNet(e2) = "strip%1:17:00::", Instrument-Agency(e1, e2) = "false", Query = "cut * knife"
+
+020 "Francisco Garcia Lorca sees the <e1>horse</e1> carrying the <e2>rider</e2>, against his will, to his death."
+WordNet(e1) = "horse%1:05:00::", WordNet(e2) = "rider%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "the horse * the rider"
+Comment: the rider used the horse (against the horse's will, but this does not matter)
+
+021 "The <e1>patient</e1> had crushed a pencil with this <e2>toe</e2> about 30 years previously."
+WordNet(e1) = "patient%1:18:00::", WordNet(e2) = "toe%1:08:01::", Instrument-Agency(e2, e1) = "true", Query = "crushed a * with"
+
+022 "Mechanisms that incorporate external compression, limb elevation, exercise, and even a <e1>pump</e1> to improve venous <e2>drainage</e2> may be beneficial."
+WordNet(e1) = "pump%1:06:00::", WordNet(e2) = "drainage%1:04:00::", Instrument-Agency(e1, e2) = "true", Query = "a pump * drainage"
+
+023 "Touch sliding <e1>keyboard</e1> offers keyless <e2>typing</e2>."
+WordNet(e1) = "keyboard%1:06:01::", WordNet(e2) = "typing%1:10:00::", Instrument-Agency(e2, e1) = "false", Query = "keyboard * typing"
+
+024 "The <e1>acts</e1> of terror the world has witnessed have welded a <e2>bond</e2> among freedom-loving nations."
+WordNet(e1) = "terror%1:18:01::", WordNet(e2) = "bond%1:24:00::", Instrument-Agency(e2, e1) = "false", Query = "the * has * welded"
+
+025 "I heard of horror stories about a needle staying in the tissue after injection, it detached from a <e1>syringe</e1> after a <e2>nurse</e2> completed the injection and tried to withdraw the needle."
+WordNet(e1) = "syringe%1:06:00::", WordNet(e2) = "nurse%1:18:00::", Instrument-Agency(e2, e1) = "true", Query = "syringe * a nurse"
+Comment: the nurse used the syringe to give an injection.
+
+026 "The <e1>drill</e1> enables the <e2>dentist</e2> to accomplish these procedures quickly and reduces the trauma to oral tissues."
+WordNet(e1) = "drill%1:06:00::", WordNet(e2) = "dentist%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "the drill * the dentist"
+
+027 "The <e1>victim</e1>, who was positioned underneath the conveyor, was using a <e2>hammer</e2> to adjust the return roller."
+WordNet(e1) = "victim%1:18:00::", WordNet(e2) = "hammer%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "was using a hammer"
+
+028 "A <e1>gift annuity</e1> combines a <e2>gift</e2> with an investment."
+WordNet(e1) = "annuity%1:21:00::", WordNet(e2) = "gift%1:21:00::", Instrument-Agency(e2, e1) = "false", Query = "a * combines a"
+Comment: "gift annuity" => "annuity".
+
+029 "It is entirely possible to sail a <e1>canoe</e1> using a <e2>paddle</e2> to steer."
+WordNet(e1) = "canoe%1:06:00::", WordNet(e2) = "paddle%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "a canoe * a paddle"
+
+030 "The <e1>sledgehammer</e1> can apply more <e2>impulse</e2> than other hammers due to its large size."
+WordNet(e1) = "sledgehammer%1:06:00::", WordNet(e2) = "impulse%1:04:01::", Instrument-Agency(e1, e2) = "false", Query = "sledgehammer"
+
+031 "With its non-slip, ambidextrous grip, the <e1>peeler</e1> glides effortlessly through <e2>foods</e2>."
+WordNet(e1) = "peeler%1:06:00::", WordNet(e2) = "food%1:13:00::", Instrument-Agency(e1, e2) = "false", Query = "peeler"
+
+032 "I'm running a <e1>charity</e1> that helps the poorest school <e2>libraries</e2> in the U.S."
+WordNet(e1) = "charity%1:14:00::", WordNet(e2) = "library%1:06:01::", Instrument-Agency(e1, e2) = "true", Query = "a * helps the *"
+Comment: agent=library uses tool=charity to act=buy an object=books for exampe?
+
+033 "When the <e1>taxi driver</e1> stopped his <e2>car</e2> and got out, the two people ran up the street toward downtown Potsdam."
+WordNet(e1) = "driver%1:18:00::", WordNet(e2) = "car%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "taxi driver * car"
+Comment: "taxi driver" => "driver".
+
+034 "On this oval porthole, a lace <e1>drape</e1> keeps the <e2>bathroom</e2> private while showing off the shapely window and letting in light."
+WordNet(e1) = "drape%1:06:00::", WordNet(e2) = "bathroom%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "a * keeps the"
+
+035 "Special construction and a <e1>rubberized trim</e1> helps the <e2>handset</e2> stand up to everyday wear-and-tear, and even occasional dropping."
+WordNet(e1) = "trim%1:26:00::", WordNet(e2) = "handset%1:06:00::", Instrument-Agency(e1, e2) = "true", Query = "a * helps the"
+Comment: "rubberized trim" => "trim"; the handset uses the trim to stand up to wear and tear?
+
+036 "The <e1>actor</e1> played a psychopathic preacher with a restrained <e2>malice</e2>."
+WordNet(e1) = "actor%1:18:00::", WordNet(e2) = "malice%1:12:00::", Instrument-Agency(e2, e1) = "false", Query = "played a * * with"
+Comment: Also possible "malice%1:07:00".
+
+037 "It is noteworthy that Peacham's emblem has a <e1>hunter</e1> chasing the ermine with a <e2>spear</e2> and dogs."
+WordNet(e1) = "hunter%1:18:00::", WordNet(e2) = "spear%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "with a spear"
+
+038 "The <e1>corbel</e1> was carved with a contorted <e2>face</e2>."
+WordNet(e1) = "corbel%1:06:00::", WordNet(e2) = "face%1:08:00::", Instrument-Agency(e1, e2) = "false", Query = "* carved with a *"
+
+039 "<e1>Calendar</e1> is cut off with some Firefox <e2>extensions</e2> that use the statusbar."
+WordNet(e1) = "calendar%1:14:00::", WordNet(e2) = "?", Instrument-Agency(e2, e1) = "false", Query = "cut off with"
+Comment: Part-Whole; No sense of "extension" is quite right. The closest sense is "extension%1:04:02::", but it does work: it is *the act* of expanding scope, but here we are talking about a component (not an act).
+
+040 "<e1>Thieves</e1> used a <e2>blowtorch</e2> and bolt cutters to force their way through a fenced area topped with razor wire."
+WordNet(e1) = "thief%1:18:00::", WordNet(e2) = "blowtorch%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "used * blowtorch * to"
+
+041 "The <e1>glomeruli</e1> assist the <e2>kidneys</e2> in filtering urine from the blood."
+WordNet(e1) = "glomerulus%1:08:00::", WordNet(e2) = "kidney%1:08:00::", Instrument-Agency(e1, e2) = "true", Query = "the * assist the"
+Comment: kidneys use glomeruli to filter urine.
+
+042 "The <e1>patient</e1> literally sawed it in half using a hard <e2>toothbrush</e2> over a period of many years."
+WordNet(e1) = "patient%1:18:00::", WordNet(e2) = "toothbrush%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "the * sawed * with"
+
+043 "A <e1>pulsar</e1> powers the supernova <e2>remnant</e2> by confirming the existence of the point-like source and discovering a cloud of high-energy electrons around the central object."
+WordNet(e1) = "pulsar%1:17:00::", WordNet(e2) = "remnant%1:24:00::", Instrument-Agency(e1, e2) = "false", Query = "a * powers the *"
+
+044 "A single <e1>blow</e1> made with the <e2>chisel</e2> angled incorrectly can crack a block or break a delicate protrusion."
+WordNet(e1) = "blow%1:04:01::", WordNet(e2) = "chisel%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "with the chisel"
+
+045 "The piglet's incisor <e1>teeth</e1> are cut off with <e2>pliers</e2>."
+WordNet(e1) = "tooth%1:06:01::", WordNet(e2) = "pliers%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "cut off with"
+
+046 "A very robust metal hydride discovery <e1>approach</e1> was made with a demonstrated HTS <e2>methodology</e2>."
+WordNet(e1) = "approach%1:04:02::", WordNet(e2) = "methodology%1:09:00::", Instrument-Agency(e2, e1) = "false", Query = "* was made with a *"
+
+047 "The <e1>microwave</e1> <e2>oven</e2> is one of the great inventions of the 20th century."
+WordNet(e1) = "microwave%1:19:00::", WordNet(e2) = "oven%1:06:00::", Instrument-Agency(e1, e2) = "true", Query = "microwave oven"
+
+048 "During a dribble the <e1>dribbler</e1> keeps the <e2>ball</e2> on the side of his body that is away from the defender."
+WordNet(e1) = "dribbler%1:18:01::", WordNet(e2) = "ball%1:06:01::", Instrument-Agency(e1, e2) = "false", Query = "a * keeps the"
+
+049 "The event featured a demonstration of weaving on a <e1>loom</e1> by local <e2>weaver</e2> Nancy Alexander."
+WordNet(e1) = "loom%1:06:00::", WordNet(e2) = "weaver%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "a loom * weaver"
+
+050 "We did a computer search for studies of <e1>vasectomies</e1> done without a <e2>scalpel</e2> versus with a scalpel."
+WordNet(e1) = "vasectomy%1:04:00::", WordNet(e2) = "scalpel%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "a scalpel"
+
+051 "A <e1>car battery</e1> powered a <e2>laptop computer</e2> connected to a small, portable satellite antenna."
+WordNet(e1) = "car_battery%1:06:00::", WordNet(e2) = "laptop_computer%1:06:00::", Instrument-Agency(e1, e2) = "true", Query = "a * powered a *"
+Comment: agent=computer uses tool=battery to act=obtain an object=energy ???
+
+052 "The <e1>software</e1> uses the wrong comment <e2>marks</e2> for PHP files."
+WordNet(e1) = "software%1:10:00::", WordNet(e2) = "mark%1:10:02::", Instrument-Agency(e2, e1) = "true", Query = "* uses the *"
+Comment: agent=software uses tool=marks to act=denote an object=comments
+
+053 "In the summer, relax by the lake, take out a <e1>paddle</e1> <e2>boat</e2>, canoe or kayak or enjoy the sun at the split rock pool."
+WordNet(e1) = "paddle%1:06:00::", WordNet(e2) = "boat%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "a paddle * canoe"
+Comment: a human uses the paddles to propel the boat.  boat is not the agent?
+
+054 "The <e1>boys</e1> sawed wood with the <e2>sawing machine</e2> this afternoon."
+WordNet(e1) = "boy%1:18:00::", WordNet(e2) = "sawing_machine%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "the * sawed * with"
+
+055 "Anti-gun <e1>forces</e1> still wield a lot of <e2>political power</e2>."
+WordNet(e1) = "force%1:14:02::", WordNet(e2) = "power%1:26:00::", Instrument-Agency(e2, e1) = "true", Query = "wield a"
+Comment: "political power" => "power"; the forces use their political power to get their way
+
+056 "The <e1>mallet</e1> would be held in one hand with the <e2>chisel</e2> touching the wood in the other."
+WordNet(e1) = "mallet%1:06:00::", WordNet(e2) = "chisel%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "with the chisel"
+
+057 "The <e1>commander</e1> sawed logs with his <e2>neck</e2> hanging radically from one medieval arm while his feet hung three feet above the hardwood floor on the other side."
+WordNet(e1) = "commander%1:18:00::", WordNet(e2) = "neck%1:08:00::", Instrument-Agency(e2, e1) = "false", Query = "the * sawed * with"
+Comment: body part
+
+058 "A <e1>clinical lectureship</e1> combines a <e2>university lectureship</e2> with specialist registrar training (via an honorary national training number)."
+WordNet(e1) = "lectureship%1:04:00::", WordNet(e2) = "lectureship%1:04:00::", Instrument-Agency(e2, e1) = "false", Query = "a * combines a"
+Comment: "clinical lectureship" => "lectureship", "university lectureship" => "lectureship".
+
+059 "Using a small sharp <e1>knife</e1>, we cut the <e2>vanilla bean</e2> in half."
+WordNet(e1) = "knife%1:06:00::", WordNet(e2) = "vanilla_bean%1:13:00::", Instrument-Agency(e1, e2) = "false", Query = "knife * cut"
+
+060 "For this reason the <e1>hairdresser</e1> prefers conventional <e2>scissors</e2>, which however do not exhibit the ergonomical advantages."
+WordNet(e1) = "hairdresser%1:18:00::", WordNet(e2) = "scissors%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "the hairdresser * scissors"
+Comment: we can deduce usage from this sentence, why else would the hairdresser prefer scissors?
+
+061 "The brachioradialis <e1>reflex</e1> is observed by striking the brachioradialis tendon directly with the <e2>hammer</e2> when the patient's arm is resting."
+WordNet(e1) = "reflex%1:04:00::", WordNet(e2) = "hammer%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "with the hammer"
+
+062 "<e1>Physician</e1> need only bring <e2>stethoscope</e2> and otoscope."
+WordNet(e1) = "physician%1:18:00::", WordNet(e2) = "stethoscope%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "physician * stethoscope"
+
+063 "Tou should use a <e1>screwdriver</e1> to tighten the <e2>bolt</e2> very tightly."
+WordNet(e1) = "screwdriver%1:06:00::", WordNet(e2) = "bolt%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "a screwdriver"
+
+064 "The Norwalk <e1>juicer</e1> grinds and presses any <e2>fruit</e2> or vegetable."
+WordNet(e1) = "juicer%1:06:00::", WordNet(e2) = "fruit%1:20:00::", Instrument-Agency(e1, e2) = "false", Query = "juicer"
+
+065 "Quality forged pinking <e1>scissors</e1> cut with exceptional <e2>ease</e2> and efficiency."
+WordNet(e1) = "scissors%1:06:00::", WordNet(e2) = "ease%1:07:00::", Instrument-Agency(e1, e2) = "false", Query = "scissors * cut"
+
+066 "It is a motorized spherical mechanism that is designed to simulate the <e1>rowing motion</e1> of an <e2>oar</e2>."
+WordNet(e1) = "motion%1:04:00::", WordNet(e2) = "oar%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "rowing * an oar"
+Comment: "rowing motion" => "motion".
+
+067 "Unlike earlier machines, their <e1>typewriter</e1> permits the <e2>typist</e2> to see what is being typed and has other features that make it the first really practical typing machine."
+WordNet(e1) = "typewriter%1:06:00::", WordNet(e2) = "typist%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "typewriter * the typist"
+
+068 "The <e1>river</e1> once powered a <e2>gristmill</e2>."
+WordNet(e1) = "river%1:17:00::", WordNet(e2) = "gristmill%1:06:00::", Instrument-Agency(e1, e2) = "true", Query = "the * powered a *"
+
+069 "This assumes steady employment of a <e1>loom</e1> employing a master <e2>weaver</e2> and three assistants together with female and child helpers."
+WordNet(e1) = "loom%1:06:00::", WordNet(e2) = "weaver%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "a loom * weaver"
+Comment: the weaver is using the loom.
+
+070 "The <e1>broadsword</e1> was used in some <e2>units</e2>."
+WordNet(e1) = "broadsword%1:06:00::", WordNet(e2) = "unit%1:14:00::", Instrument-Agency(e1, e2) = "true", Query = "the * was used in *"
+Comment: agent=unit uses tool=broadsword to act=fight an object=enemy??
+
+071 "Most <e1>sewing machines</e1> use a sturdier <e2>stitch</e2> known as the lock-stitch."
+WordNet(e1) = "sewing_machine%1:06:00::", WordNet(e2) = "stitch%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "sewing machine"
+
+072 "In a nutshell, <e1>orienteering</e1> combines a <e2>physical skill</e2> with a more cerebral element."
+WordNet(e1) = "?", WordNet(e2) = "skill%1:09:01::", Instrument-Agency(e2, e1) = "true", Query = "a * combines a"
+Comment: "physical skill" => "skill"; "orienteering" is not in WordNet.
+
+073 "Originally, the typewriter sales companies sold the <e1>typist</e1> with the <e2>typewriter</e2>."
+WordNet(e1) = "typist%1:18:00::", WordNet(e2) = "typewriter%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "typewriter * the typist"
+
+074 "The <e1>president</e1> used the <e2>pretext</e2> of "national security"."
+WordNet(e1) = "president%1:18:00::", WordNet(e2) = "pretext%1:10:00::", Instrument-Agency(e2, e1) = "true", Query = "the * used the *"
+
+075 "We can make <e1>rolling</e1> easier and more effective by choosing a heavy <e2>rolling pin</e2>."
+WordNet(e1) = "rolling%1:04:00::", WordNet(e2) = "rolling_pin%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "rolling pin"
+Comment: Instrument-Agency(e2, e1) may be true.
+
+076 "The <e1>climber</e1> had a <e2>hook</e2> in each hand."
+WordNet(e1) = "climber%1:18:00::", WordNet(e2) = "hook%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "climber * a hook"
+
+077 "A high voltage sand-filled <e1>fuse</e1> was made using a conventional sand-filled fuse <e2>design</e2>."
+WordNet(e1) = "fuse%1:06:01::", WordNet(e2) = "design%1:09:02::", Instrument-Agency(e2, e1) = "false", Query = "* was made using a *"
+
+078 "The <e1>company</e1> uses a <e2>policy assertion</e2> to convey a condition under which they offer a Web service."
+WordNet(e1) = "company%1:14:01::", WordNet(e2) = "assertion%1:10:01::", Instrument-Agency(e2, e1) = "true", Query = "* uses a *"
+Comment: "policy assertion" => "assertion"
+
+079 "The <e1>booby trap</e1> Puller stepped on was made with a <e2>howitzer shell</e2>."
+WordNet(e1) = "booby_trap%1:06:00::", WordNet(e2) = "shell%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "* was made with a *"
+Comment: agent=? uses tool=? to act=? an object=?; Used e2=shell for wordnet lookup
+
+080 "<e1>Police officer</e1> uses a "Taser" <e2>stun gun</e2> to subdue a glass-wielding six-year-old."
+WordNet(e1) = "police_officer%1:18:00::", WordNet(e2) = "stun_gun%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "* uses a *"
+Comment: agent=police officer uses tool=stun gun to act=subdue an object=six-year-old
+
+081 "Paul the <e1>novelist</e1> has a <e2>computer</e2> but uses his old Smith Corona manual."
+WordNet(e1) = "novelist%1:18:00::", WordNet(e2) = "computer%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "the novelist * computer"
+
+082 "Further left a <e1>boy</e1> is fighting a peacock with a <e2>stick</e2>, and to the right a boy is killing an attacking goat with a spear."
+WordNet(e1) = "boy%1:18:00::", WordNet(e2) = "stick%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "with a spear"
+
+083 "Elizabeth Smither's <e1>tokotoko</e1> was made with a <e2>gear lever</e2>."
+WordNet(e1) = "?", WordNet(e2) = "gear_lever%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "* was made with a *"
+
+084 "A large <e1>rig</e1> combines a <e2>trampoline system</e2> with a bungee cord system."
+WordNet(e1) = "rig%1:06:00::", WordNet(e2) = "system%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "a * combines a"
+Comment: "trampoline system" => "system".
+
+085 "We unscrew a <e1>light bulb</e1> that uses a lot of <e2>electricity</e2> and replace it with one that uses much less."
+WordNet(e1) = "light_bulb%1:06:00::", WordNet(e2) = "electricity%1:19:01::", Instrument-Agency(e2, e1) = "true", Query = "a * that uses a"
+Comment: the sentence does imply bulb using electricity.
+
+086 "In a preliminary investigation, <e1>Cheddar cheese</e1> was made with a <e2>lactococcal starter</e2> overproducing different peptidases."
+WordNet(e1) = "cheddar_cheese%1:13:00::", WordNet(e2) = "starter%1:04:00::", Instrument-Agency(e2, e1) = "false", Query = "* was made with a *"
+Comment: agent=? uses tool=? to act=? an object=?; Used starter for WordNet(e2)
+
+087 "The <e1>observatory</e1> has used a 45-meter cosmic radio emission <e2>telescope</e2> to make a number of important contributions."
+WordNet(e1) = "observatory%1:06:00::", WordNet(e2) = "telescope%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "the * has used a *"
+
+088 "The <e1>lawn mower</e1> cuts a <e2>swath</e2> of grass as it moves across the lawn."
+WordNet(e1) = "lawn_mower%1:06:00::", WordNet(e2) = "swath%1:23:00::" , Instrument-Agency(e1, e2) = "false", Query = "the * cuts a *"
+Comment: agent=? uses tool=? to act=? an object=?
+
+089 "<e1>Judges</e1> wear the bench <e2>wig</e2> when they are sitting in court."
+WordNet(e1) = "judges%1:10:00::", WordNet(e2) = "wig%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "the judge * wig"
+
+090 "The <e1>gavel</e1> helps the <e2>judge</e2> establish his or her rule over the court room."
+WordNet(e1) = "gavel%1:06:00::", WordNet(e2) = "judge%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "gavel * the judge"
+
+091 "The <e1>knight</e1> raised his dragon <e2>battle axe</e2>, and dealt the creature a crushing blow."
+WordNet(e1) = "knight%1:18:00::", WordNet(e2) = "axe%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "battle axe"
+Comment: "battle axe" => "axe"; the knight uses the axe to kill the creature.
+
+092 "The <e1>gavel</e1> banged and the <e2>judge</e2> would have sent him back to jail."
+WordNet(e1) = "gavel%1:06:00::", WordNet(e2) = "judge%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "gavel * the judge"
+Comment: Implies that the judge banged the gavel.
+
+093 "The book is about HOW the <e1>bomb</e1> was used in <e2>diplomacy</e2>."
+WordNet(e1) = "bomb%1:06:00::", WordNet(e2) = "diplomacy%1:10:00::", Instrument-Agency(e1, e2) = "false", Query = "the * was used in *"
+
+094 "Many <e1>games</e1> can be played with Go <e2>equipment</e2>."
+WordNet(e1) = "game%1:04:00::", WordNet(e2) = "equipment%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "played with"
+Comment: agent=human uses tool=equipment to act=play an object=game, i.e.  game is the object here.
+
+095 "Sitting by the beach, Yuki mended the <e1>net</e1> while the <e2>fisherman</e2> collected the shells."
+WordNet(e1) = "net%1:06:02::", WordNet(e2) = "fisherman%1:18:00::", Instrument-Agency(e1, e2) = "false", Query = "the net * fisherman"
+
+096 "To get a perfect <e1>rowing stroke</e1> the <e2>oar</e2> can't have too much forward pitch or it will dive."
+WordNet(e1) = "stroke%1:04:00::", WordNet(e2) = "oar%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "rowing * the oar"
+Comment: "rowing stroke" => "stroke".
+
+097 "The authors take us on an extraordinary journey, from the depths of the ocean to the <e1>net</e1> of a <e2>fisherman</e2>."
+WordNet(e1) = "net%1:06:02::", WordNet(e2) = "fisherman%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "the net * fisherman"
+Comment: implies that the fishermen use nets
+
+098 "If the <e1>weaver</e1> sits at the <e2>loom</e2> for extended periods of time, the intense pressure on her lower body generates severe lower back and leg pain."
+WordNet(e1) = "weaver%1:18:00::", WordNet(e2) = "loom%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "weaver * the loom"
+Comment: the weaver is weaving, why else would she sit there for extended periods of time?
+
+099 "Just as the <e1>net</e1> enables the <e2>fisherman</e2> to catch many fish in one go, the pattern was favored by the samurai as it symbolized victory over many opponents at one time."
+WordNet(e1) = "net%1:06:02::", WordNet(e2) = "fisherman%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "the net * fisherman"
+
+100 "<e1>Evaluators</e1> applied the statistically accurate <e2>generalization</e2> that men are usually taller than women to their estimates of the height of individuals who did not necessarily conform to the generalization."
+WordNet(e1) = "evaluator%1:18:00::", WordNet(e2) = "generalization%1:09:01::", Instrument-Agency(e2, e1) = "true", Query = "* applied the *"
+
+101 "A <e1>midwife</e1> assists the <e2>birth</e2>, and women usually rely on their mothers or other women for support during labour."
+WordNet(e1) = "midwife%1:18:00::", WordNet(e2) = "birth%1:22:00::", Instrument-Agency(e1, e2) = "false", Query = "a * assists the"
+
+102 "<e1>Construction workers</e1> utilized a <e2>crane</e2> to assist in bringing roofing materials up to the top."
+WordNet(e1) = "construction_worker%1:18:00::", WordNet(e2) = "crane%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "construction * a crane"
+
+103 "The <e1>surgeon</e1> cuts a small <e2>hole</e2> in the skull and lifts the edge of the brain to expose the nerve."
+WordNet(e1) = "surgeon%1:18:00::", WordNet(e2) = "hole%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "the * cuts a *"
+
+104 "A <e1>lodge</e1> combines a <e2>colonial atmosphere</e2> with the rustic beauty and history of Africa."
+WordNet(e1) = "lodge%1:06:02::", WordNet(e2) = "atmosphere%1:26:01::", Instrument-Agency(e2, e1) = "false", Query = "a * combines a"
+Comment: "colonial atmosphere" => "atmosphere".
+
+105 "The <e1>weaver</e1> sits with a <e2>loom</e2> fixing the back strap, keeps her legs against the footrest, which is adjustable for keeping the loom in tension."
+WordNet(e1) = "weaver%1:18:00::", WordNet(e2) = "loom%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "weaver * a loom"
+Comment: the weaver is using the loom.
+
+106 "A <e1>biologist</e1> combines a range of diverse and distributed <e2>resources</e2> (databases, tools, instruments) to answer complex questions."
+WordNet(e1) = "biologist%1:18:00::", WordNet(e2) = "resource%1:07:00::", Instrument-Agency(e2, e1) = "true", Query = "a * combines a"
+
+107 "She spread a cream wax, applied strips (the <e1>spa</e1> uses a stripless <e2>wax</e2> for the bikini), and removed them with such agility that we barely flinched."
+WordNet(e1) = "spa%1:06:01::", WordNet(e2) = "wax%1:27:00::", Instrument-Agency(e2, e1) = "true", Query = "the * uses a * for"
+
+108 "Every time you increase on a sleeve or knitted piece, add a <e1>knitting pin</e1> to the increase <e2>stitch</e2>."
+WordNet(e1) = "pin%1:06:00::", WordNet(e2) = "stitch%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "knitting pin"
+Comment: "knitting pin" => "pin".
+
+109 "Strikingly large in scale, this <e1>grater</e1> shaves a perfect <e2>portion</e2> in a single stroke."
+WordNet(e1) = "grater%1:06:00::", WordNet(e2) = "portion%1:13:00::", Instrument-Agency(e1, e2) = "false", Query = "grater"
+
+110 "The fascinating aspect of therapeutic riding is that the <e1>rider</e1> sitting astride a <e2>horse</e2> walking establishes what is a perfect walking gait for the human."
+WordNet(e1) = "rider%1:18:00::", WordNet(e2) = "horse%1:05:00::", Instrument-Agency(e2, e1) = "true", Query = "the rider * a horse"
+
+111 "<e1>Taxi driver</e1> spotted stolen <e2>car</e2> shortly after police sent out an alert."
+WordNet(e1) = "driver%1:18:00::", WordNet(e2) = "car%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "taxi driver * car"
+Comment: "taxi driver" => "driver".
+
+112 "The <e1>builder</e1> can mortise the hinges just as fast using a sharp <e2>chisel</e2>."
+WordNet(e1) = "builder%1:18:00::", WordNet(e2) = "chisel%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "with a chisel"
+
+113 "The woman left the room and walked down the hall and saw the <e1>novelist</e1> hunched before his <e2>computer</e2>."
+WordNet(e1) = "novelist%1:18:00::", WordNet(e2) = "computer%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "the novelist * computer"
+Comment: implies that the novelist is using the computer.
+
+114 "Similarly, the western <e1>physician</e1>'s white coat and <e2>stethoscope</e2> and the environment of western medical clinics and hospitals create an aura of expectancy and hope for healing."
+WordNet(e1) = "physician%1:18:00::", WordNet(e2) = "stethoscope%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "physician * stethoscope"
+Comment: a physician does use a stethoscope
+
+115 "The white fatty <e1>substance</e1> obtained from the head of the sperm whale was used in <e2>pharmaceuticals</e2> and candles."
+WordNet(e1) = "substance%1:03:00::", WordNet(e2) = "pharmaceutical%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "a * was used in *"
+
+116 "As the <e1>policeman</e1> hit her with his <e2>truncheon</e2>, another police officer pushed him away from her and shouted for him to stop."
+WordNet(e1) = "policeman%1:18:00::", WordNet(e2) = "truncheon%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "truncheon * police"
+
+117 "Hoover is also notable for an extremely unusual <e1>vacuum</e1> <e2>cleaner</e2>, the Hoover Constellation, which is canister type but lacks wheels."
+WordNet(e1) = "vacuum%1:26:00::", WordNet(e2) = "?", Instrument-Agency(e1, e2) = "true", Query = "vacuum cleaner"
+Comment: no results in WordNet of "cleaner" as a synonym of "vacuum cleaner".
+
+118 "The original <e1>engine</e1> powered a limited-production Mustang <e2>model</e2> sold for two years."
+WordNet(e1) = "engine%1:06:00::", WordNet(e2) = "model%1:09:03::", Instrument-Agency(e1, e2) = "true", Query = "the * powered a *"
+
+119 "I worked as a <e1>crane</e1> <e2>operator</e2> in construction at that time."
+WordNet(e1) = "crane%1:06:01::", WordNet(e2) = "operator%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "a crane * construction"
+
+120 "Bernie the <e1>barber</e1> downed his <e2>scissors</e2>, leaving the final triangle of hair uncut."
+WordNet(e1) = "barber%1:18:00::", WordNet(e2) = "scissors%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "the barber * scissors"
+
+121 "The third <e1>observation</e1> was made with the Echellette <e2>spectrograph</e2>."
+WordNet(e1) = "observation%1:04:01::", WordNet(e2) = "spectrograph%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "* was made with the *"
+
+122 "This is the same basic <e1>mechanism</e1> at work in a <e2>vacuum cleaner</e2>, though the execution is a bit more complicated."
+WordNet(e1) = "mechanism%1:06:00::", WordNet(e2) = "vacuum_cleaner%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "vacuum cleaner"
+Comment: Instrument-Agency(e1, e2) might have been true.
+
+123 "If the same sari is contracted out to a master <e1>weaver</e1> who owns a <e2>loom</e2> but employs two adults and two children to work on it, the adults would get Rs.400 each and the children Rs.100 each."
+WordNet(e1) = "weaver%1:18:00::", WordNet(e2) = "loom%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "weaver * a loom"
+Comment: the weaver is using the loom to make money even if not physically working on it.
+
+124 "At that point the <e1>patient</e1> grabbed the arm of the dentist to forcibly pull the <e2>drill</e2> out of his mouth."
+WordNet(e1) = "patient%1:18:00::", WordNet(e2) = "drill%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "the dentist * the drill"
+
+125 "Unless the public authority knows that the <e1>applicant</e1> has used a <e2>pseudonym</e2>, it will be difficult to refuse a request on that ground."
+WordNet(e1) = "applicant%1:18:00::", WordNet(e2) = "pseudonym%1:10:00::", Instrument-Agency(e2, e1) = "true", Query = "the * has used a *"
+
+126 "Providence had sent the old <e1>man</e1> into the world with a <e2>chisel</e2> in his hand."
+WordNet(e1) = "man%1:18:00::", WordNet(e2) = "chisel%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "with a chisel"
+
+127 "When the power goes, the <e1>dentist</e1> quizzically raises the <e2>drill</e2>, and examines it."
+WordNet(e1) = "dentist%1:18:00::", WordNet(e2) = "drill%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "the dentist * the drill"
+
+128 "It seemed to be a regular rule that, whenever a <e1>horse</e1> stumbled the <e2>rider</e2> fell off instantly."
+WordNet(e1) = "horse%1:05:00::", WordNet(e2) = "rider%1:18:00::", Instrument-Agency(e1, e2) = "true", Query = "a horse * the rider"
+Comment: until the time the accident happens the rider is riding the horse.
+
+129 "<e1>Electron microscopes</e1> are scientific instruments that use a <e2>beam</e2> of highly energetic electrons to examine objects on a very fine scale."
+WordNet(e1) = "electron_microscope%1:06:00::", WordNet(e2) = "beam%1:19:01::", Instrument-Agency(e2, e1) = "true", Query = "electron microscope"
+
+130 "Cuban <e1>ballplayers</e1> wield a bigger <e2>policy bat</e2>."
+WordNet(e1) = "ballplayer%1:18:00::", WordNet(e2) = "bat%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "wield a"
+Comment: "policy bat" => "bat".
+
+131 "The <e1>hairdresser</e1> took his <e2>scissors</e2> and held up a coil of hair."
+WordNet(e1) = "hairdresser%1:18:00::", WordNet(e2) = "scissors%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "the hairdresser * scissors"
+Comment: here it is less clear: do we know she is not using the scissors?
+
+132 "A goal is like a mountain outcropping to which a <e1>climber</e1> throws a <e2>grappling hook</e2> and pulls themselves up."
+WordNet(e1) = "climber%1:18:00::", WordNet(e2) = "grappling_hook%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "climber * a hook"
+
+133 "The quartz sample <e1>tube</e1> with polyradical residue was cut with diamond <e2>knife</e2> to the size that fit into the Teflon digestion vessel."
+WordNet(e1) = "tube%1:25:00::", WordNet(e2) = "knife%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "cut * knife"
+
+134 "A sewing machine is a mechanical (or electromechanical) <e1>device</e1> that joins fabric using <e2>thread</e2>."
+WordNet(e1) = "device%1:06:00::", WordNet(e2) = "thread%1:06:00::", Instrument-Agency(e2, e1) = "true", Query = "sewing machine"
+
+135 "Original <e1>sculptures</e1> were carved with a <e2>chainsaw</e2>."
+WordNet(e1) = "sculpture%1:06:00::", WordNet(e2) = "chainsaw%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "* carved with a *"
+Comment: The original must be sculptures.
+
+136 "Before the <e1>barber</e1> takes his <e2>scissors</e2> out, family, friends and rabbis take turns snipping."
+WordNet(e1) = "barber%1:18:00::", WordNet(e2) = "scissors%1:06:00::", Instrument-Agency(e2, e1) = "false", Query = "the barber * scissors"
+
+137 "A gasoline <e1>engine</e1> powers a hydraulic drive <e2>train</e2> that provides torque at all six wheels."
+WordNet(e1) = "engine%1:06:00::", WordNet(e2) = "train%1:06:00::", Instrument-Agency(e1, e2) = "false", Query = "a * powers a *"
+Comment: The difference from the previous sentence is that the drive train is a component, not an agent.
+
+138 "The authors found that the peak <e1>rowing force</e1> exerted on the <e2>oar blade</e2> increased slowly, but quadratically, with stroke rate."
+WordNet(e1) = "force%1:07:00::", WordNet(e2) = "blade%1:06:02::", Instrument-Agency(e2, e1) = "false", Query = "rowing * the oar"
+Comment: "rowing force" => "force", "oar blade" => "blade".
+
+139 "The <e1>interpretation</e1> was made using the Huynh-Feldt adjusted <e2>results</e2>."
+WordNet(e1) = "interpretation%1:10:00::", WordNet(e2) = "result%1:10:00::", Instrument-Agency(e2, e1) = "false", Query = "* was made using the *"
+
+140 "The <e1>notion</e1> of a backprojection was used in that <e2>section</e2> to characterize the set of states that can reach another set of states in one stage."
+WordNet(e1) = "notion%1:09:00::", WordNet(e2) = "section%1:10:00::", Instrument-Agency(e1, e2) = "false", Query = "a * was used in *"
+

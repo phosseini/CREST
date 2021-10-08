@@ -1,0 +1,228 @@
+T1	Two-component-system 0 9	BvrR/BvrS
+T2	Protein 0 4	BvrR
+T3	Protein 5 9	BvrS
+T4	Organism 156 167	bvrR mutant
+T5	Protein 156 160	bvrR
+T6	Protein 197 206	BAB1_0237
+T7	Protein 208 217	BAB1_0891
+T8	Protein 219 223	exoR
+T9	Protein 226 235	BAB1_1397
+T10	Protein 237 246	BAB2_0118
+T11	Protein 248 252	vjbR
+T12	Protein 255 264	BAB2_0762
+T13	Protein 266 270	ompR
+T14	Protein 273 282	BAB2_1127
+T15	Protein 287 296	BAB2_1152
+T16	Protein 321 325	exoR
+T17	Protein 327 331	ompR
+T18	Protein 336 340	vjbR
+T19	Organism 399 407	Brucella
+T20	Organism 419 444	B. melitensis vjbR mutant
+T21	Protein 433 437	vjbR
+T22	Organism 487 492	mouse
+T23	Protein 519 523	VjbR
+T24	Regulon-operon 621 632	virB operon
+T25	Protein 621 625	virB
+T26	Protein 775 779	VjbR
+T27	Protein 975 979	vjbR
+T28	Protein 1054 1058	VjbR
+T29	Two-component-system 1077 1086	BvrR/BvrS
+T30	Protein 1077 1081	BvrR
+T31	Protein 1082 1086	BvrS
+T32	Protein 1280 1284	VjbR
+T33	Protein 1303 1307	ompR
+T34	Two-component-system 1335 1344	OmpR/EnvZ
+T35	Protein 1335 1339	OmpR
+T36	Protein 1340 1344	EnvZ
+T37	Organism 1367 1374	E. coli
+T38	Two-component-system 1375 1384	OmpR/EnvZ
+T39	Protein 1375 1379	OmpR
+T40	Protein 1380 1384	EnvZ
+T41	Protein 1448 1452	OmpF
+T42	Protein 1457 1461	OmpC
+T43	Organism 1587 1594	E. coli
+T44	Two-component-system 1621 1630	OmpR/EnvZ
+T45	Protein 1621 1625	OmpR
+T46	Protein 1626 1630	EnvZ
+T47	Protein 1813 1817	fliM
+T48	Protein 1819 1830	BAB2_0124/5
+T49	Protein 1832 1836	flgJ
+T50	Protein 1838 1847	BAB1_0260
+T51	Protein 1849 1853	motB
+T52	Protein 1855 1864	BAB2_1103
+T53	Organism 1893 1904	bvrR mutant
+T54	Protein 1893 1897	bvrR
+T55	Two-component-system 1944 1959	ChvG(ExoS)/ChvI
+T56	Protein 1944 1948	ChvG
+T57	Protein 1949 1953	ExoS
+T58	Protein 1955 1959	ChvI
+T59	Organism 1963 1974	S. meliloti
+T60	Organism 1979 1993	A. tumefaciens
+T61	Organism 2035 2043	Brucella
+T62	Two-component-system 2044 2053	BvrR/BvrS
+T63	Protein 2044 2048	BvrR
+T64	Protein 2049 2053	BvrS
+T65	Organism 2105 2115	B. abortus
+T66	Organism 2116 2127	bvrS mutant
+T67	Protein 2116 2120	bvrS
+T68	Protein 2150 2154	ExoS
+T69	Two-component-system 2280 2289	BvrR/BvrS
+T70	Protein 2280 2284	BvrR
+T71	Protein 2285 2289	BvrS
+T72	Two-component-system 2338 2347	ExoS/ChvI
+T73	Protein 2338 2342	ExoS
+T74	Protein 2343 2347	ChvI
+T75	Organism 2356 2370	A. tumefaciens
+T76	Two-component-system 2371 2380	ChvI/ChvG
+T77	Protein 2371 2375	ChvI
+T78	Protein 2376 2380	ChvG
+T79	Protein 2419 2422	Aop
+T80	Organism 2445 2453	Brucella
+T81	Protein 2454 2460	Omp25a
+T82	Organism 2474 2485	S. meliloti
+T83	Two-component-system 2487 2496	ExoS/ChvI
+T84	Protein 2487 2491	ExoS
+T85	Protein 2492 2496	ChvI
+T86	Organism 2633 2644	S. meliloti
+T87	Protein 2650 2654	exoR
+T88	Protein 2713 2717	ExoR
+T89	Protein 2750 2754	ExoS
+T90	Protein 2759 2763	ChvI
+T91	Two-component-system 2777 2786	ExoS/ChvI
+T92	Protein 2777 2781	ExoS
+T93	Protein 2782 2786	ChvI
+T94	Protein 2849 2853	ExoR
+T95	Two-component-system 2870 2879	ExoS/ChvI
+T96	Protein 2870 2874	ExoS
+T97	Protein 2875 2879	ChvI
+T98	Organism 3038 3049	S. meliloti
+T99	Protein 3050 3054	lpsS
+T100	Chemical 3107 3110	LPS
+T101	Protein 3132 3136	exoR
+T102	Protein 3180 3184	ExoR
+T103	Protein 3375 3379	exoR
+T104	Two-component-system 3393 3402	BvrR/BvrS
+T105	Protein 3393 3397	BvrR
+T106	Protein 3398 3402	BvrS
+T107	Organism 3505 3513	Brucella
+T108	Protein 3561 3565	VjbR
+T109	Protein 3567 3571	OmpR
+T110	Protein 3576 3580	ExoR
+T111	Organism 3600 3611	bvrR mutant
+T112	Protein 3600 3604	bvrR
+T113	Chemical 3789 3792	LPS
+*	Equiv T7 T8
+*	Equiv T10 T11
+*	Equiv T12 T13
+*	Equiv T47 T48
+*	Equiv T49 T50
+*	Equiv T51 T52
+*	Equiv T56 T57
+T114	Gene_expression 139 148	expressed
+T115	Negative_regulation 345 359	down regulated
+T116	Regulation 385 395	implicated
+T117	Process 408 417	virulence
+T118	Negative_regulation 455 465	attenuated
+T119	Process 503 512	infection
+T120	Positive_regulation 582 590	activate
+T121	Process 663 672	virulence
+T122	Process 897 906	virulence
+T123	Gene_expression 961 971	expression
+T124	Positive_regulation 989 996	induced
+T125	Regulation 1114 1121	control
+T126	Process 1156 1165	virulence
+T127	Gene_expression 1249 1259	expression
+T128	Positive_regulation 1263 1272	dependent
+T129	Regulation 1392 1400	controls
+T130	Transcription 1405 1418	transcription
+T131	Gene_expression 1767 1777	expression
+T132	Positive_regulation 1871 1880	increased
+T133	Regulation 2388 2396	controls
+T134	Gene_expression 2401 2411	expression
+T135	Regulation 2718 2727	interacts
+T136	Negative_regulation 2768 2776	inhibits
+T137	Transcription 3017 3030	transcription
+T138	Positive_regulation 3115 3124	dependent
+T139	Gene_expression 3547 3557	expression
+T140	Regulation 3585 3592	altered
+E1	Gene_expression:T114 Theme:T6
+E2	Gene_expression:T114 Theme:T7
+E3	Gene_expression:T114 Theme:T9
+E4	Gene_expression:T114 Theme:T10
+E5	Gene_expression:T114 Theme:T12
+E6	Gene_expression:T114 Theme:T14
+E7	Gene_expression:T114 Theme:T15
+E8	Negative_regulation:T115 Theme:T18
+E9	Negative_regulation:T115 Theme:T16
+E10	Negative_regulation:T115 Theme:T17
+E11	Regulation:T116 Theme:E14 Cause:T16
+E12	Regulation:T116 Theme:E14 Cause:T17
+E13	Regulation:T116 Theme:E14 Cause:T18
+E14	Process:T117 Participant:T19
+E15	Negative_regulation:T118 Theme:E16
+E16	Process:T119 Participant:T20
+E17	Positive_regulation:T120 Theme:T24 Cause:T23
+E18	Process:T121 
+E19	Process:T122 
+E20	Gene_expression:T123 Theme:T27
+E21	Positive_regulation:T124 Theme:E20
+E22	Regulation:T125 Theme:E24 Cause:T28
+E23	Regulation:T125 Theme:E24 Cause:T29
+E24	Process:T126 
+E25	Gene_expression:T127 Theme:T33
+E26	Positive_regulation:T128 Theme:E25 Cause:T32
+E27	Regulation:T129 Theme:E29 Cause:T38
+E28	Regulation:T129 Theme:E30 Cause:T38
+E29	Transcription:T130 Theme:T41
+E30	Transcription:T130 Theme:T42
+E31	Gene_expression:T131 Theme:T47
+E32	Gene_expression:T131 Theme:T49
+E33	Gene_expression:T131 Theme:T51
+E34	Positive_regulation:T132 Theme:E31
+E35	Positive_regulation:T132 Theme:E32
+E36	Positive_regulation:T132 Theme:E33
+E37	Regulation:T133 Theme:E38 Cause:T76
+E38	Gene_expression:T134 Theme:T79
+E39	Regulation:T135 Theme:T89 Cause:T88
+E40	Regulation:T135 Theme:T90 Cause:T88
+E41	Negative_regulation:T136 Theme:T91 Cause:T88
+E42	Transcription:T137 Theme:T99
+E43	Positive_regulation:T138 Theme:E42 Cause:T101
+E44	Gene_expression:T139 Theme:T108
+E45	Gene_expression:T139 Theme:T109
+E46	Gene_expression:T139 Theme:T110
+E47	Regulation:T140 Theme:E44
+E48	Regulation:T140 Theme:E45
+E49	Regulation:T140 Theme:E46
+T141	Span 298 359	Three of these, namely exoR, ompR and vjbR are down regulated
+T142	Causality 360 395	and have been previously implicated
+E50	Causality:T142 Effect:T143 Evidence:T141
+T143	Span 396 417	in Brucella virulence
+T144	Causality 928 956	our results also showed that
+E51	Causality:T144 Evidence:T145 Effect:T146
+T145	Span 957 1012	the expression of vjbR was also induced intracellularly
+T146	Span 745 906	it has been demonstrated that VjbR controls the synthesis of exopolysaccharides and the productions of several OMPs, some of which are also involved in virulence
+T147	Causality 1026 1053	All these data suggest that
+E52	Causality:T147 Effect:T148 Evidence:T145
+T148	Span 1054 1165	VjbR, similarly to the BvrR/BvrS system, is involved in the control of outer membrane composition and virulence
+E53	Causality:T147 Effect:T148 Evidence:T146
+T149	Span 1504 1594	a systematically transcriptome analysis of all two component regulatory systems in E. coli
+T150	Causality 1595 1616	has demonstrated that
+E54	Causality:T150 Effect:T151 Evidence:T149
+T151	Span 1617 1725	the OmpR/EnvZ system also controls the metabolism of amino acids, flagellar synthesis and nutrient transport
+T152	Span 66 296	Notably, seven transcriptional regulators genes were also differentially expressed in the bvrR mutant compared to parental strain: BAB1_0237, BAB1_0891 (exoR), BAB1_1397, BAB2_0118 (vjbR), BAB2_0762 (ompR), BAB2_1127 and BAB2_1152
+T153	Causality 1732 1761	As we have show in this study
+E55	Causality:T153 Effect:T154 Evidence:T152
+T154	Span 1763 1904	the expression of at least three flagellar genes (fliM, BAB2_0124/5; flgJ, BAB1_0260; motB, BAB2_1103) were increased also in the bvrR mutant
+T155	Span 2066 2253	Chaves-Olarte et al have reported that B. abortus bvrS mutant complemented with the ExoS protein recuperated the ability to invade and replicated successfully in HeLa and macrophage cells
+T156	Causality 2260 2275	suggesting that
+E56	Causality:T156 Effect:T157 Evidence:T155
+T157	Span 2276 2354	the BvrR/BvrS system is functionally interchangeable with the ExoS/ChvI system
+T158	Span 3148 3227	Other authors [29] suggest that ExoR is an inhibitor of two-component signaling
+T159	Causality 3228 3239	that may be
+E57	Causality:T159 Effect:T160 Evidence:T158
+T160	Span 3240 3291	conserved in a large number of alpha-proteobacteria
+T161	Span 3529 3610	The fact that the expression of VjbR, OmpR and ExoR was altered in the bvrR mutan
+T162	Causality 3612 3624	demonstrated
+E58	Causality:T162 Effect:T163 Evidence:T161
+T163	Span 3625 3819	for the first time an interaction or cross-talk among these global regulators, all involved in the control of composition and structure of the cell envelope (OMPs, LPS, chaperones, flagella, em)

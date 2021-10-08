@@ -1,0 +1,4 @@
+Neighbor Clustering and Operons 
+Although neighbor clustering is not an operon-predicting method, we wanted to identify additional putative operons among the groupings since neighbor clusters by definition share certain operon characteristics (tandemly arranged genes, separated by <300 bp, with similar expression patterns).
+Although operon-modeling methods exist [54,55], we inspected clusters in silico for upstream regulatory elements and identified 17 candidates, including clusters such as streptolysin S that have been previously confirmed as operons [56]; the spy0127-0130 grouping, which was confirmed as an operon in this study; and others that have yet to be verified (Table S6).
+Experimental confirmation of each candidate is beyond the scope of this study, but Northern blot and RT-PCR analyses could provide such information.

@@ -1,0 +1,9 @@
+GacS plays a dual role in P. aeruginosa biofilm development 
+Since GacS was found to be phosphorylated in a BfiS-dependent manner following 8 hrs of growth, we asked whether a DeltagacS mutant forms biofilms similar in architecture to DeltabfiS biofilms.
+Inactivation of gacS resulted in the formation of biofilms following 144 hr of growth that were similar in appearance to 24-hr-old wild type biofilms.
+Closer inspection of biofilm formation by DeltagacS over a period of 144 hr, however, indicated that the biofilm architecture (seen after 144 hr) was due to accelerated biofilm growth followed by premature disaggregation of biofilms as compared to wild type biofilms.
+DeltagacS mutant biofilms were significantly thicker than wild type biofilms following 1 and 72 hr of growth under flowing conditions, forming microcolonies and clusters exceeding 150 microm in diameter (Fig. 3).
+At both time points, DeltagacS biofilms not only exceeded the average microcolony size typically seen for wild type biofilms of the same age, but also the biomass and thickness of wild type biofilms at more mature ages (Fig. 3, Table 2).
+Continued growth for more than 72 hr, however, resulted in the disaggregation of DeltagacS mutant biofilms as indicated by the presence of large, detached clusters floating in the bulk liquid, and a significantly reduced attached biofilm biomass and biofilm thickness (Fig. 3, Table 2).
+Thus, while growth of DeltagacS mutant biofilms following 24 hr post attachment was accelerated (Fig. 3), initial attachment was significantly reduced in this mutant (not shown).
+These findings suggest that GacS may play a dual role in regulating biofilm formation, which in turn may be dependent on the phosphorylation status of GacS (Table 1).

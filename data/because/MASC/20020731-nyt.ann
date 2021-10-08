@@ -1,0 +1,935 @@
+T1	Motivation 493 496	for
+E1	Motivation:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 465 492	the committee chastised him
+T3	Argument 497 520;521 597	using poor judgment and disregarding Senate rules in his dealings with the former donor, David Chang
+T4	Consequence 632 638	led to
+E2	Consequence:T4 Cause:T5 Effect:T6
+A2	Degree E2 Facilitate
+T5	Argument 600 631	Your actions and failure to act
+T6	Argument 639 688	violations of Senate rules (and related statutes)
+T7	NonCausal 1163 1168;1180 1185	comes after
+E3	NonCausal:T7 Arg1:T8 Arg0:T9
+A3	Temporal E3
+T8	Argument 1140 1162	The committee's action
+T9	Argument 1186 1230;1231 1305	federal prosecutors ended a lengthy criminal investigation into Torricelli's activities without filing criminal charges
+T10	NonCausal 1520 1525	After
+E4	NonCausal:T10 Arg0:T11 Arg1:T12
+A4	Temporal E4
+T11	Argument 1526 1594;1595 1619	months in which polls showed Torricelli well ahead of his relatively unknown Republican rival
+T12	Argument 1621 1661	the contest has narrowed in recent weeks
+T13	Motivation 2232 2238;2247 2252	Within after
+E5	Motivation:T13 Cause:T14 Effect:T15
+A5	Temporal E5
+A6	Degree E5 Facilitate
+T14	Argument 2253 2295	the committee released its letter publicly
+T15	Argument 2297 2323;2324 2413;2414 2454	Torricelli took the Senate floor Tuesday night to apologize to the people of New Jersey for allowing his seat in the chamber "to be placed in this position."
+T17	Consequence 693 700	created
+E6	Consequence:T17 Cause:T5 Effect:T18
+A7	Degree E6 Facilitate
+A8	Creation-termination E6
+T18	Argument 701 739	at least the appearance of impropriety
+T19	NonCausal 2455 2461	During
+E7	NonCausal:T19 Arg0:T20 Arg1:T21
+A9	Temporal E7
+T20	Argument 2462 2545;2546 2558	nearly seven hours of sworn testimony last week before the members and staff of the ethics panel
+T21	Argument 2560 2642;2643 2704	Torricelli said that he had not taken any gifts from Chang, and that what items he had accepted from the businessman he had later paid Chang for
+T22	Purpose 2865 2868	for
+E8	Purpose:T22 Effect:T23 Cause:T24
+A10	Degree E8 Facilitate
+T23	Argument 2825 2841;2842 2864	who first turned to the senator in 1995
+T24	Argument 2869 2938;2939 3002	help in winning the repayment of some $71 million he said he was then owed in a failed business deal with the North Korean government
+T25	Purpose 3690 3692	to
+E9	Purpose:T25 Cause:T26 Effect:T27
+A11	Degree E9 Facilitate
+T26	Argument 3693 3703	help Chang
+T27	Argument 3622 3681;3682 3689;3705 3769;3770 3860;3861 3878	Torricelli and members of his Senate staff took a series of actions contacting U.S. government officials, writing letters to foreign government officials and bringing Chang or his business representatives into meetings with foreign officials
+T29	Motivation 4355 4358	for
+E10	Motivation:T29 Cause:T37 Effect:T36
+A12	Degree E10 Facilitate
+T30	Motivation 3324 3327	for
+E11	Motivation:T30 Cause:T31 Effect:T32
+A13	Degree E11 Facilitate
+T31	Argument 3328 3382;3383 3477;3478 3571;3572 3587	maintaining a "personal and official relationship with Chang under circumstances where you knew that he was attempting to ingratiate himself, in part through a pattern of attempts to provide you and those around you with gifts over a period of several years."
+T32	Argument 3288 3323	The committee criticized Torricelli
+T33	Motivation 1846 1848;1853 1862	on ground of
+E12	Motivation:T33 Cause:T34 Effect:T35
+A14	Degree E12 Facilitate
+T34	Argument 1863 1893	sexual and official misconduct
+T35	Argument 1778 1845	it recommended that Bob Packwood, an Oregon Republican, be expelled
+T37	Argument 4359 4408;4409 4468	obstructing justice and making $53,700 in illegal campaign contributions to Torricelli's 1996 Senate campaign
+T36	Argument 4291 4311;4312 4354	that judge sentenced sentenced Chang to 18 months' imprisonment
+T38	Motivation 54 57	FOR
+E13	Motivation:T38 Effect:T39 Cause:T40
+A15	Degree E13 Facilitate
+T39	Argument 4 53	SENATE ETHICS PANEL ADMONISHES NEW JERSEY SENATOR
+T40	Argument 58 76;77 82	CONDUCT RELATED TO GIFTS
+T16	Motivation 2385 2388	for
+E15	Motivation:T16 Effect:T44 Cause:T45
+A17	Degree E15 Facilitate
+T44	Argument 2347 2384	apologize to the people of New Jersey
+T45	Argument 2389 2413;2414 2454	allowing his seat in the chamber "to be placed in this position."
+T46	Purpose 2344 2346	to
+E16	Purpose:T46 Effect:T47 Cause:T48
+A18	Degree E16 Facilitate
+T47	Argument 2297 2323;2324 2343	Torricelli took the Senate floor Tuesday night
+T48	Argument 2347 2413;2414 2454	apologize to the people of New Jersey for allowing his seat in the chamber "to be placed in this position."
+T51	Motivation 6696 6703	because
+E18	Motivation:T51 Cause:T53 Effect:T52
+A20	Degree E18 Facilitate
+T52	Argument 6647 6695	he repaid the "wholesale" cost of the appliances
+T53	Argument 6704 6735;6736 6744	Chang told him that was what he had paid
+T54	Motivation 6790 6793	for
+E19	Motivation:T54 Cause:T56 Effect:T55
+A21	Degree E19 Facilitate
+T55	Argument 6746 6789	The ethics panel also criticized Torricelli
+T56	Argument 6794 6838	taking two bronze statues on loan from Chang
+T57	NonCausal 7513 7519	during
+E20	NonCausal:T57 Arg0:T58 Arg1:T59
+A22	Temporal E20
+T58	Argument 7520 7523;7524 7603	the period in which Chang claimed to have made numerous cash payments to Torricelli
+T59	Argument 7605 7616;7617 7707;7708 7753	the senator spent thousands of dollars more in cash than investigators could account for from his bank withdrawals and other known sources of income
+T60	NonCausal 7995 8004	generated
+E21	NonCausal:T60 Arg1:T61 Arg0:T267
+A23	Creation-termination E21
+T61	Argument 7983 7987	cash
+T73	Argument 9022 9034	TERROR TALKS
+T74	Purpose 9018 9021	FOR
+E25	Purpose:T74 Cause:T73 Effect:T75
+A28	Degree E25 Facilitate
+T75	Argument 9001 9017	POWELL IN BRUNEI
+T76	Purpose 9173 9176	for
+E26	Purpose:T76 Cause:T77 Effect:T78
+A29	Degree E26 Facilitate
+T77	Argument 9177 9197;9198 9287;9288 9312	meetings with fellow foreign ministers aimed at solidifying a second front, in Southeast Asia, in the campaign against global terrorism
+T78	Argument 9111 9172	Secretary of State Colin Powell arrived here on Tuesday night
+T79	Purpose 9520 9523	for
+E27	Purpose:T79 Cause:T80 Effect:T81
+A30	Degree E27 Facilitate
+T80	Argument 9524 9601	two days of talks with members of the Association of South East Asian Nations
+T81	Argument 9474 9509;9510 9519	touching down in this oil-producing sultanate
+T83	Motivation 10144 10149	after
+E28	Motivation:T83 Effect:T84 Cause:T85
+A31	Degree E28 Facilitate
+A32	Temporal E28
+T84	Argument 10070 10073;10074 10143	The United States cut virtually all military links with Indonesia in 1999
+T85	Argument 10150 10165;10166 10245;10246 10258	its forces were implicated in the violence that swept East Timor after that territory voted for independence
+T86	Motivation 10215 10220	after
+E29	Motivation:T86 Cause:T87 Effect:T88
+A33	Degree E29 Facilitate
+A34	Temporal E29
+T87	Argument 10221 10245;10246 10258	that territory voted for independence
+T88	Argument 10193 10214	that swept East Timor
+T89	Consequence 10416 10423	prevent
+E30	Consequence:T89 Effect:T91 Means:T92 Means2:T90 Cause:T64
+A35	Degree E30 Inhibit
+T90	Argument 10401 10412	cooperation
+T91	Argument 10424 10433	terrorism
+T92	Argument 10437 10532;10533 10539	sharing information, blocking funds, tightening borders and making it hard to use forged travel papers
+T93	Argument 11032 11084;11085 11127	the possibility of a meeting here between Powell and his North Korean counterpart, Paek Nam Sun
+T94	Consequence 11133 11142	generated
+E31	Consequence:T94 Effect:T95 Cause:T93
+A36	Degree E31 Facilitate
+T95	Argument 11143 11156	the most news
+T96	NonCausal 11238 11243	since
+E32	NonCausal:T96 Arg1:T97 Arg0:T98
+A37	Temporal E32
+T97	Argument 11158 11173;11174 11237	It would be the highest-level contact between the United States and North Korea
+T98	Argument 11244 11263;11264 11270	President Bush took office
+T101	Consequence 10497 10503	making
+E34	Consequence:T101 Effect:T102 Cause:T64
+A40	Degree E34 Facilitate
+T102	Argument 10504 10532;10533 10539	it hard to use forged travel papers
+T103	NonCausal 11432 11436	when
+E35	NonCausal:T103 Arg0:T104 Arg1:T105
+A41	Temporal E35
+T104	Argument 11437 11458	he arrives in Jakarta
+T105	Argument 11460 11539;11540 11552	he will have "some ideas and some initiatives" to present to President Megawati Sukarnoputri
+T109	Argument 11728 11738;11739 11771	provide an additional $16 million this year
+T110	Purpose 11772 11774	to
+E37	Purpose:T110 Cause:T111 Effect:T109
+A43	Degree E37 Facilitate
+T111	Argument 11775 11816	train police officers in counterterrorism
+T112	Consequence 12134 12141	require
+E38	Consequence:T112 Cause:T114 Effect:T72
+A44	Degree E38 Facilitate
+T113	Argument 12088 12120	more direct military cooperation
+T114	Argument 12142 12155;12156 12164	congressional approval
+T118	Consequence 12628 12634	foster
+E40	Consequence:T118 Effect:T119
+A47	Degree E40 Facilitate
+T119	Argument 12635 12646	cooperation
+T120	NonCausal 12748 12750;12892 12896	If then
+E41	NonCausal:T120 Arg0:T121 Arg1:T122
+A48	Hypothetical E41
+T121	Argument 12751 12754;12755 12851;12852 12890	you get young officers, expose them to a military organization that is within a democratic political institution, such as the United States
+T122	Argument 12897 12918	that rubs off on them
+T126	Consequence 13357 13364	prevent
+E43	Consequence:T126 Effect:T128
+A50	Degree E43 Inhibit
+T128	Argument 13365 13374	terrorism
+T129	Motivation 13523 13526	for
+E44	Motivation:T129 Cause:T130 Effect:T131
+A52	Degree E44 Facilitate
+T130	Argument 13527 13560;13561 13567	strong-arm tactics with political rivals
+T131	Argument 13469 13522	The United States once distanced itself from Mahathir
+T132	Motivation 13607 13610	for
+E45	Motivation:T132 Effect:T133 Cause:T134
+A53	Degree E45 Facilitate
+T133	Argument 13573 13606	human rights groups criticize him
+T134	Argument 13611 13652;13653 13723	arresting and jailing scores of suspected militants, including some who may be linked to al-Qaida, without trial
+T135	Consequence 13900 13905	after
+E46	Consequence:T135 Cause:T136 Effect:T137
+A54	Degree E46 Facilitate
+A55	Temporal E46
+T136	Argument 13906 13912;13913 13977	trials that Powell said the United States had "always felt" were flawed
+T137	Argument 13826 13899	who is serving a 15-year sentence on charges of sodomy and abuse of power
+T138	Purpose 14126 14129	for
+E47	Purpose:T138 Cause:T139 Effect:T140
+A56	Degree E47 Facilitate
+T139	Argument 14130 14159;14160 14254;14255 14281	what she later told Malaysian reporters was a discussion about both the detention of her husband and six supporters, and the campaign against terrorism
+T140	Argument 13979 14067;14068 14124	The assistant secretary of state for East Asian and Pacific affairs, James Kelly, met on Tuesday morning with Anwar's wife, Wan Azizah Wan Ismail
+T141	Purpose 14309 14311	TO
+E48	Purpose:T141 Effect:T142 Cause:T143
+A57	Degree E48 Facilitate
+T142	Argument 14283 14308	MICROSOFT TEAMS WITH AT&T
+T143	Argument 14312 14351;14352 14360	OFFER SOFTWARE FOR WIRELESS DEVICES AND SERVICES
+T150	NonCausal 15623 15628	after
+E51	NonCausal:T150 Arg0:T151 Arg1:T152
+A61	Temporal E51
+T151	Argument 15629 15694;15695 15727	outfielder Cliff Floyd was imported to Montreal to play a pivotal part in the Expos' playoff plans
+T152	Argument 15729 15790;15791 15838	he was traded to Boston Tuesday night to try his hand in what the Red Sox hope will be their postseason plans
+T153	Purpose 15677 15679	to
+E52	Purpose:T153 Cause:T154 Effect:T155
+A60	Degree E52 Facilitate
+T154	Argument 15680 15694;15695 15727	play a pivotal part in the Expos' playoff plans
+T155	Argument 15629 15676	outfielder Cliff Floyd was imported to Montreal
+T156	Purpose 15767 15769	to
+E53	Purpose:T156 Cause:T157 Effect:T158
+A62	Degree E53 Facilitate
+T157	Argument 15770 15790;15791 15838	try his hand in what the Red Sox hope will be their postseason plans
+T158	Argument 15729 15766	he was traded to Boston Tuesday night
+T159	NonCausal 15854 15861	produce
+E54	NonCausal:T159 Arg0:T160 Arg1:T161
+A63	Creation-termination E54
+T160	Argument 15840 15845	Floyd
+T161	Argument 15862 15909	the kind of offense the Expos expected from him
+T162	Motivation 15911 15913	so
+E55	Motivation:T162 Cause:T163 Effect:T164
+A64	Degree E55 Facilitate
+T163	Argument 15840 15909	Floyd did not produce the kind of offense the Expos expected from him
+T164	Argument 15914 15930;15931 16026;16027 16081	Omar Minaya, the Expos' aggressive rookie general manager, turned around and sent him to the Red Sox in exchange two South Korean pitchers and a player yet to be named
+T168	NonCausal 16293 16298	after
+E57	NonCausal:T168 Arg1:T169 Arg0:T170
+A67	Temporal E57
+T169	Argument 16219 16273;16274 16276	Minaya obtained Floyd from the Florida Marlins on July 11
+T170	Argument 16299 16360	he stunned baseball by acquiring Bartolo Colon from Cleveland
+T171	NonCausal 16450 16455	while
+E58	NonCausal:T171 Arg1:T172 Arg0:T173
+T172	Argument 16418 16449	Floyd batted only .208 for them
+T173	Argument 16456 16534	hitting three home runs, including one Tuesday night, and driving in four runs
+T177	NonCausal 16644 16648	when
+E60	NonCausal:T177 Arg0:T179 Arg1:T180
+T178	NonCausal 16706 16710	with
+E61	NonCausal:T178 Arg0:T181 Arg1:T182
+T179	Argument 16649 16681	they made their first Floyd deal
+T180	Argument 16621 16643	who had a 46-41 record
+T181	Argument 16711 16726	him on the team
+T182	Argument 16610 16698;16699 16705	The Expos, who had a 46-41 record when they made their first Floyd deal, had only a 7-12 record
+T183	Consequence 16852 16857	after
+E62	Consequence:T183 Arg0:T184 Arg1:T185
+A72	Temporal E62
+T184	Argument 16858 16869	this season
+T185	Argument 16826 16851	Floyd can be a free agent
+T186	Argument 16957 17013	have to settle for a draft choice or two as compensation
+T187	Consequence 17014 17018	when
+E63	Consequence:T187 Effect:T186 Cause:T188
+A73	Degree E63 Facilitate
+T188	Argument 17019 17062	he signed with another team as a free agent
+T189	NonCausal 17646 17648	as
+E64	NonCausal:T189 Arg0:T190 Arg1:T191
+T190	Argument 17649 17664	the day wore on
+T191	Argument 17666 17690	the Red Sox tried harder
+T205	Motivation 19045 19047	So
+E69	Motivation:T205 Effect:T207
+A81	Degree E69 Facilitate
+T207	Argument 19049 19138;19139 19234;19235 19247	after six years of planning, he opened the Excel Institute Automotive Program, a two-year school that gives people a chance at a new life as an auto technician or in another job related to the field
+T208	NonCausal 19049 19054	after
+E70	NonCausal:T208 Arg0:T209 Arg1:T192
+A82	Temporal E70
+T209	Argument 19055 19076	six years of planning
+T210	Consequence 19293 19295	so
+E71	Consequence:T210 Cause:T211 Effect:T212
+A83	Degree E71 Facilitate
+T211	Argument 19293 19306	so successful
+T212	Argument 19312 19323;19324 19365	it recently received a $2 million grant from Congress
+T213	Consequence 19641 19650	Thanks to
+E72	Consequence:T213 Cause:T214 Effect:T215
+A84	Degree E72 Facilitate
+T214	Argument 19651 19659;19660 19695	Starke's vision, leadership and fund-raising
+T215	Argument 19697 19720	they can do it all free
+T216	Consequence 19850 19859	enough to
+E73	Consequence:T216 Cause:T217 Effect:T218
+A85	Degree E73 Facilitate
+T217	Argument 19844 19856	young enough
+T218	Argument 19860 19905	be a part of the Redskins' Over the Hill Gang
+T219	Consequence 19930 19939	enough to
+E74	Consequence:T219 Cause:T220 Effect:T221
+A86	Degree E74 Facilitate
+T220	Argument 19926 19936	old enough
+T221	Argument 19940 19974	be one of the team's original Hogs
+T222	Motivation 20196 20200	when
+E75	Motivation:T222 Effect:T223 Cause:T224
+A87	Degree E75 Facilitate
+T223	Argument 20031 20033;20172 20195	He built his own home here
+A88	Temporal E75
+T224	Argument 20201 20239	he thought he might become a developer
+T225	Purpose 20247 20249	so
+E76	Purpose:T225 Cause:T226 Effect:T245
+A89	Degree E76 Facilitate
+T226	Argument 20250 20295;20296 20305	I could know how the business worked from the ground up
+T227	Purpose 20373 20375	to
+E77	Purpose:T227 Effect:T228 Cause:T229
+A90	Degree E77 Facilitate
+T228	Argument 20362 20372	he sold it
+T229	Argument 20376 20389;20390 20409	begin work on the Excel Institute
+T233	Motivation 20814 20816	So
+E79	Motivation:T233 Effect:T235
+A93	Degree E79 Facilitate
+T235	Argument 20818 20878	Starke matched a problem with a problem and found a solution
+T237	Argument 21517 21530	become stable
+T239	Motivation 21666 21669	for
+E81	Motivation:T239 Cause:T240 Effect:T241
+A95	Degree E81 Facilitate
+T240	Argument 21670 21691	threatening a teacher
+T241	Argument 21624 21665	who was kicked out of high school in 1997
+T242	Consequence 21809 21811	if
+E82	Consequence:T242 Cause:T243 Effect:T244
+A96	Degree E82 Facilitate
+A97	Hypothetical E82
+T243	Argument 21812 21853	you have the will and the dedication here
+T244	Argument 21854 21880;21881 21890	you can learn a lot and be something
+T248	Motivation 22490 22494	when
+E84	Motivation:T248 Cause:T249 Effect:T250
+A99	Degree E84 Facilitate
+A100	Temporal E84
+T249	Argument 22495 22516	I become a technician
+T250	Argument 22518 22519;22520 22580	I will help the poor and needy by giving them affordable rates
+T255	Purpose 22727 22730	for
+E86	Purpose:T255 Cause:T256 Effect:T257
+A102	Degree E86 Facilitate
+T256	Argument 22731 22751	some vehicle repairs
+T257	Argument 22708 22726	using his students
+T258	Purpose 23009 23012	for
+E87	Purpose:T258 Cause:T259 Effect:T260
+A103	Degree E87 Facilitate
+T259	Argument 23013 23023	the school
+T260	Argument 22982 23008	This one will be auctioned
+T263	Argument 23297 23300;23301 23372	all they have to do is come every day, come on time every day and work hard
+T267	Argument 7988 7990	he
+T62	Consequence 8918 8922	then
+E22	Consequence:T62 Effect:T63
+A24	Degree E22 Facilitate
+T63	Argument 8923 8988;8989 8995	will New Jersey voters be able to decide Torricelli's fitness for office
+A26	Temporal E22
+T70	Purpose 10413 10415	to
+E90	Purpose:T70 Effect:T90 Cause:T71
+A106	Degree E90 Facilitate
+T71	Argument 10416 10433	prevent terrorism
+T72	Argument 12122 12127	which
+R1	Coref Arg1:T72 Arg2:T113
+T82	NonCausal 12276 12278	as
+E33	NonCausal:T82 Arg1:T99 Arg0:T100
+A38	Correlation E33
+T99	Argument 12230 12256;12257 12275	they have been cooperating more fully with us
+T100	Argument 12279 12291	time goes by
+A42	Degree E62 Facilitate
+T107	Note 14444 14446	to
+A19	Temporal E58
+A51	Correlation E64
+A58	Context E61
+A68	Extremity-sufficiency E71
+A69	Extremity-sufficiency E73
+A70	Extremity-sufficiency E74
+T127	Purpose 20431 20433	to
+E39	Purpose:T127 Cause:T145 Effect:T144
+A71	Degree E39 Facilitate
+T144	Argument 20411 20430	putting up $300,000
+T145	Argument 20434 20452	get things started
+T147	NonCausal 18925 18929	with
+E49	NonCausal:T147 Arg1:T148 Arg0:T149
+A74	Context E49
+T148	Argument 18903 18924	going to bed at night
+T149	Argument 18930 18931;18932 18958	a Tech-9 gun under my pillow
+A39	Temporal E60
+T49	NonCausal 18065 18070	after
+E17	NonCausal:T49 Arg0:T50 Arg1:T106
+T50	Argument 18071 18084;18085 18151	his career as an offensive tackle with the Washington Redskins from 1973 to 1984
+T106	Argument 18061 18064;18152 18179;18180 18214	who stuck around and decided to make this place more than his home
+T108	Consequence 18180 18184	make
+E36	Consequence:T108 Cause:T115 Effect:T117
+A59	Degree E36 Facilitate
+T115	Argument 18061 18064	who
+T116	Argument 18046 18059	George Starke
+R2	Coref Arg1:T115 Arg2:T116
+T117	Argument 18185 18195;18196 18214	this place more than his home
+T192	Argument 19078 19138;19139 19234;19235 19247	he opened the Excel Institute Automotive Program, a two-year school that gives people a chance at a new life as an auto technician or in another job related to the field
+T165	Consequence 17802 17807	HELPS
+E50	Consequence:T165 Cause:T166 Effect:T167
+A65	Degree E50 Facilitate
+T166	Argument 17773 17779	EX-HOG
+T167	Argument 17808 17820	CHANGE LIVES
+T41	Argument 1767 1771	1995
+T42	Argument 1663 1752;1753 1760	It was the first time that the Senate Ethics Committee had voted to take action against a senator
+T194	NonCausal 1761 1766	since
+E14	NonCausal:T194 Arg0:T41 Arg1:T42
+A16	Temporal E14
+T199	Note 1773 1777	when
+#6	AnnotatorNotes T199	Relative pronoun
+T200	NonCausal 1407 1409	as
+E56	NonCausal:T200 Arg0:T201 Arg1:T202
+A75	Temporal E56
+T201	Argument 1410 1497;1498 1518	Torricelli is gearing up his campaign for re-election against the Republican candidate, Douglas R. Forrester
+T202	Argument 1307 1401	The ethics panel, to which evidence from the criminal case was forwarded, concluded its review
+T203	NonCausal 3555 3559	over
+E65	NonCausal:T203 Arg0:T204 Arg1:T206
+A76	Temporal E65
+T204	Argument 3560 3571;3572 3585	a period of several years
+T206	Argument 3511 3554	provide you and those around you with gifts
+T234	Argument 3595 3604	that time
+T252	NonCausal 3588 3594	During
+E67	NonCausal:T252 Arg1:T253 Arg0:T234
+A78	Temporal E67
+T253	Argument 3622 3681;3682 3769;3770 3860;3861 3878	Torricelli and members of his Senate staff took a series of actions to help Chang, contacting U.S. government officials, writing letters to foreign government officials and bringing Chang or his business representatives into meetings with foreign officials
+T66	Note 8621 8623	to
+#7	AnnotatorNotes T66	Doesn't answer a "why" question
+T64	Argument 10273 10344;10345 10354	Powell and representatives of the nations of the Asian group, including Indonesia
+A25	Creation-termination E31
+T65	Argument 11272 11334	Powell heads to Indonesia's capital, Jakarta, late on Thursday
+T67	Argument 11342 11362;11363 11417	finishing a weeklong trip through the region in the Philippines on Saturday
+T68	NonCausal 11335 11341	before
+E23	NonCausal:T68 Arg1:T67 Arg0:T65
+A27	Temporal E23
+A79	Temporal E33
+T69	Note 13234 13236	to
+#8	AnnotatorNotes T69	Purpose of existence
+#9	AnnotatorNotes T107	Purpose of existence
+T123	Argument 16083 16106	The teams made the deal
+T124	Argument 16133 16176;16177 16217	Tuesday's 4 p.m. deadline for making trades without first getting waivers on players
+T125	NonCausal 16126 16132	before
+E24	NonCausal:T125 Arg1:T124 Arg0:T123
+A49	Temporal E24
+#1	AnnotatorNotes E62	Unclear whether this should be facilitate or inhibit. The season itself inhibits being a free agent, but the *end* of the season is what allows it.
+A45	Temporal E63
+A46	Temporal E64
+T28	Note 17832 17836	With
+#10	AnnotatorNotes T28	"Along with"
+T174	Consequence 21506 21516	it took to
+E42	Consequence:T174 Cause:T175 Effect:T237
+A66	Degree E42 Facilitate
+T175	Argument 21497 21505	whatever
+T176	Note 21514 21516	to
+#11	AnnotatorNotes T176	Could make a case for this as Purpose instead (purpose of doing), but that seems weaker
+T146	Argument 22092 22111	I found this school
+T195	Argument 22053 22079	've been flapping my wings
+T196	Consequence 22086 22091	until
+E59	Consequence:T196 Cause:T146 Effect:T247
+A77	Temporal E59
+A80	Degree E59 Inhibit
+T197	Argument 22300 22310	the vision
+T230	Consequence 22311 22313	to
+E66	Consequence:T230 Effect:T231 Cause:T197
+A91	Degree E66 Facilitate
+#2	AnnotatorNotes E66	needed to
+T231	Argument 22314 22332;22333 22340	set something like this up
+T232	Note 22431 22438	because
+#12	AnnotatorNotes T232	Unclear, but seems to be inference
+#13	AnnotatorNotes E87	Questionable
+T198	Consequence 23279 23283	once
+E68	Consequence:T198 Cause:T236 Effect:T263
+A92	Degree E68 Facilitate
+T236	Argument 23284 23295	they are in
+A94	Temporal E68
+T238	Note 23262 23265	For
+#3	AnnotatorNotes T238	Seems to be "regarding" or "when it comes to"
+T345	Note 24199 24204	while
+#21	AnnotatorNotes T345	Different sense (contrastive?)
+T347	NonCausal 24705 24710	after
+E116	NonCausal:T347 Arg0:T348 Arg1:T349
+A217	Temporal E116
+T348	Argument 24711 24741;24742 24829;24830 24834	having been arrested by Secret Service agents for trying to sell the coin in the Waldorf-Astoria Hotel in Manhattan in 1996
+T349	Argument 24673 24704	who had won that right in court
+T350	Motivation 24757 24760	for
+E117	Motivation:T350 Cause:T351 Effect:T352
+A218	Degree E117 Facilitate
+T351	Argument 24761 24826	trying to sell the coin in the Waldorf-Astoria Hotel in Manhattan
+T352	Argument 24711 24741;24742 24756	having been arrested by Secret Service agents
+T353	Consequence 24959 24969	helping to
+E118	Consequence:T353 Effect:T354 Cause:T3249
+A219	Degree E118 Facilitate
+T354	Argument 24970 24987	pay down the debt
+T355	NonCausal 25929 25935	before
+E119	NonCausal:T355 Arg1:T356 Arg0:T357
+A220	Temporal E119
+T356	Argument 25936 25955	the gavel came down
+T357	Argument 25889 25928	Redden took the podium for nine minutes
+T358	Motivation 26340 26345	after
+E120	Motivation:T358 Cause:T359 Effect:T360
+A221	Degree E120 Facilitate
+T359	Argument 26346 26356	that price
+T360	Argument 26315 26327;26328 26339	Most bidders dropped out
+T361	Argument 26398 26421;26422 26506	a Sotheby's senior vice president, Selby Kiffer, made the final bid for the anonymous buyer on the telephone
+T362	Argument 26358 26391	The gavel sounded at $6.6 million
+T363	NonCausal 26392 26397	after
+E121	NonCausal:T363 Arg0:T361 Arg1:T362
+A222	Temporal E121
+T364	Consequence 26844 26846	So
+E122	Consequence:T364 Effect:T365
+A223	Degree E122 Facilitate
+T365	Argument 26847 26874;26875 26921	the auction was almost like the ribbon-cutting ceremony for the convention
+#25	AnnotatorNotes E122	Questionable; could be discourse
+T366	Argument 26958 26997	the high price for the coin was reached
+T367	Argument 27007 27030;27031 27068	it is one of a kind, it is beautiful and it has a great story
+T368	Consequence 26999 27006	because
+E123	Consequence:T368 Cause:T367 Effect:T366
+A224	Degree E123 Facilitate
+T369	Consequence 27221 27230	thanks to
+E124	Consequence:T369 Cause:T370 Effect:T371
+A225	Degree E124 Facilitate
+T370	Argument 27231 27257;27258 27303	documents unearthed during the five-year legal battle over its ownership
+T371	Argument 27160 27163;27164 27219	its Maltese Falconesque history only recently came to light
+T372	Argument 27406 27429	gold pieces were issued
+T373	Argument 27441 27465	a gold rush boom in 1850
+T374	Consequence 27435 27440	after
+E125	Consequence:T374 Arg0:T373 Arg1:T372
+A226	Temporal E125
+T375	Argument 27467 27490;27491 27497	They were called double eagles
+T376	Argument 27506 27568	their face value was twice that of the original $10 gold piece
+T377	Motivation 27498 27505	because
+E126	Motivation:T377 Cause:T376 Effect:T375
+A227	Degree E126 Facilitate
+T378	NonCausal 28027 28032	after
+E127	NonCausal:T378 Arg0:T379 Arg1:T380
+A228	Temporal E127
+T379	Argument 28033 28064	being stolen by a mint employee
+T380	Argument 28066 28104;28105 28124	nine double eagles surfaced during the mid-1940s and 1950s
+T382	NonCausal 28186 28192	before
+E128	NonCausal:T382 Arg0:T383 Arg1:T384
+T383	Argument 28193 28198;28199 28218	these coins came to light
+T384	Argument 28220 28291;28292 28384;28385 28410	the royal legation of Egypt turned up with one at the Department of the Treasury, and somehow got an official to issue an export license for the coin to enhance the collection of King Farouk
+A229	Temporal E128
+T385	Argument 28220 28247;28306 28369	the royal legation of Egypt somehow got an official to issue an export license for the coin
+T386	Purpose 28370 28372	to
+E129	Purpose:T386 Cause:T387 Effect:T385
+A230	Degree E129 Facilitate
+T387	Argument 28373 28384;28385 28410	enhance the collection of King Farouk
+T388	NonCausal 28499 28504	after
+E130	NonCausal:T388 Arg0:T389 Arg1:T390
+T389	Argument 28505 28525	the king was deposed
+T390	Argument 28527 28578;28579 28587	his coins were sold at auction and the double eagle vanished
+A231	Temporal E130
+T391	NonCausal 28609 28614	until
+E131	NonCausal:T391 Arg0:T392 Arg1:T393
+A232	Temporal E131
+T392	Argument 28615 28640	it came to Fenton in 1995
+T393	Argument 28589 28608	It went underground
+T394	Consequence 28667 28672	after
+E132	Consequence:T394 Arg0:T396 Arg1:T395
+A233	Temporal E132
+T395	Argument 28642 28665	His arrest in Manhattan
+T396	Argument 28673 28717	attempting to sell the coin for $1.5 million
+T397	Consequence 28757 28766	thanks to
+E133	Consequence:T397 Effect:T399 Cause:T398
+A234	Degree E133 Facilitate
+T398	Argument 28767 28816	the Treasury's mistaken export permission in 1944
+T399	Argument 28820 28851	the coin could be legally owned
+T3100	NonCausal 28954 28958	when
+E134	NonCausal:T3100 Arg0:T3102 Arg1:T3101
+T3101	Argument 28914 28941;28942 28953	The coin once again escaped destruction
+T3102	Argument 28959 29036;29037 29109	it was moved from the Treasury Department vault in 7 World Trade Center eight months before the building collapsed after the Sept. 11 terrorist attack
+A235	Temporal E134
+T3103	Argument 29051 29073	the building collapsed
+T3104	Consequence 29074 29079	after
+E135	Consequence:T3104 Cause:T3105 Effect:T3103
+A236	Degree E135 Facilitate
+A237	Temporal E135
+T3105	Argument 29080 29109	the Sept. 11 terrorist attack
+T3107	Consequence 29463 29469	making
+E136	Consequence:T3107 Effect:T3108 Cause:T3109 Means:T266
+A238	Degree E136 Facilitate
+T3108	Argument 29470 29472;29473 29478;29479 29485	it legal tender
+T3109	Argument 29436 29440	This
+T3110	Consequence 29564 29569	after
+E137	Consequence:T3110 Cause:T3111 Effect:T3112
+A239	Degree E137 Facilitate
+T3111	Argument 29570 29642	paying the auction price and a fee of $20 for the face value of the coin
+T3112	Argument 29487 29553	The buyer will receive a certificate of transfer stating just that
+A240	Temporal E137
+T3113	Argument 26015 26050;26051 26075	The tension in the crowd was broken with a burst of applause
+T3114	Argument 26082 26101	the $5 million mark
+T3115	Motivation 26076 26081	after
+E138	Motivation:T3115 Cause:T3114 Effect:T3113
+A241	Degree E138 Facilitate
+A242	Temporal E138
+T3116	Consequence 27251 27257	during
+E139	Consequence:T3116 Effect:T3117 Cause:T3118
+A243	Temporal E139
+T3117	Argument 27241 27250	unearthed
+T3118	Argument 27258 27303	the five-year legal battle over its ownership
+T3119	Consequence 30096 30107	resulted in
+E140	Consequence:T3119 Effect:T3122 Cause:T3121
+A244	Degree E140 Facilitate
+T3121	Argument 29841 29929;29930 30017	Your acceptance of a television and stereo CD player upon payment from David Chang of an amount you understood to be the cost to Mr. Chang, rather than fair market retail value
+T3122	Argument 30108 30109;30110 30196;30197 30238	a violation of the Senate Gifts Rules (35) and, consequently, a violation of your public disclosure obligations under Senate rules
+T3123	Argument 30583 30608;30609 30699;30700 30712	a violation of the Senate Gifts Rule (35) and, consequently, a violation of your public disclosure obligations under Senate rules
+T3124	Argument 30243 30329;30330 30422;30423 30430	Your acceptance on loan from Mr. Chang of bronze statues (eagle and bronco buster) for display in your Senate office under your office's policy of accepting the loan of home state artwork
+T3125	Consequence 30571 30582	resulted in
+E141	Consequence:T3125 Effect:T3123 Cause:T3124
+A245	Degree E141 Facilitate
+T3127	Argument 31093 31173;31174 31224	a violation of the Senate Gifts Rule (35) and, consequently, a violation of your public disclosure obligations under Senate Rule 34
+T3128	Consequence 31081 31092	resulted in
+E142	Consequence:T3128 Cause:T3129 Effect:T3127
+A246	Degree E142 Facilitate
+T3129	Argument 30717 30806;30807 30900;30901 30988;30989 31002	Your failure to act to prevent the acceptance of or to pay for gifts of earrings from Mr. Chang to individuals (your sister, an employee and a friend) in your home at Christmas on the mistaken belief that such items were of little value or were not gifts to you under the circumstances
+T3130	Consequence 30740 30747	prevent
+E143	Consequence:T3130 Effect:T3131
+A247	Degree E143 Inhibit
+T3131	Argument 30748 30765;30780 30806;30807 30893	the acceptance of gifts of earrings from Mr. Chang to individuals (your sister, an employee and a friend) in your home at Christmas
+T3132	Note 30894 30896	on
+#210	AnnotatorNotes T3132	On the basis of
+T3133	NonCausal 32360 32365	After
+E144	NonCausal:T3133 Arg0:T3134 Arg1:T3135
+A249	Temporal E144
+T3134	Argument 32366 32436	evaluating the extensive body of evidence before it and your testimony
+T3135	Argument 32438 32451;32452 32544;32545 32621	the committee is troubled by incongruities, inconsistencies and conflicts, particularly concerning actions taken by you which were or could have been of potential benefit to Mr. Chang
+T3136	Motivation 32623 32632	Therefore
+E145	Motivation:T3136 Effect:T3137
+A248	Degree E145 Facilitate
+T3137	Argument 32634 32714;32715 32811;32812 32866	the committee . . . expresses its determination that your actions and failure to act led to violations of Senate rules (and related statutes) and created at least the appearance of impropriety, and you are hereby severely admonished
+T3138	Consequence 32719 32725	led to
+E146	Consequence:T3138 Cause:T3139 Effect:T3140
+A250	Degree E146 Facilitate
+T3139	Argument 32687 32714;32715 32718	your actions and failure to act
+T3140	Argument 32726 32775	violations of Senate rules (and related statutes)
+T3141	Consequence 32780 32787	created
+E147	Consequence:T3141 Cause:T3139 Effect:T3142
+A251	Degree E147 Facilitate
+T3142	Argument 32788 32811;32812 32826	at least the appearance of impropriety
+A252	Creation-termination E147
+T3143	Consequence 33188 33201	sufficient to
+E148	Consequence:T3143 Effect:T3144 Cause:T3145
+A253	Degree E148 Facilitate
+T3144	Argument 33202 33239;33240 33269	bring the total to fair market retail value of the TV and CD player
+T3145	Argument 33178 33187	an amount
+A254	Degree E132 Facilitate
+A255	Degree E125 Facilitate
+T3146	Consequence 35065 35078	open doors to
+E149	Consequence:T3146 Effect:T3147 Cause:T3148
+A256	Degree E149 Facilitate
+T3147	Argument 35079 35090	opportunity
+T3148	Argument 35058 35060	It
+T3149	Consequence 35144 35153	make sure
+E150	Consequence:T3149 Cause:T3151 Effect:T3150
+A257	Degree E150 Facilitate
+T3150	Argument 35154 35158;35159 35226;35227 35236	that every kid in New York has the same opportunity I had, to get a good education
+T3151	Argument 35139 35140	I
+T3152	Motivation 36915 36917;36922 36929;36931 36935	on grounds that
+E151	Motivation:T3152 Cause:T3154 Effect:T3153
+A258	Degree E151 Facilitate
+T3153	Argument 36844 36908;36909 36914	The court, vacating Nelson's death sentence for the second time, ruled
+T3154	Argument 36936 36972;36973 37006	the jury could have been confused by instructions on the verdict sheet
+T3155	Argument 37016 37035;37036 37080	the prosecutor made improper accusations in his closing argument
+T3156	Motivation 36915 36917;36922 36929;37011 37015	on grounds that
+E152	Motivation:T3156 Effect:T3153 Cause:T3155
+A259	Degree E152 Facilitate
+T3157	Argument 37160 37221;37222 37254	The ruling, which does not affect Nelson's guilty plea, sends the case back to the trial court
+T3158	Argument 37259 37271	resentencing
+T3159	Purpose 37255 37258	for
+E153	Purpose:T3159 Cause:T3158 Effect:T3157
+A260	Degree E153 Facilitate
+T3163	NonCausal 38209 38213	when
+E155	NonCausal:T3163 Arg0:T3165 Arg1:T3164
+T3164	Argument 38144 38164;38165 38208	Zazzali and Long had expressed similar reservations in June 2001
+T3165	Argument 38214 38223;38224 38288;38289 38338	the court overturned the death sentence of Thomas J. Koskovich, who was 18 when he killed two pizza deliverymen in an ambush
+T3161	NonCausal 38289 38293	when
+E154	NonCausal:T3161 Arg1:T3162 Arg0:T3166
+T3162	Argument 38278 38288	who was 18
+T3166	Argument 38294 38338	he killed two pizza deliverymen in an ambush
+A261	Temporal E155
+A262	Temporal E154
+T3167	Motivation 38966 38973	because
+E156	Motivation:T3167 Cause:T3168 Effect:T3169
+A263	Degree E156 Facilitate
+T3168	Argument 38974 39007	both are former attorneys general
+T3169	Argument 38836 38899;38900 38965	Two of the court's members, Chief Justice Deborah T. Poritz and Justice Peter G. Verniero, did not participate in the Nelson case
+T3170	NonCausal 39171 39176	After
+E157	NonCausal:T3170 Arg0:T3171 Arg1:T3172
+T3171	Argument 39177 39209;39210 39214	undergoing sex change surgery in 1992
+T3172	Argument 39216 39256	she pursued a career as an exotic dancer
+A264	Temporal E157
+T3173	NonCausal 39275 39280	while
+E158	NonCausal:T3173 Arg0:T3174 Arg1:T3175
+T3174	Argument 39281 39322;39323 39352	she was living with her parents in Haddon Heights, outside Philadelphia
+T3175	Argument 39354 39389;39390 39453;39454 39460	law enforcement officers arrived at the house with a warrant for Nelson's arrest on another weapons charge
+A265	Temporal E158
+T3177	NonCausal 39462 39468	During
+E159	NonCausal:T3177 Arg0:T3178 Arg1:T3179
+T3178	Argument 39469 39487	a 14-hour standoff
+T3179	Argument 39489 39518;39519 39574	she killed a patrolman and an investigator from the Camden County prosecutor's office
+T3180	Argument 40090 40105;40106 40116	the couple were going home
+T3181	Argument 40123 40168;40169 40173	an evening of dining and gambling in Atlantic City
+T3182	NonCausal 40117 40122	after
+E160	NonCausal:T3182 Arg0:T3181 Arg1:T3180
+A266	Temporal E160
+A267	Temporal E159
+T3183	Argument 40563 40610;40611 40674	Monday's re-sentencing of Saad Eddin Ibrahim, a sociologist and human rights activist, to seven years in prison
+T3184	Motivation 40675 40678	for
+E161	Motivation:T3184 Cause:T3185 Effect:T3183
+A268	Degree E161 Facilitate
+T3185	Argument 40679 40739;40740 40776	his efforts to register voters, monitor elections and report attacks on Egypt's Coptic Christians
+T3186	Argument 40872 40902	The verdict should be annulled
+T3187	Consequence 40941 40948	because
+E162	Consequence:T3187 Cause:T3188 Effect:T3186
+A269	Degree E162 Facilitate
+T3188	Argument 40949 40970;40971 41020	his prosecution is an abrogation of the most basic standards of justice
+T3190	Argument 40916 40936	humanitarian grounds
+T3191	Argument 41499 41527;41528 41538	his sentence would have been reaffirmed
+T3192	Argument 41542 41594;41595 41660;41661 41724;41725 41774	Mubarak believed that convicting an American citizen for promoting democracy and human rights might jeopardize his own standing with the Bush administration and the $2 billion annual American subsidy that keeps his government afloat
+T3193	Consequence 41539 41541	if
+E163	Consequence:T3193 Cause:T3192 Effect:T3191
+A270	Degree E163 Facilitate
+A271	Hypothetical E163
+T3194	Argument 41778 41806	That aid bonanza was granted
+T3195	Argument 41810 41839;41840 41891	reward Mubarak's predecessor, Anwar Sadat, for signing a peace treaty with Israel
+T3196	Purpose 41807 41809	to
+E164	Purpose:T3196 Cause:T3195 Effect:T3194
+A272	Degree E164 Facilitate
+T3197	Argument 41810 41839;41840 41851	reward Mubarak's predecessor, Anwar Sadat
+T3198	Argument 41857 41891	signing a peace treaty with Israel
+T3199	Motivation 41853 41856	for
+E165	Motivation:T3199 Cause:T3198 Effect:T3197
+A273	Degree E165 Facilitate
+T3201	Argument 41564 41594	convicting an American citizen
+T3202	Argument 41599 41635	promoting democracy and human rights
+T3203	Motivation 41595 41598	for
+E166	Motivation:T3203 Cause:T3202 Effect:T3201
+A274	Degree E166 Facilitate
+T3204	Argument 40070 40083	kill his wife
+T3205	Argument 40090 40105;40106 40168;40169 40173	the couple were going home after an evening of dining and gambling in Atlantic City
+T3206	NonCausal 40084 40089	while
+E167	NonCausal:T3206 Arg1:T3204 Arg0:T3205
+A275	Temporal E167
+T3207	Argument 37693 37704	it has done
+T3208	NonCausal 37710 37715	since
+E168	NonCausal:T3208 Arg0:T3209 Arg1:T3207
+A276	Temporal E168
+T3209	Argument 37716 37773;37774 37794	adopting a voluminous set of review procedures in 1999 to govern capital cases
+T3160	Argument 38026 38035;38036 38089	the death penalty would constitute cruel and unusual punishment
+T3210	Argument 38101 38142	Nelson's history of emotional disturbance
+T3211	Consequence 38090 38100	because of
+E169	Consequence:T3211 Cause:T3210 Effect:T3160
+A277	Degree E169 Facilitate
+T3189	Motivation 40913 40915;40929 40936	on grounds
+E170	Motivation:T3189 Cause:T3190 Effect:T3186
+A278	Degree E170 Facilitate
+T3214	Argument 24266 24335	auction houses prepare for their fall seasons in an uncertain economy
+T3215	Argument 24337 24351;24352 24423	the sale price "suggests that the marketplace for important items is enormously strong
+T346	NonCausal 24263 24265	As
+E171	NonCausal:T346 Arg0:T3214 Arg1:T3215
+A279	Temporal E171
+T3216	Note 25689 25693	with
+#22	AnnotatorNotes T3216	Possession sense
+A280	Degree E139 Facilitate
+T3217	Consequence 28719 28725	led to
+E172	Consequence:T3217 Cause:T3218 Effect:T3219
+A281	Degree E172 Facilitate
+T3218	Argument 28642 28672;28673 28717	His arrest in Manhattan, after attempting to sell the coin for $1.5 million
+T3219	Argument 28726 28766;28767 28852	a court battle over whether -- thanks to the Treasury's mistaken export permission in 1944 -- the coin could be legally owned.
+T381	Argument 28066 28093	nine double eagles surfaced
+T3220	Argument 28101 28104;28105 28124	the mid-1940s and 1950s
+T3221	NonCausal 28094 28100	during
+E173	NonCausal:T3221 Arg0:T3220 Arg1:T381
+A282	Temporal E173
+T3222	Argument 35836 35845	his terms
+T3223	NonCausal 35829 35835	during
+E174	NonCausal:T3223 Arg0:T3222 Arg1:T3224
+T3224	Argument 35811 35828	the funds' growth
+A283	Temporal E174
+T3228	Argument 43288 43300	early enough
+T3229	Consequence 43294 43303	enough to
+E176	Consequence:T3229 Effect:T3230 Cause:T3228
+A285	Degree E176 Facilitate
+T3230	Argument 43304 43329;43330 43380	do something constructive about the disappointing quality of the work so far
+T3231	Argument 43628 43662	it does not need to stall progress
+T3232	Argument 43666 43669;43670 43732;43733 43788	the governor keeps the pressure on the Lower Manhattan Development Corp. and the Port Authority of New York and New Jersey
+T3233	Consequence 43663 43665	if
+E177	Consequence:T3233 Cause:T3232 Effect:T3231
+A286	Degree E177 Facilitate
+A287	Hypothetical E177
+T3234	Note 43547 43552	While
+#24	AnnotatorNotes T3234	"Although"
+T3235	Note 43871 43874	for
+#26	AnnotatorNotes T3235	Purpose of existence
+T3236	Argument 44293 44300;44301 44362	Opening the process to other designers, both here and internationally
+T3237	Argument 44374 44416	separate this urban plan from the ordinary
+T3238	Consequence 44369 44373	help
+E178	Consequence:T3238 Effect:T3237 Cause:T3236
+A288	Degree E178 Facilitate
+T3239	Motivation 45580 45585	until
+E179	Motivation:T3239 Arg0:T3240 Arg1:T3241
+T3240	Argument 45586 45591;45592 45612	after this fall's election
+T3241	Argument 45554 45579	keeping the issue on hold
+A289	Temporal E179
+A290	Extremity-sufficiency E176
+T3242	Consequence 46906 46908	so
+E180	Consequence:T3242 Effect:T3244 Cause:T3243
+A291	Degree E180 Facilitate
+T3243	Argument 46906 46918	so effective
+T3244	Argument 46924 46941;46942 46971	the need for many existing rules will disappear
+A292	Extremity-sufficiency E180
+T3245	Consequence 47594 47601;47612 47614	compels to
+E181	Consequence:T3245 Effect:T3248 Cause:T3246
+A293	Degree E181 Facilitate
+T3246	Argument 47589 47593	that
+T3247	Argument 47550 47588	a provision known as new source review
+R11	Coref Arg1:T3246 Arg2:T3247
+T3248	Argument 47602 47611;47615 47657;47658 47697	utilities install modern pollution controls whenever they significantly upgrade older plants
+A294	Obligation-permission E181
+T3249	Argument 24922 24925;24926 24943	The monies we receive
+T3250	Consequence 24959 24966;24992 24994	helping to
+E182	Consequence:T3250 Cause:T3249 Effect:T3251
+A295	Degree E182 Facilitate
+T3251	Argument 24995 25011;25012 25021	fight the war on terrorism
+T3252	Argument 42041 42068	democracy in the Arab world
+T3253	Consequence 42033 42040	promote
+E183	Consequence:T3253 Effect:T3252
+A296	Degree E183 Facilitate
+T3255	Consequence 45915 45919	make
+E184	Consequence:T3255 Effect:T3256
+A297	Degree E184 Facilitate
+T3256	Argument 45920 45949;45950 45979;45980 45990	the 32-year-old Clean Air Act a stronger and more efficient instrument
+T3257	Argument 46326 46335	acid rain
+T3258	Consequence 46319 46325	causes
+E185	Consequence:T3258 Cause:T3259 Effect:T3257
+A298	Degree E185 Facilitate
+T3259	Argument 46313 46318	which
+T3260	Consequence 46283 46290	produce
+E186	Consequence:T3260 Effect:T3264 Cause:T3263
+A299	Degree E186 Facilitate
+T3261	Argument 46297 46311	sulfur dioxide
+R12	Coref Arg1:T3259 Arg2:T3261
+T3262	Argument 46258 46277	the nitrogen oxides
+T3263	Argument 46278 46282	that
+T3264	Argument 46291 46295	smog
+R13	Coref Arg1:T3263 Arg2:T3262
+A2100	Creation-termination E186
+T3265	Argument 47615 47648	install modern pollution controls
+T3266	Argument 47658 47697	they significantly upgrade older plants
+T3267	Consequence 47649 47657	whenever
+E187	Consequence:T3267 Cause:T3266 Effect:T3265
+A2101	Degree E187 Facilitate
+A2102	Correlation E187
+#215	AnnotatorNotes E130	Questionable
+T3268	NonCausal 36367 36372	after
+E188	NonCausal:T3268 Arg0:T3269 Arg1:T3270
+T3269	Argument 36373 36381	Sept. 11
+T3270	Argument 36339 36366	an important campaign issue
+A2103	Temporal E188
+T3271	Argument 29297 29307	a ceremony
+T3272	Argument 29314 29322	the sale
+T3273	NonCausal 29308 29313	after
+E189	NonCausal:T3273 Arg0:T3272 Arg1:T3271
+A2104	Temporal E189
+T3274	Argument 34545 34555;34556 34611	The action then shifts to him in an office, speaking to the camera
+T3275	NonCausal 34613 34615	as
+E190	NonCausal:T3275 Arg0:T3276 Arg1:T3274
+T3276	Argument 34616 34619;34620 34684	the words "Experience. Excellence. Carl McCall" appear on the screen
+A2105	Temporal E190
+T3277	Argument 37796 37831	New Jersey has not had an execution
+T3278	Argument 37838 37842	1963
+T3279	NonCausal 37832 37837	since
+E191	NonCausal:T3279 Arg1:T3277 Arg0:T3278
+A2106	Temporal E191
+T3280	Argument 35420 35448	he was at the United Nations
+T3281	Argument 35384 35414	He had the title of ambassador
+T3282	NonCausal 35415 35419	when
+E192	NonCausal:T3282 Arg0:T3280 Arg1:T3281
+A2107	Temporal E192
+T3283	Argument 43265 43269	sent
+T3284	Argument 43276 43329;43330 43380	it is still early enough to do something constructive about the disappointing quality of the work so far
+T3285	NonCausal 43270 43275	while
+E193	NonCausal:T3285 Arg0:T3284 Arg1:T3283
+A2108	Temporal E193
+T3286	Argument 34431 34490;34491 34543	images of the candidate looking at a computer screen with a small child and of him surrounded by children appear
+T3287	Argument 34365 34423	the advertisement shifts to McCall talking about education
+T3288	NonCausal 34425 34430	while
+E194	NonCausal:T3288 Arg0:T3286 Arg1:T3287
+A2109	Temporal E194
+T3289	NonCausal 44624 44628	with
+E195	NonCausal:T3289 Arg0:T3290 Arg1:T3291
+A2110	Context E195
+T3290	Argument 44629 44668;44669 44736;44737 44745	medium-range proposals being shopped in Washington that could untangle the disorganized web of subway lines downtown
+T3291	Argument 44540 44547;44548 44609;44610 44622	At this point, planners have focused on short-term repair of PATH and subway lines
+T3292	Consequence 28314 28317;28330 28332	got to
+E196	Consequence:T3292 Effect:T3293 Cause:T3294
+A2111	Degree E196 Facilitate
+T3293	Argument 28318 28329;28333 28369	an official issue an export license for the coin
+T3294	Argument 28220 28247	the royal legation of Egypt
+T193	Argument 26129 26139	$6 million
+A98	Temporal E17
+T245	Argument 20172 20200;20201 20239	built his own home here when he thought he might become a developer
+T246	NonCausal 22080 22085	since
+E78	NonCausal:T246 Arg1:T195
+A101	Temporal E78
+T247	Argument 22052 22085	I've been flapping my wings since
+T251	Consequence 26126 26128	at
+E80	Consequence:T251 Effect:T254 Cause:T193
+A104	Degree E80 Facilitate
+A105	Temporal E80
+T254	Argument 26015 26050;26051 26055;26107 26125	The tension in the crowd was broken with a louder explosion
+T261	Note 26376 26378	at
+#4	AnnotatorNotes T261	Doesn't seem to be temporal
+T262	NonCausal 29044 29050	before
+E83	NonCausal:T262 Arg0:T265 Arg1:T264
+A107	Temporal E83
+T264	Argument 29051 29109	the building collapsed after the Sept. 11 terrorist attack
+T265	Argument 28959 29030	it was moved from the Treasury Department vault in 7 World Trade Center
+T266	Argument 29441 29461	"monetized" the coin
+T268	Consequence 30156 30168	consequently
+E85	Consequence:T268 Effect:T269 Cause:T270
+A108	Degree E85 Facilitate
+T269	Argument 29841 29929;29930 30018;30096 30107;30170 30196;30197 30238	Your acceptance of a television and stereo CD player upon payment from David Chang of an amount you understood to be the cost to Mr. Chang, rather than fair market retail value, resulted in a violation of your public disclosure obligations under Senate rules
+T270	Argument 29841 29929;29930 30017;30096 30109;30110 30150	Your acceptance of a television and stereo CD player upon payment from David Chang of an amount you understood to be the cost to Mr. Chang, rather than fair market retail value resulted in a violation of the Senate Gifts Rules (35)
+T271	Consequence 30630 30642	consequently
+E88	Consequence:T271 Effect:T275 Cause:T276
+A109	Degree E88 Facilitate
+T272	Consequence 31140 31152	consequently
+E89	Consequence:T272 Effect:T273 Cause:T274
+A110	Degree E89 Facilitate
+T273	Argument 30717 30806;30807 30900;30901 30988;30989 31002;31081 31092;31154 31173;31174 31224	Your failure to act to prevent the acceptance of or to pay for gifts of earrings from Mr. Chang to individuals (your sister, an employee and a friend) in your home at Christmas on the mistaken belief that such items were of little value or were not gifts to you under the circumstances resulted in a violation of your public disclosure obligations under Senate Rule 34
+T274	Argument 30717 30806;30807 30900;30901 30988;30989 31002;31081 31134	Your failure to act to prevent the acceptance of or to pay for gifts of earrings from Mr. Chang to individuals (your sister, an employee and a friend) in your home at Christmas on the mistaken belief that such items were of little value or were not gifts to you under the circumstances resulted in a violation of the Senate Gifts Rule (35)
+T275	Argument 30243 30329;30330 30422;30423 30430;30571 30582;30644 30699;30700 30712	Your acceptance on loan from Mr. Chang of bronze statues (eagle and bronco buster) for display in your Senate office under your office's policy of accepting the loan of home state artwork resulted in a violation of your public disclosure obligations under Senate rules
+T276	Argument 30243 30329;30330 30422;30423 30430;30571 30608;30609 30624	Your acceptance on loan from Mr. Chang of bronze statues (eagle and bronco buster) for display in your Senate office under your office's policy of accepting the loan of home state artwork resulted in a violation of the Senate Gifts Rule (35)
+T277	NonCausal 34360 34364	then
+E91	NonCausal:T277 Arg0:T279 Arg1:T278
+A111	Temporal E91
+T279	Argument 34272 34291;34292 34358	A photograph of the candidate standing in his Army uniform next to his mother is shown
+T278	Argument 34365 34424;34425 34490;34491 34543	the advertisement shifts to McCall talking about education, while images of the candidate looking at a computer screen with a small child and of him surrounded by children appear
+T280	Consequence 35326 35330	Thus
+E92	Consequence:T280 Effect:T281
+A112	Degree E92 Facilitate
+T281	Argument 35332 35382	most of the facts presented are a matter of record
+T282	Argument 41349 41384	Ibrahim might never have been tried
+T283	Argument 41385 41403;41404 41459;41460 41480	had he not written an article taking note of Mubarak's efforts to create a presidential dynasty
+T284	Consequence 41385 41388	had
+E93	Consequence:T284 Cause:T283 Effect:T282
+A113	Degree E93 Facilitate
+A114	Hypothetical E93
+T285	Note 43954 43965	requirement
+#5	AnnotatorNotes T285	"Requirement" is never causal.
+A115	Degree E179 Inhibit
+T286	NonCausal 29894 29898	upon
+E94	NonCausal:T286 Arg0:T287 Arg1:T288
+A116	Temporal E94
+T287	Argument 29899 29929;29930 30017	payment from David Chang of an amount you understood to be the cost to Mr. Chang, rather than fair market retail value
+T288	Argument 29841 29893	Your acceptance of a television and stereo CD player

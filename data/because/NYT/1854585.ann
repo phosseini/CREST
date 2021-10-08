@@ -1,0 +1,61 @@
+T1	Note 188 192	help
+#1	AnnotatorNotes T1	Assist
+T2	NonCausal 499 505	Before
+E1	NonCausal:T2 Arg1:T3 Arg0:T4
+A1	Temporal E1
+T3	Argument 506 522	the announcement
+T4	Argument 524 623	Secretary of State Condoleezza Rice telephoned Mr. Abbas to reiterate American support for the move
+T5	Purpose 581 583	to
+E2	Purpose:T5 Cause:T6 Effect:T7
+A2	Degree E2 Facilitate
+T6	Argument 584 623	reiterate American support for the move
+T7	Argument 524 580	Secretary of State Condoleezza Rice telephoned Mr. Abbas
+T8	Purpose 1785 1787	to
+E3	Purpose:T8 Cause:T9 Effect:T10
+A3	Degree E3 Facilitate
+T9	Argument 1788 1817	crack down on Hamas militants
+T10	Argument 1750 1784	Israel act more forcefully in Gaza
+#2	AnnotatorNotes E3	Could be verb argument ("act to"), but seems like it's saying they'll increase force out of a desire to crack down.
+T11	Motivation 1988 1990	if
+E4	Motivation:T11 Effect:T12 Cause:T13
+A4	Degree E4 Facilitate
+A5	Hypothetical E4
+T12	Argument 1932 1987	the administration could only support such a separation
+T13	Argument 1991 2163	Israel agreed to make political concessions to Mr. Abbas in the West Bank, with the goal of undermining Hamas in the eyes of Palestinians by improving life in the West Bank
+T14	Purpose 2066 2070;2075 2082	with goal of
+E5	Purpose:T14 Effect:T16 Cause:T15
+A6	Degree E5 Facilitate
+T15	Argument 2083 2163	undermining Hamas in the eyes of Palestinians by improving life in the West Bank
+T16	Argument 2008 2064	make political concessions to Mr. Abbas in the West Bank
+T18	Consequence 4044 4046	if
+E6	Consequence:T18 Effect:T19 Cause:T20
+A7	Degree E6 Facilitate
+A8	Hypothetical E6
+T19	Argument 4007 4043	Ms. Rice now has a much tougher task
+T20	Argument 4047 4126	she still hopes to get a peace deal before President Bush leaves office in 2009
+T21	NonCausal 4083 4089	before
+E7	NonCausal:T21 Arg0:T22 Arg1:T23
+A9	Temporal E7
+T22	Argument 4066 4082	get a peace deal
+T23	Argument 4090 4126	President Bush leaves office in 2009
+T24	NonCausal 4253 4258	after
+E8	NonCausal:T24 Arg1:T25 Arg0:T26
+A10	Temporal E8
+T25	Argument 4238 4251	two years ago
+T26	Argument 4259 4276	Yasir Arafat died
+T27	NonCausal 4281 4287	before
+E9	NonCausal:T27 Arg1:T28 Arg0:T25
+A11	Temporal E9
+T28	Argument 4288 4323	Hamas won the legislative elections
+T30	NonCausal 4784 4788	when
+E11	NonCausal:T30 Arg0:T31 Arg1:T32
+A13	Temporal E11
+T31	Argument 4789 4809	they existed in 2005
+T32	Argument 4736 4783	we wouldn't take advantage of the opportunities
+T17	Argument 4206 4216	doing more
+T35	Argument 4220 4237	prop up Mr. Abbas
+T36	Purpose 4217 4219	to
+E12	Purpose:T36 Cause:T35 Effect:T17
+A14	Degree E12 Facilitate
+T29	Note 4731 4735	when
+#3	AnnotatorNotes T29	Evidence/reasoning word, not Context (like "given that" but can't ever be causal)

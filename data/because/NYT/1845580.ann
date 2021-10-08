@@ -1,0 +1,123 @@
+T1	NonCausal 116 124	creation
+E1	NonCausal:T1 Arg1:T2
+A1	Creation-termination E1
+T2	Argument 128 189	a special force to specifically handle post-combat operations
+T3	Consequence 852 854	as
+E2	Consequence:T3 Cause:T4 Effect:T5
+A2	Degree E2 Facilitate
+A3	Temporal E2
+A4	Correlation E2
+T4	Argument 855 892	the war stretches into its fifth year
+T5	Argument 894 933	the Army is increasingly stretched thin
+T7	NonCausal 1687 1691	when
+E3	NonCausal:T7 Arg0:T8 Arg1:T9
+A5	Temporal E3
+T8	Argument 1692 1776	he was mayor of New York City and terrorists attacked the World Trade center in 2001
+T9	Argument 1649 1686	all of whom were still in high school
+T10	NonCausal 2219 2221	as
+E4	NonCausal:T10 Arg0:T11 Arg1:T12
+A6	Temporal E4
+T11	Argument 2222 2252	we sit here at this graduation
+T12	Argument 2202 2218	who are planning
+T13	Purpose 2309 2311	To
+E5	Purpose:T13 Cause:T14 Effect:T15
+A7	Degree E5 Facilitate
+T14	Argument 2312 2356	try to avoid the chaos that has ravaged Iraq
+T15	Argument 2358 2461	Mr. Giuliani called for a hybrid force whose role would be to provide stabilization and help rebuilding
+T16	Consequence 2319 2324	avoid
+E6	Consequence:T16 Effect:T17
+A8	Degree E6 Inhibit
+T17	Argument 2325 2356	the chaos that has ravaged Iraq
+T18	Consequence 2446 2450	help
+E7	Consequence:T18 Effect:T19 Cause:T20
+A9	Degree E7 Facilitate
+T19	Argument 2451 2461	rebuilding
+T20	Argument 2382 2396	a hybrid force
+#2	AnnotatorNotes E7	Seems like not just assisting, but facilitating.
+T21	NonCausal 2551 2555	when
+E8	NonCausal:T21 Arg0:T22 Arg1:T23
+A10	Temporal E8
+T22	Argument 2556 2576	the fighting is over
+T23	Argument 2516 2550	that America plays in combat zones
+T24	Consequence 2663 2668	After
+E9	Consequence:T24 Cause:T25 Effect:T26
+A11	Degree E9 Facilitate
+A12	Temporal E9
+T25	Argument 2669 2706	defeating the enemy as we did in Iraq
+T26	Argument 2759 2775	we have a choice
+T27	Consequence 2708 2713	after
+E10	Consequence:T27 Cause:T28 Effect:T26
+A13	Degree E10 Facilitate
+A14	Temporal E10
+T28	Argument 2714 2757	a sudden victory in deposing Saddam Hussein
+T29	Note 2851 2853	to
+#3	AnnotatorNotes T29	Verb argument ("work to")
+T30	Consequence 3146 3155	needed to
+E11	Consequence:T30 Effect:T31 Cause:T32
+A15	Degree E11 Facilitate
+T31	Argument 3156 3163	do this
+T32	Argument 3137 3141	that
+T33	NonCausal 3210 3216	create
+E12	NonCausal:T33 Arg0:T34 Arg1:T35
+A16	Creation-termination E12
+T34	Argument 3187 3189	we
+T35	Argument 3167 3186	some kind of hybrid
+T36	Consequence 3070 3077	require
+E13	Consequence:T36 Effect:T37 Cause:T38
+A17	Degree E13 Facilitate
+T37	Argument 3026 3028	It
+T38	Argument 3078 3216	a new organization of our military and civilian components that are needed to do this -- some kind of hybrid we're going to have to create
+T39	NonCausal 3221 3223	As
+E14	NonCausal:T39 Arg0:T40 Arg1:T41
+A18	Temporal E14
+T40	Argument 3224 3289	the cadets and 5,000 people gathered to hear the speech applauded
+T41	Argument 3291 3410	Mr. Giuliani emphasized that he would not be inclined to pull out of the conflicts in Iraq or Afghanistan any time soon
+T43	Argument 3415 3428	Final victory
+T44	Consequence 3434 3438	take
+E15	Consequence:T44 Effect:T43 Cause:T45
+A19	Degree E15 Facilitate
+A20	Temporal E15
+T45	Argument 3439 3443	time
+T46	Consequence 3471 3475	took
+E16	Consequence:T46 Effect:T47 Cause:T48
+A21	Degree E16 Facilitate
+A22	Temporal E16
+T47	Argument 3458 3470	The cold war
+T48	Argument 3476 3481	years
+T49	Motivation 3653 3656	for
+E17	Motivation:T49 Effect:T50 Cause:T51
+A23	Degree E17 Facilitate
+T50	Argument 3633 3652	Thanking the cadets
+T51	Argument 3657 3670	their service
+T52	Consequence 3897 3902;3908 3910	allow to
+E18	Consequence:T52 Cause:T54 Effect:T53
+A24	Degree E18 Facilitate
+A25	Obligation-permission E18
+T53	Argument 3903 3907;3911 3923	that happen again
+T54	Argument 3881 3883	He
+T57	Argument 3989 4026	the size of the military is decreased
+T59	Motivation 4027 4034	because
+E20	Motivation:T59 Effect:T57 Cause:T60
+A28	Degree E20 Facilitate
+T60	Argument 4035 4072	there is no war or overarching threat
+T61	Consequence 4107 4112	deter
+E21	Consequence:T61 Cause:T62 Effect:T64
+A29	Degree E21 Inhibit
+T62	Argument 4093 4097	that
+T63	Argument 4085 4092	a force
+R1	Coref Arg1:T62 Arg2:T63	
+T64	Argument 4113 4123	aggression
+T71	NonCausal 1423 1428	until
+E22	NonCausal:T71 Arg0:T72 Arg1:T73
+A30	Temporal E22
+T72	Argument 1429 1437	recently
+T73	Argument 1399 1419	the approach in Iraq
+T6	Purpose 3261 3263	to
+E23	Purpose:T6 Effect:T65 Cause:T66
+A31	Degree E23 Facilitate
+T65	Argument 3252 3260	gathered
+T66	Argument 3264 3279	hear the speech
+T42	Note 3984 3988	when
+#1	AnnotatorNotes T42	Seems to be really "which is defined as"
+T55	Argument 3100 3136	our military and civilian components
+R2	Coref Arg1:T32 Arg2:T55	

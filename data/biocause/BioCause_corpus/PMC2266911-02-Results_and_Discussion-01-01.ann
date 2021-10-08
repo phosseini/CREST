@@ -1,0 +1,166 @@
+T1	Organism 39 73	P. luminescens ssp. laumondii TT01
+T2	Organism 78 100	Y. enterocolitica 8081
+T3	Organism 283 297	P. luminescens
+T4	Organism 423 437	P. luminescens
+T5	Organism 448 465	Y. enterocolitica
+T6	Organism 1375 1389	P. luminescens
+T7	Organism 1394 1411	Y. enterocolitica
+T8	Organism 1737 1751	P. luminescens
+T9	Organism 1756 1773	Y. enterocolitica
+T10	Organism 2505 2526	Mycoplasma genitalium
+T11	Organism 2536 2553	Syncheocystes spp
+T12	Organism 2602 2616	P. luminescens
+T13	Organism 2628 2645	Y. enterocolitica
+T14	Organism 2753 2770	Y. enterocolitica
+T15	Organism 2979 2993	P. luminescens
+T16	Organism 3064 3080	H. bacteriophora
+T17	Organism 3183 3200	Y. enterocolitica
+T18	Organism 3215 3229	P. luminescens
+T19	Two-component-system 3252 3261	CitA/CitB
+T20	Protein 3252 3256	CitA
+T21	Protein 3257 3261	CitB
+T22	Two-component-system 3270 3283	YE2505/YE2506
+T23	Protein 3270 3276	YE2505
+T24	Protein 3277 3283	YE2506
+T25	Two-component-system 3288 3301	YE2654/YE2655
+T26	Protein 3288 3294	YE2654
+T27	Protein 3295 3301	YE2655
+T28	Two-component-system 3314 3323	LytS/LytR
+T29	Protein 3314 3318	LytS
+T30	Protein 3319 3323	LytR
+T31	Two-component-system 3332 3345	YE1228/YE1227
+T32	Protein 3332 3338	YE1228
+T33	Protein 3339 3345	YE1227
+T34	Two-component-system 3350 3363	YE4014/YE4015
+T35	Protein 3350 3356	YE4014
+T36	Protein 3357 3363	YE4015
+T37	Two-component-system 3459 3473	Plu0102/Plu103
+T38	Protein 3459 3466	Plu0102
+T39	Protein 3467 3473	Plu103
+T40	Two-component-system 3478 3491	YE4185/YE4186
+T41	Protein 3478 3484	YE4185
+T42	Protein 3485 3491	YE4186
+T43	Organism 3518 3530	Photorhabdus
+T44	Organism 3535 3543	Yersinia
+T45	Protein 3565 3572	Plu0102
+T46	Protein 3577 3583	YE4185
+T47	Protein 3810 3817	Plu0102
+T48	Protein 3822 3828	YE4185
+T49	Two-component-system 3932 3947	Plu0102/Plu0103
+T50	Protein 3932 3939	Plu0102
+T51	Protein 3940 3947	Plu0103
+T52	Two-component-system 3952 3965	Ye4185/Ye4186
+T53	Protein 3952 3958	Ye4185
+T54	Protein 3959 3965	Ye4186
+T55	Protein 3967 3974	plu0104
+T56	Protein 3979 3985	ye4187
+T57	Two-component-system 4183 4192	PhoP/PhoQ
+T58	Protein 4183 4187	PhoP
+T59	Protein 4188 4192	PhoQ
+T60	Two-component-system 4198 4207	AstS/AstR
+T61	Protein 4198 4202	AstS
+T62	Protein 4203 4207	AstR
+T63	Two-component-system 4209 4218	BvgS/BvgR
+T64	Protein 4209 4213	BvgS
+T65	Protein 4214 4218	BvgR
+T66	Two-component-system 4293 4302	PhoP/PhoQ
+T67	Protein 4293 4297	PhoP
+T68	Protein 4298 4302	PhoQ
+T69	Organism 4376 4386	Salmonella
+T70	Organism 4487 4508	Y. pseudotuberculosis
+T71	Organism 4521 4535	P. luminescens
+T72	Regulon-operon 4577 4582	pbgPE
+T73	Protein 4577 4581	pbgP
+T74	Protein 4581 4582	E
+T75	Chemical 4611 4618	lipid A
+T76	Protein 4732 4736	PhoP
+T77	Organism 4790 4799	Y. pestis
+T78	Organism 4826 4843	Y. enterocolitica
+T79	Two-component-system 4905 4914	AstS/AstR
+T80	Protein 4905 4909	AstS
+T81	Protein 4910 4914	AstR
+T82	Organism 4984 4998	P. luminescens
+T83	Two-component-system 5005 5014	BvgS/BvgR
+T84	Protein 5005 5009	BvgS
+T85	Protein 5010 5014	BvgR
+T86	Organism 5029 5046	Y. enterocolitica
+T87	Two-component-system 5067 5076	AstS/AstR
+T88	Protein 5067 5071	AstS
+T89	Protein 5072 5076	AstR
+T90	Organism 5086 5103	Y. enterocolitica
+T91	Organism 5237 5254	Y. enterocolitica
+T92	Organism 5259 5273	P. luminescens
+T93	Two-component-system 5286 5295	KdpD/KdpE
+T94	Protein 5286 5290	KdpD
+T95	Protein 5291 5295	KdpE
+T96	Organism 5403 5417	P. luminescens
+T97	Two-component-system 5558 5567	KdpD/KdpE
+T98	Protein 5558 5562	KdpD
+T99	Protein 5563 5567	KdpE
+T100	Organism 5680 5697	Y. enterocolitica
+T101	Organism 5715 5729	P. luminescens
+T102	Organism 5740 5757	Y. enterocolitica
+T103	Two-component-system 5761 5770	TctE/TctD
+T104	Protein 5761 5765	TctE
+T105	Protein 5766 5770	TctD
+T106	Organism 5840 5853	Y. intermedia
+T107	Organism 5858 5874	Y. frederiksenii
+T108	Two-component-system 5905 5914	TctE/TctD
+T109	Protein 5905 5909	TctE
+T110	Protein 5910 5914	TctD
+T111	Organism 6043 6053	Salmonella
+T112	Organism 6055 6067	Burkholderia
+T113	Organism 6069 6082	Agrobacterium
+T114	Organism 6084 6094	Bordetella
+T115	Organism 6096 6107	Collinsella
+T116	Organism 6109 6116	Xylella
+T117	Organism 6118 6129	Xanthomonas
+T118	Organism 6135 6146	Pseudomonas
+T119	Organism 6161 6175	P. entomophila
+T120	Organism 6268 6282	P. luminescens
+T121	Organism 6291 6308	Y. enterocolitica
+T122	Organism 6531 6545	P. luminescens
+T123	Organism 6547 6564	Y. enterocolitica
+T124	Process 1416 1426	challenged
+T125	Process 2110 2119	virulence
+T126	Regulation 4253 4261	involved
+T127	Process 4265 4274	virulence
+T128	Process 4317 4326	virulence
+T129	Process 4474 4483	virulence
+T130	Gene_expression 4559 4569	expression
+T131	Regulation 4641 4653	plays a role
+T132	Process 4674 4683	infection
+T133	Process 4777 4786	virulence
+T134	Process 5179 5188	virulence
+T135	Regulation 5189 5199	regulation
+E1	Process:T124 Participant:T6
+E2	Process:T124 Participant:T7
+E3	Process:T125 
+E4	Regulation:T126 Theme:E7 Cause:T57
+E5	Regulation:T126 Theme:E7 Cause:T60
+E6	Regulation:T126 Theme:E7 Cause:T63
+E7	Process:T127 
+E8	Process:T128 
+E9	Process:T129 Participant:T70
+E10	Gene_expression:T130 Theme:T72
+E11	Regulation:T131 Theme:E12 Cause:E10
+E12	Process:T132 Participant:T71
+E13	Process:T133 Participant:T77
+E14	Process:T134 
+E15	Regulation:T135 Theme:E14
+T136	Span 3435 3543	Interestingly, one TCS (Plu0102/Plu103 and YE4185/YE4186) is unique for the genera Photorhabdus and Yersinia
+T137	Span 3645 3797	They are anchored to the membrane with one transmembrane domain, and have a large periplasmic sensing domain which is proposed to bind a specific ligand
+T138	Span 3545 3643	Both sensor kinases Plu0102 and YE4185 are of moderate similarity (31.5% identity, 48.5% homology)
+T139	Causality 3799 3808	Therefore
+E16	Causality:T139 Effect:T140 Evidence:T137
+T140	Span 3810 3901	Plu0102 and YE4185 are interesting candidates for unravelling invertebrate-specific signals
+E17	Causality:T139 Effect:T140 Evidence:T138
+E18	Causality:T139 Effect:T140 Evidence:T136
+T141	Span 4518 4631	In P. luminescens, this TCS controls the expression of the pbgPE operon which is involved in lipid A modification
+T142	Causality 4636 4640	thus
+E19	Causality:T142 Evidence:T141 Effect:T143
+T143	Span 4641 4709	plays a role in colonization and infection of the invertebrate hosts
+T144	Span 5353 5455	It has recently been found that the Kdp-system of P. luminescens is important for insect pathogenicity
+T145	Causality 5543 5552	Therefore
+E20	Causality:T145 Evidence:T144 Effect:T146
+T146	Span 5554 5697	the KdpD/KdpE system is also a further candidate system which might be involved in the regulation of insecticidal activity of Y. enterocolitica

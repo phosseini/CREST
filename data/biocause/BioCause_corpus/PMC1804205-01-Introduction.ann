@@ -1,0 +1,82 @@
+T1	Organism 232 271	Salmonella enterica serovar Typhimurium
+T2	Organism 406 416	Salmonella
+T3	Organism 618 628	Salmonella
+T4	Organism 1169 1179	Salmonella
+T5	Organism 1448 1458	Salmonella
+T6	Organism 1624 1634	Salmonella
+T7	Organism 1718 1728	Salmonella
+T8	Protein 1824 1828	PmrA
+T9	Organism 2055 2065	Salmonella
+T10	Protein 2112 2116	PmrA
+T11	Protein 2155 2159	PmrB
+T12	Organism 2233 2237	mice
+T13	Organism 2272 2279	chicken
+T14	Chemical 2402 2413	polymyxin B
+T15	Chemical 2454 2458	Fe3+
+T16	Chemical 2486 2490	Al3+
+T17	Protein 2536 2540	PmrA
+T18	Chemical 2639 2655	ipopolysacharide
+T19	Chemical 2657 2660	LPS
+T20	Chemical 2686 2693	lipid A
+T21	Protein 2889 2893	PmrA
+T22	Organism 3039 3049	Salmonella
+T23	Protein 3148 3152	PmrA
+T24	Chemical 3212 3216	Fe3+
+T25	Chemical 3220 3224	Al3+
+T26	Protein 3259 3263	PmrB
+T27	Chemical 3340 3344	Mg2+
+T28	Chemical 3392 3396	Mg2+
+T29	Protein 3415 3419	PmrA
+T30	Protein 3437 3441	PhoQ
+T31	Chemical 3479 3483	Mg2+
+T32	Protein 3515 3519	PhoQ
+T33	Protein 3540 3544	PhoP
+T34	Protein 3554 3558	PhoP
+T35	Protein 3577 3581	PmrD
+T36	Protein 3627 3631	PmrD
+T37	Protein 3668 3672	PmrA
+T38	Protein 3713 3717	PmrB
+T39	Protein 3763 3767	PmrA
+T40	Protein 3792 3796	PmrB
+T41	Protein 4010 4014	PmrD
+*	Equiv T18 T19
+T42	Process 2220 2229	virulence
+T43	Process 2259 2268	infection
+T44	Positive_regulation 3397 3407	activation
+T45	Positive_regulation 3428 3436	requires
+T46	Positive_regulation 3559 3568	activated
+T47	Binding 3632 3637	binds
+T48	Phosphorylation 3645 3659	phosphorylated
+E1	Process:T42 
+E2	Process:T43 
+E3	Positive_regulation:T44 Theme:T29
+E4	Positive_regulation:T45 Theme:E3 Cause:T30
+E5	Positive_regulation:T46 Theme:T35 Cause:T34
+E6	Binding:T47 Theme1:T36 Theme2:T37
+E7	Phosphorylation:T48 Theme:T37
+T49	Causality 1788 1797	regulated
+E8	Causality:T49 Cause:T50 Effect:T51
+T50	Fact 1708 1787	Growth of Salmonella in mild acid (pH 5.8) also promotes transcription of genes
+T51	Fact 1798 1828	by the response regulator PmrA
+T52	Span 1859 1953	The expression of these genes has been shown to be dispensable for the acid tolerance response
+T53	Causality 1977 1996	which suggests that
+E9	Causality:T53 Effect:T54 Evidence:T52
+T54	Span 1997 2106	there are still uncharacterized cellular function(s) that Salmonella needs to regulate in acidic environments
+T55	Fact 2108 2198	The PmrA protein and its cognate sensor kinase PmrB form a two-component regulatory system
+T56	Causality 2207 2219	required for
+E10	Causality:T56 Cause:T55 Effect:T57
+T57	Fact 2220 2237	virulence in mice
+T58	Fact 2259 2291	infection of chicken macrophages
+T59	Fact 2313 2327	growth in soil
+T60	Fact 2356 2413	resistance to the cationic peptide antibiotic polymyxin B
+T61	Fact 2440 2459	resistance to Fe3+-
+T62	Fact 2486 2507	Al3+-mediated killing
+E11	Causality:T56 Cause:T55 Effect:T58
+E12	Causality:T56 Cause:T55 Effect:T59
+E13	Causality:T56 Cause:T55 Effect:T60
+E14	Causality:T56 Cause:T55 Effect:T61
+E15	Causality:T56 Cause:T55 Effect:T62
+T63	Causality 1459 1469	results in
+E16	Causality:T63 Cause:T64 Effect:T65
+T64	Span 1417 1458	The acid tolerance response of Salmonella
+T65	Span 1470 1514	the synthesis of over 50 acid shock proteins

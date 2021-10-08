@@ -1,0 +1,69 @@
+T1	NonCausal 975 981	launch
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Creation-termination E1
+T2	Argument 953 969	more politicians
+T3	Argument 982 997	their campaigns
+T4	Note 1001 1020	backing initiatives
+#1	AnnotatorNotes T4	Should we have a "means" label for non-causal instances?
+T5	Consequence 1692 1698	giving
+E2	Consequence:T5 Cause:T6 Effect:T7
+A2	Degree E2 Facilitate
+T6	Argument 1637 1690	Corporations and museums are among the serious buyers
+T7	Argument 1699 1723	greater market stability
+T8	Motivation 1774 1778	When
+E3	Motivation:T8 Cause:T9 Effect:T10
+A3	Degree E3 Facilitate
+A4	Temporal E3
+T9	Argument 1779 1828	I see prints going into the hands of institutions
+T10	Argument 1830 1881	I know they aren't going to come back on the market
+T11	Motivation 3774 3781;3820 3822	prompts to
+E4	Motivation:T11 Cause:T12 Effect:T13
+A5	Degree E4 Facilitate
+T12	Argument 3738 3773	Growth of Japanese trade and travel
+T13	Argument 3782 3818;3823 3858	Beth Israel Medical Center, New York set up a bilingual medical practice
+T14	NonCausal 4668 4673	since
+E5	NonCausal:T14 Arg0:T15 Arg1:T16
+A6	Temporal E5
+T15	Argument 4674 4681	January
+T16	Argument 4682 4770	it has gotten more than 672 inquiries from people interested in starting diaper services
+T17	NonCausal 4785 4793	launched
+E6	NonCausal:T17 Arg0:T18 Arg1:T19
+A7	Creation-termination E6
+T18	Argument 4772 4784	Elisa Hollis
+T19	Argument 4794 4810	a diaper service
+T20	Motivation 4821 4828	because
+E7	Motivation:T20 Effect:T21 Cause:T22
+A8	Degree E7 Facilitate
+T21	Argument 4772 4820	Elisa Hollis launched a diaper service last year
+T22	Argument 4829 4881	State College, Pa., where she lives, didn't have one
+T23	Consequence 5009 5017	spurring
+E8	Consequence:T23 Effect:T24 Cause:T25
+A9	Degree E8 Facilitate
+T24	Argument 5018 5035	the move to cloth
+T25	Argument 5037 5112	diaper covers with Velcro fasteners that eliminate the need for safety pins
+T26	Consequence 2289 2291	as
+E9	Consequence:T26 Arg1:T27 Arg0:T28
+A10	Temporal E9
+T27	Argument 2197 2288	900 telephone service is expected to hit $500 million next year and near $2 billion by 1992
+T28	Argument 2292 2331	uses for the service continue to expand
+T29	Consequence 4056 4060	amid
+E10	Consequence:T29 Arg1:T30 Arg0:T31
+T30	Argument 4024 4055	DIAPER SERVICES make a comeback
+T31	Argument 4061 4091	growing environmental concerns
+A13	Degree E9 Facilitate
+A11	Context E10
+A12	Degree E10 Facilitate
+T32	Argument 5088 5112	the need for safety pins
+T33	Argument 5073 5077	that
+T34	Argument 5056 5072	Velcro fasteners
+T35	NonCausal 5078 5087	eliminate
+E11	NonCausal:T35 Arg1:T32 Arg0:T33
+A14	Creation-termination E11
+R1	Coref Arg1:T33 Arg2:T34	
+T36	Consequence 342 349	sparked
+E12	Consequence:T36 Effect:T37 Cause:T38
+A15	Degree E12 Facilitate
+T37	Argument 350 356	issues
+T38	Argument 334 341	citizen
+A16	Creation-termination E12
+#2	AnnotatorNotes E12	Bit of an odd usage (what does it mean for an issue to be initiated by citizens?)

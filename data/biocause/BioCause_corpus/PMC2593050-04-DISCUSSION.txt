@@ -1,0 +1,17 @@
+DISCUSSION 
+VicK is essential in B. subtilis [2] and S. aureus [3] but not in S. pneumoniae [7], S. mutans [8], and S. pyogenes [6].
+We successfully deleted the vicK gene of S. equi.
+Thus, VicK is not essential in S. equi.
+However, the DeltavicK mutant is attenuated in virulence in both mouse models of subcutaneous and intranasal S. equi infections, indicating that VicRK is important to virulence.
+The results provide the further evidence for the importance of VicRK to virulence of Gram-positive pathogens.
+S. equi DeltavicK mutant does not grow as well as the wild-type strain in both THY and blood, suggesting that the vicK deletion causes defect in growth, a plausible reason that likely contributes to the attenuation of S. equi virulence in the mouse infection models.
+This suggestion is further supported by the observations that both the wild-type and DeltavicK mutant strains are resistant to phagocytosis by PMNs, which suggest that VicRK is not required for the evasion of S. equi to the innate immunity.
+As introduced earlier, the various phenotypes have been described for the vicRK mutants of the various pathogens.
+Whether the phenotypes are specific to particular organisms is not known.
+The phenotypes of the S. equi DeltavicK mutant are similar to those of the S. pyogenes DeltavicK mutant [6], suggesting that the growth defect phenotype may be a common feature of the vicRK mutants of various Gram-positive pathogens.
+The DeltavicK mutant appears to possess the properties of a potential live vaccine.
+First, it is attenuated in virulence in the mouse infection models.
+Secondly, DeltavicK inoculation protects mice against subsequent infection with wild-type S. equi.
+Thirdly, most of the mice with intranasal DeltavicK infection produce mucosal IgA and systemic IgG specific to protective antigen SeM.
+However, whether DeltavicK can be an effective live vaccine and whether the DeltavicK mutant has any advantages over the current live S. equi vaccine require the test of the mutant in horses since S. equi does not naturally infect mice.
+We hope to perform this expensive test in future when funds are available.

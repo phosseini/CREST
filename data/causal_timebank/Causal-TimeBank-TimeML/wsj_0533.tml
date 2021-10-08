@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0533</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-30</TIMEX3></DCT>
+<TEXT>
+ Two rival bidders for Connaught BioSciences <EVENT eid="e1" class="OCCURRENCE">extended</EVENT> their <EVENT eid="e2" class="I_ACTION">offers</EVENT> to <EVENT eid="e3" class="OCCURRENCE">acquire</EVENT> the Toronto-based vaccine manufacturer <TIMEX3 tid="t4" type="DATE" value="1989-10-27" anchorTimeID="t0" functionInDocument="NONE">Friday</TIMEX3>.
+ Institut Merieux S.A., which <EVENT eid="e5" class="OCCURRENCE">offered</EVENT> 942 million Canadian dollars ( US $ 801.2 million ), or C $ 37 a share for Connaught, <EVENT eid="e6" class="REPORTING">said</EVENT> it would <EVENT eid="e7" class="OCCURRENCE">extend</EVENT> its <EVENT eid="e8" class="OCCURRENCE">bid</EVENT>, due to <EVENT eid="e9" class="OCCURRENCE">expire</EVENT> <TIMEX3 tid="t10" type="DATE" value="1989-10-26" anchorTimeID="t0" functionInDocument="NONE">last Thursday</TIMEX3>, to <TIMEX3 tid="t11" type="DATE" value="1989-11-06" anchorTimeID="t0" functionInDocument="NONE">Nov. 6</TIMEX3>.
+ A C $ 30-a-share <EVENT eid="e12" class="OCCURRENCE">bid</EVENT> by Ciba - Geigy Ltd., a pharmaceutical company based in Basel, Switzerland, and California-based Chiron Corp., a bioresearch concern, was <EVENT eid="e13" class="OCCURRENCE">extended</EVENT> to <TIMEX3 tid="t14" type="DATE" value="1989-11-16" anchorTimeID="t0" functionInDocument="NONE">Nov. 16</TIMEX3>.
+ It had been due to <EVENT eid="e15" class="OCCURRENCE">expire</EVENT> <TIMEX3 tid="t16" type="TIME" value="1989-10-27TEV" anchorTimeID="t0" functionInDocument="NONE">Friday evening</TIMEX3>.
+ Merieux previously <EVENT eid="e17" class="REPORTING">said</EVENT> it would <EVENT eid="e18" class="I_ACTION">ensure</EVENT> its bid <EVENT eid="e19" class="ASPECTUAL">remained</EVENT> open pending a final <EVENT eid="e20" class="I_ACTION">decision</EVENT> by Canadian regulators on whether to <EVENT eid="e21" class="I_ACTION">approve</EVENT> the <EVENT eid="e22" class="OCCURRENCE">takeover</EVENT>.
+ Merieux, a vaccine and bioresearch firm based in Lyon, France, is controlled 50.1 % by state-owned Rhone Poulenc S.A.
+ The Canadian government previously <EVENT eid="e23" class="REPORTING">said</EVENT> Merieux's bid didn't <EVENT eid="e24" class="I_STATE">offer</EVENT> enough " net benefit " to Canada to be approved, and <EVENT eid="e25" class="OCCURRENCE">gave</EVENT> Merieux an until <TIMEX3 tid="t26" type="DATE" value="1989-11" anchorTimeID="t0" functionInDocument="NONE">mid-November</TIMEX3> to <EVENT eid="e27" class="OCCURRENCE">submit</EVENT> additional information.
+ Merieux officials <EVENT eid="e28" class="REPORTING">said</EVENT> <TIMEX3 tid="t29" type="DATE" value="1989-WXX" anchorTimeID="t0" functionInDocument="NONE">last week</TIMEX3> that they are " highly confident " the offer will be <EVENT eid="e30" class="OCCURRENCE">approved</EVENT> once it <EVENT eid="e31" class="OCCURRENCE">submits</EVENT> details of its proposed investments to federal regulators.
+ Both offers are conditional on regulatory approvals and enough shares being tendered to give the bidders a majority of Connaught's shares outstanding.
+ Institut Merieux, which already holds a 12.5 % stake in Connaught, <EVENT eid="e32" class="REPORTING">said</EVENT> that at the <EVENT eid="e33" class="ASPECTUAL">close</EVENT> of business <TIMEX3 tid="t34" type="DATE" value="1989-10-26" anchorTimeID="t0" functionInDocument="NONE">Thursday</TIMEX3>, 5,745,188 shares of Connaught and C $ 44.3 million face amount of debentures, convertible into 1,826,596 common shares, had been <EVENT eid="e35" class="OCCURRENCE">tendered</EVENT> to its <EVENT eid="e36" class="OCCURRENCE">offer</EVENT>.
+ At the <EVENT eid="e37" class="ASPECTUAL">close</EVENT> of business <TIMEX3 tid="t38" type="DATE" value="1989-10-26" anchorTimeID="t0" functionInDocument="NONE">Thursday</TIMEX3>, Ciba - Geigy and Chiron <EVENT eid="e39" class="REPORTING">said</EVENT> 11,580 common shares had been <EVENT eid="e40" class="OCCURRENCE">tendered</EVENT> to their <EVENT eid="e41" class="OCCURRENCE">offer</EVENT>.
+ At last <EVENT eid="e42" class="REPORTING">report</EVENT>, Connaught <EVENT eid="e43" class="STATE">had</EVENT> 21.8 million shares outstanding.
+ Separately, the Ontario Supreme Court <EVENT eid="e44" class="REPORTING">said</EVENT> it will <EVENT eid="e45" class="I_ACTION">postpone</EVENT> indefinitely a <EVENT eid="e46" class="STATE">ruling</EVENT> on the lawsuit <EVENT eid="e47" class="OCCURRENCE">launched</EVENT> by the University of Toronto against Connaught in connection with the Merieux bid.
+ In a statement prepared by lawyers for the university and Connaught, the parties <EVENT eid="e48" class="REPORTING">said</EVENT> they <EVENT eid="e49" class="I_ACTION">agreed</EVENT> that <C-SIGNAL cid="c50">as a result of</C-SIGNAL> <EVENT eid="e51" class="I_STATE">reaching</EVENT> a C415 million research accord, " It is <EVENT eid="e52" class="STATE">unnecessary</EVENT> that there be a judgment on the merits { of the case } at this time. "
+ Lawyers for the two sides weren't immediately available for comment.
+ The university had <EVENT eid="e53" class="I_ACTION">sought</EVENT> an <EVENT eid="e54" class="OCCURRENCE">injunction</EVENT> blocking Connaught's board from <EVENT eid="e55" class="I_ACTION">recommending</EVENT> or <EVENT eid="e56" class="I_ACTION">supporting</EVENT> an <EVENT eid="e57" class="OCCURRENCE">offer</EVENT> for the company by Merieux.
+</TEXT>
+<MAKEINSTANCE eventID="e56" eiid="ei56" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e54" eiid="ei54" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e42" eiid="ei42" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e49" eiid="ei49" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e53" eiid="ei53" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e46" eiid="ei46" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e47" eiid="ei47" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e44" eiid="ei44" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e45" eiid="ei45" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e40" eiid="ei40" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e41" eiid="ei41" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e39" eiid="ei39" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e51" eiid="ei51" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e48" eiid="ei48" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e55" eiid="ei55" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e37" eiid="ei37" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e52" eiid="ei52" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e57" eiid="ei57" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t4"/>
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToEventInstance="ei2"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei6"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToEventInstance="ei1"/>
+<TLINK lid="l7" relType="IDENTITY" eventInstanceID="ei8" relatedToEventInstance="ei5"/>
+<TLINK lid="l8" relType="ENDED_BY" eventInstanceID="ei8" relatedToEventInstance="ei9"/>
+<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t10"/>
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t11"/>
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei12" relatedToEventInstance="ei2"/>
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei13" relatedToEventInstance="ei1"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei15" relatedToTime="t14"/>
+<TLINK lid="l14" relType="IS_INCLUDED" eventInstanceID="ei15" relatedToTime="t16"/>
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei17" relatedToEventInstance="ei6"/>
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei23" relatedToEventInstance="ei17"/>
+<TLINK lid="l17" relType="SIMULTANEOUS" eventInstanceID="ei23" relatedToEventInstance="ei25"/>
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei27" relatedToTime="t26"/>
+<TLINK lid="l19" relType="IS_INCLUDED" eventInstanceID="ei28" relatedToTime="t29"/>
+<TLINK lid="l20" relType="AFTER" eventInstanceID="ei30" relatedToEventInstance="ei31"/>
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei32" relatedToTime="t0"/>
+<TLINK lid="l22" relType="IS_INCLUDED" eventInstanceID="ei33" relatedToTime="t34"/>
+<TLINK lid="l23" relType="SIMULTANEOUS" eventInstanceID="ei35" relatedToEventInstance="ei33"/>
+<TLINK lid="l24" relType="IS_INCLUDED" eventInstanceID="ei37" relatedToTime="t38"/>
+<TLINK lid="l25" relType="IS_INCLUDED" eventInstanceID="ei39" relatedToEventInstance="ei37"/>
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei42" relatedToTime="t0"/>
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei44" relatedToTime="t0"/>
+<TLINK lid="l28" relType="AFTER" eventInstanceID="ei45" relatedToEventInstance="ei47"/>
+<TLINK lid="l29" relType="BEFORE" eventInstanceID="ei48" relatedToTime="t0"/>
+<TLINK lid="l30" relType="AFTER" eventInstanceID="ei49" relatedToEventInstance="ei51"/>
+<TLINK lid="l32" relType="BEFORE" eventInstanceID="ei53" relatedToTime="t0"/>
+<CLINK lid="l31" c-signalID="c50" eventInstanceID="ei51" relatedToEventInstance="ei52"/>
+<CLINK lid="l33" eventInstanceID="ei54" relatedToEventInstance="ei55"/>
+<CLINK lid="l34" eventInstanceID="ei54" relatedToEventInstance="ei56"/>
+</TimeML>

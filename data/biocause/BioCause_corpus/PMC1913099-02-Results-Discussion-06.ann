@@ -1,0 +1,27 @@
+*	Equiv T4 T3
+T19	Process 1201 1210	virulence
+T20	Positive_regulation 1438 1450	upregulation
+E1	Process:T19 
+E2	Positive_regulation:T20 Theme:T16
+T1	Chemical 373 379	folate
+T2	Chemical 703 706	ATP
+T3	Protein 952 956	RopB
+T4	Protein 969 976	spy2042
+T5	Protein 995 998	Rgg
+T6	Protein 1120 1123	mga
+T7	Two-component-system 1125 1130	csrRS
+T8	Protein 1125 1129	csrR
+T9	Protein 1129 1130	S
+T10	Protein 1132 1136	sagA
+T11	Regulon-operon 1142 1148	fasBCA
+T12	Protein 1142 1146	fasB
+T13	Protein 1146 1147	C
+T14	Protein 1147 1148	A
+T15	Protein 1314 1318	RopB
+T16	Two-component-system 1500 1512	spy1236-1237
+T17	Protein 1500 1507	spy1236
+T18	Protein 1508 1512	1237
+T21	Span 753 937	We also identified the adherence-mediated upregulation of four transcriptional regulators (Table 1), suggestive of an adaptive response to host cell contact that is dynamic and complex
+T22	Span 939 1256	For example, RopB (encoded by spy2042), a member of the Rgg family of response regulators, interacts with a number of regulatory networks throughout the streptococcal genome (e.g., mga, csrRS, sagA, and fasBCA), affecting the transcription of numerous proteins, virulence factors, and two-component regulatory systems
+T23	Causality 939 939	
+E3	Causality:T23 Evidence:T21 Effect:T22

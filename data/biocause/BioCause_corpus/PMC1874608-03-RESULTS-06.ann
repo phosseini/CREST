@@ -1,0 +1,122 @@
+T1	Protein 23 26	Mlc
+T2	Regulon-operon 23 26	Mlc
+T3	Protein 43 47	hilD
+T4	Protein 73 77	hilE
+T5	Protein 96 99	Mlc
+T6	Protein 157 164	IICBGlc
+T7	Protein 187 190	Mlc
+T8	Protein 283 286	Mlc
+T9	Regulon-operon 283 286	Mlc
+T10	Chemical 313 320	glucose
+T11	Chemical 349 356	mannose
+T12	Protein 422 426	hilE
+T13	Protein 431 435	hilD
+T14	Protein 458 461	Mlc
+T15	Chemical 487 494	glucose
+T16	Chemical 499 506	mannose
+T17	Protein 516 519	Mlc
+T18	Chemical 556 565	arabinose
+T19	Chemical 570 578	glycerol
+T20	Organism 580 586	SL1344
+T21	Organism 591 597	SR1304
+T22	Regulon-operon 622 632	hilE-lacZY
+T23	Protein 622 626	hilE
+T24	Protein 627 631	lacZ
+T25	Protein 631 632	Y
+T26	Regulon-operon 643 653	hilD-lacZY
+T27	Protein 643 647	hilD
+T28	Protein 648 652	lacZ
+T29	Protein 652 653	Y
+T30	Chemical 715 719	MOPS
+T31	Chemical 836 843	glucose
+T32	Chemical 848 855	mannose
+T33	Protein 866 870	hilE
+T34	Protein 893 897	hilE
+T35	Protein 917 921	hilD
+T36	Protein 970 974	hilE
+T37	Protein 979 983	hilD
+T38	Chemical 1030 1038	glycerol
+T39	Chemical 1055 1064	arabinose
+T40	Protein 1080 1084	hilE
+T41	Chemical 1124 1131	glucose
+T42	Chemical 1135 1142	mannose
+T43	Protein 1191 1195	hilD
+T44	Protein 1238 1241	mlc
+T45	Protein 1261 1265	hilE
+T46	Protein 1319 1323	hilD
+T47	Organism 1373 1379	SR1304
+T48	Protein 1388 1392	hilE
+T49	Protein 1397 1401	hilD
+T50	Chemical 1435 1442	glucose
+T51	Chemical 1444 1451	mannose
+T52	Chemical 1455 1464	arabinose
+T53	Protein 1554 1558	hilE
+T54	Protein 1563 1567	hilD
+T55	Negative_regulation 35 42	repress
+T56	Gene_expression 48 58	expression
+T57	Positive_regulation 62 72	activating
+T58	Phosphorylation 107 123	unphosphorylated
+T59	Positive_regulation 302 309	induced
+T60	Gene_expression 408 418	expression
+T61	Positive_regulation 856 865	increased
+T62	Gene_expression 871 881	expression
+T63	Positive_regulation 898 908	activation
+T64	Negative_regulation 909 916	reduced
+T65	Gene_expression 922 932	expression
+T66	Gene_expression 949 959	expression
+T67	Regulation 1000 1010	unaffected
+T68	Positive_regulation 1070 1079	activated
+T69	Positive_regulation 1179 1187	increase
+T70	Gene_expression 1196 1206	expression
+T71	Gene_expression 1266 1276	expression
+T72	Negative_regulation 1306 1315	reduction
+T73	Gene_expression 1324 1334	expression
+T74	Gene_expression 1359 1369	expression
+T75	Positive_regulation 1406 1415	increased
+T76	Regulation 1540 1550	regulation
+E1	Negative_regulation:T55 Theme:E2 Cause:E3
+E2	Gene_expression:T56 Theme:T3
+E3	Positive_regulation:T57 Theme:T4 Cause:T2
+E4	Phosphorylation:T58 Theme:T6
+M1	Negation E4
+E5	Positive_regulation:T59 Theme:T9 Cause:T10
+E6	Gene_expression:T60 Theme:T12
+E7	Gene_expression:T60 Theme:T13
+E8	Positive_regulation:T61 Theme:E10 Cause:T32
+E9	Positive_regulation:T61 Theme:E10 Cause:T31
+E10	Gene_expression:T62 Theme:T33
+E11	Positive_regulation:T63 Theme:T34
+E12	Negative_regulation:T64 Theme:E13 Cause:E11
+E13	Gene_expression:T65 Theme:T35
+E14	Gene_expression:T66 Theme:T36
+E15	Gene_expression:T66 Theme:T37
+E16	Regulation:T67 Theme:E14
+M2	Negation E16
+E17	Regulation:T67 Theme:E15
+M3	Negation E17
+E18	Positive_regulation:T68 Theme:T40 Cause:T39
+E19	Positive_regulation:T69 Theme:E20
+E20	Gene_expression:T70 Theme:T43
+E21	Gene_expression:T71 Theme:T45
+E22	Negative_regulation:T72 Theme:E23
+E23	Gene_expression:T73 Theme:T46
+E24	Gene_expression:T74 Theme:T48
+E25	Gene_expression:T74 Theme:T49
+E26	Positive_regulation:T75 Theme:E24
+E27	Positive_regulation:T75 Theme:E25
+E28	Regulation:T76 Theme:T53
+E29	Regulation:T76 Theme:T54
+T80	Causality 219 226	thereby
+E31	Causality:T80 Effect:T82 Cause:T81
+T81	Span 79 217	Sequestration of Mlc by the unphosphorylated form of glucose permease, enzyme IICBGlc, is known to displace Mlc from its DNA-binding sites
+T82	Span 227 269	allowing transcription of its target genes
+T83	Span 1055 1142	arabinose also activated hilE, albeit to a lesser degree than either glucose or mannose
+T84	Causality 1158 1169	this caused
+E32	Causality:T84 Effect:T85 Cause:T83
+T85	Span 1170 1206	a minute increase in hilD expression
+T86	Span 1208 1334	In the absence of sugars, the mlc mutation increased hilE expression 1.5-fold, with a concomitant reduction in hilD expression
+T87	Span 1355 1464	the expression in SR1304 of both hilE and hilD was increased in the presence of glucose, mannose or arabinose
+T88	Causality 1466 1490	These results imply that
+E33	Causality:T88 Effect:T89 Evidence:T87
+T89	Span 1491 1584	multiple regulatory pathways are involved in the regulation of hilE and hilD by carbohydrates
+E34	Causality:T88 Effect:T89 Evidence:T86

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0752</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-27</TIMEX3></DCT>
+<TEXT>
+ AEP INDUSTRIES Inc. directors <EVENT eid="e1" class="I_ACTION">authorized</EVENT> a 3-for-2 <EVENT eid="e2" class="OCCURRENCE">split</EVENT> of the common, payable <TIMEX3 tid="t3" type="DATE" value="1989-12-07" anchorTimeID="t0" functionInDocument="NONE">Dec. 7</TIMEX3> to stock of record <TIMEX3 tid="t4" type="DATE" value="1989-11-22" anchorTimeID="t0" functionInDocument="NONE">Nov. 22</TIMEX3>.
+ The <EVENT eid="e5" class="OCCURRENCE">split</EVENT> was <EVENT eid="e6" class="I_STATE">aimed</EVENT> at <EVENT eid="e7" class="I_ACTION">boosting</EVENT> the stock's liquidity, <EVENT eid="e8" class="REPORTING">said</EVENT> Brendan Barba, chairman of the Moonachie, N.J., maker of plastic film products.
+ After the <EVENT eid="e9" class="OCCURRENCE">split</EVENT>, the company will <EVENT eid="e10" class="STATE">have</EVENT> more than 4.7 million shares outstanding.
+ In national over-the-counter <EVENT eid="e11" class="OCCURRENCE">trading</EVENT> <TIMEX3 tid="t12" type="DATE" value="1989-10-26" anchorTimeID="t0" functionInDocument="NONE">yesterday</TIMEX3>, AEP shares <EVENT eid="e13" class="OCCURRENCE">closed</EVENT> at $ 21.25, down 50 cents.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="IDENTITY" eventInstanceID="ei2" relatedToEventInstance="ei5"/>
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToEventInstance="ei6"/>
+<TLINK lid="l4" relType="IDENTITY" eventInstanceID="ei5" relatedToEventInstance="ei9"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei8" relatedToTime="t0"/>
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei10" relatedToEventInstance="ei9"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0"/>
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t12"/>
+<TLINK lid="l9" relType="ENDED_BY" eventInstanceID="ei11" relatedToEventInstance="ei13"/>
+</TimeML>

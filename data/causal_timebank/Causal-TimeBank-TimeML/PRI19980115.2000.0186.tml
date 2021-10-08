@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>PRI19980115.2000.0186</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-01-15" temporalFunction="false" functionInDocument="CREATION_TIME">1998-01-15</TIMEX3></DCT>
+<TEXT>
+ Former savings and loan chief, Charles Keating, is <EVENT eid="e1" class="I_STATE">facing</EVENT> more legal troubles in California.
+ A federal appeals court has <EVENT eid="e2" class="ASPECTUAL">reinstated</EVENT> his state <EVENT eid="e3" class="STATE">convictions</EVENT> for securities <EVENT eid="e4" class="OCCURRENCE">fraud</EVENT>.
+ NPR's Elaine Corey has more from San Francisco.
+ In <TIMEX3 tid="t5" type="DATE" value="1991" functionInDocument="NONE">nineteen ninety-one</TIMEX3> Charles Keating was <EVENT eid="e6" class="OCCURRENCE">convicted</EVENT> in state court of <EVENT eid="e7" class="I_ACTION">helping</EVENT> to <EVENT eid="e8" class="OCCURRENCE">defraud</EVENT> thousands of investors who <EVENT eid="e9" class="OCCURRENCE">bought</EVENT> high risk junk bonds <EVENT eid="e10" class="OCCURRENCE">sold</EVENT> by Keating's employees at Lincoln savings and loan.
+ The bonds <EVENT eid="e11" class="OCCURRENCE">became</EVENT> worthless when the bankrupt thrift was <EVENT eid="e12" class="OCCURRENCE">seized</EVENT> by government regulators.
+ Keating's <EVENT eid="e13" class="STATE">convictions</EVENT> were <EVENT eid="e14" class="OCCURRENCE">thrown</EVENT> out in <TIMEX3 tid="t15" type="DATE" value="1996" functionInDocument="NONE">nineteen ninety-six</TIMEX3> on a technicality.
+ And on that basis Keating was <EVENT eid="e16" class="OCCURRENCE">released</EVENT> from prison before he was <EVENT eid="e17" class="STATE">eligible</EVENT> for <EVENT eid="e18" class="OCCURRENCE">parole</EVENT>.
+ <TIMEX3 tid="t19" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">Now</TIMEX3> the ninth US circuit court of appeals has <EVENT eid="e20" class="I_ACTION">ruled</EVENT> that the original <EVENT eid="e21" class="OCCURRENCE">appeal</EVENT> was <EVENT eid="e22" class="STATE">flawed</EVENT> <C-SIGNAL cid="c23">since</C-SIGNAL> it <EVENT eid="e24" class="OCCURRENCE">brought</EVENT> up issues that had not been <EVENT eid="e25" class="OCCURRENCE">raised</EVENT> before.
+ That <EVENT eid="e26" class="I_STATE">means</EVENT> the convictions <EVENT eid="e27" class="ASPECTUAL">stand</EVENT>, a <EVENT eid="e28" class="OCCURRENCE">ruling</EVENT> likely to <EVENT eid="e29" class="OCCURRENCE">send</EVENT> Keating's lawyers back to state court where they must <EVENT eid="e30" class="ASPECTUAL">start</EVENT> over with a new <EVENT eid="e31" class="I_ACTION">appeal</EVENT>.
+ Elaine Corey, NPR news, San Francisco.
+</TEXT>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PAST" aspect="PERFECTIVE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="NONE" aspect="NONE" polarity="POS" modality="must" pos="NOUN"/>
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei2" relatedToTime="t0"/>
+<TLINK lid="l3" relType="IDENTITY" eventInstanceID="ei2" relatedToEventInstance="ei27"/>
+<TLINK lid="l4" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei4"/>
+<TLINK lid="l5" relType="IBEFORE" eventInstanceID="ei6" relatedToEventInstance="ei3"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t5"/>
+<TLINK lid="l7" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei7"/>
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei8"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t5"/>
+<TLINK lid="l10" relType="SIMULTANEOUS" eventInstanceID="ei9" relatedToEventInstance="ei10"/>
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei11" relatedToEventInstance="ei10"/>
+<TLINK lid="l12" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei12"/>
+<TLINK lid="l13" relType="IDENTITY" eventInstanceID="ei13" relatedToEventInstance="ei3"/>
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei13" relatedToEventInstance="ei14"/>
+<TLINK lid="l15" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t15"/>
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei14" relatedToEventInstance="ei16"/>
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei17"/>
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei18" relatedToTime="t0"/>
+<TLINK lid="l19" relType="BEFORE" timeID="t19" relatedToTime="t0"/>
+<TLINK lid="l20" relType="SIMULTANEOUS" timeID="t19" relatedToEventInstance="ei20"/>
+<TLINK lid="l21" relType="IBEFORE" eventInstanceID="ei21" relatedToEventInstance="ei14"/>
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei24" relatedToTime="t19"/>
+<TLINK lid="l24" relType="IS_INCLUDED" eventInstanceID="ei25" relatedToTime="t5"/>
+<TLINK lid="l25" relType="IBEFORE" eventInstanceID="ei25" relatedToEventInstance="ei6"/>
+<TLINK lid="l26" relType="IS_INCLUDED" eventInstanceID="ei26" relatedToTime="t0"/>
+<TLINK lid="l27" relType="IDENTITY" eventInstanceID="ei27" relatedToEventInstance="ei28"/>
+<TLINK lid="l28" relType="BEFORE" eventInstanceID="ei28" relatedToEventInstance="ei29"/>
+<TLINK lid="l29" relType="AFTER" eventInstanceID="ei29" relatedToTime="t0"/>
+<TLINK lid="l30" relType="BEFORE" eventInstanceID="ei29" relatedToEventInstance="ei30"/>
+<TLINK lid="l31" relType="BEGUN_BY" eventInstanceID="ei31" relatedToEventInstance="ei28"/>
+<CLINK lid="l23" c-signalID="c23" eventInstanceID="ei24" relatedToEventInstance="ei22"/>
+</TimeML>

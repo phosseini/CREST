@@ -1,0 +1,84 @@
+T1	NonCausal 373 379	before
+E1	NonCausal:T1 Arg1:T2 Arg0:T3
+A1	Temporal E1
+T2	Argument 380 411	they come up for final approval
+T3	Argument 289 364	all earmarks and their sponsors would be listed in The Congressional Record
+T4	Motivation 611 613	if
+E2	Motivation:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+A3	Hypothetical E2
+T5	Argument 578 610	he would bar earmarks completely
+T6	Argument 614 680	Republicans attacked individual projects to score political points
+T7	Purpose 655 657	to
+E3	Purpose:T7 Cause:T8 Effect:T9
+A4	Degree E3 Facilitate
+T8	Argument 658 680	score political points
+T9	Argument 614 654	Republicans attacked individual projects
+T10	Consequence 685 687	If
+E4	Consequence:T10 Cause:T11 Effect:T12
+A5	Degree E4 Facilitate
+A6	Hypothetical E4
+T11	Argument 688 813	they think they can demagogue the earmarks process all year long and expect Democrats to carry the burden of passing earmarks
+T12	Argument 815 828	they're wrong
+T13	Argument 1073 1077	that
+T14	Consequence 1078 1083	helps
+E5	Consequence:T14 Effect:T15 Cause:T13
+A7	Degree E5 Facilitate
+T15	Argument 1084 1116	endear lawmakers to constituents
+T16	Argument 1004 1012	earmarks
+R1	Coref Arg1:T13 Arg2:T16	
+T17	Consequence 1402 1406	make
+E6	Consequence:T17 Cause:T18 Effect:T19 Means:T20
+A8	Degree E6 Facilitate
+T18	Argument 1384 1389	rules
+T19	Argument 1407 1422;1423 1439	representatives more accountable
+T20	Argument 1443 1528	requiring for the first time the disclosure of which lawmakers requested each earmark
+T21	NonCausal 1443 1452	requiring
+E7	NonCausal:T21 Arg0:T18 Arg1:T22
+A10	Obligation-permission E7
+T22	Argument 1472 1528	the disclosure of which lawmakers requested each earmark
+T23	Motivation 1583 1587	when
+E8	Motivation:T23 Effect:T24 Cause:T25
+A11	Degree E8 Facilitate
+A12	Temporal E8
+T24	Argument 1550 1577	earmarks would be disclosed
+T25	Argument 1588 1689	House and Senate conference committees worked behind closed doors to prepare bills for final approval
+T26	Purpose 1654 1656	to
+E9	Purpose:T26 Effect:T27 Cause:T28
+A13	Degree E9 Facilitate
+#1	AnnotatorNotes E9	Maybe verb argument ("worked to")?
+T27	Argument 1588 1653	House and Senate conference committees worked behind closed doors
+T28	Argument 1657 1689	prepare bills for final approval
+T29	Consequence 1747 1759;1765 1767	insufficient to
+E10	Consequence:T29 Cause:T30 Effect:T31
+A14	Degree E10 Inhibit
+A15	Extremity-sufficiency E10
+T30	Argument 1747 1764	insufficient time
+T31	Argument 1768 1823	evaluate the thousands of requests for projects earlier
+T32	Motivation 1854 1858	from
+E11	Motivation:T32 Effect:T33 Cause:T34
+A16	Degree E11 Facilitate
+T33	Argument 1839 1853	still smarting
+T34	Argument 1859 1923	Democratic accusations of earmark abuse under Republican control
+T35	NonCausal 2298 2305	created
+E12	NonCausal:T35 Arg0:T36 Arg1:T37
+A17	Creation-termination E12
+T36	Argument 2285 2293	Mr. Obey
+T37	Argument 2306 2329	a complaints department
+T38	Consequence 2373 2383	guarantees
+E13	Consequence:T38 Effect:T39 Cause:T40
+A18	Degree E13 Facilitate
+T39	Argument 2384 2424	accountability for the American taxpayer
+T40	Argument 2368 2372	that
+T41	Argument 2335 2367	an open and deliberative process
+R2	Coref Arg1:T40 Arg2:T41	
+T42	Consequence 2576 2580	mean
+E14	Consequence:T42 Cause:T43 Effect:T44
+A19	Degree E14 Facilitate
+T43	Argument 2551 2569	the new procedures
+T44	Argument 2581 2622	much more accountability than in the past
+T45	Motivation 843 847	Then
+E15	Motivation:T45 Effect:T46
+A9	Degree E15 Facilitate
+A20	Hypothetical E15
+T46	Argument 848 885	there will be no earmarks for anybody

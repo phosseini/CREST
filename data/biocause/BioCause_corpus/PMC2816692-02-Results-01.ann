@@ -1,0 +1,79 @@
+*	Equiv T4 T3
+*	Equiv T6 T5
+T35	Regulation 248 257	regulated
+T36	Negative_regulation 282 291	repressed
+T37	Negative_regulation 373 387	down regulated
+T38	Regulation 946 951	input
+T39	Gene_expression 960 970	expression
+T40	Binding 989 996	binding
+T41	Binding 1140 1147	binding
+T42	Entity 1192 1215	intergenic region (IGR)
+T43	Regulation 1300 1315	regulatory role
+T44	Gene_expression 1333 1343	expression
+T45	Gene_expression 1438 1447	expressed
+T46	Negative_regulation 1588 1595	reduced
+T47	Localization 1708 1716	secreted
+T48	Regulation 1856 1865	regulated
+T49	Localization 1922 1930	secreted
+E1	Regulation:T35 Theme:T5
+E2	Negative_regulation:T36 Theme:T5
+E3	Negative_regulation:T37 Theme:T5
+E4	Regulation:T38 Theme:E5 Cause:T16
+M1	Speculation E4
+E5	Gene_expression:T39 Theme:T17
+E6	Binding:T40 Theme1:T18 Theme2:T19
+E7	Binding:T41 Theme1:T20 Theme2:T21 Site2:T42
+E8	Regulation:T43 Theme:E9 Cause:T22
+E9	Gene_expression:T44 Theme:T23
+E10	Gene_expression:T45 Theme:T26
+E11	Negative_regulation:T46 Theme:T29
+E12	Localization:T47 Theme:T29
+E13	Regulation:T48 Theme:T31 Cause:T32
+E14	Localization:T49 Theme:T31
+E15	Localization:T49 Theme:T31
+M2	Negation E15
+T1	Protein 30 34	SsrB
+T2	Protein 94 98	SsrB
+T3	Organism 118 149	S. enterica serovar Typhimurium
+T4	Organism 151 165	S. Typhimurium
+T5	Protein 204 211	STM2138
+T6	Protein 219 223	srcA
+T7	Organism 319 330	ssrB mutant
+T8	Protein 319 323	ssrB
+T9	Organism 391 401	Salmonella
+T10	Protein 422 426	SsrA
+T11	Protein 539 543	srcA
+T12	Protein 610 617	STM1378
+T13	Protein 618 625	STM1425
+T14	Protein 780 784	thrL
+T15	Protein 801 805	srcA
+T16	Protein 941 945	SsrB
+T17	Protein 955 959	srcA
+T18	Protein 984 988	SsrB
+T19	Protein 1038 1042	srcA
+T20	Protein 1135 1139	SsrB
+T21	Protein 1228 1232	srcA
+T22	Protein 1320 1324	SsrB
+T23	Protein 1328 1332	srcA
+T24	Protein 1350 1352	1A
+T25	Protein 1397 1401	SrcA
+T26	Protein 1419 1423	srcA
+T27	Organism 1478 1489	ssrB mutant
+T28	Protein 1478 1482	ssrB
+T29	Protein 1571 1575	SrcA
+T30	Organism 1620 1629	DeltassrB
+T31	Protein 1842 1846	SseC
+T32	Protein 1851 1855	SsrB
+T33	Organism 1977 1988	ssrB mutant
+T34	Protein 1977 1981	ssrB
+T50	Span 65 234	Transcriptional profiling of SsrB-regulated genes in S. enterica serovar Typhimurium (S. Typhimurium) [22] identified a hypothetical gene, STM2138 (named srcA hereafter)
+T51	Causality 236 240	that
+E16	Causality:T51 Effect:T52 Evidence:T50
+T52	Span 241 352	was co-regulated with genes in SPI-2 and repressed approximately20-fold in an ssrB mutant compared to wild type
+T53	Span 931 1073	To verify SsrB input on srcA expression, we analyzed SsrB binding in vivo at the region of DNA surrounding srcA using genome-wide ChIP-on-chip
+T54	Causality 1103 1125	This analysis revealed
+E17	Causality:T54 Effect:T55 Evidence:T53
+T55	Span 1126 1232	a strong SsrB binding site spanning 10 syntenic probes within the intergenic region (IGR) upstream of srcA
+T56	Causality 1234 1290	that together with the transcriptional data corroborated
+E18	Causality:T56 Effect:T57 Cause:T55
+T57	Span 1291 1343	a direct regulatory role for SsrB on srcA expression

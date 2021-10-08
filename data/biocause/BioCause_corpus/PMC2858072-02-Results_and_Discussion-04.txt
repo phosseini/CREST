@@ -1,0 +1,17 @@
+Virulence and the adaptation to intracellular growth 
+BvrR/bvrS mutants are unable to multiply intracellularly and are avirulent in the mouse model [4].
+Our microarray results demonstrated that at least 127 genes were differentially expressed in the bvrR mutant.
+Although this general expression changes could explain the complete loss of virulence of these mutants, it was remarkable the presence among them of ten genes, in addition to bvrS, whose products are already known to be associated with Brucella virulence [10], [11], [33], [34].
+These included the already mentioned vjbR, but also motB (BAB2_1103), malK (BAB1_0241), norC (BAB2_0955), oppA (BAB1_1601), aspB (BAB1_1397), mosA (BAB1_0666) and three genes encoding hypothetical proteins (BAB1_1717, BAB1_0597 y BAB2_1127).
+B. melitensis malK mutant and B. suis aspB mutant were attenuated in cellular model of infection, and B. melitensis mutants in vjbR, motB, oppA, mosA and the hypothetical proteins BAB1_0597, BAB1_1717, BAB2_1127 were attenuated in both cellular and mouse models of infection (for a review see [33], [34]).
+In addition, it has been demonstrated that some denitrification genes of the nor operon are required for Brucella virulence: norD in B. suis and norB in B. melitensis [10], [11].
+Most of the genes candidate to be regulated by BvrR/BvrS identified in our microarray experiments can be involved with the changes needed for intracellular survival of Brucella.
+In order to investigate if the BvrR/BvrS controlled genes were expressed intracellularly, bacterial RNA was obtained from B. abortus wild type recovered from infected cells as described in Material and Methods. The amount of bacterial RNA was not enough to perform microarray hybridizations.
+For this reason, the analysis of intracellular expression of 32 selected genes was done by RT-PCR by using total RNA from intracellular bacteria and from the same strain (B. abortus 2308) grown in laboratory conditions (Table 2).
+VirB8 (BAB2_0061) was used as control of intracellularly expressed gene [35].
+The results showed significant differences in the expression of at least fifteen genes controlled by BvrR/BvrS.
+The expression of genes vjbR, malF, norC, pckA, fumB, BAB1_0017 (fatty acids metabolism) and BAB1_1620 (LPS glycosyl transferase) were induced intracellularly.
+On the other hand, two genes for cell envelope proteins (omp25d and one lipoprotein) and three denitrification genes (norC, nirK and glutaminase BAB2_0863) were less expressed intracellularly.
+In conclusion, all these results and previous findings support the proposal that BvrR/BvrS controls a significantly broad set of phenotypes and define an important and coordinate gateway between the free-living and intracellular states of Brucella.
+However, 30 of the genes differentially expressed in the bvrR mutant compared with the parental strain have a yet uncharacterized function.
+This group may contain unknown essential information to completely understand the regulatory role of the BvrR/BvrS two-component regulatory system.

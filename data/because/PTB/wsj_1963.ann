@@ -1,0 +1,45 @@
+T1	Motivation 73 75	as
+E1	Motivation:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+A2	Temporal E1
+T2	Argument 0 72	Hopes for quick enactment of pending deficit-reduction legislation faded
+T3	Argument 76 166	efforts to streamline the House version in advance of a House-Senate conference broke down
+T4	Argument 225 388	getting an agreement from House committee chairmen under which they would drop items that wouldn't reduce the fiscal 1990 budget deficit from the House-passed bill
+T5	Argument 396 434	the negotiations with the Senate began
+T6	NonCausal 389 395	before
+E2	NonCausal:T6 Arg1:T5 Arg0:T4
+A4	Temporal E2
+T7	NonCausal 758 760	If
+E3	NonCausal:T7 Arg0:T8 Arg1:T9
+A5	Hypothetical E3
+T8	Argument 761 803	there is any support for reducing the bill
+T9	Argument 805 873	it is conditioned on their desire to see them passed in another form
+T10	Motivation 811 825	conditioned on
+E4	Motivation:T10 Effect:T11 Cause:T13
+A6	Degree E4 Facilitate
+T11	Argument 805 807	it
+T12	Argument 770 803	any support for reducing the bill
+R1	Coref Arg1:T11 Arg2:T12	
+T13	Argument 826 873	their desire to see them passed in another form
+T14	Motivation 1457 1463	unless
+E5	Motivation:T14 Effect:T15 Cause:T16
+A7	Degree E5 Inhibit
+T15	Argument 1361 1456	he would continue to press to keep the capital-gains provision in the final version of the bill
+T16	Argument 1464 1509	the House drops many of its costly provisions
+T17	Consequence 1705 1710	meant
+E6	Consequence:T17 Cause:T18 Effect:T19
+A8	Degree E6 Facilitate
+T18	Argument 1680 1704	Failure to pass the bill
+T19	Argument 1716 1816	$16.1 billion in across-the-board spending cuts took effect Monday under the Gramm-Rudman budget law
+T20	Consequence 1843 1849	before
+E7	Consequence:T20 Effect:T21 Cause:T22
+A9	Degree E7 Facilitate
+A10	Temporal E7
+T21	Argument 1850 1874	the cuts can be restored
+T22	Argument 1818 1842	The bill must be enacted
+T23	Motivation 116 129	in advance of
+E8	Motivation:T23 Cause:T25 Effect:T26
+A3	Degree E8 Facilitate
+A11	Temporal E8
+T25	Argument 130 155	a House-Senate conference
+T26	Argument 87 115	streamline the House version

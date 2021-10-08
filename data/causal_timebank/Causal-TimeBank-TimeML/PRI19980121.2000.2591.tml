@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>PRI19980121.2000.2591</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-01-21" temporalFunction="false" functionInDocument="CREATION_TIME">1998-01-21</TIMEX3></DCT>
+<TEXT>
+ Now for <TIMEX3 tid="t1" type="DATE" value="1998-01-21" anchorTimeID="t0" functionInDocument="NONE">today</TIMEX3>'s geography <EVENT eid="e2" class="OCCURRENCE">quiz</EVENT>.
+ We 're off in <EVENT eid="e3" class="OCCURRENCE">search</EVENT> of an ancient and exotic city.
+ An officially <EVENT eid="e4" class="OCCURRENCE">sanctioned</EVENT> one, too.
+ UNESCO <EVENT eid="e5" class="I_ACTION">declared</EVENT> it a protected site for its beauty and its historical significance.
+ The city could have <EVENT eid="e6" class="I_ACTION">used</EVENT> some special protection in <TIMEX3 tid="t7" type="DATE" value="1979" functionInDocument="NONE">nineteen seventy-nine</TIMEX3> when the Soviet Union <EVENT eid="e8" class="OCCURRENCE">invaded</EVENT> Afghanistan.
+ Most of the city's monuments were <EVENT eid="e9" class="OCCURRENCE">destroyed</EVENT>, including a magnificent tiled mosque, which <EVENT eid="e10" class="OCCURRENCE">dominated</EVENT> the skyline for <TIMEX3 tid="t11" type="DURATION" value="PXC" functionInDocument="NONE">centuries</TIMEX3>.
+ The people here are famous throughout central Asia for their skill in fashioning pottery and tile, glass too.
+ Some families have <EVENT eid="e12" class="OCCURRENCE">kept</EVENT> their glass working secrets for <TIMEX3 tid="t13" type="DURATION" value="P2L" functionInDocument="NONE">more than two thousand years</TIMEX3>.
+ Even though this city is in Afghanistan, most people here <EVENT eid="e14" class="I_ACTION">speak</EVENT> a dialect of the Persian language, and <EVENT eid="e15" class="STATE">have</EVENT> long standing cultural ties with neighboring Iran.
+ <EVENT eid="e16" class="I_STATE">Think</EVENT> you <EVENT eid="e17" class="OCCURRENCE">got</EVENT> it?
+ Well, frankly, I don't, but the answer is <EVENT eid="e18" class="OCCURRENCE">coming</EVENT> up in just <TIMEX3 tid="t19" type="DURATION" value="PXM" functionInDocument="NONE">a few minutes</TIMEX3>.
+</TEXT>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="NONE" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" modality="could" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" timeID="t0" relatedToEventInstance="ei4"/>
+<TLINK lid="l2" relType="BEFORE" timeID="t0" relatedToEventInstance="ei5"/>
+<TLINK lid="l3" relType="SIMULTANEOUS" timeID="t1" relatedToEventInstance="ei2"/>
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToTime="t0"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToEventInstance="ei5"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0"/>
+<TLINK lid="l7" relType="IS_INCLUDED" timeID="t7" relatedToEventInstance="ei8"/>
+<TLINK lid="l8" relType="IS_INCLUDED" timeID="t7" relatedToEventInstance="ei9"/>
+<TLINK lid="l9" relType="DURING" eventInstanceID="ei8" relatedToEventInstance="ei9"/>
+<TLINK lid="l10" relType="DURING" timeID="t11" relatedToEventInstance="ei10"/>
+<TLINK lid="l11" relType="DURING" eventInstanceID="ei12" relatedToTime="t13"/>
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t1"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei15" relatedToTime="t1"/>
+<TLINK lid="l14" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToTime="t1"/>
+<TLINK lid="l15" relType="AFTER" timeID="t19" relatedToEventInstance="ei18"/>
+</TimeML>

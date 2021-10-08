@@ -1,0 +1,108 @@
+T1	Organism 55 59	flea
+T2	Organism 86 95	Y. pestis
+T3	Organism 214 218	flea
+T4	Organism 288 297	Y. pestis
+T5	Organism 322 327	fleas
+T6	Organism 360 366	murine
+T7	Organism 406 411	fleas
+T8	Organism 526 531	human
+T9	Organism 600 609	Y. pestis
+T10	Organism 784 788	flea
+T11	Organism 904 909	fleas
+T12	Organism 951 956	fleas
+T13	Protein 963 967	yitR
+T14	Organism 1066 1070	flea
+T15	Organism 1115 1118	rat
+T16	Organism 1165 1169	flea
+T17	Protein 1173 1177	yitR
+T18	Organism 1302 1306	flea
+T19	Protein 1329 1333	yitR
+T20	Protein 1337 1341	yitA
+T21	Protein 1342 1346	yipB
+T22	Organism 1392 1407	Y. pestis KIM6+
+T23	Organism 1427 1432	fleas
+T24	Organism 1693 1697	host
+T25	Organism 1835 1854	Y. pestis DeltayitR
+T26	Organism 1960 1964	flea
+T27	Protein 1984 1988	yitR
+T28	Organism 2055 2064	Y. pestis
+T29	Organism 2088 2093	fleas
+T30	Organism 2154 2163	Y. pestis
+T31	Organism 2204 2209	fleas
+T32	Organism 2269 2288	DeltayitR Y. pestis
+T33	Organism 2394 2403	Y. pestis
+T34	Organism 2479 2483	flea
+T35	Organism 2548 2552	mice
+T36	Organism 2569 2603	Y. pestis DeltayitR-infected fleas
+T37	Organism 2721 2726	fleas
+T38	Organism 2736 2740	mice
+T39	Organism 2757 2766	Y. pestis
+T40	Organism 2776 2781	fleas
+T41	Organism 2982 2986	flea
+T42	Organism 3216 3221	fleas
+T43	Protein 3330 3334	phoP
+T44	Organism 3350 3359	Y. pestis
+T45	Organism 3400 3405	fleas
+T46	Protein 3504 3508	phoP
+T47	Organism 3526 3530	flea
+T48	Positive_regulation 0 9	Induction
+T49	Process 28 37	resistant
+T50	Process 313 321	infected
+T51	Positive_regulation 1038 1049	upregulated
+T52	Gene_expression 1080 1090	expression
+T53	Positive_regulation 1148 1157	induction
+T54	Process 1411 1417	infect
+T55	Process 1761 1771	resistance
+T56	Process 2025 2035	resistance
+T57	Process 2079 2087	infected
+T58	Process 2191 2200	infection
+T59	Process 2242 2251	virulence
+T60	Process 2767 2775	infected
+T61	Positive_regulation 3338 3346	required
+T62	Process 3387 3396	infection
+T63	Positive_regulation 3509 3518	induction
+E1	Positive_regulation:T48 Theme:E2
+E2	Process:T49 
+E3	Process:T50 Participant:T4
+E4	Positive_regulation:T51 Theme:T13
+E5	Gene_expression:T52 Theme:T13
+M1	Negation E5
+E6	Positive_regulation:T53 Theme:T17
+E7	Process:T54 Participant:T22
+E8	Process:T55 
+E9	Process:T56 Participant:T28
+E10	Process:T57 
+E11	Process:T58 
+E12	Process:T59 Participant:T32
+E13	Process:T60 Participant:T39
+E14	Positive_regulation:T61 Theme:E15 Cause:T43
+E15	Process:T62 Participant:T44
+E16	Positive_regulation:T63 Theme:T46
+T64	Span 392 461	Bacteria from fleas showed significantly lower levels of phagocytosis
+T65	Causality 473 500	We have previously reported
+E17	Causality:T65 Evidence:T66 Effect:T64
+T66	Span 501 560	analogous findings using human polymorphonuclear leukocytes
+T67	Span 573 795	The yit and yip genes in a Y. pestis locus (y0181-0191) that encode predicted insecticidal-like toxins of the toxin complex (Tc) family and three linked phage-related genes were upregulated 4- to 50-fold in the flea midgut
+T68	Causality 815 842	We previously reported that
+E18	Causality:T68 Evidence:T69 Effect:T67
+T69	Span 843 956	the genes for these Tc-like proteins are highly expressed in fleas, but that their products are nontoxic to fleas
+T70	Span 1135 1228	The specific induction in the flea of yitR and genes in the adjacent Tc-like yit and yip loci
+T71	Causality 1229 1242	suggests that
+E19	Causality:T71 Effect:T72 Evidence:T70
+T72	Span 1243 1306	they are involved in adaptation to and colonization of the flea
+T73	Causality 2211 2226	it was possible
+E20	Causality:T73 Effect:T74 Evidence:T75
+T74	Span 2227 2323	to compare the virulence of wild-type and DeltayitR Y. pestis following transmission by fleabite
+T75	Span 2105 2209	Since the yit and yip genes are not required for Y. pestis to produce a transmissible infection in fleas
+T76	Span 2325 2411	The incidence rate and time to disease onset were identical for both Y. pestis strains
+T77	Causality 2413 2431	demonstrating that
+E21	Causality:T77 Effect:T78 Evidence:T76
+T78	Span 2432 2513	expression of yit and yip is not essential for flea-borne transmission or disease
+T79	Span 2856 2925	it was not possible to detect any relatively minor difference in LD50
+T80	Causality 2926 2933	because
+E22	Causality:T80 Evidence:T81 Effect:T79
+T81	Span 2934 3000	the number of bacteria transmitted by a blocked flea varies widely
+T82	Causality 3426 3445	it was not possible
+E23	Causality:T82 Evidence:T84 Effect:T83
+T83	Span 3446 3530	to similarly assess the effect on disease transmission of phoP induction in the flea
+T84	Span 3323 3405	ecause phoP is required by Y. pestis to produce a transmissible infection in fleas

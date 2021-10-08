@@ -1,0 +1,14 @@
+Results 
+High Throughput Assay for Nematode Killing by P. aeruginosa It was reported earlier that relatively high-throughput screening procedures performed on plates could be used to identify virulence factors in various pathogens such as Staphylococcus aureus [32], P. aeruginosa [8] or Serratia marcescens [33].
+Here, we developed a high throughput screening method, in which C. elegans killing is assessed in a liquid assay and which allows a quick selection of attenuated candidates within large transposon libraries of P. aeruginosa.
+We prepared a bacterial culture medium that both allowed the worms to thrive feeding on the non-pathogenic E. coli OP50, and bacterial isolates being tested to have normal (see Materials and Methods).
+We filled 96 well plates with the medium and inoculated the bacterial strains to be tested.
+The virulence of each isolate was assessed in a second microtitre plate, into which a specific population of nematodes had been deposited.
+Evaluation of virulence was based upon the number of live worms recovered after 24 h exposure to bacteria.
+Under our assay conditions, more than 90% of the worms grown on E. coli were still alive after 24 h.
+In contrast, more than 50% of the worms were killed within 24 h when cultured with any one of three isolates of P. aeruginosa, PA14, PAO1 and TB (data not shown).
+In order to confirm that this assay would allow the recovery of P. aeruginosa mutants with an attenuated virulence, we tested previously characterized mutants.
+We used a gacA mutant from the PA14 transposon library (http://ausubellab.mgh.harvard.edu/cgi-bin/pa14/home.cgi) [34], which is affected in a gene encoding a response regulator involved in virulence [8].
+C. elegans infection using this mutant in the liquid assay resulted in only 40% killing at 24 h, whereas 95% killing was observed with the parental PA14 strain (data not shown).
+In order to screen a large number of bacterial isolates more rapidly, the assay was automated using the COPAS (Complex Object Parametric Analyzer and Sorter) Biosort system (Union Biometrica) (http://www.unionbio.com/).
+The sorter is able to dispatch systematically a fixed number of worms of a precise developmental stage, into each well of a microtitre plate.

@@ -1,0 +1,10 @@
+Results 
+Identification of an SsrB-regulated secretion chaperone Transcriptional profiling of SsrB-regulated genes in S. enterica serovar Typhimurium (S. Typhimurium) [22] identified a hypothetical gene, STM2138 (named srcA hereafter), that was co-regulated with genes in SPI-2 and repressed approximately20-fold in an ssrB mutant compared to wild type.
+This gene was also down regulated in Salmonella mutants lacking the SsrA sensor kinase [20], and was predicted to encode a possible chaperone in a bioinformatics-based screen [23].
+The srcA gene is not located in the vicinity of the T3SS encoded by SPI-2 (STM1378-STM1425), but is 713 genes downstream on the chromosome (STM numbers are based on the LT2 genome and ordered sequentially on the chromosome beginning at STM0001, thrL).
+The predicted srcA gene product was a small protein approximately16 kDa with a pI of 4.6, similar to secretion chaperones associated with T3SS.
+To verify SsrB input on srcA expression, we analyzed SsrB binding in vivo at the region of DNA surrounding srcA using genome-wide ChIP-on-chip [21] (and unpublished data).
+This analysis revealed a strong SsrB binding site spanning 10 syntenic probes within the intergenic region (IGR) upstream of srcA, that together with the transcriptional data corroborated a direct regulatory role for SsrB on srcA expression (Fig. 1A).
+To determine the cellular distribution of SrcA we constructed a srcA-HA allele and expressed this gene in wild type and in ssrB mutant cells under conditions that activate the SPI-2 T3SS [24].
+In whole cell lysates, SrcA protein was reduced approximately10-fold in DeltassrB cells compared to wild type (Fig. 1B) and the protein was not detected in the secreted fraction from wild type cells (Fig. 1C), consistent with the expected properties of a T3SS chaperone.
+As a positive control, SseC, an SsrB-regulated translocon protein of the SPI-2 T3SS was present in the secreted fraction from wild type cells but not from an ssrB mutant.

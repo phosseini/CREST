@@ -1,0 +1,57 @@
+T25	Binding 5 14	interacts
+T26	Process 231 240	virulence
+T27	Gene_expression 404 414	expression
+T28	Regulation 422 431	regulated
+T29	Binding 627 634	binding
+T30	Binding 902 909	binding
+T31	Binding 1567 1574	complex
+T32	Binding 1941 1948	complex
+E1	Binding:T25 Theme:T1
+E2	Process:T26 
+E3	Gene_expression:T27 Theme:T4
+E4	Regulation:T28 Theme:E3
+E5	Binding:T29 Theme1:T5 Theme2:T6
+M1	Speculation E5
+E6	Binding:T30 Theme1:T7 Theme2:T9
+E7	Binding:T31 Theme1:T19 Theme2:T20
+E8	Binding:T32 Theme1:T23 Theme2:T24
+T1	Protein 0 4	SrcA
+T2	Organism 260 267	E. coli
+T3	Organism 300 310	Salmonella
+T4	Protein 399 403	srcA
+T5	Protein 557 561	SrcA
+T6	Protein 607 611	SsaN
+T7	Protein 706 710	SsaN
+T8	Protein 807 841	nucleoside triphosphate hydrolases
+T9	Chemical 898 901	ATP
+T10	Chemical 936 943	adenine
+T11	Chemical 952 955	ATP
+T12	Organism 963 970	E. coli
+T13	Protein 983 987	EscN
+T14	Protein 1025 1029	SsaN
+T15	Protein 1160 1164	SrcA
+T16	Protein 1169 1173	SsaN
+T17	Protein 1263 1267	SrcA
+T18	Protein 1408 1412	SsaN
+T19	Protein 1527 1531	SrcA
+T20	Protein 1547 1551	SsaN
+T21	Protein 1663 1667	SrcA
+T22	Protein 1678 1682	SsaN
+T23	Protein 1971 1975	SsaN
+T24	Protein 1980 1984	SrcA
+T33	Span 43 169	An emerging function for T3SS chaperones is delivery of cargo to the base of the apparatus through interactions with an ATPase
+T34	Causality 171 185	This was shown
+E9	Causality:T34 Effect:T35 Evidence:T33
+T35	Span 186 310	for the flagellar T3SS [17] and later in the virulence-associated T3SS in E. coli [16],[27] and the SPI-1 T3SS in Salmonella
+T36	Span 393 451	Since srcA expression was co-regulated with genes in SPI-2
+T37	Causality 453 473	we hypothesized that
+E10	Causality:T37 Effect:T38 Evidence:T36
+T38	Span 474 513	it had a functional role in this system
+T39	Span 706 874	SsaN contains conserved amino acid residues characteristic of Walker-A and Walker-B motifs of P-loop nucleoside triphosphate hydrolases, as well as a number of residues
+T40	Causality 875 883	shown to
+E11	Causality:T40 Effect:T41 Evidence:T39
+T41	Span 884 987	contribute to ATP binding or ring stacking with the adenine base of ATP in the E. coli orthologue, EscN
+T42	Span 1815 1918	We verified the identities of protein originating from each peak by western blot (Fig. 4D) and LC-MS/MS
+T43	Causality 1920 1932	which showed
+E12	Causality:T43 Effect:T44 Evidence:T42
+T44	Span 1933 1984	the new complex was comprised of both SsaN and SrcA

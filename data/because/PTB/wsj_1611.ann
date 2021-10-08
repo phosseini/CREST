@@ -1,0 +1,43 @@
+T1	NonCausal 0 2	As
+E1	NonCausal:T1 Arg0:T2 Arg1:T3
+A1	Temporal E1
+T2	Argument 3 78	the Hunt brothers' personal bankruptcy cases sputter into their second year
+T3	Argument 80 172	Minpeco S.A. has proposed a deal to settle its huge claim against the troubled Texas oil men
+T4	Consequence 357 367	stems from
+E2	Consequence:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+A3	Creation-termination E2
+T5	Argument 307 356	The Peruvian mineral concern's $251 million claim
+T6	Argument 368 474	1988 jury award in a case stemming from the brothers' alleged attempts to corner the 1979-80 silver market
+T7	Consequence 394 407	stemming from
+E3	Consequence:T7 Effect:T8 Cause:T9
+A4	Degree E3 Facilitate
+A5	Creation-termination E3
+T8	Argument 387 393	a case
+T9	Argument 408 474	the brothers' alleged attempts to corner the 1979-80 silver market
+T10	Motivation 845 847	if
+E4	Motivation:T10 Cause:T11 Effect:T12
+A6	Degree E4 Facilitate
+A7	Hypothetical E4
+T11	Argument 848 1049	the proposal jeopardizes a tentative settlement he has reached with the Internal Revenue Service, which claims the brothers owe $1 billion in back taxes and is by far the biggest creditor in both cases
+T12	Argument 830 844	he won't do it
+T22	Motivation 1950 1952	if
+E8	Motivation:T22 Effect:T23 Cause:T24
+A11	Degree E8 Facilitate
+A12	Hypothetical E8
+T23	Argument 1922 1949	a ``volcano'' of litigation
+T24	Argument 1953 2037	the Manufacturers Hanover Corp. unit attempts to force such a plan through the court
+T25	Motivation 2089 2091	if
+E9	Motivation:T25 Effect:T26 Cause:T27
+A13	Degree E9 Facilitate
+A14	Hypothetical E9
+T26	Argument 2054 2088	it wouldn't pursue such litigation
+T27	Argument 2092 2224	its settlement plan in the W. Herbert Hunt case is approved by Judge Abramson, who will consider the proposal at a hearing next week
+T28	Consequence 2470 2472	so
+E10	Consequence:T28 Cause:T29 Effect:T30
+A15	Degree E10 Facilitate
+A16	Extremity-sufficiency E10
+T29	Argument 2470 2488	so fluid right now
+T30	Argument 2494 2539	there's really no way to say what will happen
+T19	Note 1736 1740	With
+#1	AnnotatorNotes T19	Possession

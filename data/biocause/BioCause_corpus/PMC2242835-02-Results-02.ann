@@ -1,0 +1,38 @@
+T1	Organism 212 217	H37Ra
+T2	Organism 348 353	H37Rv
+T3	Organism 437 442	H37Ra
+T4	Protein 583 588	fadE5
+T5	Protein 590 594	rpsL
+T6	Protein 600 604	phoP
+T7	Protein 693 697	phoP
+T8	Organism 721 726	H37Ra
+T9	Organism 757 768	H37Ra::phoP
+T10	Protein 764 768	phoP
+T11	Organism 900 912	H37Ra::fadE5
+T12	Protein 907 912	fadE5
+T13	Organism 914 925	H37Ra::rpsL
+T14	Protein 921 925	rpsL
+T15	Organism 1037 1048	H37Ra::phoP
+T16	Protein 1044 1048	phoP
+T17	Protein 1107 1111	phoP
+T18	Organism 1169 1174	H37Ra
+T19	Organism 1227 1232	H37Rv
+T20	Protein 1251 1255	phoP
+T21	Protein 1308 1313	fadE5
+T22	Protein 1318 1322	rpsL
+T23	Protein 1485 1489	SpeI
+T24	Protein 1530 1534	phoP
+T25	Protein 1608 1612	SpeI
+T26	Organism 1636 1641	H37Ra
+T27	Protein 1642 1646	phoP
+T28	Protein 1689 1693	SpeI
+T29	Organism 1763 1768	H37Ra
+T30	Organism 1964 1969	H37Ra
+T31	Regulation 685 689	role
+T32	Process 701 710	virulence
+E1	Regulation:T31 Theme:E2 Cause:T7
+E2	Process:T32 
+T33	Span 1468 1540	hybridization of SpeI-digested genomic DNA with a 32P labeled phoP probe
+T34	Causality 1541 1549	resulted
+E3	Causality:T34 Evidence:T33 Effect:T35
+T35	Span 1550 1785	in two bands of different sizes, one corresponding to the SpeI fragment harboring the H37Ra phoP gene (50 kb), and the other to the larger SpeI fragment created by integration of the I36 cosmid into the genome of H37Ra at the attB site

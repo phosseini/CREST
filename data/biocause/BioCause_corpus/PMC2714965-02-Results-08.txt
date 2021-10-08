@@ -1,0 +1,4 @@
+Pathohistological Analysis of P. aeruginosa Infection 
+To further evaluate the change in virulence between the parental TB isolate and the TB0173s cheB2 mutant, mice were sacrificed 2 days after bacterial challenge and the lungs were formalin fixed and paraffin embedded.
+Lungs from infected mice challenged with the TB strain as well as the complemented TB0173sp2B2 strain had a pronounced polymorphonuclear neutrophil (PMN) infiltration as well as strong peribronchiolar and perivascular inflammation (Figure 5A).
+In contrast, the TB0173s cheB2 mutant had caused markedly reduced inflammation and very little PMN infiltration (Figure 5B).

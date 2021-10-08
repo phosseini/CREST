@@ -1,0 +1,76 @@
+T1	Consequence 656 660	made
+E1	Consequence:T1 Effect:T2 Cause:T3
+A1	Degree E1 Facilitate
+T2	Argument 661 666;667 735	clear that it would not distract them from trying to reduce British forces
+T3	Argument 573 590	British officials
+T4	Motivation 1126 1133	provoke
+E2	Motivation:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+T5	Argument 1134 1151	fighting in Basra
+T6	Argument 1087 1119	an American crackdown in Baghdad
+T7	Consequence 1742 1747;1769 1771	allow to
+E3	Consequence:T7 Effect:T8
+A3	Degree E3 Facilitate
+T8	Argument 1748 1768;1772 1835	the Iraqi government establish its authority and make Iraq a more prosperous country
+T9	Consequence 2456 2462	caused
+E4	Consequence:T9 Cause:T10 Effect:T11
+A4	Degree E4 Facilitate
+T10	Argument 2466 2479	the war there
+T11	Argument 2431 2455	the damage to his legacy
+T12	Purpose 3595 3597	to
+E5	Purpose:T12 Cause:T13 Effect:T14
+A5	Degree E5 Facilitate
+T13	Argument 3598 3610;3625 3757	fill the gap which is represented by the failure of the government in the Green Zone in Baghdad to have any real effect on the sectarian politics
+T14	Argument 3548 3594	Other things also have to be brought into this
+T16	Argument 556 570	the end of May
+T17	Argument 513 548	those numbers would be cut by 3,000
+T18	NonCausal 549 555	before
+E6	NonCausal:T18 Arg1:T16 Arg0:T17
+A6	Temporal E6
+T19	Argument 823 889	thousands of troops also fighting on a second front in Afghanistan
+T20	Consequence 818 822	with
+E7	Consequence:T20 Arg0:T19 Effect:T21
+A7	Context E7
+A8	Degree E7 Facilitate
+T21	Argument 891 924	the British Army is overstretched
+T15	Argument 1228 1250	U.S. action in Baghdad
+T22	Consequence 1275 1281	effect
+E8	Consequence:T22 Cause:T15
+A9	Degree E8 Facilitate
+T23	Argument 1720 1835	the space and time to allow the Iraqi government to establish its authority and make Iraq a more prosperous country
+T24	NonCausal 1713 1719	create
+E9	NonCausal:T24 Arg1:T23
+A10	Creation-termination E9
+T25	Consequence 1800 1804	make
+E10	Consequence:T25 Cause:T27 Effect:T26
+A11	Degree E10 Facilitate
+T26	Argument 1805 1809;1810 1835	Iraq a more prosperous country
+T27	Argument 1748 1768	the Iraqi government
+T28	Argument 1867 1911	Britain would not decide on troop reductions
+T29	Argument 1918 2046	its forces had completed a drive to purge the local police in the areas where they are stationed of what it calls rogue elements
+T30	Motivation 1912 1917	until
+E11	Motivation:T30 Cause:T29 Effect:T28
+A12	Temporal E11
+A13	Degree E11 Inhibit
+T31	NonCausal 3065 3067	as
+E12	NonCausal:T31 Arg0:T32 Arg1:T33
+A14	Correlation E12
+T32	Argument 3068 3099	the security situation improves
+T33	Argument 3019 3064	We are under way with the process of handover
+T34	Consequence 3725 3731	effect
+E13	Consequence:T34 Cause:T35
+A15	Degree E13 Facilitate
+T35	Argument 3664 3707	the government in the Green Zone in Baghdad
+T36	Consequence 1739 1741	to
+E14	Consequence:T36 Cause:T38 Effect:T37
+A16	Degree E14 Facilitate
+T37	Argument 1742 1835	allow the Iraqi government to establish its authority and make Iraq a more prosperous country
+T38	Argument 1720 1738	the space and time
+A17	Temporal E12
+T39	Note 2421 2423	to
+#1	AnnotatorNotes T39	Seems to be purpose of existence
+T40	Consequence 1471 1486	on condition of
+E15	Consequence:T40 Cause:T41 Effect:T42
+A18	Degree E15 Facilitate
+T41	Argument 1487 1496	anonymity
+T42	Argument 1448 1470	who customarily speaks

@@ -1,0 +1,37 @@
+Secretion and exoenzymes 
+In Y. enterocolitica, two type-III secretion systems (T3SS) essential for virulence in the mammalian host are encoded on pYV and by the ysa operon (YE3533-3561) [23,82].
+The P. luminescens genome encodes one T3SS which is highly similar to the plasmid-encoded T3SS of Y. enterocolitica and probably involved in the secretion of virulence proteins or in immunomodulation of the insect response to an infection.
+Interestingly, the T3SS of Y. pestis has recently been demonstrated to translocate insecticidal toxins, providing evidence that they support the transmission of the plague agent by insects [83].
+Furthermore, the flagellar export apparatus of Y. pseudotuberculosis functions as a secretion system for the virulence-associated phospholipase YplA [84].
+The typical effector proteins of Y. enterocolitica are also present in P. luminescens.
+The P. luminescens Lop effector proteins are homologs of the Yop effector proteins of Y. enterocolitica [85].
+The LopT effector protein of P. luminescens can be injected by Y. enterocolitica into mammal cells [86], underlining the idea that both T3SS act similarly.
+Furthermore, we found homologues of the Y. enterocolitica low-calcium-response genes (lcrH, lcrV, and lrcD) in P. luminescens (plu3757, plu3758, sctV) which further supports this hypothesis.
+The fact that Y. enterocolitica a second T3SS (Ysa) is not shared by P. luminescens confirms its solely role in human pathogenicity [87].
+Both P. luminesens and Y. enterocolitica share a Sec protein translocation system that belongs to the type-II secretion systems (T2SS).
+These are substrate-specific secretion machineries that share a similar architecture and secretion mechanism [88].
+Proteins secreted by these systems are mainly virulence determinants such as exotoxins like the Cholera toxin of Vibrio cholerae, pili, and S-layer components (see [89] for review).
+Additionally to the Sec-system, Y. enterocolitica produces a T2SS named Yts1, which has been found to be important for virulence in mice [90].
+Because there is no counterpart of Yts1 present in P. luminescens, one can speculate that the major parts of type-II dependent secreted proteins which are important for insect association of Y. enterocolitica are translocated via the Sec system.
+Recently, a novel protein secretion mechanism translocating proteins without an N-terminal leader sequence has been described, termed type-VI secretion system, T6SS (see [91] for review).
+The genes encoding these kinds of secretion systems were named vas (virulence associated secretion), and homologues are widespread in Gram-negative bacteria.
+VAS-dependent secretion has been found to be important for virulence of Vibrio cholerae [92] as well as for Pseudomonas aeruginosa [93], and T6SS are assumed to play a major role in virulence in many Gram-negative bacteria [91].
+P. luminescens as well as Y. enterocolitica harbour homologues of the vas genes, indicating that several proteins involved in virulence are secreted via this pathway. Both pathogens secrete lipases and proteases that are assumed to contribute to immunosuppression, degradation of insect tissues or antibacterial peptides, and host bioconversion (Fig. 4).
+One of those exoenzymes is the phospholipase A (YplA) with an accessory protein (YplB) of Y. enterocolitica (YE1005/YE1006) which are also present in P. luminescens (Plu3370/Plu3369).
+YplA contributes to pathogenesis of Y. enterocolitica in a mouse model [94], suggesting a role in virulence against insects for the P. luminescens homologue.
+Remarkably, yplA is induced at low temperature (Table 1), and its expression is known to be regulated by the master regulator FlhDC [94], indicating that YplA plays a role in pathogenicity both against human and insect hosts.
+Two additional phospholipases are present in Y. enterocolitica, namely PdlA (YE0203) and PdlB (YE0207), the latter one a homologue of Plu4619.
+This overlap is another example for Y. enterocolitica enzymes probably involved rather in the association with invertebrates than in pathogenicity towards mammalians.
+Plu1971 of P. luminescens is a protein which contains two phospholipase D motifs.
+Furthermore, it shares homologies to the plasmid (pMT1)-encoded murine toxin (Ymt) of Y. pestis.
+It was suggested that ymt has been acquired by Y. pestis from P. luminescens or a close relative [24].
+Ymt is essential for flea colonization by Y. pestis and is regulated by AHL both in Y. pestis [95] and P. luminescens (R. Heermann, unpublished data), indicating that Ymt is also required for insect colonization by P. luminescens.
+Due to its absence in Y. enterocolitica, Ymt is another example for the high diversity of genetic determinants that are used by closely related bacterial pathogens to interact with their insect hosts.
+There are several other exoenzymes present either in Y. enterocolitica or in P. luminescens, which do not have a homologue counterpart in the other bacterium.
+Examples are the ten triacylglycerol lipases of P. luminescens or the three identified lipases of Y. enterocolitica.
+However, homologies are observed for six secreted proteases of both organisms.
+Among them is PrtA (Plu0655/YE4052), a zinc metalloprotease that is involved in the immunosuppressive activity of X. nematophila [96], and that has also been shown to be involved in insect gut colonization of P. luminescens [97].
+Further examples for shared proteases are another Zn-dependent protease (Plu0306/YE4066), the protease III (Plu0631/YE3311), and DegQ/DegS (YE3744/YE3745/Plu4018/Plu4022).
+The high number of homologs in both organisms suggests an important and similar role of these exoproteases in the infection process.
+We also identified two proteases in each pathogen (Plu4291, Plu0631, YE0320, and YE2087) without a homologue in the other bacterium.
+We speculate that these Y. enterocolitica proteases could be involved in the infection process in mammals, whereas the P. luminescens proteases are rather used for nutrient bioconversion than for the infection process.

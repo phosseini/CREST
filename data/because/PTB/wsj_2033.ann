@@ -1,0 +1,113 @@
+T1	NonCausal 47 53	before
+E1	NonCausal:T1 Arg1:T2 Arg0:T3
+A1	Temporal E1
+T2	Argument 54 58	1990
+T3	Argument 9 46	SIMPLIFYING the corporate minimum tax
+T4	Consequence 120 122	if
+E2	Consequence:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+A3	Hypothetical E2
+T5	Argument 115 119	paid
+T6	Argument 123 161	it exceeds tax figured the regular way
+T7	Consequence 192 201	thanks to
+E3	Consequence:T7 Cause:T8 Effect:T9
+A4	Degree E3 Facilitate
+T8	Argument 202 216	1986's tax act
+T9	Argument 76 190	The method of calculating the 20% tax, paid if it exceeds tax figured the regular way, is due for a change in 1990
+T10	Consequence 788 790	If
+E4	Consequence:T10 Cause:T11 Effect:T63
+A5	Degree E4 Facilitate
+A6	Hypothetical E4
+T11	Argument 791 812	the law isn't changed
+T12	Argument 825 893	we are left staring at rules that are almost impossible to implement
+T13	Consequence 895 902	because
+E5	Consequence:T13 Cause:T14 Effect:T12
+A7	Degree E5 Facilitate
+T14	Argument 903 960	there are so many complex depreciation calculations to do
+T15	Argument 1234 1247	so designated
+T16	Motivation 1248 1253	after
+E6	Motivation:T16 Cause:T17 Effect:T15
+A8	Degree E6 Facilitate
+A9	Temporal E6
+T17	Argument 1254 1274	other 1989 disasters
+T18	Consequence 1279 1283	lets
+E7	Consequence:T18 Cause:T19 Effect:T20
+A10	Degree E7 Facilitate
+A11	Obligation-permission E7
+T19	Argument 1276 1278	It
+T20	Argument 1284 1291;1292 1403	victims elect to deduct casualty losses on either 1989 or amended 1988 returns, whichever offers the larger tax benefit
+T21	Note 1415 1420	until
+#1	AnnotatorNotes T21	Temporal phrase as NP
+T25	Note 1787 1791	when
+#2	AnnotatorNotes T25	Relativizing pronoun
+T26	Motivation 2266 2269	for
+E9	Motivation:T26 Effect:T27 Cause:T28
+A13	Degree E9 Facilitate
+T27	Argument 2218 2265	people in the disaster areas won't be penalized
+T28	Argument 2270 2281	late filing
+T29	Motivation 2282 2284	if
+E10	Motivation:T29 Effect:T30 Cause:T31
+A14	Degree E10 Facilitate
+A15	Hypothetical E10
+T30	Argument 2218 2281	people in the disaster areas won't be penalized for late filing
+T31	Argument 2285 2344	their returns are marked ``Hugo'' and postmarked by Jan. 16
+T32	Motivation 2445 2447	if
+E11	Motivation:T32 Effect:T33 Cause:T34
+A16	Degree E11 Facilitate
+A17	Hypothetical E11
+T33	Argument 2392 2444	late-payment penalties on the returns will be waived
+T34	Argument 2448 2504	the balance due and paid is 10% or less of the liability
+T35	Motivation 2679 2681	if
+E12	Motivation:T35 Cause:T36 Effect:T37
+A18	Degree E12 Facilitate
+A19	Hypothetical E12
+T36	Argument 2682 2749	they file -- or request an extension -- and pay tax due by Nov. 15.
+T37	Argument 2609 2678	Fiscal-year taxpayers with returns due last Monday won't be penalized
+T38	Motivation 3249 3256	because
+E13	Motivation:T38 Effect:T39 Cause:T40
+A20	Degree E13 Facilitate
+T39	Argument 3218 3248	The IRS denied cost deductions
+T40	Argument 3257 3290	few of the temps got to go aboard
+T41	Consequence 3365 3372	allowed
+E14	Consequence:T41 Cause:T42 Effect:T43
+A21	Degree E14 Facilitate
+A22	Obligation-permission E14
+T42	Argument 3300 3309	Tax Court
+T43	Argument 3373 3387	the deductions
+T44	Consequence 3664 3668	WHEN
+E15	Consequence:T44 Cause:T45 Effect:T46
+A23	Degree E15 Facilitate
+A24	Temporal E15
+T45	Argument 3669 3686	AN IRA OWNER dies
+T46	Argument 3688 3874	the trustee of the individual retirement account must file forms 5498 reporting market values relating to the decedent and each beneficiary, with copies to the executor and beneficiaries
+T47	Purpose 4067 4069	to
+E16	Purpose:T47 Cause:T48 Effect:T49
+A25	Degree E16 Facilitate
+T48	Argument 4070 4100	justify cash caches to the IRS
+T49	Argument 4017 4066	People often cite frugality and distrust of banks
+T50	Note 4378 4385	because
+#3	AnnotatorNotes T50	Inference
+T51	NonCausal 4437 4442	while
+E17	NonCausal:T51 Arg0:T52 Arg1:T53
+A26	Temporal E17
+T52	Argument 4443 4475	reporting income of only $52,012
+T53	Argument 4386 4436	he deposited $124,732 in a bank account in 1982-84
+#4	AnnotatorNotes E17	Could be concessive (e.g., "although"), but also seems to have a temporal reading (i.e., "during").
+T54	Motivation 5005 5007	so
+E18	Motivation:T54 Effect:T55 Cause:T56
+A27	Degree E18 Facilitate
+T55	Argument 5008 5041	Judge Shields rejected its claims
+T56	Argument 4940 5003	The IRS offered no evidence of hidden sources of taxable income
+T57	Consequence 5409 5419	leading to
+E19	Consequence:T57 Effect:T58 Cause:T62
+A28	Degree E19 Facilitate
+T58	Argument 5420 5451	the arrest of violent criminals
+T62	Argument 5404 5408	tips
+T65	Note 1607 1612	after
+#8	AnnotatorNotes T65	"Discounting" or "accounting for"
+T63	Argument 825 960	we are left staring at rules that are almost impossible to implement, because there are so many complex depreciation calculations to do
+T67	Purpose 1464 1466	to
+E21	Purpose:T67 Effect:T68 Cause:T69
+A30	Degree E21 Facilitate
+T68	Argument 1441 1463	Amending a 1988 return
+T69	Argument 1467 1481	claim a refund

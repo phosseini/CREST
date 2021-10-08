@@ -1,0 +1,30 @@
+Characterization of Selected Attenuated Mutants 
+Genomic DNA was recovered from the 12 group 1A isolates.
+The transposon insertion site was determined through direct genomic DNA sequencing, using primers located upstream from each transposon inverted repeat (see Materials and Methods).
+The sequences obtained were compared to the PAO1 genome sequence database (http://www.pseudomonas.com) [22] followed by comparison with the general sequence database.
+The genes identified are shown in Table 1.
+Two potential regulatory genes were found.
+The first, PA2588, encodes an AraC-type regulatory protein, with 48% similarity to the PAO1 PA0831 gene product, OruR [36].
+The second matched PA4380, which encodes a protein with 76% similarity to Pseudomonas fluorescens ColS, a histidine kinase sensor from a two-component regulatory system.
+In P. fluorescens ColS has been implicated in root colonization while in Pseudomonas putida it has been reported to be involved in regulating TN4652 transposition and heavy metal resistance [37],[38],[39],[40].
+Another gene was identified as PA4554, which encodes the type 4 fimbrial adhesin PilY1 [41].
+We recovered two additional mutants with transposon insertion into genes which have functions related to motility.
+First, PA4953 encodes a protein with similarity to the E. coli MotB, one of a pair of proteins, which contributes to flagellar rotation [23],[42],[43].
+Secondly, we found an insertion in PA0173 (cheB2), one of four cheB gene homologues in the P. aeruginosa genome sequence.
+PA0173 lies within the chemotactic gene cluster II found in the PAO1 genome (Figure 1) [21].
+CheB proteins are responsible for removing methyl groups from MCPs [44].
+The adaptation of the chemotaxis system in response to changes in attractant binding is dependent on the methylation state of the MCPs.
+CheB2 has been proposed to be an essential component for an optimal chemotactic response [21].
+In the remaining mutants, one contained a transposon insertion in PA5479, which encodes a protein similar to GltP from E. coli, a glutamate-aspartate carrier protein.
+Another mutant had an insertion in PA2585 encoding the UvrABC endonuclease subunit UvrC, required for the excision of damaged DNA.
+The uvrC gene is located downstream from the gacA gene encoding a response regulator known to be involved in P. aeruginosa virulence.
+Since, in addition to the insertion in PA2585, we isolated a mutant with an insertion in a neighbor gene PA2588, it suggests that this cluster of genes might be required for virulence.
+Another interrupted gene, PA2478, encodes a probable thiol:disulfide interchange protein of the DsbD family.
+Finally, 4 interrupted genes, PA0946, PA3080, PA0260 and PA2769, encode proteins of unknown function.
+In order to compare our liquid assay with the established C. elegans slow killing assay, we compared the lethality of the TB strain with the previously tested PA14 strain.
+We observed that both strains kill worms with similar efficiency (data not shown).
+Each of the 12 group 1A mutants derived from TB was further tested in the slow killing assay.
+The parental TB isolate is able to kill 50% of exposed nematodes in the slow killing assay within 3 days.
+Seven of the twelve group 1A isolates showed significant virulence attenuation (Table 1).
+For example, three group 1A mutants TB0173s (cheB2, p<0.001), TB4554s (pilY1, p<0.001) and TB4380s (colS, p<0.001) each required at least one additional day (4 days) in order to reach 50% killing (data not shown).
+Survival curves are considered significantly different from the control when p-values are <0.05 (see Materials and Methods).

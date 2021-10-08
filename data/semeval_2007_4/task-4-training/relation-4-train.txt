@@ -1,0 +1,454 @@
+001 "The <e1>physician bill</e1> is from the <e2>physician</e2> who provided your care during your hospital stay or the physician who read and interpreted your test results."
+WordNet(e1) = "bill%1:10:01::", WordNet(e2) = "physician%1:18:00::", Origin-Entity(e2, e1) = "false", Query = "the * is from the *"
+
+002 "How can you prove that a <e1>gas</e1> takes up <e2>space</e2>?"
+WordNet(e1) = "gas%1:27:00::", WordNet(e2) = "space%1:25:00::", Origin-Entity(e2, e1) = "false", Query = "a * takes up *"
+
+003 "Data managers and vendors learned the value of sharing and reusing <e1>resources</e1> from a <e2>common repository</e2> decades ago."
+WordNet(e1) = "resource%1:21:00::", WordNet(e2) = "repository%1:06:00::", Origin-Entity(e2, e1) = "false", Query = "* from *"
+Comment: repository is a container, not a location.
+
+004 "She said that he described the meeting with her as an exception, since 'he does not normally have meetings directly with <e1>engineers</e1> from the <e2>regions</e2>.'"
+WordNet(e1) = "engineer%1:18:00::", WordNet(e2) = "region%1:15:00::", Origin-Entity(e2, e1) = "true", Query = "engineers from the *"
+
+005 "<e1>Cinnamon oil</e1> is distilled from <e2>bark chips</e2> and used to alleviate stomach upsets."
+WordNet(e1) = "oil%1:13:00::", WordNet(e2) = "chip%1:17:00::", Origin-Entity(e2, e1) = "true", Query = "the * is distilled from *"
+
+006 "The <e1>move</e1> from <e2>binary access</e2> (yes or no) to fine-grained authorization betrays a shift in mindset: from a defensible perimeter to a qualifier that identifies who can access what room."
+WordNet(e1) = "move%1:04:00::", WordNet(e2) = "access%1:07:00::", Origin-Entity(e2, e1) = "false", Query = "the * from *"
+
+007 "The <e1>person</e1> providing the <e2>alibi</e2> could be the culprit and would be providing a fabricated alibi."
+WordNet(e1) = "person%1:03:00::", WordNet(e2) = "alibi%1:10:00::", Origin-Entity(e1, e2) = "false", Query = "the * providing the *"
+
+008 "Over the top of the hill was a <e1>fairly-decent refugee camp</e1> from a <e2>war</e2> that has never really ended."
+WordNet(e1) = "refugee_camp%1:06:00::", WordNet(e2) = "war%1:04:00::", Origin-Entity(e2, e1) = "false", Query = "refugee * from * war"
+
+009 "An opening is present in the diaphragm (the muscle that separates the <e1>chest cavity</e1> from the <e2>abdominal cavity</e2>)."
+WordNet(e1) = "chest_cavity%1:08:00::", WordNet(e2) = "abdominal_cavity%1:08:00::", Origin-Entity(e2, e1) = "false", Query = "the * from the *"
+
+010 "For projects submitted at national level, the <e1>volunteer</e1> is sent by a <e2>sending organization</e2> legally established in his/her country of residence."
+WordNet(e1) = "volunteer%1:18:00::", WordNet(e2) = "organization%1:14:00::", Origin-Entity(e1, e2) = "false", Query = "the * sent by *"
+
+011 "You move the direction the <e1>mouse</e1> is from the <e2>crosshair</e2>."
+WordNet(e1) = "mouse%1:06:00::", WordNet(e2) = "cross_hair%1:06:00::", Origin-Entity(e2, e1) = "false", Query = "the * is from the *"
+
+012 "If the <e1>cited document</e1> is from the <e2>informative bibliography</e2>, the bibliographic number should be provided in the text and enclosed with brackets."
+WordNet(e1) = "document%1:10:00::", WordNet(e2) = "bibliography%1:10:00::", Origin-Entity(e2, e1) = "true", Query = "the * is from the *"
+Comment: "bibliography" as abstract location
+
+013 "When Josh visits the Tatums, Josh meets his blonde haired twin cousin and two beautiful <e1>country</e1> <e2>cousins</e2>."
+WordNet(e1) = "country%1:15:01::", WordNet(e2) = "cousin%1:18:00::", Origin-Entity(e1, e2) = "true", Query = "country cousins"
+
+014 "The <e1>challenges</e1> are being addressed from a <e2>manufacturing standpoint</e2> rather than ICT solutions that could answer them."
+WordNet(e1) = "challenge%1:26:00::", WordNet(e2) = "standpoint%1:09:00::", Origin-Entity(e2, e1) = "false", Query = "the * are * * from a *"
+
+015 "It's unfortunate you didn't try a <e1>potato</e1> <e2>vodka</e2>."
+WordNet(e1) = "potato%1:13:00::", WordNet(e2) = "vodka%1:13:00::", Origin-Entity(e1, e2) = "true", Query = "a * vodka"
+
+016 "The <e1>tests</e1> are generated randomly from a <e2>bank</e2> of questions developed for each module."
+WordNet(e1) = "test%1:10:00::", WordNet(e2) = "bank%1:21:00::", Origin-Entity(e2, e1) = "true", Query = "the * are * * from a *"
+
+017 "The <e1>algorithm</e1> generates <e2>provable primes</e2> rather than only probable primes and is nevertheless faster than the known algorithms based on pseudo-primality."
+WordNet(e1) = "algorithm%1:09:00::", WordNet(e2) = "prime%1:23:00::", Origin-Entity(e1, e2) = "false", Query = "the * generates *"
+
+018 "Suddenly a <e1>nurse</e1> takes off <e2>her familiar loose-fitting clothes</e2>, and dresses her in clothes, which fit her more closely."
+WordNet(e1) = "nurse%1:18:00::", WordNet(e2) = "clothes%1:06:00::", Origin-Entity(e1, e2) = "false", Query = "a * takes off *"
+
+019 "The guarantees so painfully obtained by formal verification of the source program are useless if the <e1>compiler</e1> generates <e2>wrong code</e2>."
+WordNet(e1) = "compiler%1:10:00::", WordNet(e2) = "code%1:10:02::", Origin-Entity(e1, e2) = "false", Query = "the * generates *"
+
+020 "Not sure what brand of model it came from but the <e1>wings</e1> are from a <e2>trashed plane</e2> my buddy had."
+WordNet(e1) = "wings%1:10:00::", WordNet(e2) = "plane%1:06:01::", Origin-Entity(e2, e1) = "false", Query = "the * are from a *"
+Comment: Part-Whole
+
+021 "After successful completion of the comprehensives, the <e1>candidate</e1> writes a <e2>dissertation proposal</e2>."
+WordNet(e1) = "candidate%1:18:00::", WordNet(e2) = "proposal%1:10:00::", Origin-Entity(e1, e2) = "false", Query = "the * writes a *"
+Comment: Product-Producer
+
+022 "The <e1>construction</e1> gives a <e2>refinement</e2> of Nori's argument in the case of a self-product of a curve."
+WordNet(e1) = "construction%1:04:02::", WordNet(e2) = "refinement%1:11:00::", Origin-Entity(e1, e2) = "false", Query = "the * gives the *"
+
+023 "It often becomes necessary to delete <e1>objects</e1> from the <e2>chart</e2> during the course of monitoring system performance."
+WordNet(e1) = "object%1:03:00::", WordNet(e2) = "chart%1:10:00::", Origin-Entity(e2, e1) = "false", Query = "delete * from the chart"
+
+024 "First, the <e1>sound</e1> radiated from a <e2>surface</e2> simulating a two-dimensional monopole is calculated using an unstructured mesh."
+WordNet(e1) = "sound%1:19:00::", WordNet(e2) = "surface%1:06:00::", Origin-Entity(e2, e1) = "false", Query = "the * radiated *"
+
+025 "The date for final payment is shown on the <e1>confirmation</e1> <e2>invoice</e2>."
+WordNet(e1) = "confirmation%1:10:01::", WordNet(e2) = "invoice%1:10:00::", Origin-Entity(e1, e2) = "false", Query = "the * invoice"
+Comment: Purpose maybe
+
+026 "The <e1>taste</e1> is from the <e2>ginseng</e2>, not alcohol."
+WordNet(e1) = "taste%1:09:02::", WordNet(e2) = "ginseng%1:20:02::", Origin-Entity(e2, e1) = "true", Query = "the * is from the *"
+
+027 "Find the <e1>infinitive</e1> from the <e2>participle</e2>."
+WordNet(e1) = "infinitive%1:10:00::", WordNet(e2) = "participle%1:10:00::", Origin-Entity(e2, e1) = "false", Query = "the * from the *"
+
+028 "Most <e1>cane</e1> <e2>sugar</e2> comes from countries with warm climates, such as Brazil, Pakistan, India, China and Australia."
+WordNet(e1) = "cane%1:20:00::", WordNet(e2) = "sugar%1:13:00::", Origin-Entity(e1, e2) = "true", Query = "cane sugar"
+
+029 "The following are <e1>verbatim excerpts</e1> from a <e2>lengthy article</e2>."
+WordNet(e1) = "excerpt%1:10:00::", WordNet(e2) = "article%1:10:00::", Origin-Entity(e2, e1) = "true", Query = "the * are * * from a *"
+Comment: "article" as an abstract location
+
+030 "The <e1>systolic murmur</e1> radiated to <e2>both carotid arteries</e2>."
+WordNet(e1) = "systolic_murmur%1:26:00::", WordNet(e2) = "carotid_artery%1:08:00::", Origin-Entity(e2, e1) = "false", Query = "the * radiated *"
+
+031 "From the diagrams of DaVinci to Hooke's microscopic bestiary, the beaks of Darwin's finches, Rosalind Franklin's x-rays or the <e1>latest photographic marvels</e1> retrieved from the <e2>remotest galactic outback</e2>, visualization of research has a long and literally illustrious history."
+WordNet(e1) = "marvel%1:11:00::", WordNet(e2) = "outback%1:15:00::", Origin-Entity(e2, e1) = "true", Query = "the * * * from the *"
+
+032 "A pop-up roll cage and active headrests aim to protect occupants during a rollover, and the <e1>floorboard</e1> is made from <e2>bamboo</e2> and aluminum."
+WordNet(e1) = "floorboard%1:06:01::", WordNet(e2) = "bamboo%1:20:02::", Origin-Entity(e2, e1) = "false", Query = "the * is made from *"
+
+033 "These early Bristol recordings laid the groundwork for much of the <e1>country</e1> <e2>music</e2> that followed."
+WordNet(e1) = "country%1:15:01::", WordNet(e2) = "music%1:10:00::", Origin-Entity(e1, e2) = "false", Query = "country music"
+Comment: Type
+
+034 "The curricular requirements for an engineering degree can be satisfied in four years of study by completing 14 to 18 credits of work each semester, but many <e1>students</e1> deviate from the <e2>ideal curricula</e2> presented in a later section of this bulletin."
+WordNet(e1) = "student%1:18:00::", WordNet(e2) = "curriculum%1:10:00::", Origin-Entity(e2, e1) = "false", Query = "students * from the *"
+
+035 "He was a <e1>young refugee</e1> on the run from a <e2>nation</e2> at war."
+WordNet(e1) = "refugee%1:18:00::", WordNet(e2) = "nation%1:14:00::", Origin-Entity(e2, e1) = "true", Query = "refugee * from * nation"
+
+036 "They are taking the <e1>brains</e1> from <e2>babies</e2>."
+WordNet(e1) = "brain%1:08:00::", WordNet(e2) = "baby%1:18:00::", Origin-Entity(e2, e1) = "false", Query = "the * from *"
+
+037 "Eventually the <e1>company</e1> manufactured the <e2>machines</e2>."
+WordNet(e1) = "company%1:14:01::", WordNet(e2) = "machine%1:06:00::", Origin-Entity(e1, e2) = "false", Query = "the * manufactured the *"
+Comment: Product-Producer
+
+038 "By the early '90s, Indian entrepreneurs bought a majority of the properties and flourished with the new <e1>immigrants</e1> from the <e2>subcontinent</e2>."
+WordNet(e1) = "immigrant%1:18:00::", WordNet(e2) = "subcontinent%1:17:00::", Origin-Entity(e1, e2) = "true", Query = "immigrants from the *"
+
+039 "The mesopause separates the <e1>mesosphere</e1> from the <e2>thermosphere</e2>."
+WordNet(e1) = "mesosphere%1:17:00::", WordNet(e2) = "thermosphere%1:17:00::", Origin-Entity(e2, e1) = "false", Query = "the * from *"
+
+040 "Beauty had scarcely uttered these words when the <e1>castle</e1> radiated with <e2>light</e2>."
+WordNet(e1) = "castle%1:06:02::", WordNet(e2) = "light%1:07:01::", Origin-Entity(e1, e2) = "false", Query = "the * radiated *"
+
+041 "Effective <e1>canola</e1> <e2>production</e2> requires hands-on involvement with the crop."
+WordNet(e1) = "?", WordNet(e2) = "production%1:23:00::", Origin-Entity(e1, e2) = "false", Query = "canola *"
+
+042 "Download all the <e1>images</e1> from a <e2>website</e2> with a single click!"
+WordNet(e1) = "image%1:06:00::", WordNet(e2) = "website%1:10:00::", Origin-Entity(e2, e1) = "true", Query = "the * from a *"
+Comment: we all think of websites as locations nowadays...
+
+043 "The <e1>bytecodes</e1> compiled from a <e2>nonoptimized control structure</e2> are illustrated by the following hypothetical method in Collection."
+WordNet(e1) = "?", WordNet(e2) = "structure%1:06:00::", Origin-Entity(e2, e1) = "true", Query = "the * from a *"
+
+044 "Recruiting <e1>talented computer scientists</e1> from <e2>underrepresented communities</e2> is important to current and future workforce needs of the Computation Directorate as well as the Laboratory as a whole."
+WordNet(e1) = "computer_scientist%1:18:00::", WordNet(e2) = "community%1:14:00::", Origin-Entity(e2, e1) = "false", Query = "scientists from *"
+Comment: neither location, nor material.
+
+045 "Select the <e1>appropriate government agency</e1> from the <e2>pull-down list</e2>, add comments in the comment box, and select the Submit button."
+WordNet(e1) = "government_agency%1:14:00::", WordNet(e2) = "list%1:10:00::", Origin-Entity(e2, e1) = "false", Query = "the * from *"
+
+046 "The <e1>email</e1> is received from a <e2>wealthy, dying person</e2> wanting to get their money out of the country."
+WordNet(e1) = "email%1:10:00::", WordNet(e2) = "person%1:03:00::", Origin-Entity(e2, e1) = "false", Query = "the * is received from ? *"
+Comment: People are not origins.
+
+047 "The <e1>backup vocals</e1> are from a <e2>rather talented female</e2>, Stephanie Eitel."
+WordNet(e1) = "vocal%1:10:00::", WordNet(e2) = "female%1:18:00::", Origin-Entity(e2, e1) = "false", Query = "the * are from a *"
+
+048 "With five of the six classes being a single credit hour and the sixth being three credit hours of capstone design, sophomores, juniors, and seniors work directly with medical doctors, nurses, graduate students, Ph.D.'s, and <e1>engineers</e1> from the <e2>medical industry</e2>."
+WordNet(e1) = "engineer%1:18:00::", WordNet(e2) = "industry%1:14:00::", Origin-Entity(e2, e1) = "false", Query = "engineers from the *"
+
+049 "Learning to change your vehicle's <e1>engine</e1> <e2>oil</e2> can save you time and money."
+WordNet(e1) = "engine%1:06:00::", WordNet(e2) = "oil%1:27:00::", Origin-Entity(e1, e2) = "false", Query = "engine oil"
+
+050 "The <e1>light</e1> in the background is from the <e2>sunrise</e2>."
+WordNet(e1) = "light%1:19:00::", WordNet(e2) = "sunrise%1:19:00::", Origin-Entity(e2, e1) = "false", Query = "the * is from the *"
+
+051 "The <e1>basement carpeting</e1> is made from <e2>recycled plastic pop bottles</e2>, and the underpad was once automobile tires."
+WordNet(e1) = "carpeting%1:06:00::", WordNet(e2) = "pop_bottle%1:06:00::", Origin-Entity(e2, e1) = "true", Query = "the * is made from *"
+
+052 "In Europe the <e1>fuel</e1> is distilled from <e2>canola oil</e2>."
+WordNet(e1) = "fuel%1:27:00::", WordNet(e2) = "canola_oil%1:13:00::", Origin-Entity(e2, e1) = "true", Query = "the * is distilled from *"
+
+053 "Include a note in the 'Comments' field of the purchase requisition stating that the <e1>services</e1> are being obtained from a <e2>nonresident alien</e2>."
+WordNet(e1) = "services%1:04:00::", WordNet(e2) = "alien%1:18:00::", Origin-Entity(e2, e1) = "false", Query = "the * are * * from a *"
+Comment: Product-Producer
+
+054 "They understand the <e1>stakes</e1> from a <e2>personal perspective</e2>, as well, since the extremists have tried to assassinate them."
+WordNet(e1) = "stakes%1:21:00::", WordNet(e2) = "perspective%1:09:00::", Origin-Entity(e2, e1) = "false", Query = "the * from a *"
+
+055 "When deliberations began, the <e1>crowd</e1> of people jamming the hallways radiated <e2>optimism</e2>."
+WordNet(e1) = "crowd%1:14:00::", WordNet(e2) = "optimism%1:12:00::", Origin-Entity(e1, e2) = "false", Query = "the * radiated *"
+
+056 "We're always looking for <e1>feedback</e1> from <e2>readers</e2> and articles to highlight."
+WordNet(e1) = "feedback%1:10:00::", WordNet(e2) = "reader%1:18:02::", Origin-Entity(e2, e1) = "false", Query = "* from *"
+
+057 "Is it really possible to build the <e1>tree</e1> from a <e2>database</e2>?"
+WordNet(e1) = "tree%1:25:00::", WordNet(e2) = "database%1:10:00::", Origin-Entity(e2, e1) = "true", Query = "the * from a *"
+
+058 "Fruit juice has all the <e1>fruit</e1> <e2>sugar</e2> and none of the fruit fiber, and only some of the fruit nutrients."
+WordNet(e1) = "fruit%1:20:00::", WordNet(e2) = "sugar%1:27:00::", Origin-Entity(e1, e2) = "true", Query = "fruit sugar"
+
+059 "Does the <e1>product</e1> emit <e2>radiation</e2>?"
+WordNet(e1) = "product%1:27:00::", WordNet(e2) = "radiation%1:19:00::", Origin-Entity(e1, e2) = "false", Query = "the * emit *"
+Comment:Product-Producer
+
+060 "A couple of spoonsful would have been mixed with water to create a sweet and tart drink, the fruit providing the flavor and color, the <e1>sugar</e1> providing the <e2>sweetness</e2>, and the vinegar providing the tartness."
+WordNet(e1) = "sugar%1:27:00::", WordNet(e2) = "sweetness%1:09:00::", Origin-Entity(e1, e2) = "false", Query = "the * providing the *"
+
+061 "Now if the Bagger can just get some <e1>popcorn</e1> from <e2>room service</e2>, he'll be all set."
+WordNet(e1) = "popcorn%1:13:00::", WordNet(e2) = "service%1:04:08::", Origin-Entity(e2, e1) = "false", Query = "* from *"
+
+062 "Orpheus falls in love with the <e1>country</e1> <e2>girl</e2> for no apparent reason save her name and beauty."
+WordNet(e1) = "country%1:15:01::", WordNet(e2) = "girl%1:18:00::", Origin-Entity(e1, e2) = "true", Query = "the country girl"
+
+063 "If the <e1>notice</e1> is sent by <e2>fax</e2>, the notice is not deemed received until 3 days after faxing it."
+WordNet(e1) = "notice%1:10:01::", WordNet(e2) = "fax%1:06:00::", Origin-Entity(e1, e2) = "false", Query = "the * sent by *"
+
+064 "This is the <e1>winning sand castle</e1> from the Castlemania <e2>contest</e2>."
+WordNet(e1) = "castle%1:06:02::", WordNet(e2) = "contest%1:11:00::", Origin-Entity(e2, e1) = "false", Query = "the * * * from the *"
+
+065 "The customers are happy and the <e1>marketer</e1> generates <e2>more income</e2> from the sales of his vehicles - everyone wins."
+WordNet(e1) = "marketer%1:18:00::", WordNet(e2) = "income%1:21:00::", Origin-Entity(e1, e2) = "false", Query = "the * generates *"
+
+066 "To prevent <e1>students</e1> from <e2>informing</e2> their peers what questions are in the quiz, the questions are randomly selected from a large, pre-prepared question bank."
+WordNet(e1) = "student%1:18:00::", WordNet(e2) = "informing%1:10:01::", Origin-Entity(e2, e1) = "false", Query = "the * are * * from a *"
+
+067 "The <e1>colours</e1> were similarly derived from the <e2>style-sheet</e2>."
+WordNet(e1) = "colour%1:07:00::", WordNet(e2) = "style_sheet%1:10:00::", Origin-Entity(e2, e1) = "true", Query = "the * * * from * the *"
+
+068 "The <e1>outer shell</e1> is made from <e2>anodized aluminum</e2>."
+WordNet(e1) = "shell%1:06:02::", WordNet(e2) = "aluminum%1:27:00::", Origin-Entity(e2, e1) = "false", Query = "the * is made from *"
+
+069 "<e1>Sunflower</e1> <e2>oil</e2> is obtained by extracting oil from sunflower seeds."
+WordNet(e1) = "sunflower%1:20:00::", WordNet(e2) = "oil%1:13:00::", Origin-Entity(e1, e2) = "true", Query = "sunflower oil"
+
+070 "The word <e1>naughtiness</e1> is derived from a <e2>word</e2> meaning worthless."
+WordNet(e1) = "naughtiness%1:07:00::", WordNet(e2) = "word%1:10:00::", Origin-Entity(e2, e1) = "true", Query = "the * is derived from *"
+
+071 "So you are not only sharing the speaker information, but you are also sharing the <e1>audio</e1> from the <e2>event</e2> quickly and easily."
+WordNet(e1) = "audio%1:10:00::", WordNet(e2) = "event%1:03:00::", Origin-Entity(e2, e1) = "false", Query = "the audio from the event"
+Comment: audio is part of the event
+
+072 "Lowering your <e1>blood</e1> <e2>sugar</e2> is the key to managing diabetes."
+WordNet(e1) = "blood%1:08:00::", WordNet(e2) = "sugar%1:27:00::", Origin-Entity(e1, e2) = "true", Query = "blood sugar"
+
+073 "The 3 km long <e1>beach</e1> extends from the <e2>mouth</e2> of the Oro River in the west, to the cliffs of Point Caramonal to the southeast."
+WordNet(e1) = "beach%1:17:00::", WordNet(e2) = "mouth%1:17:00::", Origin-Entity(e2, e1) = "false", Query = "the * * * from * the *"
+
+074 "On the other hand, <e1>gin</e1> is distilled from a <e2>neutral grain spirit</e2>, which is then infused with juniper and a host of other botanicals."
+WordNet(e1) = "gin%1:13:00::", WordNet(e2) = "spirits%1:13:00:", Origin-Entity(e2, e1) = "true", Query = "the * is distilled from *"
+
+075 "What did the residents and <e1>scientists</e1> learn from the Krakatau <e2>explosion</e2>?"
+WordNet(e1) = "scientist%1:18:00::", WordNet(e2) = "explosion%1:11:00::", Origin-Entity(e2, e1) = "false", Query = "the * * * from the *"
+Comment: There is no relation between scientists and explosion.
+
+076 "Where credit is granted, the <e1>supplier</e1>'s <e2>invoice</e2> will be payable within 30 days."
+WordNet(e1) = "supplier%1:18:00::", WordNet(e2) = "invoice%1:10:00::", Origin-Entity(e1, e2) = "false", Query = "the * invoice"
+Comment: Product-Producer
+
+077 "It seems quite clear, therefore, that the <e1>claimant</e1>'s <e2>allegation</e2> of a lung condition is not substantiated by any of the reporting physicians of record."
+WordNet(e1) = "claimant%1:18:00::", WordNet(e2) = "allegation%1:10:00::", Origin-Entity(e1, e2) = "false", Query = "the * allegation"
+Comment: Product-Producer
+
+078 "Retailers should report the income from a coupon's face value and its related handling fee at the time the <e1>coupon</e1> is received from the <e2>customer</e2>."
+WordNet(e1) = "coupon%1:10:00::", WordNet(e2) = "customer%1:18:00::", Origin-Entity(e2, e1) = "false", Query = "the * is received from the *"
+Comment: People are not origins.
+
+079 "Different from the curry source, <e1>chicken bouillon</e1> is mainly distilled from <e2>chicken</e2>."
+WordNet(e1) = "bouillon%1:13:00::", WordNet(e2) = "chicken%1:13:00::", Origin-Entity(e2, e1) = "true", Query = "the * is distilled from *"
+
+080 "When the <e1>invoice</e1> is received from a <e2>vendor</e2>, you should verify that you have only been charged for goods or services that were ordered and received."
+WordNet(e1) = "invoice%1:10:00::", WordNet(e2) = "vendor%1:18:00::", Origin-Entity(e2, e1) = "false", Query = "the * is received from ? *"
+Comment: The vendor is not a material, nor a location.
+
+081 "The <e1>clear spirit</e1> is distilled from <e2>fresh grain</e2>."
+WordNet(e1) = "spirits%1:13:00::", WordNet(e2) = "grain%1:07:02::", Origin-Entity(e2, e1) = "true", Query = "the * is distilled from *"
+
+082 "I'm assuming that the <e1>criticism</e1> is from the <e2>publisher side</e2>."
+WordNet(e1) = "criticism%1:09:00::", WordNet(e2) = "side%1:14:00::", Origin-Entity(e2, e1) = "false", Query = "the * is from the *"
+
+083 "The flavour and colour depend on the plants from which the <e1>bees</e1> manufactured the <e2>nectar</e2>."
+WordNet(e1) = "bee%1:05:00::", WordNet(e2) = "nectar%1:27:00::", Origin-Entity(e1, e2) = "false", Query = "the * manufactured the *"
+Comment: Product-Producer
+
+084 "This is assuming that the <e1>dividend</e1> is received from a <e2>treaty country</e2>."
+WordNet(e1) = "dividend%1:21:01::", WordNet(e2) = "country%1:15:00::", Origin-Entity(e2, e1) = "true", Query = "the * is received from ? *"
+Comment: Country is where the money came from, even though physically that is not what happened.
+
+085 "I think people really do themselves a disservice when they get their <e1>news</e1> from only one <e2>source</e2>."
+WordNet(e1) = "news%1:10:00::", WordNet(e2) = "source%1:18:01::", Origin-Entity(e1, e2) = "true", Query = "news from * source"
+
+086 "The <e1>transition</e1> from <e2>dictatorship</e2> to democracy will take time, but it is worth every effort."
+WordNet(e1) = "transition%1:04:00::", WordNet(e2) = "dictatorship%1:14:00::", Origin-Entity(e2, e1) = "false", Query = "the * from *"
+
+087 "The <e1>signal</e1> is received from a <e2>known direction</e2>."
+WordNet(e1) = "signal%1:10:00::", WordNet(e2) = "direction%1:15:00::", Origin-Entity(e2, e1) = "true", Query = "the * is received from ? *"
+Comment: A direction is not a fully specified location but it does specify a set of locations.
+
+088 "We want ideas to save our planet, to save the <e1>planet</e1> from the <e2>imperialist threat</e2>."
+WordNet(e1) = "planet%1:17:00::", WordNet(e2) = "threat%1:26:00::", Origin-Entity(e2, e1) = "false", Query = "the * from the *"
+
+089 "The commission merely implements the contracts, shielding the <e1>major party candidates</e1> from <e2>public criticism</e2>."
+WordNet(e1) = "candidate%1:18:01::", WordNet(e2) = "criticism%1:10:00::", Origin-Entity(e2, e1) = "false", Query = "the * from *"
+
+090 "The <e1>above advertisement</e1> is from the <e2>server provider</e2> not from me."
+WordNet(e1) = "advertisement%1:10:00::", WordNet(e2) = "provider%1:18:00::", Origin-Entity(e2, e1) = "false", Query = "the * is from the *"
+
+091 "This <e1>view</e1> from the inside is from the <e2>bridge</e2> that spans Atherton Street."
+WordNet(e1) = "view%1:09:01::", WordNet(e2) = "bridge%1:06:00::", Origin-Entity(e2, e1) = "true", Query = "the * is from the *"
+
+092 "The <e1>discoverer</e1> writes a <e2>short citation</e2> explaining the reasons for assigning the name."
+WordNet(e1) = "discoverer%1:18:00::", WordNet(e2) = "citation%1:10:01::", Origin-Entity(e1, e2) = "false", Query = "the * writes a *"
+Comment: Product-Producer
+
+093 "The <e1>quotation</e1> is from the <e2>preface</e2> to the fourth edition."
+WordNet(e1) = "quotation%1:10:00::", WordNet(e2) = "preface%1:10:00::", Origin-Entity(e2, e1) = "true", Query = "the * is from the *"
+Comment: "preface" as abstract location
+
+094 "The <e1>pollen</e1> is derived from a podocarp/broadleaved <e2>forest</e2>, which probably. covered both the alluvial flats and sides of the valley."
+WordNet(e1) = "pollen%1:20:00::", WordNet(e2) = "forest%1:14:00::", Origin-Entity(e2, e1) = "true", Query = "the * is derived from *"
+Comment: Geographic origin.
+
+095 "He went on to examine the <e1>theory</e1> from a <e2>risk assessment perspective</e2>."
+WordNet(e1) = "theory%1:09:01::", WordNet(e2) = "perspective%1:09:00::", Origin-Entity(e2, e1) = "false", Query = "the * from *"
+
+096 "<e1>Chicken</e1> <e2>bouillon</e2> can be obtained in three different forms, either liquid, powder or in cubes."
+WordNet(e1) = "chicken%1:13:00::", WordNet(e2) = "bouillon%1:13:00::", Origin-Entity(e1, e2) = "true", Query = "chicken bouillon"
+
+097 "The Corel data set is relatively simple because the annotations are <e1>nouns</e1> selected from a <e2>relatively small vocabulary</e2>."
+WordNet(e1) = "noun%1:10:00::", WordNet(e2) = "vocabulary%1:10:00::", Origin-Entity(e2, e1) = "true", Query = "the * are * * from a *"
+
+098 "<e1>Almond</e1> <e2>butter</e2> is available in many natural and whole food stores."
+WordNet(e1) = "almond%1:13:00::", WordNet(e2) = "butter%1:13:00::", Origin-Entity(e1, e2) = "true", Query = "almond butter"
+
+099 "<e1>Avocado</e1> <e2>butter</e2> is a very rich, moisturizing treatment for the hair and skin, and it has some natural sunscreen properties."
+WordNet(e1) = "avocado%1:13:00::", WordNet(e2) = "butter%1:13:00::", Origin-Entity(e1, e2) = "true", Query = "avocado butter"
+
+100 "She opened a fridge in the side of the door and got out a <e1>blueberry</e1> <e2>vodka</e2>."
+WordNet(e1) = "blueberry%1:13:00::", WordNet(e2) = "vodka%1:13:00::", Origin-Entity(e1, e2) = "true", Query = "a * vodka"
+
+101 "The <e1>sauce</e1> is made from <e2>soybean flour</e2>, chiles, red beans, and many other spices."
+WordNet(e1) = "sauce%1:13:00::", WordNet(e2) = "soybean_flour%1:13:00::", Origin-Entity(e2, e1) = "true", Query = "the * is made from *"
+
+102 "In contrast, clay-textured soils are more difficult to prepare a <e1>canola</e1> <e2>seedbed</e2> because the clods can be too large when worked wet, and they tend to crust once worked to a fine seedbed."
+WordNet(e1) = "?", WordNet(e2) = "seedbed%1:06:00::", Origin-Entity(e1, e2) = "false", Query = "canola *"
+
+103 "The <e1>following translation</e1> is from the <e2>website</e2> of Sanzinsoo."
+WordNet(e1) = "translation%1:10:00::", WordNet(e2) = "website%1:10:00::", Origin-Entity(e2, e1) = "true", Query = "the * is from the *"
+
+104 "The remarkably comprehensive 32-page 2004 Memorandum of Understanding prohibited the <e1>candidates</e1> from <e2>questioning</e2> each other, limited rebuttals to a mere 30 seconds, barred direct follow-up questions and entirely prohibited surrebuttals."
+WordNet(e1) = "candidate%1:18:01::", WordNet(e2) = "questioning%1:10:00::", Origin-Entity(e2, e1) = "false", Query = "the * from *"
+
+105 "Combine strawberries and <e1>powder</e1> <e2>sugar</e2> and mix well."
+WordNet(e1) = "powder%1:27:00::", WordNet(e2) = "sugar%1:13:00::", Origin-Entity(e2, e1) = "false", Query = "powder sugar"
+
+106 "A <e1>blood</e1> <e2>alcohol</e2> level of .08 or higher will result in a DUI arrest."
+WordNet(e1) = "blood%1:08:00::", WordNet(e2) = "alcohol%1:13:00::", Origin-Entity(e1, e2) = "false", Query = "a * alcohol"
+
+107 "Short-term disability and long-term <e1>disability</e1> <e2>benefits</e2> are available at no cost to USTelecom employees."
+WordNet(e1) = "disability%1:26:00::", WordNet(e2) = "benefit%1:21:00::", Origin-Entity(e1, e2) = "false", Query = "* benefits"
+Comment: purpose
+
+108 "<e1>Canola</e1> <e2>oil</e2> is a versatile, neutral-tasting oil that is very low in saturated fat."
+WordNet(e1) = "?", WordNet(e2) = "oil%1:13:00::", Origin-Entity(e1, e2) = "true", Query = "canola *"
+
+109 "In any case, we found no indications that <e1>fish</e1> <e2>oil</e2> would harm patients."
+WordNet(e1) = "fish%1:05:00::", WordNet(e2) = "oil%1:13:00::", Origin-Entity(e1, e2) = "true", Query = "fish oil"
+
+110 "The <e1>ball</e1> is retrieved from the <e2>hedge</e2>."
+WordNet(e1) = "ball%1:06:01::", WordNet(e2) = "hedge%1:06:00::", Origin-Entity(e2, e1) = "true", Query = "the * * * from the *"
+
+111 "The <e1>data</e1> are derived primarily from a <e2>three-nation survey</e2> conducted for the Harvard School of Public Health and The Robert Wood Johnson Foundation by Louis Harris and Associates and its international affiliates between 10 June and 14 September 1994."
+WordNet(e1) = "data%1:14:00::", WordNet(e2) = "survey%1:04:02::", Origin-Entity(e2, e1) = "true", Query = "the * are * * from a *"
+
+112 "The hotel is in the style of a <e1>country</e1> <e2>lodge</e2> and only has 18 rooms."
+WordNet(e1) = "country%1:15:01::", WordNet(e2) = "lodge%1:06:01::", Origin-Entity(e1, e2) = "false", Query = "a country lodge"
+Comment: Location-at
+
+113 "We will reposition ourselves and our events to attract <e1>scientists</e1> from <e2>complementary disciplines</e2>."
+WordNet(e1) = "scientist%1:18:00::", WordNet(e2) = "discipline%1:09:00::", Origin-Entity(e2, e1) = "false", Query = "scientists from *"
+
+114 "The <e1>image</e1> is from the <e2>poster</e2> 'Selling Counterfeit Products is Illegal'."
+WordNet(e1) = "image%1:06:00::", WordNet(e2) = "poster%1:10:00::", Origin-Entity(e2, e1) = "false", Query = "the * is from the *"
+
+115 "Tom plans to continue to live the <e1>country</e1> <e2>life</e2> as he grows older."
+WordNet(e1) = "country%1:15:01::", WordNet(e2) = "life%1:26:01::", Origin-Entity(e1, e2) = "false", Query = "the country life"
+Comment: Location-at , or Type
+
+116 "The <e1>following advice</e1> is distilled from <e2>builders</e2> and first-hand experience."
+WordNet(e1) = "advice%1:10:00::", WordNet(e2) = "builder%1:18:01::", Origin-Entity(e2, e1) = "false", Query = "the * is distilled from *"
+
+117 "The <e1>first quote</e1> is from the Ginger Meggs <e2>cartoon</e2>."
+WordNet(e1) = "quote%1:10:01::", WordNet(e2) = "cartoon%1:10:00::", Origin-Entity(e2, e1) = "true", Query = "the * is from the *"
+Comment: "cartoon" as an abstract location
+
+118 "Unlike a <e1>hard-copy</e1> <e2>book</e2> (at an even higher price), this one purchase ensures you will be up to date with all future releases of the electronic book."
+WordNet(e1) = "hard_copy%1:10:00::", WordNet(e2) = "book%1:10:00::", Origin-Entity(e1, e2) = "false", Query = "a * book"
+
+119 "Assuming that the <e1>data</e1> are from a <e2>multivariate normal distribution</e2>, data augmentation is applied to Bayesian inference with missing data by repeating a series of imputation and posterior steps."
+WordNet(e1) = "data%1:14:00::", WordNet(e2) = "normal_distribution%1:09:00::", Origin-Entity(e2, e1) = "true", Query = "the * are from a *"
+
+120 "This Appalachian region had been settled by <e1>emigrants</e1> from the <e2>lowlands</e2>."
+WordNet(e1) = "emigrant%1:18:00::", WordNet(e2) = "lowlands%1:15:00::", Origin-Entity(e2, e1) = "true", Query = "emigrants from the *"
+
+121 "The <e1>video sequence</e1> is from the <e2>movie</e2> 'Forrest Gump'."
+WordNet(e1) = "sequence%1:06:00::", WordNet(e2) = "movie%1:10:00::", Origin-Entity(e2, e1) = "true", Query = "the * is from the *"
+Comment: "movie" as an abstract location
+
+122 "The <e1>transmitter</e1> generates the <e2>electromagnetic wave</e2>, some of which will be incident on the receiver."
+WordNet(e1) = "transmitter%1:18:00::", WordNet(e2) = "electromagnetic_wave%1:19:00::", Origin-Entity(e1, e2) = "false", Query = "the * generates the"
+
+123 "<e1>Supervision</e1> is received from a <e2>golf supervisor</e2>, who reviews work through conferences, reports, and results achieved."
+WordNet(e1) = "supervision%1:04:00::", WordNet(e2) = "supervisor%1:18:00::", Origin-Entity(e2, e1) = "false", Query = "the * is received from ? *"
+Comment: supervisor generated the supervision.
+
+124 "The more samples (and therefore means) from the population one takes, the better the <e1>population estimate</e1> is from the <e2>sampling distribution</e2>."
+WordNet(e1) = "estimate%1:09:00::", WordNet(e2) = "distribution%1:09:00::", Origin-Entity(e2, e1) = "true", Query = "the * is from the *"
+
+125 "Any herb can be used in <e1>herb</e1> <e2>butter</e2>, but it is best to use bold flavors."
+WordNet(e1) = "herb%1:13:00::", WordNet(e2) = "butter%1:13:00::", Origin-Entity(e1, e2) = "false", Query = "herb butter"
+Comment: Content-Container. Violates restriction (c).
+
+126 "But neither of the <e1>teens</e1> manufactured the <e2>fake device</e2>, he said."
+WordNet(e1) = "teens%1:28:00::", WordNet(e2) = "device%1:06:00::", Origin-Entity(e1, e2) = "false", Query = "the * manufactured the *"
+
+127 "This surgical operation isolates most of the <e1>right hemisphere</e1> from the <e2>left hemisphere</e2>."
+WordNet(e1) = "right_hemisphere%1:08:00::", WordNet(e2) = "left_hemisphere%1:08:00::", Origin-Entity(e2, e1) = "false", Query = "the * from the *"
+
+128 "Each year over 2300 <e1>scientists</e1> from <e2>universities</e2>, industries and government labs perform research at the NSLS."
+WordNet(e1) = "scientist%1:18:00::", WordNet(e2) = "university%1:14:01::", Origin-Entity(e2, e1) = "true", Query = "scientists from *"
+
+129 "The rest of the points are awarded proportionally to the distance the <e1>ball</e1> is from the <e2>farthest traveling ball</e2>."
+WordNet(e1) = "ball%1:06:01::", WordNet(e2) = "ball%1:06:01::", Origin-Entity(e2, e1) = "false", Query = "the * manufactured the *"
+
+130 "The <e1>homes</e1> are from a <e2>simpler time</e2>, when closets were tiny and bathrooms were few, but the woodwork and stonework are inspiring."
+WordNet(e1) = "home%1:06:00::", WordNet(e2) = "time%1:28:00::", Origin-Entity(e2, e1) = "false", Query = "the * are from a *"
+Comment: Time-at
+
+131 "About 30 ducks were found dead in Klamath County in the past two days, and officials are investigating whether the <e1>deaths</e1> are from a <e2>cholera outbreak</e2>."
+WordNet(e1) = "death%1:11:00::", WordNet(e2) = "outbreak%1:11:00::", Origin-Entity(e2, e1) = "false", Query = "the * are from a *"
+
+132 "The <e1>man</e1> radiated <e2>jolliness</e2>."
+WordNet(e1) = "man%1:18:00::", WordNet(e2) = "jolliness%1:12:00::", Origin-Entity(e1, e2) = "false", Query = "the * radiated *"
+
+133 "A couple of spoonsful would have been mixed with water to create a sweet and tart drink, the <e1>fruit</e1> providing the flavor and <e2>color</e2>, the sugar providing the sweetness, and the vinegar providing the tartness."
+WordNet(e1) = "fruit%1:20:00::", WordNet(e2) = "color%1:07:00::", Origin-Entity(e1, e2) = "true", Query = "the * providing the *"
+
+134 "Prepare some <e1>beef</e1> <e2>bouillon</e2> and let it cool."
+WordNet(e1) = "beef%1:13:00::", WordNet(e2) = "bouillon%1:13:00::", Origin-Entity(e1, e2) = "true", Query = "some * bouillon"
+
+135 "The <e1>dryer</e1> emits <e2>air</e2> that is regulated close to your body temperature."
+WordNet(e1) = "dryer%1:06:00::", WordNet(e2) = "air%1:27:00::", Origin-Entity(e1, e2) = "true", Query = "the * emits *"
+
+136 "Where's the <e1>outrage</e1> from the <e2>sexism crusaders</e2>?"
+WordNet(e1) = "outrage%1:12:00::", WordNet(e2) = "crusader%1:18:00::", Origin-Entity(e2, e1) = "false", Query = "the * from the *"
+Comment: Product-Producer
+
+137 "In America, generations of Portuguese <e1>immigrants</e1> from the <e2>mainland</e2>, Azores and Madeira have brought their often-simple but diverse and always tasty cuisine."
+WordNet(e1) = "immigrant%1:18:00::", WordNet(e2) = "mainland%1:17:00::", Origin-Entity(e1, e2) = "true", Query = "immigrants from the *"
+
+138 "The <e1>dose</e1> makes the <e2>poison</e2>."
+WordNet(e1) = "dose%1:06:00::", WordNet(e2) = "poison%1:27:00::", Origin-Entity(e1, e2) = "false", Query = "the * makes the *"
+
+139 "This is an overview of the viewer from a <e1>developer</e1>'s <e2>perspective</e2>."
+WordNet(e1) = "developer%1:18:00::", WordNet(e2) = "perspective%1:09:00::", Origin-Entity(e1, e2) = "false", Query = "the * from a *"
+
+140 "The <e1>data</e1> presented here are mainly derived from a <e2>survey</e2> designed by researchers at the Harvard School of Public Health."
+WordNet(e1) = "data%1:14:00::", WordNet(e2) = "survey%1:04:02::", Origin-Entity(e2, e1) = "true", Query = "the * are * * from a *"
+

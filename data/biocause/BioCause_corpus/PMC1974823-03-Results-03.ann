@@ -1,0 +1,149 @@
+T53	Binding 0 7	Binding
+T54	Entity 23 38	promoter region
+T55	Positive_regulation 104 114	activation
+T56	Regulation 258 266	mediated
+T57	Gene_expression 272 282	expression
+T58	Gene_expression 290 300	expression
+T59	Regulation 301 311	regulation
+T60	Regulation 336 346	controlled
+T61	Gene_expression 379 389	expression
+T62	Regulation 420 429	modulates
+T63	Gene_expression 435 445	expression
+T64	Binding 458 465	binding
+T65	Entity 473 488	promoter region
+T66	Gene_expression 844 853	expressed
+T67	Gene_expression 991 1000	expressed
+T68	Binding 1248 1255	binding
+T69	Entity 1378 1386	promoter
+T70	Binding 1393 1400	complex
+T71	Binding 1705 1716	interaction
+T72	Entity 1744 1752	promoter
+T73	Regulation 1773 1777	role
+T74	Phosphorylation 1781 1796	phosphorylation
+T75	Binding 1812 1819	binding
+T76	Entity 1832 1847	promoter region
+T77	Binding 1976 1983	binding
+T78	Phosphorylation 1996 2010	phosphorylated
+T79	Phosphorylation 2021 2037	unphosphorylated
+T80	Binding 2138 2142	bind
+T81	Entity 2155 2170	promoter region
+T82	Regulation 2188 2198	regulation
+T83	Gene_expression 2207 2217	expression
+T84	Binding 2514 2518	bind
+T85	Entity 2544 2559	promoter region
+T86	Positive_regulation 2574 2583	activator
+T87	Transcription 2592 2605	transcription
+T88	Binding 2673 2678	binds
+T89	Gene_expression 2952 2962	expression
+T90	Positive_regulation 2963 2971	mediated
+E1	Binding:T53 Theme1:T1 Theme2:T2 Site2:T54
+E2	Positive_regulation:T55 Theme:T4 Cause:T3
+E3	Regulation:T56 Theme:E4 Cause:T5
+E4	Gene_expression:T57 Theme:T6
+E5	Gene_expression:T58 Theme:T7
+E6	Regulation:T59 Theme:E5 Cause:T8
+E7	Regulation:T60 Theme:E8
+M1	Negation E7
+E8	Gene_expression:T61 Theme:T9
+E9	Regulation:T62 Theme:E10 Cause:E11
+M2	Speculation E9
+E10	Gene_expression:T63 Theme:T11
+E11	Binding:T64 Theme1:T10 Theme2:T12 Site2:T65
+E12	Gene_expression:T66 Theme:T17
+E13	Gene_expression:T67 Theme:T19
+E14	Binding:T68 Theme:T22
+E15	Binding:T70 Theme1:T26 Theme2:T25 Site2:T69
+E16	Binding:T71 Theme1:T31 Theme2:T32 Site2:T72
+E17	Regulation:T73 Theme:E19 Cause:E18
+M3	Speculation E17
+E18	Phosphorylation:T74 Theme:T33
+E19	Binding:T75 Theme1:T33 Theme2:T34 Site2:T76
+E20	Binding:T77 Theme:T36
+E21	Binding:T77 Theme:T37
+E22	Phosphorylation:T78 Theme:T36
+E23	Phosphorylation:T79 Theme:T37
+M4	Negation E23
+E24	Binding:T80 Theme1:T38 Theme2:T39 Site2:T81
+M5	Negation E24
+E25	Regulation:T82 Theme:E26 Cause:T41
+E26	Gene_expression:T83 Theme:T40
+E27	Binding:T84 Theme1:T46 Theme2:T47 Site2:T85
+E28	Positive_regulation:T86 Theme:E29 Cause:T46
+E29	Transcription:T87 Theme:T48
+E30	Binding:T88 Theme:T49
+E31	Gene_expression:T89 Theme:T51
+E32	Positive_regulation:T90 Theme:E31 Cause:T52
+T1	Protein 11 15	FimR
+T2	Protein 42 46	mfa1
+T3	Protein 99 103	FimR
+T4	Protein 122 126	fimA
+T5	Protein 253 257	FimR
+T6	Protein 267 271	mfa1
+T7	Protein 315 319	mfa1
+T8	Protein 323 327	FimR
+T9	Protein 374 378	fimA
+T10	Protein 415 419	FimR
+T11	Protein 430 434	mfa1
+T12	Protein 492 496	mfa1
+T13	Protein 581 585	mfa1
+T14	Protein 626 630	fimA
+T15	Protein 694 698	mfa1
+T16	Protein 827 831	FimR
+T17	Protein 833 838	rFimR
+T18	Organism 897 904	E. coli
+T19	Protein 910 916	rHGP44
+T20	Organism 946 959	P. gingivalis
+T21	Protein 1059 1064	rFimR
+T22	Protein 1242 1247	rFimR
+T23	Protein 1301 1305	mfa1
+T24	Protein 1357 1362	rFimR
+T25	Protein 1373 1377	mfa1
+T26	Protein 1387 1392	rFimR
+T27	Protein 1446 1451	rFimR
+T28	Protein 1486 1491	rFimR
+T29	Protein 1578 1582	mfa1
+T30	Protein 1611 1615	mfa1
+T31	Protein 1725 1730	rFimA
+T32	Protein 1739 1743	mfa1
+T33	Protein 1800 1804	FimR
+T34	Protein 1827 1831	mfa1
+T35	Protein 1910 1915	rFimR
+T36	Protein 2011 2016	rFimR
+T37	Protein 2038 2043	rFimR
+T38	Protein 2124 2129	rFimR
+T39	Protein 2150 2154	fimA
+T40	Protein 2202 2206	fimA
+T41	Protein 2221 2225	FimR
+T42	Protein 2284 2290	rHGP44
+T43	Protein 2296 2300	mfa1
+T44	Protein 2416 2421	rFimR
+T45	Protein 2462 2466	mfa1
+T46	Protein 2497 2501	FimR
+T47	Protein 2539 2543	mfa1
+T48	Protein 2587 2591	mfa1
+T49	Protein 2667 2672	rFimR
+T50	Protein 2849 2854	rFimA
+T51	Protein 2947 2951	mfa1
+T52	Protein 2975 2979	FimR
+T91	Causality 188 210	It was postulated that
+E33	Causality:T91 Effect:T92 Evidence:T93
+T92	Span 211 282	different mechanisms might be involved in FimR-mediated mfa1 expression
+T93	Span 284 389	since expression regulation of mfa1 by FimR was not controlled as tightly as observed for fimA expression
+T94	Span 1597 1681	The unlabeled mfa1 promoter fragments effectively competed with the labeled fragment
+T95	Causality 1683 1693	suggesting
+E34	Causality:T95 Evidence:T94 Effect:T96
+T96	Span 1694 1752	a specific interaction between rFimA and the mfa1 promoter
+T97	Span 2062 2170	In agreement with a previous report (Nishikawa et al., 2004), rFimR did not bind to the fimA promoter region
+T98	Causality 2172 2187	suggesting that
+E35	Causality:T98 Evidence:T97 Effect:T99
+T99	Span 2189 2258	egulation of fimA expression by FimR is through a different mechanism
+T100	Causality 2468 2496	These data clearly show that
+E36	Causality:T100 Effect:T101 Evidence:T103
+T101	Span 2497 2605	FimR protein can bind specifically to the mfa1 promoter region, acting as an activator of mfa1 transcription
+T102	Span 2260 2372	Moreover, incubation of rHGP44 with mfa1 promoter fragment did not retard the DNA movement in polyacrylamide gel
+T103	Span 2374 2466	There was also no DNA shift detected when rFimR was incubated with the coding region of mfa1
+E37	Causality:T100 Effect:T101 Evidence:T102
+T104	Span 2742 2862	The biotin-labeled DNA fragment corresponding to this promoter region did not shift in the presence of the rFimA protein
+T105	Causality 2881 2896	suggesting that
+E38	Causality:T105 Evidence:T104 Effect:T106
+T106	Span 2897 2979	only the promoter identified here is involved for mfa1 expression mediated by FimR

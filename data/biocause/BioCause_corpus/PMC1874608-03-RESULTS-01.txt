@@ -1,0 +1,13 @@
+RESULTS 
+Mutation of the mlc gene reduces Salmonella invasiveness The process of invasion into non-phagocytic epithelial cells, which is known to be mediated by proteins secreted by the SPI1-encoded type III machinery (3), is an important initial step in the pathogenesis of S. Typhimurium.
+We examined the ability of an mlc mutant, SR1304, to invade cultured HEp-2 and HeLa epithelial cells.
+SL1344 was used as the control strain, and the invasiveness of this strain was arbitrarily set at 100%.
+When the Salmonella bacteria were grown in static cultures to the exponential phase (SPI1-inducing condition), the invasiveness of SR1304 for both epithelial cell lines was reduced by about 3-fold, compared to that of SL1344 (Figure 1A and B).
+S. Typhimurium induces the apoptosis of infected macrophages.
+This process is rapid, specific and depends on the T3SS encoded within SPI1 (33,34).
+To discover whether the mlc mutant grown under the SPI1-inducing condition affects the capacity to induce apoptosis in macrophages, the release of the cytoplasmic enzyme LDH was determined in a cytotoxicity assay (33).
+Figure 1C shows that SL1344 killed 42% of the macrophages, whereas SR1304 killed only 16% of the macrophages 4h after infection, which demonstrates that the mlc gene plays an important role in the expression of genes involved in cytotoxicity.
+We also tested the effect of the mlc mutation on the ability to replicate within the RAW264.7 macrophage cell line.
+After cultivation to the stationary phase with aeration, the bacteria were opsonized with 10% normal mouse serum and added to the cell monolayer (30).
+When the number of intracellular bacteria were measured at 2 and 18h post-infection, the degree of replication was similar for SL1344 and SR1304 (Figure 1D).
+Collectively, these results suggest that the main target of Mlc action in Salmonella virulence is SPI1, which is known to encode various genes that are required for Salmonella invasion of host cells.

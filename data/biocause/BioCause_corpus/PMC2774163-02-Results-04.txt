@@ -1,0 +1,19 @@
+TCS mutant biofilms are arrested in the transition to later biofilm developmental stages 
+To determine whether the altered biofilm structure was due to arrested biofilm formation or attachment defects, we first determined whether the P. aeruginosa mutants are defective in attachment.
+Inactivation of BfiS, BfmR, and MifR (PA4197, PA4101, PA5511, respectively) did not affect initial attachment to polystyrene compared to wild type biofilms as revealed by the crystal violet microtiter plate assay and confirmed by microscopy (not shown).
+Furthermore, no difference in growth in broth or defect with respect to twitching, swimming, and swarming or Pel and Psl polysaccharide production was detected for any of the mutant strains (not shown).
+In addition, no difference in transcript abundance, as determined by semi-quantitative RT-PCR, of genes involved in Pel and Psl polysaccharide biosynthesis compared to wild type was detected (not shown).
+However, a DeltagacS mutant showed 10-fold reduced initial attachment compared to the wild type (not shown), consistent with previous findings by Parkins and colleagues [65].
+These findings implied that the novel regulatory proteins were involved in the regulation of biofilm formation at later stages following initial attachment.
+To determine the stage at which DeltabfiS and DeltabfmR mutant biofilms were arrested, the biofilm architecture of the mutant strains after 144 hr of growth was compared to the wild type P. aeruginosa biofilm architecture following 24, 72, and 144 hr of growth (Table 2).
+Based on the comparison of 5 biofilm variables, both mutant biofilms were more similar to 24-hr-old biofilms, with DeltabfmR forming more substantial biofilms than DeltabfiS or 24 hr wild type biofilms (Table 2).
+Arrest of biofilm formation at the 1-day time point correlated with the timing of BfiS and BfmR phosphorylation (Tables 1-2).
+Comparison of the DeltamifR biofilm architecture following 144 hr of growth to wild type biofilms indicated that DeltamifR biofilms were comparable to 72-hr-old biofilms.
+Since MifR was detected to be phosphorylated following 72 hr of biofilm growth (Table 1), our findings indicate that phosphorylation of MifR is essential for the progression of P. aeruginosa biofilms from the maturation-1 stage (72 hr) to the maturation-2 stage (144 hr).
+To exclude the possibility that the DeltabfiS, DeltabfmR, and DeltamifR mutant biofilms may have disaggregated prematurely, the formation of mutant biofilms was monitored daily by confocal microscopy over a period of 144 hr.
+The DeltabfiS and DeltabfmR biofilms resembled wild type biofilms with respect to biomass and overall architecture at the 24 hr time point (see Fig. 2A-B).
+However, while wild type biofilms continued to mature/develop upon prolonged incubation (see Fig. 2A), no additional biomass accumulation or alteration in architecture was observed for DeltabfiS and DeltabfmR biofilms post 24 hr of growth.
+Furthermore, for DeltamifR biofilms, the progression of biofilm formation was indistinguishable from wild type P. aeruginosa biofilm formation for the first 72 hr of growth.
+However, continued incubation did not result in increased DeltamifR biofilm growth (biomass, thickness) or microcolony formation typically seen in wild type biofilms at the maturation-2 stage (post 72 hr of growth, Table 2, Fig. 2).
+The findings clearly indicate that inactivation of these novel regulatory proteins did not cause biofilm disaggregation.
+Instead, our findings suggested that the mutant biofilms were incapable of progressing from the initial attachment stage to more mature biofilm stages.

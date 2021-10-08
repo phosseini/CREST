@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0662</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-30</TIMEX3></DCT>
+<TEXT>
+ Jayark Corp. <EVENT eid="e1" class="I_STATE">agreed</EVENT> to <EVENT eid="e2" class="OCCURRENCE">pay</EVENT> $ 4 million in cash, $ 2 million of 12 % convertible debentures, and 1.6 million common shares to <EVENT eid="e3" class="OCCURRENCE">acquire</EVENT> closely held Kofcoh Imports Inc.
+ In over-the-counter <EVENT eid="e4" class="OCCURRENCE">trading</EVENT> <TIMEX3 tid="t5" type="DATE" value="1989-10-27" anchorTimeID="t0" functionInDocument="NONE">Friday</TIMEX3>, Jayark was <EVENT eid="e6" class="OCCURRENCE">quoted</EVENT> at 87.5 cents bid, down 15.625 cents.
+ At the market price, the transaction has a total indicated value of $ 7.4 million.
+ Kofcoh is a New York holding company for Rosalco Inc., which imports furniture and other items.
+ David L. Koffman, president and chief executive officer of Jayark, holds about 40 % of Kofcoh, Jayark <EVENT eid="e7" class="REPORTING">said</EVENT>.
+ Jayark, New York, distributes and rents audio-visual equipment and prints promotional ads for retailers.
+ In <TIMEX3 tid="t8" type="DATE" value="1989-Q2" anchorTimeID="t9" functionInDocument="NONE">the quarter</TIMEX3> ended <TIMEX3 tid="t9" type="DATE" value="1989-07-31" anchorTimeID="t0" functionInDocument="NONE">July 31</TIMEX3>, Jayark had an average of 5.6 million shares outstanding.
+ The transaction is subject to <EVENT eid="e10" class="OCCURRENCE">approval</EVENT> by a panel of disinterested directors, the company said, adding that shareholder approval isn't <EVENT eid="e11" class="I_STATE">needed</EVENT>.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0"/>
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t5"/>
+<TLINK lid="l3" relType="INCLUDES" eventInstanceID="ei4" relatedToEventInstance="ei6"/>
+<TLINK lid="l4" relType="IDENTITY" eventInstanceID="ei7" relatedToEventInstance="ei6"/>
+<TLINK lid="l5" relType="ENDED_BY" timeID="t8" relatedToTime="t9"/>
+</TimeML>

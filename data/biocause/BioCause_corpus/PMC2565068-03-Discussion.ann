@@ -1,0 +1,250 @@
+T1	Two-component-system 43 49	CsrS/R
+T2	Protein 43 47	CsrS
+T3	Protein 48 49	R
+T4	Organism 150 153	GAS
+T5	Organism 164 192	genetically- manipulated GAS
+T6	Protein 278 282	csrS
+T7	Organism 334 337	GAS
+T8	Organism 343 351	patients
+T9	Protein 436 440	csrS
+T10	Protein 478 482	scpC
+T11	Protein 487 490	slo
+T12	Protein 587 591	csrS
+T13	Organism 613 625	invasive GAS
+T14	Protein 832 836	csrS
+T15	Organism 921 924	GAS
+T16	Organism 976 979	GAS
+T17	Protein 1014 1018	csrS
+T18	Protein 1023 1027	csrR
+T19	Protein 1110 1114	csrS
+T20	Protein 1119 1123	csrR
+T21	Protein 1241 1245	csrS
+T22	Protein 1266 1270	csrR
+T23	Protein 1380 1385	emm49
+T24	Protein 1420 1424	csrS
+T25	Protein 1433 1437	csrR
+T26	Protein 1482 1486	csrS
+T27	Protein 1515 1519	csrR
+T28	Protein 1521 1525	csrS
+T29	Protein 1535 1539	csrR
+T30	Protein 1600 1604	csrS
+T31	Protein 1659 1663	csrR
+T32	Protein 1703 1706	emm
+T33	Organism 1754 1759	human
+T34	Protein 1808 1811	slo
+T35	Organism 1832 1843	csrS mutant
+T36	Protein 1832 1836	csrS
+T37	Organism 1872 1883	csrR mutant
+T38	Protein 1872 1876	csrR
+T39	Two-component-system 1922 1928	CsrS/R
+T40	Protein 1922 1926	CsrS
+T41	Protein 1927 1928	R
+T42	Protein 2097 2101	CsrS
+T43	Protein 2136 2140	CsrR
+T44	Protein 2193 2197	CsrS
+T45	Protein 2305 2309	csrR
+T46	Organism 2342 2347	human
+T47	Organism 2478 2481	GAS
+T48	Protein 2690 2694	SpeB
+T49	Protein 2704 2707	SLS
+T50	Protein 2809 2813	speB
+T51	Protein 2818 2822	sagA
+T52	Organism 2857 2889	csrS-mutated severe invasive GAS
+T53	Protein 2857 2861	csrS
+T54	Protein 2952 2955	SLS
+T55	Organism 2978 2990	invasive GAS
+T56	Organism 3035 3055	non-invasive strains
+T57	Organism 3077 3105	SLS-deletion in invasive GAS
+T58	Protein 3077 3080	SLS
+T59	Protein 3184 3187	SLS
+T60	Protein 3224 3255	Extracellular deoxyribonuclease
+T61	Protein 3257 3262	DNase
+T62	Organism 3300 3313	emm1 type GAS
+T63	Protein 3300 3304	emm1
+T64	Protein 3463 3468	DNase
+T65	Chemical 3511 3513	PI
+T66	Chemical 3543 3545	PI
+T67	Protein 3615 3620	DNase
+T68	Organism 3637 3662	emm49 severe invasive GAS
+T69	Protein 3637 3642	emm49
+T70	Organism 3686 3702	non-invasive GAS
+T71	Protein 3779 3784	DNase
+T72	Protein 3800 3803	slo
+T73	Protein 3812 3816	scpC
+T74	Organism 3826 3847	emm1-genotype strains
+T75	Protein 3826 3830	emm1
+T76	Protein 3871 3875	csrS
+T77	Protein 3909 3914	DNase
+T78	Protein 4083 4087	csrS
+T79	Protein 4163 4167	ScpC
+T80	Protein 4172 4175	SLO
+T81	Protein 4267 4271	CsrS
+T82	Organism 4319 4331	invasive GAS
+T83	Protein 4351 4354	SLO
+T84	Protein 4359 4363	ScpC
+T85	Organism 4385 4388	GAS
+T86	Organism 4456 4459	GAS
+T87	Organism 4466 4486	scpC-deletion mutant
+T88	Protein 4466 4470	scpC
+T89	Protein 4557 4561	ScpC
+T90	Organism 4574 4577	GAS
+T91	Protein 4642 4646	IL-8
+T92	Protein 4756 4759	SLO
+T93	Organism 4774 4777	GAS
+T94	Organism 4827 4832	human
+T95	Protein 4838 4841	SLO
+T96	Chemical 4847 4858	cholesterol
+T97	Protein 4958 4961	SLO
+T98	Organism 4976 4979	GAS
+T99	Protein 5057 5060	SLO
+T100	Protein 5118 5121	SLO
+T101	Protein 5253 5256	SLO
+T102	Organism 5307 5319	invasive GAS
+T103	Organism 5488 5500	invasive GAS
+T104	Organism 5601 5613	invasive GAS
+T105	Organism 5657 5660	GAS
+T106	Protein 5723 5726	SLO
+T107	Protein 5845 5848	SLO
+T108	Protein 6160 6164	ScpC
+T109	Protein 6169 6172	SLO
+T110	Protein 6351 6355	csrS
+T111	Organism 6542 6546	mice
+T112	Organism 6569 6585	csrS-mutated GAS
+T113	Protein 6569 6573	csrS
+T114	Organism 6635 6647	invasive GAS
+T115	Organism 6758 6761	GAS
+T116	Organism 6921 6929	patients
+T117	Organism 6989 7001	invasive GAS
+T118	Organism 7011 7019	patients
+T119	Organism 7152 7164	invasive GAS
+T120	Organism 7432 7444	invasive GAS
+T121	Organism 7502 7514	invasive GAS
+*	Equiv T60 T61
+T122	Process 129 138	virulence
+T123	Process 373 383	infections
+T124	Positive_regulation 451 459	enhanced
+T125	Gene_expression 464 474	expression
+T126	Process 549 558	virulence
+T127	Gene_expression 560 572	Introduction
+T128	Process 925 935	infections
+T129	Gene_expression 1735 1745	expression
+T130	Positive_regulation 1816 1824	enhanced
+T131	Process 2409 2417	virulent
+T132	Process 2571 2580	infection
+T133	Process 2747 2756	infection
+T134	Gene_expression 2823 2833	expression
+T135	Positive_regulation 2841 2849	enhanced
+T136	Process 3269 3278	virulence
+T137	Gene_expression 3765 3775	expression
+T138	Positive_regulation 3852 3860	enhanced
+T139	Process 4110 4119	infection
+T140	Positive_regulation 4139 4148	increased
+T141	Gene_expression 4149 4159	expression
+T142	Process 4565 4573	virulent
+T143	Process 6233 6242	virulence
+T144	Process 6298 6307	virulence
+T145	Regulation 6337 6347	regulation
+T146	Process 6555 6563	infected
+T147	Process 6648 6658	infections
+T148	Process 7002 7010	infected
+T149	Process 7165 7174	infection
+T150	Process 7445 7454	infection
+T151	Process 7515 7525	infections
+T152	Process 7556 7565	virulence
+T153	Process 7661 7671	infections
+T154	Process 7838 7848	infections
+E1	Process:T122 Participant:T4
+E2	Process:T123 Participant:T7
+E3	Positive_regulation:T124 Theme:E5
+E4	Positive_regulation:T124 Theme:E6
+E5	Gene_expression:T125 Theme:T10
+E6	Gene_expression:T125 Theme:T11
+E7	Process:T126 
+E8	Gene_expression:T127 Theme:T12
+E9	Process:T128 Participant:T15
+E10	Gene_expression:T129 Theme:T34
+E11	Positive_regulation:T130 Theme:E10
+E12	Process:T131 
+E13	Process:T132 
+E14	Process:T133 
+E15	Gene_expression:T134 Theme:T50
+E16	Gene_expression:T134 Theme:T51
+E17	Positive_regulation:T135 Theme:E15
+M1	Negation E17
+E18	Positive_regulation:T135 Theme:E16
+M2	Negation E18
+E19	Process:T136 
+E20	Gene_expression:T137 Theme:T71
+E21	Gene_expression:T137 Theme:T72
+E22	Gene_expression:T137 Theme:T73
+E23	Positive_regulation:T138 Theme:E20
+E24	Positive_regulation:T138 Theme:E21
+E25	Positive_regulation:T138 Theme:E22
+E26	Process:T139 
+E27	Positive_regulation:T140 Theme:E29
+E28	Positive_regulation:T140 Theme:E30
+E29	Gene_expression:T141 Theme:T79
+E30	Gene_expression:T141 Theme:T80
+E31	Process:T142 Participant:T90
+E32	Process:T143 
+E33	Process:T144 
+E34	Regulation:T145 Theme:T110
+E35	Process:T146 Participant:T112
+E36	Process:T147 Participant:T114
+E37	Process:T148 Participant:T117
+E38	Process:T149 Participant:T119
+E39	Process:T150 Participant:T120
+E40	Process:T151 Participant:T121
+E41	Process:T152 
+E42	Process:T153 
+E43	Process:T154 
+T155	Causality 12 42	It have been demonstrated that
+E44	Causality:T155 Effect:T156 Evidence:T157
+T156	Span 43 153	CsrS/R is a member of the two-component regulatory systems for regulating the multipe virulence factors of GAS
+T157	Span 155 200	by using genetically- manipulated GAS mutants
+T158	Span 560 749	Introduction of the intact csrS gene into the severe invasive GAS restored the susceptibility to the killing by PMN and abrogated the activity for inhibition of PMN recruitment and survival
+T159	Causality 751 770	thus, demonstrating
+E45	Causality:T159 Effect:T160 Evidence:T158
+T160	Span 772 935	n instructional role of the loss-of-functional mutations in csrS gene for the evasion of PMN functions, providing unique pathophysiology of invasive GAS infections
+T161	Span 1445 1555	The frequency of the mutation in the csrS gene is higher than that in csrR (csrS mutation:csrR mutation=59:19)
+T162	Causality 1585 1595	suggesting
+E46	Causality:T162 Effect:T163 Evidence:T161
+T163	Span 1596 1716	the csrS mutation is more important in comparison with that of csrR in the clinical isolates regardless of emm genotypes
+T164	Span 3424 3526	However, we confirmed that addition of DNase in the culture did not alter the level of PI-positive PMN
+T165	Causality 3528 3535	meaning
+E47	Causality:T165 Effect:T166 Evidence:T164
+T166	Span 3536 3600	bright PI staining of PMN is not due to release of NETs from PMN
+T167	Span 3615 3702	DNase activity of the emm49 severe invasive GAS was lower than that of non-invasive GAS
+T168	Causality 3717 3732	possibly due to
+E48	Causality:T168 Evidence:T169 Effect:T167
+T169	Span 3733 3759	the difference of emm type
+T170	Span 3761 3884	The expression of DNase as well as the slo and the scpC genes in emm1-genotype strains was enhanced under the csrS mutation
+T171	Causality 3890 3908	These suggest that
+E49	Causality:T171 Effect:T172 Evidence:T170
+T172	Span 3909 3980	DNase may be important but redundant for induction of invasive diseases
+T173	Span 3424 3600	However, we confirmed that addition of DNase in the culture did not alter the level of PI-positive PMN, meaning bright PI staining of PMN is not due to release of NETs from PMN
+T174	Span 3615 3759	DNase activity of the emm49 severe invasive GAS was lower than that of non-invasive GAS (Figure S1B), possibly due to the difference of emm type
+E50	Causality:T171 Effect:T172 Evidence:T174
+E51	Causality:T171 Effect:T172 Evidence:T173
+T175	Causality 3982 3991	Therefore
+E52	Causality:T175 Evidence:T170 Effect:T176
+T176	Span 3994 4349	he second important observation in the present study is that an essential requirement of csrS mutation for invasive infection is associated with increased expression of ScpC and SLO and in vitro evasion of PMN functions, though we do not exclude the possibility that other CsrS-regulating factors contribute to the escape of invasive GAS from host defense
+T177	Causality 6665 6697	Thus, these results suggest that
+E53	Causality:T177 Effect:T178 Evidence:T179
+T178	Span 6698 6838	the ability of incompetence for PMN functions by individual GAS strain may determine the induction and clinical outcome of invasive diseases
+T179	Span 5214 5643	In the present study, we observed that SLO concentration in a short-time culture with severe invasive GAS did not reach the threshold level to kill PMN by formation of pores (data not shown) and that PMN did not undergo necrosis upon incubation with culture media of severe invasive GAS (Figure 3B), leading to the novel possibility that PMN are probably killed following encounter with invasive GAS in a contact-dependent manner
+T180	Span 5645 5821	PMN-binding GAS may make a small interface containing a high concentration of SLO between bacteria and PMN, which resembles to killing mechanism of killer cells to target cells
+T181	Span 6096 6444	In contrast to the previous view [18], we observed that both of ScpC and SLO together, but not each of them, mediated sufficient in vivo virulence (Table 1), thus compatible with the notion that plural virulence-associated factors under the regulation of csrS abrogate PMN bactericidal functions and induce invasive diseases in in vivo animal model
+T182	Span 6446 6658	Consistently, the high mortality and histopathological findings which lacks PMN infiltration in mice tissues infected with csrS-mutated GAS (Figure 7) are similar to those seen in clinical invasive GAS infections
+E54	Causality:T177 Effect:T178 Evidence:T180
+E55	Causality:T177 Effect:T178 Evidence:T181
+E56	Causality:T177 Effect:T178 Evidence:T182
+T183	Span 6840 7094	Several clinical reports seem to support this hypothesis; Leukocytopenia seen in patients with STSS is more severe than that with non-STSS [33], and invasive GAS-infected patients with leukocytopenia show worse prognosis than those without leukocytopenia
+T184	Causality 7302 7330	These evidences suggest that
+E57	Causality:T184 Effect:T186 Evidence:T183
+T185	Span 7107 7300	Furthermore, predisposing factors for severe invasive GAS infection [9], such as diabetes mellitus [35], liver cirrhosis [36], and congestive heart failure [37] are known to impair PMN function
+T186	Span 7331 7525	the level of PMN function is one of the critical factors to determine the threshold for the onset of invasive GAS infection, which may be the reason for rare outbreaks of invasive GAS infections
+E58	Causality:T184 Effect:T186 Evidence:T185
+T187	Causality 7527 7531	Thus
+E59	Causality:T187 Evidence:T186 Effect:T188
+T188	Span 7534 7671	nhanced expression of virulence factors that could evade PMN function is a key issue at first step to cause invasive bacterial infections

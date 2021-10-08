@@ -1,0 +1,28 @@
+T1	Protein 23 27	LuxR
+T2	Protein 44 48	LuxR
+T3	Organism 67 84	Y. enterocolitica
+T4	Protein 137 143	YE2705
+T5	Protein 148 154	YE3014
+T6	Organism 190 199	Y. pestis
+T7	Protein 201 208	YPO2955
+T8	Protein 213 220	YPO2593
+T9	Organism 229 244	S. glossinidius
+T10	Protein 246 254	SGP1_007
+T11	Protein 256 262	SG1174
+T12	Protein 264 270	SG1480
+T13	Protein 276 282	SG1698
+T14	Organism 296 310	P. luminescens
+T15	Organism 443 460	Y. enterocolitica
+T16	Organism 465 480	S. glossinidius
+T17	Organism 508 522	P. luminescens
+T18	Organism 585 599	P. luminescens
+T19	Protein 605 609	LuxR
+T20	Protein 686 693	Plu4274
+T21	Protein 698 705	Plu1817
+T22	Organism 740 757	Y. enterocolitica
+T23	Protein 759 765	YE1621
+T24	Organism 779 794	S. glossinidius
+T25	Span 44 310	LuxR-like receptors in Y. enterocolitica with a yet unidentified signalling binding-site are YE2705 and YE3014, both of which are also present in Y. pestis (YPO2955 and YPO2593) and in S. glossinidius (SGP1_007, SG1174, SG1480, and SG1698), but not in P. luminescens
+T26	Causality 321 346	It might be possible that
+E1	Causality:T26 Effect:T27 Evidence:T25
+T27	Span 347 580	signalling molecules of mammals and hormones of adult insects are sensed via these receptors by Y. enterocolitica and S. glossinidius, respectively, hosts which P. luminescens does not specifically interact with during its life cycle

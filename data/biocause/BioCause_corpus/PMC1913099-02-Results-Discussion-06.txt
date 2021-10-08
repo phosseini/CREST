@@ -1,0 +1,8 @@
+Differential Expression of Genes from Diverse Functional Categories 
+We identified a number of genes encoding proteins involved in housekeeping processes (such as carbohydrate and coenzyme metabolism) that were differentially expressed, indicating a shift in metabolic processes due to host cell adherence (Tables 1 and 2).
+For example, genes encoding proteins involved in folate biosynthesis [40] were upregulated, suggesting that certain cofactors that may be necessary during adherence were unavailable.
+Also upregulated were genes encoding subunits of the F0F1 ATPase [41] (discussed in more detail later), which may indicate an acid stress response to maintain cytoplasmic pH or a need to generate ATP in response to increased energy requirements.
+We also identified the adherence-mediated upregulation of four transcriptional regulators (Table 1), suggestive of an adaptive response to host cell contact that is dynamic and complex.
+For example, RopB (encoded by spy2042), a member of the Rgg family of response regulators, interacts with a number of regulatory networks throughout the streptococcal genome (e.g., mga, csrRS, sagA, and fasBCA), affecting the transcription of numerous proteins, virulence factors, and two-component regulatory systems [42,43].
+Although the delineation of genes influenced by RopB (or any identified transcriptional regulator) is beyond the scope of this study, our initial analysis did identify the upregulation of a two-component regulatory system, encoded by spy1236-1237.
+The functions of these particular loci are not yet known, and their adherence-mediated upregulation represents new targets in the study of regulators that function during host cell contact.

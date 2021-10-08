@@ -1,0 +1,247 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0610</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-30</TIMEX3></DCT>
+<TEXT>
+ This hasn't been Kellogg Co.'s year.
+ The oat-bran <EVENT eid="e1" class="OCCURRENCE">craze</EVENT> has <EVENT eid="e2" class="OCCURRENCE">cost</EVENT> the world's largest cereal maker market share.
+ The company's president <EVENT eid="e3" class="OCCURRENCE">quit</EVENT> suddenly.
+ And <TIMEX3 tid="t4" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">now</TIMEX3> Kellogg is indefinitely <EVENT eid="e5" class="ASPECTUAL">suspending</EVENT> <EVENT eid="e6" class="OCCURRENCE">work</EVENT> on what was to be a $ 1 billion cereal plant.
+ The company <EVENT eid="e7" class="REPORTING">said</EVENT> it was <EVENT eid="e8" class="I_ACTION">delaying</EVENT> <EVENT eid="e9" class="OCCURRENCE">construction</EVENT> <C-SIGNAL cid="c10">because of</C-SIGNAL> <TIMEX3 tid="t11" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">current</TIMEX3> market <EVENT eid="e12" class="STATE">conditions</EVENT>.
+ But the Memphis, Tenn., facility wasn't to <EVENT eid="e13" class="ASPECTUAL">begin</EVENT> <EVENT eid="e14" class="OCCURRENCE">turning</EVENT> out product until <TIMEX3 tid="t15" type="DATE" value="1993" functionInDocument="NONE">1993</TIMEX3>, <C-SIGNAL cid="c16">so</C-SIGNAL> the <EVENT eid="e17" class="OCCURRENCE">decision</EVENT> may <EVENT eid="e18" class="I_ACTION">reveal</EVENT> a more pessimistic long-term outlook as well.
+ Kellogg, which hasn't been as <EVENT eid="e19" class="STATE">successful</EVENT> in <EVENT eid="e20" class="OCCURRENCE">capitalizing</EVENT> on the public's health-oriented desire for oat bran as rival General Mills Inc., has been <EVENT eid="e21" class="OCCURRENCE">losing</EVENT> share in the $ 6 billion ready-to-eat cereal market.
+ Kellogg's <TIMEX3 tid="t22" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">current</TIMEX3> share is <EVENT eid="e23" class="I_STATE">believed</EVENT> to be slightly under 40 % while General Mills ' share is about 27 %.
+ <EVENT eid="e24" class="STATE">Led</EVENT> by its oat-based Cheerios line, General Mills has <EVENT eid="e25" class="OCCURRENCE">gained</EVENT> an estimated 2 % share so far <TIMEX3 tid="t26" type="DATE" value="1989" anchorTimeID="t0" functionInDocument="NONE">this year</TIMEX3>, mostly at the expense of Kellogg.
+ Each share point is worth about $ 60 million in sales.
+ Analysts <EVENT eid="e27" class="REPORTING">say</EVENT> much of Kellogg's <EVENT eid="e28" class="OCCURRENCE">erosion</EVENT> has been in such core brands as Corn Flakes, Rice Krispies and Frosted Flakes, which represent nearly one-third of its sales volume.
+ Kellogg is so <EVENT eid="e29" class="I_STATE">anxious</EVENT> to <EVENT eid="e30" class="OCCURRENCE">turn</EVENT> around Corn Flakes sales that it <TIMEX3 tid="t31" type="DATE" value="FUTURE_REF" anchorTimeID="t0" functionInDocument="NONE">soon</TIMEX3> will <EVENT eid="e32" class="ASPECTUAL">begin</EVENT> <EVENT eid="e33" class="OCCURRENCE">selling</EVENT> boxes for as little as 99 cents, trade sources <EVENT eid="e34" class="REPORTING">say</EVENT>.
+ " Cheerios and Honey Nut Cheerios have <EVENT eid="e35" class="OCCURRENCE">eaten</EVENT> away sales normally <EVENT eid="e36" class="OCCURRENCE">going</EVENT> to Kellogg's corn-based lines simply <C-SIGNAL cid="c37">because</C-SIGNAL> they are <EVENT eid="e38" class="STATE">made</EVENT> of oats, " <EVENT eid="e39" class="REPORTING">says</EVENT> Merrill Lynch food analyst William Maguire.
+ " They are not a <EVENT eid="e40" class="STATE">happy</EVENT> group of people at Battle Creek <TIMEX3 tid="t41" type="DATE" value="PRESENT_REF" anchorTimeID="t0" functionInDocument="NONE">right now</TIMEX3>. "
+ Kellogg is based in Battle Creek, Mich., a city that calls itself the breakfast capital of the world.
+ Another analyst, John C. Maxwell Jr. of Wheat, First Securities in Richmond, Va., <TIMEX3 tid="t42" type="DATE" value="PAST_REF" anchorTimeID="t0" functionInDocument="NONE">recently</TIMEX3> <EVENT eid="e43" class="OCCURRENCE">went</EVENT> to a " sell " recommendation on Kellogg stock, which <EVENT eid="e44" class="OCCURRENCE">closed</EVENT> <TIMEX3 tid="t45" type="DATE" value="1989-10-27" anchorTimeID="t0" functionInDocument="NONE">Friday</TIMEX3> at $ 71.75, down 75 cents, in New York Stock Exchange composite trading.
+ " I don't <EVENT eid="e46" class="I_STATE">think</EVENT> Kellogg can <EVENT eid="e47" class="I_STATE">get</EVENT> back to 40 % <TIMEX3 tid="t48" type="DATE" value="1989" anchorTimeID="t0" functionInDocument="NONE">this year</TIMEX3>, " he <EVENT eid="e49" class="REPORTING">said</EVENT>.
+ " Kellogg's main problem is life style.
+ People are <EVENT eid="e50" class="OCCURRENCE">reading</EVENT> the boxes and <EVENT eid="e51" class="I_ACTION">deciding</EVENT> they <EVENT eid="e52" class="I_STATE">want</EVENT> something that's ` healthy ' for you -- oats, bran. "
+ Mr. Maxwell <EVENT eid="e53" class="REPORTING">said</EVENT> he wouldn't be <EVENT eid="e54" class="OCCURRENCE">surprised</EVENT> if, over <TIMEX3 tid="t55" type="DURATION" value="P2Y" functionInDocument="NONE">the next two years or so</TIMEX3>, General Mills ' share <EVENT eid="e56" class="OCCURRENCE">increased</EVENT> to 30 % or more.
+ In <EVENT eid="e57" class="I_ACTION">announcing</EVENT> the plant <EVENT eid="e58" class="OCCURRENCE">delay</EVENT>, Kellogg Chairman William E. LaMothe <EVENT eid="e59" class="REPORTING">said</EVENT>, " Cereal volume <EVENT eid="e60" class="OCCURRENCE">growth</EVENT> in the U.S. has not <EVENT eid="e61" class="OCCURRENCE">met</EVENT> our <EVENT eid="e62" class="I_STATE">expectations</EVENT> for <TIMEX3 tid="t63" type="DATE" value="1989" functionInDocument="NONE">1989</TIMEX3> ".
+ He <EVENT eid="e64" class="REPORTING">said</EVENT> <EVENT eid="e65" class="OCCURRENCE">construction</EVENT> wouldn't <EVENT eid="e66" class="ASPECTUAL">resume</EVENT> until market conditions <EVENT eid="e67" class="OCCURRENCE">warrant</EVENT> it.
+ Kellogg <EVENT eid="e68" class="REPORTING">indicated</EVENT> that it <EVENT eid="e69" class="STATE">has</EVENT> room to <EVENT eid="e70" class="OCCURRENCE">grow</EVENT> without <EVENT eid="e71" class="OCCURRENCE">adding</EVENT> facilities.
+ The company <EVENT eid="e72" class="STATE">has</EVENT> five other U.S. plants, including a modern facility at its Battle Creek headquarters known as Building 100, which is to <EVENT eid="e73" class="OCCURRENCE">add</EVENT> bran-processing and rice-processing capacity <TIMEX3 tid="t74" type="DATE" value="1990" anchorTimeID="t0" functionInDocument="NONE">next year</TIMEX3>.
+ General Mills, meanwhile, finds itself <EVENT eid="e75" class="I_STATE">constrained</EVENT> from <EVENT eid="e76" class="OCCURRENCE">boosting</EVENT> sales further <C-SIGNAL cid="c77">because</C-SIGNAL> its plants are <EVENT eid="e78" class="OCCURRENCE">operating</EVENT> at capacity.
+ A large plant in Covington, Ga., is to <EVENT eid="e79" class="OCCURRENCE">come</EVENT> on line <TIMEX3 tid="t80" type="DATE" value="1990" anchorTimeID="t0" functionInDocument="NONE">next year</TIMEX3>.
+ A Kellogg officer, who asked not to be named, <EVENT eid="e81" class="REPORTING">said</EVENT> the Memphis project was " <EVENT eid="e82" class="OCCURRENCE">pulled</EVENT> in for a <EVENT eid="e83" class="OCCURRENCE">reconsideration</EVENT> of costs, " an indication that the ambitious plans might be <EVENT eid="e84" class="OCCURRENCE">scaled</EVENT> back in any future <EVENT eid="e85" class="OCCURRENCE">construction</EVENT>.
+ Initial cost estimates for the plant, which was to have been built in phases, <EVENT eid="e86" class="OCCURRENCE">ranged</EVENT> from $ 1 billion to $ 1.2 billion.
+ A company spokesman <EVENT eid="e87" class="REPORTING">said</EVENT> it was " possible, but highly unlikely, " that the plant might never be <EVENT eid="e88" class="OCCURRENCE">built</EVENT>.
+ " As we <EVENT eid="e89" class="I_ACTION">regain</EVENT> our leadership level where we have been, and as we <EVENT eid="e90" class="ASPECTUAL">continue</EVENT> to <EVENT eid="e91" class="OCCURRENCE">put</EVENT> new products into the marketplace and <EVENT eid="e92" class="I_STATE">need</EVENT> additional capacity, we will <EVENT eid="e93" class="I_ACTION">look</EVENT> at <EVENT eid="e94" class="ASPECTUAL">resuming</EVENT> our <EVENT eid="e95" class="OCCURRENCE">involvement</EVENT> with our plan, " he <EVENT eid="e96" class="REPORTING">said</EVENT>.
+ The new facility was to have been the world's most advanced cereal manufacturing plant, and Kellogg's largest construction project.
+ The company had <EVENT eid="e97" class="OCCURRENCE">retained</EVENT> the Fluor Daniel unit of Fluor Corp. as general contractor.
+ But in <TIMEX3 tid="t98" type="DURATION" value="PXW" functionInDocument="NONE">recent weeks</TIMEX3>, construction-industry sources <EVENT eid="e99" class="REPORTING">reported</EVENT> that early preparation work was <EVENT eid="e100" class="OCCURRENCE">slowing</EVENT> at the 185-acre site.
+ Subcontractors <EVENT eid="e101" class="REPORTING">said</EVENT> they were <EVENT eid="e102" class="REPORTING">told</EVENT> that equipment <EVENT eid="e103" class="OCCURRENCE">orders</EVENT> would be <EVENT eid="e104" class="I_ACTION">delayed</EVENT>.
+ Fluor Daniel already has <EVENT eid="e105" class="OCCURRENCE">reassigned</EVENT> most of its work crew, the sources <EVENT eid="e106" class="REPORTING">said</EVENT>.
+ <TIMEX3 tid="t107" type="DATE" value="1989-10-27" anchorTimeID="t0" functionInDocument="NONE">Last Friday</TIMEX3>'s <EVENT eid="e108" class="OCCURRENCE">announcement</EVENT> was the first official word that the project was <EVENT eid="e109" class="STATE">in</EVENT> trouble and that the company's plans for a surge in market share may have been overly <EVENT eid="e110" class="STATE">optimistic</EVENT>.
+ Until <TIMEX3 tid="t111" type="DATE" value="PAST_REF" anchorTimeID="t0" functionInDocument="NONE">recently</TIMEX3>, Kellogg had been <EVENT eid="e112" class="REPORTING">telling</EVENT> its sales force and Wall Street that by <TIMEX3 tid="t113" type="DATE" value="1992" functionInDocument="NONE">1992</TIMEX3> it <EVENT eid="e114" class="I_ACTION">intended</EVENT> to <EVENT eid="e115" class="I_STATE">achieve</EVENT> a 50 % share of market, measured in dollar volume.
+ Although he <EVENT eid="e116" class="I_ACTION">called</EVENT> current market conditions " highly competitive, " Mr. LaMothe, Kellogg's chairman and chief executive officer, <EVENT eid="e117" class="I_STATE">forecast</EVENT> an earnings <EVENT eid="e118" class="OCCURRENCE">increase</EVENT> for <TIMEX3 tid="t119" type="DATE" value="1989" anchorTimeID="t0" functionInDocument="NONE">the full year</TIMEX3>.
+ <TIMEX3 tid="t120" type="DATE" value="1988" anchorTimeID="t0" functionInDocument="NONE">Last year</TIMEX3>, the company <EVENT eid="e121" class="OCCURRENCE">earned</EVENT> $ 480.4 million, or $ 3.90 a share, on sales of $ 4.3 billion.
+ As <EVENT eid="e122" class="I_STATE">expected</EVENT>, Kellogg <EVENT eid="e123" class="REPORTING">reported</EVENT> lower <TIMEX3 tid="t124" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">third-quarter</TIMEX3> earnings.
+ Net <EVENT eid="e125" class="OCCURRENCE">fell</EVENT> 16 % to $ 123.1 million, or $ 1.02 a share, from $ 145.7 million, or $ 1.18 a share.
+ Sales <EVENT eid="e126" class="OCCURRENCE">rose</EVENT> 4.8 % to $ 1.20 billion from $ 1.14 billion.
+ The company <EVENT eid="e127" class="OCCURRENCE">had</EVENT> a one-time <EVENT eid="e128" class="OCCURRENCE">charge</EVENT> of $ 14.8 million in <TIMEX3 tid="t129" type="DATE" value="1989-Q3" anchorTimeID="t0" functionInDocument="NONE">the latest quarter</TIMEX3> covering the <EVENT eid="e130" class="OCCURRENCE">disposition</EVENT> of certain assets.
+ The company wouldn't <EVENT eid="e131" class="OCCURRENCE">elaborate</EVENT>, <EVENT eid="e132" class="REPORTING">citing</EVENT> competitive reasons.
+</TEXT>
+<MAKEINSTANCE eventID="e132" eiid="ei132" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e131" eiid="ei131" tense="NONE" aspect="NONE" polarity="NEG" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e130" eiid="ei130" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e121" eiid="ei121" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e122" eiid="ei122" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e123" eiid="ei123" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e125" eiid="ei125" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e126" eiid="ei126" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e127" eiid="ei127" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e128" eiid="ei128" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e59" eiid="ei59" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e58" eiid="ei58" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e54" eiid="ei54" tense="NONE" aspect="NONE" polarity="NEG" modality="would" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e57" eiid="ei57" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e56" eiid="ei56" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e51" eiid="ei51" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e50" eiid="ei50" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e53" eiid="ei53" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e52" eiid="ei52" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e115" eiid="ei115" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e114" eiid="ei114" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e88" eiid="ei88" tense="NONE" aspect="NONE" polarity="NEG" modality="might" pos="VERB"/>
+<MAKEINSTANCE eventID="e89" eiid="ei89" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e110" eiid="ei110" tense="NONE" aspect="PERFECTIVE" polarity="POS" modality="may" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e112" eiid="ei112" tense="PAST" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e82" eiid="ei82" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e83" eiid="ei83" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e81" eiid="ei81" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e86" eiid="ei86" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e87" eiid="ei87" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e84" eiid="ei84" tense="NONE" aspect="PERFECTIVE" polarity="POS" modality="might" pos="VERB"/>
+<MAKEINSTANCE eventID="e85" eiid="ei85" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e108" eiid="ei108" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e109" eiid="ei109" tense="PAST" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
+<MAKEINSTANCE eventID="e102" eiid="ei102" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e103" eiid="ei103" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e100" eiid="ei100" tense="PAST" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e101" eiid="ei101" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e106" eiid="ei106" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e104" eiid="ei104" tense="NONE" aspect="NONE" polarity="POS" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e105" eiid="ei105" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e39" eiid="ei39" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e38" eiid="ei38" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e60" eiid="ei60" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e61" eiid="ei61" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e62" eiid="ei62" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e64" eiid="ei64" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e65" eiid="ei65" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e66" eiid="ei66" tense="NONE" aspect="NONE" polarity="NEG" modality="would" pos="VERB"/>
+<MAKEINSTANCE eventID="e67" eiid="ei67" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e68" eiid="ei68" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e69" eiid="ei69" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e99" eiid="ei99" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e91" eiid="ei91" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e90" eiid="ei90" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e93" eiid="ei93" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e92" eiid="ei92" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e95" eiid="ei95" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e94" eiid="ei94" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e97" eiid="ei97" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e96" eiid="ei96" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="NEG" modality="none" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PRESENT" aspect="NONE" polarity="POS" modality="may" pos="VERB"/>
+<MAKEINSTANCE eventID="e117" eiid="ei117" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e116" eiid="ei116" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e49" eiid="ei49" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e46" eiid="ei46" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e47" eiid="ei47" tense="NONE" aspect="NONE" polarity="NEG" modality="can" pos="VERB"/>
+<MAKEINSTANCE eventID="e44" eiid="ei44" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e40" eiid="ei40" tense="PRESENT" aspect="NONE" polarity="NEG" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e118" eiid="ei118" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e76" eiid="ei76" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e75" eiid="ei75" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e73" eiid="ei73" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e72" eiid="ei72" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e71" eiid="ei71" tense="PRESPART" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e70" eiid="ei70" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e79" eiid="ei79" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e78" eiid="ei78" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei2"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei2" relatedToTime="t0"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0"/>
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToEventInstance="ei2"/>
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t4"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t4"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t0"/>
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei8" relatedToEventInstance="ei12"/>
+<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei12" relatedToTime="t11"/>
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t15"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t15"/>
+<TLINK lid="l14" relType="INCLUDES" eventInstanceID="ei17" relatedToEventInstance="ei8"/>
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei19" relatedToTime="t0"/>
+<TLINK lid="l16" relType="SIMULTANEOUS" eventInstanceID="ei21" relatedToEventInstance="ei19"/>
+<TLINK lid="l17" relType="IS_INCLUDED" eventInstanceID="ei23" relatedToTime="t22"/>
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei25" relatedToTime="t0"/>
+<TLINK lid="l19" relType="SIMULTANEOUS" eventInstanceID="ei25" relatedToEventInstance="ei24"/>
+<TLINK lid="l20" relType="IS_INCLUDED" eventInstanceID="ei25" relatedToTime="t26"/>
+<TLINK lid="l21" relType="ENDED_BY" timeID="t26" relatedToTime="t0"/>
+<TLINK lid="l22" relType="INCLUDES" eventInstanceID="ei27" relatedToTime="t0"/>
+<TLINK lid="l23" relType="INCLUDES" eventInstanceID="ei29" relatedToTime="t0"/>
+<TLINK lid="l24" relType="BEFORE" eventInstanceID="ei29" relatedToEventInstance="ei32"/>
+<TLINK lid="l25" relType="AFTER" eventInstanceID="ei32" relatedToTime="t0"/>
+<TLINK lid="l26" relType="IS_INCLUDED" eventInstanceID="ei32" relatedToTime="t31"/>
+<TLINK lid="l27" relType="IS_INCLUDED" eventInstanceID="ei33" relatedToTime="t31"/>
+<TLINK lid="l28" relType="IS_INCLUDED" eventInstanceID="ei34" relatedToTime="t4"/>
+<TLINK lid="l29" relType="AFTER" eventInstanceID="ei35" relatedToEventInstance="ei36"/>
+<TLINK lid="l30" relType="INCLUDES" eventInstanceID="ei38" relatedToEventInstance="ei35"/>
+<TLINK lid="l32" relType="BEFORE" eventInstanceID="ei39" relatedToTime="t0"/>
+<TLINK lid="l33" relType="SIMULTANEOUS" eventInstanceID="ei40" relatedToTime="t41"/>
+<TLINK lid="l34" relType="IS_INCLUDED" eventInstanceID="ei43" relatedToTime="t42"/>
+<TLINK lid="l35" relType="IS_INCLUDED" eventInstanceID="ei44" relatedToTime="t45"/>
+<TLINK lid="l36" relType="IS_INCLUDED" eventInstanceID="ei47" relatedToTime="t48"/>
+<TLINK lid="l37" relType="SIMULTANEOUS" eventInstanceID="ei50" relatedToEventInstance="ei51"/>
+<TLINK lid="l38" relType="IDENTITY" eventInstanceID="ei53" relatedToEventInstance="ei49"/>
+<TLINK lid="l39" relType="BEFORE" eventInstanceID="ei56" relatedToEventInstance="ei54"/>
+<TLINK lid="l40" relType="IS_INCLUDED" eventInstanceID="ei56" relatedToTime="t55"/>
+<TLINK lid="l41" relType="IS_INCLUDED" eventInstanceID="ei57" relatedToEventInstance="ei7"/>
+<TLINK lid="l42" relType="IS_INCLUDED" eventInstanceID="ei59" relatedToEventInstance="ei57"/>
+<TLINK lid="l43" relType="IS_INCLUDED" eventInstanceID="ei60" relatedToTime="t63"/>
+<TLINK lid="l44" relType="IDENTITY" eventInstanceID="ei61" relatedToEventInstance="ei62"/>
+<TLINK lid="l45" relType="IDENTITY" eventInstanceID="ei64" relatedToEventInstance="ei59"/>
+<TLINK lid="l46" relType="AFTER" eventInstanceID="ei65" relatedToTime="t4"/>
+<TLINK lid="l47" relType="AFTER" eventInstanceID="ei66" relatedToEventInstance="ei67"/>
+<TLINK lid="l48" relType="IDENTITY" eventInstanceID="ei68" relatedToEventInstance="ei7"/>
+<TLINK lid="l49" relType="INCLUDES" eventInstanceID="ei68" relatedToEventInstance="ei81"/>
+<TLINK lid="l50" relType="AFTER" eventInstanceID="ei70" relatedToEventInstance="ei71"/>
+<TLINK lid="l51" relType="BEFORE" eventInstanceID="ei72" relatedToTime="t74"/>
+<TLINK lid="l52" relType="INCLUDES" timeID="t74" relatedToEventInstance="ei73"/>
+<TLINK lid="l53" relType="BEFORE" eventInstanceID="ei78" relatedToEventInstance="ei75"/>
+<TLINK lid="l55" relType="ENDS" eventInstanceID="ei79" relatedToEventInstance="ei75"/>
+<TLINK lid="l56" relType="IS_INCLUDED" eventInstanceID="ei79" relatedToTime="t80"/>
+<TLINK lid="l57" relType="BEFORE" eventInstanceID="ei82" relatedToEventInstance="ei84"/>
+<TLINK lid="l58" relType="IS_INCLUDED" eventInstanceID="ei84" relatedToEventInstance="ei85"/>
+<TLINK lid="l59" relType="BEFORE" eventInstanceID="ei86" relatedToEventInstance="ei5"/>
+<TLINK lid="l60" relType="IS_INCLUDED" eventInstanceID="ei87" relatedToEventInstance="ei68"/>
+<TLINK lid="l61" relType="INCLUDES" eventInstanceID="ei91" relatedToEventInstance="ei90"/>
+<TLINK lid="l62" relType="AFTER" eventInstanceID="ei93" relatedToEventInstance="ei89"/>
+<TLINK lid="l63" relType="AFTER" eventInstanceID="ei93" relatedToEventInstance="ei90"/>
+<TLINK lid="l64" relType="AFTER" eventInstanceID="ei93" relatedToEventInstance="ei92"/>
+<TLINK lid="l65" relType="IS_INCLUDED" eventInstanceID="ei95" relatedToEventInstance="ei94"/>
+<TLINK lid="l66" relType="IDENTITY" eventInstanceID="ei96" relatedToEventInstance="ei87"/>
+<TLINK lid="l67" relType="BEFORE" eventInstanceID="ei97" relatedToTime="t0"/>
+<TLINK lid="l68" relType="IS_INCLUDED" eventInstanceID="ei99" relatedToTime="t98"/>
+<TLINK lid="l69" relType="IS_INCLUDED" eventInstanceID="ei101" relatedToTime="t98"/>
+<TLINK lid="l70" relType="IS_INCLUDED" eventInstanceID="ei105" relatedToTime="t98"/>
+<TLINK lid="l71" relType="IDENTITY" eventInstanceID="ei106" relatedToEventInstance="ei101"/>
+<TLINK lid="l72" relType="INCLUDES" timeID="t107" relatedToEventInstance="ei108"/>
+<TLINK lid="l73" relType="IDENTITY" eventInstanceID="ei108" relatedToEventInstance="ei7"/>
+<TLINK lid="l74" relType="IS_INCLUDED" eventInstanceID="ei109" relatedToTime="t107"/>
+<TLINK lid="l75" relType="SIMULTANEOUS" eventInstanceID="ei110" relatedToTime="t107"/>
+<TLINK lid="l76" relType="BEFORE" eventInstanceID="ei112" relatedToEventInstance="ei108"/>
+<TLINK lid="l77" relType="ENDED_BY" eventInstanceID="ei112" relatedToTime="t111"/>
+<TLINK lid="l78" relType="IS_INCLUDED" eventInstanceID="ei116" relatedToEventInstance="ei87"/>
+<TLINK lid="l79" relType="SIMULTANEOUS" eventInstanceID="ei117" relatedToEventInstance="ei116"/>
+<TLINK lid="l80" relType="IS_INCLUDED" eventInstanceID="ei118" relatedToTime="t119"/>
+<TLINK lid="l81" relType="IS_INCLUDED" eventInstanceID="ei121" relatedToTime="t120"/>
+<TLINK lid="l82" relType="BEFORE" eventInstanceID="ei122" relatedToEventInstance="ei123"/>
+<TLINK lid="l83" relType="BEFORE" eventInstanceID="ei123" relatedToTime="t0"/>
+<TLINK lid="l84" relType="SIMULTANEOUS" eventInstanceID="ei123" relatedToEventInstance="ei68"/>
+<TLINK lid="l85" relType="IS_INCLUDED" eventInstanceID="ei125" relatedToTime="t124"/>
+<TLINK lid="l86" relType="SIMULTANEOUS" eventInstanceID="ei126" relatedToEventInstance="ei125"/>
+<TLINK lid="l87" relType="IDENTITY" eventInstanceID="ei127" relatedToEventInstance="ei128"/>
+<TLINK lid="l88" relType="IS_INCLUDED" eventInstanceID="ei128" relatedToTime="t129"/>
+<TLINK lid="l89" relType="INCLUDES" eventInstanceID="ei128" relatedToEventInstance="ei130"/>
+<TLINK lid="l90" relType="SIMULTANEOUS" eventInstanceID="ei132" relatedToEventInstance="ei131"/>
+<CLINK lid="l10" c-signalID="c10" eventInstanceID="ei12" relatedToEventInstance="ei8"/>
+<CLINK lid="l12" c-signalID="c16" eventInstanceID="ei13" relatedToEventInstance="ei18"/>
+<CLINK lid="l31" c-signalID="c37" eventInstanceID="ei38" relatedToEventInstance="ei35"/>
+<CLINK lid="l54" c-signalID="c77" eventInstanceID="ei78" relatedToEventInstance="ei75"/>
+</TimeML>

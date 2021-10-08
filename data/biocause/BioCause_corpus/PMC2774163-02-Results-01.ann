@@ -1,0 +1,14 @@
+T1	Organism 1668 1681	P. aeruginosa
+T2	Organism 3847 3860	P. aeruginosa
+T3	Span 2196 2347	In addition to biofilm stage-specific phosphorylation of proteins, protein phosphorylation events were detectable at more than one biofilm growth stage
+T4	Causality 2348 2363	indicating that
+E1	Causality:T4 Effect:T5 Evidence:T3
+T5	Span 2364 2484	the transition to surface-associated growth coincides with distinct protein phosphorylation and dephosphorylation events
+T6	Span 3536 3633	The reduced similarity in phosphorylation events between biofilms and planktonic cells was mainly
+T7	Causality 3634 3640	due to
+E2	Causality:T7 Effect:T8 Evidence:T6
+T8	Span 3641 3726	biofilm specific phosphorylation events detected at one or more stages of development
+T9	Span 3880 4009	The increase in similarity between the planktonic and the 216-hr-old biofilm phosphoproteomes is consistent with previous reports
+T10	Causality 4010 4025	indicating that
+E3	Causality:T10 Effect:T11 Evidence:T9
+T11	Span 4026 4111	cells within dispersion-stage biofilms are returning to the planktonic mode of growth

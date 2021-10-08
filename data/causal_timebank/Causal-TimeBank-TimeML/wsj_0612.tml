@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0612</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-30</TIMEX3></DCT>
+<TEXT>
+ The following were among <TIMEX3 tid="t1" type="DATE" value="1989-10-27" anchorTimeID="t0" functionInDocument="NONE">Friday</TIMEX3>'s <EVENT eid="e2" class="OCCURRENCE">offerings</EVENT> and <EVENT eid="e3" class="OCCURRENCE">pricings</EVENT> in the U.S. and non-U.S. capital markets, with terms and syndicate manager, as <EVENT eid="e4" class="REPORTING">compiled</EVENT> by Dow Jones Capital Markets Report: @ CORPORATES Sun Microsystems Inc. -- $ 125 million of 6 3/8 % convertible subordinated debentures <EVENT eid="e5" class="STATE">due</EVENT> <TIMEX3 tid="t6" type="DATE" value="1999-10-15" functionInDocument="NONE">Oct. 15, 1999</TIMEX3>, <EVENT eid="e7" class="OCCURRENCE">priced</EVENT> at 84.90 to <EVENT eid="e8" class="I_STATE">yield</EVENT> 7.51 %.
+ The debentures are convertible into common stock at $ 25 a share, representing a 24 % conversion premium over <TIMEX3 tid="t9" type="DATE" value="1989-10-26" anchorTimeID="t0" functionInDocument="NONE">Thursday</TIMEX3>'s closing price.
+ <EVENT eid="e10" class="OCCURRENCE">Rated</EVENT> single-B-1 by Moody's Investors Service Inc. and single-B-plus by Standard amp Poor's Corp., the issue will be <EVENT eid="e11" class="OCCURRENCE">sold</EVENT> through underwriters led by Goldman, Sachs amp Co.
+ Hertz Corp. -- $ 100 million of senior notes <EVENT eid="e12" class="STATE">due</EVENT> <TIMEX3 tid="t13" type="DATE" value="2009-11-01" functionInDocument="NONE">Nov. 1, 2009</TIMEX3>, <EVENT eid="e14" class="STATE">priced</EVENT> at par to <EVENT eid="e15" class="I_STATE">yield</EVENT> 9 %.
+ The issue, which is puttable back to the company in <TIMEX3 tid="t16" type="DATE" value="1999" functionInDocument="NONE">1999</TIMEX3>, was <EVENT eid="e17" class="OCCURRENCE">priced</EVENT> at a spread of 110 basis points above the Treasury's <TIMEX3 tid="t18" type="DURATION" value="P10Y" functionInDocument="NONE">10-year</TIMEX3> note.
+ <EVENT eid="e19" class="STATE">Rated</EVENT> single-A-3 by Moody's and triple-B by SampP, the issue will be <EVENT eid="e20" class="OCCURRENCE">sold</EVENT> through underwriters led by Merrill Lynch Capital Markets.
+ @ EUROBONDS Canadian Imperial Bank of Commerce ( Canada ) -- 10 billion yen of 5.7 % bonds due <TIMEX3 tid="t21" type="DATE" value="1992-11-17" functionInDocument="NONE">Nov. 17, 1992</TIMEX3>, <EVENT eid="e22" class="STATE">priced</EVENT> at 101 1/4 to <EVENT eid="e23" class="I_STATE">yield</EVENT> 5.75 % less full fees, via LTCB International Ltd.
+</TEXT>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToTime="t1"/>
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToTime="t1"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0"/>
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t1"/>
+<TLINK lid="l5" relType="ENDED_BY" eventInstanceID="ei5" relatedToTime="t6"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToTime="t1"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei10" relatedToTime="t1"/>
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei11"/>
+<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei12" relatedToTime="t1"/>
+<TLINK lid="l10" relType="ENDED_BY" eventInstanceID="ei12" relatedToTime="t13"/>
+<TLINK lid="l11" relType="BEGUN_BY" eventInstanceID="ei12" relatedToTime="t16"/>
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t1"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei17" relatedToTime="t1"/>
+<TLINK lid="l14" relType="IS_INCLUDED" eventInstanceID="ei19" relatedToTime="t1"/>
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei20"/>
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToTime="t1"/>
+</TimeML>

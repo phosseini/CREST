@@ -1,0 +1,35 @@
+*	Equiv T21 T22
+T25	Regulation 163 185	play an important role
+T26	Process 197 206	infection
+T27	Localization 1175 1183	secreted
+E1	Regulation:T25 Theme:E2
+E2	Process:T26 
+E3	Localization:T27 Theme:T21
+T1	Organism 91 105	P. luminescens
+T2	Organism 265 306	P. luminescens ssp. laumondii strain TT01
+T3	Organism 645 662	Y. enterocolitica
+T4	Organism 868 882	P. luminescens
+T5	Organism 900 917	Y. enterocolitica
+T6	Two-component-system 972 981	ccdA/ccdB
+T7	Protein 972 976	ccdA
+T8	Protein 977 981	ccdB
+T9	Regulon-operon 987 998	tolQRAB/pal
+T10	Protein 987 991	tolQ
+T11	Protein 991 992	R
+T12	Protein 992 993	A
+T13	Protein 993 994	B
+T14	Protein 995 998	pal
+T15	Two-component-system 1096 1111	Plu3168/Plu3869
+T16	Protein 1096 1103	Plu3168
+T17	Protein 1104 1111	Plu3869
+T18	Two-component-system 1113 1126	YE0791/YE1314
+T19	Protein 1113 1119	YE0791
+T20	Protein 1120 1126	YE1314
+T21	Protein 1160 1164	PrtS
+T22	Protein 1166 1173	Plu1382
+T23	Organism 1187 1201	P. luminescens
+T24	Organism 1244 1261	Y. enterocolitica
+T28	Span 1129 1313	Recently, it was reported that PrtS (Plu1382) secreted by P. luminescens, a metalloprotease without counterpart in Y. enterocolitica, specifically induces melanization of the hemolymph
+T29	Causality 1315 1323	probably
+E4	Causality:T29 Effect:T30 Evidence:T28
+T30	Span 1324 1378	to circumvent the innate immune response of the insect

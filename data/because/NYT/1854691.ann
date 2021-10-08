@@ -1,0 +1,99 @@
+T1	NonCausal 493 498	after
+E1	NonCausal:T1 Arg0:T2 Arg0:T3
+A1	Temporal E1
+T2	Argument 499 573	he had asserted that it contradicted one marine's account of the shootings
+T3	Argument 381 479	one expert conceded that the evidence could support the marines' account of acting in self-defense
+T4	Purpose 607 609	to
+E2	Purpose:T4 Effect:T5 Cause:T6
+A2	Degree E2 Facilitate
+T5	Argument 576 606	The hearing is being conducted
+T6	Argument 610 786	determine whether there is enough evidence to refer charges to a court-martial for one of the marines, Lance Cpl. Justin L. Sharratt, who is accused of killing three of the men
+T7	Consequence 637 643;653 655	enough to
+E3	Consequence:T7 Cause:T8 Effect:T9
+A3	Degree E3 Facilitate
+A4	Extremity-sufficiency E3
+T8	Argument 637 652	enough evidence
+T9	Argument 656 786	refer charges to a court-martial for one of the marines, Lance Cpl. Justin L. Sharratt, who is accused of killing three of the men
+T10	Motivation 1491 1496	after
+E4	Motivation:T10 Effect:T11 Cause:T12
+A5	Degree E4 Facilitate
+A6	Temporal E4
+T11	Argument 1435 1490	he and Sergeant Wuterich pursued the men into the house
+T12	Argument 1497 1580	observing them ``turkey peeking'' at their squad's convoy from behind a wall nearby
+T13	NonCausal 1762 1764	As
+E5	NonCausal:T13 Arg0:T14 Arg1:T15
+A7	Temporal E5
+T14	Argument 1765 1787	he entered the bedroom
+T15	Argument 1798 1881	he shot a second man holding another AK-47 at waist level, from about two feet away
+T17	Motivation 2148 2155	because
+E6	Motivation:T17 Effect:T18 Cause:T19
+A8	Degree E6 Facilitate
+T18	Argument 2130 2147	I felt threatened
+T19	Argument 2156 2235	the first two individuals had rifles and I assumed they had some sort of weapon
+T20	Motivation 2290 2297	because
+E7	Motivation:T20 Effect:T21 Cause:T22
+A9	Degree E7 Facilitate
+T21	Argument 2252 2289	I did not get shot by the first Iraqi
+T22	Argument 2298 2356	I think he had a malfunction of either his weapon or round
+T23	NonCausal 2387 2392	While
+E8	NonCausal:T23 Arg0:T24 Arg1:T25
+A10	Temporal E8
+T24	Argument 2393 2413	clearing the weapons
+T25	Argument 2415 2514	they all had a round in their chambers and were ready to fire with what appear to be full magazines
+T26	Consequence 2730 2739	make sure
+E9	Consequence:T26 Cause:T27 Means:T28 Effect:T29
+A11	Degree E9 Facilitate
+T27	Argument 2600 2642	Sergeant Wuterich, who had been behind him
+T28	Argument 2644 2726	had entered the room and shot five to seven rounds into the ``bodies on the ground
+T29	Argument 2745 2805	none were capable of grabbing a weapon and firing back at us
+T30	Consequence 2925 2934	come from
+E10	Consequence:T30 Effect:T31 Cause:T32
+A12	Degree E10 Facilitate
+T31	Argument 2830 2911	none of the bullet wounds to the four bodies, which had all been shot in the head
+T32	Argument 2935 2972	shots fired closer than two feet away
+#2	AnnotatorNotes E10	Debatable
+T33	NonCausal 3272 3277	while
+E11	NonCausal:T33 Arg0:T34 Arg1:T35
+A13	Temporal E11
+T34	Argument 3246 3269	two Iraqi men were shot
+T35	Argument 3278 3297	crouched or sitting
+T36	NonCausal 3732 3736	when
+E12	NonCausal:T36 Effect:T37 Cause:T38
+A15	Temporal E12
+T37	Argument 3737 3768	he was fatally shot in the head
+T38	Argument 3593 3730	at least one of the men had been moving in Corporal Sharratt's general direction, or diving toward a closet that may have contained a gun
+T39	NonCausal 3802 3806	when
+E13	NonCausal:T39 Arg0:T40 Arg1:T41
+A16	Temporal E13
+T40	Argument 3783 3801	the men were armed
+T41	Argument 3807 3821	they were shot
+T42	Consequence 1394 1398	made
+E14	Consequence:T42 Effect:T43
+A17	Degree E14 Facilitate
+T43	Argument 1371 1375;1399 1405	they public
+T16	Consequence 2007 2012	while
+E15	Consequence:T16 Arg0:T44 Effect:T45
+A18	Temporal E15
+T44	Argument 2013 2027	I was shooting
+T45	Argument 1990 2006;2028 2053	I could not tell if they were armed or not
+A19	Degree E15 Facilitate
+T46	Purpose 2727 2729	to
+E16	Purpose:T46 Effect:T48 Cause:T47
+A20	Degree E16 Facilitate
+T47	Argument 2730 2805	make sure that none were capable of grabbing a weapon and firing back at us
+T48	Argument 2600 2726	Sergeant Wuterich, who had been behind him, had entered the room and shot five to seven rounds into the ``bodies on the ground
+T49	Argument 467 479	self-defense
+T50	Argument 457 463	acting
+T51	Motivation 464 466	in
+E17	Motivation:T51 Cause:T49 Effect:T50
+A21	Degree E17 Facilitate
+T52	Argument 3021 3086	Corporal Sharratt had shot the men in a cramped, darkened bedroom
+T53	Argument 3090 3102	self-defense
+T54	Motivation 3087 3089	in
+E18	Motivation:T54 Cause:T53 Effect:T52
+A22	Degree E18 Facilitate
+T55	Argument 3936 3949	the shootings
+T56	Argument 3891 3929	they saw marines carry out of the home
+T57	NonCausal 3930 3935	after
+E19	NonCausal:T57 Arg0:T55 Arg1:T56
+A14	Temporal E19

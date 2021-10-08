@@ -1,0 +1,12 @@
+Adhesins and invasins 
+Colonization and penetration of epithelial cells, and interaction with immune cells, are key steps during the host infection by pathogens.
+Many of the pathogen-receptor molecules such as Toll-like receptors or integrins are conserved between invertebrates and mammalians [79].
+We therefore investigated if P. luminescens and Y. enterocolitica that interact with the midgut of diverse hosts use the same adhesion and invasive factors.
+The most prominent protein of Y. enterocolitica involved in attachment to and invasion of mammalian cells is Ail (YE1820) that is homologue to three P. luminescens proteins encoded by plu2481, plu2480, and plu1967, and InvA (YE2564) with high similarity to Plu2057.
+Further invasin genes of Y. enterocolitica with counterparts in P. luminescens are ysaV (ye3546/plu3761) and invF (ye3549/plu3775).
+Y. enterocolitica genes not present in P. luminescens are ye1873 encoding the adhesin YadA which is maximally expressed at 37degreesC, and the invasin genes invE, ysaH, ye3550, and ye3555.
+The function of the latter two in cell recognition is predicted, but has not yet been demonstrated experimentally.
+In contrast, P. luminescens produces several factors involved in host cell interaction without homologues in Y. enterocolitica, namely Plu2096 which is similar to lectin PA-I, Plu1561 with strong homology to a Ca2+ dependent adhesion molecule, the adhesin Plu2433 similar to a virulence factor of the Gram-negative plant pathogen Erwinia carotovora, EvF, which is involved in colonisation of the D. melanogaster gut epithelium [80], and the putative invasin Plu2064.
+In P. luminescens, eleven fimbrial gene cluster have been identified, four of which (V, VII, IX and X) are also present in Y. enterocolitica.
+Unique for the human pathogen in comparison to P. luminescens are the two fimbrial gene cluster ye2664-2668 and ye2692-2700, both of yet hypothetical function.
+Thus, invasin and adhesin homologues similar in the two pathogens might contribute to the infection of insect or mammalian hosts, but candidates for insect- and mammalian-specific colonization factors have also been revealed by the genome comparison performed here.

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>wsj_0471</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-31" temporalFunction="false" functionInDocument="CREATION_TIME">1989-10-31</TIMEX3></DCT>
+<TEXT>
+ Dataproducts Inc. <EVENT eid="e1" class="REPORTING">said</EVENT> it <EVENT eid="e2" class="I_ACTION">filed</EVENT> a <EVENT eid="e3" class="OCCURRENCE">lawsuit</EVENT> in Delaware Chancery Court to <EVENT eid="e4" class="I_ACTION">block</EVENT> a tender <EVENT eid="e5" class="OCCURRENCE">offer</EVENT> by DPC Acquisition Partners, <EVENT eid="e6" class="REPORTING">alleging</EVENT> that the hostile <EVENT eid="e7" class="OCCURRENCE">offer</EVENT> <EVENT eid="e8" class="OCCURRENCE">violates</EVENT> a standstill <EVENT eid="e9" class="OCCURRENCE">agreement</EVENT> between the two concerns.
+ DPC, an investor group <EVENT eid="e10" class="OCCURRENCE">led</EVENT> by New York-based Crescott Investment Associates, had itself <EVENT eid="e11" class="I_ACTION">filed</EVENT> a <EVENT eid="e12" class="OCCURRENCE">suit</EVENT> in state court in Los Angeles <EVENT eid="e13" class="I_ACTION">seeking</EVENT> to <EVENT eid="e14" class="I_ACTION">nullify</EVENT> the <EVENT eid="e15" class="OCCURRENCE">agreement</EVENT>.
+ <TIMEX3 tid="t16" type="DATE" value="1989" anchorTimeID="t0" functionInDocument="NONE">Earlier this year</TIMEX3>, Dataproducts had <EVENT eid="e17" class="OCCURRENCE">rejected</EVENT> a $ 15 a share <EVENT eid="e18" class="OCCURRENCE">offer</EVENT> from DPC, <EVENT eid="e19" class="REPORTING">saying</EVENT> it wasn't adequately <EVENT eid="e20" class="OCCURRENCE">financed</EVENT>.
+ DPC <TIMEX3 tid="t21" type="DATE" value="1989-W43" anchorTimeID="t0" functionInDocument="NONE">last week</TIMEX3> <EVENT eid="e22" class="I_ACTION">launched</EVENT> a new, $ 10-a-share <EVENT eid="e23" class="OCCURRENCE">offer</EVENT> for the Woodland Hills, Calif. -based computer printer maker.
+ DPC <EVENT eid="e24" class="REPORTING">said</EVENT> it couldn't <EVENT eid="e25" class="OCCURRENCE">comment</EVENT> on the suit.
+</TEXT>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="NONE" aspect="NONE" polarity="NEG" modality="could" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="AFTER" timeID="t0" relatedToEventInstance="ei1"/>
+<TLINK lid="l2" relType="IS_INCLUDED" timeID="t0" relatedToEventInstance="ei10"/>
+<TLINK lid="l3" relType="AFTER" timeID="t0" relatedToEventInstance="ei11"/>
+<TLINK lid="l5" relType="INCLUDES" eventInstanceID="ei3" relatedToEventInstance="ei6"/>
+<TLINK lid="l6" relType="BEGUN_BY" eventInstanceID="ei4" relatedToEventInstance="ei3"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei3"/>
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei7" relatedToEventInstance="ei9"/>
+<TLINK lid="l9" relType="IAFTER" eventInstanceID="ei8" relatedToEventInstance="ei7"/>
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei8" relatedToEventInstance="ei9"/>
+<TLINK lid="l11" relType="IDENTITY" eventInstanceID="ei9" relatedToEventInstance="ei15"/>
+<TLINK lid="l12" relType="BEGINS" eventInstanceID="ei12" relatedToEventInstance="ei13"/>
+<TLINK lid="l13" relType="INCLUDES" timeID="t16" relatedToEventInstance="ei17"/>
+<TLINK lid="l14" relType="AFTER" eventInstanceID="ei17" relatedToEventInstance="ei18"/>
+<TLINK lid="l15" relType="SIMULTANEOUS" eventInstanceID="ei19" relatedToEventInstance="ei17"/>
+<TLINK lid="l16" relType="INCLUDES" timeID="t21" relatedToEventInstance="ei22"/>
+<TLINK lid="l17" relType="IDENTITY" eventInstanceID="ei23" relatedToEventInstance="ei5"/>
+<TLINK lid="l18" relType="IDENTITY" eventInstanceID="ei24" relatedToEventInstance="ei1"/>
+<CLINK lid="l4" eventInstanceID="ei2" relatedToEventInstance="ei5"/>
+</TimeML>

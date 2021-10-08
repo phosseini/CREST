@@ -1,0 +1,33 @@
+T1	Two-component-system 32 37	salKR
+T2	Protein 32 36	salK
+T3	Protein 36 37	R
+T4	Two-component-system 112 117	salKR
+T5	Protein 112 116	salK
+T6	Protein 116 117	R
+T7	Organism 161 176	S. suis 05ZYH33
+T8	Two-component-system 270 275	salKR
+T9	Protein 270 274	salK
+T10	Protein 274 275	R
+T11	Protein 659 663	salK
+T12	Protein 668 672	salR
+T13	Regulon-operon 729 748	05SSU0942-05SSU0938
+T14	Protein 729 738	05SSU0942
+T15	Protein 739 748	05SSU0938
+T16	Protein 826 835	05SSU0942
+T17	Protein 882 891	05SSU0938
+T18	Protein 892 901	05SSU0937
+T19	Transcription 97 108	transcripts
+T20	Transcription 677 702	transcriptionally coupled
+T21	Transcription 760 774	co-transcribed
+T22	Transcription 851 864	transcription
+E1	Transcription:T19 Theme:T5
+E2	Transcription:T19 Theme:T6
+E3	Transcription:T20 Theme:T11
+E4	Transcription:T20 Theme:T12
+E5	Transcription:T21 Theme:T13
+E6	Transcription:T22 Theme:T13
+T26	Span 497 613	On the other hand, when genomic DNA was used as a template, all these primer pairs yielded the expected PCR products
+T28	Causality 630 658	These results suggested that
+E9	Causality:T28 Evidence:T26 Effect:T29
+T29	Span 659 977	salK and salR are transcriptionally coupled, and the five downstream (05SSU0942-05SSU0938) genes are co-transcribed from a promoter positioned immediately upstream of 05SSU0942 and that their transcription ends between the 05SSU0938-05SSU0937 intergenic region which contains a terminator-like inverted repeat sequence
+#2	AnnotatorNotes E9	Again a complex interaction.

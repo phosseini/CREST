@@ -1,0 +1,100 @@
+T42	Positive_regulation 46 56	activation
+T43	Positive_regulation 77 86	activated
+T44	Phosphorylation 112 126	phosphorylated
+T45	Transcription 330 343	transcription
+T46	Gene_expression 372 382	Expression
+T47	Negative_regulation 404 413	abolished
+T48	Positive_regulation 496 504	activate
+T49	Transcription 600 613	transcription
+T50	Positive_regulation 618 625	reduced
+T51	Gene_expression 704 713	expressed
+T52	Transcription 866 879	transcription
+T53	Transcription 989 1006	transcript levels
+T54	Positive_regulation 1165 1174	activated
+T55	Gene_expression 1234 1244	expression
+T56	Regulation 1257 1266	regulated
+T57	Regulation 1290 1301	independent
+T58	Gene_expression 1511 1519	produced
+T59	Positive_regulation 1659 1667	promoted
+T60	Gene_expression 1668 1678	expression
+T61	Positive_regulation 1709 1718	dependent
+E1	Positive_regulation:T42 Theme:T2 Cause:T1
+E2	Positive_regulation:T43 Theme:T4 Cause:T3
+E3	Phosphorylation:T44 Theme:T5
+E4	Transcription:T45 Theme:T8
+E5	Gene_expression:T46 Theme:T11
+E6	Negative_regulation:T47 Theme:E5
+E7	Positive_regulation:T48 Theme:T15 Cause:T14
+E8	Positive_regulation:T48 Theme:T15 Cause:T13
+E9	Transcription:T49 Theme:T19
+E10	Positive_regulation:T50 Theme:E9
+E11	Gene_expression:T51 Theme:T22
+E12	Transcription:T52 Theme:T25
+M1	Speculation E12
+E13	Transcription:T53 Theme:T26
+E14	Positive_regulation:T54 Theme:T28 Cause:T27
+E15	Gene_expression:T55 Theme:T29
+E16	Regulation:T56 Theme:T30 Cause:E15
+E17	Regulation:T57 Theme:T32 Cause:T31
+M2	Negation E17
+E18	Gene_expression:T58 Theme:T34
+E19	Positive_regulation:T59 Theme:E20
+E20	Gene_expression:T60 Theme:T36
+E21	Positive_regulation:T61 Theme:E19 Cause:T37
+T1	Protein 4 8	PmrD
+T2	Protein 41 45	PmrA
+T3	Protein 72 76	PhoP
+T4	Protein 87 91	PmrD
+T5	Protein 140 144	PmrA
+T6	Protein 224 228	PmrD
+T7	Protein 250 254	PmrA
+T8	Protein 325 329	pbgP
+T9	Organism 359 370	pmrB mutant
+T10	Protein 359 363	pmrB
+T11	Protein 390 394	pbgP
+T12	Organism 419 442	pmrB pmrD double mutant
+T13	Protein 419 423	pmrB
+T14	Protein 424 428	pmrD
+T15	Protein 505 509	PmrA
+T16	Organism 571 593	pta ackA double mutant
+T17	Protein 571 574	pta
+T18	Protein 575 579	ackA
+T19	Protein 595 599	pbgP
+T20	Organism 633 644	pmrD mutant
+T21	Protein 633 637	pmrD
+T22	Protein 684 688	pmrD
+T23	Chemical 752 757	MgCl2
+T24	Protein 809 813	PhoP
+T25	Protein 887 891	pmrD
+T26	Protein 984 988	pmrD
+T27	Protein 1160 1164	PhoP
+T28	Protein 1221 1225	pmrD
+T29	Protein 1252 1256	PhoP
+T30	Protein 1267 1271	slyA
+T31	Protein 1285 1289	PhoP
+T32	Protein 1302 1306	corA
+T33	Protein 1462 1466	PmrD
+T34	Protein 1494 1498	PmrD
+T35	Chemical 1572 1577	MgCl2
+T36	Protein 1686 1690	PmrD
+T37	Two-component-system 1703 1708	phoPQ
+T38	Protein 1703 1707	phoP
+T39	Protein 1707 1708	Q
+T40	Protein 1761 1765	PhoP
+T41	Protein 1820 1824	pmrD
+T62	Span 372 442	Expression of the pbgP gene was abolished in a pmrB pmrD double mutant
+T63	Causality 452 467	indicating that
+E22	Causality:T63 Effect:T64 Evidence:T62
+T64	Span 468 533	both genes are necessary to activate PmrA under acidic conditions
+T65	Span 535 644	In contrast to the phenotype of the pta ackA double mutant, pbgP transcription was reduced in the pmrD mutant
+T66	Causality 655 679	These results imply that
+E23	Causality:T66 Effect:T65 Evidence:T67
+T67	Span 680 829	the pmrD gene was being expressed even though the media contained 10 mM MgCl2, a concentration known to repress transcription of PhoP-activated genes
+T68	Causality 1226 1233	because
+E24	Causality:T68 Effect:T69 Evidence:T70
+T69	Span 1091 1225	This acid pH-promoted increase appears to be specific to a subset of PhoP-activated genes (our unpublished results) that includes pmrD
+T70	Span 1234 1352	expression of the PhoP-regulated slyA gene and the PhoP-independent corA gene was not affected by the pH of the medium
+T71	Causality 1720 1760	which is in agreement with the fact that
+E25	Causality:T71 Effect:T73 Evidence:T72
+T72	Fact 1761 1824	PhoP is the only known direct transcriptional activator of pmrD
+T73	Fact 1650 1718	The acid-promoted expression of the PmrD protein was phoPQ-dependent

@@ -1,0 +1,8 @@
+Generation and analysis of ATP-binding-deficient Rv2623 mutants 
+To explore the relationship between the putative ATP-dependent biochemical function of Rv2623 and the growth-regulating attribute of Rv2623, we engineered mutations within the L1 (D15E) and beta4 (G117A) conserved residues that were predicted, on the basis of the crystal structure, to disrupt ATP recognition (Figure 7A).
+In silico replacement of the beta4 G117 side chain hydrogen with a methyl group suggested that any residue larger than glycine at this position is likely to perturb both of the conserved loop regions in contact with the nucleotide.
+Similarly, extension of the D15 side chain to glutamate was also predicted to interfere with the ATP-binding conformation (Figure 7A).
+HPLC analysis of nucleotides extracted from Rv2623D15E and Rv2623G117A revealed that the mutant proteins are indeed deficient in ATP-binding, exhibiting approximately34% (p<0.001) and approximately29% (p=0.0018) of the amount of ATP bound by wild-type Rv2623, respectively (Figure 7B).
+Likewise, following an overnight incubation with [alpha-33P] ATP at 4degreesC, the amount of protein-bound radioactivity, which represented a very small fraction of the total ATP binding sites, was significantly less for the mutant proteins than wild-type Rv2623 (data not shown).
+Importantly, thermal denaturation profiles of wild-type Rv2623, Rv2623D15E and Rv2623G117A demonstrated virtually identical Tm values, implying that the native Rv2623 fold was not destabilized by these mutations (Figure 7C).
+It is therefore likely that the D15E and G117A mutations produced local structural changes in the ATP binding loops that contributed directly to the reduced levels of bound ATP in comparing to wild-type Rv2623.

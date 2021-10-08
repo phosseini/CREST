@@ -1,0 +1,37 @@
+T1	Organism 66 77	Typhimurium
+T2	Chemical 775 784	magnesium
+T3	Organism 1122 1133	Typhimurium
+T4	Organism 1462 1472	Salmonella
+T5	Organism 1525 1535	Salmonella
+T6	Organism 2247 2258	Typhimurium
+T7	Process 27 36	avirulent
+T8	Process 334 343	virulence
+T9	Negative_regulation 388 398	attenuated
+T10	Process 399 408	virulence
+T11	Process 552 561	virulence
+T12	Process 1943 1952	virulence
+T13	Process 1986 1995	infection
+T14	Process 2812 2821	virulence
+T15	Process 3266 3275	virulence
+E1	Process:T7 
+M1	Negation E1
+E2	Process:T8 
+E3	Negative_regulation:T9 Theme:E4
+E4	Process:T10 
+E5	Process:T11 
+E6	Process:T12 
+E7	Process:T13 
+E8	Process:T14 
+E9	Process:T15 
+T16	Span 327 430	The 14 virulence regulators, whose absence was identified by attenuated virulence in vivo in this study
+T17	Causality 432 442	presumably
+E10	Causality:T17 Effect:T18 Evidence:T16
+T18	Span 443 569	sense specific environmental signals within the host and respond by expressing the appropriate complement of virulence factors
+T19	Span 2603 2672	Because transcription is reduced in the mutant compared to the parent
+T20	Causality 2674 2690	it suggests that
+E11	Causality:T20 Effect:T21 Evidence:T19
+T21	Span 2691 2827	normally the regulator activates transcription of these genes as is shown dramatically in Figure 3 for all SPI-2 encoded virulence genes
+T22	Span 2829 2975	Conversely, only 45 genes showed a 4-fold or more up-regulation in the mutant backgrounds when cells were prepared under the same growth condition
+T23	Causality 2977 2992	suggesting that
+E12	Causality:T23 Effect:T24 Evidence:T22
+T24	Span 2993 3037	the regulator normally represses these genes

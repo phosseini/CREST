@@ -1,0 +1,4 @@
+Mild acid pH induces resistance to the antimicrobial peptide polymyxin B 
+What role could the mild acid pH-dependent activation of PmrA-regulated genes play in Salmonella's lifestyle? Because the PmrA/PmrB system is required for resistance to the antimicrobial peptide polymyxin B (Roland et al., 1993), we hypothesized that mild acid pH could induce this resistance.
+In fact, the survival of wild-type cells to a challenge with polymyxin B was 100 000-fold higher when they were grown at pH 5.8 than when grown at pH 7.7 (Fig. 7).
+This resistance was PmrA-dependent because a strain deficient in the pmrA gene was approximately 100 000-fold more sensitive to polymyxin B than the wild-type strain when grown pH 5.8 (Fig. 7).
