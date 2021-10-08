@@ -4,7 +4,7 @@ from converter import Converter
 
 def main(argv):
     if argv[1] == '-help':
-        print('\nUsage: converter.py [DATASET_ID_0] [DATASET_ID_1] ... [DATASET_ID_n] [OUTPUT_FILE_NAME]')
+        print('\nUsage: python convert.py [DATASET_ID_0] [DATASET_ID_1] ... [DATASET_ID_n] [OUTPUT_FILE_NAME]')
         print('--------------------')
         print('Current dataset ids:')
         for dataset_name, dataset_id in Converter().namexid.items():
@@ -33,7 +33,7 @@ def main(argv):
         df, _ = converter.convert2crest(dataset_ids=dataset_ids)
         df.to_excel(file_path)
     elif len(argv) < 3:
-        print('Usage: converter.py [DATASET_ID_0] [DATASET_ID_1] ... [DATASET_ID_n] [OUTPUT_FILE_NAME]')
+        print('Usage: python convert.py [DATASET_ID_0] [DATASET_ID_1] ... [DATASET_ID_n] [OUTPUT_FILE_NAME]')
         exit(1)
 
 
