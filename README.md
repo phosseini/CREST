@@ -5,8 +5,8 @@ CREST is created to help researchers who work on causal/counterfactual relation 
 ### How to convert data to CREST:
 * Clone this repository and go to the `/CREST` directory.
 * Install the requirements: `pip3 install -r requirements.txt`
-* Run the [`convert.py`](https://github.com/phosseini/CREST/blob/master/crest/convert.py):
-     * `python convert.py -help`: printing full list of current dataset IDs
+* Run the [`/crest/convert.py`](https://github.com/phosseini/CREST/blob/master/crest/convert.py):
+     * `python convert.py -i`: printing full list of current dataset IDs
      * `python convert.py [DATASET_ID_0] ... [DATASET_ID_n] [OUTPUT_FILE_NAME]`
           * `DATASET_ID_*`: id of a dataset.
           * `OUTPUT_FILE_NAME`: name of the output file that should be in `.xlsx` format
