@@ -3,7 +3,9 @@
 CREST is created to help researchers who work on causal/counterfactual relation extraction/classification, commonsense reasoning, and reading comprehension in natural language to communicate easier and leverage the scattered data resources around this topic. CREST is a user-friendly machine-readable format stored as pandas [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html).
 
 ### How to convert data to CREST:
-* Run the [`convert.py`](https://github.com/phosseini/CREST/blob/master/crest/convert.py) class in terminal:
+* Clone the repository and go to the `/CREST` directory.
+* Install the requirements: `pip3 install -r requirements.txt`
+* Run the [`convert.py`](https://github.com/phosseini/CREST/blob/master/crest/convert.py):
      * `python convert.py -help`: printing full list of current dataset IDs
      * `python convert.py [DATASET_ID_0] ... [DATASET_ID_n] [OUTPUT_FILE_NAME]`
           * `DATASET_ID_*`: id of a dataset.
