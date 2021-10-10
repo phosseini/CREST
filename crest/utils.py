@@ -1,10 +1,5 @@
-import os
 import ast
-import copy
-import spacy
-from nltk.tokenize import WordPunctTokenizer
 import pandas as pd
-import xml.etree.ElementTree as ET
 
 
 class DataColumns:
