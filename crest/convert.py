@@ -4,7 +4,7 @@ from converter import Converter
 
 def main(argv):
     usage_msg = 'Usage: python convert.py [DATASET_ID_0] [DATASET_ID_1] ... [DATASET_ID_n] [OUTPUT_FILE_NAME]'
-    if argv[1] == '-help':
+    if argv[1] == '-i':
         print('\n{}'.format(usage_msg))
         print('--------------------')
         print('Current dataset ids:')
