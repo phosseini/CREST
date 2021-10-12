@@ -1,12 +1,13 @@
 # CREST: A Causal Relation Schema for Text :rocket:
 
-CREST is created to help researchers who work on causal/counterfactual relation extraction/classification, commonsense reasoning, and reading comprehension in natural language to communicate easier and leverage the scattered data resources around this topic. CREST is a user-friendly machine-readable format stored as pandas [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html).
+CREST is a machine-readable format/schema that is created to help researchers who work on causal/counterfactual relation extraction and commonsense causal reasoning, to use and leverage the scattered data resources around these topics more easily. CREST-formatted data are stored as pandas [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html).
 
-### How to convert data to CREST:
+### How to convert dataset(s) to CREST:
 * Clone this repository and go to the `/CREST` directory.
-* Install the requirements: `pip3 install -r requirements.txt`
-* Run the [`convert.py`](https://github.com/phosseini/CREST/blob/master/crest/convert.py):
-     * `python convert.py -help`: printing full list of current dataset IDs
+* Install the requirements: `pip install -r requirements.txt`
+* Download spaCy's model: `python -m spacy download en_core_web_sm`
+* Run the [`/crest/convert.py`](https://github.com/phosseini/CREST/blob/master/crest/convert.py):
+     * `python convert.py -i`: printing the full list of currently supported datasets
      * `python convert.py [DATASET_ID_0] ... [DATASET_ID_n] [OUTPUT_FILE_NAME]`
           * `DATASET_ID_*`: id of a dataset.
           * `OUTPUT_FILE_NAME`: name of the output file that should be in `.xlsx` format
