@@ -4,7 +4,8 @@ CREST is a machine-readable format/schema that is created to help researchers wh
 
 ### How to convert dataset(s) to CREST:
 * Clone this repository and go to the `/CREST` directory.
-* Install the requirements: `pip3 install -r requirements.txt`
+* Install the requirements: `pip install -r requirements.txt`
+* Download spaCy's model: `python -m spacy download en_core_web_sm`
 * Run the [`/crest/convert.py`](https://github.com/phosseini/CREST/blob/master/crest/convert.py):
      * `python convert.py -i`: printing the full list of currently supported datasets
      * `python convert.py [DATASET_ID_0] ... [DATASET_ID_n] [OUTPUT_FILE_NAME]`
