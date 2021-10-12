@@ -1,5 +1,5 @@
 import sys
-from converter import Converter
+from crest import Converter
 
 
 def main(argv):
