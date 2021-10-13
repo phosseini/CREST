@@ -21,7 +21,7 @@ def main(argv):
                 print('error: dataset id should be an integer')
                 exit(1)
 
-        if '.xlsx' in argv[-1]:
+        if argv[-1].endswith('.xlsx'):
             file_path = argv[-1]
         else:
             print('error: OUTPUT_FILE_NAME should be *.xlsx')
