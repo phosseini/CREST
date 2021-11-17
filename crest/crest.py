@@ -1592,6 +1592,9 @@ class Converter:
         mismatch = 0
         data = pd.DataFrame(columns=self.scheme_columns)
 
+        test_files = ["2010.01.08.facebook.bra.color", "2010.01.12.haiti.earthquake", "2010.01.12.turkey.israel",
+                      "2010.01.13.google.china.exit", "2010.01.13.mexico.human.traffic.drug"]
+
         with open(self.dir_path + "tcr/CausalPart/allClinks.txt", 'r') as in_file:
             lines = in_file.readlines()
 
@@ -1602,13 +1605,15 @@ class Converter:
             text, idx_val, events_text = read_text(file_path, annotation[1], annotation[2])
             direction = 1 if annotation[3] == "caused_by" else 0
 
+            split = 2 if annotation[0] in test_files else 1
+
             # saving the sample
             new_row = {"original_id": '', "span1": [events_text[0]], "span2": [events_text[1]], "signal": [],
                        "context": text,
                        "idx": idx_val, "label": 1, "direction": direction,
                        "source": self.namexid["tcr"],
                        "ann_file": file_path,
-                       "split": 2}
+                       "split": split}
 
             if self.check_span_indexes(new_row):
                 data = data.append(new_row, ignore_index=True)
