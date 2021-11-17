@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>2010.01.06.tennis.qatar.federer.nadal</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="2010-01-06" temporalFunction="false" functionInDocument="CREATION_TIME">2010-01-06</TIMEX3></DCT>
+<TEXT>
+Roger Federer and Rafael Nadal are on course to meet in the final of the Qatar Open after both <EVENT class="OCCURRENCE" eid="e2">came</EVENT> through their second-round matches on <TIMEX3 tid="t1" type="DATE" value="2010-01-06">Wednesday</TIMEX3>.
+Federer <EVENT class="OCCURRENCE" eid="e3">eased</EVENT> to a straight sets - 6-2 6-4 - victory over Russia's Evgeny Korolev in just over an hour while Nadal cruised past Italian Potito Starace with a 6-2 6-2 win.
+World number one Federer <EVENT class="REPORTING" eid="e5">told</EVENT> reporters in the post-match press conference that despite his inexperience his Russian opponent had been a formidable opponent.
+" This was a more dangerous match than my first one because he is a big ball striker and <EVENT class="OCCURRENCE" eid="e6">plays</EVENT> aggressive on forehand and backhand, " Federer <EVENT class="REPORTING" eid="e7">said</EVENT>.
+" Conditions were difficult <TIMEX3 tid="t2" type="DATE" value="2010-01-06">today</TIMEX3>, it was very slow out there and I had to be patient and <EVENT class="OCCURRENCE" eid="e8">grind</EVENT> it out, so I was happy with the way I <EVENT class="OCCURRENCE" eid="e9">adapted</EVENT> and with the way the match <EVENT class="OCCURRENCE" eid="e10">went</EVENT>. "
+Federer <EVENT class="STATE" eid="e11">faces</EVENT> Latvian Ernests Gulbis, who <EVENT class="OCCURRENCE" eid="e12">overcame</EVENT> Italian Andreas Seppi, in the next round while Nadal will <EVENT class="OCCURRENCE" eid="e13">play</EVENT> qualifier Steve Darcis of Belgium.
+Darcis <EVENT class="OCCURRENCE" eid="e14">knocked</EVENT> out Younes El Aynaoui, the 38-year-old who on <TIMEX3 tid="t3" type="DATE" value="2010-01-05">Tuesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e15">became</EVENT> the oldest man in <TIMEX3 tid="t4" type="DURATION" value="">15 years</TIMEX3> to <EVENT class="OCCURRENCE" eid="e16">win</EVENT> an ATP match.
+Nadal <EVENT class="OCCURRENCE" eid="e17">admitted</EVENT> the manner of his victory over Starace <EVENT class="OCCURRENCE" eid="e18">shows</EVENT> he is <EVENT class="OCCURRENCE" eid="e19">returning</EVENT> to something like his best form after recent injury problems.
+" I've been <EVENT class="OCCURRENCE" eid="e20">playing</EVENT> well lately.
+<TIMEX3 tid="t5" type="DATE" value="2010-01-06">Today</TIMEX3>'s victory <EVENT class="OCCURRENCE" eid="e21">underlines</EVENT> that I'm in very good form, " he <EVENT class="REPORTING" eid="e22">said</EVENT>.
+" Potito has always been a tough opponent for me. "
+Elsewhere, Russian Nikolay Davydenko <EVENT class="OCCURRENCE" eid="e23">beat</EVENT> Marco Chiudinelli of Switzerland 6-3 6-4 while Poland's Lukasz Kubot <EVENT class="OCCURRENCE" eid="e24">knocked</EVENT> out Ukrainian Sergiy Stakhovsky 6-2 7-6 and Viktor Troicki of Serbia overcame Belgian Olivier Rochus 6-2 6-4.
+</TEXT>
+<MAKEINSTANCE aspect="NONE" eiid="ei2" eventID="e2" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei3" eventID="e3" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei5" eventID="e5" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei6" eventID="e6" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei7" eventID="e7" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei8" eventID="e8" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei9" eventID="e9" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei10" eventID="e10" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei11" eventID="e11" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei12" eventID="e12" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei13" eventID="e13" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei14" eventID="e14" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei15" eventID="e15" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei16" eventID="e16" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei17" eventID="e17" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei18" eventID="e18" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei19" eventID="e19" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei20" eventID="e20" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei21" eventID="e21" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei22" eventID="e22" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei23" eventID="e23" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei24" eventID="e24" polarity="POS"  tense="PAST" />
+<TLINK eventInstanceID="ei2" lid="l0" relType="AFTER" relatedToEventInstance="ei3" />
+<TLINK eventInstanceID="ei3" lid="l1" relType="BEFORE" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei5" lid="l2" relType="AFTER" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei5" lid="l3" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei6" lid="l4" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei6" lid="l5" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei6" lid="l6" relType="BEFORE" relatedToEventInstance="ei9" />
+<TLINK eventInstanceID="ei6" lid="l7" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei7" lid="l8" relType="AFTER" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei7" lid="l9" relType="AFTER" relatedToEventInstance="ei9" />
+<TLINK eventInstanceID="ei7" lid="l10" relType="AFTER" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei8" lid="l11" relType="BEFORE" relatedToEventInstance="ei9" />
+<TLINK eventInstanceID="ei8" lid="l12" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei8" lid="l13" relType="BEFORE" relatedToEventInstance="ei11" />
+<TLINK eventInstanceID="ei8" lid="l14" relType="AFTER" relatedToEventInstance="ei12" />
+<TLINK eventInstanceID="ei8" lid="l15" relType="BEFORE" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei9" lid="l16" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei9" lid="l17" relType="BEFORE" relatedToEventInstance="ei11" />
+<TLINK eventInstanceID="ei9" lid="l18" relType="AFTER" relatedToEventInstance="ei12" />
+<TLINK eventInstanceID="ei9" lid="l19" relType="BEFORE" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei10" lid="l20" relType="BEFORE" relatedToEventInstance="ei11" />
+<TLINK eventInstanceID="ei10" lid="l21" relType="AFTER" relatedToEventInstance="ei12" />
+<TLINK eventInstanceID="ei10" lid="l22" relType="BEFORE" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei11" lid="l23" relType="AFTER" relatedToEventInstance="ei12" />
+<TLINK eventInstanceID="ei11" lid="l24" relType="BEFORE" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei11" lid="l25" relType="AFTER" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei11" lid="l26" relType="AFTER" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei11" lid="l27" relType="BEFORE" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei12" lid="l28" relType="BEFORE" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei12" lid="l29" relType="BEFORE" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei12" lid="l30" relType="BEFORE" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei12" lid="l31" relType="BEFORE" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei13" lid="l32" relType="AFTER" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei13" lid="l33" relType="AFTER" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei13" lid="l34" relType="AFTER" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei14" lid="l35" relType="AFTER" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei14" lid="l36" relType="AFTER" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei14" lid="l37" relType="BEFORE" relatedToEventInstance="ei17" />
+<TLINK eventInstanceID="ei14" lid="l38" relType="BEFORE" relatedToEventInstance="ei18" />
+<TLINK eventInstanceID="ei14" lid="l39" relType="BEFORE" relatedToEventInstance="ei19" />
+<TLINK eventInstanceID="ei15" lid="l40" relType="AFTER" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei15" lid="l41" relType="BEFORE" relatedToEventInstance="ei17" />
+<TLINK eventInstanceID="ei15" lid="l42" relType="BEFORE" relatedToEventInstance="ei18" />
+<TLINK eventInstanceID="ei16" lid="l43" relType="BEFORE" relatedToEventInstance="ei17" />
+<TLINK eventInstanceID="ei16" lid="l44" relType="BEFORE" relatedToEventInstance="ei18" />
+<TLINK eventInstanceID="ei16" lid="l45" relType="BEFORE" relatedToEventInstance="ei19" />
+<TLINK eventInstanceID="ei17" lid="l46" relType="AFTER" relatedToEventInstance="ei18" />
+<TLINK eventInstanceID="ei17" lid="l47" relType="AFTER" relatedToEventInstance="ei19" />
+<TLINK eventInstanceID="ei17" lid="l48" relType="AFTER" relatedToEventInstance="ei20" />
+<TLINK eventInstanceID="ei18" lid="l49" relType="AFTER" relatedToEventInstance="ei19" />
+<TLINK eventInstanceID="ei18" lid="l50" relType="AFTER" relatedToEventInstance="ei20" />
+<TLINK eventInstanceID="ei19" lid="l51" relType="AFTER" relatedToEventInstance="ei20" />
+<TLINK eventInstanceID="ei20" lid="l52" relType="BEFORE" relatedToEventInstance="ei21" />
+<TLINK eventInstanceID="ei20" lid="l53" relType="BEFORE" relatedToEventInstance="ei22" />
+<TLINK eventInstanceID="ei21" lid="l54" relType="BEFORE" relatedToEventInstance="ei22" />
+<TLINK eventInstanceID="ei23" lid="l55" relType="BEFORE" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei7" lid="l56" relType="AFTER" relatedToTime="t2" />
+<TLINK eventInstanceID="ei13" lid="l57" relType="BEFORE" relatedToTime="t3" />
+<TLINK timeID="t2" lid="l58" relType="BEFORE" relatedToEventInstance="ei11" />
+<TLINK timeID="t2" lid="l59" relType="AFTER" relatedToEventInstance="ei12" />
+<TLINK timeID="t2" lid="l60" relType="BEFORE" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei20" lid="l61" relType="BEFORE" relatedToTime="t5" />
+<TLINK eventInstanceID="ei14" lid="l62" relType="AFTER" relatedToTime="t3" />
+<TLINK timeID="t3" lid="l63" relType="BEFORE" relatedToEventInstance="ei17" />
+<TLINK timeID="t3" lid="l64" relType="BEFORE" relatedToEventInstance="ei18" />
+<TLINK timeID="t3" lid="l65" relType="BEFORE" relatedToEventInstance="ei19" />
+<TLINK eventInstanceID="ei9" lid="l66" relType="BEFORE" relatedToTime="t2" />
+<TLINK timeID="t1" lid="l67" relType="AFTER" relatedToEventInstance="ei3" />
+<TLINK eventInstanceID="ei21" lid="l68" relType="AFTER" relatedToTime="t5" />
+<TLINK eventInstanceID="ei11" lid="l69" relType="AFTER" relatedToTime="t3" />
+<TLINK eventInstanceID="ei6" lid="l70" relType="BEFORE" relatedToTime="t2" />
+<TLINK eventInstanceID="ei22" lid="l71" relType="AFTER" relatedToTime="t5" />
+<TLINK eventInstanceID="ei16" lid="l72" relType="AFTER" relatedToTime="t3" />
+<TLINK eventInstanceID="ei2" lid="l73" relType="AFTER" relatedToTime="t1" />
+
+</TimeML>

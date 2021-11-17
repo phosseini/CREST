@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>2010.02.03.cross.quake.resistant.housing</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="2010-02-03" temporalFunction="false" functionInDocument="CREATION_TIME">2010-02-03</TIMEX3></DCT>
+<TEXT>
+After a severe earthquake <EVENT class="OCCURRENCE" eid="e1">centered</EVENT> in Pakistan's Kashmir province <EVENT class="OCCURRENCE" eid="e2">killed</EVENT> more than 70,000 people in <TIMEX3 tid="t1" type="DATE" value="">2005</TIMEX3>, teams from a nonprofit architecture group <EVENT class="OCCURRENCE" eid="e3">based</EVENT> in London, England, <EVENT class="I_ACTION" eid="e4">helped</EVENT> the region start to <EVENT class="OCCURRENCE" eid="e5">rebuild</EVENT>.
+The group, Article 25, <EVENT class="OCCURRENCE" eid="e6">worked</EVENT> with local craftspeople to <EVENT class="I_ACTION" eid="e7">develop</EVENT> a design that could withstand earthquakes and <EVENT class="OCCURRENCE" eid="e9">trained</EVENT> them to <EVENT class="OCCURRENCE" eid="e10">build</EVENT> the structures.
+That experience may provide some lessons for the rebuilding of Haiti, where Article 25 is also <EVENT class="I_ACTION" eid="e12">planning</EVENT> to help with reconstruction, according to Robin Cross, an architect who is the organization's director of projects.
+As in Haiti, at least some of the death and injury in Pakistan <EVENT class="OCCURRENCE" eid="e15">stemmed</EVENT> from local building methods.
+" The important point is that it is n't generally earthquakes that kill people, " Cross <EVENT class="REPORTING" eid="e16">said</EVENT>.
+" It's generally buildings that kill people.
+Building design is a way to solve that problem. "
+In Pakistan, Article 25 <EVENT class="OCCURRENCE" eid="e18">worked</EVENT> with local craftspeople to determine the best way to <EVENT class="OCCURRENCE" eid="e20">build</EVENT> structures that could withstand quakes and then <EVENT class="I_ACTION" eid="e22">helped</EVENT> train people to <EVENT class="OCCURRENCE" eid="e24">build</EVENT> them.
+" By the time we <EVENT class="OCCURRENCE" eid="e25">built</EVENT> 80 to 100 buildings and we <EVENT class="OCCURRENCE" eid="e26">pulled</EVENT> out, we were <EVENT class="OCCURRENCE" eid="e27">leaving</EVENT> not just buildings, but also a capacity to build, " Cross <EVENT class="REPORTING" eid="e29">said</EVENT>.
+" Each building we <EVENT class="OCCURRENCE" eid="e30">built</EVENT> there was the site of a training exercise for a team of workers -- concrete workers, carpenters, roofers, plasterers, " <EVENT class="REPORTING" eid="e31">said</EVENT> Cross.
+" They have obviously been able to take these skills away.
+In the long run the idea was that we would do ourselves out of a job. "
+Cross <EVENT class="OCCURRENCE" eid="e34">spoke</EVENT> to CNN on <TIMEX3 tid="t2" type="DATE" value="">January 29</TIMEX3>.
+CNN : What is the role of architects in planning the rebuilding of Haiti, based on your experience in Pakistan ?
+Robin Cross : At this point, the focus is rightly on relief, and the provision of water, food and medical care, the basic life support system....
+What we wo n't be doing is clogging up that quite strained delivery system with the bricks and mortar of longer-term reconstruction.
+But there is going to come a point very shortly when minds <EVENT class="OCCURRENCE" eid="e39">need</EVENT> to <EVENT class="OCCURRENCE" eid="e40">turn</EVENT> to longer-term construction planning, and that's where architects and engineers have a role to play.
+Our work in Pakistan <EVENT class="ASPECTUAL" eid="e42">began</EVENT> quite soon after the earthquake.
+But the important factor is that it's still ongoing, that we need to be there for the long run....
+What we were doing there was <EVENT class="OCCURRENCE" eid="e44">working</EVENT> with local NGOs [ non-governmental organizations ], particularly with Muslim Aid, to identify the most vulnerable members of the community who could most benefit from our architectural and design skills, and could n't <EVENT class="OCCURRENCE" eid="e48">afford</EVENT> to buy in their own construction expertise, and would be most marginalized and vulnerable in the future.
+So we <EVENT class="OCCURRENCE" eid="e50">worked</EVENT> with Muslim Aid to <EVENT class="I_ACTION" eid="e51">develop</EVENT> a series of earthquake-resistant buildings which could then be <EVENT class="OCCURRENCE" eid="e52">delivered</EVENT> on a range of different sites.
+We <EVENT class="OCCURRENCE" eid="e53">put</EVENT> people in the field to provide quality assurance, to make sure that the buildings that were <EVENT class="OCCURRENCE" eid="e55">built</EVENT> would be earthquake-resistant.
+After a disaster there's an enormous demand for reconstruction, a demand for materials, designers, particularly builders -- so they will <EVENT class="OCCURRENCE" eid="e56">tend</EVENT> to be drawn very rapidly into high-value commercial work, which could leave less financially strong people without access to building skills.
+That could lead to them building in a poor and unsafe way, so you get into a very dangerous cycle of vulnerability.
+By building the capacity of local work teams to <EVENT class="OCCURRENCE" eid="e62">build</EVENT>, you enable people to build for themselves and break that cycle of vulnerability.
+CNN : What kind of buildings did you <EVENT class="OCCURRENCE" eid="e66">build</EVENT> ?
+Cross : We were intent on providing an earthquake-resistant home design....
+The buildings are a lightweight frame construction, which means they are able to flex in the event of an earthquake.
+We <EVENT class="OCCURRENCE" eid="e69">adopted</EVENT> the dhaji dewari technique, an indigenous technique <EVENT class="I_ACTION" eid="e70">developed</EVENT> out of the materials in that landscape.
+We <EVENT class="OCCURRENCE" eid="e71">adapted</EVENT> it and <EVENT class="OCCURRENCE" eid="e72">improved</EVENT> its details to <EVENT class="OCCURRENCE" eid="e73">make</EVENT> it more earthquake-resistant....
+CNN : How much do these houses cost ?
+Cross : Approximately £ 4,000 [ about $6,300 at <TIMEX3 tid="t3" type="DATE" value="">current</TIMEX3> rates ] per house.
+That compares very well with the equivalent house in concrete block, which would normally be used.
+It is n't just safer than a concrete-block equivalent but it's also more economical and it's quicker to <EVENT class="OCCURRENCE" eid="e76">deliver</EVENT>.
+CNN : What's it <EVENT class="OCCURRENCE" eid="e77">made</EVENT> of ?
+Cross : It's <EVENT class="OCCURRENCE" eid="e78">made</EVENT> of lightweight timber frame with many cross-facing elements, and the gaps between cross-facing elements are <EVENT class="OCCURRENCE" eid="e79">infilled</EVENT> with stones and mud and then <EVENT class="OCCURRENCE" eid="e80">rendered</EVENT> over with mud.
+What that generates is a design which flexes when the earthquake strikes, the energy of the earthquake is <EVENT class="OCCURRENCE" eid="e83">dissipated</EVENT> through the many framing elements of the building, and the energy is <EVENT class="OCCURRENCE" eid="e84">lost</EVENT> in the friction between the timber and the stone infill....
+A concrete-block building which is n't able to flex is more apt to collapse....
+The other thing that's worth mentioning is that the buildings have a lightweight roof.
+In the worst eventuality, if the roof collapses, if it's lightweight, it's much less likely to <EVENT class="OCCURRENCE" eid="e87">kill</EVENT> people....
+CNN : What similarities are there between the building styles in Pakistan and Haiti ?
+Cross : I have n't yet been to Haiti, and we'll be undertaking our first visit as soon as conditions really allow that to happen, which I think will be in <TIMEX3 tid="t4" type="DATE" value="">February or early March</TIMEX3>.
+But what I think we will find is that there will be an equivalent vernacular tradition in Haiti from which we can learn a lot.
+I'm sure the problem that we <EVENT class="PERCEPTION" eid="e93">saw</EVENT> in Pakistan is <EVENT class="OCCURRENCE" eid="e94">shared</EVENT> in Haiti -- in that concrete buildings have been <EVENT class="OCCURRENCE" eid="e95">built</EVENT> poorly, without adequate technical supervision, and have <EVENT class="OCCURRENCE" eid="e96">proved</EVENT> very vulnerable to the earthquake.
+A good architect will never decide at a distance what the right technical approach would be, because it's always important to <EVENT class="OCCURRENCE" eid="e98">understand</EVENT> the location....
+So when we go to Haiti, the first thing we will do will be to carry out participation workshops with the local communities, to carry out a needs assessment but also a skills assessment... so we design the right buildings, appropriate to the materials available and the skills that are present.
+CNN : It's still early, but how do you assess the need in Haiti compared to the need in Pakistan ?
+Cross : All of the information we have at the moment <EVENT class="I_ACTION" eid="e104">suggests</EVENT> that the need is even greater in Haiti.
+In Pakistan, the earthquake did enormous damage, but there was still a strong national government, relatively strong local government and a strong military presence in the Pakistan army with which we could collaborate.
+In Haiti those institutions were already weak and in many cases have been <EVENT class="OCCURRENCE" eid="e106">destroyed</EVENT> by the earthquake.
+The partnerships which we would look to build with local governments may be much harder....
+There's likely to be an even greater role for strong strategic planning and long-term thinking from architects....
+I should say that you should never see Haiti as a blank slate.
+You look at the images, you <EVENT class="I_STATE" eid="e111">think</EVENT> the damage is so great, it's a clean sweep -- but you should never see it as a blank canvas on which to impose a master plan from London or North America.
+There remains in Haiti a social infrastructure, an economic infrastructure, even in the slum areas there's an economically vibrant infrastructure.
+It's those threads of the community infrastructure that we <EVENT class="OCCURRENCE" eid="e114">need</EVENT> to <EVENT class="OCCURRENCE" eid="e115">find</EVENT> and build a new Haiti around.
+So all of our work <EVENT class="ASPECTUAL" eid="e117">starts</EVENT> with community participation and is part of empowering the local community and making sure that what we design is compatible with their objectives....
+One of the big problems immediately after this kind of disaster is the lack of long-term investment.
+The funding for short-term relief is good and is <EVENT class="OCCURRENCE" eid="e120">needed</EVENT>, but very often at the point of about <TIMEX3 tid="t5" type="DURATION" value="">a year</TIMEX3>, that funding just <EVENT class="OCCURRENCE" eid="e121">falls</EVENT> off a cliff.
+That's what I'm <EVENT class="I_STATE" eid="e122">hoping</EVENT> will be improved on in the Haiti response.
+</TEXT>
+<MAKEINSTANCE aspect="NONE" eiid="ei1" eventID="e1" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2" eventID="e2" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei3" eventID="e3" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei4" eventID="e4" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei5" eventID="e5" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei6" eventID="e6" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei7" eventID="e7" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei9" eventID="e9" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei10" eventID="e10" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei12" eventID="e12" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei15" eventID="e15" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei16" eventID="e16" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei18" eventID="e18" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei20" eventID="e20" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei22" eventID="e22" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei24" eventID="e24" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei25" eventID="e25" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei26" eventID="e26" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei27" eventID="e27" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei29" eventID="e29" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei30" eventID="e30" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei31" eventID="e31" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei34" eventID="e34" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei39" eventID="e39" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei40" eventID="e40" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei42" eventID="e42" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei44" eventID="e44" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei48" eventID="e48" polarity="NEG"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50" eventID="e50" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei51" eventID="e51" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei52" eventID="e52" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei53" eventID="e53" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei55" eventID="e55" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei56" eventID="e56" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei62" eventID="e62" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei66" eventID="e66" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei69" eventID="e69" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei70" eventID="e70" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei71" eventID="e71" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei72" eventID="e72" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei73" eventID="e73" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei76" eventID="e76" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei77" eventID="e77" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei78" eventID="e78" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei79" eventID="e79" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei80" eventID="e80" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei83" eventID="e83" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei84" eventID="e84" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei87" eventID="e87" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei93" eventID="e93" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei94" eventID="e94" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei95" eventID="e95" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei96" eventID="e96" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei98" eventID="e98" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei104" eventID="e104" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei106" eventID="e106" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei111" eventID="e111" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei114" eventID="e114" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei115" eventID="e115" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei117" eventID="e117" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei120" eventID="e120" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei121" eventID="e121" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei122" eventID="e122" polarity="POS"  tense="PRESPART" />
+<TLINK eventInstanceID="ei1" lid="l0" relType="BEFORE" relatedToEventInstance="ei2" />
+<TLINK eventInstanceID="ei1" lid="l1" relType="AFTER" relatedToEventInstance="ei3" />
+<TLINK eventInstanceID="ei1" lid="l2" relType="BEFORE" relatedToEventInstance="ei4" />
+<TLINK eventInstanceID="ei1" lid="l3" relType="BEFORE" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei1" lid="l4" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei1" lid="l5" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei1" lid="l6" relType="BEFORE" relatedToEventInstance="ei9" />
+<TLINK eventInstanceID="ei1" lid="l7" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei2" lid="l8" relType="AFTER" relatedToEventInstance="ei3" />
+<TLINK eventInstanceID="ei2" lid="l9" relType="BEFORE" relatedToEventInstance="ei4" />
+<TLINK eventInstanceID="ei2" lid="l10" relType="BEFORE" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei2" lid="l11" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei2" lid="l12" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei2" lid="l13" relType="BEFORE" relatedToEventInstance="ei9" />
+<TLINK eventInstanceID="ei2" lid="l14" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei3" lid="l15" relType="BEFORE" relatedToEventInstance="ei4" />
+<TLINK eventInstanceID="ei3" lid="l16" relType="BEFORE" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei3" lid="l17" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei3" lid="l18" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei3" lid="l19" relType="BEFORE" relatedToEventInstance="ei9" />
+<TLINK eventInstanceID="ei3" lid="l20" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei4" lid="l21" relType="BEFORE" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei4" lid="l22" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei4" lid="l23" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei4" lid="l24" relType="BEFORE" relatedToEventInstance="ei9" />
+<TLINK eventInstanceID="ei4" lid="l25" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei5" lid="l26" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei5" lid="l27" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei5" lid="l28" relType="AFTER" relatedToEventInstance="ei9" />
+<TLINK eventInstanceID="ei5" lid="l29" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei6" lid="l30" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei6" lid="l31" relType="BEFORE" relatedToEventInstance="ei9" />
+<TLINK eventInstanceID="ei6" lid="l32" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei6" lid="l33" relType="BEFORE" relatedToEventInstance="ei12" />
+<TLINK eventInstanceID="ei7" lid="l34" relType="BEFORE" relatedToEventInstance="ei9" />
+<TLINK eventInstanceID="ei7" lid="l35" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei7" lid="l36" relType="BEFORE" relatedToEventInstance="ei12" />
+<TLINK eventInstanceID="ei9" lid="l37" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei9" lid="l38" relType="BEFORE" relatedToEventInstance="ei12" />
+<TLINK eventInstanceID="ei10" lid="l39" relType="BEFORE" relatedToEventInstance="ei12" />
+<TLINK eventInstanceID="ei12" lid="l40" relType="AFTER" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei15" lid="l41" relType="BEFORE" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei18" lid="l42" relType="BEFORE" relatedToEventInstance="ei20" />
+<TLINK eventInstanceID="ei18" lid="l43" relType="BEFORE" relatedToEventInstance="ei22" />
+<TLINK eventInstanceID="ei18" lid="l44" relType="BEFORE" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei18" lid="l45" relType="BEFORE" relatedToEventInstance="ei25" />
+<TLINK eventInstanceID="ei18" lid="l46" relType="BEFORE" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei18" lid="l47" relType="BEFORE" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei18" lid="l48" relType="BEFORE" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei20" lid="l49" relType="BEFORE" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei20" lid="l50" relType="BEFORE" relatedToEventInstance="ei25" />
+<TLINK eventInstanceID="ei20" lid="l51" relType="BEFORE" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei20" lid="l52" relType="BEFORE" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei20" lid="l53" relType="BEFORE" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei22" lid="l54" relType="BEFORE" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei22" lid="l55" relType="BEFORE" relatedToEventInstance="ei25" />
+<TLINK eventInstanceID="ei22" lid="l56" relType="BEFORE" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei22" lid="l57" relType="BEFORE" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei22" lid="l58" relType="BEFORE" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei24" lid="l59" relType="BEFORE" relatedToEventInstance="ei25" />
+<TLINK eventInstanceID="ei24" lid="l60" relType="BEFORE" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei24" lid="l61" relType="BEFORE" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei24" lid="l62" relType="BEFORE" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei25" lid="l63" relType="BEFORE" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei25" lid="l64" relType="BEFORE" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei25" lid="l65" relType="BEFORE" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei25" lid="l66" relType="BEFORE" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei26" lid="l67" relType="BEFORE" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei26" lid="l68" relType="BEFORE" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei26" lid="l69" relType="AFTER" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei26" lid="l70" relType="BEFORE" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei27" lid="l71" relType="BEFORE" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei27" lid="l72" relType="AFTER" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei27" lid="l73" relType="BEFORE" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei29" lid="l74" relType="AFTER" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei29" lid="l75" relType="BEFORE" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei30" lid="l76" relType="BEFORE" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei39" lid="l77" relType="BEFORE" relatedToEventInstance="ei40" />
+<TLINK eventInstanceID="ei39" lid="l78" relType="AFTER" relatedToEventInstance="ei42" />
+<TLINK eventInstanceID="ei40" lid="l79" relType="AFTER" relatedToEventInstance="ei42" />
+<TLINK eventInstanceID="ei44" lid="l80" relType="AFTER" relatedToEventInstance="ei48" />
+<TLINK eventInstanceID="ei44" lid="l81" relType="BEFORE" relatedToEventInstance="ei50" />
+<TLINK eventInstanceID="ei44" lid="l82" relType="BEFORE" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei44" lid="l83" relType="BEFORE" relatedToEventInstance="ei52" />
+<TLINK eventInstanceID="ei48" lid="l84" relType="AFTER" relatedToEventInstance="ei50" />
+<TLINK eventInstanceID="ei48" lid="l85" relType="BEFORE" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei48" lid="l86" relType="BEFORE" relatedToEventInstance="ei52" />
+<TLINK eventInstanceID="ei50" lid="l87" relType="BEFORE" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei50" lid="l88" relType="BEFORE" relatedToEventInstance="ei52" />
+<TLINK eventInstanceID="ei50" lid="l89" relType="BEFORE" relatedToEventInstance="ei53" />
+<TLINK eventInstanceID="ei50" lid="l90" relType="BEFORE" relatedToEventInstance="ei55" />
+<TLINK eventInstanceID="ei51" lid="l91" relType="BEFORE" relatedToEventInstance="ei52" />
+<TLINK eventInstanceID="ei51" lid="l92" relType="BEFORE" relatedToEventInstance="ei53" />
+<TLINK eventInstanceID="ei51" lid="l93" relType="BEFORE" relatedToEventInstance="ei55" />
+<TLINK eventInstanceID="ei52" lid="l94" relType="BEFORE" relatedToEventInstance="ei53" />
+<TLINK eventInstanceID="ei52" lid="l95" relType="AFTER" relatedToEventInstance="ei55" />
+<TLINK eventInstanceID="ei53" lid="l96" relType="AFTER" relatedToEventInstance="ei55" />
+<TLINK eventInstanceID="ei53" lid="l97" relType="BEFORE" relatedToEventInstance="ei56" />
+<TLINK eventInstanceID="ei55" lid="l98" relType="BEFORE" relatedToEventInstance="ei56" />
+<TLINK eventInstanceID="ei69" lid="l99" relType="AFTER" relatedToEventInstance="ei70" />
+<TLINK eventInstanceID="ei69" lid="l100" relType="BEFORE" relatedToEventInstance="ei71" />
+<TLINK eventInstanceID="ei69" lid="l101" relType="BEFORE" relatedToEventInstance="ei72" />
+<TLINK eventInstanceID="ei69" lid="l102" relType="BEFORE" relatedToEventInstance="ei73" />
+<TLINK eventInstanceID="ei70" lid="l103" relType="BEFORE" relatedToEventInstance="ei71" />
+<TLINK eventInstanceID="ei70" lid="l104" relType="BEFORE" relatedToEventInstance="ei72" />
+<TLINK eventInstanceID="ei70" lid="l105" relType="BEFORE" relatedToEventInstance="ei73" />
+<TLINK eventInstanceID="ei71" lid="l106" relType="BEFORE" relatedToEventInstance="ei72" />
+<TLINK eventInstanceID="ei71" lid="l107" relType="BEFORE" relatedToEventInstance="ei73" />
+<TLINK eventInstanceID="ei72" lid="l108" relType="BEFORE" relatedToEventInstance="ei73" />
+<TLINK eventInstanceID="ei76" lid="l109" relType="AFTER" relatedToEventInstance="ei77" />
+<TLINK eventInstanceID="ei77" lid="l110" relType="AFTER" relatedToEventInstance="ei78" />
+<TLINK eventInstanceID="ei77" lid="l111" relType="BEFORE" relatedToEventInstance="ei79" />
+<TLINK eventInstanceID="ei77" lid="l112" relType="AFTER" relatedToEventInstance="ei80" />
+<TLINK eventInstanceID="ei78" lid="l113" relType="BEFORE" relatedToEventInstance="ei79" />
+<TLINK eventInstanceID="ei78" lid="l114" relType="BEFORE" relatedToEventInstance="ei80" />
+<TLINK eventInstanceID="ei78" lid="l115" relType="BEFORE" relatedToEventInstance="ei83" />
+<TLINK eventInstanceID="ei78" lid="l116" relType="BEFORE" relatedToEventInstance="ei84" />
+<TLINK eventInstanceID="ei79" lid="l117" relType="BEFORE" relatedToEventInstance="ei80" />
+<TLINK eventInstanceID="ei79" lid="l118" relType="BEFORE" relatedToEventInstance="ei83" />
+<TLINK eventInstanceID="ei79" lid="l119" relType="BEFORE" relatedToEventInstance="ei84" />
+<TLINK eventInstanceID="ei80" lid="l120" relType="BEFORE" relatedToEventInstance="ei83" />
+<TLINK eventInstanceID="ei80" lid="l121" relType="BEFORE" relatedToEventInstance="ei84" />
+<TLINK eventInstanceID="ei83" lid="l122" relType="BEFORE" relatedToEventInstance="ei84" />
+<TLINK eventInstanceID="ei93" lid="l123" relType="BEFORE" relatedToEventInstance="ei94" />
+<TLINK eventInstanceID="ei93" lid="l124" relType="AFTER" relatedToEventInstance="ei95" />
+<TLINK eventInstanceID="ei93" lid="l125" relType="AFTER" relatedToEventInstance="ei96" />
+<TLINK eventInstanceID="ei93" lid="l126" relType="BEFORE" relatedToEventInstance="ei98" />
+<TLINK eventInstanceID="ei94" lid="l127" relType="AFTER" relatedToEventInstance="ei95" />
+<TLINK eventInstanceID="ei94" lid="l128" relType="AFTER" relatedToEventInstance="ei96" />
+<TLINK eventInstanceID="ei94" lid="l129" relType="BEFORE" relatedToEventInstance="ei98" />
+<TLINK eventInstanceID="ei95" lid="l130" relType="BEFORE" relatedToEventInstance="ei96" />
+<TLINK eventInstanceID="ei95" lid="l131" relType="BEFORE" relatedToEventInstance="ei98" />
+<TLINK eventInstanceID="ei96" lid="l132" relType="BEFORE" relatedToEventInstance="ei98" />
+<TLINK eventInstanceID="ei114" lid="l133" relType="BEFORE" relatedToEventInstance="ei115" />
+<TLINK eventInstanceID="ei114" lid="l134" relType="BEFORE" relatedToEventInstance="ei117" />
+<TLINK eventInstanceID="ei115" lid="l135" relType="BEFORE" relatedToEventInstance="ei117" />
+<TLINK eventInstanceID="ei120" lid="l136" relType="BEFORE" relatedToEventInstance="ei122" />
+<TLINK eventInstanceID="ei121" lid="l137" relType="BEFORE" relatedToEventInstance="ei122" />
+<TLINK eventInstanceID="ei4" lid="l138" relType="BEFORE" relatedToTime="t1" />
+<TLINK eventInstanceID="ei5" lid="l139" relType="AFTER" relatedToTime="t1" />
+<TLINK timeID="t1" lid="l140" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK timeID="t1" lid="l141" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK timeID="t1" lid="l142" relType="BEFORE" relatedToEventInstance="ei9" />
+<TLINK timeID="t1" lid="l143" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei34" lid="l144" relType="AFTER" relatedToTime="t2" />
+<TLINK eventInstanceID="ei3" lid="l145" relType="BEFORE" relatedToTime="t1" />
+<TLINK eventInstanceID="ei1" lid="l146" relType="AFTER" relatedToTime="t1" />
+
+</TimeML>

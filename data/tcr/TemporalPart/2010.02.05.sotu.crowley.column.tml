@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>2010.02.05.sotu.crowley.column</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="2010-02-05" temporalFunction="false" functionInDocument="CREATION_TIME">2010-02-05</TIMEX3></DCT>
+<TEXT>
+On CNN's " State of the Union, " host and CNN senior political correspondent Candy Crowley talks to newsmakers and analyzes <TIMEX3 tid="t1" type="DURATION" value="">the week</TIMEX3>'s most important issues.
+As she <EVENT class="OCCURRENCE" eid="e1">prepares</EVENT> to <EVENT class="OCCURRENCE" eid="e2">host</EVENT> her first show, Crowley <EVENT class="OCCURRENCE" eid="e3">writes</EVENT> on what viewers should expect.
+I've been <EVENT class="OCCURRENCE" eid="e5">asked</EVENT> a lot of questions since the announcement that I will <EVENT class="OCCURRENCE" eid="e6">take</EVENT> over as anchor of CNN's " State of the Union. "
+Q : How did you manage a career while <EVENT class="OCCURRENCE" eid="e8">raising</EVENT> two boys as a single mother ?
+I did it like millions and millions of other parents who play the minute-by-minute juggling act : not perfectly, but I <EVENT class="OCCURRENCE" eid="e11">loved</EVENT> them above all else and did the best I <EVENT class="OCCURRENCE" eid="e13">knew</EVENT> how.
+Q : Where did you <EVENT class="OCCURRENCE" eid="e14">grow</EVENT> up ?
+Michigan and Missouri.
+Q : Will you miss the political campaign trail ?
+No, because I am a reporter through and through.
+I'll be on the campaign trail.
+You can anchor and be on the road at the same time, especially if your children are all grown up.
+Q : Were you <EVENT class="I_STATE" eid="e19">expecting</EVENT> to get this ?
+Absolutely not.
+Q : How will your show be different than ( former anchor ) John King's ?
+I do n't know.
+I know it will <EVENT class="OCCURRENCE" eid="e23">change</EVENT>, but for <TIMEX3 tid="t2" type="DATE" value="2010-02-05">now</TIMEX3> we are a work in progress.
+There is a wonderful staff at " State of the Union " and they will carry me through while we figure things out.
+The first thing I <EVENT class="OCCURRENCE" eid="e25">asked</EVENT> was that they help me write this column and give me a list to answer this question.
+Things that viewers should expect of us : • Compelling guests with diverse opinions. • Thoughtful, smart conversation that matters. • A refusal to accept talking points. • Challenging, relevant questions from Candy's <TIMEX3 tid="t3" type="DURATION" value="">25 years</TIMEX3> as a reporter. • A look at the absurdities ( and the fun ) of politics. • Analysts and reporters to decode Washington D.C. • The view from where our audience lives, beyond the " Beltway." • More knowledge and understanding of issues. • Have fun ( we and you ).
+My first and only guest <TIMEX3 tid="t4" type="DATE" value="2010-02-05">this week</TIMEX3> : Secretary of State Hillary Clinton on the biggest threats to Americans, and whether she really <EVENT class="I_STATE" eid="e34">thinks</EVENT> the current Afghan government can <EVENT class="OCCURRENCE" eid="e35">pull</EVENT> it together so U.S. troops can <EVENT class="OCCURRENCE" eid="e36">come</EVENT> home.
+Oh, and the secretary of state is <EVENT class="I_ACTION" eid="e37">looking</EVENT> for a mother-of-the-bride dress.
+No one escapes the juggling act.
+</TEXT>
+<MAKEINSTANCE aspect="NONE" eiid="ei1" eventID="e1" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2" eventID="e2" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei3" eventID="e3" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei5" eventID="e5" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei6" eventID="e6" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei8" eventID="e8" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei11" eventID="e11" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei13" eventID="e13" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei14" eventID="e14" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei19" eventID="e19" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei23" eventID="e23" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei25" eventID="e25" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei34" eventID="e34" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei35" eventID="e35" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei36" eventID="e36" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei37" eventID="e37" polarity="POS"  tense="PRESENT" />
+<TLINK eventInstanceID="ei1" lid="l0" relType="BEFORE" relatedToEventInstance="ei2" />
+<TLINK eventInstanceID="ei1" lid="l1" relType="AFTER" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei1" lid="l2" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei2" lid="l3" relType="AFTER" relatedToEventInstance="ei3" />
+<TLINK eventInstanceID="ei2" lid="l4" relType="AFTER" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei2" lid="l5" relType="AFTER" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei3" lid="l6" relType="AFTER" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei3" lid="l7" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei5" lid="l8" relType="AFTER" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei5" lid="l9" relType="AFTER" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei6" lid="l10" relType="AFTER" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei8" lid="l11" relType="AFTER" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei11" lid="l12" relType="AFTER" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei13" lid="l13" relType="AFTER" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei34" lid="l14" relType="BEFORE" relatedToEventInstance="ei35" />
+<TLINK eventInstanceID="ei34" lid="l15" relType="BEFORE" relatedToEventInstance="ei36" />
+<TLINK eventInstanceID="ei34" lid="l16" relType="BEFORE" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei35" lid="l17" relType="BEFORE" relatedToEventInstance="ei36" />
+<TLINK eventInstanceID="ei35" lid="l18" relType="BEFORE" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei36" lid="l19" relType="BEFORE" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei23" lid="l20" relType="AFTER" relatedToTime="t2" />
+<TLINK eventInstanceID="ei36" lid="l21" relType="AFTER" relatedToTime="t4" />
+<TLINK eventInstanceID="ei34" lid="l22" relType="AFTER" relatedToTime="t4" />
+<TLINK timeID="t4" lid="l23" relType="BEFORE" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei35" lid="l24" relType="AFTER" relatedToTime="t4" />
+
+</TimeML>

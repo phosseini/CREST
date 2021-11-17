@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>2010.01.08.facebook.bra.color</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="2010-01-08" temporalFunction="false" functionInDocument="CREATION_TIME">2010-01-08</TIMEX3></DCT>
+<TEXT>
+Facebook <EVENT class="OCCURRENCE" eid="e1">took</EVENT> a colorful turn <TIMEX3 tid="t1" type="DATE" value="">this week</TIMEX3>, when its female users <EVENT class="ASPECTUAL" eid="e2">began</EVENT> <EVENT class="OCCURRENCE" eid="e3">posting</EVENT> cryptic status updates.
+" Beige, " " sexy black and gold, " " crimson red, " " turquoise, " " nude with a lot of padding, " <EVENT class="OCCURRENCE" eid="e5">read</EVENT> some.
+The color scheme has <EVENT class="OCCURRENCE" eid="e6">left</EVENT> male users <EVENT class="OCCURRENCE" eid="e7">scratching</EVENT> their heads and <EVENT class="OCCURRENCE" eid="e8">asking</EVENT> " Huh ? "
+So, what is behind the trend ?
+It's all part of an effort to raise awareness for breast cancer by asking women to post the color of the bra they're <EVENT class="OCCURRENCE" eid="e12">wearing</EVENT>.
+Female Facebookers <EVENT class="ASPECTUAL" eid="e13">started</EVENT> <EVENT class="I_ACTION" eid="e14">catching</EVENT> on <TIMEX3 tid="t2" type="DATE" value="">this week</TIMEX3> as a message <EVENT class="OCCURRENCE" eid="e15">made</EVENT> its rounds through the inboxes of the social media network.
+" We are <EVENT class="OCCURRENCE" eid="e16">playing</EVENT> a game for Breast Cancer Awareness, " one form of the message read.
+" Write the color of your bra as your status -- just the color, nothing else !!
+Copy this and pass it on to all girls -- NO MEN !!
+This will be fun to see how it spreads. "
+By <TIMEX3 tid="t3" type="DATE" value="">Friday</TIMEX3>, all the colors of the Victoria's Secret rainbow were present in users' news feeds when they <EVENT class="OCCURRENCE" eid="e23">logged</EVENT> in.
+A spokeswoman for Facebook <EVENT class="REPORTING" eid="e24">said</EVENT> it's not clear where or how the message <EVENT class="ASPECTUAL" eid="e25">started</EVENT>, <EVENT class="I_ACTION" eid="e26">calling</EVENT> it an example of a grass-roots movement beginning on the social networking site.
+" What is particularly unique about this grass-roots campaign is that it seems to have been <EVENT class="ASPECTUAL" eid="e27">started</EVENT> by a user or group of users, as <EVENT class="OCCURRENCE" eid="e28">opposed</EVENT> to an official entity, and <EVENT class="OCCURRENCE" eid="e29">spread</EVENT> virally throughout Facebook, " Facebook's Malorie Lucich <EVENT class="REPORTING" eid="e30">said</EVENT>.
+" It's an ideal example of how an individual voice can be <EVENT class="OCCURRENCE" eid="e31">magnified</EVENT> to create awareness for a good cause and ignite action among millions by <EVENT class="OCCURRENCE" eid="e34">using</EVENT> a site like Facebook. "
+Breast cancer groups say they are happy that the disease, which <EVENT class="OCCURRENCE" eid="e36">affects</EVENT> more than 200,000 women in the United States <TIMEX3 tid="t4" type="DURATION" value="">a year</TIMEX3>, is <EVENT class="OCCURRENCE" eid="e37">getting</EVENT> attention.
+" It's not one of our campaigns, but we're all for it, " <EVENT class="REPORTING" eid="e38">said</EVENT> Andrea Rader, a spokeswoman for Susan G. Komen for the Cure.
+" Just about anything that <EVENT class="OCCURRENCE" eid="e39">raises</EVENT> this issue in a positive, fun way is just terrific. "
+Lucich <EVENT class="REPORTING" eid="e40">said</EVENT> hundreds, if not thousands, of users were <EVENT class="OCCURRENCE" eid="e41">posting</EVENT> their color choices directly to the Susan G. Komen and Breast Cancer Awareness Facebook pages.
+Rader <EVENT class="OCCURRENCE" eid="e42">encouraged</EVENT> women to take the trend one step further by visiting the Komen Web site and getting more information about ways to <EVENT class="OCCURRENCE" eid="e46">raise</EVENT> awareness.
+Meanwhile, some tech blogs were <EVENT class="I_ACTION" eid="e47">calling</EVENT> the color string the new " 25 Things, " a meme -- Internet speak for a concept or catchphrase that spreads quickly on the Web -- that <EVENT class="OCCURRENCE" eid="e52">went</EVENT> viral in early <TIMEX3 tid="t5" type="DATE" value="">2009</TIMEX3>.
+Users were <EVENT class="OCCURRENCE" eid="e53">asked</EVENT> to <EVENT class="OCCURRENCE" eid="e54">post</EVENT> notes with random tidbits about themselves and then " tag " other users to do the same.
+The " 25 Things " note was virtually unavoidable for <TIMEX3 tid="t6" type="DURATION" value="">a three-week period</TIMEX3> as users <EVENT class="OCCURRENCE" eid="e57">passed</EVENT> it on, sort of like <TIMEX3 tid="t7" type="DURATION" value="">a modern-day</TIMEX3> chain letter.
+It's unclear whether the color meme will have the same popularity if half of Facebook's 350 million active users ca n't participate.
+</TEXT>
+<MAKEINSTANCE aspect="NONE" eiid="ei1" eventID="e1" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2" eventID="e2" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei3" eventID="e3" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei5" eventID="e5" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei6" eventID="e6" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei7" eventID="e7" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei8" eventID="e8" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei12" eventID="e12" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei13" eventID="e13" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei14" eventID="e14" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei15" eventID="e15" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei16" eventID="e16" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei23" eventID="e23" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei24" eventID="e24" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei25" eventID="e25" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei26" eventID="e26" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei27" eventID="e27" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei28" eventID="e28" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei29" eventID="e29" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei30" eventID="e30" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei31" eventID="e31" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei34" eventID="e34" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei36" eventID="e36" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei37" eventID="e37" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei38" eventID="e38" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei39" eventID="e39" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei40" eventID="e40" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei41" eventID="e41" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei42" eventID="e42" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei46" eventID="e46" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei47" eventID="e47" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei52" eventID="e52" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei53" eventID="e53" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei54" eventID="e54" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei57" eventID="e57" polarity="POS"  tense="PAST" />
+<TLINK eventInstanceID="ei1" lid="l0" relType="AFTER" relatedToEventInstance="ei2" />
+<TLINK eventInstanceID="ei1" lid="l1" relType="AFTER" relatedToEventInstance="ei3" />
+<TLINK eventInstanceID="ei1" lid="l2" relType="BEFORE" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei2" lid="l3" relType="BEFORE" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei3" lid="l4" relType="BEFORE" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei5" lid="l5" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei5" lid="l6" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei5" lid="l7" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei6" lid="l8" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei6" lid="l9" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei7" lid="l10" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei12" lid="l11" relType="BEFORE" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei12" lid="l12" relType="BEFORE" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei12" lid="l13" relType="BEFORE" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei13" lid="l14" relType="BEFORE" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei13" lid="l15" relType="AFTER" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei13" lid="l16" relType="AFTER" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei14" lid="l17" relType="AFTER" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei14" lid="l18" relType="BEFORE" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei15" lid="l19" relType="AFTER" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei23" lid="l20" relType="BEFORE" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei23" lid="l21" relType="BEFORE" relatedToEventInstance="ei25" />
+<TLINK eventInstanceID="ei23" lid="l22" relType="BEFORE" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei24" lid="l23" relType="AFTER" relatedToEventInstance="ei25" />
+<TLINK eventInstanceID="ei24" lid="l24" relType="BEFORE" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei24" lid="l25" relType="AFTER" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei24" lid="l26" relType="AFTER" relatedToEventInstance="ei28" />
+<TLINK eventInstanceID="ei24" lid="l27" relType="AFTER" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei24" lid="l28" relType="BEFORE" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei25" lid="l29" relType="BEFORE" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei25" lid="l30" relType="BEFORE" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei25" lid="l31" relType="BEFORE" relatedToEventInstance="ei28" />
+<TLINK eventInstanceID="ei25" lid="l32" relType="BEFORE" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei25" lid="l33" relType="BEFORE" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei26" lid="l34" relType="BEFORE" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei26" lid="l35" relType="BEFORE" relatedToEventInstance="ei28" />
+<TLINK eventInstanceID="ei26" lid="l36" relType="AFTER" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei26" lid="l37" relType="BEFORE" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei27" lid="l38" relType="BEFORE" relatedToEventInstance="ei28" />
+<TLINK eventInstanceID="ei27" lid="l39" relType="BEFORE" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei27" lid="l40" relType="BEFORE" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei27" lid="l41" relType="BEFORE" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei27" lid="l42" relType="BEFORE" relatedToEventInstance="ei34" />
+<TLINK eventInstanceID="ei28" lid="l43" relType="BEFORE" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei28" lid="l44" relType="BEFORE" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei28" lid="l45" relType="BEFORE" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei28" lid="l46" relType="AFTER" relatedToEventInstance="ei34" />
+<TLINK eventInstanceID="ei29" lid="l47" relType="BEFORE" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei29" lid="l48" relType="BEFORE" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei30" lid="l49" relType="AFTER" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei30" lid="l50" relType="AFTER" relatedToEventInstance="ei34" />
+<TLINK eventInstanceID="ei31" lid="l51" relType="AFTER" relatedToEventInstance="ei34" />
+<TLINK eventInstanceID="ei31" lid="l52" relType="AFTER" relatedToEventInstance="ei36" />
+<TLINK eventInstanceID="ei31" lid="l53" relType="BEFORE" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei34" lid="l54" relType="AFTER" relatedToEventInstance="ei36" />
+<TLINK eventInstanceID="ei34" lid="l55" relType="BEFORE" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei36" lid="l56" relType="BEFORE" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei36" lid="l57" relType="BEFORE" relatedToEventInstance="ei38" />
+<TLINK eventInstanceID="ei37" lid="l58" relType="BEFORE" relatedToEventInstance="ei38" />
+<TLINK eventInstanceID="ei38" lid="l59" relType="BEFORE" relatedToEventInstance="ei39" />
+<TLINK eventInstanceID="ei39" lid="l60" relType="BEFORE" relatedToEventInstance="ei40" />
+<TLINK eventInstanceID="ei39" lid="l61" relType="AFTER" relatedToEventInstance="ei41" />
+<TLINK eventInstanceID="ei40" lid="l62" relType="AFTER" relatedToEventInstance="ei41" />
+<TLINK eventInstanceID="ei40" lid="l63" relType="AFTER" relatedToEventInstance="ei42" />
+<TLINK eventInstanceID="ei40" lid="l64" relType="AFTER" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei41" lid="l65" relType="BEFORE" relatedToEventInstance="ei42" />
+<TLINK eventInstanceID="ei41" lid="l66" relType="BEFORE" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei42" lid="l67" relType="BEFORE" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei42" lid="l68" relType="BEFORE" relatedToEventInstance="ei47" />
+<TLINK eventInstanceID="ei42" lid="l69" relType="AFTER" relatedToEventInstance="ei52" />
+<TLINK eventInstanceID="ei46" lid="l70" relType="AFTER" relatedToEventInstance="ei47" />
+<TLINK eventInstanceID="ei46" lid="l71" relType="AFTER" relatedToEventInstance="ei52" />
+<TLINK eventInstanceID="ei47" lid="l72" relType="AFTER" relatedToEventInstance="ei52" />
+<TLINK eventInstanceID="ei47" lid="l73" relType="BEFORE" relatedToEventInstance="ei54" />
+<TLINK eventInstanceID="ei52" lid="l74" relType="BEFORE" relatedToEventInstance="ei53" />
+<TLINK eventInstanceID="ei52" lid="l75" relType="BEFORE" relatedToEventInstance="ei54" />
+<TLINK eventInstanceID="ei53" lid="l76" relType="BEFORE" relatedToEventInstance="ei54" />
+<TLINK eventInstanceID="ei53" lid="l77" relType="BEFORE" relatedToEventInstance="ei57" />
+<TLINK eventInstanceID="ei54" lid="l78" relType="BEFORE" relatedToEventInstance="ei57" />
+<TLINK eventInstanceID="ei52" lid="l79" relType="AFTER" relatedToTime="t5" />
+<TLINK eventInstanceID="ei23" lid="l80" relType="AFTER" relatedToTime="t3" />
+<TLINK eventInstanceID="ei46" lid="l81" relType="AFTER" relatedToTime="t5" />
+<TLINK eventInstanceID="ei14" lid="l82" relType="AFTER" relatedToTime="t2" />
+<TLINK timeID="t1" lid="l83" relType="AFTER" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei15" lid="l84" relType="BEFORE" relatedToTime="t2" />
+<TLINK eventInstanceID="ei2" lid="l85" relType="AFTER" relatedToTime="t1" />
+<TLINK eventInstanceID="ei12" lid="l86" relType="BEFORE" relatedToTime="t2" />
+<TLINK timeID="t5" lid="l87" relType="BEFORE" relatedToEventInstance="ei54" />
+<TLINK eventInstanceID="ei3" lid="l88" relType="AFTER" relatedToTime="t1" />
+<TLINK timeID="t5" lid="l89" relType="BEFORE" relatedToEventInstance="ei53" />
+<TLINK eventInstanceID="ei42" lid="l90" relType="AFTER" relatedToTime="t5" />
+<TLINK eventInstanceID="ei13" lid="l91" relType="BEFORE" relatedToTime="t2" />
+<TLINK timeID="t2" lid="l92" relType="BEFORE" relatedToEventInstance="ei16" />
+<TLINK timeID="t3" lid="l93" relType="BEFORE" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei1" lid="l94" relType="BEFORE" relatedToTime="t1" />
+<TLINK timeID="t3" lid="l95" relType="AFTER" relatedToEventInstance="ei25" />
+<TLINK timeID="t3" lid="l96" relType="BEFORE" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei47" lid="l97" relType="AFTER" relatedToTime="t5" />
+
+</TimeML>

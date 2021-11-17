@@ -1,0 +1,170 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>2010.03.02.health.care</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="2010-03-02" temporalFunction="false" functionInDocument="CREATION_TIME">2010-03-02</TIMEX3></DCT>
+<TEXT>
+President Obama <EVENT class="OCCURRENCE" eid="e1">extended</EVENT> a bipartisan olive branch to GOP leaders in the health care debate <TIMEX3 tid="t1" type="DATE" value="">Tuesday</TIMEX3>, <EVENT class="I_ACTION" eid="e2">stating</EVENT> in a letter that he is willing to consider several of their ideas in a compromise plan.
+Specifically, the president said he may be willing to : • Commit $50 million to fund state initiatives designed to reduce medical malpractice costs • Allow undercover investigations of health care providers receiving Medicare, Medicaid and other federal programs • Boost Medicaid reimbursements to doctors in certain states • Include language in the final bill ensuring certain high-deductible health plans can be offered in the health exchange The president said his decision to consider the GOP ideas was a result of <TIMEX3 tid="t2" type="DATE" value="">last week</TIMEX3>'s health care summit.
+" The meeting was a good opportunity to move past the usual rhetoric and sound bites that have <EVENT class="OCCURRENCE" eid="e16">come</EVENT> to characterize this debate and <EVENT class="OCCURRENCE" eid="e18">identify</EVENT> areas on which we agree and <EVENT class="OCCURRENCE" eid="e19">disagree</EVENT>, " he <EVENT class="OCCURRENCE" eid="e20">wrote</EVENT>.
+" I <EVENT class="OCCURRENCE" eid="e21">left</EVENT> <EVENT class="OCCURRENCE" eid="e22">convinced</EVENT> that the Republican and Democratic approaches to health care have more in common than most people think. "
+GOP leaders were unsatisfied with Obama's concessions.
+Senate Minority Leader Mitch McConnell, R-Kentucky, <EVENT class="REPORTING" eid="e23">said</EVENT> the president's ideas were little more than a few items " inadequately <EVENT class="OCCURRENCE" eid="e24">addressed</EVENT> in a 2,700-page bill. "
+McConnell <EVENT class="OCCURRENCE" eid="e25">repeated</EVENT> GOP calls for Congress to re-start deliberations from scratch.
+" If the majority manages to jam this [ bill ] through... it will be the issue in every single race in America <TIMEX3 tid="t3" type="DATE" value="">this fall</TIMEX3>, " he <EVENT class="I_ACTION" eid="e30">promised</EVENT>.
+Obama is <EVENT class="OCCURRENCE" eid="e31">set</EVENT> to lay out a political road map for passage of sweeping health care legislation on <TIMEX3 tid="t4" type="DATE" value="">Wednesday</TIMEX3>, according to White House Press Secretary Robert Gibbs.
+Among other things, Obama is expected to advocate for an " up or down vote " in Congress if necessary, Gibbs <EVENT class="REPORTING" eid="e37">said</EVENT> <TIMEX3 tid="t5" type="DATE" value="">Monday</TIMEX3>.
+Multiple Democratic sources have <EVENT class="REPORTING" eid="e38">said</EVENT> the emerging consensus plan is for the House of Representatives to pass the Senate bill and <EVENT class="OCCURRENCE" eid="e40">send</EVENT> it to Obama.
+A package of changes that mirror the president's plan would then be passed through both chambers under reconciliation rules, which require only 51 votes in the Senate.
+Democrats <EVENT class="OCCURRENCE" eid="e42">lost</EVENT> their 60-vote, filibuster-proof Senate majority in <TIMEX3 tid="t6" type="DATE" value="">January</TIMEX3>, when GOP Sen. Scott Brown <EVENT class="OCCURRENCE" eid="e43">won</EVENT> the Massachusetts Senate seat previously <EVENT class="OCCURRENCE" eid="e44">held</EVENT> by the late Sen. Ted Kennedy, a Democrat.
+Observers note, however, that it remains unclear exactly which health care provisions can be <EVENT class="OCCURRENCE" eid="e45">approved</EVENT> under reconciliation, which is <EVENT class="OCCURRENCE" eid="e46">reserved</EVENT> for legislation <EVENT class="OCCURRENCE" eid="e47">pertaining</EVENT> to the budget.
+Republicans have angrily <EVENT class="OCCURRENCE" eid="e48">criticized</EVENT> the Democrats' potential use of reconciliation, <EVENT class="OCCURRENCE" eid="e49">arguing</EVENT> that the maneuver was never <EVENT class="I_ACTION" eid="e50">intended</EVENT> to be <EVENT class="OCCURRENCE" eid="e51">used</EVENT> for major policy overhauls along the lines of the health care bill.
+Democrats should " think twice " about using reconciliation, New Hampshire GOP Sen. Judd Gregg <EVENT class="I_ACTION" eid="e55">warned</EVENT> <TIMEX3 tid="t7" type="DATE" value="">Tuesday</TIMEX3>.
+Obama's midweek remarks will also <EVENT class="I_ACTION" eid="e56">deal</EVENT> with the substance of health care reform, Gibbs <EVENT class="REPORTING" eid="e57">said</EVENT>.
+White House aides <EVENT class="REPORTING" eid="e58">said</EVENT> the president's speech will largely <EVENT class="OCCURRENCE" eid="e59">mirror</EVENT> the nearly $1 trillion compromise package he <EVENT class="OCCURRENCE" eid="e60">laid</EVENT> out <TIMEX3 tid="t8" type="DURATION" value="">one week</TIMEX3> ago.
+It may, however, be <EVENT class="OCCURRENCE" eid="e61">scaled</EVENT> back in some aspects, they <EVENT class="REPORTING" eid="e62">said</EVENT>.
+CNN's Suzanne Malveaux <EVENT class="OCCURRENCE" eid="e63">contributed</EVENT> to this report.
+</TEXT>
+<MAKEINSTANCE aspect="NONE" eiid="ei1" eventID="e1" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2" eventID="e2" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei16" eventID="e16" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei18" eventID="e18" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei19" eventID="e19" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei20" eventID="e20" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei21" eventID="e21" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei22" eventID="e22" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei23" eventID="e23" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei24" eventID="e24" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei25" eventID="e25" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei30" eventID="e30" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei31" eventID="e31" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei37" eventID="e37" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei38" eventID="e38" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei40" eventID="e40" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei42" eventID="e42" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei43" eventID="e43" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei44" eventID="e44" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei45" eventID="e45" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei46" eventID="e46" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei47" eventID="e47" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei48" eventID="e48" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei49" eventID="e49" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50" eventID="e50" polarity="NEG"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei51" eventID="e51" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei55" eventID="e55" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei56" eventID="e56" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei57" eventID="e57" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei58" eventID="e58" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei59" eventID="e59" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei60" eventID="e60" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei61" eventID="e61" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei62" eventID="e62" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei63" eventID="e63" polarity="POS"  tense="PAST" />
+<TLINK eventInstanceID="ei1" lid="l0" relType="BEFORE" relatedToEventInstance="ei2" />
+<TLINK eventInstanceID="ei16" lid="l1" relType="BEFORE" relatedToEventInstance="ei18" />
+<TLINK eventInstanceID="ei16" lid="l2" relType="BEFORE" relatedToEventInstance="ei19" />
+<TLINK eventInstanceID="ei16" lid="l3" relType="BEFORE" relatedToEventInstance="ei20" />
+<TLINK eventInstanceID="ei16" lid="l4" relType="BEFORE" relatedToEventInstance="ei21" />
+<TLINK eventInstanceID="ei16" lid="l5" relType="BEFORE" relatedToEventInstance="ei22" />
+<TLINK eventInstanceID="ei18" lid="l6" relType="BEFORE" relatedToEventInstance="ei19" />
+<TLINK eventInstanceID="ei18" lid="l7" relType="BEFORE" relatedToEventInstance="ei20" />
+<TLINK eventInstanceID="ei18" lid="l8" relType="BEFORE" relatedToEventInstance="ei21" />
+<TLINK eventInstanceID="ei18" lid="l9" relType="BEFORE" relatedToEventInstance="ei22" />
+<TLINK eventInstanceID="ei19" lid="l10" relType="BEFORE" relatedToEventInstance="ei20" />
+<TLINK eventInstanceID="ei19" lid="l11" relType="BEFORE" relatedToEventInstance="ei21" />
+<TLINK eventInstanceID="ei19" lid="l12" relType="BEFORE" relatedToEventInstance="ei22" />
+<TLINK eventInstanceID="ei20" lid="l13" relType="AFTER" relatedToEventInstance="ei21" />
+<TLINK eventInstanceID="ei20" lid="l14" relType="AFTER" relatedToEventInstance="ei22" />
+<TLINK eventInstanceID="ei23" lid="l15" relType="AFTER" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei23" lid="l16" relType="BEFORE" relatedToEventInstance="ei25" />
+<TLINK eventInstanceID="ei24" lid="l17" relType="BEFORE" relatedToEventInstance="ei25" />
+<TLINK eventInstanceID="ei25" lid="l18" relType="BEFORE" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei30" lid="l19" relType="AFTER" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei31" lid="l20" relType="AFTER" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei37" lid="l21" relType="AFTER" relatedToEventInstance="ei38" />
+<TLINK eventInstanceID="ei37" lid="l22" relType="BEFORE" relatedToEventInstance="ei40" />
+<TLINK eventInstanceID="ei38" lid="l23" relType="BEFORE" relatedToEventInstance="ei40" />
+<TLINK eventInstanceID="ei42" lid="l24" relType="AFTER" relatedToEventInstance="ei43" />
+<TLINK eventInstanceID="ei42" lid="l25" relType="AFTER" relatedToEventInstance="ei44" />
+<TLINK eventInstanceID="ei42" lid="l26" relType="BEFORE" relatedToEventInstance="ei45" />
+<TLINK eventInstanceID="ei42" lid="l27" relType="BEFORE" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei42" lid="l28" relType="BEFORE" relatedToEventInstance="ei47" />
+<TLINK eventInstanceID="ei43" lid="l29" relType="AFTER" relatedToEventInstance="ei44" />
+<TLINK eventInstanceID="ei43" lid="l30" relType="BEFORE" relatedToEventInstance="ei45" />
+<TLINK eventInstanceID="ei43" lid="l31" relType="AFTER" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei43" lid="l32" relType="BEFORE" relatedToEventInstance="ei47" />
+<TLINK eventInstanceID="ei44" lid="l33" relType="BEFORE" relatedToEventInstance="ei45" />
+<TLINK eventInstanceID="ei44" lid="l34" relType="BEFORE" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei44" lid="l35" relType="BEFORE" relatedToEventInstance="ei47" />
+<TLINK eventInstanceID="ei45" lid="l36" relType="AFTER" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei45" lid="l37" relType="AFTER" relatedToEventInstance="ei47" />
+<TLINK eventInstanceID="ei45" lid="l38" relType="BEFORE" relatedToEventInstance="ei49" />
+<TLINK eventInstanceID="ei45" lid="l39" relType="AFTER" relatedToEventInstance="ei50" />
+<TLINK eventInstanceID="ei45" lid="l40" relType="AFTER" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei46" lid="l41" relType="BEFORE" relatedToEventInstance="ei47" />
+<TLINK eventInstanceID="ei46" lid="l42" relType="BEFORE" relatedToEventInstance="ei48" />
+<TLINK eventInstanceID="ei46" lid="l43" relType="BEFORE" relatedToEventInstance="ei49" />
+<TLINK eventInstanceID="ei46" lid="l44" relType="BEFORE" relatedToEventInstance="ei50" />
+<TLINK eventInstanceID="ei46" lid="l45" relType="BEFORE" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei47" lid="l46" relType="BEFORE" relatedToEventInstance="ei48" />
+<TLINK eventInstanceID="ei47" lid="l47" relType="BEFORE" relatedToEventInstance="ei49" />
+<TLINK eventInstanceID="ei47" lid="l48" relType="BEFORE" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei48" lid="l49" relType="BEFORE" relatedToEventInstance="ei49" />
+<TLINK eventInstanceID="ei48" lid="l50" relType="AFTER" relatedToEventInstance="ei50" />
+<TLINK eventInstanceID="ei48" lid="l51" relType="AFTER" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei49" lid="l52" relType="AFTER" relatedToEventInstance="ei50" />
+<TLINK eventInstanceID="ei49" lid="l53" relType="AFTER" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei50" lid="l54" relType="BEFORE" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei50" lid="l55" relType="BEFORE" relatedToEventInstance="ei55" />
+<TLINK eventInstanceID="ei51" lid="l56" relType="BEFORE" relatedToEventInstance="ei55" />
+<TLINK eventInstanceID="ei55" lid="l57" relType="BEFORE" relatedToEventInstance="ei56" />
+<TLINK eventInstanceID="ei55" lid="l58" relType="BEFORE" relatedToEventInstance="ei57" />
+<TLINK eventInstanceID="ei56" lid="l59" relType="AFTER" relatedToEventInstance="ei57" />
+<TLINK eventInstanceID="ei56" lid="l60" relType="AFTER" relatedToEventInstance="ei58" />
+<TLINK eventInstanceID="ei56" lid="l61" relType="BEFORE" relatedToEventInstance="ei59" />
+<TLINK eventInstanceID="ei56" lid="l62" relType="AFTER" relatedToEventInstance="ei60" />
+<TLINK eventInstanceID="ei57" lid="l63" relType="BEFORE" relatedToEventInstance="ei58" />
+<TLINK eventInstanceID="ei57" lid="l64" relType="BEFORE" relatedToEventInstance="ei59" />
+<TLINK eventInstanceID="ei57" lid="l65" relType="AFTER" relatedToEventInstance="ei60" />
+<TLINK eventInstanceID="ei58" lid="l66" relType="AFTER" relatedToEventInstance="ei59" />
+<TLINK eventInstanceID="ei58" lid="l67" relType="AFTER" relatedToEventInstance="ei60" />
+<TLINK eventInstanceID="ei58" lid="l68" relType="BEFORE" relatedToEventInstance="ei61" />
+<TLINK eventInstanceID="ei58" lid="l69" relType="BEFORE" relatedToEventInstance="ei62" />
+<TLINK eventInstanceID="ei59" lid="l70" relType="AFTER" relatedToEventInstance="ei60" />
+<TLINK eventInstanceID="ei59" lid="l71" relType="BEFORE" relatedToEventInstance="ei61" />
+<TLINK eventInstanceID="ei59" lid="l72" relType="AFTER" relatedToEventInstance="ei62" />
+<TLINK eventInstanceID="ei60" lid="l73" relType="BEFORE" relatedToEventInstance="ei61" />
+<TLINK eventInstanceID="ei60" lid="l74" relType="BEFORE" relatedToEventInstance="ei62" />
+<TLINK eventInstanceID="ei61" lid="l75" relType="AFTER" relatedToEventInstance="ei62" />
+<TLINK eventInstanceID="ei61" lid="l76" relType="AFTER" relatedToEventInstance="ei63" />
+<TLINK eventInstanceID="ei55" lid="l77" relType="AFTER" relatedToTime="t7" />
+<TLINK eventInstanceID="ei49" lid="l78" relType="BEFORE" relatedToTime="t7" />
+<TLINK timeID="t6" lid="l79" relType="BEFORE" relatedToEventInstance="ei47" />
+<TLINK timeID="t6" lid="l80" relType="BEFORE" relatedToEventInstance="ei46" />
+<TLINK timeID="t6" lid="l81" relType="BEFORE" relatedToEventInstance="ei45" />
+<TLINK timeID="t2" lid="l82" relType="BEFORE" relatedToEventInstance="ei20" />
+<TLINK eventInstanceID="ei48" lid="l83" relType="BEFORE" relatedToTime="t7" />
+<TLINK eventInstanceID="ei51" lid="l84" relType="BEFORE" relatedToTime="t7" />
+<TLINK timeID="t7" lid="l85" relType="BEFORE" relatedToEventInstance="ei56" />
+<TLINK timeID="t7" lid="l86" relType="BEFORE" relatedToEventInstance="ei57" />
+<TLINK eventInstanceID="ei43" lid="l87" relType="AFTER" relatedToTime="t6" />
+<TLINK eventInstanceID="ei2" lid="l88" relType="AFTER" relatedToTime="t1" />
+<TLINK eventInstanceID="ei2" lid="l89" relType="AFTER" relatedToTime="t2" />
+<TLINK timeID="t4" lid="l90" relType="BEFORE" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei37" lid="l91" relType="AFTER" relatedToTime="t5" />
+<TLINK eventInstanceID="ei42" lid="l92" relType="AFTER" relatedToTime="t6" />
+<TLINK eventInstanceID="ei30" lid="l93" relType="BEFORE" relatedToTime="t4" />
+<TLINK eventInstanceID="ei30" lid="l94" relType="BEFORE" relatedToTime="t3" />
+<TLINK timeID="t2" lid="l95" relType="BEFORE" relatedToEventInstance="ei18" />
+<TLINK timeID="t2" lid="l96" relType="BEFORE" relatedToEventInstance="ei19" />
+<TLINK timeID="t2" lid="l97" relType="BEFORE" relatedToEventInstance="ei16" />
+<TLINK timeID="t5" lid="l98" relType="BEFORE" relatedToEventInstance="ei40" />
+<TLINK eventInstanceID="ei31" lid="l99" relType="AFTER" relatedToTime="t5" />
+<TLINK eventInstanceID="ei31" lid="l100" relType="BEFORE" relatedToTime="t4" />
+<TLINK eventInstanceID="ei25" lid="l101" relType="BEFORE" relatedToTime="t3" />
+<TLINK timeID="t5" lid="l102" relType="BEFORE" relatedToEventInstance="ei38" />
+<TLINK eventInstanceID="ei44" lid="l103" relType="BEFORE" relatedToTime="t6" />
+<TLINK eventInstanceID="ei1" lid="l104" relType="AFTER" relatedToTime="t2" />
+<TLINK eventInstanceID="ei1" lid="l105" relType="AFTER" relatedToTime="t1" />
+<TLINK eventInstanceID="ei50" lid="l106" relType="BEFORE" relatedToTime="t7" />
+
+</TimeML>

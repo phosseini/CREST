@@ -1,0 +1,179 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>2010.01.07.water.justice</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="2010-01-07" temporalFunction="false" functionInDocument="CREATION_TIME">2010-01-07</TIMEX3></DCT>
+<TEXT>
+Every eight seconds, somewhere in the world a child dies from waterborne diseases because the parents cannot <EVENT class="OCCURRENCE" eid="e2">afford</EVENT> clean water, according to Maude Barlow, founder of the Blue Planet Project.
+" When you <EVENT class="OCCURRENCE" eid="e4">add</EVENT> the for-profit motive into water supplies, some people are going to die, " Barlow <EVENT class="REPORTING" eid="e6">told</EVENT> CNN's Christiane Amanpour <TIMEX3 tid="t1" type="DATE" value="2010-01-07">Thursday</TIMEX3>.
+" Water must be <EVENT class="I_ACTION" eid="e7">declared</EVENT> to be something that belongs to all of us, which is not that it's a free-for-all, but that it must be equitably divided and <EVENT class="OCCURRENCE" eid="e10">shared</EVENT> -- and only government can do that. "
+Barlow, who is one of the most outspoken advocates of what activists <EVENT class="I_ACTION" eid="e12">call</EVENT> " water justice, " <EVENT class="REPORTING" eid="e13">said</EVENT> water is a public trust and must not be <EVENT class="OCCURRENCE" eid="e14">privatized</EVENT>.
+" The reality is that there is more demand than supply, and the increase in demand and decrease in supply is <EVENT class="OCCURRENCE" eid="e17">growing</EVENT>, so it makes a big difference how we're going to <EVENT class="OCCURRENCE" eid="e19">decide</EVENT> who's going to allocate water. "
+A third of the world's population is <EVENT class="OCCURRENCE" eid="e22">suffering</EVENT> from water shortages, according to the International Water Management Institute.
+The United Nations <EVENT class="REPORTING" eid="e24">estimates</EVENT> that by <TIMEX3 tid="t2" type="DATE" value="2025">2025</TIMEX3>, two-thirds of the population will be <EVENT class="OCCURRENCE" eid="e25">affected</EVENT> by scarcities.
+Those shortages are already the source of local and regional conflict.
+In Yemen for example, which is at the center of the current al Qaeda terrorist scare, researchers say up to 80 percent of rural disputes are <EVENT class="STATE" eid="e27">related</EVENT> to water.
+The debate over how to alleviate those shortages has <EVENT class="OCCURRENCE" eid="e29">intensified</EVENT> in <TIMEX3 tid="t3" type="DURATION" value="">recent years</TIMEX3>, <EVENT class="OCCURRENCE" eid="e30">pitching</EVENT> advocates of privatization programs against those who <EVENT class="REPORTING" eid="e31">say</EVENT> water is a public good and that its collection and distribution should remain in the public sector.
+A recent United Nations Human Development Report <EVENT class="REPORTING" eid="e33">said</EVENT>, " The dialogue has <EVENT class="OCCURRENCE" eid="e34">generated</EVENT> more heat than light. "
+" Some privatization programs have <EVENT class="OCCURRENCE" eid="e35">produced</EVENT> positive results " the U.N. <EVENT class="REPORTING" eid="e36">said</EVENT>, " but the overall record is not encouraging.
+From Argentina to Bolivia, and from the Philippines to the United States, the conviction that the private sector <EVENT class="I_ACTION" eid="e37">offers</EVENT> a'magic bullet' for unleashing the equity and efficiency <EVENT class="OCCURRENCE" eid="e39">needed</EVENT> to accelerate progress towards water for all has <EVENT class="OCCURRENCE" eid="e41">proven</EVENT> to be <EVENT class="OCCURRENCE" eid="e42">misplaced</EVENT>. "
+But the U.N. also <EVENT class="REPORTING" eid="e43">said</EVENT> many publicly-owned utilities are <EVENT class="OCCURRENCE" eid="e44">failing</EVENT> the poor, <EVENT class="OCCURRENCE" eid="e45">combining</EVENT> inefficiency and unaccountability in management, with inequity in financing and pricing.
+The head of Aquafed, the International Federation of Private Water Operators, <EVENT class="REPORTING" eid="e46">told</EVENT> Amanpour that <EVENT class="OCCURRENCE" eid="e47">purifying</EVENT> water and <EVENT class="OCCURRENCE" eid="e48">transporting</EVENT> it to each individual house has a cost.
+Gerard Payen <EVENT class="REPORTING" eid="e49">said</EVENT>, " The government has to decide who should bear this cost.
+Should it be <EVENT class="OCCURRENCE" eid="e52">borne</EVENT> by taxpayers or by water users or by both, by a mix ? "
+He <EVENT class="REPORTING" eid="e53">said</EVENT> different countries have different answers to that question.
+" We only <EVENT class="OCCURRENCE" eid="e54">serve</EVENT> 10 percent of the world's population.
+But we are in those countries with the most needs.
+In developing countries in <TIMEX3 tid="t4" type="DURATION" value="">the past 10 years</TIMEX3>, we were able to provide access to water for more than 25 million people, " he <EVENT class="OCCURRENCE" eid="e56">added</EVENT>.
+But leading environmentalist Robert F. Kennedy Jr., founder and president of the Waterkeeper Alliance, <EVENT class="REPORTING" eid="e57">told</EVENT> Amanpour the privatization of water supply -- what Kennedy <EVENT class="I_ACTION" eid="e58">called</EVENT> " the commoditization of water supply " -- is morally wrong.
+" It's intrinsically a government function.
+It has to <EVENT class="STATE" eid="e59">remain</EVENT> in the hands of the government.
+The government has a responsibility to all the people, and that this is part of the commons, " he <EVENT class="OCCURRENCE" eid="e60">added</EVENT>.
+" And the law of the commons is that whether you're rich or poor, everybody has the right to the public trust asset, " Kennedy <EVENT class="REPORTING" eid="e61">said</EVENT>." Nobody has the right to use it in a way that will <EVENT class="OCCURRENCE" eid="e63">diminish</EVENT> or injure its use and enjoyment by others. "
+</TEXT>
+<MAKEINSTANCE aspect="NONE" eiid="ei2" eventID="e2" polarity="NEG"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei4" eventID="e4" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei6" eventID="e6" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei7" eventID="e7" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei10" eventID="e10" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei12" eventID="e12" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei13" eventID="e13" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei14" eventID="e14" polarity="NEG"  tense="FUTURE" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei17" eventID="e17" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei19" eventID="e19" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei22" eventID="e22" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei24" eventID="e24" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei25" eventID="e25" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei27" eventID="e27" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei29" eventID="e29" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei30" eventID="e30" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei31" eventID="e31" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei33" eventID="e33" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei34" eventID="e34" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei35" eventID="e35" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei36" eventID="e36" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei37" eventID="e37" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei39" eventID="e39" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei41" eventID="e41" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei42" eventID="e42" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei43" eventID="e43" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei44" eventID="e44" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei45" eventID="e45" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei46" eventID="e46" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei47" eventID="e47" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei48" eventID="e48" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei49" eventID="e49" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei52" eventID="e52" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei53" eventID="e53" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei54" eventID="e54" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei56" eventID="e56" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei57" eventID="e57" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei58" eventID="e58" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei59" eventID="e59" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei60" eventID="e60" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei61" eventID="e61" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei63" eventID="e63" polarity="POS"  tense="FUTURE" />
+<TLINK eventInstanceID="ei2" lid="l0" relType="BEFORE" relatedToEventInstance="ei4" />
+<TLINK eventInstanceID="ei2" lid="l1" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei4" lid="l2" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei4" lid="l3" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei4" lid="l4" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei6" lid="l5" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei6" lid="l6" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei7" lid="l7" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei7" lid="l8" relType="AFTER" relatedToEventInstance="ei12" />
+<TLINK eventInstanceID="ei7" lid="l9" relType="AFTER" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei7" lid="l10" relType="BEFORE" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei10" lid="l11" relType="BEFORE" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei10" lid="l12" relType="BEFORE" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei12" lid="l13" relType="BEFORE" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei12" lid="l14" relType="BEFORE" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei12" lid="l15" relType="BEFORE" relatedToEventInstance="ei19" />
+<TLINK eventInstanceID="ei13" lid="l16" relType="BEFORE" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei13" lid="l17" relType="BEFORE" relatedToEventInstance="ei19" />
+<TLINK eventInstanceID="ei14" lid="l18" relType="AFTER" relatedToEventInstance="ei17" />
+<TLINK eventInstanceID="ei14" lid="l19" relType="BEFORE" relatedToEventInstance="ei19" />
+<TLINK eventInstanceID="ei17" lid="l20" relType="BEFORE" relatedToEventInstance="ei19" />
+<TLINK eventInstanceID="ei17" lid="l21" relType="AFTER" relatedToEventInstance="ei22" />
+<TLINK eventInstanceID="ei19" lid="l22" relType="AFTER" relatedToEventInstance="ei22" />
+<TLINK eventInstanceID="ei22" lid="l23" relType="BEFORE" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei22" lid="l24" relType="BEFORE" relatedToEventInstance="ei25" />
+<TLINK eventInstanceID="ei24" lid="l25" relType="BEFORE" relatedToEventInstance="ei25" />
+<TLINK eventInstanceID="ei27" lid="l26" relType="BEFORE" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei27" lid="l27" relType="BEFORE" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei27" lid="l28" relType="BEFORE" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei29" lid="l29" relType="BEFORE" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei29" lid="l30" relType="BEFORE" relatedToEventInstance="ei33" />
+<TLINK eventInstanceID="ei29" lid="l31" relType="BEFORE" relatedToEventInstance="ei34" />
+<TLINK eventInstanceID="ei30" lid="l32" relType="AFTER" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei30" lid="l33" relType="BEFORE" relatedToEventInstance="ei33" />
+<TLINK eventInstanceID="ei30" lid="l34" relType="BEFORE" relatedToEventInstance="ei34" />
+<TLINK eventInstanceID="ei31" lid="l35" relType="BEFORE" relatedToEventInstance="ei33" />
+<TLINK eventInstanceID="ei31" lid="l36" relType="BEFORE" relatedToEventInstance="ei34" />
+<TLINK eventInstanceID="ei33" lid="l37" relType="AFTER" relatedToEventInstance="ei34" />
+<TLINK eventInstanceID="ei33" lid="l38" relType="AFTER" relatedToEventInstance="ei35" />
+<TLINK eventInstanceID="ei33" lid="l39" relType="BEFORE" relatedToEventInstance="ei36" />
+<TLINK eventInstanceID="ei34" lid="l40" relType="AFTER" relatedToEventInstance="ei35" />
+<TLINK eventInstanceID="ei34" lid="l41" relType="BEFORE" relatedToEventInstance="ei36" />
+<TLINK eventInstanceID="ei35" lid="l42" relType="BEFORE" relatedToEventInstance="ei36" />
+<TLINK eventInstanceID="ei35" lid="l43" relType="BEFORE" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei35" lid="l44" relType="BEFORE" relatedToEventInstance="ei39" />
+<TLINK eventInstanceID="ei35" lid="l45" relType="BEFORE" relatedToEventInstance="ei41" />
+<TLINK eventInstanceID="ei35" lid="l46" relType="BEFORE" relatedToEventInstance="ei42" />
+<TLINK eventInstanceID="ei36" lid="l47" relType="BEFORE" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei36" lid="l48" relType="BEFORE" relatedToEventInstance="ei39" />
+<TLINK eventInstanceID="ei36" lid="l49" relType="AFTER" relatedToEventInstance="ei41" />
+<TLINK eventInstanceID="ei36" lid="l50" relType="AFTER" relatedToEventInstance="ei42" />
+<TLINK eventInstanceID="ei37" lid="l51" relType="BEFORE" relatedToEventInstance="ei39" />
+<TLINK eventInstanceID="ei37" lid="l52" relType="BEFORE" relatedToEventInstance="ei41" />
+<TLINK eventInstanceID="ei37" lid="l53" relType="BEFORE" relatedToEventInstance="ei42" />
+<TLINK eventInstanceID="ei37" lid="l54" relType="BEFORE" relatedToEventInstance="ei43" />
+<TLINK eventInstanceID="ei37" lid="l55" relType="AFTER" relatedToEventInstance="ei44" />
+<TLINK eventInstanceID="ei37" lid="l56" relType="BEFORE" relatedToEventInstance="ei45" />
+<TLINK eventInstanceID="ei39" lid="l57" relType="AFTER" relatedToEventInstance="ei41" />
+<TLINK eventInstanceID="ei39" lid="l58" relType="AFTER" relatedToEventInstance="ei42" />
+<TLINK eventInstanceID="ei39" lid="l59" relType="BEFORE" relatedToEventInstance="ei43" />
+<TLINK eventInstanceID="ei39" lid="l60" relType="AFTER" relatedToEventInstance="ei44" />
+<TLINK eventInstanceID="ei39" lid="l61" relType="AFTER" relatedToEventInstance="ei45" />
+<TLINK eventInstanceID="ei41" lid="l62" relType="AFTER" relatedToEventInstance="ei42" />
+<TLINK eventInstanceID="ei41" lid="l63" relType="BEFORE" relatedToEventInstance="ei43" />
+<TLINK eventInstanceID="ei41" lid="l64" relType="BEFORE" relatedToEventInstance="ei44" />
+<TLINK eventInstanceID="ei41" lid="l65" relType="BEFORE" relatedToEventInstance="ei45" />
+<TLINK eventInstanceID="ei42" lid="l66" relType="BEFORE" relatedToEventInstance="ei43" />
+<TLINK eventInstanceID="ei42" lid="l67" relType="AFTER" relatedToEventInstance="ei44" />
+<TLINK eventInstanceID="ei42" lid="l68" relType="BEFORE" relatedToEventInstance="ei45" />
+<TLINK eventInstanceID="ei43" lid="l69" relType="AFTER" relatedToEventInstance="ei44" />
+<TLINK eventInstanceID="ei43" lid="l70" relType="AFTER" relatedToEventInstance="ei45" />
+<TLINK eventInstanceID="ei43" lid="l71" relType="BEFORE" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei43" lid="l72" relType="BEFORE" relatedToEventInstance="ei47" />
+<TLINK eventInstanceID="ei43" lid="l73" relType="AFTER" relatedToEventInstance="ei48" />
+<TLINK eventInstanceID="ei44" lid="l74" relType="AFTER" relatedToEventInstance="ei45" />
+<TLINK eventInstanceID="ei44" lid="l75" relType="BEFORE" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei44" lid="l76" relType="BEFORE" relatedToEventInstance="ei47" />
+<TLINK eventInstanceID="ei44" lid="l77" relType="BEFORE" relatedToEventInstance="ei48" />
+<TLINK eventInstanceID="ei45" lid="l78" relType="BEFORE" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei45" lid="l79" relType="BEFORE" relatedToEventInstance="ei47" />
+<TLINK eventInstanceID="ei45" lid="l80" relType="BEFORE" relatedToEventInstance="ei48" />
+<TLINK eventInstanceID="ei46" lid="l81" relType="BEFORE" relatedToEventInstance="ei47" />
+<TLINK eventInstanceID="ei46" lid="l82" relType="BEFORE" relatedToEventInstance="ei48" />
+<TLINK eventInstanceID="ei46" lid="l83" relType="BEFORE" relatedToEventInstance="ei49" />
+<TLINK eventInstanceID="ei47" lid="l84" relType="BEFORE" relatedToEventInstance="ei48" />
+<TLINK eventInstanceID="ei47" lid="l85" relType="BEFORE" relatedToEventInstance="ei49" />
+<TLINK eventInstanceID="ei48" lid="l86" relType="BEFORE" relatedToEventInstance="ei49" />
+<TLINK eventInstanceID="ei49" lid="l87" relType="BEFORE" relatedToEventInstance="ei52" />
+<TLINK eventInstanceID="ei52" lid="l88" relType="AFTER" relatedToEventInstance="ei53" />
+<TLINK eventInstanceID="ei53" lid="l89" relType="AFTER" relatedToEventInstance="ei54" />
+<TLINK eventInstanceID="ei56" lid="l90" relType="BEFORE" relatedToEventInstance="ei57" />
+<TLINK eventInstanceID="ei56" lid="l91" relType="BEFORE" relatedToEventInstance="ei58" />
+<TLINK eventInstanceID="ei57" lid="l92" relType="AFTER" relatedToEventInstance="ei58" />
+<TLINK eventInstanceID="ei59" lid="l93" relType="BEFORE" relatedToEventInstance="ei60" />
+<TLINK eventInstanceID="ei60" lid="l94" relType="BEFORE" relatedToEventInstance="ei61" />
+<TLINK eventInstanceID="ei61" lid="l95" relType="BEFORE" relatedToEventInstance="ei63" />
+<TLINK eventInstanceID="ei4" lid="l96" relType="BEFORE" relatedToTime="t1" />
+<TLINK timeID="t1" lid="l97" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK timeID="t1" lid="l98" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei2" lid="l99" relType="BEFORE" relatedToTime="t1" />
+<TLINK eventInstanceID="ei24" lid="l100" relType="BEFORE" relatedToTime="t2" />
+<TLINK eventInstanceID="ei6" lid="l101" relType="AFTER" relatedToTime="t1" />
+<TLINK eventInstanceID="ei22" lid="l102" relType="BEFORE" relatedToTime="t2" />
+
+</TimeML>

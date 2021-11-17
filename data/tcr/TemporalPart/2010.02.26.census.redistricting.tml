@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>2010.02.26.census.redistricting</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="2010-02-26" temporalFunction="false" functionInDocument="CREATION_TIME">2010-02-26</TIMEX3></DCT>
+<TEXT>
+President Obama recently <EVENT class="OCCURRENCE" eid="e1">encouraged</EVENT> Americans to " take about 10 minutes to <EVENT class="OCCURRENCE" eid="e4">answer</EVENT> 10 questions " and fill out their <TIMEX3 tid="t1" type="DATE" value="">2010</TIMEX3> census form.
+<TIMEX3 tid="t2" type="DATE" value="">This year</TIMEX3>'s questionnaire is one of the shortest in history, but the results of the survey have long-term effects.
+The census, <EVENT class="OCCURRENCE" eid="e6">taken</EVENT> every <TIMEX3 tid="t3" type="DURATION" value="">10 years</TIMEX3>, is <EVENT class="OCCURRENCE" eid="e7">used</EVENT> to determine how to <EVENT class="OCCURRENCE" eid="e9">allocate</EVENT> more than $400 billion in federal funds and seats House of Representatives and <EVENT class="OCCURRENCE" eid="e10">determine</EVENT> the boundaries of representatives' districts.
+" There is no representative democracy without it.
+It's the scientific, nonpartisan, apolitical starting point of what eventually becomes a quite partisan, political process, " <EVENT class="REPORTING" eid="e12">said</EVENT> Kenneth Prewitt, a professor at Columbia's School of International and Public Affairs and the former director of the United States Census Bureau.
+The House is <EVENT class="OCCURRENCE" eid="e13">made</EVENT> up of 435 congressional seats that <EVENT class="OCCURRENCE" eid="e14">represent</EVENT> relatively equal slices of the population.
+When data from the census show a shift in population, seats in the House <EVENT class="OCCURRENCE" eid="e15">get</EVENT> reassigned.
+Some states might pick up a seat or two, while others are <EVENT class="OCCURRENCE" eid="e18">forced</EVENT> to combine two districts into one.
+The process of apportioning seats is straightforward, but redistricting is much more complicated.
+Districts are <EVENT class="OCCURRENCE" eid="e21">supposed</EVENT> to be redrawn to <EVENT class="OCCURRENCE" eid="e23">reflect</EVENT> population changes and to make sure there is equal representation in the House.
+State legislators and governors typically draw the districts, but some states <EVENT class="OCCURRENCE" eid="e26">rely</EVENT> on restricting committees.
+Districts can affect the balance of power in the House and representation in the state legislature.
+" People try to do things that are to their political advantage if they happen to be in power because maybe the next time the census comes out, the other party will be in power, " <EVENT class="REPORTING" eid="e31">said</EVENT> William Frey, a demographer and senior fellow with the Brookings Institution.
+Lawmakers have been <EVENT class="I_ACTION" eid="e32">accused</EVENT> of <EVENT class="OCCURRENCE" eid="e33">carving</EVENT> district lines around the constituents that will <EVENT class="OCCURRENCE" eid="e34">give</EVENT> their party an advantage and secure political gains.
+The process is <EVENT class="OCCURRENCE" eid="e36">known</EVENT> as gerrymandering, a term <EVENT class="OCCURRENCE" eid="e37">coined</EVENT> after Massachusetts Gov. Elbridge Gerry.
+<EVENT class="OCCURRENCE" eid="e38">Elected</EVENT> in <TIMEX3 tid="t4" type="DATE" value="">1810</TIMEX3>, he <EVENT class="OCCURRENCE" eid="e39">signed</EVENT> an obscure redistricting bill that <EVENT class="OCCURRENCE" eid="e40">enabled</EVENT> greater and perhaps disproportionate Republican representation in the Massachusetts legislature.
+Related : Who was Elbridge Gerry ?
+Critics <EVENT class="REPORTING" eid="e42">say</EVENT> gerrymandering gives those in power an unfair advantage and can <EVENT class="OCCURRENCE" eid="e43">dilute</EVENT> the power of minority groups.
+The Supreme Court in <TIMEX3 tid="t5" type="DATE" value="">2006</TIMEX3> <EVENT class="OCCURRENCE" eid="e44">took</EVENT> up a case <EVENT class="I_ACTION" eid="e45">looking</EVENT> at a redistricting plan <EVENT class="OCCURRENCE" eid="e46">promoted</EVENT> by then-U.S.
+House Majority Leader Tom DeLay, R-Texas.
+After the <TIMEX3 tid="t6" type="DATE" value="">2000</TIMEX3> census, a state court <EVENT class="OCCURRENCE" eid="e47">redrew</EVENT> the Texas map with input from state lawmakers.
+But after Republicans <EVENT class="OCCURRENCE" eid="e48">gained</EVENT> control of the legislature in <TIMEX3 tid="t7" type="DATE" value="">2002</TIMEX3>, DeLay <EVENT class="OCCURRENCE" eid="e49">promoted</EVENT> a second redistricting proposal for congressional boundaries.
+The Texas legislature <EVENT class="OCCURRENCE" eid="e50">adopted</EVENT> the plan in <TIMEX3 tid="t8" type="DATE" value="">2003</TIMEX3> after three contentious special sessions <EVENT class="I_ACTION" eid="e51">called</EVENT> by Republican Gov. Rick Perry.
+The legislative plan <EVENT class="OCCURRENCE" eid="e52">led</EVENT> to the <TIMEX3 tid="t9" type="DATE" value="">2004</TIMEX3> ouster of four Democratic incumbents from Congress and <EVENT class="OCCURRENCE" eid="e53">sparked</EVENT> a bitter partisan battle.
+The court <EVENT class="OCCURRENCE" eid="e54">ruled</EVENT> that the redistricting plan unfairly <EVENT class="OCCURRENCE" eid="e55">weakened</EVENT> the voting strength of Latinos in two congressional districts and <EVENT class="OCCURRENCE" eid="e56">tossed</EVENT> out a portion of the congressional map, but <EVENT class="OCCURRENCE" eid="e57">found</EVENT> the overall redistricting plan <EVENT class="OCCURRENCE" eid="e58">engineered</EVENT> by state Republicans acceptable.
+Prewitt <EVENT class="REPORTING" eid="e59">said</EVENT> the redrawing of lines to the benefit of one party or the neglect of other is just a part of the political process.
+" The production of the statistics has <EVENT class="OCCURRENCE" eid="e60">got</EVENT> to be nonpolitical... but the use of the statistics can be as political as the country <EVENT class="I_STATE" eid="e61">wants</EVENT> it to be, " he <EVENT class="REPORTING" eid="e62">said</EVENT>.
+" I <EVENT class="I_STATE" eid="e63">expect</EVENT> people to try to take advantage of situations to advance their political goals, interests, values -- so it's healthy.
+Now, do I think overtime creating districts so incumbents are always re-elected is the healthiest way to have a democracy ?
+No, " Prewitt <EVENT class="REPORTING" eid="e70">said</EVENT>, <EVENT class="OCCURRENCE" eid="e71">adding</EVENT> that it's up to the voters to decide whether they want to throw someone out of office.
+The more pressing issue for Prewitt is making sure everyone is <EVENT class="OCCURRENCE" eid="e76">counted</EVENT> because he <EVENT class="REPORTING" eid="e77">said</EVENT> those who are n't counted will be treated unfairly in the political process and in the allocation of economic benefits.
+With more than 300 million people in the United States, it can be difficult to make sure than everyone is <EVENT class="OCCURRENCE" eid="e81">counted</EVENT>.
+Frey <EVENT class="REPORTING" eid="e82">said</EVENT> <EVENT class="OCCURRENCE" eid="e83">calculating</EVENT> the homeless population and the population of those who do not speak English can be particularly challenging.
+Illegal immigrants, for example, sometimes opt not to turn in census forms for fear of legal ramifications.
+Those fears, however, are unwarranted because the information is confidential.
+" The challenge that they have is a cost challenge, " <EVENT class="REPORTING" eid="e86">said</EVENT> Frey.
+The Census Bureau has to follow up with those who do n't send in their forms with additional forms, telephone calls and even in-person visits -- and that <EVENT class="OCCURRENCE" eid="e89">adds</EVENT> up, he <EVENT class="REPORTING" eid="e90">said</EVENT>.
+<TIMEX3 tid="t10" type="DATE" value="">This year</TIMEX3>'s census is <EVENT class="OCCURRENCE" eid="e91">projected</EVENT> to <EVENT class="OCCURRENCE" eid="e92">cost</EVENT> more than $14 billion.
+Prewitt <EVENT class="REPORTING" eid="e93">said</EVENT> it's comparatively easy to count the first 75 to 85 percent, but the last 2 to 3 percent is " really, really tough going. "
+As the census gets underway, Prewitt <EVENT class="REPORTING" eid="e95">said</EVENT> <EVENT class="I_ACTION" eid="e96">trying</EVENT> to count everyone, as <EVENT class="OCCURRENCE" eid="e98">mandated</EVENT> by the Constitution, should be the top concern.
+" I'm much more concerned about trying to have a fair census than I am about some drawing of odd lines after the census is over, " he <EVENT class="REPORTING" eid="e100">said</EVENT>.
+CNN's David Ariosto and Bill Mears <EVENT class="OCCURRENCE" eid="e101">contributed</EVENT> to this report.
+</TEXT>
+<MAKEINSTANCE aspect="NONE" eiid="ei1" eventID="e1" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei4" eventID="e4" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei6" eventID="e6" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei7" eventID="e7" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei9" eventID="e9" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei10" eventID="e10" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei12" eventID="e12" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei13" eventID="e13" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei14" eventID="e14" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei15" eventID="e15" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei18" eventID="e18" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei21" eventID="e21" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei23" eventID="e23" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei26" eventID="e26" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei31" eventID="e31" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei32" eventID="e32" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei33" eventID="e33" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei34" eventID="e34" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei36" eventID="e36" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei37" eventID="e37" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei38" eventID="e38" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei39" eventID="e39" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei40" eventID="e40" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei42" eventID="e42" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei43" eventID="e43" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei44" eventID="e44" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei45" eventID="e45" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei46" eventID="e46" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei47" eventID="e47" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei48" eventID="e48" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei49" eventID="e49" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50" eventID="e50" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei51" eventID="e51" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei52" eventID="e52" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei53" eventID="e53" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei54" eventID="e54" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei55" eventID="e55" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei56" eventID="e56" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei57" eventID="e57" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei58" eventID="e58" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei59" eventID="e59" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei60" eventID="e60" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei61" eventID="e61" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei62" eventID="e62" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei63" eventID="e63" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei70" eventID="e70" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei71" eventID="e71" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei76" eventID="e76" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei77" eventID="e77" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei81" eventID="e81" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei82" eventID="e82" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei83" eventID="e83" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei86" eventID="e86" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei89" eventID="e89" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei90" eventID="e90" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei91" eventID="e91" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei92" eventID="e92" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei93" eventID="e93" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei95" eventID="e95" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei96" eventID="e96" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei98" eventID="e98" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei100" eventID="e100" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei101" eventID="e101" polarity="POS"  tense="PAST" />
+<TLINK eventInstanceID="ei1" lid="l0" relType="BEFORE" relatedToEventInstance="ei4" />
+<TLINK eventInstanceID="ei6" lid="l1" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei6" lid="l2" relType="BEFORE" relatedToEventInstance="ei9" />
+<TLINK eventInstanceID="ei6" lid="l3" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei7" lid="l4" relType="BEFORE" relatedToEventInstance="ei9" />
+<TLINK eventInstanceID="ei7" lid="l5" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei12" lid="l6" relType="AFTER" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei12" lid="l7" relType="AFTER" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei13" lid="l8" relType="BEFORE" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei13" lid="l9" relType="BEFORE" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei14" lid="l10" relType="BEFORE" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei15" lid="l11" relType="BEFORE" relatedToEventInstance="ei18" />
+<TLINK eventInstanceID="ei21" lid="l12" relType="BEFORE" relatedToEventInstance="ei23" />
+<TLINK eventInstanceID="ei21" lid="l13" relType="BEFORE" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei23" lid="l14" relType="BEFORE" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei31" lid="l15" relType="AFTER" relatedToEventInstance="ei32" />
+<TLINK eventInstanceID="ei31" lid="l16" relType="AFTER" relatedToEventInstance="ei33" />
+<TLINK eventInstanceID="ei32" lid="l17" relType="AFTER" relatedToEventInstance="ei33" />
+<TLINK eventInstanceID="ei32" lid="l18" relType="BEFORE" relatedToEventInstance="ei34" />
+<TLINK eventInstanceID="ei32" lid="l19" relType="BEFORE" relatedToEventInstance="ei36" />
+<TLINK eventInstanceID="ei32" lid="l20" relType="BEFORE" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei33" lid="l21" relType="BEFORE" relatedToEventInstance="ei34" />
+<TLINK eventInstanceID="ei33" lid="l22" relType="BEFORE" relatedToEventInstance="ei36" />
+<TLINK eventInstanceID="ei33" lid="l23" relType="AFTER" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei34" lid="l24" relType="AFTER" relatedToEventInstance="ei36" />
+<TLINK eventInstanceID="ei34" lid="l25" relType="AFTER" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei36" lid="l26" relType="AFTER" relatedToEventInstance="ei37" />
+<TLINK eventInstanceID="ei36" lid="l27" relType="AFTER" relatedToEventInstance="ei38" />
+<TLINK eventInstanceID="ei36" lid="l28" relType="AFTER" relatedToEventInstance="ei39" />
+<TLINK eventInstanceID="ei36" lid="l29" relType="AFTER" relatedToEventInstance="ei40" />
+<TLINK eventInstanceID="ei37" lid="l30" relType="AFTER" relatedToEventInstance="ei38" />
+<TLINK eventInstanceID="ei37" lid="l31" relType="AFTER" relatedToEventInstance="ei39" />
+<TLINK eventInstanceID="ei37" lid="l32" relType="AFTER" relatedToEventInstance="ei40" />
+<TLINK eventInstanceID="ei38" lid="l33" relType="BEFORE" relatedToEventInstance="ei39" />
+<TLINK eventInstanceID="ei38" lid="l34" relType="BEFORE" relatedToEventInstance="ei40" />
+<TLINK eventInstanceID="ei39" lid="l35" relType="BEFORE" relatedToEventInstance="ei40" />
+<TLINK eventInstanceID="ei42" lid="l36" relType="BEFORE" relatedToEventInstance="ei43" />
+<TLINK eventInstanceID="ei42" lid="l37" relType="AFTER" relatedToEventInstance="ei44" />
+<TLINK eventInstanceID="ei42" lid="l38" relType="AFTER" relatedToEventInstance="ei45" />
+<TLINK eventInstanceID="ei42" lid="l39" relType="AFTER" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei43" lid="l40" relType="AFTER" relatedToEventInstance="ei44" />
+<TLINK eventInstanceID="ei43" lid="l41" relType="AFTER" relatedToEventInstance="ei45" />
+<TLINK eventInstanceID="ei43" lid="l42" relType="AFTER" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei44" lid="l43" relType="AFTER" relatedToEventInstance="ei45" />
+<TLINK eventInstanceID="ei44" lid="l44" relType="AFTER" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei45" lid="l45" relType="AFTER" relatedToEventInstance="ei46" />
+<TLINK eventInstanceID="ei47" lid="l46" relType="BEFORE" relatedToEventInstance="ei48" />
+<TLINK eventInstanceID="ei47" lid="l47" relType="BEFORE" relatedToEventInstance="ei49" />
+<TLINK eventInstanceID="ei48" lid="l48" relType="BEFORE" relatedToEventInstance="ei49" />
+<TLINK eventInstanceID="ei48" lid="l49" relType="BEFORE" relatedToEventInstance="ei50" />
+<TLINK eventInstanceID="ei48" lid="l50" relType="BEFORE" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei49" lid="l51" relType="BEFORE" relatedToEventInstance="ei50" />
+<TLINK eventInstanceID="ei49" lid="l52" relType="BEFORE" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei50" lid="l53" relType="AFTER" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei50" lid="l54" relType="BEFORE" relatedToEventInstance="ei52" />
+<TLINK eventInstanceID="ei50" lid="l55" relType="BEFORE" relatedToEventInstance="ei53" />
+<TLINK eventInstanceID="ei51" lid="l56" relType="BEFORE" relatedToEventInstance="ei52" />
+<TLINK eventInstanceID="ei51" lid="l57" relType="BEFORE" relatedToEventInstance="ei53" />
+<TLINK eventInstanceID="ei52" lid="l58" relType="BEFORE" relatedToEventInstance="ei53" />
+<TLINK eventInstanceID="ei52" lid="l59" relType="BEFORE" relatedToEventInstance="ei54" />
+<TLINK eventInstanceID="ei52" lid="l60" relType="BEFORE" relatedToEventInstance="ei55" />
+<TLINK eventInstanceID="ei52" lid="l61" relType="BEFORE" relatedToEventInstance="ei56" />
+<TLINK eventInstanceID="ei52" lid="l62" relType="BEFORE" relatedToEventInstance="ei57" />
+<TLINK eventInstanceID="ei52" lid="l63" relType="AFTER" relatedToEventInstance="ei58" />
+<TLINK eventInstanceID="ei53" lid="l64" relType="BEFORE" relatedToEventInstance="ei54" />
+<TLINK eventInstanceID="ei53" lid="l65" relType="AFTER" relatedToEventInstance="ei55" />
+<TLINK eventInstanceID="ei53" lid="l66" relType="BEFORE" relatedToEventInstance="ei56" />
+<TLINK eventInstanceID="ei53" lid="l67" relType="BEFORE" relatedToEventInstance="ei57" />
+<TLINK eventInstanceID="ei53" lid="l68" relType="BEFORE" relatedToEventInstance="ei58" />
+<TLINK eventInstanceID="ei54" lid="l69" relType="AFTER" relatedToEventInstance="ei55" />
+<TLINK eventInstanceID="ei54" lid="l70" relType="AFTER" relatedToEventInstance="ei56" />
+<TLINK eventInstanceID="ei54" lid="l71" relType="BEFORE" relatedToEventInstance="ei57" />
+<TLINK eventInstanceID="ei54" lid="l72" relType="AFTER" relatedToEventInstance="ei58" />
+<TLINK eventInstanceID="ei54" lid="l73" relType="BEFORE" relatedToEventInstance="ei59" />
+<TLINK eventInstanceID="ei55" lid="l74" relType="BEFORE" relatedToEventInstance="ei56" />
+<TLINK eventInstanceID="ei55" lid="l75" relType="BEFORE" relatedToEventInstance="ei57" />
+<TLINK eventInstanceID="ei55" lid="l76" relType="AFTER" relatedToEventInstance="ei58" />
+<TLINK eventInstanceID="ei55" lid="l77" relType="BEFORE" relatedToEventInstance="ei59" />
+<TLINK eventInstanceID="ei56" lid="l78" relType="BEFORE" relatedToEventInstance="ei57" />
+<TLINK eventInstanceID="ei56" lid="l79" relType="AFTER" relatedToEventInstance="ei58" />
+<TLINK eventInstanceID="ei56" lid="l80" relType="BEFORE" relatedToEventInstance="ei59" />
+<TLINK eventInstanceID="ei57" lid="l81" relType="AFTER" relatedToEventInstance="ei58" />
+<TLINK eventInstanceID="ei57" lid="l82" relType="BEFORE" relatedToEventInstance="ei59" />
+<TLINK eventInstanceID="ei58" lid="l83" relType="BEFORE" relatedToEventInstance="ei59" />
+<TLINK eventInstanceID="ei59" lid="l84" relType="BEFORE" relatedToEventInstance="ei60" />
+<TLINK eventInstanceID="ei59" lid="l85" relType="BEFORE" relatedToEventInstance="ei61" />
+<TLINK eventInstanceID="ei59" lid="l86" relType="BEFORE" relatedToEventInstance="ei62" />
+<TLINK eventInstanceID="ei60" lid="l87" relType="BEFORE" relatedToEventInstance="ei61" />
+<TLINK eventInstanceID="ei60" lid="l88" relType="BEFORE" relatedToEventInstance="ei62" />
+<TLINK eventInstanceID="ei60" lid="l89" relType="BEFORE" relatedToEventInstance="ei63" />
+<TLINK eventInstanceID="ei61" lid="l90" relType="BEFORE" relatedToEventInstance="ei62" />
+<TLINK eventInstanceID="ei61" lid="l91" relType="BEFORE" relatedToEventInstance="ei63" />
+<TLINK eventInstanceID="ei70" lid="l92" relType="BEFORE" relatedToEventInstance="ei71" />
+<TLINK eventInstanceID="ei70" lid="l93" relType="BEFORE" relatedToEventInstance="ei76" />
+<TLINK eventInstanceID="ei70" lid="l94" relType="BEFORE" relatedToEventInstance="ei77" />
+<TLINK eventInstanceID="ei71" lid="l95" relType="BEFORE" relatedToEventInstance="ei76" />
+<TLINK eventInstanceID="ei76" lid="l96" relType="AFTER" relatedToEventInstance="ei77" />
+<TLINK eventInstanceID="ei77" lid="l97" relType="BEFORE" relatedToEventInstance="ei81" />
+<TLINK eventInstanceID="ei81" lid="l98" relType="BEFORE" relatedToEventInstance="ei83" />
+<TLINK eventInstanceID="ei82" lid="l99" relType="BEFORE" relatedToEventInstance="ei83" />
+<TLINK eventInstanceID="ei86" lid="l100" relType="BEFORE" relatedToEventInstance="ei89" />
+<TLINK eventInstanceID="ei86" lid="l101" relType="BEFORE" relatedToEventInstance="ei90" />
+<TLINK eventInstanceID="ei89" lid="l102" relType="BEFORE" relatedToEventInstance="ei90" />
+<TLINK eventInstanceID="ei89" lid="l103" relType="BEFORE" relatedToEventInstance="ei91" />
+<TLINK eventInstanceID="ei89" lid="l104" relType="BEFORE" relatedToEventInstance="ei92" />
+<TLINK eventInstanceID="ei90" lid="l105" relType="AFTER" relatedToEventInstance="ei91" />
+<TLINK eventInstanceID="ei90" lid="l106" relType="BEFORE" relatedToEventInstance="ei92" />
+<TLINK eventInstanceID="ei91" lid="l107" relType="BEFORE" relatedToEventInstance="ei92" />
+<TLINK eventInstanceID="ei91" lid="l108" relType="BEFORE" relatedToEventInstance="ei93" />
+<TLINK eventInstanceID="ei92" lid="l109" relType="AFTER" relatedToEventInstance="ei93" />
+<TLINK eventInstanceID="ei93" lid="l110" relType="BEFORE" relatedToEventInstance="ei95" />
+<TLINK eventInstanceID="ei93" lid="l111" relType="AFTER" relatedToEventInstance="ei96" />
+<TLINK eventInstanceID="ei93" lid="l112" relType="AFTER" relatedToEventInstance="ei98" />
+<TLINK eventInstanceID="ei95" lid="l113" relType="BEFORE" relatedToEventInstance="ei96" />
+<TLINK eventInstanceID="ei95" lid="l114" relType="AFTER" relatedToEventInstance="ei98" />
+<TLINK eventInstanceID="ei95" lid="l115" relType="BEFORE" relatedToEventInstance="ei100" />
+<TLINK eventInstanceID="ei96" lid="l116" relType="AFTER" relatedToEventInstance="ei98" />
+<TLINK eventInstanceID="ei96" lid="l117" relType="BEFORE" relatedToEventInstance="ei100" />
+<TLINK eventInstanceID="ei98" lid="l118" relType="BEFORE" relatedToEventInstance="ei100" />
+<TLINK eventInstanceID="ei100" lid="l119" relType="AFTER" relatedToEventInstance="ei101" />
+<TLINK eventInstanceID="ei89" lid="l120" relType="AFTER" relatedToTime="t10" />
+<TLINK eventInstanceID="ei46" lid="l121" relType="BEFORE" relatedToTime="t5" />
+<TLINK eventInstanceID="ei4" lid="l122" relType="AFTER" relatedToTime="t2" />
+<TLINK eventInstanceID="ei4" lid="l123" relType="AFTER" relatedToTime="t1" />
+<TLINK eventInstanceID="ei49" lid="l124" relType="AFTER" relatedToTime="t7" />
+<TLINK eventInstanceID="ei49" lid="l125" relType="BEFORE" relatedToTime="t8" />
+<TLINK timeID="t6" lid="l126" relType="BEFORE" relatedToEventInstance="ei48" />
+<TLINK timeID="t6" lid="l127" relType="BEFORE" relatedToEventInstance="ei49" />
+<TLINK eventInstanceID="ei52" lid="l128" relType="BEFORE" relatedToTime="t9" />
+<TLINK timeID="t9" lid="l129" relType="BEFORE" relatedToEventInstance="ei58" />
+<TLINK timeID="t9" lid="l130" relType="BEFORE" relatedToEventInstance="ei57" />
+<TLINK eventInstanceID="ei48" lid="l131" relType="AFTER" relatedToTime="t7" />
+<TLINK eventInstanceID="ei48" lid="l132" relType="BEFORE" relatedToTime="t8" />
+<TLINK timeID="t9" lid="l133" relType="BEFORE" relatedToEventInstance="ei54" />
+<TLINK timeID="t9" lid="l134" relType="BEFORE" relatedToEventInstance="ei56" />
+<TLINK timeID="t9" lid="l135" relType="BEFORE" relatedToEventInstance="ei55" />
+<TLINK eventInstanceID="ei40" lid="l136" relType="AFTER" relatedToTime="t4" />
+<TLINK eventInstanceID="ei51" lid="l137" relType="BEFORE" relatedToTime="t8" />
+<TLINK eventInstanceID="ei92" lid="l138" relType="AFTER" relatedToTime="t10" />
+<TLINK eventInstanceID="ei51" lid="l139" relType="BEFORE" relatedToTime="t9" />
+<TLINK eventInstanceID="ei90" lid="l140" relType="BEFORE" relatedToTime="t10" />
+<TLINK timeID="t7" lid="l141" relType="BEFORE" relatedToEventInstance="ei50" />
+<TLINK timeID="t7" lid="l142" relType="BEFORE" relatedToEventInstance="ei51" />
+<TLINK eventInstanceID="ei43" lid="l143" relType="AFTER" relatedToTime="t5" />
+<TLINK eventInstanceID="ei37" lid="l144" relType="AFTER" relatedToTime="t4" />
+<TLINK eventInstanceID="ei42" lid="l145" relType="AFTER" relatedToTime="t5" />
+<TLINK timeID="t10" lid="l146" relType="BEFORE" relatedToEventInstance="ei93" />
+<TLINK eventInstanceID="ei36" lid="l147" relType="AFTER" relatedToTime="t4" />
+<TLINK eventInstanceID="ei53" lid="l148" relType="AFTER" relatedToTime="t9" />
+<TLINK timeID="t2" lid="l149" relType="BEFORE" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei45" lid="l150" relType="AFTER" relatedToTime="t5" />
+<TLINK eventInstanceID="ei39" lid="l151" relType="AFTER" relatedToTime="t4" />
+<TLINK eventInstanceID="ei44" lid="l152" relType="AFTER" relatedToTime="t5" />
+<TLINK eventInstanceID="ei1" lid="l153" relType="AFTER" relatedToTime="t2" />
+<TLINK eventInstanceID="ei38" lid="l154" relType="AFTER" relatedToTime="t4" />
+<TLINK eventInstanceID="ei1" lid="l155" relType="BEFORE" relatedToTime="t1" />
+<TLINK timeID="t2" lid="l156" relType="AFTER" relatedToEventInstance="ei6" />
+<TLINK timeID="t2" lid="l157" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK timeID="t2" lid="l158" relType="BEFORE" relatedToEventInstance="ei9" />
+<TLINK timeID="t8" lid="l159" relType="BEFORE" relatedToEventInstance="ei53" />
+<TLINK timeID="t8" lid="l160" relType="BEFORE" relatedToEventInstance="ei52" />
+<TLINK eventInstanceID="ei47" lid="l161" relType="BEFORE" relatedToTime="t7" />
+<TLINK eventInstanceID="ei47" lid="l162" relType="AFTER" relatedToTime="t6" />
+<TLINK eventInstanceID="ei50" lid="l163" relType="AFTER" relatedToTime="t8" />
+<TLINK eventInstanceID="ei50" lid="l164" relType="BEFORE" relatedToTime="t9" />
+
+</TimeML>

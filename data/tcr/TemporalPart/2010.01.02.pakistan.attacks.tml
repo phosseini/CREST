@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>2010.01.02.pakistan.attacks</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="2010-01-03" temporalFunction="false" functionInDocument="CREATION_TIME">2010-01-03</TIMEX3></DCT>
+<TEXT>
+The death toll <EVENT class="OCCURRENCE" eid="e1">climbed</EVENT> to 99 on <TIMEX3 tid="t1" type="DATE" value="2010-01-03">Sunday</TIMEX3> after a suicide car bomb <EVENT class="OCCURRENCE" eid="e2">exploded</EVENT> <TIMEX3 tid="t2" type="DATE" value="2010-01-01">Friday</TIMEX3> in the middle of a group of men <EVENT class="OCCURRENCE" eid="e3">playing</EVENT> volleyball in northwest Pakistan, police <EVENT class="REPORTING" eid="e4">said</EVENT>.
+Thirty-six others who were <EVENT class="OCCURRENCE" eid="e5">injured</EVENT> in the attack <EVENT class="STATE" eid="e6">remained</EVENT> <EVENT class="OCCURRENCE" eid="e7">hospitalized</EVENT> <TIMEX3 tid="t3" type="DATE" value="2010-01-03">Sunday</TIMEX3>, <EVENT class="REPORTING" eid="e8">said</EVENT> Mohammed Ayub Khan, police chief of the Lakki Marwat district.
+Those killed included at least six children, and most of the other victims were teenagers who were <EVENT class="OCCURRENCE" eid="e10">watching</EVENT> the volleyball game, he <EVENT class="OCCURRENCE" eid="e11">added</EVENT>.
+People who <EVENT class="OCCURRENCE" eid="e12">lived</EVENT> near the volleyball court also were among the casualties.
+The number of those hospitalized <EVENT class="OCCURRENCE" eid="e13">climbed</EVENT> from the 34 reported <TIMEX3 tid="t4" type="DATE" value="2010-01-02">Saturday</TIMEX3>, because information has <EVENT class="OCCURRENCE" eid="e14">trickled</EVENT> in from area hospitals, Khan <EVENT class="REPORTING" eid="e15">said</EVENT>.
+The attack <EVENT class="OCCURRENCE" eid="e16">happened</EVENT> in a residential neighborhood in the village of Shah Hassan Khel -- also called Lakki Marwat -- in Pakistan's North West Frontier Province, <EVENT class="REPORTING" eid="e18">said</EVENT> district police officer Asmat Ullah.
+The village is about 10 miles ( 16 kilometers ) south of the district capital.
+Eight houses in the neighborhood <EVENT class="OCCURRENCE" eid="e19">collapsed</EVENT>, and the blast was <EVENT class="OCCURRENCE" eid="e20">felt</EVENT> miles away, the police chief <EVENT class="REPORTING" eid="e21">said</EVENT>.
+Volleyball is a popular sport in the area, and more than 200 people were <EVENT class="OCCURRENCE" eid="e22">watching</EVENT> the game when the bomb <EVENT class="OCCURRENCE" eid="e23">went</EVENT> off, the chief <EVENT class="REPORTING" eid="e24">said</EVENT>.
+Authorities believe a pickup was <EVENT class="OCCURRENCE" eid="e26">loaded</EVENT> with more than 600 pounds ( 300 kilograms ) of explosives, Khan <EVENT class="REPORTING" eid="e27">said</EVENT>.
+The area used to be a hub for militants before the military <EVENT class="OCCURRENCE" eid="e29">flushed</EVENT> them out about <TIMEX3 tid="t5" type="DURATION" value="">two months ago</TIMEX3>, the chief <EVENT class="REPORTING" eid="e30">said</EVENT>.
+Since then, militants have been <EVENT class="OCCURRENCE" eid="e31">threatening</EVENT> the community, Mushtaq Marwatt, a member of a local peace committee, <EVENT class="REPORTING" eid="e32">said</EVENT> on a local TV channel.
+The region is near the rugged border with Afghanistan.
+The border area has been the scene of heavy fighting between Pakistani military forces and the Taliban, the Islamic militia that also is <EVENT class="OCCURRENCE" eid="e33">battling</EVENT> U.S. forces in Afghanistan.
+Journalists Nasir Habib, Nasir Dawar and Nazar ul-Islam <EVENT class="OCCURRENCE" eid="e34">contributed</EVENT> to this report.
+</TEXT>
+<MAKEINSTANCE aspect="NONE" eiid="ei1" eventID="e1" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2" eventID="e2" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei3" eventID="e3" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei4" eventID="e4" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei5" eventID="e5" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei6" eventID="e6" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei7" eventID="e7" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei8" eventID="e8" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei10" eventID="e10" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei11" eventID="e11" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei12" eventID="e12" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei13" eventID="e13" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei14" eventID="e14" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei15" eventID="e15" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei16" eventID="e16" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei18" eventID="e18" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei19" eventID="e19" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei20" eventID="e20" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei21" eventID="e21" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei22" eventID="e22" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei23" eventID="e23" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei24" eventID="e24" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei26" eventID="e26" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei27" eventID="e27" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei29" eventID="e29" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei30" eventID="e30" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei31" eventID="e31" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei32" eventID="e32" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei33" eventID="e33" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei34" eventID="e34" polarity="POS"  tense="PAST" />
+<TLINK eventInstanceID="ei1" lid="l0" relType="AFTER" relatedToEventInstance="ei2" />
+<TLINK eventInstanceID="ei1" lid="l1" relType="AFTER" relatedToEventInstance="ei3" />
+<TLINK eventInstanceID="ei1" lid="l2" relType="BEFORE" relatedToEventInstance="ei4" />
+<TLINK eventInstanceID="ei1" lid="l3" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei1" lid="l4" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei1" lid="l5" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei2" lid="l6" relType="AFTER" relatedToEventInstance="ei3" />
+<TLINK eventInstanceID="ei2" lid="l7" relType="BEFORE" relatedToEventInstance="ei4" />
+<TLINK eventInstanceID="ei2" lid="l8" relType="BEFORE" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei2" lid="l9" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei2" lid="l10" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei2" lid="l11" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei3" lid="l12" relType="BEFORE" relatedToEventInstance="ei4" />
+<TLINK eventInstanceID="ei3" lid="l13" relType="BEFORE" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei3" lid="l14" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei3" lid="l15" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei3" lid="l16" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei4" lid="l17" relType="AFTER" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei4" lid="l18" relType="AFTER" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei4" lid="l19" relType="AFTER" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei4" lid="l20" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei5" lid="l21" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK eventInstanceID="ei5" lid="l22" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei5" lid="l23" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei5" lid="l24" relType="AFTER" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei5" lid="l25" relType="BEFORE" relatedToEventInstance="ei11" />
+<TLINK eventInstanceID="ei6" lid="l26" relType="AFTER" relatedToEventInstance="ei7" />
+<TLINK eventInstanceID="ei6" lid="l27" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei6" lid="l28" relType="AFTER" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei6" lid="l29" relType="BEFORE" relatedToEventInstance="ei11" />
+<TLINK eventInstanceID="ei7" lid="l30" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei7" lid="l31" relType="AFTER" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei7" lid="l32" relType="BEFORE" relatedToEventInstance="ei11" />
+<TLINK eventInstanceID="ei8" lid="l33" relType="AFTER" relatedToEventInstance="ei10" />
+<TLINK eventInstanceID="ei8" lid="l34" relType="BEFORE" relatedToEventInstance="ei11" />
+<TLINK eventInstanceID="ei10" lid="l35" relType="BEFORE" relatedToEventInstance="ei11" />
+<TLINK eventInstanceID="ei11" lid="l36" relType="AFTER" relatedToEventInstance="ei12" />
+<TLINK eventInstanceID="ei12" lid="l37" relType="BEFORE" relatedToEventInstance="ei13" />
+<TLINK eventInstanceID="ei12" lid="l38" relType="BEFORE" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei12" lid="l39" relType="BEFORE" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei13" lid="l40" relType="AFTER" relatedToEventInstance="ei14" />
+<TLINK eventInstanceID="ei13" lid="l41" relType="BEFORE" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei13" lid="l42" relType="AFTER" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei13" lid="l43" relType="BEFORE" relatedToEventInstance="ei18" />
+<TLINK eventInstanceID="ei14" lid="l44" relType="BEFORE" relatedToEventInstance="ei15" />
+<TLINK eventInstanceID="ei14" lid="l45" relType="AFTER" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei14" lid="l46" relType="BEFORE" relatedToEventInstance="ei18" />
+<TLINK eventInstanceID="ei15" lid="l47" relType="AFTER" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei15" lid="l48" relType="BEFORE" relatedToEventInstance="ei18" />
+<TLINK eventInstanceID="ei16" lid="l49" relType="BEFORE" relatedToEventInstance="ei18" />
+<TLINK eventInstanceID="ei19" lid="l50" relType="BEFORE" relatedToEventInstance="ei20" />
+<TLINK eventInstanceID="ei19" lid="l51" relType="BEFORE" relatedToEventInstance="ei21" />
+<TLINK eventInstanceID="ei19" lid="l52" relType="AFTER" relatedToEventInstance="ei22" />
+<TLINK eventInstanceID="ei19" lid="l53" relType="AFTER" relatedToEventInstance="ei23" />
+<TLINK eventInstanceID="ei19" lid="l54" relType="BEFORE" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei20" lid="l55" relType="BEFORE" relatedToEventInstance="ei21" />
+<TLINK eventInstanceID="ei20" lid="l56" relType="AFTER" relatedToEventInstance="ei22" />
+<TLINK eventInstanceID="ei20" lid="l57" relType="AFTER" relatedToEventInstance="ei23" />
+<TLINK eventInstanceID="ei20" lid="l58" relType="BEFORE" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei21" lid="l59" relType="AFTER" relatedToEventInstance="ei22" />
+<TLINK eventInstanceID="ei21" lid="l60" relType="AFTER" relatedToEventInstance="ei23" />
+<TLINK eventInstanceID="ei21" lid="l61" relType="BEFORE" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei22" lid="l62" relType="BEFORE" relatedToEventInstance="ei23" />
+<TLINK eventInstanceID="ei22" lid="l63" relType="BEFORE" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei22" lid="l64" relType="BEFORE" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei23" lid="l65" relType="BEFORE" relatedToEventInstance="ei24" />
+<TLINK eventInstanceID="ei23" lid="l66" relType="AFTER" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei23" lid="l67" relType="BEFORE" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei24" lid="l68" relType="AFTER" relatedToEventInstance="ei26" />
+<TLINK eventInstanceID="ei26" lid="l69" relType="BEFORE" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei26" lid="l70" relType="AFTER" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei26" lid="l71" relType="BEFORE" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei27" lid="l72" relType="AFTER" relatedToEventInstance="ei29" />
+<TLINK eventInstanceID="ei29" lid="l73" relType="BEFORE" relatedToEventInstance="ei30" />
+<TLINK eventInstanceID="ei29" lid="l74" relType="BEFORE" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei29" lid="l75" relType="BEFORE" relatedToEventInstance="ei32" />
+<TLINK eventInstanceID="ei30" lid="l76" relType="BEFORE" relatedToEventInstance="ei31" />
+<TLINK eventInstanceID="ei30" lid="l77" relType="BEFORE" relatedToEventInstance="ei32" />
+<TLINK eventInstanceID="ei31" lid="l78" relType="BEFORE" relatedToEventInstance="ei32" />
+<TLINK eventInstanceID="ei33" lid="l79" relType="BEFORE" relatedToEventInstance="ei34" />
+<TLINK eventInstanceID="ei7" lid="l80" relType="BEFORE" relatedToTime="t3" />
+<TLINK eventInstanceID="ei4" lid="l81" relType="AFTER" relatedToTime="t2" />
+<TLINK eventInstanceID="ei4" lid="l82" relType="AFTER" relatedToTime="t1" />
+<TLINK timeID="t3" lid="l83" relType="AFTER" relatedToEventInstance="ei10" />
+<TLINK timeID="t3" lid="l84" relType="BEFORE" relatedToEventInstance="ei11" />
+<TLINK eventInstanceID="ei4" lid="l85" relType="AFTER" relatedToTime="t3" />
+<TLINK eventInstanceID="ei14" lid="l86" relType="AFTER" relatedToTime="t4" />
+<TLINK eventInstanceID="ei5" lid="l87" relType="BEFORE" relatedToTime="t3" />
+<TLINK timeID="t1" lid="l88" relType="AFTER" relatedToEventInstance="ei5" />
+<TLINK timeID="t1" lid="l89" relType="BEFORE" relatedToEventInstance="ei7" />
+<TLINK timeID="t1" lid="l90" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK timeID="t1" lid="l91" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK eventInstanceID="ei15" lid="l92" relType="AFTER" relatedToTime="t4" />
+<TLINK eventInstanceID="ei2" lid="l93" relType="BEFORE" relatedToTime="t3" />
+<TLINK eventInstanceID="ei2" lid="l94" relType="BEFORE" relatedToTime="t1" />
+<TLINK eventInstanceID="ei2" lid="l95" relType="AFTER" relatedToTime="t2" />
+<TLINK eventInstanceID="ei12" lid="l96" relType="BEFORE" relatedToTime="t4" />
+<TLINK eventInstanceID="ei3" lid="l97" relType="BEFORE" relatedToTime="t1" />
+<TLINK eventInstanceID="ei3" lid="l98" relType="BEFORE" relatedToTime="t3" />
+<TLINK eventInstanceID="ei13" lid="l99" relType="AFTER" relatedToTime="t4" />
+<TLINK eventInstanceID="ei8" lid="l100" relType="AFTER" relatedToTime="t3" />
+<TLINK timeID="t4" lid="l101" relType="BEFORE" relatedToEventInstance="ei18" />
+<TLINK timeID="t4" lid="l102" relType="AFTER" relatedToEventInstance="ei16" />
+<TLINK eventInstanceID="ei1" lid="l103" relType="AFTER" relatedToTime="t2" />
+<TLINK eventInstanceID="ei1" lid="l104" relType="AFTER" relatedToTime="t1" />
+<TLINK eventInstanceID="ei6" lid="l105" relType="AFTER" relatedToTime="t3" />
+<TLINK timeID="t2" lid="l106" relType="BEFORE" relatedToEventInstance="ei6" />
+<TLINK timeID="t2" lid="l107" relType="BEFORE" relatedToEventInstance="ei5" />
+<TLINK timeID="t2" lid="l108" relType="BEFORE" relatedToEventInstance="ei8" />
+<TLINK timeID="t2" lid="l109" relType="BEFORE" relatedToEventInstance="ei7" />
+
+</TimeML>
