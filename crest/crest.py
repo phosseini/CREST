@@ -7,6 +7,7 @@ import json
 import spacy
 import logging
 import pandas as pd
+from xml.dom import minidom
 import xml.etree.ElementTree as ET
 
 
@@ -45,7 +46,8 @@ class Converter:
                         "because": 7,
                         "copa": 8,
                         "pdtb3": 9,
-                        "biocause": 10
+                        "biocause": 10,
+                        "tcr": 11
                         }
 
         self.idxmethod = {self.namexid["semeval_2007_4"]: self.convert_semeval_2007_4,
@@ -57,7 +59,8 @@ class Converter:
                           self.namexid["because"]: self.convert_because,
                           self.namexid["copa"]: self.convert_copa,
                           self.namexid["pdtb3"]: self.convert_pdtb3,
-                          self.namexid["biocause"]: self.convert_biocause
+                          self.namexid["biocause"]: self.convert_biocause,
+                          self.namexid["tcr"]: self.convert_tcr
                           }
 
         # causal tags in PDTB3
@@ -318,8 +321,8 @@ class Converter:
                     doc_tags = []
                     tags = child.text.split("\n")
                     for tag in tags:
-                        # reading only causal (C) tags
-                        if tag.startswith("C"):
+                        # reading causal tags
+                        if tag.startswith("C") or tag.startswith("R"):
                             if "\t" in tag:
                                 tag_var = tag.split("\t")
                             else:
@@ -1550,6 +1553,67 @@ class Converter:
         data.insert(0, 'global_id', global_ids)
         data.reset_index()
 
+        return data, mismatch
+
+    def convert_tcr(self):
+        """
+        converting the Temporal and Causal Reasoning (TCR) dataset.
+        we only convert the C-Links (causal relations) from this dataset
+        :return:
+        """
+
+        def read_text(file_name, event_a_id, event_b_id):
+            idx_val = {"span1": [], "span2": [], "signal": []}
+            parsed_doc = minidom.parse(self.dir_path + "tcr/TemporalPart/{}".format(file_name))
+            elements = parsed_doc.getElementsByTagName('TEXT')
+            text = ""
+            token_index = 0
+            tagxid = {"EVENT": "eid", "TIMEX3": "tid"}
+            for element in elements:
+                if element.tagName == "TEXT":
+                    for item in element.childNodes:
+                        if item.nodeName == "#text":
+                            text += item.wholeText
+                            token_index += len(item.wholeText)
+                        elif item.nodeName == "EVENT" or item.nodeName == "TIMEX3":
+                            item_text = ' '.join([child_node.wholeText for child_node in item.childNodes])
+                            text += item_text
+                            start_end = [token_index, token_index + len(item_text)]
+                            token_index += len(item_text)
+
+                            if item.attributes[tagxid[item.nodeName]].value == event_a_id:
+                                idx_val["span1"].append(start_end)
+                                event_a_text = item_text
+                            elif item.attributes[tagxid[item.nodeName]].value == event_b_id:
+                                idx_val["span2"].append(start_end)
+                                event_b_text = item_text
+            return text, idx_val, [event_a_text, event_b_text]
+
+        mismatch = 0
+        data = pd.DataFrame(columns=self.scheme_columns)
+
+        with open(self.dir_path + "tcr/CausalPart/allClinks.txt", 'r') as in_file:
+            lines = in_file.readlines()
+
+        annotations = [line.strip().split('\t') for line in lines]
+
+        for annotation in annotations:
+            file_path = annotation[0] + ".tml"
+            text, idx_val, events_text = read_text(file_path, annotation[1], annotation[2])
+            direction = 1 if annotation[3] == "caused_by" else 0
+
+            # saving the sample
+            new_row = {"original_id": '', "span1": [events_text[0]], "span2": [events_text[1]], "signal": [],
+                       "context": text,
+                       "idx": idx_val, "label": 1, "direction": direction,
+                       "source": self.namexid["tcr"],
+                       "ann_file": file_path,
+                       "split": 2}
+
+            if self.check_span_indexes(new_row):
+                data = data.append(new_row, ignore_index=True)
+            else:
+                mismatch += 1
         return data, mismatch
 
     @staticmethod
