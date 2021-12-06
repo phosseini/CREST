@@ -26,7 +26,7 @@ Each relation in a CREST-formatted DataFrame has the following fields/values:
 * **`label`**: label of the relation, `0: non-causal`, `1: causal`
 * **`direction`**: direction between span1 and span2. `0: span1 => span2`, `1: span1 <= span2`, `-1: not-specified`
 * **`source`**: id of the source dataset (`ids` are listed in a table below)
-* **`split`**: `0: train`, `1: dev`, `test: 2`. This is the split to which the relation belongs in the original dataset. If there is no split specified for a relation in the original dataset, we assign the relation to the `train` split by default.
+* **`split`**: `0: train`, `1: dev`, `2: test`. This is the split to which the relation belongs in the original dataset. If there is no split specified for a relation in the original dataset, we assign the relation to the `train` split by default.
 
 **Note:** The reason we save a list of strings instead of a single string for span1, span2, and signal is that these text spans may contain multiple non-consecutive sub-spans in context.
 
