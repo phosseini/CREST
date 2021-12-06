@@ -47,7 +47,8 @@ class Converter:
                         "copa": 8,
                         "pdtb3": 9,
                         "biocause": 10,
-                        "tcr": 11
+                        "tcr": 11,
+                        "ade": 12
                         }
 
         self.idxmethod = {self.namexid["semeval_2007_4"]: self.convert_semeval_2007_4,
@@ -60,7 +61,8 @@ class Converter:
                           self.namexid["copa"]: self.convert_copa,
                           self.namexid["pdtb3"]: self.convert_pdtb3,
                           self.namexid["biocause"]: self.convert_biocause,
-                          self.namexid["tcr"]: self.convert_tcr
+                          self.namexid["tcr"]: self.convert_tcr,
+                          self.namexid["ade"]: self.convert_ade
                           }
 
         # causal tags in PDTB3
@@ -1619,6 +1621,58 @@ class Converter:
                 data = data.append(new_row, ignore_index=True)
             else:
                 mismatch += 1
+        return data, mismatch
+
+    def convert_ade(self):
+        """
+        converting ADE Corpus Charactersitics data to CREST
+        :return:
+        """
+        mismatch = 0
+        data = pd.DataFrame(columns=self.scheme_columns)
+
+        # Title and Abstract in the following file are retrieved from the PubMed in a separate process
+        df = pd.read_excel(self.dir_path + 'ade/ade.xlsx')
+        for idx, row in df.iterrows():
+            header = "{}\n\n".format(row['PMID'])
+            text = "{}{}\n\n{}".format(header, row['Title'], row['Abstract'])
+
+            # since PMID and Title are part of text, we want to remove then to keep the relevant context
+            e1_start = row['e1_start'] - len(header)
+            e1_end = row['e1_end'] - len(header)
+            e2_start = row['e2_start'] - len(header)
+            e2_end = row['e2_end'] - len(header)
+
+            text = text[len(header):]
+            e1 = text[e1_start:e1_end]
+            e2 = text[e2_start:e2_end]
+
+            if e1 == row['e1_text'] and e2 == row['e2_text']:
+                # since in all relations DRUG is the second span: [AE|DOSE] <- DRUG, we set direction to 1 by default
+                # meaning that the relation is from DRUG (span2) to span1 (either AE or DOSE)
+                direction = 1
+
+                # however, we also want to make sure span1 appears before span2 in context
+                if e1_start > e2_start:
+                    e1_start, e2_start = e2_start, e1_start
+                    e1_end, e2_end = e2_end, e1_end
+                    e1, e2 = e2, e1
+                    direction = 0
+
+                idx_val = {"span1": [[e1_start, e1_end]], "span2": [[e2_start, e2_end]], "signal": []}
+
+                # saving the sample
+                new_row = {"original_id": '', "span1": [e1], "span2": [e2], "signal": [],
+                           "context": text,
+                           "idx": idx_val, "label": 1, "direction": direction,
+                           "source": self.namexid["ade"],
+                           "ann_file": "",
+                           "split": 0}
+
+                if self.check_span_indexes(new_row):
+                    data = data.append(new_row, ignore_index=True)
+                else:
+                    mismatch += 1
         return data, mismatch
 
     @staticmethod
