@@ -42,8 +42,8 @@ We provide helper methods to convert CREST-formatted data to popular formats and
 ### Available Data Resources
 List of data resources already converted to CREST format:
 
-| Id | Data resource  | Samples | Causal | Non-causal | Availability | Document |
-| -- | -------------- | :----------: | :---------: | :-----------: | ------------ | :-----------: |
+| Id | Data resource  | Samples | Causal | Non-causal | Availability | Doc. |
+| -- | -------------- | :----------: | :---------: | :-----------: | :-----------: | :-----------: |
 | 1 | [SemEval 2007 task 4](https://www.aclweb.org/anthology/S07-1003/) | 1,529 | 114 | 1,415 | Public | - |
 | 2 | [SemEval 2010 task 8](https://www.aclweb.org/anthology/S10-1006/) | 10,717 | 1,331 | 9,386 | Public | - | 
 | 3 | [EventCausality](https://cogcomp.seas.upenn.edu/page/resource_view/27) | 583 | 583 | - | Public | [Paper](https://aclanthology.org/D11-1027/) |
