@@ -42,19 +42,20 @@ We provide helper methods to convert CREST-formatted data to popular formats and
 ### Available Data Resources
 List of data resources already converted to CREST format:
 
-| Id | Data resource  | Samples | Causal | Non-causal | Availability |
-| -- | -------------- | :----------: | :---------: | :-----------: | ------------ |
-| 1 | [SemEval 2007 task 4](https://www.aclweb.org/anthology/S07-1003/) | 1,529 | 114 | 1,415 | Public |
-| 2 | [SemEval 2010 task 8](https://www.aclweb.org/anthology/S10-1006/) | 10,717 | 1,331 | 9,386 | Public | 
-| 3 | [EventCausality](https://cogcomp.seas.upenn.edu/page/resource_view/27) | 583 | 583 | - | Public |
-| 4 | [Causal-TimeBank](https://hlt-nlp.fbk.eu/technologies/causal-timebank) | 318 | 318 | - | Public | 
-| 5 | [EventStoryLine v1.5](https://github.com/tommasoc80/EventStoryLine) | 2,608 | 2,608 | - | Public | 
-| 6 | [CaTeRS](https://www.cs.rochester.edu/nlp/rocstories/CaTeRS/) | 2,502 | 308 | 2,194 | Public | 
-| 7 | [BECauSE v2.1](https://github.com/duncanka/BECAUSE) | 729 | 554 | 175 | Partially Public| 
-| 8 | [Choice of Plausible Alternatives (COPA)](https://www.cs.york.ac.uk/semeval-2012/task7/index.php%3Fid=data.html) | 2,000 | 1,000 | 1,000 | Public |
-| 9 | [The Penn Discourse Treebank (PDTB) 3.0](https://catalog.ldc.upenn.edu/LDC2019T05) | 7,991 | 7,991 | - | Not Public |
-| 10 | [BioCause Corpus](http://www.nactem.ac.uk/biocause/) | 844 | 844 | - | Public |
-| 11 | [Temporal and Causal Reasoning (TCR)](https://cogcomp.seas.upenn.edu/page/resource_view/118) | 172 | 172 |  - | Public |
+| Id | Data resource  | Samples | Causal | Non-causal | Availability | Doc. |
+| -- | -------------- | :----------: | :---------: | :-----------: | :-----------: | :-----------: |
+| 1 | [SemEval 2007 task 4](https://www.aclweb.org/anthology/S07-1003/) | 1,529 | 114 | 1,415 | Public | - |
+| 2 | [SemEval 2010 task 8](https://www.aclweb.org/anthology/S10-1006/) | 10,717 | 1,331 | 9,386 | Public | - | 
+| 3 | [EventCausality](https://cogcomp.seas.upenn.edu/page/resource_view/27) | 583 | 583 | - | Public | [Paper](https://aclanthology.org/D11-1027/) |
+| 4 | [Causal-TimeBank](https://hlt-nlp.fbk.eu/technologies/causal-timebank) | 318 | 318 | - | Public | [Paper](https://aclanthology.org/W14-0702/) |
+| 5 | [EventStoryLine v1.5](https://github.com/tommasoc80/EventStoryLine) | 2,608 | 2,608 | - | Public | [Paper](https://aclanthology.org/W17-2711/) |
+| 6 | [CaTeRS](https://www.cs.rochester.edu/nlp/rocstories/CaTeRS/) | 2,502 | 308 | 2,194 | Public | [Paper](https://www.usna.edu/Users/cs/nchamber/pubs/naacl2016-caters.pdf)  |
+| 7 | [BECauSE v2.1](https://github.com/duncanka/BECAUSE) | 729 | 554 | 175 | Partially Public| [Paper](https://aclanthology.org/W17-0812/)  |
+| 8 | [Choice of Plausible Alternatives (COPA)](https://www.cs.york.ac.uk/semeval-2012/task7/index.php%3Fid=data.html) | 2,000 | 1,000 | 1,000 | Public | [Paper](https://people.ict.usc.edu/~gordon/publications/AAAI-SPRING11A.PDF) |
+| 9 | [The Penn Discourse Treebank (PDTB) 3.0](https://catalog.ldc.upenn.edu/LDC2019T05) | 7,991 | 7,991 | - | Not Public | [Manual](https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf) |
+| 10 | [BioCause Corpus](http://www.nactem.ac.uk/biocause/) | 844 | 844 | - | Public | [Paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-2) |
+| 11 | [Temporal and Causal Reasoning (TCR)](https://cogcomp.seas.upenn.edu/page/resource_view/118) | 172 | 172 | - | Public | [Paper](https://aclanthology.org/P18-1212/) |
+| 12 | [Benchmark Corpus for Adverse Drug Effects](https://sites.google.com/site/adecorpus/) | 5671 | 5671 | - | Public | [Paper](https://www.sciencedirect.com/science/article/pii/S1532046412000615) |
 
 ### How you can contribute:
 * Are there any related datasets you don’t see in the list? Let us know or feel free to submit a `Pull Request (PR)`, we actively check the PRs and appreciate it :relaxed:
