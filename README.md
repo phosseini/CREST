@@ -55,7 +55,7 @@ List of data resources already converted to CREST format:
 | 9 | [The Penn Discourse Treebank (PDTB) 3.0](https://catalog.ldc.upenn.edu/LDC2019T05) <sup>:warning:</sup> | 7,991 | 7,991 | - | [Manual](https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf) |
 | 10 | [BioCause Corpus](http://www.nactem.ac.uk/biocause/) | 844 | 844 | - | [Paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-2) |
 | 11 | [Temporal and Causal Reasoning (TCR)](https://cogcomp.seas.upenn.edu/page/resource_view/118) | 172 | 172 | - | [Paper](https://aclanthology.org/P18-1212/) |
-| 12 | [Benchmark Corpus for Adverse Drug Effects](https://sites.google.com/site/adecorpus/) | 5671 | 5671 | - | [Paper](https://www.sciencedirect.com/science/article/pii/S1532046412000615) |
+| 12 | [Benchmark Corpus for Adverse Drug Effects](https://sites.google.com/site/adecorpus/) | 5,671 | 5,671 | - | [Paper](https://www.sciencedirect.com/science/article/pii/S1532046412000615) |
 
 <sup>:warning:</sup> &nbsp; The data is either not publicly available or partially available. You can still use CREST for conversion if you have full access to this dataset.
 
