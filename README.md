@@ -30,15 +30,6 @@ Each relation in a CREST-formatted DataFrame has the following fields/values:
 
 **Note:** The reason we save a list of strings instead of a single string for span1, span2, and signal is that these text spans may contain multiple non-consecutive sub-spans in context.
 
-
-### `CREST` conversion
-We provide helper methods to convert CREST-formatted data to popular formats and annotation schemes, mainly formats that are used across relation extraction/classification tasks. In the following, there is a list of formats for which we have already developed CREST converter methods:
-* `brat`: we have provided helper methods for two-way conversion of CREST data frames to brat (see example [here](https://github.com/phosseini/CREST/blob/master/notebooks/crest_brat.ipynb)). [brat](https://brat.nlplab.org/) is a popular web-based annotation tool that has been used for a variety of relation extraction NLP tasks. We use brat for two main reasons: 1) better visualization of causal and non-causal relations and their arguments, and 2) modifying annotations if needed and adding new annotations to provided context. In the following, there is a sample of a converted version of CREST-formatted relation to brat (example is taken from CaTeRS dataset):
-           <p align="center">
-           <img src='data/crest_brat_example.png' width='700' height='150' style="vertical-align:middle;margin:100px 50px">
-           </p>
-* `TACRED`: [TACRED](https://nlp.stanford.edu/projects/tacred/) is a large-scale relation extraction dataset. We convert samples from CREST to TACRED since TACRED-formatted data can be easily used as input to many transformers-based language models.
-
 ### Available Data Resources
 List of data resources already converted to CREST format:
 
@@ -58,6 +49,14 @@ List of data resources already converted to CREST format:
 | 12 | [Benchmark Corpus for Adverse Drug Effects](https://sites.google.com/site/adecorpus/) | 5,671 | 5,671 | - | [Paper](https://www.sciencedirect.com/science/article/pii/S1532046412000615) |
 
 <sup>:warning:</sup> &nbsp; The data is either not publicly available or partially available. You can still use CREST for conversion if you have full access to this dataset.
+
+### `CREST` conversion
+We provide helper methods to convert CREST-formatted data to popular formats and annotation schemes, mainly formats that are used across relation extraction/classification tasks. In the following, there is a list of formats for which we have already developed CREST converter methods:
+* `brat`: we have provided helper methods for two-way conversion of CREST data frames to brat (see example [here](https://github.com/phosseini/CREST/blob/master/notebooks/crest_brat.ipynb)). [brat](https://brat.nlplab.org/) is a popular web-based annotation tool that has been used for a variety of relation extraction NLP tasks. We use brat for two main reasons: 1) better visualization of causal and non-causal relations and their arguments, and 2) modifying annotations if needed and adding new annotations to provided context. In the following, there is a sample of a converted version of CREST-formatted relation to brat (example is taken from CaTeRS dataset):
+           <p align="center">
+           <img src='data/crest_brat_example.png' width='700' height='150' style="vertical-align:middle;margin:100px 50px">
+           </p>
+* `TACRED`: [TACRED](https://nlp.stanford.edu/projects/tacred/) is a large-scale relation extraction dataset. We convert samples from CREST to TACRED since TACRED-formatted data can be easily used as input to many transformers-based language models.
 
 ### How you can contribute:
 * Are there any related datasets you don’t see in the list? Let us know or feel free to submit a `Pull Request (PR)`, we actively check the PRs and appreciate it :relaxed:
