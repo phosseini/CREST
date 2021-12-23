@@ -56,7 +56,7 @@ We provide helper methods to convert CREST-formatted data to popular formats and
            <p align="center">
            <img src='data/crest_brat_example.png' width='700' height='150' style="vertical-align:middle;margin:100px 50px">
            </p>
-* `TACRED`: [TACRED](https://nlp.stanford.edu/projects/tacred/) is a large-scale relation extraction dataset. We convert samples from CREST to TACRED since TACRED-formatted data can be easily used as input to many transformers-based language models.
+* `TACRED`: [TACRED](https://nlp.stanford.edu/projects/tacred/) is a large-scale relation extraction dataset. We convert samples from CREST to TACRED since TACRED-formatted data can be easily used as input to many transformers-based language models. You can find an example of converting CREST-formatted data to TACRED in [this notebook](https://github.com/phosseini/CREST/blob/master/notebooks/crest_reader_converter.ipynb).
 
 ### How you can contribute:
 * Are there any related datasets you don’t see in the list? Let us know or feel free to submit a `Pull Request (PR)`, we actively check the PRs and appreciate it :relaxed:
