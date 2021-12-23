@@ -1798,10 +1798,10 @@ def crest2tacred(df, output_file_name, split=[], source=[], no_order=False, save
 
                 for i in range(len(tokens)):
                     if token_idx == span1_start:
-                        record['span1_start'] = i
+                        record['span1_start'] = copy.deepcopy(i)
                         span1_tokens, record['span1_end'] = get_token_indices(i, token_idx, span1_end, tokens)
                     elif token_idx == span2_start:
-                        record['span2_start'] = i
+                        record['span2_start'] = copy.deepcopy(i)
                         span2_tokens, record['span2_end'] = get_token_indices(i, token_idx, span2_end, tokens)
 
                     token_idx += len(tokens[i])
