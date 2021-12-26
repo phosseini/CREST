@@ -33,6 +33,7 @@ def main(argv):
         converter = Converter()
         df, _ = converter.convert2crest(dataset_ids=dataset_ids)
         df.to_excel(file_path)
+        print("Conversion is done successfully.")
     elif len(argv) < 3:
         print(usage_msg)
         exit(1)

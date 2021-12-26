@@ -48,7 +48,8 @@ class Converter:
                         "pdtb3": 9,
                         "biocause": 10,
                         "tcr": 11,
-                        "ade": 12
+                        "ade": 12,
+                        "semeval_2020_5": 13
                         }
 
         self.idxmethod = {self.namexid["semeval_2007_4"]: self.convert_semeval_2007_4,
@@ -62,7 +63,8 @@ class Converter:
                           self.namexid["pdtb3"]: self.convert_pdtb3,
                           self.namexid["biocause"]: self.convert_biocause,
                           self.namexid["tcr"]: self.convert_tcr,
-                          self.namexid["ade"]: self.convert_ade
+                          self.namexid["ade"]: self.convert_ade,
+                          self.namexid["semeval_2020_5"]: self.convert_semeval_2020_5
                           }
 
         # causal tags in PDTB3
@@ -77,7 +79,7 @@ class Converter:
 
     def convert2crest(self, dataset_ids=[], save_file=False):
         """
-        converting a dataset to CREST
+        Converting a dataset to CREST
         :param dataset_ids: list of integer ids of datasets
         :param save_file: True if want saving result dataframe into xml, False, otherwise
         :return:
@@ -102,7 +104,7 @@ class Converter:
 
     def convert_semeval_2007_4(self):
         """
-        reading SemEval 2007 task 4 data
+        Converting SemEval 2007 task 4 data
         :return: pandas data frame of samples
         """
         e1_tag = ["<e1>", "</e1>"]
@@ -207,7 +209,7 @@ class Converter:
 
     def convert_semeval_2010_8(self):
         """
-        reading SemEval 2010 task 8 data
+        Converting SemEval 2010 task 8 data
         :return: pandas data frame of samples
         """
         e1_tag = ["<e1>", "</e1>"]
@@ -491,7 +493,7 @@ class Converter:
 
     def convert_causal_timebank(self):
         """
-        converting samples from Causal-TimeBank
+        Converting samples from Causal-TimeBank
         """
         mismatch = 0
         data_path = self.dir_path + "causal_timebank/Causal-TimeBank-CAT"
@@ -621,7 +623,7 @@ class Converter:
 
     def convert_eventstorylines_v1(self, version="1.5"):
         """
-        converting causal and non-causal samples from EventStoryLines
+        Converting causal and non-causal samples from EventStoryLines
         """
         mismatch = 0
         docs_path = self.dir_path + "eventstorylines/annotated_data/v" + version
@@ -760,7 +762,7 @@ class Converter:
 
     def convert_eventstorylines_v2(self, version="1.5"):
         """
-        converting causal and non-causal samples from EventStoryLines based on evaluation_format file
+        Converting causal and non-causal samples from EventStoryLines based on evaluation_format file
         """
 
         splits = {'full_corpus/v{}/event_mentions_extended'.format(version): 0,
@@ -1051,7 +1053,7 @@ class Converter:
 
     def convert_because(self):
         """
-        reading BECAUSE v2.1 Data
+        Converting BECAUSE v2.1 Data
         :return:
         """
 
@@ -1223,7 +1225,7 @@ class Converter:
 
     def convert_copa(self, dataset_code=1):
         """
-        converting Choice of Plausible Alternatives (COPA) and its variations
+        Converting Choice of Plausible Alternatives (COPA) and its variations
         :param dataset_code: an integer to specify the variation of COPA. Supported values:
         dataset_code: 1 -> original COPA dataset by Melissa Roemmele, et al. - 2011
         dataset_code: 2 -> BCOPA-CE dataset by Mingyue Han, et al. 2021
@@ -1441,6 +1443,10 @@ class Converter:
         return data, mismatch
 
     def convert_biocause(self):
+        """
+        Converting causal relations from BioCause corpus
+        :return:
+        """
         folders_path = self.dir_path + "biocause/"
 
         global mismatch
@@ -1559,7 +1565,7 @@ class Converter:
 
     def convert_tcr(self):
         """
-        converting the Temporal and Causal Reasoning (TCR) dataset.
+        Converting the Temporal and Causal Reasoning (TCR) dataset.
         we only convert the C-Links (causal relations) from this dataset
         :return:
         """
@@ -1625,7 +1631,7 @@ class Converter:
 
     def convert_ade(self):
         """
-        converting ADE Corpus Charactersitics data to CREST
+        Converting Benchmark Corpus for Adverse Drug Effects (ADE) to CREST
         :return:
         """
         mismatch = 0
@@ -1669,6 +1675,57 @@ class Converter:
                            "ann_file": "",
                            "split": 0}
 
+                if self.check_span_indexes(new_row):
+                    data = data.append(new_row, ignore_index=True)
+                else:
+                    mismatch += 1
+        return data, mismatch
+
+    def convert_semeval_2020_5(self):
+        """
+        Converting the Subtask-2 data from SemEval 2020 Task 5:  Detecting Antecedent and Consequent (DAC)
+        :return:
+        """
+        mismatch = 0
+        data = pd.DataFrame(columns=self.scheme_columns)
+
+        train_path = self.dir_path + "semeval_2020_5/Subtask-2/subtask2_train.csv"
+        test_path = self.dir_path + "semeval_2020_5/Subtask-2/subtask2_test.csv"
+
+        train = pd.read_csv(train_path)
+        test = pd.read_csv(test_path)
+        splits = {0: train, 2: test}
+
+        for split_code, split_data in splits.items():
+            for idx, row in split_data.iterrows():
+                direction = 0
+                e1 = row['antecedent']
+                e2 = row['consequent']
+                context = row['sentence']
+                e1_start = int(row['antecedent_startid'])
+                e1_end = int(row['antecedent_endid']) + 1
+                e2_start = int(row['consequent_startid'])
+                e2_end = int(row['consequent_endid']) + 1
+
+                if e1_start > e2_start:
+                    e1_start, e2_start = e2_start, e1_start
+                    e1_end, e2_end = e2_end, e1_end
+                    e1, e2 = e2, e1
+                    direction = 1
+
+                idx_val = {"span1": [[e1_start, e1_end]], "span2": [[e2_start, e2_end]], "signal": []}
+                e1 = '' if e1 == '{}' else e1
+                e2 = '' if e2 == '{}' else e2
+
+                # saving the sample
+                new_row = {"original_id": '', "span1": [e1], "span2": [e2], "signal": [],
+                           "context": context,
+                           "idx": idx_val, "label": 1, "direction": direction,
+                           "source": self.namexid["semeval_2020_5"],
+                           "ann_file": "",
+                           "split": split_code}
+
+                # since some records may have a missing consequent, we check the indices not to be -1
                 if self.check_span_indexes(new_row):
                     data = data.append(new_row, ignore_index=True)
                 else:
