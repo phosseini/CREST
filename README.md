@@ -35,8 +35,8 @@ List of data resources already converted to CREST format:
 
 | Id | Data resource  | Samples | Causal | Non-causal | Document |
 | -- | -------------- | :----------: | :---------: | :-----------: | :-----------: |
-| 1 | [SemEval 2007 task 4](https://www.aclweb.org/anthology/S07-1003/) | 1,529 | 114 | 1,415 | - |
-| 2 | [SemEval 2010 task 8](https://www.aclweb.org/anthology/S10-1006/) | 10,717 | 1,331 | 9,386 | - | 
+| 1 | [SemEval 2007 Task 4](https://www.aclweb.org/anthology/S07-1003/) | 1,529 | 114 | 1,415 | - |
+| 2 | [SemEval 2010 Task 8](https://www.aclweb.org/anthology/S10-1006/) | 10,717 | 1,331 | 9,386 | - | 
 | 3 | [EventCausality](https://cogcomp.seas.upenn.edu/page/resource_view/27) | 583 | 583 | - | [Paper](https://aclanthology.org/D11-1027/) |
 | 4 | [Causal-TimeBank](https://hlt-nlp.fbk.eu/technologies/causal-timebank) | 318 | 318 | - | [Paper](https://aclanthology.org/W14-0702/) |
 | 5 | [EventStoryLine v1.5](https://github.com/tommasoc80/EventStoryLine) | 2,608 | 2,608 | - | [Paper](https://aclanthology.org/W17-2711/) |
@@ -47,8 +47,11 @@ List of data resources already converted to CREST format:
 | 10 | [BioCause Corpus](http://www.nactem.ac.uk/biocause/) | 844 | 844 | - | [Paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-2) |
 | 11 | [Temporal and Causal Reasoning (TCR)](https://cogcomp.seas.upenn.edu/page/resource_view/118) | 172 | 172 | - | [Paper](https://aclanthology.org/P18-1212/) |
 | 12 | [Benchmark Corpus for Adverse Drug Effects](https://sites.google.com/site/adecorpus/) | 5,671 | 5,671 | - | [Paper](https://www.sciencedirect.com/science/article/pii/S1532046412000615) |
+| 13 | [SemEval 2020 Task 5](https://github.com/arielsho/SemEval-2020-Task-5) <sup>:atom:</sup>| 5,501 | 5,501 | - | [Paper](https://aclanthology.org/2020.semeval-1.40/) |  
 
-<sup>:warning:</sup> &nbsp; The data is either not publicly available or partially available. You can still use CREST for conversion if you have full access to this dataset.
+:warning:&nbsp;The data is either not publicly available or partially available. You can still use CREST for conversion if you have full access to this dataset.
+
+:atom:&nbsp;Counterfactual Relations
 
 ### `CREST` conversion
 We provide helper methods to convert CREST-formatted data to popular formats and annotation schemes, mainly formats that are used across relation extraction/classification tasks. In the following, there is a list of formats for which we have already developed CREST converter methods:
