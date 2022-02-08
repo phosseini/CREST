@@ -51,7 +51,7 @@ List of data resources already converted to CREST format:
 
 :warning:&nbsp;The data is either not publicly available or partially available. You can still use CREST for conversion if you have full access to this dataset.
 
-:atom:&nbsp;Counterfactual Relations
+:atom:&nbsp;&nbsp;Counterfactual Relations
 
 ### `CREST` conversion
 We provide helper methods to convert CREST-formatted data to popular formats and annotation schemes, mainly formats that are used across relation extraction/classification tasks. In the following, there is a list of formats for which we have already developed CREST converter methods:
