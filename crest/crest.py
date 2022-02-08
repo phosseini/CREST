@@ -15,10 +15,15 @@ from utils import idx_to_string
 
 class Converter:
     """
-    idx = {'span1': [], 'span2': [], 'signal': []} -> indexes of span1, span2, and signal tokens/spans in context
-    each value in the idx dictionary is a list of lists of indexes. For example, if span1 has multiple tokens in context
-    with start:end indexes 2:5 and 10:13, respectively, span1's value in 'idx' will be [[2, 5],[10, 13]]. Lists are
-    sorted based on the start indexes of tokens. Same applies for span2 and signal.
+    idx: indexes of span1, span2, and signal tokens/spans in context. Format (3 lines, each line is space separated):
+
+        span1 start_1:end_1 ... start_n:end_n
+        span2 start_1:end_1 ... start_n:end_n
+        signal start_1:end_1 ... start_n:end_n
+
+    start_1:end_1 ... start_n:end_n are start and end indices of span tokens in context. For example, if span1 has
+    multiple tokens with start:end indexes 2:5 and 10:13, respectively, span1's line value in 'idx' is span1 2:5 10:13
+    Indices are sorted based on the start indexes of tokens. Same applies for span2 and signal.
     -------------------------------------------------------------------------------
     label => 0: non-causal, 1: causal
     direction => 0: span1 => span2, 1: span2 => span1, -1: not-specified

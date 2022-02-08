@@ -263,7 +263,7 @@ def idx_to_string(idx_val):
     for key, values in idx_val.items():
         string += key + " "
         for val in values:
-            string += str(val[0]) + " " + str(val[1]) + " "
+            string += str(val[0]) + ":" + str(val[1]) + " "
         string = string.strip() + "\n"
     return string.strip()
 
@@ -272,17 +272,16 @@ def string_to_idx(string):
     """
     converting string of span indices to a dictionary in form of {"span1": [], "span2": [], "signal": []}
     :param string: string of span indices in form of:
-    span1 start_1 end_1 ... start_n end_n
-    span2 start_1 end_1 ... start_n end_n
-    signal start_1 end_1 ... start_n end_n
+        span1 start_1:end_1 ... start_n:end_n
+        span2 start_1:end_1 ... start_n:end_n
+        signal start_1:end_1 ... start_n:end_n
     :return:
     """
     idx_val = {"span1": [], "span2": [], "signal": []}
     string = string.strip().split('\n')
     for index, (key, value) in enumerate(idx_val.items()):
-        i = 1
         spans = string[index].split(' ')
-        while i < len(spans) - 1:
-            idx_val[key].append([int(spans[i]), int(spans[i + 1])])
-            i += 2
+        for span in spans[1:]:
+            span = span.split(':')
+            idx_val[key].append([int(span[0]), int(span[1])])
     return idx_val
