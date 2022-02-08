@@ -10,6 +10,8 @@ import pandas as pd
 from xml.dom import minidom
 import xml.etree.ElementTree as ET
 
+from utils import idx_to_string
+
 
 class Converter:
     """
@@ -169,6 +171,7 @@ class Converter:
                         # span1_end < span2_start is to make sure e1 always appears first
                         # in context and direction is correct
                         if self.check_span_indexes(new_row) and span1_end < span2_start:
+                            new_row["idx"] = idx_to_string(new_row["idx"])
                             samples = samples.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
@@ -265,6 +268,7 @@ class Converter:
                                    "source": self.namexid["semeval_2010_8"], "ann_file": "", "split": split}
 
                         if self.check_span_indexes(new_row) and span1_end < span2_start:
+                            new_row["idx"] = idx_to_string(new_row["idx"])
                             samples = samples.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
@@ -416,6 +420,7 @@ class Converter:
                                    "split": split}
 
                         if self.check_span_indexes(new_row):
+                            new_row["idx"] = idx_to_string(new_row["idx"])
                             data = data.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
@@ -478,6 +483,7 @@ class Converter:
                                    "split": split}
 
                         if self.check_span_indexes(new_row):
+                            new_row["idx"] = idx_to_string(new_row["idx"])
                             data = data.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
@@ -603,11 +609,13 @@ class Converter:
 
                 new_row = {"original_id": original_id, "span1": [span1.strip()], "span2": [span2.strip()],
                            "signal": [signal.strip()],
-                           "context": context.strip('\n'), "idx": idx_val, "label": 1, "direction": direction,
+                           "context": context.strip('\n'), "idx": idx_val, "label": 1,
+                           "direction": direction,
                            "source": self.namexid["causal_timebank"],
                            "ann_file": file, "split": ""}
 
                 if self.check_span_indexes(new_row):
+                    new_row["idx"] = idx_to_string(new_row["idx"])
                     data = data.append(new_row, ignore_index=True)
                 else:
                     mismatch += 1
@@ -738,12 +746,14 @@ class Converter:
                                     new_row = {"original_id": original_id, "span1": [span1.strip()],
                                                "span2": [span2.strip()],
                                                "signal": [],
-                                               "context": context.strip('\n'), "idx": idx_val, "label": label,
+                                               "context": context.strip('\n'), "idx": idx_val,
+                                               "label": label,
                                                "direction": direction,
                                                "source": self.namexid["eventstorylines"],
                                                "ann_file": doc, "split": ""}
 
                                     if self.check_span_indexes(new_row):
+                                        new_row["idx"] = idx_to_string(new_row["idx"])
                                         data = data.append(new_row, ignore_index=True)
                                     else:
                                         mismatch += 1
@@ -890,6 +900,7 @@ class Converter:
                     "ann_file": doc, "split": int(row['split'])}
 
                 if self.check_span_indexes(new_row) and label in [0, 1]:
+                    new_row["idx"] = idx_to_string(new_row["idx"])
                     data = data.append(new_row, ignore_index=True)
                 else:
                     mismatch += 1
@@ -1023,12 +1034,14 @@ class Converter:
                                         new_row = {"original_id": original_id, "span1": span1[0], "span2": span2[0],
                                                    "signal": [],
                                                    "context": context.strip('\n'),
-                                                   "idx": idx_val, "label": label, "direction": direction,
+                                                   "idx": idx_val, "label": label,
+                                                   "direction": direction,
                                                    "source": self.namexid["caters"],
                                                    "ann_file": doc,
                                                    "split": split}
 
                                         if self.check_span_indexes(new_row):
+                                            new_row["idx"] = idx_to_string(new_row["idx"])
                                             samples = samples.append(new_row, ignore_index=True)
                                         else:
                                             mismatch += 1
@@ -1207,6 +1220,7 @@ class Converter:
                                        "split": ""}
 
                                 if self.check_span_indexes(row):
+                                    row["idx"] = idx_to_string(row["idx"])
                                     data = data.append(row, ignore_index=True)
                                 else:
                                     mismatch += 1
@@ -1291,6 +1305,7 @@ class Converter:
                                    "split": split_code[split_name]}
 
                         if self.check_span_indexes(new_row):
+                            new_row["idx"] = idx_to_string(new_row["idx"])
                             data = data.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
@@ -1427,6 +1442,7 @@ class Converter:
                                    "split": 0}
 
                         if self.check_span_indexes(new_row):
+                            new_row["idx"] = idx_to_string(new_row["idx"])
                             data = data.append(new_row, ignore_index=True)
                         else:
                             mismatch += 1
@@ -1543,6 +1559,7 @@ class Converter:
                                                    "split": split}
 
                                         if self.check_span_indexes(new_row):
+                                            new_row["idx"] = idx_to_string(new_row["idx"])
                                             samples = samples.append(new_row, ignore_index=True)
                                         else:
                                             mismatch += 1
@@ -1624,6 +1641,7 @@ class Converter:
                        "split": split}
 
             if self.check_span_indexes(new_row):
+                new_row["idx"] = idx_to_string(new_row["idx"])
                 data = data.append(new_row, ignore_index=True)
             else:
                 mismatch += 1
@@ -1676,6 +1694,7 @@ class Converter:
                            "split": 0}
 
                 if self.check_span_indexes(new_row):
+                    new_row["idx"] = idx_to_string(new_row["idx"])
                     data = data.append(new_row, ignore_index=True)
                 else:
                     mismatch += 1
@@ -1727,6 +1746,7 @@ class Converter:
 
                 # since some records may have a missing consequent, we check the indices not to be -1
                 if self.check_span_indexes(new_row):
+                    new_row["idx"] = idx_to_string(new_row["idx"])
                     data = data.append(new_row, ignore_index=True)
                 else:
                     mismatch += 1
@@ -1956,10 +1976,11 @@ def brat2crest(input_dir, crest_file_path):
                     # checking if new indexes are correct and align
                     if Converter().check_span_indexes(row):
                         # saving new information to CREST data frame
+                        row["idx"] = idx_to_string(row["idx"])
                         row_index = df.loc[df['global_id'] == global_id].index
                         df.at[row_index, 'span1'] = [span1]
                         df.at[row_index, 'span2'] = [span2]
-                        df.at[row_index, 'idx'] = str(idx_val)
+                        df.at[row_index, 'idx'] = idx_to_string(str(idx_val))
 
             except Exception as e:
                 print("[crest-log] Error in converting brat to crest. Detail: {}".format(e))
