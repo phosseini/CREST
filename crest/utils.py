@@ -251,3 +251,38 @@ def resolve_context_overlap(df1, df2, mode=2):
             if not any(curr_context in x for x in df2_context):
                 new_df1 = new_df1.append(row)
     return new_df1
+
+
+def idx_to_string(idx_val):
+    """
+    converting the dictionary of span indices to string
+    :param idx_val: dictionary in form of: {"span1": [], "span2": [], "signal": []}
+    :return:
+    """
+    string = ""
+    for key, values in idx_val.items():
+        string += key + " "
+        for val in values:
+            string += str(val[0]) + " " + str(val[1]) + " "
+        string = string.strip() + "\n"
+    return string.strip()
+
+
+def string_to_idx(string):
+    """
+    converting string of span indices to a dictionary in form of {"span1": [], "span2": [], "signal": []}
+    :param string: string of span indices in form of:
+    span1 start_1 end_1 ... start_n end_n
+    span2 start_1 end_1 ... start_n end_n
+    signal start_1 end_1 ... start_n end_n
+    :return:
+    """
+    idx_val = {"span1": [], "span2": [], "signal": []}
+    string = string.strip().split('\n')
+    for index, (key, value) in enumerate(idx_val.items()):
+        i = 1
+        spans = string[index].split(' ')
+        while i < len(spans) - 1:
+            idx_val[key].append([int(spans[i]), int(spans[i + 1])])
+            i += 2
+    return idx_val
