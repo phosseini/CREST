@@ -33,21 +33,21 @@ Each relation in a CREST-formatted DataFrame has the following fields/values:
 ### Available Data Resources
 List of data resources already converted to CREST format:
 
-| Id | Data resource  | Samples | Causal | Non-causal | Document |
-| -- | -------------- | :----------: | :---------: | :-----------: | :-----------: |
-| 1 | [SemEval 2007 Task 4](https://www.aclweb.org/anthology/S07-1003/) | 1,529 | 114 | 1,415 | - |
-| 2 | [SemEval 2010 Task 8](https://www.aclweb.org/anthology/S10-1006/) | 10,717 | 1,331 | 9,386 | - | 
-| 3 | [EventCausality](https://cogcomp.seas.upenn.edu/page/resource_view/27) | 583 | 583 | - | [Paper](https://aclanthology.org/D11-1027/) |
-| 4 | [Causal-TimeBank](https://hlt-nlp.fbk.eu/technologies/causal-timebank) | 318 | 318 | - | [Paper](https://aclanthology.org/W14-0702/) |
-| 5 | [EventStoryLine v1.5](https://github.com/tommasoc80/EventStoryLine) | 2,608 | 2,608 | - | [Paper](https://aclanthology.org/W17-2711/) |
-| 6 | [CaTeRS](https://www.cs.rochester.edu/nlp/rocstories/CaTeRS/) | 2,502 | 308 | 2,194 | [Paper](https://www.usna.edu/Users/cs/nchamber/pubs/naacl2016-caters.pdf) |
-| 7 | [BECauSE v2.1](https://github.com/duncanka/BECAUSE) <sup>:warning:</sup> | 729 | 554 | 175 | [Paper](https://aclanthology.org/W17-0812/) |
-| 8 | [Choice of Plausible Alternatives (COPA)](https://www.cs.york.ac.uk/semeval-2012/task7/index.php%3Fid=data.html) | 2,000 | 1,000 | 1,000 | [Paper](https://people.ict.usc.edu/~gordon/publications/AAAI-SPRING11A.PDF) |
-| 9 | [The Penn Discourse Treebank (PDTB) 3.0](https://catalog.ldc.upenn.edu/LDC2019T05) <sup>:warning:</sup> | 7,991 | 7,991 | - | [Manual](https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf) |
-| 10 | [BioCause Corpus](http://www.nactem.ac.uk/biocause/) | 844 | 844 | - | [Paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-2) |
-| 11 | [Temporal and Causal Reasoning (TCR)](https://cogcomp.seas.upenn.edu/page/resource_view/118) | 172 | 172 | - | [Paper](https://aclanthology.org/P18-1212/) |
-| 12 | [Benchmark Corpus for Adverse Drug Effects](https://sites.google.com/site/adecorpus/) | 5,671 | 5,671 | - | [Paper](https://www.sciencedirect.com/science/article/pii/S1532046412000615) |
-| 13 | [SemEval 2020 Task 5](https://github.com/arielsho/SemEval-2020-Task-5) <sup>:atom:</sup>| 5,501 | 5,501 | - | [Paper](https://aclanthology.org/2020.semeval-1.40/) |  
+| Id | Data resource  | Samples | Causal | Non-causal | Document | Year |
+| -- | -------------- | :----------: | :---------: | :-----------: | :-----------: | :--: |
+| 1 | [SemEval 2007 Task 4](https://www.aclweb.org/anthology/S07-1003/) | 1,529 | 114 | 1,415 | [Paper](https://aclanthology.org/S07-1003/) | 2007 |
+| 2 | [SemEval 2010 Task 8](https://www.aclweb.org/anthology/S10-1006/) | 10,717 | 1,331 | 9,386 | [Paper](https://aclanthology.org/S10-1006/) | 2010 |
+| 3 | [EventCausality](https://cogcomp.seas.upenn.edu/page/resource_view/27) | 583 | 583 | - | [Paper](https://aclanthology.org/D11-1027/) | 2011 |
+| 4 | [Causal-TimeBank](https://github.com/paramitamirza/Causal-TimeBank) | 318 | 318 | - | [Paper](https://aclanthology.org/W14-0702/) | 2014 |
+| 5 | [EventStoryLine v1.5](https://github.com/tommasoc80/EventStoryLine) | 2,608 | 2,608 | - | [Paper](https://aclanthology.org/W17-2711/) | 2016-2018|
+| 6 | [CaTeRS](https://www.cs.rochester.edu/nlp/rocstories/CaTeRS/) | 2,502 | 308 | 2,194 | [Paper](https://www.usna.edu/Users/cs/nchamber/pubs/naacl2016-caters.pdf) | 2016 |
+| 7 | [BECauSE v2.1](https://github.com/duncanka/BECAUSE) <sup>:warning:</sup> | 729 | 554 | 175 | [Paper](https://aclanthology.org/W17-0812/) | 2017 |
+| 8 | [Choice of Plausible Alternatives (COPA)](https://people.ict.usc.edu/~gordon/copa.html) | 2,000 | 1,000 | 1,000 | [Paper](https://people.ict.usc.edu/~gordon/publications/AAAI-SPRING11A.PDF) | 2011 |
+| 9 | [The Penn Discourse Treebank (PDTB) 3.0](https://catalog.ldc.upenn.edu/LDC2019T05) <sup>:warning:</sup> | 7,991 | 7,991 | - | [Manual](https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf) | 2019 |
+| 10 | [BioCause Corpus](http://www.nactem.ac.uk/biocause/) | 844 | 844 | - | [Paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-2) | 2013 |
+| 11 | [Temporal and Causal Reasoning (TCR)](https://cogcomp.seas.upenn.edu/page/resource_view/118) | 172 | 172 | - | [Paper](https://aclanthology.org/P18-1212/) | 2018 |
+| 12 | [Benchmark Corpus for Adverse Drug Effects](https://sites.google.com/site/adecorpus/) | 5,671 | 5,671 | - | [Paper](https://www.sciencedirect.com/science/article/pii/S1532046412000615) | 2012 |
+| 13 | [SemEval 2020 Task 5](https://github.com/arielsho/SemEval-2020-Task-5) <sup>:atom:</sup>| 5,501 | 5,501 | - | [Paper](https://aclanthology.org/2020.semeval-1.40/) | 2020 |
 
 :warning:&nbsp;The data is either not publicly available or partially available. You can still use CREST for conversion if you have full access to this dataset.
 
