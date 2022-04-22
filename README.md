@@ -39,7 +39,7 @@ List of data resources already converted to CREST format:
 | 2 | [SemEval 2010 Task 8](https://www.aclweb.org/anthology/S10-1006/) | 10,717 | 1,331 | 9,386 | [Paper](https://aclanthology.org/S10-1006/) | 2010 |
 | 3 | [EventCausality](https://cogcomp.seas.upenn.edu/page/resource_view/27) | 583 | 583 | - | [Paper](https://aclanthology.org/D11-1027/) | 2011 |
 | 4 | [Causal-TimeBank](https://github.com/paramitamirza/Causal-TimeBank) | 318 | 318 | - | [Paper](https://aclanthology.org/W14-0702/) | 2014 |
-| 5 | [EventStoryLine v1.5](https://github.com/tommasoc80/EventStoryLine) | 2,608 | 2,608 | - | [Paper](https://aclanthology.org/W17-2711/) | 2016-2018|
+| 5 | [EventStoryLine v1.5](https://github.com/tommasoc80/EventStoryLine) | 2,608 | 2,608 | - | [Paper](https://aclanthology.org/W17-2711/) | 2016 |
 | 6 | [CaTeRS](https://www.cs.rochester.edu/nlp/rocstories/CaTeRS/) | 2,502 | 308 | 2,194 | [Paper](https://www.usna.edu/Users/cs/nchamber/pubs/naacl2016-caters.pdf) | 2016 |
 | 7 | [BECauSE v2.1](https://github.com/duncanka/BECAUSE) <sup>:warning:</sup> | 729 | 554 | 175 | [Paper](https://aclanthology.org/W17-0812/) | 2017 |
 | 8 | [Choice of Plausible Alternatives (COPA)](https://people.ict.usc.edu/~gordon/copa.html) | 2,000 | 1,000 | 1,000 | [Paper](https://people.ict.usc.edu/~gordon/publications/AAAI-SPRING11A.PDF) | 2011 |
