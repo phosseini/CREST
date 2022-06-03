@@ -15,6 +15,9 @@ CREST is a machine-readable format/schema that is created to help researchers wh
      * Converting datasets `1` and `2`: `python convert.py 1 2 output.xlsx`
      * Converting dataset `5`: `python convert.py 5 output.xlsx`
 
+> The excel file of all converted datasets: [`crest_v2.xlsx`](https://github.com/phosseini/CREST/blob/master/data/crest_v2.xlsx)
+> * PDTB is not available in this file due to copyright. However, you can still use CREST to convert this dataset if you have access to PDTB.
+
 ### `CREST` format
 Each relation in a CREST-formatted DataFrame has the following fields/values:
 * **`original_id`**: the id of a relation in the original dataset, if such an id exists.
