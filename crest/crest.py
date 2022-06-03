@@ -15,7 +15,7 @@ from utils import idx_to_string
 
 class Converter:
     """
-    idx: indexes of span1, span2, and signal tokens/spans in context. Format (3 lines, each line is space separated):
+    idx: indices of span1, span2, and signal tokens/spans in context. Format (3 lines, each line is space separated):
 
         span1 start_1:end_1 ... start_n:end_n
         span2 start_1:end_1 ... start_n:end_n
@@ -649,8 +649,8 @@ class Converter:
                 for doc in os.listdir(docs_path + "/" + folder):
                     if ".xml" in doc:
                         # initialization
-                        markables = {}
-                        tokens = []
+                        markables = dict()
+                        tokens = list()
 
                         # parse the doc to retrieve info of sentences
                         tree = ET.parse(docs_path + "/" + folder + "/" + doc)
@@ -662,7 +662,7 @@ class Converter:
 
                         # saving markables info
                         for markable in root.findall("Markables/"):
-                            anchor_ids = []
+                            anchor_ids = list()
                             for anchor in markable:
                                 anchor_ids.append(int(anchor.attrib['t_id']))
                             markables[int(markable.attrib['m_id'])] = anchor_ids
@@ -1293,15 +1293,15 @@ class Converter:
                     for pair in pairs:
                         context = pair[0].strip() + " " + pair[1].strip()
                         span1_start = 0
-                        span1_end = len(pair[0]) - 1
-                        span2_start = span1_end + 2
-                        span2_end = span2_start + len(pair[1]) - 1
+                        span1_end = len(pair[0].strip())
+                        span2_start = span1_end + 1
+                        span2_end = span2_start + len(pair[1].strip())
 
                         idx_val = {"span1": [[span1_start, span1_end]], "span2": [[span2_start, span2_end]],
                                    "signal": []}
 
-                        new_row = {"original_id": int(original_id), "span1": [pair[0].strip('.')],
-                                   "span2": [pair[1].strip('.')],
+                        new_row = {"original_id": int(original_id), "span1": [pair[0].strip()],
+                                   "span2": [pair[1].strip()],
                                    "signal": [],
                                    "context": context.strip('\n'),
                                    "idx": idx_val, "label": pair[2], "direction": direction,
