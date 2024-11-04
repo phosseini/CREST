@@ -96,7 +96,7 @@ class Converter:
         for key, value in self.idxmethod.items():
             if key in dataset_ids:
                 df, mis = value()
-                data = data.append(df).reset_index(drop=True)
+                data = pd.concat([data, df], ignore_index=True)
                 total_mis += mis
 
         # updating global id to the data frame
@@ -177,7 +177,7 @@ class Converter:
                         # in context and direction is correct
                         if self.check_span_indexes(new_row) and span1_end < span2_start:
                             new_row["idx"] = idx_to_string(new_row["idx"])
-                            samples = samples.append(new_row, ignore_index=True)
+                            samples = pd.concat([samples, pd.DataFrame([new_row])], ignore_index=True)
                         else:
                             mismatch += 1
 
@@ -203,8 +203,8 @@ class Converter:
                       encoding='cp1252') as key:
                 test_content = key.readlines()
 
-            data = data.append(extract_samples(train_content, 0))
-            data = data.append(extract_samples(test_content, 2))
+            data = pd.concat([data, extract_samples(train_content, 0)], ignore_index=True)
+            data = pd.concat([data, extract_samples(test_content, 2)], ignore_index=True)
 
         logging.info("[crest] semeval_2007_4 is converted.")
 
@@ -274,12 +274,12 @@ class Converter:
 
                         if self.check_span_indexes(new_row) and span1_end < span2_start:
                             new_row["idx"] = idx_to_string(new_row["idx"])
-                            samples = samples.append(new_row, ignore_index=True)
+                            samples = pd.concat([samples, pd.DataFrame([new_row])], ignore_index=True)
                         else:
                             mismatch += 1
 
                     except Exception as e:
-                        print("[crest-log] Incorrect formatting for semeval10-task8 record. Detail: " + str(e))
+                        print("[crest-log] semeval10-task8 record. Detail: " + str(e))
             return samples
 
         # reading files
@@ -293,8 +293,8 @@ class Converter:
 
         data = pd.DataFrame(columns=self.scheme_columns)
 
-        data = data.append(extract_samples(train_content, 0))
-        data = data.append(extract_samples(test_content, 2))
+        data = pd.concat([data, extract_samples(train_content, 0)], ignore_index=True)
+        data = pd.concat([data, extract_samples(test_content, 2)], ignore_index=True)
 
         logging.info("[crest] semeval_2010_8 is converted.")
 
@@ -426,7 +426,7 @@ class Converter:
 
                         if self.check_span_indexes(new_row):
                             new_row["idx"] = idx_to_string(new_row["idx"])
-                            data = data.append(new_row, ignore_index=True)
+                            data = pd.concat([data, pd.DataFrame([new_row])], ignore_index=True)
                         else:
                             mismatch += 1
                     else:
@@ -489,7 +489,7 @@ class Converter:
 
                         if self.check_span_indexes(new_row):
                             new_row["idx"] = idx_to_string(new_row["idx"])
-                            data = data.append(new_row, ignore_index=True)
+                            data = pd.concat([data, pd.DataFrame([new_row])], ignore_index=True)
                         else:
                             mismatch += 1
 
@@ -621,7 +621,7 @@ class Converter:
 
                 if self.check_span_indexes(new_row):
                     new_row["idx"] = idx_to_string(new_row["idx"])
-                    data = data.append(new_row, ignore_index=True)
+                    data = pd.concat([data, pd.DataFrame([new_row])], ignore_index=True)
                 else:
                     mismatch += 1
 
@@ -759,7 +759,7 @@ class Converter:
 
                                     if self.check_span_indexes(new_row):
                                         new_row["idx"] = idx_to_string(new_row["idx"])
-                                        data = data.append(new_row, ignore_index=True)
+                                        data = pd.concat([data, pd.DataFrame([new_row])], ignore_index=True)
                                     else:
                                         mismatch += 1
 
@@ -801,10 +801,12 @@ class Converter:
                                 lines = file.readlines()
                             for line in lines:
                                 line = line.split('\t')
-                                annotations = annotations.append(
-                                    {'file': '{}.{}'.format(doc.split('.')[0], 'xml'), 'source': line[0],
-                                     'target': line[1],
-                                     'label': line[2].replace('\n', ''), 'split': value}, ignore_index=True)
+                                annotations = pd.concat(
+                                    [annotations,
+                                     pd.DataFrame([{'file': '{}.{}'.format(doc.split('.')[0], 'xml'), 'source': line[0],
+                                                    'target': line[1],
+                                                    'label': line[2].replace('\n', ''), 'split': value}])],
+                                    ignore_index=True)
 
         # ----------------------------------
         mismatch = 0
@@ -906,7 +908,7 @@ class Converter:
 
                 if self.check_span_indexes(new_row) and label in [0, 1]:
                     new_row["idx"] = idx_to_string(new_row["idx"])
-                    data = data.append(new_row, ignore_index=True)
+                    data = pd.concat([data, pd.DataFrame([new_row])], ignore_index=True)
                 else:
                     mismatch += 1
 
@@ -939,10 +941,8 @@ class Converter:
             for k, v in spans_tokens.items():
                 for item in v:
                     arg = item.split(' ')
-                    df = df.append(pd.DataFrame(
-                        [[int(arg[0]), int(arg[1]), k]],
-                        columns=df_columns
-                    ), ignore_index=True)
+                    df = pd.concat([df, pd.DataFrame([[int(arg[0]), int(arg[1]), k]], columns=df_columns)],
+                                   ignore_index=True)
 
             df = df.sort_values(by=['start'])
 
@@ -1047,7 +1047,7 @@ class Converter:
 
                                         if self.check_span_indexes(new_row):
                                             new_row["idx"] = idx_to_string(new_row["idx"])
-                                            samples = samples.append(new_row, ignore_index=True)
+                                            samples = pd.concat([samples, pd.DataFrame([new_row])], ignore_index=True)
                                         else:
                                             mismatch += 1
 
@@ -1056,9 +1056,9 @@ class Converter:
             return samples
 
         data = pd.DataFrame(columns=self.scheme_columns)
-        data = data.append(extract_samples(["caters_test/test"], 2))
-        data = data.append(extract_samples(["caters_evaluation/dev"], 1))
-        data = data.append(extract_samples(["caters_evaluation/train"], 0))
+        data = pd.concat([data, extract_samples(["caters_test/test"], 2)], ignore_index=True)
+        data = pd.concat([data, extract_samples(["caters_evaluation/dev"], 1)], ignore_index=True)
+        data = pd.concat([data, extract_samples(["caters_evaluation/train"], 0)], ignore_index=True)
 
         logging.info("[crest] caters is converted.")
 
@@ -1146,24 +1146,21 @@ class Converter:
                                 if arg1_id != "":
                                     arg1 = (' '.join(tags[arg1_id][0].split(' ')[1:]).strip()).split(';')
                                     for arg in arg1:
-                                        df = df.append(pd.DataFrame(
+                                        df = pd.concat([df, pd.DataFrame(
                                             [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "span2"]],
-                                            columns=df_columns
-                                        ), ignore_index=True)
+                                            columns=df_columns)], ignore_index=True)
 
                                 signal = (' '.join(tags[signal_id][0].split(' ')[1:]).strip()).split(';')
 
                                 for arg in arg0:
-                                    df = df.append(pd.DataFrame(
-                                        [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "span1"]],
-                                        columns=df_columns
-                                    ), ignore_index=True)
+                                    df = pd.concat(
+                                        [df, pd.DataFrame([[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "span1"]],
+                                                          columns=df_columns)], ignore_index=True)
 
                                 for arg in signal:
-                                    df = df.append(pd.DataFrame(
-                                        [[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "signal"]],
-                                        columns=df_columns
-                                    ), ignore_index=True)
+                                    df = pd.concat(
+                                        [df, pd.DataFrame([[int(arg.split(' ')[0]), int(arg.split(' ')[1]), "signal"]],
+                                                          columns=df_columns)], ignore_index=True)
 
                                 df = df.sort_values('start')
 
@@ -1226,7 +1223,7 @@ class Converter:
 
                                 if self.check_span_indexes(row):
                                     row["idx"] = idx_to_string(row["idx"])
-                                    data = data.append(row, ignore_index=True)
+                                    data = pd.concat([data, pd.DataFrame([row])], ignore_index=True)
                                 else:
                                     mismatch += 1
 
@@ -1311,7 +1308,7 @@ class Converter:
 
                         if self.check_span_indexes(new_row):
                             new_row["idx"] = idx_to_string(new_row["idx"])
-                            data = data.append(new_row, ignore_index=True)
+                            data = pd.concat([data, pd.DataFrame([new_row])], ignore_index=True)
                         else:
                             mismatch += 1
                             print(new_row)
@@ -1370,10 +1367,11 @@ class Converter:
                         df_columns = ['start', 'end', 'text']
                         df_args = pd.DataFrame(columns=df_columns)
 
-                        df_args = df_args.append(pd.DataFrame([[arg1_s, arg1_e, arg1_text]], columns=df_columns),
-                                                 ignore_index=True)
-                        df_args = df_args.append(pd.DataFrame([[arg2_s, arg2_e, arg2_text]], columns=df_columns),
-                                                 ignore_index=True)
+                        df_args = pd.concat([df_args, pd.DataFrame([[arg1_s, arg1_e, arg1_text]], columns=df_columns)],
+                                            ignore_index=True)
+
+                        df_args = pd.concat([df_args, pd.DataFrame([[arg2_s, arg2_e, arg2_text]], columns=df_columns)],
+                                            ignore_index=True)
 
                         df_args = df_args.sort_values('start')
 
@@ -1448,7 +1446,7 @@ class Converter:
 
                         if self.check_span_indexes(new_row):
                             new_row["idx"] = idx_to_string(new_row["idx"])
-                            data = data.append(new_row, ignore_index=True)
+                            data = pd.concat([data, pd.DataFrame([new_row])], ignore_index=True)
                         else:
                             mismatch += 1
                 except Exception as e:
@@ -1484,10 +1482,10 @@ class Converter:
             spans_text = {"span1": tags[arg1_id][1], "span2": tags[arg2_id][1]}
 
             for k, v in spans_tokens.items():
-                df = df.append(pd.DataFrame(
+                df = pd.concat([df, pd.DataFrame(
                     [[int(v[0]), int(v[1]), k, spans_text[k]]],
                     columns=df_columns
-                ), ignore_index=True)
+                )], ignore_index=True)
 
             span_idx = df.iloc[0]['start']
 
@@ -1565,7 +1563,7 @@ class Converter:
 
                                         if self.check_span_indexes(new_row):
                                             new_row["idx"] = idx_to_string(new_row["idx"])
-                                            samples = samples.append(new_row, ignore_index=True)
+                                            samples = pd.concat([samples, pd.DataFrame([new_row])], ignore_index=True)
                                         else:
                                             mismatch += 1
 
@@ -1574,7 +1572,7 @@ class Converter:
             return samples
 
         data = pd.DataFrame(columns=self.scheme_columns)
-        data = data.append(extract_samples(["BioCause_corpus"], 0))
+        data = pd.concat([data, extract_samples(["BioCause_corpus"], 0)], ignore_index=True)
 
         logging.info("[biocause] caters is converted.")
 
@@ -1647,7 +1645,7 @@ class Converter:
 
             if self.check_span_indexes(new_row):
                 new_row["idx"] = idx_to_string(new_row["idx"])
-                data = data.append(new_row, ignore_index=True)
+                data = pd.concat([data, pd.DataFrame([new_row])], ignore_index=True)
             else:
                 mismatch += 1
         return data, mismatch
@@ -1700,7 +1698,7 @@ class Converter:
 
                 if self.check_span_indexes(new_row):
                     new_row["idx"] = idx_to_string(new_row["idx"])
-                    data = data.append(new_row, ignore_index=True)
+                    data = pd.concat([data, pd.DataFrame([new_row])], ignore_index=True)
                 else:
                     mismatch += 1
         return data, mismatch
@@ -1752,7 +1750,7 @@ class Converter:
                 # since some records may have a missing consequent, we check the indices not to be -1
                 if self.check_span_indexes(new_row):
                     new_row["idx"] = idx_to_string(new_row["idx"])
-                    data = data.append(new_row, ignore_index=True)
+                    data = pd.concat([data, pd.DataFrame([new_row])], ignore_index=True)
                 else:
                     mismatch += 1
         return data, mismatch
